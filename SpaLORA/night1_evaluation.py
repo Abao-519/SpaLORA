@@ -93,7 +93,7 @@ def hungarian_metrics(true_labels: np.ndarray, predicted: np.ndarray) -> Dict[st
 
 def _mean_cluster_moran(predicted: np.ndarray, adjacency: sparse.spmatrix) -> float:
     adjacency = adjacency.tocsr().astype(np.float64)
-    adjacency.setdiag(0)
+    adjacency = adjacency - sparse.diags(adjacency.diagonal())
     adjacency.eliminate_zeros()
     s0 = float(adjacency.sum())
     if s0 == 0:
