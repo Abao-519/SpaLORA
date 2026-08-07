@@ -118,14 +118,15 @@ def calculate_asr_scores(
     q = abundance * spatial_rank * reliability
     return pd.DataFrame(
         {
-            "mean_xlog": mean_xlog,
-            "abundance_score_a": abundance,
-            "moran_i": moran,
+            "mean_log_abundance": mean_xlog,
+            "A_score": abundance,
+            "morans_I": moran,
             "moran_clipped": moran_clipped,
-            "spatial_rank_s": spatial_rank,
+            "S_score": spatial_rank,
             "detection_count": detected,
-            "reliability_r": reliability,
-            "q_asr": q,
+            "detection_rate": detected / counts.shape[0],
+            "R_score": reliability,
+            "Q_score": q,
         }
     )
 
@@ -140,6 +141,21 @@ def select_gene_mask(is_hvg: np.ndarray, q: np.ndarray, variant: str, rescue_non
         selected[rescue] = True
         rescued[rescue] = True
     return selected, rescued
+
+
+def calculate_weights(scores: pd.DataFrame, variant: str, alpha: float) -> np.ndarray:
+    if variant == "corrected_unweighted":
+        evidence = np.zeros(len(scores), dtype=np.float64)
+    elif variant == "abundance_only":
+        evidence = scores["A_score"].to_numpy(dtype=np.float64)
+    elif variant in ("asr_hvg", "asr_rescue"):
+        evidence = scores["Q_score"].to_numpy(dtype=np.float64)
+    else:
+        raise ValueError("Unknown corrected variant: %s" % variant)
+    weights = 1.0 + float(alpha) * evidence
+    if not np.all(np.isfinite(weights)) or np.any(weights < 1.0) or np.any(weights > 1.0 + alpha + 1e-12):
+        raise AssertionError("Corrected RNA weights are outside their declared bounds")
+    return weights
 
 
 def _load_label_free(cfg: dict) -> Tuple[ad.AnnData, ad.AnnData]:
@@ -202,18 +218,13 @@ def prepare_corrected(dataset: str, cfg: dict, config: dict, variant: str) -> Pr
 
     selected, rescued = select_gene_mask(
         is_hvg,
-        scores["q_asr"].to_numpy(),
+        scores["Q_score"].to_numpy(),
         variant,
         config["rescue_non_hvg"],
     )
     selected_idx = np.flatnonzero(selected)
 
-    if variant == "corrected_unweighted":
-        all_weights = np.ones(selected.size, dtype=np.float64)
-    elif variant == "abundance_only":
-        all_weights = 1.0 + config["alpha"] * scores["abundance_score_a"].to_numpy()
-    else:
-        all_weights = 1.0 + config["alpha"] * scores["q_asr"].to_numpy()
+    all_weights = calculate_weights(scores, variant, config["alpha"])
     weight_vector = all_weights[selected_idx].astype(np.float32)
 
     scaled = _dense_scaled(xlog[:, selected_idx])
@@ -243,15 +254,20 @@ def prepare_corrected(dataset: str, cfg: dict, config: dict, variant: str) -> Pr
     gene_table.insert(0, "gene", rna.var_names.astype(str))
     gene_table["is_hvg"] = is_hvg
     gene_table["is_selected"] = selected
-    gene_table["is_rescued"] = rescued
-    gene_table["weight"] = all_weights
+    gene_table["is_asr_rescued"] = rescued
+    gene_table["final_weight"] = all_weights
     gene_table["variant"] = variant
+    selected_gene_names = rna.var_names[selected_idx].astype(str).to_numpy()
+    table_selected_names = gene_table.loc[gene_table["is_selected"], "gene"].to_numpy(dtype=str)
+    if not np.array_equal(selected_gene_names, table_selected_names) or len(selected_gene_names) != len(weight_vector):
+        raise AssertionError("Selected gene names and weight-vector order are not identical")
 
     # Counts remain separate and immutable; only the scaled Xlog selection enters the model.
     data = {
         "features_omics1": scaled,
         "features_omics2": np.asarray(mod2.obsm["feat"], dtype=np.float32),
         "weight_vector_omics1": weight_vector,
+        "selected_gene_names": selected_gene_names,
         "adj_spatial_omics1": normalize_graph_sparse(spatial1),
         "adj_spatial_omics2": normalize_graph_sparse(spatial2),
         "adj_feature_omics1": normalize_graph_sparse(feature1),

@@ -9,6 +9,7 @@ import torch
 from SpaLORA.model_corrected import AttentionCorrected, EncoderOverallCorrected
 from SpaLORA.night1_pipeline import (
     calculate_asr_scores,
+    calculate_weights,
     log_normalize_counts,
     moran_i_sparse,
     normalize_graph_sparse,
@@ -65,11 +66,14 @@ def test_reliability_shrinkage_is_n_over_n_plus_20():
     xlog = log_normalize_counts(counts)
     w = sp.csr_matrix(np.array([[0, 1, 0], [1, 0, 1], [0, 1, 0]], dtype=float))
     table = calculate_asr_scores(counts, xlog, w, tau=20.0)
-    assert np.allclose(table["reliability_r"], [2 / 22, 1 / 21])
+    assert np.allclose(table["R_score"], [2 / 22, 1 / 21])
     assert np.allclose(
-        table["q_asr"],
-        table["abundance_score_a"] * table["spatial_rank_s"] * table["reliability_r"],
+        table["Q_score"],
+        table["A_score"] * table["S_score"] * table["R_score"],
     )
+    for column in ("A_score", "S_score", "R_score", "Q_score", "detection_rate"):
+        assert np.all(np.isfinite(table[column]))
+        assert table[column].between(0, 1).all()
 
 
 def test_weighted_loss_uses_normalized_per_gene_mse():
@@ -79,6 +83,17 @@ def test_weighted_loss_uses_normalized_per_gene_mse():
     assert torch.allclose(weighted_gene_mse(diff, uniform), torch.mean(diff ** 2))
     per_gene = torch.mean(diff ** 2, dim=0)
     assert torch.allclose(weighted_gene_mse(diff, weighted), torch.sum(per_gene * weighted) / 3.0)
+
+
+def test_alpha_zero_produces_uniform_weights_and_alpha_one_is_bounded():
+    scores = calculate_asr_scores(
+        sp.csr_matrix(np.array([[1, 0], [1, 1], [0, 1]], dtype=float)),
+        log_normalize_counts(sp.csr_matrix(np.array([[1, 0], [1, 1], [0, 1]], dtype=float))),
+        sp.csr_matrix(np.array([[0, 1, 0], [1, 0, 1], [0, 1, 0]], dtype=float)),
+    )
+    assert np.allclose(calculate_weights(scores, "asr_hvg", 0.0), 1.0)
+    weights = calculate_weights(scores, "asr_hvg", 1.0)
+    assert np.all((weights >= 1.0) & (weights <= 2.0))
 
 
 def test_rescue_adds_exact_top_non_hvg_genes_with_deterministic_ties():
