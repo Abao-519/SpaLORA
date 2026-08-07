@@ -1,0 +1,304 @@
+{
+  "captured_at_utc": "2026-08-07T18:59:01.247060+00:00",
+  "datasets": {
+    "a1": {
+      "evaluation_alignment": {
+        "a1_rule": "strip leading s1- from h5ad observation IDs",
+        "data_only": 0,
+        "ground_truth_only": 0,
+        "matched": 3484
+      },
+      "ground_truth": {
+        "class_counts": {
+          "capsule": 204,
+          "cortex": 753,
+          "follicle": 60,
+          "hilum": 23,
+          "medulla cords": 1188,
+          "medulla sinuses": 797,
+          "medulla vessels": 57,
+          "pericapsular adipose tissue": 320,
+          "subcapsular sinus": 74,
+          "trabeculae": 8
+        },
+        "id_column": "Barcode",
+        "label_column": "manual-anno",
+        "path": "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv",
+        "rows": 3484,
+        "sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f"
+      },
+      "modality2": {
+        "obs_columns": [
+          "lab",
+          "lab_lynn",
+          "src",
+          "final_annot"
+        ],
+        "obs_names_unique": true,
+        "obsm_keys": [
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_adt.h5ad",
+        "sha256": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+        "shape": [
+          3484,
+          31
+        ],
+        "var_names_unique": true,
+        "x": {
+          "dtype": "float32",
+          "nonzero_values": 105474,
+          "sample_integer_like": true,
+          "sample_max": 1110000.0,
+          "sample_min": 35.0,
+          "storage": "csr"
+        }
+      },
+      "paired_obs_identical": true,
+      "rna": {
+        "obs_columns": [
+          "lab",
+          "lab_lynn",
+          "src",
+          "final_annot"
+        ],
+        "obs_names_unique": true,
+        "obsm_keys": [
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad",
+        "sha256": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+        "shape": [
+          3484,
+          18085
+        ],
+        "var_names_unique": true,
+        "x": {
+          "dtype": "float32",
+          "nonzero_values": 6824486,
+          "sample_integer_like": true,
+          "sample_max": 1031.0,
+          "sample_min": 1.0,
+          "storage": "csr"
+        }
+      },
+      "spatial_coordinates_identical": true
+    },
+    "p22": {
+      "evaluation_alignment": {
+        "a1_rule": null,
+        "data_only": 19,
+        "ground_truth_only": 0,
+        "matched": 9196
+      },
+      "ground_truth": {
+        "class_counts": {
+          "ACB": 1111,
+          "CP": 1693,
+          "L1-L3": 1023,
+          "L4": 304,
+          "L5": 970,
+          "L6a/b": 834,
+          "VL": 147,
+          "ccg/aco": 744,
+          "others": 2370
+        },
+        "id_column": "Barcode",
+        "label_column": "manual-anno",
+        "path": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+        "rows": 9196,
+        "sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32"
+      },
+      "modality2": {
+        "obs_columns": [
+          "nCount_Spatial",
+          "nFeature_Spatial",
+          "nCount_SCT",
+          "nFeature_SCT",
+          "nCount_ATAC",
+          "nFeature_ATAC",
+          "nCount_peaks",
+          "nFeature_peaks",
+          "RNA_clusters",
+          "ATAC_clusters"
+        ],
+        "obs_names_unique": true,
+        "obsm_keys": [
+          "X_lsi",
+          "X_pca",
+          "X_umap",
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+        "sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+        "shape": [
+          9215,
+          121068
+        ],
+        "var_names_unique": true,
+        "x": {
+          "dtype": "float32",
+          "nonzero_values": 35867690,
+          "sample_integer_like": false,
+          "sample_max": 9.194828987121582,
+          "sample_min": 0.11296168714761734,
+          "storage": "csc"
+        }
+      },
+      "paired_obs_identical": true,
+      "rna": {
+        "obs_columns": [
+          "nCount_Spatial",
+          "nFeature_Spatial",
+          "nCount_SCT",
+          "nFeature_SCT",
+          "nCount_ATAC",
+          "nFeature_ATAC",
+          "nCount_peaks",
+          "nFeature_peaks",
+          "RNA_clusters",
+          "ATAC_clusters"
+        ],
+        "obs_names_unique": true,
+        "obsm_keys": [
+          "X_pca",
+          "X_umap",
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+        "sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+        "shape": [
+          9215,
+          22914
+        ],
+        "var_names_unique": true,
+        "x": {
+          "dtype": "float32",
+          "nonzero_values": 9887966,
+          "sample_integer_like": true,
+          "sample_max": 85.0,
+          "sample_min": 1.0,
+          "storage": "csc"
+        }
+      },
+      "spatial_coordinates_identical": true
+    },
+    "placenta": {
+      "ground_truth": {
+        "class_counts": {
+          "EVT": 59,
+          "EVT-progenitor": 19,
+          "Endothelial": 53,
+          "Erythroblasts": 24,
+          "FIB1": 104,
+          "FIB2": 347,
+          "Hofbauer cells": 225,
+          "STB": 353,
+          "STB-progenitor": 40,
+          "vCTB": 438
+        },
+        "classes": 10,
+        "source": "rna.obs[cell_type]"
+      },
+      "modality2": {
+        "obs_columns": [
+          "X",
+          "Y",
+          "cell_type"
+        ],
+        "obs_names_unique": true,
+        "obsm_keys": [
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/Human placenta architecture/humanplacenta_atac.h5ad",
+        "sha256": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+        "shape": [
+          1662,
+          63
+        ],
+        "var_names_unique": true,
+        "x": {
+          "dtype": "float64",
+          "nonzero_values": 52053,
+          "sample_integer_like": false,
+          "sample_max": 75.26,
+          "sample_min": 0.011,
+          "storage": "csr"
+        }
+      },
+      "paired_obs_identical": true,
+      "rna": {
+        "obs_columns": [
+          "X",
+          "Y",
+          "cell_type"
+        ],
+        "obs_names_unique": true,
+        "obsm_keys": [
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad",
+        "sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+        "shape": [
+          1662,
+          36601
+        ],
+        "var_names_unique": true,
+        "x": {
+          "dtype": "int64",
+          "nonzero_values": 4574147,
+          "sample_integer_like": true,
+          "sample_max": 3278.0,
+          "sample_min": 1.0,
+          "storage": "csr"
+        }
+      },
+      "spatial_coordinates_identical": true
+    }
+  },
+  "environments": {
+    "corrected": {
+      "anndata": "0.8.0",
+      "numpy": "1.22.3",
+      "pandas": "1.4.2",
+      "path": "/root/miniconda3/envs/SpaLORA",
+      "python": "3.8.10",
+      "rpy2": "3.4.1",
+      "scanpy": "1.9.1",
+      "scipy": "1.8.1",
+      "sklearn": "1.1.1",
+      "torch": "2.0.0+cu118"
+    },
+    "legacy": {
+      "anndata": "0.8.0",
+      "numpy": "1.22.3",
+      "pandas": "1.4.2",
+      "path": "/root/miniconda3/envs/SpaLORA_torch112",
+      "python": "3.8.10",
+      "rpy2": "3.4.1",
+      "scanpy": "1.9.1",
+      "scipy": "1.8.1",
+      "sklearn": "1.1.1",
+      "torch": "1.12.1+cu116"
+    },
+    "mclust": "6.1.1",
+    "r": "R version 4.0.3 (2020-10-10) -- \"Bunny-Wunnies Freak Out\""
+  },
+  "git": {
+    "baseline_tag": "baseline/pre-q2-revision-20260808",
+    "branch": "revision/q2-night1-20260808",
+    "commit": "323cc0ec7317ddf96c4fd83ab85b919553d1e5d6",
+    "original_worktree_preservation": "/root/autodl-fs/night1_preexisting_20260808",
+    "status_porcelain": "?? scripts/"
+  },
+  "gpu": {
+    "driver": "595.71.05",
+    "host_cuda": "13.2",
+    "memory_mib": 32760,
+    "name": "NVIDIA GeForce RTX 4080 SUPER"
+  },
+  "host": {
+    "hostname": "autodl-pro-78617928975f",
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17"
+  }
+}
