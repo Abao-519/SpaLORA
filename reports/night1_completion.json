@@ -1,0 +1,42 @@
+{
+  "task": "SpaLORA Q2 Revision Night-1",
+  "branch": "revision/q2-night1-20260808",
+  "public_base_commit": "323cc0ec7317ddf96c4fd83ab85b919553d1e5d6",
+  "implementation_head_before_report_commit": "a24b0d0",
+  "baseline_tag": "baseline/pre-q2-revision-20260808",
+  "priority_a": {
+    "datasets": 3,
+    "variants": 5,
+    "seeds_per_combination": 5,
+    "completed_runs": 75,
+    "failed_runs": 0,
+    "config_sha256": "ad889c15e4791543aaca231d3def409220db7ba2e65441a33713de08a7085047"
+  },
+  "artifacts": {
+    "metrics_json": 75,
+    "attention_npz": 75,
+    "cluster_csv": 75,
+    "gene_score_csv": 12,
+    "compact_figures": 7,
+    "report": "reports/night1_report.md",
+    "environment": "reports/night1_environment.json"
+  },
+  "verification": {
+    "tests_passed": 13,
+    "tests_failed": 0,
+    "maximum_attention_row_sum_deviation": 1.1920928955078125e-07,
+    "all_experiments_exited": true,
+    "source_data_modified": false,
+    "original_dirty_worktree_preserved": true
+  },
+  "git_push": {
+    "attempted": true,
+    "success": false,
+    "reason": "AutoDL has no non-interactive GitHub HTTPS username/token"
+  },
+  "shutdown": {
+    "command": "/usr/bin/shutdown",
+    "must_be_final_remote_command": true,
+    "scheduled_after_commit_push_retry_sync": true
+  }
+}
