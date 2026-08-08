@@ -1,0 +1,732 @@
+{
+  "datasets": {
+    "a1": {
+      "graphs": {
+        "feature_omics1": {
+          "edge_set": {
+            "exact_edge_set_equal": false,
+            "first_nnz": 113048,
+            "intersection": 113042,
+            "jaccard": 0.9998938560334,
+            "only_first": 6,
+            "only_second": 6,
+            "pass": false,
+            "second_nnz": 113048,
+            "union": 113054
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 554,
+            "first_nnz": 116532,
+            "max_absolute_difference": 0.03872015327215195,
+            "mean_absolute_difference_over_all_entries": 5.01345660706446e-08,
+            "pass": false,
+            "second_nnz": 116532,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true
+          }
+        },
+        "feature_omics2": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 103554,
+            "intersection": 103554,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 103554,
+            "union": 103554
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 107038,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 107038,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true
+          }
+        },
+        "spatial_omics1": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 67648,
+            "intersection": 67648,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 67648,
+            "union": 67648
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 71132,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 71132,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true
+          }
+        },
+        "spatial_omics2": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 67648,
+            "intersection": 67648,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 67648,
+            "union": 67648
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 71132,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 71132,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true
+          }
+        }
+      },
+      "hvg_gene_names": {
+        "corrected_count": 3000,
+        "corrected_sha256": "951f78723b11b5512f9b89543e6fd03c267ec981d131f292f8121c9e3e524c1f",
+        "exact_names_and_order": true,
+        "legacy_count": 3000,
+        "legacy_sha256": "a78bc846af1a6d4b211e73835d0590c1b51e868453ff7940cc14f569679bf507",
+        "pass": true
+      },
+      "modality2_features": {
+        "allclose": true,
+        "exact_equal": true,
+        "first_sha256": "4da341bccb6acf90e61a1ac5f122f5cc0f41b7818663c6be857dfb5edb579c23",
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0,
+        "pass": true,
+        "second_sha256": "4da341bccb6acf90e61a1ac5f122f5cc0f41b7818663c6be857dfb5edb579c23",
+        "shape": [
+          3484,
+          30
+        ],
+        "shape_equal": true
+      },
+      "observation_ids": {
+        "corrected_count": 3484,
+        "exact_names_and_order": true,
+        "legacy_count": 3484,
+        "pass": true
+      },
+      "pass": false,
+      "rna_pca_features": {
+        "allclose": false,
+        "column_sign_flips": 0,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 0.0017423629760742188,
+        "mean_absolute_difference": 0.00011348436062779682,
+        "pass": false,
+        "second_sha256": null,
+        "shape": [
+          3484,
+          30
+        ],
+        "shape_equal": true
+      },
+      "rna_scaled_hvg_matrix": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "mean_absolute_difference": 5.15250834278896e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          3484,
+          3000
+        ],
+        "shape_equal": true
+      }
+    },
+    "p22": {
+      "graphs": {
+        "feature_omics1": {
+          "edge_set": {
+            "exact_edge_set_equal": false,
+            "first_nnz": 274302,
+            "intersection": 274286,
+            "jaccard": 0.9998760571595218,
+            "only_first": 16,
+            "only_second": 18,
+            "pass": false,
+            "second_nnz": 274304,
+            "union": 274320
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 1620,
+            "first_nnz": 283498,
+            "max_absolute_difference": 0.04445542022585869,
+            "mean_absolute_difference_over_all_entries": 2.0870615309558486e-08,
+            "pass": false,
+            "second_nnz": 283500,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true
+          }
+        },
+        "feature_omics2": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 281098,
+            "intersection": 281098,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 281098,
+            "union": 281098
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 290294,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 290294,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true
+          }
+        },
+        "spatial_omics1": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 163544,
+            "intersection": 163544,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 163544,
+            "union": 163544
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 172740,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 172740,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true
+          }
+        },
+        "spatial_omics2": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 163544,
+            "intersection": 163544,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 163544,
+            "union": 163544
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 172740,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 172740,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true
+          }
+        }
+      },
+      "hvg_gene_names": {
+        "corrected_count": 2000,
+        "corrected_sha256": "47ecf8b45496d3b768b4d4017ca67ea67ec361d458637068beb6f6c8d9f7aca6",
+        "exact_names_and_order": true,
+        "legacy_count": 2000,
+        "legacy_sha256": "5235487216475d1786f6842ecbb22d4cbf04730653fb4caa3df8bf89107d57fb",
+        "pass": true
+      },
+      "modality2_features": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.5791493197525597e-06,
+        "mean_absolute_difference": 1.4165652733982338e-08,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          9196,
+          50
+        ],
+        "shape_equal": true
+      },
+      "observation_ids": {
+        "corrected_count": 9196,
+        "exact_names_and_order": true,
+        "legacy_count": 9196,
+        "pass": true
+      },
+      "pass": false,
+      "rna_pca_features": {
+        "allclose": false,
+        "column_sign_flips": 0,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 0.007281005382537842,
+        "mean_absolute_difference": 0.000171002825852619,
+        "pass": false,
+        "second_sha256": null,
+        "shape": [
+          9196,
+          50
+        ],
+        "shape_equal": true
+      },
+      "rna_scaled_hvg_matrix": {
+        "allclose": false,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 3.814697265625e-06,
+        "mean_absolute_difference": 2.4989123069588673e-09,
+        "pass": false,
+        "second_sha256": null,
+        "shape": [
+          9196,
+          2000
+        ],
+        "shape_equal": true
+      }
+    },
+    "placenta": {
+      "graphs": {
+        "feature_omics1": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 48366,
+            "intersection": 48366,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 48366,
+            "union": 48366
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 50028,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 50028,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true
+          }
+        },
+        "feature_omics2": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 44826,
+            "intersection": 44826,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 44826,
+            "union": 44826
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 46488,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 46488,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true
+          }
+        },
+        "spatial_omics1": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 2332,
+            "intersection": 2332,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 2332,
+            "union": 2332
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 3994,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 3994,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true
+          }
+        },
+        "spatial_omics2": {
+          "edge_set": {
+            "exact_edge_set_equal": true,
+            "first_nnz": 2332,
+            "intersection": 2332,
+            "jaccard": 1.0,
+            "only_first": 0,
+            "only_second": 0,
+            "pass": true,
+            "second_nnz": 2332,
+            "union": 2332
+          },
+          "normalized_adjacency": {
+            "difference_nnz": 0,
+            "first_nnz": 3994,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference_over_all_entries": 0.0,
+            "pass": true,
+            "second_nnz": 3994,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true
+          }
+        }
+      },
+      "hvg_gene_names": {
+        "corrected_count": 3000,
+        "corrected_sha256": "536d843aa4042922c16e9a5fd5ff7e6fb682193239a3108cfcf510ced904a960",
+        "exact_names_and_order": true,
+        "legacy_count": 3000,
+        "legacy_sha256": "a924864e128a2d7368dd74fb808eeba469c0a8466467cc355a6a6179eb003969",
+        "pass": true
+      },
+      "modality2_features": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 2.374744880739854e-07,
+        "mean_absolute_difference": 1.597869312264482e-08,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          62
+        ],
+        "shape_equal": true
+      },
+      "observation_ids": {
+        "corrected_count": 1662,
+        "exact_names_and_order": true,
+        "legacy_count": 1662,
+        "pass": true
+      },
+      "pass": false,
+      "rna_pca_features": {
+        "allclose": false,
+        "column_sign_flips": 0,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 0.0018754005432128906,
+        "mean_absolute_difference": 4.907886646669476e-05,
+        "pass": false,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          62
+        ],
+        "shape_equal": true
+      },
+      "rna_scaled_hvg_matrix": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.9073486328125e-06,
+        "mean_absolute_difference": 2.1001113983638356e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          3000
+        ],
+        "shape_equal": true
+      }
+    }
+  },
+  "declared_tolerances": {
+    "absolute_tolerance": 1e-06,
+    "hard_stop_on_failure": true,
+    "model_forward_absolute_tolerance": 1e-06,
+    "pca_absolute_tolerance_after_sign_alignment": 1e-05,
+    "relative_tolerance": 1e-06,
+    "require_exact_graph_edge_sets": true,
+    "require_exact_hvg_names_and_order": true,
+    "require_exact_observation_ids": true
+  },
+  "environment": {
+    "comparison_note": "Both legacy and corrected semantics are evaluated in one process to isolate code semantics; Night-1 package versions other than PyTorch were identical.",
+    "numpy": "1.22.3",
+    "python": "3.8.10",
+    "torch": "1.12.1+cu116"
+  },
+  "factorial_authorized": false,
+  "gate": "P0",
+  "ground_truth_accessed": false,
+  "legacy_softmax_semantics": {
+    "allclose": true,
+    "exact_equal": true,
+    "explicit_call": "torch.softmax(x, dim=1)",
+    "first_sha256": "ba4c8c9519324c506af5fdc84479e4461265c8a92ea32a41a76f49f5adcb9893",
+    "input_shape": [
+      4,
+      2
+    ],
+    "legacy_call": "torch.nn.functional.softmax(x)",
+    "max_absolute_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "pass": true,
+    "second_sha256": "ba4c8c9519324c506af5fdc84479e4461265c8a92ea32a41a76f49f5adcb9893",
+    "shape": [
+      4,
+      2
+    ],
+    "shape_equal": true
+  },
+  "model_forward": {
+    "dataset": "placenta",
+    "environment": "same-process controlled comparison in legacy PyTorch environment",
+    "outputs": {
+      "alpha": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.7881393432617188e-07,
+        "mean_absolute_difference": 8.046806360696914e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          2
+        ],
+        "shape_equal": true
+      },
+      "alpha_omics1": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.1920928955078125e-07,
+        "mean_absolute_difference": 4.265479806241289e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          2
+        ],
+        "shape_equal": true
+      },
+      "alpha_omics2": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.1920928955078125e-07,
+        "mean_absolute_difference": 3.604251985515498e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          2
+        ],
+        "shape_equal": true
+      },
+      "emb_latent_combined": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 4.76837158203125e-07,
+        "mean_absolute_difference": 8.817766194710077e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          128
+        ],
+        "shape_equal": true
+      },
+      "emb_latent_omics1": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 4.76837158203125e-07,
+        "mean_absolute_difference": 5.126661295778702e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          128
+        ],
+        "shape_equal": true
+      },
+      "emb_latent_omics1_across_recon": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 7.152557373046875e-07,
+        "mean_absolute_difference": 1.8855761358230705e-08,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          128
+        ],
+        "shape_equal": true
+      },
+      "emb_latent_omics2": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 2.384185791015625e-07,
+        "mean_absolute_difference": 2.509585366365539e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          128
+        ],
+        "shape_equal": true
+      },
+      "emb_latent_omics2_across_recon": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 2.384185791015625e-07,
+        "mean_absolute_difference": 6.584604730964942e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          128
+        ],
+        "shape_equal": true
+      },
+      "emb_recon_omics1": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 1.7881393432617188e-07,
+        "mean_absolute_difference": 4.824264779890028e-09,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          3000
+        ],
+        "shape_equal": true
+      },
+      "emb_recon_omics2": {
+        "allclose": true,
+        "exact_equal": false,
+        "first_sha256": null,
+        "max_absolute_difference": 4.76837158203125e-07,
+        "mean_absolute_difference": 1.968592261534248e-08,
+        "pass": true,
+        "second_sha256": null,
+        "shape": [
+          1662,
+          62
+        ],
+        "shape_equal": true
+      }
+    },
+    "parameter_mapping": {
+      "atten_cross.u_omega->cross_attention.u_omega": [
+        128,
+        1
+      ],
+      "atten_cross.w_omega->cross_attention.w_omega": [
+        128,
+        128
+      ],
+      "atten_omics1.u_omega->attention1.u_omega": [
+        128,
+        1
+      ],
+      "atten_omics1.w_omega->attention1.w_omega": [
+        128,
+        128
+      ],
+      "atten_omics2.u_omega->attention2.u_omega": [
+        128,
+        1
+      ],
+      "atten_omics2.w_omega->attention2.w_omega": [
+        128,
+        128
+      ],
+      "decoder_omics1.weight->decoder1.weight": [
+        128,
+        3000
+      ],
+      "decoder_omics2.weight->decoder2.weight": [
+        128,
+        62
+      ],
+      "encoder_omics1.weight->encoder1.weight": [
+        3000,
+        128
+      ],
+      "encoder_omics2.weight->encoder2.weight": [
+        62,
+        128
+      ]
+    },
+    "pass": true
+  },
+  "p0_pass": false,
+  "schema_version": 1
+}

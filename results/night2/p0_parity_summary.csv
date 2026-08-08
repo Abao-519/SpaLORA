@@ -1,0 +1,4 @@
+dataset,dataset_pass,observations,observation_ids_exact,hvg_count,hvg_names_order_exact,rna_scaled_max_abs_diff,rna_scaled_pass,rna_pca_max_abs_diff,rna_pca_pass,rna_graph_only_legacy,rna_graph_only_corrected,rna_graph_jaccard,rna_graph_pass,rna_adj_max_abs_diff,modality2_pass,all_other_graphs_pass
+a1,False,3484,True,3000,True,1.9073486328125e-06,True,0.0017423629760742188,False,6,6,0.9998938560334,False,0.03872015327215195,True,True
+placenta,False,1662,True,3000,True,1.9073486328125e-06,True,0.0018754005432128906,False,0,0,1.0,True,0.0,True,True
+p22,False,9196,True,2000,True,3.814697265625e-06,False,0.007281005382537842,False,16,18,0.9998760571595218,False,0.04445542022585869,True,True

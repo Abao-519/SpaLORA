@@ -1,0 +1,20 @@
+{
+  "asr_modified": false,
+  "classification": "unexplained_material_pretraining_parity_difference",
+  "factorial_authorized": false,
+  "ground_truth_used_for_tuning": false,
+  "new_factorial_runs_completed": 0,
+  "new_factorial_runs_requested": 60,
+  "new_factorial_runs_skipped": 60,
+  "observed_chain": [
+    "Observation IDs and ordered HVG names agree for all datasets.",
+    "Scaled RNA matrices differ at float32-scale; P22 exceeds the declared allclose tolerance.",
+    "The actually used randomized PCA features exceed the declared sign-aligned tolerance for all datasets.",
+    "RNA feature-graph edge sets consequently differ for A1 and P22; normalized adjacency differs materially at affected entries.",
+    "Modality-2, spatial graphs, and controlled legacy/corrected model forward mapping pass."
+  ],
+  "p0_pass": false,
+  "root_cause_hypothesis": "Different scale/select operation order and sparse/dense numerical paths introduce tiny RNA values; randomized PCA and near-tied correlation-neighbor selection amplify them. This is supported but not fully proven.",
+  "scientific_consequence": "V3 could not be interpreted as a loss-only replay, so all V1-V4 training and tutorial reproduction were withheld under the preregistered hard stop.",
+  "seed_search_performed": false
+}

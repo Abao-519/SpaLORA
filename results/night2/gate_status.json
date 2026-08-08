@@ -1,0 +1,27 @@
+{
+  "branch": "revision/q2-night2-loss-audit-20260808",
+  "compact_reference_rows": {
+    "per_seed_metrics": 30,
+    "summary": 6
+  },
+  "empty_factorial_csvs_are_intentional": true,
+  "factorial_authorized": false,
+  "new_main_runs": {
+    "completed": 0,
+    "expected_if_authorized": 60,
+    "skipped": 60
+  },
+  "night1_input_sha256": {
+    "results/night1/per_seed_metrics.csv": "66fe98d3091a6fbf4f46dae26d937a2a4a6310d236467a3d839c6a50f1a9af22",
+    "results/night1/summary.csv": "c5b8672a9a0fab0221ac1b557396ffc107177b11d1df879b4ea14de6e5fd7329"
+  },
+  "p0_pass": false,
+  "parent_commit": "fdecb33706ea1fe8429439813eef09e3ea931c86",
+  "reason": "P0 parity failed before training; only diagnosis, reporting, persistence, and shutdown are permitted.",
+  "status": "stopped_by_p0_hard_gate",
+  "tutorial2022_runs": {
+    "completed": 0,
+    "planned": 3,
+    "skipped": 3
+  }
+}

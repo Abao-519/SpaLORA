@@ -1,0 +1,12 @@
+.......................                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_night1.py::test_ground_truth_is_loaded_only_after_training_and_clustering
+  /root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/jupyter_client/connect.py:20: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+  given by the platformdirs library.  To remove this warning and
+  see the appropriate new directories, set the environment variable
+  `JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+  The use of platformdirs will be the default in `jupyter_core` v6
+    from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+23 passed, 1 warning in 2.93s
