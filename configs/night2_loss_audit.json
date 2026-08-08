@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment": "SpaLORA Q2 Night-2 loss causal audit",
+  "parent_commit": "fdecb33706ea1fe8429439813eef09e3ea931c86",
+  "parent_branch": "revision/q2-night1-20260808",
+  "branch": "revision/q2-night2-loss-audit-20260808",
+  "seeds": [0, 1, 2, 3, 4],
+  "new_variants": [
+    "uniform_legacy_scale",
+    "legacy_shape_normalized",
+    "legacy_loss_replay",
+    "asr_hvg_legacy_scale_diagnostic"
+  ],
+  "reference_variants": ["legacy_exact", "corrected_unweighted"],
+  "loss_log_epochs_fraction": [0.0, 0.1, 0.5, 1.0],
+  "parity": {
+    "absolute_tolerance": 1e-6,
+    "relative_tolerance": 1e-6,
+    "pca_absolute_tolerance_after_sign_alignment": 1e-5,
+    "model_forward_absolute_tolerance": 1e-6,
+    "require_exact_observation_ids": true,
+    "require_exact_hvg_names_and_order": true,
+    "require_exact_graph_edge_sets": true,
+    "hard_stop_on_failure": true
+  },
+  "legacy_bug_weight_expected_mean": {
+    "2000": 2.290322960,
+    "3000": 2.289938091
+  },
+  "legacy_bug_weight_mean_tolerance": 1e-6,
+  "night1_config": "configs/night1.json",
+  "night1_per_seed_metrics": "results/night1/per_seed_metrics.csv",
+  "night1_raw_results": "results/night1/raw",
+  "clustering_seed": 2020,
+  "tutorial_model_seed": 2022,
+  "manuscript": {
+    "a1": {"ari": 0.2443, "nmi": 0.3780},
+    "p22": {"ari": 0.4541, "nmi": 0.5747},
+    "placenta": {"ari": 0.7226, "nmi": 0.7408}
+  }
+}
