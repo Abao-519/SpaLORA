@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "experiment": "SpaLORA Q2 Night-2C numerical-equivalence gate and loss factorial",
+  "taskbook_sha256": "4225e87d71372eb1257b843327065ffeb8c60271d4bd8dc7af9d2870a11266f2",
+  "parent_commit": "c283449b188f510e98c2826cbb856f296367aa03",
+  "parent_tag": "night2b-p0b-final-20260809",
+  "branch": "revision/q2-night2c-numerical-equivalence-factorial-20260809",
+  "seeds": [0, 1, 2, 3, 4],
+  "clustering_seed": 2020,
+  "tutorial_model_seed": 2022,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "bootstrap_seed": 20260809,
+  "bootstrap_replicates": 10000,
+  "night1_results_root": "/root/autodl-fs/SpaLORA-night1/results/night1",
+  "variants": [
+    "locked_unweighted",
+    "locked_uniform_legacy_scale",
+    "locked_legacy_shape_normalized",
+    "locked_legacy_loss_replay",
+    "locked_asr_hvg_legacy_scale_diagnostic"
+  ],
+  "p0c": {
+    "seed": 0,
+    "checkpoints_after_updates": [0, 1, 5, 20],
+    "replicate_blocks": 8,
+    "float32_epsilon_multiplier": 32.0,
+    "equivalence_margin": 2.0,
+    "hard_stop_on_any_dataset_failure": true,
+    "execution_orders": [
+      ["L1", "L2", "G1", "G2"],
+      ["L2", "G1", "G2", "L1"],
+      ["G1", "G2", "L1", "L2"],
+      ["G2", "L1", "L2", "G1"],
+      ["G2", "G1", "L2", "L1"],
+      ["L1", "G2", "G1", "L2"],
+      ["L2", "L1", "G2", "G1"],
+      ["G1", "L2", "L1", "G2"]
+    ]
+  },
+  "bad_weight_expected_mean": {"2000": 2.290322960, "3000": 2.289938091},
+  "bad_weight_mean_tolerance": 1e-6,
+  "alpha": 1.0,
+  "min_cells": 10,
+  "rescue_non_hvg": 1000,
+  "moran_shrinkage_tau": 20.0,
+  "feature_graph": {"k": 20, "metric": "correlation"},
+  "datasets": {
+    "a1": {
+      "rna": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad",
+      "modality2": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_adt.h5ad",
+      "ground_truth": "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv",
+      "ground_truth_id_column": "Barcode", "ground_truth_label_column": "manual-anno", "ground_truth_id_rule": "strip_s1_prefix",
+      "n_clusters": 10, "hvg": 3000, "spatial_neighbors": 18, "legacy_datatype": "10x Genomics Visium",
+      "embedding_dim": 64, "epochs": 200, "loss_factors": [1.9, 2.5, 1.5, 10.0]
+    },
+    "placenta": {
+      "rna": "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad",
+      "modality2": "/root/autodl-fs/Human placenta architecture/humanplacenta_atac.h5ad",
+      "ground_truth": "obs[cell_type]", "ground_truth_label_column": "cell_type",
+      "n_clusters": 10, "hvg": 3000, "spatial_neighbors": 1, "legacy_datatype": "Slide-tags",
+      "embedding_dim": 128, "epochs": 200, "loss_factors": [5.0, 6.0, 1.0, 10.0]
+    },
+    "p22": {
+      "rna": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+      "modality2": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+      "ground_truth": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+      "ground_truth_id_column": "Barcode", "ground_truth_label_column": "manual-anno", "ground_truth_id_rule": "identity",
+      "n_clusters": 9, "hvg": 2000, "spatial_neighbors": 16, "legacy_datatype": "spatial ATAC–RNA-seq",
+      "embedding_dim": 128, "epochs": 1600, "loss_factors": [1.5, 5.0, 1.5, 1.0]
+    }
+  }
+}

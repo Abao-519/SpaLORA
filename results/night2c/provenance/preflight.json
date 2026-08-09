@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-08-09T21:23:46+08:00",
+  "taskbook_sha256": "4225e87d71372eb1257b843327065ffeb8c60271d4bd8dc7af9d2870a11266f2",
+  "parent_commit": "c283449b188f510e98c2826cbb856f296367aa03",
+  "parent_tag": "night2b-p0b-final-20260809",
+  "branch": "revision/q2-night2c-numerical-equivalence-factorial-20260809",
+  "worktree": "/root/autodl-fs/SpaLORA-night2c",
+  "source_worktree_status": "clean",
+  "protected_manifest": "/root/autodl-fs/night2b_preexisting_20260809/protected_before.sha256",
+  "protected_manifest_sha256": "b2745766e40f037f990dc0e0a154be92804a10480a479178d6959a6c48498bb3",
+  "disk_available": "approximately 200 GiB",
+  "environment": {
+    "python": "3.8.10",
+    "torch": "1.12.1+cu116",
+    "cuda_runtime": "11.6",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "driver": "595.71.05",
+    "numpy": "1.22.3",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "scanpy": "1.9.1",
+    "anndata": "0.8.0",
+    "rpy2": "3.4.1",
+    "r": "4.0.3",
+    "mclust": "6.1.1"
+  },
+  "input_sha256": {
+    "a1_rna": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+    "a1_modality2": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+    "a1_ground_truth": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+    "placenta_rna": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+    "placenta_modality2": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+    "p22_rna": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+    "p22_modality2": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+    "p22_ground_truth": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32"
+  },
+  "ground_truth_contents_opened": false,
+  "ground_truth_checks": "existence, byte size, and SHA-256 only"
+}
