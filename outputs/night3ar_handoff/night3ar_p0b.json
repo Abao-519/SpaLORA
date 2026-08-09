@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "probe_cells_completed": 0,
+  "probe_cells_required": 15,
+  "reason": "Taskbook line 153 requires a hard stop after any P0A-R mismatch.",
+  "schema_version": 1,
+  "semantic_label_values_read": false,
+  "stage": "P0B-R",
+  "status": "NOT_RUN_DUE_TO_P0AR_HARD_STOP"
+}

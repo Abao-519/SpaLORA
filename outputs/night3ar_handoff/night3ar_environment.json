@@ -1,0 +1,22 @@
+{
+  "anndata": "0.8.0",
+  "captured_utc": "2026-08-09T17:45:28.502645+00:00",
+  "cuda_available": true,
+  "disk": "Filesystem       Size  Used Avail Use% Mounted on\nAutoFS:fs553002  200G  2.1G  198G   2% /autodl-fs/data",
+  "git_branch": "revision/q2-night3ar-20260810",
+  "git_head": "cdafc3858726559398bcd403d2cece0f81bdd046",
+  "git_status": "?? outputs/night3ar_handoff/",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER, 595.71.05, 32760 MiB",
+  "hostname": "autodl-pro-78617928975f",
+  "mclust": "ERROR: FileNotFoundError(2, 'No such file or directory')",
+  "numpy": "1.22.3",
+  "pandas": "1.4.2",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+  "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+  "r": "ERROR: FileNotFoundError(2, 'No such file or directory')",
+  "scanpy": "1.9.1",
+  "scipy": "1.8.1",
+  "sklearn": "1.1.1",
+  "torch": "2.0.0+cu118",
+  "torch_cuda": "11.8"
+}

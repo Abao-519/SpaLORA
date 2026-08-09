@@ -1,0 +1,492 @@
+{
+  "all_input_file_sha256_match": true,
+  "classification": "FROZEN_LEGACY_RANDOMIZED_PCA_CROSS_PROCESS_NONREPRODUCIBILITY",
+  "difference_localization": {
+    "modality2_feature_graph": "exact on all three datasets",
+    "modality2_model_features": "exact on all three datasets",
+    "model_input_sha256": "different because it includes the preceding stochastic artifacts",
+    "rna_feature_graph": "different on all three datasets",
+    "rna_pca": "different on all three datasets",
+    "spatial_graphs": "exact on all three datasets",
+    "spot_feature_order_and_shapes": "exact on all three datasets"
+  },
+  "differing_fields_by_dataset": {
+    "a1": {
+      "graphs": {
+        "night3a": {
+          "adj_feature_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 116936,
+            "sha256": "55ec613ca6dd47c366bc807e7339ac2471f12e7cbe1e26d92cc2e0efca6bb174",
+            "shape": [
+              3484,
+              3484
+            ]
+          },
+          "adj_feature_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 107038,
+            "sha256": "42f424657bfb424cc0917a5175ffb8c0b5e42e01bf68d4be662ad30b7b074740",
+            "shape": [
+              3484,
+              3484
+            ]
+          },
+          "adj_spatial_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 71132,
+            "sha256": "221844c2edf8cc73decc9e3c2670e472076f2ced4f8e4c7e756be83ae4660ded",
+            "shape": [
+              3484,
+              3484
+            ]
+          },
+          "adj_spatial_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 71132,
+            "sha256": "221844c2edf8cc73decc9e3c2670e472076f2ced4f8e4c7e756be83ae4660ded",
+            "shape": [
+              3484,
+              3484
+            ]
+          }
+        },
+        "night3ar": {
+          "adj_feature_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 117030,
+            "sha256": "cef7461f14ea2199bff03225eada54d6c26a2b07916423ce3845072206e65605",
+            "shape": [
+              3484,
+              3484
+            ]
+          },
+          "adj_feature_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 107038,
+            "sha256": "42f424657bfb424cc0917a5175ffb8c0b5e42e01bf68d4be662ad30b7b074740",
+            "shape": [
+              3484,
+              3484
+            ]
+          },
+          "adj_spatial_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 71132,
+            "sha256": "221844c2edf8cc73decc9e3c2670e472076f2ced4f8e4c7e756be83ae4660ded",
+            "shape": [
+              3484,
+              3484
+            ]
+          },
+          "adj_spatial_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 71132,
+            "sha256": "221844c2edf8cc73decc9e3c2670e472076f2ced4f8e4c7e756be83ae4660ded",
+            "shape": [
+              3484,
+              3484
+            ]
+          }
+        }
+      },
+      "model_input_sha256": {
+        "night3a": "382de65a46dcd0c703605efbfeb2d4d41ab0a1c96e93193dd82007ee092eca3a",
+        "night3ar": "b6bfb54cd63ae3cabbae3f28843ae5d0e6de45270fd59c39ead39c1236ec0aa0"
+      },
+      "pca": {
+        "night3a": {
+          "modality2_model_features": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "b96cb916290ab6297a8a71fb887bf62e5c9dba09ed6211c6f5dd17642a970211",
+            "shape": [
+              3484,
+              30
+            ]
+          },
+          "rna_pca": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "4e166fb2f1792b115063a9e14a33e59e403e642584fbde14df39d6615e7f0a1f",
+            "shape": [
+              3484,
+              30
+            ]
+          }
+        },
+        "night3ar": {
+          "modality2_model_features": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "b96cb916290ab6297a8a71fb887bf62e5c9dba09ed6211c6f5dd17642a970211",
+            "shape": [
+              3484,
+              30
+            ]
+          },
+          "rna_pca": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "2504abf1cd1428edf58789a76cf023ce65f2fdcca8ef802389127c339c9ad868",
+            "shape": [
+              3484,
+              30
+            ]
+          }
+        }
+      }
+    },
+    "p22": {
+      "graphs": {
+        "night3a": {
+          "adj_feature_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 282934,
+            "sha256": "09406e0c3f0c2edc2786a76b8a6ad9cbd0f65a6824c387de1df71e12efcd3048",
+            "shape": [
+              9196,
+              9196
+            ]
+          },
+          "adj_feature_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 290294,
+            "sha256": "e621c37206200d2a46242fb3882db8e709d1a7bd83b5b98d0ac613d2a164615c",
+            "shape": [
+              9196,
+              9196
+            ]
+          },
+          "adj_spatial_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 172740,
+            "sha256": "7a31298ed1addc8ad44dc78c8a99c6a879fe0ff165fa3952ef45e6efb139d529",
+            "shape": [
+              9196,
+              9196
+            ]
+          },
+          "adj_spatial_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 172740,
+            "sha256": "7a31298ed1addc8ad44dc78c8a99c6a879fe0ff165fa3952ef45e6efb139d529",
+            "shape": [
+              9196,
+              9196
+            ]
+          }
+        },
+        "night3ar": {
+          "adj_feature_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 282846,
+            "sha256": "63540bfe9f0a00692257491f525d9089bf742dabeed50f05342867222638c792",
+            "shape": [
+              9196,
+              9196
+            ]
+          },
+          "adj_feature_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 290294,
+            "sha256": "e621c37206200d2a46242fb3882db8e709d1a7bd83b5b98d0ac613d2a164615c",
+            "shape": [
+              9196,
+              9196
+            ]
+          },
+          "adj_spatial_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 172740,
+            "sha256": "7a31298ed1addc8ad44dc78c8a99c6a879fe0ff165fa3952ef45e6efb139d529",
+            "shape": [
+              9196,
+              9196
+            ]
+          },
+          "adj_spatial_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 172740,
+            "sha256": "7a31298ed1addc8ad44dc78c8a99c6a879fe0ff165fa3952ef45e6efb139d529",
+            "shape": [
+              9196,
+              9196
+            ]
+          }
+        }
+      },
+      "model_input_sha256": {
+        "night3a": "187a30e47b5efcfcc5198c5284be3db4457be1e15d0345c83850742fe5b49d45",
+        "night3ar": "e78e1f735bcda0ea7c5eb1c73dda7d6cfd7b8db445228cfd5ed46b7cf0b6fec2"
+      },
+      "pca": {
+        "night3a": {
+          "modality2_model_features": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "d19f2df2142685d178e8c993cccdfb61a5b09180dfc5fc2490675ecd9ec8eb0a",
+            "shape": [
+              9196,
+              50
+            ]
+          },
+          "rna_pca": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "e1b3e3ea6bb582af05e39d54bbdf224cc611c2fb59387961d051ceb10cb6326c",
+            "shape": [
+              9196,
+              50
+            ]
+          }
+        },
+        "night3ar": {
+          "modality2_model_features": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "d19f2df2142685d178e8c993cccdfb61a5b09180dfc5fc2490675ecd9ec8eb0a",
+            "shape": [
+              9196,
+              50
+            ]
+          },
+          "rna_pca": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "d571b820c79fa1608229366b051b7fbab84b975798a0dc607e2d5de9fda2a8cd",
+            "shape": [
+              9196,
+              50
+            ]
+          }
+        }
+      }
+    },
+    "placenta": {
+      "graphs": {
+        "night3a": {
+          "adj_feature_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 50024,
+            "sha256": "36ad829abda8232350c0894cfa4c818fc8da2d6c552cc206b657284f0b79d170",
+            "shape": [
+              1662,
+              1662
+            ]
+          },
+          "adj_feature_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 46488,
+            "sha256": "e148fb2fd8b1fa9de9fb04fef07ad182fd4818327cdb7ff7d6fc80a11fc19333",
+            "shape": [
+              1662,
+              1662
+            ]
+          },
+          "adj_spatial_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 3994,
+            "sha256": "3e5c66a5c3f531c2af20c8ac5e8e6d504aa9a70d0bdbd289c5c05bc0694e9cdb",
+            "shape": [
+              1662,
+              1662
+            ]
+          },
+          "adj_spatial_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 3994,
+            "sha256": "3e5c66a5c3f531c2af20c8ac5e8e6d504aa9a70d0bdbd289c5c05bc0694e9cdb",
+            "shape": [
+              1662,
+              1662
+            ]
+          }
+        },
+        "night3ar": {
+          "adj_feature_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 50094,
+            "sha256": "d87e233332e5f4bd8d3e4adba13ad9439db594b64b019ab463fadf51c36e4860",
+            "shape": [
+              1662,
+              1662
+            ]
+          },
+          "adj_feature_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 46488,
+            "sha256": "e148fb2fd8b1fa9de9fb04fef07ad182fd4818327cdb7ff7d6fc80a11fc19333",
+            "shape": [
+              1662,
+              1662
+            ]
+          },
+          "adj_spatial_omics1": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 3994,
+            "sha256": "3e5c66a5c3f531c2af20c8ac5e8e6d504aa9a70d0bdbd289c5c05bc0694e9cdb",
+            "shape": [
+              1662,
+              1662
+            ]
+          },
+          "adj_spatial_omics2": {
+            "dtype": "torch.float32",
+            "finite": true,
+            "is_sparse": true,
+            "nnz": 3994,
+            "sha256": "3e5c66a5c3f531c2af20c8ac5e8e6d504aa9a70d0bdbd289c5c05bc0694e9cdb",
+            "shape": [
+              1662,
+              1662
+            ]
+          }
+        }
+      },
+      "model_input_sha256": {
+        "night3a": "1f03a477e428cbd859fca4d5a0aa4695e41f44a2f764e5194b4671985c7f7746",
+        "night3ar": "bbc0eb3631ed354db69e48ce3c8006626bcc6c39e4d06a04ccc3d9f56b86457c"
+      },
+      "pca": {
+        "night3a": {
+          "modality2_model_features": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "1f533a17a2b17987d6198c6a7db37505cf6bb763ab255990e0796ebe8216c092",
+            "shape": [
+              1662,
+              62
+            ]
+          },
+          "rna_pca": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "85eeebb28fcece3228c1f432d7b03df74386ab729b4ee88f4e496a9a52bab1f9",
+            "shape": [
+              1662,
+              62
+            ]
+          }
+        },
+        "night3ar": {
+          "modality2_model_features": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "1f533a17a2b17987d6198c6a7db37505cf6bb763ab255990e0796ebe8216c092",
+            "shape": [
+              1662,
+              62
+            ]
+          },
+          "rna_pca": {
+            "dtype": "float32",
+            "finite": true,
+            "sha256": "6718b3b6da224ba8a23d958da3fc6db50deca76b1157a2a0010118abcecc75f6",
+            "shape": [
+              1662,
+              62
+            ]
+          }
+        }
+      }
+    }
+  },
+  "frozen_legacy_source_fact": {
+    "consequence": "for these tall/wide matrices sklearn auto-selects randomized SVD and random_state=None consumes process-global RNG",
+    "constructor": "sklearn.decomposition.PCA(n_components=n_comps)",
+    "explicit_random_state": false,
+    "explicit_svd_solver": false,
+    "file": "SpaLORA/preprocess.py",
+    "source_sha256": "359ddbbc57fcb5704a0de60c83d68aced0ad2df351f383d82d2cb58dc385cb97"
+  },
+  "hard_stop_required_by_taskbook_line_153": true,
+  "label_values_read": false,
+  "night3ar_p0a_sha256": "1dc821b4d3be8ed816e5181bf12ddc320322c9b7ebea51f99fc0584719d8176c",
+  "prohibited_actions_not_taken": [
+    "no seed search",
+    "no new PCA seed",
+    "no PCA solver change",
+    "no tolerance relaxation",
+    "no old P0A rewrite",
+    "no label access",
+    "no P0B-R",
+    "no 60-run factorial"
+  ],
+  "run_order_exact": true,
+  "schema_version": 1,
+  "scientific_ige_go_no_go": "NOT_EVALUATED",
+  "stage": "P0A-R hard-stop diagnosis",
+  "unchanged_fields_by_dataset": {
+    "a1": [
+      "counts_immutable_shape",
+      "prepared_n_obs",
+      "prepared_observation_order_sha256",
+      "selected_gene_count",
+      "selected_gene_order_sha256",
+      "xlog_immutable_shape"
+    ],
+    "p22": [
+      "counts_immutable_shape",
+      "prepared_n_obs",
+      "prepared_observation_order_sha256",
+      "selected_gene_count",
+      "selected_gene_order_sha256",
+      "xlog_immutable_shape"
+    ],
+    "placenta": [
+      "counts_immutable_shape",
+      "prepared_n_obs",
+      "prepared_observation_order_sha256",
+      "selected_gene_count",
+      "selected_gene_order_sha256",
+      "xlog_immutable_shape"
+    ]
+  }
+}

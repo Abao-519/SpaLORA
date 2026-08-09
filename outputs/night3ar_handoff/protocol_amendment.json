@@ -1,0 +1,27 @@
+{
+  "allowed_change_a": "Integrity reads complete before scientific window; semantic parsing/use remains forbidden",
+  "allowed_change_b": "Mechanism collapse gate uses weighted-gradient influence rather than scalar loss fraction",
+  "new_config_sha256": "fa71a99fa2bde139253c8add0ca8d2a9a364093c7c51be339a31ceb81042836f",
+  "old_config_sha256": "4ab8911fba72ee057436c125aa76b0e7df698abb6482423459287970e47f5d0a",
+  "old_night3a_report_and_failure_retained": true,
+  "previous_night3a_status": "ADMINISTRATIVE_HARD_STOP_SCIENTIFIC_GO_NO_GO_NOT_EVALUATED",
+  "reason": "Old P0B classified integrity-only SHA byte reads as semantic label leakage",
+  "schema_version": 1,
+  "semantic_label_access_before_manifest_lock_allowed": false,
+  "taskbook_sha256": "8c8a57c28a190edb2628c19d42f2b80404db5169511a621b6d1341be0a605c2a",
+  "unchanged": [
+    "datasets",
+    "variants",
+    "seeds",
+    "epochs",
+    "optimizer",
+    "preprocessing",
+    "graphs",
+    "clustering",
+    "metrics",
+    "IGE formula",
+    "ILN formula",
+    "60-cell order",
+    "ASR freeze"
+  ]
+}

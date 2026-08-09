@@ -1,0 +1,99 @@
+{
+  "all_reads_match": true,
+  "integrity_reads_are_allowed_before_scientific_window": true,
+  "schema_version": 1,
+  "semantic_content_returned": false,
+  "stages": {
+    "p0ar_prelock": [
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+        "content_returned": false,
+        "expected_sha256": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+        "match": true,
+        "path": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_rna.h5ad",
+        "purpose": "a1 rna input",
+        "semantic_parse": false,
+        "size_bytes": 56585218
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+        "content_returned": false,
+        "expected_sha256": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+        "match": true,
+        "path": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_adt.h5ad",
+        "purpose": "a1 modality2 input",
+        "semantic_parse": false,
+        "size_bytes": 1165256
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+        "content_returned": false,
+        "expected_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+        "match": true,
+        "path": "/autodl-fs/data/Human lymph node/A1/A1_groundtruth.csv",
+        "purpose": "a1 ground-truth integrity only",
+        "semantic_parse": false,
+        "size_bytes": 114473
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+        "content_returned": false,
+        "expected_sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+        "match": true,
+        "path": "/autodl-fs/data/Human placenta architecture/humanplacenta_rna.h5ad",
+        "purpose": "placenta rna input",
+        "semantic_parse": false,
+        "size_bytes": 60099502
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+        "content_returned": false,
+        "expected_sha256": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+        "match": true,
+        "path": "/autodl-fs/data/Human placenta architecture/humanplacenta_atac.h5ad",
+        "purpose": "placenta modality2 input",
+        "semantic_parse": false,
+        "size_bytes": 971780
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+        "content_returned": false,
+        "expected_sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+        "match": true,
+        "path": "/autodl-fs/data/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+        "purpose": "p22 rna input",
+        "semantic_parse": false,
+        "size_bytes": 86001974
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+        "content_returned": false,
+        "expected_sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+        "match": true,
+        "path": "/autodl-fs/data/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+        "purpose": "p22 modality2 input",
+        "semantic_parse": false,
+        "size_bytes": 307171822
+      },
+      {
+        "access_class": "integrity_byte_read",
+        "actual_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+        "content_returned": false,
+        "expected_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+        "match": true,
+        "path": "/autodl-fs/data/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+        "purpose": "p22 ground-truth integrity only",
+        "semantic_parse": false,
+        "size_bytes": 213019
+      }
+    ]
+  },
+  "total_read_records": 8
+}

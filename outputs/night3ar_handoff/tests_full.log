@@ -1,0 +1,39 @@
+............FF..                                                         [100%]
+=================================== FAILURES ===================================
+_____________ test_actual_p0ar_matches_old_fingerprints_and_order ______________
+
+    def test_actual_p0ar_matches_old_fingerprints_and_order():
+        output = REPO / "outputs/night3ar_handoff"
+        p0ar = json.loads((output / "night3ar_p0a.json").read_text(encoding="utf-8"))
+>       assert p0ar["passed"] and p0ar["label_values_read"] is False
+E       assert (False)
+
+tests/test_night3ar.py:197: AssertionError
+_________ test_config_source_data_and_old_evidence_locks_are_complete __________
+
+    def test_config_source_data_and_old_evidence_locks_are_complete():
+        config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+>       lock = json.loads((REPO / "outputs/night3ar_handoff/config_lock.json").read_text(encoding="utf-8"))
+
+tests/test_night3ar.py:207: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/root/miniconda3/envs/SpaLORA/lib/python3.8/pathlib.py:1236: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/root/miniconda3/envs/SpaLORA/lib/python3.8/pathlib.py:1222: in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/autodl-fs/data/SpaLORA-night3ar/outputs/night3ar_handoff/config_lock.json')
+name = '/autodl-fs/data/SpaLORA-night3ar/outputs/night3ar_handoff/config_lock.json'
+flags = 524288, mode = 438
+
+    def _opener(self, name, flags, mode=0o666):
+        # A stub for the opener argument to built-in open()
+>       return self._accessor.open(self, flags, mode)
+E       FileNotFoundError: [Errno 2] No such file or directory: '/autodl-fs/data/SpaLORA-night3ar/outputs/night3ar_handoff/config_lock.json'
+
+/root/miniconda3/envs/SpaLORA/lib/python3.8/pathlib.py:1078: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_night3ar.py::test_actual_p0ar_matches_old_fingerprints_and_order
+FAILED tests/test_night3ar.py::test_config_source_data_and_old_evidence_locks_are_complete
+2 failed, 14 passed in 4.08s

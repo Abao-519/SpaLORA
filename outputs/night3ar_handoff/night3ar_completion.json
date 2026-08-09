@@ -1,0 +1,31 @@
+{
+  "architecture_ablation_authorized": false,
+  "diagnosis_sha256": "422d38f7f0eeb237b52e58285be2558d3ec02e05e316d3c94c6834cc5806df22",
+  "failure_count": 3,
+  "ige_scientific_go_no_go": "NOT_EVALUATED",
+  "main_runs_completed": 0,
+  "main_runs_required": 60,
+  "night2c_protection": {
+    "failure_lines": [],
+    "line_count": 913,
+    "manifest_sha256": "d2839daf4f1bf536929b3e00cdd62a02e9870be58f48ee3ca863412203d0a8ae",
+    "passed": true
+  },
+  "night3a_protection": {
+    "failure_lines": [],
+    "line_count": 198,
+    "manifest_sha256": "14392d93dfbb36959f6170042a6a52012d538f0288fa525a7f251295f2e2ae2f",
+    "passed": true
+  },
+  "p0ar_pass": false,
+  "p0ar_sha256": "1dc821b4d3be8ed816e5181bf12ddc320322c9b7ebea51f99fc0584719d8176c",
+  "p0br_pass": false,
+  "p0br_status": "NOT_RUN_DUE_TO_P0AR_HARD_STOP",
+  "previous_night3a_status": "ADMINISTRATIVE_HARD_STOP_SCIENTIFIC_GO_NO_GO_NOT_EVALUATED",
+  "protocol_deviations": [],
+  "schema_version": 1,
+  "semantic_label_access_during_training": false,
+  "stage": "Night-3A-R P0A-R hard stop complete",
+  "tests_failed": 2,
+  "tests_passed": 14
+}

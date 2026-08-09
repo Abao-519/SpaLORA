@@ -1,0 +1,15 @@
+{
+  "architecture_ablation_authorized": false,
+  "attention_gate": "NOT_EVALUATED",
+  "failure_count": 3,
+  "ige_scientific_go_no_go": "NOT_EVALUATED",
+  "main_runs_completed": 0,
+  "p0ar_pass": false,
+  "p0br_pass": false,
+  "reason": "P0A-R hard stop occurred before P0B-R and training.",
+  "scalar_contribution_used_as_hard_gate": false,
+  "schema_version": 1,
+  "semantic_label_access_during_training": false,
+  "spatial_gate": "NOT_EVALUATED",
+  "weighted_gradient_share_gate": "NOT_EVALUATED"
+}
