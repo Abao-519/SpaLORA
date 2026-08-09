@@ -279,7 +279,7 @@ def figures(per_seed, effects, losses, attention, replay, technical):
             for seed in sorted(subset.seed.unique()):
                 s = subset[subset.seed == seed].sort_values("variant_code")
                 ax.plot(range(5), s[metric], marker="o", alpha=.65)
-            ax.set_title(dataset); ax.set_xticks(range(5), ["V0", "V1", "V2", "V3", "V4"]); ax.set_ylabel(metric.upper())
+            ax.set_title(dataset); ax.set_xticks(range(5)); ax.set_xticklabels(["V0", "V1", "V2", "V3", "V4"]); ax.set_ylabel(metric.upper())
         fig.suptitle("Paired %s; n=5 fixed model seeds (lines), summaries use sample SD and bootstrap CI" % metric.upper())
         save_figure(fig, "paired_seed_%s" % metric)
     e = pd.DataFrame(effects); e = e[e.metric.isin(["ari", "nmi"])]
@@ -289,11 +289,13 @@ def figures(per_seed, effects, losses, attention, replay, technical):
         for col, dataset in enumerate(DATASETS):
             s = e[(e.metric == metric) & (e.dataset == dataset) & e.contrast.isin(selected)].set_index("contrast").loc[selected]
             axes[row, col].bar(range(3), s["mean"], yerr=s["sample_sd"], capsize=3)
-            axes[row, col].axhline(0, color="black", linewidth=.7); axes[row, col].set_xticks(range(3), ["scale", "shape", "interaction"], rotation=20)
+            axes[row, col].axhline(0, color="black", linewidth=.7); axes[row, col].set_xticks(range(3)); axes[row, col].set_xticklabels(["scale", "shape", "interaction"], rotation=20)
             axes[row, col].set_title("%s %s" % (dataset, metric.upper()))
     fig.suptitle("Factorial effects; n=5 fixed model seeds; bars=mean, error=sample SD (not CI)")
     save_figure(fig, "factorial_effects")
     l = pd.DataFrame(losses)
+    for column in ("epoch", "final_rna_contribution", "final_modality2_contribution"):
+        l[column] = pd.to_numeric(l[column], errors="raise")
     fig, axes = plt.subplots(1, 3, figsize=(13, 3.7))
     for ax, dataset in zip(axes, DATASETS):
         s = l[l.dataset == dataset].copy(); s["epoch"] = s.epoch.astype(int)
@@ -312,7 +314,7 @@ def figures(per_seed, effects, losses, attention, replay, technical):
         for name in ("cross_omics_rna", "rna_spatial", "modality2_spatial"):
             means = s.groupby("variant")[name].mean().reindex(sorted(s.variant.unique(), key=variant_code))
             ax.plot(range(5), means, marker="o", label=name)
-        ax.set_title(dataset); ax.set_xticks(range(5), ["V0", "V1", "V2", "V3", "V4"])
+        ax.set_title(dataset); ax.set_xticks(range(5)); ax.set_xticklabels(["V0", "V1", "V2", "V3", "V4"])
     axes[-1].legend(fontsize=6); fig.suptitle("Final attention means; n=5 fixed model seeds")
     save_figure(fig, "attention_trajectories")
     r = pd.DataFrame(replay)
@@ -328,7 +330,7 @@ def figures(per_seed, effects, losses, attention, replay, technical):
     for ax, metric in zip(axes, ("partition_agreement_ari", "orthogonal_procrustes_residual")):
         for variant, group in t.groupby("variant"):
             ax.scatter([variant_code(variant)] * len(group), group[metric], label=variant)
-        ax.set_xticks([0, 3], ["V0", "V3"]); ax.set_ylabel(metric)
+        ax.set_xticks([0, 3]); ax.set_xticklabels(["V0", "V3"]); ax.set_ylabel(metric)
     fig.suptitle("Placenta seed-0 technical stability; 3 fresh-process executions per variant")
     save_figure(fig, "placenta_technical_stability")
 

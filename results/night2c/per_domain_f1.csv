@@ -1,0 +1,726 @@
+dataset,variant,seed,domain,support,hungarian_f1
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,capsule,204,0.3417366946778712
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,cortex,753,0.5568917668825162
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,follicle,60,0.45669291338582674
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,hilum,23,0.15384615384615385
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,medulla cords,1188,0.5473568281938326
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,medulla sinuses,797,0.4749303621169917
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,medulla vessels,57,0.06405693950177936
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,pericapsular adipose tissue,320,0.5466666666666666
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,subcapsular sinus,74,0.0686427457098284
+a1,locked_asr_hvg_legacy_scale_diagnostic,0,trabeculae,8,0.0
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,capsule,204,0.3619631901840491
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,cortex,753,0.5843694493783305
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,follicle,60,0.43866171003717475
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,hilum,23,0.15813953488372096
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,medulla cords,1188,0.4924892703862661
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,medulla sinuses,797,0.4571877454831108
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,medulla vessels,57,0.011428571428571429
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,pericapsular adipose tissue,320,0.5894736842105263
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,subcapsular sinus,74,0.0794392523364486
+a1,locked_asr_hvg_legacy_scale_diagnostic,1,trabeculae,8,0.04794520547945205
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,capsule,204,0.36898395721925137
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,cortex,753,0.6441821247892074
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,follicle,60,0.40714285714285714
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,hilum,23,0.003738317757009346
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,medulla cords,1188,0.4093711467324291
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,medulla sinuses,797,0.4835900870730074
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,medulla vessels,57,0.06521739130434781
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,pericapsular adipose tissue,320,0.7689594356261023
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,subcapsular sinus,74,0.2523364485981308
+a1,locked_asr_hvg_legacy_scale_diagnostic,2,trabeculae,8,0.0
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,capsule,204,0.3333333333333333
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,cortex,753,0.5446348061316502
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,follicle,60,0.45967741935483875
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,hilum,23,0.010126582278481015
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,medulla cords,1188,0.46162528216704285
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,medulla sinuses,797,0.5856019358741681
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,medulla vessels,57,0.15025906735751296
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,pericapsular adipose tissue,320,0.6742424242424242
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,subcapsular sinus,74,0.30409356725146197
+a1,locked_asr_hvg_legacy_scale_diagnostic,3,trabeculae,8,0.043478260869565216
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,capsule,204,0.3185378590078329
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,cortex,753,0.6317539484621778
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,follicle,60,0.4249084249084249
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,hilum,23,0.03791469194312796
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,medulla cords,1188,0.37924865831842575
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,medulla sinuses,797,0.4229651162790698
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,medulla vessels,57,0.034912718204488775
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,pericapsular adipose tissue,320,0.5859872611464968
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,subcapsular sinus,74,0.07220216606498193
+a1,locked_asr_hvg_legacy_scale_diagnostic,4,trabeculae,8,0.0
+a1,locked_legacy_loss_replay,0,capsule,204,0.3652173913043478
+a1,locked_legacy_loss_replay,0,cortex,753,0.5721973094170404
+a1,locked_legacy_loss_replay,0,follicle,60,0.5112107623318386
+a1,locked_legacy_loss_replay,0,hilum,23,0.16326530612244897
+a1,locked_legacy_loss_replay,0,medulla cords,1188,0.5556680161943319
+a1,locked_legacy_loss_replay,0,medulla sinuses,797,0.4847192608386639
+a1,locked_legacy_loss_replay,0,medulla vessels,57,0.024024024024024024
+a1,locked_legacy_loss_replay,0,pericapsular adipose tissue,320,0.5523385300668152
+a1,locked_legacy_loss_replay,0,subcapsular sinus,74,0.0906344410876133
+a1,locked_legacy_loss_replay,0,trabeculae,8,0.0
+a1,locked_legacy_loss_replay,1,capsule,204,0.3738872403560831
+a1,locked_legacy_loss_replay,1,cortex,753,0.611541774332472
+a1,locked_legacy_loss_replay,1,follicle,60,0.4249084249084249
+a1,locked_legacy_loss_replay,1,hilum,23,0.2905982905982906
+a1,locked_legacy_loss_replay,1,medulla cords,1188,0.3841201716738198
+a1,locked_legacy_loss_replay,1,medulla sinuses,797,0.5019710906701709
+a1,locked_legacy_loss_replay,1,medulla vessels,57,0.012176560121765602
+a1,locked_legacy_loss_replay,1,pericapsular adipose tissue,320,0.5970772442588728
+a1,locked_legacy_loss_replay,1,subcapsular sinus,74,0.04819277108433735
+a1,locked_legacy_loss_replay,1,trabeculae,8,0.0
+a1,locked_legacy_loss_replay,2,capsule,204,0.37634408602150543
+a1,locked_legacy_loss_replay,2,cortex,753,0.6201550387596899
+a1,locked_legacy_loss_replay,2,follicle,60,0.41155234657039713
+a1,locked_legacy_loss_replay,2,hilum,23,0.0037950664136622387
+a1,locked_legacy_loss_replay,2,medulla cords,1188,0.46549707602339174
+a1,locked_legacy_loss_replay,2,medulla sinuses,797,0.49289099526066354
+a1,locked_legacy_loss_replay,2,medulla vessels,57,0.05088062622309198
+a1,locked_legacy_loss_replay,2,pericapsular adipose tissue,320,0.7689594356261023
+a1,locked_legacy_loss_replay,2,subcapsular sinus,74,0.24770642201834858
+a1,locked_legacy_loss_replay,2,trabeculae,8,0.0
+a1,locked_legacy_loss_replay,3,capsule,204,0.36417910447761187
+a1,locked_legacy_loss_replay,3,cortex,753,0.532347504621072
+a1,locked_legacy_loss_replay,3,follicle,60,0.46825396825396826
+a1,locked_legacy_loss_replay,3,hilum,23,0.0923076923076923
+a1,locked_legacy_loss_replay,3,medulla cords,1188,0.5040189125295508
+a1,locked_legacy_loss_replay,3,medulla sinuses,797,0.44548286604361376
+a1,locked_legacy_loss_replay,3,medulla vessels,57,0.08241758241758242
+a1,locked_legacy_loss_replay,3,pericapsular adipose tissue,320,0.6525096525096524
+a1,locked_legacy_loss_replay,3,subcapsular sinus,74,0.2360248447204969
+a1,locked_legacy_loss_replay,3,trabeculae,8,0.0
+a1,locked_legacy_loss_replay,4,capsule,204,0.31770833333333337
+a1,locked_legacy_loss_replay,4,cortex,753,0.6687402799377916
+a1,locked_legacy_loss_replay,4,follicle,60,0.4199288256227757
+a1,locked_legacy_loss_replay,4,hilum,23,0.0967741935483871
+a1,locked_legacy_loss_replay,4,medulla cords,1188,0.45864661654135336
+a1,locked_legacy_loss_replay,4,medulla sinuses,797,0.4259927797833934
+a1,locked_legacy_loss_replay,4,medulla vessels,57,0.027777777777777776
+a1,locked_legacy_loss_replay,4,pericapsular adipose tissue,320,0.5927505330490405
+a1,locked_legacy_loss_replay,4,subcapsular sinus,74,0.08170515097690942
+a1,locked_legacy_loss_replay,4,trabeculae,8,0.0
+a1,locked_legacy_shape_normalized,0,capsule,204,0.3526170798898072
+a1,locked_legacy_shape_normalized,0,cortex,753,0.7062499999999999
+a1,locked_legacy_shape_normalized,0,follicle,60,0.41428571428571426
+a1,locked_legacy_shape_normalized,0,hilum,23,0.14592274678111586
+a1,locked_legacy_shape_normalized,0,medulla cords,1188,0.45698324022346365
+a1,locked_legacy_shape_normalized,0,medulla sinuses,797,0.4544117647058823
+a1,locked_legacy_shape_normalized,0,medulla vessels,57,0.027397260273972605
+a1,locked_legacy_shape_normalized,0,pericapsular adipose tissue,320,0.549889135254989
+a1,locked_legacy_shape_normalized,0,subcapsular sinus,74,0.06557377049180328
+a1,locked_legacy_shape_normalized,0,trabeculae,8,0.0
+a1,locked_legacy_shape_normalized,1,capsule,204,0.33599999999999997
+a1,locked_legacy_shape_normalized,1,cortex,753,0.5662431941923775
+a1,locked_legacy_shape_normalized,1,follicle,60,0.4419475655430711
+a1,locked_legacy_shape_normalized,1,hilum,23,0.04301075268817204
+a1,locked_legacy_shape_normalized,1,medulla cords,1188,0.4765625
+a1,locked_legacy_shape_normalized,1,medulla sinuses,797,0.5342465753424658
+a1,locked_legacy_shape_normalized,1,medulla vessels,57,0.03587443946188341
+a1,locked_legacy_shape_normalized,1,pericapsular adipose tissue,320,0.6058091286307054
+a1,locked_legacy_shape_normalized,1,subcapsular sinus,74,0.06912442396313365
+a1,locked_legacy_shape_normalized,1,trabeculae,8,0.0
+a1,locked_legacy_shape_normalized,2,capsule,204,0.37234042553191493
+a1,locked_legacy_shape_normalized,2,cortex,753,0.7146136189747514
+a1,locked_legacy_shape_normalized,2,follicle,60,0.40559440559440557
+a1,locked_legacy_shape_normalized,2,hilum,23,0.003642987249544626
+a1,locked_legacy_shape_normalized,2,medulla cords,1188,0.5166402535657686
+a1,locked_legacy_shape_normalized,2,medulla sinuses,797,0.42066957787481807
+a1,locked_legacy_shape_normalized,2,medulla vessels,57,0.06349206349206349
+a1,locked_legacy_shape_normalized,2,pericapsular adipose tissue,320,0.7736185383244206
+a1,locked_legacy_shape_normalized,2,subcapsular sinus,74,0.24761904761904766
+a1,locked_legacy_shape_normalized,2,trabeculae,8,0.0
+a1,locked_legacy_shape_normalized,3,capsule,204,0.35672514619883045
+a1,locked_legacy_shape_normalized,3,cortex,753,0.5335786568537259
+a1,locked_legacy_shape_normalized,3,follicle,60,0.4935064935064935
+a1,locked_legacy_shape_normalized,3,hilum,23,0.09836065573770492
+a1,locked_legacy_shape_normalized,3,medulla cords,1188,0.5331278890600925
+a1,locked_legacy_shape_normalized,3,medulla sinuses,797,0.6006600660066006
+a1,locked_legacy_shape_normalized,3,medulla vessels,57,0.024096385542168672
+a1,locked_legacy_shape_normalized,3,pericapsular adipose tissue,320,0.6511627906976745
+a1,locked_legacy_shape_normalized,3,subcapsular sinus,74,0.24203821656050953
+a1,locked_legacy_shape_normalized,3,trabeculae,8,0.04804804804804804
+a1,locked_legacy_shape_normalized,4,capsule,204,0.32375979112271536
+a1,locked_legacy_shape_normalized,4,cortex,753,0.664571877454831
+a1,locked_legacy_shape_normalized,4,follicle,60,0.41877256317689526
+a1,locked_legacy_shape_normalized,4,hilum,23,0.0
+a1,locked_legacy_shape_normalized,4,medulla cords,1188,0.3679354094579008
+a1,locked_legacy_shape_normalized,4,medulla sinuses,797,0.4079051383399209
+a1,locked_legacy_shape_normalized,4,medulla vessels,57,0.030042918454935622
+a1,locked_legacy_shape_normalized,4,pericapsular adipose tissue,320,0.5889830508474576
+a1,locked_legacy_shape_normalized,4,subcapsular sinus,74,0.045454545454545456
+a1,locked_legacy_shape_normalized,4,trabeculae,8,0.0
+a1,locked_uniform_legacy_scale,0,capsule,204,0.3611111111111111
+a1,locked_uniform_legacy_scale,0,cortex,753,0.7087227414330218
+a1,locked_uniform_legacy_scale,0,follicle,60,0.4157706093189964
+a1,locked_uniform_legacy_scale,0,hilum,23,0.1596638655462185
+a1,locked_uniform_legacy_scale,0,medulla cords,1188,0.459654980523094
+a1,locked_uniform_legacy_scale,0,medulla sinuses,797,0.461880088823094
+a1,locked_uniform_legacy_scale,0,medulla vessels,57,0.02564102564102564
+a1,locked_uniform_legacy_scale,0,pericapsular adipose tissue,320,0.5434298440979956
+a1,locked_uniform_legacy_scale,0,subcapsular sinus,74,0.06907894736842105
+a1,locked_uniform_legacy_scale,0,trabeculae,8,0.0
+a1,locked_uniform_legacy_scale,1,capsule,204,0.3507692307692307
+a1,locked_uniform_legacy_scale,1,cortex,753,0.57116953762466
+a1,locked_uniform_legacy_scale,1,follicle,60,0.42962962962962964
+a1,locked_uniform_legacy_scale,1,hilum,23,0.16143497757847533
+a1,locked_uniform_legacy_scale,1,medulla cords,1188,0.46049661399548525
+a1,locked_uniform_legacy_scale,1,medulla sinuses,797,0.5778364116094986
+a1,locked_uniform_legacy_scale,1,medulla vessels,57,0.025559105431309903
+a1,locked_uniform_legacy_scale,1,pericapsular adipose tissue,320,0.5911949685534591
+a1,locked_uniform_legacy_scale,1,subcapsular sinus,74,0.06436781609195402
+a1,locked_uniform_legacy_scale,1,trabeculae,8,0.0
+a1,locked_uniform_legacy_scale,2,capsule,204,0.3506849315068493
+a1,locked_uniform_legacy_scale,2,cortex,753,0.7205992509363295
+a1,locked_uniform_legacy_scale,2,follicle,60,0.4028268551236749
+a1,locked_uniform_legacy_scale,2,hilum,23,0.003584229390681003
+a1,locked_uniform_legacy_scale,2,medulla cords,1188,0.5153308230231306
+a1,locked_uniform_legacy_scale,2,medulla sinuses,797,0.4627621113521331
+a1,locked_uniform_legacy_scale,2,medulla vessels,57,0.0594059405940594
+a1,locked_uniform_legacy_scale,2,pericapsular adipose tissue,320,0.773049645390071
+a1,locked_uniform_legacy_scale,2,subcapsular sinus,74,0.24545454545454543
+a1,locked_uniform_legacy_scale,2,trabeculae,8,0.0
+a1,locked_uniform_legacy_scale,3,capsule,204,0.36526946107784436
+a1,locked_uniform_legacy_scale,3,cortex,753,0.5301204819277109
+a1,locked_uniform_legacy_scale,3,follicle,60,0.464
+a1,locked_uniform_legacy_scale,3,hilum,23,0.09302325581395349
+a1,locked_uniform_legacy_scale,3,medulla cords,1188,0.5185185185185185
+a1,locked_uniform_legacy_scale,3,medulla sinuses,797,0.4319620253164556
+a1,locked_uniform_legacy_scale,3,medulla vessels,57,0.07887323943661971
+a1,locked_uniform_legacy_scale,3,pericapsular adipose tissue,320,0.6538461538461537
+a1,locked_uniform_legacy_scale,3,subcapsular sinus,74,0.23456790123456792
+a1,locked_uniform_legacy_scale,3,trabeculae,8,0.0
+a1,locked_uniform_legacy_scale,4,capsule,204,0.3185378590078329
+a1,locked_uniform_legacy_scale,4,cortex,753,0.6317539484621778
+a1,locked_uniform_legacy_scale,4,follicle,60,0.4249084249084249
+a1,locked_uniform_legacy_scale,4,hilum,23,0.03791469194312796
+a1,locked_uniform_legacy_scale,4,medulla cords,1188,0.3763440860215053
+a1,locked_uniform_legacy_scale,4,medulla sinuses,797,0.4238026124818578
+a1,locked_uniform_legacy_scale,4,medulla vessels,57,0.03508771929824561
+a1,locked_uniform_legacy_scale,4,pericapsular adipose tissue,320,0.5859872611464968
+a1,locked_uniform_legacy_scale,4,subcapsular sinus,74,0.07220216606498193
+a1,locked_uniform_legacy_scale,4,trabeculae,8,0.0
+a1,locked_unweighted,0,capsule,204,0.3526170798898072
+a1,locked_unweighted,0,cortex,753,0.7062499999999999
+a1,locked_unweighted,0,follicle,60,0.4128113879003558
+a1,locked_unweighted,0,hilum,23,0.13973799126637554
+a1,locked_unweighted,0,medulla cords,1188,0.45647321428571436
+a1,locked_unweighted,0,medulla sinuses,797,0.4556776556776556
+a1,locked_unweighted,0,medulla vessels,57,0.022535211267605635
+a1,locked_unweighted,0,pericapsular adipose tissue,320,0.5474613686534217
+a1,locked_unweighted,0,subcapsular sinus,74,0.06907894736842105
+a1,locked_unweighted,0,trabeculae,8,0.0
+a1,locked_unweighted,1,capsule,204,0.3663663663663664
+a1,locked_unweighted,1,cortex,753,0.6147260273972603
+a1,locked_unweighted,1,follicle,60,0.4233576642335766
+a1,locked_unweighted,1,hilum,23,0.30357142857142855
+a1,locked_unweighted,1,medulla cords,1188,0.4652326163081541
+a1,locked_unweighted,1,medulla sinuses,797,0.5895281189398837
+a1,locked_unweighted,1,medulla vessels,57,0.02729044834307992
+a1,locked_unweighted,1,pericapsular adipose tissue,320,0.5970772442588728
+a1,locked_unweighted,1,subcapsular sinus,74,0.04
+a1,locked_unweighted,1,trabeculae,8,0.0
+a1,locked_unweighted,2,capsule,204,0.3713527851458886
+a1,locked_unweighted,2,cortex,753,0.7155963302752293
+a1,locked_unweighted,2,follicle,60,0.40559440559440557
+a1,locked_unweighted,2,hilum,23,0.008368200836820083
+a1,locked_unweighted,2,medulla cords,1188,0.5161290322580646
+a1,locked_unweighted,2,medulla sinuses,797,0.42066957787481807
+a1,locked_unweighted,2,medulla vessels,57,0.06349206349206349
+a1,locked_unweighted,2,pericapsular adipose tissue,320,0.7736185383244206
+a1,locked_unweighted,2,subcapsular sinus,74,0.24761904761904766
+a1,locked_unweighted,2,trabeculae,8,0.0
+a1,locked_unweighted,3,capsule,204,0.35672514619883045
+a1,locked_unweighted,3,cortex,753,0.5322283609576427
+a1,locked_unweighted,3,follicle,60,0.49565217391304345
+a1,locked_unweighted,3,hilum,23,0.09836065573770492
+a1,locked_unweighted,3,medulla cords,1188,0.5328542094455851
+a1,locked_unweighted,3,medulla sinuses,797,0.6006600660066006
+a1,locked_unweighted,3,medulla vessels,57,0.024096385542168672
+a1,locked_unweighted,3,pericapsular adipose tissue,320,0.6511627906976745
+a1,locked_unweighted,3,subcapsular sinus,74,0.24358974358974358
+a1,locked_unweighted,3,trabeculae,8,0.04776119402985075
+a1,locked_unweighted,4,capsule,204,0.3315789473684211
+a1,locked_unweighted,4,cortex,753,0.6328059950041632
+a1,locked_unweighted,4,follicle,60,0.4113475177304964
+a1,locked_unweighted,4,hilum,23,0.037558685446009384
+a1,locked_unweighted,4,medulla cords,1188,0.36589497459062675
+a1,locked_unweighted,4,medulla sinuses,797,0.4147104851330204
+a1,locked_unweighted,4,medulla vessels,57,0.03278688524590164
+a1,locked_unweighted,4,pericapsular adipose tissue,320,0.5889830508474576
+a1,locked_unweighted,4,subcapsular sinus,74,0.007722007722007721
+a1,locked_unweighted,4,trabeculae,8,0.0
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,ACB,1111,0.5984766050054408
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,CP,1693,0.8387263784623349
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,L1-L3,1023,0.6822589845978323
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,L4,304,0.4256198347107438
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,L5,970,0.0015094339622641509
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,L6a/b,834,0.7199587416193914
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,VL,147,0.07843137254901962
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,ccg/aco,744,0.7980225988700566
+p22,locked_asr_hvg_legacy_scale_diagnostic,0,others,2370,0.5627615062761506
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,ACB,1111,0.6074660633484162
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,CP,1693,0.83129074315515
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,L1-L3,1023,0.6998867497168743
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,L4,304,0.45233265720081134
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,L5,970,0.351813826146475
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,L6a/b,834,0.6426666666666666
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,VL,147,0.0
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,ccg/aco,744,0.7977448907681467
+p22,locked_asr_hvg_legacy_scale_diagnostic,1,others,2370,0.3690958164642375
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,ACB,1111,0.6132596685082873
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,CP,1693,0.8359843546284224
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,L1-L3,1023,0.7015384615384614
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,L4,304,0.47640966628308395
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,L5,970,0.0015564202334630351
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,L6a/b,834,0.6758241758241759
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,VL,147,0.0794871794871795
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,ccg/aco,744,0.8063354931605471
+p22,locked_asr_hvg_legacy_scale_diagnostic,2,others,2370,0.5742145178764897
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,ACB,1111,0.6106508875739646
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,CP,1693,0.8351818416301263
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,L1-L3,1023,0.7169398907103824
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,L4,304,0.0
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,L5,970,0.3576083876452253
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,L6a/b,834,0.7041965199590583
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,VL,147,0.6318537859007832
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,ccg/aco,744,0.7836676217765043
+p22,locked_asr_hvg_legacy_scale_diagnostic,3,others,2370,0.4324149108589951
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,ACB,1111,0.5632247377139701
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,CP,1693,0.8270908158029758
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,L1-L3,1023,0.7236842105263157
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,L4,304,0.0
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,L5,970,0.3760071620411818
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,L6a/b,834,0.7054794520547945
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,VL,147,0.6335078534031414
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,ccg/aco,744,0.7423638778220452
+p22,locked_asr_hvg_legacy_scale_diagnostic,4,others,2370,0.36072280941016027
+p22,locked_legacy_loss_replay,0,ACB,1111,0.5975148568341436
+p22,locked_legacy_loss_replay,0,CP,1693,0.8367505839605502
+p22,locked_legacy_loss_replay,0,L1-L3,1023,0.6814814814814815
+p22,locked_legacy_loss_replay,0,L4,304,0.4284221525600836
+p22,locked_legacy_loss_replay,0,L5,970,0.0015015015015015015
+p22,locked_legacy_loss_replay,0,L6a/b,834,0.7174472465259908
+p22,locked_legacy_loss_replay,0,VL,147,0.07509881422924901
+p22,locked_legacy_loss_replay,0,ccg/aco,744,0.7937632884479093
+p22,locked_legacy_loss_replay,0,others,2370,0.5627090301003344
+p22,locked_legacy_loss_replay,1,ACB,1111,0.6078098471986417
+p22,locked_legacy_loss_replay,1,CP,1693,0.8297650130548303
+p22,locked_legacy_loss_replay,1,L1-L3,1023,0.6972789115646258
+p22,locked_legacy_loss_replay,1,L4,304,0.45656565656565656
+p22,locked_legacy_loss_replay,1,L5,970,0.35269993164730007
+p22,locked_legacy_loss_replay,1,L6a/b,834,0.6438112199465716
+p22,locked_legacy_loss_replay,1,VL,147,0.0
+p22,locked_legacy_loss_replay,1,ccg/aco,744,0.7963483146067416
+p22,locked_legacy_loss_replay,1,others,2370,0.36922038474519064
+p22,locked_legacy_loss_replay,2,ACB,1111,0.6080707573244887
+p22,locked_legacy_loss_replay,2,CP,1693,0.835027365129007
+p22,locked_legacy_loss_replay,2,L1-L3,1023,0.7043638598647818
+p22,locked_legacy_loss_replay,2,L4,304,0.47851335656213706
+p22,locked_legacy_loss_replay,2,L5,970,0.0015564202334630351
+p22,locked_legacy_loss_replay,2,L6a/b,834,0.6767399267399269
+p22,locked_legacy_loss_replay,2,VL,147,0.08031088082901555
+p22,locked_legacy_loss_replay,2,ccg/aco,744,0.8086021505376345
+p22,locked_legacy_loss_replay,2,others,2370,0.5737775854608395
+p22,locked_legacy_loss_replay,3,ACB,1111,0.6080283353010626
+p22,locked_legacy_loss_replay,3,CP,1693,0.8334624322230828
+p22,locked_legacy_loss_replay,3,L1-L3,1023,0.7144420131291027
+p22,locked_legacy_loss_replay,3,L4,304,0.0
+p22,locked_legacy_loss_replay,3,L5,970,0.36126840317100795
+p22,locked_legacy_loss_replay,3,L6a/b,834,0.7057613168724279
+p22,locked_legacy_loss_replay,3,VL,147,0.6351706036745407
+p22,locked_legacy_loss_replay,3,ccg/aco,744,0.7834757834757835
+p22,locked_legacy_loss_replay,3,others,2370,0.4343042071197411
+p22,locked_legacy_loss_replay,4,ACB,1111,0.5624309392265193
+p22,locked_legacy_loss_replay,4,CP,1693,0.8261874197689345
+p22,locked_legacy_loss_replay,4,L1-L3,1023,0.7304537998906507
+p22,locked_legacy_loss_replay,4,L4,304,0.0
+p22,locked_legacy_loss_replay,4,L5,970,0.3782491783686884
+p22,locked_legacy_loss_replay,4,L6a/b,834,0.7058247674987763
+p22,locked_legacy_loss_replay,4,VL,147,0.638961038961039
+p22,locked_legacy_loss_replay,4,ccg/aco,744,0.7440318302387269
+p22,locked_legacy_loss_replay,4,others,2370,0.361839863713799
+p22,locked_legacy_shape_normalized,0,ACB,1111,0.5970475669764899
+p22,locked_legacy_shape_normalized,0,CP,1693,0.8406096615861535
+p22,locked_legacy_shape_normalized,0,L1-L3,1023,0.683066361556064
+p22,locked_legacy_shape_normalized,0,L4,304,0.4270833333333333
+p22,locked_legacy_shape_normalized,0,L5,970,0.0
+p22,locked_legacy_shape_normalized,0,L6a/b,834,0.7166494312306102
+p22,locked_legacy_shape_normalized,0,VL,147,0.06963249516441007
+p22,locked_legacy_shape_normalized,0,ccg/aco,744,0.7885714285714285
+p22,locked_legacy_shape_normalized,0,others,2370,0.5613452356238323
+p22,locked_legacy_shape_normalized,1,ACB,1111,0.6053378762067008
+p22,locked_legacy_shape_normalized,1,CP,1693,0.8298647242455777
+p22,locked_legacy_shape_normalized,1,L1-L3,1023,0.7020915771622386
+p22,locked_legacy_shape_normalized,1,L4,304,0.45720040281973817
+p22,locked_legacy_shape_normalized,1,L5,970,0.3557823129251701
+p22,locked_legacy_shape_normalized,1,L6a/b,834,0.6508078994614004
+p22,locked_legacy_shape_normalized,1,VL,147,0.0
+p22,locked_legacy_shape_normalized,1,ccg/aco,744,0.7937853107344633
+p22,locked_legacy_shape_normalized,1,others,2370,0.36633997972287935
+p22,locked_legacy_shape_normalized,2,ACB,1111,0.6123128119800333
+p22,locked_legacy_shape_normalized,2,CP,1693,0.8374153204794164
+p22,locked_legacy_shape_normalized,2,L1-L3,1023,0.6861768368617684
+p22,locked_legacy_shape_normalized,2,L4,304,0.47374562427071176
+p22,locked_legacy_shape_normalized,2,L5,970,0.0015491866769945777
+p22,locked_legacy_shape_normalized,2,L6a/b,834,0.6792975970425138
+p22,locked_legacy_shape_normalized,2,VL,147,0.08258064516129032
+p22,locked_legacy_shape_normalized,2,ccg/aco,744,0.800580130529369
+p22,locked_legacy_shape_normalized,2,others,2370,0.5680701004488138
+p22,locked_legacy_shape_normalized,3,ACB,1111,0.608540925266904
+p22,locked_legacy_shape_normalized,3,CP,1693,0.8364666494978109
+p22,locked_legacy_shape_normalized,3,L1-L3,1023,0.7169398907103824
+p22,locked_legacy_shape_normalized,3,L4,304,0.0
+p22,locked_legacy_shape_normalized,3,L5,970,0.357888794806661
+p22,locked_legacy_shape_normalized,3,L6a/b,834,0.7027579162410623
+p22,locked_legacy_shape_normalized,3,VL,147,0.6282722513089005
+p22,locked_legacy_shape_normalized,3,ccg/aco,744,0.7870967741935485
+p22,locked_legacy_shape_normalized,3,others,2370,0.4265279583875162
+p22,locked_legacy_shape_normalized,4,ACB,1111,0.5662251655629139
+p22,locked_legacy_shape_normalized,4,CP,1693,0.8295308895155089
+p22,locked_legacy_shape_normalized,4,L1-L3,1023,0.728171334431631
+p22,locked_legacy_shape_normalized,4,L4,304,0.0
+p22,locked_legacy_shape_normalized,4,L5,970,0.37485101311084623
+p22,locked_legacy_shape_normalized,4,L6a/b,834,0.7059401080019637
+p22,locked_legacy_shape_normalized,4,VL,147,0.6354166666666667
+p22,locked_legacy_shape_normalized,4,ccg/aco,744,0.7357992073976222
+p22,locked_legacy_shape_normalized,4,others,2370,0.35592060232717315
+p22,locked_uniform_legacy_scale,0,ACB,1111,0.6038356164383563
+p22,locked_uniform_legacy_scale,0,CP,1693,0.8372819578234835
+p22,locked_uniform_legacy_scale,0,L1-L3,1023,0.7647610121836926
+p22,locked_uniform_legacy_scale,0,L4,304,0.0
+p22,locked_uniform_legacy_scale,0,L5,970,0.00149812734082397
+p22,locked_uniform_legacy_scale,0,L6a/b,834,0.7201625190452006
+p22,locked_uniform_legacy_scale,0,VL,147,0.6246719160104987
+p22,locked_uniform_legacy_scale,0,ccg/aco,744,0.7876169906407487
+p22,locked_uniform_legacy_scale,0,others,2370,0.598018984729674
+p22,locked_uniform_legacy_scale,1,ACB,1111,0.6092865232163082
+p22,locked_uniform_legacy_scale,1,CP,1693,0.8318122555410691
+p22,locked_uniform_legacy_scale,1,L1-L3,1023,0.7024280067758328
+p22,locked_uniform_legacy_scale,1,L4,304,0.45691382765531063
+p22,locked_uniform_legacy_scale,1,L5,970,0.3535457348406989
+p22,locked_uniform_legacy_scale,1,L6a/b,834,0.646112600536193
+p22,locked_uniform_legacy_scale,1,VL,147,0.0
+p22,locked_uniform_legacy_scale,1,ccg/aco,744,0.7960618846694797
+p22,locked_uniform_legacy_scale,1,others,2370,0.3690958164642375
+p22,locked_uniform_legacy_scale,2,ACB,1111,0.6154696132596684
+p22,locked_uniform_legacy_scale,2,CP,1693,0.8365058670143415
+p22,locked_uniform_legacy_scale,2,L1-L3,1023,0.7002457002457002
+p22,locked_uniform_legacy_scale,2,L4,304,0.47706422018348627
+p22,locked_uniform_legacy_scale,2,L5,970,0.0015552099533437014
+p22,locked_uniform_legacy_scale,2,L6a/b,834,0.6773749426342358
+p22,locked_uniform_legacy_scale,2,VL,147,0.0794871794871795
+p22,locked_uniform_legacy_scale,2,ccg/aco,744,0.8071942446043165
+p22,locked_uniform_legacy_scale,2,others,2370,0.5715524718126626
+p22,locked_uniform_legacy_scale,3,ACB,1111,0.6114725014784151
+p22,locked_uniform_legacy_scale,3,CP,1693,0.8351818416301263
+p22,locked_uniform_legacy_scale,3,L1-L3,1023,0.7169398907103824
+p22,locked_uniform_legacy_scale,3,L4,304,0.0
+p22,locked_uniform_legacy_scale,3,L5,970,0.35868331441543694
+p22,locked_uniform_legacy_scale,3,L6a/b,834,0.7049180327868853
+p22,locked_uniform_legacy_scale,3,VL,147,0.6335078534031414
+p22,locked_uniform_legacy_scale,3,ccg/aco,744,0.7854077253218885
+p22,locked_uniform_legacy_scale,3,others,2370,0.4339378238341969
+p22,locked_uniform_legacy_scale,4,ACB,1111,0.5700272479564032
+p22,locked_uniform_legacy_scale,4,CP,1693,0.8300921187308087
+p22,locked_uniform_legacy_scale,4,L1-L3,1023,0.7082184225041368
+p22,locked_uniform_legacy_scale,4,L4,304,0.4309623430962343
+p22,locked_uniform_legacy_scale,4,L5,970,0.0
+p22,locked_uniform_legacy_scale,4,L6a/b,834,0.7166582788122798
+p22,locked_uniform_legacy_scale,4,VL,147,0.08587257617728532
+p22,locked_uniform_legacy_scale,4,ccg/aco,744,0.7875
+p22,locked_uniform_legacy_scale,4,others,2370,0.48005409060175797
+p22,locked_unweighted,0,ACB,1111,0.5972602739726027
+p22,locked_unweighted,0,CP,1693,0.8406395048994326
+p22,locked_unweighted,0,L1-L3,1023,0.6811677160847167
+p22,locked_unweighted,0,L4,304,0.42782969885773625
+p22,locked_unweighted,0,L5,970,0.0015209125475285172
+p22,locked_unweighted,0,L6a/b,834,0.7162162162162162
+p22,locked_unweighted,0,VL,147,0.07003891050583658
+p22,locked_unweighted,0,ccg/aco,744,0.7897362794012829
+p22,locked_unweighted,0,others,2370,0.5610615799295046
+p22,locked_unweighted,1,ACB,1111,0.6066134549600912
+p22,locked_unweighted,1,CP,1693,0.8290263638736622
+p22,locked_unweighted,1,L1-L3,1023,0.733934611048478
+p22,locked_unweighted,1,L4,304,0.0030257186081694403
+p22,locked_unweighted,1,L5,970,0.3826865671641791
+p22,locked_unweighted,1,L6a/b,834,0.643140714600794
+p22,locked_unweighted,1,VL,147,0.6335078534031414
+p22,locked_unweighted,1,ccg/aco,744,0.7855626326963906
+p22,locked_unweighted,1,others,2370,0.37297297297297294
+p22,locked_unweighted,2,ACB,1111,0.6133184107442641
+p22,locked_unweighted,2,CP,1693,0.8371005455962589
+p22,locked_unweighted,2,L1-L3,1023,0.6866043613707165
+p22,locked_unweighted,2,L4,304,0.47264260768335276
+p22,locked_unweighted,2,L5,970,0.0015491866769945777
+p22,locked_unweighted,2,L6a/b,834,0.6796476587853499
+p22,locked_unweighted,2,VL,147,0.08258064516129032
+p22,locked_unweighted,2,ccg/aco,744,0.8011611030478955
+p22,locked_unweighted,2,others,2370,0.567469622681731
+p22,locked_unweighted,3,ACB,1111,0.6023809523809524
+p22,locked_unweighted,3,CP,1693,0.8351761378246336
+p22,locked_unweighted,3,L1-L3,1023,0.6930469191633691
+p22,locked_unweighted,3,L4,304,0.43829787234042555
+p22,locked_unweighted,3,L5,970,0.0
+p22,locked_unweighted,3,L6a/b,834,0.7087682672233822
+p22,locked_unweighted,3,VL,147,0.6329787234042553
+p22,locked_unweighted,3,ccg/aco,744,0.7885304659498208
+p22,locked_unweighted,3,others,2370,0.5959765297569152
+p22,locked_unweighted,4,ACB,1111,0.5717391304347826
+p22,locked_unweighted,4,CP,1693,0.8312419974391806
+p22,locked_unweighted,4,L1-L3,1023,0.7073036792970895
+p22,locked_unweighted,4,L4,304,0.44206008583690987
+p22,locked_unweighted,4,L5,970,0.0
+p22,locked_unweighted,4,L6a/b,834,0.7173038229376258
+p22,locked_unweighted,4,VL,147,0.08659217877094973
+p22,locked_unweighted,4,ccg/aco,744,0.7766179540709812
+p22,locked_unweighted,4,others,2370,0.48204667863554757
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,EVT,59,0.8251748251748251
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,EVT-progenitor,19,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,Endothelial,53,0.9423076923076923
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,Erythroblasts,24,0.25806451612903225
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,FIB1,104,0.8855721393034824
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,FIB2,347,0.7775891341256366
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,Hofbauer cells,225,0.9382151029748284
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,STB,353,0.847723704866562
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,STB-progenitor,40,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,0,vCTB,438,0.8408262454434994
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,EVT,59,0.8194444444444444
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,EVT-progenitor,19,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,Endothelial,53,0.9423076923076923
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,Erythroblasts,24,0.1925133689839572
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,FIB1,104,0.6749999999999999
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,FIB2,347,0.9299552906110282
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,Hofbauer cells,225,0.930648769574944
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,STB,353,0.8244514106583073
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,STB-progenitor,40,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,1,vCTB,438,0.8381430363864493
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,EVT,59,0.8137931034482759
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,EVT-progenitor,19,0.012048192771084336
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,Endothelial,53,0.9433962264150944
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,Erythroblasts,24,0.2675159235668789
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,FIB1,104,0.9246231155778896
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,FIB2,347,0.6976744186046512
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,Hofbauer cells,225,0.9387755102040817
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,STB,353,0.8452950558213718
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,STB-progenitor,40,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,2,vCTB,438,0.8298653610771113
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,EVT,59,0.8194444444444444
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,EVT-progenitor,19,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,Endothelial,53,0.9411764705882353
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,Erythroblasts,24,0.1990049751243781
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,FIB1,104,0.5945945945945945
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,FIB2,347,0.9269005847953217
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,Hofbauer cells,225,0.6775956284153006
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,STB,353,0.8394276629570747
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,STB-progenitor,40,0.015151515151515152
+placenta,locked_asr_hvg_legacy_scale_diagnostic,3,vCTB,438,0.8471720818291215
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,EVT,59,0.8489208633093526
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,EVT-progenitor,19,0.011976047904191617
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,Endothelial,53,0.9306930693069307
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,Erythroblasts,24,0.24203821656050953
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,FIB1,104,0.6225165562913908
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,FIB2,347,0.6644844517184944
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,Hofbauer cells,225,0.9295154185022027
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,STB,353,0.8235294117647058
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,STB-progenitor,40,0.0
+placenta,locked_asr_hvg_legacy_scale_diagnostic,4,vCTB,438,0.8370370370370369
+placenta,locked_legacy_loss_replay,0,EVT,59,0.8137931034482759
+placenta,locked_legacy_loss_replay,0,EVT-progenitor,19,0.0
+placenta,locked_legacy_loss_replay,0,Endothelial,53,0.9333333333333333
+placenta,locked_legacy_loss_replay,0,Erythroblasts,24,0.18848167539267016
+placenta,locked_legacy_loss_replay,0,FIB1,104,0.5906040268456376
+placenta,locked_legacy_loss_replay,0,FIB2,347,0.7181328545780968
+placenta,locked_legacy_loss_replay,0,Hofbauer cells,225,0.9321663019693653
+placenta,locked_legacy_loss_replay,0,STB,353,0.8522012578616353
+placenta,locked_legacy_loss_replay,0,STB-progenitor,40,0.0
+placenta,locked_legacy_loss_replay,0,vCTB,438,0.8550898203592815
+placenta,locked_legacy_loss_replay,1,EVT,59,0.8194444444444444
+placenta,locked_legacy_loss_replay,1,EVT-progenitor,19,0.0
+placenta,locked_legacy_loss_replay,1,Endothelial,53,0.9333333333333333
+placenta,locked_legacy_loss_replay,1,Erythroblasts,24,0.26250000000000007
+placenta,locked_legacy_loss_replay,1,FIB1,104,0.6875
+placenta,locked_legacy_loss_replay,1,FIB2,347,0.944206008583691
+placenta,locked_legacy_loss_replay,1,Hofbauer cells,225,0.9241071428571428
+placenta,locked_legacy_loss_replay,1,STB,353,0.8282504012841092
+placenta,locked_legacy_loss_replay,1,STB-progenitor,40,0.0
+placenta,locked_legacy_loss_replay,1,vCTB,438,0.8391089108910891
+placenta,locked_legacy_loss_replay,2,EVT,59,0.8137931034482759
+placenta,locked_legacy_loss_replay,2,EVT-progenitor,19,0.011904761904761906
+placenta,locked_legacy_loss_replay,2,Endothelial,53,0.9433962264150944
+placenta,locked_legacy_loss_replay,2,Erythroblasts,24,0.2777777777777778
+placenta,locked_legacy_loss_replay,2,FIB1,104,0.9313725490196078
+placenta,locked_legacy_loss_replay,2,FIB2,347,0.7001795332136446
+placenta,locked_legacy_loss_replay,2,Hofbauer cells,225,0.9438202247191012
+placenta,locked_legacy_loss_replay,2,STB,353,0.8421052631578948
+placenta,locked_legacy_loss_replay,2,STB-progenitor,40,0.0
+placenta,locked_legacy_loss_replay,2,vCTB,438,0.8349514563106796
+placenta,locked_legacy_loss_replay,3,EVT,59,0.8194444444444444
+placenta,locked_legacy_loss_replay,3,EVT-progenitor,19,0.0
+placenta,locked_legacy_loss_replay,3,Endothelial,53,0.9504950495049505
+placenta,locked_legacy_loss_replay,3,Erythroblasts,24,0.19999999999999998
+placenta,locked_legacy_loss_replay,3,FIB1,104,0.5850340136054422
+placenta,locked_legacy_loss_replay,3,FIB2,347,0.7075812274368231
+placenta,locked_legacy_loss_replay,3,Hofbauer cells,225,0.9362637362637363
+placenta,locked_legacy_loss_replay,3,STB,353,0.8357256778309411
+placenta,locked_legacy_loss_replay,3,STB-progenitor,40,0.0
+placenta,locked_legacy_loss_replay,3,vCTB,438,0.8464328899637242
+placenta,locked_legacy_loss_replay,4,EVT,59,0.8489208633093526
+placenta,locked_legacy_loss_replay,4,EVT-progenitor,19,0.012195121951219513
+placenta,locked_legacy_loss_replay,4,Endothelial,53,0.9333333333333333
+placenta,locked_legacy_loss_replay,4,Erythroblasts,24,0.26415094339622647
+placenta,locked_legacy_loss_replay,4,FIB1,104,0.8979591836734695
+placenta,locked_legacy_loss_replay,4,FIB2,347,0.7256637168141594
+placenta,locked_legacy_loss_replay,4,Hofbauer cells,225,0.9251101321585904
+placenta,locked_legacy_loss_replay,4,STB,353,0.8081761006289309
+placenta,locked_legacy_loss_replay,4,STB-progenitor,40,0.0
+placenta,locked_legacy_loss_replay,4,vCTB,438,0.849624060150376
+placenta,locked_legacy_shape_normalized,0,EVT,59,0.8358208955223881
+placenta,locked_legacy_shape_normalized,0,EVT-progenitor,19,0.012422360248447206
+placenta,locked_legacy_shape_normalized,0,Endothelial,53,0.8627450980392157
+placenta,locked_legacy_shape_normalized,0,Erythroblasts,24,0.12709030100334448
+placenta,locked_legacy_shape_normalized,0,FIB1,104,0.5753424657534247
+placenta,locked_legacy_shape_normalized,0,FIB2,347,0.6442953020134228
+placenta,locked_legacy_shape_normalized,0,Hofbauer cells,225,0.8232323232323232
+placenta,locked_legacy_shape_normalized,0,STB,353,0.8038277511961721
+placenta,locked_legacy_shape_normalized,0,STB-progenitor,40,0.0
+placenta,locked_legacy_shape_normalized,0,vCTB,438,0.7387387387387387
+placenta,locked_legacy_shape_normalized,1,EVT,59,0.8925619834710744
+placenta,locked_legacy_shape_normalized,1,EVT-progenitor,19,0.0
+placenta,locked_legacy_shape_normalized,1,Endothelial,53,0.912621359223301
+placenta,locked_legacy_shape_normalized,1,Erythroblasts,24,0.12377850162866451
+placenta,locked_legacy_shape_normalized,1,FIB1,104,0.6052631578947368
+placenta,locked_legacy_shape_normalized,1,FIB2,347,0.6523178807947021
+placenta,locked_legacy_shape_normalized,1,Hofbauer cells,225,0.8132992327365729
+placenta,locked_legacy_shape_normalized,1,STB,353,0.7831513260530422
+placenta,locked_legacy_shape_normalized,1,STB-progenitor,40,0.0
+placenta,locked_legacy_shape_normalized,1,vCTB,438,0.7964148527528809
+placenta,locked_legacy_shape_normalized,2,EVT,59,0.8194444444444444
+placenta,locked_legacy_shape_normalized,2,EVT-progenitor,19,0.009900990099009901
+placenta,locked_legacy_shape_normalized,2,Endothelial,53,0.6984126984126985
+placenta,locked_legacy_shape_normalized,2,Erythroblasts,24,0.023121387283236997
+placenta,locked_legacy_shape_normalized,2,FIB1,104,0.6103896103896104
+placenta,locked_legacy_shape_normalized,2,FIB2,347,0.4817813765182187
+placenta,locked_legacy_shape_normalized,2,Hofbauer cells,225,0.45643153526970953
+placenta,locked_legacy_shape_normalized,2,STB,353,0.820754716981132
+placenta,locked_legacy_shape_normalized,2,STB-progenitor,40,0.0
+placenta,locked_legacy_shape_normalized,2,vCTB,438,0.8004895960832312
+placenta,locked_legacy_shape_normalized,3,EVT,59,0.8285714285714285
+placenta,locked_legacy_shape_normalized,3,EVT-progenitor,19,0.0
+placenta,locked_legacy_shape_normalized,3,Endothelial,53,0.9183673469387755
+placenta,locked_legacy_shape_normalized,3,Erythroblasts,24,0.13008130081300812
+placenta,locked_legacy_shape_normalized,3,FIB1,104,0.581081081081081
+placenta,locked_legacy_shape_normalized,3,FIB2,347,0.6320610687022901
+placenta,locked_legacy_shape_normalized,3,Hofbauer cells,225,0.8163265306122448
+placenta,locked_legacy_shape_normalized,3,STB,353,0.8083067092651757
+placenta,locked_legacy_shape_normalized,3,STB-progenitor,40,0.0
+placenta,locked_legacy_shape_normalized,3,vCTB,438,0.8034825870646767
+placenta,locked_legacy_shape_normalized,4,EVT,59,0.8444444444444443
+placenta,locked_legacy_shape_normalized,4,EVT-progenitor,19,0.0
+placenta,locked_legacy_shape_normalized,4,Endothelial,53,0.8333333333333334
+placenta,locked_legacy_shape_normalized,4,Erythroblasts,24,0.13194444444444445
+placenta,locked_legacy_shape_normalized,4,FIB1,104,0.5850340136054422
+placenta,locked_legacy_shape_normalized,4,FIB2,347,0.630048465266559
+placenta,locked_legacy_shape_normalized,4,Hofbauer cells,225,0.8691588785046729
+placenta,locked_legacy_shape_normalized,4,STB,353,0.7784810126582278
+placenta,locked_legacy_shape_normalized,4,STB-progenitor,40,0.0
+placenta,locked_legacy_shape_normalized,4,vCTB,438,0.7820343461030383
+placenta,locked_uniform_legacy_scale,0,EVT,59,0.8309859154929577
+placenta,locked_uniform_legacy_scale,0,EVT-progenitor,19,0.0
+placenta,locked_uniform_legacy_scale,0,Endothelial,53,0.9514563106796116
+placenta,locked_uniform_legacy_scale,0,Erythroblasts,24,0.25806451612903225
+placenta,locked_uniform_legacy_scale,0,FIB1,104,0.8899999999999999
+placenta,locked_uniform_legacy_scale,0,FIB2,347,0.7837837837837838
+placenta,locked_uniform_legacy_scale,0,Hofbauer cells,225,0.9406392694063926
+placenta,locked_uniform_legacy_scale,0,STB,353,0.8522012578616353
+placenta,locked_uniform_legacy_scale,0,STB-progenitor,40,0.0
+placenta,locked_uniform_legacy_scale,0,vCTB,438,0.8422330097087378
+placenta,locked_uniform_legacy_scale,1,EVT,59,0.8489208633093526
+placenta,locked_uniform_legacy_scale,1,EVT-progenitor,19,0.0
+placenta,locked_uniform_legacy_scale,1,Endothelial,53,0.9423076923076923
+placenta,locked_uniform_legacy_scale,1,Erythroblasts,24,0.2011173184357542
+placenta,locked_uniform_legacy_scale,1,FIB1,104,0.6749999999999999
+placenta,locked_uniform_legacy_scale,1,FIB2,347,0.9285714285714285
+placenta,locked_uniform_legacy_scale,1,Hofbauer cells,225,0.930957683741648
+placenta,locked_uniform_legacy_scale,1,STB,353,0.8294209702660407
+placenta,locked_uniform_legacy_scale,1,STB-progenitor,40,0.0
+placenta,locked_uniform_legacy_scale,1,vCTB,438,0.8493150684931507
+placenta,locked_uniform_legacy_scale,2,EVT,59,0.8194444444444444
+placenta,locked_uniform_legacy_scale,2,EVT-progenitor,19,0.012658227848101266
+placenta,locked_uniform_legacy_scale,2,Endothelial,53,0.9433962264150944
+placenta,locked_uniform_legacy_scale,2,Erythroblasts,24,0.25974025974025977
+placenta,locked_uniform_legacy_scale,2,FIB1,104,0.9353233830845771
+placenta,locked_uniform_legacy_scale,2,FIB2,347,0.7079646017699115
+placenta,locked_uniform_legacy_scale,2,Hofbauer cells,225,0.9387755102040817
+placenta,locked_uniform_legacy_scale,2,STB,353,0.8439490445859873
+placenta,locked_uniform_legacy_scale,2,STB-progenitor,40,0.0
+placenta,locked_uniform_legacy_scale,2,vCTB,438,0.8337408312958436
+placenta,locked_uniform_legacy_scale,3,EVT,59,0.8251748251748251
+placenta,locked_uniform_legacy_scale,3,EVT-progenitor,19,0.012195121951219513
+placenta,locked_uniform_legacy_scale,3,Endothelial,53,0.9411764705882353
+placenta,locked_uniform_legacy_scale,3,Erythroblasts,24,0.20100502512562812
+placenta,locked_uniform_legacy_scale,3,FIB1,104,0.5850340136054422
+placenta,locked_uniform_legacy_scale,3,FIB2,347,0.7018181818181818
+placenta,locked_uniform_legacy_scale,3,Hofbauer cells,225,0.9377777777777777
+placenta,locked_uniform_legacy_scale,3,STB,353,0.8375796178343949
+placenta,locked_uniform_legacy_scale,3,STB-progenitor,40,0.0
+placenta,locked_uniform_legacy_scale,3,vCTB,438,0.8485576923076923
+placenta,locked_uniform_legacy_scale,4,EVT,59,0.855072463768116
+placenta,locked_uniform_legacy_scale,4,EVT-progenitor,19,0.012048192771084336
+placenta,locked_uniform_legacy_scale,4,Endothelial,53,0.9306930693069307
+placenta,locked_uniform_legacy_scale,4,Erythroblasts,24,0.25477707006369427
+placenta,locked_uniform_legacy_scale,4,FIB1,104,0.6040268456375839
+placenta,locked_uniform_legacy_scale,4,FIB2,347,0.6623164763458401
+placenta,locked_uniform_legacy_scale,4,Hofbauer cells,225,0.9298245614035088
+placenta,locked_uniform_legacy_scale,4,STB,353,0.8253968253968254
+placenta,locked_uniform_legacy_scale,4,STB-progenitor,40,0.0
+placenta,locked_uniform_legacy_scale,4,vCTB,438,0.8380716934487021
+placenta,locked_unweighted,0,EVT,59,0.8270676691729323
+placenta,locked_unweighted,0,EVT-progenitor,19,0.0
+placenta,locked_unweighted,0,Endothelial,53,0.3042071197411004
+placenta,locked_unweighted,0,Erythroblasts,24,0.12307692307692307
+placenta,locked_unweighted,0,FIB1,104,0.5655172413793104
+placenta,locked_unweighted,0,FIB2,347,0.40353982300884955
+placenta,locked_unweighted,0,Hofbauer cells,225,0.639225181598063
+placenta,locked_unweighted,0,STB,353,0.7890499194847022
+placenta,locked_unweighted,0,STB-progenitor,40,0.061224489795918366
+placenta,locked_unweighted,0,vCTB,438,0.7342747111681645
+placenta,locked_unweighted,1,EVT,59,0.8717948717948718
+placenta,locked_unweighted,1,EVT-progenitor,19,0.0
+placenta,locked_unweighted,1,Endothelial,53,0.8761904761904762
+placenta,locked_unweighted,1,Erythroblasts,24,0.13333333333333336
+placenta,locked_unweighted,1,FIB1,104,0.6
+placenta,locked_unweighted,1,FIB2,347,0.7699115044247788
+placenta,locked_unweighted,1,Hofbauer cells,225,0.7971014492753622
+placenta,locked_unweighted,1,STB,353,0.766355140186916
+placenta,locked_unweighted,1,STB-progenitor,40,0.03076923076923077
+placenta,locked_unweighted,1,vCTB,438,0.7602649006622516
+placenta,locked_unweighted,2,EVT,59,0.8592592592592594
+placenta,locked_unweighted,2,EVT-progenitor,19,0.0945945945945946
+placenta,locked_unweighted,2,Endothelial,53,0.6825396825396826
+placenta,locked_unweighted,2,Erythroblasts,24,0.11715481171548116
+placenta,locked_unweighted,2,FIB1,104,0.5906040268456376
+placenta,locked_unweighted,2,FIB2,347,0.6051282051282052
+placenta,locked_unweighted,2,Hofbauer cells,225,0.4903846153846153
+placenta,locked_unweighted,2,STB,353,0.804416403785489
+placenta,locked_unweighted,2,STB-progenitor,40,0.0
+placenta,locked_unweighted,2,vCTB,438,0.7797029702970297
+placenta,locked_unweighted,3,EVT,59,0.8358208955223881
+placenta,locked_unweighted,3,EVT-progenitor,19,0.0
+placenta,locked_unweighted,3,Endothelial,53,0.8958333333333334
+placenta,locked_unweighted,3,Erythroblasts,24,0.0962962962962963
+placenta,locked_unweighted,3,FIB1,104,0.5753424657534247
+placenta,locked_unweighted,3,FIB2,347,0.6128550074738416
+placenta,locked_unweighted,3,Hofbauer cells,225,0.5523809523809524
+placenta,locked_unweighted,3,STB,353,0.8012820512820512
+placenta,locked_unweighted,3,STB-progenitor,40,0.0
+placenta,locked_unweighted,3,vCTB,438,0.8014888337468982
+placenta,locked_unweighted,4,EVT,59,0.7913669064748202
+placenta,locked_unweighted,4,EVT-progenitor,19,0.02843601895734597
+placenta,locked_unweighted,4,Endothelial,53,0.8367346938775511
+placenta,locked_unweighted,4,Erythroblasts,24,0.11920529801324505
+placenta,locked_unweighted,4,FIB1,104,0.5850340136054422
+placenta,locked_unweighted,4,FIB2,347,0.5226860254083484
+placenta,locked_unweighted,4,Hofbauer cells,225,0.4157303370786517
+placenta,locked_unweighted,4,STB,353,0.780564263322884
+placenta,locked_unweighted,4,STB-progenitor,40,0.0
+placenta,locked_unweighted,4,vCTB,438,0.7747035573122529

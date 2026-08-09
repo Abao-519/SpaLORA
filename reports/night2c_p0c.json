@@ -1,0 +1,2989 @@
+{
+  "critical_hashes": {
+    "SpaLORA/SpaLORA_pyG.py": "8c250e4761b21af1166c2afe749a461da447056ea52b6f88fdbb07c9a7ccadb7",
+    "SpaLORA/model.py": "0eabca19ae6cec2b3da8a8fbeb811546db0f6ce199c4485705279bf88206c8ea",
+    "SpaLORA/night2b_loss_audit.py": "e6547fa4f1d6e482fe69d09770216b7575939faa6ce8c0e2afe47dae0482d5ba",
+    "SpaLORA/night2c_loss_audit.py": "85a81b9fe0499b1c9b027e2d36a0bffd5b199a39eadc1595dd0a09ccd14b2615",
+    "SpaLORA/preprocess.py": "359ddbbc57fcb5704a0de60c83d68aced0ad2df351f383d82d2cb58dc385cb97",
+    "configs/night2c_numerical_equivalence_factorial.json": "43a5a458986a87b5b4642c28c7c970ae8042a7224c1724c04a95af5ce1ee3051",
+    "input:a1:ground_truth": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+    "input:a1:modality2": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+    "input:a1:rna": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+    "input:p22:ground_truth": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+    "input:p22:modality2": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+    "input:p22:rna": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+    "input:placenta:modality2": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+    "input:placenta:rna": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+    "scripts/night2c_factorial.py": "7fef36247a6c4324cda06af7397a02513ca41544197795781963b970984b8476",
+    "scripts/night2c_p0c_gate.py": "e0bd3b41d8aff832ca4236e8705b733f2e6618ed3b123415827c0899c8ec35c3"
+  },
+  "datasets": {
+    "a1": {
+      "consumed_state": {
+        "dense_tensors": {
+          "features_omics1": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "f4557356b515b160bef9e103ce8c17c0bd3b6ec464c4ff029ded8f854d3a03b2",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "f4557356b515b160bef9e103ce8c17c0bd3b6ec464c4ff029ded8f854d3a03b2",
+            "shape": [
+              3484,
+              3000
+            ]
+          },
+          "features_omics2": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "c39c0c09def3fce91de7756c48c8f7ea9be0e49a55c355bd6dde117882d5616e",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "c39c0c09def3fce91de7756c48c8f7ea9be0e49a55c355bd6dde117882d5616e",
+            "shape": [
+              3484,
+              30
+            ]
+          },
+          "legacy_bug_weight_vector": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "73b042381450c4db676483da448d888c03f9ed514a60a8b61c7c7967f777d01b",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "73b042381450c4db676483da448d888c03f9ed514a60a8b61c7c7967f777d01b",
+            "shape": [
+              3000
+            ]
+          }
+        },
+        "initial_model_state": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                3000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                30
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                64
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                30,
+                64
+              ]
+            }
+          }
+        },
+        "m_bad": 2.28993821144104,
+        "m_bad_expected": 2.289938091,
+        "m_bad_pass": true,
+        "m_bad_tolerance": 1e-06,
+        "observation_count": 3484,
+        "observation_ids_exact": true,
+        "ordered_gene_names_count": 3000,
+        "ordered_gene_names_exact": true,
+        "pass": true,
+        "settings": {
+          "embedding_dimension_exact": true,
+          "epochs_exact": true,
+          "learning_rate": 0.0001,
+          "loss_factors_exact": true,
+          "optimizer": "torch.optim.Adam",
+          "weight_decay": 0.0
+        },
+        "sparse_adjacencies": {
+          "adj_feature_omics1": {
+            "first_nnz": 116532,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "c88fe53a6fa9abf297c3bae914c54a1b96fd81780a0ed49eee99e1270be08d1f",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "c88fe53a6fa9abf297c3bae914c54a1b96fd81780a0ed49eee99e1270be08d1f",
+              "shape": [
+                2,
+                116532
+              ]
+            },
+            "pass": true,
+            "second_nnz": 116532,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "14a635ea4a05b7315110b26c3f17857017fdd925bf6dce4fe7252151890dd5f9",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "14a635ea4a05b7315110b26c3f17857017fdd925bf6dce4fe7252151890dd5f9",
+              "shape": [
+                116532
+              ]
+            }
+          },
+          "adj_feature_omics2": {
+            "first_nnz": 107038,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "7d9ae628a8f61216893a4be4ed335d0e5a5ab6f1d6f4645c93987f0d343837a9",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "7d9ae628a8f61216893a4be4ed335d0e5a5ab6f1d6f4645c93987f0d343837a9",
+              "shape": [
+                2,
+                107038
+              ]
+            },
+            "pass": true,
+            "second_nnz": 107038,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "742cf5d9744dadd622749444790205b844fbf7158f148d42a9c15d7941779cd5",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "742cf5d9744dadd622749444790205b844fbf7158f148d42a9c15d7941779cd5",
+              "shape": [
+                107038
+              ]
+            }
+          },
+          "adj_spatial_omics1": {
+            "first_nnz": 71132,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "c46a005a68233bd5da2c64afde818734c0377324e390ac6c40474974ecab430a",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "c46a005a68233bd5da2c64afde818734c0377324e390ac6c40474974ecab430a",
+              "shape": [
+                2,
+                71132
+              ]
+            },
+            "pass": true,
+            "second_nnz": 71132,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "486ac70edea27c0d3214db4d34e3a1ac52db1bcf04d1cb14331725ff396c7ff3",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "486ac70edea27c0d3214db4d34e3a1ac52db1bcf04d1cb14331725ff396c7ff3",
+              "shape": [
+                71132
+              ]
+            }
+          },
+          "adj_spatial_omics2": {
+            "first_nnz": 71132,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "c46a005a68233bd5da2c64afde818734c0377324e390ac6c40474974ecab430a",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "c46a005a68233bd5da2c64afde818734c0377324e390ac6c40474974ecab430a",
+              "shape": [
+                2,
+                71132
+              ]
+            },
+            "pass": true,
+            "second_nnz": 71132,
+            "shape": [
+              3484,
+              3484
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "486ac70edea27c0d3214db4d34e3a1ac52db1bcf04d1cb14331725ff396c7ff3",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "486ac70edea27c0d3214db4d34e3a1ac52db1bcf04d1cb14331725ff396c7ff3",
+              "shape": [
+                71132
+              ]
+            }
+          }
+        }
+      },
+      "cpu_independent_one_step": {
+        "adam_state": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_cross.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_cross.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_cross.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_cross.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_cross.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics1.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics1.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics1.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics1.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics1.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics1.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics2.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics2.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics2.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics2.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics2.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics2.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "decoder_omics1.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                3000
+              ]
+            },
+            "decoder_omics1.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                3000
+              ]
+            },
+            "decoder_omics1.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "decoder_omics2.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                30
+              ]
+            },
+            "decoder_omics2.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                30
+              ]
+            },
+            "decoder_omics2.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "encoder_omics1.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                64
+              ]
+            },
+            "encoder_omics1.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                64
+              ]
+            },
+            "encoder_omics1.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "encoder_omics2.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                30,
+                64
+              ]
+            },
+            "encoder_omics2.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                30,
+                64
+              ]
+            },
+            "encoder_omics2.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            }
+          }
+        },
+        "gradients": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                3000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                30
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                64
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                30,
+                64
+              ]
+            }
+          }
+        },
+        "loss_components": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "corr1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "corr2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "mod2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "rna": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "total": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            }
+          }
+        },
+        "outputs": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "alpha": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "emb_latent_combined": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_latent_omics1_across_recon": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_latent_omics2_across_recon": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_recon_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                3000
+              ]
+            },
+            "emb_recon_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3484,
+                30
+              ]
+            }
+          }
+        },
+        "pass": true,
+        "updated_parameters": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                64
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                3000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                64,
+                30
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                64
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                30,
+                64
+              ]
+            }
+          }
+        }
+      },
+      "deterministic_algorithm_probe": {
+        "dataset": "a1",
+        "descriptive_only": true,
+        "exit_status": 0,
+        "gradient_max_absolute_difference": 4.470348358154297e-08,
+        "ground_truth_accessed": false,
+        "output_max_absolute_difference": 4.76837158203125e-07,
+        "success": true
+      },
+      "gpu_envelope": {
+        "cell_count": 40,
+        "failed_cells": [],
+        "pass": true
+      },
+      "pass": true,
+      "shared_forward_v3": {
+        "generalized_values": {
+          "corr1": 0.13512618839740753,
+          "corr2": 0.20758964121341705,
+          "mod2": 1.0548086166381836,
+          "rna": 2.293191432952881,
+          "total": 9.27267074584961
+        },
+        "names_exact": true,
+        "operation_descriptions": {
+          "generalized_v3_rna": "mean(squared_error * legacy_bug_weight_vector(features_omics1).unsqueeze(0))",
+          "public_rna": "mean((features_omics1 - emb_recon_omics1)**2 * public_weight_vector.unsqueeze(0))",
+          "shared_graph": "both formulae consumed the identical result dict from one model forward",
+          "total": "f0*rna + f1*modality2_mse + f2*corr1_mse + f3*corr2_mse"
+        },
+        "pass": true,
+        "public_values": {
+          "corr1": 0.13512618839740753,
+          "corr2": 0.20758964121341705,
+          "mod2": 1.0548086166381836,
+          "rna": 2.293191432952881,
+          "total": 9.27267074584961
+        },
+        "tensors": {
+          "corr1": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "corr2": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "gene_weights": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": [
+              3000
+            ]
+          },
+          "m_bad": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "mod2": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "rna": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "total": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          }
+        }
+      }
+    },
+    "p22": {
+      "consumed_state": {
+        "dense_tensors": {
+          "features_omics1": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "e9e1d607c8b5d2d8bc222304150e5296c23a11dc4bb2032d6db277e91bbf6bf6",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "e9e1d607c8b5d2d8bc222304150e5296c23a11dc4bb2032d6db277e91bbf6bf6",
+            "shape": [
+              9196,
+              2000
+            ]
+          },
+          "features_omics2": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "805b792cada9a398ada0114c22c2c76e34aa18f274cb04a24b7d817f7029579c",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "805b792cada9a398ada0114c22c2c76e34aa18f274cb04a24b7d817f7029579c",
+            "shape": [
+              9196,
+              50
+            ]
+          },
+          "legacy_bug_weight_vector": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "5be3621a3778ed5b5d1340568cb9e2a067fd97d656ad6a1ba163c2cdd9dbc01d",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "5be3621a3778ed5b5d1340568cb9e2a067fd97d656ad6a1ba163c2cdd9dbc01d",
+            "shape": [
+              2000
+            ]
+          }
+        },
+        "initial_model_state": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                2000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                50
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                2000,
+                128
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                50,
+                128
+              ]
+            }
+          }
+        },
+        "m_bad": 2.290322780609131,
+        "m_bad_expected": 2.29032296,
+        "m_bad_pass": true,
+        "m_bad_tolerance": 1e-06,
+        "observation_count": 9196,
+        "observation_ids_exact": true,
+        "ordered_gene_names_count": 2000,
+        "ordered_gene_names_exact": true,
+        "pass": true,
+        "settings": {
+          "embedding_dimension_exact": true,
+          "epochs_exact": true,
+          "learning_rate": 0.0001,
+          "loss_factors_exact": true,
+          "optimizer": "torch.optim.Adam",
+          "weight_decay": 0.0
+        },
+        "sparse_adjacencies": {
+          "adj_feature_omics1": {
+            "first_nnz": 283498,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "695c4d017b3a98443a2311aeb0bf86ca5ba36ae04589703d45faf6384c12136b",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "695c4d017b3a98443a2311aeb0bf86ca5ba36ae04589703d45faf6384c12136b",
+              "shape": [
+                2,
+                283498
+              ]
+            },
+            "pass": true,
+            "second_nnz": 283498,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "d972b0bf4e281ee1db8dde0766c7a8a75191f81cb004b963a87983b7bc5680dd",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "d972b0bf4e281ee1db8dde0766c7a8a75191f81cb004b963a87983b7bc5680dd",
+              "shape": [
+                283498
+              ]
+            }
+          },
+          "adj_feature_omics2": {
+            "first_nnz": 290294,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "c9f7e45dae6846c68109de3823aae712570ff585303192f52e51545cec9f4fd1",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "c9f7e45dae6846c68109de3823aae712570ff585303192f52e51545cec9f4fd1",
+              "shape": [
+                2,
+                290294
+              ]
+            },
+            "pass": true,
+            "second_nnz": 290294,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "411447b51ed69ee10765ec54ee9b66eab187c8a2dcfaa4c5f5042909b5b4f234",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "411447b51ed69ee10765ec54ee9b66eab187c8a2dcfaa4c5f5042909b5b4f234",
+              "shape": [
+                290294
+              ]
+            }
+          },
+          "adj_spatial_omics1": {
+            "first_nnz": 172740,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "33453a8460b3da9380e3021082d645e0a909bf651e69bd54bdbeb90b3fb9dfcf",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "33453a8460b3da9380e3021082d645e0a909bf651e69bd54bdbeb90b3fb9dfcf",
+              "shape": [
+                2,
+                172740
+              ]
+            },
+            "pass": true,
+            "second_nnz": 172740,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "ce88db8bf37f3288c2e59e24b41a04a98eb644e86adf07c5ef14398fa8b7534b",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "ce88db8bf37f3288c2e59e24b41a04a98eb644e86adf07c5ef14398fa8b7534b",
+              "shape": [
+                172740
+              ]
+            }
+          },
+          "adj_spatial_omics2": {
+            "first_nnz": 172740,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "33453a8460b3da9380e3021082d645e0a909bf651e69bd54bdbeb90b3fb9dfcf",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "33453a8460b3da9380e3021082d645e0a909bf651e69bd54bdbeb90b3fb9dfcf",
+              "shape": [
+                2,
+                172740
+              ]
+            },
+            "pass": true,
+            "second_nnz": 172740,
+            "shape": [
+              9196,
+              9196
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "ce88db8bf37f3288c2e59e24b41a04a98eb644e86adf07c5ef14398fa8b7534b",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "ce88db8bf37f3288c2e59e24b41a04a98eb644e86adf07c5ef14398fa8b7534b",
+              "shape": [
+                172740
+              ]
+            }
+          }
+        }
+      },
+      "cpu_independent_one_step": {
+        "adam_state": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_cross.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_cross.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_cross.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics1.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics1.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics2.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics2.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "decoder_omics1.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                2000
+              ]
+            },
+            "decoder_omics1.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                2000
+              ]
+            },
+            "decoder_omics1.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "decoder_omics2.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                50
+              ]
+            },
+            "decoder_omics2.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                50
+              ]
+            },
+            "decoder_omics2.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "encoder_omics1.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                2000,
+                128
+              ]
+            },
+            "encoder_omics1.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                2000,
+                128
+              ]
+            },
+            "encoder_omics1.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "encoder_omics2.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                50,
+                128
+              ]
+            },
+            "encoder_omics2.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                50,
+                128
+              ]
+            },
+            "encoder_omics2.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            }
+          }
+        },
+        "gradients": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                2000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                50
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                2000,
+                128
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                50,
+                128
+              ]
+            }
+          }
+        },
+        "loss_components": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "corr1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "corr2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "mod2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "rna": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "total": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            }
+          }
+        },
+        "outputs": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "alpha": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "emb_latent_combined": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_latent_omics1_across_recon": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_latent_omics2_across_recon": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_recon_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                2000
+              ]
+            },
+            "emb_recon_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                9196,
+                50
+              ]
+            }
+          }
+        },
+        "pass": true,
+        "updated_parameters": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                2000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                50
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                2000,
+                128
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                50,
+                128
+              ]
+            }
+          }
+        }
+      },
+      "deterministic_algorithm_probe": {
+        "dataset": "p22",
+        "descriptive_only": true,
+        "exit_status": 0,
+        "gradient_max_absolute_difference": 3.725290298461914e-09,
+        "ground_truth_accessed": false,
+        "output_max_absolute_difference": 4.76837158203125e-07,
+        "success": true
+      },
+      "gpu_envelope": {
+        "cell_count": 40,
+        "failed_cells": [],
+        "pass": true
+      },
+      "pass": true,
+      "shared_forward_v3": {
+        "generalized_values": {
+          "corr1": 0.0868368074297905,
+          "corr2": 0.10815943777561188,
+          "mod2": 1.0457465648651123,
+          "rna": 2.296734571456909,
+          "total": 8.912248611450195
+        },
+        "names_exact": true,
+        "operation_descriptions": {
+          "generalized_v3_rna": "mean(squared_error * legacy_bug_weight_vector(features_omics1).unsqueeze(0))",
+          "public_rna": "mean((features_omics1 - emb_recon_omics1)**2 * public_weight_vector.unsqueeze(0))",
+          "shared_graph": "both formulae consumed the identical result dict from one model forward",
+          "total": "f0*rna + f1*modality2_mse + f2*corr1_mse + f3*corr2_mse"
+        },
+        "pass": true,
+        "public_values": {
+          "corr1": 0.0868368074297905,
+          "corr2": 0.10815943777561188,
+          "mod2": 1.0457465648651123,
+          "rna": 2.296734571456909,
+          "total": 8.912248611450195
+        },
+        "tensors": {
+          "corr1": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "corr2": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "gene_weights": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": [
+              2000
+            ]
+          },
+          "m_bad": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "mod2": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "rna": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "total": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          }
+        }
+      }
+    },
+    "placenta": {
+      "consumed_state": {
+        "dense_tensors": {
+          "features_omics1": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "455000f1c9fa11929ffdc76269c8cdc67b77db201e3b6e1e6609991ebfcbd79a",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "455000f1c9fa11929ffdc76269c8cdc67b77db201e3b6e1e6609991ebfcbd79a",
+            "shape": [
+              1662,
+              3000
+            ]
+          },
+          "features_omics2": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "b7471ede453c7d4ff58bf6efa341c0fbe0cb67e6924efafbf454cc80c98c5c7b",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "b7471ede453c7d4ff58bf6efa341c0fbe0cb67e6924efafbf454cc80c98c5c7b",
+            "shape": [
+              1662,
+              62
+            ]
+          },
+          "legacy_bug_weight_vector": {
+            "allclose": true,
+            "dtype": "torch.float32",
+            "exact_equal": true,
+            "exact_required": true,
+            "first_sha256": "b4cd960bef29f3eb526b358b4087233f8b66d935ac7e5cdd48f58bdec09c89da",
+            "max_absolute_difference": 0.0,
+            "max_relative_difference": 0.0,
+            "pass": true,
+            "second_sha256": "b4cd960bef29f3eb526b358b4087233f8b66d935ac7e5cdd48f58bdec09c89da",
+            "shape": [
+              3000
+            ]
+          }
+        },
+        "initial_model_state": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                3000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                62
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                128
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                62,
+                128
+              ]
+            }
+          }
+        },
+        "m_bad": 2.28993821144104,
+        "m_bad_expected": 2.289938091,
+        "m_bad_pass": true,
+        "m_bad_tolerance": 1e-06,
+        "observation_count": 1662,
+        "observation_ids_exact": true,
+        "ordered_gene_names_count": 3000,
+        "ordered_gene_names_exact": true,
+        "pass": true,
+        "settings": {
+          "embedding_dimension_exact": true,
+          "epochs_exact": true,
+          "learning_rate": 0.0001,
+          "loss_factors_exact": true,
+          "optimizer": "torch.optim.Adam",
+          "weight_decay": 0.0
+        },
+        "sparse_adjacencies": {
+          "adj_feature_omics1": {
+            "first_nnz": 50028,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "ac5a31b599388fc05a368e4340fd8dafb2a8a3b75e3d5eec860c7b504825dcd2",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "ac5a31b599388fc05a368e4340fd8dafb2a8a3b75e3d5eec860c7b504825dcd2",
+              "shape": [
+                2,
+                50028
+              ]
+            },
+            "pass": true,
+            "second_nnz": 50028,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "04b3455d3fffe179c5f055e25d71894178c9bda5952195f3b33395b891ff5588",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "04b3455d3fffe179c5f055e25d71894178c9bda5952195f3b33395b891ff5588",
+              "shape": [
+                50028
+              ]
+            }
+          },
+          "adj_feature_omics2": {
+            "first_nnz": 46488,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "95a61a43f034d685357e824431ade43b6aed77a7f20135d1289682791736dcae",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "95a61a43f034d685357e824431ade43b6aed77a7f20135d1289682791736dcae",
+              "shape": [
+                2,
+                46488
+              ]
+            },
+            "pass": true,
+            "second_nnz": 46488,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "7a1a8116e2d3eccd3b8f4b08901cb5c82b35c8515f6a0dbdc95499b191504d7c",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "7a1a8116e2d3eccd3b8f4b08901cb5c82b35c8515f6a0dbdc95499b191504d7c",
+              "shape": [
+                46488
+              ]
+            }
+          },
+          "adj_spatial_omics1": {
+            "first_nnz": 3994,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "e2701a89d77130c0fbf958060b940cb1580da4d1117d9f52e75543a27faccf53",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "e2701a89d77130c0fbf958060b940cb1580da4d1117d9f52e75543a27faccf53",
+              "shape": [
+                2,
+                3994
+              ]
+            },
+            "pass": true,
+            "second_nnz": 3994,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "bc9c7ae4909731c9b09e29eb2e990e762ed6c04017f823c1acdd18809b2bbb1d",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "bc9c7ae4909731c9b09e29eb2e990e762ed6c04017f823c1acdd18809b2bbb1d",
+              "shape": [
+                3994
+              ]
+            }
+          },
+          "adj_spatial_omics2": {
+            "first_nnz": 3994,
+            "indices": {
+              "allclose": true,
+              "dtype": "torch.int64",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "e2701a89d77130c0fbf958060b940cb1580da4d1117d9f52e75543a27faccf53",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "e2701a89d77130c0fbf958060b940cb1580da4d1117d9f52e75543a27faccf53",
+              "shape": [
+                2,
+                3994
+              ]
+            },
+            "pass": true,
+            "second_nnz": 3994,
+            "shape": [
+              1662,
+              1662
+            ],
+            "shape_equal": true,
+            "values": {
+              "allclose": true,
+              "dtype": "torch.float32",
+              "exact_equal": true,
+              "exact_required": true,
+              "first_sha256": "bc9c7ae4909731c9b09e29eb2e990e762ed6c04017f823c1acdd18809b2bbb1d",
+              "max_absolute_difference": 0.0,
+              "max_relative_difference": 0.0,
+              "pass": true,
+              "second_sha256": "bc9c7ae4909731c9b09e29eb2e990e762ed6c04017f823c1acdd18809b2bbb1d",
+              "shape": [
+                3994
+              ]
+            }
+          }
+        }
+      },
+      "cpu_independent_one_step": {
+        "adam_state": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_cross.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_cross.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_cross.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics1.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics1.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics2.u_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.u_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.u_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "atten_omics2.w_omega:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.w_omega:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.w_omega:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "decoder_omics1.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                3000
+              ]
+            },
+            "decoder_omics1.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                3000
+              ]
+            },
+            "decoder_omics1.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "decoder_omics2.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                62
+              ]
+            },
+            "decoder_omics2.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                62
+              ]
+            },
+            "decoder_omics2.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "encoder_omics1.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                128
+              ]
+            },
+            "encoder_omics1.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                128
+              ]
+            },
+            "encoder_omics1.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "encoder_omics2.weight:exp_avg": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                62,
+                128
+              ]
+            },
+            "encoder_omics2.weight:exp_avg_sq": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                62,
+                128
+              ]
+            },
+            "encoder_omics2.weight:step": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            }
+          }
+        },
+        "gradients": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                3000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                62
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                128
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                62,
+                128
+              ]
+            }
+          }
+        },
+        "loss_components": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "corr1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "corr2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "mod2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "rna": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            },
+            "total": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": []
+            }
+          }
+        },
+        "outputs": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "alpha": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                2
+              ]
+            },
+            "emb_latent_combined": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                128
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                128
+              ]
+            },
+            "emb_latent_omics1_across_recon": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                128
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                128
+              ]
+            },
+            "emb_latent_omics2_across_recon": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                128
+              ]
+            },
+            "emb_recon_omics1": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                3000
+              ]
+            },
+            "emb_recon_omics2": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                1662,
+                62
+              ]
+            }
+          }
+        },
+        "pass": true,
+        "updated_parameters": {
+          "names_exact": true,
+          "pass": true,
+          "tensors": {
+            "atten_cross.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_cross.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics1.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics1.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "atten_omics2.u_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                1
+              ]
+            },
+            "atten_omics2.w_omega": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                128
+              ]
+            },
+            "decoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                3000
+              ]
+            },
+            "decoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                128,
+                62
+              ]
+            },
+            "encoder_omics1.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                3000,
+                128
+              ]
+            },
+            "encoder_omics2.weight": {
+              "dtype": "torch.float32",
+              "maximum_absolute_difference": 0.0,
+              "pass": true,
+              "shape": [
+                62,
+                128
+              ]
+            }
+          }
+        }
+      },
+      "deterministic_algorithm_probe": {
+        "dataset": "placenta",
+        "descriptive_only": true,
+        "exit_status": 0,
+        "gradient_max_absolute_difference": 1.4901161193847656e-08,
+        "ground_truth_accessed": false,
+        "output_max_absolute_difference": 7.152557373046875e-07,
+        "success": true
+      },
+      "gpu_envelope": {
+        "cell_count": 40,
+        "failed_cells": [],
+        "pass": true
+      },
+      "pass": true,
+      "shared_forward_v3": {
+        "generalized_values": {
+          "corr1": 0.8359942436218262,
+          "corr2": 0.19431574642658234,
+          "mod2": 1.205427885055542,
+          "rna": 2.313661575317383,
+          "total": 21.580026626586914
+        },
+        "names_exact": true,
+        "operation_descriptions": {
+          "generalized_v3_rna": "mean(squared_error * legacy_bug_weight_vector(features_omics1).unsqueeze(0))",
+          "public_rna": "mean((features_omics1 - emb_recon_omics1)**2 * public_weight_vector.unsqueeze(0))",
+          "shared_graph": "both formulae consumed the identical result dict from one model forward",
+          "total": "f0*rna + f1*modality2_mse + f2*corr1_mse + f3*corr2_mse"
+        },
+        "pass": true,
+        "public_values": {
+          "corr1": 0.8359942436218262,
+          "corr2": 0.19431574642658234,
+          "mod2": 1.205427885055542,
+          "rna": 2.313661575317383,
+          "total": 21.580026626586914
+        },
+        "tensors": {
+          "corr1": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "corr2": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "gene_weights": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": [
+              3000
+            ]
+          },
+          "m_bad": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "mod2": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "rna": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          },
+          "total": {
+            "dtype": "torch.float32",
+            "maximum_absolute_difference": 0.0,
+            "pass": true,
+            "shape": []
+          }
+        }
+      }
+    }
+  },
+  "envelope": {
+    "eta": 3.814697265625e-06,
+    "failed_cell_count": 0,
+    "margin": 2.0,
+    "summary_cell_count": 120
+  },
+  "environment": {
+    "anndata": "0.8.0",
+    "conda_environment": null,
+    "cuda_available": true,
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "fingerprint": "7fab7913c37945d5128c4dbf7e12ba789e4bd7501ba354ab36067092f3da17f5",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "mclust": "6.1.1",
+    "numpy": "1.22.3",
+    "python": "3.8.10",
+    "r": "R version 4.0.3 (2020-10-10)",
+    "rpy2": "3.4.1",
+    "scanpy": "1.9.1",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "1.12.1+cu116"
+  },
+  "factorial_authorized": true,
+  "gate": "P0C",
+  "ground_truth_accessed": false,
+  "label_access_flag": false,
+  "p0c_pass": true,
+  "schema_version": 1
+}

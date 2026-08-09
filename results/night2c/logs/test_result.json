@@ -1,0 +1,16 @@
+{
+  "command": "/root/miniconda3/envs/SpaLORA_torch112/bin/python -m pytest -q",
+  "exit_status": 0,
+  "duration_seconds": 6,
+  "passed": 49,
+  "failed": 0,
+  "warnings": 7,
+  "environment": "/root/miniconda3/envs/SpaLORA_torch112",
+  "stdout_stderr_log": "results/night2c/logs/pytest_full.log",
+  "preliminary_run": {
+    "passed": 47,
+    "failed": 2,
+    "reason": "The isolated Git worktree lacked 242 Git-ignored historical Night-1 protected files expected by frozen Night-2/Night-2B checksum tests.",
+    "resolution": "Copied only missing files from /root/autodl-fs/SpaLORA-night1 after verifying each source SHA-256 against the protected manifest; no old test or scientific file was edited."
+  }
+}

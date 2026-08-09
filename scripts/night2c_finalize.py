@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import subprocess
 from pathlib import Path
 
@@ -107,6 +108,12 @@ def main():
         raise AssertionError("completion counts %r != %r" % ((main_count, tutorial_count, technical_count), expected))
     if failures:
         raise AssertionError("failure JSON exists among Night-2C outputs")
+    gate["main_runs"]["completed"] = main_count
+    gate["tutorial_runs"]["completed"] = tutorial_count
+    gate["technical_runs"]["completed"] = technical_count
+    gate_temporary = RESULTS / "gate_status.json.tmp"
+    gate_temporary.write_text(json.dumps(gate, indent=2, sort_keys=True), encoding="utf-8")
+    os.replace(str(gate_temporary), str(RESULTS / "gate_status.json"))
     test_state_path = RESULTS / "logs/test_result.json"
     test_state = json.loads(test_state_path.read_text(encoding="utf-8")) if test_state_path.exists() else {"status": "pending"}
     handoff_path = RESULTS / "handoff_state.json"

@@ -1,0 +1,40 @@
+P0C_DATASET a1 START
+P0C_BLOCK a1 1 DONE
+P0C_BLOCK a1 2 DONE
+P0C_BLOCK a1 3 DONE
+P0C_BLOCK a1 4 DONE
+P0C_BLOCK a1 5 DONE
+P0C_BLOCK a1 6 DONE
+P0C_BLOCK a1 7 DONE
+P0C_BLOCK a1 8 DONE
+P0C_DATASET placenta START
+P0C_BLOCK placenta 1 DONE
+P0C_BLOCK placenta 2 DONE
+P0C_BLOCK placenta 3 DONE
+P0C_BLOCK placenta 4 DONE
+P0C_BLOCK placenta 5 DONE
+P0C_BLOCK placenta 6 DONE
+P0C_BLOCK placenta 7 DONE
+P0C_BLOCK placenta 8 DONE
+P0C_DATASET p22 START
+P0C_BLOCK p22 1 DONE
+P0C_BLOCK p22 2 DONE
+P0C_BLOCK p22 3 DONE
+P0C_BLOCK p22 4 DONE
+P0C_BLOCK p22 5 DONE
+P0C_BLOCK p22 6 DONE
+P0C_BLOCK p22 7 DONE
+P0C_BLOCK p22 8 DONE
+{"failed_cells": 0, "p0c_pass": true, "reason": "all exact audits and every normalized GPU noise-envelope cell passed"}
+/root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/torch/nn/functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/autodl-fs/data/SpaLORA-night2c/SpaLORA/model.py:136: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  self.alpha = F.softmax(torch.squeeze(self.vu) + 1e-6)
+/root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/torch/nn/functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/autodl-fs/data/SpaLORA-night2c/SpaLORA/model.py:136: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  self.alpha = F.softmax(torch.squeeze(self.vu) + 1e-6)
+/root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/torch/nn/functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/autodl-fs/data/SpaLORA-night2c/SpaLORA/model.py:136: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  self.alpha = F.softmax(torch.squeeze(self.vu) + 1e-6)

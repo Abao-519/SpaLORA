@@ -1,0 +1,18 @@
+{
+  "anndata": "0.8.0",
+  "conda_environment": null,
+  "cuda_available": true,
+  "cuda_runtime": "11.6",
+  "cudnn": 8302,
+  "fingerprint": "7fab7913c37945d5128c4dbf7e12ba789e4bd7501ba354ab36067092f3da17f5",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "mclust": "6.1.1",
+  "numpy": "1.22.3",
+  "python": "3.8.10",
+  "r": "R version 4.0.3 (2020-10-10)",
+  "rpy2": "3.4.1",
+  "scanpy": "1.9.1",
+  "scipy": "1.8.1",
+  "sklearn": "1.1.1",
+  "torch": "1.12.1+cu116"
+}

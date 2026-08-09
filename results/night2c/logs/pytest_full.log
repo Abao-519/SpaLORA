@@ -1,0 +1,24 @@
+.................................................                        [100%]
+=============================== warnings summary ===============================
+../../../root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/jupyter_client/connect.py:20
+  /root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/jupyter_client/connect.py:20: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+  given by the platformdirs library.  To remove this warning and
+  see the appropriate new directories, set the environment variable
+  `JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+  The use of platformdirs will be the default in `jupyter_core` v6
+    from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+tests/test_night2b.py::test_legacy_attention_rows_sum_to_one
+tests/test_night2c.py::test_exact_same_forward_v3_loss_identity
+tests/test_night2c.py::test_exact_cpu_independent_one_step_small_fixture
+  /root/miniconda3/envs/SpaLORA_torch112/lib/python3.8/site-packages/torch/nn/functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+    warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+
+tests/test_night2b.py::test_legacy_attention_rows_sum_to_one
+tests/test_night2c.py::test_exact_same_forward_v3_loss_identity
+tests/test_night2c.py::test_exact_cpu_independent_one_step_small_fixture
+  /autodl-fs/data/SpaLORA-night2c/SpaLORA/model.py:136: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+    self.alpha = F.softmax(torch.squeeze(self.vu) + 1e-6)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+49 passed, 7 warnings in 5.18s
