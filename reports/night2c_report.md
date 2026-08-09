@@ -8,7 +8,7 @@ P0C **passed and authorized training**. Main/tutorial/technical counts are `75/7
 
 - Required parent: `c283449b188f510e98c2826cbb856f296367aa03` (configuration parent is `c283449b188f510e98c2826cbb856f296367aa03`).
 - Branch: `revision/q2-night2c-numerical-equivalence-factorial-20260809`.
-- Report-generation HEAD: `f5078e9ae67269085b8a4cb8a8fe97162af3ca1d`; final handoff resolves through annotated tag `night2c-final-20260810`.
+- Report-generation HEAD: `63026b31da733533eccb070c9020cd0ad34b9da4`; final handoff resolves through annotated tag `night2c-final-20260809`.
 - Taskbook SHA-256: `4225e87d71372eb1257b843327065ffeb8c60271d4bd8dc7af9d2870a11266f2`.
 - Environment fingerprint: `7fab7913c37945d5128c4dbf7e12ba789e4bd7501ba354ab36067092f3da17f5`; Python `3.8.10`, PyTorch `1.12.1+cu116`, CUDA `11.6`, GPU `NVIDIA GeForce RTX 4080 SUPER`.
 - Critical trainer/config/runner/frozen-module/input hashes are recorded verbatim in `reports/night2c_p0c.json` and atomically copied into `results/night2c/gate_status.json`.

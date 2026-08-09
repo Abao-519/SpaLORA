@@ -129,7 +129,7 @@ P0C **{'passed and authorized training' if p0c['p0c_pass'] else 'failed and hard
 
 - Required parent: `{p0c.get('critical_hashes', {}).get('parent_commit', 'c283449b188f510e98c2826cbb856f296367aa03')}` (configuration parent is `c283449b188f510e98c2826cbb856f296367aa03`).
 - Branch: `revision/q2-night2c-numerical-equivalence-factorial-20260809`.
-- Report-generation HEAD: `{git('rev-parse', 'HEAD')}`; final handoff resolves through annotated tag `night2c-final-20260810`.
+- Report-generation HEAD: `{git('rev-parse', 'HEAD')}`; final handoff resolves through annotated tag `night2c-final-20260809`.
 - Taskbook SHA-256: `4225e87d71372eb1257b843327065ffeb8c60271d4bd8dc7af9d2870a11266f2`.
 - Environment fingerprint: `{environment['fingerprint']}`; Python `{environment['python']}`, PyTorch `{environment['torch']}`, CUDA `{environment['cuda_runtime']}`, GPU `{environment['gpu']}`.
 - Critical trainer/config/runner/frozen-module/input hashes are recorded verbatim in `reports/night2c_p0c.json` and atomically copied into `results/night2c/gate_status.json`.
@@ -189,7 +189,7 @@ The target uses float32 CUDA sparse operations and Adam, so low-order scheduling
     completion = {"schema_version": 1, "status": gate["status"], "p0c_pass": p0c["p0c_pass"],
                   "factorial_authorized": gate["factorial_authorized"], "parent_commit": "c283449b188f510e98c2826cbb856f296367aa03",
                   "branch": "revision/q2-night2c-numerical-equivalence-factorial-20260809",
-                  "final_tag": "night2c-final-20260810", "report_generation_head": git("rev-parse", "HEAD"),
+                  "final_tag": "night2c-final-20260809", "report_generation_head": git("rev-parse", "HEAD"),
                   "main_runs_completed": main_count, "tutorial_runs_completed": tutorial_count,
                   "technical_runs_completed": technical_count, "failure_json_count": failures,
                   "ground_truth_accessed_during_p0c": False, "ground_truth_used_for_setting_selection": False,
