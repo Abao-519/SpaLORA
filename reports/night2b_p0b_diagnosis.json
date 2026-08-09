@@ -1,0 +1,417 @@
+{
+  "datasets": {
+    "a1": {
+      "cpu_same_model_repeat": {
+        "device": "cpu",
+        "maximum_output_difference": 0.0,
+        "outputs": {
+          "alpha": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_combined": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics1_across_recon": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2_across_recon": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          }
+        },
+        "pass": true
+      },
+      "gpu_same_model_repeat": {
+        "device": "cuda:0",
+        "maximum_output_difference": 4.76837158203125e-07,
+        "outputs": {
+          "alpha": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 1.9759862635027048e-09,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 1.6188546059225928e-09,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 8.981755894588161e-10,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_combined": {
+            "exact_equal": false,
+            "max_absolute_difference": 4.76837158203125e-07,
+            "mean_absolute_difference": 2.069481475075463e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 1.1757933515710306e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics1_across_recon": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 3.1578732961889955e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 4.76837158203125e-07,
+            "mean_absolute_difference": 8.511047977499686e-10,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics2_across_recon": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 2.242962260368131e-09,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 6.375387440193947e-10,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 3.3161626777911124e-09,
+            "pass_at_1e_7": true
+          }
+        },
+        "pass": false
+      }
+    },
+    "p22": {
+      "cpu_same_model_repeat": {
+        "device": "cpu",
+        "maximum_output_difference": 0.0,
+        "outputs": {
+          "alpha": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_combined": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics1_across_recon": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2_across_recon": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          }
+        },
+        "pass": true
+      },
+      "gpu_same_model_repeat": {
+        "device": "cuda:0",
+        "maximum_output_difference": 2.980232238769531e-07,
+        "outputs": {
+          "alpha": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 1.9404242657117265e-09,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 1.037458563502014e-09,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 1.312520758744995e-09,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_combined": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 1.4476649878858439e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 6.501548188708739e-10,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics1_across_recon": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 2.372507079684283e-09,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.980232238769531e-07,
+            "mean_absolute_difference": 9.313384508047307e-10,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics2_across_recon": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 3.2346210154798882e-09,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 5.960464477539063e-08,
+            "mean_absolute_difference": 8.259005146449283e-10,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 2.8333038137873245e-09,
+            "pass_at_1e_7": false
+          }
+        },
+        "pass": false
+      }
+    },
+    "placenta": {
+      "cpu_same_model_repeat": {
+        "device": "cpu",
+        "maximum_output_difference": 0.0,
+        "outputs": {
+          "alpha": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_combined": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics1_across_recon": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_omics2_across_recon": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics1": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          },
+          "emb_recon_omics2": {
+            "exact_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0,
+            "pass_at_1e_7": true
+          }
+        },
+        "pass": true
+      },
+      "gpu_same_model_repeat": {
+        "device": "cuda:0",
+        "maximum_output_difference": 4.76837158203125e-07,
+        "outputs": {
+          "alpha": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 2.26834773187079e-09,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 1.25409138629351e-09,
+            "pass_at_1e_7": true
+          },
+          "alpha_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.1920928955078125e-07,
+            "mean_absolute_difference": 6.276060782184345e-10,
+            "pass_at_1e_7": true
+          },
+          "emb_latent_combined": {
+            "exact_equal": false,
+            "max_absolute_difference": 4.76837158203125e-07,
+            "mean_absolute_difference": 2.4674073895170068e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 4.76837158203125e-07,
+            "mean_absolute_difference": 1.5835304179034893e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics1_across_recon": {
+            "exact_equal": false,
+            "max_absolute_difference": 4.76837158203125e-07,
+            "mean_absolute_difference": 6.451799983153705e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 4.56298221429563e-10,
+            "pass_at_1e_7": false
+          },
+          "emb_latent_omics2_across_recon": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.4901161193847656e-07,
+            "mean_absolute_difference": 1.8991834771497906e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_recon_omics1": {
+            "exact_equal": false,
+            "max_absolute_difference": 1.7881393432617188e-07,
+            "mean_absolute_difference": 1.4519234703413986e-09,
+            "pass_at_1e_7": false
+          },
+          "emb_recon_omics2": {
+            "exact_equal": false,
+            "max_absolute_difference": 2.384185791015625e-07,
+            "mean_absolute_difference": 4.970946765325834e-09,
+            "pass_at_1e_7": false
+          }
+        },
+        "pass": false
+      }
+    }
+  },
+  "ground_truth_accessed": false,
+  "interpretation": "If identical-state same-model GPU repeats exceed 1e-7 while CPU repeats do not, the P0B residual is consistent with nondeterministic/numerically order-sensitive CUDA sparse execution. This does not undo the hard gate.",
+  "p0b_remains_failed": true,
+  "purpose": "diagnose, not reauthorize or weaken P0B",
+  "schema_version": 1
+}

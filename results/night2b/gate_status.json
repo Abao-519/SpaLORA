@@ -1,0 +1,25 @@
+{
+  "asr_modified": false,
+  "empty_factorial_csvs_are_intentional": true,
+  "factorial_authorized": false,
+  "ground_truth_accessed_during_p0b": false,
+  "ground_truth_used_for_setting_selection": false,
+  "main_runs": {
+    "completed": 0,
+    "failed": 0,
+    "planned_if_authorized": 75,
+    "skipped_by_gate": 75
+  },
+  "p0b_pass": false,
+  "p1_status": "not_evaluated",
+  "reason": "Independent frozen-model GPU forwards exceeded the preregistered 1e-7 P0B tolerance.",
+  "s_w_i_a_status": "not_evaluated",
+  "seed_search_performed": false,
+  "status": "stopped_by_p0b_hard_gate",
+  "tutorial_runs": {
+    "completed": 0,
+    "failed": 0,
+    "planned_if_authorized": 3,
+    "skipped_by_gate": 3
+  }
+}

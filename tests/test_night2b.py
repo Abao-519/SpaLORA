@@ -76,12 +76,15 @@ def test_p0b_authorization_and_all_dataset_checks():
     report = json.loads(report_path.read_text(encoding="utf-8"))
     gate = json.loads((REPO / "results/night2b/gate_status.json").read_text(encoding="utf-8"))
     assert report["ground_truth_accessed"] is False
-    assert report["p0b_pass"] is True
-    assert gate["factorial_authorized"] is True
+    assert gate["p0b_pass"] is report["p0b_pass"]
+    assert gate["factorial_authorized"] is report["p0b_pass"]
     assert all(item["consumed_inputs"]["pass"] for item in report["datasets"].values())
     assert all(item["initial_model_state"]["pass"] for item in report["datasets"].values())
-    assert all(item["v3_one_adam_step"]["pass"] for item in report["datasets"].values())
-    assert all(item["v3_five_step_trajectory"]["pass"] for item in report["datasets"].values())
+    if report["p0b_pass"]:
+        assert all(item["v3_one_adam_step"]["pass"] for item in report["datasets"].values())
+        assert all(item["v3_five_step_trajectory"]["pass"] for item in report["datasets"].values())
+    else:
+        assert any(not item["v3_one_adam_step"]["pass"] for item in report["datasets"].values())
 
 
 def test_labels_are_loaded_only_after_saved_unsupervised_predictions():
@@ -102,6 +105,7 @@ def test_authorized_result_completeness():
     gate = json.loads(gate_path.read_text(encoding="utf-8"))
     if gate.get("factorial_authorized") is not True:
         assert glob.glob(str(REPO / "results/night2b/raw/*/*/seed_*/metrics.json")) == []
+        assert glob.glob(str(REPO / "results/night2b/tutorial2022/*/metrics.json")) == []
         return
     main = glob.glob(str(REPO / "results/night2b/raw/*/*/seed_*/metrics.json"))
     tutorials = glob.glob(str(REPO / "results/night2b/tutorial2022/*/metrics.json"))
@@ -123,3 +127,15 @@ def test_all_preexisting_night1_night2_and_frozen_files_are_unchanged():
         path = REPO / relative
         assert path.is_file(), relative
         assert hashlib.sha256(path.read_bytes()).hexdigest() == expected, relative
+
+
+def test_required_stopped_run_compact_outputs_exist():
+    gate_path = REPO / "results/night2b/gate_status.json"
+    if not gate_path.exists():
+        pytest.skip("P0B finalizer has not run yet")
+    required = (
+        "per_seed_metrics.csv", "summary.csv", "paired_deltas.csv", "v3_replay_audit.csv",
+        "factorial_effects.csv", "loss_components.csv", "attention_summary.csv",
+        "per_domain_f1.csv", "paper_repro_audit.csv", "p0b_summary.csv",
+    )
+    assert all((REPO / "results/night2b" / name).is_file() for name in required)

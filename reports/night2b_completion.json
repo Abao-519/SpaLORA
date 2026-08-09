@@ -1,0 +1,11 @@
+{
+  "branch": "revision/q2-night2b-parity-locked-loss-audit-20260809",
+  "final_commit_reference": "annotated tag night2b-p0b-final-20260809",
+  "main_runs_completed": 0,
+  "p0b_pass": false,
+  "parent_commit": "16f0cc43673617c73527110962b7ca115c59b4c6",
+  "protected_manifest": "/root/autodl-fs/night2b_preexisting_20260809/protected_before.sha256",
+  "shutdown_command_required_last": "/usr/bin/shutdown",
+  "status": "stopped_by_p0b_hard_gate",
+  "tutorial_runs_completed": 0
+}
