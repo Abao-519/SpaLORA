@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "reason": "P0B hard stop: ground-truth file-read firewall failed",
+  "main_runs_completed": 0,
+  "main_runs_required": 60,
+  "semantic_labels_evaluated": false,
+  "not_generated": [
+    "trained embeddings",
+    "clusters",
+    "loss trajectories",
+    "attention trajectories",
+    "resource measurements",
+    "per-seed performance metrics",
+    "summary statistics",
+    "paired performance deltas",
+    "spatial or tradeoff figures",
+    "run manifests and checkpoint indexes"
+  ]
+}

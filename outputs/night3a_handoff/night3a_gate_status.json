@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "p0a_pass": true,
+  "p0b_pass": false,
+  "main_60_authorized": false,
+  "main_runs_completed": 0,
+  "ige_go_no_go": "NOT_EVALUATED_P0B_HARD_STOP",
+  "night3a_ige_no_go": true,
+  "architecture_ablation_authorized": false,
+  "strict_failure_reasons": [
+    "P0B ground-truth file-read firewall failed"
+  ],
+  "config_lock_sha256": "134f21c4d0e80d760a0385857945521d8dab2099b5ca9b4c0f5371fedbf46a66",
+  "night3a_p0b_sha256": "632cdb94b49a96d9736f19be58485f98b311479cd9a8a81f7ec613ec4a6ec9f3"
+}

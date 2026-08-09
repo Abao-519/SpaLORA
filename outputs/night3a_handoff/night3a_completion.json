@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "stage": "Night-3A P0B hard stop",
+  "p0a_pass": true,
+  "p0b_pass": false,
+  "p0b_cells_completed": 15,
+  "p0b_cells_numerically_passed": 15,
+  "main_runs_authorized": false,
+  "main_runs_completed": 0,
+  "main_runs_required": 60,
+  "run_failure_count": 0,
+  "stage_failure_count": 1,
+  "ige_go_no_go": "NOT_EVALUATED_P0B_HARD_STOP",
+  "night3a_ige_no_go": true,
+  "architecture_ablation_authorized": false,
+  "semantic_label_values_read": false,
+  "ground_truth_files_byte_read_by_lock_verifier": [
+    "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv",
+    "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv"
+  ],
+  "protocol_deviations": [
+    "P0B lock verification recomputed SHA-256 by opening two ground-truth CSV files; hard stop retained"
+  ],
+  "tests_passed": 19,
+  "tests_failed": 0,
+  "protected_files_matched": 913,
+  "protected_files_total": 913,
+  "config_lock_sha256": "134f21c4d0e80d760a0385857945521d8dab2099b5ca9b4c0f5371fedbf46a66",
+  "p0b_sha256": "632cdb94b49a96d9736f19be58485f98b311479cd9a8a81f7ec613ec4a6ec9f3",
+  "implementation_commit": "fff05e4b7e5ad4ac9c39121aa14ee87445eb4d13"
+}

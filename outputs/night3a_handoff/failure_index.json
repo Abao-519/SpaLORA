@@ -1,0 +1,657 @@
+{
+  "failures": [
+    {
+      "cells": [
+        {
+          "c0_initial_state_sha256": "93423d0b3e69c181cac2f7edec8b556b4be6d5ca7ad0073e4f8a9ed0f08b9252",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "a1",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0020379043283405853,
+            "L_corr2_raw": 0.0005607258156776477,
+            "L_mod2_recon_raw": 0.0016311391589718333,
+            "L_rna_recon_raw": 2.5950559267292613e-05
+          },
+          "ige_initial_state_sha256": "93423d0b3e69c181cac2f7edec8b556b4be6d5ca7ad0073e4f8a9ed0f08b9252",
+          "ige_weights": {
+            "L_corr1_raw": 0.04738548093189968,
+            "L_corr2_raw": 0.17221799650883382,
+            "L_mod2_recon_raw": 0.05920223063044581,
+            "L_rna_recon_raw": 3.7211942919288203
+          },
+          "input_sha256": "686560961869391192831d22cdc47d954c02369562d58d8596d2c343dc180cf2",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 8.395057193411049e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "a1d55774bef7396117967b9212bc1afe3bf53d409489a45b945a098369ceef36",
+          "rng_before_sha256": "a1d55774bef7396117967b9212bc1afe3bf53d409489a45b945a098369ceef36",
+          "seed": 0
+        },
+        {
+          "c0_initial_state_sha256": "7738537747df9a95a022d0659f696a41c6125cd1632673ceb3bd9af5bd1352cd",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "a1",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0016102288201339295,
+            "L_corr2_raw": 0.0007032873026428135,
+            "L_mod2_recon_raw": 0.0018315960155730743,
+            "L_rna_recon_raw": 1.6437212437540597e-05
+          },
+          "ige_initial_state_sha256": "7738537747df9a95a022d0659f696a41c6125cd1632673ceb3bd9af5bd1352cd",
+          "ige_weights": {
+            "L_corr1_raw": 0.03916534306821984,
+            "L_corr2_raw": 0.08967197882200807,
+            "L_mod2_recon_raw": 0.034431808994671645,
+            "L_rna_recon_raw": 3.8367308691151
+          },
+          "input_sha256": "686560961869391192831d22cdc47d954c02369562d58d8596d2c343dc180cf2",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 8.503281605953816e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "44b706a302ee9247076d558646d1cd5d554abdbb11be9f0ea2cc5c1511766d31",
+          "rng_before_sha256": "44b706a302ee9247076d558646d1cd5d554abdbb11be9f0ea2cc5c1511766d31",
+          "seed": 1
+        },
+        {
+          "c0_initial_state_sha256": "8980e9d9cc800dd749bdbdce1623a945eaa8ab71e151915c05bf9bd1f3184072",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "a1",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.001959277702318266,
+            "L_corr2_raw": 0.0005544109360912173,
+            "L_mod2_recon_raw": 0.0020193163556566744,
+            "L_rna_recon_raw": 2.1499905347916738e-05
+          },
+          "ige_initial_state_sha256": "8980e9d9cc800dd749bdbdce1623a945eaa8ab71e151915c05bf9bd1f3184072",
+          "ige_weights": {
+            "L_corr1_raw": 0.04139336642105933,
+            "L_corr2_raw": 0.14628336937141084,
+            "L_mod2_recon_raw": 0.04016265189291161,
+            "L_rna_recon_raw": 3.772160612314619
+          },
+          "input_sha256": "686560961869391192831d22cdc47d954c02369562d58d8596d2c343dc180cf2",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 8.819769391266163e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "c5241fee7dfb377fb929abeac3fc026f7a14ca94469a7c68d53f295241dc0c73",
+          "rng_before_sha256": "c5241fee7dfb377fb929abeac3fc026f7a14ca94469a7c68d53f295241dc0c73",
+          "seed": 2
+        },
+        {
+          "c0_initial_state_sha256": "b5bfd7ee66b7bbe04e306e9af2333c7c7a10a9e603fc6843a886f9273083aae6",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "a1",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0016661513810937178,
+            "L_corr2_raw": 0.0005522681421065998,
+            "L_mod2_recon_raw": 0.0017637805333326516,
+            "L_rna_recon_raw": 1.801559106310664e-05
+          },
+          "ige_initial_state_sha256": "b5bfd7ee66b7bbe04e306e9af2333c7c7a10a9e603fc6843a886f9273083aae6",
+          "ige_weights": {
+            "L_corr1_raw": 0.04104861720757886,
+            "L_corr2_raw": 0.12384058567767524,
+            "L_mod2_recon_raw": 0.03877648548793,
+            "L_rna_recon_raw": 3.7963343116268162
+          },
+          "input_sha256": "686560961869391192831d22cdc47d954c02369562d58d8596d2c343dc180cf2",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 8.404716027143877e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "b9e12cc5390f6ddc8a5129e802b452d216b7f95d28538c7f2d82fd157bd9fbf3",
+          "rng_before_sha256": "b9e12cc5390f6ddc8a5129e802b452d216b7f95d28538c7f2d82fd157bd9fbf3",
+          "seed": 3
+        },
+        {
+          "c0_initial_state_sha256": "923869d99b630c8cb39ff6aeff4ac6f215938e04cf84fa567fcab15c02f5e27d",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "a1",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0012238507699083693,
+            "L_corr2_raw": 0.0006234280997876756,
+            "L_mod2_recon_raw": 0.001277552002045325,
+            "L_rna_recon_raw": 2.112975767662505e-05
+          },
+          "ige_initial_state_sha256": "923869d99b630c8cb39ff6aeff4ac6f215938e04cf84fa567fcab15c02f5e27d",
+          "ige_weights": {
+            "L_corr1_raw": 0.06468119027167231,
+            "L_corr2_raw": 0.12697554774518752,
+            "L_mod2_recon_raw": 0.061962350173270106,
+            "L_rna_recon_raw": 3.74638091180987
+          },
+          "input_sha256": "686560961869391192831d22cdc47d954c02369562d58d8596d2c343dc180cf2",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 8.14901250123512e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "0e835d7a1835f42b0e8b5c7fcc1912de9bbe8895b209545c4a679b0bdf862d06",
+          "rng_before_sha256": "0e835d7a1835f42b0e8b5c7fcc1912de9bbe8895b209545c4a679b0bdf862d06",
+          "seed": 4
+        },
+        {
+          "c0_initial_state_sha256": "9a0afeaf662e33c8fa78e0d2e70433e838575f28ba1808277853f38ee8bf523a",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "placenta",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.002755300034322787,
+            "L_corr2_raw": 0.0001485041999651603,
+            "L_mod2_recon_raw": 0.0009954565430840782,
+            "L_rna_recon_raw": 4.680028175022048e-05
+          },
+          "ige_initial_state_sha256": "9a0afeaf662e33c8fa78e0d2e70433e838575f28ba1808277853f38ee8bf523a",
+          "ige_weights": {
+            "L_corr1_raw": 0.049264034391634494,
+            "L_corr2_raw": 0.9140293326197418,
+            "L_mod2_recon_raw": 0.13635672647499203,
+            "L_rna_recon_raw": 2.9003499065136316
+          },
+          "input_sha256": "200307b4c1b57e731ab1f3e00171846a08dd1ec9ab23fa016a51393e20a324e9",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 9.14048359845765e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "8a77c255d1b23bcc3f5ed3dea570a1a0a72790fc43261784fc701802bdb17586",
+          "rng_before_sha256": "8a77c255d1b23bcc3f5ed3dea570a1a0a72790fc43261784fc701802bdb17586",
+          "seed": 0
+        },
+        {
+          "c0_initial_state_sha256": "83df6b876287736d702d6e5f18ebf7ea5cfae6056a685b573687256593c8199c",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "placenta",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.003487667039193624,
+            "L_corr2_raw": 0.00014232630207799396,
+            "L_mod2_recon_raw": 0.0013216303050055738,
+            "L_rna_recon_raw": 5.1173059888412324e-05
+          },
+          "ige_initial_state_sha256": "83df6b876287736d702d6e5f18ebf7ea5cfae6056a685b573687256593c8199c",
+          "ige_weights": {
+            "L_corr1_raw": 0.04153772871197449,
+            "L_corr2_raw": 1.0178706551091263,
+            "L_mod2_recon_raw": 0.10961444111485652,
+            "L_rna_recon_raw": 2.8309771750640427
+          },
+          "input_sha256": "200307b4c1b57e731ab1f3e00171846a08dd1ec9ab23fa016a51393e20a324e9",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 9.307094842370134e-06,
+          "reload_forward_max_abs_difference": 5.960464477539063e-08,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "8db3ddb7b42d67f2e38df3c3335763824730dfcf49dc795fbfe007a6f86f03fd",
+          "rng_before_sha256": "8db3ddb7b42d67f2e38df3c3335763824730dfcf49dc795fbfe007a6f86f03fd",
+          "seed": 1
+        },
+        {
+          "c0_initial_state_sha256": "ab116fde7a1d5080986cfb07b9e615c489024f7aba859d8351fcf25b7519dafd",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "placenta",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0031014616342342465,
+            "L_corr2_raw": 0.00015136512972481155,
+            "L_mod2_recon_raw": 0.0010451860930145896,
+            "L_rna_recon_raw": 4.4308682923294395e-05
+          },
+          "ige_initial_state_sha256": "ab116fde7a1d5080986cfb07b9e615c489024f7aba859d8351fcf25b7519dafd",
+          "ige_weights": {
+            "L_corr1_raw": 0.042348651283231176,
+            "L_corr2_raw": 0.8677210968597638,
+            "L_mod2_recon_raw": 0.12566443240204614,
+            "L_rna_recon_raw": 2.9642658194549587
+          },
+          "input_sha256": "200307b4c1b57e731ab1f3e00171846a08dd1ec9ab23fa016a51393e20a324e9",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 9.219389539794065e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "e962d2b63c29212d011cec0023f779dd00d7157c57782c1b242e8c1219b0a76b",
+          "rng_before_sha256": "e962d2b63c29212d011cec0023f779dd00d7157c57782c1b242e8c1219b0a76b",
+          "seed": 2
+        },
+        {
+          "c0_initial_state_sha256": "bb0b5521ab97b7c76c56720839435ddb3ad257f525aaefec31df79912fe04229",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "placenta",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.002890915441048129,
+            "L_corr2_raw": 0.000141782012539733,
+            "L_mod2_recon_raw": 0.001099977331022966,
+            "L_rna_recon_raw": 4.871469861275121e-05
+          },
+          "ige_initial_state_sha256": "bb0b5521ab97b7c76c56720839435ddb3ad257f525aaefec31df79912fe04229",
+          "ige_weights": {
+            "L_corr1_raw": 0.04798359705288965,
+            "L_corr2_raw": 0.9783788382039014,
+            "L_mod2_recon_raw": 0.12610852755492744,
+            "L_rna_recon_raw": 2.847529037188281
+          },
+          "input_sha256": "200307b4c1b57e731ab1f3e00171846a08dd1ec9ab23fa016a51393e20a324e9",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 9.27612381929066e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "64c415c78c1f22e9a7cf88e67d1aae5fd941c16adc0e5f1cbd3c73c4ae255fef",
+          "rng_before_sha256": "64c415c78c1f22e9a7cf88e67d1aae5fd941c16adc0e5f1cbd3c73c4ae255fef",
+          "seed": 3
+        },
+        {
+          "c0_initial_state_sha256": "ae3ca6851679a327a7a85a535fb527a50ae5ac41f9dedabc0317e52fc21b2607",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "placenta",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0028503335094641922,
+            "L_corr2_raw": 0.00015276786554619924,
+            "L_mod2_recon_raw": 0.000990146818454424,
+            "L_rna_recon_raw": 4.434930690686558e-05
+          },
+          "ige_initial_state_sha256": "ae3ca6851679a327a7a85a535fb527a50ae5ac41f9dedabc0317e52fc21b2607",
+          "ige_weights": {
+            "L_corr1_raw": 0.046079384314135975,
+            "L_corr2_raw": 0.8597463342359384,
+            "L_mod2_recon_raw": 0.13264862409446485,
+            "L_rna_recon_raw": 2.9615256573554607
+          },
+          "input_sha256": "200307b4c1b57e731ab1f3e00171846a08dd1ec9ab23fa016a51393e20a324e9",
+          "m_bad": 2.28993821144104,
+          "passed": true,
+          "reload_forward_envelope": 9.31899921852164e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "5ea43b48a45fd783ba1bc5c3677df55b5b87ac5f6e33f61d01407f8a2e9c5ccc",
+          "rng_before_sha256": "5ea43b48a45fd783ba1bc5c3677df55b5b87ac5f6e33f61d01407f8a2e9c5ccc",
+          "seed": 4
+        },
+        {
+          "c0_initial_state_sha256": "1280b01fd58ef7b77188a9b0072ace34226f2aa6498496f8fbdd386482c71d60",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "p22",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.00020412195908947234,
+            "L_corr2_raw": 0.00011295366840328418,
+            "L_mod2_recon_raw": 0.00020768084209274936,
+            "L_rna_recon_raw": 6.766037763015821e-06
+          },
+          "ige_initial_state_sha256": "1280b01fd58ef7b77188a9b0072ace34226f2aa6498496f8fbdd386482c71d60",
+          "ige_weights": {
+            "L_corr1_raw": 0.11779048600590797,
+            "L_corr2_raw": 0.21286271628390693,
+            "L_mod2_recon_raw": 0.11577199189565943,
+            "L_rna_recon_raw": 3.5535748058145256
+          },
+          "input_sha256": "448abee5b6fd60d04e69d7e228171993400d10a8f7d5941529358fb38d4dfd43",
+          "m_bad": 2.290322780609131,
+          "passed": true,
+          "reload_forward_envelope": 7.950765393616166e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "8bf9339ca1d641b012573b5d1fbeff6ac6a63d3bef163e65f5537440b942670c",
+          "rng_before_sha256": "8bf9339ca1d641b012573b5d1fbeff6ac6a63d3bef163e65f5537440b942670c",
+          "seed": 0
+        },
+        {
+          "c0_initial_state_sha256": "5433a390e72bc7bf9cc8e07c3d33f178a13bc7e6ac6235caef81251a9d5caf94",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "p22",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.00014786064007185274,
+            "L_corr2_raw": 0.00012167922025938622,
+            "L_mod2_recon_raw": 0.00021322590155236978,
+            "L_rna_recon_raw": 7.345099483919576e-06
+          },
+          "ige_initial_state_sha256": "5433a390e72bc7bf9cc8e07c3d33f178a13bc7e6ac6235caef81251a9d5caf94",
+          "ige_weights": {
+            "L_corr1_raw": 0.17361769297828655,
+            "L_corr2_raw": 0.21097458645352155,
+            "L_mod2_recon_raw": 0.1203944880893658,
+            "L_rna_recon_raw": 3.4950132324788266
+          },
+          "input_sha256": "448abee5b6fd60d04e69d7e228171993400d10a8f7d5941529358fb38d4dfd43",
+          "m_bad": 2.290322780609131,
+          "passed": true,
+          "reload_forward_envelope": 7.869921319070272e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "590306ab853d79b2d644ae6b27db896052aef187319599303a856e43714a95a2",
+          "rng_before_sha256": "590306ab853d79b2d644ae6b27db896052aef187319599303a856e43714a95a2",
+          "seed": 1
+        },
+        {
+          "c0_initial_state_sha256": "5f4d40bae0f229a31cb71b7278d630d355323a2154e08dd82150b4ca2338aaea",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "p22",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.00016746671171794425,
+            "L_corr2_raw": 0.00011898681724602964,
+            "L_mod2_recon_raw": 0.00019224954149859257,
+            "L_rna_recon_raw": 7.298586570685754e-06
+          },
+          "ige_initial_state_sha256": "5f4d40bae0f229a31cb71b7278d630d355323a2154e08dd82150b4ca2338aaea",
+          "ige_weights": {
+            "L_corr1_raw": 0.15253427354749685,
+            "L_corr2_raw": 0.2146827164921804,
+            "L_mod2_recon_raw": 0.13287112695212777,
+            "L_rna_recon_raw": 3.4999118830081946
+          },
+          "input_sha256": "448abee5b6fd60d04e69d7e228171993400d10a8f7d5941529358fb38d4dfd43",
+          "m_bad": 2.290322780609131,
+          "passed": true,
+          "reload_forward_envelope": 7.858083336031996e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "8c595568e8f25d346dc8fecace27507a991382b3c9b1abdfb4aa7ac6f2fe2e0e",
+          "rng_before_sha256": "8c595568e8f25d346dc8fecace27507a991382b3c9b1abdfb4aa7ac6f2fe2e0e",
+          "seed": 2
+        },
+        {
+          "c0_initial_state_sha256": "bb57e92b5764579114a1c6ddd18da72ae18bcf09aad986f0b44fcd2101f65279",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "p22",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.0001778362686394194,
+            "L_corr2_raw": 0.000118587182245713,
+            "L_mod2_recon_raw": 0.00020124546373577687,
+            "L_rna_recon_raw": 6.247919745536325e-06
+          },
+          "ige_initial_state_sha256": "bb57e92b5764579114a1c6ddd18da72ae18bcf09aad986f0b44fcd2101f65279",
+          "ige_weights": {
+            "L_corr1_raw": 0.12560220201280095,
+            "L_corr2_raw": 0.1883561650854944,
+            "L_mod2_recon_raw": 0.11099195250824628,
+            "L_rna_recon_raw": 3.5750496803934584
+          },
+          "input_sha256": "448abee5b6fd60d04e69d7e228171993400d10a8f7d5941529358fb38d4dfd43",
+          "m_bad": 2.290322780609131,
+          "passed": true,
+          "reload_forward_envelope": 7.893303518358152e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "12e4d6215ffc5ab38b954f4867b5d473429489c5690326cd7225072a0dd71961",
+          "rng_before_sha256": "12e4d6215ffc5ab38b954f4867b5d473429489c5690326cd7225072a0dd71961",
+          "seed": 3
+        },
+        {
+          "c0_initial_state_sha256": "444eaef47d8295ef702a7983d43591a1a249f8b41c4ddc814f0d17e9e134c818",
+          "checks": {
+            "finite_positive_gradients": true,
+            "finite_positive_weights": true,
+            "initial_parameters_identical": true,
+            "inputs_graphs_order_identical": true,
+            "locked_m_bad_matches": true,
+            "probe_grad_fields_unchanged": true,
+            "probe_repeat_stable": true,
+            "probe_rng_unchanged": true,
+            "probe_state_unchanged": true,
+            "reload_forward_within_envelope": true,
+            "weight_range": true,
+            "weight_sum": true
+          },
+          "dataset": "p22",
+          "device": "cuda:0",
+          "gradient_values": {
+            "L_corr1_raw": 0.00016026345303889772,
+            "L_corr2_raw": 0.0001285246107829158,
+            "L_mod2_recon_raw": 0.00018002191376124822,
+            "L_rna_recon_raw": 5.8026101771537264e-06
+          },
+          "ige_initial_state_sha256": "444eaef47d8295ef702a7983d43591a1a249f8b41c4ddc814f0d17e9e134c818",
+          "ige_weights": {
+            "L_corr1_raw": 0.13005428554499548,
+            "L_corr2_raw": 0.1621708770395416,
+            "L_mod2_recon_raw": 0.11578006511954257,
+            "L_rna_recon_raw": 3.59199477229592
+          },
+          "input_sha256": "448abee5b6fd60d04e69d7e228171993400d10a8f7d5941529358fb38d4dfd43",
+          "m_bad": 2.290322780609131,
+          "passed": true,
+          "reload_forward_envelope": 7.862644451961387e-06,
+          "reload_forward_max_abs_difference": 0.0,
+          "repeat_exact": false,
+          "repeat_within_gpu_envelope": true,
+          "rng_after_sha256": "2c4cb4d7392eff7974099494ec830c11a58c8cd33f0d0ce7e92b2fbbe75b9cf0",
+          "rng_before_sha256": "2c4cb4d7392eff7974099494ec830c11a58c8cd33f0d0ce7e92b2fbbe75b9cf0",
+          "seed": 4
+        }
+      ],
+      "cells_completed": 15,
+      "cells_required": 15,
+      "config_lock_sha256": "134f21c4d0e80d760a0385857945521d8dab2099b5ca9b4c0f5371fedbf46a66",
+      "failures": [
+        "ground-truth file opened during P0B: ['/autodl-fs/data/Human lymph node/A1/A1_groundtruth.csv', '/autodl-fs/data/P22 mouse brain coronal section/MouseBrain_groundtruth.csv']"
+      ],
+      "label_firewall": {
+        "forbidden_modules_imported": [],
+        "ground_truth_files_opened": [
+          "/autodl-fs/data/Human lymph node/A1/A1_groundtruth.csv",
+          "/autodl-fs/data/P22 mouse brain coronal section/MouseBrain_groundtruth.csv"
+        ],
+        "opened_path_count": 1587,
+        "semantic_label_values_read": false
+      },
+      "passed": false,
+      "schema_version": 1,
+      "stage": "P0B"
+    }
+  ],
+  "schema_version": 1
+}

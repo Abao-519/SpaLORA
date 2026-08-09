@@ -1,0 +1,486 @@
+{
+  "data_manifest_sha256": "060e31ab6b0bfece8e5fc4b99555aee16306c2360feb08220a351418dfb8c16a",
+  "datasets": {
+    "a1": {
+      "counts_immutable_shape": [
+        3484,
+        17954
+      ],
+      "graphs": {
+        "adj_feature_omics1": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 116936,
+          "sha256": "55ec613ca6dd47c366bc807e7339ac2471f12e7cbe1e26d92cc2e0efca6bb174",
+          "shape": [
+            3484,
+            3484
+          ]
+        },
+        "adj_feature_omics2": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 107038,
+          "sha256": "42f424657bfb424cc0917a5175ffb8c0b5e42e01bf68d4be662ad30b7b074740",
+          "shape": [
+            3484,
+            3484
+          ]
+        },
+        "adj_spatial_omics1": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 71132,
+          "sha256": "221844c2edf8cc73decc9e3c2670e472076f2ced4f8e4c7e756be83ae4660ded",
+          "shape": [
+            3484,
+            3484
+          ]
+        },
+        "adj_spatial_omics2": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 71132,
+          "sha256": "221844c2edf8cc73decc9e3c2670e472076f2ced4f8e4c7e756be83ae4660ded",
+          "shape": [
+            3484,
+            3484
+          ]
+        }
+      },
+      "ground_truth_identifier_audit": {
+        "absolute_path": "/autodl-fs/data/Human lymph node/A1/A1_groundtruth.csv",
+        "identifier_count": 3484,
+        "identifier_order_sha256": "b4234911ac7889d31e05c69f0242b81913791f24f91af430e23c2fe0a4a704a6",
+        "identifier_unique": true,
+        "label_values_read": false,
+        "raw_input_identifier_order_equal": true,
+        "raw_input_identifier_set_equal": true,
+        "sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+        "size_bytes": 114473,
+        "training_identifier_order_equal": true,
+        "training_identifier_set_equal": true
+      },
+      "modality2": {
+        "absolute_path": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_adt.h5ad",
+        "all_finite": true,
+        "counts_available_in_X": true,
+        "dtype": "float32",
+        "feature_order_sha256": "aab3920ef6dfa4b2e300f04be5fc7db8c7caf95985d285222c9e95a6a6a7f94a",
+        "inf_count": 0,
+        "layers": [],
+        "n_obs": 3484,
+        "n_vars": 31,
+        "nan_count": 0,
+        "negative_count": 0,
+        "nnz": 105474,
+        "observation_order_sha256": "505f9d3a2ce07a22862260007d312dc958b6e8a49062561d1c650c7bfa798207",
+        "raw_available": false,
+        "raw_shape": null,
+        "sha256": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+        "shape": [
+          3484,
+          31
+        ],
+        "size_bytes": 1165256,
+        "sparse": true,
+        "sparse_format": "csr",
+        "spatial_order_sha256": "1a0e5455fb6f04c787640a8322f7617907eb47825628c0f02ce7166c510b3d27",
+        "spatial_present": true,
+        "spatial_shape": [
+          3484,
+          2
+        ],
+        "x_integer_like": true
+      },
+      "model_input_sha256": "382de65a46dcd0c703605efbfeb2d4d41ab0a1c96e93193dd82007ee092eca3a",
+      "obs_columns_after_label_free_load": [],
+      "pca": {
+        "modality2_model_features": {
+          "dtype": "float32",
+          "finite": true,
+          "sha256": "b96cb916290ab6297a8a71fb887bf62e5c9dba09ed6211c6f5dd17642a970211",
+          "shape": [
+            3484,
+            30
+          ]
+        },
+        "rna_pca": {
+          "dtype": "float32",
+          "finite": true,
+          "sha256": "4e166fb2f1792b115063a9e14a33e59e403e642584fbde14df39d6615e7f0a1f",
+          "shape": [
+            3484,
+            30
+          ]
+        }
+      },
+      "prepared_n_obs": 3484,
+      "prepared_observation_order_sha256": "505f9d3a2ce07a22862260007d312dc958b6e8a49062561d1c650c7bfa798207",
+      "rna": {
+        "absolute_path": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_rna.h5ad",
+        "all_finite": true,
+        "counts_available_in_X": true,
+        "dtype": "float32",
+        "feature_order_sha256": "615b9c46b1b2c21c193c623da2a0ffdfd683d94c07458ec2aec49cd253e457a2",
+        "inf_count": 0,
+        "layers": [],
+        "n_obs": 3484,
+        "n_vars": 18085,
+        "nan_count": 0,
+        "negative_count": 0,
+        "nnz": 6824486,
+        "observation_order_sha256": "505f9d3a2ce07a22862260007d312dc958b6e8a49062561d1c650c7bfa798207",
+        "raw_available": false,
+        "raw_shape": null,
+        "sha256": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+        "shape": [
+          3484,
+          18085
+        ],
+        "size_bytes": 56585218,
+        "sparse": true,
+        "sparse_format": "csr",
+        "spatial_order_sha256": "1a0e5455fb6f04c787640a8322f7617907eb47825628c0f02ce7166c510b3d27",
+        "spatial_present": true,
+        "spatial_shape": [
+          3484,
+          2
+        ],
+        "x_integer_like": true
+      },
+      "selected_gene_count": 3000,
+      "selected_gene_order_sha256": "7b6be0b9f42834f40038d2837ecc2d9c59b3eaddfc0115835015da4785e1abf8",
+      "xlog_immutable_shape": [
+        3484,
+        17954
+      ]
+    },
+    "p22": {
+      "counts_immutable_shape": [
+        9196,
+        16304
+      ],
+      "graphs": {
+        "adj_feature_omics1": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 282934,
+          "sha256": "09406e0c3f0c2edc2786a76b8a6ad9cbd0f65a6824c387de1df71e12efcd3048",
+          "shape": [
+            9196,
+            9196
+          ]
+        },
+        "adj_feature_omics2": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 290294,
+          "sha256": "e621c37206200d2a46242fb3882db8e709d1a7bd83b5b98d0ac613d2a164615c",
+          "shape": [
+            9196,
+            9196
+          ]
+        },
+        "adj_spatial_omics1": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 172740,
+          "sha256": "7a31298ed1addc8ad44dc78c8a99c6a879fe0ff165fa3952ef45e6efb139d529",
+          "shape": [
+            9196,
+            9196
+          ]
+        },
+        "adj_spatial_omics2": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 172740,
+          "sha256": "7a31298ed1addc8ad44dc78c8a99c6a879fe0ff165fa3952ef45e6efb139d529",
+          "shape": [
+            9196,
+            9196
+          ]
+        }
+      },
+      "ground_truth_identifier_audit": {
+        "absolute_path": "/autodl-fs/data/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+        "identifier_count": 9196,
+        "identifier_order_sha256": "cd4511326102521d906de579f0a3a7ccfb925057d4763f19475c26578c95b7fd",
+        "identifier_unique": true,
+        "label_values_read": false,
+        "raw_input_identifier_order_equal": false,
+        "raw_input_identifier_set_equal": false,
+        "sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+        "size_bytes": 213019,
+        "training_identifier_order_equal": true,
+        "training_identifier_set_equal": true
+      },
+      "modality2": {
+        "absolute_path": "/autodl-fs/data/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+        "all_finite": true,
+        "counts_available_in_X": true,
+        "dtype": "float32",
+        "feature_order_sha256": "af0054f4c812c58d0454e3072a1738b7153423b19e99b779535ab1ab9ad5acc8",
+        "inf_count": 0,
+        "layers": [],
+        "n_obs": 9215,
+        "n_vars": 121068,
+        "nan_count": 0,
+        "negative_count": 0,
+        "nnz": 35867690,
+        "observation_order_sha256": "d7aecdebd2cfe468080f34051d757c597356b1edda7bd121ebfe9601337f87e2",
+        "raw_available": false,
+        "raw_shape": null,
+        "sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+        "shape": [
+          9215,
+          121068
+        ],
+        "size_bytes": 307171822,
+        "sparse": true,
+        "sparse_format": "csc",
+        "spatial_order_sha256": "bc6bcd50e8d5ef042c4a42760005fed78f862f3624fd2cc2e9301644bc89e652",
+        "spatial_present": true,
+        "spatial_shape": [
+          9215,
+          2
+        ],
+        "x_integer_like": false
+      },
+      "model_input_sha256": "187a30e47b5efcfcc5198c5284be3db4457be1e15d0345c83850742fe5b49d45",
+      "obs_columns_after_label_free_load": [],
+      "pca": {
+        "modality2_model_features": {
+          "dtype": "float32",
+          "finite": true,
+          "sha256": "d19f2df2142685d178e8c993cccdfb61a5b09180dfc5fc2490675ecd9ec8eb0a",
+          "shape": [
+            9196,
+            50
+          ]
+        },
+        "rna_pca": {
+          "dtype": "float32",
+          "finite": true,
+          "sha256": "e1b3e3ea6bb582af05e39d54bbdf224cc611c2fb59387961d051ceb10cb6326c",
+          "shape": [
+            9196,
+            50
+          ]
+        }
+      },
+      "prepared_n_obs": 9196,
+      "prepared_observation_order_sha256": "cd4511326102521d906de579f0a3a7ccfb925057d4763f19475c26578c95b7fd",
+      "rna": {
+        "absolute_path": "/autodl-fs/data/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+        "all_finite": true,
+        "counts_available_in_X": true,
+        "dtype": "float32",
+        "feature_order_sha256": "318da17cd5d54d9b1d9ff428d0fb903b59811c8075227fc6b671a65563e90a86",
+        "inf_count": 0,
+        "layers": [],
+        "n_obs": 9215,
+        "n_vars": 22914,
+        "nan_count": 0,
+        "negative_count": 0,
+        "nnz": 9887966,
+        "observation_order_sha256": "d7aecdebd2cfe468080f34051d757c597356b1edda7bd121ebfe9601337f87e2",
+        "raw_available": false,
+        "raw_shape": null,
+        "sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+        "shape": [
+          9215,
+          22914
+        ],
+        "size_bytes": 86001974,
+        "sparse": true,
+        "sparse_format": "csc",
+        "spatial_order_sha256": "bc6bcd50e8d5ef042c4a42760005fed78f862f3624fd2cc2e9301644bc89e652",
+        "spatial_present": true,
+        "spatial_shape": [
+          9215,
+          2
+        ],
+        "x_integer_like": true
+      },
+      "selected_gene_count": 2000,
+      "selected_gene_order_sha256": "3fa65238f8807fe42e884430faacf76c43bedcd620d72e4f9499d3616765f7f4",
+      "xlog_immutable_shape": [
+        9196,
+        16304
+      ]
+    },
+    "placenta": {
+      "counts_immutable_shape": [
+        1662,
+        19172
+      ],
+      "graphs": {
+        "adj_feature_omics1": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 50024,
+          "sha256": "36ad829abda8232350c0894cfa4c818fc8da2d6c552cc206b657284f0b79d170",
+          "shape": [
+            1662,
+            1662
+          ]
+        },
+        "adj_feature_omics2": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 46488,
+          "sha256": "e148fb2fd8b1fa9de9fb04fef07ad182fd4818327cdb7ff7d6fc80a11fc19333",
+          "shape": [
+            1662,
+            1662
+          ]
+        },
+        "adj_spatial_omics1": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 3994,
+          "sha256": "3e5c66a5c3f531c2af20c8ac5e8e6d504aa9a70d0bdbd289c5c05bc0694e9cdb",
+          "shape": [
+            1662,
+            1662
+          ]
+        },
+        "adj_spatial_omics2": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "is_sparse": true,
+          "nnz": 3994,
+          "sha256": "3e5c66a5c3f531c2af20c8ac5e8e6d504aa9a70d0bdbd289c5c05bc0694e9cdb",
+          "shape": [
+            1662,
+            1662
+          ]
+        }
+      },
+      "ground_truth_identifier_audit": {
+        "identifier_count": 1662,
+        "identifier_order_sha256": "546911ff34829753cd40adb046386738574e94c3f2eea375736e7038ea29620d",
+        "label_column_exists": true,
+        "label_values_read": false,
+        "source": "RNA obs schema only",
+        "training_identifier_order_equal": true,
+        "training_identifier_set_equal": true
+      },
+      "modality2": {
+        "absolute_path": "/autodl-fs/data/Human placenta architecture/humanplacenta_atac.h5ad",
+        "all_finite": true,
+        "counts_available_in_X": true,
+        "dtype": "float64",
+        "feature_order_sha256": "14a0181f00c16100690f5d3af98189f5d169d3ec73c58e68ffceddae90aea717",
+        "inf_count": 0,
+        "layers": [],
+        "n_obs": 1662,
+        "n_vars": 63,
+        "nan_count": 0,
+        "negative_count": 0,
+        "nnz": 52053,
+        "observation_order_sha256": "546911ff34829753cd40adb046386738574e94c3f2eea375736e7038ea29620d",
+        "raw_available": false,
+        "raw_shape": null,
+        "sha256": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+        "shape": [
+          1662,
+          63
+        ],
+        "size_bytes": 971780,
+        "sparse": true,
+        "sparse_format": "csr",
+        "spatial_order_sha256": "7d96e7095ed624ab62cb903b5382000d2b2eee254ea604ec9509ea7b42dfdab1",
+        "spatial_present": true,
+        "spatial_shape": [
+          1662,
+          2
+        ],
+        "x_integer_like": false
+      },
+      "model_input_sha256": "1f03a477e428cbd859fca4d5a0aa4695e41f44a2f764e5194b4671985c7f7746",
+      "obs_columns_after_label_free_load": [],
+      "pca": {
+        "modality2_model_features": {
+          "dtype": "float32",
+          "finite": true,
+          "sha256": "1f533a17a2b17987d6198c6a7db37505cf6bb763ab255990e0796ebe8216c092",
+          "shape": [
+            1662,
+            62
+          ]
+        },
+        "rna_pca": {
+          "dtype": "float32",
+          "finite": true,
+          "sha256": "85eeebb28fcece3228c1f432d7b03df74386ab729b4ee88f4e496a9a52bab1f9",
+          "shape": [
+            1662,
+            62
+          ]
+        }
+      },
+      "prepared_n_obs": 1662,
+      "prepared_observation_order_sha256": "546911ff34829753cd40adb046386738574e94c3f2eea375736e7038ea29620d",
+      "rna": {
+        "absolute_path": "/autodl-fs/data/Human placenta architecture/humanplacenta_rna.h5ad",
+        "all_finite": true,
+        "counts_available_in_X": true,
+        "dtype": "int64",
+        "feature_order_sha256": "97ede7d8c79052b38a86c94c68c159b6d0ef6adcc4a2afe2168e4ad92e57571c",
+        "inf_count": 0,
+        "layers": [],
+        "n_obs": 1662,
+        "n_vars": 36601,
+        "nan_count": 0,
+        "negative_count": 0,
+        "nnz": 4574147,
+        "observation_order_sha256": "546911ff34829753cd40adb046386738574e94c3f2eea375736e7038ea29620d",
+        "raw_available": false,
+        "raw_shape": null,
+        "sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+        "shape": [
+          1662,
+          36601
+        ],
+        "size_bytes": 60099502,
+        "sparse": true,
+        "sparse_format": "csr",
+        "spatial_order_sha256": "7d96e7095ed624ab62cb903b5382000d2b2eee254ea604ec9509ea7b42dfdab1",
+        "spatial_present": true,
+        "spatial_shape": [
+          1662,
+          2
+        ],
+        "x_integer_like": true
+      },
+      "selected_gene_count": 3000,
+      "selected_gene_order_sha256": "e5e8a4c13d183172f1c56555215b633a72df9994f5e96e729e83b1a8631e6f52",
+      "xlog_immutable_shape": [
+        1662,
+        19172
+      ]
+    }
+  },
+  "failures": [],
+  "ground_truth_identifier_only_audit": true,
+  "label_values_read": false,
+  "night1_corrected_sparse_contract": true,
+  "passed": true,
+  "run_order_sha256": "6e0071ec4d977ceac24a35aaf1bc75efb00573664b0735f27c7baf300b916fb2",
+  "schema_version": 1,
+  "stage": "P0A"
+}
