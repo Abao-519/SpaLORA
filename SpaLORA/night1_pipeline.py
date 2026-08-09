@@ -16,7 +16,7 @@ from scipy.stats import rankdata
 from sklearn.neighbors import kneighbors_graph
 
 from .model_corrected import EncoderOverallCorrected
-from .preprocess import clr_normalize_each_cell, pca
+from .preprocess import clr_normalize_each_cell, pca, pca_deterministic
 
 
 @dataclass
@@ -230,7 +230,19 @@ def prepare_corrected(dataset: str, cfg: dict, config: dict, variant: str) -> Pr
     scaled = _dense_scaled(xlog[:, selected_idx])
     rna.obsm["raw_feat"] = scaled
     pca_components = 50 if dataset == "p22" else mod2.n_vars - 1
-    rna.obsm["feat"] = pca(ad.AnnData(scaled), n_comps=pca_components)
+    deterministic_pca = bool(config.get("deterministic_pca", False))
+    if deterministic_pca:
+        rna_scores, rna_pca_metadata = pca_deterministic(
+            ad.AnnData(scaled),
+            n_comps=pca_components,
+            svd_solver=config["pca_svd_solver"],
+            random_state=config["pca_random_state"],
+            return_metadata=True,
+        )
+        rna.obsm["feat"] = rna_scores
+    else:
+        rna.obsm["feat"] = pca(ad.AnnData(scaled), n_comps=pca_components)
+        rna_pca_metadata = None
 
     if dataset == "p22":
         if "X_lsi" not in mod2.obsm:
@@ -275,6 +287,20 @@ def prepare_corrected(dataset: str, cfg: dict, config: dict, variant: str) -> Pr
         "counts_immutable": counts,
         "xlog_immutable": xlog,
     }
+    if deterministic_pca:
+        data.update({
+            "rna_pca_scores": np.asarray(rna.obsm["feat"], dtype=np.float32),
+            "rna_pca_explained_variance": np.asarray(
+                rna_pca_metadata["explained_variance"], dtype=np.float64
+            ),
+            "rna_pca_explained_variance_ratio": np.asarray(
+                rna_pca_metadata["explained_variance_ratio"], dtype=np.float64
+            ),
+            "rna_pca_metadata": {
+                key: value for key, value in rna_pca_metadata.items()
+                if key not in ("explained_variance", "explained_variance_ratio")
+            },
+        })
     return PreparedData(
         data=data,
         obs_names=rna.obs_names.copy(),

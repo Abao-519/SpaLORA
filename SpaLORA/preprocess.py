@@ -62,6 +62,48 @@ def pca(adata, use_reps=None, n_comps=10):
     return feat_pca
 
 
+def pca_deterministic(adata, use_reps=None, n_comps=10,
+                      svd_solver="randomized", random_state=0,
+                      return_metadata=False):
+    """PCA with an explicit local RNG, without changing legacy ``pca`` semantics."""
+    from sklearn.decomposition import PCA
+    from scipy.sparse.csc import csc_matrix
+    from scipy.sparse.csr import csr_matrix
+
+    numpy_state = np.random.get_state()
+    estimator = PCA(
+        n_components=n_comps,
+        svd_solver=svd_solver,
+        random_state=int(random_state),
+    )
+    if use_reps is not None:
+        matrix = adata.obsm[use_reps]
+    else:
+        matrix = adata.X
+    if isinstance(matrix, (csc_matrix, csr_matrix)):
+        matrix = matrix.toarray()
+    scores = estimator.fit_transform(matrix)
+    state_after = np.random.get_state()
+    rng_unchanged = (
+        numpy_state[0] == state_after[0]
+        and np.array_equal(numpy_state[1], state_after[1])
+        and numpy_state[2:] == state_after[2:]
+    )
+    if not rng_unchanged:
+        np.random.set_state(numpy_state)
+    metadata = {
+        "svd_solver_requested": str(svd_solver),
+        "svd_solver_resolved": str(estimator._fit_svd_solver),
+        "random_state": int(random_state),
+        "numpy_global_rng_unchanged": bool(rng_unchanged),
+        "explained_variance": estimator.explained_variance_.astype(np.float64),
+        "explained_variance_ratio": estimator.explained_variance_ratio_.astype(np.float64),
+    }
+    if return_metadata:
+        return scores, metadata
+    return scores
+
+
 def clr_normalize_each_cell(adata, inplace=True):
     """Normalize count vector for each cell, i.e. for each row of .X"""
     import numpy as np
