@@ -1,0 +1,17 @@
+{
+  "architecture_ablation_authorized": true,
+  "failure_count": 0,
+  "ige_scientific_go_no_go": "PASS",
+  "locked_60_run_manifest_sha256": "fef55d516f015583b1faa2dad0c5e33589a7386b6250bfa4c05776c8c90cac59",
+  "main_runs_completed": 60,
+  "main_runs_required": 60,
+  "p0bf_cells_passed": 15,
+  "p0bf_pass": true,
+  "p0d_pass": true,
+  "previous_night3ar_status": "DETERMINISTIC_PREPROCESSING_BUG_FOUND_SCIENTIFIC_GO_NO_GO_NOT_EVALUATED",
+  "protocol_deviations": [],
+  "report_sha256": "96f16f0ace2c04f351d3e43dd5af08c1bee6d4863299e0779a4cb820dfb74b8c",
+  "schema_version": 1,
+  "semantic_label_access_during_training": false,
+  "stage": "Night-3A-F complete"
+}

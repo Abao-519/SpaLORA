@@ -1,0 +1,730 @@
+{
+  "cells": [
+    {
+      "c0_initial_state_sha256": "93423d0b3e69c181cac2f7edec8b556b4be6d5ca7ad0073e4f8a9ed0f08b9252",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "a1",
+      "gradient_values": {
+        "L_corr1_raw": 0.0020378274528114544,
+        "L_corr2_raw": 0.0005607258117153233,
+        "L_mod2_recon_raw": 0.0016345303375010988,
+        "L_rna_recon_raw": 2.6070167614280158e-05
+      },
+      "ige_initial_state_sha256": "93423d0b3e69c181cac2f7edec8b556b4be6d5ca7ad0073e4f8a9ed0f08b9252",
+      "ige_weights": {
+        "L_corr1_raw": 0.047591837884849775,
+        "L_corr2_raw": 0.17296145748925784,
+        "L_mod2_recon_raw": 0.059334447048579965,
+        "L_rna_recon_raw": 3.7201122575773122
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000024550664,
+        "L_corr2_raw": 0.2500000021318953,
+        "L_mod2_recon_raw": 0.2500000024247969,
+        "L_rna_recon_raw": 0.24999999298824144
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.1005653142929077,
+        "L_rna_recon_raw": 1.0024998188018799
+      },
+      "seed": 0
+    },
+    {
+      "c0_initial_state_sha256": "7738537747df9a95a022d0659f696a41c6125cd1632673ceb3bd9af5bd1352cd",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "a1",
+      "gradient_values": {
+        "L_corr1_raw": 0.0016125346077364767,
+        "L_corr2_raw": 0.0007032873029443861,
+        "L_mod2_recon_raw": 0.0018350134088361792,
+        "L_rna_recon_raw": 1.645515830747991e-05
+      },
+      "ige_initial_state_sha256": "7738537747df9a95a022d0659f696a41c6125cd1632673ceb3bd9af5bd1352cd",
+      "ige_weights": {
+        "L_corr1_raw": 0.039151471198288865,
+        "L_corr2_raw": 0.08976857954936517,
+        "L_mod2_recon_raw": 0.03440470895295876,
+        "L_rna_recon_raw": 3.836675240299387
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000038048524,
+        "L_corr2_raw": 0.2500000036044143,
+        "L_mod2_recon_raw": 0.25000000382364906,
+        "L_rna_recon_raw": 0.2499999887670842
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.12710796296596527,
+        "L_corr2_raw": 0.2437112182378769,
+        "L_mod2_recon_raw": 1.1146094799041748,
+        "L_rna_recon_raw": 1.0018126964569092
+      },
+      "seed": 1
+    },
+    {
+      "c0_initial_state_sha256": "8980e9d9cc800dd749bdbdce1623a945eaa8ab71e151915c05bf9bd1f3184072",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "a1",
+      "gradient_values": {
+        "L_corr1_raw": 0.0019525214237462209,
+        "L_corr2_raw": 0.0005544109365809063,
+        "L_mod2_recon_raw": 0.0020183594861836783,
+        "L_rna_recon_raw": 2.1561218777012317e-05
+      },
+      "ige_initial_state_sha256": "8980e9d9cc800dd749bdbdce1623a945eaa8ab71e151915c05bf9bd1f3184072",
+      "ige_weights": {
+        "L_corr1_raw": 0.041646593947866704,
+        "L_corr2_raw": 0.14667074806591354,
+        "L_mod2_recon_raw": 0.040288099056318395,
+        "L_rna_recon_raw": 3.7713945589299014
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000029463912,
+        "L_corr2_raw": 0.2500000026235017,
+        "L_mod2_recon_raw": 0.2500000029505678,
+        "L_rna_recon_raw": 0.2499999914795393
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.13710615038871765,
+        "L_corr2_raw": 0.1959286630153656,
+        "L_mod2_recon_raw": 1.1562365293502808,
+        "L_rna_recon_raw": 1.0022320747375488
+      },
+      "seed": 2
+    },
+    {
+      "c0_initial_state_sha256": "b5bfd7ee66b7bbe04e306e9af2333c7c7a10a9e603fc6843a886f9273083aae6",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "a1",
+      "gradient_values": {
+        "L_corr1_raw": 0.001657350321655973,
+        "L_corr2_raw": 0.000552268142946511,
+        "L_mod2_recon_raw": 0.0017650971913693416,
+        "L_rna_recon_raw": 1.8005950703191103e-05
+      },
+      "ige_initial_state_sha256": "b5bfd7ee66b7bbe04e306e9af2333c7c7a10a9e603fc6843a886f9273083aae6",
+      "ige_weights": {
+        "L_corr1_raw": 0.04124369164488523,
+        "L_corr2_raw": 0.12377184236394129,
+        "L_mod2_recon_raw": 0.03872605199910763,
+        "L_rna_recon_raw": 3.7962584139920663
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000000350652063,
+        "L_corr2_raw": 0.2500000032046852,
+        "L_mod2_recon_raw": 0.2500000035157286,
+        "L_rna_recon_raw": 0.24999998977306562
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.13617025315761566,
+        "L_corr2_raw": 0.2118832767009735,
+        "L_mod2_recon_raw": 1.1016173362731934,
+        "L_rna_recon_raw": 1.0018877983093262
+      },
+      "seed": 3
+    },
+    {
+      "c0_initial_state_sha256": "923869d99b630c8cb39ff6aeff4ac6f215938e04cf84fa567fcab15c02f5e27d",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "a1",
+      "gradient_values": {
+        "L_corr1_raw": 0.0012289514324907529,
+        "L_corr2_raw": 0.0006234280993543829,
+        "L_mod2_recon_raw": 0.0012781900329838995,
+        "L_rna_recon_raw": 2.1132069550781662e-05
+      },
+      "ige_initial_state_sha256": "923869d99b630c8cb39ff6aeff4ac6f215938e04cf84fa567fcab15c02f5e27d",
+      "ige_weights": {
+        "L_corr1_raw": 0.06442415935442664,
+        "L_corr2_raw": 0.12699806592781648,
+        "L_mod2_recon_raw": 0.06194240362153896,
+        "L_rna_recon_raw": 3.746635371096218
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000029541703,
+        "L_corr2_raw": 0.2500000027565872,
+        "L_mod2_recon_raw": 0.25000000296200664,
+        "L_rna_recon_raw": 0.24999999132723574
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.12177393585443497,
+        "L_corr2_raw": 0.20882032811641693,
+        "L_mod2_recon_raw": 1.0687754154205322,
+        "L_rna_recon_raw": 1.0019601583480835
+      },
+      "seed": 4
+    },
+    {
+      "c0_initial_state_sha256": "9a0afeaf662e33c8fa78e0d2e70433e838575f28ba1808277853f38ee8bf523a",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "placenta",
+      "gradient_values": {
+        "L_corr1_raw": 0.0027571464911029103,
+        "L_corr2_raw": 0.00014850419993309041,
+        "L_mod2_recon_raw": 0.0009971485938939718,
+        "L_rna_recon_raw": 4.689354725294047e-05
+      },
+      "ige_initial_state_sha256": "9a0afeaf662e33c8fa78e0d2e70433e838575f28ba1808277853f38ee8bf523a",
+      "ige_weights": {
+        "L_corr1_raw": 0.04930540492191862,
+        "L_corr2_raw": 0.9154099572134743,
+        "L_mod2_recon_raw": 0.1363309590148261,
+        "L_rna_recon_raw": 2.8989536788497805
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000000174834314,
+        "L_corr2_raw": 0.25000000015556245,
+        "L_mod2_recon_raw": 0.25000000158830166,
+        "L_rna_recon_raw": 0.2499999965077927
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1983044147491455,
+        "L_rna_recon_raw": 1.012054443359375
+      },
+      "seed": 0
+    },
+    {
+      "c0_initial_state_sha256": "83df6b876287736d702d6e5f18ebf7ea5cfae6056a685b573687256593c8199c",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "placenta",
+      "gradient_values": {
+        "L_corr1_raw": 0.0034898452132337897,
+        "L_corr2_raw": 0.00014232630209018706,
+        "L_mod2_recon_raw": 0.0013257255553583286,
+        "L_rna_recon_raw": 5.122534796292487e-05
+      },
+      "ige_initial_state_sha256": "83df6b876287736d702d6e5f18ebf7ea5cfae6056a685b573687256593c8199c",
+      "ige_weights": {
+        "L_corr1_raw": 0.04154560293793182,
+        "L_corr2_raw": 1.018699428267487,
+        "L_mod2_recon_raw": 0.10936481000160346,
+        "L_rna_recon_raw": 2.830390158792978
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000016526475,
+        "L_corr2_raw": 0.24999999996775685,
+        "L_mod2_recon_raw": 0.25000000153570795,
+        "L_rna_recon_raw": 0.24999999684388766
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8948230147361755,
+        "L_corr2_raw": 0.18453539907932281,
+        "L_mod2_recon_raw": 1.2202428579330444,
+        "L_rna_recon_raw": 1.0124516487121582
+      },
+      "seed": 1
+    },
+    {
+      "c0_initial_state_sha256": "ab116fde7a1d5080986cfb07b9e615c489024f7aba859d8351fcf25b7519dafd",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "placenta",
+      "gradient_values": {
+        "L_corr1_raw": 0.0030975580458434794,
+        "L_corr2_raw": 0.00015136512967102287,
+        "L_mod2_recon_raw": 0.0010453652422488249,
+        "L_rna_recon_raw": 4.4257792219977566e-05
+      },
+      "ige_initial_state_sha256": "ab116fde7a1d5080986cfb07b9e615c489024f7aba859d8351fcf25b7519dafd",
+      "ige_weights": {
+        "L_corr1_raw": 0.04236558154037136,
+        "L_corr2_raw": 0.8669754218017091,
+        "L_mod2_recon_raw": 0.12553492557466311,
+        "L_rna_recon_raw": 2.965124071083257
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000018243457,
+        "L_corr2_raw": 0.25000000025341906,
+        "L_mod2_recon_raw": 0.2500000016659035,
+        "L_rna_recon_raw": 0.24999999625633168
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8293831944465637,
+        "L_corr2_raw": 0.18961496651172638,
+        "L_mod2_recon_raw": 1.2088948488235474,
+        "L_rna_recon_raw": 1.011711835861206
+      },
+      "seed": 2
+    },
+    {
+      "c0_initial_state_sha256": "bb0b5521ab97b7c76c56720839435ddb3ad257f525aaefec31df79912fe04229",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "placenta",
+      "gradient_values": {
+        "L_corr1_raw": 0.002891485865646552,
+        "L_corr2_raw": 0.0001417820125027098,
+        "L_mod2_recon_raw": 0.0010997528370597406,
+        "L_rna_recon_raw": 4.8672015994908215e-05
+      },
+      "ige_initial_state_sha256": "bb0b5521ab97b7c76c56720839435ddb3ad257f525aaefec31df79912fe04229",
+      "ige_weights": {
+        "L_corr1_raw": 0.04794400536768886,
+        "L_corr2_raw": 0.9777644602885346,
+        "L_mod2_recon_raw": 0.1260550635683544,
+        "L_rna_recon_raw": 2.848236470775422
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000017169084,
+        "L_corr2_raw": 0.2500000000400989,
+        "L_mod2_recon_raw": 0.2500000015760453,
+        "L_rna_recon_raw": 0.24999999666694742
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8429890275001526,
+        "L_corr2_raw": 0.18707652390003204,
+        "L_mod2_recon_raw": 1.2154961824417114,
+        "L_rna_recon_raw": 1.011638879776001
+      },
+      "seed": 3
+    },
+    {
+      "c0_initial_state_sha256": "ae3ca6851679a327a7a85a535fb527a50ae5ac41f9dedabc0317e52fc21b2607",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "placenta",
+      "gradient_values": {
+        "L_corr1_raw": 0.0028485780065077054,
+        "L_corr2_raw": 0.00015276786564312288,
+        "L_mod2_recon_raw": 0.0009907294407752584,
+        "L_rna_recon_raw": 4.4248507412532354e-05
+      },
+      "ige_initial_state_sha256": "ae3ca6851679a327a7a85a535fb527a50ae5ac41f9dedabc0317e52fc21b2607",
+      "ige_weights": {
+        "L_corr1_raw": 0.04603071674722639,
+        "L_corr2_raw": 0.8583093439556677,
+        "L_mod2_recon_raw": 0.13234903684805407,
+        "L_rna_recon_raw": 2.963310902449052
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000000181885695,
+        "L_corr2_raw": 0.2500000002701503,
+        "L_mod2_recon_raw": 0.2500000016542807,
+        "L_rna_recon_raw": 0.24999999625671201
+      },
+      "m_bad": 2.28993821144104,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8177588582038879,
+        "L_corr2_raw": 0.19170412421226501,
+        "L_mod2_recon_raw": 1.2216991186141968,
+        "L_rna_recon_raw": 1.0118211507797241
+      },
+      "seed": 4
+    },
+    {
+      "c0_initial_state_sha256": "1280b01fd58ef7b77188a9b0072ace34226f2aa6498496f8fbdd386482c71d60",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "p22",
+      "gradient_values": {
+        "L_corr1_raw": 0.00020484190595489944,
+        "L_corr2_raw": 0.00011295366828381814,
+        "L_mod2_recon_raw": 0.00020789659018431023,
+        "L_rna_recon_raw": 6.772303446498364e-06
+      },
+      "ige_initial_state_sha256": "1280b01fd58ef7b77188a9b0072ace34226f2aa6498496f8fbdd386482c71d60",
+      "ige_weights": {
+        "L_corr1_raw": 0.11748875095417993,
+        "L_corr2_raw": 0.2130662947365738,
+        "L_mod2_recon_raw": 0.11576245504606313,
+        "L_rna_recon_raw": 3.5536824992631835
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000000916737886,
+        "L_corr2_raw": 0.2500000081745353,
+        "L_mod2_recon_raw": 0.25000000918531134,
+        "L_rna_recon_raw": 0.24999997347277447
+      },
+      "m_bad": 2.290322780609131,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0422428846359253,
+        "L_rna_recon_raw": 1.0025254487991333
+      },
+      "seed": 0
+    },
+    {
+      "c0_initial_state_sha256": "5433a390e72bc7bf9cc8e07c3d33f178a13bc7e6ac6235caef81251a9d5caf94",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "p22",
+      "gradient_values": {
+        "L_corr1_raw": 0.00014736182496819552,
+        "L_corr2_raw": 0.00012167922004272644,
+        "L_mod2_recon_raw": 0.00021234524879575162,
+        "L_rna_recon_raw": 7.344319342463796e-06
+      },
+      "ige_initial_state_sha256": "5433a390e72bc7bf9cc8e07c3d33f178a13bc7e6ac6235caef81251a9d5caf94",
+      "ige_weights": {
+        "L_corr1_raw": 0.1741418976427344,
+        "L_corr2_raw": 0.21089770130258345,
+        "L_mod2_recon_raw": 0.1208497389929057,
+        "L_rna_recon_raw": 3.494110662061776
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.2500000080455769,
+        "L_corr2_raw": 0.2500000076874989,
+        "L_mod2_recon_raw": 0.25000000856475346,
+        "L_rna_recon_raw": 0.2499999757021706
+      },
+      "m_bad": 2.290322780609131,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08276732265949249,
+        "L_corr2_raw": 0.11229388415813446,
+        "L_mod2_recon_raw": 1.0317693948745728,
+        "L_rna_recon_raw": 1.0023996829986572
+      },
+      "seed": 1
+    },
+    {
+      "c0_initial_state_sha256": "5f4d40bae0f229a31cb71b7278d630d355323a2154e08dd82150b4ca2338aaea",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "p22",
+      "gradient_values": {
+        "L_corr1_raw": 0.0001673227767671688,
+        "L_corr2_raw": 0.00011898681761917189,
+        "L_mod2_recon_raw": 0.00019185883389316827,
+        "L_rna_recon_raw": 7.264677426328754e-06
+      },
+      "ige_initial_state_sha256": "5f4d40bae0f229a31cb71b7278d630d355323a2154e08dd82150b4ca2338aaea",
+      "ige_weights": {
+        "L_corr1_raw": 0.15202931128271654,
+        "L_corr2_raw": 0.21378810662440043,
+        "L_mod2_recon_raw": 0.1325868922326053,
+        "L_rna_recon_raw": 3.501595689860278
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000000833371167,
+        "L_corr2_raw": 0.2500000077267568,
+        "L_mod2_recon_raw": 0.25000000852478854,
+        "L_rna_recon_raw": 0.24999997541474303
+      },
+      "m_bad": 2.290322780609131,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08353601396083832,
+        "L_corr2_raw": 0.11075493693351746,
+        "L_mod2_recon_raw": 1.0298055410385132,
+        "L_rna_recon_raw": 1.0025205612182617
+      },
+      "seed": 2
+    },
+    {
+      "c0_initial_state_sha256": "bb57e92b5764579114a1c6ddd18da72ae18bcf09aad986f0b44fcd2101f65279",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "p22",
+      "gradient_values": {
+        "L_corr1_raw": 0.00017840558711857958,
+        "L_corr2_raw": 0.0001185871821734549,
+        "L_mod2_recon_raw": 0.00020037923199887144,
+        "L_rna_recon_raw": 6.2587963710405e-06
+      },
+      "ige_initial_state_sha256": "bb57e92b5764579114a1c6ddd18da72ae18bcf09aad986f0b44fcd2101f65279",
+      "ige_weights": {
+        "L_corr1_raw": 0.12539367096411932,
+        "L_corr2_raw": 0.1886454422480032,
+        "L_mod2_recon_raw": 0.11164296459218087,
+        "L_rna_recon_raw": 3.574317922195696
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000000977391534,
+        "L_corr2_raw": 0.2500000090670631,
+        "L_mod2_recon_raw": 0.25000000992758253,
+        "L_rna_recon_raw": 0.24999997123143908
+      },
+      "m_bad": 2.290322780609131,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08657749742269516,
+        "L_corr2_raw": 0.11209534108638763,
+        "L_mod2_recon_raw": 1.0349129438400269,
+        "L_rna_recon_raw": 1.0023605823516846
+      },
+      "seed": 3
+    },
+    {
+      "c0_initial_state_sha256": "444eaef47d8295ef702a7983d43591a1a249f8b41c4ddc814f0d17e9e134c818",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "cache_hash_exact": true,
+        "finite_positive_gradients": true,
+        "finite_positive_weights": true,
+        "initial_gradient_shares_quarter": true,
+        "initial_parameters_identical": true,
+        "initial_weighted_influence_equal": true,
+        "locked_m_bad_matches": true,
+        "reload_within_gpu_envelope": true,
+        "repeat_within_gpu_envelope": true,
+        "state_rng_preserved": true,
+        "weight_range": true,
+        "weight_sum": true
+      },
+      "dataset": "p22",
+      "gradient_values": {
+        "L_corr1_raw": 0.00015897444609487855,
+        "L_corr2_raw": 0.0001285246107398697,
+        "L_mod2_recon_raw": 0.00018044057646617734,
+        "L_rna_recon_raw": 5.861545423753947e-06
+      },
+      "ige_initial_state_sha256": "444eaef47d8295ef702a7983d43591a1a249f8b41c4ddc814f0d17e9e134c818",
+      "ige_weights": {
+        "L_corr1_raw": 0.13227713909790273,
+        "L_corr2_raw": 0.16361601693800804,
+        "L_mod2_recon_raw": 0.1165407767292429,
+        "L_rna_recon_raw": 3.587566067234847
+      },
+      "initial_weighted_gradient_share": {
+        "L_corr1_raw": 0.25000001031594343,
+        "L_corr2_raw": 0.25000000994337046,
+        "L_mod2_recon_raw": 0.25000001050302556,
+        "L_rna_recon_raw": 0.24999996923766057
+      },
+      "m_bad": 2.290322780609131,
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08327516913414001,
+        "L_corr2_raw": 0.11399556696414948,
+        "L_mod2_recon_raw": 1.030371069908142,
+        "L_rna_recon_raw": 1.0024082660675049
+      },
+      "seed": 4
+    }
+  ],
+  "cells_completed": 15,
+  "cells_passed": 15,
+  "cells_required": 15,
+  "config_lock_sha256": "a5b024cb995fc39e13d5e920758bec120ef7247a8bb5ab9db2b651df9edafc29",
+  "failures": [],
+  "integrity_read_count": 29,
+  "old_probe_equivalence_not_required": true,
+  "passed": true,
+  "schema_version": 1,
+  "scientific_window_firewall": {
+    "forbidden_evaluator_imports": [],
+    "ground_truth_csv_opened_inside_window": [],
+    "ground_truth_parser_guard_trigger_count": 0,
+    "integrity_verification_completed_before_window": true,
+    "opened_path_count": 178,
+    "passed": true,
+    "semantic_label_values_read": false,
+    "stage": "p0bf"
+  },
+  "semantic_label_values_read": false,
+  "stage": "P0B-F"
+}

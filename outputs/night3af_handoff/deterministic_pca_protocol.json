@@ -1,0 +1,14 @@
+{
+  "corrected_pipeline_explicit": true,
+  "external_process_seeds": [
+    1337,
+    8675309
+  ],
+  "legacy_pca_default_unchanged": true,
+  "old_random_pca_hash_is_not_a_gate": true,
+  "random_state": 0,
+  "schema_version": 1,
+  "svd_solver": "randomized",
+  "taskbook_sha256": "b50df230803e652e780e467f9611b0278ae801b9c3d250fc9d5be36d778bda4a",
+  "two_independent_processes": true
+}

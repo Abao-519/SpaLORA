@@ -1,0 +1,126 @@
+{
+  "arrays": {
+    "coordinates": {
+      "dtype": "float64",
+      "shape": [
+        1662,
+        2
+      ]
+    },
+    "features_omics1": {
+      "dtype": "float32",
+      "shape": [
+        1662,
+        3000
+      ]
+    },
+    "features_omics2": {
+      "dtype": "float32",
+      "shape": [
+        1662,
+        62
+      ]
+    },
+    "rna_pca_explained_variance": {
+      "dtype": "float64",
+      "shape": [
+        62
+      ]
+    },
+    "rna_pca_explained_variance_ratio": {
+      "dtype": "float64",
+      "shape": [
+        62
+      ]
+    },
+    "rna_pca_scores": {
+      "dtype": "float32",
+      "shape": [
+        1662,
+        62
+      ]
+    },
+    "weight_vector_omics1": {
+      "dtype": "float32",
+      "shape": [
+        3000
+      ]
+    }
+  },
+  "canonical_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+  "dataset": "placenta",
+  "graphs": {
+    "adj_feature_omics1": {
+      "coalesced": true,
+      "indices_shape": [
+        2,
+        50028
+      ],
+      "nnz": 50028,
+      "shape": [
+        1662,
+        1662
+      ],
+      "values_shape": [
+        50028
+      ]
+    },
+    "adj_feature_omics2": {
+      "coalesced": true,
+      "indices_shape": [
+        2,
+        46488
+      ],
+      "nnz": 46488,
+      "shape": [
+        1662,
+        1662
+      ],
+      "values_shape": [
+        46488
+      ]
+    },
+    "adj_spatial_omics1": {
+      "coalesced": true,
+      "indices_shape": [
+        2,
+        3994
+      ],
+      "nnz": 3994,
+      "shape": [
+        1662,
+        1662
+      ],
+      "values_shape": [
+        3994
+      ]
+    },
+    "adj_spatial_omics2": {
+      "coalesced": true,
+      "indices_shape": [
+        2,
+        3994
+      ],
+      "nnz": 3994,
+      "shape": [
+        1662,
+        1662
+      ],
+      "values_shape": [
+        3994
+      ]
+    }
+  },
+  "n_observations": 1662,
+  "n_selected_genes": 3000,
+  "pca_random_state": 0,
+  "pca_svd_solver": "randomized",
+  "rna_pca_metadata": {
+    "numpy_global_rng_unchanged": true,
+    "random_state": 0,
+    "svd_solver_requested": "randomized",
+    "svd_solver_resolved": "randomized"
+  },
+  "schema_version": 1,
+  "semantic_label_values_read": false
+}

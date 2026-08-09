@@ -1,0 +1,29 @@
+{
+  "byte_exact_dataset_count": 3,
+  "dataset_count": 3,
+  "datasets": {
+    "a1": {
+      "all_file_sha256_exact": true,
+      "all_rng_states_unchanged": true,
+      "canonical_cache_content_sha256_exact": true,
+      "canonical_model_input_sha256_exact": true
+    },
+    "p22": {
+      "all_file_sha256_exact": true,
+      "all_rng_states_unchanged": true,
+      "canonical_cache_content_sha256_exact": true,
+      "canonical_model_input_sha256_exact": true
+    },
+    "placenta": {
+      "all_file_sha256_exact": true,
+      "all_rng_states_unchanged": true,
+      "canonical_cache_content_sha256_exact": true,
+      "canonical_model_input_sha256_exact": true
+    }
+  },
+  "external_rng_seeds_different": true,
+  "passed": true,
+  "process_a_sha256": "6cbb4f48286e64d4460ba222d33d452495df9483323ce6681330224795fb9bbd",
+  "process_b_sha256": "b8378eca96316544c2303d1f98f847dc19ddcedce09d63a0060ae92debaae314",
+  "schema_version": 1
+}

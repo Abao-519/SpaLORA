@@ -1,0 +1,49 @@
+{
+  "all_metrics_finite": true,
+  "alternative_a_pass": true,
+  "alternative_b_pass": true,
+  "architecture_ablation_authorized": true,
+  "attention_saturation_flags": [],
+  "evaluation_semantic_label_access": {
+    "after_locked_manifest": true,
+    "occurred": true,
+    "used_only_for_metrics": true
+  },
+  "failure_count": 0,
+  "ige_scientific_go_no_go": "PASS",
+  "main_runs_completed": 60,
+  "p0bf_pass": true,
+  "p0d_pass": true,
+  "placenta_c1_minus_c0_ari": 0.21552189735244126,
+  "placenta_ige_minus_c0_ari": 0.137420343208217,
+  "placenta_recovery_fraction": 0.6376166175982322,
+  "positive_ari_nmi_datasets": {
+    "a1": true,
+    "p22": false,
+    "placenta": true
+  },
+  "protections": {
+    "night2c": {
+      "failure_lines": [],
+      "line_count": 913,
+      "passed": true
+    },
+    "night3a": {
+      "failure_lines": [],
+      "line_count": 198,
+      "passed": true
+    },
+    "night3ar": {
+      "failure_lines": [],
+      "line_count": 211,
+      "passed": true
+    }
+  },
+  "scalar_contribution_used_as_hard_gate": false,
+  "schema_version": 1,
+  "semantic_label_access_during_training": false,
+  "source_lock_match": true,
+  "spatial_joint_decline_failures": [],
+  "strict_failure_reasons": [],
+  "weighted_gradient_share_collapse_flags": []
+}

@@ -1,0 +1,39 @@
+{
+  "datasets": {
+    "a1": {
+      "deterministic_pca_file_sha256": "18ca37f7e5dd20c61a7bf4ee984f7c4201bbc7def59d9eb318d7263a7a473f96",
+      "deterministic_rna_feature_graph_nnz": 116532,
+      "edge_overlap": "edge_overlap_not_available",
+      "night3a_random_pca_sha256": "4e166fb2f1792b115063a9e14a33e59e403e642584fbde14df39d6615e7f0a1f",
+      "night3a_rna_feature_graph_nnz": 116936,
+      "night3ar_random_pca_sha256": "2504abf1cd1428edf58789a76cf023ce65f2fdcca8ef802389127c339c9ad868",
+      "night3ar_rna_feature_graph_nnz": 117030,
+      "old_new_hash_difference_expected": true,
+      "reason": "legacy PCA used randomized SVD without an explicit local random_state"
+    },
+    "p22": {
+      "deterministic_pca_file_sha256": "e38884de95e7d87c2b84092833105749ffd15c0ce9de7b6ee02d0bf593eab86c",
+      "deterministic_rna_feature_graph_nnz": 283500,
+      "edge_overlap": "edge_overlap_not_available",
+      "night3a_random_pca_sha256": "e1b3e3ea6bb582af05e39d54bbdf224cc611c2fb59387961d051ceb10cb6326c",
+      "night3a_rna_feature_graph_nnz": 282934,
+      "night3ar_random_pca_sha256": "d571b820c79fa1608229366b051b7fbab84b975798a0dc607e2d5de9fda2a8cd",
+      "night3ar_rna_feature_graph_nnz": 282846,
+      "old_new_hash_difference_expected": true,
+      "reason": "legacy PCA used randomized SVD without an explicit local random_state"
+    },
+    "placenta": {
+      "deterministic_pca_file_sha256": "fe0eb0f8652a80ec37e3b74f2f4fcdb98fccc9ed8a0a3fd7cf3fee4eca506e2f",
+      "deterministic_rna_feature_graph_nnz": 50028,
+      "edge_overlap": "edge_overlap_not_available",
+      "night3a_random_pca_sha256": "85eeebb28fcece3228c1f432d7b03df74386ab729b4ee88f4e496a9a52bab1f9",
+      "night3a_rna_feature_graph_nnz": 50024,
+      "night3ar_random_pca_sha256": "6718b3b6da224ba8a23d958da3fc6db50deca76b1157a2a0010118abcecc75f6",
+      "night3ar_rna_feature_graph_nnz": 50094,
+      "old_new_hash_difference_expected": true,
+      "reason": "legacy PCA used randomized SVD without an explicit local random_state"
+    }
+  },
+  "diagnostic_only_not_a_gate": true,
+  "schema_version": 1
+}

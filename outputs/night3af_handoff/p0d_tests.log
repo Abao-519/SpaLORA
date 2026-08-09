@@ -1,0 +1,16 @@
+..................                                                       [100%]
+=============================== warnings summary ===============================
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_preserves_python_numpy_and_torch_rng
+  /autodl-fs/data/SpaLORA-night3af/SpaLORA/preprocess.py:70: DeprecationWarning: Please use `csc_matrix` from the `scipy.sparse` namespace, the `scipy.sparse.csc` namespace is deprecated.
+    from scipy.sparse.csc import csc_matrix
+
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_preserves_python_numpy_and_torch_rng
+  /autodl-fs/data/SpaLORA-night3af/SpaLORA/preprocess.py:71: DeprecationWarning: Please use `csr_matrix` from the `scipy.sparse` namespace, the `scipy.sparse.csr` namespace is deprecated.
+    from scipy.sparse.csr import csr_matrix
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+18 passed, 6 warnings in 13.48s

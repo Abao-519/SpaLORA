@@ -1,0 +1,36 @@
+{
+  "config_lock_sha256": "a5b024cb995fc39e13d5e920758bec120ef7247a8bb5ab9db2b651df9edafc29",
+  "dataset": "placenta",
+  "embedding_dim": 128,
+  "epochs": 200,
+  "frozen_coefficients": {
+    "L_corr1_raw": 0.04154560307486378,
+    "L_corr2_raw": 1.018699430939447,
+    "L_mod2_recon_raw": 0.10936480992481333,
+    "L_rna_recon_raw": 2.830390156060876
+  },
+  "gradient_influence_definition": "abs(frozen_coefficient_k) * RMS_gradient(raw_loss_k)",
+  "ground_truth_path_in_trainer": false,
+  "initial_raw_losses": {
+    "L_corr1_raw": 0.8948230147361755,
+    "L_corr2_raw": 0.18453539907932281,
+    "L_mod2_recon_raw": 1.2202428579330444,
+    "L_rna_recon_raw": 1.0124516487121582
+  },
+  "optimizer": {
+    "learning_rate": 0.0001,
+    "name": "Adam",
+    "weight_decay": 0.0
+  },
+  "raw_loss_reduction": "torch.nn.functional.mse_loss mean over every element",
+  "scalar_contribution_is_descriptive_only": true,
+  "schema_version": 1,
+  "seed": 1,
+  "semantic_label_access": false,
+  "variant": "IGE",
+  "variant_contract": {
+    "calibration": "initial_gradient_equalization",
+    "gene_shape": false,
+    "rna_global_scale": null
+  }
+}

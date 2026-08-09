@@ -1,0 +1,36 @@
+{
+  "config_lock_sha256": "a5b024cb995fc39e13d5e920758bec120ef7247a8bb5ab9db2b651df9edafc29",
+  "dataset": "a1",
+  "embedding_dim": 64,
+  "epochs": 200,
+  "frozen_coefficients": {
+    "L_corr1_raw": 1.5,
+    "L_corr2_raw": 10.0,
+    "L_mod2_recon_raw": 2.5,
+    "L_rna_recon_raw": 4.350882601737976
+  },
+  "gradient_influence_definition": "abs(frozen_coefficient_k) * RMS_gradient(raw_loss_k)",
+  "ground_truth_path_in_trainer": false,
+  "initial_raw_losses": {
+    "L_corr1_raw": 0.13710615038871765,
+    "L_corr2_raw": 0.1959286630153656,
+    "L_mod2_recon_raw": 1.1562365293502808,
+    "L_rna_recon_raw": 1.0022320747375488
+  },
+  "optimizer": {
+    "learning_rate": 0.0001,
+    "name": "Adam",
+    "weight_decay": 0.0
+  },
+  "raw_loss_reduction": "torch.nn.functional.mse_loss mean over every element",
+  "scalar_contribution_is_descriptive_only": true,
+  "schema_version": 1,
+  "seed": 2,
+  "semantic_label_access": false,
+  "variant": "C1",
+  "variant_contract": {
+    "calibration": "legacy_dataset_gamma",
+    "gene_shape": false,
+    "rna_global_scale": "locked_m_bad"
+  }
+}

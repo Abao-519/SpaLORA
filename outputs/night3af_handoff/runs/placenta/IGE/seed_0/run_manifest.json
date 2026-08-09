@@ -1,0 +1,56 @@
+{
+  "artifact_sha256": {
+    "attention.npz": "e69e3a08ce0021559d6d75ba839e2281672e293312755cccca63cd15f9ecde88",
+    "checkpoint_index.csv": "5521b5591b627009f04f563f5b06a8d28187c2c7800adf8c184bb01378c6d823",
+    "clusters.csv": "26a0f4141d0b999c59b3dad83483bf8219c67a20fb80a8329f79c419a14a319f",
+    "embedding.npz": "414e010b17367e147b7dc71afb036b768e9f5b052d799fbf7d5426124fed91bc",
+    "gradient_influence_trajectory.csv": "6dbdf277e5457eba422459382eb9973de08173e2070df1c3d6473de516d888c7",
+    "loss_trajectory.csv": "23684efbe5f0e19042c4327d0291d97f0225d46474fe8daed9190d8148ff3559",
+    "model_final.pt": "e493c217fdc7dc12ecf676cca17a4bba07b53aad035edab88818ad6f65ceed4a",
+    "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+    "run_config.json": "283ae499c0c0764ef42f92f9f8fe061771ebcb7bb406d62d6b3477aa6874a724"
+  },
+  "attention_max_row_sum_deviation": {
+    "alpha": 1.1920928955078125e-07,
+    "alpha_omics1": 1.1920928955078125e-07,
+    "alpha_omics2": 5.960464477539063e-08
+  },
+  "config_lock_sha256": "a5b024cb995fc39e13d5e920758bec120ef7247a8bb5ab9db2b651df9edafc29",
+  "config_sha256": "c9005f9133a808ff43e587056d7300632627e3f1b6fe346a5bb3098703bbc6bc",
+  "dataset": "placenta",
+  "deterministic_cache_content_sha256": "fc65b5af93aa0aa6d3082344247623d95b6c68f99cd75394fa1af0fa0b5657be",
+  "deterministic_cache_manifest_sha256": "cb8eaed90adcd08b3662f6fffdae9049365214ff5ef01e36a9f4ab046b40a0b2",
+  "diagnostics_state_neutral": true,
+  "final_state_sha256": "d94bdca2914446f5ee96db82135c50d1a0a7cabe349e4383a25c0906485550e1",
+  "initial_state_sha256": "9a0afeaf662e33c8fa78e0d2e70433e838575f28ba1808277853f38ee8bf523a",
+  "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+  "n_clusters": 10,
+  "n_observations": 1662,
+  "n_selected_genes": 3000,
+  "night3af_deterministic_cache": true,
+  "pca_random_state": 0,
+  "pca_svd_solver": "randomized",
+  "resources": {
+    "gpu_peak_allocated_mib": 444.79833984375,
+    "gpu_peak_reserved_mib": 514.0,
+    "process_peak_rss_mib": 1436.9140625
+  },
+  "run_order_ordinal": 56,
+  "schema_version": 1,
+  "seed": 0,
+  "semantic_label_access": false,
+  "timings": {
+    "clustering_seconds": 3.025617513805628,
+    "preprocessing_cache_seconds": 0.0,
+    "run_seconds_excluding_shared_preprocessing": 7.776071071624756,
+    "training_seconds": 4.188066007569432
+  },
+  "variant": "IGE",
+  "versions": {
+    "numpy": "1.22.3",
+    "scanpy": "1.9.1",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118"
+  }
+}

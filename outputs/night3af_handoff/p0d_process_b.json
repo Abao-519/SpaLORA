@@ -1,0 +1,122 @@
+{
+  "datasets": {
+    "a1": {
+      "cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_cache_content_sha256": "b2d6e6b41877f7b39f3b016352f45e473d707f1527843f2b3ce11f471df8b86e",
+      "canonical_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "file_sha256": {
+        "adj_feature_omics1_indices.npy": "3c8f13da4ea02c54aa7289a6bd95d14afa5dffafda8098cbf9940b37ff64fb58",
+        "adj_feature_omics1_values.npy": "eaccc35a1566a629e52124e998b2c64b2e9fcc4177696e45ec754d6fab69d4ac",
+        "adj_feature_omics2_indices.npy": "9c128f1ed50adf70074c381e2b86ba4636640693339097a7b4794fe434e68058",
+        "adj_feature_omics2_values.npy": "0a6f9a1a416345cf8b5b0002913d57f701db05708570353b55e0cb8979977294",
+        "adj_spatial_omics1_indices.npy": "25944ca5c0dab76011f2e531841531269fad57ea92ecd3b9a329efa9796c5920",
+        "adj_spatial_omics1_values.npy": "8d994177f19326e15b78d277045dc80105e1e25aeaa2e3b36baa42382a0ac6ba",
+        "adj_spatial_omics2_indices.npy": "25944ca5c0dab76011f2e531841531269fad57ea92ecd3b9a329efa9796c5920",
+        "adj_spatial_omics2_values.npy": "8d994177f19326e15b78d277045dc80105e1e25aeaa2e3b36baa42382a0ac6ba",
+        "coordinates.npy": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+        "features_omics1.npy": "2520c454a4b2833488455ffcd0a67f0e5f7449d6ab7645c1c1e1eba93fa41238",
+        "features_omics2.npy": "20838625d7228699b7616b6880f2ce43fd308cefe4c19b8ad42bdc280acbd15b",
+        "metadata.json": "4c0faeb9603328424c7f8aaf657caa35bfe5a1aaad7221ac950a7060dd69721c",
+        "observation_ids.tsv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+        "rna_pca_explained_variance.npy": "74a91bf003a5a8d4cb169e8023170eeba277e27eb9dfdda298aa881c0b239dc4",
+        "rna_pca_explained_variance_ratio.npy": "0e66dee148937762f372bc480fd73bea274ecf2e53850c3ba7221cbb55e8ed0c",
+        "rna_pca_scores.npy": "18ca37f7e5dd20c61a7bf4ee984f7c4201bbc7def59d9eb318d7263a7a473f96",
+        "selected_genes.tsv": "d33dc247a8d6171ee6348be35ec774c213acac17e24e7f4e74e19450dafaf1ed",
+        "weight_vector_omics1.npy": "2ab06f4da017f533c7c4d44e785db1c090b3ee7511f8a63bc99636632b8becfe"
+      },
+      "rng": {
+        "numpy_unchanged": true,
+        "python_unchanged": true,
+        "torch_cpu_unchanged": true,
+        "torch_cuda_unchanged": true
+      }
+    },
+    "p22": {
+      "cache_manifest_sha256": "254eda53a7e7a62e30ded97443878045b78af9e573cbb5e6f2c365488ddf8f81",
+      "canonical_cache_content_sha256": "895bfa73c763e1fa1992ddc732fc193c4e12760249b8636c98f1c5f3111dbc40",
+      "canonical_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "file_sha256": {
+        "adj_feature_omics1_indices.npy": "489c3e5b5be13b7087c50b373bf900bcd555facdf840126f8a913976dc7aa24b",
+        "adj_feature_omics1_values.npy": "902e5cf8d7e20f717926256e926b9d7f827070b047361eeae2df8f777cc761d9",
+        "adj_feature_omics2_indices.npy": "03f31dbb323ad049463c6d911ff927da87057054283d89fd87708f16c00f235c",
+        "adj_feature_omics2_values.npy": "6a58c03b156092b9396c80fb883bebd6342ce9a35c868ef2f2ee77a6afef6e6d",
+        "adj_spatial_omics1_indices.npy": "8c1e239cf566b498cb046e8bffe86fdd4377c28f393094e9b4c751b16f16eaeb",
+        "adj_spatial_omics1_values.npy": "035a9635795a7f306b0085de218024822fb8462eea66d934cfdc8c1eb884c4cb",
+        "adj_spatial_omics2_indices.npy": "8c1e239cf566b498cb046e8bffe86fdd4377c28f393094e9b4c751b16f16eaeb",
+        "adj_spatial_omics2_values.npy": "035a9635795a7f306b0085de218024822fb8462eea66d934cfdc8c1eb884c4cb",
+        "coordinates.npy": "67e58c064a39ff60903b42e27cb07226b2bd2d42b6fcf363174a6ed8ae572541",
+        "features_omics1.npy": "66dd7ba92273a84d61f47b30f1ea39c5f24612fa2be6d9882543e83a9f1c5608",
+        "features_omics2.npy": "09ad4d1149feb92dab40a25003308a7a6e4f3b82009b429a7b78b7c1022bdbc8",
+        "metadata.json": "ba5236f0ce38ec3849e78d422e03b425d4778f3a5bdd092e74fad2086adf8984",
+        "observation_ids.tsv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb",
+        "rna_pca_explained_variance.npy": "6b825e3d986c6653d2234572ad1c95a00b38344444db9c7251f71fc06061125b",
+        "rna_pca_explained_variance_ratio.npy": "626fcc8c85a65d73e7d140841005a8e7b7fdf3f8f6d803f72e85aac4ec515377",
+        "rna_pca_scores.npy": "e38884de95e7d87c2b84092833105749ffd15c0ce9de7b6ee02d0bf593eab86c",
+        "selected_genes.tsv": "810469724fd87acfbae59099bf58cc0309697238ef40d6bb6bd7dd4defc57f7a",
+        "weight_vector_omics1.npy": "76ef1168987b48ee113206e7c08def6029751b76152986db55fb379848adc040"
+      },
+      "rng": {
+        "numpy_unchanged": true,
+        "python_unchanged": true,
+        "torch_cpu_unchanged": true,
+        "torch_cuda_unchanged": true
+      }
+    },
+    "placenta": {
+      "cache_manifest_sha256": "cb8eaed90adcd08b3662f6fffdae9049365214ff5ef01e36a9f4ab046b40a0b2",
+      "canonical_cache_content_sha256": "fc65b5af93aa0aa6d3082344247623d95b6c68f99cd75394fa1af0fa0b5657be",
+      "canonical_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "file_sha256": {
+        "adj_feature_omics1_indices.npy": "d8ce192abf3aff2a8cd1333d396aaf92d41e3ad8c66497c7f7ee12e3797daaf7",
+        "adj_feature_omics1_values.npy": "48beb71640453dffd42d4f4fc2c5889cb5da447dc623e18a61f8e976f94a1e7f",
+        "adj_feature_omics2_indices.npy": "5a7a6a3a53d882df3f0a31555382d1d0fcfa65319fe8e3bca80dcfd4454dbbc4",
+        "adj_feature_omics2_values.npy": "1645a172b4a063209c71717459d9b178e32de60253f10249820cc5fb91791e03",
+        "adj_spatial_omics1_indices.npy": "86e4f5f01a9004ed13ab122937ea87accdc6faa2eec9480c2cf1c9599419503a",
+        "adj_spatial_omics1_values.npy": "96afeded707efce50860358c65e313169df60243aa2b79d3b0a329ac13b1adc1",
+        "adj_spatial_omics2_indices.npy": "86e4f5f01a9004ed13ab122937ea87accdc6faa2eec9480c2cf1c9599419503a",
+        "adj_spatial_omics2_values.npy": "96afeded707efce50860358c65e313169df60243aa2b79d3b0a329ac13b1adc1",
+        "coordinates.npy": "ba653289a23f4d23efb4432110a37263faaf0bb86a031873d863c7e1996e42a9",
+        "features_omics1.npy": "cb99ec41e75f55adc20842ebe058ab002960a0a94bd65de255b4a203c45fe660",
+        "features_omics2.npy": "2cd17cd3da10d96aa7cfb1300116f68beafb1e3bb4316f6a5fcb5a2f80cf33e1",
+        "metadata.json": "54e1d8dec4e272485c4c711e6fd4c9871ad8bef740d79684d888bfca5a26821d",
+        "observation_ids.tsv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+        "rna_pca_explained_variance.npy": "e17bb6133f0301b07770106b23ea0bd9c067423b1728b4949f6d6f424961e035",
+        "rna_pca_explained_variance_ratio.npy": "d2ad9f06a28495dfbe4551d51316314f3d3060e2dc3b4fed2f52b4036f9af916",
+        "rna_pca_scores.npy": "fe0eb0f8652a80ec37e3b74f2f4fcdb98fccc9ed8a0a3fd7cf3fee4eca506e2f",
+        "selected_genes.tsv": "d5f093e9fa1209946ce48e41e65ac72db21aa6b3c856a8e02bfbf4a6818323c5",
+        "weight_vector_omics1.npy": "2ab06f4da017f533c7c4d44e785db1c090b3ee7511f8a63bc99636632b8becfe"
+      },
+      "rng": {
+        "numpy_unchanged": true,
+        "python_unchanged": true,
+        "torch_cpu_unchanged": true,
+        "torch_cuda_unchanged": true
+      }
+    }
+  },
+  "external_rng_seed": 8675309,
+  "pca_random_state": 0,
+  "pca_svd_solver": "randomized",
+  "process": "B",
+  "schema_version": 1,
+  "scientific_window": {
+    "forbidden_evaluator_imports": [],
+    "ground_truth_csv_opened_inside_window": [],
+    "ground_truth_parser_guard_trigger_count": 0,
+    "integrity_verification_completed_before_window": true,
+    "opened_path_count": 612,
+    "passed": true,
+    "semantic_label_values_read": false,
+    "stage": "p0d_process_b"
+  },
+  "semantic_label_values_read": false,
+  "stage": "P0D independent process B",
+  "versions": {
+    "numpy": "1.22.3",
+    "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+    "scanpy": "1.9.1",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118"
+  }
+}

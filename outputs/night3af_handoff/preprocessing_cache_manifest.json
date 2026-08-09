@@ -1,0 +1,51 @@
+{
+  "datasets": {
+    "a1": {
+      "canonical_cache_content_sha256": "b2d6e6b41877f7b39f3b016352f45e473d707f1527843f2b3ce11f471df8b86e",
+      "canonical_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "directory": "outputs/night3af_handoff/preprocessing_cache/a1",
+      "graph_nnz": {
+        "adj_feature_omics1": 116532,
+        "adj_feature_omics2": 107038,
+        "adj_spatial_omics1": 71132,
+        "adj_spatial_omics2": 71132
+      },
+      "manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "n_observations": 3484,
+      "n_selected_genes": 3000
+    },
+    "p22": {
+      "canonical_cache_content_sha256": "895bfa73c763e1fa1992ddc732fc193c4e12760249b8636c98f1c5f3111dbc40",
+      "canonical_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "directory": "outputs/night3af_handoff/preprocessing_cache/p22",
+      "graph_nnz": {
+        "adj_feature_omics1": 283500,
+        "adj_feature_omics2": 290294,
+        "adj_spatial_omics1": 172740,
+        "adj_spatial_omics2": 172740
+      },
+      "manifest_sha256": "254eda53a7e7a62e30ded97443878045b78af9e573cbb5e6f2c365488ddf8f81",
+      "n_observations": 9196,
+      "n_selected_genes": 2000
+    },
+    "placenta": {
+      "canonical_cache_content_sha256": "fc65b5af93aa0aa6d3082344247623d95b6c68f99cd75394fa1af0fa0b5657be",
+      "canonical_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "directory": "outputs/night3af_handoff/preprocessing_cache/placenta",
+      "graph_nnz": {
+        "adj_feature_omics1": 50028,
+        "adj_feature_omics2": 46488,
+        "adj_spatial_omics1": 3994,
+        "adj_spatial_omics2": 3994
+      },
+      "manifest_sha256": "cb8eaed90adcd08b3662f6fffdae9049365214ff5ef01e36a9f4ab046b40a0b2",
+      "n_observations": 1662,
+      "n_selected_genes": 3000
+    }
+  },
+  "immutable": true,
+  "pca_random_state": 0,
+  "pca_svd_solver": "randomized",
+  "published_from": "independent process A after A/B byte-exact comparison",
+  "schema_version": 1
+}

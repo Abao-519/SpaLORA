@@ -1,0 +1,81 @@
+{
+  "canonical_cache_content_sha256": "b2d6e6b41877f7b39f3b016352f45e473d707f1527843f2b3ce11f471df8b86e",
+  "canonical_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+  "dataset": "a1",
+  "files": {
+    "adj_feature_omics1_indices.npy": {
+      "sha256": "3c8f13da4ea02c54aa7289a6bd95d14afa5dffafda8098cbf9940b37ff64fb58",
+      "size_bytes": 1864640
+    },
+    "adj_feature_omics1_values.npy": {
+      "sha256": "eaccc35a1566a629e52124e998b2c64b2e9fcc4177696e45ec754d6fab69d4ac",
+      "size_bytes": 466256
+    },
+    "adj_feature_omics2_indices.npy": {
+      "sha256": "9c128f1ed50adf70074c381e2b86ba4636640693339097a7b4794fe434e68058",
+      "size_bytes": 1712736
+    },
+    "adj_feature_omics2_values.npy": {
+      "sha256": "0a6f9a1a416345cf8b5b0002913d57f701db05708570353b55e0cb8979977294",
+      "size_bytes": 428280
+    },
+    "adj_spatial_omics1_indices.npy": {
+      "sha256": "25944ca5c0dab76011f2e531841531269fad57ea92ecd3b9a329efa9796c5920",
+      "size_bytes": 1138240
+    },
+    "adj_spatial_omics1_values.npy": {
+      "sha256": "8d994177f19326e15b78d277045dc80105e1e25aeaa2e3b36baa42382a0ac6ba",
+      "size_bytes": 284656
+    },
+    "adj_spatial_omics2_indices.npy": {
+      "sha256": "25944ca5c0dab76011f2e531841531269fad57ea92ecd3b9a329efa9796c5920",
+      "size_bytes": 1138240
+    },
+    "adj_spatial_omics2_values.npy": {
+      "sha256": "8d994177f19326e15b78d277045dc80105e1e25aeaa2e3b36baa42382a0ac6ba",
+      "size_bytes": 284656
+    },
+    "coordinates.npy": {
+      "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+      "size_bytes": 55872
+    },
+    "features_omics1.npy": {
+      "sha256": "2520c454a4b2833488455ffcd0a67f0e5f7449d6ab7645c1c1e1eba93fa41238",
+      "size_bytes": 41808128
+    },
+    "features_omics2.npy": {
+      "sha256": "20838625d7228699b7616b6880f2ce43fd308cefe4c19b8ad42bdc280acbd15b",
+      "size_bytes": 418208
+    },
+    "metadata.json": {
+      "sha256": "4c0faeb9603328424c7f8aaf657caa35bfe5a1aaad7221ac950a7060dd69721c",
+      "size_bytes": 2209
+    },
+    "observation_ids.tsv": {
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    "rna_pca_explained_variance.npy": {
+      "sha256": "74a91bf003a5a8d4cb169e8023170eeba277e27eb9dfdda298aa881c0b239dc4",
+      "size_bytes": 368
+    },
+    "rna_pca_explained_variance_ratio.npy": {
+      "sha256": "0e66dee148937762f372bc480fd73bea274ecf2e53850c3ba7221cbb55e8ed0c",
+      "size_bytes": 368
+    },
+    "rna_pca_scores.npy": {
+      "sha256": "18ca37f7e5dd20c61a7bf4ee984f7c4201bbc7def59d9eb318d7263a7a473f96",
+      "size_bytes": 418208
+    },
+    "selected_genes.tsv": {
+      "sha256": "d33dc247a8d6171ee6348be35ec774c213acac17e24e7f4e74e19450dafaf1ed",
+      "size_bytes": 18903
+    },
+    "weight_vector_omics1.npy": {
+      "sha256": "2ab06f4da017f533c7c4d44e785db1c090b3ee7511f8a63bc99636632b8becfe",
+      "size_bytes": 12128
+    }
+  },
+  "manifest_excludes_itself": true,
+  "schema_version": 1
+}

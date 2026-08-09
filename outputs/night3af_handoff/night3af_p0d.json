@@ -1,0 +1,30 @@
+{
+  "byte_exact_dataset_count": 3,
+  "config_lock_sha256": "a5b024cb995fc39e13d5e920758bec120ef7247a8bb5ab9db2b651df9edafc29",
+  "cross_process_byte_exact": true,
+  "failures": [],
+  "passed": true,
+  "protections": {
+    "night2c": {
+      "failures": [],
+      "line_count": 913,
+      "passed": true
+    },
+    "night3a": {
+      "failures": [],
+      "line_count": 198,
+      "passed": true
+    },
+    "night3ar": {
+      "failures": [],
+      "line_count": 211,
+      "passed": true
+    }
+  },
+  "published_cache_verified": true,
+  "schema_version": 1,
+  "semantic_label_values_read": false,
+  "stage": "P0D",
+  "tests_failed": 0,
+  "tests_passed": 18
+}
