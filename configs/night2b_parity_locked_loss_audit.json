@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "experiment": "SpaLORA Q2 Night-2B parity-locked loss causal audit",
+  "taskbook_sha256": "d175b77d3f7f3eff3a7e1ce3d2c9053a7917a427e25b3c66ca5593bcd818304c",
+  "parent_commit": "16f0cc43673617c73527110962b7ca115c59b4c6",
+  "parent_branch": "revision/q2-night2-loss-audit-20260808",
+  "branch": "revision/q2-night2b-parity-locked-loss-audit-20260809",
+  "legacy_environment": "/root/miniconda3/envs/SpaLORA_torch112",
+  "seeds": [0, 1, 2, 3, 4],
+  "variants": [
+    "locked_unweighted",
+    "locked_uniform_legacy_scale",
+    "locked_legacy_shape_normalized",
+    "locked_legacy_loss_replay",
+    "locked_asr_hvg_legacy_scale_diagnostic"
+  ],
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "clustering_seed": 2020,
+  "tutorial_model_seed": 2022,
+  "p0b_seed": 0,
+  "p0b_tolerance": {
+    "absolute": 1e-7,
+    "relative": 1e-7,
+    "exact_consumed_inputs": true,
+    "hard_stop_on_any_failure": true,
+    "trajectory_steps": 5
+  },
+  "bad_weight_expected_mean": {
+    "2000": 2.290322960,
+    "3000": 2.289938091
+  },
+  "bad_weight_mean_tolerance": 1e-6,
+  "night1_config": "configs/night1.json",
+  "night1_raw": "results/night1/raw",
+  "protected_manifest": "/root/autodl-fs/night2b_preexisting_20260809/protected_before.sha256",
+  "manuscript": {
+    "a1": {"ari": 0.2443, "nmi": 0.3780},
+    "p22": {"ari": 0.4541, "nmi": 0.5747},
+    "placenta": {"ari": 0.7226, "nmi": 0.7408}
+  }
+}
