@@ -1,0 +1,3218 @@
+{
+  "full_ige_parity": [
+    {
+      "candidate_coefficients": {
+        "L_corr1_raw": 0.04759183913711516,
+        "L_corr2_raw": 0.17296146075130417,
+        "L_mod2_recon_raw": 0.05933444645447625,
+        "L_rna_recon_raw": 3.7201122536571045
+      },
+      "checks": {
+        "coefficients_exact": true,
+        "default_source_path_compatible": true,
+        "gradient_exact": true,
+        "initial_state_exact": true,
+        "output_exact": true,
+        "parameter_names_exact": true,
+        "raw_losses_exact": true,
+        "single_step_adam_state_exact": true,
+        "single_step_updated_parameters_exact": true,
+        "total_loss_exact": true
+      },
+      "dataset": "a1",
+      "output_max_abs_difference": 0.0,
+      "passed": true,
+      "reference_coefficients": {
+        "L_corr1_raw": 0.04759183913711516,
+        "L_corr2_raw": 0.17296146075130417,
+        "L_mod2_recon_raw": 0.05933444645447625,
+        "L_rna_recon_raw": 3.7201122536571045
+      }
+    },
+    {
+      "candidate_coefficients": {
+        "L_corr1_raw": 0.049305404749081,
+        "L_corr2_raw": 0.9154099646717784,
+        "L_mod2_recon_raw": 0.1363309578805777,
+        "L_rna_recon_raw": 2.8989536726985627
+      },
+      "checks": {
+        "coefficients_exact": true,
+        "default_source_path_compatible": true,
+        "gradient_exact": true,
+        "initial_state_exact": true,
+        "output_exact": true,
+        "parameter_names_exact": true,
+        "raw_losses_exact": true,
+        "single_step_adam_state_exact": true,
+        "single_step_updated_parameters_exact": true,
+        "total_loss_exact": true
+      },
+      "dataset": "placenta",
+      "output_max_abs_difference": 0.0,
+      "passed": true,
+      "reference_coefficients": {
+        "L_corr1_raw": 0.049305404749081,
+        "L_corr2_raw": 0.9154099646717784,
+        "L_mod2_recon_raw": 0.1363309578805777,
+        "L_rna_recon_raw": 2.8989536726985627
+      }
+    },
+    {
+      "candidate_coefficients": {
+        "L_corr1_raw": 0.11748873046479254,
+        "L_corr2_raw": 0.21306629123099746,
+        "L_mod2_recon_raw": 0.1157624524366526,
+        "L_rna_recon_raw": 3.5536825258675573
+      },
+      "checks": {
+        "coefficients_exact": true,
+        "default_source_path_compatible": true,
+        "gradient_exact": true,
+        "initial_state_exact": true,
+        "output_exact": true,
+        "parameter_names_exact": true,
+        "raw_losses_exact": true,
+        "single_step_adam_state_exact": true,
+        "single_step_updated_parameters_exact": true,
+        "total_loss_exact": true
+      },
+      "dataset": "p22",
+      "output_max_abs_difference": 0.0,
+      "passed": true,
+      "reference_coefficients": {
+        "L_corr1_raw": 0.11748873046479254,
+        "L_corr2_raw": 0.21306629123099746,
+        "L_mod2_recon_raw": 0.1157624524366526,
+        "L_rna_recon_raw": 3.5536825258675573
+      }
+    }
+  ],
+  "full_ige_parity_passed": 3,
+  "main_120_authorized": true,
+  "passed": true,
+  "schema_version": 1,
+  "scientific_window": {
+    "forbidden_evaluator_imports": [],
+    "ground_truth_csv_opened_inside_window": [],
+    "ground_truth_parser_guard_trigger_count": 0,
+    "integrity_verification_completed_before_window": true,
+    "opened_path_count": 183,
+    "passed": true,
+    "semantic_label_values_read": false,
+    "stage": "p0_arch"
+  },
+  "semantic_label_values_read": false,
+  "stage": "P0-ARCH",
+  "tests_log": "outputs/night3b_handoff/p0_arch_tests.log",
+  "tests_passed": true,
+  "variant_probe_cells": [
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.04759183775989686,
+        "L_corr2_raw": 0.1729614574116247,
+        "L_mod2_recon_raw": 0.059334447067436194,
+        "L_rna_recon_raw": 3.7201122577610413
+      },
+      "dataset": "a1",
+      "gpu_full_reference": {
+        "envelope": 3.5483371902955696e-05,
+        "exact": false,
+        "max_abs_difference": 4.76837158203125e-07,
+        "within_envelope": true
+      },
+      "gradients": {
+        "L_corr1_raw": 0.002037827454346057,
+        "L_corr2_raw": 0.0005607258109170701,
+        "L_mod2_recon_raw": 0.0016345303339210706,
+        "L_rna_recon_raw": 2.6070167564177424e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.1005653142929077,
+        "L_rna_recon_raw": 1.0024998188018799
+      },
+      "seed": 0,
+      "variant": "FULL_IGE",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000024550664,
+        "L_corr2_raw": 0.2500000021318953,
+        "L_mod2_recon_raw": 0.2500000024247969,
+        "L_rna_recon_raw": 0.24999999298824138
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": false
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.680156088997247,
+        "L_corr2_raw": 2.471868981266943,
+        "L_mod2_recon_raw": 0.8479749297358098,
+        "L_rna_recon_raw": 0.0
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0020378274480809693,
+        "L_corr2_raw": 0.0005607258134838005,
+        "L_mod2_recon_raw": 0.0016345303361763308,
+        "L_rna_recon_raw": 2.607016758442891e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.1005653142929077,
+        "L_rna_recon_raw": 1.0024998188018799
+      },
+      "seed": 0,
+      "variant": "DROP_RNA_RECON",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.333333333490418,
+        "L_corr2_raw": 0.3333333330595233,
+        "L_mod2_recon_raw": 0.3333333334500587,
+        "L_rna_recon_raw": 0.0
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": false,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.04830842619296698,
+        "L_corr2_raw": 0.17556573047169555,
+        "L_mod2_recon_raw": 0.0,
+        "L_rna_recon_raw": 3.776125843335337
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0020378274494501727,
+        "L_corr2_raw": 0.0005607258121731196,
+        "L_mod2_recon_raw": 0.0016345303375995476,
+        "L_rna_recon_raw": 2.607016749235126e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.1005653142929077,
+        "L_rna_recon_raw": 1.0024998188018799
+      },
+      "seed": 0,
+      "variant": "DROP_MOD2_RECON",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.33333333768444273,
+        "L_corr2_raw": 0.33333333725354797,
+        "L_mod2_recon_raw": 0.0,
+        "L_rna_recon_raw": 0.3333333250620093
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": false,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.0,
+        "L_corr2_raw": 0.17504412465348232,
+        "L_mod2_recon_raw": 0.060048906524138565,
+        "L_rna_recon_raw": 3.7649069688223795
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00203782745119728,
+        "L_corr2_raw": 0.0005607258142917127,
+        "L_mod2_recon_raw": 0.0016345303375148712,
+        "L_rna_recon_raw": 2.607016761801736e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.1005653142929077,
+        "L_rna_recon_raw": 1.0024998188018799
+      },
+      "seed": 0,
+      "variant": "DROP_CORR1",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.0,
+        "L_corr2_raw": 0.33333333726700104,
+        "L_mod2_recon_raw": 0.3333333376575365,
+        "L_rna_recon_raw": 0.3333333250754624
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": false,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.049742732000076055,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.062016043590691,
+        "L_rna_recon_raw": 3.8882412244092333
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00203782744687854,
+        "L_corr2_raw": 0.0005607258139365192,
+        "L_mod2_recon_raw": 0.0016345303355569264,
+        "L_rna_recon_raw": 2.6070167683431565e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.1005653142929077,
+        "L_rna_recon_raw": 1.0024998188018799
+      },
+      "seed": 0,
+      "variant": "DROP_CORR2",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.3333333375542642,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.3333333375139049,
+        "L_rna_recon_raw": 0.33333332493183093
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_within",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_omics1_exact_half": true,
+        "alpha_omics2_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.04959631011026614,
+        "L_corr2_raw": 0.1853156408314376,
+        "L_mod2_recon_raw": 0.06001718709520806,
+        "L_rna_recon_raw": 3.7050708619630877
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0020533665337978575,
+        "L_corr2_raw": 0.0005495456443268823,
+        "L_mod2_recon_raw": 0.0016968373277525875,
+        "L_rna_recon_raw": 2.7486491761954553e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1486762911081314,
+        "L_corr2_raw": 0.22057344019412994,
+        "L_mod2_recon_raw": 1.101179599761963,
+        "L_rna_recon_raw": 1.0025415420532227
+      },
+      "seed": 0,
+      "variant": "UNIFORM_WITHIN",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000023330943,
+        "L_corr2_raw": 0.2500000019999242,
+        "L_mod2_recon_raw": 0.25000000230751257,
+        "L_rna_recon_raw": 0.24999999335946893
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_cross",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_cross_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.027600286334817366,
+        "L_corr2_raw": 0.10030681640141077,
+        "L_mod2_recon_raw": 0.03883109648440339,
+        "L_rna_recon_raw": 3.8332618007793684
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.002037827446262917,
+        "L_corr2_raw": 0.0005607258106968348,
+        "L_mod2_recon_raw": 0.0014484427713537822,
+        "L_rna_recon_raw": 1.4672782641850641e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1522112637758255,
+        "L_corr2_raw": 0.21836510300636292,
+        "L_mod2_recon_raw": 1.0828946828842163,
+        "L_rna_recon_raw": 1.0018970966339111
+      },
+      "seed": 0,
+      "variant": "UNIFORM_CROSS",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.25000000432218994,
+        "L_corr2_raw": 0.25000000399901884,
+        "L_mod2_recon_raw": 0.2500000042722704,
+        "L_rna_recon_raw": 0.24999998740652085
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_all",
+      "cache_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_cross_exact_half": true,
+        "alpha_omics1_exact_half": true,
+        "alpha_omics2_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.027761282266832936,
+        "L_corr2_raw": 0.10372948704623497,
+        "L_mod2_recon_raw": 0.038538139747857886,
+        "L_rna_recon_raw": 3.8299710909390745
+      },
+      "dataset": "a1",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.002053366535585112,
+        "L_corr2_raw": 0.0005495456454949085,
+        "L_mod2_recon_raw": 0.0014791603422954225,
+        "L_rna_recon_raw": 1.4883685238329162e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            64
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            64,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            30,
+            64
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            64,
+            30
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            64,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            64,
+            64
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            64,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.1486762911081314,
+        "L_corr2_raw": 0.22057344019412994,
+        "L_mod2_recon_raw": 1.0831376314163208,
+        "L_rna_recon_raw": 1.0019221305847168
+      },
+      "seed": 0,
+      "variant": "UNIFORM_ALL",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000042638992,
+        "L_corr2_raw": 0.2500000039307292,
+        "L_mod2_recon_raw": 0.25000000421663565,
+        "L_rna_recon_raw": 0.24999998758873598
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.0493054049415022,
+        "L_corr2_raw": 0.915409956133367,
+        "L_mod2_recon_raw": 0.13633095906312295,
+        "L_rna_recon_raw": 2.8989536798620086
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": {
+        "envelope": 3.5318018490215763e-05,
+        "exact": false,
+        "max_abs_difference": 4.76837158203125e-07,
+        "within_envelope": true
+      },
+      "gradients": {
+        "L_corr1_raw": 0.002757146491876115,
+        "L_corr2_raw": 0.00014850420020894327,
+        "L_mod2_recon_raw": 0.0009971485942164137,
+        "L_rna_recon_raw": 4.6893547268342934e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1983044147491455,
+        "L_rna_recon_raw": 1.012054443359375
+      },
+      "seed": 0,
+      "variant": "FULL_IGE",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.25000000174834314,
+        "L_corr2_raw": 0.2500000001555625,
+        "L_mod2_recon_raw": 0.25000000158830166,
+        "L_rna_recon_raw": 0.24999999650779273
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": false
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.17912200061844635,
+        "L_corr2_raw": 3.325600165625519,
+        "L_mod2_recon_raw": 0.49527783375603435,
+        "L_rna_recon_raw": 0.0
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0027571464908052565,
+        "L_corr2_raw": 0.00014850420005069851,
+        "L_mod2_recon_raw": 0.0009971485930829695,
+        "L_rna_recon_raw": 4.6893547182353064e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1983044147491455,
+        "L_rna_recon_raw": 1.012054443359375
+      },
+      "seed": 0,
+      "variant": "DROP_RNA_RECON",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.33333333411236526,
+        "L_corr2_raw": 0.3333333319886579,
+        "L_mod2_recon_raw": 0.3333333338989767,
+        "L_rna_recon_raw": 0.0
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": false,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.0510451638584852,
+        "L_corr2_raw": 0.9477105290942052,
+        "L_mod2_recon_raw": 0.0,
+        "L_rna_recon_raw": 3.00124430704731
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0027571465007135893,
+        "L_corr2_raw": 0.00014850420006267442,
+        "L_mod2_recon_raw": 0.0009971485965244548,
+        "L_rna_recon_raw": 4.6893547329719775e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1983044147491455,
+        "L_rna_recon_raw": 1.012054443359375
+      },
+      "seed": 0,
+      "variant": "DROP_MOD2_RECON",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.3333333363703693,
+        "L_corr2_raw": 0.33333333424666184,
+        "L_mod2_recon_raw": 0.0,
+        "L_rna_recon_raw": 0.3333333293829688
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": false,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.0,
+        "L_corr2_raw": 0.926834444713726,
+        "L_mod2_recon_raw": 0.13803239495320635,
+        "L_rna_recon_raw": 2.9351331603330677
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0027571464990527113,
+        "L_corr2_raw": 0.00014850419999667697,
+        "L_mod2_recon_raw": 0.0009971485938285608,
+        "L_rna_recon_raw": 4.689354731614928e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1983044147491455,
+        "L_rna_recon_raw": 1.012054443359375
+      },
+      "seed": 0,
+      "variant": "DROP_CORR1",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.0,
+        "L_corr2_raw": 0.33333333431779144,
+        "L_mod2_recon_raw": 0.3333333362281103,
+        "L_rna_recon_raw": 0.3333333294540983
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": false,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.06393770861670878,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.1767897282558119,
+        "L_rna_recon_raw": 3.7592725631274795
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0027571464883274113,
+        "L_corr2_raw": 0.000148504200034732,
+        "L_mod2_recon_raw": 0.0009971485923453956,
+        "L_rna_recon_raw": 4.689354712345369e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1983044147491455,
+        "L_rna_recon_raw": 1.012054443359375
+      },
+      "seed": 0,
+      "variant": "DROP_CORR2",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.33333333573359636,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.33333333552020783,
+        "L_rna_recon_raw": 0.3333333287461958
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_within",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_omics1_exact_half": true,
+        "alpha_omics2_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.05556646695006991,
+        "L_corr2_raw": 0.9500357591431623,
+        "L_mod2_recon_raw": 0.13582498673065477,
+        "L_rna_recon_raw": 2.8585727871761133
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0025139794110360515,
+        "L_corr2_raw": 0.00014703967889378273,
+        "L_mod2_recon_raw": 0.0010284775808831698,
+        "L_rna_recon_raw": 4.886807559358408e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.7604418992996216,
+        "L_corr2_raw": 0.18726110458374023,
+        "L_mod2_recon_raw": 1.190466284751892,
+        "L_rna_recon_raw": 1.0116251707077026
+      },
+      "seed": 0,
+      "variant": "UNIFORM_WITHIN",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000016901954,
+        "L_corr2_raw": 0.25000000008941803,
+        "L_mod2_recon_raw": 0.2500000015465616,
+        "L_rna_recon_raw": 0.24999999667382503
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_cross",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_cross_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.033467497587188505,
+        "L_corr2_raw": 0.6213615027487027,
+        "L_mod2_recon_raw": 0.1340443285232457,
+        "L_rna_recon_raw": 3.211126671140863
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.002757146489452542,
+        "L_corr2_raw": 0.00014850420003040146,
+        "L_mod2_recon_raw": 0.00068839013481051,
+        "L_rna_recon_raw": 2.8735954621446076e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.8302626609802246,
+        "L_corr2_raw": 0.190260648727417,
+        "L_mod2_recon_raw": 1.1775529384613037,
+        "L_rna_recon_raw": 1.0103614330291748
+      },
+      "seed": 0,
+      "variant": "UNIFORM_CROSS",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.25000000261862554,
+        "L_corr2_raw": 0.2500000010258449,
+        "L_mod2_recon_raw": 0.25000000234613284,
+        "L_rna_recon_raw": 0.2499999940093968
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_all",
+      "cache_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_cross_exact_half": true,
+        "alpha_omics1_exact_half": true,
+        "alpha_omics2_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.0367393585849777,
+        "L_corr2_raw": 0.6281433090058552,
+        "L_mod2_recon_raw": 0.13355510514381472,
+        "L_rna_recon_raw": 3.201562227265352
+      },
+      "dataset": "placenta",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.0025139794108286367,
+        "L_corr2_raw": 0.00014703967889821037,
+        "L_mod2_recon_raw": 0.0006915646605452582,
+        "L_rna_recon_raw": 2.8849037228851035e-05
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            3000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            3000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            62,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            62
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.7604418992996216,
+        "L_corr2_raw": 0.18726111948490143,
+        "L_mod2_recon_raw": 1.1691640615463257,
+        "L_rna_recon_raw": 1.0098392963409424
+      },
+      "seed": 0,
+      "variant": "UNIFORM_ALL",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000026072972,
+        "L_corr2_raw": 0.25000000100651976,
+        "L_mod2_recon_raw": 0.25000000234524206,
+        "L_rna_recon_raw": 0.2499999940409409
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.11748875061779472,
+        "L_corr2_raw": 0.213066294319322,
+        "L_mod2_recon_raw": 0.1157624547976718,
+        "L_rna_recon_raw": 3.553682500265211
+      },
+      "dataset": "p22",
+      "gpu_full_reference": {
+        "envelope": 2.3147375031840056e-05,
+        "exact": false,
+        "max_abs_difference": 4.76837158203125e-07,
+        "within_envelope": true
+      },
+      "gradients": {
+        "L_corr1_raw": 0.00020484190597092207,
+        "L_corr2_raw": 0.00011295366819045194,
+        "L_mod2_recon_raw": 0.00020789659005142084,
+        "L_rna_recon_raw": 6.772303425728544e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0422428846359253,
+        "L_rna_recon_raw": 1.0025254487991333
+      },
+      "seed": 0,
+      "variant": "FULL_IGE",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000091673789,
+        "L_corr2_raw": 0.2500000081745354,
+        "L_mod2_recon_raw": 0.25000000918531134,
+        "L_rna_recon_raw": 0.24999997347277436
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": false
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 1.0529611823355207,
+        "L_corr2_raw": 1.9095490931153567,
+        "L_mod2_recon_raw": 1.0374897245491226,
+        "L_rna_recon_raw": 0.0
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020484190619378544,
+        "L_corr2_raw": 0.00011295366830773188,
+        "L_mod2_recon_raw": 0.00020789658986442247,
+        "L_rna_recon_raw": 6.772303429577225e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0422428846359253,
+        "L_rna_recon_raw": 1.0025254487991333
+      },
+      "seed": 0,
+      "variant": "DROP_RNA_RECON",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.3333333337666271,
+        "L_corr2_raw": 0.3333333324428358,
+        "L_mod2_recon_raw": 0.33333333379053703,
+        "L_rna_recon_raw": 0.0
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": false,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.12099028411503655,
+        "L_corr2_raw": 0.2194163386212599,
+        "L_mod2_recon_raw": 0.0,
+        "L_rna_recon_raw": 3.659593377263704
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020484190593811802,
+        "L_corr2_raw": 0.00011295366815172557,
+        "L_mod2_recon_raw": 0.0002078965902391595,
+        "L_rna_recon_raw": 6.772303451386838e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0422428846359253,
+        "L_rna_recon_raw": 1.0025254487991333
+      },
+      "seed": 0,
+      "variant": "DROP_MOD2_RECON",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.3333333496388659,
+        "L_corr2_raw": 0.33333334831507455,
+        "L_mod2_recon_raw": 0.0,
+        "L_rna_recon_raw": 0.3333333020460595
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": false,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.0,
+        "L_corr2_raw": 0.21951389823190454,
+        "L_mod2_recon_raw": 0.11926554514338981,
+        "L_rna_recon_raw": 3.661220556624705
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020484190592621522,
+        "L_corr2_raw": 0.00011295366834600655,
+        "L_mod2_recon_raw": 0.00020789659015655929,
+        "L_rna_recon_raw": 6.7723034526435195e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0422428846359253,
+        "L_rna_recon_raw": 1.0025254487991333
+      },
+      "seed": 0,
+      "variant": "DROP_CORR1",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.0,
+        "L_corr2_raw": 0.3333333483071046,
+        "L_mod2_recon_raw": 0.3333333496548059,
+        "L_rna_recon_raw": 0.3333333020380895
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": false,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "learned",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.12409908381532182,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.12227566048177865,
+        "L_rna_recon_raw": 3.753625255702899
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020484190588079183,
+        "L_corr2_raw": 0.0001129536683920136,
+        "L_mod2_recon_raw": 0.0002078965899546478,
+        "L_rna_recon_raw": 6.772303436162871e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0422428846359253,
+        "L_rna_recon_raw": 1.0025254487991333
+      },
+      "seed": 0,
+      "variant": "DROP_CORR2",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.3333333491896322,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.33333334921354213,
+        "L_rna_recon_raw": 0.3333333015968257
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_within",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_omics1_exact_half": true,
+        "alpha_omics2_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.122818998415446,
+        "L_corr2_raw": 0.22380853757723077,
+        "L_mod2_recon_raw": 0.11504731735872394,
+        "L_rna_recon_raw": 3.538325146648599
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020570869279774143,
+        "L_corr2_raw": 0.00011288637952455874,
+        "L_mod2_recon_raw": 0.0002196047348393486,
+        "L_rna_recon_raw": 7.140364763592558e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.0855521410703659,
+        "L_corr2_raw": 0.10956748574972153,
+        "L_mod2_recon_raw": 1.042153239250183,
+        "L_rna_recon_raw": 1.0025465488433838
+      },
+      "seed": 0,
+      "variant": "UNIFORM_WITHIN",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.25000000867982647,
+        "L_corr2_raw": 0.25000000768052116,
+        "L_mod2_recon_raw": 0.25000000875672834,
+        "L_rna_recon_raw": 0.24999997488292391
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_cross",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_cross_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.07833745501612653,
+        "L_corr2_raw": 0.1420652714135237,
+        "L_mod2_recon_raw": 0.0892556636482731,
+        "L_rna_recon_raw": 3.6903416099220765
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020484190629640794,
+        "L_corr2_raw": 0.00011295366838441201,
+        "L_mod2_recon_raw": 0.000179784598008585,
+        "L_rna_recon_raw": 4.348321023930124e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.08940019458532333,
+        "L_corr2_raw": 0.1078769788146019,
+        "L_mod2_recon_raw": 1.0425552129745483,
+        "L_rna_recon_raw": 1.0024521350860596
+      },
+      "seed": 0,
+      "variant": "UNIFORM_CROSS",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.25000001435898384,
+        "L_corr2_raw": 0.25000001336614025,
+        "L_mod2_recon_raw": 0.25000001418888423,
+        "L_rna_recon_raw": 0.2499999580859917
+      }
+    },
+    {
+      "active_loss_mask": {
+        "L_corr1_raw": true,
+        "L_corr2_raw": true,
+        "L_mod2_recon_raw": true,
+        "L_rna_recon_raw": true
+      },
+      "attention_mode": "uniform_all",
+      "cache_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "checks": {
+        "active_coefficient_sum_four": true,
+        "active_coefficients_finite_positive": true,
+        "active_gradient_shares_equal": true,
+        "alpha_cross_exact_half": true,
+        "alpha_omics1_exact_half": true,
+        "alpha_omics2_exact_half": true,
+        "cache_sha_exact": true,
+        "dropped_coefficients_exact_zero": true,
+        "dropped_gradient_shares_zero": true,
+        "gpu_full_within_envelope": true,
+        "gradients_finite_positive": true,
+        "parameter_contract_identical": true,
+        "probe_state_neutral": true,
+        "published_full_coefficient_match": true,
+        "raw_losses_finite": true,
+        "sparse_end_to_end": true,
+        "total_loss_finite_positive": true,
+        "training_payload_label_free": true
+      },
+      "coefficients": {
+        "L_corr1_raw": 0.07999209924544302,
+        "L_corr2_raw": 0.14576665669159627,
+        "L_mod2_recon_raw": 0.08660240792860324,
+        "L_rna_recon_raw": 3.687638836134358
+      },
+      "dataset": "p22",
+      "gpu_full_reference": null,
+      "gradients": {
+        "L_corr1_raw": 0.00020570869304854683,
+        "L_corr2_raw": 0.00011288637948958216,
+        "L_mod2_recon_raw": 0.00019000707459480013,
+        "L_rna_recon_raw": 4.462222932762134e-06
+      },
+      "parameter_contract": [
+        [
+          "encoder1.weight",
+          [
+            2000,
+            128
+          ]
+        ],
+        [
+          "decoder1.weight",
+          [
+            128,
+            2000
+          ]
+        ],
+        [
+          "encoder2.weight",
+          [
+            50,
+            128
+          ]
+        ],
+        [
+          "decoder2.weight",
+          [
+            128,
+            50
+          ]
+        ],
+        [
+          "attention1.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention1.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "attention2.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "attention2.u_omega",
+          [
+            128,
+            1
+          ]
+        ],
+        [
+          "cross_attention.w_omega",
+          [
+            128,
+            128
+          ]
+        ],
+        [
+          "cross_attention.u_omega",
+          [
+            128,
+            1
+          ]
+        ]
+      ],
+      "passed": true,
+      "raw_losses": {
+        "L_corr1_raw": 0.0855521410703659,
+        "L_corr2_raw": 0.10956748574972153,
+        "L_mod2_recon_raw": 1.042579174041748,
+        "L_rna_recon_raw": 1.0024800300598145
+      },
+      "seed": 0,
+      "variant": "UNIFORM_ALL",
+      "weighted_gradient_shares": {
+        "L_corr1_raw": 0.2500000139775756,
+        "L_corr2_raw": 0.25000001297827024,
+        "L_mod2_recon_raw": 0.250000013877146,
+        "L_rna_recon_raw": 0.24999995916700815
+      }
+    }
+  ],
+  "variant_probes_passed": 24,
+  "variant_probes_required": 24
+}

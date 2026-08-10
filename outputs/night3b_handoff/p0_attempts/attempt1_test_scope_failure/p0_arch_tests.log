@@ -1,0 +1,154 @@
+......................F.........F..............F..................F..... [ 66%]
+...........F..............FF........                                     [100%]
+=================================== FAILURES ===================================
+_____________ test_night1_protected_files_match_pre_run_checksums ______________
+
+    def test_night1_protected_files_match_pre_run_checksums():
+        manifest = Path("/root/autodl-fs/night2_preexisting_20260809/night1_before.sha256")
+        if not manifest.exists():
+            import pytest
+            pytest.skip("Target-machine pre-run Night-1 checksum manifest is not available")
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            expected, relative = line.split(None, 1)
+            path = REPO / relative.strip()
+>           assert path.is_file(), relative
+E           AssertionError: results/night1/interpretability/a1_abundance_only_gene_scores.csv
+E           assert False
+E            +  where False = <bound method Path.is_file of PosixPath('/autodl-fs/data/SpaLORA-night3b/results/night1/interpretability/a1_abundance_only_gene_scores.csv')>()
+E            +    where <bound method Path.is_file of PosixPath('/autodl-fs/data/SpaLORA-night3b/results/night1/interpretability/a1_abundance_only_gene_scores.csv')> = PosixPath('/autodl-fs/data/SpaLORA-night3b/results/night1/interpretability/a1_abundance_only_gene_scores.csv').is_file
+
+tests/test_night2.py:114: AssertionError
+______ test_all_preexisting_night1_night2_and_frozen_files_are_unchanged _______
+
+    def test_all_preexisting_night1_night2_and_frozen_files_are_unchanged():
+        if not PROTECTED.exists():
+            pytest.skip("Target protected-file checksum manifest is unavailable")
+        for line in PROTECTED.read_text(encoding="utf-8").splitlines():
+            expected, relative = line.split(None, 1)
+            relative = relative.strip()
+            if relative == ".gitignore":
+                continue  # Night-2B adds only its raw/cache ignore rules here.
+            path = REPO / relative
+            assert path.is_file(), relative
+>           assert hashlib.sha256(path.read_bytes()).hexdigest() == expected, relative
+E           AssertionError: SpaLORA/model_corrected.py
+E           assert '7f3d6f568061...32332ff8adbfc' == '39e1d68a0570...2c78045aa55ae'
+E             - 39e1d68a0570571a2091bc17bb56b83399fd8838157a5c4f1302c78045aa55ae
+E             + 7f3d6f5680614158c1db9ef69ad62375651fa628868569cca6a32332ff8adbfc
+
+tests/test_night2b.py:129: AssertionError
+________ test_gate_and_conditional_result_completeness_after_execution _________
+
+    def test_gate_and_conditional_result_completeness_after_execution():
+        gate_path = REPO / "results/night2c/gate_status.json"
+        if not gate_path.exists():
+            pytest.skip("P0C has not executed")
+        gate = json.loads(gate_path.read_text(encoding="utf-8"))
+        report = json.loads((REPO / "reports/night2c_p0c.json").read_text(encoding="utf-8"))
+        assert gate["p0c_pass"] is report["p0c_pass"]
+        assert report["ground_truth_accessed"] is False
+        main = list((REPO / "results/night2c/raw").glob("*/*/seed_*/metrics.json"))
+        tutorials = list((REPO / "results/night2c/tutorial2022").glob("*/metrics.json"))
+        technical = list((REPO / "results/night2c/technical").glob("*/*/seed_*/repeat_*/metrics.json"))
+        if gate["factorial_authorized"]:
+            if (REPO / "reports/night2c_completion.json").exists():
+>               assert (len(main), len(tutorials), len(technical)) == (75, 3, 4)
+E               assert (0, 0, 0) == (75, 3, 4)
+E                 At index 0 diff: 0 != 75
+E                 Use -v to get more diff
+
+tests/test_night2c.py:196: AssertionError
+_________________ test_config_source_and_data_lock_is_complete _________________
+
+    def test_config_source_and_data_lock_is_complete():
+        config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+        lock = json.loads((REPO / "outputs/night3a_handoff/config_lock.json").read_text(encoding="utf-8"))
+        assert sha256_file(CONFIG_PATH) == lock["config_sha256"]
+        assert set(config["source_lock_files"]) == set(lock["source_sha256"])
+>       assert all(sha256_file(REPO / name) == expected for name, expected in lock["source_sha256"].items())
+E       assert False
+E        +  where False = all(<generator object test_config_source_and_data_lock_is_complete.<locals>.<genexpr> at 0x7f6d77a6de40>)
+
+tests/test_night3a.py:268: AssertionError
+___________ test_config_source_data_order_and_cache_locks_are_exact ____________
+
+    def test_config_source_data_order_and_cache_locks_are_exact():
+        config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+        lock = json.loads((OUTPUT / "config_lock.json").read_text(encoding="utf-8"))
+        assert sha256_file(CONFIG_PATH) == lock["config_sha256"]
+        assert set(config["source_lock_files"]) == set(lock["source_sha256"])
+>       assert all(sha256_file(REPO / name) == expected for name, expected in lock["source_sha256"].items())
+E       assert False
+E        +  where False = all(<generator object test_config_source_data_order_and_cache_locks_are_exact.<locals>.<genexpr> at 0x7f6d77a369e0>)
+
+tests/test_night3af.py:202: AssertionError
+_____________ test_actual_p0ar_matches_old_fingerprints_and_order ______________
+
+    def test_actual_p0ar_matches_old_fingerprints_and_order():
+        output = REPO / "outputs/night3ar_handoff"
+        p0ar = json.loads((output / "night3ar_p0a.json").read_text(encoding="utf-8"))
+>       assert p0ar["passed"] and p0ar["label_values_read"] is False
+E       assert (False)
+
+tests/test_night3ar.py:197: AssertionError
+_________ test_config_source_data_and_old_evidence_locks_are_complete __________
+
+    def test_config_source_data_and_old_evidence_locks_are_complete():
+        config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+>       lock = json.loads((REPO / "outputs/night3ar_handoff/config_lock.json").read_text(encoding="utf-8"))
+
+tests/test_night3ar.py:207: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/root/miniconda3/envs/SpaLORA/lib/python3.8/pathlib.py:1236: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/root/miniconda3/envs/SpaLORA/lib/python3.8/pathlib.py:1222: in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/autodl-fs/data/SpaLORA-night3b/outputs/night3ar_handoff/config_lock.json')
+name = '/autodl-fs/data/SpaLORA-night3b/outputs/night3ar_handoff/config_lock.json'
+flags = 524288, mode = 438
+
+    def _opener(self, name, flags, mode=0o666):
+        # A stub for the opener argument to built-in open()
+>       return self._accessor.open(self, flags, mode)
+E       FileNotFoundError: [Errno 2] No such file or directory: '/autodl-fs/data/SpaLORA-night3b/outputs/night3ar_handoff/config_lock.json'
+
+/root/miniconda3/envs/SpaLORA/lib/python3.8/pathlib.py:1078: FileNotFoundError
+=============================== warnings summary ===============================
+../../../root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/connect.py:20
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/connect.py:20: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+  given by the platformdirs library.  To remove this warning and
+  see the appropriate new directories, set the environment variable
+  `JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+  The use of platformdirs will be the default in `jupyter_core` v6
+    from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+tests/test_night2b.py::test_legacy_attention_rows_sum_to_one
+tests/test_night2c.py::test_exact_same_forward_v3_loss_identity
+tests/test_night2c.py::test_exact_cpu_independent_one_step_small_fixture
+  /autodl-fs/data/SpaLORA-night3b/SpaLORA/model.py:136: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+    self.alpha = F.softmax(torch.squeeze(self.vu) + 1e-6)
+
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_preserves_python_numpy_and_torch_rng
+  /autodl-fs/data/SpaLORA-night3b/SpaLORA/preprocess.py:70: DeprecationWarning: Please use `csc_matrix` from the `scipy.sparse` namespace, the `scipy.sparse.csc` namespace is deprecated.
+    from scipy.sparse.csc import csc_matrix
+
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_byte_exact_across_external_numpy_seeds
+tests/test_night3af.py::test_deterministic_pca_preserves_python_numpy_and_torch_rng
+  /autodl-fs/data/SpaLORA-night3b/SpaLORA/preprocess.py:71: DeprecationWarning: Please use `csr_matrix` from the `scipy.sparse` namespace, the `scipy.sparse.csr` namespace is deprecated.
+    from scipy.sparse.csr import csr_matrix
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_night2.py::test_night1_protected_files_match_pre_run_checksums
+FAILED tests/test_night2b.py::test_all_preexisting_night1_night2_and_frozen_files_are_unchanged
+FAILED tests/test_night2c.py::test_gate_and_conditional_result_completeness_after_execution
+FAILED tests/test_night3a.py::test_config_source_and_data_lock_is_complete - ...
+FAILED tests/test_night3af.py::test_config_source_data_order_and_cache_locks_are_exact
+FAILED tests/test_night3ar.py::test_actual_p0ar_matches_old_fingerprints_and_order
+FAILED tests/test_night3ar.py::test_config_source_data_and_old_evidence_locks_are_complete
+7 failed, 101 passed, 10 warnings in 26.11s

@@ -1,0 +1,35 @@
+{
+  "cache_manifest_sha256": "14a55707f327772d6000c37007d169b3ef3a6b700f0ee447f893a7426c16348f",
+  "config_sha256": "94602f9a5bda5f50673346de80a988b501fb65490982510df13d248ca0a39fc6",
+  "data_sha256": {
+    "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+    "/root/autodl-fs/Human lymph node/A1/humanlymphnode_adt.h5ad": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+    "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+    "/root/autodl-fs/Human placenta architecture/humanplacenta_atac.h5ad": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+    "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+    "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+    "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+    "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36"
+  },
+  "label_semantics_read": false,
+  "parent_commit": "384e66587149a687b3eac4a6d1918d8d4972dc06",
+  "run_order_sha256": "359e7c333e4f3a6788fc560241b443c781d5b09f0768e752a0a0bfaafd10f423",
+  "schema_version": 1,
+  "source_sha256": {
+    "SpaLORA/model_corrected.py": "7f3d6f5680614158c1db9ef69ad62375651fa628868569cca6a32332ff8adbfc",
+    "SpaLORA/night3a_ige.py": "e9a6f409252800ed283580eddd691e4699a5b0dc7dcec8566d2ce6c2e1171539",
+    "SpaLORA/night3af_cache.py": "fee6b868b5177ff380d9fdacca856f10890a577870e2cd8f2caf59cfc0366792",
+    "SpaLORA/night3ar_ige.py": "830ec9a1ba6e70c6a1572c9886cea5ffcf2a998c6d4568e6b9f19f8a6ccd249a",
+    "SpaLORA/night3b_ablation.py": "f8964a67785923f6530e52c5280373a9dd00eb25c68fa425107195a642cab3f3",
+    "SpaLORA/night3b_metrics.py": "f6f6d1c4c958263d55834fb2f9278a1da6e0830959981c988a106c0b63563890",
+    "SpaLORA/night3b_protocol.py": "cc2d4a5ef516d5ebd1f10d940df445a58d8aac7b31bbebe6a00cc32b4951aa9c",
+    "configs/night3b_ablation_interpretability.json": "94602f9a5bda5f50673346de80a988b501fb65490982510df13d248ca0a39fc6",
+    "docs/SpaLORA_Night3B_Architecture_Ablation_and_Interpretability_Taskbook_2026-08-10.md": "dc90971848f660f3957306587ffdb47aeb64df71502ad216bf1b9a9fe742d6c1",
+    "scripts/night3b_evaluate.py": "db6ca8b93f8cff55df17e1ae85e1ab2a2134d62bd3acab9817489e76357ad611",
+    "scripts/night3b_finalize.py": "c24e53917e88b7b54b642edc751932783c6926163dbecfc581582bf9d2aef477",
+    "scripts/night3b_p0_arch.py": "745faa3aada1d3952581866c143006db31d807017016f2871834565afb192de9",
+    "scripts/night3b_preflight.py": "3558ff101bc4bcd367d1e6205d5714024704b5781868c3b3bb208a1e751bec54",
+    "scripts/night3b_runner.py": "9b8bd4002e4e3c35e7f699adc03647ced7e2f427ea1fe5d83b6e8bae6cf0562f",
+    "tests/test_night3b.py": "4aa695ec1a0b0ddf759a845394fa1e2a3f350cba3486c4e276f4e8f278bde50e"
+  }
+}

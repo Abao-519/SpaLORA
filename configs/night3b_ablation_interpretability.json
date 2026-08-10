@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "experiment": "SpaLORA Night-3B Architecture Ablation and Interpretability",
+  "taskbook_sha256": "dc90971848f660f3957306587ffdb47aeb64df71502ad216bf1b9a9fe742d6c1",
+  "parent_commit": "384e66587149a687b3eac4a6d1918d8d4972dc06",
+  "parent_tag": "night3af-final-20260810",
+  "branch": "revision/q2-night3b-ablation-interpretability-20260810",
+  "baseline_tag": "baseline/pre-night3b-20260810",
+  "final_tag": "night3b-final-20260810",
+  "variants": [
+    "FULL_IGE", "DROP_RNA_RECON", "DROP_MOD2_RECON", "DROP_CORR1",
+    "DROP_CORR2", "UNIFORM_WITHIN", "UNIFORM_CROSS", "UNIFORM_ALL"
+  ],
+  "seeds": [0, 1, 2, 3, 4],
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "ige_epsilon": 1e-12,
+  "ige_weight_sum": 4.0,
+  "ige_weight_sum_tolerance": 0.000001,
+  "p0_float32_epsilon_multiplier": 32.0,
+  "clustering": {
+    "method": "mclust", "model": "EEE", "pca_components": 20, "random_seed": 2020
+  },
+  "statistics": {
+    "bootstrap_seed": 20260810,
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "representative_spatial_seed_rule": "seed_0_and_seed_with_ari_closest_to_five_seed_mean_ties_lowest_seed"
+  },
+  "run_order": {
+    "algorithm": "dataset_then_registered_variant_then_seed",
+    "manifest": "outputs/night3b_handoff/preregistered_120_run_order.json"
+  },
+  "preprocessing": {
+    "contract": "night3af_published_immutable_deterministic_cache",
+    "pca_svd_solver": "randomized",
+    "pca_random_state": 0,
+    "reprocessing_forbidden": true,
+    "adjacency_must_remain_sparse": true
+  },
+  "component_rules": {
+    "simplification_dataset_count": 2,
+    "simplification_macro_ari_gain": 0.01,
+    "component_support_dataset_count": 2,
+    "component_support_ari_or_nmi_delta": 0.02,
+    "spatial_joint_decline_limit": 0.03
+  },
+  "label_firewall": {
+    "integrity_byte_reads_before_scientific_window_allowed": true,
+    "semantic_label_values_before_manifest_lock_forbidden": true,
+    "ground_truth_csv_open_forbidden_inside_scientific_window": true,
+    "ground_truth_csv_parser_guard": true,
+    "evaluation_requires_locked_120_run_manifest": true,
+    "forbidden_modules_before_manifest_lock": [
+      "SpaLORA.night1_evaluation", "scripts.night3a_evaluate",
+      "scripts.night3af_evaluate", "scripts.night3b_evaluate"
+    ]
+  },
+  "paths": {
+    "output_root": "outputs/night3b_handoff",
+    "raw_runs": "outputs/night3b_handoff/runs",
+    "night3af_root": "/root/autodl-fs/SpaLORA-night3af",
+    "night3af_output": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff",
+    "cache_manifest": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/preprocessing_cache_manifest.json",
+    "protected_night3af_root": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff",
+    "protected_night3af_manifest": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/SHA256SUMS",
+    "protected_night3ar_root": "/root/autodl-fs/SpaLORA-night3ar",
+    "protected_night3ar_manifest": "/root/autodl-fs/night3af_preexisting_20260810/night3ar_final_tracked_before.sha256",
+    "protected_night3a_root": "/root/autodl-fs/SpaLORA-night3a",
+    "protected_night3a_manifest": "/root/autodl-fs/night3ar_preexisting_20260810/night3a_final_files_before.sha256",
+    "protected_night2c_root": "/root/autodl-fs/SpaLORA-night2c",
+    "protected_night2c_manifest": "/root/autodl-fs/night3a_preexisting_20260810/night2c_files_before.sha256"
+  },
+  "source_lock_files": [
+    "configs/night3b_ablation_interpretability.json",
+    "docs/SpaLORA_Night3B_Architecture_Ablation_and_Interpretability_Taskbook_2026-08-10.md",
+    "SpaLORA/model_corrected.py", "SpaLORA/night3a_ige.py", "SpaLORA/night3ar_ige.py",
+    "SpaLORA/night3af_cache.py", "SpaLORA/night3b_ablation.py", "SpaLORA/night3b_metrics.py",
+    "SpaLORA/night3b_protocol.py", "scripts/night3b_preflight.py", "scripts/night3b_p0_arch.py",
+    "scripts/night3b_runner.py", "scripts/night3b_evaluate.py", "scripts/night3b_finalize.py",
+    "tests/test_night3b.py"
+  ],
+  "datasets": {
+    "a1": {
+      "rna": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad",
+      "rna_sha256": "fd866f20ce43d878bb0b0b77a9a8d4cbb32d02123ffa3338d22c1f5477237ceb",
+      "modality2": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_adt.h5ad",
+      "modality2_sha256": "c53377e20795f72c239189ddf55508afc0d0d4bc262d0678abcc3171903f9972",
+      "modality2_semantic_name": "ADT protein abundance",
+      "ground_truth": "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv",
+      "ground_truth_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+      "ground_truth_id_column": "Barcode", "ground_truth_label_column": "manual-anno",
+      "ground_truth_id_rule": "strip_s1_prefix", "n_clusters": 10, "hvg": 3000,
+      "spatial_neighbors": 18, "legacy_datatype": "10x Genomics Visium",
+      "embedding_dim": 64, "epochs": 200,
+      "loss_factors": [1.9, 2.5, 1.5, 10.0], "locked_m_bad_expected": 2.289938091
+    },
+    "placenta": {
+      "rna": "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad",
+      "rna_sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+      "modality2": "/root/autodl-fs/Human placenta architecture/humanplacenta_atac.h5ad",
+      "modality2_sha256": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+      "modality2_semantic_name": "ATAC-derived / TF-associated regulatory features",
+      "ground_truth": "obs[cell_type]", "ground_truth_label_column": "cell_type",
+      "n_clusters": 10, "hvg": 3000, "spatial_neighbors": 1,
+      "legacy_datatype": "Slide-tags", "embedding_dim": 128, "epochs": 200,
+      "loss_factors": [5.0, 6.0, 1.0, 10.0], "locked_m_bad_expected": 2.289938091
+    },
+    "p22": {
+      "rna": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+      "rna_sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+      "modality2": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+      "modality2_sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+      "modality2_semantic_name": "ATAC-derived chromatin accessibility features",
+      "ground_truth": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+      "ground_truth_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+      "ground_truth_id_column": "Barcode", "ground_truth_label_column": "manual-anno",
+      "ground_truth_id_rule": "identity", "n_clusters": 9, "hvg": 2000,
+      "spatial_neighbors": 16, "legacy_datatype": "spatial ATAC-RNA-seq",
+      "embedding_dim": 128, "epochs": 1600,
+      "loss_factors": [1.5, 5.0, 1.5, 1.0], "locked_m_bad_expected": 2.290322960
+    }
+  }
+}

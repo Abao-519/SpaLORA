@@ -1,0 +1,21 @@
+{
+  "implementation_corrections": [
+    {
+      "issue": "initial unknown-file guard did not whitelist the taskbook copy and preflight script themselves",
+      "resolution": "whitelisted only those two registered Night-3B files before any historical hash check",
+      "scientific_impact": "none",
+      "stage": "protection_preflight"
+    },
+    {
+      "issue": "test command included historical completion-state tests bound to protected old worktrees and old source hashes",
+      "resolution": "preserved attempt 1 and restricted this isolated revision to tests/test_night3b.py, which contains inherited default-parity plus registered ablation/Geary contracts",
+      "scientific_impact": "none; attempt 1 stopped before numerical probes, training, or semantic label access",
+      "stage": "P0-ARCH attempt 1"
+    }
+  ],
+  "label_guided_changes": false,
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "scientific_protocol_deviations": [],
+  "seed_search": false
+}

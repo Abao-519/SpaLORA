@@ -1,0 +1,61 @@
+{
+  "baseline_commit": "384e66587149a687b3eac4a6d1918d8d4972dc06",
+  "baseline_tag": "night3af-final-20260810",
+  "cache_reprocessing_performed": false,
+  "immutable_caches": {
+    "a1": {
+      "canonical_cache_content_sha256": "b2d6e6b41877f7b39f3b016352f45e473d707f1527843f2b3ce11f471df8b86e",
+      "canonical_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "directory": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/preprocessing_cache/a1",
+      "manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "mode_writable_files": 0,
+      "root_os_access_writable_files_ignored": 19
+    },
+    "p22": {
+      "canonical_cache_content_sha256": "895bfa73c763e1fa1992ddc732fc193c4e12760249b8636c98f1c5f3111dbc40",
+      "canonical_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "directory": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/preprocessing_cache/p22",
+      "manifest_sha256": "254eda53a7e7a62e30ded97443878045b78af9e573cbb5e6f2c365488ddf8f81",
+      "mode_writable_files": 0,
+      "root_os_access_writable_files_ignored": 19
+    },
+    "placenta": {
+      "canonical_cache_content_sha256": "fc65b5af93aa0aa6d3082344247623d95b6c68f99cd75394fa1af0fa0b5657be",
+      "canonical_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "directory": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/preprocessing_cache/placenta",
+      "manifest_sha256": "cb8eaed90adcd08b3662f6fffdae9049365214ff5ef01e36a9f4ab046b40a0b2",
+      "mode_writable_files": 0,
+      "root_os_access_writable_files_ignored": 19
+    }
+  },
+  "protection_tag": "baseline/pre-night3b-20260810",
+  "protections": {
+    "night2c": {
+      "cwd": "/root/autodl-fs/SpaLORA-night2c",
+      "expected": 913,
+      "manifest": "/root/autodl-fs/night3a_preexisting_20260810/night2c_files_before.sha256",
+      "ok": 913
+    },
+    "night3a": {
+      "cwd": "/root/autodl-fs/SpaLORA-night3a",
+      "expected": 198,
+      "manifest": "/root/autodl-fs/night3ar_preexisting_20260810/night3a_final_files_before.sha256",
+      "ok": 198
+    },
+    "night3af": {
+      "cwd": "/root/autodl-fs/SpaLORA-night3b/outputs/night3af_handoff",
+      "expected": 709,
+      "manifest": "/root/autodl-fs/SpaLORA-night3b/outputs/night3af_handoff/SHA256SUMS",
+      "ok": 709
+    },
+    "night3ar": {
+      "cwd": "/root/autodl-fs/SpaLORA-night3ar",
+      "expected": 211,
+      "manifest": "/root/autodl-fs/night3af_preexisting_20260810/night3ar_final_tracked_before.sha256",
+      "ok": 211
+    }
+  },
+  "schema_version": 1,
+  "semantic_label_values_read": false,
+  "status": "PASS"
+}
