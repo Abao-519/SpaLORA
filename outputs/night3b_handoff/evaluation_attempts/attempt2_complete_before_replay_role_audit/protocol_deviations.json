@@ -1,0 +1,33 @@
+{
+  "implementation_corrections": [
+    {
+      "issue": "initial unknown-file guard did not whitelist the taskbook copy and preflight script themselves",
+      "resolution": "whitelisted only those two registered Night-3B files before any historical hash check",
+      "scientific_impact": "none",
+      "stage": "protection_preflight"
+    },
+    {
+      "issue": "test command included historical completion-state tests bound to protected old worktrees and old source hashes",
+      "resolution": "preserved attempt 1 and restricted this isolated revision to tests/test_night3b.py, which contains inherited default-parity plus registered ablation/Geary contracts",
+      "scientific_impact": "none; attempt 1 stopped before numerical probes, training, or semantic label access",
+      "stage": "P0-ARCH attempt 1"
+    },
+    {
+      "issue": "P0-locked evaluator lacked a torch import and used an effect-size heatmap instead of the taskbook-required per-domain five-seed boxplots",
+      "resolution": "preserved the training config lock and all 120 run manifests; created a separate evaluation source amendment before semantic label access",
+      "scientific_impact": "none; no training artifact, formula, threshold, seed, variant, or label-free decision changed",
+      "stage": "post-training pre-evaluation"
+    },
+    {
+      "issue": "server Matplotlib rejected the newer set_ticks(ticks, labels) API after all numerical metrics were written",
+      "resolution": "preserved evaluation attempt 1 and replaced only tick-label calls with the installed-version-compatible two-call API",
+      "scientific_impact": "none; no training artifact, metric formula, result, threshold, seed, or variant changed",
+      "stage": "evaluation attempt 1 plotting"
+    }
+  ],
+  "label_guided_changes": false,
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "scientific_protocol_deviations": [],
+  "seed_search": false
+}

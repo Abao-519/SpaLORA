@@ -1,0 +1,41 @@
+{
+  "active_coefficient_sum": 4.0,
+  "active_loss_mask": {
+    "L_corr1_raw": true,
+    "L_corr2_raw": true,
+    "L_mod2_recon_raw": false,
+    "L_rna_recon_raw": true
+  },
+  "dynamic_coefficient_update": false,
+  "frozen_coefficients": {
+    "L_corr1_raw": 0.17956705592859032,
+    "L_corr2_raw": 0.2174679368104811,
+    "L_mod2_recon_raw": 0.0,
+    "L_rna_recon_raw": 3.6029650072609285
+  },
+  "initial_state_sha256": "5433a390e72bc7bf9cc8e07c3d33f178a13bc7e6ac6235caef81251a9d5caf94",
+  "initial_weighted_gradient_shares": {
+    "L_corr1_raw": 0.33333334786732655,
+    "L_corr2_raw": 0.3333333473898892,
+    "L_mod2_recon_raw": 0.0,
+    "L_rna_recon_raw": 0.3333333047427843
+  },
+  "probe_grad_fields_unchanged": true,
+  "probe_rng_unchanged": true,
+  "probe_state_unchanged": true,
+  "raw_initial_losses": {
+    "L_corr1_raw": 0.08276732265949249,
+    "L_corr2_raw": 0.11229388415813446,
+    "L_mod2_recon_raw": 1.0317693948745728,
+    "L_rna_recon_raw": 1.0023996829986572
+  },
+  "raw_rms_gradients": {
+    "L_corr1_raw": 0.0001473618247949762,
+    "L_corr2_raw": 0.00012167922032505533,
+    "L_mod2_recon_raw": 0.00021234524814894777,
+    "L_rna_recon_raw": 7.3443193475301835e-06
+  },
+  "schema_version": 1,
+  "semantic_label_access": false,
+  "variant": "DROP_MOD2_RECON"
+}

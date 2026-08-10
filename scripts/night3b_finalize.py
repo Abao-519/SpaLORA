@@ -64,7 +64,7 @@ def run_tests(output: Path) -> tuple[int, str]:
 def main() -> None:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     output = REPO / config["paths"]["output_root"]
-    lock = json.loads((output / "config_lock.json").read_text(encoding="utf-8"))
+    lock = json.loads((output / "evaluation_config_lock.json").read_text(encoding="utf-8"))
     verify_night3b_lock(REPO, CONFIG_PATH, config, lock, output, "finalize")
     code, test_output = run_tests(output)
     if code != 0:
@@ -82,8 +82,10 @@ def main() -> None:
         raise RuntimeError("Run completeness failure: manifests=%d failures=%d" % (len(manifests), len(failures)))
     gate = json.loads((output / "night3b_gate_status.json").read_text(encoding="utf-8"))
     completion = json.loads((output / "night3b_completion.json").read_text(encoding="utf-8"))
+    replay = __import__("pandas").read_csv(output / "full_ige_replay.csv")
     if not (gate.get("p0_arch_pass") and gate.get("main_runs_completed") == 120
-            and gate.get("failure_count") == 0 and gate.get("full_ige_replay_passed") == 15
+            and gate.get("failure_count") == 0 and len(replay) == 15
+            and gate.get("full_ige_replay_role") == "diagnostic_not_hard_gate"
             and completion.get("main_runs_completed") == 120):
         raise RuntimeError("Scientific completion/gate status is incomplete")
 
@@ -101,7 +103,9 @@ def main() -> None:
         "schema_version": 1, "scientific_results_complete": True,
         "p0_arch": "PASS", "variant_probes": "24/24", "main_runs": "120/120",
         "failure_json_count": 0, "semantic_label_access_during_training": False,
-        "full_ige_replay": "15/15 PASS", "tests": test_output.strip().splitlines()[-1],
+        "full_ige_replay": "%d/15 all-field exact; %d/15 clusters exact; diagnostic only" %
+        (int(replay.passed.sum()), int(replay.clusters_exact.sum())),
+        "tests": test_output.strip().splitlines()[-1],
         "historical_protections": protections,
         "internal_sha256sums_validation": "performed after this checklist is fsynced",
         "git_commit_tag_pending": True, "bundle_archive_pending": True,

@@ -1,0 +1,2295 @@
+{
+  "config_lock_sha256": "2205ee5a71033a1498dfb04c06f9f337817cbe4df5d42477f12b399008b9837d",
+  "dataset_cache_hashes": {
+    "a1": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+    "p22": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+    "placenta": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9"
+  },
+  "failures": 0,
+  "locked_before_any_semantic_label_access": true,
+  "preregistered_order_sha256": "359e7c333e4f3a6788fc560241b443c781d5b09f0768e752a0a0bfaafd10f423",
+  "run_count": 120,
+  "runs": [
+    {
+      "artifact_sha256": {
+        "attention.npz": "424a75c39154f63adc0c175c6ff4441dfde37f29a291ca19f21ffb0c4c84218b",
+        "checkpoint_index.csv": "e57d8b1f6f65105ae9f6306ebc13cca7221a82bae85ea134c5b0565d675dfc97",
+        "clusters.csv": "7f744eb87a50bee5a806a5d5c2cf54443594ebb552c33d78c38f008bff838050",
+        "coefficient_probe.json": "f983f0793624a4af8643288f6cea498bf83b75d91842ddc29324ae329a5fba4e",
+        "embedding.npz": "0fe51f4e18d5391dc1607270b5a4d30aa1cf3da522a097f05cb4b0e3cccd19e6",
+        "gradient_influence_trajectory.csv": "c565e818754c337f90042d6d952ceab098d8456a488d2340528fcf81ef699f50",
+        "loss_trajectory.csv": "1718abf45880f2f21daa6b07dbc0e1b0d876f5cebcb8c4aa1f8648b5a2a40ad9",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 1,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/FULL_IGE/seed_0/run_manifest.json",
+      "run_manifest_sha256": "5a0038624bcddf1588fe6f67baab0d402316b8a5e8d5e6af84f77069e24e2c56",
+      "seed": 0,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "c3c5e4ff7fcb616babcc60f5d81562ae29104cec9d743f29343c46c7553f7347",
+        "checkpoint_index.csv": "c37fecc323a5f873e0b0972605ed8c091a15f3edacd2c0a1421182e314639763",
+        "clusters.csv": "97d06fc8cdce68807f70e42656cf83700bb0f67213370109606acf4af5760626",
+        "coefficient_probe.json": "07c90f660691096278255abe49ce169e48403631bdbeeaa5915d7dbe4dfffd74",
+        "embedding.npz": "128d71480901987b85e01e080e3d5250c9ee2d8aa564f3436503b55d17366462",
+        "gradient_influence_trajectory.csv": "e334a844167102669626104a9111db073eef8cdb7dbeed81570574d0cf3f88b9",
+        "loss_trajectory.csv": "a5aba4516e2fba12a5f512d4f30c28e7d4d6adbda74142a23abc3a1ef24807d1",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 2,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/FULL_IGE/seed_1/run_manifest.json",
+      "run_manifest_sha256": "c633692facd860527032d6e5a2854e86edcc61b87ca2462058b617e04574fc27",
+      "seed": 1,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "4a226f3d913be753e45e9775e44ccf08c6293aa23f48a9b3f7a14a9e4d8308f0",
+        "checkpoint_index.csv": "82e3f03078710a3e3e43322e15a3dcaff3c236815bb9c4df9bf83ad1dea61c36",
+        "clusters.csv": "a98c8f0de8656e362b1afb364670be07818a90082d73de15bcffec4545d408a2",
+        "coefficient_probe.json": "31c3c9e2cdf6a37bdffce70750f1b47edf995a64dae73c7c5ad3e61dea09ef29",
+        "embedding.npz": "fc432f2497187d447f0b2e768cd3678f5929309ea2f7c4c62e83e0fe7ef9a78d",
+        "gradient_influence_trajectory.csv": "50e4dc4e5f0cafd89ec5f006574374da24bd88cf1f3071ea0e3e0c96c851a912",
+        "loss_trajectory.csv": "b650f983e2ff49fcce402a0229c1cd0d5ce3dacb5913492298aa5a91e4baaa8c",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 3,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/FULL_IGE/seed_2/run_manifest.json",
+      "run_manifest_sha256": "3a9b937027ca47ae304522832ed0f45c08bd2e9b99dbb6f2030b1fcb880c2ec9",
+      "seed": 2,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "2cdd188d3b3e6f67b3869a4633cb9da6e17a71f34556276e85488ba79f510ce7",
+        "checkpoint_index.csv": "b1ae24ca409968b7085a895c9ca3dfe81d61b230fade70e6f1c2db363d648152",
+        "clusters.csv": "dac6bf8b5714fa6f729d64da3ef6650a51b79c44e1a48519739aa5a33b26da9e",
+        "coefficient_probe.json": "349ac607361fc2ef11a56015913787a37daee7a497447e2abfca6aff72cff944",
+        "embedding.npz": "b3a4f5d7a410cfe45e31d144740f8470a39b95e88cf4468a4426431e14d34798",
+        "gradient_influence_trajectory.csv": "103b94646e5fe6bb3ea44314aba9a7962a98d91bdae980287f74c06db3a93ab2",
+        "loss_trajectory.csv": "f98ca81e57407e0b4a9ae2c2961405c5083ca5c1a3932ec6ecc00d2d4ca95022",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 4,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/FULL_IGE/seed_3/run_manifest.json",
+      "run_manifest_sha256": "921b9ff6a04225a751d0bba193811d9ed6bec301f6c03fc676e4902e1069cc22",
+      "seed": 3,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "cc98dcd573e950006765231046034147e2a5da08ea258f58a217929741f7ff93",
+        "checkpoint_index.csv": "9a89c46f1c8aa77c9303c00bbde18ea854ecd2cf8a088ba38ef1a466f3ebdf22",
+        "clusters.csv": "7ea4cd1e76caa51636f06e60f7aeee35b1fb0765c0eca4d31c245d97c6697b6c",
+        "coefficient_probe.json": "1ace2f649b840c65e1fed8282c9177c800fe12e110329c93b0670823281b85e1",
+        "embedding.npz": "ce3f688701d00e44b4d087e365f8a565986df8cc9c10411cb05780446e1e0125",
+        "gradient_influence_trajectory.csv": "34b76a0c6f12a72a75e3297713d7f4b17543bea07e05b98b05ed97b061768014",
+        "loss_trajectory.csv": "11cb1a533c5fb9b66bd311037d95febfdbe45f0437c6991c3113d1bb390fa961",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 5,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/FULL_IGE/seed_4/run_manifest.json",
+      "run_manifest_sha256": "32555efcf1444ffb70ffb05c95815a800497258022799abbce5cf02cf4325342",
+      "seed": 4,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "246720fc95dfa6a65b406122771e4b8687c0955986c101d55ff5963bf6df24ea",
+        "checkpoint_index.csv": "9a0ee7e79f965e9b30be514630b702169360ed9a90e4d607f873689e9e7ea067",
+        "clusters.csv": "69fabe16babd191622ed4ff8054b5a0cf49081c5f184197fdc9b2518c4da5249",
+        "coefficient_probe.json": "3660aa2bf3bc84b841fb353ef358cda9fac983434f1e0b453bc10998417f8998",
+        "embedding.npz": "df3b1dcceb3fa2d9f202c719bc2bc607654744170bd2ded4740f209fdd8cc3cf",
+        "gradient_influence_trajectory.csv": "ba6fed8bf50e5023dc0bdd19e9e475512cb93c95d74990ce1a63b9c5ca7b1651",
+        "loss_trajectory.csv": "25de41aff47a8d4537a03891e1fead64500f2930477eecf5c2955ea6190c0d25",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 6,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_RNA_RECON/seed_0/run_manifest.json",
+      "run_manifest_sha256": "83a6629fa064f260bf67d445f83c3646ccc56fe53484f1c5a04b08eb6431acf5",
+      "seed": 0,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "21660c02bc8be6fd55210a33ece547f3a90ce85797e05eff483c7eb5eec25d8f",
+        "checkpoint_index.csv": "18053b9f235985e5f83009fa7196e2700e930cf1f69c21f59775536a2a0dd884",
+        "clusters.csv": "d20dd997065a2e0d4b28a8f2de080957f4a0b17cb43e41200bed1b951c192a32",
+        "coefficient_probe.json": "f6da8019c146df6cac7c3cd9545b5c0ada400cced176b84f7aed9656b76ca7bc",
+        "embedding.npz": "93d8d7c5225ad7ca7fbbde737b27a8f51b9ed3602dbf4803cb911dd87313e804",
+        "gradient_influence_trajectory.csv": "ac2d5343798fd0ba8f13fb032af0b49cec6f5c4e46ebe76d4dd30c1ae277a1b3",
+        "loss_trajectory.csv": "31d33e2bd59c0d7759fb3d1397f458a02e994fab41705c36c02bac70b1986523",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 7,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_RNA_RECON/seed_1/run_manifest.json",
+      "run_manifest_sha256": "d7d89dff95cff7da4a7d96c00cb116b3aeb959f047d629939463f7ff69837903",
+      "seed": 1,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "8d853ff4eaf3513844696c4e9164a57d630a128eae3d22342d89845ab783572c",
+        "checkpoint_index.csv": "1aaeebee0745e68ea92feed0c5a22fc5759ade257d07565c6409be2187eb3271",
+        "clusters.csv": "5f647bc36f30c4838b32d24627bd7d3a9c6d60b70c17231b1fd67e46f1e9b745",
+        "coefficient_probe.json": "61323ba5872ad9c870fab149831cda590c02895a4a7d466dcb6e6961007b1d78",
+        "embedding.npz": "e81dccd653cc5d4b9d0fca5e5ecbe0003c5c256616f823884584b01b0861e984",
+        "gradient_influence_trajectory.csv": "aa591550b6dd2af1add79dd2844614528bd973fd5337079daf90606b9fde0c7c",
+        "loss_trajectory.csv": "a037299cc116e315ae641a9b3895cc15e5c51015004d259802c3c1ceb511b00d",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 8,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_RNA_RECON/seed_2/run_manifest.json",
+      "run_manifest_sha256": "38780852beeb3734b93dd58de2003b582f69ad44af4037e614fa03359e89fb37",
+      "seed": 2,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "406aaa42772ebd3445f2b1406e52e9f1e63973840bf7329f2a2d3446fcd9e4f5",
+        "checkpoint_index.csv": "b9c6b2d24ccd061e2d839333f29fac6add4f92e7a1d8e97abf3fe4a2c143a272",
+        "clusters.csv": "a50e11d0c9e115ccfacf3db371ae069778da743903650f990de1360b25f786c3",
+        "coefficient_probe.json": "d646260bc038edc668ff4d631244336ec07cf2646c669f416403343ce57df8e7",
+        "embedding.npz": "36e18d541bd3cdc6bb8ee09eb268c917031d95739f1fc7d824267e7353b4d0a1",
+        "gradient_influence_trajectory.csv": "d6a3510d2fde0a303445ad4349c2518276fca0c8debb913f7ae4e6f71306caf2",
+        "loss_trajectory.csv": "ab0ada77c6b5ddc5b63da009841c4053b11d2bb741d1570d38877131e38ff30d",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 9,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_RNA_RECON/seed_3/run_manifest.json",
+      "run_manifest_sha256": "e74d8713e7391ad27700559fd19682064a4d52e0518e0ef5709fb5ea7d07a5dc",
+      "seed": 3,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "2336424262baf59c069d6497421fa047c2174cdc0f2f6eb3605b82cca3caea9e",
+        "checkpoint_index.csv": "78a31ba597aa06de10c92cd3216db1270900e18d0bf0fcee8f7c165a9816d3f2",
+        "clusters.csv": "c10a42ddcc0bcd5d05cabac48e2617203b06d0cbef2f3d838527a3547bcc08d5",
+        "coefficient_probe.json": "ac9b2c32592739a487883365386e52cee484b991234ce9f401b255e8059bbeb2",
+        "embedding.npz": "ad12d2f2d60e47d03789e6a89161270b697cbda84f067ee7283940bd03e05cdf",
+        "gradient_influence_trajectory.csv": "43cac7834201abfaa7e1e4288ba0095d23994b216e01a1d571c5cf7cae4877db",
+        "loss_trajectory.csv": "1c96bab6f57340b2eb9b7ca9c81ac400306939e36384a04fac4f58c6bf38ce75",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 10,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_RNA_RECON/seed_4/run_manifest.json",
+      "run_manifest_sha256": "5d0ce6716b99376f504973d035741fd9b0b5b191bc054b77adfc4bbbf7921b92",
+      "seed": 4,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "eef2770dc19707bd96886f7257df3d4cabc5ae8d2cacbed26a0373d3983fffb3",
+        "checkpoint_index.csv": "f0415a8697342bbc7d1f44ed0f73a0b0e9ce343a75fe9c38789ff3910d7a2be5",
+        "clusters.csv": "ed115c01e351ceaafec372b51fc048b86f061cd20863c2638770eca1b563a12d",
+        "coefficient_probe.json": "fac8b404c2bbf29369f3a65c23634ce70f595c859eb6545de31d96d5062291be",
+        "embedding.npz": "6b5c4d2ac05b40e1eac3199fbf63c9090064be85a0f445bb30ae006ada22a65f",
+        "gradient_influence_trajectory.csv": "acf02f892cf97bc361179638405b3f430ecf5274d3f92058906ddf45bd426d68",
+        "loss_trajectory.csv": "8f2619915925819b325b535a974f62539236d06889fbb8323241f143ed5afa14",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 11,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_MOD2_RECON/seed_0/run_manifest.json",
+      "run_manifest_sha256": "9a85f30f062622750c98d1ec1b360dffbc5ffee3b087f2a350499162a8cf045b",
+      "seed": 0,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "adf396bd931414a9faa9c0f5c30e9622ff1f786387591580483d9ff3d679ea2a",
+        "checkpoint_index.csv": "70cb797546804512f8be0a94101ba15792950a09e9ff83c7ee6a4d1142d7ffbe",
+        "clusters.csv": "6a5f3a25ed742d9d365aaad110991e2444f10f1f4b663bf684a9f7d0f406a721",
+        "coefficient_probe.json": "cc7af91cd6aacc0919747b9f6d8cddda0bc1849aca7d84381248f4f028f447f5",
+        "embedding.npz": "c575c33fb6222120b6761b3207815fffb92be0e4ffe95f36de9d679e4ea1dbcb",
+        "gradient_influence_trajectory.csv": "4bf69f35f40ff22cba4aa9e718030d9ecdf54e24a4056a6b58bdae14974ff790",
+        "loss_trajectory.csv": "a0c2f82ff24148e85dcaf69eb8f1be2c9c02e24254b10b65757b480eba63c9fe",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 12,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_MOD2_RECON/seed_1/run_manifest.json",
+      "run_manifest_sha256": "87da0250d537ff86006320d36935ad5e33b5ef26b7ca6317685215747cfd65ee",
+      "seed": 1,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9aa3143429158ab2972b95098d72ce3862b45ed217cd795a409406eebbd26ce7",
+        "checkpoint_index.csv": "92fdbcb01579c0c60667658484e2651f2b30da7e3a1c853278739af4dfa18167",
+        "clusters.csv": "e9986b291391f3dc55b9f32dc98003e5869f7ec6e0b727acca135ba130218f36",
+        "coefficient_probe.json": "b1382c861fed9291731b428c39be70a3d0d35d44fb8507571467ec77ca618b5e",
+        "embedding.npz": "5228dcbcd35a99ad0d39ff5eae3531be7c566f8c631e54d6f3ccb0383c9fadfb",
+        "gradient_influence_trajectory.csv": "8b27c79fa3f88b7912e37c4e94b1f96342854876fe7fd2b670dada4c34175a5a",
+        "loss_trajectory.csv": "727bcb6a57da7afbe96875494a948a7c2be3bca7f462a527a47acf3d77ffb0af",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 13,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_MOD2_RECON/seed_2/run_manifest.json",
+      "run_manifest_sha256": "c4192926c37dabd1ffab402149c025339205b0734a347919b7dec7069aa3ed10",
+      "seed": 2,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a9b4fc3b71f89fcf4b73455f4d5d25ee0413f7efd37bb40fda4e19cccc85713a",
+        "checkpoint_index.csv": "db32330db484955c586ae5ac2126104262a92c9a4ea39e684b954b9bf62983d0",
+        "clusters.csv": "d76e0154ae83435fca07b6fa90ed36fe88af5aa6920ea470d6a6af8e2d3c9be0",
+        "coefficient_probe.json": "e95361b2f82cf3d6231b77022ba187ae69072d11887dd84ab6d74897003ab4d6",
+        "embedding.npz": "d3bfba70bb7d64bcb8ac5168aa9b57bc89e19dc2816cc5ef5856d2495d09ade9",
+        "gradient_influence_trajectory.csv": "0250189d56ab9a4e0839dbbf69ed3ce75e392e2fdb325277d29f18770006b2a6",
+        "loss_trajectory.csv": "6598a342ae400752d179cabeba048c34747e9b605fbfae2427aa525c918ca8fa",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 14,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_MOD2_RECON/seed_3/run_manifest.json",
+      "run_manifest_sha256": "d4895386ed7e2ea18ba41b24c4c4ac4cd3501b28df191f340df8a5386073fb5f",
+      "seed": 3,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "d07ee557aefaa0f2cf4179a21377e6d58c1bdb8eaa4f5613a6d0f0da742f55ec",
+        "checkpoint_index.csv": "9daf306882188ea76edbde97c0b62a12f66fd3443d51f7226d8a5103dd2fda3f",
+        "clusters.csv": "24caaf2a08adfb39e423127a0987c16b382ac7ca9e8d996142f676d661e3c9ce",
+        "coefficient_probe.json": "7e8a4b1c9d7ed3cc83448016d25072cac17561534d91ddc7293dce798da827f6",
+        "embedding.npz": "569380e184a04c87479d70ae0650486a79c174a5c74a9b91a628398c6e7adbc9",
+        "gradient_influence_trajectory.csv": "7c1574ac06d4cf3aac144ed487e808027dbd41211148966dff6f65822ab849d7",
+        "loss_trajectory.csv": "f5652896ef1faa3cc018aede4735d462729546ad559d82c1a04b4efbdd162bc3",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 15,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_MOD2_RECON/seed_4/run_manifest.json",
+      "run_manifest_sha256": "7d60f51de92623f46699e3ddd1562460633c74cf191e1d2fd02ab1f9e2a65328",
+      "seed": 4,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9c58aa173bca34dba168e44547918024778c0926bc1344f922ee1b8039a04625",
+        "checkpoint_index.csv": "abd4adbc5498672e5a1deaef8338e0bca780a65912c4796415616723606867cf",
+        "clusters.csv": "5deb8e3c37f74d8edee85b5ee03e27711bdc0a8a3a687c57b49094551bfd8c0e",
+        "coefficient_probe.json": "8ed8bebe2cc5adb55162bdaaf0f6d89e059aac57df131566eec363a89590426d",
+        "embedding.npz": "2e7e93fb492f5c9f962783379155dac130ee98807d46b4e82d3f693ec09b277d",
+        "gradient_influence_trajectory.csv": "2c0eaa7a8f116066e76ab7873f08e923c94dd38c8147f1397f610817bf90e8ae",
+        "loss_trajectory.csv": "0ffb3d536d0bcbfe50a1fc7beaa576867b316c1109d6920296e470c12468d1c1",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 16,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR1/seed_0/run_manifest.json",
+      "run_manifest_sha256": "a257a8f461404083f5e70662cd95752df6f46fc8f0f709066ef4d7daf9db6a3a",
+      "seed": 0,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "ce255e0aa6cafe1afa5515676136e6c021dd9982215c0094dae0a27f6e1bb800",
+        "checkpoint_index.csv": "beff3a3b6f906b4dba013b13a6a3d266a26c6c52be9ff7e0ac0efb66939229ae",
+        "clusters.csv": "8b635efddb35028c15b78a0aa91e596fd253b7b1d6ebd737d04be62e55753cfa",
+        "coefficient_probe.json": "20a0c0fddc73238af3592457af14ba830d9ac968840f733b28d946c209d8ab36",
+        "embedding.npz": "0d65bd9e8d601119c96d32482d2b254099c5eb493529213a829391b9230ce828",
+        "gradient_influence_trajectory.csv": "b4782de76dd1d3c5d1ba3707daa4266296c44dae0566faae4e3d8957f9521972",
+        "loss_trajectory.csv": "f1b15a0d6cc807fa99c3d4a6d3d7751a83ce7f70ec789c627e94be1225ca431c",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 17,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR1/seed_1/run_manifest.json",
+      "run_manifest_sha256": "c7b6b788c348d0678147cef8ee64cf4f10b474356ed6e288854b6b96053b2224",
+      "seed": 1,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "472e9df772a8560f8e414a7ce1bfb0fd9aff7d3cc3b422c960a4b56c2d9fefb2",
+        "checkpoint_index.csv": "ed9ddcd2f8b870850a657fb4e1cb27939f0969b820be9cd95373af26fed78f97",
+        "clusters.csv": "a80454e9ef5b61f5686474363ba5ee0ea5572193c094dcec0438f2b759def55d",
+        "coefficient_probe.json": "de5ab24b81aa713a3f18fe54153ce479b8d27ca058ad3a10a46deec873b58247",
+        "embedding.npz": "6481b1826af6f3c0366f5a301504e4bfbe55bfe11d8521869e0c3f44123082a2",
+        "gradient_influence_trajectory.csv": "3453bc5aa8c0e4ce3f8b46bbaf9dee9552c01159b6d83714d267caf84f9283ae",
+        "loss_trajectory.csv": "06857e25400631c3d9599dbf581d2b423a27ae91767bf5e7a7bad6afcec664ea",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 18,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR1/seed_2/run_manifest.json",
+      "run_manifest_sha256": "9fe1cd50cb6b8c0ac14232a7eae2ed1e9c3fdcddae99943e009f0db723c642cf",
+      "seed": 2,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a7ead5e2de2b3c626d5212acde65262df4b10901fe0c948a3bee6809516c8c5a",
+        "checkpoint_index.csv": "d1e7650f0ea9fbc0da4a10d899ea376857bc6d1e6673b0836f2443550e6b2591",
+        "clusters.csv": "26a2e3b19e1c8f7420d16339a107d8ae4791cd219b60ba9696ffed7685380374",
+        "coefficient_probe.json": "757d4639b05a384e6690c1b4adb041a7d5ca68b9ca153aa538202b2045a44713",
+        "embedding.npz": "e2cf200f27c51fb2b05872a4c634f164efb7d2a57ff072b800e2f9810b7c09fb",
+        "gradient_influence_trajectory.csv": "dea5ae16e81ffce14b4073104cd853b699a5fd83d90e026096c206014b44111b",
+        "loss_trajectory.csv": "13c5e165ff0be56e5ea62b2a2934c74fbeb5d8be7628f3861b1477cc1e239135",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 19,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR1/seed_3/run_manifest.json",
+      "run_manifest_sha256": "d4896aea0fad3f7e953f0cdce3426d90226d47b29d4303b6a0f61beba6cef430",
+      "seed": 3,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f7ba25847eeb9e5bfdab1425d575c941df82427e046045e4a7ed4eb34969d9b9",
+        "checkpoint_index.csv": "64e91487d08581339d8cc70c5e24c87a56550ca67062b5285381fec4834bddbc",
+        "clusters.csv": "3410cf1a52e2ecc9d55e074a6dd6c63355ae0959595ca54e9a7e35f52c621f03",
+        "coefficient_probe.json": "a9aa2cc7e64f5e601f1d0ad7e99cdb70339189d452866d9c3a62e5d3313099a2",
+        "embedding.npz": "970dd0a091ae969163f5608f3cc923097df41b9501d7a43cf2bf9b0135d9acf7",
+        "gradient_influence_trajectory.csv": "b5613434df569bc75689327fc681bd6c2344afe085684ddf79965a17173a3920",
+        "loss_trajectory.csv": "3fcc47ed215b748273d0a18d607850a6ede9acb926d7f0cc6cba7cfbb24f4a50",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 20,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR1/seed_4/run_manifest.json",
+      "run_manifest_sha256": "172127a40312646b728ae6e1976daae6e758acb06e3f4c8c1bc6d0e747025485",
+      "seed": 4,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "6697c73df94bb0e8e0a9e87913933844cf25e1e545b591d17916a2e8af665a7e",
+        "checkpoint_index.csv": "4f015e5b93792b2a1b5ff4cb308483cc8d3282269b74a6184a22d0c4cfb55703",
+        "clusters.csv": "0ca5146b7f63d26bb8ff9631d75ef88f5a57351fe78597069fe41e96b446c4fd",
+        "coefficient_probe.json": "625f11b0a924992f0abbabdd41edc7bda38f2374c2dbdd54c1cb6ab8825cb4c3",
+        "embedding.npz": "1c4781f36eaea9df77484c99175ef1d14c12aa242343fe2651f251e72ec9e8dc",
+        "gradient_influence_trajectory.csv": "8530263166d107ebccf61ff1985eedb2052899ea4d2ce0429e2fe918e79c7d22",
+        "loss_trajectory.csv": "a6c05b80d246c21384bd85156bf4484169ac53778a118998bf5a1177b0050005",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 21,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR2/seed_0/run_manifest.json",
+      "run_manifest_sha256": "d33c3a8df82140b12a698b7ab3da08adfe46d57507050c3a52cb9efa90b21126",
+      "seed": 0,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "3a0ebb1f4de5d4a849b6369398ee6a828325b60c333dd99ab5ab61389e0670ae",
+        "checkpoint_index.csv": "97cc9c50cf0c9175202e6fc79a021cfc632b96e128472440a2793570b647a643",
+        "clusters.csv": "da6bebc6e4d17b89d4474297f54effb6261234bd9639182d91b92bcfb832fa9a",
+        "coefficient_probe.json": "94b6ae40d005cb2304023b25922f229551c0616b6aa3b1a465a1537ee72068e8",
+        "embedding.npz": "fd2e00a61671ca66cef049911eb5ff957aa6875c28beddfb153c726cc8970839",
+        "gradient_influence_trajectory.csv": "40f75188c4583bf1c14174fdede85728296bf52e7b190fc007b73119a3e3b2cb",
+        "loss_trajectory.csv": "afb8f6459d2a5635acd40c129ef9e65bfba1ed9e88c8f677f4edc3a6994a085c",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 22,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR2/seed_1/run_manifest.json",
+      "run_manifest_sha256": "2ec5a8ea7e402e9d10eda4e65f588a6b6b064365d1b052808ecbd1b1217ee666",
+      "seed": 1,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f893706331243e25e6b92b3421fd4a85fac66c95720fa490bfc5b619099050bf",
+        "checkpoint_index.csv": "953895ebcdc8b61af5393785edf4d4b4c0e86f5cb84ee9fe6537f02a1fb2d213",
+        "clusters.csv": "590e10a6b3cb901dc04370e65ee64facb845ccac4cae063b3c393114f6e20a30",
+        "coefficient_probe.json": "befce29c0eb23f0bd65c95d8abbf677c17d98a59c9cb5c05331a4298ec799962",
+        "embedding.npz": "639a03e79d15a91a6797b010707aa82788dde143e1ff85338635de48b25404f1",
+        "gradient_influence_trajectory.csv": "ffeffbc270131a28fbaa1fd2a544371f012a38118fb903b9cff559e2d81be113",
+        "loss_trajectory.csv": "b6b1c0bd45187f8fb7a3209c9c0306902c8c2b83c8c95f724e4c2768cb24e8fd",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 23,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR2/seed_2/run_manifest.json",
+      "run_manifest_sha256": "00b9710bf76fabfe244f955618b6943c221863a4415b784a8b40e33abab864b7",
+      "seed": 2,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "61fbfab3f28c1397169b3e0ae7227582a78341561efef4c8c532213527d11ad7",
+        "checkpoint_index.csv": "53346f7825bb0ea78eb4c8555d671706d2e35ece7021d7c30c5e0b823ac8f419",
+        "clusters.csv": "bd75c1c2d29fc675b9044cc8a2322a32632104a378230fe702a47a44c9df12f8",
+        "coefficient_probe.json": "767952f64e9f156f96e5877089974b2818120921c3627b71397b60aa45568f51",
+        "embedding.npz": "5953bd64cb9460d8995b4366db2c0ed6632f912e826531c2344328600466df02",
+        "gradient_influence_trajectory.csv": "5f724f5dce55284345ae09bad8977910c6867125d0a434c31219caf3a26dbc1c",
+        "loss_trajectory.csv": "b3db199d1da65ee37a72d1074757e46048857ca17240d0f3b649f36b8eb63783",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 24,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR2/seed_3/run_manifest.json",
+      "run_manifest_sha256": "f0f99d61c10e9c5e4e42a530c7a6398a8608ae41143bc154b9adae472917c063",
+      "seed": 3,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "5465bb5e61fac27bbfe7b8444ca088e11eb319cd42bf3d863e9b61ce7254ea68",
+        "checkpoint_index.csv": "b616b4692062023e115f9ebe7d2b8705380630456ace5c8af303eea904d6d9c2",
+        "clusters.csv": "9f823df2836b6e551be514f09adeaf6807dbde8cb3cccbe9277011790efad4bf",
+        "coefficient_probe.json": "c788261f7cf74ed49f219d310b5fd8391ece506835a11685b1a5a9985120c9c5",
+        "embedding.npz": "4665be6a7783abb9f0742260999aae3e1853ff75815ba3375f7e6b6abc6ea599",
+        "gradient_influence_trajectory.csv": "961eada8af137a029b476287127aa95e4c90b843269569ab1dd3bed282f68b50",
+        "loss_trajectory.csv": "e5e56ed3f31fa66363b019e93418a5bc16496f23b3e62b24e8ef529a93c0f7ec",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 25,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/DROP_CORR2/seed_4/run_manifest.json",
+      "run_manifest_sha256": "a725c92d25e7ff2d58c39e66493308dfe59d02a507a0c320839830aa5a7d349b",
+      "seed": 4,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "8eacb5d3e79d505a51226a41299823c12e9295f3aa4d44a852b6d5a9ff756b79",
+        "checkpoint_index.csv": "4c7bfe32403560a00d57399010d1ddaa79caf1285cb848a8be59828231381399",
+        "clusters.csv": "9a6597ea38825cf08ef02f75a65f9efd6ccc8161521661440860e4454a8eaf40",
+        "coefficient_probe.json": "a4bdc3a537503a148975997b422b7fe48bc89793af83fc64800510ac4005b730",
+        "embedding.npz": "082de609802baef40519105ebae1059650d18a570597683600d5dc6d7bd01200",
+        "gradient_influence_trajectory.csv": "3f18a10a833d2fde0c70f77574cd071b1fe6fff8e61e3f7970c51608eabb1511",
+        "loss_trajectory.csv": "e525bcb5cc755819553fd68375390a4062cfb49ab0557cce5feb7ec59f556cb9",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 26,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_WITHIN/seed_0/run_manifest.json",
+      "run_manifest_sha256": "24d8643ae06d3eecbff0cc07f7b6f90eb24d68a88c8719857dbfdde80f53cd45",
+      "seed": 0,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "4c8c307a4eee5c35cd2510bc9d0d7da47dce1f2069cf27da3ca911d7b3a6691d",
+        "checkpoint_index.csv": "0b9c8dc547497d4283c876cdcfc564d25583aaa3b2dd3c498f71149f3a513225",
+        "clusters.csv": "41c7aee8b656bb1c448320e7bba956788595378192301d9ed83879052decb6e9",
+        "coefficient_probe.json": "fc075b35bc7674632ac72c8a6610421beeb8b0d0cf638eccd4d93c505aa9ca2c",
+        "embedding.npz": "0a72a89032dd79ea5c9c32d907da4779a44e2ed9896396bb96b81864cd2d3b97",
+        "gradient_influence_trajectory.csv": "42331586cdd60529e405c9fcaa1f7e7c1ff16dd0f45e9deb3985274dcac6d1df",
+        "loss_trajectory.csv": "4bc78c1bc76e7a08431301edb303374940e99cc0c0efb58553da1a7d7bbb3470",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 27,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_WITHIN/seed_1/run_manifest.json",
+      "run_manifest_sha256": "f5947a398b512a149ccc8eb48aa902179289dad9cc2fc90615947388b9f904ab",
+      "seed": 1,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "06fd6561a2053b779b92345a927e9d021ab7377a3fea0d45f08a9c8c6c3bf096",
+        "checkpoint_index.csv": "050f1b86c99614d95ca3d0e5f7b8f399a451d8560ce6abc95b569265dd31bac4",
+        "clusters.csv": "0f3caf71e7424f8d48488d0a72b0135c64e86a8b6dbb7e126e8b53e32cc85fb0",
+        "coefficient_probe.json": "aa4d74e04156e6ec3bcfdae9d13b524cec9ea49ad15be16f6b321d55a1377031",
+        "embedding.npz": "96be335575312d846575c6cf3af04b85252434e0fb2225476d0924998de3bb19",
+        "gradient_influence_trajectory.csv": "594a1a24aaa69d9c52c707336ef418771152e033f49003f1f9523258c6d80028",
+        "loss_trajectory.csv": "ab3080dace3365c1537480719169b39c14b0f0345c56a626bd2d898573b69d2a",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 28,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_WITHIN/seed_2/run_manifest.json",
+      "run_manifest_sha256": "8f2381794916c35e816c660a0307f50e3ec987fabed5b898468a2f8f0ef515ce",
+      "seed": 2,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "8e0416c49b2beef96ecdf7f72f03f60b03c471b2e5651c6a5a521fc7d8432944",
+        "checkpoint_index.csv": "ade3331d7e9da2f57a7c0845ba3c0f65912525794e35d62bc705ca28771bcd7f",
+        "clusters.csv": "44c589b4c72e05d50e02074a68fb23b84042bda04fb75962dce2fcea3c16587f",
+        "coefficient_probe.json": "0fecce9ead9166a1ed5ac5103180241f71f5b410a17dc05c263af797f4aa822e",
+        "embedding.npz": "e99361785b261df7ee89909deb12277a0846d5db14a3fddc1cf37ee8395247f8",
+        "gradient_influence_trajectory.csv": "8e2e475b379fb44e7006fd788f2423da921d7574ab87427d289f821b98f473b7",
+        "loss_trajectory.csv": "ad4005818c5f05dfa184ceb11c63f2e8e64da8286ac5eabc583bafc8a6294de9",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 29,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_WITHIN/seed_3/run_manifest.json",
+      "run_manifest_sha256": "8437eac5aa4acabdd070b3ef7a27a45d8e6a4dd3d543efcb3852f6c085f6fc28",
+      "seed": 3,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "08bb789187cebc37fdd7755d50d0e3369ac0230077b87b797c94f6756ad36a74",
+        "checkpoint_index.csv": "2d857b34ef59a45d32e8d2dbcbae5495de123a1b3cca85d8ce701db80e9ac2f9",
+        "clusters.csv": "405397b40c1ea0be6c1afaa73d1b3d98005a62cfdbd3d21256aa4da9bcefc3e3",
+        "coefficient_probe.json": "e1590c4a43c1332f23aaa5a5483b151a796be93fcbf9246bc55b3ca622818000",
+        "embedding.npz": "39a3911d2e557ce09d593b42cdb85b0df15d74a84d1207e4d0bf304121a2cd01",
+        "gradient_influence_trajectory.csv": "a41fd50e413122312771570941e883e0112b5e34cac6b12083e1b2120fa99394",
+        "loss_trajectory.csv": "86276374db6d8be8562ce60cf606b4ff3e363c17bdf8e5f5245859ee68f324cc",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 30,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_WITHIN/seed_4/run_manifest.json",
+      "run_manifest_sha256": "5461515b7cf98542ca8f946b1a2ebe7570ebbf811667251a71cc2a4f31636b86",
+      "seed": 4,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a4ada7ac89a049b7e05ca159991daf23d2de7ba864ab479eef7587e4992c9c7c",
+        "checkpoint_index.csv": "77c957c185ab59e6ff065d409ff8b7022147c645d5d53e7c4e10b95f3cd1bded",
+        "clusters.csv": "3df4036abf24b4379d1a21505bae24f0761d363f7fc53fc22a27869345900f6c",
+        "coefficient_probe.json": "5be827b888169b9657e960a59cac9abfea38a7ce3163b2db601a4ed1ca4d608b",
+        "embedding.npz": "288f846c54554958abb385f1e9aaff0939f74d462dbcd2253e8f6fbac3bb8709",
+        "gradient_influence_trajectory.csv": "83ae8be6bd551cb218c859264dda1173f18a92bf3a8528a9ef7fe3a17bd5fd07",
+        "loss_trajectory.csv": "6d0ed78e40fbe7f2564f0bfc043372a6e3478de8b261374c180948fb98ff2209",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 31,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_CROSS/seed_0/run_manifest.json",
+      "run_manifest_sha256": "cbef70721e2c80d15be70bb9a06f04095619acedfb79a18ca95275de2feb2381",
+      "seed": 0,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "d7468399133ab23626a603bb5c5258b9648d7398fcb14316ebf778cc72c97496",
+        "checkpoint_index.csv": "8f080f3aca8ec19743182a721f63d7e556af2e030a7d1f2670b3e86179beca15",
+        "clusters.csv": "8427530189f47ba03280f6c11294c094ac5fd1153b0657269b0633fb0d1f1acf",
+        "coefficient_probe.json": "8f3f2310f9e3b78927fab2aa8427cac2b4cf68a44986634333324de99aa5043e",
+        "embedding.npz": "c70c9d7a00b2989e345afdcec0166752d2b41bfb10872416a18214194d053e38",
+        "gradient_influence_trajectory.csv": "64d4c904273f41ed04dc8e84c74339664c1f6351d79f88384d4a98a6ce1d51f7",
+        "loss_trajectory.csv": "956fabd95ee2abd09ed97e55c9288b57fe7ca513d826102abccf426070a794b7",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 32,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_CROSS/seed_1/run_manifest.json",
+      "run_manifest_sha256": "85f5943ac5d8f507bab08b4accd56a08318a2cfdced52bc29da2c99d5857c1e7",
+      "seed": 1,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "b9c597be1b61d160f5bc772d171fb393007b9dce19bb9953486fa02ca0725d70",
+        "checkpoint_index.csv": "481b20cee83bcfd6f0bdfc73f0096757e03e35dac6e2ebb55f3bc3d319742988",
+        "clusters.csv": "f8f640e2803823afc47a1e9a655d3bfa505ba7de60c5dd0be05e34f99a3eff7a",
+        "coefficient_probe.json": "0b95068951f50bd5d1c9a8a18c4c9ba5565ab481bb2714b37c4b5974e9028d5f",
+        "embedding.npz": "7f81b368ea8b54fc7f17129e705083ceaee2ac329a03b47a6ffe1b990100c5a8",
+        "gradient_influence_trajectory.csv": "968e8b5cd737e24e779c20d7936fdbc983fbc86065d27472fdcb85557cff3636",
+        "loss_trajectory.csv": "53d1b24b4e246d49155ea791b6a79cfbb1579e0a30499acbaa6f5157b2fcb2ab",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 33,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_CROSS/seed_2/run_manifest.json",
+      "run_manifest_sha256": "506cfe415c93729ba356f1a03f6f9c285e948de23b75d547298cf39fddf84cbd",
+      "seed": 2,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "ccf68c27eb0964875622835db98a6719e4f5b7a059a05669e3a20050354ecb32",
+        "checkpoint_index.csv": "d3af8516bcca4583454dd7a4b6216389f12887b2ae0534393ec7dbd1fd576815",
+        "clusters.csv": "0a23593fb36dfe04d55cca48a81fe9528b1be44470d3039c523c5c325d11d31b",
+        "coefficient_probe.json": "0fbba87e2c2e769011d0a05651be755d7149567f666839295457affad0d97d5a",
+        "embedding.npz": "fab59580c28b710681ce4ddb5f9a4f7496a0d5f892bcd7244069528be231f9ec",
+        "gradient_influence_trajectory.csv": "74c139fb2213bade6e14de80c0a72a36716aee58250f85b4208b7af9e31fd3ea",
+        "loss_trajectory.csv": "507e4bc5cf28093c29c3fdade421a54d2c551fece93f1f11c6e7f446f541745c",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 34,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_CROSS/seed_3/run_manifest.json",
+      "run_manifest_sha256": "079272d9e60a5c44aaede13157dc169f95861957bc53f68f2c795221afeb1501",
+      "seed": 3,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "974420da9aaeefc779bb2cf0974c718d61311e87b64c859d3ea2374395489af5",
+        "checkpoint_index.csv": "baf32714861748cf44fb03b9395c753a6f07403a469bdf292a5ab110bbba9262",
+        "clusters.csv": "d2f33230fb73b7b86c8c5892da0c852ced69f2c6f5203a4966f288d361162a6e",
+        "coefficient_probe.json": "56d2e821dd520d6d245b2caf0f22d07546de83ee20837128ae54ec86672ce48d",
+        "embedding.npz": "c1a91cf65369831bdd8c4abbcaacd7ee2560f3eb8186888be9c2ce38cd1755e5",
+        "gradient_influence_trajectory.csv": "e99e4244943ccf98c5f79c1b9a48fa94ed4a0af6bd7237c7f8ce9fe3916e418d",
+        "loss_trajectory.csv": "a565c29ead12313e410922f9bc7bd9e92d661ae65788cc3a3c87ffc9d0c11b76",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 35,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_CROSS/seed_4/run_manifest.json",
+      "run_manifest_sha256": "28d1000da5321e1f4b24cc7c6b4790c937c6415bd334b5f4734b47e5ff7ed9f1",
+      "seed": 4,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+        "checkpoint_index.csv": "bfe51e878ba927e90c1126d4fee59005ecbd197519029213d053a1d33cbede80",
+        "clusters.csv": "5d433bcea40a41448978a56fe98d371dcad977fcd0aa35d7aa38ef34a733815b",
+        "coefficient_probe.json": "35d2362045bf822cd317f6d385b6be100b9f806dd5778e2aedc64e4b01033857",
+        "embedding.npz": "a632cd5d1df0e0cc1707a40ed2a535028976c73681f05c5489f59d8ab8b80381",
+        "gradient_influence_trajectory.csv": "d879a25841712a9ad1aff457b151acaa5d80bbc0cb34649ce925ee4ef7c4d604",
+        "loss_trajectory.csv": "e973f1115bba2ed793eb327495d2ec8143ba6fed6540d239996c7346b40829c4",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 36,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_ALL/seed_0/run_manifest.json",
+      "run_manifest_sha256": "b6b072d1dba224f8e04f15a8b6553eed6032071b6014409c82e5698317ff3a74",
+      "seed": 0,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+        "checkpoint_index.csv": "68466b917846705da04dcf4313731c4b3bfca3b366f35c8cf5bf763b441859a9",
+        "clusters.csv": "d1ccef937c774af2be9a1d2bdc78764d83e64cd70332c4a13da9e79eab09575e",
+        "coefficient_probe.json": "1fb7d1f108a45b4b112dfb0d76549fd5dd9a604d09f8353c276ac0e238787a7d",
+        "embedding.npz": "3ebca55bdba46f4927579d525476c02dfcc24b6069f405d53a6f951677362d55",
+        "gradient_influence_trajectory.csv": "8f22ccf3fc7bdef55a1071f0fb8bfa7bc8435143912a98da6eb51e1493042b61",
+        "loss_trajectory.csv": "e8d6d0bdd1e9ab8f7ffec0607819b3e6b614c526c3a1829f1da03f10bd198f8b",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 37,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_ALL/seed_1/run_manifest.json",
+      "run_manifest_sha256": "34ae493fd3667e5720a8702c9bf048d6fe62cb88e423e3ad31a69b4c5de2c6d2",
+      "seed": 1,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+        "checkpoint_index.csv": "1eb288cec4c676e5345789eb8aedf6c382382a59fd79abf45212126a004d7e11",
+        "clusters.csv": "a16428b37eb482b7a8c3f9bb530d7d9743bce3deb64cc286833031c2618d4e2e",
+        "coefficient_probe.json": "b8955b0126b46d20958a7c97332c0ef8c1539bbde1d46b3d8b8e235e48386bd4",
+        "embedding.npz": "257c787474dd153727fc7eb75aa574e55d4fbef268b8a80168cd720316ba44ac",
+        "gradient_influence_trajectory.csv": "c949c36a7c10aba98a5c7a0ca01bcd0d842fee8f8033271ee0c9771cf5676cc1",
+        "loss_trajectory.csv": "514de70696549980d35b7714958b2348749281f33d599c077aaab629699b7a86",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 38,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_ALL/seed_2/run_manifest.json",
+      "run_manifest_sha256": "3ee4cd09844f5d21179acb8a9f3941894aa351c8990652b016c89137557ce2ef",
+      "seed": 2,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+        "checkpoint_index.csv": "10152dd9650071de92a26dbff28527c4b4f084c64092a825ba2784f8d521a709",
+        "clusters.csv": "dd111fec67feb228236a5f86c804e7463189c370807c748f6421674235fca09f",
+        "coefficient_probe.json": "2fe1af699891500d998cda22f3233d0d94bb1544ca13cf6daf2cf08f96f13bd8",
+        "embedding.npz": "b9a15360500c998560c4843cc4ce517d03280b3b9e19c323d24447159849da0e",
+        "gradient_influence_trajectory.csv": "7202de804dc01650793ced183d6c7af51eb14ec7516ce3d80a26f610fcf9acff",
+        "loss_trajectory.csv": "2e2c4f3dcf6c8ddfdf40ff7de1865d4689865971c90a43b83afd2f962d094eb0",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 39,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_ALL/seed_3/run_manifest.json",
+      "run_manifest_sha256": "8ad2725e3249c21fc3968a37c8c31fd495fd019f17e0bc5cd9bf339d9bd7363c",
+      "seed": 3,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+        "checkpoint_index.csv": "8a0e15edbaff2f6869df9294a6d161edf1aba93475d75d9bf4983e74642e7850",
+        "clusters.csv": "254223456926dafce1edee51e86de3e4ca22d61d0528911f93136bc003359bf1",
+        "coefficient_probe.json": "c52f79678f3f3b6c4b2fdf1e554dfaaffa72426acf897aa4fbf19a330a3964a2",
+        "embedding.npz": "411582be74d4995dc44f57e399e443f28466d45012009af4081f556fa1c5fff4",
+        "gradient_influence_trajectory.csv": "876d1af393bd3cdc1ef3d76a37f6b2b99d7d4a5d1b2f1f761877d3fd4204dfe9",
+        "loss_trajectory.csv": "cf8d56295a319f1c935db881a41243131b935955e1e93d2782646b30a286fc05",
+        "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+      },
+      "dataset": "a1",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "ordinal": 40,
+      "run_manifest": "outputs/night3b_handoff/runs/a1/UNIFORM_ALL/seed_4/run_manifest.json",
+      "run_manifest_sha256": "d0be8cc775ef7a847ce952563632543bb150864b16ea2c567aa0b7bf78c3d304",
+      "seed": 4,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9fdb5cdf3f66e70e0c44d9e1a2e239f8b7d4e2328dd6a9c71d102f0b70178434",
+        "checkpoint_index.csv": "b1b57b411e525fe40de8a5cf52528ad3435551ab784278c76882247ad9ee6864",
+        "clusters.csv": "26a0f4141d0b999c59b3dad83483bf8219c67a20fb80a8329f79c419a14a319f",
+        "coefficient_probe.json": "8e47e48d5cbff17ffca502651403d1c588c6610605ce44912a6a81c428c9de44",
+        "embedding.npz": "5b742499f7b8e399e8c3cfbe90866198d95d40ce5941e530f6d6127c306ef2b3",
+        "gradient_influence_trajectory.csv": "90d0802e8e7945ae0f0d625e525786624523b78b36216a087e513c13c3ff2aad",
+        "loss_trajectory.csv": "2dadcf31c39231175c273e7b545279cbda20e471fc6a3954bde7cd68557ccd5f",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 41,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/FULL_IGE/seed_0/run_manifest.json",
+      "run_manifest_sha256": "fa3696946d5d0f687588648743f2a04324efbb5cb654c5db9947f7c71965110c",
+      "seed": 0,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "c6e8959f45d6c653e69c3183cdccb776dd1dc25776a688dc4c331a49efe7a352",
+        "checkpoint_index.csv": "6a697de8baf00979af981f901134a644da9852f8ac5207fdfeaaefe5720b2429",
+        "clusters.csv": "b88964f90e1028bb917e81e144d61982dd9b9f2b7d92f25790708c0b03b2a997",
+        "coefficient_probe.json": "e37748a5e30d49eaca0260368f3024a74760cd496e2936b6974791fe13ca51e6",
+        "embedding.npz": "34116522694c95913e9abe0c2e96242305b637041ac0ae9dde567d6060655185",
+        "gradient_influence_trajectory.csv": "17b25f57ba088249494a572e7bb8ed85f4eed3a1f0c35dc258b8e37e05f9b24d",
+        "loss_trajectory.csv": "eb3305757f6cd3b4991fd73c37c71b8c1e1c1abe204c2c53eb9d2d2cf5a1ede8",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 42,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/FULL_IGE/seed_1/run_manifest.json",
+      "run_manifest_sha256": "3a2467beb3f178a03b58976f6d6c1f2daf840d6957b4a7a5b75aaab3ccb65e7b",
+      "seed": 1,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "534c1e36555a095ad3353eb133936d05fd8448696e36271e1ea07806b53ef567",
+        "checkpoint_index.csv": "047366494b19262e55b9d265cf59a2f04460daaabb223e49dc96b6bfcd5a6dac",
+        "clusters.csv": "022babc5ba12c94d8eabaa7cafcc8d07b4ee05b97083351edbafdef069373b86",
+        "coefficient_probe.json": "2b232a364a842cd28f94c7bd9a0a3aad448395bcee8f3c07e82c153b0203510a",
+        "embedding.npz": "ffcb743e8d4c5d6c8d989132a73ac0c6322efb83dadf03b5c0c1f2088110aa4f",
+        "gradient_influence_trajectory.csv": "3d882f682feec58346b299fd04159c9e6a4af52ede62dc7c784766f092f90930",
+        "loss_trajectory.csv": "d8c72f4d085f088436faa7e41212ec1fb9b0ca1993645458c85ddc48a1bd4e71",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 43,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/FULL_IGE/seed_2/run_manifest.json",
+      "run_manifest_sha256": "45634d208fca8931444d0b9af4344b078cf539556c916f5cbfb747f5ccbf7c5b",
+      "seed": 2,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "930f1c2af34d55bfe88c1bd4cd36390adadff9d65be7952c5464dc1f48288ce9",
+        "checkpoint_index.csv": "71eedc92a7300774fdcf91b29a236d63553e35d7bb18286692cf5693fb990165",
+        "clusters.csv": "2cca106f196dcb64749c8523130d3e489fa365eeb253974fa2b73e7648c3d407",
+        "coefficient_probe.json": "d38ab581682c5e83913909f407352b1a374e9bf36827a6f4e687ce6f47c45eae",
+        "embedding.npz": "ebeec09693ebcfed20b21ae5b36ce2534eff10ec32c52a81a8d6195dc20a3103",
+        "gradient_influence_trajectory.csv": "a46409adda3bf2197b93bd5fc1259bb4496a8a9f8cbbced3e2ed21177b8f901d",
+        "loss_trajectory.csv": "3b270798a61cc90708d6e898e3c4bed310f0c8063979ec52c2ec7e153de2ec9d",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 44,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/FULL_IGE/seed_3/run_manifest.json",
+      "run_manifest_sha256": "9ba2ee9f87813de7450f15c2f10195705d498620eb863717a3b4730405bafedc",
+      "seed": 3,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "3f3d57c9eac8a4a7447bdd1b6dafa61f9471ac0d4d0920aa6df614b9efbb8c1c",
+        "checkpoint_index.csv": "5e641a38bcf5756a2b89025882a00c6146023889c5592efcdef73fd0255a48b5",
+        "clusters.csv": "4345fe18fd3bf3fb0ebcff14324ab635f28f119aa6b1602161e6e3f6336ed50c",
+        "coefficient_probe.json": "387ae2f6887e933049bdf6da399d3cff73f89559db1089370aba8fd393622773",
+        "embedding.npz": "1ad13548493a2d4a33242332d07b011cc9b0503fc009480b1380fe62d314d661",
+        "gradient_influence_trajectory.csv": "6b3225b87459c4f1fe21a4ce1d63de9c9dd415813cd6d1f08c9214efdd776ee6",
+        "loss_trajectory.csv": "dcefdb14c103334d2ca98cde45d7e89c907af8532207314a81099c1bef19fced",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 45,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/FULL_IGE/seed_4/run_manifest.json",
+      "run_manifest_sha256": "414db9113355fef9df3c95933c23a3d09f997f183cc3f1fcb4b672aaf830e3b0",
+      "seed": 4,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "d8f79c116d3e309841e45f2b5f30372c2251b7930683d076aae753d188ad0538",
+        "checkpoint_index.csv": "5c33a4dd039ab81b74417ae4469c9cbb7b53be795dcb130585704174e3a761b0",
+        "clusters.csv": "adbbbe4fdc86daa295a798b744c50986f6be216806f41ab51095d56173be5853",
+        "coefficient_probe.json": "44acf37a9d5d7984b39e528309fbc63f0ee565db5e49cff862ff7d03ba32cb35",
+        "embedding.npz": "dc037825c3e08f2d8fd8360a8e3e0b0b17e1493542325f445d5a8e85e5f492df",
+        "gradient_influence_trajectory.csv": "a68f07edf041a7f142bdac5598687adf4c8938afb9955a63ddc73a4124fc1243",
+        "loss_trajectory.csv": "58da6dc7900af46c00dadfffe82f777972971c1f87ed3fa3b25f4f124d39e8c6",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 46,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_RNA_RECON/seed_0/run_manifest.json",
+      "run_manifest_sha256": "c1575eb8724024eab2629cc889cb290e29c32a4fd9199228cab46c400efebd0a",
+      "seed": 0,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "2736381cc3d60303666c5b4d27e8a58221faf530bd868a60acd6e9c93b2ec702",
+        "checkpoint_index.csv": "e29a461cbcaa39f23725ef769e28927c61f1b11574f21615c13cae8a83a29a68",
+        "clusters.csv": "7e9732bb05f54349e71c8bdfdaa5c32fd07c1fde4158c419f2e6aac54c367c38",
+        "coefficient_probe.json": "50c9177feb74cf413ea46817dd02ebcc3ded2fb263e1b15b65fde5268bc475be",
+        "embedding.npz": "c24d12ae582ede1dd673ff853c2a55ea343f7920f9c1978a0e0f8684491e1618",
+        "gradient_influence_trajectory.csv": "c5cc8dffdc4a05330ba22a64147364e230d4556035c0d6ac835f8d9666ce8263",
+        "loss_trajectory.csv": "7fed86c1c2d14a553c0e189916f348ab29c744b199081fe9984ff9131b362049",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 47,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_RNA_RECON/seed_1/run_manifest.json",
+      "run_manifest_sha256": "2b1d83bb8e8f6829944eb7d81458d9f3a4d3393ec9c7c410aca0077efed91fe7",
+      "seed": 1,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "301f8502f10850a24316cb8ddc685620dae9b9d166941eef8d2f67b53de281e6",
+        "checkpoint_index.csv": "54aa66e4e92fb17656b95eab1bf30d556cf426e5676543b1cb6053ed0684108f",
+        "clusters.csv": "21985fee524ced390dbc2ee48a2de2b6f855e75c3a906e6d68004fa13c559430",
+        "coefficient_probe.json": "48fe198f08bdf674fed979710afa6e044cb4bb9152638bb813a85ad6efed9d08",
+        "embedding.npz": "092df8ab299bfe7df3ded3a0663bd23bc245827cfbcfc7ff1414c952e52c1493",
+        "gradient_influence_trajectory.csv": "19394a4ca0d8038681e44eec1a0d5e79be2ba5481634a9283f326d5ac5b858de",
+        "loss_trajectory.csv": "0dcd59c8c0ddf60c78f0d39a5f3924d46f49ec4650f482deaaa4d4d7e051cf91",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 48,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_RNA_RECON/seed_2/run_manifest.json",
+      "run_manifest_sha256": "f3b2fa9166cb2962cb5563d2f8ee0e70100a4c6ac4dee236292bc85277d1082a",
+      "seed": 2,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "c3a12fc86c45b28beb2fae6853cd5987112a51ab5542afe96b1cddf28dfa1e96",
+        "checkpoint_index.csv": "fff28c9e5bdd4ce5e92e8b435bac3fcf1e9b34820e6dd4c083ba6bbce17c1eb4",
+        "clusters.csv": "f61ac41db421d5bc5866018a8d3bd41ef99d5f707f342ade08c29603b0f402cc",
+        "coefficient_probe.json": "63857b998acb54183e6041176e0be24a14e1953ad4775ac8500b10bdc0403527",
+        "embedding.npz": "1b3122a10b9be48b7d42f01b58c33953c1101a617a9d02b51e6deb161dea1162",
+        "gradient_influence_trajectory.csv": "7f313f1f6743368fd09a3889b1dbf6ff73e2ae38138e7f8f22384c1b82941689",
+        "loss_trajectory.csv": "51905c71e76e8c8c206472c087af3c3219a44bac2b2aec34a338131064031241",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 49,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_RNA_RECON/seed_3/run_manifest.json",
+      "run_manifest_sha256": "86d13df55a1f3b7a835c6cc87e22bf130a1319f3e6ebffd9e3d1a664c5352413",
+      "seed": 3,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "924d4874ff724e999f8c8c7adac01802db1912e58fff7f464d6670856b9da358",
+        "checkpoint_index.csv": "6153ed0f54b18b68b0d5cfd66576dc8c3f4737b4997a5b89b27e967c82aa7c39",
+        "clusters.csv": "10a20cf58fdfb3afd6c2e297be8f01b429d8035d96a8367b3a4c47df8eb40c55",
+        "coefficient_probe.json": "170e1d9d0d9f42950f6e7698f288b014f4a4f55fe197226e13b51d5fa472a7ca",
+        "embedding.npz": "1a9d718b362ae851f7fc0783a1287de2b7bab1c8a04d70507b6f680a63fe8199",
+        "gradient_influence_trajectory.csv": "7b5a36f2564cbad860270dcf9c5d725f1439a94e78815419adac636b10379e64",
+        "loss_trajectory.csv": "3a385fcbc4b49bc44771b84eddbcb283260915491d0a4c7507f6f6ca92d9b371",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 50,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_RNA_RECON/seed_4/run_manifest.json",
+      "run_manifest_sha256": "ea450182af73df642e1ad80a745d09e79e32269e05de9675c71be795f7fa297f",
+      "seed": 4,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "91fa161969e48129eade0e4ea58475b8b4d3a9ed90e61c28d8a89c2a34b0805b",
+        "checkpoint_index.csv": "0948aad3d3a4ee3789e133c4344ec1706db65f17f8cc1e02ffc8a5e70eb7d49c",
+        "clusters.csv": "4336f3ea7eaac32217c7835c37f414f7b720b43fd37830fa5c4607e6f09e2026",
+        "coefficient_probe.json": "0ac8124e93fe03055f3927d9d72fca70925c9d48bed4d7d9dc1d1ec34417613b",
+        "embedding.npz": "f986b15ec8a0a456d0e08da7d30a16c0fb6bc5167d199487eb43a556b72add29",
+        "gradient_influence_trajectory.csv": "1bf266888000d096305a32d0558c3c3b5c9911c67234add41ca3532445839afa",
+        "loss_trajectory.csv": "02bda0d743ceddc55211caf9a47306e3aa68dbcf37a4e8ab475569a0108d74c4",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 51,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_MOD2_RECON/seed_0/run_manifest.json",
+      "run_manifest_sha256": "d94279453cc28601a23626124c53f17f1bde84e769a8dfb7a03b0c7c5234a57b",
+      "seed": 0,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "ad452235a96794abedc3f6fa656e2e6abb1dac9c7732155a18f3586b3f277c3f",
+        "checkpoint_index.csv": "3f1418027829977f0d6faa144e21568670a7cfade3c248467529812754655ffb",
+        "clusters.csv": "0eb4dc74518a25ce4985f0f48573ed59203df3710580fe08841df39398e4c3cf",
+        "coefficient_probe.json": "fef22f0063547054a187c8d24f0a000c01c6cd375e4d76543c23fc5ebcc07d54",
+        "embedding.npz": "5e95ab282b03801ad63b8277421ce264a36ad5246408583a487098b636033293",
+        "gradient_influence_trajectory.csv": "6a7ae67edd2754c694022bef94ad579756191c209af834b2378825d7f63aa903",
+        "loss_trajectory.csv": "882826c90c5a4eafe0660ae093d069dc7ec64d751bac07afa6de624ab1e1a214",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 52,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_MOD2_RECON/seed_1/run_manifest.json",
+      "run_manifest_sha256": "9e9645b0e1abfbb3d9dbd17d5c608da082ce9e39e01748616499cb9161d01b9b",
+      "seed": 1,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "812adbc630e6b0e280e733fdb0a6edf261a1e4528ed541449338d51ef6c2c91a",
+        "checkpoint_index.csv": "f70cc36f82ed3decd9b62c7c32f7ec937e1b996447201b0d678ab3b1aa2c2ae7",
+        "clusters.csv": "c6d59d1f06d981558f63bb33cccef0afbb95f2c5407c088fdd690fba9ff2f6ef",
+        "coefficient_probe.json": "7c8f8eb0bd983e9834d3fd3857787a89c7840a2331eb9d77cad29487f43708f2",
+        "embedding.npz": "88a4b045f8d8290bf257befd10fa5b37b3d85e2e1df5c185f098a45253cc8b7c",
+        "gradient_influence_trajectory.csv": "5e3c77bac1ef09874d2dd54a5fe9b0787880f390fb9ca0a48edbc5bf865cfb6b",
+        "loss_trajectory.csv": "c844fa502187f0934ca329640e737668df70c9cd98271b5ed604d89919b15b0a",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 53,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_MOD2_RECON/seed_2/run_manifest.json",
+      "run_manifest_sha256": "4ebaa4ea6cc3596ca80e02da2c15f75fcf69090bdf47e33af25fdcee820c8563",
+      "seed": 2,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "80c21b0db0831a2de5ff2471afacacd314ec3e264ce761658a4a2bb67191cde4",
+        "checkpoint_index.csv": "dcf615d7efa1ea804a32efa855119e4092d218af355e935b3732c05a418dabd5",
+        "clusters.csv": "5b2356c4081a1c3a40d7accb501c0f1d9de059bc21c9af13b922751280ab7317",
+        "coefficient_probe.json": "8ce45741dfb1fe38ab0f140729fe8c87fe365de1301653f36da500ba4b6eec31",
+        "embedding.npz": "474c1ad08dd666cfae4a8176b3b17f9404d1dd451ee50ed40cd29e8a7630abfe",
+        "gradient_influence_trajectory.csv": "84f35f6c46039f65332f910f4dc807a9d91c5a7a3d7f8a316ca2985c6f7d4ad2",
+        "loss_trajectory.csv": "f2202034e2180933b4104fc071b5888a075e60b45460b77f1518021275b3d7ba",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 54,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_MOD2_RECON/seed_3/run_manifest.json",
+      "run_manifest_sha256": "81ee008b53fb949b03d810046dacdad7c5ac373a53f9f21558a78b74bae219ec",
+      "seed": 3,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "13a5c9bba50e57649d12075cab32df2f294417b38d6cd8f81b6b3a9a7945c8fb",
+        "checkpoint_index.csv": "7331fa59e58e9df03ae1aa48ee1cbbebdc566e61b84850ecef8042c4e13a23fb",
+        "clusters.csv": "f6c080ebaef07df3129892b51c65469005d2ec52a3614d5fae0b27ec270e5f5c",
+        "coefficient_probe.json": "c7a2736fa552b614f1155ab464ce247064257d85d62e40810e7603ab323c36a2",
+        "embedding.npz": "b3d16a91966862c4ba6c968ebaf1640a3007988c80a167bcd2cd9fdb275df58f",
+        "gradient_influence_trajectory.csv": "e6391d4547194bfcd31b5a3ae0715360d32d6e0db15b38432304b5bdf4836416",
+        "loss_trajectory.csv": "49ec6c0548a2ed444aef9b451837455d2ea100f765c993fff253b63ece0fa80c",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 55,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_MOD2_RECON/seed_4/run_manifest.json",
+      "run_manifest_sha256": "42794356c9a48f5d1b637ed38585187deca27805200f339594bb85fef8383b4d",
+      "seed": 4,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "4b2598060d3e9728e02bbf9fc0156df4d8a08399535529db3ae9ceec0a480a15",
+        "checkpoint_index.csv": "6bfcf0ce1687c61b80b56d9fcc709279201c0a4fd6807845f1bc15ff8309f4a2",
+        "clusters.csv": "cf4ecd8b11cea2d6c75db204d94154edd7cd650f42091be7944b88efef1ec55f",
+        "coefficient_probe.json": "2cca59134619cdcabca9a64c199dabe234f9f15ca73e244ebef022217fde7930",
+        "embedding.npz": "06b76e5f28a0bef5a85209860442a93b642334b4f2b3e1c0d9f2232d8289e615",
+        "gradient_influence_trajectory.csv": "afff83ef1ae01637d1020eb8efc374d6fe6e240910233aa0f30af1957d60b3c3",
+        "loss_trajectory.csv": "1464d2aac2bb34b6003f1a6776a905b5fd4adc4b77fd7e0662118684732c98dd",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 56,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR1/seed_0/run_manifest.json",
+      "run_manifest_sha256": "4587d5f80af0257d38f732e702918bbe86f21c7eec806d8a2016089b48cf9d7f",
+      "seed": 0,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "b4ba791eb24a94ac9dabf14bf32de360fa96d8bebf13172a64d0bed11ab18f56",
+        "checkpoint_index.csv": "fa8d316ee8024b9e15cbbd236c6c4469598f0c58341007343ba64463c3c01dd3",
+        "clusters.csv": "b175dc960c2c1039b039b88f8c4f2649833310fcb47742b0bc30ee6d4dfb7bed",
+        "coefficient_probe.json": "cd845fe4b4b9e3d197e12ce1f259fcef1c5afcdb76aff580201c205f76570322",
+        "embedding.npz": "2491d857064a7e8ae79e25faa472c33e3cdb837eb8e93ca0fed4dd68bdd4d754",
+        "gradient_influence_trajectory.csv": "c45441e8376f92256fd7df75af4002b9ec2131d81ff50c255d0e7325a7febd48",
+        "loss_trajectory.csv": "f7c4e851156bc0ff73fad980375879d16159296af4ac2701007b7acdaffded02",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 57,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR1/seed_1/run_manifest.json",
+      "run_manifest_sha256": "2267d9d2d2e17a424734a5f0fc955dbd2cfc9c821b2406e3dc379583a157534d",
+      "seed": 1,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "afe969c1c7b56a6284943ac62551f493fb8a57f7411d713178dcdec6b853df31",
+        "checkpoint_index.csv": "a2951581bfceb8b99c5971a8111e7fc8d28427b4322c31a312e87b1b3b07437c",
+        "clusters.csv": "8b456989ea3068fe75908fd4ba82584fd373ac55f721ad561e79143c6bd2635c",
+        "coefficient_probe.json": "052cd23ad5db914e0e3be66e8bf5f23302d32e6361a5a9031a38816c371bbd7c",
+        "embedding.npz": "fd2f1aa715b04f546c956753dd28abaf304ace7d5e700a1c3e47f82cec46ef0b",
+        "gradient_influence_trajectory.csv": "0ae54eaea975bac4d5f42894406a73320326edd6beb4573dab62f1ad63df71a8",
+        "loss_trajectory.csv": "a3ee968155d1e5b59b310cbb2dfcf099936f80523963b8564c3b38208a1af54f",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 58,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR1/seed_2/run_manifest.json",
+      "run_manifest_sha256": "db51ad9d2db828f6c3cce40af1d527d4fd7a2e78480a2385fa9e50d63c33c913",
+      "seed": 2,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "43464cf0accf71cc579e65c868219ce502097953a5d9760ae0d81e3e6c8c46b7",
+        "checkpoint_index.csv": "2d68f0dda7cc3c15b50a08052daa039102feb60fcc9546820e92c10fb41e92cb",
+        "clusters.csv": "1cbe408f89b2d0ee13d5b720dec3ff4e46a57154320491b504eaae81146b0443",
+        "coefficient_probe.json": "cedaaa11fdd5c47255881f7f27c6e0f84fab42cdaea7cf9f18ee772ec0ff9546",
+        "embedding.npz": "863466cb2149c00a426b0bd79a98ba0123a209d66dd9ee82bbcf8636623f7461",
+        "gradient_influence_trajectory.csv": "eb03106f1620c34d0e2fc1e29b3dfaa5b4109c65895a0338d9ddc1d7f366c212",
+        "loss_trajectory.csv": "92a9f2547b088ebf94a8e144f4753b70a064c31fd7f18c3eea56227ea10d6e2a",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 59,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR1/seed_3/run_manifest.json",
+      "run_manifest_sha256": "0ad87b5ba6c60ec3fcb4c89f6b03366dee3700b59d09206f35693154fcace269",
+      "seed": 3,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "d54aaed669b1c27be0e72ccf6737b2e5f076f3fc736fac5508116701550d4981",
+        "checkpoint_index.csv": "8eb907050ae7b7d384c19d6bb1c55b217cef5ebf6728319316bfd25fe102a970",
+        "clusters.csv": "7e2bc1a508d54c8bd820f35ebfe95056e83bd8250c2d779fc8724396f1fe2c85",
+        "coefficient_probe.json": "97b5596a919a4b013648687f050e225e340b2188020cbed40fcda445e5e1772b",
+        "embedding.npz": "fe3e01724df0b6c2132b6e050034a93558f09f9d68a4b8f7473ee29452591505",
+        "gradient_influence_trajectory.csv": "36f6edec37dc74fc2a0a241ae028c36ed3caa5186783766818cfde06b40ad346",
+        "loss_trajectory.csv": "9977c766dcc1f6e87479ceffa26d098944727585e9c32f37224afac79396c518",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 60,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR1/seed_4/run_manifest.json",
+      "run_manifest_sha256": "30d5a02f4e1997bfbeaad7c025d265917c844e4678bb2c6cf05bdc4258a523ba",
+      "seed": 4,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "827b3ef7c65a247492056ea7e5123113d0ca3c3f2369101709728e8859f1e3a0",
+        "checkpoint_index.csv": "4ebefa6a607a30abb55594d4e9f59085acc6572f52a5eddcf76d3472d31fdbe1",
+        "clusters.csv": "0ecc15f5b3acfcef42a6b1e52bbd80bb9611f89c4afa30e374098428cc559b2a",
+        "coefficient_probe.json": "d9782ec21325f35b5aa423947102e80bb52475f17c327e76460734e4f7b87a9b",
+        "embedding.npz": "ed5438365ca5b7e0a16c14318185e1ed5318d69ae801591a4da25e15385159a1",
+        "gradient_influence_trajectory.csv": "1e5ce8bd6c2bd88e50248e03e60d5ef92b4a51db265de231f0692416d854cef5",
+        "loss_trajectory.csv": "67ffaa39ae5f5b760df4d64dc8692e1e364a61211fed63d3abb1f803c2300720",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 61,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR2/seed_0/run_manifest.json",
+      "run_manifest_sha256": "630248ca42f58b80ea73b94a52db334ee957728a082da632c4d6b4de09bacc91",
+      "seed": 0,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "59fa8e19193e16e72818c54bfc06c68ed8b188ae323dd5b2bc3221e671f00ca6",
+        "checkpoint_index.csv": "203e1172e40097d39565a655f0e98dd6eae02dc6ccf00ca3f73374e4822f40f4",
+        "clusters.csv": "e7bf81891da2eedd66f4e6388f4ff0ffc10dc282f09b7dc048d4266de099f3c6",
+        "coefficient_probe.json": "ba7a0e87feff053b2ea726686f789f210b174d5d3b498bef8c2b1065df518fed",
+        "embedding.npz": "1ec50c0ce04799ebfaefb10ba38be5e06cee063e7cdeca130ace0b63d4164d3c",
+        "gradient_influence_trajectory.csv": "330989d3115c99f344a691148791c94ceba2592685b2649be1f485101b3065d5",
+        "loss_trajectory.csv": "7a5c27ab09ccb8753fc165c9c611def343015586ba137d712a1f4b73dc99411a",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 62,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR2/seed_1/run_manifest.json",
+      "run_manifest_sha256": "160e9877612ae6bb0b3421a474dc7c676e5b625ac4307c9e6a973e68bfc4c6a7",
+      "seed": 1,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "ed97b4959e6a254e605476fcf08c08b38d9c0493634f6cbf5497be55f0371bc2",
+        "checkpoint_index.csv": "b3c28fe4c086966f792553bdeade3be96b3b6b076378064d3caf3b513080b0fd",
+        "clusters.csv": "39766d6bfda5b46d549f400aa5efd2eeccf315e3db417612c50582ef8c8eb793",
+        "coefficient_probe.json": "9ce848e2be7da7ea56381fb5c8c00e57732ab4dd4d080c8dcab13b99742974a4",
+        "embedding.npz": "4baa518a422eb83332441fbe24217893dc3befbd24d6adafd9875decb102bfca",
+        "gradient_influence_trajectory.csv": "b7816b2223a9c528aaa2063f2b1e43190ac2206f17d40c06744ed14a0b464b15",
+        "loss_trajectory.csv": "e2ecee5e98eaac91992962c025f6c05ab19d9b11bc49a88b6646194bb700ca3c",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 63,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR2/seed_2/run_manifest.json",
+      "run_manifest_sha256": "fb93e89c65ca4f0cb0acc255a088150dcbc2873c169fc6c11aa71150e5ff7f0d",
+      "seed": 2,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "301b57d31d5fff01b820308bda76387938b9fcda95ce627e59f06c978a65904a",
+        "checkpoint_index.csv": "dd36a766a5ec58498a44084661ee409d471ed35886a5b26dfa9ec4231542d9de",
+        "clusters.csv": "8eff8ddef0be096b1843827065d9f26659b10be5d935b93f58ab111886fda89c",
+        "coefficient_probe.json": "87d8125759f70cfce179cfc28f8edd8a255c8023a8ad3a66e3b2244d239c30d6",
+        "embedding.npz": "fe0eb7996b857f7fbbc82109f00977ba87ebd918c2f429731478374938f47477",
+        "gradient_influence_trajectory.csv": "8d2a029d476c324e962e65181f55fdc6ddaf64664c6606b252185da88784d48e",
+        "loss_trajectory.csv": "34273d490be0643978e46828e8f1dab03547479b0bd5d92c7f3158c90348b328",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 64,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR2/seed_3/run_manifest.json",
+      "run_manifest_sha256": "4aa18adeb3abf8349689f6d3bfadad807626d52280b780aa00d6046af0ca461b",
+      "seed": 3,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9be900fc9bc6ec1f9754a02a381bd3e4bcb2df487dee6b0aca44b973cc8e7297",
+        "checkpoint_index.csv": "4e0045f307618971766fac71aded43001621b9a41b6b0db8daa647f54bee0c25",
+        "clusters.csv": "9821c8cdcfca623257f492362f14147b206236dc10a439072914c4b94b7b4fea",
+        "coefficient_probe.json": "127d4e6a88d6cbb5c088fec4a4ecb12561aa6c2d9bf57fd9d5795e229a9ddd9f",
+        "embedding.npz": "f38f649c27119677128fbcc86567def433ff8c2ac1761939f80a11760df94ea0",
+        "gradient_influence_trajectory.csv": "465e3ab7fd31006dab63337ff761b25d59ff5f91a385c579c91f99114514fafa",
+        "loss_trajectory.csv": "8ddad5320621afcc41e0e9bbd99dfbff93248d09f860ae62241d491e33395a91",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 65,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/DROP_CORR2/seed_4/run_manifest.json",
+      "run_manifest_sha256": "56c7ceef691d6d115a0b3e9a502570d991a3ad65ed5ad46c9199b5ca70e31b6c",
+      "seed": 4,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "133dff978dd9dbfd6b55de317ac144bc8d1fc30e8bd1b1b2537710b8791df543",
+        "checkpoint_index.csv": "ceaa16bf238f3d2677110fece823e6079468ac391e811224680aaf6e80206fa4",
+        "clusters.csv": "5c4add72c569d9f848ca16ab3b54e4bacdbc818f5660b363d3f808d3ce7f8a3b",
+        "coefficient_probe.json": "91beec42dbebaa20847f626a8730cf9806eaedb05329f8542e934cdc7e65f8bc",
+        "embedding.npz": "79ec97ff8482b507ea5e06283346520990ddc503dbe18ae1872cf18c607351b8",
+        "gradient_influence_trajectory.csv": "8e8578fc7ec239dfd74b1fd53b22ee179e54c61f11c0f33534afc84613a6d7d3",
+        "loss_trajectory.csv": "c702724923e7b72fa17f2b619d3dae538eb6a69d0ba363077c8848a1b7f23d96",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 66,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_WITHIN/seed_0/run_manifest.json",
+      "run_manifest_sha256": "c2fc0756e9413a91158271658cba69f529080ede846e54098163839825e35e77",
+      "seed": 0,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "116f504ed541d241930dfe1838ce62a0b3ddd0e89ca6e8a7ee1883944bd5c8d7",
+        "checkpoint_index.csv": "82e919bbf24b524164ade1d0f7b745b7bd6177aacd0a8ce975486d02e9fe0392",
+        "clusters.csv": "61c4e67b0a6670f55993aa90e6c5016c5341d5e04b9be5c3c254a5f1967495cd",
+        "coefficient_probe.json": "79335c783de246d6bbfc2107a3cb8745e91017e07f2d3d2d88eccf49a2c928ce",
+        "embedding.npz": "4fa49744244559c5f884b124d921cdd4b1d09498f70c0e325fe7d50d517838d2",
+        "gradient_influence_trajectory.csv": "230819731e029526fae18f3c9d0d6e5f9b18a2b957e91eed45b4298334008bc4",
+        "loss_trajectory.csv": "b6386ea0d54b8f449485d9b784bc7ac9c29f6f59980d6f455d7235bb080109d7",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 67,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_WITHIN/seed_1/run_manifest.json",
+      "run_manifest_sha256": "6c96f6135d96d0a5c356b89fb7373481797db40c99831021e9c8393b45019201",
+      "seed": 1,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "1d985b0a9ced7b19ce047878677ba495c031358850ef28dcb4de8fdebed2c1a0",
+        "checkpoint_index.csv": "e1c86e9b69a9dc52cc4ee9cda5d6265768bd729174a9177fcde21939d8f8934f",
+        "clusters.csv": "ece09856f8cbf1f833514d793be3b2f8e8e844924af350f47e5b38ead3519c99",
+        "coefficient_probe.json": "53b9fdf72c9f4fc6aeb8506c24a235b62345c234334075ee1f3a5379d8ced921",
+        "embedding.npz": "b5376d4a0004058b5947c979b0f8a6a27298149d2ea26a9422270c55700cf5e4",
+        "gradient_influence_trajectory.csv": "c8e11dd7eda86fe0c1cb99c9dccedc28192f1193a4e11d09ac3eac8c67d5b8d5",
+        "loss_trajectory.csv": "0783f27348f509a01730e71b22e9c88bc0ec1d3ba1d3438cc10b752908f32a32",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 68,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_WITHIN/seed_2/run_manifest.json",
+      "run_manifest_sha256": "e1d0e7e821d7e2e9a1a98451286198b80a84660e19b0f2bdb0347350f8849625",
+      "seed": 2,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "47feeaffeb8a799147fa738171922bb8e306a852266f2e829c0ef96cd71c985a",
+        "checkpoint_index.csv": "98cedc9984bab8ce9c2f0c789540b1a730ae8ef31025ca3e8a21b59197a87f81",
+        "clusters.csv": "66d2193bb23c5c3e003da2f6a718effc6cf7af172a077dcf00cb2e4dd16d2f31",
+        "coefficient_probe.json": "9500d6e671a0d114c8291900161274c4f28bb29c2d2b884c5169eee5d837e567",
+        "embedding.npz": "398c4dcb16bd2747bccc5b3bfa7490987bc8da736313a4ea42ffaf87ff7c1492",
+        "gradient_influence_trajectory.csv": "b806565c47988166f20bdbb322814c40a12fe2643b29e4a930724eaa5d650d40",
+        "loss_trajectory.csv": "e73112f68a2b5a3db7006aae2a8bedf903045a63a7d49773d8e90667df1c346f",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 69,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_WITHIN/seed_3/run_manifest.json",
+      "run_manifest_sha256": "5488ce4d503d14bbffb80f05d54edc3cc878fecddd44d7c6007f48859bb1e949",
+      "seed": 3,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "4db9b52284473879db3af719fa41fa59659b97760b5e9dba34905c61f905e2c6",
+        "checkpoint_index.csv": "ed55f4f2cc4ca8706f3b9cb4423a34e3b442762451335fb1b938f43a7388b661",
+        "clusters.csv": "0fe2d5a404d468ea69a369f716ddc34de1193acef3d51ef2576ee8f19517c239",
+        "coefficient_probe.json": "9390ffaac8cf4304e81b35e7dd039be2215fd80f1241e799f3370aa6fae7957f",
+        "embedding.npz": "60fc03e2dc63e755b4ef3654c680d972621adc5d57dc545a85baa70af3d7fcc4",
+        "gradient_influence_trajectory.csv": "45202f4f7e111000e24d31498ef159bfae4b09c4ba9225cab2961f285cd889b1",
+        "loss_trajectory.csv": "71017f11c9901516ce3bc4818ad8ff0f61a7fa0c2314ca9d165ab9dc10c6a0b9",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 70,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_WITHIN/seed_4/run_manifest.json",
+      "run_manifest_sha256": "c347b0d4227d0de2d2a37a7aa4f59dc7ec87e69966720a8b113db7a7c929d500",
+      "seed": 4,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "ebd3e7f026433260cfb15b8919712610bcf6a3dde0a2a093d4fd17f0d97640fb",
+        "checkpoint_index.csv": "ab24789a45745596eed2b83eeac186a0633dcd50e8288c990a497e53105f3f81",
+        "clusters.csv": "44dafd5aba556b4fa30c38e972c038afc633d7642e4ca78193e348d3bc6515e0",
+        "coefficient_probe.json": "9ab976580715971b7d5cbd0a07e795f6394423fcfcaa1b6815b6860b1a882fdd",
+        "embedding.npz": "a8e36ffa4162d7b2ac0756b9350a7ac5304b2b20913f04ee2ee1797d4b506775",
+        "gradient_influence_trajectory.csv": "178e2eaebedab5144629860b26080f92bd7cc45503162b32808581ac03c76897",
+        "loss_trajectory.csv": "26b935b37b579288c5d17f294472c11b3fa73bd337f76d766615a9da04b0ba9d",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 71,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_CROSS/seed_0/run_manifest.json",
+      "run_manifest_sha256": "65596ddf499115bda0ba45bfcf3d938d771d688e59ce95dce05b3cb1f184e87c",
+      "seed": 0,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "eb45fbe4a68ee07697b55d7e9e3ea2be74e44b97ec8a682f74420090d83f2ec6",
+        "checkpoint_index.csv": "9b67704fb913af94d765f538ed4123dd009ed81ec37fcb1faa510a34f17af1a2",
+        "clusters.csv": "78afd599df967a1223b0073796db7556e8699c9e7c510aa2cb31b251a13c7136",
+        "coefficient_probe.json": "16ee3ba422691bddae412e7bd3d1b1fc4ecbc631557dee8e0564b62820940323",
+        "embedding.npz": "279efc7aff52952f2dbc6cc4a2c767446ba3592131024c0f9f89eac5b5e95dbb",
+        "gradient_influence_trajectory.csv": "932b4aef78d2830237968373df084f932931ae5e2eb100faa42966374915cd12",
+        "loss_trajectory.csv": "9cc3be6afe19194f66317a3803a7e7f8750521dd3f6c840020ab0fdde2cc9fcc",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 72,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_CROSS/seed_1/run_manifest.json",
+      "run_manifest_sha256": "4c32b10fecbf729819497171237e26aeb09ab23a85fb64ecda759f3e085a436d",
+      "seed": 1,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "aed26407cc6e5c6cc72cc8694a28320ba75095a959aa3c86d9d5515419bd7945",
+        "checkpoint_index.csv": "ffd841bfb3cada553f0a84eb88e7d1c47c1a4970177a116b61ef71be6fc403e2",
+        "clusters.csv": "9b38c043fcc8d890efed8ddaa7a80ea4a325c6b3605501c8cff6e4b7a7f32034",
+        "coefficient_probe.json": "32d7c374ef7dfa2283f324aedbdaa9ed219e014e8bdece0d96a5dca4a24ed21b",
+        "embedding.npz": "9d6a6d43bfc3397bf3b044a791c06d6b974083d3e236a80da6ab039a7942a84c",
+        "gradient_influence_trajectory.csv": "20b8f8d009ed8b39a9d381c6f8ac569a91730d9a41b37bffed1e4c011f0fda86",
+        "loss_trajectory.csv": "8fddd96abd3aed5c70168f65c1c2842e28fa70ce55b30e7c18711b83dc7c8234",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 73,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_CROSS/seed_2/run_manifest.json",
+      "run_manifest_sha256": "596f36c8b170bda4e0924b00b2312d3f6a0e4eca1244335872043e66b12af7e7",
+      "seed": 2,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "8407585ccead13e9472a55179900c4fd686dfd5de16768d21cd6847d544b3812",
+        "checkpoint_index.csv": "855beb311154daecfd5be87f1f1eb9fd912b912577c1d73166ec909abd7c9533",
+        "clusters.csv": "309e009cfa4269616f85298859cf7ecf69a2d46b8648b154d4d830744005ded1",
+        "coefficient_probe.json": "2c27bcf116ae0064efc3ab2c78b23a25d04651dd3dd9a9d07bc4074b4227a1c8",
+        "embedding.npz": "6123cc4f374473a94b98db0b7a1f9588a85981bb28ea11fac881fe526790ae95",
+        "gradient_influence_trajectory.csv": "df2651216bdcbb7192f9b72f5f302bc60ed4b41d62e6c604689ef4748a76ca06",
+        "loss_trajectory.csv": "efa96e3f20885afcb9820f31ffb02eafa3da3ba6048fb34ff61ff274e86d2de2",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 74,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_CROSS/seed_3/run_manifest.json",
+      "run_manifest_sha256": "823f02ef9538389749a202757872cd6d0297f0fa0fd5241c96cc83242b711921",
+      "seed": 3,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a962db7ee37710a2268da22051dc5223fc12a209e232e7b63c42d5cf66e8cd46",
+        "checkpoint_index.csv": "745ae7c573ceb876618bdc87e49499d6c9f8df6f4594e07a255ea4b547cac49e",
+        "clusters.csv": "b78b0e839fabcd188cd52ebc36701eed004418a35ec1eaede950863fc261b49e",
+        "coefficient_probe.json": "b4b0adb1e3d9a64d57247fc31707e9402b0aa1fa69672831bf3a33d527f52072",
+        "embedding.npz": "329759778ee6227bbff54467e1a8c354b098adc3a212c940311369dbeccdb127",
+        "gradient_influence_trajectory.csv": "01a655a47b0b7c0968bfbbb9c4e740cd80ac6abba9f956ca146f9e73de3b8251",
+        "loss_trajectory.csv": "2b199620d6fd8587b93ef1de484b4b6bd9ef08533319f0c4e40f0bbed55826dc",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 75,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_CROSS/seed_4/run_manifest.json",
+      "run_manifest_sha256": "2eeec5d0f134c8d64932db1561e1e32a07c769e714a682ecf32cec868523379d",
+      "seed": 4,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+        "checkpoint_index.csv": "1ae08e59e9a4c8fd7960719892d9e58e5ac143108a2865310fd373e030bddb63",
+        "clusters.csv": "5d165f67dbbad1578dd51a19aaef3d512833b0a69e9cb2136d05a3e55f628591",
+        "coefficient_probe.json": "a2c3a8ff7481dd902d994cd52b29f428106087e5c12a5f4f5772a5e5a0e75fc9",
+        "embedding.npz": "6d375d378a164b05e5c320387e9d93daa5fa15855363e392939728c92be07618",
+        "gradient_influence_trajectory.csv": "955555e47a162c74ac4b8fb49d022ffab645058a19ab184eb129114b860f41c1",
+        "loss_trajectory.csv": "d39f9d7a0fd1784c337205eb4718bf1e5f9f792abbf45056e5445ad8b3ecbbdf",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 76,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_ALL/seed_0/run_manifest.json",
+      "run_manifest_sha256": "acd811cf7da912025ee2b05255098bfb2257eee6d37661cdf42d5304474327dd",
+      "seed": 0,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+        "checkpoint_index.csv": "e135c3e964b339e708dcdc5c8d69ba967898d68294ee64bd9a665a574dc81692",
+        "clusters.csv": "a780256444cfe8e05c463350ae881f8236fd7bae9eae340270aef77517d48b48",
+        "coefficient_probe.json": "516081b8cc60c0f241889d6c192b34d43aaae888e6ac1a0f156a812bc28479b9",
+        "embedding.npz": "1f687e8d6ef6ed29c3ead225ba12ea9b02fa8be326afa8671d81bd0f045dc35a",
+        "gradient_influence_trajectory.csv": "ebe4bbde1295496a4140001ed4bb12750045c9893060b06760838a3ebfb05856",
+        "loss_trajectory.csv": "9b90b0771a61e034a4a44bd6a4428de702f084abfa7bdc1aab5507ea3d9447da",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 77,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_ALL/seed_1/run_manifest.json",
+      "run_manifest_sha256": "a5d4e6320aedb10a582c22ec4cb30e21afc6e5bd4f7bb55888d588d3bc7f72b6",
+      "seed": 1,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+        "checkpoint_index.csv": "784db1f4a115fb82cc8b081d33640c506a1cd0818624a9e670d0216f5630a012",
+        "clusters.csv": "51192e9322eb2127b303e33b88a757aaadfe11c071df476321b934740ace3b70",
+        "coefficient_probe.json": "c5ccb0ad2434a3c9a26b4c7f388b1af60a53c56722d00b1ff3349464a7e9e590",
+        "embedding.npz": "305eaae81cc07245fdf7a257947c370fc440039dc3bb31ffa07bee36845960bb",
+        "gradient_influence_trajectory.csv": "e9eeb47c6a8880491fa309e3efd7e5b23530d026394edf48cd0a3f207c134ed8",
+        "loss_trajectory.csv": "88b5318283632e658032a7f8eec256eccbc6e65e4b7b50e422f81d75527746ad",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 78,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_ALL/seed_2/run_manifest.json",
+      "run_manifest_sha256": "08d0c59f60b9aafb4591a44e2bc4acd2b3f2fe5330f65bd2bd3098ccd5f4ebbf",
+      "seed": 2,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+        "checkpoint_index.csv": "0d42cef7f2153d71dddf292badf5174daeddd7289136a6ead9fe49baa53fd829",
+        "clusters.csv": "f90ae51bf26983ba164e740ea86ff7ccab2f0ea6419cb58bdcd815b8040738ff",
+        "coefficient_probe.json": "122c1003a45377934ed014166f1a73d456fe1561fa0aebdcc81c3d9a2ca85cbb",
+        "embedding.npz": "99ec6fd8cae591f46cd682383b2661828d47eab9b0976c69af95459dfc92f1bc",
+        "gradient_influence_trajectory.csv": "e95d12634272cca6562efbbac461e517b27aaaac1ec715784ef1b875ec8e170a",
+        "loss_trajectory.csv": "44cc38cafeb2c5243241250699887b2ddfdccba4b950ad8cdaa596f1e0f3b29b",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 79,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_ALL/seed_3/run_manifest.json",
+      "run_manifest_sha256": "eae61df7b70c1f010a2095bbe0c8dbf54265fa9604a68f5522f3630eeec85049",
+      "seed": 3,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+        "checkpoint_index.csv": "8c61451f31de944dbb12508040bc3bc06a2d53622f9b5123b75d6e95043ebaaf",
+        "clusters.csv": "e3d13a6c3514d111bbfc033ff71ad43cde716f64a48a37c0c034c891fe85eced",
+        "coefficient_probe.json": "823adaf815ef29c342c5e56ebb1b84e6c6da844f4d614b8fd753a7ae8becb911",
+        "embedding.npz": "2bae74af2adfc918084a07a50cc489a141ff65c08e8effc298bd387aa9bdb102",
+        "gradient_influence_trajectory.csv": "0c18944b566ffbac0d87b7a08ce649e3102c6408fe13b54c8dd384563323f527",
+        "loss_trajectory.csv": "7ab3c4010d8fd3e7ff1e60429e3fdb42344958f19ef05ad13758cf2d6193f576",
+        "observation_ids.csv": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4"
+      },
+      "dataset": "placenta",
+      "locked_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "ordinal": 80,
+      "run_manifest": "outputs/night3b_handoff/runs/placenta/UNIFORM_ALL/seed_4/run_manifest.json",
+      "run_manifest_sha256": "5fe9536236eb87dd2fa84b2ea6fdabd8831a7f40009868aecb0350ead08d1bf7",
+      "seed": 4,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "dfb84950f8e7379ac6c9b845fcc512cfe9eb24d65f2a8d7757d3f054c82992cc",
+        "checkpoint_index.csv": "b2f72c118054195aeca77f82e8dcb8450e72840b0a696f907b26f9bc64126814",
+        "clusters.csv": "17ee8ddbd9c9851822ba97ba18dda747e698d81f72a6459ad4803f88fe07575c",
+        "coefficient_probe.json": "b38fdc661a639b20490c2afa5860b5332ff79f12c3f5671aa9fb77e73baccaa6",
+        "embedding.npz": "85cb9de06a78081da8180d8ecaf656a722c5438f2036863482ab1c9a0afbc4d1",
+        "gradient_influence_trajectory.csv": "7ac6ee6d47dd628f415c8e94fc289e551f21d60d7f2f158f464a8cae1235a4e8",
+        "loss_trajectory.csv": "9432955439099785af4fdda1402d5c4cdbdd77d796a25d63ea29f2da583c2520",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 81,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/FULL_IGE/seed_0/run_manifest.json",
+      "run_manifest_sha256": "d279f58020c7109d8c773207051f4d385053761b396159ebc9bbe39732d0fc7d",
+      "seed": 0,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9063d372ccde28768ecd559d49c83b364be4e11b3579abb9808782721736fccb",
+        "checkpoint_index.csv": "5a4bcc739c7287da9fac1eb9839759c6dd6cd2f0befe7ea69f5fdb7164f87d03",
+        "clusters.csv": "f8625753f338c543e471cc467ab33eb0074b070457f78235d0282450a917901a",
+        "coefficient_probe.json": "01d99ad9f1e9289d03e8bab6e1f6f8b706bceddb9369b3c5594379d7277ea936",
+        "embedding.npz": "94755883bf64a857be8f23ba4bf826f855ded956345fa32162efcb8421d22b33",
+        "gradient_influence_trajectory.csv": "6467acb1e6fdcfa6d0f7e6b851794cf5fc35d2c65450e78ee8d19b09eda4afd9",
+        "loss_trajectory.csv": "5a6e4c88a0b8ff80d93d1b5346203c49e606ab7adc849e0da01e23d67c4f6643",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 82,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/FULL_IGE/seed_1/run_manifest.json",
+      "run_manifest_sha256": "2a73943b1938ad7c50cceb9309d209391d8c3e2816e106715cda39fff6763d28",
+      "seed": 1,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "fd74ec01fd9ec5a5684cb700ca04b7db0130dfcc0774ed990b1c187411626679",
+        "checkpoint_index.csv": "3e693a6a2017ea6e69bebac190adeee98456210a76f91708e7dde072609fa903",
+        "clusters.csv": "d03b05ebe6caea9f311a36a3d65ea9688282291dd847a84b89a33ff192f439e5",
+        "coefficient_probe.json": "79bfa187f85ddc6358abab2e75a15817b9a6c25d33716d103dba224ac0caa6c6",
+        "embedding.npz": "a4716b3fc713fe9a94df3a0317c046d570d406a5bfa3623f1ab28bc6758161f0",
+        "gradient_influence_trajectory.csv": "8666ecb99ed92febe2c9c47d8cbdddb243e96f2625bb1e8d72762b9fae483991",
+        "loss_trajectory.csv": "8ced121eda97e815dae224931d199595ccfd7e22b33756550033d7e550edef27",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 83,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/FULL_IGE/seed_2/run_manifest.json",
+      "run_manifest_sha256": "1163f2b6775ad5b7c301f8c5131a52b4cc2158bf01a77881800f38f9af8cbc5c",
+      "seed": 2,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "4d4f860bcf647aa289889216a07b7d6b72c6a95c5ed7235d9f35294eb2ffd9ce",
+        "checkpoint_index.csv": "fdb78e0cc20ed76d84a2e5419bed0d0acec3d6a336cd2e1e26fdb0fb59a9fb73",
+        "clusters.csv": "7208c34c5de255fa77d25a462ff75473351e7b96d6f3d309000064832545746a",
+        "coefficient_probe.json": "4b512d687c13de532606a575973bbb1a59e63729d5c79048e74f7902bcec90ed",
+        "embedding.npz": "7dd9024b632b319fd51bbf1b51baafb1edbf3c429a729264f7d69d36cb0a9ad4",
+        "gradient_influence_trajectory.csv": "04f972b0f21b21e04b5f6cfe487d56417696d9a436d17c937811cefb2b7c5144",
+        "loss_trajectory.csv": "d41f873d17507acb5d1faf4f83ddd390f723f3a8adc9ddc2b4ab9275f24f90e4",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 84,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/FULL_IGE/seed_3/run_manifest.json",
+      "run_manifest_sha256": "a98d4454e6417f9166b96ee0353574d7636f00c0a2ff7a408370c45f5b941b63",
+      "seed": 3,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "437bc62d97a6ba3c8a23748aaac8a636438a807ed13dd35bb695f77aff1ff24c",
+        "checkpoint_index.csv": "4432382ed2c4667f9fae03f1beb153f71afe1f3a0086aaaf7f369d66c248f301",
+        "clusters.csv": "9a7f0a1365f34985e528a095a2a15f40dde0f029212d10fd3790d033a867fbcd",
+        "coefficient_probe.json": "1531efe71234e1f521ef88e082cb29e204f193ca191d28f874505529b96aa210",
+        "embedding.npz": "87b8232b7ee6f3f03411b791dc02614068d2b72b80c7f17b6c98de66d5f76be8",
+        "gradient_influence_trajectory.csv": "2f6465678dddf87c5cd03332ebd9bff17bb8a433e0339d0513bbf8f842ceb922",
+        "loss_trajectory.csv": "4969454733834456040a13b082043d373fb485850bf26ce85bca8e8183b09892",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 85,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/FULL_IGE/seed_4/run_manifest.json",
+      "run_manifest_sha256": "e57edf580d3dc7ba3893b8b61b36e23096ee8e1f3f4987acc7c8f178fa52d4fd",
+      "seed": 4,
+      "variant": "FULL_IGE"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "5103fcc6de18579d8510bee175edd5efccc9c76515c35633f316fda1f2662029",
+        "checkpoint_index.csv": "1f2cfb56a0d7669a946fd6498c0c484141fc44113ce8434eb91e2aa9c29fb146",
+        "clusters.csv": "2b02b72996c3e8b02e648fb76813e6e91682e0ccd590619c3d0808cdd23ef833",
+        "coefficient_probe.json": "07e6da8179ae6727d7f5f81e07bfc8d97ec9e665455dfc91829d01974806d223",
+        "embedding.npz": "6adacaba62d02ae52acd9d79d92e158e08be8004d445ae55ba477587c4240e4e",
+        "gradient_influence_trajectory.csv": "9282cc420427dda528c79c96865e95e917aa23ec3822f580c093a5a2e8af3fb2",
+        "loss_trajectory.csv": "b0ac726629a765c32a0fbf02df9b6719ee5adf60d9681d78453a4688fb63a5d9",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 86,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_RNA_RECON/seed_0/run_manifest.json",
+      "run_manifest_sha256": "796b1aea184a3dd180998b23eb55ea1b03c22eccd60314908105f0216a5373da",
+      "seed": 0,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "238bd35db0d362f7fe28bfef42baa8a39e68fae7cba0b2891457cb7d810385f6",
+        "checkpoint_index.csv": "3be06da63614064a8d2ec691fa5f5424a1e4272486fb7db35bd62dbcaab94a07",
+        "clusters.csv": "2f3a38ad29d0b803da554a40a2fb9a572b02c424d157f4b7ffe41d93578651ab",
+        "coefficient_probe.json": "a36dae2b5cfe358da5aff02d595ae0416b4e74713bf8b89c9414a07fe45a7dbe",
+        "embedding.npz": "cf568cec3d3d551ef850862c54337c464d156e67d64eda1e36e767f64615e748",
+        "gradient_influence_trajectory.csv": "cde1c0a8ef93ec4dea7b8e53730717fb34b630bd44dab674d5c6e0c70f7e3a89",
+        "loss_trajectory.csv": "910130b5e1c3a6ab4f8bf4556dbb1d028134bf5e5b48c4dea61fdfabcf5addbe",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 87,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_RNA_RECON/seed_1/run_manifest.json",
+      "run_manifest_sha256": "2c775b94c64f10cc380ae74b344ea315c9dab4f41d58547a012625b65ecd087b",
+      "seed": 1,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "69b08cd438cdd015e10f12bc9e2e425e2219f3c0d3e8996cbc2f4cd5919dd1d7",
+        "checkpoint_index.csv": "febf85ae4a974768d0c5987269c23e178396e4fed809652b67ca742aa5e85f0a",
+        "clusters.csv": "8e7df3466d821126ce1ad3df5494ab2f0f7b319ef13fd683ed52e69514c40612",
+        "coefficient_probe.json": "663d5033eb78dbb29363358df2c639438c38167320eec4a7d5bcdcff446b4fba",
+        "embedding.npz": "9e5cb2d18456e8f2608fbb903cb6e4b2abf142949b7399db03c9e2a35a406760",
+        "gradient_influence_trajectory.csv": "5626e14389650e1fad27da7f98a137494ec44e416cec8112baf4e139c036910f",
+        "loss_trajectory.csv": "7745b975f15638dbc13b82bf670569b030999e5e5059c2420c2d539f92a3b99f",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 88,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_RNA_RECON/seed_2/run_manifest.json",
+      "run_manifest_sha256": "10ed00a45de7e85cbeb4bbb95c3747a8a934e4e82e273ac78f8cd6d31752ef87",
+      "seed": 2,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "650c15f38e246b5633557233438590b4d4f0c398e11dbb5eba6c856ac8c36f00",
+        "checkpoint_index.csv": "8ca305ad7987dc456be3950dfb95c22d7254f7781675cc62b7bdbb73774033d8",
+        "clusters.csv": "b9993e54e743375a01d347f67840bf72071e9b480ae481d78078bc8a1bd9831f",
+        "coefficient_probe.json": "ca39ccd0861d4243b3bdbdd5f63be4ee7077fda3755035b52304af5bd7ffddd8",
+        "embedding.npz": "8519284b1ab2a918bd33417bc8e872adc3b106b678745c00ee57fe06c5ceb794",
+        "gradient_influence_trajectory.csv": "ff234481a378b06762418f04099511e16c7a60bca9ae9b4ee455f0a472e402e2",
+        "loss_trajectory.csv": "f88430a95262b5c00278e4836ac29593456bc968e52c17d773604104380e9abf",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 89,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_RNA_RECON/seed_3/run_manifest.json",
+      "run_manifest_sha256": "0c24381ceb3b3aa86700507ad52c8ffeeec5cff442f9b940da2e44340e845d7e",
+      "seed": 3,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "2dbc604b62e5670be8957a40387eb886f18331c1f19e88d33dee1f651df18b8e",
+        "checkpoint_index.csv": "ef6c61f67a47ba151178db1fe473a18c45ea51ad2a6d0d5a82eac5d6459ac11f",
+        "clusters.csv": "d2783e4da0d8b0171dedcbe2c23f0a88cafbc5775f4afc0753c2d4c738d9d748",
+        "coefficient_probe.json": "d8dc7abd6bb3b4e6122723511664a46c669192c6e6555bda0701d39fe5f26347",
+        "embedding.npz": "74745117e3868c17622cb50153168fa5e519913def824e28ab71f747ed786a19",
+        "gradient_influence_trajectory.csv": "02684d45d19fba23c39b124e42dc69c9c1f9fffd5b83a04c0e4f0042c699d944",
+        "loss_trajectory.csv": "b9c35f6910d75c97f67e019e61428ab2a63feed51e490b85fd8cadc71e0e8b5c",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 90,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_RNA_RECON/seed_4/run_manifest.json",
+      "run_manifest_sha256": "6525e4502df6c9d1f9ea2291c5c4542115ba72b5c72586575bb8bdb9f7f101c0",
+      "seed": 4,
+      "variant": "DROP_RNA_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "4f683195fb0fb4987ade64de59b01063aa61cadcdbe9e7c608b46657cb4b1617",
+        "checkpoint_index.csv": "dc2face9542c5eb77fb36a98496779d136066ef057b9facf5a2b7b4f72eb7526",
+        "clusters.csv": "83b99a1a19eef1b34c9841119b6af0407a51c6abb90e3d259dc9fbd01826f821",
+        "coefficient_probe.json": "3fefce969a77d28eba6ec3518387b4e3d47ed489def1fa9d6ecd331d00108679",
+        "embedding.npz": "07f179099ae09f3397ad4355b7248e7cd807a32edd288c71316beb0d6badb15d",
+        "gradient_influence_trajectory.csv": "9615d76cea76cee6f6693bc80b896c46fb94a5fefb60f3d35b688b9086b638c3",
+        "loss_trajectory.csv": "6153e7a03014cbb0ca9dcb4d6bab4dda753b2b0ce18af4f7322597307ec00c94",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 91,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_MOD2_RECON/seed_0/run_manifest.json",
+      "run_manifest_sha256": "944661dd301fd85522c6fe5adfaeae6d32d4d6797e6936b435f40e696ddc17f3",
+      "seed": 0,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "db7065c4c384d042596c502565b17a2579042d32c54a2b744cadaf12bae28c0c",
+        "checkpoint_index.csv": "88570de547b381658ad13c116660596bd0c4358c716eec470c2563c0df7c0263",
+        "clusters.csv": "7d2f41075f27d361d45dbb6dc91c43ebf38988c93db2220b2e32e81d9341bb44",
+        "coefficient_probe.json": "1d0e3bacd0a3b4fb36c8d94c30bf330285235d86dc54c6a48525fc94da5e527d",
+        "embedding.npz": "cbe95235be2676a77b81fcfb1bdda7a6a8bf01270b2e772bf6060dc4a5278faa",
+        "gradient_influence_trajectory.csv": "6cd50f4fa3f9e5d843f50a531b07796f5b673115f5bb7ae6ed02a39e77350e6e",
+        "loss_trajectory.csv": "7ca0ee8e5d7459c59fbff2652788e8607e493b994a369985731c32a47cb7f968",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 92,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_MOD2_RECON/seed_1/run_manifest.json",
+      "run_manifest_sha256": "d05215660e338c84b67bbe7aeec7ca8041f5b724ef5d9128ed0f64878da89e33",
+      "seed": 1,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "e76c7af8434aacd7d08f209d4a93329e7d2b2868a1675370f26a34fed7ee0c06",
+        "checkpoint_index.csv": "be7aaa1ea66fc877a1c9737fb95dc0ba4a6480f827b2c2913cf2cf7c2b5618ac",
+        "clusters.csv": "b5977d4fbc5ed14d1cb6f6610fc99b1f18227f3c903e19cc31f568e459209f12",
+        "coefficient_probe.json": "d3de36be9939c03fb2e07bcc2959dc425f3b739fced0c9f99cf9f820a25b15f1",
+        "embedding.npz": "e89ae3f08abc19bfa90d7237350b774a1b7beec0546d030f01d5fc5cf768ce92",
+        "gradient_influence_trajectory.csv": "9feb40a3776ea8b9137724fe91269bf1236c2abe838f9f15f5cedc1150bf24f0",
+        "loss_trajectory.csv": "b254b2d300436b43d292d39b1db6f37e8f2d7f73bc67326378e96a4b1b7a4b8b",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 93,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_MOD2_RECON/seed_2/run_manifest.json",
+      "run_manifest_sha256": "f48f9158a1b3dd921f84de9f2379265e25d5ae3646fabadfe291e57177619d49",
+      "seed": 2,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "36c34b49e9435ec6588d7934e989cde185b110e57b96da71ce5ecb0a597d3d3b",
+        "checkpoint_index.csv": "b39bef278162a57a8be868cead2321d679f0c116575da9cdeb0c02886018c4cb",
+        "clusters.csv": "9ccaf2914e76862ebd9668b14b2f529cfbf5553cae624c6f0335b7f90121380c",
+        "coefficient_probe.json": "00d706a3948abf7e397badb910dc48218b69a2b63f5d8508938bd92274d4decc",
+        "embedding.npz": "ce5ce481c43c6fe36e9c2729aabbe0b76b03ce16ab40bb488113c328e936d846",
+        "gradient_influence_trajectory.csv": "fc600dfe18c7ad9f60dc6afdd48ae6f133d7f7d4c667f34a2621b0376664eacf",
+        "loss_trajectory.csv": "b0d197a74158978bb3f59b17cf8fde304317485f14b5f4ea1ffec0942a37452f",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 94,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_MOD2_RECON/seed_3/run_manifest.json",
+      "run_manifest_sha256": "01c32c97738f9f6e1bba3781b9e1ee13ed5ef0243ca95a19a3be30a1a8e58db7",
+      "seed": 3,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9a8ab747859177a8ec16df066674999d05f93d4a04f8cc653720a776df9583ff",
+        "checkpoint_index.csv": "5da42361500f6105866f7b2a12fb48d9e395ac58efadda0bb36a5c38cbc3c779",
+        "clusters.csv": "6a0179dcfe6e8f879819b4453db43a460e5277b9474729b83674e5fc605bf745",
+        "coefficient_probe.json": "e96260ab89c9c6785e67a170ae14239dbed6f74bb1bc15844c2f01d728ce8270",
+        "embedding.npz": "a73d3c255c6b80d62ad100178e1989f4357d753bf85a3a2f6f25b9435fd6bbe0",
+        "gradient_influence_trajectory.csv": "beffbddacc219c08dd8c183ae9a97756f857c65dbbb77d93c5589e9c2c43cc43",
+        "loss_trajectory.csv": "618569304a27fe13ae29db1bc73831149e69bc7d5e7f72b5649fe273e1a39dde",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 95,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_MOD2_RECON/seed_4/run_manifest.json",
+      "run_manifest_sha256": "96c6618f3a4a93a4099962da9c46d81c8db082aec282737f660b64c69df09bd3",
+      "seed": 4,
+      "variant": "DROP_MOD2_RECON"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "f6c321d7641e41bed61791f3781bef8cf3f4c589b1b5fdce42160d620a6eab72",
+        "checkpoint_index.csv": "5f8033706ee32221957d87a8546fff5c0b5d0237a97c977721253b1396c7c3af",
+        "clusters.csv": "4d0d533417ca09eedbb250e9bc19fee7ba43d279df3ce87ef6a8c9d0867e2571",
+        "coefficient_probe.json": "ab613ad6daf3b6a7e3f92a0beec6c3ff4058bff83d400c1b2c455b133231147f",
+        "embedding.npz": "c1faf7a2a144c9ae29ae39a4cfe986104545e288f3a9e0dbaf58f7821fff2408",
+        "gradient_influence_trajectory.csv": "f4431d81a4e4606516ca431fc52c57f2d2cf52e446ff02a1c927e45bec3f017c",
+        "loss_trajectory.csv": "94184d6c20705636e50eca11751e6651431aba928ca26d8908029f99c0690a54",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 96,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR1/seed_0/run_manifest.json",
+      "run_manifest_sha256": "0c49214298844f9d64059d192b00a84348fccaf62c8f52518baf062c66696c62",
+      "seed": 0,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "17516a551a8a7d5b6285c7ca3cd9894af9ad03848ac217569ab43bd78b9c973e",
+        "checkpoint_index.csv": "255d79c0ccf67c4981b3e20510690437b4d41bdf98d67039e10b3726330f3898",
+        "clusters.csv": "b72e62ec9136429aacbe20620d5b5b5b378c1f8e30c6da62c961acabc433fd9b",
+        "coefficient_probe.json": "c75fa47dbd31b022b3c37528275cbec0fb88b1d92f4fadbadd308b91646e61aa",
+        "embedding.npz": "0f6abcfca5ba145df8535f20b656fd4fa1bf482fa0a4c3059d943ecd3d178a2c",
+        "gradient_influence_trajectory.csv": "06cd5f68a1732865dbe7fd89c2a1909e68be97dff076f5bc62b0f2d393c6a69c",
+        "loss_trajectory.csv": "7da2baf79b9c6d2c1444b26c86fd5864a2103544757b3187f84e306753102aec",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 97,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR1/seed_1/run_manifest.json",
+      "run_manifest_sha256": "36494668f8ca2cdd1036dc39e907e6f57aeebb2ef697227d559631b11a5b2ffc",
+      "seed": 1,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "2f95d1f9925c205e1fd7f4637452d4448f2837f1fdc91797963a4ce7533da99b",
+        "checkpoint_index.csv": "b43ade7ec74b96ecedb8109ca72327be88a9e2b1853d039c057dc0f1e3c9f369",
+        "clusters.csv": "6a3921e119241ae081c9b15e17cf31d3226face4cf985a6ac580ebbe993ab0eb",
+        "coefficient_probe.json": "14bc75c614ef8692076a6fb336d455a5a0d6fc0be9888433177bbd21ed6166d2",
+        "embedding.npz": "5fced3bf33cacf0e0fdcc3f7ec8a09086b50e787b90973b76b85d5a0065e7a64",
+        "gradient_influence_trajectory.csv": "e6d0708f18154abdcd4f558315d14ab077409a65e232daf4e1b458f1465f034a",
+        "loss_trajectory.csv": "76f9cb0078dab270c1a30615a86ced41850f53646b8217dbe31e883a1d42e529",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 98,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR1/seed_2/run_manifest.json",
+      "run_manifest_sha256": "5ccb35b7c471493d411380a51fabda849424845244f2c19a7477ffe8e9e0c738",
+      "seed": 2,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a098940ccae781892d3674f59ac70038732737179d8d06b1881d4987e8ebd3fb",
+        "checkpoint_index.csv": "8ba97985263c9b710cc2373dcfd4312a0a46e129189ca7e02b883dd6d49223f4",
+        "clusters.csv": "6a9754ca5b0b40e0b90009885c8fcb65c4064305ea35b4fc8af3745ff62af38c",
+        "coefficient_probe.json": "d76246fc99075d36dbfd44491a2be84a9de1dd8879761c6bec1f4262e1ffadfe",
+        "embedding.npz": "2e1b9bb2e9cf1b8dec6ee3566264c2c3928b600a2119f7706fd2d2a82b3723f8",
+        "gradient_influence_trajectory.csv": "c9bbaa5ea35590fc7d21b9151d9c9e3e7af74056d7b04125616d335f493e42f9",
+        "loss_trajectory.csv": "0357fad494f8bee920046bfccee03e3ad43ffac75d211286e056f50f21191486",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 99,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR1/seed_3/run_manifest.json",
+      "run_manifest_sha256": "8327c546e882b03b2c8c4d48184e4ee3115f41c63ac624a3226d1e7ff39acc72",
+      "seed": 3,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "0836545f321d74ea852abf8359d79235ab05b03ebe53c489a67d4caab41fd30a",
+        "checkpoint_index.csv": "eea9a49c326e5681052c7152ad676f3ea8758bdfc454e6a197bc2df255ac6545",
+        "clusters.csv": "c454a3c5e6a218d91419f8620d0aa8e84d42d2d67ae9e022b3cc19ccee45b9bf",
+        "coefficient_probe.json": "2d59e8f650f5310803b97454160393463cb7ae19b820efb41f6f49bb3ae3e9a3",
+        "embedding.npz": "cfe890d4e361a8aac76e3cc04eda898b45b2e53eb5b66bef5eec8d346cb848ee",
+        "gradient_influence_trajectory.csv": "461df0cfb8ab15740bf5be829203a8af5e32862058bbd9c501dd419d55f41125",
+        "loss_trajectory.csv": "ff6b8ad666bdb4c13558a49881ef861b165e43db0d3c8dae553d3049eb62848d",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 100,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR1/seed_4/run_manifest.json",
+      "run_manifest_sha256": "6428698c54528904da1c195c373ba0be42da178e362c3a30394a4963cf656a2f",
+      "seed": 4,
+      "variant": "DROP_CORR1"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "93780c032d5e9a71c2cc8d67336d32cade68146ed965984d7ac9c2b406dfdc86",
+        "checkpoint_index.csv": "80fd082c0e9551a1cc2235958f15baf226dbe37f748d58304421843923eb5643",
+        "clusters.csv": "eb8854282dae5387b4672d225b8dfedf1148ea908ccf85641f3019999cf123fb",
+        "coefficient_probe.json": "ca059bde2516cf47a6020d6ba32e2301b8ce0caca27e631e5ee0f4c4df290c2b",
+        "embedding.npz": "ed6f487220543e39d9dd2e73dde3f4e1c83b8f41ef906265f005615005001132",
+        "gradient_influence_trajectory.csv": "68d532bbed854b1b8f53b7b26cd479f40921a78db62deacadb886fc1dd89a6ab",
+        "loss_trajectory.csv": "9f640ca53e0ba68cc4f7d8e92fbd40173fba3229937e3392071164000c2ca06c",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 101,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR2/seed_0/run_manifest.json",
+      "run_manifest_sha256": "808054e4a3adaccf25ef7da94c937624ba540d41e2b61c867d1cf3c7626289d2",
+      "seed": 0,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a6e1a07ec2e69d91c98fe8ab2e5b93a1a6fa3fd5a4e0c47d70036254abd97661",
+        "checkpoint_index.csv": "60f0eb5d98d8179c64d3c6fbf3ad2bc3d6ba7fa556481b43d3cfbb06c47dceda",
+        "clusters.csv": "430171e4d2af3970b101d25b91295bab7b04941608f16b8703b1b2e2d2811854",
+        "coefficient_probe.json": "9f340419f6eae5880a9bb0951a13a9345cf70e3c3b159860b83918d5c55d7084",
+        "embedding.npz": "903f86a289ff0bf828d729ea1bda43923eb8c9a16e5c2a974a7219358412be91",
+        "gradient_influence_trajectory.csv": "6d4e782f6229ed8ec01d9cca528dd0e7c625f0157d239a72bd4363059c184f8a",
+        "loss_trajectory.csv": "5681975101ac6fdc9aeb550d24aa5c81f3e87f394889d8952d3e5e2c88c930cd",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 102,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR2/seed_1/run_manifest.json",
+      "run_manifest_sha256": "03fea046d026749f5b0eec9c6c9a46de794b6f8e57ddbe2f28915a4cd1b329a7",
+      "seed": 1,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "18f676f9f06fdf9a91aa8cc58f9ca3e2da91c86217d0b04c89dfd8e85cc9a102",
+        "checkpoint_index.csv": "b19c069cf6afd80dc852f2618668303d12fe3dcb6d48f3d99659b015dcdfcd10",
+        "clusters.csv": "47a8f94adb02d1a1e312df44eaf6bd65c08b9758542e0b95392bc679cc87924d",
+        "coefficient_probe.json": "11b74f6a6ddbb6eafe4e7b76dd23c333db04937ba872e961a1415b94af74c1ec",
+        "embedding.npz": "a2361327a2d428b3fc4ffb2ca1ad89631bfbe1b2f21c6636723a9109d48a79a0",
+        "gradient_influence_trajectory.csv": "453fe4cfb91bdb9fe659e42f174b026e8855139055c4d6d9c060a817c8bf29ef",
+        "loss_trajectory.csv": "7d7130de1e4bc025383d9e97aeb9d9b7ce3029583e7f09fb9a433abbc65b1212",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 103,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR2/seed_2/run_manifest.json",
+      "run_manifest_sha256": "22d07d14a42c26e9082061ab3827c2fce2c880971949b4cac14250dc1255c62d",
+      "seed": 2,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "bdcf27110409ce6a82e85df1d034dfdb83860d482b27ce8b1df6027f66ca2690",
+        "checkpoint_index.csv": "df7a9b7a90e4bcc2296c208108974c0028da7d0275c2eb61cb6f583cef2acc44",
+        "clusters.csv": "c22f6094f4a115ce67bd97cc711769b9e5f548a51bb61cf7e2a421497b30b81c",
+        "coefficient_probe.json": "8058b4de3fdc338b567b19bcddaf3ad765a4cc45cccb24db6a5b00feece6db72",
+        "embedding.npz": "fa1ec2a48b0d0af04b408062dfe8aa295463f308466b3eec72cbd5791da03c24",
+        "gradient_influence_trajectory.csv": "50b5163aa18fc395e8ed9f619dd10eea308e9b2d096857e83c23ab144597bd19",
+        "loss_trajectory.csv": "c236824ce1b8c7b4f418301663043223cbf1a4200fa6857c2a1be43959b12131",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 104,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR2/seed_3/run_manifest.json",
+      "run_manifest_sha256": "63540664c6cb6199d0471c1f7a1992fe169a9ca9f2d0a62419af94e926cb8541",
+      "seed": 3,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "3bcfd716365a45d4372f6482dc7b032f1253a1d9fbfc88721f42e0c87605fa6c",
+        "checkpoint_index.csv": "0be4ad8cddf460bcd6b6467e4370bd6e0c5c3fdc19318932f9731b43fec83b98",
+        "clusters.csv": "2edf36f032ec17266adf7183c8905d78e3a8ed50b99cc89c81a04b225c3296ca",
+        "coefficient_probe.json": "b2ec36d10b4d23483e49d7995041a3256ac1ac099dc4da03e09b9c118c21fd34",
+        "embedding.npz": "5232dd822947fbbf339ce7a186931ac0455735d52d94ba2a3b315bc0ede21b57",
+        "gradient_influence_trajectory.csv": "df014fe9997a814446f8f905c854bc1c3e0d2b43e17cbbcbd0d5a8519b530333",
+        "loss_trajectory.csv": "d7d9d24e9bd820cec9794e4af6381382d2fe942ed1eea05704c5bb822f243bb0",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 105,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/DROP_CORR2/seed_4/run_manifest.json",
+      "run_manifest_sha256": "833c923b60e7bc81623d05948917bed478d7af1ceb1121f646d167dd2be8dcb6",
+      "seed": 4,
+      "variant": "DROP_CORR2"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "a86f8b0a224fa5af392746a476c887a570bb2cd22c70721422a5778236718606",
+        "checkpoint_index.csv": "0c4663062ea0abe2b626dbd6f12964f888e53c2e246f15ea48338d1213f8abfe",
+        "clusters.csv": "400fe22b6350e441571b94dd44bc4991a02831e146cc20b46be97f47e1820452",
+        "coefficient_probe.json": "20fff5dd8aac1cd9ce46343ffacb4e49600e09e3e35b0ab50faf7bf775f8aced",
+        "embedding.npz": "10b360fe9b45b0c159b96e8bb5138e2e7696de49e008923ab86135fadf3e7f3b",
+        "gradient_influence_trajectory.csv": "21a58cd435c8b45f0ce03104366ac4ef170dc2b75021781d62a0aa2e4dd9b44a",
+        "loss_trajectory.csv": "487649eab78e726fabed205ffe7b420e7f8f1861542fd5231040c0689f5f4361",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 106,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_WITHIN/seed_0/run_manifest.json",
+      "run_manifest_sha256": "3fb489327bce11fc59fa4b68ebf1698f5b693eb85892047a0b23277e12edcb99",
+      "seed": 0,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "58b90bf725201ea896cad8964efe68ff49796cb84c61ee5abb8e8eaa0090aba5",
+        "checkpoint_index.csv": "f9c5ed2f7fe00b0c6554e026c6d547f7053ff23bbd492cae3b6ab5c924f301e4",
+        "clusters.csv": "4ff4e4fc196200fcfcfd4fe429d271c7be82e4151de8446c5a5cf4a7a7f7a4fa",
+        "coefficient_probe.json": "fa90385cfbcfbc698e8659418903c93e788c1b67da165918acdc1c4321491668",
+        "embedding.npz": "fa604167845f6ab1defb28b9201bfff609df74eff2bdf42141b65dba66d36e29",
+        "gradient_influence_trajectory.csv": "80c15e31bfe88f143cce2051642d00b2873cfbaa96b792f9bb05b8ddc1a717b2",
+        "loss_trajectory.csv": "849d16eaa94d7da4da03f5f9b01c99de91756bc178ba045fe970471dce3024db",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 107,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_WITHIN/seed_1/run_manifest.json",
+      "run_manifest_sha256": "c4b43cd2adadc6534b95f396eaf0c4a35bf57caa3673ce20e3faa2fe93518602",
+      "seed": 1,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "29ea18a6c95edf6738d7b1a0f519fa23f5fc3ba645aef16fa34259944a1c3f62",
+        "checkpoint_index.csv": "35734f0c31277b977bdf0b3b9194d392b7efb95355294d4300d78039e8fd3dc9",
+        "clusters.csv": "247f407ab31bc48ddda9a2a3d68ce2e9922315b9e8cc1780ee008e19bbedbfdb",
+        "coefficient_probe.json": "c0235e2b9c3dc6dbedb31fdf3ce35be89e8bd2fb7663fe67be6136d745e36105",
+        "embedding.npz": "1d7e524a84496208a75d9777f33c5de8b90f2b721ab8c2d394fbde40c23107b6",
+        "gradient_influence_trajectory.csv": "121dc3d07e0f4b05344946f0aa1c04df75d3de0596d806be9322b425a0c04561",
+        "loss_trajectory.csv": "fdd058bd62db42c6224696475dd1479c34d898b3b624b15f862a2e1cc27094fd",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 108,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_WITHIN/seed_2/run_manifest.json",
+      "run_manifest_sha256": "c59350e5a5ac10720acc00bff753cfbc50d04092f37de2034bc10a7677c71e12",
+      "seed": 2,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "fe2bd446ad199b2c8eb94837544f01f638f75ca8a3d7cac62128b9e521e8f410",
+        "checkpoint_index.csv": "2eb3e3e1176b706333f38071ab926de457d1d6163c11e779c7f64266de914986",
+        "clusters.csv": "f98a9849405a6f93535ddfcfd0200048ed0c6d7740a579048567948e55af3393",
+        "coefficient_probe.json": "4745e44d09046422674f2f1ff19e29ed3c40ef1fc558f8458bd2c697caba2b0a",
+        "embedding.npz": "4424a9f37086613b3b1bfcfe45e3c69cb1646e9bba3373537a11bb5693864163",
+        "gradient_influence_trajectory.csv": "a6c70391f7e60f780728f88041f22f2d69310b9723289a4783b41509368a7897",
+        "loss_trajectory.csv": "326c1d796580260425e6b0d8b2e79afa73e37178ed9b918312051ebe0e14539c",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 109,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_WITHIN/seed_3/run_manifest.json",
+      "run_manifest_sha256": "2b8e0af9a20987446a089199a38d7d8cd7f456435ae424de16e023e4d40f83a1",
+      "seed": 3,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "8f44af5b0ff09be8a419a8fa21b7deae61879d43106e21d7ede5b1f2d4cd43ab",
+        "checkpoint_index.csv": "26b8d462c12876ed313e0275a8369a63a41ff3c6518fd0f7af743b644c2955d5",
+        "clusters.csv": "a03c842bb4c8250902ce0788a82c5601695ba38fa70a07a1ce406b2bac0e9a85",
+        "coefficient_probe.json": "e6db19a8ef200847c9a3ea08c354b11189bd66a12d6d5afa7f28ca4246dbf264",
+        "embedding.npz": "e34c86806e99261ab71eb6b9d8e3efe2d95944836f0d513fac6c6913f1a1960e",
+        "gradient_influence_trajectory.csv": "87e996ac2f06f6acbf3c6f828118667fab6b1a1f3d5c5d5c9070b69967cc86ff",
+        "loss_trajectory.csv": "b89727c1e847a03e30aa63e089179a0639352154e9e299276599cf933102bd4a",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 110,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_WITHIN/seed_4/run_manifest.json",
+      "run_manifest_sha256": "6df84cc96a8f29df23a072c40c57a8e1a9027b3744799dfc95a82cde33bcafd9",
+      "seed": 4,
+      "variant": "UNIFORM_WITHIN"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "88983f47aad2ee2e8a768f172c5daf001f3151dc55f50321cbb3b02d60c83b64",
+        "checkpoint_index.csv": "e0f682bf24bde9bf61fb35e4fe3a352dabc0d3c7ee760eb092e86c00de4f3983",
+        "clusters.csv": "b474d14beccf529547b043679e0516ed1f2472a1302b6bfa1ac8289ae83dcd40",
+        "coefficient_probe.json": "b8509da8feecf6bba7a9d9c31f13b124b68eba2f6e7be1edb63a979e05aba0fc",
+        "embedding.npz": "13dffe0e06c09ef165d7dbf2e7cee22c18d86043ca3a0a97899a9d5b3dfb7d14",
+        "gradient_influence_trajectory.csv": "1d5f25252787134be46131dbcf7c4c0ee615ac522c3574ca302e71bec03dbce8",
+        "loss_trajectory.csv": "c0428de6e14616eff9c58179943a504789557a36cd006601942d2468febb6e3f",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 111,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_CROSS/seed_0/run_manifest.json",
+      "run_manifest_sha256": "a27a3b19e166ab1824129074901d445716ef4e84af1f73d7d4fdf40b8c833b8d",
+      "seed": 0,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "7826f21395ebf5dc067ee661b21d3518cbbc28e96371300b5c971d52658a0f75",
+        "checkpoint_index.csv": "c4958c465b210d81de21b3ec4083233e20a3e83952ec0b6bccb4c11131537586",
+        "clusters.csv": "b9b01fa89907904076c62b7764b5b3e14f3f0e3834c59731ab297ae27df86f48",
+        "coefficient_probe.json": "82e30c678edaa9cc046158f0ec2fd1e7bf62e6c1c8109427297b22212ce6be87",
+        "embedding.npz": "29251c05997e73b57cced4a087af53c52ad274c5e260ae570ae091e4a19ac0bf",
+        "gradient_influence_trajectory.csv": "972f2a04f15f9c0d5736b2f837337cd16a7f1d071196474adb7805b187926a1b",
+        "loss_trajectory.csv": "31535cefea23184705d2a9a4772e7a8af2e97ae649de09b106a469ff27c1afd7",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 112,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_CROSS/seed_1/run_manifest.json",
+      "run_manifest_sha256": "b45820011556d8c5c7f0be3cfb70eb63d925422bdf7a730e76e5dbe177db3e2b",
+      "seed": 1,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "6096514ecdfcc6338c01262155eb2e9bb2a3fb0baab7e284f2c45beca11adbcc",
+        "checkpoint_index.csv": "c0c928524a0cd0b4113feef99a6993be5f7e57f4481c231922e2863ce6bb1d8a",
+        "clusters.csv": "e2ee02004cf445db012ba4e1f9f1409fc38363fa81ed14e628ac2b62327df522",
+        "coefficient_probe.json": "21e13b914ea60ef97cb9bb48f3f4f4c4c2350649cc10ac6084b7bde45f16d00f",
+        "embedding.npz": "8231c3ef38aad4a9dc27035e43ced964bf88a687df7a92a2c29b1495b8fb7716",
+        "gradient_influence_trajectory.csv": "7f9242d64a308509e6ca734f6813b7de19f1c82f0dbf53b175fdeefd4a5059c3",
+        "loss_trajectory.csv": "aa498b72846dd93f10b9717018921218b645961acc8acfd7f334190b0644984f",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 113,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_CROSS/seed_2/run_manifest.json",
+      "run_manifest_sha256": "5b851b3485b1a9d28b71a08318ed4040407511afc43df45fc5c2c256aa0a27bc",
+      "seed": 2,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "5ed1a5cff036937c69f874d3fcfcdf01e45df42206e679e2722b1288ca84ff91",
+        "checkpoint_index.csv": "cd494b89f560519108c7a93cf14fa65500f11e217dfdfe75da773bb7eafd4f8c",
+        "clusters.csv": "4a764cb6802dbe3dfb5f787f6be86f56e13ecc09f4b39e6c620a9cc194cbbcbc",
+        "coefficient_probe.json": "05a89b672f79daec077a420327e8cfbd8ca17e0ef4847f7f916edb532bb088bf",
+        "embedding.npz": "dbcccd939d5b0da1c962fe1d49d5aea8b42cf87f69f2583c1889ce5c2f60749c",
+        "gradient_influence_trajectory.csv": "752a83b9bd820891fd1ad7922552d387d129a54689ade9a819d275f0dd17b627",
+        "loss_trajectory.csv": "7803bf3666f79fe4fd8e4a4d0bd4ef1e0c8a235dbe484b8bbb14c25b6fdd3385",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 114,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_CROSS/seed_3/run_manifest.json",
+      "run_manifest_sha256": "36d2e874a3cfd582a2d40388fb1c14f5a9db52fa0e7cfa2fe90b38a92d71e91b",
+      "seed": 3,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "994603e21435e0544d7bdc5b03a9c331fe6fc7f09e9f0fd4da90e82bbb43234b",
+        "checkpoint_index.csv": "eb26c6cb48643052e507370d5358b6f9031d8fb1de58839e5cc1c6f685006000",
+        "clusters.csv": "0c699cb82f936fd1142331e3c9e85d60751e5b2873c263524a538fc155ec39de",
+        "coefficient_probe.json": "029affc0489758ccc47498d43f2446561d2f86a9a1acd828955806fc07c034a9",
+        "embedding.npz": "7bc4a737b3ffd60481006141e74d12f4bf5c0c02133dec18dede530235f912c9",
+        "gradient_influence_trajectory.csv": "76b55f2139204144f69d11f8ea9aab129419b63087152f7741d7603b6df80fb2",
+        "loss_trajectory.csv": "5433d09ecd57586e0076edb520d1545a5d7ce840727cc3cea37cfc630f045dcf",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 115,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_CROSS/seed_4/run_manifest.json",
+      "run_manifest_sha256": "c6d8e2e0a164ead9b628a471439f9facdd26dcf094cc613d11d5f51d9f477f7a",
+      "seed": 4,
+      "variant": "UNIFORM_CROSS"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9e50d4a04f14ecf64b5f826f9fbc637ac4c0847e484413b9f57087b649b738b4",
+        "checkpoint_index.csv": "dbb8217ae9ab436c83fa255e6720743c325121d61506406f4f033df10126ae1f",
+        "clusters.csv": "70f50b1a84fff8b321447a11317a1ce0585a44b148d0b4216fadfce592c19286",
+        "coefficient_probe.json": "e747426582644b307c03f223cc8b46bcb62882374f5cd0dba2a0a933aa744abd",
+        "embedding.npz": "db9240eaf06c5e830f25e9329809539d21c512aa91ad26950822fa71175a8631",
+        "gradient_influence_trajectory.csv": "956e5c702a04a12028c2db91250d971ce41a5358a6923791d692ec30a4a8d6a9",
+        "loss_trajectory.csv": "6c1ecc8aead9056bde627ac189559433fb357fecc995180662905a89486da5f0",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 116,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_ALL/seed_0/run_manifest.json",
+      "run_manifest_sha256": "870e38a19f0c0c9336523e0c3c7d53dcbb21fe64dc4c451e449a4336092a02be",
+      "seed": 0,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9e50d4a04f14ecf64b5f826f9fbc637ac4c0847e484413b9f57087b649b738b4",
+        "checkpoint_index.csv": "d0f787664f80bc4183b9d978b4eeca624f61ee05925ca596f2b8a6f8893c2744",
+        "clusters.csv": "5131dace5c5fd42cc21eec7f0c190b224b8fb397211d087147b406de95a30311",
+        "coefficient_probe.json": "d466f0b6951fdf8e25fedd1cf9c2027f07f5f07de8e23b39efbfe35b12771042",
+        "embedding.npz": "2c8f33569b2a6d9499064fdf489874fe8375115d3f0a974bb0882904cb7fbc3a",
+        "gradient_influence_trajectory.csv": "0e036c6321a8f9bfb4d89a54bc3458f8e5102a2cc463da8a67e31685097a08a4",
+        "loss_trajectory.csv": "1745e848a456238103581f0835d3212cf3c53b3fb09e239a1c4dc2185908e544",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 117,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_ALL/seed_1/run_manifest.json",
+      "run_manifest_sha256": "c424939504dada4bca0e134d239fa8c62cce2a8a8424be24fcb556b92ab1c9fb",
+      "seed": 1,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9e50d4a04f14ecf64b5f826f9fbc637ac4c0847e484413b9f57087b649b738b4",
+        "checkpoint_index.csv": "fb30c36315a723c609f515aaf37428dff69cc511d9a0279c3bde0e45ec9ea7c6",
+        "clusters.csv": "837deeafebb2897bfc4da0deb564c0322f9376333fbc1d8b12179d2b54ccb974",
+        "coefficient_probe.json": "ada68f654abaff1a1940917339c87c08f82fa9752c885ced307b6ed429fa6b91",
+        "embedding.npz": "e0ecd15b4ddcf2f56375f735620de62af6aef83f7b99df059fe3201d96239a9a",
+        "gradient_influence_trajectory.csv": "be37d28a92b4038dd9def586773e510aefbafc5f31983341d7f6af43a8139c10",
+        "loss_trajectory.csv": "feeb774816a3a3990d28c84a730cd0d9e7f5b3fca6c0ed4e645795884608d0d7",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 118,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_ALL/seed_2/run_manifest.json",
+      "run_manifest_sha256": "deaf7d6f5fb81e77786bb0b25bb21822c57148e0c764122c7ab66c336efeceeb",
+      "seed": 2,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9e50d4a04f14ecf64b5f826f9fbc637ac4c0847e484413b9f57087b649b738b4",
+        "checkpoint_index.csv": "332990c9707d7d25186057f852863d4212a136fc1c19a2e997d01b1828cb0780",
+        "clusters.csv": "3084e514e57508c75683e72a0344f29bb0c5b14e0bb4f529cf6c5f357d8b1d9c",
+        "coefficient_probe.json": "8dd606fb1e44609c43a9a2a808a48df2af49362630e8e1a9420e775443dd6fa6",
+        "embedding.npz": "0b39e4a12c4302602ff972800e6bba7088dbc4bf79134459b5a15de004139718",
+        "gradient_influence_trajectory.csv": "026a1b4abab2e607b0014a929f4388dca257eeb63ec368c67bdd9528a5db3c23",
+        "loss_trajectory.csv": "9f2486cbe14487722a1216d7538c4e4be1975147ef07fca9a1e64eed42e9f08f",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 119,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_ALL/seed_3/run_manifest.json",
+      "run_manifest_sha256": "c0c2409bd226a11911ef9f0572f6fdab87cbc0487fe9b41cae7c8b9c6b846e6a",
+      "seed": 3,
+      "variant": "UNIFORM_ALL"
+    },
+    {
+      "artifact_sha256": {
+        "attention.npz": "9e50d4a04f14ecf64b5f826f9fbc637ac4c0847e484413b9f57087b649b738b4",
+        "checkpoint_index.csv": "ba80d8d72fa1433886f73befb938f0b2a937c32a9c544abd114f40d90d49f850",
+        "clusters.csv": "a87362e3042e5d3b823f78386e563b171c07e0999a91e05706540cd7a21d64df",
+        "coefficient_probe.json": "e595e2a30c227ca029266f7596363c226348cf51a3ce62e1c045f445338b3c37",
+        "embedding.npz": "1188ec8800b1ff1c68fa3af0752e0296895c9a1757a17442d080218369fb3b2e",
+        "gradient_influence_trajectory.csv": "f699926869aa045fb39dd1af8755970809a42d3611e9d6eaf387686e9551a231",
+        "loss_trajectory.csv": "bd361f3543c8b1f631c32290de5bdf1f6326daa45c5c6942bbaede4322079cd5",
+        "observation_ids.csv": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb"
+      },
+      "dataset": "p22",
+      "locked_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+      "ordinal": 120,
+      "run_manifest": "outputs/night3b_handoff/runs/p22/UNIFORM_ALL/seed_4/run_manifest.json",
+      "run_manifest_sha256": "6af9ac14573368eaf85d766ce965e4b8d7f8101ada029452efe64e9d04322417",
+      "seed": 4,
+      "variant": "UNIFORM_ALL"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "attention_qc_correlation_rows": 630,
+  "attention_stability_rows": 180,
+  "attention_summary_rows": 90,
+  "completed_before_any_evaluator_label_load": true,
+  "qc_definition": {
+    "local_modality_neighborhood_consistency": "1 - absolute difference between RNA and modality-2 mean spatial-neighbor cosine smoothness",
+    "rna_log_library_size": "log1p row sum of immutable log-normalized RNA model features"
+  },
+  "schema_version": 1,
+  "semantic_label_values_read": false
+}

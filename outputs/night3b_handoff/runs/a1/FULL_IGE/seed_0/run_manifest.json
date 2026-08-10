@@ -1,0 +1,68 @@
+{
+  "active_loss_mask": {
+    "L_corr1_raw": true,
+    "L_corr2_raw": true,
+    "L_mod2_recon_raw": true,
+    "L_rna_recon_raw": true
+  },
+  "artifact_sha256": {
+    "attention.npz": "424a75c39154f63adc0c175c6ff4441dfde37f29a291ca19f21ffb0c4c84218b",
+    "checkpoint_index.csv": "e57d8b1f6f65105ae9f6306ebc13cca7221a82bae85ea134c5b0565d675dfc97",
+    "clusters.csv": "7f744eb87a50bee5a806a5d5c2cf54443594ebb552c33d78c38f008bff838050",
+    "coefficient_probe.json": "f983f0793624a4af8643288f6cea498bf83b75d91842ddc29324ae329a5fba4e",
+    "embedding.npz": "0fe51f4e18d5391dc1607270b5a4d30aa1cf3da522a097f05cb4b0e3cccd19e6",
+    "gradient_influence_trajectory.csv": "c565e818754c337f90042d6d952ceab098d8456a488d2340528fcf81ef699f50",
+    "loss_trajectory.csv": "1718abf45880f2f21daa6b07dbc0e1b0d876f5cebcb8c4aa1f8648b5a2a40ad9",
+    "observation_ids.csv": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+  },
+  "attention_max_row_sum_deviation": {
+    "alpha": 1.1920928955078125e-07,
+    "alpha_omics1": 1.1920928955078125e-07,
+    "alpha_omics2": 5.960464477539063e-08
+  },
+  "attention_mode": "learned",
+  "cache_directory": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/preprocessing_cache/a1",
+  "config_lock_sha256": "2205ee5a71033a1498dfb04c06f9f337817cbe4df5d42477f12b399008b9837d",
+  "config_sha256": "94602f9a5bda5f50673346de80a988b501fb65490982510df13d248ca0a39fc6",
+  "dataset": "a1",
+  "deterministic_cache_content_sha256": "b2d6e6b41877f7b39f3b016352f45e473d707f1527843f2b3ce11f471df8b86e",
+  "deterministic_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+  "diagnostics_state_neutral": true,
+  "epochs": 200,
+  "final_state_sha256": "73f1e63566663fd9e69d1a8bbf9a3f066514ca77fadafa33282ea48d4b054eea",
+  "frozen_coefficients": {
+    "L_corr1_raw": 0.04759183778980872,
+    "L_corr2_raw": 0.17296145647433353,
+    "L_mod2_recon_raw": 0.05933444693247337,
+    "L_rna_recon_raw": 3.7201122588033844
+  },
+  "initial_state_sha256": "93423d0b3e69c181cac2f7edec8b556b4be6d5ca7ad0073e4f8a9ed0f08b9252",
+  "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+  "model_source_sha256": "7f3d6f5680614158c1db9ef69ad62375651fa628868569cca6a32332ff8adbfc",
+  "n_clusters": 10,
+  "n_observations": 3484,
+  "n_selected_genes": 3000,
+  "night3b_source_lock_sha256": "2205ee5a71033a1498dfb04c06f9f337817cbe4df5d42477f12b399008b9837d",
+  "optimizer": {
+    "learning_rate": 0.0001,
+    "name": "Adam",
+    "weight_decay": 0.0
+  },
+  "resources": {
+    "gpu_peak_allocated_mib": 747.2646484375,
+    "gpu_peak_reserved_mib": 840.0,
+    "process_peak_rss_mib": 1290.9765625
+  },
+  "run_order_ordinal": 1,
+  "schema_version": 1,
+  "seed": 0,
+  "semantic_label_access": false,
+  "source_commit_at_start": "384e66587149a687b3eac4a6d1918d8d4972dc06",
+  "timings": {
+    "clustering_seconds": 7.789746729657054,
+    "run_seconds_excluding_shared_cache_load": 13.784551803022623,
+    "shared_cache_load_seconds": 0.0,
+    "training_seconds": 5.222100669518113
+  },
+  "variant": "FULL_IGE"
+}

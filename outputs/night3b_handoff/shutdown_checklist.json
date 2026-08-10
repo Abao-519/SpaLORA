@@ -1,0 +1,47 @@
+{
+  "bundle_archive_pending": true,
+  "failure_json_count": 0,
+  "full_ige_replay": "0/15 all-field exact; 14/15 clusters exact; diagnostic only",
+  "git_commit_tag_pending": true,
+  "historical_protections": {
+    "night2c": {
+      "expected": 913,
+      "manifest": "/root/autodl-fs/night3a_preexisting_20260810/night2c_files_before.sha256",
+      "ok": 913,
+      "passed": true,
+      "root": "/root/autodl-fs/SpaLORA-night2c"
+    },
+    "night3a": {
+      "expected": 198,
+      "manifest": "/root/autodl-fs/night3ar_preexisting_20260810/night3a_final_files_before.sha256",
+      "ok": 198,
+      "passed": true,
+      "root": "/root/autodl-fs/SpaLORA-night3a"
+    },
+    "night3af": {
+      "expected": 709,
+      "manifest": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff/SHA256SUMS",
+      "ok": 709,
+      "passed": true,
+      "root": "/root/autodl-fs/SpaLORA-night3af/outputs/night3af_handoff"
+    },
+    "night3ar": {
+      "expected": 211,
+      "manifest": "/root/autodl-fs/night3af_preexisting_20260810/night3ar_final_tracked_before.sha256",
+      "ok": 211,
+      "passed": true,
+      "root": "/root/autodl-fs/SpaLORA-night3ar"
+    }
+  },
+  "internal_sha256sums_validation": "performed after this checklist is fsynced",
+  "local_dual_verification_pending": true,
+  "main_runs": "120/120",
+  "p0_arch": "PASS",
+  "reconnect_after_shutdown_forbidden": true,
+  "required_last_remote_command": "/usr/bin/shutdown",
+  "schema_version": 1,
+  "scientific_results_complete": true,
+  "semantic_label_access_during_training": false,
+  "tests": "6 passed in 2.87s",
+  "variant_probes": "24/24"
+}

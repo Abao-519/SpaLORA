@@ -1,0 +1,106 @@
+{
+  "component_support": [
+    {
+      "ablation": "DROP_RNA_RECON",
+      "ablation_joint_spatial_failure": false,
+      "classification": "MIXED",
+      "component": "RNA reconstruction loss",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": 0.03227725761457534, \"dataset\": \"a1\", \"moran_full_minus_ablation\": -0.06768149141934526, \"neighbor_full_minus_ablation\": -0.031843985202194225, \"nmi_full_minus_ablation\": 0.018083561632602885}, {\"ari_full_minus_ablation\": 0.2782775481992864, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": 0.019958196291503083, \"neighbor_full_minus_ablation\": -0.0030084235860409203, \"nmi_full_minus_ablation\": 0.22536098022624673}, {\"ari_full_minus_ablation\": -0.017587520797881062, \"dataset\": \"p22\", \"moran_full_minus_ablation\": -0.02220627295275568, \"neighbor_full_minus_ablation\": -0.027419530230534894, \"nmi_full_minus_ablation\": -0.0004130017022588861}]",
+      "equal_weight_macro_ari_full_minus_ablation": 0.09765576167199357,
+      "noninferior_ari_nmi_dataset_count": 1,
+      "simplification_dominance": false,
+      "supported_dataset_count": 1,
+      "supported_datasets": "placenta"
+    },
+    {
+      "ablation": "DROP_MOD2_RECON",
+      "ablation_joint_spatial_failure": false,
+      "classification": "MIXED",
+      "component": "modality-2 reconstruction loss",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": -0.009103270032743194, \"dataset\": \"a1\", \"moran_full_minus_ablation\": 0.00482389520574944, \"neighbor_full_minus_ablation\": 0.003648424543946871, \"nmi_full_minus_ablation\": 0.0007896263324387864}, {\"ari_full_minus_ablation\": -0.010159819463184006, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": -0.05778465686223311, \"neighbor_full_minus_ablation\": -0.05174488567990376, \"nmi_full_minus_ablation\": 0.028813726081801105}, {\"ari_full_minus_ablation\": 0.12694572594803588, \"dataset\": \"p22\", \"moran_full_minus_ablation\": 0.03467956767760094, \"neighbor_full_minus_ablation\": -0.001869019138755923, \"nmi_full_minus_ablation\": 0.07604091763615328}]",
+      "equal_weight_macro_ari_full_minus_ablation": 0.035894212150702896,
+      "noninferior_ari_nmi_dataset_count": 0,
+      "simplification_dominance": false,
+      "supported_dataset_count": 1,
+      "supported_datasets": "p22"
+    },
+    {
+      "ablation": "DROP_CORR1",
+      "ablation_joint_spatial_failure": true,
+      "classification": "SUPPORTED",
+      "component": "omics-1 correspondence loss",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": -0.015410732403533522, \"dataset\": \"a1\", \"moran_full_minus_ablation\": 0.07049721753380128, \"neighbor_full_minus_ablation\": 0.05195815792830716, \"nmi_full_minus_ablation\": -0.004671649069805162}, {\"ari_full_minus_ablation\": 0.04413155200849683, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": -0.034989066639873, \"neighbor_full_minus_ablation\": -0.024308062575210565, \"nmi_full_minus_ablation\": 0.04402782914224068}, {\"ari_full_minus_ablation\": 0.10834973107314472, \"dataset\": \"p22\", \"moran_full_minus_ablation\": 0.11435486531083028, \"neighbor_full_minus_ablation\": 0.05559890169638981, \"nmi_full_minus_ablation\": 0.09417606884744362}]",
+      "equal_weight_macro_ari_full_minus_ablation": 0.045690183559369345,
+      "noninferior_ari_nmi_dataset_count": 1,
+      "simplification_dominance": false,
+      "supported_dataset_count": 2,
+      "supported_datasets": "placenta;p22"
+    },
+    {
+      "ablation": "DROP_CORR2",
+      "ablation_joint_spatial_failure": false,
+      "classification": "MIXED",
+      "component": "omics-2 correspondence loss",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": -0.007956459724194731, \"dataset\": \"a1\", \"moran_full_minus_ablation\": -0.0016336412062850636, \"neighbor_full_minus_ablation\": 0.0025162648296976897, \"nmi_full_minus_ablation\": 0.0007941934519141713}, {\"ari_full_minus_ablation\": -0.01580562294094967, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": -0.04354353508200237, \"neighbor_full_minus_ablation\": -0.04055354993983151, \"nmi_full_minus_ablation\": 0.018916648098759592}, {\"ari_full_minus_ablation\": -0.027048132880815312, \"dataset\": \"p22\", \"moran_full_minus_ablation\": -0.0053954656480939, \"neighbor_full_minus_ablation\": -0.015305567638103423, \"nmi_full_minus_ablation\": -0.006295257098755669}]",
+      "equal_weight_macro_ari_full_minus_ablation": -0.016936738515319905,
+      "noninferior_ari_nmi_dataset_count": 1,
+      "simplification_dominance": false,
+      "supported_dataset_count": 0,
+      "supported_datasets": ""
+    },
+    {
+      "ablation": "UNIFORM_WITHIN",
+      "ablation_joint_spatial_failure": true,
+      "classification": "MIXED",
+      "component": "within-modality attention",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": -0.00515584542136871, \"dataset\": \"a1\", \"moran_full_minus_ablation\": 0.009114709467813675, \"neighbor_full_minus_ablation\": 0.00705447123357561, \"nmi_full_minus_ablation\": -0.00741413672639446}, {\"ari_full_minus_ablation\": -0.1461733639791023, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": 0.11839509428809025, \"neighbor_full_minus_ablation\": 0.053790613718411595, \"nmi_full_minus_ablation\": -0.10657986972138811}, {\"ari_full_minus_ablation\": 0.06284823581811, \"dataset\": \"p22\", \"moran_full_minus_ablation\": 0.07400974631141, \"neighbor_full_minus_ablation\": 0.03227490213136164, \"nmi_full_minus_ablation\": 0.042010010591148284}]",
+      "equal_weight_macro_ari_full_minus_ablation": -0.029493657860787004,
+      "noninferior_ari_nmi_dataset_count": 2,
+      "simplification_dominance": false,
+      "supported_dataset_count": 1,
+      "supported_datasets": "p22"
+    },
+    {
+      "ablation": "UNIFORM_CROSS",
+      "ablation_joint_spatial_failure": false,
+      "classification": "MIXED",
+      "component": "cross-omics attention",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": 0.0007388081363066401, \"dataset\": \"a1\", \"moran_full_minus_ablation\": -0.030837189896285422, \"neighbor_full_minus_ablation\": -0.012696134711060125, \"nmi_full_minus_ablation\": -0.0027844375670325605}, {\"ari_full_minus_ablation\": 0.12367185592445745, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": -0.12889997726145364, \"neighbor_full_minus_ablation\": -0.13742478941034897, \"nmi_full_minus_ablation\": 0.11692749014395831}, {\"ari_full_minus_ablation\": -0.06133414257943548, \"dataset\": \"p22\", \"moran_full_minus_ablation\": -0.03471934172353397, \"neighbor_full_minus_ablation\": -0.04409389952153098, \"nmi_full_minus_ablation\": -0.035462724767979625}]",
+      "equal_weight_macro_ari_full_minus_ablation": 0.02102550716044287,
+      "noninferior_ari_nmi_dataset_count": 1,
+      "simplification_dominance": false,
+      "supported_dataset_count": 0,
+      "supported_datasets": ""
+    },
+    {
+      "ablation": "UNIFORM_ALL",
+      "ablation_joint_spatial_failure": true,
+      "classification": "MIXED",
+      "component": "all attention",
+      "dataset_details_json": "[{\"ari_full_minus_ablation\": -0.008655425557405783, \"dataset\": \"a1\", \"moran_full_minus_ablation\": -0.0069079828897071205, \"neighbor_full_minus_ablation\": 0.009471871412169874, \"nmi_full_minus_ablation\": -0.009425909464889193}, {\"ari_full_minus_ablation\": -0.12382222022821354, \"dataset\": \"placenta\", \"moran_full_minus_ablation\": 0.11703730212608826, \"neighbor_full_minus_ablation\": 0.06787003610108311, \"nmi_full_minus_ablation\": -0.11190536316803401}, {\"ari_full_minus_ablation\": 0.01027003454151093, \"dataset\": \"p22\", \"moran_full_minus_ablation\": 0.0289734229001698, \"neighbor_full_minus_ablation\": -0.0069622662026966875, \"nmi_full_minus_ablation\": 0.017021129561064607}]",
+      "equal_weight_macro_ari_full_minus_ablation": -0.0407358704147028,
+      "noninferior_ari_nmi_dataset_count": 2,
+      "simplification_dominance": false,
+      "supported_dataset_count": 0,
+      "supported_datasets": ""
+    }
+  ],
+  "evaluation_semantic_label_access": {
+    "after_label_free_qc_outputs_fsynced": true,
+    "after_locked_120_run_manifest": true,
+    "occurred": true,
+    "used_only_for_metrics_and_posthoc_association": true
+  },
+  "failure_count": 0,
+  "full_ige_replay_passed": 0,
+  "full_ige_replay_required": 15,
+  "main_runs_completed": 120,
+  "method_recommendation": "MIXED_EVIDENCE",
+  "p0_arch_pass": true,
+  "parameter_tuning": false,
+  "same_night_variant_addition": false,
+  "schema_version": 1,
+  "seed_search": false,
+  "semantic_label_access_during_training": false,
+  "variant_probes_passed": 24
+}

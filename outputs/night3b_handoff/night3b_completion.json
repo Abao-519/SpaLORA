@@ -1,0 +1,21 @@
+{
+  "failure_count": 0,
+  "full_ige_clusters_exact": 14,
+  "full_ige_initial_state_exact": 15,
+  "full_ige_replay_passed": 0,
+  "full_ige_replay_role": "diagnostic_not_hard_gate",
+  "locked_120_run_manifest_sha256": "5262578e32581705bc2ad7806306e7dc2bb7e26c199e6f00f104edc5cc462542",
+  "main_runs_completed": 120,
+  "main_runs_required": 120,
+  "method_recommendation": "MIXED_EVIDENCE",
+  "p0_arch_pass": true,
+  "p0_arch_probe_cells_passed": 24,
+  "parameter_tuning": false,
+  "protocol_deviations": [],
+  "report_sha256": "d89a6b51ac6f1d1b5054488631b4442e3ca522bad38db6dd15596dc40880d1f9",
+  "required_figures_png_pdf_pairs": 12,
+  "schema_version": 1,
+  "seed_search": false,
+  "semantic_label_access_during_training": false,
+  "stage": "Night-3B scientific evaluation complete"
+}

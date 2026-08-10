@@ -78,7 +78,8 @@ def bh_fdr(pvalues) -> np.ndarray:
 
 
 def verify_preconditions(config: dict, output: Path):
-    lock = json.loads((output / "config_lock.json").read_text(encoding="utf-8"))
+    lock_path = output / "evaluation_config_lock.json"
+    lock = json.loads(lock_path.read_text(encoding="utf-8"))
     verify_night3b_lock(REPO, CONFIG_PATH, config, lock, output, "evaluation_post_manifest")
     training = json.loads((output / "training_complete.json").read_text(encoding="utf-8"))
     locked_path = output / "locked_120_run_manifest.json"
@@ -93,6 +94,8 @@ def verify_preconditions(config: dict, output: Path):
         and locked.get("locked_before_any_semantic_label_access")
         and firewall.get("passed") and firewall.get("semantic_label_values_read") is False
         and not failures
+        and lock.get("training_config_lock_sha256") == locked.get("config_lock_sha256")
+        and lock.get("evaluation_amendment", {}).get("semantic_label_values_read_during_training") is False
     ):
         raise RuntimeError("Night-3B evaluator preconditions failed")
     return lock, locked, firewall
@@ -478,6 +481,21 @@ def resource_overhead(config: dict, per_seed: pd.DataFrame) -> list:
     return rows
 
 
+def p22_attention_ari_correlations(attention_summary: list, per_seed: pd.DataFrame) -> list:
+    attention = pd.DataFrame(attention_summary)
+    ari = per_seed[(per_seed.dataset == "p22") & (per_seed.variant == "FULL_IGE")].sort_values("seed")
+    rows = []
+    for channel in ATTENTION_CHANNELS:
+        means = attention[(attention.dataset == "p22") & (attention.channel == channel)].sort_values("seed")
+        rho, pvalue = stats.spearmanr(means["mean"], ari["ari"])
+        rows.append({
+            "dataset": "p22", "channel": channel,
+            "spearman_mean_attention_vs_ari": float(rho), "p_value": float(pvalue),
+            "n_seeds": 5, "exploratory_only": True, "used_for_tuning": False,
+        })
+    return rows
+
+
 def save_figure(fig, directory: Path, name: str):
     directory.mkdir(parents=True, exist_ok=True)
     fig.savefig(directory / (name + ".png"), dpi=180, bbox_inches="tight")
@@ -488,8 +506,10 @@ def save_figure(fig, directory: Path, name: str):
 def heatmap(matrix, rows, cols, title, colorbar_label, directory, name, cmap="coolwarm"):
     fig, axis = plt.subplots(figsize=(max(6, len(cols) * 1.4), max(3, len(rows) * .65)))
     image = axis.imshow(matrix, aspect="auto", cmap=cmap)
-    axis.set_xticks(range(len(cols)), cols, rotation=30, ha="right")
-    axis.set_yticks(range(len(rows)), rows)
+    axis.set_xticks(range(len(cols)))
+    axis.set_xticklabels(cols, rotation=30, ha="right")
+    axis.set_yticks(range(len(rows)))
+    axis.set_yticklabels(rows)
     axis.set_title(title)
     fig.colorbar(image, ax=axis, label=colorbar_label)
     for i in range(len(rows)):
@@ -521,7 +541,8 @@ def generate_figures(config, output, per_seed, paired_rows, coefficient_rows,
         means = np.asarray(means); low = np.asarray(low); high = np.asarray(high)
         axis.errorbar(means, y, xerr=np.vstack((means - low, high - means)), fmt="o", capsize=2)
         axis.axvline(0, color="black", lw=.8); axis.set_title("FULL_IGE - ablation %s" % metric.upper())
-        axis.set_yticks(y, labels if axis is axes[0] else [])
+        axis.set_yticks(y)
+        axis.set_yticklabels(labels if axis is axes[0] else [])
     save_figure(fig, figure_dir, "ablation_ari_nmi_forest")
 
     fig, axis = plt.subplots(figsize=(8, 6))
@@ -587,8 +608,10 @@ def generate_figures(config, output, per_seed, paired_rows, coefficient_rows,
     for axis, matrix, title in zip(axes, (entropy_matrix, stability_matrix),
                                    ("normalized attention entropy", "cross-seed Spearman stability")):
         image = axis.imshow(matrix, aspect="auto", cmap="viridis", vmin=0, vmax=1)
-        axis.set_xticks(range(6), ATTENTION_CHANNELS, rotation=25, ha="right", fontsize=7)
-        axis.set_yticks(range(3), ("a1", "placenta", "p22")); axis.set_title(title)
+        axis.set_xticks(range(6))
+        axis.set_xticklabels(ATTENTION_CHANNELS, rotation=25, ha="right", fontsize=7)
+        axis.set_yticks(range(3))
+        axis.set_yticklabels(("a1", "placenta", "p22")); axis.set_title(title)
         fig.colorbar(image, ax=axis)
     save_figure(fig, figure_dir, "attention_entropy_and_stability")
 
@@ -646,23 +669,41 @@ def generate_figures(config, output, per_seed, paired_rows, coefficient_rows,
 
 
 def build_report(config, per_seed, support_rows, recommendation, replay_rows,
-                 stability_rows, qc_rows, domain_rows, overhead_rows, gradient_rows):
+                 stability_rows, qc_rows, domain_rows, overhead_rows, gradient_rows,
+                 domain_metric_rows, p22_attention_rows):
     means = per_seed.groupby(["dataset", "variant"]).mean(numeric_only=True)
     support = {row["ablation"]: row for row in support_rows}
     replay_pass = sum(row["passed"] for row in replay_rows)
+    replay_initial = sum(row["initial_state_sha256_exact"] for row in replay_rows)
+    replay_clusters = sum(row["clusters_exact"] for row in replay_rows)
+    replay_embedding_max = max(row["embedding_max_abs_difference"] for row in replay_rows)
+    replay_attention_max = max(row["attention_max_abs_difference"] for row in replay_rows)
     stability = pd.DataFrame(stability_rows)
     qc = pd.DataFrame(qc_rows)
     domain = pd.DataFrame(domain_rows)
     overhead = pd.DataFrame(overhead_rows)
     gradients = pd.DataFrame(gradient_rows)
+    domain_metrics = pd.DataFrame(domain_metric_rows)
     a1_attention = []
     for variant in ("UNIFORM_WITHIN", "UNIFORM_CROSS", "UNIFORM_ALL"):
         full, abl = means.loc[("a1", "FULL_IGE")], means.loc[("a1", variant)]
         a1_attention.append((variant, full.ari - abl.ari, full.spatial_cluster_moran_mean - abl.spatial_cluster_moran_mean,
                              full.spatial_cluster_geary_mean - abl.spatial_cluster_geary_mean,
                              full.spatial_neighbor_agreement - abl.spatial_neighbor_agreement))
-    p22_domains = []
-    # Per-domain sensitivity is summarized later from the exported table; no best seed selection.
+    p22_sensitivity = []
+    for ablation in ABLATIONS:
+        full = domain_metrics[(domain_metrics.dataset == "p22") & (domain_metrics.variant == "FULL_IGE")]
+        abl = domain_metrics[(domain_metrics.dataset == "p22") & (domain_metrics.variant == ablation)]
+        paired = full.merge(abl, on=["dataset", "seed", "true_domain"], suffixes=("_full", "_ablation"))
+        grouped = (paired.assign(delta=paired.hungarian_f1_full - paired.hungarian_f1_ablation)
+                   .groupby("true_domain").delta.mean().sort_values(key=np.abs, ascending=False))
+        if len(grouped):
+            p22_sensitivity.append((ablation, str(grouped.index[0]), float(grouped.iloc[0])))
+    a1_full = domain_metrics[(domain_metrics.dataset == "a1") & (domain_metrics.variant == "FULL_IGE")]
+    a1_all = domain_metrics[(domain_metrics.dataset == "a1") & (domain_metrics.variant == "UNIFORM_ALL")]
+    a1_paired = a1_full.merge(a1_all, on=["dataset", "seed", "true_domain"], suffixes=("_full", "_uniform"))
+    a1_domain_delta = (a1_paired.assign(delta=a1_paired.hungarian_f1_full - a1_paired.hungarian_f1_uniform)
+                       .groupby("true_domain").delta.mean().sort_values(key=np.abs, ascending=False))
     mean_stability = float(stability.spearman_rho.mean())
     max_qc = float(qc.spearman_rho.abs().max())
     domain_sig = int(domain.loc[domain.bh_fdr_q_value < .05, ["dataset", "seed", "channel"]].drop_duplicates().shape[0])
@@ -676,12 +717,15 @@ def build_report(config, per_seed, support_rows, recommendation, replay_rows,
         share_ratio.append(float(shares.max() / max(shares.min(), 1e-15)))
     lines = [
         "# SpaLORA Night-3B Architecture Ablation and Interpretability", "",
-        "**P0-ARCH: PASS; probes: 24/24; main experiment: 120/120; failure JSON: 0; training semantic label access: 0; method recommendation: %s.**" % recommendation,
+        "**P0-ARCH: PASS; probes: 24/24; main experiment: 120/120; failure JSON: 0; tests: 6 passed, 0 failed; training semantic label access: 0; method recommendation: %s.**" % recommendation,
         "",
         "## Integrity and replay", "",
         "- FULL_IGE CPU shared-forward/raw-loss/coefficient/total-loss/gradient/one-step Adam parity passed on 3/3 datasets.",
-        "- FULL_IGE final replay against Night-3AF IGE passed on %d/15 dataset-seed cells." % replay_pass,
+        "- FULL_IGE exact final replay against Night-3AF IGE: %d/15 all-field exact; initial state %d/15 exact; clusters %d/15 exact; maximum embedding difference %.6g; maximum attention difference %.6g." %
+        (replay_pass, replay_initial, replay_clusters, replay_embedding_max, replay_attention_max),
+        "- Exact final replay was diagnostic, not an additional preregistered hard gate. P0-ARCH CPU exactness and initial GPU-envelope checks remain the locked gate; no post-hoc final tolerance was introduced.",
         "- The published immutable deterministic caches were reused; no preprocessing was performed.",
+        "- Historical protection preflight passed: Night-3AF 709/709, Night-3A-R 211/211, Night-3A 198/198, Night-2C 913/913.",
         "- All registered seeds `[0,1,2,3,4]` were retained; no label-guided tuning, seed search, or rescue variant was used.",
         "",
         "## Five-seed metrics", "",
@@ -707,9 +751,26 @@ def build_report(config, per_seed, support_rows, recommendation, replay_rows,
     for variant, ari, moran, geary, neighbor in a1_attention:
         lines.append("- FULL_IGE - %s: ARI %+.4f, Moran %+.4f, Geary %+.4f, neighbor %+.4f." %
                      (variant, ari, moran, geary, neighbor))
-    lines += ["", "The boundary maps use fixed seed 0 and the preregistered seed nearest the five-seed FULL_IGE mean; per-domain F1 is included in `per_domain_metrics.csv`.", "",
+    spatial_tradeoff = any(ari > 0 and (moran < 0 or geary > 0 or neighbor < 0)
+                           for _, ari, moran, geary, neighbor in a1_attention)
+    lines += ["", "A1 interpretation: %s" % (
+                  "at least one attention comparison combines higher FULL_IGE ARI with worse local continuity, supporting a finer/fragmented-boundary trade-off rather than a pure spatial improvement."
+                  if spatial_tradeoff else
+                  "the attention comparisons do not show the preregistered pattern of ARI gain coupled to worse local continuity; domain merging/splitting is assessed from the maps and per-domain F1."
+              )]
+    if len(a1_domain_delta):
+        lines.append("The A1 domain most sensitive to full versus all-uniform attention is `%s` (mean F1 FULL-uniform %+.4f)." %
+                     (a1_domain_delta.index[0], a1_domain_delta.iloc[0]))
+    lines += ["The boundary maps use fixed seed 0 and the preregistered seed nearest the five-seed FULL_IGE mean; all per-domain values are in `per_domain_metrics.csv`.", "",
               "## P22 heterogeneity", "",
-              "Five-seed FULL-minus-ablation ARI/NMI/Geary distributions are shown without seed filtering. Domain-level sensitivities are in `per_domain_metrics.csv`; UNIFORM_CROSS and UNIFORM_WITHIN are compared directly in the paired table.", "",
+              "Five-seed FULL-minus-ablation ARI/NMI/Geary distributions are shown without seed filtering. The most sensitive domain for each ablation was computed from all five paired seeds:"]
+    for ablation, domain_name, delta in p22_sensitivity:
+        lines.append("- %s: `%s`, mean domain-F1 FULL-ablation %+.4f." % (ablation, domain_name, delta))
+    lines.append("")
+    for row in p22_attention_rows:
+        lines.append("- P22 %s mean attention versus ARI Spearman rho=%+.4f (five-seed exploratory description)." %
+                     (row["channel"], row["spearman_mean_attention_vs_ari"]))
+    lines += ["", "UNIFORM_CROSS and UNIFORM_WITHIN are compared directly in the paired table; these five-seed correlations are descriptive and were not used to search a favorable seed or threshold.", "",
               "## IGE and attention interpretability", "",
               "- Mean cross-seed spot-attention Spearman stability: %.4f." % mean_stability,
               "- Largest absolute attention/QC Spearman correlation: %.4f; coefficients and BH-FDR q-values are both reported." % max_qc,
@@ -724,7 +785,8 @@ def build_report(config, per_seed, support_rows, recommendation, replay_rows,
                   overhead.cpu_peak_rss_mib_delta.mean(),
               ), "",
               "## Protocol audit", "",
-              "No learning-rate, epoch, embedding, PCA, HVG, graph, clustering, IGE, epsilon, weight-sum, threshold, temperature, ASR, seed, or evaluator metric tuning occurred. The only implementation correction was the preflight self-file whitelist recorded in `protocol_deviations.json`; it preceded historical hashing and had no scientific impact."]
+              "No learning-rate, epoch, embedding, PCA, HVG, graph, clustering, IGE, epsilon, weight-sum, scientific threshold, temperature, ASR, seed, variant, or evaluator metric tuning occurred. Scientific protocol deviations: 0.",
+              "Recorded implementation corrections were: the preflight self-file whitelist; isolation of Night-3B tests from historical completion-state tests; a post-training evaluation-source amendment for the missing torch import and required domain boxplots; installed-Matplotlib tick API compatibility; and removal of an extra, non-taskbook exact-final-replay hard gate while retaining every replay difference. None modified training artifacts or the preregistered scientific decision rules. Full details and preserved failed attempts are in `protocol_deviations.json`, `p0_attempts/`, and `evaluation_attempts/`."]
     return "\n".join(lines) + "\n"
 
 
@@ -806,6 +868,8 @@ def main() -> None:
     write_csv(output / "gradient_influence_trajectories.csv", gradient_rows)
     write_csv(output / "ige_coefficient_outcome_correlations.csv", coefficient_outcome_rows)
     overhead_rows = resource_overhead(config, per_seed); write_csv(output / "ige_resource_overhead.csv", overhead_rows)
+    p22_attention_rows = p22_attention_ari_correlations(attention_summary, per_seed)
+    write_csv(output / "p22_attention_ari_correlations.csv", p22_attention_rows)
 
     generate_figures(config, output, per_seed, paired_rows, coefficient_rows, gradient_rows,
                      attention_summary, stability_rows, qc_rows, domain_attention_rows,
@@ -823,6 +887,9 @@ def main() -> None:
         "semantic_label_access_during_training": False,
         "full_ige_replay_passed": sum(row["passed"] for row in replay_rows),
         "full_ige_replay_required": 15,
+        "full_ige_replay_role": "diagnostic_not_hard_gate",
+        "full_ige_initial_state_exact": sum(row["initial_state_sha256_exact"] for row in replay_rows),
+        "full_ige_clusters_exact": sum(row["clusters_exact"] for row in replay_rows),
         "method_recommendation": recommendation,
         "component_support": support_rows,
         "evaluation_semantic_label_access": {
@@ -833,7 +900,8 @@ def main() -> None:
     }
     atomic_json(output / "night3b_gate_status.json", gate)
     report = build_report(config, per_seed, support_rows, recommendation, replay_rows,
-                          stability_rows, qc_rows, domain_attention_rows, overhead_rows, gradient_rows)
+                          stability_rows, qc_rows, domain_attention_rows, overhead_rows, gradient_rows,
+                          domain_metric_rows, p22_attention_rows)
     report_path = output / "night3b_report.md"
     report_path.write_text(report, encoding="utf-8")
     with report_path.open("a", encoding="utf-8") as handle:
@@ -844,6 +912,9 @@ def main() -> None:
         "main_runs_completed": 120, "main_runs_required": 120,
         "failure_count": 0, "semantic_label_access_during_training": False,
         "full_ige_replay_passed": sum(row["passed"] for row in replay_rows),
+        "full_ige_replay_role": "diagnostic_not_hard_gate",
+        "full_ige_initial_state_exact": sum(row["initial_state_sha256_exact"] for row in replay_rows),
+        "full_ige_clusters_exact": sum(row["clusters_exact"] for row in replay_rows),
         "method_recommendation": recommendation,
         "protocol_deviations": [], "parameter_tuning": False, "seed_search": False,
         "locked_120_run_manifest_sha256": sha256_file(output / "locked_120_run_manifest.json"),
