@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night4a_evidence_repair.py", line 427, in <module>
+    main()
+  File "scripts/night4a_evidence_repair.py", line 394, in main
+    per_seed, paired, diff = recompute_and_validate(source, output)
+  File "scripts/night4a_evidence_repair.py", line 135, in recompute_and_validate
+    raise AssertionError(f"locked method decision changed: {recommendations}")
+AssertionError: locked method decision changed: set()

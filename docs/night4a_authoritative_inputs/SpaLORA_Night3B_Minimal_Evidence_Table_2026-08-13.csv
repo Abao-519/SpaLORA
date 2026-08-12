@@ -1,0 +1,29 @@
+record_type,ablation,component,dataset,delta_ari_full_minus_ablation,delta_nmi_full_minus_ablation,delta_neighbor_full_minus_ablation,delta_moran_full_minus_ablation,delta_geary_full_minus_ablation,ari_full_wins_of_5,nmi_full_wins_of_5,neighbor_full_wins_of_5,moran_full_wins_of_5,geary_full_wins_of_5_corrected,full_joint_spatial_disadvantage,ablation_joint_spatial_failure,support_flag,simplification_noninferior,macro_delta_ari,macro_delta_nmi,macro_delta_neighbor,macro_delta_moran,macro_delta_geary,ari_full_wins_of_15,nmi_full_wins_of_15,geary_full_wins_of_15_corrected,supported_datasets,noninferior_datasets_of_3,simplification_candidate,classification
+dataset,DROP_RNA_RECON,RNA reconstruction loss,a1,0.032277,0.018084,-0.031844,-0.067681,0.068139,4,4,1,0,0,true,false,false,false,,,,,,,,,,,,,
+dataset,DROP_RNA_RECON,RNA reconstruction loss,placenta,0.278278,0.225361,-0.003008,0.019958,-0.015316,5,5,1,3,3,false,false,true,false,,,,,,,,,,,,,
+dataset,DROP_RNA_RECON,RNA reconstruction loss,p22,-0.017588,-0.000413,-0.027420,-0.022206,0.020720,2,2,0,0,0,false,false,false,true,,,,,,,,,,,,,
+macro,DROP_RNA_RECON,RNA reconstruction loss,ALL,,,,,,,,,,,,,,,0.097656,0.081011,-0.020757,-0.023310,0.024515,11,11,3,placenta,1,false,MIXED
+dataset,DROP_MOD2_RECON,modality-2 reconstruction loss,a1,-0.009103,0.000790,0.003648,0.004824,-0.005186,2,2,3,4,4,false,false,false,false,,,,,,,,,,,,,
+dataset,DROP_MOD2_RECON,modality-2 reconstruction loss,placenta,-0.010160,0.028814,-0.051745,-0.057785,0.023364,2,4,0,0,0,true,false,false,false,,,,,,,,,,,,,
+dataset,DROP_MOD2_RECON,modality-2 reconstruction loss,p22,0.126946,0.076041,-0.001869,0.034680,-0.035111,5,5,3,5,5,false,false,true,false,,,,,,,,,,,,,
+macro,DROP_MOD2_RECON,modality-2 reconstruction loss,ALL,,,,,,,,,,,,,,,0.035894,0.035215,-0.016655,-0.006094,-0.005644,9,11,9,p22,0,false,MIXED
+dataset,DROP_CORR1,omics-1 correspondence loss,a1,-0.015411,-0.004672,0.051958,0.070497,-0.068297,0,1,5,5,5,false,true,false,true,,,,,,,,,,,,,
+dataset,DROP_CORR1,omics-1 correspondence loss,placenta,0.044132,0.044028,-0.024308,-0.034989,0.015017,5,5,1,1,1,false,false,true,false,,,,,,,,,,,,,
+dataset,DROP_CORR1,omics-1 correspondence loss,p22,0.108350,0.094176,0.055599,0.114355,-0.114727,5,5,5,5,5,false,true,true,false,,,,,,,,,,,,,
+macro,DROP_CORR1,omics-1 correspondence loss,ALL,,,,,,,,,,,,,,,0.045690,0.044511,0.027750,0.049954,-0.056003,10,11,11,placenta|p22,1,false,SUPPORTED
+dataset,DROP_CORR2,omics-2 correspondence loss,a1,-0.007956,0.000794,0.002516,-0.001634,0.002538,2,2,3,3,4,false,false,false,false,,,,,,,,,,,,,
+dataset,DROP_CORR2,omics-2 correspondence loss,placenta,-0.015806,0.018917,-0.040554,-0.043544,0.016897,2,4,0,1,1,true,false,false,false,,,,,,,,,,,,,
+dataset,DROP_CORR2,omics-2 correspondence loss,p22,-0.027048,-0.006295,-0.015306,-0.005395,0.004737,1,2,0,1,1,false,false,false,true,,,,,,,,,,,,,
+macro,DROP_CORR2,omics-2 correspondence loss,ALL,,,,,,,,,,,,,,,-0.016937,0.004472,-0.017781,-0.016858,0.008057,5,8,6,none,1,false,MIXED
+dataset,UNIFORM_WITHIN,within-modality attention,a1,-0.005156,-0.007414,0.007054,0.009115,-0.008047,0,1,3,3,3,false,false,false,true,,,,,,,,,,,,,
+dataset,UNIFORM_WITHIN,within-modality attention,placenta,-0.146173,-0.106580,0.053791,0.118395,-0.067383,0,0,5,5,5,false,true,false,true,,,,,,,,,,,,,
+dataset,UNIFORM_WITHIN,within-modality attention,p22,0.062848,0.042010,0.032275,0.074010,-0.074661,5,5,5,5,5,false,true,true,false,,,,,,,,,,,,,
+macro,UNIFORM_WITHIN,within-modality attention,ALL,,,,,,,,,,,,,,,-0.029494,-0.023995,0.031040,0.067173,-0.050031,5,6,13,p22,2,false,MIXED
+dataset,UNIFORM_CROSS,cross-omics attention,a1,0.000739,-0.002784,-0.012696,-0.030837,0.030350,2,3,2,0,0,false,false,false,false,,,,,,,,,,,,,
+dataset,UNIFORM_CROSS,cross-omics attention,placenta,0.123672,0.116927,-0.137425,-0.128900,0.020546,5,5,0,0,2,true,false,false,false,,,,,,,,,,,,,
+dataset,UNIFORM_CROSS,cross-omics attention,p22,-0.061334,-0.035463,-0.044094,-0.034719,0.034770,0,0,0,0,0,true,false,false,true,,,,,,,,,,,,,
+macro,UNIFORM_CROSS,cross-omics attention,ALL,,,,,,,,,,,,,,,0.021026,0.026227,-0.064738,-0.064819,0.028555,7,8,2,none,1,false,MIXED
+dataset,UNIFORM_ALL,all attention,a1,-0.008655,-0.009426,0.009472,-0.006908,0.008571,2,2,4,2,2,false,false,false,true,,,,,,,,,,,,,
+dataset,UNIFORM_ALL,all attention,placenta,-0.123822,-0.111905,0.067870,0.117037,-0.080921,0,0,5,5,5,false,true,false,true,,,,,,,,,,,,,
+dataset,UNIFORM_ALL,all attention,p22,0.010270,0.017021,-0.006962,0.028973,-0.031216,2,4,1,5,5,false,false,false,false,,,,,,,,,,,,,
+macro,UNIFORM_ALL,all attention,ALL,,,,,,,,,,,,,,,-0.040736,-0.034770,0.023460,0.046368,-0.034522,4,6,12,none,2,false,MIXED

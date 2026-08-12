@@ -1,0 +1,38 @@
+{
+  "status": "DRAFT_NOT_EXECUTED",
+  "data_roles": [
+    "development",
+    "held-out confirmation",
+    "untouched independent"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "run_order": "dataset-method-seed",
+  "label_firewall": true,
+  "metrics": [
+    "ARI",
+    "NMI",
+    "AMI",
+    "Homogeneity",
+    "neighbor agreement",
+    "Moran I",
+    "Geary C",
+    "per-domain",
+    "runtime",
+    "CPU/GPU peak"
+  ],
+  "failures_retained": true,
+  "equal_tuning_budget": true,
+  "common_evaluator": true,
+  "architecture_candidates": [
+    "FULL_IGE",
+    "UNIFORM_CROSS",
+    "UNIFORM_WITHIN"
+  ],
+  "night4b_executed": false
+}

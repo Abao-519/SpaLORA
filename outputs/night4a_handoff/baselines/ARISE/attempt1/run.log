@@ -1,0 +1,84 @@
+[NbConvertApp] Converting notebook tutorial_hln.ipynb to notebook
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/SpaLORA/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/traitlets/config/application.py", line 1043, in launch_instance
+    app.start()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 414, in start
+    self.convert_notebooks()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 591, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 553, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 479, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 200, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 219, in from_file
+    return self.from_notebook_node(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 153, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 351, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 100, in preprocess
+    self.preprocess_cell(cell, resources, index)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 121, in preprocess_cell
+    cell = self.execute_cell(cell, index, store_history=True)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbclient/client.py", line 1021, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbclient/client.py", line 915, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# run_HLN.py
+import argparse
+import os
+import random
+import numpy as np
+import torch
+from process import normalize, Protein, build_dual_graph,preprocess_HLN
+from train import initialize_model, train_model
+import sys
+import argparse
+
+seed = 888
+np.random.seed(seed)
+random.seed(seed)
+torch.manual_seed(seed)  # cpu
+torch.cuda.manual_seed_all(seed)  # gpus
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[1], line 7[0m
+[1;32m      5[0m [38;5;28;01mimport[39;00m [38;5;21;01mnumpy[39;00m [38;5;28;01mas[39;00m [38;5;21;01mnp[39;00m
+[1;32m      6[0m [38;5;28;01mimport[39;00m [38;5;21;01mtorch[39;00m
+[0;32m----> 7[0m [38;5;28;01mfrom[39;00m [38;5;21;01mprocess[39;00m [38;5;28;01mimport[39;00m normalize, Protein, build_dual_graph,preprocess_HLN
+[1;32m      8[0m [38;5;28;01mfrom[39;00m [38;5;21;01mtrain[39;00m [38;5;28;01mimport[39;00m initialize_model, train_model
+[1;32m      9[0m [38;5;28;01mimport[39;00m [38;5;21;01msys[39;00m
+
+File [0;32m/autodl-fs/data/night4a_baselines/ARISE/source/ARISE/process.py:11[0m
+[1;32m      9[0m [38;5;28;01mfrom[39;00m [38;5;21;01mscipy[39;00m[38;5;21;01m.[39;00m[38;5;21;01mspatial[39;00m[38;5;21;01m.[39;00m[38;5;21;01mdistance[39;00m [38;5;28;01mimport[39;00m cdist
+[1;32m     10[0m [38;5;28;01mimport[39;00m [38;5;21;01mtorch[39;00m
+[0;32m---> 11[0m [38;5;28;01mfrom[39;00m [38;5;21;01mtorch_geometric[39;00m[38;5;21;01m.[39;00m[38;5;21;01mdata[39;00m [38;5;28;01mimport[39;00m Data
+[1;32m     13[0m [38;5;28;01mdef[39;00m [38;5;21mclr_normalize_each_cell[39m(adata, inplace[38;5;241m=[39m[38;5;28;01mTrue[39;00m):
+[1;32m     14[0m [38;5;250m    [39m[38;5;124;03m"""[39;00m
+[1;32m     15[0m [38;5;124;03m    Perform CLR (Centered Log-Ratio) normalization on protein (ADT) data per cell.[39;00m
+[1;32m     16[0m 
+[0;32m   (...)[0m
+[1;32m     22[0m [38;5;124;03m        AnnData: The CLR-normalized AnnData object.[39;00m
+[1;32m     23[0m [38;5;124;03m    """[39;00m
+
+[0;31mModuleNotFoundError[0m: No module named 'torch_geometric'
+ModuleNotFoundError: No module named 'torch_geometric'
+

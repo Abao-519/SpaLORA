@@ -1,0 +1,20 @@
+{
+  "decision_changed": false,
+  "max_seed_delta_absolute_difference": 0.0,
+  "max_summary_absolute_difference": 0.0,
+  "max_summary_ulp_distance": 0.0,
+  "original_artifacts_modified": false,
+  "original_method_recommendation": "MIXED_EVIDENCE",
+  "paired_seed_rows": 105,
+  "per_seed_rows": 120,
+  "recomputed_method_recommendation": "MIXED_EVIDENCE",
+  "source_sha256": {
+    "component_support_matrix.csv": "26cb7d3dfcd4794f8dc4b9d293acdb740f855e712f00a7ff81fd6e3690c8434f",
+    "paired_ablation_deltas.csv": "bb2f5eac6d8428d6391842c823ebcd56a92dc3f32c2f0d934835fa629bc82f30",
+    "per_seed_metrics.csv": "5ddadc89af3df78fa39c85603038b927389d713a9e05ea792a86dae19588f846",
+    "summary.csv": "b9e5e68d12e36f35387c51f445d1882ce59021fc41ac577dba88db2d74e9a601"
+  },
+  "summary_acceptance_rule": "exact binary64 equality after pandas round_trip CSV parsing; no tolerance",
+  "summary_rows": 456,
+  "unique_primary_keys": 120
+}

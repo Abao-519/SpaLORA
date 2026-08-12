@@ -1,0 +1,70 @@
+[NbConvertApp] Converting notebook tutorial_ATAC_RNA_Seq_MouseBrain.ipynb to notebook
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/SpaLORA/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/traitlets/config/application.py", line 1043, in launch_instance
+    app.start()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 414, in start
+    self.convert_notebooks()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 591, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 553, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 479, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 200, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 219, in from_file
+    return self.from_notebook_node(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 153, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 351, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 100, in preprocess
+    self.preprocess_cell(cell, resources, index)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 121, in preprocess_cell
+    cell = self.execute_cell(cell, index, store_history=True)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbclient/client.py", line 1021, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbclient/client.py", line 915, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+import pandas as pd
+import numpy as np
+import scanpy as sc
+import matplotlib
+import matplotlib.pyplot as plt
+from umap import UMAP
+import sklearn
+import seaborn as sns
+from COSMOS import cosmos
+from COSMOS.pyWNN import pyWNN 
+import h5py
+import warnings
+warnings.filterwarnings('ignore')
+random_seed = 20
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[1], line 9[0m
+[1;32m      7[0m [38;5;28;01mimport[39;00m [38;5;21;01msklearn[39;00m
+[1;32m      8[0m [38;5;28;01mimport[39;00m [38;5;21;01mseaborn[39;00m [38;5;28;01mas[39;00m [38;5;21;01msns[39;00m
+[0;32m----> 9[0m [38;5;28;01mfrom[39;00m [38;5;21;01mCOSMOS[39;00m [38;5;28;01mimport[39;00m cosmos
+[1;32m     10[0m [38;5;28;01mfrom[39;00m [38;5;21;01mCOSMOS[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpyWNN[39;00m [38;5;28;01mimport[39;00m pyWNN 
+[1;32m     11[0m [38;5;28;01mimport[39;00m [38;5;21;01mh5py[39;00m
+
+[0;31mModuleNotFoundError[0m: No module named 'COSMOS'
+ModuleNotFoundError: No module named 'COSMOS'
+

@@ -1,0 +1,52 @@
+[
+  {
+    "method": "SpatialGlue",
+    "official_commit": "7c976d811d27ace51ce47ae0ad94a068a7d222fa",
+    "tutorial_status": "UNREPRODUCIBLE",
+    "attempt1_preserved": true,
+    "compatibility_retry_count": 1,
+    "scientific_formula_modified": false,
+    "root_cause": "official notebook requires unavailable stgat kernel; retry venv lacked nbconvert entry",
+    "eligible_night4b": false
+  },
+  {
+    "method": "Seurat",
+    "official_commit": "79c466c0e61e89aa299ee767fec3b69afda47301",
+    "tutorial_status": "UNREPRODUCIBLE",
+    "attempt1_preserved": true,
+    "compatibility_retry_count": 0,
+    "scientific_formula_modified": false,
+    "root_cause": "no executable R/Rscript; no WNN graph, modality weights or clusters",
+    "eligible_night4b": false
+  },
+  {
+    "method": "COSMOS",
+    "official_commit": "56ea355be51e64d9253e2871b8bd447fdfd0d230",
+    "tutorial_status": "UNREPRODUCIBLE",
+    "attempt1_preserved": true,
+    "compatibility_retry_count": 1,
+    "scientific_formula_modified": false,
+    "root_cause": "package absent; retry venv lacked nbconvert entry",
+    "eligible_night4b": false
+  },
+  {
+    "method": "ARISE",
+    "official_commit": "fefdd849494c0d08e755052a7a31b20169945e40",
+    "tutorial_status": "UNREPRODUCIBLE",
+    "attempt1_preserved": true,
+    "compatibility_retry_count": 1,
+    "scientific_formula_modified": false,
+    "root_cause": "torch_geometric absent; retry venv lacked nbconvert entry",
+    "eligible_night4b": false
+  },
+  {
+    "method": "SMART",
+    "official_commit": "75676546a66d48a7ebfd7c5f3a2758a4c538fcfc",
+    "tutorial_status": "UNREPRODUCIBLE",
+    "attempt1_preserved": true,
+    "compatibility_retry_count": 1,
+    "scientific_formula_modified": false,
+    "root_cause": "muon absent and author-local R path hard-coded; retry venv lacked nbconvert entry",
+    "eligible_night4b": false
+  }
+]

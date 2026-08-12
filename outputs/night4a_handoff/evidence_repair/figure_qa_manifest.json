@@ -1,0 +1,259 @@
+{
+  "figures": [
+    {
+      "figure": "night3b_ablation_forest_publication_candidate",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/night3b_ablation_forest_publication_candidate.pdf",
+      "pdf_sha256": "98b55fee9192947f78666c9ecb4e8d1bbd447a30e06ce60f45cae68f089343d2",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/night3b_ablation_forest_publication_candidate.png",
+      "png_sha256": "f96810626c56642b15e24b0783070dbcdd5c54d7582bf54af9d94a65b8f7f9e5",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        14.0,
+        10.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/paired_ablation_deltas.csv",
+          "sha256": "bb2f5eac6d8428d6391842c823ebcd56a92dc3f32c2f0d934835fa629bc82f30"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "loss_ablation_heatmap_with_seed_uncertainty",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/loss_ablation_heatmap_with_seed_uncertainty.pdf",
+      "pdf_sha256": "6f8055164987d0bdbe923f4a825a1c2c2871f3d983554304ef31cc1733827ce9",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/loss_ablation_heatmap_with_seed_uncertainty.png",
+      "png_sha256": "621732fc68c02eaa38343fbb7e4f0b3f4205626ecf8d98403899806a00fb7915",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        12.0,
+        4.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/per_seed_metrics.csv",
+          "sha256": "5ddadc89af3df78fa39c85603038b927389d713a9e05ea792a86dae19588f846"
+        },
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/paired_ablation_deltas.csv",
+          "sha256": "bb2f5eac6d8428d6391842c823ebcd56a92dc3f32c2f0d934835fa629bc82f30"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "attention_ablation_heatmap_with_seed_uncertainty",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/attention_ablation_heatmap_with_seed_uncertainty.pdf",
+      "pdf_sha256": "5293c40fded17268c9a88abcea6febcdd2e42b06ae5274c819d70dbb7e448434",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/attention_ablation_heatmap_with_seed_uncertainty.png",
+      "png_sha256": "2f647655db76e59abe00467f70f96cb05be06b74d626c4e1ccb77dcc45ead3d7",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        12.0,
+        4.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/per_seed_metrics.csv",
+          "sha256": "5ddadc89af3df78fa39c85603038b927389d713a9e05ea792a86dae19588f846"
+        },
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/paired_ablation_deltas.csv",
+          "sha256": "bb2f5eac6d8428d6391842c823ebcd56a92dc3f32c2f0d934835fa629bc82f30"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "p22_all_ablation_seed_heterogeneity",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/p22_all_ablation_seed_heterogeneity.pdf",
+      "pdf_sha256": "671d95a59b3e24203a95a3f82ddba11f8ee53cb23d3fee957ca53bee53f8a733",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/p22_all_ablation_seed_heterogeneity.png",
+      "png_sha256": "6a30ac8842b074da60f871994f7d244a310210560d9bb758914b878c619a7c74",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        17.0,
+        6.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/per_seed_metrics.csv",
+          "sha256": "5ddadc89af3df78fa39c85603038b927389d713a9e05ea792a86dae19588f846"
+        },
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/paired_ablation_deltas.csv",
+          "sha256": "bb2f5eac6d8428d6391842c823ebcd56a92dc3f32c2f0d934835fa629bc82f30"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "attention_six_channel_distribution",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/attention_six_channel_distribution.pdf",
+      "pdf_sha256": "b23c3dbcc42dc5e62979eb40874989c7d1bce54bbfaaeb09f170cdac1de7232d",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/attention_six_channel_distribution.png",
+      "png_sha256": "770da479ddb0d8821a9aca9ad014e2be26e07d5c4a30f9fd138ab4b6d3f1b84c",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        18.0,
+        6.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/attention_spot_summary.csv",
+          "sha256": "0680df3e70ec2cf61167d89844f8e7250eb27e5af08af6b12273bcb0bbe3e600"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "attention_domain_association_named",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/attention_domain_association_named.pdf",
+      "pdf_sha256": "448aa077c810de4ba27a0cf19af244610c8727758dbc01674cf2c24bf2563023",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/attention_domain_association_named.png",
+      "png_sha256": "9a9170726a10118329c180cab9d0f00bbb2b85094a3103bfb1fe12aeae9a84ff",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        15.0,
+        13.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/attention_domain_association.csv",
+          "sha256": "8882e577a55d456b0df6dbcaf259ebdc275f7cbb5a3577e0291128893765b47d"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "ige_gradient_trajectories_with_seed_uncertainty",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/ige_gradient_trajectories_with_seed_uncertainty.pdf",
+      "pdf_sha256": "3ce18b563d79c313c1742b5cb52a77e7f6819dd55d97abd191643a003872474b",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/ige_gradient_trajectories_with_seed_uncertainty.png",
+      "png_sha256": "151f045f6f1d6c4112d685762e312fe25cd4f0ab8a722634d859e4432a382801",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        17.0,
+        5.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/gradient_influence_trajectories.csv",
+          "sha256": "3f4047c2fb48156f0a58b435f86ded8bb3f595318f8ffcb68a6603d3a648c9c4"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "night3b_spatial_tradeoff_four_metrics",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/night3b_spatial_tradeoff_four_metrics.pdf",
+      "pdf_sha256": "9bb5574ac670c27edfdd0c68f7c7322ffb19e11a7da5b86487d90fc8812a8c41",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/night3b_spatial_tradeoff_four_metrics.png",
+      "png_sha256": "9979ed96c81aba786ee1ecfbd989af7a89e7d48f0f6875a385f79f71c3852d01",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        16.0,
+        11.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/per_seed_metrics.csv",
+          "sha256": "5ddadc89af3df78fa39c85603038b927389d713a9e05ea792a86dae19588f846"
+        },
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/paired_ablation_deltas.csv",
+          "sha256": "bb2f5eac6d8428d6391842c823ebcd56a92dc3f32c2f0d934835fa629bc82f30"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "p22_cross_attention_negative_boundary",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/p22_cross_attention_negative_boundary.pdf",
+      "pdf_sha256": "92f3701d702b4bfda42373fbae19370802b32ee95b7890853c43fe26c968173e",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/p22_cross_attention_negative_boundary.png",
+      "png_sha256": "fe420b1eaeb2ab51e6948155648524f4aee10f2283c4e763c08be2a9d4f0a042",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        12.0,
+        5.0
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/attention_spot_summary.csv",
+          "sha256": "0680df3e70ec2cf61167d89844f8e7250eb27e5af08af6b12273bcb0bbe3e600"
+        },
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/per_seed_metrics.csv",
+          "sha256": "5ddadc89af3df78fa39c85603038b927389d713a9e05ea792a86dae19588f846"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    },
+    {
+      "figure": "a1_ground_truth_and_hungarian_aligned_predictions",
+      "font": "DejaVu Sans",
+      "generation_command": "python night4a_evidence_repair.py --source <locked-night3b> --output <night4a>",
+      "pdf": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/a1_ground_truth_and_hungarian_aligned_predictions.pdf",
+      "pdf_sha256": "e03225bd01d51ba4c0e4b6d16c54747037612d95394785704ccdf088e811c4fa",
+      "png": "/autodl-fs/data/SpaLORA-night4a/outputs/night4a_handoff/evidence_repair/figures/a1_ground_truth_and_hungarian_aligned_predictions.png",
+      "png_sha256": "8cd5177f3e75ee8d530a62b010da0ea2776bff6e9f1ce650bb24aa2e680c81eb",
+      "script_sha256": "db09f2818c658279537294df82030ed997bcb043eefda3fdf99be8d3971b2c93",
+      "size_inches": [
+        20.0,
+        4.6
+      ],
+      "source_files": [
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/runs/a1/FULL_IGE/seed_0/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80"
+        },
+        {
+          "path": "/autodl-fs/data/SpaLORA-night3b/outputs/night3b_handoff/runs/a1/FULL_IGE/seed_0/clusters.csv",
+          "sha256": "7f744eb87a50bee5a806a5d5c2cf54443594ebb552c33d78c38f008bff838050"
+        }
+      ],
+      "structural_status": "PASS",
+      "visual_qa_status": "DIAGNOSTIC_ONLY_PENDING_LOCAL_PDF_RENDER_REVIEW"
+    }
+  ],
+  "publication_ready": false,
+  "required_checks": [
+    "labels",
+    "overlap",
+    "crop",
+    "legend_mapping",
+    "color_semantics",
+    "pdf_render"
+  ],
+  "schema_version": 1,
+  "status": "PNG_STRUCTURAL_PASS_PDF_LOCAL_RENDER_PENDING"
+}

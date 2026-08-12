@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night4a_evidence_repair.py", line 417, in <module>
+    main()
+  File "scripts/night4a_evidence_repair.py", line 384, in main
+    per_seed, paired, diff = recompute_and_validate(source, output)
+  File "scripts/night4a_evidence_repair.py", line 109, in recompute_and_validate
+    raise AssertionError(f"summary recomputation drift: {max_summary_diff}")
+AssertionError: summary recomputation drift: 1.7763568394002505e-15

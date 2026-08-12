@@ -1,0 +1,6 @@
+method,official_commit,tutorial_status,attempt1_preserved,compatibility_retry_count,scientific_formula_modified,root_cause,eligible_night4b
+SpatialGlue,7c976d811d27ace51ce47ae0ad94a068a7d222fa,UNREPRODUCIBLE,True,1,False,official notebook requires unavailable stgat kernel; retry venv lacked nbconvert entry,False
+Seurat,79c466c0e61e89aa299ee767fec3b69afda47301,UNREPRODUCIBLE,True,0,False,"no executable R/Rscript; no WNN graph, modality weights or clusters",False
+COSMOS,56ea355be51e64d9253e2871b8bd447fdfd0d230,UNREPRODUCIBLE,True,1,False,package absent; retry venv lacked nbconvert entry,False
+ARISE,fefdd849494c0d08e755052a7a31b20169945e40,UNREPRODUCIBLE,True,1,False,torch_geometric absent; retry venv lacked nbconvert entry,False
+SMART,75676546a66d48a7ebfd7c5f3a2758a4c538fcfc,UNREPRODUCIBLE,True,1,False,muon absent and author-local R path hard-coded; retry venv lacked nbconvert entry,False

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night4a_evidence_repair.py", line 425, in <module>
+    main()
+  File "scripts/night4a_evidence_repair.py", line 392, in main
+    per_seed, paired, diff = recompute_and_validate(source, output)
+  File "scripts/night4a_evidence_repair.py", line 115, in recompute_and_validate
+    raise AssertionError(f"summary recomputation drift: abs={max_summary_diff} ulp={max_summary_ulp}")
+AssertionError: summary recomputation drift: abs=1.7763568394002505e-15 ulp=183.0

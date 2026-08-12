@@ -1,0 +1,36 @@
+{
+  "candidate_matrix_roles": {
+    "GSE198353": "truly independent family; accuracy eligibility pending post-lock label audit",
+    "GSE213264": "independent candidate; paired IDs/coordinates unresolved from GEO files",
+    "GSE263617": "held-out within-study only"
+  },
+  "datasets": [
+    "gse263617_d1_ln",
+    "gse263617_a1_tonsil",
+    "gse263617_d1_tonsil",
+    "gse198353_spleen_rep1",
+    "gse198353_spleen_rep2"
+  ],
+  "locked_before_semantic_label_values": true,
+  "preprocessing": {
+    "RNA": "method-native count-compatible preprocessing; fixed before labels",
+    "common_observation_set": "exact intersection fixed before labels",
+    "protein": "method-native CLR or official preprocessing; fixed before labels",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "qualification_rules": [
+    "paired observation IDs",
+    "reproducible coordinates",
+    "auditable source and feature semantics",
+    "independent/manual labels for accuracy only",
+    "at least two nonempty domains",
+    "no outcome-driven inclusion"
+  ],
+  "schema_version": 1
+}

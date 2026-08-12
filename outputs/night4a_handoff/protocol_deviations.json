@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "P1",
+    "event": "three failed implementation attempts retained before exact round-trip parser/rule correction",
+    "scientific_effect": "none"
+  },
+  {
+    "stage": "P2",
+    "event": "slow single download replaced by audited Range downloader; partial retained",
+    "scientific_effect": "none"
+  },
+  {
+    "stage": "P3",
+    "event": "bounded official attempts and one compatibility retry failed",
+    "scientific_effect": "no benchmark produced"
+  }
+]

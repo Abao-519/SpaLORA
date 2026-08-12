@@ -1,0 +1,174 @@
+{
+  "created_before_semantic_label_values": true,
+  "datasets": [
+    {
+      "accession": "GSE263617",
+      "coordinates_available": true,
+      "dataset": "gse263617_d1_ln",
+      "license_terms": "NCBI GEO public record; cite source study",
+      "modality2": {
+        "duplicate_obs_ids": 0,
+        "layers": [],
+        "n_obs": 3359,
+        "n_vars": 31,
+        "nonfinite_scan": "deferred_chunked_cache_build",
+        "obs_columns_names_only": [
+          "lab",
+          "src",
+          "final_annot"
+        ],
+        "obsm_keys": [
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/Human lymph node/D1/humanlymphnode_adt.h5ad",
+        "sha256": "5249ac7d8b04fde673f8e0e6e663a70e339461fc4156a549de636b7494095abc",
+        "x_storage": "SparseDataset"
+      },
+      "modality_pair": "RNA+protein",
+      "rna": {
+        "duplicate_obs_ids": 0,
+        "layers": [],
+        "n_obs": 3359,
+        "n_vars": 18085,
+        "nonfinite_scan": "deferred_chunked_cache_build",
+        "obs_columns_names_only": [
+          "lab",
+          "src",
+          "final_annot"
+        ],
+        "obsm_keys": [
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/Human lymph node/D1/humanlymphnode_rna.h5ad",
+        "sha256": "4cf5a125027c8fe91d6b789dda066be703efd3f83a8745adf64a8667cd5bf9af",
+        "x_storage": "SparseDataset"
+      },
+      "role": "held_out_within_study",
+      "semantic_values_read": false,
+      "source": "NCBI GEO plus preexisting local D1"
+    },
+    {
+      "accession": "GSE263617",
+      "coordinates_available": true,
+      "dataset": "gse263617_a1_tonsil",
+      "license_terms": "NCBI GEO public record; cite source study",
+      "modality2": {
+        "duplicate_obs_ids": 0,
+        "layers": [],
+        "n_obs": 4337,
+        "n_vars": 31,
+        "nonfinite_scan": "deferred_chunked_cache_build",
+        "obs_columns_names_only": [],
+        "obsm_keys": [
+          "feat",
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/night4a_external_data/extracted/GSE263617/GSM8195499_A1_TNSL_Protein.h5ad",
+        "sha256": "36bb9bc1ef2d8c4b54ae1b7dd3d55738c1e8015bd30d0fa8ddb06f2e271ae8f2",
+        "x_storage": "Dataset"
+      },
+      "modality_pair": "RNA+protein",
+      "rna": {
+        "duplicate_obs_ids": 0,
+        "layers": [],
+        "n_obs": 4337,
+        "n_vars": 17950,
+        "nonfinite_scan": "deferred_chunked_cache_build",
+        "obs_columns_names_only": [],
+        "obsm_keys": [
+          "feat",
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/night4a_external_data/extracted/GSE263617/GSM8195495_A1_TNSL.h5ad",
+        "sha256": "730925e7389dd061adc6ad3d96d5bbb95e5314984c207acc593f43676c0492eb",
+        "x_storage": "Dataset"
+      },
+      "role": "held_out_within_study",
+      "semantic_values_read": false,
+      "source": "NCBI GEO plus preexisting local D1"
+    },
+    {
+      "accession": "GSE263617",
+      "coordinates_available": true,
+      "dataset": "gse263617_d1_tonsil",
+      "license_terms": "NCBI GEO public record; cite source study",
+      "modality2": {
+        "duplicate_obs_ids": 0,
+        "layers": [],
+        "n_obs": 4519,
+        "n_vars": 31,
+        "nonfinite_scan": "deferred_chunked_cache_build",
+        "obs_columns_names_only": [],
+        "obsm_keys": [
+          "feat",
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/night4a_external_data/extracted/GSE263617/GSM8195501_D1_TNSL_Protein.h5ad",
+        "sha256": "1e5f4e29c7789d78e0ec4912d37706b5bd42e114dfded695b1a0038719b3fff4",
+        "x_storage": "Dataset"
+      },
+      "modality_pair": "RNA+protein",
+      "rna": {
+        "duplicate_obs_ids": 0,
+        "layers": [],
+        "n_obs": 4519,
+        "n_vars": 17955,
+        "nonfinite_scan": "deferred_chunked_cache_build",
+        "obs_columns_names_only": [],
+        "obsm_keys": [
+          "feat",
+          "spatial"
+        ],
+        "path": "/root/autodl-fs/night4a_external_data/extracted/GSE263617/GSM8195497_D1_TNSL.h5ad",
+        "sha256": "5de74dd8c6470ff94b222670426c09a7e636ce33034615bc40a501b090bef03e",
+        "x_storage": "Dataset"
+      },
+      "role": "held_out_within_study",
+      "semantic_values_read": false,
+      "source": "NCBI GEO plus preexisting local D1"
+    },
+    {
+      "accession": "GSE198353",
+      "coordinates_available": true,
+      "dataset": "gse198353_spleen_rep1",
+      "duplicate_obs_ids": 0,
+      "feature_type_counts": {
+        "Antibody Capture": 21,
+        "Gene Expression": 32285
+      },
+      "license_terms": "NCBI GEO public record; cite SPOTS study",
+      "matrix_path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_1_filtered_feature_bc_matrix.h5",
+      "matrix_sha256": "7062d81352ae9dccaea04a1d738eaf329342d90fc1eb64948973147db7feeb98",
+      "modality_pair": "RNA+protein",
+      "n_barcodes": 2653,
+      "role": "truly_independent",
+      "semantic_values_read": false,
+      "shape": [
+        32306,
+        2653
+      ]
+    },
+    {
+      "accession": "GSE198353",
+      "coordinates_available": true,
+      "dataset": "gse198353_spleen_rep2",
+      "duplicate_obs_ids": 0,
+      "feature_type_counts": {
+        "Antibody Capture": 21,
+        "Gene Expression": 32285
+      },
+      "license_terms": "NCBI GEO public record; cite SPOTS study",
+      "matrix_path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_2_filtered_feature_bc_matrix.h5",
+      "matrix_sha256": "7ed50e0c66cc9f63916732f2f9a545c527ec872fc7301a1bf22498dcd3bb4229",
+      "modality_pair": "RNA+protein",
+      "n_barcodes": 2768,
+      "role": "truly_independent",
+      "semantic_values_read": false,
+      "shape": [
+        32306,
+        2768
+      ]
+    }
+  ],
+  "schema_version": 1
+}

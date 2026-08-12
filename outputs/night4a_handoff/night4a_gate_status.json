@@ -1,0 +1,15 @@
+{
+  "gate": "BLOCKED_PREFLIGHT",
+  "night3b_original_results_changed": false,
+  "night3b_decision_changed": false,
+  "night3b_decision": "MIXED_EVIDENCE",
+  "formal_benchmark_run": false,
+  "semantic_label_access_after_lock": true,
+  "core_baselines_complete": 0,
+  "core_baselines_total": 5,
+  "held_out_accuracy_eligible": [
+    "gse263617_d1_ln"
+  ],
+  "independent_accuracy_eligible": [],
+  "night4b_started": false
+}

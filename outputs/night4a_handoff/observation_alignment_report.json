@@ -1,0 +1,46 @@
+{
+  "datasets": [
+    {
+      "dataset": "gse263617_d1_ln",
+      "exact_id_order": true,
+      "exact_id_set": true,
+      "modality2_n": 3359,
+      "rna_n": 3359,
+      "unambiguous_alignment": true
+    },
+    {
+      "dataset": "gse263617_a1_tonsil",
+      "exact_id_order": true,
+      "exact_id_set": true,
+      "modality2_n": 4337,
+      "rna_n": 4337,
+      "unambiguous_alignment": true
+    },
+    {
+      "dataset": "gse263617_d1_tonsil",
+      "exact_id_order": true,
+      "exact_id_set": true,
+      "modality2_n": 4519,
+      "rna_n": 4519,
+      "unambiguous_alignment": true
+    },
+    {
+      "coordinate_n": 4992,
+      "dataset": "gse198353_spleen_rep1",
+      "exact_id_order": false,
+      "exact_id_set": false,
+      "modality2_n": 2653,
+      "rna_n": 2653,
+      "unambiguous_alignment": false
+    },
+    {
+      "coordinate_n": 4992,
+      "dataset": "gse198353_spleen_rep2",
+      "exact_id_order": false,
+      "exact_id_set": false,
+      "modality2_n": 2768,
+      "rna_n": 2768,
+      "unambiguous_alignment": false
+    }
+  ]
+}

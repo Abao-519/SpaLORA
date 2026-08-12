@@ -1,0 +1,32 @@
+{
+  "ari": {
+    "delta_definition": "FULL_IGE - ABLATION",
+    "direction": "higher_is_better",
+    "full_win_rule": "delta > 0"
+  },
+  "boundary_disagreement": {
+    "delta_definition": "FULL_IGE - ABLATION",
+    "direction": "lower_is_better",
+    "full_win_rule": "delta < 0"
+  },
+  "nmi": {
+    "delta_definition": "FULL_IGE - ABLATION",
+    "direction": "higher_is_better",
+    "full_win_rule": "delta > 0"
+  },
+  "spatial_cluster_geary_mean": {
+    "delta_definition": "FULL_IGE - ABLATION",
+    "direction": "lower_is_better",
+    "full_win_rule": "delta < 0"
+  },
+  "spatial_cluster_moran_mean": {
+    "delta_definition": "FULL_IGE - ABLATION",
+    "direction": "higher_is_better",
+    "full_win_rule": "delta > 0"
+  },
+  "spatial_neighbor_agreement": {
+    "delta_definition": "FULL_IGE - ABLATION",
+    "direction": "higher_is_better",
+    "full_win_rule": "delta > 0"
+  }
+}

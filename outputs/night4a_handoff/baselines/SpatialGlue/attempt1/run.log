@@ -1,0 +1,75 @@
+[NbConvertApp] Converting notebook Benchmarking_Lymph_Node_Fig1hk_FigS8cehi.ipynb to notebook
+[NbConvertApp] WARNING | Kernelspec name stgat cannot be found!
+[NbConvertApp] ERROR | No such kernel named stgat
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 85, in wrapper
+    out = await method(self, *args, **kwargs)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 397, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 359, in _async_pre_start_kernel
+    self.kernel_spec,
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 182, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/kernelspec.py", line 287, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named stgat
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/SpaLORA/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/traitlets/config/application.py", line 1043, in launch_instance
+    app.start()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 414, in start
+    self.convert_notebooks()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 591, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 553, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 479, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 200, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 219, in from_file
+    return self.from_notebook_node(
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 153, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 351, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 94, in preprocess
+    with self.setup_kernel():
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbclient/client.py", line 595, in setup_kernel
+    self.start_new_kernel(**kwargs)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/nbclient/client.py", line 543, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 158, in wrapped
+    return _runner_map[name].run(inner)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 125, in run
+    return fut.result(None)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 93, in wrapper
+    raise e
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 85, in wrapper
+    out = await method(self, *args, **kwargs)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 397, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 359, in _async_pre_start_kernel
+    self.kernel_spec,
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/manager.py", line 182, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/jupyter_client/kernelspec.py", line 287, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named stgat
