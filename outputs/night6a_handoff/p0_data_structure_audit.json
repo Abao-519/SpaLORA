@@ -1,0 +1,97 @@
+{
+  "barcode_alignment": {
+    "adt_duplicate_count": 0,
+    "exact_order_match": true,
+    "rna_duplicate_count": 0,
+    "set_match": true
+  },
+  "files": {
+    "adt": {
+      "barcode_count": 4326,
+      "barcode_unique_count": 4326,
+      "obs_columns": [
+        "final_annot",
+        "lab",
+        "lab_lynn",
+        "src"
+      ],
+      "obsm_keys": [
+        "spatial"
+      ],
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_adt.h5ad",
+      "root_keys": [
+        "X",
+        "layers",
+        "obs",
+        "obsm",
+        "obsp",
+        "uns",
+        "var",
+        "varm",
+        "varp"
+      ],
+      "sha256": "f7e7c2b723faf59fbf1d949c131b2f345c268787cd2b72177e0c3a139afa38be",
+      "size": 1463296,
+      "x_shape": [
+        4326,
+        31
+      ]
+    },
+    "rna": {
+      "barcode_count": 4326,
+      "barcode_unique_count": 4326,
+      "obs_columns": [
+        "final_annot",
+        "lab",
+        "lab_lynn",
+        "src"
+      ],
+      "obsm_keys": [
+        "spatial"
+      ],
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_rna.h5ad",
+      "root_keys": [
+        "X",
+        "layers",
+        "obs",
+        "obsm",
+        "obsp",
+        "uns",
+        "var",
+        "varm",
+        "varp"
+      ],
+      "sha256": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9",
+      "size": 139649778,
+      "x_shape": [
+        4326,
+        18085
+      ]
+    }
+  },
+  "label_firewall": {
+    "allowed_now": "obs column names and barcode index only",
+    "cluster_count_from_public_description": 4,
+    "values_read": false
+  },
+  "misar_metadata_only": {
+    "future_checks": [
+      "official source",
+      "annotation provenance",
+      "RNA/ATAC pairing",
+      "coordinate alignment",
+      "manual-vs-derived reference annotation"
+    ],
+    "status": "registered_not_downloaded_not_trained"
+  },
+  "source": {
+    "archive": "data_integration.zip",
+    "archive_md5": "b2af89db7c9c9117b23df3ab41fe7738",
+    "archive_sha256": "97226298a984f9d3a9713b55946025c925b13e51b289187103bfcdcca9fe0cc1",
+    "archive_size": 1680922883,
+    "doi": "10.5281/zenodo.12654113",
+    "first_transfer_attempt": "failed_zero_byte_due_to_PowerShell_native_pipeline; retained in audit, replaced by verified stream",
+    "record": "https://zenodo.org/records/12654113",
+    "zip_crc_passed": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "adt": {
+    "all_zero_columns": 0,
+    "all_zero_rows": 0,
+    "coordinates_max": [
+      77.0,
+      127.0
+    ],
+    "coordinates_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_nonfinite_count": 0,
+    "coordinates_shape": [
+      4326,
+      2
+    ],
+    "matrix_dtype": "float32",
+    "matrix_max": 158333.0,
+    "matrix_min": 28.0,
+    "matrix_nnz": 131893,
+    "matrix_nonfinite_count": 0,
+    "matrix_sparsity": 0.016501871653766376,
+    "shape": [
+      4326,
+      31
+    ],
+    "sparse": true
+  },
+  "label_columns_dropped_before_future_preprocessing": [
+    "final_annot",
+    "lab",
+    "lab_lynn",
+    "src"
+  ],
+  "label_free_files": {
+    "coordinates.npy": {
+      "sha256": "abaea80b6ce89718f7aaf799cad9f7509cc2889f278d9154893c09020a3c7c4d",
+      "size": 69344
+    },
+    "observation_ids.tsv": {
+      "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+      "size": 95187
+    }
+  },
+  "paired_barcode_exact": true,
+  "paired_coordinates_exact": true,
+  "rna": {
+    "all_zero_columns": 20,
+    "all_zero_rows": 0,
+    "coordinates_max": [
+      77.0,
+      127.0
+    ],
+    "coordinates_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_nonfinite_count": 0,
+    "coordinates_shape": [
+      4326,
+      2
+    ],
+    "matrix_dtype": "float32",
+    "matrix_max": 8798.0,
+    "matrix_min": 1.0,
+    "matrix_nnz": 17191340,
+    "matrix_nonfinite_count": 0,
+    "matrix_sparsity": 0.7802622357488671,
+    "shape": [
+      4326,
+      18085
+    ],
+    "sparse": true
+  },
+  "semantic_label_values_read": false,
+  "status": "P0_DATA_NUMERIC_PASS"
+}

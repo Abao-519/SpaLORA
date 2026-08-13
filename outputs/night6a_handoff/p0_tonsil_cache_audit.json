@@ -1,0 +1,54 @@
+{
+  "cache_content_sha256": "6eecacb49a2783b9233f466f9c8b1611fc6ea43e677cf6ff6bf4805997a84d5c",
+  "cache_manifest_sha256": "27c7a2fc9ee0c4b89f80a146361ea74f0400a6410765a47f9b9d8f086eb96ad0",
+  "canonical_model_input_sha256": "cf1d3dd3b80fe803361fc6fb3fd1e0b2c82b1a281b959d616f07d5a89a48c085",
+  "created": {
+    "adt": {
+      "obs_columns": [],
+      "path": "/root/autodl-fs/night6a_tonsil_label_free_20260814/tonsil_s1_adt_label_free.h5ad",
+      "reused_verified": true,
+      "sha256": "0146aabbd9845b90932c68711c985832895f93082a25a6adabdeccd9795f0ce5",
+      "shape": [
+        4326,
+        31
+      ],
+      "size": 613278,
+      "spatial_shape": [
+        4326,
+        2
+      ]
+    },
+    "rna": {
+      "obs_columns": [],
+      "path": "/root/autodl-fs/night6a_tonsil_label_free_20260814/tonsil_s1_rna_label_free.h5ad",
+      "reused_verified": true,
+      "sha256": "a53bb5a1d5fcea356db65f8de9f8f6c158d1b96db8dfbef0b85d6d4d45131a0a",
+      "shape": [
+        4326,
+        18085
+      ],
+      "size": 36810093,
+      "spatial_shape": [
+        4326,
+        2
+      ]
+    }
+  },
+  "global_rule": "same RNA+ADT preprocessing/training configuration as A1",
+  "source_obs_semantic_values_read": false,
+  "status": "P0_TONSIL_LABEL_FREE_CACHE_PASS",
+  "tonsil_training_cfg": {
+    "embedding_dim": 64,
+    "epochs": 200,
+    "hvg": 3000,
+    "locked_m_bad_expected": 2.289938091,
+    "loss_factors": [
+      1.9,
+      2.5,
+      1.5,
+      10.0
+    ],
+    "n_clusters": 4,
+    "spatial_neighbors": 18
+  }
+}
