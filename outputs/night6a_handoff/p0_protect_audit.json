@@ -1,0 +1,47 @@
+{
+  "branch": "revision/q2-night6a-structural-rescue-20260814",
+  "cuda": "11.8",
+  "cuda_available": true,
+  "forbidden_path_policy": {
+    "D1": "no listing/read/parse/copy/run",
+    "P22": "no listing/read/parse/copy/run",
+    "night5d_results": "only local recovery delivery index and protocols inspected"
+  },
+  "git": "git version 2.25.1",
+  "gpu_count": 1,
+  "log_marker": "P0-PROTECT PASS; BEGIN P0-DATA",
+  "mclust": {
+    "code": 0,
+    "stderr": "",
+    "stdout": "6.1.1"
+  },
+  "night5d_local_delivery_index": "16/16 verified on Windows before remote connection",
+  "night5d_original_25_file_manifest_sha256": "a29853735d502baadd0e44be092bfa47e9b9d86299759d54422a6d1503f36560",
+  "nvidia_smi": {
+    "code": 0,
+    "stderr": "",
+    "stdout": "NVIDIA GeForce RTX 4080, 580.105.08, 32760 MiB"
+  },
+  "parent_commit": "fccffcff8fb591467b4f7a390897217ffb2617ff",
+  "pip_freeze": {
+    "code": 0,
+    "stderr": "",
+    "stdout": "absl-py==1.4.0\naiofiles==22.1.0\naiosqlite==0.18.0\nanndata==0.8.0\nanyio==3.6.2\nargon2-cffi==21.3.0\nargon2-cffi-bindings==21.2.0\narrow==1.2.3\nasttokens==2.2.1\nattrs==22.2.0\nBabel==2.12.1\nbackcall==0.2.0\nbackports.zoneinfo @ file:///home/conda/feedstock_root/build_artifacts/backports.zoneinfo_1617499121463/work\nbeautifulsoup4==4.11.2\nbleach==6.0.0\nbrotlipy==0.7.0\ncachetools==5.3.0\ncertifi==2021.5.30\ncffi @ file:///tmp/build/80754af9/cffi_1625807838443/work\nchardet @ file:///tmp/build/80754af9/chardet_1607706746162/work\ncharset-normalizer==3.1.0\ncmake==3.26.0\ncomm==0.1.2\nconda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262148928/work\ncontourpy==1.0.7\ncryptography @ file:///tmp/build/80754af9/cryptography_1616769286105/work\ncycler==0.11.0\ndebugpy==1.6.6\ndecorator==5.1.1\ndefusedxml==0.7.1\nexceptiongroup==1.3.1\nexecuting==1.2.0\nfastjsonschema==2.16.3\nfilelock==3.10.0\nfonttools==4.39.0\nfqdn==1.5.1\ngoogle-auth==2.16.2\ngoogle-auth-oauthlib==0.4.6\ngrpcio==1.51.3\nh5py==3.6.0\nidna @ file:///home/linux1/recipes/ci/idna_1610986105248/work\nimportlib-metadata==6.0.0\nimportlib-resources==5.12.0\niniconfig==2.1.0\nipykernel==6.21.3\nipython==8.11.0\nipython-genutils==0.2.0\nipywidgets==8.0.4\nisoduration==20.11.0\njedi==0.18.2\njinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1715127149914/work\njoblib==1.4.2\njson5==0.9.11\njsonpointer==2.3\njsonschema==4.17.3\njupyter-client==8.0.3\njupyter-core==5.2.0\njupyter-events==0.6.3\njupyter-server==2.4.0\njupyter-server-fileid==0.8.0\njupyter-server-terminals==0.4.4\njupyter-server-ydoc==0.6.1\njupyter-ydoc==0.2.3\njupyterlab==3.6.1\njupyterlab-language-pack-zh-cn==3.6.post0\njupyterlab-pygments==0.2.2\njupyterlab-server==2.20.0\njupyterlab-widgets==3.0.5\nkiwisolver==1.4.4\nlit==15.0.7\nllvmlite==0.39.1\nMarkdown==3.4.1\nMarkupSafe==2.1.2\nmatplotlib==3.4.2\nmatplotlib-inline==0.1.6\nmistune==2.0.5\nmpmath==1.3.0\nnatsort==8.1.0\nnbclassic==0.5.3\nnbclient==0.7.2\nnbconvert==7.2.10\nnbformat==5.7.3\nnest-asyncio==1.5.6\nnetworkx==3.0\nnotebook==6.5.3\nnotebook-shim==0.2.2\nnumba==0.56.4\nnumpy==1.22.3\noauthlib==3.2.2\npackaging==23.0\npandas==1.4.2\npandocfilters==1.5.0\nparso==0.8.3\npatsy==0.5.2\npexpect==4.8.0\npickleshare==0.7.5\nPillow==9.4.0\npkgutil-resolve-name==1.3.10\nplatformdirs==3.1.1\npluggy==1.5.0\nprometheus-client==0.16.0\nprompt-toolkit==3.0.38\nprotobuf==4.22.1\npsutil==5.9.4\nptyprocess==0.7.0\npure-eval==0.2.2\npyasn1==0.4.8\npyasn1-modules==0.2.8\npycosat==0.6.3\npycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work\nPygments==2.14.0\npynndescent==0.5.7\npyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work\npyparsing==3.0.9\npyrsistent==0.19.3\nPySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work\npytest==7.2.2\npython-dateutil==2.8.2\npython-json-logger==2.0.7\npytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1726055524169/work\nPyYAML==6.0\npyzmq==25.0.1\nrequests==2.28.2\nrequests-oauthlib==1.3.1\nrfc3339-validator==0.1.4\nrfc3986-validator==0.1.1\nrpy2 @ file:///home/conda/feedstock_root/build_artifacts/rpy2_1609655808290/work\nrsa==4.9\nruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016699510/work\nscanpy==1.9.1\nscikit-learn==1.1.1\nscikit-misc==0.2.0\nscipy==1.8.1\nseaborn==0.11.2\nSend2Trash==1.8.0\nsession-info==1.0.0\nsimplegeneric==0.8.1\nsix @ file:///tmp/build/80754af9/six_1623709665295/work\nsniffio==1.3.0\nsoupsieve==2.4\nstack-data==0.6.2\nstatsmodels==0.13.2\nstdlib-list==0.10.0\nsupervisor==4.2.5\nsympy==1.11.1\ntensorboard==2.12.0\ntensorboard-data-server==0.7.0\ntensorboard-plugin-wit==1.8.1\nterminado==0.17.1\nthreadpoolctl==3.5.0\ntinycss2==1.2.1\ntomli==2.0.1\ntorch @ http://download.pytorch.org/whl/cu118/torch-2.0.0%2Bcu118-cp38-cp38-linux_x86_64.whl\ntorchvision @ http://download.pytorch.org/whl/cu118/torchvision-0.15.1%2Bcu118-cp38-cp38-linux_x86_64.whl\ntornado==6.2\ntqdm==4.64.0\ntraitlets==5.9.0\ntriton==2.0.0\ntyping-extensions==4.13.2\ntzlocal @ file:///home/conda/feedstock_root/build_artifacts/tzlocal_1698012935844/work\numap-learn==0.5.3\nuri-template==1.2.0\nurllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work\nwcwidth==0.2.6\nwebcolors==1.12\nwebencodings==0.5.1\nwebsocket-client==1.5.1\nWerkzeug==2.2.3\nwidgetsnbextension==4.0.5\ny-py==0.5.9\nypy-websocket==0.8.2\nzipp==3.15.0"
+  },
+  "protection_remote": "fccffcff8fb591467b4f7a390897217ffb2617ff",
+  "protocol_sha256": {
+    "SpaLORA_Night6A_Candidate_Registry_2026-08-14.json": "869ceb59c25b5abd02f2242a4379acf91589e647e6e71a0ce38e694625bbe62f",
+    "SpaLORA_Night6A_External_Development_and_Structural_Rescue_Taskbook_2026-08-14.md": "7f0cb7019cf68115b1e9e37968996588a05593664457e27d1ba1cd9ccc8c6527",
+    "SpaLORA_Night6A_Source_Code_and_Dataset_Audit_2026-08-14.md": "653249e46ab727e8c4877933cd17f22c9c675520d9f2c6cf63b3683292c6e41d",
+    "SpaLORA_Post_Night5D_Research_Decision_2026-08-14.md": "c8bc3b0ef260529c8815ca923a4b1d1fa429109e23317f2066e52104058ef445"
+  },
+  "protocols_match": true,
+  "python": "3.8.10",
+  "r": {
+    "code": 0,
+    "stderr": "",
+    "stdout": "R version 4.0.3 (2020-10-10) -- \"Bunny-Wunnies Freak Out\"\nCopyright (C) 2020 The R Foundation for Statistical Computing\nPlatform: x86_64-conda-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under the terms of the\nGNU General Public License versions 2 or 3.\nFor more information about these matters see\nhttps://www.gnu.org/licenses/."
+  },
+  "status": "P0_PROTECT_PASS",
+  "torch": "2.0.0+cu118"
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "night6a-structural-rescue-20260814",
+  "parent_commit": "fccffcff8fb591467b4f7a390897217ffb2617ff",
+  "reference_candidate": "N00",
+  "scientific_intent": "Improve label-free clustering accuracy on independent development data by removing unsupported spatial edges, coordinating conflicting objectives during training, and adding lightweight cross-modal alignment.",
+  "global_invariants": {
+    "base_architecture": "Night-5 B01/C04: shrink_to_uniform rho=0.25, Corr2 disabled, IGE enabled",
+    "seeds": [0, 1, 2, 3, 4],
+    "fixed_endpoint": true,
+    "label_free_training": true,
+    "labels_forbidden_for_checkpoint_selection": true,
+    "dataset_specific_hyperparameters_forbidden": true,
+    "seed_search_forbidden": true,
+    "same_preprocessing_and_clustering_as_reference": true,
+    "dense_trainable_n_by_n_adjacency_forbidden": true,
+    "all_new_code_clean_room": true
+  },
+  "shared_semantics": {
+    "graph_support": {
+      "A_spatial": "Existing binary undirected spatial adjacency without self-loops before normalization.",
+      "A_rna": "Binary undirected RNA feature-kNN adjacency, using the existing globally fixed k and deterministic tie-breaking.",
+      "M_shared": "Elementwise logical intersection of A_spatial and A_rna.",
+      "soft_prune": "W = A_spatial * (epsilon + (1-epsilon) * M_shared); then add the same self-loop convention as N00 and apply the same symmetric normalization as N00.",
+      "hard_prune": "W = M_shared. For each zero-degree node only, add its shortest-distance original spatial edge; break distance ties by lexical barcode; symmetrize; then use N00 self-loop and normalization.",
+      "audit_outputs": [
+        "edge counts before and after pruning",
+        "shared-edge fraction",
+        "zero-degree count before rescue",
+        "rescued edge list",
+        "normalized adjacency SHA-256"
+      ]
+    },
+    "gradient_coordination": {
+      "loss_groups": ["rna_reconstruction", "mod2_reconstruction", "corr1"],
+      "ige": "Use N00 IGE initialization coefficients and then freeze them.",
+      "pcgrad": "On shared encoder/fusion parameters, traverse loss groups in the listed fixed order and deterministically project a gradient against every earlier conflicting group when dot(g_i,g_j)<0. No random permutation. Private-only parameters retain their ordinary IGE-weighted gradients.",
+      "minnorm": "Solve the non-negative minimum-norm convex combination of the three shared-parameter gradients every step; weights sum to the sum of active N00 IGE coefficients. Private-only parameters retain ordinary IGE-weighted gradients.",
+      "audit_outputs": [
+        "per-step pairwise gradient cosine summary",
+        "conflict fraction by loss pair",
+        "coefficient or projection summary",
+        "non-finite gradient count"
+      ]
+    },
+    "barlow_alignment": {
+      "definition": "Project the two modality embeddings to the same dimension; standardize each projected dimension across spots; C = Z1^T Z2 / n; loss is squared diagonal error plus (1/d) times squared off-diagonal entries.",
+      "weight_rule": "At initialization set lambda so its shared-parameter gradient norm is 0.10 times the median IGE-weighted legacy loss gradient norm, cap lambda at 0.25, then freeze it.",
+      "forbidden": "No label, seed, dataset-name, ARI, NMI, or downstream clustering input to the weight rule."
+    },
+    "neighbor_alignment": {
+      "definition": "Symmetric cross-modal InfoNCE. Each spot's other-modality embedding is a positive; one deterministic M_shared neighbor, if present, is an additional positive. All other spots are negatives, evaluated exactly or in deterministic barcode-ordered chunks.",
+      "temperature": 0.2,
+      "weight_rule": "Use the same 0.10 initial-gradient target and 0.25 cap as barlow_alignment, then freeze.",
+      "forbidden": "No pseudo-label, ground-truth label, stochastic negative mining, or seed-dependent sampling."
+    },
+    "staging": {
+      "warmup_fraction": 0.25,
+      "definition": "For staged candidates, train the first 25% of fixed epochs without the new alignment loss, then enable it at its frozen initialization-calibrated weight; total epochs and optimizer steps remain identical to N00."
+    }
+  },
+  "candidates": [
+    {
+      "id": "N00",
+      "name": "B01_C04_REFERENCE",
+      "family": "reference",
+      "changes": [],
+      "purpose": "Immutable Night-5 balanced reference."
+    },
+    {
+      "id": "N01",
+      "name": "HARD_RNA_SHARED_EDGE",
+      "family": "graph",
+      "changes": ["hard_prune"],
+      "purpose": "Test the strongest clean shared-edge hypothesis with deterministic connectivity rescue."
+    },
+    {
+      "id": "N02",
+      "name": "SOFT_RNA_PRUNE10",
+      "family": "graph",
+      "changes": [{"soft_prune_epsilon": 0.10}],
+      "purpose": "Strongly downweight spatial edges unsupported by RNA neighborhoods without deleting them."
+    },
+    {
+      "id": "N03",
+      "name": "SOFT_RNA_PRUNE25",
+      "family": "graph",
+      "changes": [{"soft_prune_epsilon": 0.25}],
+      "purpose": "Moderate unsupported-edge downweighting."
+    },
+    {
+      "id": "N04",
+      "name": "SOFT_RNA_PRUNE50",
+      "family": "graph",
+      "changes": [{"soft_prune_epsilon": 0.50}],
+      "purpose": "Conservative unsupported-edge downweighting and graph-family dose response."
+    },
+    {
+      "id": "N05",
+      "name": "DETERMINISTIC_PCGRAD",
+      "family": "optimization",
+      "changes": ["pcgrad"],
+      "purpose": "Resolve training-time gradient conflicts that initialization-only IGE cannot address."
+    },
+    {
+      "id": "N06",
+      "name": "MINNORM_GRADIENT_BALANCE",
+      "family": "optimization",
+      "changes": ["minnorm"],
+      "purpose": "Independent conflict-aware optimization alternative inspired by multi-task balancing."
+    },
+    {
+      "id": "N07",
+      "name": "STANDARD_BARLOW_ALIGNMENT",
+      "family": "alignment",
+      "changes": ["barlow_alignment"],
+      "purpose": "Encourage same-spot cross-modal agreement while reducing redundant dimensions."
+    },
+    {
+      "id": "N08",
+      "name": "SHARED_NEIGHBOR_INFONCE",
+      "family": "alignment",
+      "changes": ["neighbor_alignment"],
+      "purpose": "Align paired spots and graph-supported neighbors without labels or pseudo-labels."
+    },
+    {
+      "id": "N09",
+      "name": "STAGED_BARLOW_ALIGNMENT",
+      "family": "alignment",
+      "changes": ["barlow_alignment", "staging"],
+      "purpose": "Avoid early alignment collapse while retaining the same fixed training budget."
+    },
+    {
+      "id": "N10",
+      "name": "SOFT10_PLUS_PCGRAD",
+      "family": "combination",
+      "changes": [{"soft_prune_epsilon": 0.10}, "pcgrad"],
+      "purpose": "Combine graph denoising with deterministic conflict projection."
+    },
+    {
+      "id": "N11",
+      "name": "SOFT10_PLUS_BARLOW",
+      "family": "combination",
+      "changes": [{"soft_prune_epsilon": 0.10}, "barlow_alignment"],
+      "purpose": "Combine graph denoising with redundancy-reduced cross-modal alignment."
+    },
+    {
+      "id": "N12",
+      "name": "SOFT10_PLUS_NEIGHBOR_INFONCE",
+      "family": "combination",
+      "changes": [{"soft_prune_epsilon": 0.10}, "neighbor_alignment"],
+      "purpose": "Combine graph denoising with paired and shared-neighbor alignment."
+    },
+    {
+      "id": "N13",
+      "name": "SOFT25_PLUS_PCGRAD",
+      "family": "combination",
+      "changes": [{"soft_prune_epsilon": 0.25}, "pcgrad"],
+      "purpose": "Moderate graph denoising plus conflict projection."
+    },
+    {
+      "id": "N14",
+      "name": "SOFT10_PLUS_PCGRAD_PLUS_BARLOW",
+      "family": "combination",
+      "changes": [{"soft_prune_epsilon": 0.10}, "pcgrad", "barlow_alignment"],
+      "purpose": "Mechanistically complementary three-part rescue, retained only if components are valid."
+    },
+    {
+      "id": "N15",
+      "name": "STAGED_SOFT10_PCGRAD_BARLOW",
+      "family": "combination",
+      "changes": [{"soft_prune_epsilon": 0.10}, "pcgrad", "barlow_alignment", "staging"],
+      "purpose": "Delay alignment while applying graph denoising and conflict projection."
+    }
+  ],
+  "selection_constraints": {
+    "no_single_seed_elimination": true,
+    "round1_family_rescue": "Retain the best positive, spatially valid member of graph, optimization, and alignment families before filling remaining slots by the locked score.",
+    "combination_interpretability": "N14 or N15 cannot be the sole promoted candidate unless at least one of N02/N03, N05, or N07/N09 shows non-negative evidence in the same round.",
+    "accuracy_spatial_frontier_preserved": true
+  }
+}
