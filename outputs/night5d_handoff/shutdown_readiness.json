@@ -1,5 +1,15 @@
 {
+  "branch": "revision/q2-night5d-locked-p22-confirmation-20260814",
+  "branch_push_verified": true,
+  "bundle_sha256": "e0c9916a8d241e80ab7c0f11be8858dd05b56e0a89ed37bdaa7dce62d88c6779",
+  "compact_tar_sha256": "9da6a9afd9bdb5ddfef98e3252ea96ba925768da7dd9f80cd9f35a55c94fa410",
+  "d_handoff": "D:\\??\\ChatGPT\\???????????\\night5d_handoff_20260814",
+  "delivery_index_verified": "22/22",
   "last_remote_command_required": "/usr/bin/shutdown",
-  "ready_after_git_push_delivery_and_dual_sha": false,
-  "shutdown_not_yet_dispatched": true
+  "ready_after_git_push_delivery_and_dual_sha": true,
+  "schema_version": 1,
+  "scientific_commit": "28dd6f0e28a2b1d22a9e6facbeeddae54e8d9125",
+  "shutdown_not_yet_dispatched": true,
+  "tag": "night5d-final-20260814",
+  "tag_push_verified": true
 }
