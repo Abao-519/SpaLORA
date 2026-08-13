@@ -1,0 +1,316 @@
+{
+  "candidates": [
+    {
+      "changes": [],
+      "config_sha256": "14aa62ccd02ddfd61723c894833d1631bdee4dfec651e4b10237faba69639492",
+      "family": "reference",
+      "id": "N00",
+      "name": "B01_C04_REFERENCE",
+      "purpose": "Immutable Night-5 balanced reference.",
+      "resolved": {
+        "alignment": null,
+        "graph": null,
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        "hard_prune"
+      ],
+      "config_sha256": "9b8f61ee6f0c1989410e3243f585f39779bfaa2806eb9025b98b8fe74f893ec0",
+      "family": "graph",
+      "id": "N01",
+      "name": "HARD_RNA_SHARED_EDGE",
+      "purpose": "Test the strongest clean shared-edge hypothesis with deterministic connectivity rescue.",
+      "resolved": {
+        "alignment": null,
+        "graph": [
+          "hard",
+          null
+        ],
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.1
+        }
+      ],
+      "config_sha256": "752d107c14b5f4da62ea54b9c01a23b36ae8f15b5861d5103ba9d2c891a5f779",
+      "family": "graph",
+      "id": "N02",
+      "name": "SOFT_RNA_PRUNE10",
+      "purpose": "Strongly downweight spatial edges unsupported by RNA neighborhoods without deleting them.",
+      "resolved": {
+        "alignment": null,
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.25
+        }
+      ],
+      "config_sha256": "1246554449d28c1d3f00d59b9861c12cd3653d93aa8491aa3847ac6a98887198",
+      "family": "graph",
+      "id": "N03",
+      "name": "SOFT_RNA_PRUNE25",
+      "purpose": "Moderate unsupported-edge downweighting.",
+      "resolved": {
+        "alignment": null,
+        "graph": [
+          "soft",
+          0.25
+        ],
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.5
+        }
+      ],
+      "config_sha256": "ec9b5535e27122988a2731baccea713b37bc61b68a4233aca43473236e74d9e4",
+      "family": "graph",
+      "id": "N04",
+      "name": "SOFT_RNA_PRUNE50",
+      "purpose": "Conservative unsupported-edge downweighting and graph-family dose response.",
+      "resolved": {
+        "alignment": null,
+        "graph": [
+          "soft",
+          0.5
+        ],
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        "pcgrad"
+      ],
+      "config_sha256": "4cb3c6bdb9e45bf10933bf2e29d76e4f6ad7f5028fefbb2c5d48c0b6be02b479",
+      "family": "optimization",
+      "id": "N05",
+      "name": "DETERMINISTIC_PCGRAD",
+      "purpose": "Resolve training-time gradient conflicts that initialization-only IGE cannot address.",
+      "resolved": {
+        "alignment": null,
+        "graph": null,
+        "optimization": "pcgrad",
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        "minnorm"
+      ],
+      "config_sha256": "0136ff4f38646f8ac23718771e43d4fd59aa1dd7959ba78f7f3bdb9fc78a8a1e",
+      "family": "optimization",
+      "id": "N06",
+      "name": "MINNORM_GRADIENT_BALANCE",
+      "purpose": "Independent conflict-aware optimization alternative inspired by multi-task balancing.",
+      "resolved": {
+        "alignment": null,
+        "graph": null,
+        "optimization": "minnorm",
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        "barlow_alignment"
+      ],
+      "config_sha256": "ceca807a592f1faa8b8719ec55d192043d3ceb4c79103b00d7a006830d2d1200",
+      "family": "alignment",
+      "id": "N07",
+      "name": "STANDARD_BARLOW_ALIGNMENT",
+      "purpose": "Encourage same-spot cross-modal agreement while reducing redundant dimensions.",
+      "resolved": {
+        "alignment": "barlow_alignment",
+        "graph": null,
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        "neighbor_alignment"
+      ],
+      "config_sha256": "ba3da7c8e16c3817a0582a27afd94cdecfe2a1968c14509773797b092c254de1",
+      "family": "alignment",
+      "id": "N08",
+      "name": "SHARED_NEIGHBOR_INFONCE",
+      "purpose": "Align paired spots and graph-supported neighbors without labels or pseudo-labels.",
+      "resolved": {
+        "alignment": "neighbor_alignment",
+        "graph": null,
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        "barlow_alignment",
+        "staging"
+      ],
+      "config_sha256": "601ddd214d413a442fa00c9335b02921dcd7460c328fed67a33cf0cf7ab7a6e8",
+      "family": "alignment",
+      "id": "N09",
+      "name": "STAGED_BARLOW_ALIGNMENT",
+      "purpose": "Avoid early alignment collapse while retaining the same fixed training budget.",
+      "resolved": {
+        "alignment": "barlow_alignment",
+        "graph": null,
+        "optimization": null,
+        "staged": true
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.1
+        },
+        "pcgrad"
+      ],
+      "config_sha256": "f1c9b5bc10e461364f1eb2be8e2138b7cb53d8424049174ec9bab86a7b351c50",
+      "family": "combination",
+      "id": "N10",
+      "name": "SOFT10_PLUS_PCGRAD",
+      "purpose": "Combine graph denoising with deterministic conflict projection.",
+      "resolved": {
+        "alignment": null,
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": "pcgrad",
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.1
+        },
+        "barlow_alignment"
+      ],
+      "config_sha256": "274ec15c21c4c89036cc5b7b0f2e161d3d7a23be0686269ff4f4a7a40a77d290",
+      "family": "combination",
+      "id": "N11",
+      "name": "SOFT10_PLUS_BARLOW",
+      "purpose": "Combine graph denoising with redundancy-reduced cross-modal alignment.",
+      "resolved": {
+        "alignment": "barlow_alignment",
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.1
+        },
+        "neighbor_alignment"
+      ],
+      "config_sha256": "2c407454c187f33697a2d78acf7b32fdd18341ce0ce740f46fe9fdafef1e5075",
+      "family": "combination",
+      "id": "N12",
+      "name": "SOFT10_PLUS_NEIGHBOR_INFONCE",
+      "purpose": "Combine graph denoising with paired and shared-neighbor alignment.",
+      "resolved": {
+        "alignment": "neighbor_alignment",
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": null,
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.25
+        },
+        "pcgrad"
+      ],
+      "config_sha256": "612a660f9ea7c782359fc883e525493c05f8a89dc177b5030f95376fdec1c372",
+      "family": "combination",
+      "id": "N13",
+      "name": "SOFT25_PLUS_PCGRAD",
+      "purpose": "Moderate graph denoising plus conflict projection.",
+      "resolved": {
+        "alignment": null,
+        "graph": [
+          "soft",
+          0.25
+        ],
+        "optimization": "pcgrad",
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.1
+        },
+        "pcgrad",
+        "barlow_alignment"
+      ],
+      "config_sha256": "3301a94a2f96eab0c5b26d6937879595bad4c8ff076f83c875822af855ea90d5",
+      "family": "combination",
+      "id": "N14",
+      "name": "SOFT10_PLUS_PCGRAD_PLUS_BARLOW",
+      "purpose": "Mechanistically complementary three-part rescue, retained only if components are valid.",
+      "resolved": {
+        "alignment": "barlow_alignment",
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": "pcgrad",
+        "staged": false
+      }
+    },
+    {
+      "changes": [
+        {
+          "soft_prune_epsilon": 0.1
+        },
+        "pcgrad",
+        "barlow_alignment",
+        "staging"
+      ],
+      "config_sha256": "7ffab0a8b6f9897b33b08b889d6d2a91f464ab744f4c43a1ae54cf4c70ff5d07",
+      "family": "combination",
+      "id": "N15",
+      "name": "STAGED_SOFT10_PCGRAD_BARLOW",
+      "purpose": "Delay alignment while applying graph denoising and conflict projection.",
+      "resolved": {
+        "alignment": "barlow_alignment",
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": "pcgrad",
+        "staged": true
+      }
+    }
+  ]
+}

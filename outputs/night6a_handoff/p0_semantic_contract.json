@@ -1,0 +1,127 @@
+{
+  "analytic_tests": "8/8 passed",
+  "fixed_endpoint": true,
+  "formal_training_units": 0,
+  "implementation_retry_units": 0,
+  "label_values_read": false,
+  "lower_is_better": [
+    "geary",
+    "boundary_disagreement"
+  ],
+  "n00_exact_mapping": "Night5 C04 shrink_to_uniform rho=.25 corr2_off active IGE",
+  "path_guards": [
+    "P22",
+    "D1"
+  ],
+  "real_a1_probe_steps": 2,
+  "real_a1_probes": {
+    "N00": {
+      "actual_mechanisms": [],
+      "final_state_sha256": "415f13dde2e9dff15515bd18aa02a05dd87f87e036381ca321815e831a9e1812",
+      "graph_sha256": "0fcf2328dc8e03dfab36b84a7e9838a4eb42ead2a010478b6371b7d283782d51",
+      "loss_last": {
+        "L_corr1_raw": 0.12199699133634567,
+        "L_corr2_raw": 0.21847064793109894,
+        "L_mod2_recon_raw": 1.0632439851760864,
+        "L_rna_recon_raw": 1.0014277696609497,
+        "attention_cross_entropy": 0.6888715028762817,
+        "auxiliary_contribution": 0.0,
+        "auxiliary_name": "none",
+        "auxiliary_raw": 0.0,
+        "auxiliary_weight": 0.0,
+        "checkpoint_state_sha256": "415f13dde2e9dff15515bd18aa02a05dd87f87e036381ca321815e831a9e1812",
+        "corr1_coefficient": 0.02844287261219164,
+        "corr1_contribution": 0.003469944883650327,
+        "corr2_coefficient": 0.0,
+        "corr2_contribution": 0.0,
+        "cross_weight0_mean": 0.5024300813674927,
+        "cross_weight1_mean": 0.49756988883018494,
+        "embedding_finite": true,
+        "fraction_of_training": 1.0,
+        "gradient_norm": 0.05065874116975544,
+        "mod2_recon_coefficient": 0.04093277226254186,
+        "mod2_recon_contribution": 0.04352152390473018,
+        "mod2_within_weight0_mean": 0.49831077456474304,
+        "mod2_within_weight1_mean": 0.5016891956329346,
+        "rna_recon_coefficient": 3.9306243551252664,
+        "rna_recon_contribution": 3.9362363813281043,
+        "rna_within_weight0_mean": 0.49993300437927246,
+        "rna_within_weight1_mean": 0.5000669956207275,
+        "step": 2,
+        "total_loss": 3.9832279682159424,
+        "wall_seconds": 0.27133230678737164
+      },
+      "nonfinite": 0
+    },
+    "N02": {
+      "actual_mechanisms": {
+        "alignment": null,
+        "graph": [
+          "soft",
+          0.1
+        ],
+        "optimization": null,
+        "staged": false
+      },
+      "final_state_sha256": "833269a46f11b80532e3ff602eeff745a112cc7122678e8499d15f207a2a84f0",
+      "graph_sha256": "af64abc8dc8065559cddd6f3255fb479bfe14105cfff6ec79b35cf60a4be34ca",
+      "loss_last": {
+        "alignment_enabled": true,
+        "alignment_raw": 0.0,
+        "alignment_weight": 0.0,
+        "nonfinite_gradient_count": 0,
+        "step": 2,
+        "total_loss": 3.990854501724243
+      },
+      "nonfinite": 0
+    },
+    "N05": {
+      "actual_mechanisms": {
+        "alignment": null,
+        "graph": null,
+        "optimization": "pcgrad",
+        "staged": false
+      },
+      "final_state_sha256": "f5823a486851e0cfa25200ce7b8012aea47564e73e38c54f8e85f42e479eab2d",
+      "graph_sha256": "0fcf2328dc8e03dfab36b84a7e9838a4eb42ead2a010478b6371b7d283782d51",
+      "loss_last": {
+        "alignment_enabled": true,
+        "alignment_raw": 0.0,
+        "alignment_weight": 0.0,
+        "nonfinite_gradient_count": 0,
+        "step": 2,
+        "total_loss": 3.9850218296051025
+      },
+      "nonfinite": 0
+    },
+    "N07": {
+      "actual_mechanisms": {
+        "alignment": "barlow_alignment",
+        "graph": null,
+        "optimization": null,
+        "staged": false
+      },
+      "final_state_sha256": "7d34c00bfde432d901deb1d040fe46227b319a008390e910bb64f1bdddf4893e",
+      "graph_sha256": "0fcf2328dc8e03dfab36b84a7e9838a4eb42ead2a010478b6371b7d283782d51",
+      "loss_last": {
+        "alignment_enabled": true,
+        "alignment_raw": 28.55280303955078,
+        "alignment_weight": 0.0005117425691897679,
+        "nonfinite_gradient_count": 0,
+        "step": 2,
+        "total_loss": 4.0011305809021
+      },
+      "nonfinite": 0
+    }
+  },
+  "registry_count": 16,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "P0_SEMANTIC_PASS",
+  "unique_config_sha_count": 16
+}
