@@ -1,0 +1,15 @@
+{
+  "advanced_candidates": [],
+  "authoritative_override_reason": "Pre-lock P0 numeric audit called anndata.read_h5ad on the original tonsil files. This deserialized obs values into memory even though no label column was indexed, logged, passed to training, or used for selection.",
+  "candidate_summaries": [],
+  "diagnostic_scientific_status": "NO_STRUCTURAL_RESCUE_CANDIDATE",
+  "label_access_after_lock": true,
+  "locked_candidates": [],
+  "parameter_tuning": false,
+  "reference_five_seed_complete": true,
+  "seed_search": false,
+  "stage": "R3",
+  "status": "NO_STRUCTURAL_RESCUE_CANDIDATE",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "withheld_access": false
+}

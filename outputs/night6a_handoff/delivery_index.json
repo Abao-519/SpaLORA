@@ -1,0 +1,92 @@
+{
+  "branch": "revision/q2-night6a-structural-rescue-20260814",
+  "files": [
+    {
+      "path": "night6a_report.md",
+      "sha256": "8cba120b670d2778353d7e314b7f2c9a7c3c215ef690d5ecfbc247700dceb26e",
+      "size_bytes": 3731
+    },
+    {
+      "path": "p0_data_and_label_firewall_audit.json",
+      "sha256": "425c980122906e714efde13f7586e5d44b23fddad335379f737cef336e0ad515",
+      "size_bytes": 1251
+    },
+    {
+      "path": "p0_semantic_contract.json",
+      "sha256": "2ca5ffd227f88540f590b06c7ceab2d679bae0920dd6242722158d4ee544b52f",
+      "size_bytes": 4124
+    },
+    {
+      "path": "candidate_registry_resolved.json",
+      "sha256": "317f378474bc4f3e6e3bea50b9411a7f522c0e437a79760bbf131d3ef1fa38e2",
+      "size_bytes": 8504
+    },
+    {
+      "path": "all_attempts_manifest.csv",
+      "sha256": "cc75d9393ffcb53009ef889e0e02ce81829a1d4d96515a3e6565ddee39689b5a",
+      "size_bytes": 23707
+    },
+    {
+      "path": "per_seed_metrics.csv",
+      "sha256": "771ec4759095982c9b0ae7c36aa8ed21a2aa0aa813b755496b71f975a6a7ede7",
+      "size_bytes": 11221
+    },
+    {
+      "path": "round1_decision.json",
+      "sha256": "29114a70645153498324e6ef38faf7ef22bd0aae47dabcc55bf2e72c0a6d2ebc",
+      "size_bytes": 27543
+    },
+    {
+      "path": "round2_decision.json",
+      "sha256": "0d57b01d733f171c5679b470e4f6e6e26afba47fcb6c10b734b3c9b923110560",
+      "size_bytes": 290
+    },
+    {
+      "path": "round3_decision.json",
+      "sha256": "248b701ee7c9c5f49a8cd7a189dbb6eee9811e2d487402748dc9b1096ebbd8a1",
+      "size_bytes": 684
+    },
+    {
+      "path": "graph_and_gradient_diagnostics/runtime_semantic_and_geometry.csv",
+      "sha256": "db89768aae59bf64e9acea1abac14aa77823d0bd9835a7034f4d431df32283bd",
+      "size_bytes": 9959
+    },
+    {
+      "path": "tests_and_invariance_audit.json",
+      "sha256": "b23cc0be774b2500143d5baeb7c3815cd1ba278d2c13f5ecbdb7f4f0746c404b",
+      "size_bytes": 1060
+    },
+    {
+      "path": "raw_artifact_manifest.csv",
+      "sha256": "2c741659786dc864786132dbb82235002000fa7f494365ea7b5eae447cb56d74",
+      "size_bytes": 47109
+    },
+    {
+      "path": "night6a_completion.json",
+      "sha256": "5f40856ed031141339423bdb120bd56be45baeb80386e045069083a4227ef3a5",
+      "size_bytes": 365
+    },
+    {
+      "path": "r1_training_manifest.json",
+      "sha256": "b628be6d29c3fd00f2e32f1a613ac91eb48f8d11750ff3750be7114b10ffddb0",
+      "size_bytes": 9857
+    },
+    {
+      "path": "r2_training_manifest.json",
+      "sha256": "202083211355050f976c969e270dcbd9aab395b4396b9def4e0b9b38df7f6d40",
+      "size_bytes": 1372
+    },
+    {
+      "path": "r3_training_manifest.json",
+      "sha256": "70cec244a161d975339c8f3b6fe174874260672febb3f39a45e37a8fe1fe72b9",
+      "size_bytes": 2939
+    }
+  ],
+  "planned_final_tag": "night6a-final-20260814",
+  "schema": "non-self-referential-v1",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "verification": {
+    "indexed_files": 16,
+    "missing": []
+  }
+}

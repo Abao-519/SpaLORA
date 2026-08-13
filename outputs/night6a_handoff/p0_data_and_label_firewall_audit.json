@@ -1,0 +1,36 @@
+{
+  "artifact_hash_verification": {
+    "artifacts_checked": 270,
+    "mismatches": []
+  },
+  "formal_training_inputs": "label-free tonsil copies/cache with zero obs columns; immutable A1/placenta caches",
+  "label_use_for_training_or_selection": false,
+  "post_lock_label_evaluation": {
+    "A1": "after 32/32 R1 lock",
+    "placenta": "after 9/9 R3 reference-only lock",
+    "tonsil": "after 4/4 R2 reference-only lock"
+  },
+  "protected_access": {
+    "D1": 0,
+    "GSE198353": 0,
+    "MISAR_training": 0,
+    "Night4B": 0,
+    "Night5D_metric_content": 0,
+    "P22": 0
+  },
+  "status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "strict_firewall_pass": false,
+  "training_units": {
+    "failed": 0,
+    "formal_success": 45,
+    "retries": 0
+  },
+  "violation": {
+    "impact": "Policy violation is irreversible; formal training later used low-level label-free copies, but Night-6A cannot be certified firewall-clean.",
+    "operation": "anndata.read_h5ad on original official tonsil RNA/ADT h5ad",
+    "phase": "P0-DATA numeric audit before any formal training",
+    "script": "scripts/p0_data_numeric.py",
+    "semantic_effect": "AnnData eagerly deserialized obs column values into memory",
+    "values_indexed_printed_exported_or_used": false
+  }
+}

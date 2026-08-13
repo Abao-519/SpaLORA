@@ -1,0 +1,32 @@
+{
+  "formal_runs": {
+    "budget_cap": 96,
+    "failure": 0,
+    "retry": 0,
+    "success": 45
+  },
+  "formal_runtime_semantic_contracts": "45/45 matched",
+  "invariance": {
+    "candidate_registry_count": 16,
+    "checkpoint_selection_by_label": false,
+    "failed_attempt_deletion": false,
+    "fixed_run_order": true,
+    "fixed_seeds": true,
+    "parameter_tuning": false,
+    "seed_search": false,
+    "unique_config_hashes": 16
+  },
+  "known_violation": "See p0_data_and_label_firewall_audit.json; pre-lock eager obs deserialization makes the authoritative terminal status invalid.",
+  "protected_history": {
+    "historical_files_modified": false,
+    "night5d_original_manifest_sha256": "a29853735d502baadd0e44be092bfa47e9b9d86299759d54422a6d1503f36560",
+    "night5d_recovery_index": "16/16 locally verified",
+    "upstream_parent": "fccffcff8fb591467b4f7a390897217ffb2617ff"
+  },
+  "raw_artifact_sha_verification": {
+    "checked": 270,
+    "mismatches": 0
+  },
+  "semantic_unit_tests": "8/8 passed",
+  "status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}
