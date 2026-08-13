@@ -1,0 +1,39 @@
+{
+  "deviations": [
+    {
+      "attempt": 1,
+      "retained_record": "preflight_attempt1_blocked_authority_overreach.json",
+      "scientific_impact": "none; 0 training, 0 transform, 0 label access",
+      "stage": "preflight",
+      "type": "authority_overreach_in_original_taskbook"
+    },
+    {
+      "attempt": 1,
+      "resolution": "used the taskbook-authorized immutable Night-3AF P22 cache to deterministically derive only the registered eta=1.0 anchor graph",
+      "scientific_impact": "none; 0 training, 0 transform, 0 label access",
+      "stage": "P0-CONFIRM",
+      "type": "assumed_nonexistent_P22_Night5A_label_free_artifact_directory"
+    },
+    {
+      "attempt": 2,
+      "resolution": "measured unperturbed repeat envelope; attention perturbation difference equaled ordinary CUDA sparse-repeat difference and attention gradients were zero/None",
+      "scientific_impact": "none; 0 training, 0 transform, 0 label access",
+      "stage": "P0-CONFIRM",
+      "type": "bitwise GPU perturbation check exceeded exact equality"
+    },
+    {
+      "attempt": 1,
+      "resolution": "frozen 50-row metric table retained; q derived from ARI/NMI without reopening labels",
+      "scientific_impact": "no method changes; aggregation-only resume",
+      "stage": "postlock_evaluation",
+      "type": "historical table omitted derived q column"
+    },
+    {
+      "resolution": "hard stop; no primary or secondary tests",
+      "scientific_impact": "confirmatory candidate conclusion unavailable",
+      "stage": "baseline_replay",
+      "type": "boundary_disagreement_definition_mismatch"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,369 @@
+{
+  "failure_count": 0,
+  "locked_before_any_semantic_label_access": true,
+  "runs": [
+    {
+      "candidate_id": "B00_C00_FULL_IGE",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B00_C00_FULL_IGE/seed_5/run_manifest.json",
+      "manifest_sha256": "2dd1642cdb41c07dc0453018b54f510d6c88e405ae70c2f0d0d8cd1cd5157fb6",
+      "seed": 5,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B00_C00_FULL_IGE",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B00_C00_FULL_IGE/seed_6/run_manifest.json",
+      "manifest_sha256": "ee4d9f481e1829eee74d739bd3340e86f2a05be48d84b2c22399ef646ec75225",
+      "seed": 6,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B00_C00_FULL_IGE",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B00_C00_FULL_IGE/seed_7/run_manifest.json",
+      "manifest_sha256": "474e5191a456fa8e26d1dc9841c527a3aa086ce7505059d198e882d69132d119",
+      "seed": 7,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B00_C00_FULL_IGE",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B00_C00_FULL_IGE/seed_8/run_manifest.json",
+      "manifest_sha256": "ba549fcb66d7c264f70c8e220e15790971cdfcfc248f5f7caf299bbcf5d0b266",
+      "seed": 8,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B00_C00_FULL_IGE",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B00_C00_FULL_IGE/seed_9/run_manifest.json",
+      "manifest_sha256": "c0d85dd1db6f39236debdf0ec4a7ced88fc83f15efa74cdf2530c2b66f00451e",
+      "seed": 9,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_0/run_manifest.json",
+      "manifest_sha256": "f26580900991cdce5b89fd9591d56503492edc14b11c1fa1c423d12d481fa5a0",
+      "seed": 0,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_1/run_manifest.json",
+      "manifest_sha256": "ed6bc9092bea49a67a21c2ed23898c9d2418d4afe3adb9264536678607703c84",
+      "seed": 1,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_2/run_manifest.json",
+      "manifest_sha256": "f9e6c411a2686b34a8ff40967f15d2cd68f9d4c3ff45cd9356afd704815cac82",
+      "seed": 2,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_3/run_manifest.json",
+      "manifest_sha256": "fb975a1831c09f7fc44b8b5d87846d2fba41d137834d4d68c632c2619d4664ed",
+      "seed": 3,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_4/run_manifest.json",
+      "manifest_sha256": "ce1520e9f210228e4c9c718a5d169dc9d5d3b72b5c75ab374a3a84c33a6d1df1",
+      "seed": 4,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_5/run_manifest.json",
+      "manifest_sha256": "9782c04fafaf7e8a7b09646e02acdc5dba1d7994f231bae7bec7b0c6700d9220",
+      "seed": 5,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_6/run_manifest.json",
+      "manifest_sha256": "0a71992e33e7b4426cc24ee9d4a7edd217718ce4e296b7f9723099580edc16dc",
+      "seed": 6,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_7/run_manifest.json",
+      "manifest_sha256": "cded4644639c35dee928562931871803cdef68126eb946a0751e3698dab954bf",
+      "seed": 7,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_8/run_manifest.json",
+      "manifest_sha256": "4013e6ce2b2a88f6d3ef352a5c986d8d97a5d8a8d7dadc90719e4ee0718fb2c0",
+      "seed": 8,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B01_C04_SHRINK25/seed_9/run_manifest.json",
+      "manifest_sha256": "6242188341005bdf73227fe61ea65c04119b4c7eb9639d012d302a8ea4165fd5",
+      "seed": 9,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_0/run_manifest.json",
+      "manifest_sha256": "0a31108238b84ee76833d9ca14f77c62c08652597f7138cc05964567aab351ae",
+      "seed": 0,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_1/run_manifest.json",
+      "manifest_sha256": "bf692da07a201d13d247e32f0abf9aeb65400490339c3676c91a42b55a0f07b3",
+      "seed": 1,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_2/run_manifest.json",
+      "manifest_sha256": "f903cf30fabdf5f1a7dc698c41d38ba23411c85d94f57ce373a8b6c5597fced5",
+      "seed": 2,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_3/run_manifest.json",
+      "manifest_sha256": "4d62fb3794f7c16a7c1e17fcb379278b71c1afd9036b36cfcc2c94ae2ce62d90",
+      "seed": 3,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_4/run_manifest.json",
+      "manifest_sha256": "14193220b03217447bb2d2e9859eecd6e552caf9fd52877772331a9bc7431f8b",
+      "seed": 4,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_5/run_manifest.json",
+      "manifest_sha256": "cdf4bf99a44463d5a8d1beb52f6ffe02458771c4bb96bbeb9b64b8dd85b7b63e",
+      "seed": 5,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_6/run_manifest.json",
+      "manifest_sha256": "11cf5e5b18ce3209901eda8d86cf2d868701913085d9aaa10c9063da88a684e4",
+      "seed": 6,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_7/run_manifest.json",
+      "manifest_sha256": "07f00faa9ba4fa754c3d61bc0319fb51d6dd2444bd4d3613d290f427098b64a7",
+      "seed": 7,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_8/run_manifest.json",
+      "manifest_sha256": "0e2f536a5512d83e960f28cf7991b636d3598ee26278574ac4ad5517ed2b5617",
+      "seed": 8,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B10_SHRINK25_ANCHOR10/seed_9/run_manifest.json",
+      "manifest_sha256": "1ef2f9184af36d99a9108c79e0f5f3a581d805e72bed3956d4afda86fbe26a05",
+      "seed": 9,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_0/run_manifest.json",
+      "manifest_sha256": "44541804afb205cd581511013c9afdbca6885f1294abe565145802529b1187ca",
+      "seed": 0,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "manifest_sha256": "e2884cc6b17283abeb26f5dfc9b2bfda7fd4cb325c21c8fa147947981fdf0ecb",
+      "seed": 1,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "manifest_sha256": "eede52d0f452dabd8a483bd061ebb7ad2fb236f4f0425e42c9af8d02f91f1e83",
+      "seed": 2,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_3/run_manifest.json",
+      "manifest_sha256": "927d0ebb671c8bcfa1a6e73741d85ca947b8d1ad8fb5d3a1085b9694274870fb",
+      "seed": 3,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_4/run_manifest.json",
+      "manifest_sha256": "333b555e8ad7f5c416916567062da385ad8c1eee74f1fd2e2f823aa3fcc795d9",
+      "seed": 4,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_5/run_manifest.json",
+      "manifest_sha256": "745bdf7135c8548e09dc1c5974b4d1da8a0bac68b6f5dc21cb7b811770ad6c52",
+      "seed": 5,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_6/run_manifest.json",
+      "manifest_sha256": "d5ea74ddc8d8355f00dbc2be67603f2081218cd2f310f9557db2bf08b752dbc7",
+      "seed": 6,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_7/run_manifest.json",
+      "manifest_sha256": "1e2051385789f0bff18cacbe5e96b2ce4a74bbd61c4b5a3f140a028eff8a7389",
+      "seed": 7,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_8/run_manifest.json",
+      "manifest_sha256": "5f644c73f838378c19eb75edc9188a75a3eb18d231dc7b0f6899addde220d6ce",
+      "seed": 8,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/C09_RNA_ANCHOR10/seed_9/run_manifest.json",
+      "manifest_sha256": "ca33fdc29a0bf3c264a19472684226fa43993b25ce9b03eb4a93ff1acdb25066",
+      "seed": 9,
+      "status": "success",
+      "type": "training"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_0/transform_manifest.json",
+      "manifest_sha256": "ba2a8eb1c09ba06516e7401dc7d132e0a3cebebaa079079df2690618435b6d38",
+      "seed": 0,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_1/transform_manifest.json",
+      "manifest_sha256": "e15fc27b423afcd05ae9d4f90d3aa7c299deb297f2e93f3258b948b4adacfe16",
+      "seed": 1,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_2/transform_manifest.json",
+      "manifest_sha256": "42dbe734931a5f8b1066d7dd6251dbe518700e8847d55b2c2b73a2bbbd2426de",
+      "seed": 2,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_3/transform_manifest.json",
+      "manifest_sha256": "b7b9a87cd091ca71c7c560a4b72198b526bba771ed14675485d2ab2cb5357073",
+      "seed": 3,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_4/transform_manifest.json",
+      "manifest_sha256": "6ca322995e112408987d0fdc2e5f02a9edbd571e00b330c7b9441ccaa121cc25",
+      "seed": 4,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_5/transform_manifest.json",
+      "manifest_sha256": "0cde645a530543c086a811391fe567a035b75f82cde4d62a1f35acbdecf54e1d",
+      "seed": 5,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_6/transform_manifest.json",
+      "manifest_sha256": "6270be7bde6aa6de52b99ceee1ec88269356609649c718e8210ad228f0968c00",
+      "seed": 6,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_7/transform_manifest.json",
+      "manifest_sha256": "7167bcb899ae6652c05c30725f8a6d7c160e31a9f7a0108366719107a32d0ca1",
+      "seed": 7,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_8/transform_manifest.json",
+      "manifest_sha256": "0e8b326615429b62520739161e503f3ffe041cad44eebbc5d53bf13fbc8a7085",
+      "seed": 8,
+      "status": "success",
+      "type": "transform"
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "manifest": "/root/autodl-fs/night5d_raw_runs_20260814/B17_C09_DIFFUSE10/seed_9/transform_manifest.json",
+      "manifest_sha256": "794111fbe1d1e3152d315b239d2100203197afc012ded0deef807689577c71aa",
+      "seed": 9,
+      "status": "success",
+      "type": "transform"
+    }
+  ],
+  "schema_version": 1,
+  "training_count": 35,
+  "transform_count": 10
+}

@@ -1,0 +1,10 @@
+{
+  "bootstrap_replicates_executed": 0,
+  "family": "two preregistered secondary contrasts",
+  "hard_stop": "BASELINE_REPLAY_MISMATCH",
+  "primary_tests_executed": 0,
+  "reason": "historical B00 boundary_disagreement failed the locked 1e-12 replay tolerance; no post-hoc metric substitution permitted",
+  "secondary_tests_executed": 0,
+  "signflip_permutations_executed": 0,
+  "status": "NOT_RUN"
+}

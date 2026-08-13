@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "parent_commit": "f8bba65ff3f1a3dacf310dd12f81f8b379315b22",
+  "branch": "revision/q2-night5d-locked-p22-confirmation-20260814",
+  "taskbook_sha256": "69b328755216519fe816391c891003b2618a64079c3011d665f8ef57f99d69a8",
+  "registry_sha256": "59d034fcf371816e24b22477bb757a104c931682e0b60a3d177a0f40e0d94721",
+  "erratum_sha256": "9d58f97ace35c39ee348cf206c6f9291d1157b0b822b92cd92f977c0d78010a7",
+  "historical_contract_rev1_sha256": "1b3fd2821e3111d9ddacf19ba34fbc18182b9aaa17a654031b0e21a93ecd31a5",
+  "archive_audit_sha256": "ed89c20e0bc909f7ea2ee479ef66c46a8fedba73399014a8be3d5fcb76c2c286",
+  "seeds": [0,1,2,3,4,5,6,7,8,9],
+  "ige_epsilon": 1e-12,
+  "clustering": {"method":"mclust","model":"EEE","pca_components":20,"random_seed":2020},
+  "statistics": {"signflip_permutations":1024,"bootstrap_replicates":100000,"bootstrap_seed":20260814,"confidence_level":0.95},
+  "paths": {
+    "output_root": "outputs/night5d_handoff",
+    "raw_runs": "/root/autodl-fs/night5d_raw_runs_20260814",
+    "historical_b00": "/root/autodl-fs/SpaLORA-night3b/outputs/night3b_handoff/runs/p22/FULL_IGE",
+    "night3b_metrics": "/root/autodl-fs/SpaLORA-night3b/outputs/night3b_handoff/per_seed_metrics.csv",
+    "night3af_root": "/root/autodl-fs/SpaLORA-night5a",
+    "cache_manifest": "/root/autodl-fs/SpaLORA-night5a/outputs/night3af_handoff/preprocessing_cache_manifest.json",
+    "label_free_artifacts": "/root/autodl-fs/night5a_label_free_artifacts_20260813/p22",
+    "registry": "docs/night5d_authoritative_inputs/SpaLORA_Night5D_Locked_P22_Registry_2026-08-14.json"
+  },
+  "label_firewall": {
+    "forbidden_modules_before_manifest_lock": ["SpaLORA.night1_evaluation","scripts.night3a_evaluate","scripts.night5d_evaluate"],
+    "ground_truth_open_forbidden_inside_scientific_window": true
+  },
+  "datasets": {"p22": {
+    "rna":"/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+    "rna_sha256":"7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+    "modality2":"/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+    "modality2_sha256":"1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+    "ground_truth":"/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+    "ground_truth_sha256":"ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+    "ground_truth_id_column":"Barcode","ground_truth_label_column":"manual-anno","ground_truth_id_rule":"identity",
+    "n_clusters":9,"hvg":2000,"spatial_neighbors":16,"legacy_datatype":"spatial ATAC-RNA-seq",
+    "embedding_dim":128,"epochs":1600,"loss_factors":[1.5,5.0,1.5,1.0],"locked_m_bad_expected":2.290322960
+  }}
+}

@@ -1,0 +1,32 @@
+{
+  "candidate_ranking_performed": false,
+  "confirmed_balanced_candidates": [],
+  "d1_run": false,
+  "deterministic_transforms_completed": 10,
+  "failed_historical_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "failed_metric": "boundary_disagreement",
+  "formal_benchmark_run": false,
+  "gse198353_run": false,
+  "max_abs_differences_by_seed": {
+    "0": 0.007510632768202685,
+    "1": 0.007736672640913322,
+    "2": 0.007802936093173812,
+    "3": 0.007813460288532692,
+    "4": 0.0075323402499432035
+  },
+  "method_changes_after_label_open": false,
+  "night4b_run": false,
+  "other_historical_metrics_match": true,
+  "p22_metric_rows_frozen_before_replay_gate": 50,
+  "primary_tests_executed": 0,
+  "schema_version": 1,
+  "secondary_tests_executed": 0,
+  "termination_status": "BASELINE_REPLAY_MISMATCH",
+  "training_units_completed": 35
+}

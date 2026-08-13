@@ -1,0 +1,13 @@
+{
+  "attempt": 1,
+  "cause": "original Night-5D taskbook exceeded the official Night-3B output contract by requiring never-promised model-state/checkpoint files",
+  "diffusion_completed": 0,
+  "diffusion_planned": 10,
+  "erratum_effect": "removes only the erroneous historical weight-file requirement; artifact and metric integrity standards are unchanged",
+  "history_modified": false,
+  "p22_semantic_label_access_count": 0,
+  "scientific_training_completed": 0,
+  "scientific_training_planned": 35,
+  "termination_status": "BLOCKED_PREFLIGHT",
+  "worktree_or_branch_created": false
+}

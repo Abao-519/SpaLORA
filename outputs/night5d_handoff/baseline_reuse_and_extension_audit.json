@@ -1,0 +1,80 @@
+{
+  "absence_expected_by_original_contract": true,
+  "all_match": false,
+  "historical_model_state_file_available": false,
+  "historical_seeds": [
+    {
+      "differences": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.007510632768202685,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17,
+        "spatial_cluster_geary_mean": 0.0,
+        "spatial_cluster_moran_mean": 0.0,
+        "spatial_neighbor_agreement": 0.0
+      },
+      "max_abs_difference": 0.007510632768202685,
+      "seed": 0,
+      "within_1e_12": false
+    },
+    {
+      "differences": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.007736672640913322,
+        "nmi": 0.0,
+        "q": 0.0,
+        "spatial_cluster_geary_mean": 0.0,
+        "spatial_cluster_moran_mean": 0.0,
+        "spatial_neighbor_agreement": 0.0
+      },
+      "max_abs_difference": 0.007736672640913322,
+      "seed": 1,
+      "within_1e_12": false
+    },
+    {
+      "differences": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.007802936093173812,
+        "nmi": 0.0,
+        "q": 0.0,
+        "spatial_cluster_geary_mean": 0.0,
+        "spatial_cluster_moran_mean": 0.0,
+        "spatial_neighbor_agreement": 0.0
+      },
+      "max_abs_difference": 0.007802936093173812,
+      "seed": 2,
+      "within_1e_12": false
+    },
+    {
+      "differences": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.007813460288532692,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17,
+        "spatial_cluster_geary_mean": 0.0,
+        "spatial_cluster_moran_mean": 0.0,
+        "spatial_neighbor_agreement": 0.0
+      },
+      "max_abs_difference": 0.007813460288532692,
+      "seed": 3,
+      "within_1e_12": false
+    },
+    {
+      "differences": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0075323402499432035,
+        "nmi": 0.0,
+        "q": 0.0,
+        "spatial_cluster_geary_mean": 0.0,
+        "spatial_cluster_moran_mean": 0.0,
+        "spatial_neighbor_agreement": 0.0
+      },
+      "max_abs_difference": 0.0075323402499432035,
+      "seed": 4,
+      "within_1e_12": false
+    }
+  ],
+  "numerical_artifacts_verified": true,
+  "state_hash_only": true,
+  "weight_level_analysis_forbidden": true
+}

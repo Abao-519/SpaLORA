@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status": "AUTHORITATIVE_REVISION",
+  "authority_parent_commit": "f8bba65ff3f1a3dacf310dd12f81f8b379315b22",
+  "original_taskbook": {
+    "path": "SpaLORA_Night5D_Locked_P22_Confirmation_Taskbook_2026-08-14.md",
+    "sha256": "69b328755216519fe816391c891003b2618a64079c3011d665f8ef57f99d69a8"
+  },
+  "locked_registry": {
+    "path": "SpaLORA_Night5D_Locked_P22_Registry_2026-08-14.json",
+    "sha256": "59d034fcf371816e24b22477bb757a104c931682e0b60a3d177a0f40e0d94721"
+  },
+  "scope": "Night-3B P22 FULL_IGE seeds 0-4 historical B00 numerical reuse only",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "official_night3b_output_contract": {
+    "model_state_file_expected": false,
+    "model_state_file_absence_is_blocker": false,
+    "checkpoint_state_files_expected": false,
+    "checkpoint_index_state_file_saved_expected": false,
+    "final_state_sha256_expected_in_manifest": true,
+    "initial_state_sha256_expected_in_manifest": true,
+    "required_hashed_artifacts": [
+      "attention.npz",
+      "checkpoint_index.csv",
+      "clusters.csv",
+      "coefficient_probe.json",
+      "embedding.npz",
+      "gradient_influence_trajectory.csv",
+      "loss_trajectory.csv",
+      "observation_ids.csv"
+    ],
+    "required_checkpoint_index_rows": 10,
+    "required_final_step": 1600,
+    "last_checkpoint_state_sha_must_equal_manifest_final_state_sha": true
+  },
+  "required_preflight_checks": [
+    "All five official run_manifest.json files identify dataset p22, variant FULL_IGE and the matching seed.",
+    "Every required artifact exists and its recomputed SHA-256 equals run_manifest.artifact_sha256.",
+    "Every checkpoint_index.csv has exactly 10 registered rows and state_file_saved=False for every row.",
+    "The last checkpoint row is step 1600 and its state_sha256 equals run_manifest.final_state_sha256.",
+    "Manifest initial_state_sha256 and final_state_sha256 are present and valid 64-character lowercase SHA-256 strings.",
+    "The run manifest and artifacts are covered by the official Night-3B delivery inventory/SHA protection.",
+    "Current code can reconstruct the matching initial state and initial no-label probe from the locked seed, code and immutable cache; this check must not retrain or overwrite the historical run.",
+    "After the Night-5D total training/transform lock and label-window opening, historical clusters/embeddings are re-evaluated and seeds 0-4 metrics match the locked Night-3B metrics within the taskbook tolerance."
+  ],
+  "explicitly_forbidden": [
+    "Treating the absent model-state file as if it had been verified.",
+    "Substituting any Night-3AF model_final.pt for a Night-3B FULL_IGE state.",
+    "Reconstructing or fabricating a checkpoint file from a recorded state hash.",
+    "Rerunning Night-3B B00 seeds 0-4 to replace the historical numerical baseline.",
+    "Claiming historical final weights are reloadable or available for checkpoint-level analysis."
+  ],
+  "permitted_scientific_use": [
+    "Reuse the SHA-verified historical embedding and clusters as B00 numerical baseline for seeds 0-4.",
+    "Recompute ARI, NMI, Q and spatial metrics from the verified outputs after the label firewall opens.",
+    "Pair each historical B00 seed 0-4 metric with the same Night-5D candidate seed in preregistered statistics."
+  ],
+  "scientific_limitation": "The historical B00 outputs are auditable numerical result artifacts, but their final model weights were intentionally not delivered and cannot support final-weight reload, checkpoint perturbation, or weight-level reproducibility claims.",
+  "decision": "SUFFICIENT_FOR_HISTORICAL_NUMERICAL_BASELINE_REUSE_IF_AND_ONLY_IF_ALL_REQUIRED_CHECKS_PASS"
+}

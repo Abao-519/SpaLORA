@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "study": "Night-5D locked P22 confirmation",
+  "authority_parent_commit": "f8bba65ff3f1a3dacf310dd12f81f8b379315b22",
+  "authority_parent_tag": "night5c-final-20260814",
+  "selection_authority": {
+    "path": "night5c_handoff_20260814/handoff/selected_for_future_locked_p22.json",
+    "sha256": "f818ae2309e2faaaa90888853162765f10f0740c3ec80bbd6bfd9a3d727859a4"
+  },
+  "dataset": {
+    "id": "p22",
+    "rna": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+    "rna_sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+    "modality2": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+    "modality2_sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+    "ground_truth": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+    "ground_truth_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+    "ground_truth_id_column": "Barcode",
+    "ground_truth_label_column": "manual-anno",
+    "ground_truth_id_rule": "identity",
+    "n_clusters": 9,
+    "hvg": 2000,
+    "spatial_neighbors": 16,
+    "embedding_dim": 128,
+    "epochs": 1600,
+    "loss_factors": [
+      1.5,
+      5.0,
+      1.5,
+      1.0
+    ],
+    "locked_m_bad_expected": 2.290322960,
+    "immutable_cache_source": "Night-3AF published deterministic P22 cache"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "clustering": {
+    "method": "mclust",
+    "model": "EEE",
+    "pca_components": 20,
+    "random_seed": 2020
+  },
+  "reference": {
+    "id": "B00_C00_FULL_IGE",
+    "role": "historical_reference",
+    "config_sha256": "c07fc7067c342250897fc538147a1c68648653fb04f2325cb4662d8e889b91ac",
+    "source_candidate": "C00_FULL_IGE",
+    "attention": "learned",
+    "corr2": true,
+    "loss_calibration": "IGE",
+    "seeds_0_4_policy": "reuse_and_reverify_locked_Night3B_FULL_IGE",
+    "seeds_5_9_policy": "new_exact_same_implementation_training"
+  },
+  "locked_candidates": [
+    {
+      "id": "B01_C04_SHRINK25",
+      "role": "conservative_confirmatory_anchor",
+      "config_sha256": "d643bfdebfbba447d7656ba334ccdfb9cc932874c7f34ba23d9c95ff840b3820",
+      "source_candidate": "C04_SHRINK25",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "corr2": false,
+      "loss_calibration": "active_set_IGE",
+      "training_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "B10_SHRINK25_ANCHOR10",
+      "role": "primary_integrated_balanced_method",
+      "config_sha256": "4984e467294a3047924984952eaf0e8e63ee63c64319c2ffe8b4f3bd60e3d22f",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "corr2": false,
+      "rna_anchor_eta": 1.0,
+      "loss_calibration": "active_set_IGE",
+      "training_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "B17_C09_DIFFUSE10",
+      "role": "prespecified_accuracy_enhanced_variant",
+      "config_sha256": "fda31ad9ccef53f07606d42004bdd8556794c41b1824cc49ad52656760bfc738",
+      "source": {
+        "id": "C09_RNA_ANCHOR10",
+        "source_config_sha256": "9b899da8fb845f1076f08a5ae6dd9bb0250698205de590878bba7ad654111376",
+        "attention": "uniform_all",
+        "corr2": false,
+        "rna_anchor_eta": 1.0,
+        "loss_calibration": "active_set_IGE",
+        "training_seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "posthoc": {
+        "formula": "L2Normalize((1-alpha)*z + alpha*A_spatial_hat*z)",
+        "diffusion_alpha": 0.1,
+        "diffusion_steps": 1,
+        "adjacency": "immutable Night-3AF symmetric normalized sparse P22 spatial adjacency with self loops"
+      }
+    }
+  ],
+  "primary_contrasts": [
+    "B01_C04_SHRINK25 minus B00_C00_FULL_IGE",
+    "B10_SHRINK25_ANCHOR10 minus B00_C00_FULL_IGE",
+    "B17_C09_DIFFUSE10 minus B00_C00_FULL_IGE"
+  ],
+  "secondary_mechanistic_contrasts": [
+    "B10_SHRINK25_ANCHOR10 minus B01_C04_SHRINK25",
+    "B17_C09_DIFFUSE10 minus C09_RNA_ANCHOR10"
+  ],
+  "forbidden": [
+    "candidate_addition",
+    "parameter_change",
+    "seed_search",
+    "label_based_checkpoint_selection",
+    "intermediate_label_evaluation",
+    "early_stopping_from_P22_metrics",
+    "D1",
+    "GSE198353",
+    "Night-4B",
+    "formal_external_benchmark"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "audit_scope": "Official Night-3B full archive, outputs/night3b_handoff/runs/p22/FULL_IGE seeds 0-4",
+  "audit_mode": "read_only_independent_local_archive_verification",
+  "seed_count": 5,
+  "required_artifacts_per_seed": 8,
+  "artifact_hashes_verified": 40,
+  "artifact_hash_failures": 0,
+  "model_state_files_found": 0,
+  "model_state_absence_matches_original_runner": true,
+  "checkpoint_rows_per_seed": 10,
+  "all_checkpoint_state_file_saved_false": true,
+  "all_last_steps_equal_1600": true,
+  "all_last_state_sha_match_manifest_final_state_sha": true,
+  "seeds": [
+    {
+      "seed": 0,
+      "run_manifest_sha256": "d279f58020c7109d8c773207051f4d385053761b396159ebc9bbe39732d0fc7d",
+      "initial_state_sha256": "1280b01fd58ef7b77188a9b0072ace34226f2aa6498496f8fbdd386482c71d60",
+      "final_state_sha256": "9bb54e5762d71aeea49a76dcc1a077d7ea956fa9ffde3664285230d5127bd094",
+      "embedding_sha256": "85cb9de06a78081da8180d8ecaf656a722c5438f2036863482ab1c9a0afbc4d1",
+      "clusters_sha256": "17ee8ddbd9c9851822ba97ba18dda747e698d81f72a6459ad4803f88fe07575c",
+      "attention_sha256": "dfb84950f8e7379ac6c9b845fcc512cfe9eb24d65f2a8d7757d3f054c82992cc",
+      "checkpoint_index_sha256": "b2f72c118054195aeca77f82e8dcb8450e72840b0a696f907b26f9bc64126814"
+    },
+    {
+      "seed": 1,
+      "run_manifest_sha256": "2a73943b1938ad7c50cceb9309d209391d8c3e2816e106715cda39fff6763d28",
+      "initial_state_sha256": "5433a390e72bc7bf9cc8e07c3d33f178a13bc7e6ac6235caef81251a9d5caf94",
+      "final_state_sha256": "da739c12e8de5279fd43c2fe498eedc894e147a0183f43e84618f9e4f53514b4",
+      "embedding_sha256": "94755883bf64a857be8f23ba4bf826f855ded956345fa32162efcb8421d22b33",
+      "clusters_sha256": "f8625753f338c543e471cc467ab33eb0074b070457f78235d0282450a917901a",
+      "attention_sha256": "9063d372ccde28768ecd559d49c83b364be4e11b3579abb9808782721736fccb",
+      "checkpoint_index_sha256": "5a4bcc739c7287da9fac1eb9839759c6dd6cd2f0befe7ea69f5fdb7164f87d03"
+    },
+    {
+      "seed": 2,
+      "run_manifest_sha256": "1163f2b6775ad5b7c301f8c5131a52b4cc2158bf01a77881800f38f9af8cbc5c",
+      "initial_state_sha256": "5f4d40bae0f229a31cb71b7278d630d355323a2154e08dd82150b4ca2338aaea",
+      "final_state_sha256": "0d0c17cde164f4ab0667f204dfb2b69aae4191988f706823942eb8fa8a5a802f",
+      "embedding_sha256": "a4716b3fc713fe9a94df3a0317c046d570d406a5bfa3623f1ab28bc6758161f0",
+      "clusters_sha256": "d03b05ebe6caea9f311a36a3d65ea9688282291dd847a84b89a33ff192f439e5",
+      "attention_sha256": "fd74ec01fd9ec5a5684cb700ca04b7db0130dfcc0774ed990b1c187411626679",
+      "checkpoint_index_sha256": "3e693a6a2017ea6e69bebac190adeee98456210a76f91708e7dde072609fa903"
+    },
+    {
+      "seed": 3,
+      "run_manifest_sha256": "a98d4454e6417f9166b96ee0353574d7636f00c0a2ff7a408370c45f5b941b63",
+      "initial_state_sha256": "bb57e92b5764579114a1c6ddd18da72ae18bcf09aad986f0b44fcd2101f65279",
+      "final_state_sha256": "cdf265b6f6996c166497aa213b8e6d2a3577b5663756fb8d495088fc8a221d79",
+      "embedding_sha256": "7dd9024b632b319fd51bbf1b51baafb1edbf3c429a729264f7d69d36cb0a9ad4",
+      "clusters_sha256": "7208c34c5de255fa77d25a462ff75473351e7b96d6f3d309000064832545746a",
+      "attention_sha256": "4d4f860bcf647aa289889216a07b7d6b72c6a95c5ed7235d9f35294eb2ffd9ce",
+      "checkpoint_index_sha256": "fdb78e0cc20ed76d84a2e5419bed0d0acec3d6a336cd2e1e26fdb0fb59a9fb73"
+    },
+    {
+      "seed": 4,
+      "run_manifest_sha256": "e57edf580d3dc7ba3893b8b61b36e23096ee8e1f3f4987acc7c8f178fa52d4fd",
+      "initial_state_sha256": "444eaef47d8295ef702a7983d43591a1a249f8b41c4ddc814f0d17e9e134c818",
+      "final_state_sha256": "1feffaa131b810c7bc56ce11bdad18c46e538b9b03d4b47b050b2c99d652ff73",
+      "embedding_sha256": "87b8232b7ee6f3f03411b791dc02614068d2b72b80c7f17b6c98de66d5f76be8",
+      "clusters_sha256": "9a7f0a1365f34985e528a095a2a15f40dde0f029212d10fd3790d033a867fbcd",
+      "attention_sha256": "437bc62d97a6ba3c8a23748aaac8a636438a807ed13dd35bb695f77aff1ff24c",
+      "checkpoint_index_sha256": "4432382ed2c4667f9fae03f1beb153f71afe1f3a0086aaaf7f369d66c248f301"
+    }
+  ],
+  "conclusion": "Official numerical artifacts are complete and SHA-verifiable; final model weights were intentionally not delivered. Suitable for numerical baseline reuse under the REV1 contract, unsuitable for final-weight reload or checkpoint-level analyses."
+}

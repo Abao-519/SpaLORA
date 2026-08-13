@@ -1,0 +1,18 @@
+{
+  "eta": 1.0,
+  "graph_tensor_sha256": "98506c1e86c50c33dea8ae147baf184ab7174e15266196e056beb40a3a099517",
+  "semantic_label_access": false,
+  "source": "immutable_night3af_p22_cache",
+  "stats": {
+    "common_edge_fraction": 0.01860049894829526,
+    "common_undirected_edges": 1521,
+    "eta": 1.0,
+    "maximum_raw_degree_with_self_loop": 34.0,
+    "minimum_raw_degree_with_self_loop": 17.0,
+    "n_observations": 9196,
+    "original_spatial_support_preserved": true,
+    "spatial_connected_components": 1,
+    "spatial_undirected_edges": 81772,
+    "symmetric_normalized": true
+  }
+}
