@@ -1,0 +1,51 @@
+{
+  "decisions": [
+    {
+      "contrast": "B01_C04_SHRINK25-B00_C00_FULL_IGE",
+      "delta_geary": 0.02093543875318604,
+      "delta_moran": -0.019981666758361417,
+      "delta_neighbor": 0.0002453512396694224,
+      "family": "primary",
+      "spatial_protection_failed": false,
+      "spatial_protection_passed": true
+    },
+    {
+      "contrast": "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE",
+      "delta_geary": 0.024340920695309597,
+      "delta_moran": -0.023512221556934554,
+      "delta_neighbor": -0.006905855806872574,
+      "family": "primary",
+      "spatial_protection_failed": false,
+      "spatial_protection_passed": true
+    },
+    {
+      "contrast": "B17_C09_DIFFUSE10-B00_C00_FULL_IGE",
+      "delta_geary": 0.03361150224183004,
+      "delta_moran": -0.03310331991424913,
+      "delta_neighbor": -0.010318344932579382,
+      "family": "primary",
+      "spatial_protection_failed": true,
+      "spatial_protection_passed": false
+    },
+    {
+      "contrast": "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25",
+      "delta_geary": 0.003405481942123556,
+      "delta_moran": -0.0035305547985731377,
+      "delta_neighbor": -0.0071512070465419965,
+      "family": "secondary",
+      "spatial_protection_failed": false,
+      "spatial_protection_passed": true
+    },
+    {
+      "contrast": "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10",
+      "delta_geary": -0.01236993836007065,
+      "delta_moran": 0.012442650209254802,
+      "delta_neighbor": 0.00902090582862114,
+      "family": "secondary",
+      "spatial_protection_failed": false,
+      "spatial_protection_passed": true
+    }
+  ],
+  "rule_1": "neighbor<-0.03 and moran<-0.03",
+  "rule_2": "geary>0.03 and (neighbor<-0.03 or moran<-0.03)"
+}

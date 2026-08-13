@@ -1,0 +1,34 @@
+{
+  "authority_parent_commit": "d167fcf790096208ba0148c9ae732dffb7adc8b4",
+  "authority_parent_tag": "night5d-final-20260814",
+  "candidate_ids": [
+    "B00_C00_FULL_IGE",
+    "B01_C04_SHRINK25",
+    "B10_SHRINK25_ANCHOR10",
+    "B17_C09_DIFFUSE10",
+    "C09_RNA_ANCHOR10"
+  ],
+  "canonical_boundary_definition": "1.0-spatial_neighbor_agreement",
+  "diffusion_transforms": 0,
+  "frozen_input_sha256": "f1140157243cbf2c3760e2fd5b5eaa9f28dfd73d246a86759e8ef285577cd11a",
+  "gpu_devices": 0,
+  "old_output_file_count": 25,
+  "old_output_manifest_sha256_at_start": "a29853735d502baadd0e44be092bfa47e9b9d86299759d54422a6d1503f36560",
+  "p22_semantic_label_reads": 0,
+  "row_count": 50,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "status": "P0_RECOVERY_PASSED",
+  "training_units": 0,
+  "unique_primary_keys": 50
+}

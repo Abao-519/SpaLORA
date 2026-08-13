@@ -1,0 +1,33 @@
+{
+  "alternative": "gain",
+  "permutations": 1024,
+  "primary": [
+    {
+      "contrast": "B01_C04_SHRINK25-B00_C00_FULL_IGE",
+      "exact_p": 0.1328125,
+      "holm_p": 0.3662109375
+    },
+    {
+      "contrast": "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE",
+      "exact_p": 0.2294921875,
+      "holm_p": 0.3662109375
+    },
+    {
+      "contrast": "B17_C09_DIFFUSE10-B00_C00_FULL_IGE",
+      "exact_p": 0.1220703125,
+      "holm_p": 0.3662109375
+    }
+  ],
+  "secondary": [
+    {
+      "contrast": "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25",
+      "exact_p": 0.708984375,
+      "holm_p": 0.91015625
+    },
+    {
+      "contrast": "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10",
+      "exact_p": 0.455078125,
+      "holm_p": 0.91015625
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "chains": [
+    {
+      "evidence": "previously_recorded",
+      "from": "28dd6f0e28a2b1d22a9e6facbeeddae54e8d9125",
+      "to": "851edab74027a2ce2607767aafae97576afb1c17"
+    },
+    {
+      "evidence": "user_reported_and_final_remote_peel_verified",
+      "from": "851edab74027a2ce2607767aafae97576afb1c17",
+      "to": "d167fcf790096208ba0148c9ae732dffb7adc8b4"
+    }
+  ],
+  "classification": "git_process_deviation_not_scientific_data_deviation",
+  "night5c_and_earlier_history_rewritten": false,
+  "old_deviation_record_overwritten": false,
+  "scientific_results_changed": false
+}

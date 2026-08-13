@@ -1,0 +1,61 @@
+{
+  "max_abs_errors": {
+    "ari": 0.0,
+    "boundary_disagreement": 0.0,
+    "nmi": 0.0,
+    "q": 0.0,
+    "spatial_cluster_geary_mean": 0.0,
+    "spatial_cluster_moran_mean": 0.0,
+    "spatial_neighbor_agreement": 0.0
+  },
+  "night3b_boundary_identity_max_error": 0.0,
+  "passed": true,
+  "per_seed_abs_errors": {
+    "0": {
+      "ari": 0.0,
+      "boundary_disagreement": 0.0,
+      "nmi": 0.0,
+      "q": 0.0,
+      "spatial_cluster_geary_mean": 0.0,
+      "spatial_cluster_moran_mean": 0.0,
+      "spatial_neighbor_agreement": 0.0
+    },
+    "1": {
+      "ari": 0.0,
+      "boundary_disagreement": 0.0,
+      "nmi": 0.0,
+      "q": 0.0,
+      "spatial_cluster_geary_mean": 0.0,
+      "spatial_cluster_moran_mean": 0.0,
+      "spatial_neighbor_agreement": 0.0
+    },
+    "2": {
+      "ari": 0.0,
+      "boundary_disagreement": 0.0,
+      "nmi": 0.0,
+      "q": 0.0,
+      "spatial_cluster_geary_mean": 0.0,
+      "spatial_cluster_moran_mean": 0.0,
+      "spatial_neighbor_agreement": 0.0
+    },
+    "3": {
+      "ari": 0.0,
+      "boundary_disagreement": 0.0,
+      "nmi": 0.0,
+      "q": 0.0,
+      "spatial_cluster_geary_mean": 0.0,
+      "spatial_cluster_moran_mean": 0.0,
+      "spatial_neighbor_agreement": 0.0
+    },
+    "4": {
+      "ari": 0.0,
+      "boundary_disagreement": 0.0,
+      "nmi": 0.0,
+      "q": 0.0,
+      "spatial_cluster_geary_mean": 0.0,
+      "spatial_cluster_moran_mean": 0.0,
+      "spatial_neighbor_agreement": 0.0
+    }
+  },
+  "tolerance": 1e-12
+}

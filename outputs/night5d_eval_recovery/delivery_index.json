@@ -1,0 +1,68 @@
+{
+  "excluded": [
+    "delivery_index.json"
+  ],
+  "files": [
+    {
+      "path": "baseline_replay_recovery_audit.json",
+      "sha256": "072ff32fc5808b37566147169eae03dfa369e48f0dedbfada6e290e49eb5447f",
+      "size": 1483
+    },
+    {
+      "path": "bootstrap_100000.json",
+      "sha256": "aef2b23deeb4829c2ce1e0487f669aa2955f02a2c01dffb2518c1c92b0393d05",
+      "size": 5579
+    },
+    {
+      "path": "canonical_p22_per_seed_metrics.csv",
+      "sha256": "2368e79de0075ebfdea7f07c12b7e7b5b6edbc07e41acdc0593238765287233c",
+      "size": 14024
+    },
+    {
+      "path": "exact_signflip_and_holm.json",
+      "sha256": "f55f0e5bbec97c0e67fd9b3c0445ebefb55212d7f928638e3b878da018519f58",
+      "size": 735
+    },
+    {
+      "path": "night5d_evaluation_recovery_report.md",
+      "sha256": "332f1c232b18551b77993f0388087fec674d4c0de1f6a126dd40b5ea520d1473",
+      "size": 2262
+    },
+    {
+      "path": "night5d_tag_force_update_correction.json",
+      "sha256": "7a5e747fe48f19e9310eb61346278e4030c3679d914e99ea755deccb637ac717",
+      "size": 589
+    },
+    {
+      "path": "p0_recovery_contract.json",
+      "sha256": "69fde034d0dc716008c44c9cfc2e13a18c2bf57e7ff9cc29d2d5fedcca345f12",
+      "size": 855
+    },
+    {
+      "path": "p22_evaluation_recovery_decision.json",
+      "sha256": "6c2bd191098ec2ad601218befc53517579b2db22722098c72a073e3a067ec977",
+      "size": 2790
+    },
+    {
+      "path": "primary_contrasts.csv",
+      "sha256": "16a02c595b0a0fbb12edc19afc81c0c0e09b19ae6ce1ed95c5f8a995749c67ec",
+      "size": 1322
+    },
+    {
+      "path": "secondary_contrasts.csv",
+      "sha256": "b44669189e4b537e9e1a371665076fe7a3ec849dc09f17e5bb3f65ebd8f7a7a9",
+      "size": 786
+    },
+    {
+      "path": "spatial_protection_decisions.json",
+      "sha256": "4b283bc9091c825f29faa39ce6b28f68ad50df77b834d6c9bdbeef7b738a05d2",
+      "size": 1699
+    },
+    {
+      "path": "tests_and_invariance_audit.json",
+      "sha256": "74f9e1ca28ed7b9a675f7006f3db768ac20e4647347d701a83b290e9f77d6a38",
+      "size": 1638
+    }
+  ],
+  "schema": "non_self_referential_v1"
+}

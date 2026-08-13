@@ -1,0 +1,55 @@
+{
+  "diffusion_transforms": 0,
+  "gpu_devices": 0,
+  "old_output_file_count_end": 25,
+  "old_output_file_count_start": 25,
+  "old_output_manifest_sha256_end": "a29853735d502baadd0e44be092bfa47e9b9d86299759d54422a6d1503f36560",
+  "old_output_manifest_sha256_start": "a29853735d502baadd0e44be092bfa47e9b9d86299759d54422a6d1503f36560",
+  "old_outputs_byte_identical": true,
+  "planner_reference_abs_errors": {
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE": [
+      5.989181373067254e-12,
+      3.060738077917402e-11,
+      1.2309108593511198e-11,
+      0.0,
+      0.0,
+      0.0,
+      1.6246549244813835e-11,
+      4.8821252596198406e-11,
+      3.9669422423598694e-11,
+      4.163858147165911e-11,
+      4.681396242878222e-11
+    ],
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE": [
+      1.010685632407693e-11,
+      1.3935822981703261e-11,
+      3.797866361676672e-11,
+      0.0,
+      0.0,
+      0.0,
+      1.3779897362065086e-12,
+      4.2902705693625975e-11,
+      6.872573690697159e-12,
+      4.3065447041801264e-11,
+      4.690404314944274e-12
+    ],
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE": [
+      6.74205483108814e-12,
+      2.6199606720234137e-12,
+      4.5318995084420166e-11,
+      0.0,
+      0.0,
+      0.0,
+      1.9770266153351645e-11,
+      9.595137184792435e-12,
+      3.257938190059928e-11,
+      1.4249129653975956e-11,
+      4.1830039432255717e-11
+    ]
+  },
+  "planner_reference_recalculation_passed": true,
+  "planner_reference_tolerance": 5e-10,
+  "recovery_required_tests": 11,
+  "tests_log": "..............                                                           [100%]\n14 passed in 7.40s\n",
+  "training_units": 0
+}

@@ -1,0 +1,193 @@
+{
+  "call_order": [
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:ari",
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:nmi",
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:q",
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:neighbor",
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:moran",
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:geary",
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE:boundary",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:ari",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:nmi",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:q",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:neighbor",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:moran",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:geary",
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE:boundary",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:ari",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:nmi",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:q",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:neighbor",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:moran",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:geary",
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE:boundary",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:ari",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:nmi",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:q",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:neighbor",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:moran",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:geary",
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25:boundary",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:ari",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:nmi",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:q",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:neighbor",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:moran",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:geary",
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10:boundary"
+  ],
+  "contrasts": {
+    "B01_C04_SHRINK25-B00_C00_FULL_IGE": {
+      "ari": {
+        "high": 0.0518009589890313,
+        "low": -0.00840017538235996
+      },
+      "boundary": {
+        "high": 0.009036537625054363,
+        "low": -0.009198292735972169
+      },
+      "geary": {
+        "high": 0.028922178472870187,
+        "low": 0.013327456492837049
+      },
+      "moran": {
+        "high": -0.01251331519906111,
+        "low": -0.02772393545882489
+      },
+      "neighbor": {
+        "high": 0.009199652022618543,
+        "low": -0.008928525309917373
+      },
+      "nmi": {
+        "high": 0.013578917081737411,
+        "low": -0.01135614443608127
+      },
+      "q": {
+        "high": 0.03179858884882125,
+        "low": -0.00971559218375345
+      }
+    },
+    "B10_SHRINK25_ANCHOR10-B00_C00_FULL_IGE": {
+      "ari": {
+        "high": 0.051515530252689026,
+        "low": -0.0036533780342331286
+      },
+      "boundary": {
+        "high": 0.01587171052631583,
+        "low": -0.002907531127664181
+      },
+      "geary": {
+        "high": 0.03380033754276952,
+        "low": 0.015126569995533277
+      },
+      "moran": {
+        "high": -0.014674486869429338,
+        "low": -0.032669666821942056
+      },
+      "neighbor": {
+        "high": 0.002806247281426699,
+        "low": -0.01596482166159203
+      },
+      "nmi": {
+        "high": 0.008061360055167194,
+        "low": -0.02170036938078554
+      },
+      "q": {
+        "high": 0.028791985557097294,
+        "low": -0.01128930069862201
+      }
+    },
+    "B10_SHRINK25_ANCHOR10-B01_C04_SHRINK25": {
+      "ari": {
+        "high": 0.023361292949323386,
+        "low": -0.02632100236272332
+      },
+      "boundary": {
+        "high": 0.014023760330578505,
+        "low": 0.0003595313179643678
+      },
+      "geary": {
+        "high": 0.0064293618573853266,
+        "low": 0.0009176972950466008
+      },
+      "moran": {
+        "high": -0.001200178635833242,
+        "low": -0.0061461785581572335
+      },
+      "neighbor": {
+        "high": -0.000371068263375417,
+        "low": -0.01395588095367552
+      },
+      "nmi": {
+        "high": 0.005260880020338143,
+        "low": -0.025315957670095826
+      },
+      "q": {
+        "high": 0.013763631950697646,
+        "low": -0.025657026073073172
+      }
+    },
+    "B17_C09_DIFFUSE10-B00_C00_FULL_IGE": {
+      "ari": {
+        "high": 0.04850293961618931,
+        "low": 0.005705644467158866
+      },
+      "boundary": {
+        "high": 0.020182008481948677,
+        "low": 0.0004601185297955501
+      },
+      "geary": {
+        "high": 0.04220607070661785,
+        "low": 0.024445088677575385
+      },
+      "moran": {
+        "high": -0.024346661074440935,
+        "low": -0.0413342705972014
+      },
+      "neighbor": {
+        "high": -0.00053826052087864,
+        "low": -0.02023573428664638
+      },
+      "nmi": {
+        "high": 0.0035670438950236804,
+        "low": -0.018308619355176227
+      },
+      "q": {
+        "high": 0.024534286790404862,
+        "low": -0.005112379280229734
+      }
+    },
+    "B17_C09_DIFFUSE10-C09_RNA_ANCHOR10": {
+      "ari": {
+        "high": 0.015236677626629985,
+        "low": -0.017925272829597685
+      },
+      "boundary": {
+        "high": -1.9641692040033024e-05,
+        "low": -0.017858987603305787
+      },
+      "geary": {
+        "high": 0.0009289758295884301,
+        "low": -0.02374772594110729
+      },
+      "moran": {
+        "high": 0.02327838425806575,
+        "low": -0.00022386669376609492
+      },
+      "neighbor": {
+        "high": 0.017821607220530677,
+        "low": 7.270484449762247e-05
+      },
+      "nmi": {
+        "high": 0.01515436603744984,
+        "low": -0.011900834743343726
+      },
+      "q": {
+        "high": 0.015171192905563102,
+        "low": -0.015019026520187367
+      }
+    }
+  },
+  "replicates": 100000,
+  "seed": 20260814
+}
