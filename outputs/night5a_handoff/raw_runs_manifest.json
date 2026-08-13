@@ -1,0 +1,3116 @@
+{
+  "file_count": 518,
+  "files": [
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/attention.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/attention.npz",
+      "sha256": "7d75dc7f9f7ccd694e6b5e9388bc3d8f802444a08d26d2d3d1b180546156892b",
+      "size_bytes": 74425
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/clusters.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/clusters.csv",
+      "sha256": "7f744eb87a50bee5a806a5d5c2cf54443594ebb552c33d78c38f008bff838050",
+      "size_bytes": 83799
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/coefficient_probe.json",
+      "sha256": "33f6c9a680e185876c3d173d0ec7d01942d264c4c190b8917da0c9fce828fdfc",
+      "size_bytes": 1019
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/embedding.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/embedding.npz",
+      "sha256": "88ca320e2ec3c439040ff6b212d527dbc5ad1dc50cd4fca3651c1798edb11b8e",
+      "size_bytes": 827649
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/loss_trajectory.csv",
+      "sha256": "751c00773056e65ed50eab3cdef32bed35895c495eab4727a96debc0df1121f2",
+      "size_bytes": 5915
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/observation_ids.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_0/run_manifest.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_0/run_manifest.json",
+      "sha256": "e909aeadc86e3e00cd579c3ab0bb6e64007622391e0b9a2a1b97e64a36e30ad2",
+      "size_bytes": 2070
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/attention.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/attention.npz",
+      "sha256": "a4222f3deab08ddbc07b80a807c892cdf56bba70352367aea3fccba93a8e50a9",
+      "size_bytes": 74501
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/clusters.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/clusters.csv",
+      "sha256": "97d06fc8cdce68807f70e42656cf83700bb0f67213370109606acf4af5760626",
+      "size_bytes": 83890
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/coefficient_probe.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/coefficient_probe.json",
+      "sha256": "bf151950a1f075ad578f9a0e0921fd6a09849f9b318654fc237f5a8d6950e34a",
+      "size_bytes": 1010
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/embedding.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/embedding.npz",
+      "sha256": "5c0813eaf6f865c73dc713a30e18fb0bb30f2563583078f29bbe67fcfc2b858e",
+      "size_bytes": 827150
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/loss_trajectory.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/loss_trajectory.csv",
+      "sha256": "3d02ab29cadae141210c7074328422342b6678eadf5b4c370d708ec1fa6c7ae1",
+      "size_bytes": 5957
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/observation_ids.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/run_manifest.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_1/run_manifest.json",
+      "sha256": "af6ed79ef0ebde2af07678fef838d860e22e8d415c97f4e0936be5635646b98b",
+      "size_bytes": 2074
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/attention.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/attention.npz",
+      "sha256": "c0a5dd93e2d33dcf2003170cdb56acd6cbab866cdb8aa94952a327513dbb4dc2",
+      "size_bytes": 74497
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/clusters.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/clusters.csv",
+      "sha256": "a98c8f0de8656e362b1afb364670be07818a90082d73de15bcffec4545d408a2",
+      "size_bytes": 83785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/coefficient_probe.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/coefficient_probe.json",
+      "sha256": "bbd779f80dac9ca6629d6ac956139b2a7e574139370c028b1bac5fb28fd5802f",
+      "size_bytes": 1019
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/embedding.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/embedding.npz",
+      "sha256": "2c8968240ade2322f9dcf47db726b42e6b66a294c60e15dba37bc1fdae25d63d",
+      "size_bytes": 827494
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/loss_trajectory.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/loss_trajectory.csv",
+      "sha256": "5cc7886bdd71464836afa1fd47f3bb1c35e7ae0f58c72a870000a15cb9287c74",
+      "size_bytes": 5908
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/observation_ids.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/run_manifest.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_2/run_manifest.json",
+      "sha256": "b90d9d97176522ad9b24fe19ae31c84ac703a084dc9c1b021c230a0f0f060da5",
+      "size_bytes": 2066
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/attention.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/attention.npz",
+      "sha256": "af40b80e59d50ad36f1f85ae5e9f0dd6ec263abe8d1cc135e614f72fcc874186",
+      "size_bytes": 74282
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/clusters.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/clusters.csv",
+      "sha256": "dac6bf8b5714fa6f729d64da3ef6650a51b79c44e1a48519739aa5a33b26da9e",
+      "size_bytes": 83848
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/coefficient_probe.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/coefficient_probe.json",
+      "sha256": "ec19756705fce92caa41248e095ed348f8f83e6e47c3c2249de5a1a41ab1edd0",
+      "size_bytes": 1007
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/embedding.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/embedding.npz",
+      "sha256": "d8a8d441d8f5d83a518df71764986c1a14e1e116838a1bdec7c5c17986f99074",
+      "size_bytes": 827647
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/loss_trajectory.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/loss_trajectory.csv",
+      "sha256": "5c6fa5e077ad2d9fc599acb0ba90637b236d1c9aeda5d6e5099b13e27e54542c",
+      "size_bytes": 5951
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/observation_ids.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_3/run_manifest.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_3/run_manifest.json",
+      "sha256": "6a3ff716ef460028c9280719db6fb8f5912ca33475f7803d6ec5f102f45c0c2b",
+      "size_bytes": 2072
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/attention.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/attention.npz",
+      "sha256": "d8e675e12ac7ae12d98524c7f4482cfafbfeec7731de5517e0643c532080737d",
+      "size_bytes": 74480
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/clusters.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/clusters.csv",
+      "sha256": "7ea4cd1e76caa51636f06e60f7aeee35b1fb0765c0eca4d31c245d97c6697b6c",
+      "size_bytes": 83847
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/coefficient_probe.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/coefficient_probe.json",
+      "sha256": "e5475679d6d3a023a007c523e5e2130d96bf98d531a53a36cabd9f4172922a8a",
+      "size_bytes": 1019
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/embedding.npz",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/embedding.npz",
+      "sha256": "c753b274bc5e98ce77ec48f8240b3d63c5e305177456d41b500f05c6a1805ace",
+      "size_bytes": 827247
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/loss_trajectory.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/loss_trajectory.csv",
+      "sha256": "c818acd88df0f65731d015d385f70c94bfb0ad94bdd2a35d742b8c4ffbfee8e7",
+      "size_bytes": 5919
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/observation_ids.csv",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_4/run_manifest.json",
+      "relative_path": "a1/C00_FULL_IGE/seed_4/run_manifest.json",
+      "sha256": "36861551504e6872ec26170340bc1648fa787065a3fa243ef5f88d21df055eb6",
+      "size_bytes": 2069
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/attention.npz",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/attention.npz",
+      "sha256": "8b659c003b295358f5a99c77b3c2de766c2d04ee276d82235d6d82837a4937a6",
+      "size_bytes": 74771
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/clusters.csv",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/clusters.csv",
+      "sha256": "0ca5146b7f63d26bb8ff9631d75ef88f5a57351fe78597069fe41e96b446c4fd",
+      "size_bytes": 83792
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/coefficient_probe.json",
+      "sha256": "7b36292fddbf511f70919ec87bad8049fd04770352d4cdae397c01079696822b",
+      "size_bytes": 1005
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/embedding.npz",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/embedding.npz",
+      "sha256": "5821ec17d6fa013541b8c42961cbbaad1e15fdb4a106ec70eed2810bfc50da9b",
+      "size_bytes": 827832
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/loss_trajectory.csv",
+      "sha256": "9dd665127ee7b1f10d56cc19e225e5d1bce8ce0efac7e7cfdd4ec9442ff4186e",
+      "size_bytes": 5460
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/observation_ids.csv",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C01_DROP_CORR2/seed_0/run_manifest.json",
+      "relative_path": "a1/C01_DROP_CORR2/seed_0/run_manifest.json",
+      "sha256": "13957229302d3d4eb93bd20daf9c0cfb8a69274711a929218445f0c8952438ce",
+      "size_bytes": 2054
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/attention.npz",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/clusters.csv",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/clusters.csv",
+      "sha256": "5d433bcea40a41448978a56fe98d371dcad977fcd0aa35d7aa38ef34a733815b",
+      "size_bytes": 83806
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/coefficient_probe.json",
+      "sha256": "e84493c479c27d3bf340f9e00e7ddf8c3ff384df99bcd40f7b6f6a552217ebc0",
+      "size_bytes": 1024
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/embedding.npz",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/embedding.npz",
+      "sha256": "4c07ec23c9d8a90b34346f1a4084093c804e1fc7c93ca4dcdbb4479bfe2b2c53",
+      "size_bytes": 827475
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/loss_trajectory.csv",
+      "sha256": "16ab304a067fe27bb968d073d7996cdc62a6d41b5cb4117f4cc48002cb69980f",
+      "size_bytes": 5124
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/observation_ids.csv",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C02_UNIFORM_ALL/seed_0/run_manifest.json",
+      "relative_path": "a1/C02_UNIFORM_ALL/seed_0/run_manifest.json",
+      "sha256": "d520658c8cd6704a4be1170a9ec44fe276c0f114c6b7cb39b18c6b43d50044f3",
+      "size_bytes": 2016
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/attention.npz",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/clusters.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/clusters.csv",
+      "sha256": "c1097e86451cfdb6eb5f8cbc8d66c6346b2111785396313844e73cbe87146afd",
+      "size_bytes": 83767
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/coefficient_probe.json",
+      "sha256": "119bc0234a7c0f7fbd5340cc6ee88233020da855b43c5cf13b2cdd1ef1288e3f",
+      "size_bytes": 1765
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/embedding.npz",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/embedding.npz",
+      "sha256": "2b819a8fa489e18a27dbc5a55ce927e899b261e6c8a152cb632de6e53678ac3d",
+      "size_bytes": 827430
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/loss_trajectory.csv",
+      "sha256": "00ac59e8d5db69f97511bc02f4556f5a806e8f2fbb3264e80244c9c9ad0954bf",
+      "size_bytes": 4183
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/observation_ids.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_0/run_manifest.json",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_0/run_manifest.json",
+      "sha256": "57cc19a721305cf1222373c355f166ca70689524bacd01a015c147ad712dec5f",
+      "size_bytes": 2002
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/attention.npz",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/clusters.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/clusters.csv",
+      "sha256": "823afd42901c525e8cb6522b832a84c85fe4c23ec053df60470d8494d4519112",
+      "size_bytes": 83836
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/coefficient_probe.json",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/coefficient_probe.json",
+      "sha256": "8c793e579b40a26665a61cee85ba633eeedd595c80fe0bdf51ea0f7b52bb3941",
+      "size_bytes": 1732
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/embedding.npz",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/embedding.npz",
+      "sha256": "086463d2e219be58a3c2722f5db1f33713c095faa3854f69ea657cb2944dd9b2",
+      "size_bytes": 827602
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/loss_trajectory.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/loss_trajectory.csv",
+      "sha256": "3e93ce8e2c3bcd2305fa54dad032a723d508adefba2f7608b9d506710bbfc9ab",
+      "size_bytes": 4169
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/observation_ids.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/run_manifest.json",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_1/run_manifest.json",
+      "sha256": "f2f2e3db2d79ea537fad4bdee3fee58542fe4c6505542da3b0a9c0c40e80e19c",
+      "size_bytes": 1999
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/attention.npz",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/clusters.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/clusters.csv",
+      "sha256": "df5dce9a0dc7202b238da4576d2f1d21418a5aef6589b97cd7c4d9788d5dd339",
+      "size_bytes": 83771
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/coefficient_probe.json",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/coefficient_probe.json",
+      "sha256": "dad1e1d68832d0d66eded7f032e2bafa1342ca22d3373c3ba56ca30205ab1d2c",
+      "size_bytes": 1732
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/embedding.npz",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/embedding.npz",
+      "sha256": "6a6609073074c39913ae3a1d2cb387a1629fdfa262935fba3742b3dd4e6cdf42",
+      "size_bytes": 827691
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/loss_trajectory.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/loss_trajectory.csv",
+      "sha256": "c1636ed93a4767c8a32ebd39e381478bf17050f714d743070bdc2648f5b00090",
+      "size_bytes": 4188
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/observation_ids.csv",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/run_manifest.json",
+      "relative_path": "a1/C03_SIMPLE_BASE/seed_2/run_manifest.json",
+      "sha256": "78899d87995ed1d6d4b9146389621694af8bd5ff44987052a0390b3571882995",
+      "size_bytes": 2001
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/attention.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_0/attention.npz",
+      "sha256": "8202f73ad152921b95d36695fcc8833fdd3a5885495ee8e965f08c87801fd017",
+      "size_bytes": 72484
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/clusters.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_0/clusters.csv",
+      "sha256": "191e1860cc959c22288b11ed175608fe45a8131ed4914bd79d541305f0274e16",
+      "size_bytes": 83745
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C04_SHRINK25/seed_0/coefficient_probe.json",
+      "sha256": "108d96aa473575ba82736db33db9d5811e329f1ab604fa4952ebf7a7aae4a615",
+      "size_bytes": 1758
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/embedding.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_0/embedding.npz",
+      "sha256": "a4cce6062260ce5e367a7339bd9996042937ca19fb5e1997ae3a7bd7e76ac585",
+      "size_bytes": 827509
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_0/loss_trajectory.csv",
+      "sha256": "0a1e3e13e74ebdc33ffffe0c866583e5c446baecc292f8c5eb4260d64d1757b0",
+      "size_bytes": 4994
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/observation_ids.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/run_manifest.json",
+      "relative_path": "a1/C04_SHRINK25/seed_0/run_manifest.json",
+      "sha256": "879e9fbaa45fd33177486be4e4ba2a9b5b56894e7f165afceb9b46c8ef91566c",
+      "size_bytes": 2050
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/attention.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_1/attention.npz",
+      "sha256": "425032e335d62fdc77c63e14875b3beeb4ac96add6b68a5cb32d1ed74647ae34",
+      "size_bytes": 72791
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/clusters.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_1/clusters.csv",
+      "sha256": "405e59305398e9af810a061b1547394fd78ef5be8a8d5f6b14ca819d5c9002a9",
+      "size_bytes": 83869
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/coefficient_probe.json",
+      "relative_path": "a1/C04_SHRINK25/seed_1/coefficient_probe.json",
+      "sha256": "35add8524560cb86535f302d06733e698323c00947066099bcf3e59452190bc5",
+      "size_bytes": 1734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/embedding.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_1/embedding.npz",
+      "sha256": "5d6eed7328e39f072fdbb2f4886a886f50eda810660e0ae36176aeaa50c335a2",
+      "size_bytes": 827517
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/loss_trajectory.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_1/loss_trajectory.csv",
+      "sha256": "df6a81fb4c44bb51b036169aede76d34acdae0caf250875e4e4b892485c21920",
+      "size_bytes": 4969
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/observation_ids.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_1/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/run_manifest.json",
+      "relative_path": "a1/C04_SHRINK25/seed_1/run_manifest.json",
+      "sha256": "b893c9e787aeeacb7d3324e9a7f485a0ec6400612dbff6adb65c48c5369d597e",
+      "size_bytes": 2048
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/attention.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_2/attention.npz",
+      "sha256": "287f0d27e4d57c758d0c7de1379efb7d2ca4619fa6cbcf3fbd11241e7bd53c29",
+      "size_bytes": 72441
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/clusters.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_2/clusters.csv",
+      "sha256": "f081b71f4c03ba43eaa8c5b44efec61e02436edb744e111f2de2d6971a632ab1",
+      "size_bytes": 83863
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/coefficient_probe.json",
+      "relative_path": "a1/C04_SHRINK25/seed_2/coefficient_probe.json",
+      "sha256": "30bae33659a8cf60268c35104b64a82b44fb31280de286e6f08b43637be13424",
+      "size_bytes": 1733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/embedding.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_2/embedding.npz",
+      "sha256": "e1ccca6893f0326cacdebc04d06f8c2643aa59cc010ff23853cf1389f6271f6b",
+      "size_bytes": 827720
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/loss_trajectory.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_2/loss_trajectory.csv",
+      "sha256": "d873a69dac5768bd9cef1a05a2b781181c684e42090cb912334b0db088753448",
+      "size_bytes": 4997
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/observation_ids.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_2/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/run_manifest.json",
+      "relative_path": "a1/C04_SHRINK25/seed_2/run_manifest.json",
+      "sha256": "a0620c69aa36229d54e8dfd9bf833986474d23f6a03ee2ccdfba24cad8c7147d",
+      "size_bytes": 2050
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/attention.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_3/attention.npz",
+      "sha256": "57fdc7aaa81cb627bc38daa77dd5558188658ab8e1cce16522dc85db29f12ab4",
+      "size_bytes": 72829
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/clusters.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_3/clusters.csv",
+      "sha256": "966778b1a9e6e6a4028f8b8635be2d95facbcc7c8a8135ec48d413c1e7504d9a",
+      "size_bytes": 83761
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/coefficient_probe.json",
+      "relative_path": "a1/C04_SHRINK25/seed_3/coefficient_probe.json",
+      "sha256": "63a89add1100eb89373c155499112574b835e1d4980fc58795fd480d2130f3e9",
+      "size_bytes": 1728
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/embedding.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_3/embedding.npz",
+      "sha256": "012ed70a05c59ef5d83d4153b5f94b3dafbbef82392df73226853981f4aaee1f",
+      "size_bytes": 828095
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/loss_trajectory.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_3/loss_trajectory.csv",
+      "sha256": "ca680049b3c8240cf98d23d5fed475e1e1c5534ba9a6797bc88bcdfd98e18965",
+      "size_bytes": 4980
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/observation_ids.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_3/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/run_manifest.json",
+      "relative_path": "a1/C04_SHRINK25/seed_3/run_manifest.json",
+      "sha256": "995199ba5fc379a6d227bb5e17f3e63b566f79d88ce3a25d155d098ad6f91ce5",
+      "size_bytes": 2050
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/attention.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_4/attention.npz",
+      "sha256": "82675d5d882fec32b851d739b7f7b304b5f9571202161a119ecb263f52ec5967",
+      "size_bytes": 72365
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/clusters.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_4/clusters.csv",
+      "sha256": "7e7f6cc1d823604d2d7f4faeccd5b5a9168e7a63ed149b740347c87ba1cf893d",
+      "size_bytes": 83851
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/coefficient_probe.json",
+      "relative_path": "a1/C04_SHRINK25/seed_4/coefficient_probe.json",
+      "sha256": "8e620bdca1a60be76a1b51cb9d21d251a2c38ad1f3cb46b09ea4e84002ca0f34",
+      "size_bytes": 1732
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/embedding.npz",
+      "relative_path": "a1/C04_SHRINK25/seed_4/embedding.npz",
+      "sha256": "7e984bee6340c7276ff619c548fafe971a97bafb7a6de33b1da98dc04bac07db",
+      "size_bytes": 827433
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/loss_trajectory.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_4/loss_trajectory.csv",
+      "sha256": "2d4bde6bb5456ba0eeb9d4cabdce4dc8eb27b7a4a23f5df4ef00ebcb3577b9f0",
+      "size_bytes": 4989
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/observation_ids.csv",
+      "relative_path": "a1/C04_SHRINK25/seed_4/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/run_manifest.json",
+      "relative_path": "a1/C04_SHRINK25/seed_4/run_manifest.json",
+      "sha256": "d2b7c3984a0357517a7c2dedaa4517518940b9dc24645fb85af7be10a4efbaf8",
+      "size_bytes": 2051
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/attention.npz",
+      "relative_path": "a1/C05_SHRINK50/seed_0/attention.npz",
+      "sha256": "dac26345675cb9c6cec149a30d751676b1a8e95b70009bbf8b36b4ea9474fde1",
+      "size_bytes": 73815
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/clusters.csv",
+      "relative_path": "a1/C05_SHRINK50/seed_0/clusters.csv",
+      "sha256": "8e3ef69db55479a6602604f50ded40505aec6d66e928b798dcf54b907d26d761",
+      "size_bytes": 83845
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C05_SHRINK50/seed_0/coefficient_probe.json",
+      "sha256": "9122df679e9bd27713fc35f16ba8ce2286824ed4763d0cf34f37253add6122df",
+      "size_bytes": 1761
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/embedding.npz",
+      "relative_path": "a1/C05_SHRINK50/seed_0/embedding.npz",
+      "sha256": "497e9f24c259c10fb6e0243a216e5c8f53996c3ee835d342c8c9e7bc03f74eb1",
+      "size_bytes": 827591
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C05_SHRINK50/seed_0/loss_trajectory.csv",
+      "sha256": "63000826b96ffd256c24d516c70eef37690d615885f7f6a644332773d11aa1ba",
+      "size_bytes": 4999
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/observation_ids.csv",
+      "relative_path": "a1/C05_SHRINK50/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C05_SHRINK50/seed_0/run_manifest.json",
+      "relative_path": "a1/C05_SHRINK50/seed_0/run_manifest.json",
+      "sha256": "1eb7e12f2d43b92e8a854bcc05e95bc9331ecf0b661ea7c9e33186e19fe6ced0",
+      "size_bytes": 2053
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/attention.npz",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/attention.npz",
+      "sha256": "99961c4a442bf63888b06e9e4980c0cf03356e885cad4e3ffcc650fdc10f8da4",
+      "size_bytes": 22931
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/clusters.csv",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/clusters.csv",
+      "sha256": "64014911d553a201b5af452c80b879b29be66967c01f32ed7c8702704fc1db99",
+      "size_bytes": 83817
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/coefficient_probe.json",
+      "sha256": "ad02b137180671c41107dd6e1324072ce50afae1b835737d02998b00eea0b51d",
+      "size_bytes": 1766
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/embedding.npz",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/embedding.npz",
+      "sha256": "e41a485237c6359440f218c985462033522547bc36c80c578317100e5bc50f86",
+      "size_bytes": 827445
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/loss_trajectory.csv",
+      "sha256": "fd9ffb379b88fa6bb123f50f6d46516b60ff776696fdfed8ecf8489e7836f6a2",
+      "size_bytes": 4459
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/observation_ids.csv",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C06_RELIABILITY25/seed_0/run_manifest.json",
+      "relative_path": "a1/C06_RELIABILITY25/seed_0/run_manifest.json",
+      "sha256": "00e4e59e67888a79b220438cc0f54fd7a1639fd3113bbe980e2a973039946294",
+      "size_bytes": 1999
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/attention.npz",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/attention.npz",
+      "sha256": "2a38504fb44c3c78a445ef94b575be10ce4884812e39be5efb0446b4623b5db3",
+      "size_bytes": 23714
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/clusters.csv",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/clusters.csv",
+      "sha256": "f6fbc785bf6f572cff2faf6908d250a0c8684e7790f952166f2ebf499edec948",
+      "size_bytes": 83816
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/coefficient_probe.json",
+      "sha256": "58d324cc4e11c083ae85c284c74e73a372057fe6a6bbe205a3403f9076af6c64",
+      "size_bytes": 1768
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/embedding.npz",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/embedding.npz",
+      "sha256": "a68038504cd82b7c1291fdb16819342df18ecd3fc3ab28ea76497d1781022361",
+      "size_bytes": 827433
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/loss_trajectory.csv",
+      "sha256": "1a2e8bbc18a673bb729ba22efc73c9e26fa857a693bb9ae05c29dd742212d23a",
+      "size_bytes": 4438
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/observation_ids.csv",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C07_RELIABILITY50/seed_0/run_manifest.json",
+      "relative_path": "a1/C07_RELIABILITY50/seed_0/run_manifest.json",
+      "sha256": "d65ae4317b07bd5433bfc5c41da55c8f563f4ce3d732b0e7f5bfe93cbdf55861",
+      "size_bytes": 2017
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/attention.npz",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/clusters.csv",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/clusters.csv",
+      "sha256": "40d8385be65a8610daabbd61cc2eb7361a6e902472030f6d824ab58996ec904f",
+      "size_bytes": 83753
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/coefficient_probe.json",
+      "sha256": "8f1e4a6e002314e5637b434b6cc7cf67e8079dc445c3d65042e563e51b145e36",
+      "size_bytes": 1734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/embedding.npz",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/embedding.npz",
+      "sha256": "0b9b540a5e505fcf2fba2c5f2c7e8da7d74175d75cfc887898e6b38d235831a0",
+      "size_bytes": 827450
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/loss_trajectory.csv",
+      "sha256": "f353d4d1dafb50b1182f388483e96a30aa25ff50ee52bfe3114841a825bf3e6c",
+      "size_bytes": 4169
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/observation_ids.csv",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C08_RNA_ANCHOR05/seed_0/run_manifest.json",
+      "relative_path": "a1/C08_RNA_ANCHOR05/seed_0/run_manifest.json",
+      "sha256": "333fdf947d287fb659a44e70245bf1ef5e1e11047944fd0de26df5cff7ef158d",
+      "size_bytes": 1997
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/attention.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/clusters.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/clusters.csv",
+      "sha256": "86ad0abbf7286057d2673d67de50a8cc1c71211c62c7375587d0af67dcf602d4",
+      "size_bytes": 83968
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/coefficient_probe.json",
+      "sha256": "eec4f4bad53d0f6d758d31d4b4af602e39f31f91147adca40bacec3e3f518308",
+      "size_bytes": 1733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/embedding.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/embedding.npz",
+      "sha256": "31757eb1612164104688cdd7a6334a4664b99b5812c64770d95b3bb291401848",
+      "size_bytes": 827342
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/loss_trajectory.csv",
+      "sha256": "1c9ca7bb80b9a4e2b3014b9b2c437b65ee4dcb4f8670606fd4f9b81720e04163",
+      "size_bytes": 4158
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/observation_ids.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_0/run_manifest.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_0/run_manifest.json",
+      "sha256": "a13e701e462430d1aa32824c5532233a36ed72f09a81af84d17c5c2d85ec614c",
+      "size_bytes": 2000
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/attention.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/clusters.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/clusters.csv",
+      "sha256": "cb99c62fa6734b250527d78578e654e58600a7cce7455d3c4c183ea2c2300fa7",
+      "size_bytes": 83819
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/coefficient_probe.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/coefficient_probe.json",
+      "sha256": "f2c9f6cfe364fe7b769b12fe1668ce5c91bf22012f865adc261b0cdfbea598ad",
+      "size_bytes": 1763
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/embedding.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/embedding.npz",
+      "sha256": "c5c13baca3fe211505635d54d8385ec70e85214a34c5d849913ee9b71826bdd9",
+      "size_bytes": 827469
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/loss_trajectory.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/loss_trajectory.csv",
+      "sha256": "f5781121dcc73b61f4dafff1c303f503c6cacb51a1e1068a9a64ca7e594fe7ce",
+      "size_bytes": 4156
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/observation_ids.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "sha256": "8a7c098ea30eedc45c93fc921aeaebb5aecae24d7a0820973ee2301f8f52d1cd",
+      "size_bytes": 1997
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/attention.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/clusters.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/clusters.csv",
+      "sha256": "579221a81186d114d915eeb507d580b001c2ed8571acbb99ff1e76d172d3dc7e",
+      "size_bytes": 83862
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/coefficient_probe.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/coefficient_probe.json",
+      "sha256": "4b3eebe8e7954a1459d2a81e84d0b4be38c94c5b5e5ecbd58b20ea440d1dbddf",
+      "size_bytes": 1736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/embedding.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/embedding.npz",
+      "sha256": "f4e9e7f68045f22127a17e78937990a9562f33c3b014290f9c607f890a86b7b2",
+      "size_bytes": 827674
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/loss_trajectory.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/loss_trajectory.csv",
+      "sha256": "34041108727646d0c96cd8a66539b69bc89a7f634f2464d59376e81ed0fdb365",
+      "size_bytes": 4191
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/observation_ids.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "sha256": "604d3930761e879c07bd4b972843dc34736d48a6a8fe1258299f10b19a594302",
+      "size_bytes": 1999
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/attention.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/clusters.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/clusters.csv",
+      "sha256": "15799eb6c77aa72c2127f32fc134266fdebab62dbfc3ca3952bbe1ef86fe9d75",
+      "size_bytes": 83823
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/coefficient_probe.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/coefficient_probe.json",
+      "sha256": "bad11dd6d2d26d1c11522feea9267fbbe17edafeaa89fa62582341f354269487",
+      "size_bytes": 1763
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/embedding.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/embedding.npz",
+      "sha256": "ac7b0eb312e864fd7ec6da28cf09ae208c62fbed1b07113b991d05aa6f7db2d9",
+      "size_bytes": 828132
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/loss_trajectory.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/loss_trajectory.csv",
+      "sha256": "a031bb8958fc4c0d0778cc8490e7acc097d241ebeb935884d73ab72f35295979",
+      "size_bytes": 4147
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/observation_ids.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_3/run_manifest.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_3/run_manifest.json",
+      "sha256": "6a81a8cdb9ee7869692d375619953dd7a34c742c20a7a6dc8ec9b67bb8c472af",
+      "size_bytes": 2000
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/attention.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/clusters.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/clusters.csv",
+      "sha256": "87390bf8c713cc2a75e6ff810fb59b360ccfef93e799d6d62341398d02884a16",
+      "size_bytes": 83913
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/coefficient_probe.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/coefficient_probe.json",
+      "sha256": "26558e272ca2193cc35a9a6f111767683abeeec17178316d2d500ca638612f27",
+      "size_bytes": 1737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/embedding.npz",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/embedding.npz",
+      "sha256": "6faaf4d65fae70e8b6594ffea90e663bb14d91cf80305a34dbd12a1c7bb5c9c2",
+      "size_bytes": 827427
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/loss_trajectory.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/loss_trajectory.csv",
+      "sha256": "2f9f78c369407aca190bae804a9bf9110cb17c0ee30db70c33c606e95e82fb45",
+      "size_bytes": 4171
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/observation_ids.csv",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_4/run_manifest.json",
+      "relative_path": "a1/C09_RNA_ANCHOR10/seed_4/run_manifest.json",
+      "sha256": "75bc6863f5e5bcc66cb455a80a482468c0aad17df817a4669db0079339f474e6",
+      "size_bytes": 2001
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/attention.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/clusters.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/clusters.csv",
+      "sha256": "59d1b89ac790fca8cfa464a580f7375324a9992c73e24fbd86b32e8bb2c4ddfb",
+      "size_bytes": 83758
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/coefficient_probe.json",
+      "sha256": "d3ed1de244d2ea370c400d73799ebb8c03b965176234da227f9a598d2dc75cd6",
+      "size_bytes": 1740
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/embedding.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/embedding.npz",
+      "sha256": "9ba97abcb055b79a43f272a0f42e449b8e863bdf7a4afd6741e94ac0c62ac62f",
+      "size_bytes": 827441
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/loss_trajectory.csv",
+      "sha256": "16db56b1d8b3bb418be44795e2b46bf1f62f9b1383b8131f44ce6842bdf977c9",
+      "size_bytes": 4538
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/observation_ids.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_0/run_manifest.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_0/run_manifest.json",
+      "sha256": "7d9118ab21fe22456e386494eb63badfdeffacbc66aa005cf77c2b67c3cace76",
+      "size_bytes": 2006
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/attention.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/clusters.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/clusters.csv",
+      "sha256": "e972309d80b727658e2cca8a7e739f18ce2e96549409871cef8fa8eba0fe7fa9",
+      "size_bytes": 83765
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/coefficient_probe.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/coefficient_probe.json",
+      "sha256": "4efedc3e75b16022b64d63b089100eff5234522e910a9b9206257865f14c8223",
+      "size_bytes": 1736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/embedding.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/embedding.npz",
+      "sha256": "a34f3e7d02f9dc38e9969d38974a9faf16b28b23fc2d135e41cf8f1b859beda1",
+      "size_bytes": 827772
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/loss_trajectory.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/loss_trajectory.csv",
+      "sha256": "2b7eb93077a57005d6cb6ff49342af32ee7b4505eaf5a636f646cdbb7f152535",
+      "size_bytes": 4533
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/observation_ids.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/run_manifest.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_1/run_manifest.json",
+      "sha256": "4e1656c29cd360a0fe871a4c167d21a4d568527ed4c5c90ea7ed677f708a0d62",
+      "size_bytes": 2002
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/attention.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/clusters.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/clusters.csv",
+      "sha256": "893e4e07baf9a9b21cb2a2460c9bccd40c6151ba966e0c0b739faf9f2ff80a42",
+      "size_bytes": 83766
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/coefficient_probe.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/coefficient_probe.json",
+      "sha256": "9682cf9595abf160b937a067a0d69cddd28afaec4b41cb2c7e6d43a275a5cb52",
+      "size_bytes": 1734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/embedding.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/embedding.npz",
+      "sha256": "7935db16a78314f51dd33633402b8c1a2e582c8dbacaa6dd2793ea2e0626c80c",
+      "size_bytes": 827813
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/loss_trajectory.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/loss_trajectory.csv",
+      "sha256": "e5a39fc1d55425e9cdc5ed1bc6ca6bec49af0a59dc64437cd5be3af0711d21f1",
+      "size_bytes": 4519
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/observation_ids.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/run_manifest.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_2/run_manifest.json",
+      "sha256": "3665ce8aa25bbc6acff9db927e49e0a702a7fe72ac3bee66420a6ce62b864105",
+      "size_bytes": 2003
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/attention.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/clusters.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/clusters.csv",
+      "sha256": "9feac924c7ecedf59014899da05918ca4d80d9aadad55ca134d6d28f3ffbc495",
+      "size_bytes": 83826
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/coefficient_probe.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/coefficient_probe.json",
+      "sha256": "25c88466034ac244c7aa64ee8e0e49382759eb4ee0c88d4d517148ac01b2c0d9",
+      "size_bytes": 1765
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/embedding.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/embedding.npz",
+      "sha256": "83656a0d4541d8b13c0f26a10ee2792cc206d1b889cbf2483e4606d6cd478373",
+      "size_bytes": 828099
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/loss_trajectory.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/loss_trajectory.csv",
+      "sha256": "430dd36f1149948f1d83f44ddf4f2d4a1676a3983912d5d097f43f9d5f3afe5a",
+      "size_bytes": 4535
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/observation_ids.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_3/run_manifest.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_3/run_manifest.json",
+      "sha256": "698315a989b0620591708bd5d303b8f127450de491a774d70d4f42866d456e87",
+      "size_bytes": 2003
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/attention.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/clusters.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/clusters.csv",
+      "sha256": "8edb66588840f68e15c84c4d2d3a17ccb2cf40885fd5b36e99e16c2c763c910b",
+      "size_bytes": 83882
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/coefficient_probe.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/coefficient_probe.json",
+      "sha256": "8ac077916d69437ebb059837325c8a5970479ad7fc6080f5409d6e1d4b691cda",
+      "size_bytes": 1736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/embedding.npz",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/embedding.npz",
+      "sha256": "a937db8e7d8672782eb35fff9015315c701f1e1de0064bfd1f462df3ae499e8a",
+      "size_bytes": 827619
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/loss_trajectory.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/loss_trajectory.csv",
+      "sha256": "ac4c1e492f5925abfb871bb017fc4fffdbcea80de2a463f07539029f1ead7097",
+      "size_bytes": 4522
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/observation_ids.csv",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_4/run_manifest.json",
+      "relative_path": "a1/C10_MNN_TRIPLET01/seed_4/run_manifest.json",
+      "sha256": "6d00603efbb81e5ad962a0a76d86ea5907242a8857e288fcf0c1e23031721d1f",
+      "size_bytes": 2004
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/attention.npz",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/clusters.csv",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/clusters.csv",
+      "sha256": "e5b8778f0c4c26cf197520e52b91722d77ed11bdf23f361e6b4cd5ebff5ef6af",
+      "size_bytes": 83747
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/coefficient_probe.json",
+      "sha256": "c372fb35dc94752f86ef3d2191bd973aa24f3dff97d3cf24b3aa4bba7289414a",
+      "size_bytes": 1737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/embedding.npz",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/embedding.npz",
+      "sha256": "b4ba91d52190e8c1814047a75299194b56edb3c4df65fdb3583d126d572f015e",
+      "size_bytes": 827570
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/loss_trajectory.csv",
+      "sha256": "b9b60683b6e6558b5fdc09d667f9d5d19cbf0fdd2fd7ee15bf1d13342c2c3cb5",
+      "size_bytes": 4519
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/observation_ids.csv",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C11_MNN_TRIPLET03/seed_0/run_manifest.json",
+      "relative_path": "a1/C11_MNN_TRIPLET03/seed_0/run_manifest.json",
+      "sha256": "b190ba58cba0fa2722c0893792ae4337a4cd4c72f9125ee5a8d04d2069d578fc",
+      "size_bytes": 2004
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/attention.npz",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/clusters.csv",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/clusters.csv",
+      "sha256": "3d9658bf38466d1e0cc20aa6ccf5fdde99f8101a4391b598d009e1e02a33d9f2",
+      "size_bytes": 83933
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/coefficient_probe.json",
+      "sha256": "ea71c05f4f04973df6b69643a7dcbc8c24c874392972b74103ef0e0c78229323",
+      "size_bytes": 1741
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/embedding.npz",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/embedding.npz",
+      "sha256": "424a9999aeafcb5bb8b68836e64c54bcffc990a6fb351db444a4348192402615",
+      "size_bytes": 828350
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/loss_trajectory.csv",
+      "sha256": "8d4431464e7236bac42f862fd623990afab068a35c9431f54e8a86508ed1f6ce",
+      "size_bytes": 4576
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/observation_ids.csv",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C12_NEIGHBOR_CONTRAST/seed_0/run_manifest.json",
+      "relative_path": "a1/C12_NEIGHBOR_CONTRAST/seed_0/run_manifest.json",
+      "sha256": "744c26f5098f91ebd26123fe6296a3a90a573c9bb22e38bd529fe0e77916cac8",
+      "size_bytes": 2006
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/attention.npz",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/clusters.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/clusters.csv",
+      "sha256": "57baec74378ecc51a55d907023a62939cb2ca6576d9e0fbc776ba6eac7498705",
+      "size_bytes": 83775
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/coefficient_probe.json",
+      "sha256": "ab40ffb4239ef3389816dd5abd1878cf78dffce9e53361bf14a99fbf40a73d43",
+      "size_bytes": 1735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/embedding.npz",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/embedding.npz",
+      "sha256": "27f984d09a17559527c4047d4bf0d0f136a133410db254f55db6256e488fc33c",
+      "size_bytes": 828382
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/loss_trajectory.csv",
+      "sha256": "e9c558c2948db21e2d3e72b02e62905ba25c5612035a38a11eb31467b17a580a",
+      "size_bytes": 4125
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/observation_ids.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_0/run_manifest.json",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_0/run_manifest.json",
+      "sha256": "e6ecfacffa0d6a30c68f38dd5c25a75428794c1590b3bf1dfee31045de9b5edf",
+      "size_bytes": 2000
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/attention.npz",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/clusters.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/clusters.csv",
+      "sha256": "1be60d442ce8cb6cbce3de345f78568188c6860cb3f081d95a47639bb6ba9066",
+      "size_bytes": 83732
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/coefficient_probe.json",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/coefficient_probe.json",
+      "sha256": "de75e286985de4a7666d796fe3c4aaf38c093cd87cc2cf8366bfd23cb0329608",
+      "size_bytes": 1733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/embedding.npz",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/embedding.npz",
+      "sha256": "ad4d0b566a217523cf08822e23093c8e244f9edb5ede89978c483c25cfe94f3b",
+      "size_bytes": 828714
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/loss_trajectory.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/loss_trajectory.csv",
+      "sha256": "16e19e095f0c98ade1b6dc05bcc6ca274d5168b79ab35f906cc573e55c8b7418",
+      "size_bytes": 4127
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/observation_ids.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/run_manifest.json",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_1/run_manifest.json",
+      "sha256": "c68c18ab6694a2802d1600024863fcd4a2dc72082d7edc46045c5f2364e0b17e",
+      "size_bytes": 2001
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/attention.npz",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/clusters.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/clusters.csv",
+      "sha256": "af65c93c588d3e3ea35afaf38d2639ef8c77824ef0b97db539c2e5deb6eed560",
+      "size_bytes": 83782
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/coefficient_probe.json",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/coefficient_probe.json",
+      "sha256": "e323cf3839997cc736af7a60c94c6304f158235b699e7fa3264a997f7ddb312e",
+      "size_bytes": 1762
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/embedding.npz",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/embedding.npz",
+      "sha256": "e758e2a914f42bd642a03ff6778e0cdee4f4e3fb23691e70a86ab905e6856820",
+      "size_bytes": 828661
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/loss_trajectory.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/loss_trajectory.csv",
+      "sha256": "0a69b35e78191940cc4ccd582137e509e2ff4054c3967e2b7c437d97e506cc14",
+      "size_bytes": 4115
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/observation_ids.csv",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/run_manifest.json",
+      "relative_path": "a1/C13_HYBRID_IGE25/seed_2/run_manifest.json",
+      "sha256": "2936e0444dcb4015cae5b243c3b5def7bf38e4562b8998dbe3ee64fd5cf8177f",
+      "size_bytes": 1996
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/attention.npz",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/clusters.csv",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/clusters.csv",
+      "sha256": "de646d22f467def3510540e3c6bf71b28b8edc763aaae2ed033e563e610f1d39",
+      "size_bytes": 83779
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/coefficient_probe.json",
+      "sha256": "3df90dd786ad560a90deda14179a2344da8486424c7480efe47e87c6009c3a47",
+      "size_bytes": 1733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/embedding.npz",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/embedding.npz",
+      "sha256": "6d29654f4cfe237138023f10508ef5a5a7e85a03b35546903b69daee8d02d6d4",
+      "size_bytes": 828141
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/loss_trajectory.csv",
+      "sha256": "d615eacc65f07f47238a9ea76cb72e45e1263a55147f3f73dba8067140831f62",
+      "size_bytes": 4157
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/observation_ids.csv",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C14_HYBRID_IGE50/seed_0/run_manifest.json",
+      "relative_path": "a1/C14_HYBRID_IGE50/seed_0/run_manifest.json",
+      "sha256": "09421e2a87036f877b9587b62b653674fcaa38380a1055a0441e6395abe6b724",
+      "size_bytes": 2001
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/attention.npz",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/clusters.csv",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/clusters.csv",
+      "sha256": "210bb5d2e8bc1834a753801f649a74c3c19171dcb1ee16e954ad2d2993d9665b",
+      "size_bytes": 84037
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/coefficient_probe.json",
+      "sha256": "91cbccbca302f1f3a2eca9db005484be584c0378fcbb6e91af7541a2dfe35f43",
+      "size_bytes": 1740
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/embedding.npz",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/embedding.npz",
+      "sha256": "89ce7de087db38cb84d201356bf50786868b0bee0cbe2b3ce4ecbeb0535b3916",
+      "size_bytes": 827837
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/loss_trajectory.csv",
+      "sha256": "10087c4b59fcad21f7018223d8ac460416f4660e2c5ec17b81c0cce812c528ac",
+      "size_bytes": 4141
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/observation_ids.csv",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C15_RESIDUAL_ENCODER/seed_0/run_manifest.json",
+      "relative_path": "a1/C15_RESIDUAL_ENCODER/seed_0/run_manifest.json",
+      "sha256": "0799ecedd0bc988c671de47c6800138066b5a3194837501802d784f6709b9525",
+      "size_bytes": 2006
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/attention.npz",
+      "relative_path": "a1/C16_DGI01/seed_0/attention.npz",
+      "sha256": "460fde84ceb352d010cc29072fbe0aaf17da26718095be5c9f1e4ef488941726",
+      "size_bytes": 785
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/clusters.csv",
+      "relative_path": "a1/C16_DGI01/seed_0/clusters.csv",
+      "sha256": "5d2cff78321fe74cf912b6f21d55154fece12fb28d318fa0dada34ae30c5598b",
+      "size_bytes": 83821
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/coefficient_probe.json",
+      "relative_path": "a1/C16_DGI01/seed_0/coefficient_probe.json",
+      "sha256": "6ff2c1a91512b832c390fe48c1fad41fd387d28eb6419a6b2c98f13251e9f8f0",
+      "size_bytes": 1731
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/embedding.npz",
+      "relative_path": "a1/C16_DGI01/seed_0/embedding.npz",
+      "sha256": "c1184bdc167663db90092fef8915da85fa96d22bd09d023a371f54e03a06b24a",
+      "size_bytes": 827085
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/loss_trajectory.csv",
+      "relative_path": "a1/C16_DGI01/seed_0/loss_trajectory.csv",
+      "sha256": "15183743dd40f0a75a02be65cf956f5ecd527e087198c42489de9bc93da42384",
+      "size_bytes": 4442
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/observation_ids.csv",
+      "relative_path": "a1/C16_DGI01/seed_0/observation_ids.csv",
+      "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+      "size_bytes": 76663
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C16_DGI01/seed_0/run_manifest.json",
+      "relative_path": "a1/C16_DGI01/seed_0/run_manifest.json",
+      "sha256": "66a5b313e8942a726b5290112d9e58f954cec4064acc1cb85c42423b74dbb7a7",
+      "size_bytes": 1998
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/attention.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/attention.npz",
+      "sha256": "d7d8a66b494c2c0d871c98929ffcc6d01aa924933e9928d5a7c59a22c310add9",
+      "size_bytes": 35866
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/clusters.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/clusters.csv",
+      "sha256": "26a0f4141d0b999c59b3dad83483bf8219c67a20fb80a8329f79c419a14a319f",
+      "size_bytes": 38739
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/coefficient_probe.json",
+      "sha256": "8ed7cf04e2b58e9afc18409e3b8153c658205777da740a809ec9f4d9b0e2a859",
+      "size_bytes": 999
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/embedding.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/embedding.npz",
+      "sha256": "fe52933971c70bac4db59ffba0284640746c6004635f089aa59183549b63dada",
+      "size_bytes": 789161
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/loss_trajectory.csv",
+      "sha256": "acc0fd26b7db54f16a99d3b7edae56b97e31ed398e5d5828cee402cd39e5caeb",
+      "size_bytes": 5834
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_0/run_manifest.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_0/run_manifest.json",
+      "sha256": "ce81c5d8526184886ebfc3637ddda21c30b25a05efcf393e538fe49b85ad7a54",
+      "size_bytes": 2073
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/attention.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/attention.npz",
+      "sha256": "ca944bdcae1a9a9048d55ec7ff64c181bd34d2889385d3d4e1610714232be847",
+      "size_bytes": 35858
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/clusters.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/clusters.csv",
+      "sha256": "b88964f90e1028bb917e81e144d61982dd9b9f2b7d92f25790708c0b03b2a997",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/coefficient_probe.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/coefficient_probe.json",
+      "sha256": "193cdfbd53389dd5ec167ad63ef576d51c92098490b727d4e8226ddabafa6bff",
+      "size_bytes": 1003
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/embedding.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/embedding.npz",
+      "sha256": "1af2c1fa1ae0c5e16d6dccd48e2ef5998f5791d1303a4f67c18a9f4fba78adb5",
+      "size_bytes": 788862
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/loss_trajectory.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/loss_trajectory.csv",
+      "sha256": "8811bf7237583f9e7ef81d5afae0ba7092e24f5f01968550785cf84707aaaa76",
+      "size_bytes": 5838
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/observation_ids.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/run_manifest.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_1/run_manifest.json",
+      "sha256": "57ffe7ee87a6581004dcb8b2a96cde065fdf146ff868b7ed46823b8f639d9ec2",
+      "size_bytes": 2072
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/attention.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/attention.npz",
+      "sha256": "7deffd0a6b042a9c29aaca04fbb72018928ccf086f60fd778d0eee9ef2667ec1",
+      "size_bytes": 35900
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/clusters.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/clusters.csv",
+      "sha256": "022babc5ba12c94d8eabaa7cafcc8d07b4ee05b97083351edbafdef069373b86",
+      "size_bytes": 38739
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/coefficient_probe.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/coefficient_probe.json",
+      "sha256": "822210c40c747e78d6afe96a9fd938a020b8be1c5ab974ef964eedb73375cc93",
+      "size_bytes": 1002
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/embedding.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/embedding.npz",
+      "sha256": "26177999226d9db67506a5fd767fd647c233231253f64f227ee784f4e325b508",
+      "size_bytes": 788836
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/loss_trajectory.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/loss_trajectory.csv",
+      "sha256": "e46ba21015073e867a1111fe5103544e1bfe0201e007737f0ad3ae9e8726b26b",
+      "size_bytes": 5855
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/observation_ids.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/run_manifest.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_2/run_manifest.json",
+      "sha256": "4109cd9e0fc16cd4fe53ee1d2f4693f98ec0a994ab4d9c04dc7d883ecff7d76f",
+      "size_bytes": 2074
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/attention.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/attention.npz",
+      "sha256": "2130ba4345a4fb6de64b736f1815d5095345b176c592af07ff58865b6c61d430",
+      "size_bytes": 35821
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/clusters.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/clusters.csv",
+      "sha256": "2cca106f196dcb64749c8523130d3e489fa365eeb253974fa2b73e7648c3d407",
+      "size_bytes": 38738
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/coefficient_probe.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/coefficient_probe.json",
+      "sha256": "04134f8b1121319e04b6b50b41ef7aa8d9b9e5b7ecb7a15530d4c3364c2727ca",
+      "size_bytes": 1018
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/embedding.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/embedding.npz",
+      "sha256": "4c638b1a61b4dd3acc99c69166db3d8be6ad0f338814898f19e63db20c6f1bf0",
+      "size_bytes": 788969
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/loss_trajectory.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/loss_trajectory.csv",
+      "sha256": "a461ef3b4bad81cfdba058b489c3b35e1797dafe7e0191105de4112f20948f2b",
+      "size_bytes": 5876
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/observation_ids.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_3/run_manifest.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_3/run_manifest.json",
+      "sha256": "684d4382b34c531fac130128d7daf29066dcdf154989cfd923bd1305f1d498b2",
+      "size_bytes": 2076
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/attention.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/attention.npz",
+      "sha256": "edf7fb2d220e6fe3f30b5f6e653ea75d86731f04a88e3bb2370f2f1e309cea91",
+      "size_bytes": 35867
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/clusters.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/clusters.csv",
+      "sha256": "4345fe18fd3bf3fb0ebcff14324ab635f28f119aa6b1602161e6e3f6336ed50c",
+      "size_bytes": 38735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/coefficient_probe.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/coefficient_probe.json",
+      "sha256": "03df7b5bb815ea9c5fecbcbb5a31e740d5e67e76fd425da11fda9aeaa60cc7ea",
+      "size_bytes": 1007
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/embedding.npz",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/embedding.npz",
+      "sha256": "7736e8aa01b935c90cd1693a8746b31bc8245a0539c902211c2a968318390b65",
+      "size_bytes": 789137
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/loss_trajectory.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/loss_trajectory.csv",
+      "sha256": "c75c58f565aa2ccc87dc75785c0920f44e3284ec7ea6fd828b183cb251972fdc",
+      "size_bytes": 5868
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/observation_ids.csv",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_4/run_manifest.json",
+      "relative_path": "placenta/C00_FULL_IGE/seed_4/run_manifest.json",
+      "sha256": "1810fbc4e808cdafd22aa51824cde05781cc37d27e0ebd896849369f78e22576",
+      "size_bytes": 2075
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/attention.npz",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/attention.npz",
+      "sha256": "245050c2a91effe656dde5bebc4ddc16c0c3fa998cb58438afc442f7bf7f61cd",
+      "size_bytes": 36277
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/clusters.csv",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/clusters.csv",
+      "sha256": "0ecc15f5b3acfcef42a6b1e52bbd80bb9611f89c4afa30e374098428cc559b2a",
+      "size_bytes": 38739
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/coefficient_probe.json",
+      "sha256": "d145cc4d92f8c98cc4ba85f56910f86830523d786e028a1ec3cd23277fa49393",
+      "size_bytes": 987
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/embedding.npz",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/embedding.npz",
+      "sha256": "9136db8a43ea06f4037611960319b4c4cf7aa6c3b4be63f09227d47b5548a1c1",
+      "size_bytes": 788833
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/loss_trajectory.csv",
+      "sha256": "3413fc63de5fdae65c588ef49e25f8bf36fed9cf460dc9c6ae00dda2dc53ffa3",
+      "size_bytes": 5414
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C01_DROP_CORR2/seed_0/run_manifest.json",
+      "relative_path": "placenta/C01_DROP_CORR2/seed_0/run_manifest.json",
+      "sha256": "f6332871aca646dbfe8e430a0769dc54b2bfa93292204429a46d1ff047f5a114",
+      "size_bytes": 2061
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/attention.npz",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/clusters.csv",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/clusters.csv",
+      "sha256": "5d165f67dbbad1578dd51a19aaef3d512833b0a69e9cb2136d05a3e55f628591",
+      "size_bytes": 38734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/coefficient_probe.json",
+      "sha256": "0d180dee5ef26b10788986abf4b25cf28c116ebc7250afa4422d23462b82e34b",
+      "size_bytes": 1010
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/embedding.npz",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/embedding.npz",
+      "sha256": "8142bb94f0ce3824f2f99d024935acd47da06fd2460fa4f6865bb5c603ee39e3",
+      "size_bytes": 788894
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/loss_trajectory.csv",
+      "sha256": "1216779bb0bbe696660505ced8dd2b46cc3c1db4402f895b8acdc54e547d65b6",
+      "size_bytes": 5065
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C02_UNIFORM_ALL/seed_0/run_manifest.json",
+      "relative_path": "placenta/C02_UNIFORM_ALL/seed_0/run_manifest.json",
+      "sha256": "4641ca9cb6466eb807aa3d808845038cde16d68b854724df76c1bac0d9205a93",
+      "size_bytes": 2024
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/attention.npz",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/clusters.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/clusters.csv",
+      "sha256": "db3e930943fa7dbf54b155e84a2b8fdf3bca7a764cbfd743b6fa015ac17b4779",
+      "size_bytes": 38734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/coefficient_probe.json",
+      "sha256": "8d7ed396e255b9c22f6db76e3a58401ce700200d2cc0ccb0041bc0b8aba8d78a",
+      "size_bytes": 1770
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/embedding.npz",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/embedding.npz",
+      "sha256": "e6c26285725a9050f9537e5943b63d703e163fe07eaac024d8fdae1ffb547baf",
+      "size_bytes": 788803
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/loss_trajectory.csv",
+      "sha256": "4da0e5c210816b5112d4c7653bd3886007687ad245a37c97610c7e51197f08f9",
+      "size_bytes": 4147
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_0/run_manifest.json",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_0/run_manifest.json",
+      "sha256": "20b1c1b669e260d38a717449e72418deb80cdbee8869be85f8f561626d8dded4",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/attention.npz",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/clusters.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/clusters.csv",
+      "sha256": "b8fec973e847e4c526ed361d652ffe28d438d23b35e6c41a91bb44b00539762f",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/coefficient_probe.json",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/coefficient_probe.json",
+      "sha256": "1444f1372140aa6ab7ca653731f2e707b9afa86f907f76743a15ff774580e642",
+      "size_bytes": 1744
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/embedding.npz",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/embedding.npz",
+      "sha256": "57af65a5c5a0deaba8f59d245e2a5243e8998089972923fc055339b24928bf1b",
+      "size_bytes": 788416
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/loss_trajectory.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/loss_trajectory.csv",
+      "sha256": "3ec4ce2abdafaf02ea81fc616038876156f4f810a3e1a804d6baa4f4c1c3d784",
+      "size_bytes": 4153
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/observation_ids.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/run_manifest.json",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_1/run_manifest.json",
+      "sha256": "6ead8b2c01c52244910e8f3007dd6391622195302040c589f56fbb7b5a43f3bf",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/attention.npz",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/clusters.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/clusters.csv",
+      "sha256": "4abaae258bf6f079c81086d83ea1fc6dee1c764efcdb415b86122572bb6c53ad",
+      "size_bytes": 38712
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/coefficient_probe.json",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/coefficient_probe.json",
+      "sha256": "d8a06d1d938277f3e866b2e4d167a7f433b82f3472aecffdd5020eb8f9756f45",
+      "size_bytes": 1738
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/embedding.npz",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/embedding.npz",
+      "sha256": "a268649859561d34010975d0c552835af39b7ffc2b2e544113a933aae05171f7",
+      "size_bytes": 788484
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/loss_trajectory.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/loss_trajectory.csv",
+      "sha256": "875a908451e6cf3aaa24079e3dab93af2f49a1ceeba6f947bf4c02621c5b026b",
+      "size_bytes": 4155
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/observation_ids.csv",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/run_manifest.json",
+      "relative_path": "placenta/C03_SIMPLE_BASE/seed_2/run_manifest.json",
+      "sha256": "a775b10df953caf7d5112ababd9f4780b35bc49e34ab7657aa2f9ef070a199b5",
+      "size_bytes": 2007
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/attention.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/attention.npz",
+      "sha256": "e6425d736bf01f0f2faaeb16453cf91a92e2b6cf1e4687f3a44aed62cf9a9a3c",
+      "size_bytes": 35096
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/clusters.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/clusters.csv",
+      "sha256": "622856c6e7c63a368158d8630a9e0c8d8f0a62fba7159319d3df04c905e8fbc4",
+      "size_bytes": 38733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/coefficient_probe.json",
+      "sha256": "4887be53f1415000518bb3e3a8f4cedd2ba4d6c96c59f4bdeeffdb7fedd1c059",
+      "size_bytes": 1736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/embedding.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/embedding.npz",
+      "sha256": "3f183e9e30c3e775dfcd21ca0f3d97bb52381ee05896ba7722a0bcc9dd01a0d6",
+      "size_bytes": 789100
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/loss_trajectory.csv",
+      "sha256": "dca4b07c83c72553f2d01e1935f79eb1a1f544e670dd1f541dcf9fb2bec49059",
+      "size_bytes": 4965
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_0/run_manifest.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_0/run_manifest.json",
+      "sha256": "cadb96018116f5c28490ed6b77e15d62f1ea36889eb63275f58ada0936f67125",
+      "size_bytes": 2057
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/attention.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/attention.npz",
+      "sha256": "801774c134ee20f2c40667561b4b6fea24692374a5eb6925838af0819b2b2403",
+      "size_bytes": 35115
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/clusters.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/clusters.csv",
+      "sha256": "90bb4af3077bbee91dc50e076cb5ee383373bcc56fc75ed411c89209700d8156",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/coefficient_probe.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/coefficient_probe.json",
+      "sha256": "6f63b0217eccb7f3224ae8b5743eb467ba3bdc95b211716e12c912b8d337c2f8",
+      "size_bytes": 1736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/embedding.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/embedding.npz",
+      "sha256": "506a90bfb673aef00e4da19d1fa968c2634c4a2a40c52e888d78b755e825a7a1",
+      "size_bytes": 788607
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/loss_trajectory.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/loss_trajectory.csv",
+      "sha256": "8db00956a16c7b1f83f68440124fe1392da23c37022384e5b430f5d8276a167d",
+      "size_bytes": 4960
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/observation_ids.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/run_manifest.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_1/run_manifest.json",
+      "sha256": "e82360ff220f395117a8a52c511cd082a9c97661d6b9f48a11adf08989fa0ea4",
+      "size_bytes": 2059
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/attention.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/attention.npz",
+      "sha256": "3f13c7e4f6edec9d1765d6f758c6ef156483e59d0aee004b43560a8096c3732f",
+      "size_bytes": 35159
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/clusters.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/clusters.csv",
+      "sha256": "3e72200b92e8a50eb4a9545470b3c8c937f4f8cacd6ef7544e93d9ace8d51b2b",
+      "size_bytes": 38741
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/coefficient_probe.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/coefficient_probe.json",
+      "sha256": "14876999358697c5989104cecd767e34b2467925c8c4c6150d331983981f1bce",
+      "size_bytes": 1765
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/embedding.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/embedding.npz",
+      "sha256": "f70af88417cc55601e759d04e8e05563a6d972cf207f0a81745cc6b8689dba87",
+      "size_bytes": 788468
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/loss_trajectory.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/loss_trajectory.csv",
+      "sha256": "da725acd5a233cff42e7621be32a0803a77fb69887caf91037aea5472737e038",
+      "size_bytes": 4954
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/observation_ids.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/run_manifest.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_2/run_manifest.json",
+      "sha256": "b890a84555fed7180a5321fd3bd4317c1240dfbbc7202b50d5e3e5822a1f2957",
+      "size_bytes": 2058
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/attention.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/attention.npz",
+      "sha256": "187162e5f1e9b0e099879d2f47e90aea2cc0b538c00196663d5938ff5f4356e3",
+      "size_bytes": 35132
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/clusters.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/clusters.csv",
+      "sha256": "664e0352f3e2600765a5d7d675bfeef521cd977f746b62724b263063dbcdaf76",
+      "size_bytes": 38736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/coefficient_probe.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/coefficient_probe.json",
+      "sha256": "4a2220a5f09dedb0a83ac0eb46b4091a4189347db638b50fde60d08cefd127fd",
+      "size_bytes": 1735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/embedding.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/embedding.npz",
+      "sha256": "5435d358138e34aacf56ad954d840a3f575e29c4c330ff3af91aadbf89971368",
+      "size_bytes": 788592
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/loss_trajectory.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/loss_trajectory.csv",
+      "sha256": "7c34d6337baa1522a22aa5a3a2469570bebc2a28df84856f706e005ded23ed8b",
+      "size_bytes": 4965
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/observation_ids.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_3/run_manifest.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_3/run_manifest.json",
+      "sha256": "fb09d3d6af944f04311221db88d02855e0f6a7758cd0c91efc38b21c0a328128",
+      "size_bytes": 2059
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/attention.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/attention.npz",
+      "sha256": "6a618ef53f1db205f89ddfc5548d7aa74e93c4ffba4930bfc72fe4804cb13a97",
+      "size_bytes": 35110
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/clusters.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/clusters.csv",
+      "sha256": "56f2cfc487584e203430a4f852e8a75495fbbc8d0d132dc4f37138417138c895",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/coefficient_probe.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/coefficient_probe.json",
+      "sha256": "4c4686c00887ddb48b95a0661814a93f0ce1688199b130aaa88e26e1ac7ae0fe",
+      "size_bytes": 1737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/embedding.npz",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/embedding.npz",
+      "sha256": "436a04f123ed7f9584999b1587efa8799a4aa2497e6c1d85037960852ce2d8bf",
+      "size_bytes": 788808
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/loss_trajectory.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/loss_trajectory.csv",
+      "sha256": "0b73ebba8105d6abfa627e4b997cd73aea4ffc260ab3ba1e54fa5aa0364a31b5",
+      "size_bytes": 4965
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/observation_ids.csv",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_4/run_manifest.json",
+      "relative_path": "placenta/C04_SHRINK25/seed_4/run_manifest.json",
+      "sha256": "0f71dc3b9e8a78be48fbe37cbd7d0679db9f0b8ca988134a96f8fa808753da47",
+      "size_bytes": 2059
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/attention.npz",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/attention.npz",
+      "sha256": "e3a95961229f012d5331223cc929842b2f321f753caad3e15cf7f14cccc8b13b",
+      "size_bytes": 35466
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/clusters.csv",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/clusters.csv",
+      "sha256": "65334bf1149df809de272e41d75dff9bbe781bbacf7c5b35de9d5f2f03ba1a45",
+      "size_bytes": 38742
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/coefficient_probe.json",
+      "sha256": "6bf96458a9867c230af73034d686279d454c83ebe495916195262f9f4d0153ea",
+      "size_bytes": 1732
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/embedding.npz",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/embedding.npz",
+      "sha256": "955e6961acdf00e742e3f2da41003ffd17cb1895ce457563a0849d492255ac19",
+      "size_bytes": 789151
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/loss_trajectory.csv",
+      "sha256": "90e33ec574a83280721ee8c1afc3f0c95fb17b5f8a34796014cf683d53df7df4",
+      "size_bytes": 4954
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C05_SHRINK50/seed_0/run_manifest.json",
+      "relative_path": "placenta/C05_SHRINK50/seed_0/run_manifest.json",
+      "sha256": "f3bc8de358dcacdbdf289415c8ed11bdfcc9665fd513f5c7e7c60c2e439dc30c",
+      "size_bytes": 2057
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/attention.npz",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/attention.npz",
+      "sha256": "9e55673a1b1bd5da5fe87ae0bfb76c0136d280959a1896bd42384d9ebe80f14c",
+      "size_bytes": 11494
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/clusters.csv",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/clusters.csv",
+      "sha256": "60eb3c7dfbd1f4cf863e1fe877a979c115b2330e10c1414f9a5b55954bfdde64",
+      "size_bytes": 38734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/coefficient_probe.json",
+      "sha256": "2134ff08d077ad710171e1e4aaabbdad753b1d8355bc38ea7fba5195009a909a",
+      "size_bytes": 1741
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/embedding.npz",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/embedding.npz",
+      "sha256": "b29d1c7eb6a1c07af95ecf1249c1a75cbb961f2d11385c4b0ed2788e8d180bf0",
+      "size_bytes": 788782
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/loss_trajectory.csv",
+      "sha256": "9e851f238d2ec3f007b6d08dcdd60b0a2b0b0166586d24c86c6011e237bddb52",
+      "size_bytes": 4406
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C06_RELIABILITY25/seed_0/run_manifest.json",
+      "relative_path": "placenta/C06_RELIABILITY25/seed_0/run_manifest.json",
+      "sha256": "b4d35227b8bd6e72f4909f265b0f0da96cf8ca06f17dfa31640324e2b4869bac",
+      "size_bytes": 2010
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/attention.npz",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/attention.npz",
+      "sha256": "ece0be7f9662899e3f1e153a13a3fab965db08c8209092f5a45608ec7c1be407",
+      "size_bytes": 11848
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/clusters.csv",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/clusters.csv",
+      "sha256": "0976b5b1ce707e75ec2309f94c9434ed199559d73ea39f9fea177192a34e827e",
+      "size_bytes": 38734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/coefficient_probe.json",
+      "sha256": "8daf4c3c65a8476a376fcba1cd8858d80eb50fd8be94f8d685fa1491a1e5d2fd",
+      "size_bytes": 1736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/embedding.npz",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/embedding.npz",
+      "sha256": "d328486d9d8902b61c14c890c580ce7cf52d8e388e74a7fe55803268aa93c74e",
+      "size_bytes": 788802
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/loss_trajectory.csv",
+      "sha256": "23b5db96dfd1d38acddf7608447be668b98f3f62d0592bc455be2c5e2409f777",
+      "size_bytes": 4409
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C07_RELIABILITY50/seed_0/run_manifest.json",
+      "relative_path": "placenta/C07_RELIABILITY50/seed_0/run_manifest.json",
+      "sha256": "5ebbc5be8c73cc134537a934052333b91e77f47f556500a25f66293c0626abff",
+      "size_bytes": 2026
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/attention.npz",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/clusters.csv",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/clusters.csv",
+      "sha256": "85e6e566bee2b76eb728ff483aad3da9f0fce01d66dc2c29bf2cd5cd11b790db",
+      "size_bytes": 38734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/coefficient_probe.json",
+      "sha256": "808d0f975509df29ce5022f36709c563d651a4e354507c9442c31642b0a2e1be",
+      "size_bytes": 1740
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/embedding.npz",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/embedding.npz",
+      "sha256": "4967aa91834d289a7e89de030c21bc106dce83520b544d12d98d7870292b59b1",
+      "size_bytes": 788771
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/loss_trajectory.csv",
+      "sha256": "550f64ea2a5f20d8d0333d8b4584c1f644a7d15564c0b7571ae9075eed9e5da7",
+      "size_bytes": 4134
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C08_RNA_ANCHOR05/seed_0/run_manifest.json",
+      "relative_path": "placenta/C08_RNA_ANCHOR05/seed_0/run_manifest.json",
+      "sha256": "97ec6b594ee2a40a48aebf7ac451d3efadae90a13103fa718a30c03f2e16da3e",
+      "size_bytes": 2005
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/attention.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/clusters.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/clusters.csv",
+      "sha256": "fdf58295fd5751468400d81483c56c0fddb23a545fecf3426ba7a4ff7d19f6cf",
+      "size_bytes": 38733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/coefficient_probe.json",
+      "sha256": "99ce057c90ee9c27e830ccbe6c25569ff18aba9524f0d808487fc74d909a71ff",
+      "size_bytes": 1770
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/embedding.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/embedding.npz",
+      "sha256": "cee1163dc9f9d1baa8c42cba33bf73b9c7c434a9b7b49df489434fd7cf19bc54",
+      "size_bytes": 788716
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/loss_trajectory.csv",
+      "sha256": "56594cf89525e31bef1f950abf0372fa6f152f7feb2f39bc1fb1e3082964d4b6",
+      "size_bytes": 4153
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_0/run_manifest.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_0/run_manifest.json",
+      "sha256": "0c7f7a6966a88bbbb6ece98f5e9f1de6fcfb4dfb6f9a64e1a5c49313daac73bd",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/attention.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/clusters.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/clusters.csv",
+      "sha256": "9d00d11f4ef29b7a48ec8d8d3c827f15e9e648474d8819635c4bd1420e62eec6",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/coefficient_probe.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/coefficient_probe.json",
+      "sha256": "be88efb14d3ff8ad53938b9fb7abee6f777f7d38603e93543904dcbfaa5f7934",
+      "size_bytes": 1771
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/embedding.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/embedding.npz",
+      "sha256": "ad112adfdb0192cbcec322dbad5fb44f37f84b1ac885837d6e6b9c102f4e5709",
+      "size_bytes": 788257
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/loss_trajectory.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/loss_trajectory.csv",
+      "sha256": "e034abfe2b15e858f6842f66fd32c0d966e10f452638814eaae3e175b4ccd354",
+      "size_bytes": 4136
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/observation_ids.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "sha256": "fd36bb1c6c5fe985a313b9f0253e453f3d477d4e20821c52a2af74104a07eccc",
+      "size_bytes": 2006
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/attention.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/clusters.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/clusters.csv",
+      "sha256": "301583c171e0943fc2403c462de4dfadfe580f86f6fd8e72476aa903ff74dbfe",
+      "size_bytes": 38711
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/coefficient_probe.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/coefficient_probe.json",
+      "sha256": "62038ca9d5e217cc16486ed272cd9c2cc1257830cc42b5162ecc713746b232b3",
+      "size_bytes": 1737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/embedding.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/embedding.npz",
+      "sha256": "f165613fbb1660afcb3e626c8c80ee77902a3dc5b26c9b638c53c0f17c79a190",
+      "size_bytes": 788316
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/loss_trajectory.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/loss_trajectory.csv",
+      "sha256": "d5072cc5c7899a29493b5a4530f021998ef0366b96905c07d8e4b6402aa0c629",
+      "size_bytes": 4147
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/observation_ids.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "sha256": "f46f4208503c7a0c627bdd0f6c1d1692cd644c14d41ea3e92d57b1a0d012c3a0",
+      "size_bytes": 2007
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/attention.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/clusters.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/clusters.csv",
+      "sha256": "2fb86746969901764c9d609567f678c936c41d152d8a808b95467602192b508e",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/coefficient_probe.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/coefficient_probe.json",
+      "sha256": "2f8415d3530e71c8e77e28aa802e5914365f6cad80b89218bdbf34c2ee5b320e",
+      "size_bytes": 1739
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/embedding.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/embedding.npz",
+      "sha256": "8128945a4e68127fde242757a08b33b643aa1bce347cbdab53f9ac5ca99bc9e1",
+      "size_bytes": 788519
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/loss_trajectory.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/loss_trajectory.csv",
+      "sha256": "d8b43549eaf1a19e730d1ab20891f55c339cb9ca85e8c65363d231b8f9632473",
+      "size_bytes": 4136
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/observation_ids.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_3/run_manifest.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_3/run_manifest.json",
+      "sha256": "d7a5e80e29947091b47442ddd1a3ee3f51e02aa585d318aae1ff47d4e0c975f1",
+      "size_bytes": 2007
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/attention.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/clusters.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/clusters.csv",
+      "sha256": "54707271e5f003d62a240c303ae0590ed2111d098842dd4f152777c40c2e8d06",
+      "size_bytes": 38735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/coefficient_probe.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/coefficient_probe.json",
+      "sha256": "4c0c29a28ea182cbc66ddc5e2e6c48ee790a58b672d8909b6b9ac368fff39790",
+      "size_bytes": 1739
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/embedding.npz",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/embedding.npz",
+      "sha256": "3560ca46f91133c57ccfdd75bb0414d1f98f02e5707d0daaab3fdfa7c8f72fb6",
+      "size_bytes": 788723
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/loss_trajectory.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/loss_trajectory.csv",
+      "sha256": "53f6fdd27cd27bc1216dafb51b7f894e746fb7576124a38266c2594ee1d09440",
+      "size_bytes": 4145
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/observation_ids.csv",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_4/run_manifest.json",
+      "relative_path": "placenta/C09_RNA_ANCHOR10/seed_4/run_manifest.json",
+      "sha256": "a04e25ba46b8aaa8f6cb9bc5e33a2e09739f85aeb905f152d2a3ce85d62143ed",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/attention.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/clusters.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/clusters.csv",
+      "sha256": "e10134fd75781ae86f009bdf9fde8e4fa2455a119ea5fb68368b05f4ecba465e",
+      "size_bytes": 38737
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/coefficient_probe.json",
+      "sha256": "a8e84fd8064cf1aa467ccad98ee0ed38baf021af131c271270fc8486e3646863",
+      "size_bytes": 1741
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/embedding.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/embedding.npz",
+      "sha256": "fd2c72fb2c5b33e49faaa6d14f95768594d90775fa26fe1cebd0cd0308b5423a",
+      "size_bytes": 788751
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/loss_trajectory.csv",
+      "sha256": "96a439dc41a0a7d99d289e2fa0861bd89f55320959a1413e1a8d55bf889fa01a",
+      "size_bytes": 4491
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_0/run_manifest.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_0/run_manifest.json",
+      "sha256": "acdb2dca71a0c401fa91d7f0efbaccc742465760610a2e8be084e8f8df702005",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/attention.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/clusters.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/clusters.csv",
+      "sha256": "e1a52924cc5c98af5f3aed3ea4cb1f6951e51539703b64c62eb2aae0d0f45bc9",
+      "size_bytes": 38735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/coefficient_probe.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/coefficient_probe.json",
+      "sha256": "26331aa6f8de17dfe90430942a9fad1482862603c7800622a60df33871c80bee",
+      "size_bytes": 1770
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/embedding.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/embedding.npz",
+      "sha256": "63eb679d64d7f10727e2914011f30459f6af58243cdf05583783a10c4d1b5316",
+      "size_bytes": 788458
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/loss_trajectory.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/loss_trajectory.csv",
+      "sha256": "c36fdf2137304feb1c1a6a3b7881bb9f8473e68b4241c51d06012d7bdcf39fee",
+      "size_bytes": 4508
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/observation_ids.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/run_manifest.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_1/run_manifest.json",
+      "sha256": "0a62862700a291fcea70ee3c4cfde3318789a7188d46aba53ce68733c0e85e1d",
+      "size_bytes": 2010
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/attention.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/clusters.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/clusters.csv",
+      "sha256": "faf5bd61164d369884c8296ee78c2c3ebc9a6967a32df50d38b28b0cebe99055",
+      "size_bytes": 38734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/coefficient_probe.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/coefficient_probe.json",
+      "sha256": "5f502aca6b2d8370ffb4b04e1b12115d47789375c8188fc6c4b31998414b9a3e",
+      "size_bytes": 1770
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/embedding.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/embedding.npz",
+      "sha256": "1ecb9903176993cbc0dd954a7c4b497d78bd87106f07b9f58cca41e41498a8fc",
+      "size_bytes": 788520
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/loss_trajectory.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/loss_trajectory.csv",
+      "sha256": "6255c1901e3518e9e5be3afbc10e7ec81fc858f4a0f80666d96ac010a251d7e9",
+      "size_bytes": 4507
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/observation_ids.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/run_manifest.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_2/run_manifest.json",
+      "sha256": "d20d3240a761b927b640d14c59e5b63e89d47f9cdc0474091a8a34cd50d33119",
+      "size_bytes": 2010
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/attention.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/clusters.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/clusters.csv",
+      "sha256": "480e24c52f06abb34f60b246f3cb816de84aa8b0941f8138ac890907881b0837",
+      "size_bytes": 38736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/coefficient_probe.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/coefficient_probe.json",
+      "sha256": "fe5804f555240cdc0cee9d65d35ddbce68f6191bd4155f584f32c866b9ddae3f",
+      "size_bytes": 1742
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/embedding.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/embedding.npz",
+      "sha256": "291a27448f6fd8fc11697f3224f94b4cb5e6b2b016b225fda8a0592e33f1996d",
+      "size_bytes": 788503
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/loss_trajectory.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/loss_trajectory.csv",
+      "sha256": "7e3d9af6e3ee1b27b785c8331eaa0b8f46471e4dc89ef36abe6eeec37de55187",
+      "size_bytes": 4497
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/observation_ids.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_3/run_manifest.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_3/run_manifest.json",
+      "sha256": "ee2ed86b3737bebdb27dbbdf7c9e84e4f99b9d8029372232426d624028f631f0",
+      "size_bytes": 2009
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/attention.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/clusters.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/clusters.csv",
+      "sha256": "e4f03c0cfaa3ab89d23cdfb476c129e2d00672a02fc93f89a25c93083b6e2810",
+      "size_bytes": 38735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/coefficient_probe.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/coefficient_probe.json",
+      "sha256": "ca77d5c8f55bf4ef1392b48cbf4fcc70decddb86505c363a7b88fd79749909fd",
+      "size_bytes": 1771
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/embedding.npz",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/embedding.npz",
+      "sha256": "d5b996877427804297b40ad81c5f01e60796b6103f515d6ac78297cd5eedef07",
+      "size_bytes": 788661
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/loss_trajectory.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/loss_trajectory.csv",
+      "sha256": "d5f2145242f3c83f5fca5fbd3295e3f0f0a80f4b51c1047799a615ea2db167b4",
+      "size_bytes": 4486
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/observation_ids.csv",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_4/run_manifest.json",
+      "relative_path": "placenta/C10_MNN_TRIPLET01/seed_4/run_manifest.json",
+      "sha256": "ee804a6369082c0ddf2586d6865ad292aacb5753fa64c904342f3eab82e3c76c",
+      "size_bytes": 2009
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/attention.npz",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/clusters.csv",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/clusters.csv",
+      "sha256": "77a6df753d55df9de18817c397aabc985d7b68d74859461f6714fa82354b5e51",
+      "size_bytes": 38738
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/coefficient_probe.json",
+      "sha256": "7e252125a99a31769f0895914d6a81a1b56b68440186db5f8a2d35db092d4ef3",
+      "size_bytes": 1744
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/embedding.npz",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/embedding.npz",
+      "sha256": "b333ce37a1e48d08aadc58ac9d37f3bfbe4c2140ee8e1f3cf2b3b0826ec6829e",
+      "size_bytes": 788773
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/loss_trajectory.csv",
+      "sha256": "2c2054b2578ab1f3bf91569c24274571073d6ed98f6df12976c3fda304850e26",
+      "size_bytes": 4510
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C11_MNN_TRIPLET03/seed_0/run_manifest.json",
+      "relative_path": "placenta/C11_MNN_TRIPLET03/seed_0/run_manifest.json",
+      "sha256": "aaf611e61a9d727ac1ba734eef6e56c47351a2841cfee6e19c17899f996ef3ba",
+      "size_bytes": 2009
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/attention.npz",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/clusters.csv",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/clusters.csv",
+      "sha256": "44a7ca4b59e65d4c65cdda29536ec19c14ef3e4aea97bf261ce1a4ce6adce4fa",
+      "size_bytes": 38736
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/coefficient_probe.json",
+      "sha256": "f0fbfe1b2897be08f48dcc6cbef8f9ecc9057302568097fa2723433d42ceae93",
+      "size_bytes": 1745
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/embedding.npz",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/embedding.npz",
+      "sha256": "4b3825e79746e46fb7aff17bcd63e81c216588d297ffd228e628c5864dfea4d5",
+      "size_bytes": 788922
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/loss_trajectory.csv",
+      "sha256": "6ae000a7eb1750f9ac4d1275838d395051fcaab6805f72e65ff0562ccbec5e36",
+      "size_bytes": 4561
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C12_NEIGHBOR_CONTRAST/seed_0/run_manifest.json",
+      "relative_path": "placenta/C12_NEIGHBOR_CONTRAST/seed_0/run_manifest.json",
+      "sha256": "c2b3ca6a402d7d9ec04c8d7e562e7958f5d5adeafd39873ce6d1e5604d169276",
+      "size_bytes": 2013
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/attention.npz",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/clusters.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/clusters.csv",
+      "sha256": "f933c61c996fc4ce2a8ab907dafeed37ef985ab954cb9b313b39050308be37b6",
+      "size_bytes": 38735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/coefficient_probe.json",
+      "sha256": "a1e19bb280d81bdda430e43569bf86b251066073317fb2ebfec4d11816f8711e",
+      "size_bytes": 1734
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/embedding.npz",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/embedding.npz",
+      "sha256": "2a78fd62962901674db56ec6e9b7a99323a7f155b702f8d97e68d90df96ac034",
+      "size_bytes": 789852
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/loss_trajectory.csv",
+      "sha256": "8e6301c76ab8695f036fa88f31bbf7718db362d955efa7d49fab7695682ec9ac",
+      "size_bytes": 4112
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_0/run_manifest.json",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_0/run_manifest.json",
+      "sha256": "eb1f830a08b2d56cbe8f0c930aeaceb80d359b13884c450f107114a989409013",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/attention.npz",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/clusters.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/clusters.csv",
+      "sha256": "fc344d586f020a8c7bbc20cad8a4c6fc5a3e9ece982a1035ae9207495bf509b9",
+      "size_bytes": 38738
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/coefficient_probe.json",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/coefficient_probe.json",
+      "sha256": "81e5b4d9e772099142817b64f5fed35039707e9802f9116d098d2d9f5de147a6",
+      "size_bytes": 1768
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/embedding.npz",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/embedding.npz",
+      "sha256": "1bee8322174ae3d37878a3bd46c8c1490313ef4b1572d2f2e7e9d6e241dad7e3",
+      "size_bytes": 789665
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/loss_trajectory.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/loss_trajectory.csv",
+      "sha256": "f9149735bdfa075a0bfeb6cacbf874e1510a9b5454dfc584d6326e6c51a2c273",
+      "size_bytes": 4116
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/observation_ids.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/run_manifest.json",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_1/run_manifest.json",
+      "sha256": "59cde055247a73962466edf6a80a7a90ddec4e04c05077ae8acf5e1ce87d61fb",
+      "size_bytes": 2005
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/attention.npz",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/clusters.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/clusters.csv",
+      "sha256": "d66c2b0108fb15ac1c861224d5555e492285cb81a47e10ec459242814b36685c",
+      "size_bytes": 38731
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/coefficient_probe.json",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/coefficient_probe.json",
+      "sha256": "78d50d722d4f037353d86f091e3a4df02706a0d37328ef01c9a286e5a5ef9b75",
+      "size_bytes": 1768
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/embedding.npz",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/embedding.npz",
+      "sha256": "b08d90b3ec8a8f3c71d36217d162ac0fca4fd65380c396416dc258b9ebe60237",
+      "size_bytes": 789527
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/loss_trajectory.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/loss_trajectory.csv",
+      "sha256": "62d90f70208bf9ead334418525156e1e3fb973e85199918caadc3231e14f783a",
+      "size_bytes": 4102
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/observation_ids.csv",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/run_manifest.json",
+      "relative_path": "placenta/C13_HYBRID_IGE25/seed_2/run_manifest.json",
+      "sha256": "e84dce919516ff8a9db0e2eda3d9347cb8c138779ad19a9d039eab56d5951430",
+      "size_bytes": 2005
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/attention.npz",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/clusters.csv",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/clusters.csv",
+      "sha256": "685b65346e55ef09554512469ab1c59793b71f2fac96ef7e6be1046b9ef2db82",
+      "size_bytes": 38711
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/coefficient_probe.json",
+      "sha256": "4668060ce6cc70d118ef74a74df215cff940bea9ad0bb0b51fa36a2c07bd5797",
+      "size_bytes": 1738
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/embedding.npz",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/embedding.npz",
+      "sha256": "8b6ccc8ac1f8c0ee08f00f62757d0b30057d7c3b37def704b44d998e3a0899d0",
+      "size_bytes": 789210
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/loss_trajectory.csv",
+      "sha256": "491555b823c773ba1a4ccd47a4459ec78096f6925bbc57549c38aaf36b7a88b6",
+      "size_bytes": 4130
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C14_HYBRID_IGE50/seed_0/run_manifest.json",
+      "relative_path": "placenta/C14_HYBRID_IGE50/seed_0/run_manifest.json",
+      "sha256": "34570852d8890e582cf33e0f08955d5538340fa99e8230929911ea57df4875e6",
+      "size_bytes": 2005
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/attention.npz",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/clusters.csv",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/clusters.csv",
+      "sha256": "1801cffc4a4ed54d4f3d606319fc94dff9613cb6d7c068e065ed7a228ad95f7b",
+      "size_bytes": 38898
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/coefficient_probe.json",
+      "sha256": "6141c55efbd0334a7672203fc22b0beba111d42a1b9975c404c78371a1a36425",
+      "size_bytes": 1742
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/embedding.npz",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/embedding.npz",
+      "sha256": "750fb91b0cab792b2ce3cc21a93ec495e301a8b2d03a480ab122ca30e60797a8",
+      "size_bytes": 784717
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/loss_trajectory.csv",
+      "sha256": "3922442fe863c98661dbdbb0f1ce8dd9fe5f17436a0d97099407e8d51e0fba32",
+      "size_bytes": 4107
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C15_RESIDUAL_ENCODER/seed_0/run_manifest.json",
+      "relative_path": "placenta/C15_RESIDUAL_ENCODER/seed_0/run_manifest.json",
+      "sha256": "a82cabc0da52d06b2ea56b17a85cccc87708cf9c00f4d11090acca758703d089",
+      "size_bytes": 2011
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/attention.npz",
+      "relative_path": "placenta/C16_DGI01/seed_0/attention.npz",
+      "sha256": "f931d803fb6e3fe5881de939dbf093cefef07d9658b6bd63529b99ce06dc8aca",
+      "size_bytes": 749
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/clusters.csv",
+      "relative_path": "placenta/C16_DGI01/seed_0/clusters.csv",
+      "sha256": "a0be2ddd907f70bda4497b6069daee8e3cc2f1bf0464f9b5ccabbbd601715244",
+      "size_bytes": 38735
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/coefficient_probe.json",
+      "relative_path": "placenta/C16_DGI01/seed_0/coefficient_probe.json",
+      "sha256": "003f87c6801852ed7364fed4bbf7dd8ac403d96d6068d9d38309bdc86ddf4b9a",
+      "size_bytes": 1733
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/embedding.npz",
+      "relative_path": "placenta/C16_DGI01/seed_0/embedding.npz",
+      "sha256": "99d062f01c2e28ec69b9601350ec4e23d5e99b2957c1fa19d87e7d5d3b5669c5",
+      "size_bytes": 788782
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/loss_trajectory.csv",
+      "relative_path": "placenta/C16_DGI01/seed_0/loss_trajectory.csv",
+      "sha256": "473ab40cbd19aaa3924670e50bda72b69b26770dda2ebc916802214e6aa71ec9",
+      "size_bytes": 4412
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/observation_ids.csv",
+      "relative_path": "placenta/C16_DGI01/seed_0/observation_ids.csv",
+      "sha256": "37ff98142ccde195a75294821e2a037c41332d0ea7a85ba73abf1836df4e2ff4",
+      "size_bytes": 35335
+    },
+    {
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C16_DGI01/seed_0/run_manifest.json",
+      "relative_path": "placenta/C16_DGI01/seed_0/run_manifest.json",
+      "sha256": "5c2c7f6483da26062b8228395782033b137402cfcd18f508a2d0f949c8087959",
+      "size_bytes": 2001
+    }
+  ],
+  "root": "/root/autodl-fs/night5a_raw_runs_20260813",
+  "schema_version": 1,
+  "total_size_bytes": 70515846
+}

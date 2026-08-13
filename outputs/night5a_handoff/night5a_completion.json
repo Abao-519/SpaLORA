@@ -1,0 +1,26 @@
+{
+  "candidate_runs": 64,
+  "d1_run": false,
+  "d1_true_results_opened": false,
+  "failure_count": 0,
+  "implementation_commit": "9becd07c1d95d6fa62a81df902facf7f940bcdfb",
+  "implementation_source_sha256": "1c72fdf62183be44f091558a6554e8252ff8730c20ce0884a26a83de13b7cb5f",
+  "night4b_run": false,
+  "p22_run": false,
+  "parameter_tuning": false,
+  "r1_runs": 34,
+  "r2_runs": 24,
+  "r3_runs": 16,
+  "raw_runs_manifest_sha256": "691fefb12737c10cbbea8bbaa40b41bd4b844a68edea16ff3611b16ab0d401b1",
+  "reference_runs": 10,
+  "report_sha256": "f7a1ae426ec6e019f49639e67d58f775e902cdbc7718cad866a40678c2a2282b",
+  "schema_version": 1,
+  "seed_search": false,
+  "selected_candidates": [
+    "C04_SHRINK25"
+  ],
+  "specialized_tests_failed": 0,
+  "specialized_tests_passed": 39,
+  "status": "R3_CANDIDATES_READY_FOR_LOCKED_P22",
+  "training_units": 74
+}

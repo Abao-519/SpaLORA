@@ -1,0 +1,203 @@
+{
+  "failure_count": 0,
+  "locked_before_semantic_label_access": true,
+  "run_count": 24,
+  "run_order_sha256": "33e0ab3e527e1fec8d526f18c45d92d24f104246d4150e5623e566f6b681cb8d",
+  "runs": [
+    {
+      "candidate_id": "C00_FULL_IGE",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_1/run_manifest.json",
+      "record_sha256": "af6ed79ef0ebde2af07678fef838d860e22e8d415c97f4e0936be5635646b98b",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C00_FULL_IGE",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C00_FULL_IGE/seed_2/run_manifest.json",
+      "record_sha256": "b90d9d97176522ad9b24fe19ae31c84ac703a084dc9c1b021c230a0f0f060da5",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C03_SIMPLE_BASE",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_1/run_manifest.json",
+      "record_sha256": "f2f2e3db2d79ea537fad4bdee3fee58542fe4c6505542da3b0a9c0c40e80e19c",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C03_SIMPLE_BASE",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C03_SIMPLE_BASE/seed_2/run_manifest.json",
+      "record_sha256": "78899d87995ed1d6d4b9146389621694af8bd5ff44987052a0390b3571882995",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "record_sha256": "8a7c098ea30eedc45c93fc921aeaebb5aecae24d7a0820973ee2301f8f52d1cd",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "record_sha256": "604d3930761e879c07bd4b972843dc34736d48a6a8fe1258299f10b19a594302",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/run_manifest.json",
+      "record_sha256": "b893c9e787aeeacb7d3324e9a7f485a0ec6400612dbff6adb65c48c5369d597e",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/run_manifest.json",
+      "record_sha256": "a0620c69aa36229d54e8dfd9bf833986474d23f6a03ee2ccdfba24cad8c7147d",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C13_HYBRID_IGE25",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_1/run_manifest.json",
+      "record_sha256": "c68c18ab6694a2802d1600024863fcd4a2dc72082d7edc46045c5f2364e0b17e",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C13_HYBRID_IGE25",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C13_HYBRID_IGE25/seed_2/run_manifest.json",
+      "record_sha256": "2936e0444dcb4015cae5b243c3b5def7bf38e4562b8998dbe3ee64fd5cf8177f",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_1/run_manifest.json",
+      "record_sha256": "4e1656c29cd360a0fe871a4c167d21a4d568527ed4c5c90ea7ed677f708a0d62",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C10_MNN_TRIPLET01/seed_2/run_manifest.json",
+      "record_sha256": "3665ce8aa25bbc6acff9db927e49e0a702a7fe72ac3bee66420a6ce62b864105",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C00_FULL_IGE",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_1/run_manifest.json",
+      "record_sha256": "57ffe7ee87a6581004dcb8b2a96cde065fdf146ff868b7ed46823b8f639d9ec2",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C00_FULL_IGE",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C00_FULL_IGE/seed_2/run_manifest.json",
+      "record_sha256": "4109cd9e0fc16cd4fe53ee1d2f4693f98ec0a994ab4d9c04dc7d883ecff7d76f",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C03_SIMPLE_BASE",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_1/run_manifest.json",
+      "record_sha256": "6ead8b2c01c52244910e8f3007dd6391622195302040c589f56fbb7b5a43f3bf",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C03_SIMPLE_BASE",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C03_SIMPLE_BASE/seed_2/run_manifest.json",
+      "record_sha256": "a775b10df953caf7d5112ababd9f4780b35bc49e34ab7657aa2f9ef070a199b5",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_1/run_manifest.json",
+      "record_sha256": "fd36bb1c6c5fe985a313b9f0253e453f3d477d4e20821c52a2af74104a07eccc",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C09_RNA_ANCHOR10/seed_2/run_manifest.json",
+      "record_sha256": "f46f4208503c7a0c627bdd0f6c1d1692cd644c14d41ea3e92d57b1a0d012c3a0",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_1/run_manifest.json",
+      "record_sha256": "e82360ff220f395117a8a52c511cd082a9c97661d6b9f48a11adf08989fa0ea4",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C04_SHRINK25/seed_2/run_manifest.json",
+      "record_sha256": "b890a84555fed7180a5321fd3bd4317c1240dfbbc7202b50d5e3e5822a1f2957",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C13_HYBRID_IGE25",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_1/run_manifest.json",
+      "record_sha256": "59cde055247a73962466edf6a80a7a90ddec4e04c05077ae8acf5e1ce87d61fb",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C13_HYBRID_IGE25",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C13_HYBRID_IGE25/seed_2/run_manifest.json",
+      "record_sha256": "e84dce919516ff8a9db0e2eda3d9347cb8c138779ad19a9d039eab56d5951430",
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_1/run_manifest.json",
+      "record_sha256": "0a62862700a291fcea70ee3c4cfde3318789a7188d46aba53ce68733c0e85e1d",
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5a_raw_runs_20260813/placenta/C10_MNN_TRIPLET01/seed_2/run_manifest.json",
+      "record_sha256": "d20d3240a761b927b640d14c59e5b63e89d47f9cdc0474091a8a34cd50d33119",
+      "seed": 2,
+      "status": "success"
+    }
+  ],
+  "schema_version": 1,
+  "stage": "R2",
+  "success_count": 24
+}

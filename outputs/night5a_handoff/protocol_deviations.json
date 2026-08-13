@@ -1,0 +1,22 @@
+{
+  "asr_modified": false,
+  "candidate_extension": false,
+  "engineering_attempts": [
+    {
+      "cause": "sparse support-preservation assertion counted structural zeros",
+      "resolution": "corrected audit expression only; graph formula and candidate parameters unchanged",
+      "result": "26 passed, 13 failed",
+      "retained_log": "p0_attempt1_tests_26pass_13fail.log",
+      "stage": "P0-ARCH specialized tests attempt 1"
+    },
+    {
+      "result": "39 passed, 0 failed",
+      "retained_log": "tests_night5a.log",
+      "stage": "P0-ARCH specialized tests attempt 2"
+    }
+  ],
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "scientific_protocol_deviations": [],
+  "seed_search": false
+}

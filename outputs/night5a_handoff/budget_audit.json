@@ -1,0 +1,28 @@
+{
+  "budget_residual_not_reallocated": true,
+  "candidate_limit_total": 68,
+  "candidate_runs_total": 64,
+  "r1": {
+    "candidate_limit": 32,
+    "candidate_runs": 32,
+    "reference_runs": 2,
+    "total": 34
+  },
+  "r2": {
+    "candidate_limit": 24,
+    "candidate_runs": 20,
+    "reference_runs": 4,
+    "total": 24
+  },
+  "r3": {
+    "candidate_limit": 12,
+    "candidate_runs": 12,
+    "reference_runs": 4,
+    "total": 16
+  },
+  "reference_limit_total": 10,
+  "reference_runs_total": 10,
+  "schema_version": 1,
+  "training_units_limit": 78,
+  "training_units_total": 74
+}

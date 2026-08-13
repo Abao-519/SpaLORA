@@ -1,0 +1,254 @@
+{
+  "advanced_candidates": [
+    "C04_SHRINK25"
+  ],
+  "candidate_summaries": [
+    {
+      "advanced": true,
+      "candidate_id": "C04_SHRINK25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.013413417225611379,
+        "placenta": 0.05183514562648104
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.04002978821318776,
+      "dev_macro_delta_nmi": 0.025218774638904602,
+      "dev_macro_delta_q": 0.03262428142604621,
+      "dev_macro_q": 0.5034663236838458,
+      "expected_rows": 10,
+      "gpu_peak_ratio": 0.9680401513237136,
+      "observed_rows": 10,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "pareto_candidate": false,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.027324828447643446,
+          "seed": 0
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.002813623314649627,
+          "seed": 1
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.023981224670328316,
+          "seed": 2
+        },
+        {
+          "dataset": "a1",
+          "delta_q": -0.005562624019978701,
+          "seed": 3
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.01851003371541421,
+          "seed": 4
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.07754347943218198,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.06118066433597069,
+          "seed": 1
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.014054474333806466,
+          "seed": 2
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": -0.008526631261050022,
+          "seed": 3
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.11492374129149607,
+          "seed": 4
+        }
+      ],
+      "resource_qualified": true,
+      "runtime_ratio": 0.842730729286388,
+      "runtime_seconds_mean": 4.021237077843398,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.013413417225611379
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.005086545209451199,
+        "placenta": 0.10884526414738038
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.060776408916170976,
+      "dev_macro_delta_nmi": 0.05315540044066058,
+      "dev_macro_delta_q": 0.056965904678415794,
+      "dev_macro_q": 0.5278079469362154,
+      "expected_rows": 10,
+      "gpu_peak_ratio": 0.8868090998354081,
+      "observed_rows": 10,
+      "paired_q_total": 10,
+      "paired_q_wins": 9,
+      "pareto_candidate": false,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": -0.003602945623744802,
+          "seed": 0
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.005886963971962644,
+          "seed": 1
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.021030346387484133,
+          "seed": 2
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.0008773639611515671,
+          "seed": 3
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.0012409973504024507,
+          "seed": 4
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.1421265724787999,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.10750073073008881,
+          "seed": 1
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.07592892844783772,
+          "seed": 2
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.10075335352139991,
+          "seed": 3
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.11791673555877558,
+          "seed": 4
+        }
+      ],
+      "resource_qualified": true,
+      "runtime_ratio": 0.6454332368361195,
+      "runtime_seconds_mean": 3.0797975830733777,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.005086545209451199
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.002333122024025203,
+        "placenta": 0.13307520158559932
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.06956927053864619,
+      "dev_macro_delta_nmi": 0.06117280902292793,
+      "dev_macro_delta_q": 0.06537103978078707,
+      "dev_macro_q": 0.5362130820385866,
+      "expected_rows": 10,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 10,
+      "paired_q_total": 10,
+      "paired_q_wins": 7,
+      "pareto_candidate": false,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.01104035846728535,
+          "seed": 0
+        },
+        {
+          "dataset": "a1",
+          "delta_q": 0.00736751102344102,
+          "seed": 1
+        },
+        {
+          "dataset": "a1",
+          "delta_q": -0.00707772110457483,
+          "seed": 2
+        },
+        {
+          "dataset": "a1",
+          "delta_q": -0.0097747076062632,
+          "seed": 3
+        },
+        {
+          "dataset": "a1",
+          "delta_q": -0.013221050900014353,
+          "seed": 4
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.06671935796529227,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.17326311194614252,
+          "seed": 1
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.08637060878739677,
+          "seed": 2
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.15953798463340485,
+          "seed": 3
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.17948494459576025,
+          "seed": 4
+        }
+      ],
+      "resource_qualified": true,
+      "runtime_ratio": 0.6921132484976432,
+      "runtime_seconds_mean": 3.302539423573762,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": -0.002333122024025203
+    }
+  ],
+  "candidates_evaluated": [
+    "C04_SHRINK25",
+    "C09_RNA_ANCHOR10",
+    "C10_MNN_TRIPLET01"
+  ],
+  "decision_locked": true,
+  "failed_runs": [],
+  "labels_read_only_after_training_manifest_lock": true,
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "seed_search": false,
+  "stage": "R3",
+  "withheld_results_opened": false
+}

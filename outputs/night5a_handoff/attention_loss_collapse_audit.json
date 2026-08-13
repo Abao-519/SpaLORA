@@ -1,0 +1,140 @@
+{
+  "all_finite": true,
+  "attention_collapsed": false,
+  "corr2_exact_zero_all_runs": true,
+  "loss_contribution_collapsed": false,
+  "rows": [
+    {
+      "active_loss_fractions": {
+        "corr1": 0.0016870960026122825,
+        "mod2_recon": 0.008735218265028074,
+        "rna_recon": 0.9895776857323596
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "a1",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.0016870960026122825,
+      "minimum_cross_attention_entropy_trajectory": 0.6864456534385681,
+      "seed": 0
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.0018009254548785063,
+        "mod2_recon": 0.00791391797068271,
+        "rna_recon": 0.9902851565744388
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "a1",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.0018009254548785063,
+      "minimum_cross_attention_entropy_trajectory": 0.6840707063674927,
+      "seed": 1
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.001798111270539991,
+        "mod2_recon": 0.007173063679654115,
+        "rna_recon": 0.9910288250498059
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "a1",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.001798111270539991,
+      "minimum_cross_attention_entropy_trajectory": 0.6860604882240295,
+      "seed": 2
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.0017603369635946003,
+        "mod2_recon": 0.008534323508320127,
+        "rna_recon": 0.9897053395280853
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "a1",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.0017603369635946003,
+      "minimum_cross_attention_entropy_trajectory": 0.6855225563049316,
+      "seed": 3
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.002039433056758988,
+        "mod2_recon": 0.010590116894461469,
+        "rna_recon": 0.9873704500487795
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "a1",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.002039433056758988,
+      "minimum_cross_attention_entropy_trajectory": 0.6862672567367554,
+      "seed": 4
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.014962250635567644,
+        "mod2_recon": 0.0433017958262431,
+        "rna_recon": 0.9417359535381893
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "placenta",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.014962250635567644,
+      "minimum_cross_attention_entropy_trajectory": 0.6724444031715393,
+      "seed": 0
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.013883332772913495,
+        "mod2_recon": 0.04101624039737476,
+        "rna_recon": 0.9451004268297118
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "placenta",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.013883332772913495,
+      "minimum_cross_attention_entropy_trajectory": 0.672414243221283,
+      "seed": 1
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.013998131477919831,
+        "mod2_recon": 0.042283257586094795,
+        "rna_recon": 0.9437186109359853
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "placenta",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.013998131477919831,
+      "minimum_cross_attention_entropy_trajectory": 0.6737627983093262,
+      "seed": 2
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.014402567159885278,
+        "mod2_recon": 0.04385653791037289,
+        "rna_recon": 0.9417408949297419
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "placenta",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.014402567159885278,
+      "minimum_cross_attention_entropy_trajectory": 0.6743090152740479,
+      "seed": 3
+    },
+    {
+      "active_loss_fractions": {
+        "corr1": 0.014284265929735748,
+        "mod2_recon": 0.04231012873095242,
+        "rna_recon": 0.9434056053393118
+      },
+      "corr2_coefficient_exact_zero": true,
+      "dataset": "placenta",
+      "finite": true,
+      "minimum_active_loss_fraction": 0.014284265929735748,
+      "minimum_cross_attention_entropy_trajectory": 0.6733043789863586,
+      "seed": 4
+    }
+  ],
+  "schema_version": 1,
+  "selected_candidate": "C04_SHRINK25"
+}

@@ -1,0 +1,38 @@
+{
+  "integrity_reads_classified_outside_scientific_window": true,
+  "passed": true,
+  "schema_version": 1,
+  "semantic_label_values_read": false,
+  "stages": {
+    "training_r1": {
+      "forbidden_evaluator_imports": [],
+      "ground_truth_csv_opened_inside_window": [],
+      "ground_truth_parser_guard_trigger_count": 0,
+      "integrity_verification_completed_before_window": true,
+      "opened_path_count": 1516,
+      "passed": true,
+      "semantic_label_values_read": false,
+      "stage": "training_r1"
+    },
+    "training_r2": {
+      "forbidden_evaluator_imports": [],
+      "ground_truth_csv_opened_inside_window": [],
+      "ground_truth_parser_guard_trigger_count": 0,
+      "integrity_verification_completed_before_window": true,
+      "opened_path_count": 1253,
+      "passed": true,
+      "semantic_label_values_read": false,
+      "stage": "training_r2"
+    },
+    "training_r3": {
+      "forbidden_evaluator_imports": [],
+      "ground_truth_csv_opened_inside_window": [],
+      "ground_truth_parser_guard_trigger_count": 0,
+      "integrity_verification_completed_before_window": true,
+      "opened_path_count": 1045,
+      "passed": true,
+      "semantic_label_values_read": false,
+      "stage": "training_r3"
+    }
+  }
+}

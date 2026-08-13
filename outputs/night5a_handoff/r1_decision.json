@@ -1,0 +1,613 @@
+{
+  "advanced_candidates": [
+    "C03_SIMPLE_BASE",
+    "C09_RNA_ANCHOR10",
+    "C04_SHRINK25",
+    "C13_HYBRID_IGE25",
+    "C10_MNN_TRIPLET01"
+  ],
+  "candidate_summaries": [
+    {
+      "advanced": false,
+      "candidate_id": "C01_DROP_CORR2",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.028068377264000577,
+        "placenta": -0.08332346699824089
+      },
+      "dataset_metric_mean_cells_nonnegative": 2,
+      "dev_macro_delta_ari": -0.03193949027955868,
+      "dev_macro_delta_nmi": -0.02331559945468173,
+      "dev_macro_delta_q": -0.027627544867120157,
+      "dev_macro_q": 0.45683457605436817,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.9998960925256095,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 1,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.028068377264000577,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": -0.08332346699824089,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.871514274684568,
+      "runtime_seconds_mean": 4.633650119882077,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.08332346699824089
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C02_UNIFORM_ALL",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.00028358647234821843,
+        "placenta": 0.10245466816478155
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.050644156366650275,
+      "dev_macro_delta_nmi": 0.05209409827047942,
+      "dev_macro_delta_q": 0.05136912731856488,
+      "dev_macro_q": 0.5358312482400532,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.94848587135025,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.00028358647234821843,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.10245466816478155,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.6762115855805391,
+      "runtime_seconds_mean": 3.5952685866504908,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.00028358647234821843
+    },
+    {
+      "advanced": true,
+      "candidate_id": "C03_SIMPLE_BASE",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0036712293132260543,
+        "placenta": 0.13942260288629926
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.08107085930935622,
+      "dev_macro_delta_nmi": 0.06202297289016906,
+      "dev_macro_delta_q": 0.07154691609976266,
+      "dev_macro_q": 0.5560090370212509,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.0036712293132260543,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.13942260288629926,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.6221718394310864,
+      "runtime_seconds_mean": 3.3079511169344187,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0036712293132260543
+    },
+    {
+      "advanced": true,
+      "candidate_id": "C04_SHRINK25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0273248284476435,
+        "placenta": 0.07754347943218198
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.06590440605207569,
+      "dev_macro_delta_nmi": 0.0389639018277497,
+      "dev_macro_delta_q": 0.05243415393991274,
+      "dev_macro_q": 0.536896274861401,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.9680401513237136,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.0273248284476435,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.07754347943218198,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.790720589335405,
+      "runtime_seconds_mean": 4.20408782735467,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0273248284476435
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C05_SHRINK50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.019130638925261123,
+        "placenta": -0.016878231545015554
+      },
+      "dataset_metric_mean_cells_nonnegative": 2,
+      "dev_macro_delta_ari": 0.0011951247943342153,
+      "dev_macro_delta_nmi": 0.0010572825859113122,
+      "dev_macro_delta_q": 0.0011262036901227845,
+      "dev_macro_q": 0.4855883246116111,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.9680401513237136,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 1,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.019130638925261123,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": -0.016878231545015554,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.7752395145199494,
+      "runtime_seconds_mean": 4.121778350323439,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.016878231545015554
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C06_RELIABILITY25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.001204828751684206,
+        "placenta": 0.08308745421926145
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.04197207036218693,
+      "dev_macro_delta_nmi": 0.042320212608758595,
+      "dev_macro_delta_q": 0.04214614148547283,
+      "dev_macro_q": 0.5266082624069611,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8884839161681874,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.001204828751684206,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.08308745421926145,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.6160627169542283,
+      "runtime_seconds_mean": 3.275470253545791,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.001204828751684206
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C07_RELIABILITY50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0010567233743592475,
+        "placenta": 0.08471371502222702
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.04271405977752585,
+      "dev_macro_delta_nmi": 0.04305637861906031,
+      "dev_macro_delta_q": 0.042885219198293134,
+      "dev_macro_q": 0.5273473401197815,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8884839161681874,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.0010567233743592475,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.08471371502222702,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.6336324736065061,
+      "runtime_seconds_mean": 3.368884793482721,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0010567233743592475
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C08_RNA_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.020976931870676174,
+        "placenta": 0.08281797365050225
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.054106862506221196,
+      "dev_macro_delta_nmi": 0.04968804301495716,
+      "dev_macro_delta_q": 0.05189745276058921,
+      "dev_macro_q": 0.5363595736820775,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8868090998354081,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.020976931870676174,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.08281797365050225,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.6477949948590475,
+      "runtime_seconds_mean": 3.4441838106140494,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.020976931870676174
+    },
+    {
+      "advanced": true,
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.003602945623744802,
+        "placenta": 0.1421265724787999
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.07731403248757722,
+      "dev_macro_delta_nmi": 0.06120959436747775,
+      "dev_macro_delta_q": 0.06926181342752755,
+      "dev_macro_q": 0.5537239343490159,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8868090998354081,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 1,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": -0.003602945623744802,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.1421265724787999,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.586079965341669,
+      "runtime_seconds_mean": 3.116058543790132,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.003602945623744802
+    },
+    {
+      "advanced": true,
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.01104035846728535,
+        "placenta": 0.06671935796529227
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.03723451781187766,
+      "dev_macro_delta_nmi": 0.04052519862069995,
+      "dev_macro_delta_q": 0.03887985821628881,
+      "dev_macro_q": 0.5233419791377771,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.01104035846728535,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.06671935796529227,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.633709204914833,
+      "runtime_seconds_mean": 3.3692927570082247,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.01104035846728535
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C11_MNN_TRIPLET03",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.009117474025370387,
+        "placenta": 0.08373407338100436
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.043574613615523325,
+      "dev_macro_delta_nmi": 0.049276933790851296,
+      "dev_macro_delta_q": 0.04642577370318737,
+      "dev_macro_q": 0.5308878946246757,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.009117474025370387,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.08373407338100436,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.676797251559761,
+      "runtime_seconds_mean": 3.5983824441209435,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.009117474025370387
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C12_NEIGHBOR_CONTRAST",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.023800284069536937,
+        "placenta": -0.025737644328976517
+      },
+      "dataset_metric_mean_cells_nonnegative": 1,
+      "dev_macro_delta_ari": -0.04340846420303658,
+      "dev_macro_delta_nmi": -0.006129464195476969,
+      "dev_macro_delta_q": -0.024768964199256727,
+      "dev_macro_q": 0.4596931567222316,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 0,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": -0.023800284069536937,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": -0.025737644328976517,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.6339083826961169,
+      "runtime_seconds_mean": 3.370351741556078,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.025737644328976517
+    },
+    {
+      "advanced": true,
+      "candidate_id": "C13_HYBRID_IGE25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.019600906742863966,
+        "placenta": 0.10143879879151863
+      },
+      "dataset_metric_mean_cells_nonnegative": 2,
+      "dev_macro_delta_ari": 0.04680034327328279,
+      "dev_macro_delta_nmi": 0.03503754877537171,
+      "dev_macro_delta_q": 0.04091894602432733,
+      "dev_macro_q": 0.5253810669458157,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 1,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": -0.019600906742863966,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.10143879879151863,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.5848872896785879,
+      "runtime_seconds_mean": 3.1097173490561545,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.019600906742863966
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C14_HYBRID_IGE50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.005616124135783496,
+        "placenta": 0.04992650148507671
+      },
+      "dataset_metric_mean_cells_nonnegative": 3,
+      "dev_macro_delta_ari": 0.0284115625425624,
+      "dev_macro_delta_nmi": 0.027131063078297796,
+      "dev_macro_delta_q": 0.027771312810430104,
+      "dev_macro_q": 0.5122334337319184,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": true,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.005616124135783496,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.04992650148507671,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.5766297886618966,
+      "runtime_seconds_mean": 3.06581402849406,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.005616124135783496
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C15_RESIDUAL_ENCODER",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.03921773630281544,
+        "placenta": 0.04116331246693128
+      },
+      "dataset_metric_mean_cells_nonnegative": 2,
+      "dev_macro_delta_ari": -0.01779903557970247,
+      "dev_macro_delta_nmi": 0.01974461174381828,
+      "dev_macro_delta_q": 0.0009727880820579182,
+      "dev_macro_q": 0.48543490900354624,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 1.0134046790335007,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 1,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": -0.03921773630281544,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.04116331246693128,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.9436119027108056,
+      "runtime_seconds_mean": 5.016977384220809,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.03921773630281544
+    },
+    {
+      "advanced": false,
+      "candidate_id": "C16_DGI01",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.02663586119219974,
+        "placenta": 0.05859512754648599
+      },
+      "dataset_metric_mean_cells_nonnegative": 4,
+      "dev_macro_delta_ari": 0.04135999051727647,
+      "dev_macro_delta_nmi": 0.043870998221409246,
+      "dev_macro_delta_q": 0.042615494369342866,
+      "dev_macro_q": 0.5270776152908312,
+      "expected_rows": 2,
+      "gpu_peak_ratio": 0.8885767565742997,
+      "observed_rows": 2,
+      "paired_q_total": 2,
+      "paired_q_wins": 2,
+      "passes_numeric_gate": false,
+      "per_seed_paired_delta_q": [
+        {
+          "dataset": "a1",
+          "delta_q": 0.02663586119219974,
+          "seed": 0
+        },
+        {
+          "dataset": "placenta",
+          "delta_q": 0.05859512754648599,
+          "seed": 0
+        }
+      ],
+      "runtime_ratio": 0.9601543831348586,
+      "runtime_seconds_mean": 5.104930121917278,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.02663586119219974
+    }
+  ],
+  "candidates_evaluated": [
+    "C01_DROP_CORR2",
+    "C02_UNIFORM_ALL",
+    "C03_SIMPLE_BASE",
+    "C04_SHRINK25",
+    "C05_SHRINK50",
+    "C06_RELIABILITY25",
+    "C07_RELIABILITY50",
+    "C08_RNA_ANCHOR05",
+    "C09_RNA_ANCHOR10",
+    "C10_MNN_TRIPLET01",
+    "C11_MNN_TRIPLET03",
+    "C12_NEIGHBOR_CONTRAST",
+    "C13_HYBRID_IGE25",
+    "C14_HYBRID_IGE50",
+    "C15_RESIDUAL_ENCODER",
+    "C16_DGI01"
+  ],
+  "decision_locked": true,
+  "failed_runs": [],
+  "labels_read_only_after_training_manifest_lock": true,
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "seed_search": false,
+  "stage": "R1",
+  "withheld_results_opened": false
+}
