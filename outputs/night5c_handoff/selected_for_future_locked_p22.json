@@ -1,0 +1,51 @@
+{
+  "d1_run": false,
+  "gse198353_run": false,
+  "night4b_run": false,
+  "p22_run": false,
+  "schema_version": 1,
+  "selected_candidates": [
+    {
+      "candidate_id": "B01_C04_SHRINK25",
+      "config_sha256": "d643bfdebfbba447d7656ba334ccdfb9cc932874c7f34ba23d9c95ff840b3820",
+      "formula": {
+        "attention": "shrink_to_uniform",
+        "config_sha256": "d643bfdebfbba447d7656ba334ccdfb9cc932874c7f34ba23d9c95ff840b3820",
+        "family": "reference_primary",
+        "id": "B01_C04_SHRINK25",
+        "implementation": "night5a_locked_reuse",
+        "learned_fraction_rho": 0.25,
+        "source_candidate": "C04_SHRINK25",
+        "training_policy": "reuse_verified_night5a_runs"
+      }
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "config_sha256": "4984e467294a3047924984952eaf0e8e63ee63c64319c2ffe8b4f3bd60e3d22f",
+      "formula": {
+        "attention": "shrink_to_uniform",
+        "config_sha256": "4984e467294a3047924984952eaf0e8e63ee63c64319c2ffe8b4f3bd60e3d22f",
+        "family": "fusion_graph_combo",
+        "id": "B10_SHRINK25_ANCHOR10",
+        "implementation": "new_clean_room",
+        "learned_fraction_rho": 0.25,
+        "rna_anchor_eta": 1.0
+      }
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "config_sha256": "fda31ad9ccef53f07606d42004bdd8556794c41b1824cc49ad52656760bfc738",
+      "formula": {
+        "config_sha256": "fda31ad9ccef53f07606d42004bdd8556794c41b1824cc49ad52656760bfc738",
+        "diffusion_alpha": 0.1,
+        "diffusion_steps": 1,
+        "family": "posthoc_spatial_rescue",
+        "id": "B17_C09_DIFFUSE10",
+        "implementation": "new_clean_room",
+        "source_candidate": "C09_RNA_ANCHOR10",
+        "training_policy": "reuse_verified_night5a_runs"
+      }
+    }
+  ],
+  "status": "NIGHT5C_CANDIDATES_LOCKED_FOR_FUTURE_P22"
+}

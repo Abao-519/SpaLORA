@@ -1,0 +1,17 @@
+{
+  "deviation_count": 0,
+  "ordinary_implementation_failures_before_scientific_training": [
+    {
+      "effect": "zero scientific attempts; fixed before first run",
+      "kind": "missing_firewall_config_key"
+    },
+    {
+      "effect": "post-lock evaluation only; no scientific rerun",
+      "kind": "S1 evaluator Python comprehension error"
+    }
+  ],
+  "result_dependent_tuning": false,
+  "schema_version": 1,
+  "scientific_parameters_changed": false,
+  "seed_search": false
+}

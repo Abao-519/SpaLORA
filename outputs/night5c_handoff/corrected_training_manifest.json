@@ -1,0 +1,252 @@
+{
+  "failure_count": 0,
+  "locked_before_semantic_label_access": true,
+  "row_count": 24,
+  "run_order_sha256": "c37939f9353cdf168a2b4326e17f89a4d9dab045c73d53368da029387b2779ed",
+  "runs": [
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B21_C09_LAPLACIAN005/seed_0/run_manifest.json",
+      "record_sha256": "9318e52350089a0ce25abdeb6399a39e11e1323443017c933e71c12be841b81d",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B21_C09_LAPLACIAN005/seed_1/run_manifest.json",
+      "record_sha256": "0b6d4c126a76c7a96fcf03e825ab28c9ab8db0cf691fdfa06c04eeb1c8ba9874",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B21_C09_LAPLACIAN005/seed_2/run_manifest.json",
+      "record_sha256": "d16eabe8609eeda94ada14aad82f1df0ef5dfa3837301b429d9d4bc6ab3608d5",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B22_C09_LAPLACIAN010/seed_0/run_manifest.json",
+      "record_sha256": "8d9d694e53b23f178fbdf7180c10778047e8daa4fca0fc2551905867ecdabf84",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B22_C09_LAPLACIAN010/seed_1/run_manifest.json",
+      "record_sha256": "4f0da38b2f35824df0be03dccc6c3c65ef31c0096d972de52ad1eb178cef5f5f",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B22_C09_LAPLACIAN010/seed_2/run_manifest.json",
+      "record_sha256": "97b3bb1156eb0d3a6c91d84fc21a808da61d846e43d9a4b4be2aa6ae4551d395",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B23_C10_LAPLACIAN005/seed_0/run_manifest.json",
+      "record_sha256": "2567b9f67afdcb3f36c7146c753ddd0bdcde8c393e52914c45fbaa94c3fc06a1",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B23_C10_LAPLACIAN005/seed_1/run_manifest.json",
+      "record_sha256": "a85216a5aa28d27abe837d63d65f5fb8177bed587eb5ce42feae9f0c218034f5",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B23_C10_LAPLACIAN005/seed_2/run_manifest.json",
+      "record_sha256": "e6138ca6277131b3c8872ce668c01013c2215a74966dbdb420f23cddf1459eed",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B24_C10_LAPLACIAN010/seed_0/run_manifest.json",
+      "record_sha256": "d3e449b6e04eccbfdf72a65ab53cc601722692ab6715986db996aea6df4aacde",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B24_C10_LAPLACIAN010/seed_1/run_manifest.json",
+      "record_sha256": "064d7f75ee380a64cbad52aa0fc7a529ea38be802e87a6fac5e7d0fbf0424a43",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/a1/B24_C10_LAPLACIAN010/seed_2/run_manifest.json",
+      "record_sha256": "328fe552de4008d9d29456755f6f66c2ea50f5428ea1a574a46d4bd6e2589621",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B21_C09_LAPLACIAN005/seed_0/run_manifest.json",
+      "record_sha256": "69ec1e4fea672a60e24f925b078067106682069711757495fcf1b285dfd0d357",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B21_C09_LAPLACIAN005/seed_1/run_manifest.json",
+      "record_sha256": "c6b051a04b139bf77b28717f83b4153489312d73378ea40eeb1aad84115f4fc4",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B21_C09_LAPLACIAN005/seed_2/run_manifest.json",
+      "record_sha256": "c86bc3bf8d680bdef3b30bd3fefd8e68e8a9c05f334a844f95e26656f17ab545",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B22_C09_LAPLACIAN010/seed_0/run_manifest.json",
+      "record_sha256": "bc9adce2462535450a0c0e662feaaf6153ad212a402a6854cea63f3c5681e261",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B22_C09_LAPLACIAN010/seed_1/run_manifest.json",
+      "record_sha256": "78ec96f9f2041aa44534279ae367e9d07910503674fd91ba10fa14e1177dee58",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B22_C09_LAPLACIAN010/seed_2/run_manifest.json",
+      "record_sha256": "1775a55b01fbd6c72366e86bd0f93d4be3b2207482a14557dfdc122285e29add",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B23_C10_LAPLACIAN005/seed_0/run_manifest.json",
+      "record_sha256": "f49077a06e3e02288d64ece96056644e9ec33e89ed372b5d032ec32da36cf3c8",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B23_C10_LAPLACIAN005/seed_1/run_manifest.json",
+      "record_sha256": "a6056c393ee17a760e21e62691ab93fe339a67aaa0a743b3c1940573e4999689",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B23_C10_LAPLACIAN005/seed_2/run_manifest.json",
+      "record_sha256": "16c3422d8ba700ce767402d55b4d6e9ea36a9d567661ac8970ec0b342be5a5de",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B24_C10_LAPLACIAN010/seed_0/run_manifest.json",
+      "record_sha256": "9c47c569d47f44ab794ffebe7d2abdc3613112a41c9af7e022d82796864a03e8",
+      "seed": 0,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B24_C10_LAPLACIAN010/seed_1/run_manifest.json",
+      "record_sha256": "264f43b40a4bf4007d6f59b208f8a0f4b77416b3bd2eb9d1a33764d787d27c3e",
+      "seed": 1,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5c_corrected_runs_20260814/placenta/B24_C10_LAPLACIAN010/seed_2/run_manifest.json",
+      "record_sha256": "ebd8002ba8b0a0df884ec33bb9d04414882dcf918eb9c31d8946f59866ce92bf",
+      "seed": 2,
+      "semantic_label_access": false,
+      "source_mode": "night5c_corrected_uniform_all_clean_room",
+      "status": "success"
+    }
+  ],
+  "schema_version": 1,
+  "scientific_training_unit_count": 24,
+  "stage": "S1_CORRECTED",
+  "success_count": 24
+}

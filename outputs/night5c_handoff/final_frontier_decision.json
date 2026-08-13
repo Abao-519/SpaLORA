@@ -1,0 +1,550 @@
+{
+  "accuracy_frontier": [
+    "B17_C09_DIFFUSE10",
+    "B02_C09_RNA_ANCHOR10",
+    "B06_SECONDLOOK_RNA_ANCHOR05",
+    "B19_C10_DIFFUSE10",
+    "B03_C10_MNN_TRIPLET01"
+  ],
+  "balanced_frontier": [
+    "B10_SHRINK25_ANCHOR10",
+    "B17_C09_DIFFUSE10",
+    "B01_C04_SHRINK25",
+    "B09_SHRINK25_ANCHOR05",
+    "B19_C10_DIFFUSE10",
+    "B18_C09_DIFFUSE25"
+  ],
+  "candidate_summaries": [
+    {
+      "accuracy_frontier": false,
+      "balanced_frontier": true,
+      "candidate_id": "B01_C04_SHRINK25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.013413417225611379,
+        "placenta": 0.05183514562648104
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2622351455168253,
+          "boundary_disagreement": 0.4230453626119618,
+          "nmi": 0.38391892369850433,
+          "q": 0.3230770346076648,
+          "spatial_cluster_geary_mean": 0.5036413091900733,
+          "spatial_cluster_moran_mean": 0.5045959800637767,
+          "spatial_neighbor_agreement": 0.5875430539609644
+        },
+        "placenta": {
+          "ari": 0.6690881996117426,
+          "boundary_disagreement": 0.655756698044895,
+          "nmi": 0.698623025908311,
+          "q": 0.6838556127600268,
+          "spatial_cluster_geary_mean": 0.6696986501177035,
+          "spatial_cluster_moran_mean": 0.4883387899018114,
+          "spatial_neighbor_agreement": 0.48844765342960283
+        }
+      },
+      "dev_macro_delta_ari": 0.040029788213187756,
+      "dev_macro_delta_nmi": 0.025218774638904602,
+      "dev_macro_delta_q": 0.03262428142604621,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.9680401513237136,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "relative_b01": {
+        "macro_delta_ari": 0.0,
+        "macro_delta_nmi": 0.0,
+        "macro_delta_q": 0.0
+      },
+      "runtime_ratio": 0.842730729286388,
+      "runtime_seconds_mean": 4.021237077843398,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.013413417225611379
+    },
+    {
+      "accuracy_frontier": true,
+      "balanced_frontier": false,
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.005086545209451199,
+        "placenta": 0.10884526414738038
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.25037554303799936,
+          "boundary_disagreement": 0.434891649812193,
+          "nmi": 0.3791247821450099,
+          "q": 0.3147501625915046,
+          "spatial_cluster_geary_mean": 0.522995110633304,
+          "spatial_cluster_moran_mean": 0.48571006726964294,
+          "spatial_neighbor_agreement": 0.5763681592039801
+        },
+        "placenta": {
+          "ari": 0.7224410434965349,
+          "boundary_disagreement": 0.6860246198406952,
+          "nmi": 0.7592904190653175,
+          "q": 0.7408657312809263,
+          "spatial_cluster_geary_mean": 0.7329915182464761,
+          "spatial_cluster_moran_mean": 0.3687850933331173,
+          "spatial_neighbor_agreement": 0.41564380264741274
+        }
+      },
+      "dev_macro_delta_ari": 0.060776408916170976,
+      "dev_macro_delta_nmi": 0.05315540044066058,
+      "dev_macro_delta_q": 0.056965904678415794,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8868090998354081,
+      "paired_q_total": 10,
+      "paired_q_wins": 9,
+      "relative_b01": {
+        "macro_delta_ari": 0.020746620702983214,
+        "macro_delta_nmi": 0.027936625801755984,
+        "macro_delta_q": 0.024341623252369576
+      },
+      "runtime_ratio": 0.6454332368361195,
+      "runtime_seconds_mean": 3.0797975830733777,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.005086545209451199
+    },
+    {
+      "accuracy_frontier": true,
+      "balanced_frontier": false,
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.0023331220240252136,
+        "placenta": 0.13307520158559932
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24153397342653538,
+          "boundary_disagreement": 0.44202253683906384,
+          "nmi": 0.373127017289521,
+          "q": 0.30733049535802814,
+          "spatial_cluster_geary_mean": 0.5222784803518806,
+          "spatial_cluster_moran_mean": 0.4854358382979728,
+          "spatial_neighbor_agreement": 0.5685833652251563
+        },
+        "placenta": {
+          "ari": 0.7488683363529492,
+          "boundary_disagreement": 0.6847212165097755,
+          "nmi": 0.7813230010853409,
+          "q": 0.7650956687191452,
+          "spatial_cluster_geary_mean": 0.7316946308699321,
+          "spatial_cluster_moran_mean": 0.37061749069101385,
+          "spatial_neighbor_agreement": 0.4126353790613718
+        }
+      },
+      "dev_macro_delta_ari": 0.06956927053864619,
+      "dev_macro_delta_nmi": 0.06117280902292793,
+      "dev_macro_delta_q": 0.06537103978078705,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8885177322101488,
+      "paired_q_total": 10,
+      "paired_q_wins": 7,
+      "relative_b01": {
+        "macro_delta_ari": 0.029539482325458423,
+        "macro_delta_nmi": 0.03595403438402333,
+        "macro_delta_q": 0.03274675835474084
+      },
+      "runtime_ratio": 0.6921132484976432,
+      "runtime_seconds_mean": 3.302539423573762,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": -0.0023331220240252136
+    },
+    {
+      "accuracy_frontier": true,
+      "balanced_frontier": false,
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0034458707484030016,
+        "placenta": 0.10208774591921357
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24781437475000506,
+          "boundary_disagreement": 0.4409823750361167,
+          "nmi": 0.37840460151090777,
+          "q": 0.31310948813045647,
+          "spatial_cluster_geary_mean": 0.5138136613250505,
+          "spatial_cluster_moran_mean": 0.49487553925924077,
+          "spatial_neighbor_agreement": 0.5704362801377727
+        },
+        "placenta": {
+          "ari": 0.7106746277232421,
+          "boundary_disagreement": 0.6873280231716147,
+          "nmi": 0.7575417983822768,
+          "q": 0.7341082130527594,
+          "spatial_cluster_geary_mean": 0.7221478012924438,
+          "spatial_cluster_moran_mean": 0.37690849327551856,
+          "spatial_neighbor_agreement": 0.4107099879663056
+        }
+      },
+      "dev_macro_delta_ari": 0.05361261688552744,
+      "dev_macro_delta_nmi": 0.05192099978208908,
+      "dev_macro_delta_q": 0.052766808333808285,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8877110659000877,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "relative_b01": {
+        "macro_delta_ari": 0.013582828672339673,
+        "macro_delta_nmi": 0.02670222514318448,
+        "macro_delta_q": 0.020142526907762068
+      },
+      "runtime_ratio": 0.6630042524934833,
+      "runtime_seconds_mean": 3.163640757650137,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.0034458707484030016
+    },
+    {
+      "accuracy_frontier": false,
+      "balanced_frontier": true,
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.012835074461746709,
+        "placenta": 0.057122398522673826
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.26196378961700506,
+          "boundary_disagreement": 0.4354695174804969,
+          "nmi": 0.38303359407059523,
+          "q": 0.32249869184380014,
+          "spatial_cluster_geary_mean": 0.5123091878419312,
+          "spatial_cluster_moran_mean": 0.49662586498233985,
+          "spatial_neighbor_agreement": 0.5754847557086362
+        },
+        "placenta": {
+          "ari": 0.678665358315673,
+          "boundary_disagreement": 0.6559015206372194,
+          "nmi": 0.6996203729967662,
+          "q": 0.6891428656562197,
+          "spatial_cluster_geary_mean": 0.6661474677566422,
+          "spatial_cluster_moran_mean": 0.48737518018671383,
+          "spatial_neighbor_agreement": 0.4871239470517449
+        }
+      },
+      "dev_macro_delta_ari": 0.044682689615242896,
+      "dev_macro_delta_nmi": 0.025274783369177576,
+      "dev_macro_delta_q": 0.03497873649221027,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.9670846944290222,
+      "paired_q_total": 10,
+      "paired_q_wins": 9,
+      "relative_b01": {
+        "macro_delta_ari": 0.004652901402055135,
+        "macro_delta_nmi": 5.600873027297726e-05,
+        "macro_delta_q": 0.0023544550661640626
+      },
+      "runtime_ratio": 0.8981517341847609,
+      "runtime_seconds_mean": 4.285688096471131,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.012835074461746709
+    },
+    {
+      "accuracy_frontier": false,
+      "balanced_frontier": true,
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.013639151144201367,
+        "placenta": 0.0552581549402229
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.260814657955284,
+          "boundary_disagreement": 0.42973129153423867,
+          "nmi": 0.3857908790972255,
+          "q": 0.3233027685262548,
+          "spatial_cluster_geary_mean": 0.5263604001691545,
+          "spatial_cluster_moran_mean": 0.4836473885174325,
+          "spatial_neighbor_agreement": 0.5820098226814644
+        },
+        "placenta": {
+          "ari": 0.6745707086160637,
+          "boundary_disagreement": 0.662563359884142,
+          "nmi": 0.6999865355314737,
+          "q": 0.6872786220737688,
+          "spatial_cluster_geary_mean": 0.6751084256987427,
+          "spatial_cluster_moran_mean": 0.4796273699153756,
+          "spatial_neighbor_agreement": 0.4808664259927798
+        }
+      },
+      "dev_macro_delta_ari": 0.04206079893457771,
+      "dev_macro_delta_nmi": 0.026836507149846554,
+      "dev_macro_delta_q": 0.03444865304221213,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.9670846944290222,
+      "paired_q_total": 10,
+      "paired_q_wins": 9,
+      "relative_b01": {
+        "macro_delta_ari": 0.00203101072138995,
+        "macro_delta_nmi": 0.001617732510941955,
+        "macro_delta_q": 0.0018243716161659262
+      },
+      "runtime_ratio": 0.8535913107428522,
+      "runtime_seconds_mean": 4.073060241900384,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.013639151144201367
+    },
+    {
+      "accuracy_frontier": false,
+      "balanced_frontier": false,
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.0017418841653993322,
+        "placenta": 0.07757206075108958
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2437202304113543,
+          "boundary_disagreement": 0.4353943946836175,
+          "nmi": 0.3721232360219539,
+          "q": 0.30792173321665406,
+          "spatial_cluster_geary_mean": 0.5027588369518049,
+          "spatial_cluster_moran_mean": 0.506356033505851,
+          "spatial_neighbor_agreement": 0.5754528638856997
+        },
+        "placenta": {
+          "ari": 0.7049873964707019,
+          "boundary_disagreement": 0.6587979724837074,
+          "nmi": 0.7141976592985689,
+          "q": 0.7095925278846354,
+          "spatial_cluster_geary_mean": 0.6808569063198314,
+          "spatial_cluster_moran_mean": 0.4892821673298899,
+          "spatial_neighbor_agreement": 0.489410348977136
+        }
+      },
+      "dev_macro_delta_ari": 0.04872192908993194,
+      "dev_macro_delta_nmi": 0.027108247495758252,
+      "dev_macro_delta_q": 0.03791508829284512,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "relative_b01": {
+        "macro_delta_ari": 0.008692140876744177,
+        "macro_delta_nmi": 0.001889472856853652,
+        "macro_delta_q": 0.0052908068667989186
+      },
+      "runtime_ratio": 0.9016264048511161,
+      "runtime_seconds_mean": 4.302268095314503,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.0017418841653993322
+    },
+    {
+      "accuracy_frontier": true,
+      "balanced_frontier": true,
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.013591890052601242,
+        "placenta": 0.11018527640478581
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.26208126111167485,
+          "boundary_disagreement": 0.4079052297023981,
+          "nmi": 0.3844297537576345,
+          "q": 0.3232555074346547,
+          "spatial_cluster_geary_mean": 0.4881526383164935,
+          "spatial_cluster_moran_mean": 0.5195257043790928,
+          "spatial_neighbor_agreement": 0.6034475060594463
+        },
+        "placenta": {
+          "ari": 0.7306942350996948,
+          "boundary_disagreement": 0.6755973931933382,
+          "nmi": 0.7537172519769685,
+          "q": 0.7422057435383316,
+          "spatial_cluster_geary_mean": 0.6997445731904264,
+          "spatial_cluster_moran_mean": 0.4193935959096485,
+          "spatial_neighbor_agreement": 0.43730445246690736
+        }
+      },
+      "dev_macro_delta_ari": 0.07075586375458867,
+      "dev_macro_delta_nmi": 0.05302130270279839,
+      "dev_macro_delta_q": 0.061888583228693526,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8868090998354081,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "relative_b01": {
+        "macro_delta_ari": 0.030726075541400916,
+        "macro_delta_nmi": 0.02780252806389379,
+        "macro_delta_q": 0.02926430180264732
+      },
+      "runtime_ratio": 0.6454332368361195,
+      "runtime_seconds_mean": 3.0797975830733777,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.013591890052601242
+    },
+    {
+      "accuracy_frontier": false,
+      "balanced_frontier": true,
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0008115500019452382,
+        "placenta": 0.09687976271855418
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2429946168322276,
+          "boundary_disagreement": 0.38082057208899156,
+          "nmi": 0.37795571793576976,
+          "q": 0.31047516738399866,
+          "spatial_cluster_geary_mean": 0.44655749294787805,
+          "spatial_cluster_moran_mean": 0.5617492022702099,
+          "spatial_neighbor_agreement": 0.630523663732619
+        },
+        "placenta": {
+          "ari": 0.7305659087338795,
+          "boundary_disagreement": 0.649239681390297,
+          "nmi": 0.7272345509703204,
+          "q": 0.7289002298521,
+          "spatial_cluster_geary_mean": 0.6658546721865728,
+          "spatial_cluster_moran_mean": 0.4971159126723113,
+          "spatial_neighbor_agreement": 0.49891696750902526
+        }
+      },
+      "dev_macro_delta_ari": 0.061148378431957404,
+      "dev_macro_delta_nmi": 0.036542934288542,
+      "dev_macro_delta_q": 0.04884565636024971,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8868090998354081,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "relative_b01": {
+        "macro_delta_ari": 0.021118590218769634,
+        "macro_delta_nmi": 0.0113241596496374,
+        "macro_delta_q": 0.01622137493420352
+      },
+      "runtime_ratio": 0.6454332368361195,
+      "runtime_seconds_mean": 3.0797975830733777,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0008115500019452382
+    },
+    {
+      "accuracy_frontier": true,
+      "balanced_frontier": true,
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.002452906332490112,
+        "placenta": 0.1184494668447916
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24643010682819075,
+          "boundary_disagreement": 0.4226235192140999,
+          "nmi": 0.37780294060089636,
+          "q": 0.3121165237145435,
+          "spatial_cluster_geary_mean": 0.49916580351855444,
+          "spatial_cluster_moran_mean": 0.5091475047385705,
+          "spatial_neighbor_agreement": 0.5885061870136497
+        },
+        "placenta": {
+          "ari": 0.7383753093337467,
+          "boundary_disagreement": 0.6657494569152788,
+          "nmi": 0.7625645586229282,
+          "q": 0.7504699339783374,
+          "spatial_cluster_geary_mean": 0.6982846003376981,
+          "spatial_cluster_moran_mean": 0.42534246109408197,
+          "spatial_neighbor_agreement": 0.44560770156438023
+        }
+      },
+      "dev_macro_delta_ari": 0.0667708237298726,
+      "dev_macro_delta_nmi": 0.054131549447409166,
+      "dev_macro_delta_q": 0.060451186588640855,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8885177322101488,
+      "paired_q_total": 10,
+      "paired_q_wins": 8,
+      "relative_b01": {
+        "macro_delta_ari": 0.02674103551668483,
+        "macro_delta_nmi": 0.02891277480850457,
+        "macro_delta_q": 0.027826905162594645
+      },
+      "runtime_ratio": 0.6921132484976432,
+      "runtime_seconds_mean": 3.302539423573762,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.002452906332490112
+    },
+    {
+      "accuracy_frontier": false,
+      "balanced_frontier": false,
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.01163921950687854,
+        "placenta": 0.0754259608994671
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.23002332840545403,
+          "boundary_disagreement": 0.373002022536839,
+          "nmi": 0.36602546734489577,
+          "q": 0.2980243978751749,
+          "spatial_cluster_geary_mean": 0.44207685737268687,
+          "spatial_cluster_moran_mean": 0.5666882636397472,
+          "spatial_neighbor_agreement": 0.6380373772164817
+        },
+        "placenta": {
+          "ari": 0.6984424879399568,
+          "boundary_disagreement": 0.652860246198407,
+          "nmi": 0.716450368126069,
+          "q": 0.7074464280330128,
+          "spatial_cluster_geary_mean": 0.6660674140369786,
+          "spatial_cluster_moran_mean": 0.4926170510340756,
+          "spatial_neighbor_agreement": 0.4891696750902527
+        }
+      },
+      "dev_macro_delta_ari": 0.03860102382160926,
+      "dev_macro_delta_nmi": 0.02518571757097931,
+      "dev_macro_delta_q": 0.031893370696294276,
+      "effective_resource_gate_pass": true,
+      "eligibility_tier": "canonical_eligible",
+      "gpu_peak_ratio": 0.8885177322101488,
+      "paired_q_total": 10,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": -0.0014287643915785048,
+        "macro_delta_nmi": -3.305706792529166e-05,
+        "macro_delta_q": -0.000730910729751932
+      },
+      "runtime_ratio": 0.6921132484976432,
+      "runtime_seconds_mean": 3.302539423573762,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.01163921950687854
+    }
+  ],
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "seed_search": false,
+  "selected_for_future_locked_p22": [
+    "B01_C04_SHRINK25",
+    "B10_SHRINK25_ANCHOR10",
+    "B17_C09_DIFFUSE10"
+  ],
+  "status": "NIGHT5C_CANDIDATES_LOCKED_FOR_FUTURE_P22",
+  "strictly_better_than_b01_balanced": [
+    "B10_SHRINK25_ANCHOR10",
+    "B17_C09_DIFFUSE10"
+  ],
+  "withheld_results_opened": false
+}

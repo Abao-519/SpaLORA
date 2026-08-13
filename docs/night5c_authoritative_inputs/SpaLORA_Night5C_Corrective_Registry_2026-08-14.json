@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "study": "Night-5C Laplacian correction and Night-5B selection closure",
+  "authority_parent_commit": "2bfb3a0e9d363e90747ec0bd0ec0da92c829bc20",
+  "authority_parent_tag": "night5b-final-20260813",
+  "source_registry": {
+    "path": "SpaLORA_Night5B_Candidate_Registry_2026-08-13.json",
+    "sha256": "86f45f10949dce3a5de2b8233a786fb394608f2f78461975c0538eeca22c221a"
+  },
+  "correction_scope": {
+    "reason": "Night-5B B21-B24 executed shrink_to_uniform_rho025 instead of their registered uniform_all policy",
+    "old_results_are_invalid": true,
+    "old_results_must_be_retained": true,
+    "scientific_parameters_changed": false,
+    "development_datasets": [
+      "a1",
+      "placenta"
+    ],
+    "stage_1_seeds": [
+      0,
+      1,
+      2
+    ],
+    "conditional_stage_2_seeds": [
+      3,
+      4
+    ]
+  },
+  "candidates": [
+    {
+      "id": "B21_C09_LAPLACIAN005",
+      "source_night5b_config_sha256": "cebf5449516bd4a4647b0a3861b496dff279272fd782183a0309b1f1f4b4048f",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "rna_anchor_eta": 1.0,
+      "laplacian_target_gradient_fraction": 0.05
+    },
+    {
+      "id": "B22_C09_LAPLACIAN010",
+      "source_night5b_config_sha256": "b08142a817499e91323658a9cbd6e712916a9a048cebf270a2a31a0aeced4e55",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "rna_anchor_eta": 1.0,
+      "laplacian_target_gradient_fraction": 0.1
+    },
+    {
+      "id": "B23_C10_LAPLACIAN005",
+      "source_night5b_config_sha256": "d26fe46a9ba39a7f7d9c1fcb8ff88ec2aa960c987182f1349e347a095a60f955",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5,
+      "laplacian_target_gradient_fraction": 0.05
+    },
+    {
+      "id": "B24_C10_LAPLACIAN010",
+      "source_night5b_config_sha256": "c600f9e2b0708328a6fe4027fc259d4973faddf598bf68fe806cbd34ad6f33b6",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5,
+      "laplacian_target_gradient_fraction": 0.1
+    }
+  ],
+  "withheld": [
+    "p22",
+    "d1",
+    "gse198353",
+    "night4b"
+  ]
+}

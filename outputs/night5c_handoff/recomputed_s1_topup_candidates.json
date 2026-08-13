@@ -1,0 +1,766 @@
+{
+  "accuracy_frontier_top2": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10"
+  ],
+  "added_candidates": [],
+  "balanced_frontier_top3": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10",
+    "B06_SECONDLOOK_RNA_ANCHOR05"
+  ],
+  "candidate_summaries": [
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.005897898538399467,
+        "placenta": 0.07982553643628283
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2533406770730222,
+          "boundary_disagreement": 0.4403544255032264,
+          "nmi": 0.38192881094181647,
+          "q": 0.31763474400741937,
+          "spatial_cluster_geary_mean": 0.5244699059060113,
+          "spatial_cluster_moran_mean": 0.48380438097515693,
+          "spatial_neighbor_agreement": 0.5703693073096058
+        },
+        "placenta": {
+          "ari": 0.7058464443987429,
+          "boundary_disagreement": 0.6799420709630702,
+          "nmi": 0.754430082466241,
+          "q": 0.730138263432492,
+          "spatial_cluster_geary_mean": 0.7125481545366336,
+          "spatial_cluster_moran_mean": 0.3906459319650864,
+          "spatial_neighbor_agreement": 0.42258323305254714
+        }
+      },
+      "dev_macro_delta_ari": 0.04153040020035821,
+      "dev_macro_delta_nmi": 0.04419303477432404,
+      "dev_macro_delta_q": 0.04286171748734115,
+      "gpu_peak_ratio": 0.8884839161681874,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": 0.00013251113572002558,
+        "macro_delta_nmi": 0.016624825660768772,
+        "macro_delta_q": 0.00837866839824437
+      },
+      "runtime_ratio": 0.6856301111011119,
+      "runtime_seconds_mean": 3.3167811490905783,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.005897898538399467
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0021037427055745814,
+        "placenta": 0.09354858377382887
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2495269703004013,
+          "boundary_disagreement": 0.43269767889819893,
+          "nmi": 0.3781542060487877,
+          "q": 0.31384058817459454,
+          "spatial_cluster_geary_mean": 0.5121083740888736,
+          "spatial_cluster_moran_mean": 0.49617834752637774,
+          "spatial_neighbor_agreement": 0.5783794701705148
+        },
+        "placenta": {
+          "ari": 0.7236194396673822,
+          "boundary_disagreement": 0.6857349746560463,
+          "nmi": 0.7641031818726937,
+          "q": 0.743861310770038,
+          "spatial_cluster_geary_mean": 0.7158974907858321,
+          "spatial_cluster_moran_mean": 0.3834737545516506,
+          "spatial_neighbor_agreement": 0.4143602085840352
+        }
+      },
+      "dev_macro_delta_ari": 0.04851004444836736,
+      "dev_macro_delta_nmi": 0.047142282031036015,
+      "dev_macro_delta_q": 0.04782616323970172,
+      "gpu_peak_ratio": 0.8884839161681874,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": 0.007112155383729177,
+        "macro_delta_nmi": 0.019574072917480746,
+        "macro_delta_q": 0.013343114150604971
+      },
+      "runtime_ratio": 0.6594468476582567,
+      "runtime_seconds_mean": 3.1901178751140833,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0021037427055745814
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.013461497515417956,
+        "placenta": 0.09364949172845978
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.26292005096716875,
+          "boundary_disagreement": 0.43970913994028704,
+          "nmi": 0.387476635001707,
+          "q": 0.32519834298443784,
+          "spatial_cluster_geary_mean": 0.5261403662347978,
+          "spatial_cluster_moran_mean": 0.4823258951101801,
+          "spatial_neighbor_agreement": 0.5716502955308925
+        },
+        "placenta": {
+          "ari": 0.7235081099218686,
+          "boundary_disagreement": 0.6867004586048756,
+          "nmi": 0.7644163275274692,
+          "q": 0.7439622187246689,
+          "spatial_cluster_geary_mean": 0.7167664946992552,
+          "spatial_cluster_moran_mean": 0.38455414702571483,
+          "spatial_neighbor_agreement": 0.414560770156438
+        }
+      },
+      "dev_macro_delta_ari": 0.055150919908994324,
+      "dev_macro_delta_nmi": 0.05196006933488338,
+      "dev_macro_delta_q": 0.05355549462193887,
+      "gpu_peak_ratio": 0.8868090998354081,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": 0.013753030844356142,
+        "macro_delta_nmi": 0.02439186022132811,
+        "macro_delta_q": 0.019072445532842097
+      },
+      "runtime_ratio": 0.6672479903201762,
+      "runtime_seconds_mean": 3.227856420290967,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.013461497515417956
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.013954096624789506,
+        "placenta": 0.06663346811338337
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2373824324027395,
+          "boundary_disagreement": 0.3964075893287104,
+          "nmi": 0.35818306528572136,
+          "q": 0.2977827488442304,
+          "spatial_cluster_geary_mean": 0.4636065900710357,
+          "spatial_cluster_moran_mean": 0.5470804017804836,
+          "spatial_neighbor_agreement": 0.6144703831270996
+        },
+        "placenta": {
+          "ari": 0.6823624474100592,
+          "boundary_disagreement": 0.6929761042722665,
+          "nmi": 0.7515299428091256,
+          "q": 0.7169461951095925,
+          "spatial_cluster_geary_mean": 0.7319277493170796,
+          "spatial_cluster_moran_mean": 0.3694745139273216,
+          "spatial_neighbor_agreement": 0.40734055354993987
+        }
+      },
+      "dev_macro_delta_ari": 0.02180927937087504,
+      "dev_macro_delta_nmi": 0.030870092117718805,
+      "dev_macro_delta_q": 0.026339685744296935,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "paired_q_total": 6,
+      "paired_q_wins": 4,
+      "relative_b01": {
+        "macro_delta_ari": -0.019588609693763148,
+        "macro_delta_nmi": 0.003301883004163536,
+        "macro_delta_q": -0.008143363344799832
+      },
+      "runtime_ratio": 0.6454197852851103,
+      "runtime_seconds_mean": 3.122261030289034,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.013954096624789506
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.012208725715424787,
+        "placenta": 0.07924409193874826
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2621612604205064,
+          "boundary_disagreement": 0.4438794182798806,
+          "nmi": 0.385729881948383,
+          "q": 0.3239455711844447,
+          "spatial_cluster_geary_mean": 0.5343008378284633,
+          "spatial_cluster_moran_mean": 0.4761709123604363,
+          "spatial_neighbor_agreement": 0.5665848109877961
+        },
+        "placenta": {
+          "ari": 0.7089025844538445,
+          "boundary_disagreement": 0.6932174752594737,
+          "nmi": 0.7502110534160703,
+          "q": 0.7295568189349574,
+          "spatial_cluster_geary_mean": 0.7406838317158112,
+          "spatial_cluster_moran_mean": 0.35848047023506013,
+          "spatial_neighbor_agreement": 0.40914560770156444
+        }
+      },
+      "dev_macro_delta_ari": 0.047468761901651106,
+      "dev_macro_delta_nmi": 0.04398405575252194,
+      "dev_macro_delta_q": 0.04572640882708653,
+      "gpu_peak_ratio": 0.8885767565742997,
+      "paired_q_total": 6,
+      "paired_q_wins": 5,
+      "relative_b01": {
+        "macro_delta_ari": 0.006070872837012917,
+        "macro_delta_nmi": 0.01641584663896667,
+        "macro_delta_q": 0.01124335973798977
+      },
+      "runtime_ratio": 1.0696927627848067,
+      "runtime_seconds_mean": 5.174709706412007,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.012208725715424787
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.019435670233059272,
+        "placenta": 0.03200766782015659
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2740837597131112,
+          "boundary_disagreement": 0.4357989020514302,
+          "nmi": 0.3882612716910471,
+          "q": 0.33117251570207923,
+          "spatial_cluster_geary_mean": 0.523589069752258,
+          "spatial_cluster_moran_mean": 0.48475486132946105,
+          "spatial_neighbor_agreement": 0.574940468597185
+        },
+        "placenta": {
+          "ari": 0.6671133050710832,
+          "boundary_disagreement": 0.6628047308713492,
+          "nmi": 0.697527484561648,
+          "q": 0.6823203948163657,
+          "spatial_cluster_geary_mean": 0.669104702104995,
+          "spatial_cluster_moran_mean": 0.48577115190339665,
+          "spatial_neighbor_agreement": 0.48134777376654636
+        }
+      },
+      "dev_macro_delta_ari": 0.03253537185657294,
+      "dev_macro_delta_nmi": 0.018907966196642857,
+      "dev_macro_delta_q": 0.025721669026607934,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": -0.008862517208065246,
+        "macro_delta_nmi": -0.008660242916912411,
+        "macro_delta_q": -0.008761380062488814
+      },
+      "runtime_ratio": 0.9133010408199117,
+      "runtime_seconds_mean": 4.4181543759380775,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.019435670233059272
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.017517188186964443,
+        "placenta": 0.043492830752798084
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2679285417596903,
+          "boundary_disagreement": 0.4283155157468939,
+          "nmi": 0.39057952555227843,
+          "q": 0.3292540336559844,
+          "spatial_cluster_geary_mean": 0.5350897271739244,
+          "spatial_cluster_moran_mean": 0.47530481848494494,
+          "spatial_neighbor_agreement": 0.5835034230556618
+        },
+        "placenta": {
+          "ari": 0.6804775480776013,
+          "boundary_disagreement": 0.6673907796282886,
+          "nmi": 0.707133567420413,
+          "q": 0.6938055577490072,
+          "spatial_cluster_geary_mean": 0.6776100948497888,
+          "spatial_cluster_moran_mean": 0.4747610426631041,
+          "spatial_neighbor_agreement": 0.4751303650220618
+        }
+      },
+      "dev_macro_delta_ari": 0.03613988438312144,
+      "dev_macro_delta_nmi": 0.024870134556641065,
+      "dev_macro_delta_q": 0.030505009469881265,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 5,
+      "relative_b01": {
+        "macro_delta_ari": -0.0052580046815167425,
+        "macro_delta_nmi": -0.002698074556914204,
+        "macro_delta_q": -0.003978039619215483
+      },
+      "runtime_ratio": 0.8447514260197405,
+      "runtime_seconds_mean": 4.086541066567103,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.017517188186964443
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0060217875872447535,
+        "placenta": 0.02309846914754743
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2534586696590339,
+          "boundary_disagreement": 0.43759992295097755,
+          "nmi": 0.38205859645349544,
+          "q": 0.31775863305626467,
+          "spatial_cluster_geary_mean": 0.5174033151244403,
+          "spatial_cluster_moran_mean": 0.49001349510735875,
+          "spatial_neighbor_agreement": 0.5738083088829358
+        },
+        "placenta": {
+          "ari": 0.6528013557486071,
+          "boundary_disagreement": 0.6606323919864833,
+          "nmi": 0.694021036538906,
+          "q": 0.6734111961437566,
+          "spatial_cluster_geary_mean": 0.6700503873279997,
+          "spatial_cluster_moran_mean": 0.47538805027976866,
+          "spatial_neighbor_agreement": 0.47352587244283995
+        }
+      },
+      "dev_macro_delta_ari": 0.015066852168296127,
+      "dev_macro_delta_nmi": 0.014053404566496064,
+      "dev_macro_delta_q": 0.014560128367396091,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 4,
+      "relative_b01": {
+        "macro_delta_ari": -0.026331036896342058,
+        "macro_delta_nmi": -0.013514804547059205,
+        "macro_delta_q": -0.019922920721700665
+      },
+      "runtime_ratio": 0.8949029291368261,
+      "runtime_seconds_mean": 4.329152290088435,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0060217875872447535
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0027563140598056055,
+        "placenta": 0.05925687718481495
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.25303199728194786,
+          "boundary_disagreement": 0.43497062506019457,
+          "nmi": 0.37595432177570315,
+          "q": 0.31449315952882556,
+          "spatial_cluster_geary_mean": 0.5080537635947847,
+          "spatial_cluster_moran_mean": 0.49932382600293784,
+          "spatial_neighbor_agreement": 0.5757058723476635
+        },
+        "placenta": {
+          "ari": 0.6971835462929388,
+          "boundary_disagreement": 0.6669080376538741,
+          "nmi": 0.7219556620691093,
+          "q": 0.709569604181024,
+          "spatial_cluster_geary_mean": 0.6713290635917226,
+          "spatial_cluster_moran_mean": 0.4712813640866438,
+          "spatial_neighbor_agreement": 0.4663056558363417
+        }
+      },
+      "dev_macro_delta_ari": 0.037044611251918956,
+      "dev_macro_delta_nmi": 0.024968579992701617,
+      "dev_macro_delta_q": 0.031006595622310278,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": -0.004353277812719233,
+        "macro_delta_nmi": -0.0025996291208536526,
+        "macro_delta_q": -0.00347645346678648
+      },
+      "runtime_ratio": 0.8802147290846839,
+      "runtime_seconds_mean": 4.258097147879501,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0027563140598056055
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0017316929479067045,
+        "placenta": 0.08135596557630702
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24949695322353158,
+          "boundary_disagreement": 0.4213811037272464,
+          "nmi": 0.3774401236103217,
+          "q": 0.3134685384169266,
+          "spatial_cluster_geary_mean": 0.5104698335211257,
+          "spatial_cluster_moran_mean": 0.49970815964246446,
+          "spatial_neighbor_agreement": 0.5892492664880725
+        },
+        "placenta": {
+          "ari": 0.7289401633899816,
+          "boundary_disagreement": 0.6608737629736906,
+          "nmi": 0.7343972217550507,
+          "q": 0.7316686925725161,
+          "spatial_cluster_geary_mean": 0.673768869062163,
+          "spatial_cluster_moran_mean": 0.47571474739947,
+          "spatial_neighbor_agreement": 0.47312474929803444
+        }
+      },
+      "dev_macro_delta_ari": 0.05115539777123217,
+      "dev_macro_delta_nmi": 0.03193226075298151,
+      "dev_macro_delta_q": 0.04154382926210686,
+      "gpu_peak_ratio": 0.9688523511679139,
+      "paired_q_total": 6,
+      "paired_q_wins": 4,
+      "relative_b01": {
+        "macro_delta_ari": 0.009757508706593976,
+        "macro_delta_nmi": 0.004364051639426243,
+        "macro_delta_q": 0.007060780173010095
+      },
+      "runtime_ratio": 1.4332687424171255,
+      "runtime_seconds_mean": 6.933532628541191,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0017316929479067045
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.001358748820527204,
+        "placenta": 0.021256354524036514
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24354666289551963,
+          "boundary_disagreement": 0.4397284021958971,
+          "nmi": 0.3772095304014658,
+          "q": 0.31037809664849275,
+          "spatial_cluster_geary_mean": 0.5271026471752616,
+          "spatial_cluster_moran_mean": 0.4826606224346421,
+          "spatial_neighbor_agreement": 0.5708104775268955
+        },
+        "placenta": {
+          "ari": 0.6502245778912626,
+          "boundary_disagreement": 0.6635288438329713,
+          "nmi": 0.6929135851492285,
+          "q": 0.6715690815202455,
+          "spatial_cluster_geary_mean": 0.6873248380707331,
+          "spatial_cluster_moran_mean": 0.47526804434516956,
+          "spatial_neighbor_agreement": 0.48415563578018456
+        }
+      },
+      "dev_macro_delta_ari": 0.008822459857866805,
+      "dev_macro_delta_nmi": 0.011075145845642528,
+      "dev_macro_delta_q": 0.009948802851754654,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 3,
+      "relative_b01": {
+        "macro_delta_ari": -0.03257542920677138,
+        "macro_delta_nmi": -0.01649306326791274,
+        "macro_delta_q": -0.0245342462373421
+      },
+      "runtime_ratio": 0.8578541187657082,
+      "runtime_seconds_mean": 4.149926211995383,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.001358748820527204
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.006568899871379948,
+        "placenta": 0.0754803407503944
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2566864871485702,
+          "boundary_disagreement": 0.4336800539343157,
+          "nmi": 0.3799250035322295,
+          "q": 0.31830574534039985,
+          "spatial_cluster_geary_mean": 0.5119437597254125,
+          "spatial_cluster_moran_mean": 0.4968582259923788,
+          "spatial_neighbor_agreement": 0.5771197431645193
+        },
+        "placenta": {
+          "ari": 0.7306812465448654,
+          "boundary_disagreement": 0.650494810523775,
+          "nmi": 0.7209048889483416,
+          "q": 0.7257930677466035,
+          "spatial_cluster_geary_mean": 0.6634216040629733,
+          "spatial_cluster_moran_mean": 0.5124820548033882,
+          "spatial_neighbor_agreement": 0.5016044925792218
+        }
+      },
+      "dev_macro_delta_ari": 0.055620706311193466,
+      "dev_macro_delta_nmi": 0.026428534310580835,
+      "dev_macro_delta_q": 0.041024620310887175,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "relative_b01": {
+        "macro_delta_ari": 0.014222817246555278,
+        "macro_delta_nmi": -0.001139674802974435,
+        "macro_delta_q": 0.006541571221790425
+      },
+      "runtime_ratio": 0.8709592724797801,
+      "runtime_seconds_mean": 4.2133232625201344,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.006568899871379948
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.013093838038734448,
+        "placenta": 0.009755077177119542
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2252977763410754,
+          "boundary_disagreement": 0.4579408648752768,
+          "nmi": 0.37198823851949553,
+          "q": 0.2986430074302855,
+          "spatial_cluster_geary_mean": 0.5267927930637202,
+          "spatial_cluster_moran_mean": 0.48100552063475394,
+          "spatial_neighbor_agreement": 0.5537324063443466
+        },
+        "placenta": {
+          "ari": 0.6331618232871176,
+          "boundary_disagreement": 0.6545981173062998,
+          "nmi": 0.6869737850595397,
+          "q": 0.6600678041733287,
+          "spatial_cluster_geary_mean": 0.6552392521388892,
+          "spatial_cluster_moran_mean": 0.49548371137171454,
+          "spatial_neighbor_agreement": 0.4871640593662254
+        }
+      },
+      "dev_macro_delta_ari": -0.008833360721427874,
+      "dev_macro_delta_nmi": 0.0054945998598129415,
+      "dev_macro_delta_q": -0.001669380430807453,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 2,
+      "relative_b01": {
+        "macro_delta_ari": -0.050231249786066065,
+        "macro_delta_nmi": -0.022073609253742327,
+        "macro_delta_q": -0.0361524295199042
+      },
+      "runtime_ratio": 0.8724294521555933,
+      "runtime_seconds_mean": 4.220435354237755,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.013093838038734448
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.014545273197226297,
+        "placenta": 0.029795092758083935
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.22333400296650627,
+          "boundary_disagreement": 0.31535201772127514,
+          "nmi": 0.37104914157708097,
+          "q": 0.29719157227179366,
+          "spatial_cluster_geary_mean": 0.3789765051334133,
+          "spatial_cluster_moran_mean": 0.6296281630267042,
+          "spatial_neighbor_agreement": 0.6951832716758091
+        },
+        "placenta": {
+          "ari": 0.664139869049289,
+          "boundary_disagreement": 0.630461018585566,
+          "nmi": 0.6960757704592971,
+          "q": 0.680107819754293,
+          "spatial_cluster_geary_mean": 0.6510058963509501,
+          "spatial_cluster_moran_mean": 0.5108551224297266,
+          "spatial_neighbor_agreement": 0.5148415563578018
+        }
+      },
+      "dev_macro_delta_ari": 0.005673775472373271,
+      "dev_macro_delta_nmi": 0.009576044088484382,
+      "dev_macro_delta_q": 0.007624909780428819,
+      "gpu_peak_ratio": 0.887379668688866,
+      "paired_q_total": 6,
+      "paired_q_wins": 3,
+      "relative_b01": {
+        "macro_delta_ari": -0.03572411359226491,
+        "macro_delta_nmi": -0.017992165025070887,
+        "macro_delta_q": -0.026858139308667938
+      },
+      "runtime_ratio": 0.7134746736547443,
+      "runtime_seconds_mean": 3.4514810677307346,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.014545273197226297
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.027784302434885128,
+        "placenta": -0.1144239951234431
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.20758102866792594,
+          "boundary_disagreement": 0.2607146296831359,
+          "nmi": 0.3603240574003437,
+          "q": 0.28395254303413475,
+          "spatial_cluster_geary_mean": 0.30615873691556256,
+          "spatial_cluster_moran_mean": 0.7008490791274772,
+          "spatial_neighbor_agreement": 0.7490645065271931
+        },
+        "placenta": {
+          "ari": 0.49692708371824795,
+          "boundary_disagreement": 0.5855660149650013,
+          "nmi": 0.5748503800272841,
+          "q": 0.535888731872766,
+          "spatial_cluster_geary_mean": 0.6094628452352998,
+          "spatial_cluster_moran_mean": 0.5831457267706832,
+          "spatial_neighbor_agreement": 0.5930605695948657
+        }
+      },
+      "dev_macro_delta_ari": -0.08580910434243742,
+      "dev_macro_delta_nmi": -0.05639919321589081,
+      "dev_macro_delta_q": -0.07110414877916411,
+      "gpu_peak_ratio": 0.887379668688866,
+      "paired_q_total": 6,
+      "paired_q_wins": 0,
+      "relative_b01": {
+        "macro_delta_ari": -0.1272069934070756,
+        "macro_delta_nmi": -0.08396740232944608,
+        "macro_delta_q": -0.10558719786826087
+      },
+      "runtime_ratio": 0.7187373784780492,
+      "runtime_seconds_mean": 3.476939751456181,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.1144239951234431
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.038264306837838324,
+        "placenta": 0.04240717157892119
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.19832030475881735,
+          "boundary_disagreement": 0.3078493691611287,
+          "nmi": 0.3486247725035458,
+          "q": 0.2734725386311816,
+          "spatial_cluster_geary_mean": 0.3578218436451919,
+          "spatial_cluster_moran_mean": 0.6515315259489242,
+          "spatial_neighbor_agreement": 0.7032146957520092
+        },
+        "placenta": {
+          "ari": 0.6686922405338004,
+          "boundary_disagreement": 0.6555636012551291,
+          "nmi": 0.7167475566164602,
+          "q": 0.6927198985751302,
+          "spatial_cluster_geary_mean": 0.6632745887191379,
+          "spatial_cluster_moran_mean": 0.47449657601650314,
+          "spatial_neighbor_agreement": 0.47131969514640987
+        }
+      },
+      "dev_macro_delta_ari": -0.0045568878892154815,
+      "dev_macro_delta_nmi": 0.00869975263029831,
+      "dev_macro_delta_q": 0.0020714323705414324,
+      "gpu_peak_ratio": 0.8890883010636067,
+      "paired_q_total": 6,
+      "paired_q_wins": 3,
+      "relative_b01": {
+        "macro_delta_ari": -0.045954776953853665,
+        "macro_delta_nmi": -0.018868456483256957,
+        "macro_delta_q": -0.03241161671855532
+      },
+      "runtime_ratio": 0.7907007679326697,
+      "runtime_seconds_mean": 3.825067422197511,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.038264306837838324
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.032951928197175774,
+        "placenta": -0.13647173575407706
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.20200719331476247,
+          "boundary_disagreement": 0.26923817779061926,
+          "nmi": 0.3555626412289257,
+          "q": 0.2787849172718441,
+          "spatial_cluster_geary_mean": 0.3225607844584138,
+          "spatial_cluster_moran_mean": 0.6865271156620246,
+          "spatial_neighbor_agreement": 0.7419579453161543
+        },
+        "placenta": {
+          "ari": 0.46128911007340356,
+          "boundary_disagreement": 0.573256094617427,
+          "nmi": 0.5663928724108606,
+          "q": 0.513840991242132,
+          "spatial_cluster_geary_mean": 0.605380441140036,
+          "spatial_cluster_moran_mean": 0.5739853901174908,
+          "spatial_neighbor_agreement": 0.5928600080224629
+        }
+      },
+      "dev_macro_delta_ari": -0.10641500884144131,
+      "dev_macro_delta_nmi": -0.06300865510981153,
+      "dev_macro_delta_q": -0.08471183197562641,
+      "gpu_peak_ratio": 0.8890883010636067,
+      "paired_q_total": 6,
+      "paired_q_wins": 0,
+      "relative_b01": {
+        "macro_delta_ari": -0.14781289790607952,
+        "macro_delta_nmi": -0.0905768642233668,
+        "macro_delta_q": -0.11919488106472317
+      },
+      "runtime_ratio": 0.8032235406584697,
+      "runtime_seconds_mean": 3.885647166054696,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.13647173575407706
+    }
+  ],
+  "labels_read_only_after_training_manifest_lock": true,
+  "newly_selected_incomplete_laplacian_candidates": [],
+  "old_topup_candidates": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10",
+    "B06_SECONDLOOK_RNA_ANCHOR05",
+    "B15_LATENT_RELIABILITY50"
+  ],
+  "parameter_tuning": false,
+  "recomputed_topup_candidates": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10",
+    "B06_SECONDLOOK_RNA_ANCHOR05",
+    "B15_LATENT_RELIABILITY50"
+  ],
+  "removed_candidates": [],
+  "schema_version": 1,
+  "seed_search": false,
+  "selection_rule": "exact Night-5B balanced top3 + accuracy top2 + positive latent reserve, stable rank, cap6",
+  "status": "S1_REPLAY_LOCKED",
+  "withheld_results_opened": false
+}

@@ -1,0 +1,195 @@
+{
+  "conditional_runs": 0,
+  "corrected_artifact_hashes_verified": true,
+  "corrected_runs_verified": 24,
+  "files": [
+    {
+      "path": "budget_audit.json",
+      "sha256": "9d88bcb897b1d4c516b6764a4de7febd72a9e5c8444940d22ba6796fc9cc2225",
+      "size": 414
+    },
+    {
+      "path": "candidate_lifecycle_night5c.csv",
+      "sha256": "14fc4295e2bae75bd9f747e71332ac84ebca2e223c58c9434be40d11ec88352e",
+      "size": 3248
+    },
+    {
+      "path": "canonical_exploratory_eligibility.json",
+      "sha256": "682f7e03e15243b80797f2ad2b56014cc8037fdb7dae79aac4399057af6b9d0e",
+      "size": 402
+    },
+    {
+      "path": "corrected_per_run_summary.csv",
+      "sha256": "b0b0451de927b957144c8fda5b129f9aec68fda79118af9e2fb3cbcb33fb3861",
+      "size": 6824
+    },
+    {
+      "path": "corrected_run_order.json",
+      "sha256": "c37939f9353cdf168a2b4326e17f89a4d9dab045c73d53368da029387b2779ed",
+      "size": 3170
+    },
+    {
+      "path": "corrected_training_complete.json",
+      "sha256": "f26a16f70fa1646b47d3b669ebb3282e239de8a02a5482c3e3cf40bd9478c7ea",
+      "size": 265
+    },
+    {
+      "path": "corrected_training_manifest.json",
+      "sha256": "dd9cf6f307613fcecd4ec3ff3216d32d85a2c9c7c45306865ec77a4d5aa25cf6",
+      "size": 11013
+    },
+    {
+      "path": "diffusion_resource_accounting.csv",
+      "sha256": "30ac1c54971980928c34b603eef988e9942732d609b7fb087f6c4195d794692a",
+      "size": 14214
+    },
+    {
+      "path": "final_evaluation.log",
+      "sha256": "b7b296b979ee0c27e329611336af83c5732f12c2fc08d0a493fb16f69614626a",
+      "size": 108
+    },
+    {
+      "path": "final_frontier_decision.json",
+      "sha256": "13497d5c7e0bd77ae026415f86cbec82e458bfdd2701455903ecacce7f2ea792",
+      "size": 19922
+    },
+    {
+      "path": "finalize.log",
+      "sha256": "235c2b03e43ec66fbe88b7f8190f253b1e5298969683eec07de262c37d277d33",
+      "size": 34
+    },
+    {
+      "path": "five_seed_summary_corrected.csv",
+      "sha256": "3fbe18d44ef2bd53a78c358db4fa494beed37322e4959cd507960a556ee84386",
+      "size": 10997
+    },
+    {
+      "path": "five_seed_summary_night5c.csv",
+      "sha256": "9f634f6c06eaf880823790009a32411d151d474167574f33f5d3748892ba7005",
+      "size": 10911
+    },
+    {
+      "path": "local_verification.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "night5b_valid_reuse_audit.json",
+      "sha256": "e4be578c0c98bc8358f5549ff6cc2ec9e8c1a94508a0022a1ecdcf5af73ce373",
+      "size": 34527
+    },
+    {
+      "path": "night5c_gate_status.json",
+      "sha256": "a64dce7d32f25b10598ee051bc05a5c5676a8511393f5381e5b57f26443e0a5a",
+      "size": 223
+    },
+    {
+      "path": "night5c_report.md",
+      "sha256": "9daeba69721e37fbbb66628fc54d84b02efbb3f39e3944693844af1a2e2e038b",
+      "size": 4626
+    },
+    {
+      "path": "p0_semantic_contract.json",
+      "sha256": "a15ec5697ae10ca1817bd89003531f9768ee3d907b6eda1c60cc311b8c6067ca",
+      "size": 33665
+    },
+    {
+      "path": "p0_semantic_rerun_post_training.log",
+      "sha256": "0c0d64d5e59d2adf95c9166d8ed313728f4af6fb0bbde16943d473cee0fa4362",
+      "size": 62
+    },
+    {
+      "path": "per_run_summary_corrected.csv",
+      "sha256": "f2be31336ca513a62674a8b086583f31e51194f2628e3ec1d206906dfc469c71",
+      "size": 51742
+    },
+    {
+      "path": "per_run_summary_night5c.csv",
+      "sha256": "51cde293a0d11601316dd778fbef1143decbb49d7afe000866c587a36f7eef5e",
+      "size": 90210
+    },
+    {
+      "path": "protect/night3b_1186_verify.log",
+      "sha256": "19be9ff6c699d73e0965d20934f6e4c4ec3eeaa6d75dd1df9d2a724af4824ce3",
+      "size": 63819
+    },
+    {
+      "path": "protect/night4a_76_verify.log",
+      "sha256": "70273b674bcacc50b79c3fb2b6aa42716a4391786c6947e33e8199b529d1b1c4",
+      "size": 3588
+    },
+    {
+      "path": "protocol_deviations.json",
+      "sha256": "772f9be5dabf0ba91111bafe08fe9c6e12ab68cb7606a268c61a5e36ff8b84e2",
+      "size": 482
+    },
+    {
+      "path": "raw_runs_manifest_night5c.json",
+      "sha256": "2d72b044b7e7836445a581ac599491b27281975dc8146f529d7097e24e659695",
+      "size": 6588
+    },
+    {
+      "path": "recomputed_s1_topup_candidates.json",
+      "sha256": "f0bb3bc38cbc9a261573969ab9a0a82f3d99cb7b6de995e6153e75279cfe8083",
+      "size": 28051
+    },
+    {
+      "path": "s1_corrected_training.log",
+      "sha256": "6e73ef378e493c06c99bc88bb09542885d1b4d56b025e92a0c3b61239abcd57a",
+      "size": 13354
+    },
+    {
+      "path": "s1_replay.log",
+      "sha256": "96d46ac8cef19b2ec402fd4f76d03f128606c4c12fabf6f7a71b846238f917a5",
+      "size": 610
+    },
+    {
+      "path": "s1_replay_semantic_label_access.json",
+      "sha256": "01b72e2f6a62f990e289fae019d89f1295e7162657725973a47ee95aa041c967",
+      "size": 161
+    },
+    {
+      "path": "scientific_window_label_firewall.json",
+      "sha256": "bd5b290d52d11352c9d8bbc009f8359ed1c98502706cbddd796ea910c699ddb8",
+      "size": 543
+    },
+    {
+      "path": "selected_for_future_locked_p22.json",
+      "sha256": "f818ae2309e2faaaa90888853162765f10f0740c3ec80bbd6bfd9a3d727859a4",
+      "size": 1832
+    },
+    {
+      "path": "shutdown_status.json",
+      "sha256": "bfb70064dfbf71de173421b5c20d92611e271bc9acec8875a7389e430d54e98b",
+      "size": 200
+    },
+    {
+      "path": "supersession_map.json",
+      "sha256": "b12348fe4c48bf1c2cbe2cdb0bdbf091db82141c67561d334b88f7771e45125e",
+      "size": 15831
+    },
+    {
+      "path": "tests_final.log",
+      "sha256": "6d230d2ddde6eb72e6d2ce3a97ccfc361a2da65a935e07e602342067c4f2492c",
+      "size": 541
+    },
+    {
+      "path": "tests_night3b_night5a_night5b_night5c.log",
+      "sha256": "7a46ea065c673a8c042794588630ff42873779cb94fb7d335f166d30ae525832",
+      "size": 541
+    },
+    {
+      "path": "withheld_audit.json",
+      "sha256": "4a2f3086a505d5d9b6b59d85ce6cb1884d0a923dff919ec2a9f8f0d78bac3f82",
+      "size": 293
+    }
+  ],
+  "files_indexed": 36,
+  "old_invalid_runs_retained": 24,
+  "required_output_count": 15,
+  "schema_version": 1,
+  "selected_candidate_count": 3,
+  "status": "PASS",
+  "unaffected_training_runs_reverified": 84,
+  "withheld_runs": 0
+}
