@@ -1,0 +1,90 @@
+{
+  "failure_count": 0,
+  "locked_before_label_access": true,
+  "run_count": 9,
+  "runs": [
+    {
+      "candidate_id": "N00",
+      "dataset": "a1",
+      "ordinal": 1,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N00/seed_3/run_manifest.json",
+      "seed": 3,
+      "sha256": "06e7fe8ec5bd17918851fedd0b833af242180e47888a0b616fff60c98de3c3d3",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "a1",
+      "ordinal": 2,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N00/seed_4/run_manifest.json",
+      "seed": 4,
+      "sha256": "89b26ef911397525f3202da5d1787da43ec30643f246a468b9bd06ac8ad1ad94",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "tonsil",
+      "ordinal": 3,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/tonsil/N00/seed_3/run_manifest.json",
+      "seed": 3,
+      "sha256": "3b1c24bf17858ae714efb649704540d6f33046771ea903859396d9027ef0c27f",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "tonsil",
+      "ordinal": 4,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/tonsil/N00/seed_4/run_manifest.json",
+      "seed": 4,
+      "sha256": "0d435be1140eb73a414562f00d65360421fea72a149ba7fea39d02ea1b1fbcc6",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "placenta",
+      "ordinal": 5,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/placenta/N00/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "84cd0fc1187e89145503b819f627fc096d6b3898c435ee826a76c3602d5c6e7c",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "placenta",
+      "ordinal": 6,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/placenta/N00/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "33c478cca6e12c911f91914dd09d73455ecdd95e2f4263c7879fe0ab94f5c5f0",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "placenta",
+      "ordinal": 7,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/placenta/N00/seed_2/run_manifest.json",
+      "seed": 2,
+      "sha256": "a3d284d5a8c91167ce55eaf02a2751582d398b47d283fd3bed471af6f31abf41",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "placenta",
+      "ordinal": 8,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/placenta/N00/seed_3/run_manifest.json",
+      "seed": 3,
+      "sha256": "a0b46ed9d317843b9c5fc00e95dfd563c500dabd5f555cccdf2f26058ff0eb7f",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "placenta",
+      "ordinal": 9,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/placenta/N00/seed_4/run_manifest.json",
+      "seed": 4,
+      "sha256": "e5075b0d92ba1df76601ebbb92c3a4f7a0cfd458561d8f2faf4331df2bac8ccc",
+      "status": "success"
+    }
+  ],
+  "stage": "R3",
+  "success_count": 9
+}

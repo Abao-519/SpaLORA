@@ -64,12 +64,12 @@ def r2(frame):
   'q_core_definition':'0.60*Q_A1+0.40*Q_tonsil','label_access_after_lock':True,'parameter_tuning':False,'seed_search':False,'withheld_access':False}
 def r3(frame):
  return {'stage':'R3','status':'NO_STRUCTURAL_RESCUE_CANDIDATE','terminal_status':'NO_STRUCTURAL_RESCUE_CANDIDATE',
-  'candidate_summaries':[],'locked_candidates':[],'reference_five_seed_complete':True,
+  'candidate_summaries':[],'advanced_candidates':[],'locked_candidates':[],'reference_five_seed_complete':True,
   'label_access_after_lock':True,'parameter_tuning':False,'seed_search':False,'withheld_access':False}
 def main():
  a=argparse.ArgumentParser();a.add_argument('--stage',required=True);x=a.parse_args();frame,lock=evaluate_stage(x.stage)
  if x.stage=='R1':decision=r1(frame)
  elif x.stage=='R2':decision=r2(frame)
  elif x.stage=='R3':decision=r3(frame)
- atom(OUT/(x.stage.lower()+'_decision.json'),decision);print(json.dumps({'stage':x.stage,'advanced':decision['advanced_candidates'],'summaries':[{k:v for k,v in r.items() if k!='per_cell'} for r in decision['candidate_summaries']]},sort_keys=True))
+ atom(OUT/(x.stage.lower()+'_decision.json'),decision);print(json.dumps({'stage':x.stage,'advanced':decision.get('advanced_candidates',[]),'summaries':[{k:v for k,v in r.items() if k!='per_cell'} for r in decision['candidate_summaries']]},sort_keys=True))
 if __name__=='__main__':main()

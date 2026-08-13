@@ -1,0 +1,45 @@
+{
+  "failure_count": 0,
+  "locked_before_label_access": true,
+  "run_count": 4,
+  "runs": [
+    {
+      "candidate_id": "N00",
+      "dataset": "a1",
+      "ordinal": 1,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N00/seed_2/run_manifest.json",
+      "seed": 2,
+      "sha256": "fdecf7e310dd3f09391d754aa4f8bf51143bd6a2fd83916d48a04cda1e872186",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "tonsil",
+      "ordinal": 2,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/tonsil/N00/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "2b660b38b9960cc5116c6d32131c79751e6837189f28a4a0b48f4a6b364f1b53",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "tonsil",
+      "ordinal": 3,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/tonsil/N00/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "e3d5b78048f01c497ece06c20f9665b74a3fb3ee727ea833f36c6a1724221bd0",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "tonsil",
+      "ordinal": 4,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/tonsil/N00/seed_2/run_manifest.json",
+      "seed": 2,
+      "sha256": "524e7b0a380cfa03ff8e8b20ae034cd303a15ee1f7fdf85fd29f1757eadcbe02",
+      "status": "success"
+    }
+  ],
+  "stage": "R2",
+  "success_count": 4
+}
