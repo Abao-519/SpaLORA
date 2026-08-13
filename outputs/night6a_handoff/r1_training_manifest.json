@@ -1,0 +1,297 @@
+{
+  "failure_count": 0,
+  "locked_before_label_access": true,
+  "run_count": 32,
+  "runs": [
+    {
+      "candidate_id": "N00",
+      "dataset": "a1",
+      "ordinal": 1,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N00/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "e881c5b0429780e8b96bd95a64be545ebfe1d3b06a0729f78f2e9e6171f20fa4",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N00",
+      "dataset": "a1",
+      "ordinal": 2,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N00/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "24ae0349b744e593bfc8734560e9e36048c14db3ce39570c8ce23f3324021d59",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N01",
+      "dataset": "a1",
+      "ordinal": 3,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N01/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "c857cdbd2f3f850bcd161f17446184b9208dceedbe267d3a406a09837ddc85a0",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N01",
+      "dataset": "a1",
+      "ordinal": 4,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N01/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "fc879a9d8e4838554aa5f5da06a35b007d34313d6b19106de76a4eb73a523009",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N02",
+      "dataset": "a1",
+      "ordinal": 5,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N02/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "ad1cc86c6f7828325ff4ff8ceedd6d21702e5cf8ee87317d9d42d837fdb7f74e",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N02",
+      "dataset": "a1",
+      "ordinal": 6,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N02/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "aa972a58cb445c1d66ce79cf000a32aaf00f87716979cdd39f60008cfbc6e2bc",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N03",
+      "dataset": "a1",
+      "ordinal": 7,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N03/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "a144f6e2b392494abd87334c142d223628b93b86fe2da25b27f4fdcc31beb4e0",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N03",
+      "dataset": "a1",
+      "ordinal": 8,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N03/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "0d0a9f9fa8cab26408fc86f99eb2da5772c8f15eefcde7511b0b3ad09e7c81d3",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N04",
+      "dataset": "a1",
+      "ordinal": 9,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N04/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "c02656098980f58a4fd8afc497882af0f29e76ada3ed1908994f51974a687e02",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N04",
+      "dataset": "a1",
+      "ordinal": 10,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N04/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "5190bf0c6197e2918280a552bca7e886dbbf738b6c6db0274adaea76422be44c",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N05",
+      "dataset": "a1",
+      "ordinal": 11,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N05/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "f09121583e48ad16369fba2b3160e8daa465447e0b339d39d4247e89009ac939",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N05",
+      "dataset": "a1",
+      "ordinal": 12,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N05/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "e805067e2d9c3b8c130f7016c4c7928f0d5c5799a49bef2d338f4ed13edb1489",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N06",
+      "dataset": "a1",
+      "ordinal": 13,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N06/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "bcb122a80ed201c30bbb6560739f297a53c294f0ea1b5f41c98309b25ba415ca",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N06",
+      "dataset": "a1",
+      "ordinal": 14,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N06/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "6a01766b9268f1866a1fe919d4ef90622db5931ddaaa30b02ada064e983169b6",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N07",
+      "dataset": "a1",
+      "ordinal": 15,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N07/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "0a8c4f00d18a53261236565d5c301a5db6f86eac8d4229b8d6b7af00e59d27a8",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N07",
+      "dataset": "a1",
+      "ordinal": 16,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N07/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "766853bcfc016eda4f7f6eb80b140688b0e0c3ae8282dfdc9897f57a0627a74a",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N08",
+      "dataset": "a1",
+      "ordinal": 17,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N08/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "fea7b7280176903752625a8c3894b5670a2f231c05fa6e19fe121592f3979a6e",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N08",
+      "dataset": "a1",
+      "ordinal": 18,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N08/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "25620675ef6dd65d84f2a3ad9b1ed18eb2e5d5165f90c9267e0b561631f1fe7b",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N09",
+      "dataset": "a1",
+      "ordinal": 19,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N09/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "35ec97d0d0e51c3d19c4fecfc31151647d023d4665f1ed2d527df0ec63dc48b5",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N09",
+      "dataset": "a1",
+      "ordinal": 20,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N09/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "5de3c933aab4b21ad78038bc869de3be510897e9734a138cb134ae424557440b",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N10",
+      "dataset": "a1",
+      "ordinal": 21,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N10/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "b5efde6c82fa39a36173b97d168f9678384623e8eb4d425d2e5e20bca3be6042",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N10",
+      "dataset": "a1",
+      "ordinal": 22,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N10/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "ab1e7966ef12cd2bf21f8b5abb85867fc1e624964d1d6a93818c07f9341185e8",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N11",
+      "dataset": "a1",
+      "ordinal": 23,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N11/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "7a323b1db13d0f52b2d97a3ed91061051fea2f1908f6644be14468ff47ab2c4d",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N11",
+      "dataset": "a1",
+      "ordinal": 24,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N11/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "73007f7ba7ad290ae467a09e66ffca874cf0e9f9edb76a0c9387bcfd34606e18",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N12",
+      "dataset": "a1",
+      "ordinal": 25,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N12/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "d9ac88fb4f34fad5891dcd649c4094f409c153789bbd477617a1c5376367fc08",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N12",
+      "dataset": "a1",
+      "ordinal": 26,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N12/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "5fd01620c4fc851951bbb862ed925f28dec199a2595fc57750c38514ea642000",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N13",
+      "dataset": "a1",
+      "ordinal": 27,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N13/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "d0da95d843fb282de0be9624a5e48fa5fdc916f47b82800ef024bdf1d14e23c3",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N13",
+      "dataset": "a1",
+      "ordinal": 28,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N13/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "03f44a13fcd1dbfb361511306eae968a20192deaa76ca5e21616fd07a165ee14",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N14",
+      "dataset": "a1",
+      "ordinal": 29,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N14/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "ca43e7c9cfc2b0d3fb45d0205cdde49f01253bf34aaf5076506a5e0869ef1024",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N14",
+      "dataset": "a1",
+      "ordinal": 30,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N14/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "8e9dba22fd382f222d8cd185af599833e8d34117d7025b9d6bb7d93c6bc7c6f3",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N15",
+      "dataset": "a1",
+      "ordinal": 31,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N15/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "9cb26dfae2bd8786b6e2c1667e18ad42c063652ff0b7eadf1874f55b48a622f0",
+      "status": "success"
+    },
+    {
+      "candidate_id": "N15",
+      "dataset": "a1",
+      "ordinal": 32,
+      "path": "/root/autodl-fs/night6a_raw_runs_20260814/a1/N15/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "5cc4b064eaa609098e7b926b6a6e3f7b8e085c9430acdce04c4738df313fb3fa",
+      "status": "success"
+    }
+  ],
+  "stage": "R1",
+  "success_count": 32
+}

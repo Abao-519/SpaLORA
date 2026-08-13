@@ -1,0 +1,62 @@
+{
+  "stage": "R3",
+  "locked": true,
+  "reference_only_due_to_zero_r1_advancement": true,
+  "run_count": 9,
+  "runs": [
+    {
+      "ordinal": 1,
+      "dataset": "a1",
+      "candidate_id": "N00",
+      "seed": 3
+    },
+    {
+      "ordinal": 2,
+      "dataset": "a1",
+      "candidate_id": "N00",
+      "seed": 4
+    },
+    {
+      "ordinal": 3,
+      "dataset": "tonsil",
+      "candidate_id": "N00",
+      "seed": 3
+    },
+    {
+      "ordinal": 4,
+      "dataset": "tonsil",
+      "candidate_id": "N00",
+      "seed": 4
+    },
+    {
+      "ordinal": 5,
+      "dataset": "placenta",
+      "candidate_id": "N00",
+      "seed": 0
+    },
+    {
+      "ordinal": 6,
+      "dataset": "placenta",
+      "candidate_id": "N00",
+      "seed": 1
+    },
+    {
+      "ordinal": 7,
+      "dataset": "placenta",
+      "candidate_id": "N00",
+      "seed": 2
+    },
+    {
+      "ordinal": 8,
+      "dataset": "placenta",
+      "candidate_id": "N00",
+      "seed": 3
+    },
+    {
+      "ordinal": 9,
+      "dataset": "placenta",
+      "candidate_id": "N00",
+      "seed": 4
+    }
+  ]
+}

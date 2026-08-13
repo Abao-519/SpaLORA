@@ -1,0 +1,32 @@
+{
+  "stage": "R2",
+  "locked": true,
+  "reference_only_due_to_zero_r1_advancement": true,
+  "run_count": 4,
+  "runs": [
+    {
+      "ordinal": 1,
+      "dataset": "a1",
+      "candidate_id": "N00",
+      "seed": 2
+    },
+    {
+      "ordinal": 2,
+      "dataset": "tonsil",
+      "candidate_id": "N00",
+      "seed": 0
+    },
+    {
+      "ordinal": 3,
+      "dataset": "tonsil",
+      "candidate_id": "N00",
+      "seed": 1
+    },
+    {
+      "ordinal": 4,
+      "dataset": "tonsil",
+      "candidate_id": "N00",
+      "seed": 2
+    }
+  ]
+}
