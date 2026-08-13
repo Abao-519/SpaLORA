@@ -30,7 +30,8 @@ def main():
  files=[]
  for p in sorted(STAGE.rglob("*")):
   if p.is_file() and p.name!="delivery_index.json":files.append({"path":str(p.relative_to(STAGE)),"size":p.stat().st_size,"sha256":sha(p)})
- index={"schema_version":1,"status":"PASS","independent_non_self_referential_index":True,"authority_parent_commit":"2bfb3a0e9d363e90747ec0bd0ec0da92c829bc20","final_commit":"bcba824bb302c3b19a9b8426e17cc7d2dccc97af","final_tag":"night5c-final-20260814","branch":"revision/q2-night5c-laplacian-correction-20260814","git_push_verified":True,"bundle_verify_output":verify.stdout+verify.stderr,"entry_count":len(files),"entries":files,"raw_runs_included":False,"model_state_included":False}
+ final_commit=subprocess.check_output(["git","rev-parse","HEAD"],cwd=REPO,text=True).strip()
+ index={"schema_version":1,"status":"PASS","independent_non_self_referential_index":True,"authority_parent_commit":"2bfb3a0e9d363e90747ec0bd0ec0da92c829bc20","final_commit":final_commit,"final_tag":"night5c-final-20260814","branch":"revision/q2-night5c-laplacian-correction-20260814","git_push_verified":True,"bundle_verify_output":verify.stdout+verify.stderr,"entry_count":len(files),"entries":files,"raw_runs_included":False,"model_state_included":False}
  (STAGE/"delivery_index.json").write_text(json.dumps(index,indent=2,sort_keys=True),encoding="utf-8")
  print("NIGHT5C_PACKAGE_STAGE_PASS",len(files),sha(STAGE/"delivery_index.json"),sha(bundle))
 if __name__=="__main__":main()
