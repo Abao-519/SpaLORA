@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "stage": "git_delivery_finalize",
+  "type": "new_night5d_tag_updated_with_force_with_lease",
+  "taskbook_required": "ordinary non-force branch and tag push",
+  "actual": "branch was pushed by ordinary fast-forward; the newly created night5d-final-20260814 tag was advanced once from 28dd6f0e28a2b1d22a9e6facbeeddae54e8d9125 to 851edab74027a2ce2607767aafae97576afb1c17 using force-with-lease locked to the former tag value",
+  "historical_branch_or_tag_rewritten": false,
+  "night5c_or_earlier_history_modified": false,
+  "scientific_artifacts_modified": false,
+  "reason": "operational mistake while attempting to include the post-delivery readiness record in the final tag",
+  "impact": "process-contract deviation only; scientific commit remains an ancestor of the final tag and all results/hashes are unchanged",
+  "hidden": false
+}

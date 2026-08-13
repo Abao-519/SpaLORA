@@ -81,6 +81,11 @@
       "size_bytes": 372
     },
     {
+      "path": "outputs/night5d_handoff/post_delivery_operational_deviation.json",
+      "sha256": "4f6406cbc8f7ca2293c1784a40bdb7613ca48a16c9d23706378708e4f2acf22d",
+      "size_bytes": 863
+    },
+    {
       "path": "outputs/night5d_handoff/preflight_attempt1_blocked_authority_overreach.json",
       "sha256": "feea2ba4faefcecf6a7904a29d30b348cac583c4d5b6f8ebcf28dd169bbcff9c",
       "size_bytes": 586
@@ -97,8 +102,8 @@
     },
     {
       "path": "outputs/night5d_handoff/shutdown_readiness.json",
-      "sha256": "7b143307c594ed9293c37c7c4b39876940ef66a3e19074e4881df52266043f2f",
-      "size_bytes": 151
+      "sha256": "12d5ff0b7a4dd2193d216bfd3530cce0ac9cdaf50473dc892545aa88840219ee",
+      "size_bytes": 694
     },
     {
       "path": "outputs/night5d_handoff/tests_final.log",
@@ -111,7 +116,7 @@
       "size_bytes": 176
     }
   ],
-  "entry_count": 22,
+  "entry_count": 23,
   "non_self_referential": true,
   "raw_runs_in_compact_delivery": false,
   "raw_runs_location": "/root/autodl-fs/night5d_raw_runs_20260814",
