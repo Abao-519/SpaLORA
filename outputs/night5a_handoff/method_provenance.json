@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "implementation_policy": "clean-room mathematical implementation; no external method source copied",
+  "candidates": {
+    "C00-C05": {
+      "basis": "SpaLORA locked Night-3B implementation and preregistered uniform-shrinkage formulas",
+      "external_source_copy": false
+    },
+    "C06-C07": {
+      "basis": "independent local-predictability reliability formula motivated by COSMOS/WNN concepts",
+      "reference": "https://github.com/Lin-Xu-lab/COSMOS",
+      "license_observed": "MIT",
+      "external_source_copy": false
+    },
+    "C08-C09": {
+      "basis": "independent residual RNA-feature/spatial intersection formula motivated by ARISE",
+      "reference": "https://github.com/XiangxiangWang-code/ARISE",
+      "license_observed": "no explicit LICENSE in reviewed snapshot",
+      "external_source_copy": false
+    },
+    "C10-C11": {
+      "basis": "independent frozen MNN triplet formulation motivated by SMART",
+      "reference": "https://github.com/Xubin-s-Lab/SMART-main",
+      "license_observed": "GPL-3.0",
+      "external_source_copy": false
+    },
+    "C12": {
+      "basis": "independent sampled spatial-neighbor contrastive objective",
+      "external_source_copy": false
+    },
+    "C13-C14": {
+      "basis": "preregistered geometric mix of SpaLORA legacy prior and inverse initial gradient",
+      "external_source_copy": false
+    },
+    "C15": {
+      "basis": "preregistered sparse residual GELU LayerNorm encoder formula",
+      "external_source_copy": false,
+      "pytorch_geometric_dependency": false
+    },
+    "C16": {
+      "basis": "independent node-global discrimination objective motivated by DGI",
+      "external_source_copy": false,
+      "pytorch_geometric_dependency": false
+    }
+  },
+  "forbidden_source_copy": [
+    "SMART GPL-3.0 source",
+    "SpatialCOC GPL-3.0 source",
+    "ARISE source without explicit license",
+    "SpaMFG source without explicit license",
+    "CoMo source without explicit license"
+  ]
+}

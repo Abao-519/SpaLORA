@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "cycle": "Night-5A metric-driven R&D funnel",
+  "date": "2026-08-13",
+  "parent_commit": "4a22cfb4afe331e1ca2edcc0b86a01fa3892a452",
+  "reference": "C00_FULL_IGE",
+  "global_rules": {
+    "development_datasets": ["a1", "placenta"],
+    "withheld_datasets": ["p22", "d1_lymph_node", "gse198353_rep1", "gse198353_rep2"],
+    "seeds": [0, 1, 2, 3, 4],
+    "r1_seed": 0,
+    "same_hyperparameters_across_datasets": true,
+    "corr1_default": "retain",
+    "corr2_default": "drop",
+    "loss_weight_active_sum": 4.0,
+    "metric_q": "(ari+nmi)/2",
+    "source_copy_policy": "clean-room implementation; no GPL or unlicensed source copying"
+  },
+  "candidates": [
+    {
+      "id": "C00_FULL_IGE",
+      "family": "reference",
+      "description": "Exact Night-3B FULL_IGE reference",
+      "attention": "learned",
+      "corr2": true,
+      "loss_calibration": "IGE"
+    },
+    {
+      "id": "C01_DROP_CORR2",
+      "family": "historical_replication",
+      "description": "Learned attention with Corr2 removed",
+      "attention": "learned",
+      "corr2": false,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C02_UNIFORM_ALL",
+      "family": "historical_replication",
+      "description": "Uniform within and cross attention, Corr2 retained",
+      "attention": "uniform_all",
+      "corr2": true,
+      "loss_calibration": "IGE"
+    },
+    {
+      "id": "C03_SIMPLE_BASE",
+      "family": "simplified_base",
+      "description": "Uniform within/cross fusion plus Corr2 removal",
+      "attention": "uniform_all",
+      "corr2": false,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C04_SHRINK25",
+      "family": "fusion",
+      "description": "Learned fusion shrunk strongly toward equal weights",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "corr2": false,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C05_SHRINK50",
+      "family": "fusion",
+      "description": "Learned fusion shrunk moderately toward equal weights",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.5,
+      "corr2": false,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C06_RELIABILITY25",
+      "family": "fusion",
+      "description": "Frozen label-free local predictability weights, strongly shrunk to equal",
+      "attention": "frozen_local_reliability",
+      "reliability_fraction_rho": 0.25,
+      "reliability_k": 20,
+      "corr2": false,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C07_RELIABILITY50",
+      "family": "fusion",
+      "description": "Frozen label-free local predictability weights, moderately shrunk to equal",
+      "attention": "frozen_local_reliability",
+      "reliability_fraction_rho": 0.5,
+      "reliability_k": 20,
+      "corr2": false,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C08_RNA_ANCHOR05",
+      "family": "graph",
+      "description": "Residual RNA feature/spatial intersection edge upweighting",
+      "attention": "uniform_all",
+      "corr2": false,
+      "rna_anchor_eta": 0.5,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C09_RNA_ANCHOR10",
+      "family": "graph",
+      "description": "Stronger residual RNA feature/spatial intersection edge upweighting",
+      "attention": "uniform_all",
+      "corr2": false,
+      "rna_anchor_eta": 1.0,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C10_MNN_TRIPLET01",
+      "family": "metric_learning",
+      "description": "Frozen MNN triplets on fused embedding",
+      "attention": "uniform_all",
+      "corr2": false,
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5,
+      "mnn_k": 3,
+      "negative_farthest_fraction": 0.4,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C11_MNN_TRIPLET03",
+      "family": "metric_learning",
+      "description": "Higher-weight frozen MNN triplets on fused embedding",
+      "attention": "uniform_all",
+      "corr2": false,
+      "triplet_weight": 0.3,
+      "triplet_margin": 0.5,
+      "mnn_k": 3,
+      "negative_farthest_fraction": 0.4,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C12_NEIGHBOR_CONTRAST",
+      "family": "metric_learning",
+      "description": "Label-free spatial-neighbor contrastive constraint",
+      "attention": "uniform_all",
+      "corr2": false,
+      "contrastive_weight": 0.1,
+      "temperature": 0.2,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C13_HYBRID_IGE25",
+      "family": "loss_calibration",
+      "description": "Mostly legacy-prior loss calibration with limited inverse-gradient correction",
+      "attention": "uniform_all",
+      "corr2": false,
+      "loss_calibration": "legacy_gradient_geometric_mix",
+      "gradient_beta": 0.25
+    },
+    {
+      "id": "C14_HYBRID_IGE50",
+      "family": "loss_calibration",
+      "description": "Equal geometric mix of legacy prior and inverse-gradient calibration",
+      "attention": "uniform_all",
+      "corr2": false,
+      "loss_calibration": "legacy_gradient_geometric_mix",
+      "gradient_beta": 0.5
+    },
+    {
+      "id": "C15_RESIDUAL_ENCODER",
+      "family": "encoder",
+      "description": "Two-layer residual nonlinear sparse graph encoder",
+      "attention": "uniform_all",
+      "corr2": false,
+      "encoder": "two_layer_sparse_residual_gelu_layernorm",
+      "residual_second_layer_scale": 0.5,
+      "loss_calibration": "active_set_IGE"
+    },
+    {
+      "id": "C16_DGI01",
+      "family": "global_contrast",
+      "description": "Lightweight DGI node-global objective on fused embedding",
+      "attention": "uniform_all",
+      "corr2": false,
+      "dgi_weight": 0.1,
+      "loss_calibration": "active_set_IGE"
+    }
+  ]
+}

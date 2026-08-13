@@ -1,0 +1,247 @@
+{
+  "algorithm": "dataset_then_registry_order_seed0",
+  "canonical_sha256": "16f8c955b2ad5c225bb2c23749ae95c9fa306b802e3d06f4268e2345c343becc",
+  "locked_before_training": true,
+  "run_count": 34,
+  "runs": [
+    {
+      "candidate_id": "C00_FULL_IGE",
+      "dataset": "a1",
+      "ordinal": 1,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C01_DROP_CORR2",
+      "dataset": "a1",
+      "ordinal": 2,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C02_UNIFORM_ALL",
+      "dataset": "a1",
+      "ordinal": 3,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C03_SIMPLE_BASE",
+      "dataset": "a1",
+      "ordinal": 4,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "dataset": "a1",
+      "ordinal": 5,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C05_SHRINK50",
+      "dataset": "a1",
+      "ordinal": 6,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C06_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 7,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C07_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 8,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C08_RNA_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 9,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 10,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "ordinal": 11,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C11_MNN_TRIPLET03",
+      "dataset": "a1",
+      "ordinal": 12,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C12_NEIGHBOR_CONTRAST",
+      "dataset": "a1",
+      "ordinal": 13,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C13_HYBRID_IGE25",
+      "dataset": "a1",
+      "ordinal": 14,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C14_HYBRID_IGE50",
+      "dataset": "a1",
+      "ordinal": 15,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C15_RESIDUAL_ENCODER",
+      "dataset": "a1",
+      "ordinal": 16,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C16_DGI01",
+      "dataset": "a1",
+      "ordinal": 17,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C00_FULL_IGE",
+      "dataset": "placenta",
+      "ordinal": 18,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C01_DROP_CORR2",
+      "dataset": "placenta",
+      "ordinal": 19,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C02_UNIFORM_ALL",
+      "dataset": "placenta",
+      "ordinal": 20,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C03_SIMPLE_BASE",
+      "dataset": "placenta",
+      "ordinal": 21,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "dataset": "placenta",
+      "ordinal": 22,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C05_SHRINK50",
+      "dataset": "placenta",
+      "ordinal": 23,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C06_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 24,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C07_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 25,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C08_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 26,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 27,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "ordinal": 28,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C11_MNN_TRIPLET03",
+      "dataset": "placenta",
+      "ordinal": 29,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C12_NEIGHBOR_CONTRAST",
+      "dataset": "placenta",
+      "ordinal": 30,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C13_HYBRID_IGE25",
+      "dataset": "placenta",
+      "ordinal": 31,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C14_HYBRID_IGE50",
+      "dataset": "placenta",
+      "ordinal": 32,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C15_RESIDUAL_ENCODER",
+      "dataset": "placenta",
+      "ordinal": 33,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "candidate_id": "C16_DGI01",
+      "dataset": "placenta",
+      "ordinal": 34,
+      "seed": 0,
+      "stage": "R1"
+    }
+  ],
+  "schema_version": 1
+}

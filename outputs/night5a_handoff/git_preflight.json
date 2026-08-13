@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "p0_git_pass": true,
+  "persistent_ssh_directory": "/root/autodl-fs/.ssh",
+  "permissions": {
+    "/root/autodl-fs/.ssh": "700",
+    "/root/autodl-fs/.ssh/id_ed25519_spalora": "600",
+    "/root/autodl-fs/.ssh/known_hosts": "644"
+  },
+  "private_key_public_fingerprint": "SHA256:tvie+fmn2BEgpSEY+ckTTRqBUYbbLn/mF79UDyVrwkE",
+  "accepted_github_host_fingerprints": [
+    "SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM",
+    "SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU"
+  ],
+  "known_hosts_sha256": "2f0b9239e3a96aa3d189150113a7a7652487188c5467e9700c531c94fd7e7f42",
+  "strict_host_key_checking": true,
+  "ssh_authentication": "Hi Abao-519! You've successfully authenticated, but GitHub does not provide shell access.",
+  "origin": "git@github.com:Abao-519/SpaLORA.git",
+  "core_ssh_command_persistent": true,
+  "history_max_blob_bytes": 73568128,
+  "history_max_blob_path": "outputs/night3af_handoff/preprocessing_cache/p22/features_omics1.npy",
+  "github_100_mib_risk": false,
+  "force_push_used": false,
+  "night4a_push": {
+    "attempt_count": 1,
+    "success": true,
+    "branch": "revision/q2-night4a-preflight-20260813",
+    "remote_branch_object": "4a22cfb4afe331e1ca2edcc0b86a01fa3892a452",
+    "tag": "night4a-preflight-final-20260813",
+    "remote_tag_object": "4a22cfb4afe331e1ca2edcc0b86a01fa3892a452",
+    "github_warning": "70.16 MiB historical file exceeds recommended 50 MiB but is below hard 100 MiB limit"
+  },
+  "night4a_parent_commit": "4a22cfb4afe331e1ca2edcc0b86a01fa3892a452",
+  "night5a_worktree": "/root/autodl-fs/SpaLORA-night5a",
+  "night5a_branch": "revision/q2-night5a-metric-rnd-20260813",
+  "baseline_tag": "baseline/pre-night5a-20260813"
+}

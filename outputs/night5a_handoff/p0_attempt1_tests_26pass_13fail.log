@@ -1,0 +1,751 @@
+.............FF.......FFFFFFFFFF..F....                                  [100%]
+=================================== FAILURES ===================================
+__________ test_14_15_anchor_preserves_spatial_and_is_symmetric[0.5] ___________
+
+eta = 0.5
+
+    @pytest.mark.parametrize("eta", [0.5, 1.0])
+    def test_14_15_anchor_preserves_spatial_and_is_symmetric(eta):
+>       graph, stats = anchor_graph(sparse_ring(20), sparse_ring(20), eta)
+
+tests/test_night5a.py:137: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8...               1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(20, 20), nnz=40, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8...               1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(20, 20), nnz=40, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+__________ test_14_15_anchor_preserves_spatial_and_is_symmetric[1.0] ___________
+
+eta = 1.0
+
+    @pytest.mark.parametrize("eta", [0.5, 1.0])
+    def test_14_15_anchor_preserves_spatial_and_is_symmetric(eta):
+>       graph, stats = anchor_graph(sparse_ring(20), sparse_ring(20), eta)
+
+tests/test_night5a.py:137: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8...               1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(20, 20), nnz=40, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8...               1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(20, 20), nnz=40, layout=torch.sparse_coo)
+eta = 1.0
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C03] ______
+
+prefix = 'C03'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C04] ______
+
+prefix = 'C04'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C06] ______
+
+prefix = 'C06'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C08] ______
+
+prefix = 'C08'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C10] ______
+
+prefix = 'C10'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C12] ______
+
+prefix = 'C12'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C13] ______
+
+prefix = 'C13'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C15] ______
+
+prefix = 'C15'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+_____ test_23_candidate_forward_backward_finite_and_active_gradients[C16] ______
+
+prefix = 'C16'
+
+    @pytest.mark.parametrize("prefix", ["C03", "C04", "C06", "C08", "C10", "C12", "C13", "C15", "C16"])
+    def test_23_candidate_forward_backward_finite_and_active_gradients(prefix):
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate(prefix), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+________________ test_24_dgi_uses_locked_permutation_and_finite ________________
+
+    def test_24_dgi_uses_locked_permutation_and_finite():
+        data = synthetic_data()
+>       trainer = Night5ATrainer(data, cfg(), candidate("C16"), 0, torch.device("cpu"), artifacts(data))
+
+tests/test_night5a.py:203: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+___________________ test_27_unregistered_candidate_rejected ____________________
+
+    def test_27_unregistered_candidate_rejected():
+        data = synthetic_data()
+        with pytest.raises((KeyError, ValueError)):
+>           Night5ATrainer(data, cfg(), {"id": "C17_FORBIDDEN"}, 0, torch.device("cpu"), artifacts(data)).new_model()
+
+tests/test_night5a.py:225: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_night5a.py:70: in artifacts
+    anchor05, _ = anchor_graph(data["adj_spatial_omics1"], data["adj_feature_omics1"], 0.5)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spatial = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+rna_feature = tensor(indices=tensor([[ 0,  0,  1,  1,  2,  2,  3,  3,  4,  4,  5,  5,  6,  6,
+                         7,  7,  8,  8... 1., 1.,
+                      1., 1., 1., 1., 1., 1., 1., 1.]),
+       size=(32, 32), nnz=64, layout=torch.sparse_coo)
+eta = 0.5
+
+    def anchor_graph(spatial: torch.Tensor, rna_feature: torch.Tensor, eta: float) -> Tuple[torch.Tensor, dict]:
+        spatial_support = _support(spatial)
+        feature_support = _support(rna_feature)
+        common = spatial_support.multiply(feature_support)
+        raw = spatial_support + float(eta) * common + sp.eye(spatial_support.shape[0], format="csr")
+        degree = np.asarray(raw.sum(axis=1)).reshape(-1)
+        inv = np.power(np.maximum(degree, 1e-12), -0.5)
+        normalized = sp.diags(inv) @ raw @ sp.diags(inv)
+        normalized = normalized.maximum(normalized.T).tocoo()
+        indices = torch.as_tensor(np.vstack((normalized.row, normalized.col)), dtype=torch.long)
+        values = torch.as_tensor(normalized.data, dtype=torch.float32)
+        result = torch.sparse_coo_tensor(indices, values, size=normalized.shape).coalesce()
+        n_components = int(connected_components(spatial_support, directed=False, return_labels=False))
+        common_edges = int(common.nnz // 2)
+        spatial_edges = int(spatial_support.nnz // 2)
+        stats = {
+            "eta": float(eta),
+            "n_observations": int(spatial_support.shape[0]),
+            "spatial_undirected_edges": spatial_edges,
+            "common_undirected_edges": common_edges,
+            "common_edge_fraction": float(common_edges / max(spatial_edges, 1)),
+            "spatial_connected_components": n_components,
+            "minimum_raw_degree_with_self_loop": float(degree.min()),
+            "maximum_raw_degree_with_self_loop": float(degree.max()),
+            "original_spatial_support_preserved": bool((raw - sp.eye(raw.shape[0], format="csr") >= spatial_support).nnz == spatial_support.nnz),
+            "symmetric_normalized": bool((normalized - normalized.T).nnz == 0),
+        }
+        if not stats["original_spatial_support_preserved"] or degree.min() <= 0:
+>           raise AssertionError("Anchor graph deleted a spatial edge or created an isolate")
+E           AssertionError: Anchor graph deleted a spatial edge or created an isolate
+
+SpaLORA/night5a_rnd.py:181: AssertionError
+=============================== warnings summary ===============================
+tests/test_night5a.py: 15 warnings
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+tests/test_night5a.py: 13 warnings
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_compressed.py:311: SparseEfficiencyWarning: Comparing sparse matrices using >= and <= is inefficient, using <, >, or !=, instead.
+    warn("Comparing sparse matrices using >= and <= is inefficient, "
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_night5a.py::test_14_15_anchor_preserves_spatial_and_is_symmetric[0.5]
+FAILED tests/test_night5a.py::test_14_15_anchor_preserves_spatial_and_is_symmetric[1.0]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C03]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C04]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C06]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C08]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C10]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C12]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C13]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C15]
+FAILED tests/test_night5a.py::test_23_candidate_forward_backward_finite_and_active_gradients[C16]
+FAILED tests/test_night5a.py::test_24_dgi_uses_locked_permutation_and_finite
+FAILED tests/test_night5a.py::test_27_unregistered_candidate_rejected - Asser...
+13 failed, 26 passed, 28 warnings in 11.98s

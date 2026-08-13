@@ -1,0 +1,181 @@
+{
+  "candidates": {
+    "C00_FULL_IGE": {
+      "attention": "learned",
+      "config_sha256": "32ba1e74a1f799b5e073423d38624ef122e0d7df335dd3b021387ea506c45b2d",
+      "corr2": true,
+      "description": "Exact Night-3B FULL_IGE reference",
+      "family": "reference",
+      "id": "C00_FULL_IGE",
+      "loss_calibration": "IGE"
+    },
+    "C01_DROP_CORR2": {
+      "attention": "learned",
+      "config_sha256": "b36a8c33323a92b6303457d345219f28b4ea6803ea5558c719edd06f996c85fc",
+      "corr2": false,
+      "description": "Learned attention with Corr2 removed",
+      "family": "historical_replication",
+      "id": "C01_DROP_CORR2",
+      "loss_calibration": "active_set_IGE"
+    },
+    "C02_UNIFORM_ALL": {
+      "attention": "uniform_all",
+      "config_sha256": "2dc76b29a3bb88aaff46343eb3b4197832421a33d189b3f1ea698822db4579b0",
+      "corr2": true,
+      "description": "Uniform within and cross attention, Corr2 retained",
+      "family": "historical_replication",
+      "id": "C02_UNIFORM_ALL",
+      "loss_calibration": "IGE"
+    },
+    "C03_SIMPLE_BASE": {
+      "attention": "uniform_all",
+      "config_sha256": "b55a41916088453ed94d79aa87a8ce5ea5447469a1d975a44cd94d27d7eddd2f",
+      "corr2": false,
+      "description": "Uniform within/cross fusion plus Corr2 removal",
+      "family": "simplified_base",
+      "id": "C03_SIMPLE_BASE",
+      "loss_calibration": "active_set_IGE"
+    },
+    "C04_SHRINK25": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+      "corr2": false,
+      "description": "Learned fusion shrunk strongly toward equal weights",
+      "family": "fusion",
+      "id": "C04_SHRINK25",
+      "learned_fraction_rho": 0.25,
+      "loss_calibration": "active_set_IGE"
+    },
+    "C05_SHRINK50": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "ec37739a276964bcf53c9e582db4a57175a025ac31ae3b3fd109d8912f0ca581",
+      "corr2": false,
+      "description": "Learned fusion shrunk moderately toward equal weights",
+      "family": "fusion",
+      "id": "C05_SHRINK50",
+      "learned_fraction_rho": 0.5,
+      "loss_calibration": "active_set_IGE"
+    },
+    "C06_RELIABILITY25": {
+      "attention": "frozen_local_reliability",
+      "config_sha256": "47c00e7ff69ed9d4283c6719f25b5ea5edf43f441b1542a9cd9adab61907ab42",
+      "corr2": false,
+      "description": "Frozen label-free local predictability weights, strongly shrunk to equal",
+      "family": "fusion",
+      "id": "C06_RELIABILITY25",
+      "loss_calibration": "active_set_IGE",
+      "reliability_fraction_rho": 0.25,
+      "reliability_k": 20
+    },
+    "C07_RELIABILITY50": {
+      "attention": "frozen_local_reliability",
+      "config_sha256": "db66e7a7737f6fae3331a898b465ad6a22ddfafe21b5489dd26ce47d49386054",
+      "corr2": false,
+      "description": "Frozen label-free local predictability weights, moderately shrunk to equal",
+      "family": "fusion",
+      "id": "C07_RELIABILITY50",
+      "loss_calibration": "active_set_IGE",
+      "reliability_fraction_rho": 0.5,
+      "reliability_k": 20
+    },
+    "C08_RNA_ANCHOR05": {
+      "attention": "uniform_all",
+      "config_sha256": "1dc58d01417a3332d15da38acd872ab59ab33ec0b9a90de7a7c6bb5757beb13c",
+      "corr2": false,
+      "description": "Residual RNA feature/spatial intersection edge upweighting",
+      "family": "graph",
+      "id": "C08_RNA_ANCHOR05",
+      "loss_calibration": "active_set_IGE",
+      "rna_anchor_eta": 0.5
+    },
+    "C09_RNA_ANCHOR10": {
+      "attention": "uniform_all",
+      "config_sha256": "88f19a532e2af7d00f4f79ad016347bbbbca6c9df6f921dd5512d0f52bacff02",
+      "corr2": false,
+      "description": "Stronger residual RNA feature/spatial intersection edge upweighting",
+      "family": "graph",
+      "id": "C09_RNA_ANCHOR10",
+      "loss_calibration": "active_set_IGE",
+      "rna_anchor_eta": 1.0
+    },
+    "C10_MNN_TRIPLET01": {
+      "attention": "uniform_all",
+      "config_sha256": "245aab89230f16acd8e41da19f5a5b56fc6dfa680913d8fb1aced723ec923356",
+      "corr2": false,
+      "description": "Frozen MNN triplets on fused embedding",
+      "family": "metric_learning",
+      "id": "C10_MNN_TRIPLET01",
+      "loss_calibration": "active_set_IGE",
+      "mnn_k": 3,
+      "negative_farthest_fraction": 0.4,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.1
+    },
+    "C11_MNN_TRIPLET03": {
+      "attention": "uniform_all",
+      "config_sha256": "f911688489459e04dea1016eeab496354851b1710b03bba0dd22cb55577c0239",
+      "corr2": false,
+      "description": "Higher-weight frozen MNN triplets on fused embedding",
+      "family": "metric_learning",
+      "id": "C11_MNN_TRIPLET03",
+      "loss_calibration": "active_set_IGE",
+      "mnn_k": 3,
+      "negative_farthest_fraction": 0.4,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.3
+    },
+    "C12_NEIGHBOR_CONTRAST": {
+      "attention": "uniform_all",
+      "config_sha256": "954c532158a8ff1a6b1474cf2dd2a28c83f1ae63f74fc64b768846862b5571fa",
+      "contrastive_weight": 0.1,
+      "corr2": false,
+      "description": "Label-free spatial-neighbor contrastive constraint",
+      "family": "metric_learning",
+      "id": "C12_NEIGHBOR_CONTRAST",
+      "loss_calibration": "active_set_IGE",
+      "temperature": 0.2
+    },
+    "C13_HYBRID_IGE25": {
+      "attention": "uniform_all",
+      "config_sha256": "2e0237fcb281a19e0a4e24f5ec69993774168d24c6f75379904172a2f30c5989",
+      "corr2": false,
+      "description": "Mostly legacy-prior loss calibration with limited inverse-gradient correction",
+      "family": "loss_calibration",
+      "gradient_beta": 0.25,
+      "id": "C13_HYBRID_IGE25",
+      "loss_calibration": "legacy_gradient_geometric_mix"
+    },
+    "C14_HYBRID_IGE50": {
+      "attention": "uniform_all",
+      "config_sha256": "b806be4ae6b12fe54aa94452b51823a35ba1806e1e716783301b7a2eb139c3be",
+      "corr2": false,
+      "description": "Equal geometric mix of legacy prior and inverse-gradient calibration",
+      "family": "loss_calibration",
+      "gradient_beta": 0.5,
+      "id": "C14_HYBRID_IGE50",
+      "loss_calibration": "legacy_gradient_geometric_mix"
+    },
+    "C15_RESIDUAL_ENCODER": {
+      "attention": "uniform_all",
+      "config_sha256": "1ece40654de96a15792bdd442df3ff3083d6976dce2d07052ac5a50d8bdc3f72",
+      "corr2": false,
+      "description": "Two-layer residual nonlinear sparse graph encoder",
+      "encoder": "two_layer_sparse_residual_gelu_layernorm",
+      "family": "encoder",
+      "id": "C15_RESIDUAL_ENCODER",
+      "loss_calibration": "active_set_IGE",
+      "residual_second_layer_scale": 0.5
+    },
+    "C16_DGI01": {
+      "attention": "uniform_all",
+      "config_sha256": "716efced2aafbacc4ed36a03678d6d23231073433fb08e0df7e407d300632784",
+      "corr2": false,
+      "description": "Lightweight DGI node-global objective on fused embedding",
+      "dgi_weight": 0.1,
+      "family": "global_contrast",
+      "id": "C16_DGI01",
+      "loss_calibration": "active_set_IGE"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,220 @@
+{
+  "authoritative_input_checks": [
+    {
+      "actual_sha256": "5e369592a722466192fee12ef3d0088549d7dbdd06e50af6ca7bfbbc7f938434",
+      "expected_sha256": "5e369592a722466192fee12ef3d0088549d7dbdd06e50af6ca7bfbbc7f938434",
+      "match": true,
+      "path": "docs/night5a_authoritative_inputs/SpaLORA_Night5A_Candidate_Registry_2026-08-13.json"
+    },
+    {
+      "actual_sha256": "c5d488126b761ecee618be6479ac71217388faf2a2159462877c6f88e78f9478",
+      "expected_sha256": "c5d488126b761ecee618be6479ac71217388faf2a2159462877c6f88e78f9478",
+      "match": true,
+      "path": "docs/night5a_authoritative_inputs/SpaLORA_Night5A_Metric_Driven_RnD_Funnel_Taskbook_2026-08-13.md"
+    },
+    {
+      "actual_sha256": "42d387e200be3bc64860cc423a838449286ea10baec3bcf1797f2b0e240622ac",
+      "expected_sha256": "42d387e200be3bc64860cc423a838449286ea10baec3bcf1797f2b0e240622ac",
+      "match": true,
+      "path": "docs/night5a_authoritative_inputs/SpaLORA_Metric_Driven_RnD_Rationale_2026-08-13.md"
+    }
+  ],
+  "baseline_tag": "baseline/pre-night5a-20260813",
+  "cache_and_artifact_locks": {
+    "a1": {
+      "canonical_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "label_free_artifact_manifest_sha256": "095868b6ff64a1f6d03e83c19e979ced2bd9437f0aac6085138160a6497479de",
+      "manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "observation_count": 3484,
+      "semantic_label_access": false,
+      "training_payload_keys": [
+        "adj_feature_omics1",
+        "adj_feature_omics2",
+        "adj_spatial_omics1",
+        "adj_spatial_omics2",
+        "features_omics1",
+        "features_omics2",
+        "rna_pca_explained_variance",
+        "rna_pca_explained_variance_ratio",
+        "rna_pca_metadata",
+        "rna_pca_scores",
+        "selected_gene_names",
+        "weight_vector_omics1"
+      ]
+    },
+    "placenta": {
+      "canonical_model_input_sha256": "29de893e8e149acbbee2bb01dbaddab7ea2dae9c0befc208040d0664d9015fb9",
+      "label_free_artifact_manifest_sha256": "4946360b47a731df73e67548c47a73066b2bee917c85da4aa80e521e5de3c7a7",
+      "manifest_sha256": "cb8eaed90adcd08b3662f6fffdae9049365214ff5ef01e36a9f4ab046b40a0b2",
+      "observation_count": 1662,
+      "semantic_label_access": false,
+      "training_payload_keys": [
+        "adj_feature_omics1",
+        "adj_feature_omics2",
+        "adj_spatial_omics1",
+        "adj_spatial_omics2",
+        "features_omics1",
+        "features_omics2",
+        "rna_pca_explained_variance",
+        "rna_pca_explained_variance_ratio",
+        "rna_pca_metadata",
+        "rna_pca_scores",
+        "selected_gene_names",
+        "weight_vector_omics1"
+      ]
+    }
+  },
+  "candidate_count": 17,
+  "candidate_unique_config_sha_count": 17,
+  "elapsed_seconds": 24.022892951965332,
+  "engineering_probes": [
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C00_FULL_IGE",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C01_DROP_CORR2",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C02_UNIFORM_ALL",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C03_SIMPLE_BASE",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C04_SHRINK25",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C05_SHRINK50",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C06_RELIABILITY25",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C07_RELIABILITY50",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C08_RNA_ANCHOR05",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C09_RNA_ANCHOR10",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C10_MNN_TRIPLET01",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C11_MNN_TRIPLET03",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C12_NEIGHBOR_CONTRAST",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C13_HYBRID_IGE25",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C14_HYBRID_IGE50",
+      "forward_finite": true,
+      "parameter_count": 400320
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C15_RESIDUAL_ENCODER",
+      "forward_finite": true,
+      "parameter_count": 409024
+    },
+    {
+      "active_module_nonzero_gradient": true,
+      "candidate_id": "C16_DGI01",
+      "forward_finite": true,
+      "parameter_count": 404416
+    }
+  ],
+  "p0_arch_pass": true,
+  "p0_git_pass": true,
+  "p0_protect_pass": true,
+  "parent_commit": "4a22cfb4afe331e1ca2edcc0b86a01fa3892a452",
+  "parity": [
+    {
+      "adam_one_step_exact": true,
+      "candidate_id": "C00_FULL_IGE",
+      "final_state_exact": true,
+      "forward_output_exact": true,
+      "gradient_coefficients_exact": true,
+      "initial_state_exact": true,
+      "legacy_variant": "FULL_IGE",
+      "loss_exact": true,
+      "passed": true
+    },
+    {
+      "adam_one_step_exact": true,
+      "candidate_id": "C01_DROP_CORR2",
+      "final_state_exact": true,
+      "forward_output_exact": true,
+      "gradient_coefficients_exact": true,
+      "initial_state_exact": true,
+      "legacy_variant": "DROP_CORR2",
+      "loss_exact": true,
+      "passed": true
+    },
+    {
+      "adam_one_step_exact": true,
+      "candidate_id": "C02_UNIFORM_ALL",
+      "final_state_exact": true,
+      "forward_output_exact": true,
+      "gradient_coefficients_exact": true,
+      "initial_state_exact": true,
+      "legacy_variant": "UNIFORM_ALL",
+      "loss_exact": true,
+      "passed": true
+    }
+  ],
+  "r1_authorized": true,
+  "r1_locked_run_count": 34,
+  "r1_run_order_sha256": "dc16648af6b56da59f7e3397e33c2e9a2129bbff3c43a1aa4087022bbd7f9103",
+  "schema_version": 1,
+  "semantic_label_access": false,
+  "specialized_tests_required": 20,
+  "withheld_candidates_run": []
+}
