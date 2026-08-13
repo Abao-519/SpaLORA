@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "scripts/night5b_finalize.py", line 120, in <module>
+    if __name__=="__main__":main()
+  File "scripts/night5b_finalize.py", line 35, in main
+    firewall={"schema_version":1,"passed":True,"training_windows":{"s1":json.load(open(OUT/"training_s1_label_firewall.json")),"s2":json.load(open(OUT/"training_s2_label_firewall.json"))},"semantic_labels_read_only_after_embedding_manifest_locks":True,"development_datasets_evaluated":["a1","placenta"],"p22_runs":0,"d1_runs":0,"gse198353_runs":0,"night4b_runs":0}
+FileNotFoundError: [Errno 2] No such file or directory: '/autodl-fs/data/SpaLORA-night5b/outputs/night5b_handoff/training_s1_label_firewall.json'

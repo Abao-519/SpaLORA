@@ -1,0 +1,25 @@
+{
+  "affected_candidates": [
+    "B21_C09_LAPLACIAN005",
+    "B22_C09_LAPLACIAN010",
+    "B23_C10_LAPLACIAN005",
+    "B24_C10_LAPLACIAN010"
+  ],
+  "affected_results_invalidated": true,
+  "affected_training_units": 24,
+  "attempts_before_detection": 108,
+  "budget_expansion_forbidden": true,
+  "canonical_scientific_decision_withdrawn": true,
+  "detected_during_final_audit": true,
+  "executed_attention_policy": "shrink_to_uniform_rho025",
+  "expected_attention_policy": "uniform_all",
+  "fix_applied_to_source": true,
+  "fix_rerun_performed": false,
+  "hard_attempt_budget": 120,
+  "kind": "scientific_implementation_mismatch",
+  "minimum_additional_attempts_for_complete_correction": 24,
+  "retention": "All first outputs remain in /root/autodl-fs/night5b_raw_runs_20260813 and are not overwritten.",
+  "root_cause": "Night5BTrainer.new_model hard-coded shrink_to_uniform for all new candidates",
+  "schema_version": 1,
+  "would_total_attempts": 132
+}

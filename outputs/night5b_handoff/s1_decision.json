@@ -1,0 +1,671 @@
+{
+  "accuracy_frontier_top2": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10"
+  ],
+  "balanced_frontier_top3": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10",
+    "B06_SECONDLOOK_RNA_ANCHOR05"
+  ],
+  "candidate_summaries": [
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.005897898538399467,
+        "placenta": 0.07982553643628283
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.25334067707302227,
+          "boundary_disagreement": 0.4403544255032264,
+          "nmi": 0.38192881094181647,
+          "q": 0.31763474400741937,
+          "spatial_cluster_geary_mean": 0.5244699059060113,
+          "spatial_cluster_moran_mean": 0.48380438097515693,
+          "spatial_neighbor_agreement": 0.5703693073096058
+        },
+        "placenta": {
+          "ari": 0.7058464443987429,
+          "boundary_disagreement": 0.6799420709630702,
+          "nmi": 0.754430082466241,
+          "q": 0.730138263432492,
+          "spatial_cluster_geary_mean": 0.7125481545366336,
+          "spatial_cluster_moran_mean": 0.3906459319650864,
+          "spatial_neighbor_agreement": 0.42258323305254714
+        }
+      },
+      "dev_macro_delta_ari": 0.04153040020035822,
+      "dev_macro_delta_nmi": 0.044193034774324035,
+      "dev_macro_delta_q": 0.04286171748734115,
+      "gpu_peak_ratio": 0.8884839161681874,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "runtime_ratio": 0.6856301111011119,
+      "runtime_seconds_mean": 3.3167811490905783,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.005897898538399467
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0021037427055745814,
+        "placenta": 0.09354858377382887
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24952697030040136,
+          "boundary_disagreement": 0.43269767889819893,
+          "nmi": 0.3781542060487877,
+          "q": 0.31384058817459454,
+          "spatial_cluster_geary_mean": 0.5121083740888736,
+          "spatial_cluster_moran_mean": 0.49617834752637774,
+          "spatial_neighbor_agreement": 0.5783794701705148
+        },
+        "placenta": {
+          "ari": 0.7236194396673822,
+          "boundary_disagreement": 0.6857349746560463,
+          "nmi": 0.7641031818726937,
+          "q": 0.743861310770038,
+          "spatial_cluster_geary_mean": 0.7158974907858321,
+          "spatial_cluster_moran_mean": 0.3834737545516506,
+          "spatial_neighbor_agreement": 0.41436020858403527
+        }
+      },
+      "dev_macro_delta_ari": 0.048510044448367366,
+      "dev_macro_delta_nmi": 0.04714228203103601,
+      "dev_macro_delta_q": 0.04782616323970172,
+      "gpu_peak_ratio": 0.8884839161681874,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "runtime_ratio": 0.6594468476582567,
+      "runtime_seconds_mean": 3.1901178751140833,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0021037427055745814
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.013461497515417956,
+        "placenta": 0.09364949172845978
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.26292005096716875,
+          "boundary_disagreement": 0.43970913994028704,
+          "nmi": 0.387476635001707,
+          "q": 0.3251983429844379,
+          "spatial_cluster_geary_mean": 0.5261403662347978,
+          "spatial_cluster_moran_mean": 0.48232589511018015,
+          "spatial_neighbor_agreement": 0.5716502955308925
+        },
+        "placenta": {
+          "ari": 0.7235081099218686,
+          "boundary_disagreement": 0.6867004586048756,
+          "nmi": 0.7644163275274692,
+          "q": 0.7439622187246689,
+          "spatial_cluster_geary_mean": 0.7167664946992552,
+          "spatial_cluster_moran_mean": 0.38455414702571483,
+          "spatial_neighbor_agreement": 0.414560770156438
+        }
+      },
+      "dev_macro_delta_ari": 0.05515091990899432,
+      "dev_macro_delta_nmi": 0.05196006933488337,
+      "dev_macro_delta_q": 0.05355549462193887,
+      "gpu_peak_ratio": 0.8868090998354081,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "runtime_ratio": 0.6672479903201762,
+      "runtime_seconds_mean": 3.227856420290967,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.013461497515417956
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.013954096624789488,
+        "placenta": 0.06663346811338337
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2373824324027395,
+          "boundary_disagreement": 0.3964075893287104,
+          "nmi": 0.35818306528572136,
+          "q": 0.29778274884423045,
+          "spatial_cluster_geary_mean": 0.4636065900710357,
+          "spatial_cluster_moran_mean": 0.5470804017804836,
+          "spatial_neighbor_agreement": 0.6144703831270996
+        },
+        "placenta": {
+          "ari": 0.6823624474100592,
+          "boundary_disagreement": 0.6929761042722665,
+          "nmi": 0.7515299428091256,
+          "q": 0.7169461951095925,
+          "spatial_cluster_geary_mean": 0.7319277493170796,
+          "spatial_cluster_moran_mean": 0.3694745139273216,
+          "spatial_neighbor_agreement": 0.40734055354993987
+        }
+      },
+      "dev_macro_delta_ari": 0.02180927937087504,
+      "dev_macro_delta_nmi": 0.030870092117718805,
+      "dev_macro_delta_q": 0.02633968574429694,
+      "gpu_peak_ratio": 0.8885177322101488,
+      "paired_q_total": 6,
+      "paired_q_wins": 4,
+      "runtime_ratio": 0.6454197852851103,
+      "runtime_seconds_mean": 3.122261030289034,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.013954096624789488
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.012208725715424787,
+        "placenta": 0.07924409193874826
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2621612604205064,
+          "boundary_disagreement": 0.4438794182798806,
+          "nmi": 0.385729881948383,
+          "q": 0.3239455711844447,
+          "spatial_cluster_geary_mean": 0.5343008378284633,
+          "spatial_cluster_moran_mean": 0.4761709123604363,
+          "spatial_neighbor_agreement": 0.5665848109877961
+        },
+        "placenta": {
+          "ari": 0.7089025844538445,
+          "boundary_disagreement": 0.6932174752594737,
+          "nmi": 0.7502110534160703,
+          "q": 0.7295568189349574,
+          "spatial_cluster_geary_mean": 0.7406838317158112,
+          "spatial_cluster_moran_mean": 0.3584804702350602,
+          "spatial_neighbor_agreement": 0.40914560770156444
+        }
+      },
+      "dev_macro_delta_ari": 0.0474687619016511,
+      "dev_macro_delta_nmi": 0.04398405575252194,
+      "dev_macro_delta_q": 0.04572640882708653,
+      "gpu_peak_ratio": 0.8885767565742997,
+      "paired_q_total": 6,
+      "paired_q_wins": 5,
+      "runtime_ratio": 1.0696927627848067,
+      "runtime_seconds_mean": 5.174709706412007,
+      "spatial_protection_failed": true,
+      "worst_dataset_delta_q": 0.012208725715424787
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.019435670233059293,
+        "placenta": 0.03200766782015659
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.27408375971311133,
+          "boundary_disagreement": 0.4357989020514302,
+          "nmi": 0.3882612716910471,
+          "q": 0.33117251570207923,
+          "spatial_cluster_geary_mean": 0.523589069752258,
+          "spatial_cluster_moran_mean": 0.48475486132946105,
+          "spatial_neighbor_agreement": 0.574940468597185
+        },
+        "placenta": {
+          "ari": 0.6671133050710832,
+          "boundary_disagreement": 0.6628047308713492,
+          "nmi": 0.697527484561648,
+          "q": 0.6823203948163657,
+          "spatial_cluster_geary_mean": 0.669104702104995,
+          "spatial_cluster_moran_mean": 0.4857711519033967,
+          "spatial_neighbor_agreement": 0.48134777376654636
+        }
+      },
+      "dev_macro_delta_ari": 0.03253537185657295,
+      "dev_macro_delta_nmi": 0.018907966196642857,
+      "dev_macro_delta_q": 0.02572166902660794,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "runtime_ratio": 0.9133010408199117,
+      "runtime_seconds_mean": 4.4181543759380775,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.019435670233059293
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.017517188186964478,
+        "placenta": 0.043492830752798084
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.26792854175969033,
+          "boundary_disagreement": 0.4283155157468939,
+          "nmi": 0.39057952555227854,
+          "q": 0.3292540336559844,
+          "spatial_cluster_geary_mean": 0.5350897271739244,
+          "spatial_cluster_moran_mean": 0.47530481848494494,
+          "spatial_neighbor_agreement": 0.5835034230556618
+        },
+        "placenta": {
+          "ari": 0.6804775480776013,
+          "boundary_disagreement": 0.6673907796282886,
+          "nmi": 0.707133567420413,
+          "q": 0.6938055577490072,
+          "spatial_cluster_geary_mean": 0.6776100948497888,
+          "spatial_cluster_moran_mean": 0.47476104266310415,
+          "spatial_neighbor_agreement": 0.4751303650220618
+        }
+      },
+      "dev_macro_delta_ari": 0.03613988438312144,
+      "dev_macro_delta_nmi": 0.024870134556641076,
+      "dev_macro_delta_q": 0.03050500946988128,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 5,
+      "runtime_ratio": 0.8447514260197405,
+      "runtime_seconds_mean": 4.086541066567103,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.017517188186964478
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.006021787587244772,
+        "placenta": 0.02309846914754743
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.25345866965903396,
+          "boundary_disagreement": 0.43759992295097755,
+          "nmi": 0.38205859645349544,
+          "q": 0.31775863305626467,
+          "spatial_cluster_geary_mean": 0.5174033151244403,
+          "spatial_cluster_moran_mean": 0.49001349510735875,
+          "spatial_neighbor_agreement": 0.5738083088829358
+        },
+        "placenta": {
+          "ari": 0.6528013557486071,
+          "boundary_disagreement": 0.6606323919864833,
+          "nmi": 0.694021036538906,
+          "q": 0.6734111961437566,
+          "spatial_cluster_geary_mean": 0.6700503873279997,
+          "spatial_cluster_moran_mean": 0.47538805027976866,
+          "spatial_neighbor_agreement": 0.47352587244283995
+        }
+      },
+      "dev_macro_delta_ari": 0.015066852168296138,
+      "dev_macro_delta_nmi": 0.014053404566496053,
+      "dev_macro_delta_q": 0.0145601283673961,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 4,
+      "runtime_ratio": 0.8949029291368261,
+      "runtime_seconds_mean": 4.329152290088435,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.006021787587244772
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0027563140598056424,
+        "placenta": 0.05925687718481495
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.25303199728194786,
+          "boundary_disagreement": 0.43497062506019457,
+          "nmi": 0.37595432177570326,
+          "q": 0.31449315952882556,
+          "spatial_cluster_geary_mean": 0.5080537635947847,
+          "spatial_cluster_moran_mean": 0.49932382600293784,
+          "spatial_neighbor_agreement": 0.5757058723476635
+        },
+        "placenta": {
+          "ari": 0.6971835462929388,
+          "boundary_disagreement": 0.6669080376538741,
+          "nmi": 0.7219556620691093,
+          "q": 0.709569604181024,
+          "spatial_cluster_geary_mean": 0.6713290635917226,
+          "spatial_cluster_moran_mean": 0.4712813640866438,
+          "spatial_neighbor_agreement": 0.4663056558363418
+        }
+      },
+      "dev_macro_delta_ari": 0.03704461125191896,
+      "dev_macro_delta_nmi": 0.024968579992701617,
+      "dev_macro_delta_q": 0.031006595622310295,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "runtime_ratio": 0.8802147290846839,
+      "runtime_seconds_mean": 4.258097147879501,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.0027563140598056424
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.001731692947906723,
+        "placenta": 0.08135596557630702
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2494969532235316,
+          "boundary_disagreement": 0.4213811037272464,
+          "nmi": 0.3774401236103217,
+          "q": 0.3134685384169266,
+          "spatial_cluster_geary_mean": 0.5104698335211258,
+          "spatial_cluster_moran_mean": 0.49970815964246446,
+          "spatial_neighbor_agreement": 0.5892492664880725
+        },
+        "placenta": {
+          "ari": 0.7289401633899816,
+          "boundary_disagreement": 0.6608737629736906,
+          "nmi": 0.7343972217550507,
+          "q": 0.7316686925725161,
+          "spatial_cluster_geary_mean": 0.673768869062163,
+          "spatial_cluster_moran_mean": 0.47571474739947,
+          "spatial_neighbor_agreement": 0.47312474929803444
+        }
+      },
+      "dev_macro_delta_ari": 0.051155397771232174,
+      "dev_macro_delta_nmi": 0.031932260752981514,
+      "dev_macro_delta_q": 0.04154382926210687,
+      "gpu_peak_ratio": 0.9688523511679139,
+      "paired_q_total": 6,
+      "paired_q_wins": 4,
+      "runtime_ratio": 1.4332687424171255,
+      "runtime_seconds_mean": 6.933532628541191,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.001731692947906723
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.001358748820527167,
+        "placenta": 0.021256354524036514
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24354666289551966,
+          "boundary_disagreement": 0.43972840219589715,
+          "nmi": 0.3772095304014658,
+          "q": 0.31037809664849275,
+          "spatial_cluster_geary_mean": 0.5271026471752616,
+          "spatial_cluster_moran_mean": 0.4826606224346421,
+          "spatial_neighbor_agreement": 0.5708104775268955
+        },
+        "placenta": {
+          "ari": 0.6502245778912626,
+          "boundary_disagreement": 0.6635288438329713,
+          "nmi": 0.6929135851492285,
+          "q": 0.6715690815202455,
+          "spatial_cluster_geary_mean": 0.6873248380707331,
+          "spatial_cluster_moran_mean": 0.47526804434516956,
+          "spatial_neighbor_agreement": 0.48415563578018456
+        }
+      },
+      "dev_macro_delta_ari": 0.008822459857866814,
+      "dev_macro_delta_nmi": 0.011075145845642528,
+      "dev_macro_delta_q": 0.009948802851754673,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 3,
+      "runtime_ratio": 0.8578541187657082,
+      "runtime_seconds_mean": 4.149926211995383,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.001358748820527167
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.006568899871379985,
+        "placenta": 0.0754803407503944
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2566864871485703,
+          "boundary_disagreement": 0.43368005393431575,
+          "nmi": 0.3799250035322295,
+          "q": 0.3183057453403999,
+          "spatial_cluster_geary_mean": 0.5119437597254125,
+          "spatial_cluster_moran_mean": 0.4968582259923788,
+          "spatial_neighbor_agreement": 0.5771197431645193
+        },
+        "placenta": {
+          "ari": 0.7306812465448654,
+          "boundary_disagreement": 0.650494810523775,
+          "nmi": 0.7209048889483416,
+          "q": 0.7257930677466035,
+          "spatial_cluster_geary_mean": 0.6634216040629733,
+          "spatial_cluster_moran_mean": 0.5124820548033882,
+          "spatial_neighbor_agreement": 0.5016044925792218
+        }
+      },
+      "dev_macro_delta_ari": 0.05562070631119348,
+      "dev_macro_delta_nmi": 0.026428534310580853,
+      "dev_macro_delta_q": 0.041024620310887196,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 6,
+      "runtime_ratio": 0.8709592724797801,
+      "runtime_seconds_mean": 4.2133232625201344,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": 0.006568899871379985
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.013093838038734429,
+        "placenta": 0.009755077177119542
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.22529777634107542,
+          "boundary_disagreement": 0.4579408648752769,
+          "nmi": 0.37198823851949553,
+          "q": 0.2986430074302855,
+          "spatial_cluster_geary_mean": 0.5267927930637202,
+          "spatial_cluster_moran_mean": 0.48100552063475394,
+          "spatial_neighbor_agreement": 0.5537324063443466
+        },
+        "placenta": {
+          "ari": 0.6331618232871176,
+          "boundary_disagreement": 0.6545981173062998,
+          "nmi": 0.6869737850595397,
+          "q": 0.6600678041733287,
+          "spatial_cluster_geary_mean": 0.6552392521388892,
+          "spatial_cluster_moran_mean": 0.4954837113717146,
+          "spatial_neighbor_agreement": 0.4871640593662254
+        }
+      },
+      "dev_macro_delta_ari": -0.008833360721427874,
+      "dev_macro_delta_nmi": 0.005494599859812932,
+      "dev_macro_delta_q": -0.0016693804308074434,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 2,
+      "runtime_ratio": 0.8724294521555933,
+      "runtime_seconds_mean": 4.220435354237755,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.013093838038734429
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.007969563979687769,
+        "placenta": -0.02532049794518128
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.23168737467158781,
+          "boundary_disagreement": 0.2907637484349417,
+          "nmi": 0.3758471883070765,
+          "q": 0.30376728148933213,
+          "spatial_cluster_geary_mean": 0.35294469324652944,
+          "spatial_cluster_moran_mean": 0.6549424253440003,
+          "spatial_neighbor_agreement": 0.7210688012926819
+        },
+        "placenta": {
+          "ari": 0.6089877037072615,
+          "boundary_disagreement": 0.6150132754042964,
+          "nmi": 0.6409967543947941,
+          "q": 0.6249922290510278,
+          "spatial_cluster_geary_mean": 0.623786290296671,
+          "spatial_cluster_moran_mean": 0.5795752483684411,
+          "spatial_neighbor_agreement": 0.5655836341756919
+        }
+      },
+      "dev_macro_delta_ari": -0.017725621346099722,
+      "dev_macro_delta_nmi": -0.015564440578769377,
+      "dev_macro_delta_q": -0.016645030962434526,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 1,
+      "runtime_ratio": 0.8742928516540877,
+      "runtime_seconds_mean": 4.229449672934909,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.02532049794518128
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": 0.0028359808132268536,
+        "placenta": -0.07532207657994339
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.24598871097554667,
+          "boundary_disagreement": 0.2641529423095444,
+          "nmi": 0.3831569415889468,
+          "q": 0.31457282628224675,
+          "spatial_cluster_geary_mean": 0.3379863618045471,
+          "spatial_cluster_moran_mean": 0.6721391251487274,
+          "spatial_neighbor_agreement": 0.7468108177063401
+        },
+        "placenta": {
+          "ari": 0.5511240139861513,
+          "boundary_disagreement": 0.6099444846729424,
+          "nmi": 0.5988572868463801,
+          "q": 0.5749906504162657,
+          "spatial_cluster_geary_mean": 0.5991746803349817,
+          "spatial_cluster_moran_mean": 0.6195615202503418,
+          "spatial_neighbor_agreement": 0.5938628158844765
+        }
+      },
+      "dev_macro_delta_ari": -0.03950679805467537,
+      "dev_macro_delta_nmi": -0.03297929771204122,
+      "dev_macro_delta_q": -0.03624304788335827,
+      "gpu_peak_ratio": 0.9661827283643426,
+      "paired_q_total": 6,
+      "paired_q_wins": 2,
+      "runtime_ratio": 0.8637314338645307,
+      "runtime_seconds_mean": 4.178358113703628,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.07532207657994339
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.00841112622852965,
+        "placenta": -0.05594090840936594
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.23842055229252898,
+          "boundary_disagreement": 0.3130501781758644,
+          "nmi": 0.36823088618845157,
+          "q": 0.3033257192404903,
+          "spatial_cluster_geary_mean": 0.382236128425467,
+          "spatial_cluster_moran_mean": 0.6293043833244131,
+          "spatial_neighbor_agreement": 0.698026959220989
+        },
+        "placenta": {
+          "ari": 0.5689418122214723,
+          "boundary_disagreement": 0.6017378711078929,
+          "nmi": 0.6198018249522139,
+          "q": 0.5943718185868432,
+          "spatial_cluster_geary_mean": 0.6131802840246164,
+          "spatial_cluster_moran_mean": 0.5846573913118852,
+          "spatial_neighbor_agreement": 0.5748094665062174
+        }
+      },
+      "dev_macro_delta_ari": -0.034381978278523725,
+      "dev_macro_delta_nmi": -0.029970056359371906,
+      "dev_macro_delta_q": -0.03217601731894779,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 0,
+      "runtime_ratio": 0.9170670243920679,
+      "runtime_seconds_mean": 4.436372571314375,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.05594090840936594
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "complete": true,
+      "dataset_delta_q": {
+        "a1": -0.02208835426836157,
+        "placenta": -0.1359564220265775
+      },
+      "dataset_means": {
+        "a1": {
+          "ari": 0.2189820435970431,
+          "boundary_disagreement": 0.26051237599922955,
+          "nmi": 0.3603149388042735,
+          "q": 0.28964849120065833,
+          "spatial_cluster_geary_mean": 0.31865092790352295,
+          "spatial_cluster_moran_mean": 0.6891499407384218,
+          "spatial_neighbor_agreement": 0.7505793681166816
+        },
+        "placenta": {
+          "ari": 0.47185808785667965,
+          "boundary_disagreement": 0.5737388365918416,
+          "nmi": 0.5568545220825835,
+          "q": 0.5143563049696316,
+          "spatial_cluster_geary_mean": 0.5839397353008585,
+          "spatial_cluster_moran_mean": 0.6276193669345458,
+          "spatial_neighbor_agreement": 0.616325711993582
+        }
+      },
+      "dev_macro_delta_ari": -0.09264309480866298,
+      "dev_macro_delta_nmi": -0.06540168148627616,
+      "dev_macro_delta_q": -0.07902238814746954,
+      "gpu_peak_ratio": 0.9687933268037631,
+      "paired_q_total": 6,
+      "paired_q_wins": 0,
+      "runtime_ratio": 0.9135192360057698,
+      "runtime_seconds_mean": 4.419209909625351,
+      "spatial_protection_failed": false,
+      "worst_dataset_delta_q": -0.1359564220265775
+    }
+  ],
+  "labels_read_only_after_training_manifest_lock": true,
+  "parameter_tuning": false,
+  "schema_version": 1,
+  "seed_search": false,
+  "stage": "S1",
+  "topup_candidates": [
+    "B09_SHRINK25_ANCHOR05",
+    "B10_SHRINK25_ANCHOR10",
+    "B06_SECONDLOOK_RNA_ANCHOR05",
+    "B15_LATENT_RELIABILITY50"
+  ],
+  "withheld_results_opened": false
+}

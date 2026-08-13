@@ -1,0 +1,1284 @@
+{
+  "canonical_sha256": "6c4a90c0abd17521449b602918640d8f82162595ce85f1375b6af3e280d684ab",
+  "locked_before_training": true,
+  "row_count": 182,
+  "runs": [
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "a1",
+      "ordinal": 1,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "a1",
+      "ordinal": 2,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "a1",
+      "ordinal": 3,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "a1",
+      "ordinal": 4,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "a1",
+      "ordinal": 5,
+      "seed": 4
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "a1",
+      "ordinal": 6,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "a1",
+      "ordinal": 7,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "a1",
+      "ordinal": 8,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "a1",
+      "ordinal": 9,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "a1",
+      "ordinal": 10,
+      "seed": 4
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 11,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 12,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 13,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 14,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 15,
+      "seed": 4
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "ordinal": 16,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "ordinal": 17,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "ordinal": 18,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "ordinal": 19,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "a1",
+      "ordinal": 20,
+      "seed": 4
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 21,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 22,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 23,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 24,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 25,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 26,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 27,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 28,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 29,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "a1",
+      "ordinal": 30,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "a1",
+      "ordinal": 31,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "a1",
+      "ordinal": 32,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "a1",
+      "ordinal": 33,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "a1",
+      "ordinal": 34,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "a1",
+      "ordinal": 35,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 36,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 37,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 38,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 39,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 40,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 41,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "a1",
+      "ordinal": 42,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "a1",
+      "ordinal": 43,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "a1",
+      "ordinal": 44,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "a1",
+      "ordinal": 45,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "a1",
+      "ordinal": 46,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "a1",
+      "ordinal": 47,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "a1",
+      "ordinal": 48,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "a1",
+      "ordinal": 49,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "a1",
+      "ordinal": 50,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 51,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 52,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "a1",
+      "ordinal": 53,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 54,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 55,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 56,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "a1",
+      "ordinal": 57,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "a1",
+      "ordinal": 58,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "a1",
+      "ordinal": 59,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 60,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 61,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 62,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 63,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 64,
+      "seed": 4
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 65,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 66,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 67,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 68,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 69,
+      "seed": 4
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 70,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 71,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 72,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 73,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "ordinal": 74,
+      "seed": 4
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 75,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 76,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 77,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 78,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "ordinal": 79,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "ordinal": 80,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "ordinal": 81,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "ordinal": 82,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "ordinal": 83,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "ordinal": 84,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "ordinal": 85,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "ordinal": 86,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "ordinal": 87,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "ordinal": 88,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "ordinal": 89,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "ordinal": 90,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "ordinal": 91,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "placenta",
+      "ordinal": 92,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "placenta",
+      "ordinal": 93,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "placenta",
+      "ordinal": 94,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "placenta",
+      "ordinal": 95,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B00_C00_FULL_IGE",
+      "dataset": "placenta",
+      "ordinal": 96,
+      "seed": 4
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "placenta",
+      "ordinal": 97,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "placenta",
+      "ordinal": 98,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "placenta",
+      "ordinal": 99,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "placenta",
+      "ordinal": 100,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B01_C04_SHRINK25",
+      "dataset": "placenta",
+      "ordinal": 101,
+      "seed": 4
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 102,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 103,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 104,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 105,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B02_C09_RNA_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 106,
+      "seed": 4
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "ordinal": 107,
+      "seed": 0
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "ordinal": 108,
+      "seed": 1
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "ordinal": 109,
+      "seed": 2
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "ordinal": 110,
+      "seed": 3
+    },
+    {
+      "action": "reuse5",
+      "candidate_id": "B03_C10_MNN_TRIPLET01",
+      "dataset": "placenta",
+      "ordinal": 111,
+      "seed": 4
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 112,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 113,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 114,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 115,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 116,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 117,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 118,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 119,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 120,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "placenta",
+      "ordinal": 121,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "placenta",
+      "ordinal": 122,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "placenta",
+      "ordinal": 123,
+      "seed": 2
+    },
+    {
+      "action": "reuse_seed0",
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "placenta",
+      "ordinal": 124,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "placenta",
+      "ordinal": 125,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "placenta",
+      "ordinal": 126,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 127,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 128,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 129,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 130,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 131,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 132,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "placenta",
+      "ordinal": 133,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "placenta",
+      "ordinal": 134,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "placenta",
+      "ordinal": 135,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "placenta",
+      "ordinal": 136,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "placenta",
+      "ordinal": 137,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "placenta",
+      "ordinal": 138,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "placenta",
+      "ordinal": 139,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "placenta",
+      "ordinal": 140,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "placenta",
+      "ordinal": 141,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 142,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 143,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "placenta",
+      "ordinal": 144,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 145,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 146,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 147,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "placenta",
+      "ordinal": 148,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "placenta",
+      "ordinal": 149,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "placenta",
+      "ordinal": 150,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 151,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 152,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 153,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 154,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 155,
+      "seed": 4
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 156,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 157,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 158,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 159,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 160,
+      "seed": 4
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 161,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 162,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 163,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 164,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "ordinal": 165,
+      "seed": 4
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 166,
+      "seed": 0
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 167,
+      "seed": 1
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 168,
+      "seed": 2
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 169,
+      "seed": 3
+    },
+    {
+      "action": "diffuse",
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "ordinal": 170,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "ordinal": 171,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "ordinal": 172,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "ordinal": 173,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "ordinal": 174,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "ordinal": 175,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "ordinal": 176,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "ordinal": 177,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "ordinal": 178,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "ordinal": 179,
+      "seed": 2
+    },
+    {
+      "action": "train",
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "ordinal": 180,
+      "seed": 0
+    },
+    {
+      "action": "train",
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "ordinal": 181,
+      "seed": 1
+    },
+    {
+      "action": "train",
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "ordinal": 182,
+      "seed": 2
+    }
+  ],
+  "schema_version": 1,
+  "scientific_training_unit_count": 92,
+  "stage": "S1"
+}

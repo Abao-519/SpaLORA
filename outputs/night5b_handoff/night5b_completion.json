@@ -1,0 +1,12 @@
+{
+  "canonical_scientific_decision_available": false,
+  "p0_passed": true,
+  "p22_run": false,
+  "raw_runs_remote_only": true,
+  "reason": "24 Laplacian units used wrong locked attention policy; complete correction would exceed 120-attempt cap.",
+  "s1_training_locked": true,
+  "s2_training_locked": true,
+  "schema_version": 1,
+  "semantic_label_firewall_breached": false,
+  "status": "BUDGET_EXHAUSTED"
+}

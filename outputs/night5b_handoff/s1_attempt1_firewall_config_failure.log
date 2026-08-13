@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night5b_runner.py", line 266, in <module>
+    if __name__=="__main__": main()
+  File "scripts/night5b_runner.py", line 235, in main
+    window=ScientificWindow(config,output,"training_"+args.stage.lower()).install(); records=[]
+  File "/autodl-fs/data/SpaLORA-night5b/SpaLORA/night3ar_protocol.py", line 140, in __init__
+    self.forbidden_modules = tuple(config["label_firewall"]["forbidden_modules_before_manifest_lock"])
+KeyError: 'forbidden_modules_before_manifest_lock'

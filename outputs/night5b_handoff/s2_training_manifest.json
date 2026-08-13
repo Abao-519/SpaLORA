@@ -1,0 +1,172 @@
+{
+  "failure_count": 0,
+  "locked_before_semantic_label_access": true,
+  "row_count": 16,
+  "run_order_sha256": "0bc57e4d4d568db2d33d1cb90bf5d4e32777d017b8a45ee183e1280d6a340b07",
+  "runs": [
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_3/run_manifest.json",
+      "record_sha256": "4040a0838ffcd996c28f038ec11c971c5536b156b10bb15fc09d9416b80d6b8c",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_4/run_manifest.json",
+      "record_sha256": "e0e81e49117786228842d4d8c945d409cd9ddda78f860cd6df25d9e598925e31",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_3/run_manifest.json",
+      "record_sha256": "6a8aca5ea904b282292940895c911073e829c433226701db988c2cd8e5ccdc9d",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_4/run_manifest.json",
+      "record_sha256": "ab72f2249055eb334f1a1051f5ea298caa364b6a511b339ce53e1aa4da8b4d93",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B06_SECONDLOOK_RNA_ANCHOR05/seed_3/run_manifest.json",
+      "record_sha256": "0e951947fba86bfeb31c9f168a562021f41edcff3c7b729f8c92cdd48ca19a6c",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5a_exact_secondlook",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B06_SECONDLOOK_RNA_ANCHOR05/seed_4/run_manifest.json",
+      "record_sha256": "525ddb60a2dfe4ac2218da7c6202e83d8a7d9b2e92928d6c04318a2b524694c0",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5a_exact_secondlook",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_3/run_manifest.json",
+      "record_sha256": "9d460d9867ba553f4e54e2cd5a5682ccccf9f2e30458a8d1ff36a89858e673e5",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_4/run_manifest.json",
+      "record_sha256": "482252c52d6a925e25199346b0841e0773246ff6186cae425322579e4b3b2513",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_3/run_manifest.json",
+      "record_sha256": "39856da641e2a426ea6413de8f3c77a014d285349a21ab0605f4552b4f2a5bfb",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_4/run_manifest.json",
+      "record_sha256": "1614d72d1edd2899c9e0d0f2b9e5279ed8bdbabf759d65c580f8c8594c7d0a15",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_3/run_manifest.json",
+      "record_sha256": "4160eb68dfe3779d1939b09afbd20180b5866558e265a8b517a2f8f0ae7ab976",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_4/run_manifest.json",
+      "record_sha256": "bded6da478a27800a5ab63333a4613a2c66e091713fcc59f30fac5bc849ca082",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B06_SECONDLOOK_RNA_ANCHOR05/seed_3/run_manifest.json",
+      "record_sha256": "83623370062fe4cf01efccf2912e7f177537f3417129a4f40022a0f69a32d73e",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5a_exact_secondlook",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B06_SECONDLOOK_RNA_ANCHOR05/seed_4/run_manifest.json",
+      "record_sha256": "9f2abca5825b54d4174bfa842c3ced4354f55b290f7f3ffc888d280eb15e62b9",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5a_exact_secondlook",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_3/run_manifest.json",
+      "record_sha256": "d599bb8b21d513c25f579a4f3b2efd4538f83ccbff32cb2c9c568a320a3dcb1c",
+      "seed": 3,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "record_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_4/run_manifest.json",
+      "record_sha256": "c98e150e499e01a9544871faf43b588ba0a69a069dcb9c0f233e44f89781cce2",
+      "seed": 4,
+      "semantic_label_access": false,
+      "source_mode": "night5b_clean_room",
+      "status": "success"
+    }
+  ],
+  "schema_version": 1,
+  "scientific_training_unit_count": 16,
+  "stage": "S2",
+  "success_count": 16
+}

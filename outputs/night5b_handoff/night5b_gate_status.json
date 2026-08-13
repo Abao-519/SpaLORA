@@ -1,0 +1,164 @@
+{
+  "authoritative_input_checks": [
+    {
+      "actual_sha256": "86f45f10949dce3a5de2b8233a786fb394608f2f78461975c0538eeca22c221a",
+      "expected_sha256": "86f45f10949dce3a5de2b8233a786fb394608f2f78461975c0538eeca22c221a",
+      "match": true,
+      "path": "docs/night5b_authoritative_inputs/SpaLORA_Night5B_Candidate_Registry_2026-08-13.json"
+    },
+    {
+      "actual_sha256": "1a3697d07ac7ec3d18c45660222dce8a2ecb6c5c1af657d33b92a7cb2868ed1a",
+      "expected_sha256": "1a3697d07ac7ec3d18c45660222dce8a2ecb6c5c1af657d33b92a7cb2868ed1a",
+      "match": true,
+      "path": "docs/night5b_authoritative_inputs/SpaLORA_Night5B_SecondLook_Rescue_RnD_Taskbook_2026-08-13.md"
+    },
+    {
+      "actual_sha256": "8c125c958aaf48e66bb691004142af6efe8b7cf66144122e2b5d8925edbe9e75",
+      "expected_sha256": "8c125c958aaf48e66bb691004142af6efe8b7cf66144122e2b5d8925edbe9e75",
+      "match": true,
+      "path": "docs/night5b_authoritative_inputs/SpaLORA_Night5A_Independent_Planner_Audit_2026-08-13.md"
+    }
+  ],
+  "candidate_count": 25,
+  "candidate_unique_config_sha_count": 25,
+  "elapsed_seconds": 8.387147188186646,
+  "engineering_probes": [
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    },
+    {
+      "adam_one_step_finite": true,
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "forward_finite": true,
+      "gradient_nonzero": true
+    }
+  ],
+  "historical_protection": {
+    "night3b": "1186/1186",
+    "night4a": "76/76"
+  },
+  "label_firewall_pass": true,
+  "night5a_overwrites": 0,
+  "night5a_reruns": 0,
+  "night5a_reuse_records": 50,
+  "p0_arch_pass": true,
+  "p0_git_pass": true,
+  "p0_protect_pass": true,
+  "parent_commit": "f9aeed223d38a897e190ac55ca741af1246071d2",
+  "s1_authorized": true,
+  "schema_version": 1,
+  "secondlook_parity": [
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "exact": true,
+      "source_candidate_id": "C06_RELIABILITY25"
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "exact": true,
+      "source_candidate_id": "C07_RELIABILITY50"
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "exact": true,
+      "source_candidate_id": "C08_RNA_ANCHOR05"
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "exact": true,
+      "source_candidate_id": "C14_HYBRID_IGE50"
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "exact": true,
+      "source_candidate_id": "C16_DGI01"
+    }
+  ],
+  "semantic_label_access": false,
+  "specialized": {
+    "cpu_reference_probe": true,
+    "diffusion": {
+      "alpha0_bitwise": true
+    },
+    "gpu_probe": true,
+    "laplacian": {
+      "deduplicated_edge_count": 1,
+      "empty_exact_zero": true,
+      "finite": true,
+      "self_loops_removed": true
+    },
+    "latent_reliability": {
+      "checkpoint_resume_exact": true,
+      "passed": true,
+      "row_sum": 0.0,
+      "swap_error": 0.0
+    },
+    "semantic_label_values_read": false,
+    "sparse_graphs": true,
+    "withheld_rejection_tests": 4
+  },
+  "withheld_candidates_run": []
+}

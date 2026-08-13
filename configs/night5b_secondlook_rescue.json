@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "experiment": "SpaLORA Night-5B second-look and spatial-rescue development study",
+  "parent_commit": "f9aeed223d38a897e190ac55ca741af1246071d2",
+  "parent_tag": "night5a-final-20260813",
+  "branch": "revision/q2-night5b-secondlook-rescue-20260813",
+  "baseline_tag": "baseline/pre-night5b-20260813",
+  "final_tag": "night5b-final-20260813",
+  "candidate_registry": "docs/night5b_authoritative_inputs/SpaLORA_Night5B_Candidate_Registry_2026-08-13.json",
+  "candidate_registry_sha256": "86f45f10949dce3a5de2b8233a786fb394608f2f78461975c0538eeca22c221a",
+  "taskbook": "docs/night5b_authoritative_inputs/SpaLORA_Night5B_SecondLook_Rescue_RnD_Taskbook_2026-08-13.md",
+  "taskbook_sha256": "1a3697d07ac7ec3d18c45660222dce8a2ecb6c5c1af657d33b92a7cb2868ed1a",
+  "planner_audit": "docs/night5b_authoritative_inputs/SpaLORA_Night5A_Independent_Planner_Audit_2026-08-13.md",
+  "planner_audit_sha256": "8c125c958aaf48e66bb691004142af6efe8b7cf66144122e2b5d8925edbe9e75",
+  "seeds": [0, 1, 2, 3, 4],
+  "ige_epsilon": 1e-12,
+  "clustering": {"method": "mclust", "model": "EEE", "pca_components": 20, "random_seed": 2020},
+  "budgets": {"s1_training_units": 92, "s2_training_units": 24, "scientific_training_units": 116, "max_attempts": 120, "max_same_tuple_retries": 4},
+  "paths": {
+    "output_root": "outputs/night5b_handoff",
+    "raw_runs": "/root/autodl-fs/night5b_raw_runs_20260813",
+    "night5a_raw_runs": "/root/autodl-fs/night5a_raw_runs_20260813",
+    "label_free_artifacts": "/root/autodl-fs/night5a_label_free_artifacts_20260813",
+    "night3af_root": "/root/autodl-fs/SpaLORA-night5a",
+    "cache_manifest": "/root/autodl-fs/SpaLORA-night5a/outputs/night3af_handoff/preprocessing_cache_manifest.json",
+    "night5a_handoff": "/root/autodl-fs/SpaLORA-night5a/outputs/night5a_handoff"
+  },
+  "label_firewall": {
+    "semantic_label_values_before_stage_manifest_lock_forbidden": true,
+    "ground_truth_open_forbidden_inside_scientific_window": true,
+    "withheld_datasets": ["p22", "d1_lymph_node", "gse198353_rep1", "gse198353_rep2"],
+    "forbidden_modules": ["SpaLORA.night1_evaluation", "scripts.night3a_evaluate", "scripts.night3b_evaluate", "scripts.night5a_evaluate", "scripts.night5b_evaluate"],
+    "forbidden_modules_before_manifest_lock": ["SpaLORA.night1_evaluation", "scripts.night3a_evaluate", "scripts.night3b_evaluate", "scripts.night5a_evaluate", "scripts.night5b_evaluate"]
+  },
+  "datasets": {
+    "a1": {
+      "rna": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad",
+      "modality2": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_adt.h5ad",
+      "ground_truth": "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv",
+      "ground_truth_id_column": "Barcode", "ground_truth_label_column": "manual-anno", "ground_truth_id_rule": "strip_s1_prefix",
+      "n_clusters": 10, "spatial_neighbors": 18, "embedding_dim": 64, "epochs": 200,
+      "loss_factors": [1.9, 2.5, 1.5, 10.0], "locked_m_bad_expected": 2.289938091
+    },
+    "placenta": {
+      "rna": "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad",
+      "modality2": "/root/autodl-fs/Human placenta architecture/humanplacenta_atac.h5ad",
+      "ground_truth": "obs[cell_type]", "ground_truth_label_column": "cell_type",
+      "n_clusters": 10, "spatial_neighbors": 1, "embedding_dim": 128, "epochs": 200,
+      "loss_factors": [5.0, 6.0, 1.0, 10.0], "locked_m_bad_expected": 2.289938091
+    }
+  }
+}

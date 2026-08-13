@@ -1,0 +1,5 @@
+scheduled_at=2026-08-13T18:42:50+08:00
+max_runtime_seconds=21600
+mechanism=nohup_sleep_then_shutdown
+pid=910
+attempt1=systemd_run_failed_pid1_not_systemd

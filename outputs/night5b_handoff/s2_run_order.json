@@ -1,0 +1,122 @@
+{
+  "canonical_sha256": "bcccbdf0e9360e378a4d9d4fd83fd90f7315ad7e66bd1c08db754818b86b6852",
+  "locked_before_training": true,
+  "row_count": 16,
+  "runs": [
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 1,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 2,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 3,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "ordinal": 4,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 5,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "ordinal": 6,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 7,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "ordinal": 8,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 9,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 10,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 11,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "ordinal": 12,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 13,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "ordinal": 14,
+      "seed": 4
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 15,
+      "seed": 3
+    },
+    {
+      "action": "train",
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "ordinal": 16,
+      "seed": 4
+    }
+  ],
+  "schema_version": 1,
+  "scientific_training_unit_count": 16,
+  "stage": "S2"
+}

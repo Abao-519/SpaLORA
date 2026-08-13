@@ -1,0 +1,1341 @@
+{
+  "failure_count": 0,
+  "model_state_in_compact": false,
+  "raw_root": "/root/autodl-fs/night5b_raw_runs_20260813",
+  "rows": [
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B04_SECONDLOOK_RELIABILITY25/seed_1/run_manifest.json",
+      "manifest_sha256": "15d66a99f4110dd3004f6b34f038353693e0bc17d50e4b026fc6649849bb5d0b",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B04_SECONDLOOK_RELIABILITY25/seed_2/run_manifest.json",
+      "manifest_sha256": "498eda6a90d5cae73813a10f6fdb4cae248a0c199e4527aae29de75e7b2b444b",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B05_SECONDLOOK_RELIABILITY50/seed_1/run_manifest.json",
+      "manifest_sha256": "b7ed0373e93a3fdbb807620f9fdf5999530db784c59c7ee9a8cf89dd2fe61369",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B05_SECONDLOOK_RELIABILITY50/seed_2/run_manifest.json",
+      "manifest_sha256": "c4747cd0e72d3b0d59a959457fd5e8dcd7eeb2c05d2353621a68a2e4b01bfd49",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B06_SECONDLOOK_RNA_ANCHOR05/seed_1/run_manifest.json",
+      "manifest_sha256": "119fae9c3492aa4e57d25ccdfb1ade0059e4c1c9757fb6d2e94c416e6f6f0716",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B06_SECONDLOOK_RNA_ANCHOR05/seed_2/run_manifest.json",
+      "manifest_sha256": "27346b1505af5d14c899ff3a376783dc4bb192cff107e21c86ee058e2dae6d1a",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B06_SECONDLOOK_RNA_ANCHOR05/seed_3/run_manifest.json",
+      "manifest_sha256": "0e951947fba86bfeb31c9f168a562021f41edcff3c7b729f8c92cdd48ca19a6c",
+      "seed": 3,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B06_SECONDLOOK_RNA_ANCHOR05/seed_4/run_manifest.json",
+      "manifest_sha256": "525ddb60a2dfe4ac2218da7c6202e83d8a7d9b2e92928d6c04318a2b524694c0",
+      "seed": 4,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B07_SECONDLOOK_HYBRID_IGE50/seed_1/run_manifest.json",
+      "manifest_sha256": "39f49d1403373d5fc4702cc7ef7d696ae89ccfd7dd4d3041e08a00dbb2c83bb9",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B07_SECONDLOOK_HYBRID_IGE50/seed_2/run_manifest.json",
+      "manifest_sha256": "869dc2a566aee2b5e1c27a3eff47db2a73913168d65f842571b456a537c71954",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B08_SECONDLOOK_DGI01/seed_1/run_manifest.json",
+      "manifest_sha256": "0116486799c939a22ba80c8c70727ff80c33f6cc909cf5a2c0de228ba57815d7",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B08_SECONDLOOK_DGI01/seed_2/run_manifest.json",
+      "manifest_sha256": "c0298022758a0353bb37beaa65421b819363d44553e0e65c3e39c89a55f620e7",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_0/run_manifest.json",
+      "manifest_sha256": "808501e488c399bfd4b3cead28605751ae1de770395d65c78ef4540db184daf0",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_1/run_manifest.json",
+      "manifest_sha256": "7f932f4675836cb25d98190249c70bf87a723ff61ba89a027bf4b2f6793b2dba",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_2/run_manifest.json",
+      "manifest_sha256": "fa317d8745663b37a20ed2dca34e4bef603477a72129eb87af479d067d9a39ac",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_3/run_manifest.json",
+      "manifest_sha256": "4040a0838ffcd996c28f038ec11c971c5536b156b10bb15fc09d9416b80d6b8c",
+      "seed": 3,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B09_SHRINK25_ANCHOR05/seed_4/run_manifest.json",
+      "manifest_sha256": "e0e81e49117786228842d4d8c945d409cd9ddda78f860cd6df25d9e598925e31",
+      "seed": 4,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_0/run_manifest.json",
+      "manifest_sha256": "12b189eed3e394dc9be452e617c3003af09d1a074a2bb69c0a9e806481f7638d",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_1/run_manifest.json",
+      "manifest_sha256": "10ebd61ae855806e805345a6aceebea2764b66ca4a22fc7527795373b341329a",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_2/run_manifest.json",
+      "manifest_sha256": "14cafc9324e64fb768afc2222ac107a566b2672c6fa7560fe96bc016697a6037",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_3/run_manifest.json",
+      "manifest_sha256": "6a8aca5ea904b282292940895c911073e829c433226701db988c2cd8e5ccdc9d",
+      "seed": 3,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B10_SHRINK25_ANCHOR10/seed_4/run_manifest.json",
+      "manifest_sha256": "ab72f2249055eb334f1a1051f5ea298caa364b6a511b339ce53e1aa4da8b4d93",
+      "seed": 4,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B11_SHRINK25_MNN005/seed_0/run_manifest.json",
+      "manifest_sha256": "e8bdfb59139523f803c7873f4c84838a6218e5db7e6263c718873c47faf5faee",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B11_SHRINK25_MNN005/seed_1/run_manifest.json",
+      "manifest_sha256": "d116ce07accdff8fd47578cd8194b70e79bdbdea7ce255be4c73a51edd98bc8b",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B11_SHRINK25_MNN005/seed_2/run_manifest.json",
+      "manifest_sha256": "58194847206437e2954f6717c2c336ac863dacb87a71f53d1d033f16bc20d7cd",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B12_SHRINK25_MNN010/seed_0/run_manifest.json",
+      "manifest_sha256": "43612c0efea4f6639f15d42fba7b16ba5170b6f9373f01b20783e17f25b3e8a8",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B12_SHRINK25_MNN010/seed_1/run_manifest.json",
+      "manifest_sha256": "a43f4183c35982bf4f97c7633e45c57b0e6098e258ed127c7117f246f445461c",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B12_SHRINK25_MNN010/seed_2/run_manifest.json",
+      "manifest_sha256": "0c182bc5c2805ca07f4d4628319e31c296cab897b134e32b0fd26acb89b0dd04",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B13_SHRINK25_DGI010/seed_0/run_manifest.json",
+      "manifest_sha256": "89fd9e18fdfc64797a25264034ec2cbe08153d4d368000569a7490606c754402",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B13_SHRINK25_DGI010/seed_1/run_manifest.json",
+      "manifest_sha256": "0bb57c8309c66bb793da06a24b77076a84d699054b8d38e57e34529447bb33e8",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B13_SHRINK25_DGI010/seed_2/run_manifest.json",
+      "manifest_sha256": "1e9a01dbc297c8ec1e544a993ea34ddd135306e7b68eef4dbf356a0fde19fb40",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B14_LATENT_RELIABILITY25/seed_0/run_manifest.json",
+      "manifest_sha256": "a4d584a6324deeffb92a581987ea2c91cc445ae9a5a62b23b60bf99e1016163b",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B14_LATENT_RELIABILITY25/seed_1/run_manifest.json",
+      "manifest_sha256": "9833b52f3eea7449d2ddce960a6caf7e66943a4b57347407f89a52d6eaf6e7f0",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B14_LATENT_RELIABILITY25/seed_2/run_manifest.json",
+      "manifest_sha256": "07ee91a3ca78f3c724bda3824c6d95d7479df280d6880d3b92191eeae789051c",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_0/run_manifest.json",
+      "manifest_sha256": "44d4b96e26a029fa6c148e06aac6ed049a74cf73575d4230a9a370f5a7ac3467",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_1/run_manifest.json",
+      "manifest_sha256": "c03a7620f04b727e692408ea2c7c87c57f7ebf4b3d234266ad80c3f62c4c9201",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_2/run_manifest.json",
+      "manifest_sha256": "970c31971032e80582238d57f6c1d038efa45a4c8408836adecc4625524e816e",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_3/run_manifest.json",
+      "manifest_sha256": "9d460d9867ba553f4e54e2cd5a5682ccccf9f2e30458a8d1ff36a89858e673e5",
+      "seed": 3,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B15_LATENT_RELIABILITY50/seed_4/run_manifest.json",
+      "manifest_sha256": "482252c52d6a925e25199346b0841e0773246ff6186cae425322579e4b3b2513",
+      "seed": 4,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B16_SHRINK25_ANCHOR05_MNN005/seed_0/run_manifest.json",
+      "manifest_sha256": "87b21e3f26202fa0a296ae36a35fa53eb9c8d6743e5251999132708d7eae2b6a",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B16_SHRINK25_ANCHOR05_MNN005/seed_1/run_manifest.json",
+      "manifest_sha256": "d23690b046497e2a249b9205afedd5d2f97723963e1c13013c9f0868eae725d3",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B16_SHRINK25_ANCHOR05_MNN005/seed_2/run_manifest.json",
+      "manifest_sha256": "be211ff23eda9a5bc960b31fbdf9f516fd48d48c52c0e54239230fdcc1bfcb6f",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B17_C09_DIFFUSE10/seed_0/run_manifest.json",
+      "manifest_sha256": "85317247244d4f6e2bf963f36eeba586b768d83434014df81c4dfb565204eb10",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B17_C09_DIFFUSE10/seed_1/run_manifest.json",
+      "manifest_sha256": "245b1be8e279d6b5eaedca225172d3837bc355b02bb1e8649bd5c597de0ab743",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B17_C09_DIFFUSE10/seed_2/run_manifest.json",
+      "manifest_sha256": "92a09ed8c8a5d34523e263f59a7176617b5ce1cfabf7baedc8784fab6f808304",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B17_C09_DIFFUSE10/seed_3/run_manifest.json",
+      "manifest_sha256": "45e68cb41fb4f246aedc19850c030d7d38157dd74ab5bf117432dd1badc281ee",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B17_C09_DIFFUSE10/seed_4/run_manifest.json",
+      "manifest_sha256": "455048c44da7909e2c1c0deb2e5e271897b40d67864b4f566b6f714f1aab6d11",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B18_C09_DIFFUSE25/seed_0/run_manifest.json",
+      "manifest_sha256": "cb9c928fb9717489052dc50d44458fd5443a0adc7ecaa42748f86f2a11f05bce",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B18_C09_DIFFUSE25/seed_1/run_manifest.json",
+      "manifest_sha256": "6cf2b9a0ffce54b4af2b476c925a88edee06b72b9b0d5e6569877b8093793e65",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B18_C09_DIFFUSE25/seed_2/run_manifest.json",
+      "manifest_sha256": "124469189845e777307140c05284d211b4dd76df826c71806a5be8f488e71e1b",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B18_C09_DIFFUSE25/seed_3/run_manifest.json",
+      "manifest_sha256": "e16fb3370b09991bae2e9e4b812d07b0acb5950c835b17970f55b5a972560ce4",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B18_C09_DIFFUSE25/seed_4/run_manifest.json",
+      "manifest_sha256": "148bc3ccb4f414943c62abe6404576c3089876a39f0736af71feee789c9cfae7",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B19_C10_DIFFUSE10/seed_0/run_manifest.json",
+      "manifest_sha256": "d3af7c45b56a0db7cd3447c9558c5c716db38a2b22c782a792386e4920825e10",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B19_C10_DIFFUSE10/seed_1/run_manifest.json",
+      "manifest_sha256": "d838c286418e6e723e06c048f7743e8dfae59e66876d86c7749c74eecab2f64c",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B19_C10_DIFFUSE10/seed_2/run_manifest.json",
+      "manifest_sha256": "42ce48c08876190d382a9ec52e947f7925b5c5832f48f2dca9b44bfc0a09a646",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B19_C10_DIFFUSE10/seed_3/run_manifest.json",
+      "manifest_sha256": "9fd57433d787473632305e1e2727de5d9b96cba7c6552621c56fd079a7b9c148",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B19_C10_DIFFUSE10/seed_4/run_manifest.json",
+      "manifest_sha256": "1e7c27a897e692339c46e0c28c9bc4f1163510f1b88680fe1c034edf4bc91e41",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B20_C10_DIFFUSE25/seed_0/run_manifest.json",
+      "manifest_sha256": "a63299a19c9481ebc43f1064b8c100fb1f29a8b10075bf5d910d8ce0444f3f00",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B20_C10_DIFFUSE25/seed_1/run_manifest.json",
+      "manifest_sha256": "e284bce8a59c31ef9d23c8c473adffc394f13ce311f2e1bd3656557400285d12",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B20_C10_DIFFUSE25/seed_2/run_manifest.json",
+      "manifest_sha256": "3a5d3b74f31f63c95b467bab56b878c79fba76573615af29f5471b408a15595d",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B20_C10_DIFFUSE25/seed_3/run_manifest.json",
+      "manifest_sha256": "706f230d6e7216ddb99ef966201dd425a727dacd80eb9c6130b44e72c63a420b",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B20_C10_DIFFUSE25/seed_4/run_manifest.json",
+      "manifest_sha256": "ec10e1df7f21c01b8a225bf8175f5d2f4d6f7ec19c16cf4d89a647c0494cfbb2",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B21_C09_LAPLACIAN005/seed_0/run_manifest.json",
+      "manifest_sha256": "2fdcb05bd92954e2654e9f296e6b26f6e60df458a352d042ea38aad6566126e9",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B21_C09_LAPLACIAN005/seed_1/run_manifest.json",
+      "manifest_sha256": "7249c47bd18e784b43e416089948a8e42858326a17c8d75764bd5a5435397ba6",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B21_C09_LAPLACIAN005/seed_2/run_manifest.json",
+      "manifest_sha256": "f498839bacee20cdedb09b6c7c2837468916615449659e06020a29fe66493f14",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B22_C09_LAPLACIAN010/seed_0/run_manifest.json",
+      "manifest_sha256": "d723eb9a3eb6a694e312da73c9d1dde0f89fb778788865653ad7a1f8fbf0443b",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B22_C09_LAPLACIAN010/seed_1/run_manifest.json",
+      "manifest_sha256": "3cb8d1fc412715899b55879e3ad80df9bfd705bb6fbc2ff1fc50b824857f5f6a",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B22_C09_LAPLACIAN010/seed_2/run_manifest.json",
+      "manifest_sha256": "00485d001c0637ffd03b08c8c3b5f361a84c1e3cf2d14714f5256c0c82002a92",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B23_C10_LAPLACIAN005/seed_0/run_manifest.json",
+      "manifest_sha256": "6c2b68a146300967bd1ef0190246080db49ea57fd215a5bc814c5ee87e94ca08",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B23_C10_LAPLACIAN005/seed_1/run_manifest.json",
+      "manifest_sha256": "1c0b8062e3ce19b2322e8ad90678433c7d0814ce5170f315b37a7c0927951568",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B23_C10_LAPLACIAN005/seed_2/run_manifest.json",
+      "manifest_sha256": "62bf168cd89dc39593ea095bf7a97d2ecf2bba64c5aa3278caa51ab12c2ff189",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B24_C10_LAPLACIAN010/seed_0/run_manifest.json",
+      "manifest_sha256": "4923f6af7b74205af70aa8cb573fa945b2f7519733a6f0cc2b66188d73084023",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B24_C10_LAPLACIAN010/seed_1/run_manifest.json",
+      "manifest_sha256": "5fbd88822f84087cdf693dcc559b5d25095e17fbddd21ffe65e9c7c3e87248c3",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "a1",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/a1/B24_C10_LAPLACIAN010/seed_2/run_manifest.json",
+      "manifest_sha256": "f41dd8b0f3f0350d876e750d5f3d8fd4bc7317ab8e77a7cc1fa06581202f45c9",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B04_SECONDLOOK_RELIABILITY25/seed_1/run_manifest.json",
+      "manifest_sha256": "4b8793bdb0906ff219d45d5e621e41fe0dbf87a807b974bc161c21242f7d0a66",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B04_SECONDLOOK_RELIABILITY25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B04_SECONDLOOK_RELIABILITY25/seed_2/run_manifest.json",
+      "manifest_sha256": "4b8b6c6e682cc1a2c6847829984dee6cc5131efead34ac31f30bd0115543fc42",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B05_SECONDLOOK_RELIABILITY50/seed_1/run_manifest.json",
+      "manifest_sha256": "414279791e1f09c5ec8f54124f434605949865f64dd200982d4ddad017ca895c",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B05_SECONDLOOK_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B05_SECONDLOOK_RELIABILITY50/seed_2/run_manifest.json",
+      "manifest_sha256": "735a739a3ff6aaccf00ea7a8d427ce79c52341fee09ee8295d5f42ea09ce97d0",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B06_SECONDLOOK_RNA_ANCHOR05/seed_1/run_manifest.json",
+      "manifest_sha256": "263a5f6647422c1077f64586a6352a39cbaed045c6e31eab3323faefbd2ab2fd",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B06_SECONDLOOK_RNA_ANCHOR05/seed_2/run_manifest.json",
+      "manifest_sha256": "9a9ecd1cdd53bbd2b9e0c72f3fa1ef5008d869ecd25c34d4b0cdb260f456c5e8",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B06_SECONDLOOK_RNA_ANCHOR05/seed_3/run_manifest.json",
+      "manifest_sha256": "83623370062fe4cf01efccf2912e7f177537f3417129a4f40022a0f69a32d73e",
+      "seed": 3,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B06_SECONDLOOK_RNA_ANCHOR05/seed_4/run_manifest.json",
+      "manifest_sha256": "9f2abca5825b54d4174bfa842c3ced4354f55b290f7f3ffc888d280eb15e62b9",
+      "seed": 4,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B07_SECONDLOOK_HYBRID_IGE50/seed_1/run_manifest.json",
+      "manifest_sha256": "a47e78751bd5b2ffbaeda5d2c7bd2a4cc63654898424617f60bcd6cfba68c430",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B07_SECONDLOOK_HYBRID_IGE50/seed_2/run_manifest.json",
+      "manifest_sha256": "3bf2fdacc113c71cf756f5664f9e124ca9e6b34e1749003240a2c3ea20862228",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B08_SECONDLOOK_DGI01/seed_1/run_manifest.json",
+      "manifest_sha256": "1dcf5dcfa8aa0a0bc9cde6e2bbff790de5326379688e2d9df5be34f7e7c857fb",
+      "seed": 1,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B08_SECONDLOOK_DGI01",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B08_SECONDLOOK_DGI01/seed_2/run_manifest.json",
+      "manifest_sha256": "7563632cbd8dc1acae92ac057cff934a400ea4f892c9a5719e78a5bde643088c",
+      "seed": 2,
+      "source_mode": "night5a_exact_secondlook",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_0/run_manifest.json",
+      "manifest_sha256": "03560868247cd965f1e4b397338bd77082ab3cd1039b32b5649e898cedf19544",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_1/run_manifest.json",
+      "manifest_sha256": "f068cf06a8eec978372d6cc54e389ce59aee9858eacfaeee2e39e4acbab08d3a",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_2/run_manifest.json",
+      "manifest_sha256": "16d060ff0f1320a6bf6b4c91a5a41e01f650393d5f23d9b7712db5a5a8af00d8",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_3/run_manifest.json",
+      "manifest_sha256": "39856da641e2a426ea6413de8f3c77a014d285349a21ab0605f4552b4f2a5bfb",
+      "seed": 3,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B09_SHRINK25_ANCHOR05",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B09_SHRINK25_ANCHOR05/seed_4/run_manifest.json",
+      "manifest_sha256": "1614d72d1edd2899c9e0d0f2b9e5279ed8bdbabf759d65c580f8c8594c7d0a15",
+      "seed": 4,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_0/run_manifest.json",
+      "manifest_sha256": "e8acfdc0714364199cb28089f5647b75f1ebefcf8d0a2ad31bfe36eb3377c9f5",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_1/run_manifest.json",
+      "manifest_sha256": "6115b22839db354e27b949d197029544d25efe2996cfa49fd7c6435b5de29b89",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_2/run_manifest.json",
+      "manifest_sha256": "b61d23ba3970f80ecca7ee4c333cdeae96d8b6f83601a2a8825f5419eaeb25a4",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_3/run_manifest.json",
+      "manifest_sha256": "4160eb68dfe3779d1939b09afbd20180b5866558e265a8b517a2f8f0ae7ab976",
+      "seed": 3,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B10_SHRINK25_ANCHOR10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B10_SHRINK25_ANCHOR10/seed_4/run_manifest.json",
+      "manifest_sha256": "bded6da478a27800a5ab63333a4613a2c66e091713fcc59f30fac5bc849ca082",
+      "seed": 4,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B11_SHRINK25_MNN005/seed_0/run_manifest.json",
+      "manifest_sha256": "298bcb3b23cf8a16083996d404c3b3586d1986d2e7aca2b4c84b3903f9319d7b",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B11_SHRINK25_MNN005/seed_1/run_manifest.json",
+      "manifest_sha256": "c1e9e5c5ad895be5dd855d595650faf4722f172c2657263bffe16fdadf4a063b",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B11_SHRINK25_MNN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B11_SHRINK25_MNN005/seed_2/run_manifest.json",
+      "manifest_sha256": "b6f74eb3c2a6168eeb1b1f94f090064023a61bb12b9855c1cf13da90b0785a71",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B12_SHRINK25_MNN010/seed_0/run_manifest.json",
+      "manifest_sha256": "4ca79af095f4883986baafbf0d8801e31bc4d4eb85c8083eedf66417b577b4c6",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B12_SHRINK25_MNN010/seed_1/run_manifest.json",
+      "manifest_sha256": "e9b53dd62e05ea4b3be49208fb6dd27ce1db2612a41b45bbb9703aa1059a1afb",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B12_SHRINK25_MNN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B12_SHRINK25_MNN010/seed_2/run_manifest.json",
+      "manifest_sha256": "8ce824987e41ebea31543fd09cc039f164c1e953b022cb2977055727b4d07bc0",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B13_SHRINK25_DGI010/seed_0/run_manifest.json",
+      "manifest_sha256": "eb0772936802daeb2f26a3727ea9776492efafbf1004b98cbf02136ed3c1f83f",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B13_SHRINK25_DGI010/seed_1/run_manifest.json",
+      "manifest_sha256": "f77968792b182430eb6ac4e790d6fd45ba12040be5ae26e54b56113f59c78205",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B13_SHRINK25_DGI010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B13_SHRINK25_DGI010/seed_2/run_manifest.json",
+      "manifest_sha256": "cdd843a275eb69f973f96229294bc42d11e623cbcf9a2a376a9a5a9ea325e13d",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B14_LATENT_RELIABILITY25/seed_0/run_manifest.json",
+      "manifest_sha256": "738799b011f2d77ef18dd8f70d4af9378b1f86f191e770178be4f121bdffb2c0",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B14_LATENT_RELIABILITY25/seed_1/run_manifest.json",
+      "manifest_sha256": "04da7a48506276fea2bdc1142f0fc6c39e6c6e401c7c1569bdc7a9931274859e",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B14_LATENT_RELIABILITY25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B14_LATENT_RELIABILITY25/seed_2/run_manifest.json",
+      "manifest_sha256": "c982ec9e7c4c6196477c393d8c5ae32a44937bbbb6579348f7664e7498ffec56",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_0/run_manifest.json",
+      "manifest_sha256": "8258275e04841b8f92d3339b0f5ab6ef47a9d46995b1706bde44f363d4b590f4",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_1/run_manifest.json",
+      "manifest_sha256": "7b80f6f41e56d4a5eb5fd67e27dd11984620ff7ed2580627467319d2c2a9a9d2",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_2/run_manifest.json",
+      "manifest_sha256": "a116d2d88a62b48fe5cfec601909970b2b945a5d0dc751bb037283014b642647",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_3/run_manifest.json",
+      "manifest_sha256": "d599bb8b21d513c25f579a4f3b2efd4538f83ccbff32cb2c9c568a320a3dcb1c",
+      "seed": 3,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B15_LATENT_RELIABILITY50",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B15_LATENT_RELIABILITY50/seed_4/run_manifest.json",
+      "manifest_sha256": "c98e150e499e01a9544871faf43b588ba0a69a069dcb9c0f233e44f89781cce2",
+      "seed": 4,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B16_SHRINK25_ANCHOR05_MNN005/seed_0/run_manifest.json",
+      "manifest_sha256": "8724a0a8202d76d0f7414ffe197fefa25da531bca67811ee67dbcd8d9eeaef85",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B16_SHRINK25_ANCHOR05_MNN005/seed_1/run_manifest.json",
+      "manifest_sha256": "8dd7b7c415c704f7f041c32d3cc79990dbda792c399942e803313d3a8a4982b6",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B16_SHRINK25_ANCHOR05_MNN005/seed_2/run_manifest.json",
+      "manifest_sha256": "8ac6a13a916229ac92df53ec0cb12c1cd89b8f2342d3c680d4c432c2d0e9aa6f",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B17_C09_DIFFUSE10/seed_0/run_manifest.json",
+      "manifest_sha256": "fded5392d392c243b41b490ad6071bf982c5d6f28f494d9ae096bf597003b13f",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B17_C09_DIFFUSE10/seed_1/run_manifest.json",
+      "manifest_sha256": "9dbda9532d573f0288afd3166abf5e835007807896a9e79eec65bb4be77b1158",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B17_C09_DIFFUSE10/seed_2/run_manifest.json",
+      "manifest_sha256": "7569d265b584cec50c9f56a98958785dee4bc03219a9b0d8aa4e0f6023486886",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B17_C09_DIFFUSE10/seed_3/run_manifest.json",
+      "manifest_sha256": "94b65fb2acd7d97bed8a6345726588289955dc576186e3a28db166c2a051feeb",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B17_C09_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B17_C09_DIFFUSE10/seed_4/run_manifest.json",
+      "manifest_sha256": "8669bf3e84da5e19dfe3066da9ccf16b624d4e9ba562fe9aa07ceac54d4fc5eb",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B18_C09_DIFFUSE25/seed_0/run_manifest.json",
+      "manifest_sha256": "f9e05468808a1553e8562c2c5d4828d5352f7ff0f3c20101460575865f47030b",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B18_C09_DIFFUSE25/seed_1/run_manifest.json",
+      "manifest_sha256": "695edab4dcb452eb7231ebe2a52f2c2247575101c36581257d865ab2af936aea",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B18_C09_DIFFUSE25/seed_2/run_manifest.json",
+      "manifest_sha256": "07a6c9651c21ee45330a887dfb15da1ae0a0421d2ed201928190216f44ff6aab",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B18_C09_DIFFUSE25/seed_3/run_manifest.json",
+      "manifest_sha256": "b5bd0252fc1aaa53246f8f2512e3c20ee660a0e7ed195301752aa71ee2dfbdee",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B18_C09_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B18_C09_DIFFUSE25/seed_4/run_manifest.json",
+      "manifest_sha256": "a73cc6482092f0f7ad01d08518dd60993a29d80e245859155cb5791a8a5dd804",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B19_C10_DIFFUSE10/seed_0/run_manifest.json",
+      "manifest_sha256": "056dcfba5e86201b285ca8f7316f4f8c5b127800777e0c732c2077c526a46310",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B19_C10_DIFFUSE10/seed_1/run_manifest.json",
+      "manifest_sha256": "f70ad917efaa69d26cfae4b9f26bf222a948bc497d2d68987389906030311a82",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B19_C10_DIFFUSE10/seed_2/run_manifest.json",
+      "manifest_sha256": "8ba73031e0682f7810a259549c225a5cbb7152732a7f9eb4defadb79dda0a4bc",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B19_C10_DIFFUSE10/seed_3/run_manifest.json",
+      "manifest_sha256": "b4ecdfd70e91eba003825ef79eac6197bae2674f8ca963b667066485531c60fc",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B19_C10_DIFFUSE10",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B19_C10_DIFFUSE10/seed_4/run_manifest.json",
+      "manifest_sha256": "494790dceef7b45140ea7f73e0bd34ce4286cc71d7cb54f33efe17e3d097ea25",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B20_C10_DIFFUSE25/seed_0/run_manifest.json",
+      "manifest_sha256": "67fed5b78e82fb8b4e358bf7a67baa4de239325ea960730db3f486f955ffbef2",
+      "seed": 0,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B20_C10_DIFFUSE25/seed_1/run_manifest.json",
+      "manifest_sha256": "b178573fc133b14b186800eba427cd3fc405a4adabd04766edf1db50294d5833",
+      "seed": 1,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B20_C10_DIFFUSE25/seed_2/run_manifest.json",
+      "manifest_sha256": "5bfbe3e6bf89468f8501aba4838f91ecc523a2ff21ac066a7dc74b6202939b5d",
+      "seed": 2,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B20_C10_DIFFUSE25/seed_3/run_manifest.json",
+      "manifest_sha256": "daa770f18b3c4f4e11f993b16776a978171ed1bbc8fdbdcd89aa3647467786e3",
+      "seed": 3,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B20_C10_DIFFUSE25",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B20_C10_DIFFUSE25/seed_4/run_manifest.json",
+      "manifest_sha256": "1f2e8e9d84931ee3705f9c9b1eb5793d8d8ea61b7f721053e67d389a9088f76f",
+      "seed": 4,
+      "source_mode": "locked_night5a_embedding_single_step_diffusion",
+      "valid_for_canonical_analysis": true
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B21_C09_LAPLACIAN005/seed_0/run_manifest.json",
+      "manifest_sha256": "7ed1ad1626026e3cbd58ac1548f111b88d48855d9fe92cd967fb9b0b9c65034f",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B21_C09_LAPLACIAN005/seed_1/run_manifest.json",
+      "manifest_sha256": "9b20771a8ebff0cfa06f5708b7d030baf31732f9e50c754edd7970d331eae54d",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B21_C09_LAPLACIAN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B21_C09_LAPLACIAN005/seed_2/run_manifest.json",
+      "manifest_sha256": "c6139d0de3635d78e51b66a21ec20dbc4475d3cbeee739da0493db29b4a25c6d",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B22_C09_LAPLACIAN010/seed_0/run_manifest.json",
+      "manifest_sha256": "cad1224b9d19a44710855dde4cebc2d73f6d9aa84fb6a96155bca74aec45a019",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B22_C09_LAPLACIAN010/seed_1/run_manifest.json",
+      "manifest_sha256": "dc82009376e04ff46cbb4e164ddab570724ea08af43532337f28b190ec360738",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B22_C09_LAPLACIAN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B22_C09_LAPLACIAN010/seed_2/run_manifest.json",
+      "manifest_sha256": "1de6367d6c6664869823440bc7a1f70068b2e8c48d16c9d44ccb16c7e1379c1b",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B23_C10_LAPLACIAN005/seed_0/run_manifest.json",
+      "manifest_sha256": "3886a5aacb7c57d837cddf3b75dbbcc8fac4366d0a77435be059fe3f80953985",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B23_C10_LAPLACIAN005/seed_1/run_manifest.json",
+      "manifest_sha256": "e3cb35c57ee2276f72b3e012b0e157d4fc75ad1c99049fff28f0cb59824335f4",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B23_C10_LAPLACIAN005",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B23_C10_LAPLACIAN005/seed_2/run_manifest.json",
+      "manifest_sha256": "af1bc2480c7ab60bc531eb443be83b556cd4957e1c8e73de96ae01bce080d72c",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B24_C10_LAPLACIAN010/seed_0/run_manifest.json",
+      "manifest_sha256": "04fb2f3d1c5b71d696004b890542544d96af12d4f6f7a8ad161cdf8ad40a1951",
+      "seed": 0,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B24_C10_LAPLACIAN010/seed_1/run_manifest.json",
+      "manifest_sha256": "7046b5f73db6ddfe37168580a55b3d630e075beb97161c1da0ec7400fca9ef3e",
+      "seed": 1,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    },
+    {
+      "candidate_id": "B24_C10_LAPLACIAN010",
+      "dataset": "placenta",
+      "manifest_path": "/root/autodl-fs/night5b_raw_runs_20260813/placenta/B24_C10_LAPLACIAN010/seed_2/run_manifest.json",
+      "manifest_sha256": "1c74f236b3fb8d23f28da9a886964489b54ce6ec779c41ab86585a026f40d8ac",
+      "seed": 2,
+      "source_mode": "night5b_clean_room",
+      "valid_for_canonical_analysis": false
+    }
+  ],
+  "run_manifest_count": 148,
+  "schema_version": 1
+}

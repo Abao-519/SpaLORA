@@ -1,0 +1,250 @@
+{
+  "candidates": {
+    "B00_C00_FULL_IGE": {
+      "config_sha256": "c07fc7067c342250897fc538147a1c68648653fb04f2325cb4662d8e889b91ac",
+      "family": "reference",
+      "id": "B00_C00_FULL_IGE",
+      "implementation": "night5a_locked_reuse",
+      "source_candidate": "C00_FULL_IGE",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B01_C04_SHRINK25": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "d643bfdebfbba447d7656ba334ccdfb9cc932874c7f34ba23d9c95ff840b3820",
+      "family": "reference_primary",
+      "id": "B01_C04_SHRINK25",
+      "implementation": "night5a_locked_reuse",
+      "learned_fraction_rho": 0.25,
+      "source_candidate": "C04_SHRINK25",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B02_C09_RNA_ANCHOR10": {
+      "attention": "uniform_all",
+      "config_sha256": "9b899da8fb845f1076f08a5ae6dd9bb0250698205de590878bba7ad654111376",
+      "family": "reference_accuracy_frontier",
+      "id": "B02_C09_RNA_ANCHOR10",
+      "implementation": "night5a_locked_reuse",
+      "rna_anchor_eta": 1.0,
+      "source_candidate": "C09_RNA_ANCHOR10",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B03_C10_MNN_TRIPLET01": {
+      "attention": "uniform_all",
+      "config_sha256": "8a0310567085e05b092775eb5e5148c7ccfe33ad6d8e61b425b4886330708bd6",
+      "family": "reference_accuracy_frontier",
+      "id": "B03_C10_MNN_TRIPLET01",
+      "implementation": "night5a_locked_reuse",
+      "source_candidate": "C10_MNN_TRIPLET01",
+      "training_policy": "reuse_verified_night5a_runs",
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.1
+    },
+    "B04_SECONDLOOK_RELIABILITY25": {
+      "config_sha256": "348aec3bc80f2caad6fa00644ebb3464a1a0c57eb3ac92a1103ed3f8db5b9aaa",
+      "family": "second_look",
+      "id": "B04_SECONDLOOK_RELIABILITY25",
+      "implementation": "night5a_exact",
+      "reliability_fraction_rho": 0.25,
+      "source_candidate": "C06_RELIABILITY25",
+      "training_policy": "reuse_seed0_then_run_missing_seeds"
+    },
+    "B05_SECONDLOOK_RELIABILITY50": {
+      "config_sha256": "0f190a069ed78c0b31d74965f9230199c027c852732cca2a3ff88b12f60c4a96",
+      "family": "second_look",
+      "id": "B05_SECONDLOOK_RELIABILITY50",
+      "implementation": "night5a_exact",
+      "reliability_fraction_rho": 0.5,
+      "source_candidate": "C07_RELIABILITY50",
+      "training_policy": "reuse_seed0_then_run_missing_seeds"
+    },
+    "B06_SECONDLOOK_RNA_ANCHOR05": {
+      "attention": "uniform_all",
+      "config_sha256": "19cc0feaafd1cc2554eb33f2fe0a4e71a374be41d608668a90ff64355f648843",
+      "family": "second_look",
+      "id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "implementation": "night5a_exact",
+      "rna_anchor_eta": 0.5,
+      "source_candidate": "C08_RNA_ANCHOR05",
+      "training_policy": "reuse_seed0_then_run_missing_seeds"
+    },
+    "B07_SECONDLOOK_HYBRID_IGE50": {
+      "config_sha256": "641d51390a71303b9a9c56cbd38c7c123a681cafcfa1ab0e4dbcba268348ab84",
+      "family": "second_look",
+      "gradient_beta": 0.5,
+      "id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "implementation": "night5a_exact",
+      "source_candidate": "C14_HYBRID_IGE50",
+      "training_policy": "reuse_seed0_then_run_missing_seeds"
+    },
+    "B08_SECONDLOOK_DGI01": {
+      "config_sha256": "7f1a870c42a2c634a912b8af812e89017b19632d6fd636b8774b17e60a699906",
+      "dgi_weight": 0.1,
+      "family": "second_look",
+      "id": "B08_SECONDLOOK_DGI01",
+      "implementation": "night5a_exact",
+      "source_candidate": "C16_DGI01",
+      "training_policy": "reuse_seed0_then_run_missing_seeds"
+    },
+    "B09_SHRINK25_ANCHOR05": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "18961ffadad43f88d1227f392a7dc6eadd26cd2ee584eb8f88aa54febc1c450b",
+      "family": "fusion_graph_combo",
+      "id": "B09_SHRINK25_ANCHOR05",
+      "implementation": "new_clean_room",
+      "learned_fraction_rho": 0.25,
+      "rna_anchor_eta": 0.5
+    },
+    "B10_SHRINK25_ANCHOR10": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "4984e467294a3047924984952eaf0e8e63ee63c64319c2ffe8b4f3bd60e3d22f",
+      "family": "fusion_graph_combo",
+      "id": "B10_SHRINK25_ANCHOR10",
+      "implementation": "new_clean_room",
+      "learned_fraction_rho": 0.25,
+      "rna_anchor_eta": 1.0
+    },
+    "B11_SHRINK25_MNN005": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "14a887c5d64e5ada30b57c441842b0fdca99665f3522ccd7e6aa7c96a2245a82",
+      "family": "fusion_metric_combo",
+      "id": "B11_SHRINK25_MNN005",
+      "implementation": "new_clean_room",
+      "learned_fraction_rho": 0.25,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.05
+    },
+    "B12_SHRINK25_MNN010": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "2ca5ea986611fb9567dba2ca79b72f79e8eb2a997f4d2130e428192afa3644ef",
+      "family": "fusion_metric_combo",
+      "id": "B12_SHRINK25_MNN010",
+      "implementation": "new_clean_room",
+      "learned_fraction_rho": 0.25,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.1
+    },
+    "B13_SHRINK25_DGI010": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "d6a782b64b549efe98fbe74f2e6950f1c037102d070b7cbd52fdbbee2e0b3ace",
+      "dgi_weight": 0.1,
+      "family": "fusion_global_combo",
+      "id": "B13_SHRINK25_DGI010",
+      "implementation": "new_clean_room",
+      "learned_fraction_rho": 0.25
+    },
+    "B14_LATENT_RELIABILITY25": {
+      "config_sha256": "6eff0375dd86c47f482f90232b5cd94367040991325614373cb2d3e18b52ef33",
+      "cross_attention_after_warmup": "frozen_latent_local_reliability",
+      "family": "warmup_latent_reliability",
+      "id": "B14_LATENT_RELIABILITY25",
+      "implementation": "new_clean_room",
+      "reliability_fraction_rho": 0.25,
+      "reliability_k": 20,
+      "warmup_epochs": 100,
+      "warmup_policy": "B01_C04_SHRINK25",
+      "within_attention_after_warmup": "shrink_to_uniform_rho025"
+    },
+    "B15_LATENT_RELIABILITY50": {
+      "config_sha256": "b220a7fd1067b423bab99a4ce01823b2706d2dd131c0dfd5ee17361196e3a8a2",
+      "cross_attention_after_warmup": "frozen_latent_local_reliability",
+      "family": "warmup_latent_reliability",
+      "id": "B15_LATENT_RELIABILITY50",
+      "implementation": "new_clean_room",
+      "reliability_fraction_rho": 0.5,
+      "reliability_k": 20,
+      "warmup_epochs": 100,
+      "warmup_policy": "B01_C04_SHRINK25",
+      "within_attention_after_warmup": "shrink_to_uniform_rho025"
+    },
+    "B16_SHRINK25_ANCHOR05_MNN005": {
+      "attention": "shrink_to_uniform",
+      "config_sha256": "59c27a972e7b1b390dbbdf5b0b2e2c7867f61390e9f993ddd17e34fcaf7b7750",
+      "family": "triple_combo",
+      "id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "implementation": "new_clean_room",
+      "learned_fraction_rho": 0.25,
+      "rna_anchor_eta": 0.5,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.05
+    },
+    "B17_C09_DIFFUSE10": {
+      "config_sha256": "fda31ad9ccef53f07606d42004bdd8556794c41b1824cc49ad52656760bfc738",
+      "diffusion_alpha": 0.1,
+      "diffusion_steps": 1,
+      "family": "posthoc_spatial_rescue",
+      "id": "B17_C09_DIFFUSE10",
+      "implementation": "new_clean_room",
+      "source_candidate": "C09_RNA_ANCHOR10",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B18_C09_DIFFUSE25": {
+      "config_sha256": "3784046c7630e5dd6ee48be321eef2d47706c8d1b66763472e5edc38054b7e73",
+      "diffusion_alpha": 0.25,
+      "diffusion_steps": 1,
+      "family": "posthoc_spatial_rescue",
+      "id": "B18_C09_DIFFUSE25",
+      "implementation": "new_clean_room",
+      "source_candidate": "C09_RNA_ANCHOR10",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B19_C10_DIFFUSE10": {
+      "config_sha256": "9dd154092001d51d03d6d4ee74b581519d205a355da5ddb2f1860a084da12d48",
+      "diffusion_alpha": 0.1,
+      "diffusion_steps": 1,
+      "family": "posthoc_spatial_rescue",
+      "id": "B19_C10_DIFFUSE10",
+      "implementation": "new_clean_room",
+      "source_candidate": "C10_MNN_TRIPLET01",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B20_C10_DIFFUSE25": {
+      "config_sha256": "340ca99b132b4d981618a83e1fefa0d4e68f97d20a6986b0bf5c884be9834aa4",
+      "diffusion_alpha": 0.25,
+      "diffusion_steps": 1,
+      "family": "posthoc_spatial_rescue",
+      "id": "B20_C10_DIFFUSE25",
+      "implementation": "new_clean_room",
+      "source_candidate": "C10_MNN_TRIPLET01",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    "B21_C09_LAPLACIAN005": {
+      "attention": "uniform_all",
+      "config_sha256": "cebf5449516bd4a4647b0a3861b496dff279272fd782183a0309b1f1f4b4048f",
+      "family": "train_time_spatial_rescue",
+      "id": "B21_C09_LAPLACIAN005",
+      "implementation": "new_clean_room",
+      "laplacian_target_gradient_fraction": 0.05,
+      "rna_anchor_eta": 1.0
+    },
+    "B22_C09_LAPLACIAN010": {
+      "attention": "uniform_all",
+      "config_sha256": "b08142a817499e91323658a9cbd6e712916a9a048cebf270a2a31a0aeced4e55",
+      "family": "train_time_spatial_rescue",
+      "id": "B22_C09_LAPLACIAN010",
+      "implementation": "new_clean_room",
+      "laplacian_target_gradient_fraction": 0.1,
+      "rna_anchor_eta": 1.0
+    },
+    "B23_C10_LAPLACIAN005": {
+      "attention": "uniform_all",
+      "config_sha256": "d26fe46a9ba39a7f7d9c1fcb8ff88ec2aa960c987182f1349e347a095a60f955",
+      "family": "train_time_spatial_rescue",
+      "id": "B23_C10_LAPLACIAN005",
+      "implementation": "new_clean_room",
+      "laplacian_target_gradient_fraction": 0.05,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.1
+    },
+    "B24_C10_LAPLACIAN010": {
+      "attention": "uniform_all",
+      "config_sha256": "c600f9e2b0708328a6fe4027fc259d4973faddf598bf68fe806cbd34ad6f33b6",
+      "family": "train_time_spatial_rescue",
+      "id": "B24_C10_LAPLACIAN010",
+      "implementation": "new_clean_room",
+      "laplacian_target_gradient_fraction": 0.1,
+      "triplet_margin": 0.5,
+      "triplet_weight": 0.1
+    }
+  },
+  "schema_version": 1
+}

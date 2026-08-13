@@ -1,0 +1,21 @@
+{
+  "facts": [
+    "SMART official code uses shared-embedding reconstruction plus triplet; Laplacian defaults to zero.",
+    "COSMOS official code computes spot-wise WNN weights once from learned latent near epoch 100 and freezes them.",
+    "COSMOS accelerated spatial regularization default source uses the c1 index for c2 and was not copied.",
+    "ARISE official training reads true_labels each epoch and saves by best ARI; this checkpoint policy was prohibited.",
+    "SpaMFG official code is highly dataset-specific and hard-coded and was not transplanted.",
+    "SMART and SpatialCOC are GPL-3.0; ARISE and SpaMFG lacked a clear reusable license in the audited sources; COSMOS is MIT with third-party notice."
+  ],
+  "implementation_style": "clean_room",
+  "licenses": {
+    "ARISE": "no clear reusable license observed",
+    "COSMOS": "MIT with third-party notice",
+    "SMART": "GPL-3.0",
+    "SpaMFG": "no clear reusable license observed",
+    "SpatialCOC": "GPL-3.0"
+  },
+  "schema_version": 1,
+  "source_sha256": "bccb3716e35eaaae32c69d6bb3bc47aa2278992676c26cf0d02309f1cd0f4c71",
+  "third_party_source_copied": false
+}

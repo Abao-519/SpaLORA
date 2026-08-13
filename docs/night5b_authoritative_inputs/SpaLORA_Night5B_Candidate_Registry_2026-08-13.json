@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "experiment": "SpaLORA Night-5B second-look and spatial-rescue development study",
+  "parent_commit": "f9aeed223d38a897e190ac55ca741af1246071d2",
+  "parent_tag": "night5a-final-20260813",
+  "development_datasets": [
+    "a1",
+    "placenta"
+  ],
+  "withheld_datasets": [
+    "p22",
+    "d1_lymph_node",
+    "gse198353_rep1",
+    "gse198353_rep2"
+  ],
+  "seeds": [0, 1, 2, 3, 4],
+  "primary_locked_candidate": "B01_C04_SHRINK25",
+  "common_contract": {
+    "corr2_objective": "off_exact_zero",
+    "corr1_objective": "on",
+    "base_loss_calibration": "active_set_initial_rms_gradient_equalization_sum4",
+    "epochs": 200,
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "semantic_labels_during_training": false,
+    "dataset_specific_candidate_parameters": false
+  },
+  "candidates": [
+    {
+      "id": "B00_C00_FULL_IGE",
+      "family": "reference",
+      "implementation": "night5a_locked_reuse",
+      "source_candidate": "C00_FULL_IGE",
+      "training_policy": "reuse_verified_night5a_runs"
+    },
+    {
+      "id": "B01_C04_SHRINK25",
+      "family": "reference_primary",
+      "implementation": "night5a_locked_reuse",
+      "source_candidate": "C04_SHRINK25",
+      "training_policy": "reuse_verified_night5a_runs",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25
+    },
+    {
+      "id": "B02_C09_RNA_ANCHOR10",
+      "family": "reference_accuracy_frontier",
+      "implementation": "night5a_locked_reuse",
+      "source_candidate": "C09_RNA_ANCHOR10",
+      "training_policy": "reuse_verified_night5a_runs",
+      "attention": "uniform_all",
+      "rna_anchor_eta": 1.0
+    },
+    {
+      "id": "B03_C10_MNN_TRIPLET01",
+      "family": "reference_accuracy_frontier",
+      "implementation": "night5a_locked_reuse",
+      "source_candidate": "C10_MNN_TRIPLET01",
+      "training_policy": "reuse_verified_night5a_runs",
+      "attention": "uniform_all",
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5
+    },
+    {
+      "id": "B04_SECONDLOOK_RELIABILITY25",
+      "family": "second_look",
+      "implementation": "night5a_exact",
+      "source_candidate": "C06_RELIABILITY25",
+      "training_policy": "reuse_seed0_then_run_missing_seeds",
+      "reliability_fraction_rho": 0.25
+    },
+    {
+      "id": "B05_SECONDLOOK_RELIABILITY50",
+      "family": "second_look",
+      "implementation": "night5a_exact",
+      "source_candidate": "C07_RELIABILITY50",
+      "training_policy": "reuse_seed0_then_run_missing_seeds",
+      "reliability_fraction_rho": 0.5
+    },
+    {
+      "id": "B06_SECONDLOOK_RNA_ANCHOR05",
+      "family": "second_look",
+      "implementation": "night5a_exact",
+      "source_candidate": "C08_RNA_ANCHOR05",
+      "training_policy": "reuse_seed0_then_run_missing_seeds",
+      "attention": "uniform_all",
+      "rna_anchor_eta": 0.5
+    },
+    {
+      "id": "B07_SECONDLOOK_HYBRID_IGE50",
+      "family": "second_look",
+      "implementation": "night5a_exact",
+      "source_candidate": "C14_HYBRID_IGE50",
+      "training_policy": "reuse_seed0_then_run_missing_seeds",
+      "gradient_beta": 0.5
+    },
+    {
+      "id": "B08_SECONDLOOK_DGI01",
+      "family": "second_look",
+      "implementation": "night5a_exact",
+      "source_candidate": "C16_DGI01",
+      "training_policy": "reuse_seed0_then_run_missing_seeds",
+      "dgi_weight": 0.1
+    },
+    {
+      "id": "B09_SHRINK25_ANCHOR05",
+      "family": "fusion_graph_combo",
+      "implementation": "new_clean_room",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "rna_anchor_eta": 0.5
+    },
+    {
+      "id": "B10_SHRINK25_ANCHOR10",
+      "family": "fusion_graph_combo",
+      "implementation": "new_clean_room",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "rna_anchor_eta": 1.0
+    },
+    {
+      "id": "B11_SHRINK25_MNN005",
+      "family": "fusion_metric_combo",
+      "implementation": "new_clean_room",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "triplet_weight": 0.05,
+      "triplet_margin": 0.5
+    },
+    {
+      "id": "B12_SHRINK25_MNN010",
+      "family": "fusion_metric_combo",
+      "implementation": "new_clean_room",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5
+    },
+    {
+      "id": "B13_SHRINK25_DGI010",
+      "family": "fusion_global_combo",
+      "implementation": "new_clean_room",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "dgi_weight": 0.1
+    },
+    {
+      "id": "B14_LATENT_RELIABILITY25",
+      "family": "warmup_latent_reliability",
+      "implementation": "new_clean_room",
+      "warmup_policy": "B01_C04_SHRINK25",
+      "warmup_epochs": 100,
+      "within_attention_after_warmup": "shrink_to_uniform_rho025",
+      "cross_attention_after_warmup": "frozen_latent_local_reliability",
+      "reliability_k": 20,
+      "reliability_fraction_rho": 0.25
+    },
+    {
+      "id": "B15_LATENT_RELIABILITY50",
+      "family": "warmup_latent_reliability",
+      "implementation": "new_clean_room",
+      "warmup_policy": "B01_C04_SHRINK25",
+      "warmup_epochs": 100,
+      "within_attention_after_warmup": "shrink_to_uniform_rho025",
+      "cross_attention_after_warmup": "frozen_latent_local_reliability",
+      "reliability_k": 20,
+      "reliability_fraction_rho": 0.5
+    },
+    {
+      "id": "B16_SHRINK25_ANCHOR05_MNN005",
+      "family": "triple_combo",
+      "implementation": "new_clean_room",
+      "attention": "shrink_to_uniform",
+      "learned_fraction_rho": 0.25,
+      "rna_anchor_eta": 0.5,
+      "triplet_weight": 0.05,
+      "triplet_margin": 0.5
+    },
+    {
+      "id": "B17_C09_DIFFUSE10",
+      "family": "posthoc_spatial_rescue",
+      "implementation": "new_clean_room",
+      "source_candidate": "C09_RNA_ANCHOR10",
+      "training_policy": "reuse_verified_night5a_runs",
+      "diffusion_alpha": 0.1,
+      "diffusion_steps": 1
+    },
+    {
+      "id": "B18_C09_DIFFUSE25",
+      "family": "posthoc_spatial_rescue",
+      "implementation": "new_clean_room",
+      "source_candidate": "C09_RNA_ANCHOR10",
+      "training_policy": "reuse_verified_night5a_runs",
+      "diffusion_alpha": 0.25,
+      "diffusion_steps": 1
+    },
+    {
+      "id": "B19_C10_DIFFUSE10",
+      "family": "posthoc_spatial_rescue",
+      "implementation": "new_clean_room",
+      "source_candidate": "C10_MNN_TRIPLET01",
+      "training_policy": "reuse_verified_night5a_runs",
+      "diffusion_alpha": 0.1,
+      "diffusion_steps": 1
+    },
+    {
+      "id": "B20_C10_DIFFUSE25",
+      "family": "posthoc_spatial_rescue",
+      "implementation": "new_clean_room",
+      "source_candidate": "C10_MNN_TRIPLET01",
+      "training_policy": "reuse_verified_night5a_runs",
+      "diffusion_alpha": 0.25,
+      "diffusion_steps": 1
+    },
+    {
+      "id": "B21_C09_LAPLACIAN005",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "rna_anchor_eta": 1.0,
+      "laplacian_target_gradient_fraction": 0.05
+    },
+    {
+      "id": "B22_C09_LAPLACIAN010",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "rna_anchor_eta": 1.0,
+      "laplacian_target_gradient_fraction": 0.1
+    },
+    {
+      "id": "B23_C10_LAPLACIAN005",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5,
+      "laplacian_target_gradient_fraction": 0.05
+    },
+    {
+      "id": "B24_C10_LAPLACIAN010",
+      "family": "train_time_spatial_rescue",
+      "implementation": "new_clean_room",
+      "attention": "uniform_all",
+      "triplet_weight": 0.1,
+      "triplet_margin": 0.5,
+      "laplacian_target_gradient_fraction": 0.1
+    }
+  ]
+}
