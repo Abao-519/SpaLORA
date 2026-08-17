@@ -95,10 +95,18 @@ def one(stage: str, dataset: str, graph_id: str, seed: int, ordinal: int,
                       "cluster": h00_result["labels"]}).to_csv(run / "h00_clusters.csv", index=False)
         pd.DataFrame({"observation_id": prepared.obs_names.astype(str)}).to_csv(run / "observation_ids.csv", index=False)
         pd.DataFrame(result.logs).to_csv(run / "loss_trajectory.csv", index=False)
+        probe_diagnostics = {k: v for k, v in result.probe.items() if k != "initial_state"}
         atomic_json(run / "coefficient_probe.json", {
-            "coefficients": result.coefficients, "probe": result.probe,
-            "initial_losses": result.initial_losses,
+            "candidate_id": "C04_SHRINK25",
+            "frozen_coefficients": result.coefficients,
+            "active_coefficient_sum": float(sum(result.coefficients.values())),
+            "raw_initial_losses": result.initial_losses,
+            "raw_rms_gradients": result.probe["gradients"],
+            "initial_state_sha256": result.initial_state_sha256,
             "active_losses": result.auxiliary.get("active_loss_names"),
+            "corr2_objective_contribution_exact_zero": result.coefficients["L_corr2_raw"] == 0.0,
+            "probe_diagnostics_without_tensor_state": probe_diagnostics,
+            "semantic_label_access": False,
         })
         state_sha = model_state_sha256(result.model)
         if state_sha != result.final_state_sha256:
