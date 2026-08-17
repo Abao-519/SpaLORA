@@ -1,0 +1,44 @@
+{
+  "active_commit": "e8a49fb874209b2bd4474691ee5d03ee7639c0c7",
+  "authority": [
+    {
+      "path": "/autodl-fs/data/SpaLORA-night7a/protocols/night7a/SpaLORA_Night6D_Independent_Planner_Audit_and_Night7A_Decision_2026-08-18.md",
+      "sha256": "7f708473bb0663134cc07de2af5bd0bcab979ef2bb41ff0025188937e4116209",
+      "size_bytes": 12251
+    },
+    {
+      "path": "/autodl-fs/data/SpaLORA-night7a/protocols/night7a/SpaLORA_Night7A_Consensus_Registry_2026-08-18.json",
+      "sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "size_bytes": 22491
+    },
+    {
+      "path": "/autodl-fs/data/SpaLORA-night7a/protocols/night7a/SpaLORA_Night7A_CPU_Consensus_and_Benchmark_Preflight_Taskbook_2026-08-18.md",
+      "sha256": "ef21f9b7934f7137740119fd20d3db6a7e3f2a53ff61927525b8450f75c8a6ac",
+      "size_bytes": 23518
+    }
+  ],
+  "branch": "revision/q2-night7a-cpu-consensus-preflight-20260818",
+  "budgets": {
+    "checkpoint_forward": "0/0",
+    "correction_transforms_max": 12,
+    "diffusion": "0/0",
+    "formal_benchmark_runs": "0/0",
+    "formal_consensus_transforms_max": 360,
+    "fresh_label_reads": "0/0",
+    "scientific_training": "0/0",
+    "total_attempts_max": 372
+  },
+  "cpu": "x86_64",
+  "cuda_visible_devices": "",
+  "message": "P0-AUTHORITY PASS; BEGIN P0-SOURCE",
+  "numpy": "1.22.3",
+  "parent_commit": "e8a49fb874209b2bd4474691ee5d03ee7639c0c7",
+  "protection_tag_peeled_commit": "e8a49fb874209b2bd4474691ee5d03ee7639c0c7",
+  "python": "3.8.10",
+  "scipy": "1.8.1",
+  "sklearn": "1.1.1",
+  "status": "PASS",
+  "torch": "2.0.0+cu118",
+  "torch_cuda_available": false,
+  "torch_visible_device_count": 0
+}

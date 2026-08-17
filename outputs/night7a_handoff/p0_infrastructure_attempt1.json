@@ -1,0 +1,28 @@
+{
+  "attempt_id": "p0-infrastructure-attempt-001",
+  "status": "INTERRUPTED_BEFORE_FIRST_P0_SEMANTIC_UNIT_COMPLETED",
+  "reason": "The AutoDL no-card instance exposed approximately 0.5 CPU and the initial process used eight competing BLAS/OpenMP threads. The first unit remained incomplete after more than 25 wall-clock minutes, with eight worker threads sharing the same CPU quota.",
+  "preservation": {
+    "log_path": "outputs/night7a_handoff/p0_infrastructure_attempt1_8threads.log",
+    "log_size_bytes": 0,
+    "completed_base_manifests": 0,
+    "formal_consensus_transforms": 0,
+    "implementation_correction_transforms": 0,
+    "development_label_reads": 0,
+    "fresh_external_label_reads": 0,
+    "scientific_training": 0,
+    "checkpoint_forward": 0,
+    "diffusion": 0,
+    "gpu_allocation_mib": 0.0
+  },
+  "correction": {
+    "scope": "infrastructure threading only",
+    "omp_num_threads": 1,
+    "openblas_num_threads": 1,
+    "mkl_num_threads": 1,
+    "candidate_registry_changed": false,
+    "affinity_or_spectral_semantics_changed": false,
+    "seeds_or_order_changed": false,
+    "tolerance_changed": false
+  }
+}

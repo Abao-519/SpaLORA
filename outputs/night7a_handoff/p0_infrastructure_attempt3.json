@@ -1,0 +1,26 @@
+{
+  "attempt_id": "P0-INFRA-3",
+  "status": "INVALID_INFRASTRUCTURE_ATTEMPT",
+  "stage": "P0-SEMANTIC",
+  "reason": "the source verifier retained Python allocator memory while waiting for isolated workers; parent plus second worker reached the CPU-only instance 2147483648-byte cgroup memory.max",
+  "exit_code": 137,
+  "signal": "SIGKILL",
+  "completed_base_units_before_termination": 1,
+  "last_complete_unit": {
+    "dataset": "a1",
+    "seed": 0
+  },
+  "next_incomplete_unit": {
+    "dataset": "a1",
+    "seed": 1
+  },
+  "completed_unit_exact_h05_parity": "2/2",
+  "semantic_assertion_failure_observed": false,
+  "numerical_failure_observed": false,
+  "formal_transform_attempts": 0,
+  "label_reads": 0,
+  "scientific_training": 0,
+  "checkpoint_forward": 0,
+  "gpu_allocation_mib": 0.0,
+  "correction": "run source verification to process exit; then run all 30 cells as non-overlapping fresh processes; only after all workers exit run a separate byte-verifying aggregator; preserve all old code, logs, and raw"
+}

@@ -1,0 +1,25 @@
+{
+  "attempt_id": "P0-INFRA-2",
+  "status": "INVALID_INFRASTRUCTURE_ATTEMPT",
+  "stage": "P0-SEMANTIC",
+  "reason": "single-process allocator accumulation reached the CPU-only instance 2147483648-byte cgroup memory.max and the process was externally terminated",
+  "exit_code": 137,
+  "signal": "SIGKILL",
+  "completed_base_units_before_termination": 21,
+  "last_complete_unit": {
+    "dataset": "p22",
+    "seed": 0
+  },
+  "next_incomplete_unit": {
+    "dataset": "p22",
+    "seed": 1
+  },
+  "semantic_assertion_failure_observed": false,
+  "numerical_failure_observed": false,
+  "formal_transform_attempts": 0,
+  "label_reads": 0,
+  "scientific_training": 0,
+  "checkpoint_forward": 0,
+  "gpu_allocation_mib": 0.0,
+  "correction": "preserve the old runner, log, and partial raw directory; uniformly rerun all 30 P0 units using one fresh single-threaded CPU process per dataset-seed without changing inputs, code path, solver, tolerance, order, or candidate semantics"
+}

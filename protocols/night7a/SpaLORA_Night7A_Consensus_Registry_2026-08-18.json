@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night7a-cpu-zero-training-cross-graph-consensus-20260818",
+  "date": "2026-08-18",
+  "authority_type": "locked_candidate_and_selection_registry",
+  "objective": "Use only already-saved Night-6C and Night-6D label-free views to determine whether a fixed G00/G04 consensus head materially improves the confirmed G04/H05 structure across four development datasets, while separately preflighting modern baselines and fresh datasets.",
+  "upstream": {
+    "commit": "e8a49fb874209b2bd4474691ee5d03ee7639c0c7",
+    "tag": "night6d-final-20260817",
+    "branch_to_create": "revision/q2-night7a-cpu-consensus-preflight-20260818",
+    "protection_tag_to_create": "baseline/pre-night7a-cpu-consensus-preflight-20260818",
+    "final_tag_to_create_once": "night7a-final-20260818"
+  },
+  "execution_class": {
+    "cpu_only": true,
+    "scientific_training_units": 0,
+    "checkpoint_forward_passes": 0,
+    "diffusion_transforms": 0,
+    "gpu_use_forbidden": true,
+    "formal_benchmark_runs": 0,
+    "fresh_dataset_label_reads": 0,
+    "candidate_count": 12,
+    "dataset_seed_units": 30,
+    "maximum_formal_consensus_transforms": 360,
+    "maximum_transform_corrections": 12,
+    "maximum_total_transform_attempts": 372
+  },
+  "authoritative_evidence": {
+    "night6c": {
+      "compact_root_windows": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night6c_handoff_20260817\\official_compact",
+      "remote_raw_root": "/root/autodl-fs/night6c_raw_runs_20260817",
+      "commit": "172cefba7559b34d2894ffa304553c0068ca23b9",
+      "tag": "night6c-final-20260817",
+      "decision_sha256": "d63e1cb80dd146c62b2879b152e3c7e4578a503ee863bc7783d0fc4d2fa12974",
+      "per_seed_metrics_sha256": "284b015c005b3b877a6b06ca565b0823285b7d57f39941eb225118f45ce8bd15",
+      "raw_artifact_manifest_sha256": "5b1e596e192822d0a638c67c27d177a855a3805f6b199a7dcc462ffe6d730cf0",
+      "checkpoint_roundtrip_index_sha256": "e58b95f32324cacc49800b22bd2c60858c6237e2de227a1f3f599b5dd3b1b478",
+      "r1_transform_manifest_sha256": "11a2cd13bdb36f0e9130020e86c0c222b4990345ab92a407474106c74118789b",
+      "r2_transform_manifest_sha256": "65c9bb2fece130f4721ccc024b780b1f5e7187323fe2982dae4072d4c4530375",
+      "graph_cache_manifest_index_sha256": "e53691b53633384ffc48b98a1d8fed93985aa81c88f2f4cb6ed0f4a40002f59c"
+    },
+    "night6d": {
+      "compact_root_windows": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night6d_handoff_20260817\\official_compact",
+      "remote_raw_root": "/root/autodl-fs/night6d_raw_runs_20260817",
+      "commit": "e8a49fb874209b2bd4474691ee5d03ee7639c0c7",
+      "tag": "night6d-final-20260817",
+      "decision_sha256": "555f088913776976c91db02538e06f44b9c1b4f9b560dc75660c90df8e98f313",
+      "per_seed_metrics_sha256": "97beb1adca50f753ccb35aa95a35d3a54a5f6758d3599844eaca2ac6b7cb1a1e",
+      "raw_artifact_manifest_sha256": "f5ed41ec7fd6f8e0b35cc545da1376b8785186cbe27891afd216b93579945e94",
+      "checkpoint_roundtrip_index_sha256": "d87d324499bda1a6131c164de9feab7d3ba06e85f517b2216a4e919491166311",
+      "locked_transform_manifest_sha256": "3608b3d78adfbf7cdff077028882b3002368606a945a1303aa8b3959b28aeb40",
+      "graph_cache_manifest_index_sha256": "c5466b3a8c8e65c459910d6f89c9df573710a61dad9b7525a01f596cbf189ffe",
+      "label_window_audit_sha256": "02de6c377bfd43c88f75d02ce54de9175770485a8f510019da641f98fc3576f1"
+    }
+  },
+  "dataset_matrix": [
+    {
+      "id": "a1",
+      "role": "development_after_night6c",
+      "tissue": "human_lymph_node",
+      "modalities": ["RNA", "protein"],
+      "known_k": 10,
+      "seeds": [0, 1, 2, 3, 4],
+      "source_stage_by_seed": {"0": "r1", "1": "r1", "2": "r2", "3": "r2", "4": "r2"}
+    },
+    {
+      "id": "tonsil",
+      "role": "development_after_night6c",
+      "tissue": "human_tonsil",
+      "modalities": ["RNA", "protein"],
+      "known_k": 4,
+      "seeds": [0, 1, 2, 3, 4],
+      "source_stage_by_seed": {"0": "r1", "1": "r1", "2": "r2", "3": "r2", "4": "r2"}
+    },
+    {
+      "id": "d1",
+      "role": "development_after_night6d_confirmation",
+      "tissue": "human_lymph_node",
+      "modalities": ["RNA", "protein"],
+      "known_k": 10,
+      "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": "p22",
+      "role": "development_after_night6d_confirmation",
+      "tissue": "mouse_brain",
+      "modalities": ["RNA", "ATAC"],
+      "known_k": 9,
+      "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    }
+  ],
+  "source_graphs": {
+    "G00": "G00_SP18_F20_CORR_UNION",
+    "G04": "G04_SP10_F10_EUC_UNION",
+    "required_views_per_graph": ["emb_latent_omics1", "emb_latent_omics2", "SpaLORA_fused"],
+    "required_file": "views.npz",
+    "source_artifact_rule": "Resolve every views.npz through the authoritative raw_artifact_manifest.csv and verify absolute path, byte size, and SHA-256 before loading. Never choose another attempt directory by recency.",
+    "reference_predictions": "same-dataset same-seed G00/H00 clusters from the authoritative locked transform manifests",
+    "confirmed_predictions": "same-dataset same-seed G04/H05 clusters from the authoritative locked transform manifests"
+  },
+  "base_affinity_contract": {
+    "view_preprocessing": "row-wise L2 normalization using the exact Night-6C/Night-6D H05 implementation",
+    "neighbor_count": 10,
+    "metric": "euclidean",
+    "include_self": false,
+    "tie_break": "observation_id lexical order",
+    "kernel": "the exact existing H05 self-tuning kernel; no reimplementation drift is permitted",
+    "view_affinity_symmetrization": "elementwise maximum with transpose",
+    "diagonal": 0.0,
+    "definitions": {
+      "A_g_v": "symmetric sparse H05 affinity for graph g in {G00,G04} and one of its three views",
+      "S_g": "(A_g_omics1 + A_g_omics2 + A_g_fused) / 3",
+      "six_affinities": "the three A_g_v matrices from G00 followed by the three from G04 in the fixed view order"
+    },
+    "required_parity": [
+      "spectral(S_G00) must reproduce the authoritative G00/H05 partition for every dataset and seed",
+      "spectral(S_G04) must reproduce the authoritative G04/H05 partition for every dataset and seed",
+      "C02 must be numerically equal to the arithmetic mean of all six A_g_v matrices",
+      "all source observation IDs and ordering must match exactly between G00 and G04"
+    ]
+  },
+  "spectral_contract": {
+    "affinity_mode": "precomputed",
+    "assign_labels": "discretize",
+    "n_init": 20,
+    "random_state": 2020,
+    "n_clusters": "dataset known_k",
+    "same_connected_component_and_zero_degree_diagnostics_for_every_candidate": true,
+    "fallback": "forbidden",
+    "numerical_failure_policy": "preserve the failed cell and continue remaining preregistered cells; never repair a candidate-specific failure after labels are opened"
+  },
+  "candidate_order": [
+    "C00_G04_H05_CONFIRMED",
+    "C01_G00_H05",
+    "C02_DUAL_ARITHMETIC_MEAN",
+    "C03_DUAL_ELEMENTWISE_MAX",
+    "C04_DUAL_ELEMENTWISE_MIN",
+    "C05_DUAL_HARMONIC_INTERSECTION",
+    "C06_DUAL_ROW_STOCHASTIC_MEAN",
+    "C07_DUAL_LOCAL_RELIABILITY",
+    "C08_SIX_VIEW_SUPPORT_MEDIAN",
+    "C09_DUAL_SPARSE_SNF10",
+    "C10_DUAL_MEAN_SPATIAL05",
+    "C11_DUAL_MEAN_SPATIAL10"
+  ],
+  "candidates": [
+    {
+      "id": "C00_G04_H05_CONFIRMED",
+      "family": "single_graph_reference_candidate",
+      "formula": "S_G04",
+      "requires_two_encoder_runs_in_future": false,
+      "scientific_role": "Night-6D confirmed structure and default structure unless a dual-graph candidate clears the material complexity gate"
+    },
+    {
+      "id": "C01_G00_H05",
+      "family": "single_graph_mechanism_candidate",
+      "formula": "S_G00",
+      "requires_two_encoder_runs_in_future": false
+    },
+    {
+      "id": "C02_DUAL_ARITHMETIC_MEAN",
+      "family": "dual_graph_consensus",
+      "formula": "(S_G00 + S_G04) / 2",
+      "equivalent_formula": "arithmetic mean of all six A_g_v matrices",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C03_DUAL_ELEMENTWISE_MAX",
+      "family": "dual_graph_union_consensus",
+      "formula": "elementwise max(S_G00, S_G04)",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C04_DUAL_ELEMENTWISE_MIN",
+      "family": "dual_graph_intersection_consensus",
+      "formula": "elementwise min(S_G00, S_G04)",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "family": "dual_graph_intersection_consensus",
+      "formula": "for each edge, 2*S_G00*S_G04/(S_G00+S_G04) when both operands are positive, otherwise 0",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "family": "degree_balanced_dual_graph_consensus",
+      "formula": "symmetrize((row_normalize(S_G00) + row_normalize(S_G04))/2) as (M+M^T)/2, then set diagonal to zero",
+      "zero_row_policy": "invalid cell; no epsilon rescue",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C07_DUAL_LOCAL_RELIABILITY",
+      "family": "label_free_local_reliability_consensus",
+      "formula": "For each spot i and graph g, r_g(i) is the mean of the three pairwise Jaccard similarities among the k10 neighbor sets from its three views. Let w_g(i)=(r_g(i)+1e-12)/(r_G00(i)+r_G04(i)+2e-12). Form directed M_ij=w_G00(i)*S_G00_ij+w_G04(i)*S_G04_ij; output (M+M^T)/2 with zero diagonal.",
+      "weight_source": "only label-free within-graph neighbor agreement",
+      "weight_diagnostics_required": ["per-spot weights", "dataset/seed quantiles", "correlation with library size or labels forbidden before lock"],
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "family": "six_view_robust_consensus",
+      "formula": "For every edge, let m be the number of positive values among the six A_g_v entries. If m=0 output 0; otherwise output median(of positive entries)*(m/6). Set diagonal to zero.",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C09_DUAL_SPARSE_SNF10",
+      "family": "dual_graph_iterative_network_fusion",
+      "formula": "Initialize P_g from S_g with off-diagonal entries divided by twice the off-diagonal row sum and diagonal fixed to 0.5. Initialize K_g from each row's top-10 off-diagonal S_g entries, row-normalized. For t=1..10 update each graph simultaneously: U_g=K_g*P_other*K_g^T; retain diagonal plus the top-10 off-diagonal entries per row with observation_id tie-break; renormalize to the same P convention. Output symmetrize((P_G00+P_G04)/2) and set diagonal to zero.",
+      "iterations": 10,
+      "sparse_top_k": 10,
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C10_DUAL_MEAN_SPATIAL05",
+      "family": "dual_graph_consensus_with_small_spatial_prior",
+      "formula": "0.95*C06 + 0.05*T_spatial",
+      "requires_two_encoder_runs_in_future": true
+    },
+    {
+      "id": "C11_DUAL_MEAN_SPATIAL10",
+      "family": "dual_graph_consensus_with_small_spatial_prior",
+      "formula": "0.90*C06 + 0.10*T_spatial",
+      "requires_two_encoder_runs_in_future": true
+    }
+  ],
+  "spatial_affinity_contract": {
+    "used_only_by": ["C10_DUAL_MEAN_SPATIAL05", "C11_DUAL_MEAN_SPATIAL10"],
+    "coordinates": "the already-verified label-free coordinate array for that dataset, in the exact source observation order",
+    "directed_neighbors": 6,
+    "metric": "euclidean",
+    "include_self": false,
+    "tie_break": "observation_id lexical order",
+    "binary_union": "B=max(B_directed,B_directed^T)",
+    "normalization": "P=row_normalize(B); T_spatial=(P+P^T)/2; diagonal=0",
+    "zero_row_policy": "invalid cell; no rescue"
+  },
+  "fixed_transform_order": "dataset in [a1,tonsil,d1,p22], then seed ascending, then candidate_order",
+  "label_firewall": {
+    "prelock_allowed": [
+      "read planning authority and aggregate prior conclusions",
+      "byte-hash prior metric and label files without parsing them",
+      "load verified views.npz, observation IDs, coordinates, graph caches, and prior prediction clusters",
+      "compute affinities, consensus matrices, partitions, numerical diagnostics, resource measurements, and manifests"
+    ],
+    "prelock_forbidden": [
+      "parse or deserialize any per-spot ground-truth vector",
+      "parse prior per-seed ARI/NMI/Q tables for candidate implementation or early stopping",
+      "inspect cluster-versus-label plots",
+      "drop, change, or add a candidate because of any observed scientific metric"
+    ],
+    "unlock_condition": "all 360 planned candidate cells have success or preserved numerical-failure records, all output cluster files and matrices are SHA-locked, and the transform manifest is immutable",
+    "post_unlock": "one evaluator process may read the four already-used development label vectors once; no return to affinity construction, spectral clustering, or candidate registry changes"
+  },
+  "metric_contract": {
+    "primary": ["ARI", "NMI", "Q_equal_ARI_NMI"],
+    "Q_formula": "(ARI+NMI)/2",
+    "spatial": ["neighbor_agreement", "Moran_I", "Geary_C", "boundary_disagreement"],
+    "lower_is_better": ["Geary_C", "boundary_disagreement"],
+    "paired_reference": "same-dataset same-seed G00/H00",
+    "candidate_comparator_for_complexity": "same-dataset same-seed C00_G04_H05_CONFIRMED",
+    "reporting": [
+      "every per-seed absolute metric and paired delta",
+      "mean, median, standard deviation, win count, exact sign-flip p, and paired bootstrap interval per dataset",
+      "dataset-balanced macro values in which each dataset has weight 0.25",
+      "no pooled spot-level metric and no dataset-size weighting"
+    ]
+  },
+  "spatial_protection_gate": {
+    "applied_per_dataset": true,
+    "fail_if": "(mean_delta_neighbor < -0.03 and mean_delta_moran < -0.03) or (mean_delta_geary > 0.03 and (mean_delta_neighbor < -0.03 or mean_delta_moran < -0.03))",
+    "boundary_disagreement": "report_only"
+  },
+  "generalization_gate": {
+    "all_required": true,
+    "rules": [
+      "mean delta Q versus G00/H00 is at least 0.005 on every one of the four datasets",
+      "mean delta NMI versus G00/H00 is strictly positive on every dataset",
+      "mean delta ARI versus G00/H00 is strictly positive on at least three of four datasets and is not below -0.005 on any dataset",
+      "paired Q wins are at least 4/5 on A1 and tonsil and at least 7/10 on D1 and P22",
+      "median paired delta Q is strictly positive on every dataset",
+      "the spatial protection gate passes on every dataset",
+      "no candidate cell is missing or silently replaced"
+    ]
+  },
+  "dual_graph_complexity_gate": {
+    "applies_to": [
+      "C02_DUAL_ARITHMETIC_MEAN",
+      "C03_DUAL_ELEMENTWISE_MAX",
+      "C04_DUAL_ELEMENTWISE_MIN",
+      "C05_DUAL_HARMONIC_INTERSECTION",
+      "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "C07_DUAL_LOCAL_RELIABILITY",
+      "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "C09_DUAL_SPARSE_SNF10",
+      "C10_DUAL_MEAN_SPATIAL05",
+      "C11_DUAL_MEAN_SPATIAL10"
+    ],
+    "all_candidates_must_first_pass_generalization_gate": true,
+    "material_preference_over_C00": "Either (A) dataset-balanced macro mean delta Q exceeds C00 by at least 0.0075 and no dataset mean Q is more than 0.002 below C00, or (B) the candidate's worst-dataset mean delta Q versus G00/H00 exceeds C00's worst-dataset mean delta Q by at least 0.005, its macro delta Q is not below C00, and no dataset mean Q is more than 0.002 below C00.",
+    "reason": "A dual-graph method requires two encoder runs in future use and must earn that extra cost rather than win by a negligible development fluctuation."
+  },
+  "selection_rule": {
+    "eligible_set": "candidates passing every generalization rule and, when applicable, the dual-graph complexity gate",
+    "ranking": [
+      "largest worst-dataset mean delta Q versus G00/H00",
+      "largest dataset-balanced macro mean delta Q",
+      "largest total paired Q wins across all 30 dataset-seed units",
+      "lower future complexity rank",
+      "candidate_order as final deterministic tie-break"
+    ],
+    "future_complexity_rank_low_to_high": [
+      "C01_G00_H05",
+      "C00_G04_H05_CONFIRMED",
+      "C02_DUAL_ARITHMETIC_MEAN",
+      "C03_DUAL_ELEMENTWISE_MAX",
+      "C04_DUAL_ELEMENTWISE_MIN",
+      "C05_DUAL_HARMONIC_INTERSECTION",
+      "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "C07_DUAL_LOCAL_RELIABILITY",
+      "C10_DUAL_MEAN_SPATIAL05",
+      "C11_DUAL_MEAN_SPATIAL10",
+      "C09_DUAL_SPARSE_SNF10"
+    ],
+    "no_dual_candidate_passes": "retain C00_G04_H05_CONFIRMED for fresh external validation; C01 may replace it only if C01 passes the generalization gate and its worst-dataset and macro delta Q are both strictly higher than C00",
+    "confirmatory_status": "Only C00 retains Night-6D confirmation. Any newly selected structure is development-selected and requires a genuinely fresh annotated external dataset."
+  },
+  "external_method_preflight": {
+    "source_audit_order": [
+      {"method": "SpatialGlue", "repository": "https://github.com/JinmiaoChenLab/SpatialGlue", "tier": "classic_required"},
+      {"method": "Seurat_WNN", "repository": "https://github.com/satijalab/seurat", "tier": "classic_required"},
+      {"method": "COSMOS", "repository": "https://github.com/Lin-Xu-lab/COSMOS", "tier": "modern_high_priority"},
+      {"method": "SMART", "repository": "https://github.com/Xubin-s-Lab/SMART-main", "tier": "modern_high_priority"},
+      {"method": "PRESENT", "repository": "https://github.com/lizhen18THU/PRESENT", "tier": "modern_high_priority"},
+      {"method": "MultiGATE", "repository": "https://github.com/cuhklinlab/MultiGATE", "tier": "modern_high_priority"},
+      {"method": "SpatialCOC", "repository": "https://github.com/xjtu-omics/SpatialCOC", "tier": "modern_high_priority"},
+      {"method": "SpaMode", "repository": "https://github.com/bridge1924/SpaMode", "tier": "source_only_until_license_resolved"},
+      {"method": "SpaMCA", "repository": "https://github.com/wenwenmin/SpaMCA", "tier": "source_and_feasibility"},
+      {"method": "ARISE", "repository": "https://github.com/XiangxiangWang-code/ARISE", "tier": "fixed_endpoint_adapter_required"},
+      {"method": "GROVER", "repository": "https://github.com/Xubin-s-Lab/GROVER", "tier": "feasibility_only_private_weight_and_third_modality_risk"},
+      {"method": "MultiSP", "repository": "https://github.com/jinworks/MultiSP", "tier": "modern_frontier_source_and_feasibility"},
+      {"method": "SpatialEx", "repository": "https://github.com/KEAML-JLU/SpatialEx", "tier": "feasibility_only_histology_anchored"}
+    ],
+    "requirements": [
+      "record exact URL, resolved commit, default branch, submodules, license file, environment, expected inputs, output endpoint, label access, checkpoint selection, cluster-number handling, and dataset-specific parameters",
+      "inspect executable source and official tutorials rather than relying only on paper prose",
+      "for any code path reading labels or retaining best ARI/NMI, design a separate fixed-final label-free adapter and preserve the official behavior disclosure",
+      "toy smoke tests may use only synthetic or already-unlocked development-shaped inputs; formal dataset execution is forbidden in Night-7A",
+      "do not copy source from a repository lacking a compatible license"
+    ]
+  },
+  "fresh_dataset_preflight": {
+    "fresh_labels_must_remain_unread": true,
+    "large_download_to_windows_D_forbidden": true,
+    "candidates": [
+      {
+        "id": "SPAMODE_HUMAN_TONSIL_THREE_SECTIONS",
+        "priority": 1,
+        "metadata_source": "https://zenodo.org/records/12654113",
+        "purpose": "fresh annotated human RNA+protein external validation if pairing, coordinates, annotation provenance, and license are auditable"
+      },
+      {
+        "id": "MISAR_MOUSE_EMBRYO_OR_BRAIN",
+        "priority": 2,
+        "metadata_sources": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055", "https://www.biosino.org/node/project/detail/OEP003285"],
+        "purpose": "fresh mouse RNA+ATAC external validation if a true paired section with spatial coordinates and independent annotation is identified"
+      },
+      {
+        "id": "GSE198353_SPLEEN_REPLICATES",
+        "priority": 3,
+        "metadata_source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198353",
+        "purpose": "label-free stability, spatial continuity, and replicate transfer only unless official auditable domain labels are found"
+      },
+      {
+        "id": "SIMULATED_GROUND_TRUTH_PANEL",
+        "priority": 4,
+        "purpose": "controlled robustness and mechanism tests; never a substitute for real external validation"
+      }
+    ],
+    "required_contract_fields": [
+      "study and accession",
+      "section independence from all development datasets",
+      "organism, tissue, modalities, platform, spot count, pairing key, coordinate source",
+      "annotation creator, annotation method, whether annotations use RNA/protein/ATAC features, and whether labels were revised post hoc",
+      "download URLs, byte sizes, checksums, license or data-use terms",
+      "known K source and whether K can be supplied without reading per-spot labels",
+      "feasibility for every shortlisted benchmark under the common protocol"
+    ]
+  },
+  "forbidden_actions": [
+    "start AutoDL or call any power-control API",
+    "use a GPU or execute any model training",
+    "rerun Night-6C or Night-6D encoder cells",
+    "change seeds, K, spectral settings, affinity k, spatial k, candidate formulas, gates, or ranking after any label is opened",
+    "select per-dataset winners or report a cherry-picked best seed",
+    "silently retry a numerical scientific failure or substitute a fallback clustering algorithm",
+    "read fresh external per-spot labels",
+    "run a formal external method benchmark",
+    "download raw runs, checkpoints, affinities, caches, or large fresh datasets to Windows D",
+    "force-push, force-with-lease, move a tag, or create the final tag before the final delivery-index commit"
+  ],
+  "terminal_statuses": [
+    "KEEP_CONFIRMED_G04_H05_FOR_EXTERNAL_VALIDATION",
+    "LOCK_NEW_CONSENSUS_FOR_FRESH_EXTERNAL_VALIDATION",
+    "NO_FINAL_STRUCTURE_READY",
+    "BLOCKED_INPUT_INTEGRITY",
+    "BLOCKED_SOURCE_ARTIFACTS",
+    "LABEL_FIREWALL_BREACH",
+    "IMPLEMENTATION_SEMANTICS_INVALID",
+    "BUDGET_EXHAUSTED",
+    "INFRASTRUCTURE_BLOCKED"
+  ]
+}
