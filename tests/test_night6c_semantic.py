@@ -14,7 +14,7 @@ from SpaLORA.night3a_ige import model_state_sha256
 from SpaLORA.night5a_rnd import Night5ATrainer
 from SpaLORA.night6c_firewall import FirewallViolation, guard_path, reject_transform_payload
 from SpaLORA.night6c_pipeline import (
-    BASE_C04, _neighbors, binary_knn, forward_model, moran_scores, normalize_support,
+    BASE_C04, _neighbors, binary_knn, finite_float_or_none, forward_model, moran_scores, normalize_support,
     parse_registry, reliability_weights, run_head, self_tuning_affinity,
 )
 
@@ -27,6 +27,13 @@ def test_registry_exact_and_unique():
     assert len(graphs) == 9 and len(heads) == 12
     assert list(graphs)[0].startswith("G00_") and list(graphs)[-1].startswith("G08_")
     assert list(heads)[0].startswith("H00_") and list(heads)[-1].startswith("H11_")
+
+
+def test_nonfinite_incomplete_head_summary_is_strict_json_safe():
+    assert finite_float_or_none(np.nan) is None
+    assert finite_float_or_none(np.inf) is None
+    assert finite_float_or_none(3.25) == 3.25
+    json.dumps({"mean_runtime_seconds": finite_float_or_none(np.nan)}, allow_nan=False)
 
 
 def test_knn_lexical_tie_and_union_mutual():

@@ -18,7 +18,7 @@ from SpaLORA.night1_evaluation import _mean_cluster_moran, load_evaluation_label
 from SpaLORA.night3af_cache import load_cache, sha256_file
 from SpaLORA.night3b_metrics import mean_one_vs_rest_geary, symmetric_knn_adjacency
 from SpaLORA.night6c_firewall import guard_path
-from SpaLORA.night6c_pipeline import atomic_json, load_views, parse_registry
+from SpaLORA.night6c_pipeline import atomic_json, finite_float_or_none, load_views, parse_registry
 
 OUT = REPO / "outputs/night6c_handoff"
 CACHE = Path("/root/autodl-fs/night6c_cache_20260817/base")
@@ -226,7 +226,8 @@ def r1_decision(frame: pd.DataFrame, registry: dict) -> dict:
                                "observed_cells": observed_cells, "expected_cells": 36,
                                "failure_cells": 36 - observed_cells,
                                "eligible_for_advancement": observed_cells == 36,
-                               "mean_runtime_seconds": float(frame[frame.head_id == head_id].head_runtime_seconds.mean())})
+                               "mean_runtime_seconds": finite_float_or_none(
+                                   frame[frame.head_id == head_id].head_runtime_seconds.mean())})
     def hscore(x):
         values = [v for v in (x["marginal_delta_q"], x["best_valid_combination_delta_q"]) if v is not None]
         return max(values) if values else -1e300

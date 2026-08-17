@@ -83,6 +83,14 @@ def atomic_json(path: Path, value) -> None:
     os.replace(tmp, path)
 
 
+def finite_float_or_none(value):
+    """Return a JSON-safe finite float, or ``None`` for missing/non-finite data."""
+    if value is None:
+        return None
+    result = float(value)
+    return result if math.isfinite(result) else None
+
+
 def atomic_torch_save(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
