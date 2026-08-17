@@ -1,0 +1,74 @@
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 1, "planned": 432, "seed": 0, "stage": "R1"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H01_FUSED_DIRECT_MCLUST_EEE", "ordinal": 2, "planned": 432, "seed": 0, "stage": "R1"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |=====                                                                 |   7%  |                                                                              |=========                                                             |  13%  |                                                                              |==============                                                        |  20%  |                                                                              |===================                                                   |  27%  |                                                                              |=======================                                               |  33%  |                                                                              |============================                                          |  40%  |                                                                              |=================================                                     |  47%  |                                                                              |=====================================                                 |  53%  |                                                                              |==========================================                            |  60%  |                                                                              |===============================================                       |  67%  |                                                                              |===================================================                   |  73%  |                                                                              |========================================================              |  80%  |                                                                              |=============================================================         |  87%  |                                                                              |=================================================================     |  93%  |                                                                              |======================================================================| 100%
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H02_FUSED_PCA20_MCLUST_BIC", "ordinal": 3, "planned": 432, "seed": 0, "stage": "R1"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H03_CONCAT_PRIVATE_PCA20_MCLUST_EEE", "ordinal": 4, "planned": 432, "seed": 0, "stage": "R1"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H04_RELIABILITY_CONCAT3_PCA20_MCLUST_EEE", "ordinal": 5, "planned": 432, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 6, "planned": 432, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:103: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/sklearn/manifold/_spectral_embedding.py:259: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H06_AGREEMENT3_AFFINITY_SPECTRAL", "ordinal": 7, "planned": 432, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05", "ordinal": 8, "planned": 432, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "a1", "event": "transform_complete", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10", "ordinal": 9, "planned": 432, "seed": 0, "stage": "R1"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Traceback (most recent call last):
+  File "scripts/night6c_transform.py", line 134, in <module>
+    main()
+  File "scripts/night6c_transform.py", line 74, in main
+    labels, aux = run_head(heads[head_id], views,
+  File "/autodl-fs/data/SpaLORA-night6c/SpaLORA/night6c_pipeline.py", line 495, in run_head
+    partitions = [mclust(row_normalize(v), k, "EEE", 2020)["labels"] for v in (private1, private2, fused)]
+  File "/autodl-fs/data/SpaLORA-night6c/SpaLORA/night6c_pipeline.py", line 495, in <listcomp>
+    partitions = [mclust(row_normalize(v), k, "EEE", 2020)["labels"] for v in (private1, private2, fused)]
+  File "/autodl-fs/data/SpaLORA-night6c/SpaLORA/night6c_pipeline.py", line 332, in mclust
+    labels = np.asarray(result.rx2("classification"), dtype=np.int64)
+AttributeError: 'NULLType' object has no attribute 'rx2'
