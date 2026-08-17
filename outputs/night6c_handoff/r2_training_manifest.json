@@ -1,0 +1,2116 @@
+{
+  "attempted_units": 12,
+  "failure_count": 0,
+  "fixed_order": "graph_dataset_seed",
+  "implementation_retries": 0,
+  "locked_before_label_access": true,
+  "planned_units": 12,
+  "runs": [
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "ffb32ec5601e4f06119cae442333b800aaf49f339bcfc3ee8d0c34bf74d11822",
+          "size_bytes": 2833
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/coefficient_probe.json",
+          "sha256": "154037708d9bf3bad5c7cdc6e3fb96b2f93b6a75ddf0947f62ce87f30a59a81a",
+          "size_bytes": 30952
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/h00_clusters.csv",
+          "sha256": "94357b8c79708faa2750d3377407c86fdfe40795856a91790662c7f971703208",
+          "size_bytes": 83785
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/loss_trajectory.csv",
+          "sha256": "01e917f97504cbc19ff60605a5cd9bf17e62949c8c7fefbdfcc25b24e88a2f43",
+          "size_bytes": 4975
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/model_final.pt",
+          "sha256": "a3bb30b1620c6b08276b5fc1e91fa1222b7c1a5901f6943a12052a24c3e593b7",
+          "size_bytes": 1606367
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "size_bytes": 76663
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/reload_spec.json",
+          "sha256": "8bda5bf7cfc183e735a8d0a73ff99c5f52938816fb1e5cf573c9f4b3d29011b9",
+          "size_bytes": 435
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/views.npz",
+          "sha256": "9058c510f6d2e28ca93b0742da27421f25c17ebb28ca7bf0c85ccfe74a474de2",
+          "size_bytes": 2555940
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_input_and_cache_sha256": "94d59d775fedfeb8a6d8666b345a9c747279b067f00fa44789370c4bca00d62a",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 10
+        },
+        "dataset_id": "a1",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "reference",
+          "feature_k": 20,
+          "feature_metric": "correlation",
+          "id": "G00_SP18_F20_CORR_UNION",
+          "spatial_k": 18,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 2,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "6aa0eb4edc94d297c0cf6fa6be1aefeb0f3af166fd38e00ed5f1f3d3eafd4f27",
+      "checkpoint_file_sha256": "a3bb30b1620c6b08276b5fc1e91fa1222b7c1a5901f6943a12052a24c3e593b7",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.029664672920992032,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03295630406247464,
+        "L_rna_recon_raw": 3.937379023016533
+      },
+      "dataset": "a1",
+      "final_tensor_state_sha256": "52686fa3af15635627cbb582ea243d6a2103c921e1d83b3ecaa7fa9754761d96",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "4a7ae207d1e1c9ea4fb6ec083b734055f9a7d5f882bcd42e76ce78df2a22966a",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "7bad35f665daa36f8277090d5d36c0003bac22e3c55e2b807c67e92652697ac0",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "ordinal": 1,
+      "peak_gpu_allocated_mib": 768.0126953125,
+      "process_peak_rss_mib": 1159.21484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001",
+      "run_manifest_sha256": "fe87399ff27a300e40eb4efe20afe3d803c2f4d5d2c892c95b66e2830e290f67",
+      "runtime_seconds": 21.977365670725703,
+      "schema_version": 1,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "ca7f48494bdcceb3dec4ace4a226a5f4d9e5e391ba2ee664a91fbe5f2d21336d",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "768f08e1432aeb8e689702a7beb6ac66c4d4d5afe215e16ce9708ba9cce587d6",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "060b800195dfed77cb242a9103a9856bd38aee235eaf6c4bf75cfc77e7ec4bca",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "974db6919233f5e1c04aa895476268c54c7beea295bf7eab92b3214701597408",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "0e3c66191c1ba23fe08ac164259b91bb83840b6899c182aa002a1df46c1ae051",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "0a8c3428a77a0cd3f796c9658cc04b29550a82e13d43fd8bccd802797fd9d4f5",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "5cee7a282c4ef963714b114238fcc9b04ce1c2397a0d8a501face85d91053489",
+          "size_bytes": 2831
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/coefficient_probe.json",
+          "sha256": "4878e6ef368b74741b69d1be0a6b0de165436af7f5266cf7f8e625d982f20fcc",
+          "size_bytes": 30959
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/h00_clusters.csv",
+          "sha256": "b25225bb4c26b78a971d8ba2c159eb33db35c8c65f7d3ff9756cf62c20cfdcd4",
+          "size_bytes": 83821
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/loss_trajectory.csv",
+          "sha256": "5695b7f8d02b87979f449396573823712b5203a40611111a055c06819311e1b2",
+          "size_bytes": 4975
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/model_final.pt",
+          "sha256": "f056398b5b3d9fe7284c68d4989ba3aaf012ea66ff15f107c5e2cb2a3280791f",
+          "size_bytes": 1606367
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "size_bytes": 76663
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/reload_spec.json",
+          "sha256": "6bfef304d23bbcd400b5322c83d7d0439a15a460e6cf973f8714ed83996e9659",
+          "size_bytes": 435
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/views.npz",
+          "sha256": "d6174013f886629b8f98a1e73b9c9bf9cf6691a205b4ec8e19c19a0b2a91fe26",
+          "size_bytes": 2557269
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_input_and_cache_sha256": "94d59d775fedfeb8a6d8666b345a9c747279b067f00fa44789370c4bca00d62a",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 10
+        },
+        "dataset_id": "a1",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "reference",
+          "feature_k": 20,
+          "feature_metric": "correlation",
+          "id": "G00_SP18_F20_CORR_UNION",
+          "spatial_k": 18,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 3,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "bd32c32b0d39ddb5131294c99ad2cf78ae26e6dd3b863106539c3778c0374518",
+      "checkpoint_file_sha256": "f056398b5b3d9fe7284c68d4989ba3aaf012ea66ff15f107c5e2cb2a3280791f",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.034405007121785604,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03953537801852908,
+        "L_rna_recon_raw": 3.9260596148596854
+      },
+      "dataset": "a1",
+      "final_tensor_state_sha256": "981483c5a0e74464416412ae6652c7f2d6a32f32a1534fd610cc71c58d1e4a9c",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "4a7ae207d1e1c9ea4fb6ec083b734055f9a7d5f882bcd42e76ce78df2a22966a",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "6fc29bc2c3d1fb757f6e8cf278881314eb1367edc2ac629c7c9d6528b9c534bb",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "ordinal": 2,
+      "peak_gpu_allocated_mib": 768.7939453125,
+      "process_peak_rss_mib": 1192.0234375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001",
+      "run_manifest_sha256": "06c54d750a42a8ac690496d362fc6d15febf2ae8c905ab2f69c3778ea8b46835",
+      "runtime_seconds": 28.135897278785706,
+      "schema_version": 1,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "2c30682ee2de3a3b68f781ed7a6f47bd329ad5768b337af9beed13aa38532d77",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "838cc157b4c5545e190fb99600dc2c41d6ca35deb70b6cec06d1be6e26f91b24",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "f4bf6ef906bfeacd0989a39b17547bd32b2cc8a702f15d23b8ce8f9fdeca71cf",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "992c57f509bd8ae7275766d9a82477dcb57e345c395284be11560b000bb30f2d",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "ed7d16612fdbb64e39f14d0f5a91566785a0a6de1fbcf61a74e387b69b528975",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "dcade6eb4200c841bb0d30d312ec9bf9db9b973bacc16a8e5a8a965cce446bd1",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "e3fd3095f11d85a412950fc095c1027558668f38e21d1745506d32ffdfb25a74",
+          "size_bytes": 2836
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/coefficient_probe.json",
+          "sha256": "4be5b6343c70bc97d4354396783b392a9bc3163396301b818af948788e4d4e9e",
+          "size_bytes": 31013
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/h00_clusters.csv",
+          "sha256": "44509014bb4d2fd83901a2e22691512dfc7b33b3aaf2f4c5052abb27fb7772b9",
+          "size_bytes": 84668
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/loss_trajectory.csv",
+          "sha256": "105ef1e55f16b88037bb4f8b2a168b893570e26647c76a2684f35a497a18c2dd",
+          "size_bytes": 4966
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/model_final.pt",
+          "sha256": "81fe061452536d28f15ac34746aec17814a39f6190b7603f0b49fe13a342d0ea",
+          "size_bytes": 1606367
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "size_bytes": 76663
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/reload_spec.json",
+          "sha256": "6a78ceb7fbcedc57ce99dce5858c558ef31fbf2422c2125c124a455b46240da4",
+          "size_bytes": 435
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/views.npz",
+          "sha256": "5708fc277ac1498928810b6a7e3c85753921bdf8cd3838fc9d7beefeb916992e",
+          "size_bytes": 2555987
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_input_and_cache_sha256": "94d59d775fedfeb8a6d8666b345a9c747279b067f00fa44789370c4bca00d62a",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 10
+        },
+        "dataset_id": "a1",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "reference",
+          "feature_k": 20,
+          "feature_metric": "correlation",
+          "id": "G00_SP18_F20_CORR_UNION",
+          "spatial_k": 18,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 4,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "0f2b7dc35155edd197e558a8fdb93f0ffc02d9b8822a3938634c56780baf7684",
+      "checkpoint_file_sha256": "81fe061452536d28f15ac34746aec17814a39f6190b7603f0b49fe13a342d0ea",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.0478660376426679,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.050231814496104095,
+        "L_rna_recon_raw": 3.9019021478612275
+      },
+      "dataset": "a1",
+      "final_tensor_state_sha256": "f0dc1ca1e9786012b347c7d6d34123ccecf0b08d7c44c2ba3edef79d2a241a75",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "4a7ae207d1e1c9ea4fb6ec083b734055f9a7d5f882bcd42e76ce78df2a22966a",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "3f7b8cffade6a6d6600c73d5c67a5586bb7461b61cb3bc6286398bb06524a536",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "ordinal": 3,
+      "peak_gpu_allocated_mib": 768.7939453125,
+      "process_peak_rss_mib": 1196.234375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001",
+      "run_manifest_sha256": "784afc0f3188bce8e25b76a7bfab1d6899875ef0151c53fd4bacd366e58f7fa9",
+      "runtime_seconds": 23.354390224441886,
+      "schema_version": 1,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "c36574b718440b16d638a25a3b5a5294465a54f5ec9ddfb6aff41562ebd59e62",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "bd59c33c3a5f1dd355d3a5346d065f46eb0644c52c26824b472e9b76a7ec5e91",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "7103afdec452479a7abd91e7682d4f47601a8b316c48b3704b16a6fad40c11a0",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "0c4d25c0d8057d3d25ad2feeaa5b75972c150509b307a12d7c0716cc3dc90297",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "df325a5523f9c08ba7298d6e587d4f098b739e04708420d4305e3cfa14ce2f34",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "72ccbda292ae96d89f08cfc35b68c55de601b69ca84ab7b519ed4a752cd03b68",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "c5c74381f5f99b9c570f0e792eaad03327566d8950693946b85ccbc9f9cc9451",
+          "size_bytes": 2838
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/coefficient_probe.json",
+          "sha256": "b523c4d364ed3a894d502617a925a23fb0eeb66a40fc70d21fb377ae323e0255",
+          "size_bytes": 30867
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/h00_clusters.csv",
+          "sha256": "9fbaf7f0b9132e6823c562e3dfc8baa9a38df299a7c44a6e1fd03fd1e09508e7",
+          "size_bytes": 103847
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/loss_trajectory.csv",
+          "sha256": "e8aaec6dc10f6b87def2acb10c525e4be884317ed5e07ead45cb5729d174271f",
+          "size_bytes": 4956
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/model_final.pt",
+          "sha256": "ac7c1923908458e9f1107c99f8a06f903d13d78a1e08539f21875d22a4b65e6b",
+          "size_bytes": 1606367
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/observation_ids.csv",
+          "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+          "size_bytes": 95187
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/reload_spec.json",
+          "sha256": "d1944e435dba76346c2745b953b2c741f18581641954206f536589308ca4ca79",
+          "size_bytes": 447
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/views.npz",
+          "sha256": "d58c246349f434125fe9c2094532fa67cee8bf3d7a1ec1ef0e8d3b03bd2f89e0",
+          "size_bytes": 3170817
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359",
+      "canonical_input_and_cache_sha256": "f90a01f02cbb8a92bdbd45c9d810110dd3f6990b2f30008c076db906261c26c7",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 4
+        },
+        "dataset_id": "tonsil",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "reference",
+          "feature_k": 20,
+          "feature_metric": "correlation",
+          "id": "G00_SP18_F20_CORR_UNION",
+          "spatial_k": 18,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 2,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "7d1c77af4f59e4e33590b393cbbe7ad1eb3e585925d259e09174373134527342",
+      "checkpoint_file_sha256": "ac7c1923908458e9f1107c99f8a06f903d13d78a1e08539f21875d22a4b65e6b",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.026743929428814303,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.05529669755126632,
+        "L_rna_recon_raw": 3.917959373019919
+      },
+      "dataset": "tonsil",
+      "final_tensor_state_sha256": "c6d9943041016ba294cc4b8ab1ffd62760a33b1e91cc2e1c80450adc86acbb8c",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "4ab7a7c7e6c6402e0262d22a4df28d1e6327c7325251eb2e1fe3c3c3b22909e3",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "7bad35f665daa36f8277090d5d36c0003bac22e3c55e2b807c67e92652697ac0",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "ordinal": 4,
+      "peak_gpu_allocated_mib": 943.36083984375,
+      "process_peak_rss_mib": 1248.3359375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001",
+      "run_manifest_sha256": "bea9710fe7a3fce8edf45f6885b54c6a57f8881fd47a2742f9ea1ddffd8c2102",
+      "runtime_seconds": 19.352999614551663,
+      "schema_version": 1,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "7675a17983ac2d630e463ed8802ee683f4d27d85fc6a69023ec747a12f680978",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "4f9a19ea6f560cc7065251a74a41423e05ba74452bb9c4259723195da973f303",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "6de6b491cff86b07bd9d4c2b4e7f3fde54741e4c682c432b2e36ea1fb9c878bc",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "aabe381a4227c12d9ca887e4fabae9959275d172033132e672143c4dcc40b3a7",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "ee0fc0122333d0bc4d01b7c80ca2b1e7e8845dc04f7e012fcb08568333a67a8c",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "3d2300d1068e49bab76e6ec4c603f0f5100309280de2247ec24c31aca60f9eea",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "8de0faa4aae887f41ef97e698077881143a5dfde317158d10cca84dddc804b86",
+          "size_bytes": 2841
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/coefficient_probe.json",
+          "sha256": "1cc3d6d0d8bdbb4dd9ab5f659c0a25817c696ff63ae2387426c2f2e7660baf8a",
+          "size_bytes": 30930
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/h00_clusters.csv",
+          "sha256": "4ab58c3f9b24e19538dcf37719795c4a9a446d9959e996c6cc4a7434379c9554",
+          "size_bytes": 103847
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/loss_trajectory.csv",
+          "sha256": "7212203d0f305481e6b279198e2bcba60b5b0e6ad6e040f73b9dc256d11fa7df",
+          "size_bytes": 4951
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/model_final.pt",
+          "sha256": "87dbbd22ac99edf3f4896a134ae4164e3ea662afd9ce4ae4172c46a769d349a5",
+          "size_bytes": 1606367
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/observation_ids.csv",
+          "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+          "size_bytes": 95187
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/reload_spec.json",
+          "sha256": "d8942648a99e29d219895b20fe6112c0afc4ab89d5e439aed10bc22bfa0f08bf",
+          "size_bytes": 447
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/views.npz",
+          "sha256": "39586e79e79436b1615728b9e34097b7991af43297255399b8fa9ae7344932bc",
+          "size_bytes": 3171037
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359",
+      "canonical_input_and_cache_sha256": "f90a01f02cbb8a92bdbd45c9d810110dd3f6990b2f30008c076db906261c26c7",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 4
+        },
+        "dataset_id": "tonsil",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "reference",
+          "feature_k": 20,
+          "feature_metric": "correlation",
+          "id": "G00_SP18_F20_CORR_UNION",
+          "spatial_k": 18,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 3,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "b1cfb171d8d6e557cbf9e11a7e1cb4dd78e518007e4d870ee57f035bead3238b",
+      "checkpoint_file_sha256": "87dbbd22ac99edf3f4896a134ae4164e3ea662afd9ce4ae4172c46a769d349a5",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.021608837503370438,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.05498321511894519,
+        "L_rna_recon_raw": 3.923407947377684
+      },
+      "dataset": "tonsil",
+      "final_tensor_state_sha256": "9c3e923112529dccafea5790f9c0880043d9059e2eefe89fbb691bafab099a82",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "4ab7a7c7e6c6402e0262d22a4df28d1e6327c7325251eb2e1fe3c3c3b22909e3",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "6fc29bc2c3d1fb757f6e8cf278881314eb1367edc2ac629c7c9d6528b9c534bb",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "ordinal": 5,
+      "peak_gpu_allocated_mib": 943.36083984375,
+      "process_peak_rss_mib": 1248.3359375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001",
+      "run_manifest_sha256": "92d4ee5191f27540e40f3dd99399a299f1e60e6f6521af02fb0e25570ce8932f",
+      "runtime_seconds": 19.223955092951655,
+      "schema_version": 1,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "6d0c48378a868088afbbfad72b54e38ca86e4a0a8bd0e28098a03c1187fe2bb3",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "e9b83dcdd3f5c108b3d7a6df3cfd83e1bde2c259cc502dc5308462ef303f9c45",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "bb6483d720619ddffb60b55cf46143a1fe3be6f881e4db476cdf0024c2b1d081",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "3da1681ff5bd79c301ec582aead2ec6c9c2cfd251354f3c4bd3a99febec587a5",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "52d4a43ef79ed56d70e38de53b2ee06d967548f56fe686419b94928ef427474f",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "0a73db1ad7582ef0d0b7385c3ca37c6092a391adf90199f27339a9891198fb9e",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "37ee4fa10386eacef5654706d8eb980febb49fc3dd8c56818310b3480bf42432",
+          "size_bytes": 2838
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/coefficient_probe.json",
+          "sha256": "7686066d7526818b7e2ac8bc19dafe6bd8c1a91ce3e914b8548a3ae9c787dc82",
+          "size_bytes": 30854
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/h00_clusters.csv",
+          "sha256": "07305603e349d91f7d0dafba094211976ecbf66b966f633c51f14e954f0b9ff4",
+          "size_bytes": 103847
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/loss_trajectory.csv",
+          "sha256": "50c9c11263ea32a156bc81422bc5766997960b01c41546c5be5a24efc8114bf8",
+          "size_bytes": 4952
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/model_final.pt",
+          "sha256": "623ecf92ded4674be93c1fcc6d5b798bd5ea256a3e6cac662242d52c6fed38a7",
+          "size_bytes": 1606367
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/observation_ids.csv",
+          "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+          "size_bytes": 95187
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/reload_spec.json",
+          "sha256": "890a8489ab57ab2b8b14b1b0577f7c9c15d5d69f62df977d2ac1905cac28606b",
+          "size_bytes": 447
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/views.npz",
+          "sha256": "8361e3739a8b8be42aed48379a21b1a78e08a966243803db75bb37724c89ca07",
+          "size_bytes": 3171541
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359",
+      "canonical_input_and_cache_sha256": "f90a01f02cbb8a92bdbd45c9d810110dd3f6990b2f30008c076db906261c26c7",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 4
+        },
+        "dataset_id": "tonsil",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "reference",
+          "feature_k": 20,
+          "feature_metric": "correlation",
+          "id": "G00_SP18_F20_CORR_UNION",
+          "spatial_k": 18,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 4,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "4ea338e6dd0c0c662db8e2bf6621481803ff99cc6b93cb1fc2de9c75f79d6c68",
+      "checkpoint_file_sha256": "623ecf92ded4674be93c1fcc6d5b798bd5ea256a3e6cac662242d52c6fed38a7",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.024291620992862372,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.053904308505896684,
+        "L_rna_recon_raw": 3.921804070501241
+      },
+      "dataset": "tonsil",
+      "final_tensor_state_sha256": "ff89404c3d1070adfe7a2d6a6c6c06d9912d97ed7f9a09c8a62fa70b0c0061ec",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "4ab7a7c7e6c6402e0262d22a4df28d1e6327c7325251eb2e1fe3c3c3b22909e3",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "3f7b8cffade6a6d6600c73d5c67a5586bb7461b61cb3bc6286398bb06524a536",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "ordinal": 6,
+      "peak_gpu_allocated_mib": 943.36083984375,
+      "process_peak_rss_mib": 1252.01953125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001",
+      "run_manifest_sha256": "d1404168821c462ff693b2e94f38c414e2fdd538e3b33e159ac887906073558b",
+      "runtime_seconds": 20.464451307430863,
+      "schema_version": 1,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "f76661e92d08838cb9e6cd31cecd849b09d4e11d5760f43d33bc4767b38ce63d",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "6ddc5a8c62bec364179082e40f85dda7daf1b315f0ac6383c0ff1ffc493585ea",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "8b097a52b41c93dd336405e634303018fadfab8d261afea42596400177563d1f",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "2751e4f0dc810763a7b638005b3751949aac68c9f616c2d859e4a8b754d6d353",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "bf9bd3b194b5b1147c69c58dc056e17a7550ebb9d3f97b813493cb95122c7fc0",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "b35253beabaef14fdfe960dc775048a112af28e7db50c15a6ab6724faa8e0709",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "657f9433008618862f0637d2b9d28173096522135a4c5992c283aea5c1333146",
+          "size_bytes": 2833
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/coefficient_probe.json",
+          "sha256": "3138f251e703f23e04acab5cfaaf32babc108a27416b4ab194a803a42e97eb29",
+          "size_bytes": 30961
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/h00_clusters.csv",
+          "sha256": "9f9e49d8ac8715e8be1a0df637854b711e468eda50ae167d736f77b1b0e0f2f2",
+          "size_bytes": 83950
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/loss_trajectory.csv",
+          "sha256": "f777eb1cd234ec22080d774ff388ae4771f25fb8f06a0b6505cfafe71e3a31e1",
+          "size_bytes": 4957
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/model_final.pt",
+          "sha256": "76e93faddb47dbacb93acae999a7110304558bc2510fd45c0b5339a5db1477b2",
+          "size_bytes": 1606431
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "size_bytes": 76663
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/reload_spec.json",
+          "sha256": "686dff062e9543cdcc72c202060579f21cc9509acc6669c4136ee02833b652ec",
+          "size_bytes": 433
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/views.npz",
+          "sha256": "510bb370db87441cc060c658a566a1846f7a7ab98f2da222b11b85551e4a4bb9",
+          "size_bytes": 2556363
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_input_and_cache_sha256": "82bb08f7edd2df2ea929d09cbfede4a21d40cfff64c6e264205a11890fa252de",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 10
+        },
+        "dataset_id": "a1",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "feature_scale_metric",
+          "feature_k": 10,
+          "feature_metric": "euclidean",
+          "id": "G04_SP10_F10_EUC_UNION",
+          "spatial_k": 10,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 2,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "f38037fd0c901a39483985b782c5ab114c1f1d16ed0413b0c87a663611ab36d6",
+      "checkpoint_file_sha256": "76e93faddb47dbacb93acae999a7110304558bc2510fd45c0b5339a5db1477b2",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.0295410609307192,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03328993983251809,
+        "L_rna_recon_raw": 3.9371689992367624
+      },
+      "dataset": "a1",
+      "final_tensor_state_sha256": "c376dd633a9deb0da5a31f4e4ef159fda48c3ef8dce7c1ac0c8a36bcb30f8f3d",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "b37a2d736082913bd8d00d7c22e7cc236fd3fb455d91d44b3d8f9dbe6d39744f",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "7bad35f665daa36f8277090d5d36c0003bac22e3c55e2b807c67e92652697ac0",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "ordinal": 7,
+      "peak_gpu_allocated_mib": 764.048828125,
+      "process_peak_rss_mib": 1252.01953125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001",
+      "run_manifest_sha256": "f54343709231ad5ee94931bf20c30f8926c8769548da8570d6fbe112700dba55",
+      "runtime_seconds": 27.695036940276623,
+      "schema_version": 1,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "b22329a08d5df4e917758732b1fb712cba676b24d5592eac0db64e612a38b742",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "7a4d2bb7f37cd859570dc3899cbf32d81f4a5f89249edab6e78790cab32988b6",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "336d1e98226e1288e5fd73fec23a978144b5b476279ee52822588c7e26630455",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "73df00b19b789b247b7248b51c13d3bd22a35902e1f4d2da99b5a8f97ac8ec38",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "58c3f92b3357f9fc542b351c117faed2ceca051127f45f57de041fb376112acb",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "2789c18e1debc6e33d76c63cf3a6328c51cbb86a39e3c343cab02322b337030c",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "37d20ddcdc57ba37ec17fbab0a440a11f5a62cae6969dc447fd04a93973363da",
+          "size_bytes": 2832
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/coefficient_probe.json",
+          "sha256": "1847470383c6c7ebb399eef63ba8c67c07e50399cc0a7db35ae64ae623ca798d",
+          "size_bytes": 30977
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/h00_clusters.csv",
+          "sha256": "b7dca28d8aaa4fa39351c26bd4feae6d36221722f4eccd15283ee49726340581",
+          "size_bytes": 83813
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/loss_trajectory.csv",
+          "sha256": "73f0a15eb5009e15bb62e0f9bef6e2d786564de09d7e40e3adcfc28a40592215",
+          "size_bytes": 4960
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/model_final.pt",
+          "sha256": "2ff8834964fbff2a0f058a0a8f5f20ea856954a2844cbfab3eea7904bc1b0af5",
+          "size_bytes": 1606431
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "size_bytes": 76663
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/reload_spec.json",
+          "sha256": "1bdf0e8336a9007623f18946dd3ae4ffac75f313a0dda38a558a5328fba97595",
+          "size_bytes": 433
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/views.npz",
+          "sha256": "2779522c681089523c73b9c5c495fdc36c33ef7cc92484c9b0b05ab53a4bc824",
+          "size_bytes": 2556788
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_input_and_cache_sha256": "82bb08f7edd2df2ea929d09cbfede4a21d40cfff64c6e264205a11890fa252de",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 10
+        },
+        "dataset_id": "a1",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "feature_scale_metric",
+          "feature_k": 10,
+          "feature_metric": "euclidean",
+          "id": "G04_SP10_F10_EUC_UNION",
+          "spatial_k": 10,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 3,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "dd6f51b91e5bd73a2583c8fd9ad2c8e88dcdaec997c65c5d35cb4bfb811fc182",
+      "checkpoint_file_sha256": "2ff8834964fbff2a0f058a0a8f5f20ea856954a2844cbfab3eea7904bc1b0af5",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.03385887858884091,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03965129820417393,
+        "L_rna_recon_raw": 3.926489823206985
+      },
+      "dataset": "a1",
+      "final_tensor_state_sha256": "e58bd8f00b53056ae54bebc8c657aadccc9201c9da23c40923c7e73d3b482ffa",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "b37a2d736082913bd8d00d7c22e7cc236fd3fb455d91d44b3d8f9dbe6d39744f",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "6fc29bc2c3d1fb757f6e8cf278881314eb1367edc2ac629c7c9d6528b9c534bb",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "ordinal": 8,
+      "peak_gpu_allocated_mib": 764.048828125,
+      "process_peak_rss_mib": 1252.01953125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001",
+      "run_manifest_sha256": "6ee46c0430543bd6d59906c9f6f78fae7b0086cb154fcf7ca20af19e91f61b56",
+      "runtime_seconds": 27.49369884096086,
+      "schema_version": 1,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "c466ef1c50bb2c8bb5aba5ccb2dc8a2076b3d071caec07396f2d299ed2c8d571",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "4ba5827a656acaea106785d6529309b7074c93258b43dc017adaf974fed809cf",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "22db280502c8759c6ac569f5509c7ea9a1bd67bd1d5c9a309606b27c49825dcd",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "8d866547d362f6852e1fddc9fdeca81c71b75998d82617bf96ed2d93ca5c432e",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "36de3bcd0667cb84b775b20da1580369173efb69a12c57b8e841c0e27363b525",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "039ad7247b85a1557e750e7e6063d25c5a437db9db6ff1c11470de5aa4d5d060",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "0e722cd5e86ed1bc2297e2a3ad6be365d29089a2cd3d722433891be939116216",
+          "size_bytes": 2836
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/coefficient_probe.json",
+          "sha256": "a5291daa92c671ab38c1d6422387b928192210cef8cdd2b3f88f3d60b3ac03b5",
+          "size_bytes": 30990
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/h00_clusters.csv",
+          "sha256": "e3da88c1bb155152a4cac3530fd3f56650d6ad70c5a85d1290c489ec6a22e6e4",
+          "size_bytes": 84186
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/loss_trajectory.csv",
+          "sha256": "ba2775655d8fa01da91df5389bc462f3994560bd33fd69408e8e6e2b868d7a57",
+          "size_bytes": 4964
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/model_final.pt",
+          "sha256": "6bb99bbdd371bd6f871cfc5ecd8553740b3e4aabb15680838b25c5b6d4cf3309",
+          "size_bytes": 1606431
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/observation_ids.csv",
+          "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "size_bytes": 76663
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/reload_spec.json",
+          "sha256": "41602c278941dabace80e18914416985e824a1737035844e61164af8aa1e8df2",
+          "size_bytes": 433
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/views.npz",
+          "sha256": "cff0f0eb5ec79e30b450ce8cf769f69cf974d56eb056a677eae278679fc3d615",
+          "size_bytes": 2556491
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99",
+      "canonical_input_and_cache_sha256": "82bb08f7edd2df2ea929d09cbfede4a21d40cfff64c6e264205a11890fa252de",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 10
+        },
+        "dataset_id": "a1",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "feature_scale_metric",
+          "feature_k": 10,
+          "feature_metric": "euclidean",
+          "id": "G04_SP10_F10_EUC_UNION",
+          "spatial_k": 10,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 4,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "f262023e00014ea843801dd3aaaee8f315f1f5e6d5aa85a588bcaae7fb47c314",
+      "checkpoint_file_sha256": "6bb99bbdd371bd6f871cfc5ecd8553740b3e4aabb15680838b25c5b6d4cf3309",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.04820029777211582,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.05079670159279826,
+        "L_rna_recon_raw": 3.9010030006350864
+      },
+      "dataset": "a1",
+      "final_tensor_state_sha256": "1ed097acb5cb7d004c94cceed8df68f96c3eeafaacdacc4e193424e2e9270c62",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "b37a2d736082913bd8d00d7c22e7cc236fd3fb455d91d44b3d8f9dbe6d39744f",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "3f7b8cffade6a6d6600c73d5c67a5586bb7461b61cb3bc6286398bb06524a536",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "ordinal": 9,
+      "peak_gpu_allocated_mib": 764.048828125,
+      "process_peak_rss_mib": 1252.01953125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001",
+      "run_manifest_sha256": "9a01da49f8f4273a6ec9f7b83c5a70771ec1a6a24c08c345d95770b51a5a70c0",
+      "runtime_seconds": 32.73352012038231,
+      "schema_version": 1,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "e5179a5b85db70e6f1c4df0351a57f27c8b9a89f289787f29f219659c2aa8c4a",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "d56b09900d55a4bd37993c0556bfed964cd306b186fc58dacf8f5cd0d9901c68",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "33a15c24f132ad45c25364856b6942969261c3a79af6293179b361769d144617",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "043318a9cbe95b27469dec5793be541884ec5ec8be6b8a28c8e87d40f862c562",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "6a8e84117ddcd698feea4109c820154c72c9f38598b425520e3c82cee571656d",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "9694e1b4fbbdce39d58f776aaca77e13844d6a50fd7d5c755dd269d6518d35bd",
+          "dtype": "float32",
+          "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+          "shape": [
+            3484,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "376d830de71c4a5f9d175c3a91e921bb63890c2a90bbfcd832e5332814fac0de",
+          "size_bytes": 2840
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/coefficient_probe.json",
+          "sha256": "3a1a5cd026abcaafcf946f97b76fba06b4dbf635e7f92de67f97b8181a4822c1",
+          "size_bytes": 30858
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/h00_clusters.csv",
+          "sha256": "78f847e3ecb9bb922cb61bf1d4617e2f8b1f9e60dbb8b1178fbc7fb76ba8523a",
+          "size_bytes": 103847
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/loss_trajectory.csv",
+          "sha256": "653939a86e4680078f45214ef8f0e9ab873dbec8587b8763550878a859a1c19d",
+          "size_bytes": 4958
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/model_final.pt",
+          "sha256": "d32be6f6e5fdac327b5a96d02609c3960193cec18fa0e3885e93ed84dc628ddd",
+          "size_bytes": 1606431
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/observation_ids.csv",
+          "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+          "size_bytes": 95187
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/reload_spec.json",
+          "sha256": "124dadb7bd2fa4e0defb759a970f150add8fe5218c8990ebc9ce24095e0925c2",
+          "size_bytes": 445
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/views.npz",
+          "sha256": "987292acc95c5a1edefc0c14c8c3ad5f4fa136bd023a1ad44297e7e32687d684",
+          "size_bytes": 3171567
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359",
+      "canonical_input_and_cache_sha256": "b6adea668caff555e0554839ec4b70ac73fd32014e8d812f804292eab4bccdee",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 4
+        },
+        "dataset_id": "tonsil",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "feature_scale_metric",
+          "feature_k": 10,
+          "feature_metric": "euclidean",
+          "id": "G04_SP10_F10_EUC_UNION",
+          "spatial_k": 10,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 2,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "fd8edeb488e2e6f2dc6ae2772a9df6495206f4875fd7e5b14cc992283e5ba0ef",
+      "checkpoint_file_sha256": "d32be6f6e5fdac327b5a96d02609c3960193cec18fa0e3885e93ed84dc628ddd",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.026404873243316012,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.055300143258437635,
+        "L_rna_recon_raw": 3.9182949834982463
+      },
+      "dataset": "tonsil",
+      "final_tensor_state_sha256": "e2deb1a609f40faa921d59f46cf131b7a402a58d79e368717845726e69133553",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "e5fe89846415ec63090f03918053d885bba8b3657918465900c85764cd5ca1c2",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "7bad35f665daa36f8277090d5d36c0003bac22e3c55e2b807c67e92652697ac0",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "ordinal": 10,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "process_peak_rss_mib": 1252.01953125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001",
+      "run_manifest_sha256": "a527a65c9f036cfa2fe654a29bf15743e4132fe2cfcc73dc77593080e0818339",
+      "runtime_seconds": 19.739009648561478,
+      "schema_version": 1,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "5e14010afbee1660221551a37f3147a405b5f11c79e8fd3009d35f4e7d78931b",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "ebc44a92cee83c75570f2d5f590b134e317e0cd40fb4a9a261d0c099d2a409e9",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "f87e15f9faf61b546e9c6ea857f8877292a9bc259a96bd42d0935fc12fe03405",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "e6b7b9fd6e20194b2900506278caba26150330c3e9cd5f3225ccf12f45e16859",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "32eedef4b8abc4294874467d6166b876c17f7e86d54526a5cb7f2dc267f76b35",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "815b2a0a41fa1bf2427b4e27e535aff7836a4970af7b33b5e65f901d8cdd4f91",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "c655c98a9ab44d09cac23b38d1b3a43a4d1093b7cdd2e7ea8b3ccd9d98c85ba6",
+          "size_bytes": 2834
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/coefficient_probe.json",
+          "sha256": "d28a3b68438c26ae72f40feadeaa5cd6c51e0dddacec5ed9373da18ee8183d37",
+          "size_bytes": 30886
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/h00_clusters.csv",
+          "sha256": "9a7edf05ad5751afb37b51fe63a24b024d913ad2a5dd6c3322249349c2d979d9",
+          "size_bytes": 103847
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/loss_trajectory.csv",
+          "sha256": "bdef4f6fcb68be8a6d9075047a0e0950307c9c0394d968c8b477107d6b0ff940",
+          "size_bytes": 4929
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/model_final.pt",
+          "sha256": "bf57c5f9ef22edf0ab25abe63892a0d1a5781c22b214403e51d59090747705ea",
+          "size_bytes": 1606431
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/observation_ids.csv",
+          "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+          "size_bytes": 95187
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/reload_spec.json",
+          "sha256": "30b99dbccd79b4183f42bde7308cc5af8419ebe0bc0841cd669ab0be2609df3a",
+          "size_bytes": 445
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/views.npz",
+          "sha256": "f309df877d27573b45a548c391336b2d26f14524f563b7804444627d95f00c0a",
+          "size_bytes": 3171603
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359",
+      "canonical_input_and_cache_sha256": "b6adea668caff555e0554839ec4b70ac73fd32014e8d812f804292eab4bccdee",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 4
+        },
+        "dataset_id": "tonsil",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "feature_scale_metric",
+          "feature_k": 10,
+          "feature_metric": "euclidean",
+          "id": "G04_SP10_F10_EUC_UNION",
+          "spatial_k": 10,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 3,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "d7dbf88a2ab57c6c5ba391ec0d0e62682155be597f81bb6d553c6a7c2ee1f735",
+      "checkpoint_file_sha256": "bf57c5f9ef22edf0ab25abe63892a0d1a5781c22b214403e51d59090747705ea",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.0213206232469513,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.05611413709794334,
+        "L_rna_recon_raw": 3.9225652396551047
+      },
+      "dataset": "tonsil",
+      "final_tensor_state_sha256": "1c5b46f68e8d4a95623602ab961a479323f6515ed9886b988e61c6843cf081d1",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "e5fe89846415ec63090f03918053d885bba8b3657918465900c85764cd5ca1c2",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "6fc29bc2c3d1fb757f6e8cf278881314eb1367edc2ac629c7c9d6528b9c534bb",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "ordinal": 11,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "process_peak_rss_mib": 1262.34375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001",
+      "run_manifest_sha256": "43789ad1dfc261eb44af6876516c3cf801a29963800d38d80b5728992b8f8ca7",
+      "runtime_seconds": 22.65150203369558,
+      "schema_version": 1,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "edb906dd70f95e6bafe5402fc10b4c08e31ec6a2ccec4af37e8ede5d58cdfd6e",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "142cc3ef83cbdd2287176578d060a3f4f6fc6314ee8434a977e2a0ac77086032",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "436d47a84ca4c6878f18eca679bf180bb521a62bc94df58929ebffc830dd58c4",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "b44b469d8a10f469d73dc484a720b5e6d86b4ce9bdfdf9b34fa59b6c3cc7ad5c",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "75ec5ca11d57183be3791d83a417ee2968fc400ceeae9d4cf70157b8635d17b2",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "14917176eadf4d54ae6fbe001d5ad9de0ac5f2b0cdf11d43f8da95881c9c802b",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        }
+      }
+    },
+    {
+      "artifacts": {
+        "checkpoint_reload_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/checkpoint_reload_audit.json",
+          "sha256": "a6441f80011be9320e0abf1b0380db161adaefb16927b19330ae970f599ab2fa",
+          "size_bytes": 2841
+        },
+        "coefficient_probe.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/coefficient_probe.json",
+          "sha256": "b75b7c1a2ce42455b13bcce2847cdeb5ef8315d56df0f77e349ab32de0171f96",
+          "size_bytes": 30803
+        },
+        "h00_clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/h00_clusters.csv",
+          "sha256": "30834ad484b68c1574f7f06fb9c99b2eea467f0cd3cd9b16bd68cec6eb6dbfa6",
+          "size_bytes": 103847
+        },
+        "loss_trajectory.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/loss_trajectory.csv",
+          "sha256": "ee078dd13a34c4412bc269dd2cdb615e052818c450cf5f9523706cc5100855b5",
+          "size_bytes": 4953
+        },
+        "model_final.pt": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/model_final.pt",
+          "sha256": "fd843b30640a71eded0ec5e7df5152a0175ade4566967579073e07465b2a0dce",
+          "size_bytes": 1606431
+        },
+        "observation_ids.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/observation_ids.csv",
+          "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+          "size_bytes": 95187
+        },
+        "reload_spec.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/reload_spec.json",
+          "sha256": "a3037e7e50e4612fcd45beae9289b09fc9ad9af6909262fad88baefc292dfbab",
+          "size_bytes": 445
+        },
+        "views.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/views.npz",
+          "sha256": "63695bec1032d2de861740f18f0ecdba3926cea2472a75e926469fab22dc7f4b",
+          "size_bytes": 3171929
+        }
+      },
+      "attempt": 1,
+      "base_cache_manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359",
+      "canonical_input_and_cache_sha256": "b6adea668caff555e0554839ec4b70ac73fd32014e8d812f804292eab4bccdee",
+      "canonical_training_config": {
+        "candidate": {
+          "attention": "shrink_to_uniform",
+          "corr2": false,
+          "description": "Learned fusion shrunk strongly toward equal weights",
+          "family": "fusion",
+          "id": "C04_SHRINK25",
+          "learned_fraction_rho": 0.25,
+          "loss_calibration": "active_set_IGE"
+        },
+        "checkpoint_policy": "fixed_final_epoch",
+        "dataset_config": {
+          "embedding_dim": 64,
+          "epochs": 200,
+          "locked_m_bad_expected": 2.289938091,
+          "loss_factors": [
+            1.9,
+            2.5,
+            1.5,
+            10.0
+          ],
+          "n_clusters": 4
+        },
+        "dataset_id": "tonsil",
+        "deterministic_seed_function": "SpaLORA.preprocess.fix_seed",
+        "encoder_id": "E00C_C04_B01_CLEAN",
+        "graph_candidate": {
+          "family": "feature_scale_metric",
+          "feature_k": 10,
+          "feature_metric": "euclidean",
+          "id": "G04_SP10_F10_EUC_UNION",
+          "spatial_k": 10,
+          "spatial_refinement": "none",
+          "spatial_symmetrization": "union"
+        },
+        "learning_rate": 0.0001,
+        "optimizer": "Adam",
+        "scheduler": null,
+        "seed": 4,
+        "weight_decay": 0.0
+      },
+      "canonical_training_config_sha256": "e9df9e8b81d93890d91c11cecd887cd456e259237542893f72e8ddeed32c40c3",
+      "checkpoint_file_sha256": "fd843b30640a71eded0ec5e7df5152a0175ade4566967579073e07465b2a0dce",
+      "checkpoint_round_trip_pass": true,
+      "code_commit": "6c51b6e7fba7357e5b20c41c952fae015a65b9a4",
+      "coefficients": {
+        "L_corr1_raw": 0.02405102554771043,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.05481768957322005,
+        "L_rna_recon_raw": 3.9211312848790696
+      },
+      "dataset": "tonsil",
+      "final_tensor_state_sha256": "0ab6ac6e5471ce683e0b1ac0b6afb0cc7c7e7b080c4b332ac0f2f98a252f89a1",
+      "fresh_scientific_training": true,
+      "graph_cache_sha256": "e5fe89846415ec63090f03918053d885bba8b3657918465900c85764cd5ca1c2",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "h00_cluster_reload_exact": true,
+      "h00_selected_model": "EEE",
+      "initial_state_sha256": "3f7b8cffade6a6d6600c73d5c67a5586bb7461b61cb3bc6286398bb06524a536",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "ordinal": 12,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "process_peak_rss_mib": 1266.59765625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001",
+      "run_manifest_sha256": "2594fb541934e87728cffb3767c57d78f97d03125f02fb4ea3d67609993f47ab",
+      "runtime_seconds": 20.013121958822012,
+      "schema_version": 1,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success",
+      "view_contracts": {
+        "SpaLORA_fused": {
+          "canonical_array_sha256": "9814ede753aa86ab7c22e0a088a9b5446ee6b38c2bf3f01ce979676589bb3ec9",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "alpha_cross": {
+          "canonical_array_sha256": "b2250f75657606cb9740bad4634386a82955c53b9ae92f6588b2c0df9befe70b",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics1": {
+          "canonical_array_sha256": "acb8a92cd8a249f50819eb198be29801382a1f5e063c1716f2727a8a69baaa68",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "alpha_omics2": {
+          "canonical_array_sha256": "14387620597579d0750095b16c5d7e3847aabd764c8e3914360776f858d1c348",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            2
+          ]
+        },
+        "emb_latent_omics1": {
+          "canonical_array_sha256": "7fef54855677fa9a291237abd559a491fcdccba29539fe67f85f190c6fe2c7bb",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        },
+        "emb_latent_omics2": {
+          "canonical_array_sha256": "75e245cec2beac7cbc2e7908d8cb30795a1e8436cc8f3da17dccffc6e47f86f8",
+          "dtype": "float32",
+          "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+          "shape": [
+            4326,
+            64
+          ]
+        }
+      }
+    }
+  ],
+  "schema_version": 1,
+  "scientific_training_units": 12,
+  "stage": "R2",
+  "status": "LOCKED",
+  "success_count": 12,
+  "total_training_attempts": 12
+}
