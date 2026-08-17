@@ -33,7 +33,7 @@ def test_bootstrap_is_deterministic_and_uses_paired_rows():
 def test_spatial_gate_direction_and_boundary_report_only():
     protected = pd.DataFrame({
         "delta_neighbor": [-.02] * 10, "delta_moran": [-.04] * 10,
-        "delta_geary": [.04] * 10, "delta_boundary": [.02] * 10,
+        "delta_geary": [.02] * 10, "delta_boundary": [.02] * 10,
     })
     failed = protected.copy()
     failed["delta_neighbor"] = -.04
