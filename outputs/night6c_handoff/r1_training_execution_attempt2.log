@@ -1,0 +1,36 @@
+{"dataset": "a1", "event": "training_start", "graph_id": "G00_SP18_F20_CORR_UNION", "ordinal": 1, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Traceback (most recent call last):
+  File "scripts/night6c_train.py", line 227, in <module>
+    main()
+  File "scripts/night6c_train.py", line 204, in main
+    rows.append(one(args.stage, dataset, graph_id, seed, ordinal,
+  File "scripts/night6c_train.py", line 98, in one
+    atomic_json(run / "coefficient_probe.json", {
+  File "/autodl-fs/data/SpaLORA-night6c/SpaLORA/night6c_pipeline.py", line 76, in atomic_json
+    json.dump(value, fh, indent=2, sort_keys=True, ensure_ascii=False,
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Tensor is not JSON serializable

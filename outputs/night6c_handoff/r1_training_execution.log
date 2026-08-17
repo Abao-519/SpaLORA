@@ -1,0 +1,13 @@
+{"dataset": "a1", "event": "training_start", "graph_id": "G00_SP18_F20_CORR_UNION", "ordinal": 1, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+Traceback (most recent call last):
+  File "scripts/night6c_train.py", line 225, in <module>
+    main()
+  File "scripts/night6c_train.py", line 202, in main
+    rows.append(one(args.stage, dataset, graph_id, seed, ordinal,
+  File "scripts/night6c_train.py", line 84, in one
+    torch.cuda.empty_cache(); torch.cuda.reset_peak_memory_stats(device)
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/torch/cuda/memory.py", line 281, in reset_peak_memory_stats
+    return torch._C._cuda_resetPeakMemoryStats(device)
+RuntimeError: Invalid device argument 0: did you call init?

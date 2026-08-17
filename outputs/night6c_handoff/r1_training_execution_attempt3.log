@@ -1,0 +1,620 @@
+{"dataset": "a1", "event": "training_start", "graph_id": "G00_SP18_F20_CORR_UNION", "ordinal": 1, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 8.940696716308594e-08, "max_rel": 0.0001594100144370539, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G00_SP18_F20_CORR_UNION/a1/seed_0/attempt_003", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G00_SP18_F20_CORR_UNION", "ordinal": 2, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 8.940696716308594e-08, "max_rel": 0.0005319137436959918, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G00_SP18_F20_CORR_UNION/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G00_SP18_F20_CORR_UNION", "ordinal": 3, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 7.450580596923828e-08, "max_rel": 0.00021017218174806796, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G00_SP18_F20_CORR_UNION/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G00_SP18_F20_CORR_UNION", "ordinal": 4, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.001501503915151901, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G00_SP18_F20_CORR_UNION/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G01_SP3_F20_CORR_UNION", "ordinal": 5, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.0004723763599315218, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G01_SP3_F20_CORR_UNION/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G01_SP3_F20_CORR_UNION", "ordinal": 6, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.0038224417529141245, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G01_SP3_F20_CORR_UNION/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G01_SP3_F20_CORR_UNION", "ordinal": 7, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.00013042650928534545, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G01_SP3_F20_CORR_UNION/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G01_SP3_F20_CORR_UNION", "ordinal": 8, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 8.940696716308594e-08, "max_rel": 7.03103446797136e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G01_SP3_F20_CORR_UNION/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G02_SP6_F20_CORR_UNION", "ordinal": 9, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.0006380662166076109, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G02_SP6_F20_CORR_UNION/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G02_SP6_F20_CORR_UNION", "ordinal": 10, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 8.009374141693115e-08, "max_rel": 6.705946065290968e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G02_SP6_F20_CORR_UNION/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G02_SP6_F20_CORR_UNION", "ordinal": 11, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 1.1920928955078125e-07, "max_rel": 0.0005750300706062771, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G02_SP6_F20_CORR_UNION/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G02_SP6_F20_CORR_UNION", "ordinal": 12, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.002380945021030064, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G02_SP6_F20_CORR_UNION/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G03_SP10_F20_CORR_UNION", "ordinal": 13, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 5.7905711272472644e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G03_SP10_F20_CORR_UNION/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G03_SP10_F20_CORR_UNION", "ordinal": 14, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.001246929884106982, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G03_SP10_F20_CORR_UNION/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G03_SP10_F20_CORR_UNION", "ordinal": 15, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 8.145382428234627e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G03_SP10_F20_CORR_UNION/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G03_SP10_F20_CORR_UNION", "ordinal": 16, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.0002780309753053964, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G03_SP10_F20_CORR_UNION/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G04_SP10_F10_EUC_UNION", "ordinal": 17, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 5.5690484445724554e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G04_SP10_F10_EUC_UNION/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G04_SP10_F10_EUC_UNION", "ordinal": 18, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 6.40955698836577e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G04_SP10_F10_EUC_UNION/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G04_SP10_F10_EUC_UNION", "ordinal": 19, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 2.857752626852295e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G04_SP10_F10_EUC_UNION/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G04_SP10_F10_EUC_UNION", "ordinal": 20, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 2.576884820094594e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G04_SP10_F10_EUC_UNION/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G05_SP6_F10_EUC_UNION", "ordinal": 21, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 4.1757403285012556e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G05_SP6_F10_EUC_UNION/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G05_SP6_F10_EUC_UNION", "ordinal": 22, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.00011302624957583047, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G05_SP6_F10_EUC_UNION/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G05_SP6_F10_EUC_UNION", "ordinal": 23, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 1.8268850127382263e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G05_SP6_F10_EUC_UNION/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G05_SP6_F10_EUC_UNION", "ordinal": 24, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 6.139674941937538e-06, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G05_SP6_F10_EUC_UNION/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G06_SP10_F10_EUC_INTERSECT", "ordinal": 25, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.00036838137463045246, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G06_SP10_F10_EUC_INTERSECT/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G06_SP10_F10_EUC_INTERSECT", "ordinal": 26, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 4.411309976672371e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G06_SP10_F10_EUC_INTERSECT/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G06_SP10_F10_EUC_INTERSECT", "ordinal": 27, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 1.0800313012708042e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G06_SP10_F10_EUC_INTERSECT/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G06_SP10_F10_EUC_INTERSECT", "ordinal": 28, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 1.9951374846430614e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G06_SP10_F10_EUC_INTERSECT/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G07_SP6_F10_EUC_INTERSECT", "ordinal": 29, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.00032247454444804795, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G07_SP6_F10_EUC_INTERSECT/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G07_SP6_F10_EUC_INTERSECT", "ordinal": 30, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 5.2150549645352053e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G07_SP6_F10_EUC_INTERSECT/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G07_SP6_F10_EUC_INTERSECT", "ordinal": 31, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 1.0675633640721807e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G07_SP6_F10_EUC_INTERSECT/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G07_SP6_F10_EUC_INTERSECT", "ordinal": 32, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 8.598920414888563e-05, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G07_SP6_F10_EUC_INTERSECT/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G08_SP10_F10_EUC_MUTUAL", "ordinal": 33, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.0017093940375862034, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G08_SP10_F10_EUC_MUTUAL/a1/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "a1", "event": "training_start", "graph_id": "G08_SP10_F10_EUC_MUTUAL", "ordinal": 34, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.0003962548307996273, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G08_SP10_F10_EUC_MUTUAL/a1/seed_1/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G08_SP10_F10_EUC_MUTUAL", "ordinal": 35, "planned": 36, "seed": 0, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.00015565162995679176, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G08_SP10_F10_EUC_MUTUAL/tonsil/seed_0/attempt_001", "status": "PASS"}
+{"dataset": "tonsil", "event": "training_start", "graph_id": "G08_SP10_F10_EUC_MUTUAL", "ordinal": 36, "planned": 36, "seed": 1, "stage": "R1"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"h00_exact": true, "max_abs": 5.960464477539063e-08, "max_rel": 0.001037839331019723, "run": "/autodl-fs/data/night6c_raw_runs_20260817/r1/G08_SP10_F10_EUC_MUTUAL/tonsil/seed_1/attempt_001", "status": "PASS"}
+{"event": "training_stage_locked", "planned": 36, "stage": "R1", "success": 36}
