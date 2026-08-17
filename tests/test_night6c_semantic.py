@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
 import pytest
 import scipy.sparse as sp
 import torch
@@ -14,8 +15,9 @@ from SpaLORA.night3a_ige import model_state_sha256
 from SpaLORA.night5a_rnd import Night5ATrainer
 from SpaLORA.night6c_firewall import FirewallViolation, guard_path, reject_transform_payload
 from SpaLORA.night6c_pipeline import (
-    BASE_C04, _neighbors, binary_knn, finite_float_or_none, forward_model, moran_scores, normalize_support,
-    parse_registry, reliability_weights, run_head, self_tuning_affinity,
+    BASE_C04, _neighbors, binary_knn, finite_float_or_none, forward_model,
+    merge_deterministic_stage_rows, moran_scores, normalize_support, parse_registry,
+    reliability_weights, run_head, self_tuning_affinity,
 )
 
 REPO = Path(__file__).resolve().parents[1]
@@ -34,6 +36,21 @@ def test_nonfinite_incomplete_head_summary_is_strict_json_safe():
     assert finite_float_or_none(np.inf) is None
     assert finite_float_or_none(3.25) == 3.25
     json.dumps({"mean_runtime_seconds": finite_float_or_none(np.nan)}, allow_nan=False)
+
+
+def test_deterministic_stage_metric_recovery_is_fail_closed():
+    keys = ["dataset", "graph_id", "seed", "head_id"]
+    old = pd.DataFrame([{"stage": "R1", "dataset": "a1", "graph_id": "G00",
+                         "seed": 0, "head_id": "H00", "q": 0.25}])
+    replay = old.copy()
+    merged = merge_deterministic_stage_rows(old, replay, "R1", keys)
+    assert len(merged) == 1 and merged.iloc[0]["q"] == 0.25
+    changed = replay.copy(); changed.loc[0, "q"] = 0.250001
+    with pytest.raises(RuntimeError, match="recomputed stage metrics mismatch"):
+        merge_deterministic_stage_rows(old, changed, "R1", keys)
+    cross_stage = old.copy(); cross_stage.loc[0, "stage"] = "R0"
+    with pytest.raises(RuntimeError, match="cross-stage"):
+        merge_deterministic_stage_rows(cross_stage, replay, "R1", keys)
 
 
 def test_knn_lexical_tie_and_union_mutual():

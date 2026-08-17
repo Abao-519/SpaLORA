@@ -91,6 +91,32 @@ def finite_float_or_none(value):
     return result if math.isfinite(result) else None
 
 
+def merge_deterministic_stage_rows(previous: pd.DataFrame, current: pd.DataFrame,
+                                   stage: str, keys: Sequence[str]) -> pd.DataFrame:
+    """Replace a prior stage only after an exact-key, deterministic-value replay check."""
+    if current.duplicated(list(keys)).any():
+        raise RuntimeError("current stage metric primary-key duplication")
+    if previous.empty:
+        return current.copy()
+    if "stage" not in previous.columns:
+        raise RuntimeError("existing metric table lacks stage provenance")
+    prior_stage = previous[previous["stage"].astype(str) == str(stage)].copy()
+    other = previous[previous["stage"].astype(str) != str(stage)].copy()
+    if len(other.merge(current, on=list(keys))):
+        raise RuntimeError("cross-stage metric primary-key overlap")
+    if not prior_stage.empty:
+        if set(prior_stage.columns) != set(current.columns):
+            raise RuntimeError("recomputed stage metric columns mismatch")
+        old = prior_stage.sort_values(list(keys)).reset_index(drop=True)[list(current.columns)]
+        new = current.sort_values(list(keys)).reset_index(drop=True)
+        try:
+            pd.testing.assert_frame_equal(old, new, check_dtype=False,
+                                          check_exact=False, rtol=0.0, atol=1e-12)
+        except AssertionError as exc:
+            raise RuntimeError(f"recomputed stage metrics mismatch: {exc}") from exc
+    return pd.concat([other, current], ignore_index=True)
+
+
 def atomic_torch_save(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")

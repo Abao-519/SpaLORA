@@ -18,7 +18,10 @@ from SpaLORA.night1_evaluation import _mean_cluster_moran, load_evaluation_label
 from SpaLORA.night3af_cache import load_cache, sha256_file
 from SpaLORA.night3b_metrics import mean_one_vs_rest_geary, symmetric_knn_adjacency
 from SpaLORA.night6c_firewall import guard_path
-from SpaLORA.night6c_pipeline import atomic_json, finite_float_or_none, load_views, parse_registry
+from SpaLORA.night6c_pipeline import (
+    atomic_json, finite_float_or_none, load_views, merge_deterministic_stage_rows,
+    parse_registry,
+)
 
 OUT = REPO / "outputs/night6c_handoff"
 CACHE = Path("/root/autodl-fs/night6c_cache_20260817/base")
@@ -106,11 +109,8 @@ def stage_evaluate(stage: str, registry: dict) -> pd.DataFrame:
     current_path = OUT / "per_seed_metrics.csv"
     previous = pd.read_csv(current_path) if current_path.exists() else pd.DataFrame()
     current = pd.DataFrame(rows)
-    if not previous.empty:
-        keys = ["dataset", "graph_id", "seed", "head_id"]
-        overlap = previous.merge(current, on=keys)
-        if len(overlap): raise RuntimeError("stage metric primary-key overlap")
-        current = pd.concat([previous, current], ignore_index=True)
+    keys = ["dataset", "graph_id", "seed", "head_id"]
+    current = merge_deterministic_stage_rows(previous, current, stage, keys)
     current.sort_values(["dataset", "graph_id", "seed", "head_id"]).to_csv(current_path, index=False)
     atomic_json(OUT / f"firewall/{stage.lower()}_label_access_audit.json", {
         "stage": stage, "transform_manifest_sha256": sha256_file(transform_path),
