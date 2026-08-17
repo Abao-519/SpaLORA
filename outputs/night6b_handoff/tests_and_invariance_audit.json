@@ -1,0 +1,39 @@
+{
+  "budgets": {
+    "head_transform_cap": 552,
+    "head_transforms": 0,
+    "retries": 0,
+    "retry_cap": 12,
+    "scientific_training": 0,
+    "scientific_training_cap": 61
+  },
+  "firewall_tests": {
+    "failed": 0,
+    "passed": 9
+  },
+  "fixed_seeds_preserved": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "force_push": false,
+  "formal_evaluator_started": false,
+  "history_mutation": false,
+  "label_checkpoint_selection": false,
+  "night5_c04_artifact_hashes": {
+    "checked": 30,
+    "mismatches": 0
+  },
+  "night6a_invalid_artifact_use": false,
+  "ontology_authorization": "Only data_steward read final_annot/lab/lab_lynn/src; known K=4 was exported without per-spot labels.",
+  "parameter_search_after_results": false,
+  "registry": {
+    "all_config_hashes_unique": true,
+    "graphs": 9,
+    "heads": 12
+  },
+  "seed_search": false,
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

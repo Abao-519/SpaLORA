@@ -1,0 +1,28 @@
+{
+  "failed_gate": "Taskbook 5.2.3/5.2.4 and section 6 require valid Night-5 C04/B01 final checkpoints for read-only forward replay. Night-5A never saved them.",
+  "firewall_negative_tests": "9/9 passed",
+  "forbidden_workarounds_rejected": [
+    "retrain C04/B01",
+    "substitute Night-3AF model state",
+    "substitute Night-6A invalid model state",
+    "claim fused embedding is a loadable checkpoint"
+  ],
+  "formal_head_transforms_started": false,
+  "formal_training_started": false,
+  "ontology_contract": "PASS; final_annot K=4",
+  "reference_replay": {
+    "artifact_hash_mismatches": 0,
+    "forward_replay_executed": false,
+    "private_views_derived": false,
+    "status": "FAIL_REQUIRED_VALID_CHECKPOINT_ABSENT",
+    "valid_checkpoint_available": false
+  },
+  "registry_parse": {
+    "graphs": "9/9",
+    "heads": "12/12",
+    "unique_graph_config_sha": "9/9",
+    "unique_head_config_sha": "12/12"
+  },
+  "status": "FAIL_REQUIRED_A1_REFERENCE_REPLAY",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

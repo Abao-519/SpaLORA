@@ -1,0 +1,88 @@
+{
+  "data_steward_access_log": [
+    {
+      "allowed": true,
+      "operation": "source_sha256",
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_rna.h5ad",
+      "phase_locked": false,
+      "reason": "authorized ontology/source-copy access",
+      "role": "data_steward"
+    },
+    {
+      "allowed": true,
+      "operation": "source_sha256",
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_adt.h5ad",
+      "phase_locked": false,
+      "reason": "authorized ontology/source-copy access",
+      "role": "data_steward"
+    },
+    {
+      "allowed": true,
+      "operation": "low_level_hdf5_ontology_read",
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_rna.h5ad",
+      "phase_locked": false,
+      "reason": "authorized ontology/source-copy access",
+      "role": "data_steward"
+    },
+    {
+      "allowed": true,
+      "operation": "low_level_hdf5_ontology_read",
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_adt.h5ad",
+      "phase_locked": false,
+      "reason": "authorized ontology/source-copy access",
+      "role": "data_steward"
+    },
+    {
+      "allowed": true,
+      "operation": "low_level_hdf5_label_free_copy",
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_rna.h5ad",
+      "phase_locked": false,
+      "reason": "authorized ontology/source-copy access",
+      "role": "data_steward"
+    },
+    {
+      "allowed": true,
+      "operation": "low_level_hdf5_label_free_copy",
+      "path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_adt.h5ad",
+      "phase_locked": false,
+      "reason": "authorized ontology/source-copy access",
+      "role": "data_steward"
+    }
+  ],
+  "label_firewall_breach": false,
+  "negative_tests": "9/9 passed",
+  "night6a_invalid_checkpoint_embedding_metric_use": false,
+  "protected_dataset_access": {
+    "D1": 0,
+    "GSE198353": 0,
+    "Night4B": 0,
+    "P22": 0,
+    "night5d_metric_content": 0,
+    "night6a_raw_runs": 0
+  },
+  "roles": {
+    "data_steward": {
+      "authorized_role": "data_steward",
+      "deserialized_into_memory": true,
+      "explicitly_indexed_or_observed": true,
+      "purpose": "locked ontology and label-free copy",
+      "used_for_training_or_selection": false
+    },
+    "evaluator": {
+      "authorized_role": "evaluator",
+      "deserialized_original_obs_into_memory": false,
+      "explicitly_indexed_or_observed": false,
+      "process_started": false,
+      "used_for_training_or_selection": false
+    },
+    "trainer_transformer": {
+      "authorized_role": "trainer_transformer",
+      "deserialized_original_obs_into_memory": false,
+      "explicitly_indexed_or_observed": false,
+      "process_started": false,
+      "used_for_training_or_selection": false
+    }
+  },
+  "status": "FIREWALL_CLEAN_AT_STOP",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

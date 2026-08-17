@@ -1,0 +1,24 @@
+{
+  "accuracy_frontier_candidate": null,
+  "balanced_candidate": null,
+  "candidate_lock_status": "NONE",
+  "formal_scientific_training_units": 0,
+  "hard_stop_reason": "The required valid Night-5 C04/B01 final checkpoints do not exist because the authoritative Night-5A runner did not save model state. Therefore exact read-only forward replay and private-view derivation cannot be performed.",
+  "head_transforms": 0,
+  "next_authority_needed": "A new planning decision must either preregister a clean C04/B01 baseline retraining as new evidence or provide a genuinely SHA-verified historical checkpoint. This run cannot make that change.",
+  "ontology_result": {
+    "known_k": 4,
+    "status": "PASS",
+    "target_column": "final_annot"
+  },
+  "protected_access": {
+    "D1": 0,
+    "GSE198353": 0,
+    "Night4B": 0,
+    "P22": 0
+  },
+  "scientific_result_available": false,
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "training_retries": 0,
+  "transform_corrections": 0
+}

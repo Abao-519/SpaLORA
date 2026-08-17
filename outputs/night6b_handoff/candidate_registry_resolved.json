@@ -1,0 +1,308 @@
+{
+  "formal_candidate_outputs_produced": false,
+  "graph_candidates": [
+    {
+      "config_sha256": "9e4f637c1460c7d1e7206b93df549cd4befbadeff9de220dc76297f7a47f1121",
+      "id": "G00_SP18_F20_CORR_UNION",
+      "resolved": {
+        "family": "reference",
+        "feature_k": 20,
+        "feature_metric": "correlation",
+        "id": "G00_SP18_F20_CORR_UNION",
+        "spatial_k": 18,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "2424202fc370c5d4dfd81727a53f91f208cb2031559f9fc633074d615c7da44e",
+      "id": "G01_SP3_F20_CORR_UNION",
+      "resolved": {
+        "family": "spatial_scale",
+        "feature_k": 20,
+        "feature_metric": "correlation",
+        "id": "G01_SP3_F20_CORR_UNION",
+        "source_inspiration": "SpaBalance 10x source default",
+        "spatial_k": 3,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "1e4949c6d80591d3d6397023039e877fe64f0db9e91baeec5c0f69edb06ad10e",
+      "id": "G02_SP6_F20_CORR_UNION",
+      "resolved": {
+        "family": "spatial_scale",
+        "feature_k": 20,
+        "feature_metric": "correlation",
+        "id": "G02_SP6_F20_CORR_UNION",
+        "spatial_k": 6,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "d5bdf8ecb5b5c118fc4e30372411af99ec12f6bf36ec2d578910935701f9c44f",
+      "id": "G03_SP10_F20_CORR_UNION",
+      "resolved": {
+        "family": "spatial_scale",
+        "feature_k": 20,
+        "feature_metric": "correlation",
+        "id": "G03_SP10_F20_CORR_UNION",
+        "source_inspiration": "SpaMosaic/SpaMICS neighborhood scale",
+        "spatial_k": 10,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "abd14bfc267f964927ea952359fa5cc94f9bfabe101f176805c037f1946bc639",
+      "id": "G04_SP10_F10_EUC_UNION",
+      "resolved": {
+        "family": "feature_scale_metric",
+        "feature_k": 10,
+        "feature_metric": "euclidean",
+        "id": "G04_SP10_F10_EUC_UNION",
+        "spatial_k": 10,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "c68195e4df8ca48a0de7d7d85bb723ab0bf2e7687fb6453b472243b740aa273f",
+      "id": "G05_SP6_F10_EUC_UNION",
+      "resolved": {
+        "family": "feature_scale_metric",
+        "feature_k": 10,
+        "feature_metric": "euclidean",
+        "id": "G05_SP6_F10_EUC_UNION",
+        "spatial_k": 6,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "6aa6e3eab30b569c68de6767f99a00cc0b0fb2412c966a037033e8a338891583",
+      "id": "G06_SP10_F10_EUC_INTERSECT",
+      "resolved": {
+        "family": "feature_spatial_intersection",
+        "feature_k": 10,
+        "feature_metric": "euclidean",
+        "id": "G06_SP10_F10_EUC_INTERSECT",
+        "source_inspiration": "clean-room sparse analogue of SpaMICS graph refinement",
+        "spatial_k": 10,
+        "spatial_refinement": "per_modality_support_intersection_with_its_feature_graph",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "ed566f5b1b031969803b6fe929b58d54cde53c21f4b12e7dec9c6d04f6d16d54",
+      "id": "G07_SP6_F10_EUC_INTERSECT",
+      "resolved": {
+        "family": "feature_spatial_intersection",
+        "feature_k": 10,
+        "feature_metric": "euclidean",
+        "id": "G07_SP6_F10_EUC_INTERSECT",
+        "spatial_k": 6,
+        "spatial_refinement": "per_modality_support_intersection_with_its_feature_graph",
+        "spatial_symmetrization": "union"
+      }
+    },
+    {
+      "config_sha256": "b216521749ceabb76a7369519d145aebee9c9e60607f3662589f9f8b6035e7d7",
+      "id": "G08_SP10_F10_EUC_MUTUAL",
+      "resolved": {
+        "family": "spatial_topology",
+        "feature_k": 10,
+        "feature_metric": "euclidean",
+        "id": "G08_SP10_F10_EUC_MUTUAL",
+        "spatial_k": 10,
+        "spatial_refinement": "none",
+        "spatial_symmetrization": "mutual"
+      }
+    }
+  ],
+  "graph_count": 9,
+  "head_candidates": [
+    {
+      "config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "resolved": {
+        "algorithm": "deterministic_pca20_then_mclust_EEE",
+        "family": "reference",
+        "id": "H00_FUSED_PCA20_MCLUST_EEE",
+        "input_views": [
+          "SpaLORA_fused"
+        ]
+      }
+    },
+    {
+      "config_sha256": "bcbc39b2050e49baa88e80c8626a330ab0366e089cfb56ca5a4e8485bd43be51",
+      "id": "H01_FUSED_DIRECT_MCLUST_EEE",
+      "resolved": {
+        "algorithm": "mclust_EEE_without_extra_pca",
+        "family": "mclust_geometry",
+        "id": "H01_FUSED_DIRECT_MCLUST_EEE",
+        "input_views": [
+          "SpaLORA_fused"
+        ]
+      }
+    },
+    {
+      "config_sha256": "49a5351680939b61ea34f32d7f055209549b04f1efc472a68f113c3fa7257583",
+      "id": "H02_FUSED_PCA20_MCLUST_BIC",
+      "resolved": {
+        "algorithm": "deterministic_pca20_then_mclust_BIC_model_selection",
+        "allowed_covariance_models": [
+          "EII",
+          "VII",
+          "EEI",
+          "VEI",
+          "EVI",
+          "VVI",
+          "EEE",
+          "EVE",
+          "VEE",
+          "VVE",
+          "EEV",
+          "VEV",
+          "EVV",
+          "VVV"
+        ],
+        "family": "mclust_geometry",
+        "id": "H02_FUSED_PCA20_MCLUST_BIC",
+        "input_views": [
+          "SpaLORA_fused"
+        ]
+      }
+    },
+    {
+      "config_sha256": "92577116789ce85e7267aa17e2388beecaf0dd99550548c5d11357601f441859",
+      "id": "H03_CONCAT_PRIVATE_PCA20_MCLUST_EEE",
+      "resolved": {
+        "algorithm": "equal_block_scaled_concatenation_then_deterministic_pca20_then_mclust_EEE",
+        "family": "multi_view_feature",
+        "id": "H03_CONCAT_PRIVATE_PCA20_MCLUST_EEE",
+        "input_views": [
+          "emb_latent_omics1",
+          "emb_latent_omics2"
+        ]
+      }
+    },
+    {
+      "config_sha256": "76840968f0270b1c136820c609189716ad7fd2028c3860904af31ed7061e700a",
+      "id": "H04_RELIABILITY_CONCAT3_PCA20_MCLUST_EEE",
+      "resolved": {
+        "algorithm": "neighbor_overlap_reliability_weighted_block_concatenation_then_pca20_mclust_EEE",
+        "family": "multi_view_feature",
+        "id": "H04_RELIABILITY_CONCAT3_PCA20_MCLUST_EEE",
+        "input_views": [
+          "emb_latent_omics1",
+          "emb_latent_omics2",
+          "SpaLORA_fused"
+        ],
+        "reliability": "for each view, mean Jaccard overlap of its k10 neighbor sets with the other two views; normalize nonnegative scores to sum one; scale each block by sqrt(weight)"
+      }
+    },
+    {
+      "config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "resolved": {
+        "algorithm": "arithmetic_mean_of_three_sparse_self_tuning_affinities_then_spectral",
+        "family": "sparse_affinity",
+        "id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+        "input_views": [
+          "emb_latent_omics1",
+          "emb_latent_omics2",
+          "SpaLORA_fused"
+        ]
+      }
+    },
+    {
+      "config_sha256": "24d3d8f464e47f131b1241d998a0b9e1514920a13b2e0d0f86067c178b27bc52",
+      "id": "H06_AGREEMENT3_AFFINITY_SPECTRAL",
+      "resolved": {
+        "algorithm": "retain_affinity_edges_supported_by_at_least_two_views_then_spectral",
+        "family": "sparse_affinity",
+        "id": "H06_AGREEMENT3_AFFINITY_SPECTRAL",
+        "input_views": [
+          "emb_latent_omics1",
+          "emb_latent_omics2",
+          "SpaLORA_fused"
+        ],
+        "isolated_node_rule": "restore the single strongest edge from the H05 mean affinity with observation_id tie break"
+      }
+    },
+    {
+      "config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "resolved": {
+        "algorithm": "0.95_molecular_affinity_plus_0.05_spatial_affinity_then_spectral",
+        "base": "H05_EQUAL3_AFFINITY_SPECTRAL",
+        "family": "sparse_affinity_spatial",
+        "id": "H07_EQUAL3_AFFINITY_SPATIAL05"
+      }
+    },
+    {
+      "config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "resolved": {
+        "algorithm": "0.90_molecular_affinity_plus_0.10_spatial_affinity_then_spectral",
+        "base": "H05_EQUAL3_AFFINITY_SPECTRAL",
+        "family": "sparse_affinity_spatial",
+        "id": "H08_EQUAL3_AFFINITY_SPATIAL10"
+      }
+    },
+    {
+      "config_sha256": "215ec3d3336de2f072c26bb30d24c1f562b7bc55e802a4a7dd9428d16d3f977d",
+      "id": "H09_VIEW_PARTITION_COASSOCIATION",
+      "resolved": {
+        "algorithm": "mclust_EEE_each_view_then_sparse_within_run_coassociation_then_spectral",
+        "coassociation_support": "union of the three view k10 neighbor graphs; edge value is fraction of view partitions assigning the pair together",
+        "family": "partition_ensemble",
+        "id": "H09_VIEW_PARTITION_COASSOCIATION",
+        "input_views": [
+          "emb_latent_omics1",
+          "emb_latent_omics2",
+          "SpaLORA_fused"
+        ]
+      }
+    },
+    {
+      "config_sha256": "6c5c9a38842a858243572a3e6440b7f84a76e1755c7feb9dcff17221bc3ff790",
+      "id": "H10_MCLUST_POSTERIOR_MRF05",
+      "resolved": {
+        "algorithm": "deterministic_ICM_with_mclust_negative_log_posterior_unary_and_beta_0.05_spatial_disagreement",
+        "base": "H00_FUSED_PCA20_MCLUST_EEE",
+        "family": "label_spatial_refinement",
+        "id": "H10_MCLUST_POSTERIOR_MRF05",
+        "max_sweeps": 20,
+        "tie_break": "original_label_then_smallest_integer_label",
+        "update_order": "observation_id_lexical"
+      }
+    },
+    {
+      "config_sha256": "59feca2273b8f3b6a95179ce296a6920e5ec5735d16dd825f5a82bfd0d8981b6",
+      "id": "H11_MCLUST_POSTERIOR_MRF10",
+      "resolved": {
+        "algorithm": "deterministic_ICM_with_mclust_negative_log_posterior_unary_and_beta_0.10_spatial_disagreement",
+        "base": "H00_FUSED_PCA20_MCLUST_EEE",
+        "family": "label_spatial_refinement",
+        "id": "H11_MCLUST_POSTERIOR_MRF10",
+        "max_sweeps": 20,
+        "tie_break": "original_label_then_smallest_integer_label",
+        "update_order": "observation_id_lexical"
+      }
+    }
+  ],
+  "head_count": 12,
+  "registry_sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "PARSE_PASS_BUT_EXECUTION_BLOCKED"
+}

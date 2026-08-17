@@ -1,0 +1,175 @@
+{
+  "branch": "revision/q2-night6b-graph-affinity-rescue-20260817",
+  "files": [
+    {
+      "path": "night6b_report.md",
+      "sha256": "06de92eaf16aa7d2fc9fdfc1bd127451a6db0d22d03f5805ba1a9181fc30ed02",
+      "size_bytes": 3174
+    },
+    {
+      "path": "ontology/tonsil_ontology_contract.json",
+      "sha256": "9b0473b22807a0408a04759c1b1ba664c1d15f77433069b1d8725300665a9e66",
+      "size_bytes": 7540
+    },
+    {
+      "path": "firewall/data_role_and_access_audit.json",
+      "sha256": "6e5b4b7a138bda02d57e40a36487b956998cf22c175e151d9264ddd9f4ec1eb1",
+      "size_bytes": 2941
+    },
+    {
+      "path": "firewall/source_to_label_free_manifest.json",
+      "sha256": "a613643474858cf9b8a6be85328c21c08a40c72021ecb141d8b4b62557741aed",
+      "size_bytes": 1310
+    },
+    {
+      "path": "p0_protect_audit.json",
+      "sha256": "c2702c4f6707f314b2441c3901a4bfaa32197c65e09958321494f911f6c19c80",
+      "size_bytes": 2416
+    },
+    {
+      "path": "p0_semantic_contract.json",
+      "sha256": "108cbeb0a493eb9c0e122daeb3b3e11e848db1ebb8ab0798bcd533b1671f0088",
+      "size_bytes": 1024
+    },
+    {
+      "path": "candidate_registry_resolved.json",
+      "sha256": "56636e3c09d3b2c6cc32a3e6ef7d8181f737d2e8d4222660aca32815d4fac558",
+      "size_bytes": 10711
+    },
+    {
+      "path": "graph_cache_manifest_index.json",
+      "sha256": "e1cd76bcb704e36110c64d3e60c21eab53cd92e17de313e108e84b791019d52d",
+      "size_bytes": 245
+    },
+    {
+      "path": "reference_reuse_and_multiview_parity.json",
+      "sha256": "72a5ed9db0f67fb0119ce78d8048c71555d1b7ba12c72bbdec79013344e2a276",
+      "size_bytes": 13444
+    },
+    {
+      "path": "r1_training_manifest.json",
+      "sha256": "269ef9a7e8aad53105ac7f7aada08ce611dafa8d9006979f4d5041533311bfc0",
+      "size_bytes": 212
+    },
+    {
+      "path": "r1_transform_manifest.json",
+      "sha256": "1950e6208e7b530fd91d21d096c12a4005dc7b6f2be4e3c036f96a29dc01ace0",
+      "size_bytes": 233
+    },
+    {
+      "path": "r1_decision.json",
+      "sha256": "885948128991e0a24d975e0d1c96c39217bcf197b3c6d343911f6294e0fbc144",
+      "size_bytes": 171
+    },
+    {
+      "path": "r2_training_manifest.json",
+      "sha256": "b5cb6790c0299392f33b5a166c4950a28d581feb944c40ff802525bedf00a4fb",
+      "size_bytes": 212
+    },
+    {
+      "path": "r2_transform_manifest.json",
+      "sha256": "e1e89a009de350a84c70c7cfbac0e3bfd22c93492a25309da533a582ee70d738",
+      "size_bytes": 233
+    },
+    {
+      "path": "per_seed_metrics.csv",
+      "sha256": "adfd1d4ed5d54c506902f0eee10da6b858b66029c16e7a1f44c7a365a18a2754",
+      "size_bytes": 104
+    },
+    {
+      "path": "graph_head_five_seed_summary.csv",
+      "sha256": "7ded6577259dc091a3c8fafcabbeab9918f47ee204ddbeda1365ebc857fd73cf",
+      "size_bytes": 111
+    },
+    {
+      "path": "balanced_and_accuracy_frontiers.csv",
+      "sha256": "0b9335eced365382286ec4b5d8c51d3dba9edee5b2e5a641aa15b38e1f726bad",
+      "size_bytes": 96
+    },
+    {
+      "path": "night6b_decision.json",
+      "sha256": "c33ae2d6234f0bd7819476c3be6ca339f71b6fb74759c7277e471dbcfb97bca5",
+      "size_bytes": 992
+    },
+    {
+      "path": "tests_and_invariance_audit.json",
+      "sha256": "3517370e0a873e8df899731af68d6608709c45a43b2f2b2909fe1bcc30247003",
+      "size_bytes": 906
+    },
+    {
+      "path": "night5a_checkpoint_local_archive_audit.json",
+      "sha256": "fe5c87a881c4c3221de4d78c1d8abdfd21300cb0a2d2e20a1692b532e454ce9d",
+      "size_bytes": 765
+    },
+    {
+      "path": "failures/p0_protect_attempt1.json",
+      "sha256": "39fc6d6d26812eff72dcb6986753b80458088041a2ad0d088da24b35b4c69a31",
+      "size_bytes": 457
+    },
+    {
+      "path": "SpaLORA/night6b_firewall.py",
+      "root": "repo",
+      "sha256": "7e0f1bfde2d88a5404df6215dea3476ba9478ec60cfec623baff17a394fd3738",
+      "size_bytes": 2451
+    },
+    {
+      "path": "scripts/night6b_p0_protect.py",
+      "root": "repo",
+      "sha256": "657c244a5affb48d9a4270e979dfa61cda88557609006bb1e790578ef40db1e5",
+      "size_bytes": 3624
+    },
+    {
+      "path": "scripts/night6b_data_steward.py",
+      "root": "repo",
+      "sha256": "90607195cbb4b2a196ff83925ac0b70efb8d23dab60c9269df7c6ad83e4b2f12",
+      "size_bytes": 9122
+    },
+    {
+      "path": "scripts/night6b_reference_reuse_audit.py",
+      "root": "repo",
+      "sha256": "d1a75d26d87c8a0729c1003221735bd98cb6caea7773f3f227212fa6975e4f49",
+      "size_bytes": 3145
+    },
+    {
+      "path": "scripts/night6b_finalize_invalid.py",
+      "root": "repo",
+      "sha256": "6857166d0ac85fc5467dad40b7f1b350ab97a78a6999e8fc6cebf65a4b815da9",
+      "size_bytes": 12022
+    },
+    {
+      "path": "tests/test_night6b_firewall.py",
+      "root": "repo",
+      "sha256": "5190ca2aa9df013bbe1f5cd920c847e16d93a750d2c5aee020f62c40478d9202",
+      "size_bytes": 1442
+    },
+    {
+      "path": "protocols/night6b/SpaLORA_Night6A_Independent_Planner_Audit_2026-08-17.md",
+      "root": "repo",
+      "sha256": "4b5d501cd0c521555a919752f91b2ee48562cd623b2f851e901b7696bdd2b314",
+      "size_bytes": 7982
+    },
+    {
+      "path": "protocols/night6b/SpaLORA_Night6B_Candidate_Registry_2026-08-17.json",
+      "root": "repo",
+      "sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030",
+      "size_bytes": 12168
+    },
+    {
+      "path": "protocols/night6b/SpaLORA_Night6B_Firewall_Clean_Graph_and_Clustering_Rescue_Taskbook_2026-08-17.md",
+      "root": "repo",
+      "sha256": "fd23c99388abfed94cb27be56ca7a8185ca5baa6f60f09bcc4af6f850282691c",
+      "size_bytes": 17687
+    },
+    {
+      "path": "protocols/night6b/SpaLORA_Post_Night6A_Research_Decision_2026-08-17.md",
+      "root": "repo",
+      "sha256": "4d7d000382f94d1f2b522bae9e55663dac63ca9f4e99898c9e9a38fa8b385c00",
+      "size_bytes": 6367
+    }
+  ],
+  "internal_output_root": "outputs/night6b_handoff",
+  "planned_final_tag": "night6b-final-20260817",
+  "repo_root_marker": "root=repo",
+  "schema": "non-self-referential-v1",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}
