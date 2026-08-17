@@ -1,0 +1,72 @@
+{
+  "access_semantics": {
+    "annotation_obs_values_read": false,
+    "authorized_role": "data_steward",
+    "deserialized_into_memory": true,
+    "explicitly_indexed_or_observed": false,
+    "used_for_training_or_selection": false
+  },
+  "adt": {
+    "canonicalized_to_rna_coordinate_orientation": true,
+    "obs_columns": [],
+    "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+    "pairwise_distance_geometry_changed": false,
+    "path": "/root/autodl-fs/night6d_data_20260817/d1_label_free/d1_adt_label_free.h5ad",
+    "sha256": "097210946485dcad8a606211c91bf28678156aaa6f0502d4abafac4d23db964a",
+    "shape": [
+      3359,
+      31
+    ],
+    "size_bytes": 464002,
+    "source_annotation_obs_values_read": false,
+    "source_coordinates_equal_to_rna": false,
+    "source_coordinates_exact_negative_of_rna": true,
+    "source_obs_storage_keys_not_read": [
+      "_index",
+      "final_annot",
+      "lab",
+      "src"
+    ],
+    "source_opened_with_anndata": false,
+    "source_sha256": "5249ac7d8b04fde673f8e0e6e663a70e339461fc4156a549de636b7494095abc",
+    "spatial_shape": [
+      3359,
+      2
+    ]
+  },
+  "coordinates_exact": true,
+  "ground_truth": {
+    "parsed_prelock": false,
+    "path": "/root/autodl-fs/Human lymph node/D1/D1_groundtruth.csv",
+    "sha256": "524e2447b743b093afad440fea7cd28e63239fe0660b461f1c404aba68ba84f3",
+    "size_bytes": 124736
+  },
+  "n_observations": 3359,
+  "obs_zero_columns": true,
+  "paired_barcodes_exact": true,
+  "rna": {
+    "obs_columns": [],
+    "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+    "path": "/root/autodl-fs/night6d_data_20260817/d1_label_free/d1_rna_label_free.h5ad",
+    "sha256": "ba142ba8965ce00baf7012bbf4de84aa2161d43b0ff3d9bb2c76609df4d7cdc2",
+    "shape": [
+      3359,
+      18085
+    ],
+    "size_bytes": 8535191,
+    "source_annotation_obs_values_read": false,
+    "source_obs_storage_keys_not_read": [
+      "_index",
+      "final_annot",
+      "lab",
+      "src"
+    ],
+    "source_opened_with_anndata": false,
+    "source_sha256": "4cf5a125027c8fe91d6b789dda066be703efd3f83a8745adf64a8667cd5bf9af",
+    "spatial_shape": [
+      3359,
+      2
+    ]
+  },
+  "status": "PASS"
+}

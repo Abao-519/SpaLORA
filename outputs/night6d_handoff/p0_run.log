@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "scripts/night6d_p0.py", line 439, in <module>
+    main()
+  File "scripts/night6d_p0.py", line 344, in main
+    raise RuntimeError("D1 label-free coordinates mismatch")
+RuntimeError: D1 label-free coordinates mismatch

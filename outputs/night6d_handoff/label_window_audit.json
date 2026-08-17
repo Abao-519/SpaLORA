@@ -1,0 +1,41 @@
+{
+  "checkpoint_roundtrips_before_access": "40/40",
+  "datasets": {
+    "d1": {
+      "aligned_rows": 3359,
+      "authorized_role": "evaluator",
+      "deserialized_into_memory": true,
+      "explicitly_indexed_or_observed": true,
+      "ground_truth_path": "/root/autodl-fs/Human lymph node/D1/D1_groundtruth.csv",
+      "ground_truth_sha256": "524e2447b743b093afad440fea7cd28e63239fe0660b461f1c404aba68ba84f3",
+      "known_k": 10,
+      "rows": 3359,
+      "unique_labels": 10,
+      "used_for_training_or_selection": false
+    },
+    "p22": {
+      "aligned_rows": 9196,
+      "authorized_role": "evaluator",
+      "deserialized_into_memory": true,
+      "explicitly_indexed_or_observed": true,
+      "ground_truth_path": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+      "ground_truth_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+      "known_k": 9,
+      "rows": 9196,
+      "unique_labels": 9,
+      "used_for_training_or_selection": false
+    }
+  },
+  "datasets_opened_together": [
+    "d1",
+    "p22"
+  ],
+  "labels_used_for_training_transform_or_selection": false,
+  "return_to_training_or_clustering_after_access": false,
+  "single_authorized_window": true,
+  "status": "PASS",
+  "training_locked_before_access": true,
+  "training_manifest_sha256": "6e4abf63372cff019cfb7bf91c4066ff931f721ce7362514d884539db67604ba",
+  "transform_manifest_sha256": "3608b3d78adfbf7cdff077028882b3002368606a945a1303aa8b3959b28aeb40",
+  "transforms_terminal_before_access": "80/80"
+}

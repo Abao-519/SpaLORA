@@ -1,0 +1,408 @@
+R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 1, "planned": 80, "seed": 0, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 2, "planned": 80, "seed": 1, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 3, "planned": 80, "seed": 2, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 4, "planned": 80, "seed": 3, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 5, "planned": 80, "seed": 4, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 6, "planned": 80, "seed": 5, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 7, "planned": 80, "seed": 6, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 8, "planned": 80, "seed": 7, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 9, "planned": 80, "seed": 8, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 10, "planned": 80, "seed": 9, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 11, "planned": 80, "seed": 0, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 12, "planned": 80, "seed": 1, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 13, "planned": 80, "seed": 2, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 14, "planned": 80, "seed": 3, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 15, "planned": 80, "seed": 4, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 16, "planned": 80, "seed": 5, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 17, "planned": 80, "seed": 6, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 18, "planned": 80, "seed": 7, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 19, "planned": 80, "seed": 8, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 20, "planned": 80, "seed": 9, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 21, "planned": 80, "seed": 0, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 22, "planned": 80, "seed": 1, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 23, "planned": 80, "seed": 2, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 24, "planned": 80, "seed": 3, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 25, "planned": 80, "seed": 4, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 26, "planned": 80, "seed": 5, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 27, "planned": 80, "seed": 6, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 28, "planned": 80, "seed": 7, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 29, "planned": 80, "seed": 8, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 30, "planned": 80, "seed": 9, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 31, "planned": 80, "seed": 0, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 32, "planned": 80, "seed": 1, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 33, "planned": 80, "seed": 2, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 34, "planned": 80, "seed": 3, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 35, "planned": 80, "seed": 4, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 36, "planned": 80, "seed": 5, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 37, "planned": 80, "seed": 6, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 38, "planned": 80, "seed": 7, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 39, "planned": 80, "seed": 8, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "d1", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 40, "planned": 80, "seed": 9, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 41, "planned": 80, "seed": 0, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 42, "planned": 80, "seed": 1, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 43, "planned": 80, "seed": 2, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 44, "planned": 80, "seed": 3, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 45, "planned": 80, "seed": 4, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 46, "planned": 80, "seed": 5, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 47, "planned": 80, "seed": 6, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 48, "planned": 80, "seed": 7, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 49, "planned": 80, "seed": 8, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 50, "planned": 80, "seed": 9, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 51, "planned": 80, "seed": 0, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 52, "planned": 80, "seed": 1, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 53, "planned": 80, "seed": 2, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 54, "planned": 80, "seed": 3, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 55, "planned": 80, "seed": 4, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 56, "planned": 80, "seed": 5, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 57, "planned": 80, "seed": 6, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 58, "planned": 80, "seed": 7, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 59, "planned": 80, "seed": 8, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G00_SP18_F20_CORR_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 60, "planned": 80, "seed": 9, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 61, "planned": 80, "seed": 0, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 62, "planned": 80, "seed": 1, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 63, "planned": 80, "seed": 2, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 64, "planned": 80, "seed": 3, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 65, "planned": 80, "seed": 4, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 66, "planned": 80, "seed": 5, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 67, "planned": 80, "seed": 6, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 68, "planned": 80, "seed": 7, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 69, "planned": 80, "seed": 8, "status": "success"}
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H00_FUSED_PCA20_MCLUST_EEE", "ordinal": 70, "planned": 80, "seed": 9, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 71, "planned": 80, "seed": 0, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 72, "planned": 80, "seed": 1, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 73, "planned": 80, "seed": 2, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 74, "planned": 80, "seed": 3, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 75, "planned": 80, "seed": 4, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 76, "planned": 80, "seed": 5, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 77, "planned": 80, "seed": 6, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 78, "planned": 80, "seed": 7, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 79, "planned": 80, "seed": 8, "status": "success"}
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"dataset": "p22", "event": "transform_terminal", "graph_id": "G04_SP10_F10_EUC_UNION", "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL", "ordinal": 80, "planned": 80, "seed": 9, "status": "success"}
+{"attempted": 80, "corrections": 0, "event": "transform_total_lock", "scientific_failures": 0, "success": 80}

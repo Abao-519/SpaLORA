@@ -1,0 +1,985 @@
+{
+  "can_change_primary_method_identity": false,
+  "contrasts": {
+    "d1:graph_only": {
+      "ari_wins": 7,
+      "bootstrap": {
+        "delta_ari": {
+          "ci_lower": 0.0038782660901720833,
+          "ci_upper": 0.02078179769142227,
+          "mean": 0.012073054628411722
+        },
+        "delta_nmi": {
+          "ci_lower": 0.007981425171607414,
+          "ci_upper": 0.017660262704743756,
+          "mean": 0.01280259305800266
+        },
+        "delta_q": {
+          "ci_lower": 0.006602695633658273,
+          "ci_upper": 0.01880977290779266,
+          "mean": 0.012437823843207203
+        },
+        "method": "paired percentile 95% CI",
+        "resamples": 100000,
+        "seed": 20260817
+      },
+      "exact_sign_flip": {
+        "alternative": "gain_one_sided",
+        "enumerations": 1024,
+        "observed_mean": 0.012437823843207203,
+        "raw_p": 0.0009765625,
+        "statistic": "mean_delta",
+        "tail_count": 1
+      },
+      "holm_adjusted_p": 0.005859375,
+      "mean_delta_ari": 0.012073054628411722,
+      "mean_delta_nmi": 0.01280259305800266,
+      "mean_delta_q": 0.012437823843207203,
+      "median_delta_q": 0.012285421200397134,
+      "nmi_wins": 10,
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "per_seed_deltas": [
+        {
+          "dataset": "d1",
+          "delta_ari": -0.0011940190469131307,
+          "delta_boundary": 0.0017961920728056802,
+          "delta_geary": 0.011229890360607064,
+          "delta_moran": -0.01376331052405999,
+          "delta_neighbor": -0.0017961920728056802,
+          "delta_nmi": 0.0033898627388781466,
+          "delta_q": 0.001097921845982508,
+          "seed": 0
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.022062182980344514,
+          "delta_boundary": 0.03310980720871748,
+          "delta_geary": 0.04839338701301077,
+          "delta_moran": -0.04800769717566006,
+          "delta_neighbor": -0.03310980720871748,
+          "delta_nmi": 0.02236146620961843,
+          "delta_q": 0.022211824594981444,
+          "seed": 1
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.00955698944355507,
+          "delta_boundary": 0.07768530714884447,
+          "delta_geary": 0.07714542125475976,
+          "delta_moran": -0.078066979440918,
+          "delta_neighbor": -0.07768530714884447,
+          "delta_nmi": 0.0007764855059967379,
+          "delta_q": 0.005166737474775918,
+          "seed": 2
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.04033551688763834,
+          "delta_boundary": 0.02134474913184048,
+          "delta_geary": 0.03212719172966577,
+          "delta_moran": -0.030822165532702672,
+          "delta_neighbor": -0.02134474913184048,
+          "delta_nmi": 0.024789806433446082,
+          "delta_q": 0.032562661660542225,
+          "seed": 3
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.011944945110385685,
+          "delta_boundary": 0.018889953299006113,
+          "delta_geary": 0.023841688421876783,
+          "delta_moran": -0.023256226475696806,
+          "delta_neighbor": -0.018889953299006113,
+          "delta_nmi": 0.011485455273947898,
+          "delta_q": 0.01171520019216682,
+          "seed": 4
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.009323080507606052,
+          "delta_boundary": 0.0159262363788768,
+          "delta_geary": 0.011482472657978304,
+          "delta_moran": -0.013606531121761134,
+          "delta_neighbor": -0.0159262363788768,
+          "delta_nmi": 0.013114810079754236,
+          "delta_q": 0.0018958647860741196,
+          "seed": 5
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.001056942446189757,
+          "delta_boundary": 0.04532391330379604,
+          "delta_geary": 0.06275534355596213,
+          "delta_moran": -0.06291466516938204,
+          "delta_neighbor": -0.04532391330379604,
+          "delta_nmi": 0.005769919727874717,
+          "delta_q": 0.00235648864084248,
+          "seed": 6
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.016888295913468132,
+          "delta_boundary": -0.01014848521135192,
+          "delta_geary": -0.004475236016308171,
+          "delta_moran": 0.0037356396109946566,
+          "delta_neighbor": 0.01014848521135192,
+          "delta_nmi": 0.008822988503786655,
+          "delta_q": 0.012855642208627449,
+          "seed": 7
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.022795864936597937,
+          "delta_boundary": 0.057298527122500276,
+          "delta_geary": 0.09509373002908728,
+          "delta_moran": -0.09447394365355566,
+          "delta_neighbor": -0.057298527122500276,
+          "delta_nmi": 0.0200967115919089,
+          "delta_q": 0.021446288264253432,
+          "seed": 8
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.008720793012836486,
+          "delta_boundary": 0.028858819303077432,
+          "delta_geary": 0.03906518771328571,
+          "delta_moran": -0.04188814449145739,
+          "delta_neighbor": -0.028858819303077432,
+          "delta_nmi": 0.01741842451481479,
+          "delta_q": 0.013069608763825624,
+          "seed": 9
+        }
+      ],
+      "q_wins": 10,
+      "sample_sd_delta_q": 0.010419089440471912
+    },
+    "d1:head_only": {
+      "ari_wins": 10,
+      "bootstrap": {
+        "delta_ari": {
+          "ci_lower": 0.03712137105637454,
+          "ci_upper": 0.05931303099814337,
+          "mean": 0.04812986814668504
+        },
+        "delta_nmi": {
+          "ci_lower": 0.02900650421789928,
+          "ci_upper": 0.041533629092300156,
+          "mean": 0.035014996907470244
+        },
+        "delta_q": {
+          "ci_lower": 0.033182221194830414,
+          "ci_upper": 0.05022040280943102,
+          "mean": 0.04157243252707766
+        },
+        "method": "paired percentile 95% CI",
+        "resamples": 100000,
+        "seed": 20260817
+      },
+      "exact_sign_flip": {
+        "alternative": "gain_one_sided",
+        "enumerations": 1024,
+        "observed_mean": 0.04157243252707766,
+        "raw_p": 0.0009765625,
+        "statistic": "mean_delta",
+        "tail_count": 1
+      },
+      "holm_adjusted_p": 0.005859375,
+      "mean_delta_ari": 0.04812986814668504,
+      "mean_delta_nmi": 0.035014996907470244,
+      "mean_delta_q": 0.04157243252707766,
+      "median_delta_q": 0.04402918400625763,
+      "nmi_wins": 10,
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "per_seed_deltas": [
+        {
+          "dataset": "d1",
+          "delta_ari": 0.05258672042022791,
+          "delta_boundary": -0.017482936175308272,
+          "delta_geary": 0.001444548555637415,
+          "delta_moran": 0.002288591879579971,
+          "delta_neighbor": 0.017482936175308272,
+          "delta_nmi": 0.035477999173580965,
+          "delta_q": 0.04403235979690445,
+          "seed": 0
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.04865448353687549,
+          "delta_boundary": -0.0401149562926596,
+          "delta_geary": -0.04441338579432014,
+          "delta_moran": 0.048186394802736565,
+          "delta_neighbor": 0.0401149562926596,
+          "delta_nmi": 0.03948901422599643,
+          "delta_q": 0.044071748881435946,
+          "seed": 1
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.0245839772438316,
+          "delta_boundary": -0.017393126571668027,
+          "delta_geary": 0.00020198637795881824,
+          "delta_moran": 0.0024693763883739672,
+          "delta_neighbor": 0.017393126571668027,
+          "delta_nmi": 0.022786744145970927,
+          "delta_q": 0.023685360694901292,
+          "seed": 2
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.07925266490829816,
+          "delta_boundary": -0.016105855586157403,
+          "delta_geary": 0.009074164247713068,
+          "delta_moran": -0.0037281933030594017,
+          "delta_neighbor": 0.016105855586157403,
+          "delta_nmi": 0.05653817299210895,
+          "delta_q": 0.06789541895020357,
+          "seed": 3
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.02998649135867215,
+          "delta_boundary": -0.033019997605077234,
+          "delta_geary": -0.029567700967958355,
+          "delta_moran": 0.03322047399021133,
+          "delta_neighbor": 0.033019997605077234,
+          "delta_nmi": 0.02635548044140168,
+          "delta_q": 0.028170985900036916,
+          "seed": 4
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.05592927896265448,
+          "delta_boundary": -0.05487366782421266,
+          "delta_geary": -0.04430493252618284,
+          "delta_moran": 0.049976951571492734,
+          "delta_neighbor": 0.05487366782421266,
+          "delta_nmi": 0.040885514993087846,
+          "delta_q": 0.04840739697787122,
+          "seed": 5
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.02136873075629117,
+          "delta_boundary": -0.027811040593940795,
+          "delta_geary": -0.023510785913285703,
+          "delta_moran": 0.029118213196898335,
+          "delta_neighbor": 0.027811040593940795,
+          "delta_nmi": 0.02082008626573173,
+          "delta_q": 0.021094408511011464,
+          "seed": 6
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.04803251166216377,
+          "delta_boundary": -0.0600227517662556,
+          "delta_geary": -0.04562012653126557,
+          "delta_moran": 0.04955125074670108,
+          "delta_neighbor": 0.0600227517662556,
+          "delta_nmi": 0.029186765964389016,
+          "delta_q": 0.03860963881327639,
+          "seed": 7
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.07250333844600826,
+          "delta_boundary": -0.005089210872949335,
+          "delta_geary": 0.030185188856606537,
+          "delta_moran": -0.025745789577660716,
+          "delta_neighbor": 0.005089210872949335,
+          "delta_nmi": 0.03895865861304071,
+          "delta_q": 0.05573099852952451,
+          "seed": 8
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": 0.048400484171827435,
+          "delta_boundary": -0.02173392408094843,
+          "delta_geary": -0.004748459086847456,
+          "delta_moran": 0.008563344591637878,
+          "delta_neighbor": 0.02173392408094843,
+          "delta_nmi": 0.03965153225939422,
+          "delta_q": 0.04402600821561081,
+          "seed": 9
+        }
+      ],
+      "q_wins": 10,
+      "sample_sd_delta_q": 0.01447631370823338
+    },
+    "d1:interaction": {
+      "ari_wins": 0,
+      "bootstrap": {
+        "delta_ari": {
+          "ci_lower": -0.04132037247017245,
+          "ci_upper": -0.016922029150438316,
+          "mean": -0.028503323294884177
+        },
+        "delta_nmi": {
+          "ci_lower": -0.025541423442502938,
+          "ci_upper": -0.011696031852098122,
+          "mean": -0.018852706957349374
+        },
+        "delta_q": {
+          "ci_lower": -0.032888145445388595,
+          "ci_upper": -0.015064962185223574,
+          "mean": -0.023678015126116798
+        },
+        "method": "paired percentile 95% CI",
+        "resamples": 100000,
+        "seed": 20260817
+      },
+      "exact_sign_flip": {
+        "alternative": "gain_one_sided",
+        "enumerations": 1024,
+        "observed_mean": -0.023678015126116798,
+        "raw_p": 1.0,
+        "statistic": "mean_delta",
+        "tail_count": 1024
+      },
+      "holm_adjusted_p": 1.0,
+      "mean_delta_ari": -0.028503323294884177,
+      "mean_delta_nmi": -0.018852706957349374,
+      "mean_delta_q": -0.023678015126116798,
+      "median_delta_q": -0.02041707048050609,
+      "nmi_wins": 1,
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "per_seed_deltas": [
+        {
+          "dataset": "d1",
+          "delta_ari": -0.03024378094846472,
+          "delta_boundary": 0.016405220931624886,
+          "delta_geary": 0.0017691205367404428,
+          "delta_moran": 0.0007026235554137283,
+          "delta_neighbor": -0.016405220931624886,
+          "delta_nmi": -0.009684996466096996,
+          "delta_q": -0.019964388707280845,
+          "seed": 0
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.031247132318432347,
+          "delta_boundary": -0.009579691054963368,
+          "delta_geary": -0.024220672069572624,
+          "delta_moran": 0.0244465201860376,
+          "delta_neighbor": 0.009579691054963368,
+          "delta_nmi": -0.029099328202064623,
+          "delta_q": -0.030173230260248485,
+          "seed": 1
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.012914196426223656,
+          "delta_boundary": -0.05478385822057241,
+          "delta_geary": -0.04774911684805527,
+          "delta_moran": 0.048329395752855664,
+          "delta_neighbor": 0.05478385822057241,
+          "delta_nmi": -0.002780107445029878,
+          "delta_q": -0.007847151935626795,
+          "seed": 2
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.06301752166488997,
+          "delta_boundary": 0.0034427014728775074,
+          "delta_geary": -0.010587179273326697,
+          "delta_moran": 0.0089993058126836,
+          "delta_neighbor": -0.0034427014728775074,
+          "delta_nmi": -0.032579075964280446,
+          "delta_q": -0.04779829881458525,
+          "seed": 3
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.019889472148252457,
+          "delta_boundary": 0.01137588312776916,
+          "delta_geary": 0.010483449482592222,
+          "delta_moran": -0.011649368088340717,
+          "delta_neighbor": -0.01137588312776916,
+          "delta_nmi": -0.02165956688946563,
+          "delta_q": -0.020774519518859058,
+          "seed": 4
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.00673801304039473,
+          "delta_boundary": 0.00835229313854624,
+          "delta_geary": 0.01820608783268446,
+          "delta_moran": -0.01634233027274057,
+          "delta_neighbor": -0.00835229313854624,
+          "delta_nmi": -0.020981645901401336,
+          "delta_q": -0.013859829470898088,
+          "seed": 5
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.0039661118238680515,
+          "delta_boundary": 0.011405819662315797,
+          "delta_geary": -0.00041210673256963926,
+          "delta_moran": 0.0001553286570589174,
+          "delta_neighbor": -0.011405819662315797,
+          "delta_nmi": 0.0006511738191956606,
+          "delta_q": -0.0016574690023362093,
+          "seed": 6
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.037283781367188684,
+          "delta_boundary": 0.025446054364746784,
+          "delta_geary": 0.015849175752641498,
+          "delta_moran": -0.014648092912482258,
+          "delta_neighbor": -0.025446054364746784,
+          "delta_nmi": -0.016878276052334606,
+          "delta_q": -0.0270810287097617,
+          "seed": 7
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.062028595749279575,
+          "delta_boundary": -0.02694288109208476,
+          "delta_geary": -0.06726843317231151,
+          "delta_moran": 0.0659713205336444,
+          "delta_neighbor": 0.02694288109208476,
+          "delta_nmi": -0.03310063104955713,
+          "delta_q": -0.04756461339941842,
+          "seed": 8
+        },
+        {
+          "dataset": "d1",
+          "delta_ari": -0.01770462746184756,
+          "delta_boundary": -0.015387378757034997,
+          "delta_geary": -0.02618348123700187,
+          "delta_moran": 0.030104236483308955,
+          "delta_neighbor": 0.015387378757034997,
+          "delta_nmi": -0.02241461542245876,
+          "delta_q": -0.02005962144215312,
+          "seed": 9
+        }
+      ],
+      "q_wins": 0,
+      "sample_sd_delta_q": 0.01517804523590831
+    },
+    "p22:graph_only": {
+      "ari_wins": 3,
+      "bootstrap": {
+        "delta_ari": {
+          "ci_lower": -0.03362173722541185,
+          "ci_upper": -0.0032149187798410583,
+          "mean": -0.018244063781906284
+        },
+        "delta_nmi": {
+          "ci_lower": -0.01921251026901084,
+          "ci_upper": -0.003164140129353596,
+          "mean": -0.01135241980240942
+        },
+        "delta_q": {
+          "ci_lower": -0.024995992722983296,
+          "ci_upper": -0.004133191777738474,
+          "mean": -0.014798241792157852
+        },
+        "method": "paired percentile 95% CI",
+        "resamples": 100000,
+        "seed": 20260817
+      },
+      "exact_sign_flip": {
+        "alternative": "gain_one_sided",
+        "enumerations": 1024,
+        "observed_mean": -0.014798241792157852,
+        "raw_p": 0.982421875,
+        "statistic": "mean_delta",
+        "tail_count": 1006
+      },
+      "holm_adjusted_p": 1.0,
+      "mean_delta_ari": -0.018244063781906284,
+      "mean_delta_nmi": -0.01135241980240942,
+      "mean_delta_q": -0.014798241792157852,
+      "median_delta_q": -0.01575257237940056,
+      "nmi_wins": 2,
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "per_seed_deltas": [
+        {
+          "dataset": "p22",
+          "delta_ari": 0.00898076175967083,
+          "delta_boundary": 0.00588235294117645,
+          "delta_geary": 0.02441902285040931,
+          "delta_moran": -0.030599646748837084,
+          "delta_neighbor": -0.00588235294117645,
+          "delta_nmi": 0.006064937728313291,
+          "delta_q": 0.007522849743992088,
+          "seed": 0
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.01089934134581666,
+          "delta_boundary": 0.042133040131940636,
+          "delta_geary": 0.03659416096858473,
+          "delta_moran": -0.03411460874149064,
+          "delta_neighbor": -0.042133040131940636,
+          "delta_nmi": -0.01528314919698992,
+          "delta_q": -0.002191903925586658,
+          "seed": 1
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.013717572229444752,
+          "delta_boundary": 0.023056624518966506,
+          "delta_geary": 0.055161817817958286,
+          "delta_moran": -0.0576207463406645,
+          "delta_neighbor": -0.023056624518966506,
+          "delta_nmi": 0.013112241702160188,
+          "delta_q": 0.013414906965802498,
+          "seed": 2
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.03507331506175654,
+          "delta_boundary": 0.043595382078064904,
+          "delta_geary": 0.05686448578635833,
+          "delta_moran": -0.05087134533101112,
+          "delta_neighbor": -0.043595382078064904,
+          "delta_nmi": -0.03128038081714124,
+          "delta_q": -0.03317684793944886,
+          "seed": 3
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.03507956621920011,
+          "delta_boundary": 0.03832875206157227,
+          "delta_geary": 0.0440874421489971,
+          "delta_moran": -0.0401468041061358,
+          "delta_neighbor": -0.03832875206157227,
+          "delta_nmi": -0.02957074442025409,
+          "delta_q": -0.03232515531972713,
+          "seed": 4
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.028066179010889203,
+          "delta_boundary": 0.007256734469488713,
+          "delta_geary": 0.05226261209802255,
+          "delta_moran": -0.05576872306306635,
+          "delta_neighbor": -0.007256734469488713,
+          "delta_nmi": -0.014656735479329441,
+          "delta_q": -0.02136145724510935,
+          "seed": 5
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.008146020304017898,
+          "delta_boundary": 0.03134689389774603,
+          "delta_geary": 0.050587800264541294,
+          "delta_moran": -0.05115552536494872,
+          "delta_neighbor": -0.03134689389774603,
+          "delta_nmi": -0.012141354723365638,
+          "delta_q": -0.010143687513691768,
+          "seed": 6
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.05234060094178922,
+          "delta_boundary": -0.026684991753710863,
+          "delta_geary": 0.028387414939286593,
+          "delta_moran": -0.029862164680324987,
+          "delta_neighbor": 0.026684991753710863,
+          "delta_nmi": -0.008859729106160286,
+          "delta_q": -0.030600165023974724,
+          "seed": 7
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.054659949417217246,
+          "delta_boundary": -0.015481033534909372,
+          "delta_geary": 0.04350352671710772,
+          "delta_moran": -0.04387655400540924,
+          "delta_neighbor": 0.015481033534909372,
+          "delta_nmi": -0.013476954607021363,
+          "delta_q": -0.03406845201211928,
+          "seed": 8
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.002672682199124865,
+          "delta_boundary": 0.021165475536008782,
+          "delta_geary": 0.04142435752508086,
+          "delta_moran": -0.041639137603296295,
+          "delta_neighbor": -0.021165475536008782,
+          "delta_nmi": -0.0074323291043056905,
+          "delta_q": -0.005052505651715333,
+          "seed": 9
+        }
+      ],
+      "q_wins": 2,
+      "sample_sd_delta_q": 0.017885004058671234
+    },
+    "p22:head_only": {
+      "ari_wins": 10,
+      "bootstrap": {
+        "delta_ari": {
+          "ci_lower": 0.027716112240105513,
+          "ci_upper": 0.05643239173132094,
+          "mean": 0.04223283241265044
+        },
+        "delta_nmi": {
+          "ci_lower": 0.06040097059366925,
+          "ci_upper": 0.07968285165128773,
+          "mean": 0.07039248784490501
+        },
+        "delta_q": {
+          "ci_lower": 0.04422219853108035,
+          "ci_upper": 0.067943936129055,
+          "mean": 0.05631266012877771
+        },
+        "method": "paired percentile 95% CI",
+        "resamples": 100000,
+        "seed": 20260817
+      },
+      "exact_sign_flip": {
+        "alternative": "gain_one_sided",
+        "enumerations": 1024,
+        "observed_mean": 0.05631266012877771,
+        "raw_p": 0.0009765625,
+        "statistic": "mean_delta",
+        "tail_count": 1
+      },
+      "holm_adjusted_p": 0.005859375,
+      "mean_delta_ari": 0.04223283241265044,
+      "mean_delta_nmi": 0.07039248784490501,
+      "mean_delta_q": 0.05631266012877771,
+      "median_delta_q": 0.060663136886441205,
+      "nmi_wins": 10,
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "per_seed_deltas": [
+        {
+          "dataset": "p22",
+          "delta_ari": 0.05199627451676969,
+          "delta_boundary": -0.10885101704233102,
+          "delta_geary": -0.11151762129876566,
+          "delta_moran": 0.10673815535872966,
+          "delta_neighbor": 0.10885101704233102,
+          "delta_nmi": 0.07433799874146718,
+          "delta_q": 0.06316713662911844,
+          "seed": 0
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.02201713180715492,
+          "delta_boundary": -0.08471687740516765,
+          "delta_geary": -0.10765652069668111,
+          "delta_moran": 0.10669138982994997,
+          "delta_neighbor": 0.08471687740516765,
+          "delta_nmi": 0.046762666279752896,
+          "delta_q": 0.03438989904345391,
+          "seed": 1
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.07966575379733737,
+          "delta_boundary": -0.08704782847718529,
+          "delta_geary": -0.09196380631913023,
+          "delta_moran": 0.08666254825250852,
+          "delta_neighbor": 0.08704782847718529,
+          "delta_nmi": 0.09016569207542413,
+          "delta_q": 0.08491572293638072,
+          "seed": 2
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.03348301700816003,
+          "delta_boundary": -0.09656954370533266,
+          "delta_geary": -0.1118854736683266,
+          "delta_moran": 0.11345063939184685,
+          "delta_neighbor": 0.09656954370533266,
+          "delta_nmi": 0.06127789112916182,
+          "delta_q": 0.04738045406866098,
+          "seed": 3
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.04085101796973334,
+          "delta_boundary": -0.10207806487080817,
+          "delta_geary": -0.11481173666374746,
+          "delta_moran": 0.11521040481091482,
+          "delta_neighbor": 0.10207806487080817,
+          "delta_nmi": 0.07546725631779472,
+          "delta_q": 0.05815913714376397,
+          "seed": 4
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.002497016053302936,
+          "delta_boundary": -0.10613523914238587,
+          "delta_geary": -0.104609077130914,
+          "delta_moran": 0.10208995615829497,
+          "delta_neighbor": 0.10613523914238587,
+          "delta_nmi": 0.04477912261954731,
+          "delta_q": 0.023638069336425094,
+          "seed": 5
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.013449684577517829,
+          "delta_boundary": -0.11256734469488727,
+          "delta_geary": -0.11458845730883233,
+          "delta_moran": 0.11118710186168668,
+          "delta_neighbor": 0.11256734469488727,
+          "delta_nmi": 0.05871930450773899,
+          "delta_q": 0.03608449454262841,
+          "seed": 6
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.05040527728861732,
+          "delta_boundary": -0.1307531610775151,
+          "delta_geary": -0.1423051000278725,
+          "delta_moran": 0.13833821842755278,
+          "delta_neighbor": 0.1307531610775151,
+          "delta_nmi": 0.0806472217655203,
+          "delta_q": 0.06552624952706881,
+          "seed": 7
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.066589300780167,
+          "delta_boundary": -0.11404068169323811,
+          "delta_geary": -0.12101509419634865,
+          "delta_moran": 0.11739764222511684,
+          "delta_neighbor": 0.11404068169323811,
+          "delta_nmi": 0.08567242243845108,
+          "delta_q": 0.07613086160930904,
+          "seed": 8
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.06137385032774395,
+          "delta_boundary": -0.10582737768004402,
+          "delta_geary": -0.10403561279827214,
+          "delta_moran": 0.10036753287793887,
+          "delta_neighbor": 0.10582737768004402,
+          "delta_nmi": 0.08609530257419162,
+          "delta_q": 0.0737345764509677,
+          "seed": 9
+        }
+      ],
+      "q_wins": 10,
+      "sample_sd_delta_q": 0.02023995597390317
+    },
+    "p22:interaction": {
+      "ari_wins": 5,
+      "bootstrap": {
+        "delta_ari": {
+          "ci_lower": -0.04677292734770217,
+          "ci_upper": 0.028805559656637926,
+          "mean": -0.007627278093059725
+        },
+        "delta_nmi": {
+          "ci_lower": -0.03640680567836738,
+          "ci_upper": 0.008970140672825684,
+          "mean": -0.012565153473700841
+        },
+        "delta_q": {
+          "ci_lower": -0.041306337527269754,
+          "ci_upper": 0.018537878133139913,
+          "mean": -0.010096215783380264
+        },
+        "method": "paired percentile 95% CI",
+        "resamples": 100000,
+        "seed": 20260817
+      },
+      "exact_sign_flip": {
+        "alternative": "gain_one_sided",
+        "enumerations": 1024,
+        "observed_mean": -0.010096215783380264,
+        "raw_p": 0.7177734375,
+        "statistic": "mean_delta",
+        "tail_count": 735
+      },
+      "holm_adjusted_p": 1.0,
+      "mean_delta_ari": -0.007627278093059725,
+      "mean_delta_nmi": -0.012565153473700841,
+      "mean_delta_q": -0.010096215783380264,
+      "median_delta_q": 0.0031719518919798018,
+      "nmi_wins": 5,
+      "paired_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "per_seed_deltas": [
+        {
+          "dataset": "p22",
+          "delta_ari": -0.07117677627203228,
+          "delta_boundary": 0.015019241341396428,
+          "delta_geary": 0.008737543763918165,
+          "delta_moran": -0.004114499696133422,
+          "delta_neighbor": -0.015019241341396428,
+          "delta_nmi": -0.04832763168345722,
+          "delta_q": -0.05975220397774478,
+          "seed": 0
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.07453298637770012,
+          "delta_boundary": -0.02332050577240241,
+          "delta_geary": -0.0008151556428057372,
+          "delta_moran": -0.0027800968305111695,
+          "delta_neighbor": 0.02332050577240241,
+          "delta_nmi": -0.0355380048087206,
+          "delta_q": -0.05503549559321036,
+          "seed": 1
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.1249558735855888,
+          "delta_boundary": 3.298515667948809e-05,
+          "delta_geary": -0.017710234613990128,
+          "delta_moran": 0.01981105197541888,
+          "delta_neighbor": -3.298515667948809e-05,
+          "delta_nmi": -0.09079140666474528,
+          "delta_q": -0.10787364012516698,
+          "seed": 2
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.02461968223252925,
+          "delta_boundary": -0.020769653655854814,
+          "delta_geary": -0.017854989446623976,
+          "delta_moran": 0.010392927063922364,
+          "delta_neighbor": 0.020769653655854814,
+          "delta_nmi": 0.014873764477000173,
+          "delta_q": 0.019746723354764684,
+          "seed": 3
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.03274816546483794,
+          "delta_boundary": -0.025035733919736014,
+          "delta_geary": -0.02191115445684054,
+          "delta_moran": 0.01659251581218857,
+          "delta_neighbor": 0.025035733919736014,
+          "delta_nmi": 0.01865310694026423,
+          "delta_q": 0.02570063620255114,
+          "seed": 4
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.08309218503044435,
+          "delta_boundary": 0.009950522264980721,
+          "delta_geary": -0.027359511622702892,
+          "delta_moran": 0.0282219862168388,
+          "delta_neighbor": -0.009950522264980721,
+          "delta_nmi": 0.039122730325845234,
+          "delta_q": 0.061107457678144794,
+          "seed": 5
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.0114694571795394,
+          "delta_boundary": -0.011335898845519554,
+          "delta_geary": -0.017956966934640994,
+          "delta_moran": 0.01724621334255161,
+          "delta_neighbor": 0.011335898845519554,
+          "delta_nmi": 0.00812469756462586,
+          "delta_q": 0.00979707737208263,
+          "seed": 6
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": 0.05537339302370964,
+          "delta_boundary": 0.04689389774601438,
+          "delta_geary": 0.007170269641492866,
+          "delta_moran": -0.007377387352383913,
+          "delta_neighbor": -0.04689389774601438,
+          "delta_nmi": 0.006106777969704047,
+          "delta_q": 0.03074008549670687,
+          "seed": 7
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.012145870446326423,
+          "delta_boundary": 0.03887850467289733,
+          "delta_geary": -0.004568723720038942,
+          "delta_moran": 0.002553913659323226,
+          "delta_neighbor": -0.03887850467289733,
+          "delta_nmi": -0.0317333788612888,
+          "delta_q": -0.02193962465380761,
+          "seed": 8
+        },
+        {
+          "dataset": "p22",
+          "delta_ari": -0.0007641571800102165,
+          "delta_boundary": -9.895547003846428e-05,
+          "delta_geary": -0.007813048606434642,
+          "delta_moran": 0.006336340708103516,
+          "delta_neighbor": 9.895547003846428e-05,
+          "delta_nmi": -0.006142189996236058,
+          "delta_q": -0.0034531735881230263,
+          "seed": 9
+        }
+      ],
+      "q_wins": 5,
+      "sample_sd_delta_q": 0.05113750791879936
+    }
+  },
+  "family": "six secondary factorial exact tests",
+  "used_for_candidate_selection": false
+}

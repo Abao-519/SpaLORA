@@ -1,0 +1,61 @@
+{
+  "ground_truth_parse_count_prelock": 0,
+  "original_h5ad_anndata_read_count": 0,
+  "probes": [
+    {
+      "pass": true,
+      "probe": "trainer_label_free"
+    },
+    {
+      "pass": true,
+      "probe": "trainer_original_d1"
+    },
+    {
+      "pass": true,
+      "probe": "trainer_original_p22"
+    },
+    {
+      "pass": true,
+      "probe": "trainer_d1_ground_truth"
+    },
+    {
+      "pass": true,
+      "probe": "trainer_p22_ground_truth"
+    },
+    {
+      "pass": true,
+      "probe": "trainer_gse198353"
+    },
+    {
+      "pass": true,
+      "probe": "trainer_night4b"
+    },
+    {
+      "pass": true,
+      "probe": "evaluator_early"
+    },
+    {
+      "pass": true,
+      "probe": "payload_labels"
+    },
+    {
+      "pass": true,
+      "probe": "payload_single_seed_metric"
+    },
+    {
+      "pass": true,
+      "probe": "payload_intermediate_epoch_metric"
+    },
+    {
+      "pass": true,
+      "probe": "payload_checkpoint_metric"
+    }
+  ],
+  "roles": {
+    "data_steward": "byte hash, schema, low-level D1 copy, immutable cache verification",
+    "evaluator": "single post-total-lock label window only",
+    "trainer_transformer": "label-free inputs/caches and known scalar K only"
+  },
+  "status": "PASS",
+  "trainer_transformer_original_obs_deserialization_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "status": "P0_CORRECTIONS_PRESERVED",
+  "scientific_training_units_before_corrections": 0,
+  "head_transforms_before_corrections": 0,
+  "ground_truth_parses_before_corrections": 0,
+  "events": [
+    {
+      "event": "control_session_environment_activation_failure",
+      "cause": "the prior shell nounset option was incompatible with the existing conda activation script (ADDR2LINE unset)",
+      "effect": "control SSH session closed before P0 execution",
+      "scientific_result": false,
+      "correction": "re-established the persistent control session with nounset disabled"
+    },
+    {
+      "event": "d1_coordinate_contract_probe",
+      "cause": "source RNA and ADT obsm/spatial arrays use exact opposite signs for every coordinate",
+      "observed": {
+        "barcodes_exact": true,
+        "shape": [3359, 2],
+        "rna_range": [[-72, -119], [-3, 0]],
+        "adt_range": [[3, 0], [72, 119]],
+        "adt_equals_negative_rna": true,
+        "pairwise_distance_geometry_identical": true
+      },
+      "effect": "first P0 data-contract attempt stopped before cache construction and training",
+      "scientific_result": false,
+      "correction": "canonicalize only the new zero-obs ADT copy to the RNA coordinate orientation; preserve both sources byte-for-byte and fail closed for any mismatch other than exact sign reflection"
+    },
+    {
+      "event": "prelabel_spatial_gate_test_fixture_correction",
+      "cause": "the protected synthetic fixture simultaneously exceeded the preregistered Geary-plus-Moran failure condition while incorrectly asserting PASS",
+      "effect": "first statistics-only pytest attempt failed after 40+80 total lock but before the evaluator or either ground truth was opened",
+      "scientific_result": false,
+      "correction": "changed only the synthetic protected fixture Geary delta from 0.04 to 0.02; the spatial gate implementation, thresholds, evaluator, locked outputs, and preregistered rules were unchanged",
+      "failed_log_preserved": "tests/prelabel_statistics_pytest.txt",
+      "passing_log_preserved": "tests/prelabel_statistics_pytest_attempt2.txt"
+    }
+  ],
+  "parameter_tuning": false,
+  "label_or_metric_use": false,
+  "historical_outputs_overwritten": false
+}

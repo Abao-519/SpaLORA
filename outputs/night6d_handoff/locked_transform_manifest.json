@@ -1,0 +1,2694 @@
+{
+  "attempted_transforms": 80,
+  "fixed_order": "dataset_graph_head_seed",
+  "locked_before_label_access": true,
+  "planned_transforms": 80,
+  "schema_version": 1,
+  "scientific_numerical_failure_count": 0,
+  "status": "LOCKED",
+  "success_count": 80,
+  "training_manifest_sha256": "6e4abf63372cff019cfb7bf91c4066ff931f721ce7362514d884539db67604ba",
+  "transform_corrections": 0,
+  "transforms": [
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "4d259bd87493f554e9e30161fd555fb55dc9f46b1a8c66e4a11ddecd37ba4959",
+          "size_bytes": 80771
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "5ebef588c1a282f7e197addbd338cba222e00507ded4867458b250edf50d4167",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "4d259bd87493f554e9e30161fd555fb55dc9f46b1a8c66e4a11ddecd37ba4959",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 1,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 811.56640625,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001",
+      "runtime_seconds": 6.8537345211952925,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "f781a4cd5be56b03f7d8ef555c3ba1d5e720c29a0215169e842f79858f1b052d",
+          "size_bytes": 80714
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "c1c8cdc7022e9edd01e2ab607f3eacf4c44d98704991ad3cd60e059459aae5d8",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "f781a4cd5be56b03f7d8ef555c3ba1d5e720c29a0215169e842f79858f1b052d",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 2,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 842.59375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001",
+      "runtime_seconds": 6.060862632468343,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "369a89d9133c9afa9a36bc16237277b0c662829558d49ca48fde9e2cb5df7cb0",
+          "size_bytes": 80735
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "a876508422050b23c2ccd06e0b170c0fd5c02c0d1e2b59eea9d0365354e8c5dd",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "369a89d9133c9afa9a36bc16237277b0c662829558d49ca48fde9e2cb5df7cb0",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 3,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 842.59375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001",
+      "runtime_seconds": 6.7695088451728225,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "afc88870a27202f58f97aedcfd980380a53ef2466bd12095893ac21a0d877c9c",
+          "size_bytes": 80733
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "53bb87af953174e82482ba07a926d6063382312d6c94cdbefff3e762a5ae65ec",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "afc88870a27202f58f97aedcfd980380a53ef2466bd12095893ac21a0d877c9c",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 4,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 856.76171875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001",
+      "runtime_seconds": 4.494707406498492,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "e3373413c271f93b01cb70f00d6a44d089554941223707824a55a7f6bae2114e",
+          "size_bytes": 80738
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "da2f69d24b0c0e1b88ba24f623f341c93c6336fab281f77c7c796a81bdc891fe",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e3373413c271f93b01cb70f00d6a44d089554941223707824a55a7f6bae2114e",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 5,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 856.76171875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001",
+      "runtime_seconds": 7.120901493355632,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "a4a88a9a40ea37fa03ec747fd16d46dbf4874381913b7a14190281b9b9755750",
+          "size_bytes": 80769
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "42636af054fdbc1aec958467af78eb604f5333e74f10a2cca9c2cb410bbfe9fd",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "a4a88a9a40ea37fa03ec747fd16d46dbf4874381913b7a14190281b9b9755750",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 6,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 856.76171875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001",
+      "runtime_seconds": 7.076377854682505,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "7304ea1fd9882674e581b77a64a2133847ce3bc7912f8548deaf9675a6448a0b",
+          "size_bytes": 80942
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "1e07c7008391a79672c31497de7b42023c38cfc73d889c97b29054352c67e31e",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "7304ea1fd9882674e581b77a64a2133847ce3bc7912f8548deaf9675a6448a0b",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 7,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 856.76171875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001",
+      "runtime_seconds": 5.199903103522956,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "0154e75631e063779ea46bb1ead7c0f80d5c96b1966dc68b1e295410682e20dc",
+          "size_bytes": 80728
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "d7d13bdf277ed617b326b41652fc76b4c3ff9fe0dec4263041ca2ca36638d0b0",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "0154e75631e063779ea46bb1ead7c0f80d5c96b1966dc68b1e295410682e20dc",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 8,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 863.14453125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001",
+      "runtime_seconds": 5.691915265284479,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "1ecf4f36bac48d738ce16428176a40933852b4a314816a5da60540c45d35a284",
+          "size_bytes": 80735
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "695d1cd2615804c3ddff6ae84a1e586056c142567caa5a3cae390b07dca233a6",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "1ecf4f36bac48d738ce16428176a40933852b4a314816a5da60540c45d35a284",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 9,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 863.14453125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001",
+      "runtime_seconds": 6.407806809991598,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "e6cac19a0d5dbf186dec2efd0cf12f0360b95c7b8d1661b9b924badd968b61fa",
+          "size_bytes": 80848
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "ddc1cf6b5fa59cabcac80b491993f91011547b89bdb3a9f8bc1a75b198833ccf",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e6cac19a0d5dbf186dec2efd0cf12f0360b95c7b8d1661b9b924badd968b61fa",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 10,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 863.14453125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001",
+      "runtime_seconds": 6.180312088690698,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "61322e931669f0d09c16ffb3be092bc6340b1f2c52fe4324123251b998a92a30",
+          "size_bytes": 1024142
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "d7b09c427782d4441fbf460bfe9d00da1bf5b64b1ebbe81b1c99cd5aa9a12287",
+          "size_bytes": 80748
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "be63a3358323695f8a57f734da81fdb373fb76390d002cf9a05d5334680e0371",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d7b09c427782d4441fbf460bfe9d00da1bf5b64b1ebbe81b1c99cd5aa9a12287",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 11,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 876.6484375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_0/attempt_001",
+      "runtime_seconds": 5.094770540483296,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "c177575bc27a29e0be976f591895170186584aceadec5bb977c7b4f916a061f3",
+          "size_bytes": 1018563
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "930bdfe3a70e304abcc0f53854af77bb4596acd23a304c333c9d40fdcf5be01d",
+          "size_bytes": 81031
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "00a21d9756b16ebfb2779edfd0c8bfd5499fa220a0cd9519a78f47464a1e440c",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "930bdfe3a70e304abcc0f53854af77bb4596acd23a304c333c9d40fdcf5be01d",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 12,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 880.48046875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_1/attempt_001",
+      "runtime_seconds": 4.544951022602618,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "1958240e2766a26668a84d3926982ad93d7cecf50710232b94409e367b3b6ac2",
+          "size_bytes": 1016243
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "d438dfa10ea6e410590472eb5b7bb15ef1794f6ee01c49757ec92c82825d591c",
+          "size_bytes": 81138
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "a09e318320676d410d4763c6ee3c4ea0f3d0cae97d70fbeadec008d0240e1610",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d438dfa10ea6e410590472eb5b7bb15ef1794f6ee01c49757ec92c82825d591c",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 13,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 880.48046875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_2/attempt_001",
+      "runtime_seconds": 4.62473083846271,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "55e35d0ce8a8e67a10e08027885491de6d160409e8b394cceef4a0825a40fb69",
+          "size_bytes": 1003455
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "e314a86f1d00f7f2e7ed0b14d7ce5cd15f981b356507f738dc5806c98a714334",
+          "size_bytes": 80927
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "1fc464c631f5abe186d13700c23b1051c33110624c08fef81580a0c3355c6b41",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e314a86f1d00f7f2e7ed0b14d7ce5cd15f981b356507f738dc5806c98a714334",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 14,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 880.48046875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_3/attempt_001",
+      "runtime_seconds": 4.165369468741119,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "54f7e91194f60b92f5c0f533887a63ede96b7eac98665c3910d6e48f7860a234",
+          "size_bytes": 1009143
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "6966400c4c459fa40ae16b8750bca3748f41b4706c073d822e776057f74ac9a1",
+          "size_bytes": 80747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "7e281b1821bfbdc88e59c15998e24a1fd8246d3b20bdbe2571f13bd789483662",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "6966400c4c459fa40ae16b8750bca3748f41b4706c073d822e776057f74ac9a1",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 15,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 886.13671875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_4/attempt_001",
+      "runtime_seconds": 5.181291945278645,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "96b9921d8770f2793a39de3d8f7ee47a8ee8282dba5aed26c3b509210f5bffd1",
+          "size_bytes": 1017454
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "512403840667d0e0d44a0632d7bf1e55b9fe21fcffdb9016a0c174faf9b81037",
+          "size_bytes": 80786
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "21295c0b87b1d2f8ec7ef76ff9e446b6da17ded43f6b569cbabc1062468a5abf",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "512403840667d0e0d44a0632d7bf1e55b9fe21fcffdb9016a0c174faf9b81037",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 16,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 886.13671875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_5/attempt_001",
+      "runtime_seconds": 3.8148279013112187,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "483e455543f1077b2524efdea7dc769ce1d46b76cdff0cd7787f100695e82af2",
+          "size_bytes": 1013621
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "d5deba70e7238bf90efad824af2b10a0c1f393fea981b397fe080cd1a631d164",
+          "size_bytes": 81412
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "397ea4745953df92ce8ff66c18e5f9f5fd20f561b40cad362d6c97a474c9f867",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d5deba70e7238bf90efad824af2b10a0c1f393fea981b397fe080cd1a631d164",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 17,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 886.13671875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_6/attempt_001",
+      "runtime_seconds": 3.9267909293994308,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "e755090fa1eed846131d55d1bbf00905e6fa320b602cc3c2ef58f789e0f489bb",
+          "size_bytes": 992719
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "809fe26ccfdcc72acc10ee9de5c4c621effbf46a199b6224d0d6ba2eff05a33a",
+          "size_bytes": 80948
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "29cc523ae5cd705136eaa17af0734c4d1fe80cea785c10d6cf4eaa0e8df6c5e5",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "809fe26ccfdcc72acc10ee9de5c4c621effbf46a199b6224d0d6ba2eff05a33a",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 18,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 886.13671875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_7/attempt_001",
+      "runtime_seconds": 3.4521035319194198,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "c5362f11099719398a1988819762a0998e120b11c7542cea01cc8a4a7482e1ce",
+          "size_bytes": 1007315
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "935d6b785e3728e024880c87356f63254b536795bcbb6d44af134b1e98387249",
+          "size_bytes": 80891
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "12b95ae41610fa68a5aebdaccaf59ec90cf042874a8e20f48a2be62e4a5d5a62",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "935d6b785e3728e024880c87356f63254b536795bcbb6d44af134b1e98387249",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 19,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 886.13671875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_8/attempt_001",
+      "runtime_seconds": 3.470323346555233,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "050eb114416c90639c46c833eff8032d03edeec78c1d56515289073d50f41df1",
+          "size_bytes": 1016807
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "649a5afabbfae929a279f614f8e84dee1b2484dbe557da3a65ea7cb78583504c",
+          "size_bytes": 80732
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "6c4cbf69245a485c0974f889e921ee46b57c8dfb90a23b9dfe59d6d19e526388",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "649a5afabbfae929a279f614f8e84dee1b2484dbe557da3a65ea7cb78583504c",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 20,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/d1/seed_9/attempt_001",
+      "runtime_seconds": 4.3030607756227255,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "bb79dc298b56fd1bb7ea90b4400bb0bd56ade570d9047148830ca61b60cfc96a",
+          "size_bytes": 80831
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "8980c18971e49a92c0ed74c9f8deb9491c8a93981ae3bc84dad71a6ed37613e5",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "bb79dc298b56fd1bb7ea90b4400bb0bd56ade570d9047148830ca61b60cfc96a",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 21,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001",
+      "runtime_seconds": 7.789058326743543,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "1ba5d9a24d4becc5d40294319724eebd56892b1b42decb262b00457e2b780989",
+          "size_bytes": 80699
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "2b208d7c16457074fac928f6773b76bb354a3fbed494fef3eaa8cb0201ab0a62",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "1ba5d9a24d4becc5d40294319724eebd56892b1b42decb262b00457e2b780989",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 22,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001",
+      "runtime_seconds": 5.448575591668487,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "82e349cae02944b9d4064f7a97df239e9ae7c8352d7817add7be2f277364dde2",
+          "size_bytes": 80717
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "afe213fa0ae35cc1feebbdae863c801fd8f485d1b9dd863f7b164eb29374daf6",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "82e349cae02944b9d4064f7a97df239e9ae7c8352d7817add7be2f277364dde2",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 23,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001",
+      "runtime_seconds": 5.050907388329506,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "94ae3a368c9fc2d07befb3b5c8f201a03aa3bcdecdafe5d5fb18b9ef2d464d47",
+          "size_bytes": 80721
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "96e863f223a35791ca97882d981b4ae902e3b66492f224e30f8471f23201e6b3",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "94ae3a368c9fc2d07befb3b5c8f201a03aa3bcdecdafe5d5fb18b9ef2d464d47",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 24,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001",
+      "runtime_seconds": 5.511202399618924,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "ef13521a18a012e010ad6602fa1650dfd30ca20fe9999125ccf5d3dd357abc55",
+          "size_bytes": 80715
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "21782cf8d78cc966b4295e767254c55a76aa8fac91f4589ce02a9bb734dc65dd",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "ef13521a18a012e010ad6602fa1650dfd30ca20fe9999125ccf5d3dd357abc55",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 25,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001",
+      "runtime_seconds": 4.980894695036113,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "d0454ba6ce204874413e86807ba755101dd67953ad5fd62786c254c707503c8f",
+          "size_bytes": 80798
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "d0604f06d4e194e07a3bb3c7abe096d9f80dc3b005e56555f7fcf58eb0c3d8ba",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d0454ba6ce204874413e86807ba755101dd67953ad5fd62786c254c707503c8f",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 26,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001",
+      "runtime_seconds": 5.923518122173846,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "5b2275f96cc36ab2ca6a99247270ce34a08381972efc1dd13034ebf861131c35",
+          "size_bytes": 80717
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "ca945730599eed5111c1ac7e0db39ee3a2dfda37dac9d9d709c0fef3f946ff31",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "5b2275f96cc36ab2ca6a99247270ce34a08381972efc1dd13034ebf861131c35",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 27,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001",
+      "runtime_seconds": 8.068295111879706,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "ae46e15f62fa74c0a6af2cfd2266cd30579e205eadbf3be3c46d0a88ec5f81c5",
+          "size_bytes": 80975
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "0d209e1914997f2bce68013e0206d2b329e89c26c3209996f6442c9768380101",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "ae46e15f62fa74c0a6af2cfd2266cd30579e205eadbf3be3c46d0a88ec5f81c5",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 28,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001",
+      "runtime_seconds": 5.462265172973275,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "78280fdebd03c87960bbaf7e6c611a80152f867beae58e490bff49c712d3f7ec",
+          "size_bytes": 80709
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "59ca23fa86d92c13d0bf02e83a9777a61eba9c82d2bf0fbd9e31c40656b1b380",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "78280fdebd03c87960bbaf7e6c611a80152f867beae58e490bff49c712d3f7ec",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 29,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001",
+      "runtime_seconds": 6.7301684226840734,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "d8ebb8dd320674cf04ae783790ef42229401f6eac46bd6eb55dded84cc0bc9db",
+          "size_bytes": 80832
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "e972f4764c1c10f263b2c7180a61ee00f0f4868bf3c71a905596028bfae11f22",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d8ebb8dd320674cf04ae783790ef42229401f6eac46bd6eb55dded84cc0bc9db",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 30,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001",
+      "runtime_seconds": 6.304560818709433,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "bac040fa6ffd044435d53760bf173e0d607ee9f0237e595589ecbf8499666251",
+          "size_bytes": 1063621
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "452bf538eb78ce557fce8002be02639eab594aadb059daf424c47c9b3defd43e",
+          "size_bytes": 81025
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "d4db42394afc5c1a8ec98c81848c54ae0228ad9946dc55a235ece600c23c2078",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "452bf538eb78ce557fce8002be02639eab594aadb059daf424c47c9b3defd43e",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 31,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_0/attempt_001",
+      "runtime_seconds": 4.23171120043844,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "252ee56974b472336d5242ae343075b912b49e5402d4102f0031879ba31c86a7",
+          "size_bytes": 1062845
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "ebe037639a9f3fa8f08143c38a91f40dcaf56d88c2d05dc9a7aa39ddd7536b45",
+          "size_bytes": 80753
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "9028f6192dcd960c94f9c2830f982b46676f3a80635ab1df39276aa81c50546a",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "ebe037639a9f3fa8f08143c38a91f40dcaf56d88c2d05dc9a7aa39ddd7536b45",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 32,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_1/attempt_001",
+      "runtime_seconds": 3.342678098939359,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "032d11bcfe41fa76c447a8b7c08519a86b5399994e91569edbdebe3a76910414",
+          "size_bytes": 1056821
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "13cfe58fdd0d62ef1fbf077fccb3ce17afe91d068fc3b7ac9f9638ac7baa11e9",
+          "size_bytes": 81176
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "605bf15c18a1c035c11a71f4917fd9368d011ab830449593654a31c8138dff4b",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "13cfe58fdd0d62ef1fbf077fccb3ce17afe91d068fc3b7ac9f9638ac7baa11e9",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 33,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_2/attempt_001",
+      "runtime_seconds": 3.7653479976579547,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "25e55ed66f85ec479df18010f26091cf6c27ca9d90bceb767981890aae62ed3a",
+          "size_bytes": 1044870
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "be6b025bf8137a8108294e5cde1b65d7912d47fcfd10c362e7d68de4b0b5e9d4",
+          "size_bytes": 81371
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "e65562fe99c6d0c516d8958e905bd4fc34a65ca4350961f3a0a0fe4e75c7f246",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "be6b025bf8137a8108294e5cde1b65d7912d47fcfd10c362e7d68de4b0b5e9d4",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 34,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_3/attempt_001",
+      "runtime_seconds": 3.81845158431679,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "b67fd52e68692d271819a9223c8b95759e96c953add78c7c8d7914d9d55dfc55",
+          "size_bytes": 1050005
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "63baa1b90512bfee3e270a5637f8a6b8dd682d1a41e8efc2142a77fee9b9b99e",
+          "size_bytes": 81146
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "47cab73a5c32fa30318dc8ddeee119931a9b33bbfe5fbe5a7a2d7c55b39b793f",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "63baa1b90512bfee3e270a5637f8a6b8dd682d1a41e8efc2142a77fee9b9b99e",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 35,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_4/attempt_001",
+      "runtime_seconds": 3.594815233722329,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "487075b5c75ce88a259829d1945b203489efc7ca236bf504c96a9dc24e2a4b5a",
+          "size_bytes": 1051034
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "9b751198e09077cd545367367d53377702de9860b31f439b52ab01c293676c3b",
+          "size_bytes": 81033
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "250629952ce88b76fab53192b95eca6cb920b34be6f47e11bc2bf770b4add2f3",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9b751198e09077cd545367367d53377702de9860b31f439b52ab01c293676c3b",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 36,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_5/attempt_001",
+      "runtime_seconds": 3.7064228020608425,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "805b64ecb6f82f539246ab139fe1614492dd741a001704e2b042e9bfe6c11929",
+          "size_bytes": 1051430
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "3897c73a9f9364fe3812a558e98008a5e39e3874ac114c171091f9062dc11b3b",
+          "size_bytes": 80966
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "5555d1b7444edbd9d5ecbf5ac007dcd157bac73ce23061d9b362ed7978783300",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "3897c73a9f9364fe3812a558e98008a5e39e3874ac114c171091f9062dc11b3b",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 37,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_6/attempt_001",
+      "runtime_seconds": 4.047359152697027,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "f66e25c0db0f312a34cd17311576e8de78c08850a06540596dbe4cdfea5c749d",
+          "size_bytes": 1031821
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "2d3f885815b432bccdebd38ce692964ad076c6538b385fbfc2c116d575d8b1e5",
+          "size_bytes": 80984
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "93ee8b5485d25ecc0b17c65341059bd2349ad11acabcd8afec9854f29e38ceed",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "2d3f885815b432bccdebd38ce692964ad076c6538b385fbfc2c116d575d8b1e5",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 38,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_7/attempt_001",
+      "runtime_seconds": 3.6218318417668343,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "e1918fc5f7d0524a94698a0873895c6173cbc51f86eefd231a85a71fe229a3cf",
+          "size_bytes": 1043963
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "c901e8918262bd67b4a0f78d1a83afdb321c4d27876df05b155d3e43b7cdd2e0",
+          "size_bytes": 81160
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "b6d9175df7d5b8f942a1522206d7582ba5b6eaf96451413540cfdc731b57781a",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c901e8918262bd67b4a0f78d1a83afdb321c4d27876df05b155d3e43b7cdd2e0",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 39,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_8/attempt_001",
+      "runtime_seconds": 3.4717681892216206,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "23989b06f44bc141b405bde8b52d4c02ec83b2299b0190b1bedc5f4e6b9d8a11",
+          "size_bytes": 1053080
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "c9128ae00cc5982c594057db6e4a54e96e98e0a857e93e8134e795bacfe4f909",
+          "size_bytes": 81408
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "f46dbc0db748a98cbce732e9d4c3df1634ca5b41d48cf85123cef2b36f7cc2d7",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c9128ae00cc5982c594057db6e4a54e96e98e0a857e93e8134e795bacfe4f909",
+      "dataset": "d1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 40,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 887.859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/d1/seed_9/attempt_001",
+      "runtime_seconds": 6.078050860203803,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "8cfe8169e136ab86a93b82bde9995c341200969ab8d837288d1916359fa3eef8",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "19b4d106eb730fb882f58632c0ec12f8dfd4e4321a12a6e5c7b0dfc2a96b47c2",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "8cfe8169e136ab86a93b82bde9995c341200969ab8d837288d1916359fa3eef8",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 41,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 906.484375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001",
+      "runtime_seconds": 6.017876788042486,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "a035e36013c3ca116e39d525889cc30bea915e0a61d43354fdcca5c9760823b8",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "809a856b8166c201b0ab708c9fd320934dd7d2d44352866fb3769699873effc3",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "a035e36013c3ca116e39d525889cc30bea915e0a61d43354fdcca5c9760823b8",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 42,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 911.42578125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001",
+      "runtime_seconds": 7.954918195493519,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "5a8d900c4a791ef9148a72c754496d0767015187d3497535385da12de23da26f",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "b2d93f00fbbaf4e76a9304e7e35bef3123957db458678a61e3d64fcbfcb95c28",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "5a8d900c4a791ef9148a72c754496d0767015187d3497535385da12de23da26f",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 43,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 912.3828125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001",
+      "runtime_seconds": 5.886387795209885,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "ae29e7bd63b72bc4093b39decc4ea981c3813abeb53d767f389a875483f5112f",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "577db0410d2424f6aa0290f077e79020d21bf7b85830e1028982190804be1483",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "ae29e7bd63b72bc4093b39decc4ea981c3813abeb53d767f389a875483f5112f",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 44,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 912.5859375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001",
+      "runtime_seconds": 6.328191479668021,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "b3f64f41056d75904a583da05e1dbcd89a2b3cf3ab694656023549735aff36e4",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "7598fff706404dcf1ab0327c6b1855a1a18504fed0f1af78387c8316b3b3d829",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "b3f64f41056d75904a583da05e1dbcd89a2b3cf3ab694656023549735aff36e4",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 45,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 912.703125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001",
+      "runtime_seconds": 6.421369428746402,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "68caee84b2899bfd9c5e6f59c48c745f3d90035d08e5ce46d93a0f9a78c8ec85",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "fb9425d2d661b48e732af329f67e1870ca9ce0b06c84e91ce2cd93c2bcc772bc",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "68caee84b2899bfd9c5e6f59c48c745f3d90035d08e5ce46d93a0f9a78c8ec85",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 46,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 926.171875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001",
+      "runtime_seconds": 6.142992011271417,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "c9691aa15677645adab1f546e4a0a955d3c91132ff3a3c3124a486ae302a9e4f",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "ce17f875ba6bd7a198da7de1086618e2c4f2d16b559f3bcf5bec238a8916d676",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c9691aa15677645adab1f546e4a0a955d3c91132ff3a3c3124a486ae302a9e4f",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 47,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 926.171875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001",
+      "runtime_seconds": 5.794475879520178,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "da723e537d3dc0325b43fe498f708e1c740dbfc09f1123277f0123872b4a0994",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "8374fedb9afcfd4dca9fd824eabc3ae993b9e0c0d42eea374699de0bac79581d",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "da723e537d3dc0325b43fe498f708e1c740dbfc09f1123277f0123872b4a0994",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 48,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 947.2109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001",
+      "runtime_seconds": 6.8886877205222845,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "7c7cea60a75622cdad87e6d82728e7d7e1f7f75b102af92a2476861ad5e868b1",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "3ac2a55e418c13a09747f259f3fd585b131e1b12149f37d1a9754fca51134118",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "7c7cea60a75622cdad87e6d82728e7d7e1f7f75b102af92a2476861ad5e868b1",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 49,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 947.21484375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001",
+      "runtime_seconds": 6.499224359169602,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "c4f6e710c14fc0f81caba6a27d5f8e978c1cb8d52900b71c7638a7dead455d11",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "3560e5e7be0dc4bcfacaa51dcdf7a43a3063be123e21439deca3c17c1a890078",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c4f6e710c14fc0f81caba6a27d5f8e978c1cb8d52900b71c7638a7dead455d11",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 50,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 947.21484375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001",
+      "runtime_seconds": 7.13490626681596,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "2a37529ec7848f7ce839aee25df7b55747818a7f2ae8602703578053dd2e30e4",
+          "size_bytes": 1899989
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "e6a948f48c96cecef9bfa6042d1bf94423b58082313c09f1167d69845e0c47be",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "e1d098f5da810acdfef860519161f5b764db9585c9efc12225f59a708d244280",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e6a948f48c96cecef9bfa6042d1bf94423b58082313c09f1167d69845e0c47be",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 51,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1192.2890625,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001",
+      "runtime_seconds": 21.086669016629457,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "191bf3b4af8c38284eec8b5d98f7e11a0ccc920fbd26b3506a58b2e3ea98401f",
+          "size_bytes": 1945844
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "94e6e5075842ec3217ff86d915cd2163eb2b1549a689cb67cf68720a0f175154",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "3032d3257dd6a3e5faa23896a2d0833e3a6298a202272457a28cec4b4d3e5c9c",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "94e6e5075842ec3217ff86d915cd2163eb2b1549a689cb67cf68720a0f175154",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 52,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1214.34375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_1/attempt_001",
+      "runtime_seconds": 25.193193309940398,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "bb4c80941262675ae0d6e8f3021fac16d2fff155f9e26ccb29a1345f211bd546",
+          "size_bytes": 1889986
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "408557dc2347e56f3d2ee7b99e8733c501a5b3e85540abf4fe866f97cbe7c4b8",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "a2aa6c95fa1b232f184130d022752e0a2ec7264eae7211fe981554a7104449c7",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "408557dc2347e56f3d2ee7b99e8733c501a5b3e85540abf4fe866f97cbe7c4b8",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 53,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1214.34375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_2/attempt_001",
+      "runtime_seconds": 19.432859585620463,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "d5401201556d5eab3116c4a2704a6da8c2580a5ecf7b30fe555b947f264c2b4f",
+          "size_bytes": 1889871
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "4ed6c266e9a5bc09b89a6d22e852bc4c56f9d30c6251867c5888f6069e6f747d",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "7d427e50baf5fa2e2fc06e2de74d5aaea9aaca2b862d8abb186afaae3cf32b2a",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "4ed6c266e9a5bc09b89a6d22e852bc4c56f9d30c6251867c5888f6069e6f747d",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 54,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1214.34375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_3/attempt_001",
+      "runtime_seconds": 19.00430911593139,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "990fb4d410238063107f3a6bacdf28f94e739540de5f94558ff1c4740ce78987",
+          "size_bytes": 1905719
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "8d9700f15a0e5e8c5bbd63113512f05f53c93e9eb49e3d7556edba373471ff9b",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "877ddd0bc4954814bfc82a6f5818918badea356f128302d759c726f6f160d6c8",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "8d9700f15a0e5e8c5bbd63113512f05f53c93e9eb49e3d7556edba373471ff9b",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 55,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1214.34375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_4/attempt_001",
+      "runtime_seconds": 18.60418999288231,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "1511e7064aa880046a5d0e204e831d21cecf432bbf31c29273c44b6fa4629cdc",
+          "size_bytes": 1918808
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "2c50ce70bb9192c238df8c653861a23259a65592a816ed95af944435f66f1f69",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "935da3f52d05413bb750eba7595ef557016c872700ddfca1acba451b5b249d77",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "2c50ce70bb9192c238df8c653861a23259a65592a816ed95af944435f66f1f69",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 56,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1214.34375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_5/attempt_001",
+      "runtime_seconds": 18.240379971452057,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "532824f5046d4943999d8982b442e8f93ae0d30348e5d221e4bb64322626a9e3",
+          "size_bytes": 1918450
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "386f092387f8f8b900a02a94378b1d67b6358c9887123f1c89bbd1eb3748ef9c",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "ba0b0d7a9c32429b977d5b7839f13b716e70cd54b2b6528e093050d1a88bb285",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "386f092387f8f8b900a02a94378b1d67b6358c9887123f1c89bbd1eb3748ef9c",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 57,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1242.65234375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_6/attempt_001",
+      "runtime_seconds": 24.005894386209548,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "729c0cb4d278017b184b2007defdb45ed7fdb16d7139839d7292e4519eacfa95",
+          "size_bytes": 1917464
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "e7029b3384c6fb6f514801b97582b61e717ae36ce6d572d497d02f95348bcc5a",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "5e3620a5982306371190839207b243939dff50b2ad008094a420502e9a6c3b03",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e7029b3384c6fb6f514801b97582b61e717ae36ce6d572d497d02f95348bcc5a",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 58,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_7/attempt_001",
+      "runtime_seconds": 26.68470926117152,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "0c312c8e457f4684d367e71e3a035210b7dc01b712a7e29338be44c99c79a77e",
+          "size_bytes": 1921773
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "d364f5730baa09feced630017e1a42de14bc34a32a72a2e4b2125c482f41c3e0",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "188105aacb74b17343790b35b60a2f85dfbbd5cab87a3c3d7b786de4568301ee",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d364f5730baa09feced630017e1a42de14bc34a32a72a2e4b2125c482f41c3e0",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 59,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_8/attempt_001",
+      "runtime_seconds": 18.012031000107527,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "49f7e00276f869da9765617333cc1630ac6447b3de6ab9646e1d3f73ebe46282",
+          "size_bytes": 1903465
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "74856dcb2b6ab73697ffbc37a367faf8afb9bd9808b16e8771f60a671ebc1a6e",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "eb6b54f9a167835cf2a55f9855a5308ca6c36af566e6bcc6b34c7c68aa066d09",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "74856dcb2b6ab73697ffbc37a367faf8afb9bd9808b16e8771f60a671ebc1a6e",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 60,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_9/attempt_001",
+      "runtime_seconds": 23.40594078786671,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "613deac4c351ad30fa44810d636fa24411c312702f86e1de11cb72aa7e3e792f",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "48621832081efd89111d74ab35d87c6e02df39b5989eca9daaad641a3421c364",
+          "size_bytes": 214
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "613deac4c351ad30fa44810d636fa24411c312702f86e1de11cb72aa7e3e792f",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 61,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001",
+      "runtime_seconds": 5.416451849043369,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "22f3947e70acbaf11b3fe5d5c5093d17e624e34f806bb92d1748bf7fe418ca07",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "d478d34a04c404bf76dd33cd3c6eb26806539c2311ff36134535f721a0dff1ed",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "22f3947e70acbaf11b3fe5d5c5093d17e624e34f806bb92d1748bf7fe418ca07",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 62,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001",
+      "runtime_seconds": 6.328824130818248,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "3c4f41918696c365f526dd493cd2cefdc7a16b6578ccff4be7a973ffa342ec35",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "ff8050ba416ab0d6e0493ea22330b83b47f407361425c470b4515a4dc7d7d70b",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "3c4f41918696c365f526dd493cd2cefdc7a16b6578ccff4be7a973ffa342ec35",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 63,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001",
+      "runtime_seconds": 6.328557590954006,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "44e0dc50f0360ec335e9510906ef149f37fb12e3aaa93c1f2ce35e7d66fec147",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "4c09ad05f2bde7d8d78973bb48d8675b32f3c2d7681d9c6385566571012c6781",
+          "size_bytes": 214
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "44e0dc50f0360ec335e9510906ef149f37fb12e3aaa93c1f2ce35e7d66fec147",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 64,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001",
+      "runtime_seconds": 5.54151155333966,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "83853cd12c4931d9a9291b437d0197ff1d11b68e883ecbcdbb3a9356eb20eb61",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "1a664d84cf048a4d0f1107997397cf36e0e015f07f5db66efade1c2fcba75e5f",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "83853cd12c4931d9a9291b437d0197ff1d11b68e883ecbcdbb3a9356eb20eb61",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 65,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001",
+      "runtime_seconds": 6.088388846255839,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "fa11fd6030c54995199d9327d57260c1ace4c3cd87d1beb95d2bd4dedf1502f3",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "35b88958ba110c9c94c3b23cde61251b104fedc6c4787c6b7c74b353a949abbf",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "fa11fd6030c54995199d9327d57260c1ace4c3cd87d1beb95d2bd4dedf1502f3",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 66,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001",
+      "runtime_seconds": 5.980175165459514,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "ad6643b477b92cebae695ccba3edf23f6455f3f6671702400b5ddf32b76c5a8e",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "ed182728366070e0a3be631565f3ce7a1d0bbf77abcf5c8fb2fcbfbf7b44f2fb",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "ad6643b477b92cebae695ccba3edf23f6455f3f6671702400b5ddf32b76c5a8e",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 67,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001",
+      "runtime_seconds": 6.452788486145437,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "8e96c9d091c40cf9b85b6ca4eb9161af4bc72f691743db1b8ea7d0b2605bf873",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "c3e7efb8762fb2491fbc8890a3c054294c6bb1453db4750b2046e49f43fc173e",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "8e96c9d091c40cf9b85b6ca4eb9161af4bc72f691743db1b8ea7d0b2605bf873",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 68,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001",
+      "runtime_seconds": 5.2754747634753585,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "77ce7936b2bb6bbd9e51d181d99490222ea4e7c6bfe99884625aa5d7860b3523",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "6c8d3b192a9a8b64191c48fbb495bc92e99c663bb367b9e34b3ba71ff4352f13",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "77ce7936b2bb6bbd9e51d181d99490222ea4e7c6bfe99884625aa5d7860b3523",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 69,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001",
+      "runtime_seconds": 5.8542420621961355,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "fb4d203b4e8bd369e7b3cd8f679322e0ec96243be88f13685d24a3ca755b3223",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "b5aa5ec87b780f89aeb69448deda24701a3878d6e996636a6d0699aa2093e9d0",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "fb4d203b4e8bd369e7b3cd8f679322e0ec96243be88f13685d24a3ca755b3223",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 70,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1245.8125,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001",
+      "runtime_seconds": 5.7090322794392705,
+      "seed": 9,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "0acc8a0543f41604233b2d063c08e93ea3ff770a5729c6f4b0a8d07bc74cd3de",
+          "size_bytes": 2070207
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "c750111e88ad5e70f620dc11d313bb8b8399507cf7a3943beaaac88f7350c4bb",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "c0714422a9a28349f468fbe6444df64e6e32e5cdcd8170ad41791be64aebd112",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c750111e88ad5e70f620dc11d313bb8b8399507cf7a3943beaaac88f7350c4bb",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 71,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1456.015625,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001",
+      "runtime_seconds": 55.704157090745866,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "56fe67852cb89a36e8f2567235a74a4f378b3d38c5bac14a5dd2a4139945eddf",
+          "size_bytes": 2123007
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "310c55d99c7294e153155b297dbd9f51ef77a63688ac33c8d71f26b1aa5322d3",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "9e7acd65c64fa7b86dc4c1a3ad687861536123fb4f2510120219be7565cb118e",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "310c55d99c7294e153155b297dbd9f51ef77a63688ac33c8d71f26b1aa5322d3",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 72,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1479.7109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_1/attempt_001",
+      "runtime_seconds": 53.713257792405784,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "e1ea66bc715ad69aba440dc348b440a109cbb18e4144a58af7ebc400a66f7153",
+          "size_bytes": 2092906
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "138646011a9ec067df5eb04c2f811aaded794c91c6631bbd9d6cdf531fe7d3ec",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "662d55e4e0876428afc97f168aae2e58e28c2cb02b451473951244168a2cca4d",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "138646011a9ec067df5eb04c2f811aaded794c91c6631bbd9d6cdf531fe7d3ec",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 73,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1479.7109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_2/attempt_001",
+      "runtime_seconds": 52.59604481048882,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "4fa0d48b19276350291302bd76532ceb9ccd2139ecb92de133cbf3c5be8855ad",
+          "size_bytes": 2058368
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "1d86e8f5590de6851e9717b7a71756cb4d1b0a7a194ac57a15aee4aa1cfd7398",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "a500ab796fed26d65b17e8ff87a84b4458401cbb25f005b200f6323ab0752c78",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "1d86e8f5590de6851e9717b7a71756cb4d1b0a7a194ac57a15aee4aa1cfd7398",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 74,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1479.7109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_3/attempt_001",
+      "runtime_seconds": 53.17827159631997,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "3ac38201fc3998562b9952d4179dffd3f31ea55feada6e4df1c127c433a2d2c0",
+          "size_bytes": 2050650
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "0af0176a661dcc66f7d5889c295e9fa45901a9007806edde0db098ff4d330f15",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "4594067607435895d5a01336535bf1b52d5a6d1f69f20010753fbae241031c33",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "0af0176a661dcc66f7d5889c295e9fa45901a9007806edde0db098ff4d330f15",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 75,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1479.7109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_4/attempt_001",
+      "runtime_seconds": 48.07940056081861,
+      "seed": 4,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "4c6a1ce00aefd56cb1311ff8d91c0373b288bf6312c3cc1efc22a95dd4312620",
+          "size_bytes": 2064727
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "f4237e02f59e7bbdb6dafe1727ea48ee49ee91b5352e320a52abe44e103dd35e",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "6e8d18c8231b1f4846ce888b0de1fa6f1648e9d7c2f03af2b6a351c3d76f0a23",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "f4237e02f59e7bbdb6dafe1727ea48ee49ee91b5352e320a52abe44e103dd35e",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 76,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1479.7109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_5/attempt_001",
+      "runtime_seconds": 57.446208694018424,
+      "seed": 5,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "7245ab203597696fb5f7ea9fb40e65894ede8a8fb7b7811269332c615cbd078b",
+          "size_bytes": 2051930
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "b5be75c1a96441d9e51b46dbf5c8c4165797540c1d8450420a88e824c05becef",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "1467176597f7355dc83671bbc26a19d0926d4e59863600b5e4584750fea5c1a2",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "b5be75c1a96441d9e51b46dbf5c8c4165797540c1d8450420a88e824c05becef",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 77,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1479.7109375,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_6/attempt_001",
+      "runtime_seconds": 50.84505068976432,
+      "seed": 6,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "b288fef98a17e6e621dd82b1668b115fbc8eaf0d0871283c0e9a870968566e6c",
+          "size_bytes": 2059698
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "b2843e61424f16252c1336f0fcd94f49271a41f10d4e1f2e8bc46e67bc1f43a2",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "deae703300f88a3164bc789cb5442ede4c77782936506e1933d2ca328da93d10",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "b2843e61424f16252c1336f0fcd94f49271a41f10d4e1f2e8bc46e67bc1f43a2",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 78,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1481.921875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_7/attempt_001",
+      "runtime_seconds": 64.55524647701532,
+      "seed": 7,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "c3d46468125365901a32e89c4294841456a9efcaf10a78e6e383c1ef833decd7",
+          "size_bytes": 2057767
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "859f6de1b8b14010446ede7622bc24d4a1820411bce8709e1a5f5616ef31403b",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "61bd94a6efecff7fb791d577858179d74e97bc63405facba90bf45d133836c4d",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "859f6de1b8b14010446ede7622bc24d4a1820411bce8709e1a5f5616ef31403b",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 79,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1481.921875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_8/attempt_001",
+      "runtime_seconds": 57.36412681546062,
+      "seed": 8,
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "0984c5726f685b89b6916a8fa387a2e0b47a6d2190c738cd308deb294afbed46",
+          "size_bytes": 2084542
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "e47a3710eff60ec6eae1b760d419d3b13ea958eb042765c7ef9abf67c3a0d111",
+          "size_bytes": 174747
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "f4e8443bbdd8b5337c141160308d427241f4f344242f02cd7c2fc81373e42316",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e47a3710eff60ec6eae1b760d419d3b13ea958eb042765c7ef9abf67c3a0d111",
+      "dataset": "p22",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 80,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 1481.921875,
+      "run_dir": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_9/attempt_001",
+      "runtime_seconds": 39.0958132231608,
+      "seed": 9,
+      "status": "success"
+    }
+  ]
+}

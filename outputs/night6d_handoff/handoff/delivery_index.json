@@ -1,0 +1,376 @@
+{
+  "branch": "revision/q2-night6d-locked-d1-p22-confirmation-20260817",
+  "files": [
+    {
+      "path": "budget_and_access_audit.json",
+      "sha256": "3950b2d3b5f8e6b811a5bcd43ca30a932711e5ce0931f5079816212c50509ba4",
+      "size_bytes": 727
+    },
+    {
+      "path": "checkpoint_roundtrip_index.json",
+      "sha256": "d87d324499bda1a6131c164de9feab7d3ba06e85f517b2216a4e919491166311",
+      "size_bytes": 28569
+    },
+    {
+      "path": "checkpoint_roundtrip_summary.csv",
+      "sha256": "8c6458f6be42899c340c2d5cb50b86283e360f76bbafda159a6e3652008f69e3",
+      "size_bytes": 17160
+    },
+    {
+      "path": "d1_label_free_manifest.json",
+      "sha256": "b6e92d3a7b5e6c923ba54e929c63abf8fabb0129a1ad192a9a28ea979b972c85",
+      "size_bytes": 2256
+    },
+    {
+      "path": "d1_p22_per_seed_metrics.csv",
+      "sha256": "97beb1adca50f753ccb35aa95a35d3a54a5f6758d3599844eaca2ac6b7cb1a1e",
+      "size_bytes": 32542
+    },
+    {
+      "path": "data_role_and_label_firewall.json",
+      "sha256": "79dda7b8b29eb6b866ef79809cde9f76ccd4615f89ef4ff49e26a7db41e8959c",
+      "size_bytes": 1294
+    },
+    {
+      "path": "dataset_and_method_contract.json",
+      "sha256": "6ef8350c8dcd2fea297c5e3570560bf784006c1ca7fcf1b53dc7e7111a3f3099",
+      "size_bytes": 13960
+    },
+    {
+      "path": "environment_versions.json",
+      "sha256": "80d8a14b18b53c946b9802b70672a7d48207dac7e2aee3ad68f6e6c0e4aab832",
+      "size_bytes": 316
+    },
+    {
+      "path": "evaluation_run.log",
+      "sha256": "7d1ad52afd45ffd5c45fcd976610f2a054a62fbdc78749be03bd89e5102fd639",
+      "size_bytes": 18960
+    },
+    {
+      "path": "failure_and_retry_audit.json",
+      "sha256": "ac45d1569d9539b60155aec1ba663658d8daa4d3fbc86fd4058365085806cd06",
+      "size_bytes": 281
+    },
+    {
+      "path": "finalize_run.log",
+      "sha256": "16620aa0418aa1b24f5f9800a5358a30eeed59a9acbef151f3fb6faaf1ff4c10",
+      "size_bytes": 115
+    },
+    {
+      "path": "firewall/access.jsonl",
+      "sha256": "4ba52f59d417d0e749cb66276131e5af13ff1d095cbd3351fe5e02ebac99efd5",
+      "size_bytes": 10328
+    },
+    {
+      "path": "firewall/evaluator_access.jsonl",
+      "sha256": "1381a42788094f69d48b319f8f736134bbac604c35a298765999cfcc2455f989",
+      "size_bytes": 440
+    },
+    {
+      "path": "git_pre_final_audit.json",
+      "sha256": "71fa2458605f7504564d78296bb27fa37c006ec71ad1850e50b44073d394126f",
+      "size_bytes": 347
+    },
+    {
+      "path": "graph_cache_manifest_index.json",
+      "sha256": "c5466b3a8c8e65c459910d6f89c9df573710a61dad9b7525a01f596cbf189ffe",
+      "size_bytes": 10858
+    },
+    {
+      "path": "independent_recompute_run.log",
+      "sha256": "a697b5220d79f137776109e5188f2689f7b2163ed159ec9dcde732c063c0bbb7",
+      "size_bytes": 97
+    },
+    {
+      "path": "independent_statistical_recompute_audit.json",
+      "sha256": "91d668ed7617f10567437fba17b77e17c1e5146bef29dc7c7808b515c53ac9b4",
+      "size_bytes": 485
+    },
+    {
+      "path": "label_window_audit.json",
+      "sha256": "02de6c377bfd43c88f75d02ce54de9175770485a8f510019da641f98fc3576f1",
+      "size_bytes": 1543
+    },
+    {
+      "path": "locked_training_manifest.json",
+      "sha256": "6e4abf63372cff019cfb7bf91c4066ff931f721ce7362514d884539db67604ba",
+      "size_bytes": 304133
+    },
+    {
+      "path": "locked_training_run.log",
+      "sha256": "f31fa7c025b66ba768d0ada5b8e937212adaa792f320f3818fd380380e00c219",
+      "size_bytes": 83247
+    },
+    {
+      "path": "locked_transform_manifest.json",
+      "sha256": "3608b3d78adfbf7cdff077028882b3002368606a945a1303aa8b3959b28aeb40",
+      "size_bytes": 139300
+    },
+    {
+      "path": "locked_transform_run.log",
+      "sha256": "622183333a540299d1af8feda202db4947eea87841bf536cae0ebf30c6760c0e",
+      "size_bytes": 63786
+    },
+    {
+      "path": "night6d_decision.json",
+      "sha256": "555f088913776976c91db02538e06f44b9c1b4f9b560dc75660c90df8e98f313",
+      "size_bytes": 515
+    },
+    {
+      "path": "night6d_report.md",
+      "sha256": "333192ce979a02ce8cbc785828e58fa7b9314906ce653c7d8cae016b92e8a053",
+      "size_bytes": 2941
+    },
+    {
+      "path": "p0_correction_audit.json",
+      "sha256": "0b96520ea0751ca107169e06a2bc2cd0a5b89663a369ea5e249b6a05b5f60e7b",
+      "size_bytes": 2244
+    },
+    {
+      "path": "p0_protect_audit.json",
+      "sha256": "15a026f18a7face17d595eea39a79f673b060d7e3711aa2f94583537725222c7",
+      "size_bytes": 2031
+    },
+    {
+      "path": "p0_run.log",
+      "sha256": "2639cf58ef79793ee54e6442022ba0627090f57ff672e25630a6c2f9b367c157",
+      "size_bytes": 260
+    },
+    {
+      "path": "p0_run_attempt2.log",
+      "sha256": "326bd2ed00f1de4774896544f3ef41c64d5f60bb868350b34989e38cf3fb4ea0",
+      "size_bytes": 2973
+    },
+    {
+      "path": "p0_semantic_contract.json",
+      "sha256": "e8f19bf9f179e9b7ee219281c25562ef6343b4a8eaeb3271416085d588121883",
+      "size_bytes": 935
+    },
+    {
+      "path": "p0_semantic_run.log",
+      "sha256": "57de99858f0dd826c02e62522a4868631ed6b1ce185d0425d45a847100739062",
+      "size_bytes": 120
+    },
+    {
+      "path": "p22_cache_reuse_audit.json",
+      "sha256": "6df9f50807679051cb7fd8e3e3a738ad70b277912219cb30de414ba0f4a34294",
+      "size_bytes": 861
+    },
+    {
+      "path": "primary_confirmatory_tests.json",
+      "sha256": "45f01923735e96b1ea7e10f382937e19e5290e976ca882a1f84e1fae44664d9d",
+      "size_bytes": 10970
+    },
+    {
+      "path": "raw_artifact_manifest.csv",
+      "sha256": "f5ed41ec7fd6f8e0b35cc545da1376b8785186cbe27891afd216b93579945e94",
+      "size_bytes": 81283
+    },
+    {
+      "path": "resource_accounting.csv",
+      "sha256": "ca2bd3d606e52b5cd4ed4f0fab33e87efa2a353412c64af2a81c2600af883e87",
+      "size_bytes": 11929
+    },
+    {
+      "path": "secondary_factorial_tests.json",
+      "sha256": "8b8c0067464cf3cadae8a6f34314a1d2e1a2790982a22d6fe76acf562d381d15",
+      "size_bytes": 32188
+    },
+    {
+      "path": "shutdown_dispatch_status.json",
+      "sha256": "a63c4e29dcb2218a810ae96f12137d81a2d7169867fbc5ab462182b2f20f7e78",
+      "size_bytes": 240
+    },
+    {
+      "path": "spatial_protection.json",
+      "sha256": "4cd9320a5db39da14d743f80b1be64ab19f2597229d4ce6dff8ebec1c7b34d80",
+      "size_bytes": 621
+    },
+    {
+      "path": "tests/final_pytest.txt",
+      "sha256": "871abf856b33ff5f9b581873ade6fbd4f5a67a47d4450ad082608c6006c90072",
+      "size_bytes": 1336
+    },
+    {
+      "path": "tests/p0_semantic_pytest.txt",
+      "sha256": "078542620c644c1260e3524ff631bd75e63b55dc65737fb6a4c1220ba349d6cc",
+      "size_bytes": 1335
+    },
+    {
+      "path": "tests/prelabel_statistics_pytest.txt",
+      "sha256": "7d1111fc729e06b7276698db76d6eeee8caf4c229f4087a7c2c0225fb21d4cf7",
+      "size_bytes": 926
+    },
+    {
+      "path": "tests/prelabel_statistics_pytest_attempt2.txt",
+      "sha256": "6de1ed0031dce090051c4e14b626204db66ea92da7121d3ee09400699ca5fb15",
+      "size_bytes": 98
+    },
+    {
+      "path": "tests_and_invariance_audit.json",
+      "sha256": "cec746f79b78461bd452d2f99344c7fa0978d08fe3ec66fb9a23439a46b08d4a",
+      "size_bytes": 718
+    },
+    {
+      "path": "SpaLORA/night1_evaluation.py",
+      "root": "repo",
+      "sha256": "b688de4e4e1e8d278eefda6538c41a7a14590b91b5af8e0f91831d56045014a9",
+      "size_bytes": 6579
+    },
+    {
+      "path": "SpaLORA/night1_pipeline.py",
+      "root": "repo",
+      "sha256": "0173a8c371cff7f67fe42f40fd8ffd1d6a1dfe0d3702589934df97d9b52250e1",
+      "size_bytes": 15204
+    },
+    {
+      "path": "SpaLORA/night3a_ige.py",
+      "root": "repo",
+      "sha256": "e9a6f409252800ed283580eddd691e4699a5b0dc7dcec8566d2ce6c2e1171539",
+      "size_bytes": 23133
+    },
+    {
+      "path": "SpaLORA/night3af_cache.py",
+      "root": "repo",
+      "sha256": "fee6b868b5177ff380d9fdacca856f10890a577870e2cd8f2caf59cfc0366792",
+      "size_bytes": 8153
+    },
+    {
+      "path": "SpaLORA/night3b_metrics.py",
+      "root": "repo",
+      "sha256": "f6f6d1c4c958263d55834fb2f9278a1da6e0830959981c988a106c0b63563890",
+      "size_bytes": 2264
+    },
+    {
+      "path": "SpaLORA/night5a_rnd.py",
+      "root": "repo",
+      "sha256": "1c72fdf62183be44f091558a6554e8252ff8730c20ce0884a26a83de13b7cb5f",
+      "size_bytes": 36967
+    },
+    {
+      "path": "SpaLORA/night6c_pipeline.py",
+      "root": "repo",
+      "sha256": "b1abd06ab1f5f30d8f3c1d16e89a2ab8c240b61422f8c2b9307adc0619a0e0d1",
+      "size_bytes": 29352
+    },
+    {
+      "path": "SpaLORA/night6d_firewall.py",
+      "root": "repo",
+      "sha256": "218e50aedded17fbb38fed7954659eaf4be3384a4c7b497bb71b26c5f1d15943",
+      "size_bytes": 3904
+    },
+    {
+      "path": "SpaLORA/night6d_pipeline.py",
+      "root": "repo",
+      "sha256": "5aef023f7bba8d7a4cf2c75982bac95f2c88f25ad972029672bd914f7dff3897",
+      "size_bytes": 3666
+    },
+    {
+      "path": "protocols/night6d/SpaLORA_Night6C_Independent_Planner_Audit_and_Night6D_Decision_2026-08-17.md",
+      "root": "repo",
+      "sha256": "f54c0a3941f75d4690fa6836b4042596a2b0e1b2aede1fc1e7ca7a32a55f3766",
+      "size_bytes": 7212
+    },
+    {
+      "path": "protocols/night6d/SpaLORA_Night6D_Locked_D1_P22_Confirmation_Registry_2026-08-17.json",
+      "root": "repo",
+      "sha256": "439dbe7b7c3971b1b9af8303a6d4bdfeefc0a19090fb80e4d38e4374586647fe",
+      "size_bytes": 10091
+    },
+    {
+      "path": "protocols/night6d/SpaLORA_Night6D_Locked_D1_P22_Confirmation_Taskbook_2026-08-17.md",
+      "root": "repo",
+      "sha256": "ce33d22027695744943d0042b5f372f42487d3471e8484815573248fc05fe909",
+      "size_bytes": 16279
+    },
+    {
+      "path": "scripts/night6c_reload.py",
+      "root": "repo",
+      "sha256": "32522425a5a56130a67e0b35928f48908e25abdde3b43982dd475a507d3237d9",
+      "size_bytes": 4511
+    },
+    {
+      "path": "scripts/night6c_train.py",
+      "root": "repo",
+      "sha256": "3603b1d857750ff15f9c39b570f19171b7d59b2f53efbcab04aeb10eb820d2f9",
+      "size_bytes": 11853
+    },
+    {
+      "path": "scripts/night6c_transform.py",
+      "root": "repo",
+      "sha256": "a33494a19bbfb22768a13e87d0111e3ca663bd970c0268aecbeeadff258b5b0e",
+      "size_bytes": 9590
+    },
+    {
+      "path": "scripts/night6d_evaluate.py",
+      "root": "repo",
+      "sha256": "e62d6ceffa1cdfb4ed0a14530c9e2f980c1bf6bb005f85605f3d4513816b69c4",
+      "size_bytes": 17834
+    },
+    {
+      "path": "scripts/night6d_finalize.py",
+      "root": "repo",
+      "sha256": "696a16b08fe1e7bd9652502284f7a05d2e1d1f842c864b3b9034bedd1dbd498d",
+      "size_bytes": 12560
+    },
+    {
+      "path": "scripts/night6d_p0.py",
+      "root": "repo",
+      "sha256": "7ed14d05b8108afa3f8e5486be68d66ba11304a3e4eff7f4be49673f38caf150",
+      "size_bytes": 21514
+    },
+    {
+      "path": "scripts/night6d_p0_semantic.py",
+      "root": "repo",
+      "sha256": "9a4d09deb7f8f0d16db7f8092e48994c44d9fbe58a5401d8d1e4ce99498d5375",
+      "size_bytes": 3225
+    },
+    {
+      "path": "scripts/night6d_package.py",
+      "root": "repo",
+      "sha256": "7dabb4eccd288b1dd0cfa02ed2162cf9813ded817f0636d042c96b6d12054d2e",
+      "size_bytes": 4626
+    },
+    {
+      "path": "scripts/night6d_recompute_audit.py",
+      "root": "repo",
+      "sha256": "c34a65d01519202034427a2efc8562028133969f2e870cb05f6b93af400baf0a",
+      "size_bytes": 7348
+    },
+    {
+      "path": "scripts/night6d_reload.py",
+      "root": "repo",
+      "sha256": "d8ddfb8a26867fc597e006b1c579feaf6e75f6836b56a8eb8c13634e9fd9938f",
+      "size_bytes": 4624
+    },
+    {
+      "path": "scripts/night6d_train.py",
+      "root": "repo",
+      "sha256": "c0feb0f3ba0317926c13ed256422d15f864cd5640cd34587d57729e66b82ef3f",
+      "size_bytes": 11146
+    },
+    {
+      "path": "scripts/night6d_transform.py",
+      "root": "repo",
+      "sha256": "4716760d1c82287258455e2a5b4fbb3165e130aed569560922192885fc4ec87d",
+      "size_bytes": 8898
+    },
+    {
+      "path": "tests/test_night6d_semantic.py",
+      "root": "repo",
+      "sha256": "7f4caf1d208f9499da75eca9c01f17a12d24a309dc7e2ede0c40d83b31ca6f98",
+      "size_bytes": 7453
+    },
+    {
+      "path": "tests/test_night6d_statistics.py",
+      "root": "repo",
+      "sha256": "52493af9d24e9531aa6f42319601c293b56b40d93a9e599471a8063d2b994384",
+      "size_bytes": 1456
+    }
+  ],
+  "internal_output_root": "outputs/night6d_handoff",
+  "planned_final_tag": "night6d-final-20260817",
+  "repo_root_marker": "root=repo",
+  "schema": "non-self-referential-v1",
+  "terminal_status": "NIGHT6D_D1_P22_BALANCED_CONFIRMED"
+}

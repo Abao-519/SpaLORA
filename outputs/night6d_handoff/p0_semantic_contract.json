@@ -1,0 +1,26 @@
+{
+  "covered": [
+    "Night-6C source SHAs",
+    "dataset contracts",
+    "kNN lexical tie-break",
+    "self-tuning sigma and kernel",
+    "three-affinity arithmetic mean",
+    "spectral fixed implementation",
+    "original H5AD and ground-truth denial",
+    "early evaluator denial",
+    "label/metric payload rejection",
+    "fresh-process checkpoint round-trip"
+  ],
+  "formal_training_started_before_gate": false,
+  "gate_message": "P0-SEMANTIC PASS; BEGIN LOCKED 40-UNIT TRAINING",
+  "graph_caches": "4/4",
+  "label_values_deserialized": false,
+  "locked_graphs": "2/2",
+  "locked_heads": "2/2",
+  "pytest_exit_code": 0,
+  "pytest_log": "/autodl-fs/data/SpaLORA-night6d/outputs/night6d_handoff/tests/p0_semantic_pytest.txt",
+  "pytest_log_sha256": "078542620c644c1260e3524ff631bd75e63b55dc65737fb6a4c1220ba349d6cc",
+  "silent_fallback": false,
+  "status": "P0_SEMANTIC_PASS",
+  "toy_checkpoint_round_trip": "fresh-process PASS"
+}

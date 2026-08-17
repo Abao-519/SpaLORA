@@ -1,0 +1,36 @@
+{
+  "a1_runs": 0,
+  "candidate_additions": 0,
+  "fixed_order_preserved": true,
+  "fixed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "formal_benchmark_runs": 0,
+  "formal_transform_cap": 80,
+  "formal_transforms": 80,
+  "gse198353_runs": 0,
+  "implementation_or_infrastructure_retries": 0,
+  "label_access": {
+    "authorized_windows": 1,
+    "before_total_lock": 0,
+    "used_for_training_transform_or_selection": false
+  },
+  "night4b_runs": 0,
+  "retry_cap": 8,
+  "scientific_training_cap": 40,
+  "scientific_training_units": 40,
+  "tonsil_runs": 0,
+  "total_training_attempt_cap": 48,
+  "total_training_attempts": 40,
+  "transform_correction_cap": 8,
+  "transform_corrections": 0
+}

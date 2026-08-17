@@ -1,0 +1,22 @@
+{
+  "bootstrap_seed": 20260817,
+  "checkpoint_round_trip": "40/40",
+  "exact_sign_flip_enumerations": 1024,
+  "h00_exact_reload": "40/40",
+  "lower_is_better_metrics": [
+    "geary_c",
+    "boundary_disagreement"
+  ],
+  "metric_primary_key_unique": true,
+  "paired_bootstrap_resamples": 100000,
+  "parameter_tuning": false,
+  "pytest_exit_code": 0,
+  "pytest_log": "/autodl-fs/data/SpaLORA-night6d/outputs/night6d_handoff/tests/final_pytest.txt",
+  "pytest_log_sha256": "871abf856b33ff5f9b581873ade6fbd4f5a67a47d4450ad082608c6006c90072",
+  "seed_search": false,
+  "silent_fallback": false,
+  "status": "PASS",
+  "successful_metric_cells": 80,
+  "training_coverage": "40/40",
+  "transform_terminal_coverage": "80/80"
+}

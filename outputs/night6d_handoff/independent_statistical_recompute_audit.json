@@ -1,0 +1,15 @@
+{
+  "absolute_tolerance": 1e-12,
+  "bootstrap_resamples_per_contrast": 100000,
+  "bootstrap_seed": 20260817,
+  "ground_truth_reopened": false,
+  "metric_rows": 80,
+  "numeric_checks": 50,
+  "primary_exact_enumerations_per_dataset": 1024,
+  "recomputed_terminal_status": "NIGHT6D_D1_P22_BALANCED_CONFIRMED",
+  "secondary_exact_family_size": 6,
+  "source": "locked per-seed metric table only",
+  "status": "PASS",
+  "training_or_transform_reopened": false,
+  "unique_primary_keys": 80
+}

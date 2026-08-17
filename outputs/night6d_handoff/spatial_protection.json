@@ -1,0 +1,21 @@
+{
+  "applied_per_dataset": true,
+  "datasets": {
+    "d1": {
+      "boundary_disagreement_role": "report_only",
+      "delta_boundary": -0.0033828284037839664,
+      "delta_geary": 0.011528641820980217,
+      "delta_moran": -0.007309446997984803,
+      "delta_neighbor": 0.0033828284037839664,
+      "spatial_gate_failed": false
+    },
+    "p22": {
+      "boundary_disagreement_role": "report_only",
+      "delta_boundary": -0.0847773501924134,
+      "delta_geary": -0.07911778306312107,
+      "delta_moran": 0.07493612981086736,
+      "delta_neighbor": 0.0847773501924134,
+      "spatial_gate_failed": false
+    }
+  }
+}

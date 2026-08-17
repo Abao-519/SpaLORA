@@ -1,0 +1,7 @@
+{
+  "command": "/usr/bin/shutdown",
+  "dispatched": false,
+  "must_be_last_remote_command": true,
+  "note": "The controlling SSH session records dispatch; no reconnect is permitted afterward.",
+  "status": "READY_FOR_LAST_REMOTE_COMMAND"
+}

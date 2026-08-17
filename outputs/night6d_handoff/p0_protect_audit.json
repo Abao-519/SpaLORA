@@ -1,0 +1,61 @@
+{
+  "A1_or_tonsil_runs": 0,
+  "GSE198353_runs": 0,
+  "Night4B_runs": 0,
+  "authority_files": [
+    {
+      "actual_sha256": "f54c0a3941f75d4690fa6836b4042596a2b0e1b2aede1fc1e7ca7a32a55f3766",
+      "expected_sha256": "f54c0a3941f75d4690fa6836b4042596a2b0e1b2aede1fc1e7ca7a32a55f3766",
+      "file": "SpaLORA_Night6C_Independent_Planner_Audit_and_Night6D_Decision_2026-08-17.md",
+      "match": true
+    },
+    {
+      "actual_sha256": "439dbe7b7c3971b1b9af8303a6d4bdfeefc0a19090fb80e4d38e4374586647fe",
+      "expected_sha256": "439dbe7b7c3971b1b9af8303a6d4bdfeefc0a19090fb80e4d38e4374586647fe",
+      "file": "SpaLORA_Night6D_Locked_D1_P22_Confirmation_Registry_2026-08-17.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "ce33d22027695744943d0042b5f372f42487d3471e8484815573248fc05fe909",
+      "expected_sha256": "ce33d22027695744943d0042b5f372f42487d3471e8484815573248fc05fe909",
+      "file": "SpaLORA_Night6D_Locked_D1_P22_Confirmation_Taskbook_2026-08-17.md",
+      "match": true
+    }
+  ],
+  "branch": "revision/q2-night6d-locked-d1-p22-confirmation-20260817",
+  "budgets": {
+    "candidate_additions": 0,
+    "formal_benchmark_runs": 0,
+    "gse198353_runs": 0,
+    "maximum_head_transform_corrections": 8,
+    "maximum_head_transforms": 80,
+    "maximum_implementation_or_infrastructure_retries": 8,
+    "maximum_scientific_training_units": 40,
+    "maximum_total_training_attempts": 48,
+    "night4b_runs": 0
+  },
+  "fixed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "fixed_training_units": 40,
+  "fixed_transforms": 80,
+  "night6c_delivery_index_sha256": "06b2fa0ff9961ce847faea73a973ee6523abb73f75377b2f1d57153a1f2020b9",
+  "night6c_delivery_verification": {
+    "external": "4/4",
+    "internal": "77/77",
+    "local_post_dispatch": "3/3"
+  },
+  "parent_commit": "172cefba7559b34d2894ffa304553c0068ca23b9",
+  "parent_tag": "night6c-final-20260817",
+  "protection_tag": "baseline/pre-night6d-locked-d1-p22-confirmation-20260817",
+  "status": "P0_PROTECT_PASS"
+}

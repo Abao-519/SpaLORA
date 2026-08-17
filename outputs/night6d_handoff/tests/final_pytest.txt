@@ -1,0 +1,17 @@
+............                                                             [100%]
+=============================== warnings summary ===============================
+tests/test_night6d_semantic.py::test_knn_lexical_tie_and_locked_graph_rules
+tests/test_night6d_semantic.py::test_self_tuning_kernel_matches_manual_sparse_construction
+tests/test_night6d_semantic.py::test_self_tuning_kernel_matches_manual_sparse_construction
+tests/test_night6d_semantic.py::test_h05_exact_three_view_arithmetic_mean_and_no_fallback
+tests/test_night6d_semantic.py::test_h05_exact_three_view_arithmetic_mean_and_no_fallback
+tests/test_night6d_semantic.py::test_h05_exact_three_view_arithmetic_mean_and_no_fallback
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+tests/test_night6d_semantic.py::test_h05_exact_three_view_arithmetic_mean_and_no_fallback
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/sklearn/manifold/_spectral_embedding.py:259: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+12 passed, 7 warnings in 5.83s

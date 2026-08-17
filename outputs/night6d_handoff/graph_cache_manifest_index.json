@@ -1,0 +1,223 @@
+{
+  "entries": [
+    {
+      "candidate_config_sha256": "9e4f637c1460c7d1e7206b93df549cd4befbadeff9de220dc76297f7a47f1121",
+      "canonical_graph_cache_sha256": "4398a6f8bd0e830a265e4b18fe8532992fe154347b3e9f586d0ca8dbc9230c30",
+      "dataset": "d1",
+      "directory": "/root/autodl-fs/night6d_cache_20260817/graphs/d1/G00_SP18_F20_CORR_UNION",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "graphs": {
+        "adj_feature_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics1_support.npz",
+          "file_sha256": "d8dcf9ee0a432198069a70e30f99d173c955ff59a1d0964e05fc00db68ce7dec",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 102816,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 194877,
+          "support_sha256": "696ac77d5760730ec138467fe1b1a8acd8918ed6e55dbcc2023c8b0ca8d5c8e6",
+          "undirected_edges": 51408
+        },
+        "adj_feature_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics2_support.npz",
+          "file_sha256": "5312e5256c95563c4cd34aeb56bb8fb17919e07de37c2ba014b8e5145849cfb3",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 99272,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 182927,
+          "support_sha256": "dc91cb6fc7b0dfb84d706e196f16b1578674e4b203f8732a0428d72b38867019",
+          "undirected_edges": 49636
+        },
+        "adj_spatial_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics1_support.npz",
+          "file_sha256": "8bec4aec543204aae177f642ecdff355108b626333849db4d951614bd3c678d3",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 66106,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 105303,
+          "support_sha256": "e16a784fc8e04e364b89f45e843dee0d8ba74246746d1b557e8ce456952d2e0f",
+          "undirected_edges": 33053
+        },
+        "adj_spatial_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics2_support.npz",
+          "file_sha256": "8bec4aec543204aae177f642ecdff355108b626333849db4d951614bd3c678d3",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 66106,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 105303,
+          "support_sha256": "e16a784fc8e04e364b89f45e843dee0d8ba74246746d1b557e8ce456952d2e0f",
+          "undirected_edges": 33053
+        }
+      },
+      "manifest_sha256": "d66692cc9cc70d5d715d413f9dff93e5bb3ad1c06bd47785ec39f6ff0a128db8"
+    },
+    {
+      "candidate_config_sha256": "abd14bfc267f964927ea952359fa5cc94f9bfabe101f176805c037f1946bc639",
+      "canonical_graph_cache_sha256": "d3b8ca0d641997d150bb06764f8b80f77594580917bfe9fcba1c199ce65a4d1f",
+      "dataset": "d1",
+      "directory": "/root/autodl-fs/night6d_cache_20260817/graphs/d1/G04_SP10_F10_EUC_UNION",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "graphs": {
+        "adj_feature_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics1_support.npz",
+          "file_sha256": "77b28ec8003cbbfe57ca273b6c73a89e7377a512562c44246e11e1c57ac99fd4",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 59156,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 118207,
+          "support_sha256": "d654586a13feed22ec5480c87e47d97e8681e242fd3e74046f568ac6ac7d4d97",
+          "undirected_edges": 29578
+        },
+        "adj_feature_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics2_support.npz",
+          "file_sha256": "8c1b3b90873f336a91782c5a6f135659fee655fd25277c52595db98008fd9717",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 54808,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 107807,
+          "support_sha256": "6399bfb7a4a21fb399da06ebab4121228a1144cda04931d20a529e66536c360d",
+          "undirected_edges": 27404
+        },
+        "adj_spatial_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics1_support.npz",
+          "file_sha256": "4f3cf0d88fb7b727836b5fd175c06570bda685a64d28a270014263181ce58cab",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 37242,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 68909,
+          "support_sha256": "3041bff88bb89d6614a8026e527704ba15a339f652ce65f0711f50c02b165705",
+          "undirected_edges": 18621
+        },
+        "adj_spatial_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics2_support.npz",
+          "file_sha256": "4f3cf0d88fb7b727836b5fd175c06570bda685a64d28a270014263181ce58cab",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 37242,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 68909,
+          "support_sha256": "3041bff88bb89d6614a8026e527704ba15a339f652ce65f0711f50c02b165705",
+          "undirected_edges": 18621
+        }
+      },
+      "manifest_sha256": "03c098a8e4fc6347932d96d887f9f2cc30d84a53e9cb90b6c700874e7d396011"
+    },
+    {
+      "candidate_config_sha256": "9e4f637c1460c7d1e7206b93df549cd4befbadeff9de220dc76297f7a47f1121",
+      "canonical_graph_cache_sha256": "3f7a5545f51532c41ae561b273c6c3514a2472fef39846affdde039d9b2de188",
+      "dataset": "p22",
+      "directory": "/root/autodl-fs/night6d_cache_20260817/graphs/p22/G00_SP18_F20_CORR_UNION",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "graphs": {
+        "adj_feature_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics1_support.npz",
+          "file_sha256": "0a09c1fc5355c254d5cddeb64f0198a3d9490de942e97d0279aa110a13544b3d",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 274304,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 589559,
+          "support_sha256": "8344adeafdac5569c00996f7e35ebcb2f268b49a12f46256d38c9093865ac4ad",
+          "undirected_edges": 137152
+        },
+        "adj_feature_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics2_support.npz",
+          "file_sha256": "47bb26dc8abe4c08279a77b81535dd5ddba2a9407a6cf8ed2bac9dc314f67ada",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 281098,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 584089,
+          "support_sha256": "3efaff419125af2771a94bdfff189ce86365d26549d5fc3bce165acc0c3e1772",
+          "undirected_edges": 140549
+        },
+        "adj_spatial_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics1_support.npz",
+          "file_sha256": "47355b3c905957851b409c338ef91ee73768a6e881eb1b6545fab19742cf9365",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 183300,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 143456,
+          "support_sha256": "25dc3d7e549894ff57e13d5f5f377ecce016c3d6700e78d162476b65807b23e8",
+          "undirected_edges": 91650
+        },
+        "adj_spatial_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics2_support.npz",
+          "file_sha256": "47355b3c905957851b409c338ef91ee73768a6e881eb1b6545fab19742cf9365",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 183300,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 143456,
+          "support_sha256": "25dc3d7e549894ff57e13d5f5f377ecce016c3d6700e78d162476b65807b23e8",
+          "undirected_edges": 91650
+        }
+      },
+      "manifest_sha256": "d67fe4e95628f206198270cc35229959496eaf87e87836e1ac109035fb0ad83a"
+    },
+    {
+      "candidate_config_sha256": "abd14bfc267f964927ea952359fa5cc94f9bfabe101f176805c037f1946bc639",
+      "canonical_graph_cache_sha256": "d4b1e169bdcaf0d909fba197e772549b28350b60d007021dacd03f455d1322ea",
+      "dataset": "p22",
+      "directory": "/root/autodl-fs/night6d_cache_20260817/graphs/p22/G04_SP10_F10_EUC_UNION",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "graphs": {
+        "adj_feature_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics1_support.npz",
+          "file_sha256": "d557cdaf5e2f6972aeed36f2ceb4cba6ece001ebe65b942d6d84e022dc0ad526",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 175054,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 381407,
+          "support_sha256": "1cc47c5da8b9c9716a2fad5e06e2c2ad74b5efa5dd157b30f946fba5e72e0b6d",
+          "undirected_edges": 87527
+        },
+        "adj_feature_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_feature_omics2_support.npz",
+          "file_sha256": "fc76a1238ad5daee378bda6759bc80ae82d2a6bf10840c1eeb9a2932810c4bc9",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 178732,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 387142,
+          "support_sha256": "2ceb539bed641be2aa63c56e77dbc09ba8d6688c0524c9ebc1a70a13dcc5ea5c",
+          "undirected_edges": 89366
+        },
+        "adj_spatial_omics1": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics1_support.npz",
+          "file_sha256": "f598fba254ca376a3ef1995cf96f249c7a612544fddb076f1403e28284990124",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 107486,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 128496,
+          "support_sha256": "77b36961c953e0f51424af06e75a0be8d4927408be9c7f49aa2dd4ff08dc1bae",
+          "undirected_edges": 53743
+        },
+        "adj_spatial_omics2": {
+          "connected_components_before_normalization": 1,
+          "file": "adj_spatial_omics2_support.npz",
+          "file_sha256": "f598fba254ca376a3ef1995cf96f249c7a612544fddb076f1403e28284990124",
+          "isolated_nodes_before_normalization": 0,
+          "nnz": 107486,
+          "normalization_self_loop_only_for_isolates": true,
+          "size_bytes": 128496,
+          "support_sha256": "77b36961c953e0f51424af06e75a0be8d4927408be9c7f49aa2dd4ff08dc1bae",
+          "undirected_edges": 53743
+        }
+      },
+      "manifest_sha256": "20b0efddc6c03aecdc58c58b688ac5cb4d8ba05d5cfb9c8afe87795dc9760f9a"
+    }
+  ],
+  "entry_count": 4,
+  "expected_entry_count": 4,
+  "status": "LOCKED"
+}

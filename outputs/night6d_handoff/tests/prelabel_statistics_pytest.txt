@@ -1,0 +1,18 @@
+...F                                                                     [100%]
+=================================== FAILURES ===================================
+_____________ test_spatial_gate_direction_and_boundary_report_only _____________
+
+    def test_spatial_gate_direction_and_boundary_report_only():
+        protected = pd.DataFrame({
+            "delta_neighbor": [-.02] * 10, "delta_moran": [-.04] * 10,
+            "delta_geary": [.04] * 10, "delta_boundary": [.02] * 10,
+        })
+        failed = protected.copy()
+        failed["delta_neighbor"] = -.04
+>       assert spatial_summary(protected)["spatial_gate_failed"] is False
+E       assert True is False
+
+tests/test_night6d_statistics.py:40: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_night6d_statistics.py::test_spatial_gate_direction_and_boundary_report_only
+1 failed, 3 passed in 3.22s

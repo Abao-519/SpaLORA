@@ -1,0 +1,20 @@
+{
+  "canonical_cache_content_sha256": "895bfa73c763e1fa1992ddc732fc193c4e12760249b8636c98f1c5f3111dbc40",
+  "canonical_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+  "directory": "/root/autodl-fs/night3af_p0d_builds_20260810/process_a/p22",
+  "ground_truth": {
+    "parsed_prelock": false,
+    "path": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+    "sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+    "size_bytes": 213019
+  },
+  "hvg": 2000,
+  "manifest_file_count": 18,
+  "manifest_files_verified": 18,
+  "manifest_sha256": "254eda53a7e7a62e30ded97443878045b78af9e573cbb5e6f2c365488ddf8f81",
+  "n_observations": 9196,
+  "read_only_historical_cache": true,
+  "regeneration_performed": false,
+  "semantic_label_values_read": false,
+  "status": "PASS"
+}
