@@ -80,6 +80,8 @@ def stage_evaluate(stage: str, registry: dict) -> pd.DataFrame:
         labels[dataset] = labels_for(dataset, ids, True)
     rows = []
     for item in manifest["transforms"]:
+        if item["status"] != "success":
+            continue
         dataset = item["dataset"]
         run = Path(item["run_dir"])
         cluster_file = Path(item["head_dir"]) / "clusters.csv"
@@ -199,39 +201,54 @@ def r1_decision(frame: pd.DataFrame, registry: dict) -> dict:
         for graph_id in graphs:
             for dataset in ("a1", "tonsil"):
                 for seed in (0, 1):
-                    candidate = frame[(frame.graph_id == graph_id) & (frame.head_id == head_id) &
-                                      (frame.dataset == dataset) & (frame.seed == seed)].iloc[0]
+                    selected = frame[(frame.graph_id == graph_id) & (frame.head_id == head_id) &
+                                     (frame.dataset == dataset) & (frame.seed == seed)]
+                    if len(selected) != 1:
+                        continue
+                    candidate = selected.iloc[0]
                     within = frame[(frame.graph_id == graph_id) & (frame.head_id == h00) &
                                    (frame.dataset == dataset) & (frame.seed == seed)].iloc[0]
                     marginal.append(float(candidate.q - within.q))
-        combos = [summarize_combo(frame, graph_id, head_id, [0, 1]) for graph_id in safe_graphs]
-        best = max(combos, key=lambda x: x["macro_delta_q"])
+        combos = []
+        for graph_id in safe_graphs:
+            present = frame[(frame.graph_id == graph_id) & (frame.head_id == head_id) &
+                            frame.dataset.isin(["a1", "tonsil"]) & frame.seed.isin([0, 1])]
+            if len(present) == 4:
+                combos.append(summarize_combo(frame, graph_id, head_id, [0, 1]))
+        best = max(combos, key=lambda x: x["macro_delta_q"]) if combos else None
+        observed_cells = len(frame[(frame.head_id == head_id) & frame.seed.isin([0, 1])])
         head_summaries.append({"head_id": head_id, "family": heads[head_id]["family"],
-                               "marginal_delta_q": float(np.mean(marginal)),
+                               "marginal_delta_q": float(np.mean(marginal)) if marginal else None,
                                "marginal_paired_wins": int(np.sum(np.asarray(marginal) > 0)),
                                "heterogeneous": bool(np.any(np.asarray(marginal) > 0) and np.any(np.asarray(marginal) < 0)),
-                               "best_valid_graph_id": best["graph_id"],
-                               "best_valid_combination_delta_q": best["macro_delta_q"],
+                               "best_valid_graph_id": best["graph_id"] if best else None,
+                               "best_valid_combination_delta_q": best["macro_delta_q"] if best else None,
+                               "observed_cells": observed_cells, "expected_cells": 36,
+                               "failure_cells": 36 - observed_cells,
+                               "eligible_for_advancement": observed_cells == 36,
                                "mean_runtime_seconds": float(frame[frame.head_id == head_id].head_runtime_seconds.mean())})
+    def hscore(x):
+        values = [v for v in (x["marginal_delta_q"], x["best_valid_combination_delta_q"]) if v is not None]
+        return max(values) if values else -1e300
+    eligible_heads = [x for x in head_summaries if x["eligible_for_advancement"]]
     selected = []
-    positive_marginal = sorted([x for x in head_summaries if x["marginal_delta_q"] > 0],
+    positive_marginal = sorted([x for x in eligible_heads if x["marginal_delta_q"] is not None and x["marginal_delta_q"] > 0],
                                key=lambda x: (-x["marginal_delta_q"], x["mean_runtime_seconds"], x["head_id"]))
     if positive_marginal: selected.append(positive_marginal[0]["head_id"])
-    positive_best = sorted([x for x in head_summaries if x["best_valid_combination_delta_q"] > 0],
+    positive_best = sorted([x for x in eligible_heads if x["best_valid_combination_delta_q"] is not None and x["best_valid_combination_delta_q"] > 0],
                            key=lambda x: (-x["best_valid_combination_delta_q"], x["mean_runtime_seconds"], x["head_id"]))
     if positive_best and positive_best[0]["head_id"] not in selected:
         selected.append(positive_best[0]["head_id"])
     eligible_family = {"sparse_affinity", "sparse_affinity_spatial", "partition_ensemble"}
-    family_rows = sorted([x for x in head_summaries if x["family"] in eligible_family and
-                          max(x["marginal_delta_q"], x["best_valid_combination_delta_q"]) > 0],
-                         key=lambda x: (-max(x["marginal_delta_q"], x["best_valid_combination_delta_q"]),
+    family_rows = sorted([x for x in eligible_heads if x["family"] in eligible_family and hscore(x) > 0],
+                         key=lambda x: (-hscore(x),
                                         x["mean_runtime_seconds"], x["head_id"]))
     if family_rows and not any(x["head_id"] in selected for x in family_rows) and len(selected) < 3:
         selected.append(family_rows[0]["head_id"])
-    for row in sorted(head_summaries,
-                      key=lambda x: (-max(x["marginal_delta_q"], x["best_valid_combination_delta_q"]),
+    for row in sorted(eligible_heads,
+                      key=lambda x: (-hscore(x),
                                      x["mean_runtime_seconds"], x["head_id"])):
-        if max(row["marginal_delta_q"], row["best_valid_combination_delta_q"]) > 0 and row["head_id"] not in selected and len(selected) < 3:
+        if hscore(row) > 0 and row["head_id"] not in selected and len(selected) < 3:
             selected.append(row["head_id"])
     return {"stage": "R1", "status": "LOCKED", "label_access_after_output_lock": True,
             "graph_summaries": graph_summaries, "balanced_graph_pool": balanced_ids,

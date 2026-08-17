@@ -59,6 +59,10 @@ VIEW_KEYS = (
 )
 
 
+class NumericalHeadFailure(RuntimeError):
+    """A preregistered head is numerically undefined; never retry or fallback."""
+
+
 def canonical_json_sha(value) -> str:
     raw = json.dumps(value, sort_keys=True, separators=(",", ":"),
                      ensure_ascii=False).encode("utf-8")
@@ -329,6 +333,8 @@ def mclust(values: np.ndarray, k: int, model_names="EEE", seed: int = 2020) -> d
     ro.r["set.seed"](int(seed))
     converted = numpy2ri.py2rpy(np.asarray(values, dtype=np.float64))
     result = ro.r["Mclust"](converted, int(k), modelNames=model_names)
+    if result is ro.NULL or type(result).__name__ == "NULLType":
+        raise NumericalHeadFailure("fixed mclust returned R NULL")
     labels = np.asarray(result.rx2("classification"), dtype=np.int64)
     posterior = np.asarray(result.rx2("z"), dtype=np.float64)
     model = str(result.rx2("modelName")[0])
@@ -515,7 +521,7 @@ def run_head(head: Mapping[str, object], views: Mapping[str, np.ndarray],
         raise ValueError(f"unregistered head: {hid}")
     labels = np.asarray(labels, dtype=np.int64)
     if len(labels) != len(fused) or len(np.unique(labels)) != int(k):
-        raise RuntimeError(f"invalid cluster output for {hid}")
+        raise NumericalHeadFailure(f"registered head returned invalid K for {hid}")
     for key in list(aux):
         if isinstance(aux[key], np.ndarray):
             del aux[key]
@@ -574,7 +580,7 @@ def forward_model(model, data: Mapping[str, object], device: torch.device) -> Di
 
 
 __all__ = [
-    "BASE_C04", "DATASET_CFG", "VIEW_KEYS", "array_sha", "atomic_json",
+    "BASE_C04", "DATASET_CFG", "NumericalHeadFailure", "VIEW_KEYS", "array_sha", "atomic_json",
     "atomic_torch_save", "build_graph_data", "canonical_json_sha", "file_row",
     "forward_model", "h00", "load_graph_data", "load_views", "make_trainer",
     "mclust", "moran_scores", "observation_sha", "parse_registry", "run_head", "runtime_resources",

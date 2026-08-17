@@ -14,7 +14,8 @@ REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 from SpaLORA.night3af_cache import load_cache, sha256_file
 from SpaLORA.night6c_pipeline import (
-    atomic_json, canonical_json_sha, file_row, load_views, parse_registry, run_head, runtime_resources,
+    NumericalHeadFailure, atomic_json, canonical_json_sha, file_row, load_views,
+    parse_registry, run_head, runtime_resources,
 )
 
 OUT = REPO / "outputs/night6c_handoff"
@@ -54,17 +55,18 @@ def main() -> None:
         for head_id in selected_heads:
             ordinal += 1
             root = run_dir / "heads" / head_id
-            successes = []
+            completed = []
             for path in sorted(root.glob("attempt_*/transform_manifest.json")):
                 row = json.loads(path.read_text())
                 if row.get("status") == "success":
                     if sha256_file(Path(row["head_dir"]) / "clusters.csv") != row["cluster_file_sha256"]:
                         raise RuntimeError("existing transform output SHA mismatch")
-                    successes.append(row)
-            if len(successes) > 1:
-                raise RuntimeError("multiple successful transform attempts for one cell")
-            if successes:
-                rows.append(successes[0]); continue
+                if row.get("status") in {"success", "scientific_numerical_failure_no_retry"}:
+                    completed.append(row)
+            if len(completed) > 1:
+                raise RuntimeError("multiple terminal transform attempts for one cell")
+            if completed:
+                rows.append(completed[0]); continue
             attempts = sorted(root.glob("attempt_*")) if root.exists() else []
             attempt = len(attempts) + 1
             target = root / f"attempt_{attempt:03d}"
@@ -97,6 +99,27 @@ def main() -> None:
                 }
                 atomic_json(target / "transform_manifest.json", row)
                 rows.append(row)
+            except NumericalHeadFailure as exc:
+                resource = runtime_resources(started)
+                row = {"stage": args.stage, "ordinal": ordinal, "dataset": dataset,
+                       "graph_id": training_run["graph_id"], "seed": int(training_run["seed"]),
+                       "head_id": head_id, "attempt": attempt,
+                       "status": "scientific_numerical_failure_no_retry",
+                       "fallback": False, "run_dir": str(run_dir), "head_dir": str(target),
+                       "cluster_file_sha256": None,
+                       "head_config_sha256": canonical_json_sha(heads[head_id]),
+                       "exception_type": type(exc).__name__, "message": str(exc),
+                       "label_values_deserialized": False, "label_values_used": False,
+                       **resource}
+                atomic_json(target / "failure.json", row)
+                atomic_json(target / "transform_manifest.json", row)
+                rows.append(row)
+                print(json.dumps({"event": "transform_scientific_failure_no_retry",
+                                  "stage": args.stage, "ordinal": ordinal,
+                                  "dataset": dataset, "graph_id": training_run["graph_id"],
+                                  "seed": training_run["seed"], "head_id": head_id,
+                                  "message": str(exc)}, sort_keys=True), flush=True)
+                continue
             except Exception as exc:
                 atomic_json(target / "failure.json", {
                     "stage": args.stage, "ordinal": ordinal, "dataset": dataset,
@@ -112,22 +135,35 @@ def main() -> None:
                               "dataset": dataset, "graph_id": training_run["graph_id"],
                               "seed": training_run["seed"], "head_id": head_id},
                              sort_keys=True), flush=True)
-    failure_count = sum(1 for training_run in training["runs"] for head_id in selected_heads
-                        for _ in (Path(training_run["run_dir"]) / "heads" / head_id).glob("attempt_*/failure.json"))
-    if failure_count > 48:
+    implementation_corrections = 0
+    for training_run in training["runs"]:
+        for head_id in selected_heads:
+            for failure in (Path(training_run["run_dir"]) / "heads" / head_id).glob("attempt_*/failure.json"):
+                terminal = failure.parent / "transform_manifest.json"
+                if not terminal.exists() or json.loads(terminal.read_text()).get("status") != "scientific_numerical_failure_no_retry":
+                    implementation_corrections += 1
+    if implementation_corrections > 48:
         raise RuntimeError("head transform correction budget exceeded")
+    success_count = sum(x["status"] == "success" for x in rows)
+    scientific_failures = sum(x["status"] == "scientific_numerical_failure_no_retry" for x in rows)
+    if len(rows) != planned:
+        raise RuntimeError("fixed transform coverage incomplete")
     aggregate = {
         "schema_version": 1, "stage": args.stage, "status": "LOCKED",
         "locked_before_label_access": True, "training_manifest_sha256":
             sha256_file(OUT / f"{args.stage.lower()}_training_manifest.json"),
         "planned_transforms": planned, "attempted_transforms": len(rows),
-        "success_count": len(rows), "failure_count": failure_count,
-        "formal_head_transforms": len(rows), "transform_corrections": failure_count,
+        "success_count": success_count,
+        "scientific_numerical_failure_count": scientific_failures,
+        "failure_count": scientific_failures + implementation_corrections,
+        "formal_head_transforms": len(rows),
+        "transform_corrections": implementation_corrections,
         "selected_heads": selected_heads, "transforms": rows,
     }
     atomic_json(OUT / f"{args.stage.lower()}_transform_manifest.json", aggregate)
     print(json.dumps({"event": "transform_stage_locked", "stage": args.stage,
-                      "success": len(rows), "planned": planned}, sort_keys=True))
+                      "success": success_count, "scientific_failures": scientific_failures,
+                      "planned": planned}, sort_keys=True))
 
 
 if __name__ == "__main__":

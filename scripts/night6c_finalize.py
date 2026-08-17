@@ -32,11 +32,13 @@ def main() -> None:
     transforms = r1x["formal_head_transforms"] + r2x["formal_head_transforms"]
     if training > 66 or transforms > 552:
         raise RuntimeError("Night-6C hard budget exceeded")
-    if r1t["success_count"] != 36 or r1x["success_count"] != 432:
+    if r1t["success_count"] != 36 or r1x["attempted_transforms"] != 432 or \
+            r1x["success_count"] + r1x.get("scientific_numerical_failure_count", 0) != 432:
         raise RuntimeError("R1 fixed coverage incomplete")
     expected_r2 = (1 + len(r1d["advanced_graphs"])) * 2 * 3
     expected_x2 = expected_r2 * (1 + len(r1d["advanced_heads"]))
-    if r2t["success_count"] != expected_r2 or r2x["success_count"] != expected_x2:
+    if r2t["success_count"] != expected_r2 or r2x["attempted_transforms"] != expected_x2 or \
+            r2x["success_count"] + r2x.get("scientific_numerical_failure_count", 0) != expected_x2:
         raise RuntimeError("R2 fixed selected coverage incomplete")
     all_runs = r1t["runs"] + r2t["runs"]
     if any(not x["checkpoint_round_trip_pass"] or not x["h00_cluster_reload_exact"] for x in all_runs):
@@ -81,8 +83,12 @@ def main() -> None:
     tests.update({"status": "PASS", "formal_training_cells": len(all_runs),
                   "checkpoint_round_trip_pass_count": len(all_runs),
                   "h00_reload_exact_count": len(all_runs),
-                  "r1_transform_coverage": f"{r1x['success_count']}/{r1x['planned_transforms']}",
-                  "r2_transform_coverage": f"{r2x['success_count']}/{r2x['planned_transforms']}",
+                  "r1_transform_coverage": f"{r1x['attempted_transforms']}/{r1x['planned_transforms']}",
+                  "r1_transform_successes": r1x["success_count"],
+                  "r1_transform_scientific_failures": r1x.get("scientific_numerical_failure_count", 0),
+                  "r2_transform_coverage": f"{r2x['attempted_transforms']}/{r2x['planned_transforms']}",
+                  "r2_transform_successes": r2x["success_count"],
+                  "r2_transform_scientific_failures": r2x.get("scientific_numerical_failure_count", 0),
                   "metric_primary_key_unique": not metrics.duplicated(["dataset","graph_id","seed","head_id"]).any(),
                   "lower_is_better_fields": ["geary_c", "boundary_disagreement"],
                   "implementation_failures_mixed_into_science": False})
@@ -120,8 +126,8 @@ Accuracy-frontier candidate: `{accuracy['graph_id'] + '/' + accuracy['head_id'] 
 
 - P0 authority, Night-6B 31/31 root-aware evidence verification, ontology, and zero-obs label-free data checks passed.
 - C04/B01 training semantics were uniquely reconstructed from the Night-5 registry, runner, and five manifests before science began.
-- R1 training: {r1t['success_count']}/{r1t['planned_units']}; R1 head transforms: {r1x['success_count']}/{r1x['planned_transforms']}.
-- R2 training: {r2t['success_count']}/{r2t['planned_units']}; R2 head transforms: {r2x['success_count']}/{r2x['planned_transforms']}.
+- R1 training: {r1t['success_count']}/{r1t['planned_units']}; R1 head attempts: {r1x['attempted_transforms']}/{r1x['planned_transforms']} ({r1x['success_count']} successful, {r1x.get('scientific_numerical_failure_count', 0)} preregistered numerical failures, no fallback).
+- R2 training: {r2t['success_count']}/{r2t['planned_units']}; R2 head attempts: {r2x['attempted_transforms']}/{r2x['planned_transforms']} ({r2x['success_count']} successful, {r2x.get('scientific_numerical_failure_count', 0)} preregistered numerical failures, no fallback).
 - Every one of {len(all_runs)} successful training cells saved a real `model_final.pt`, canonical tensor-state SHA, full provenance, six views, and passed a fresh-process reload with exact H00 cluster labels.
 - Scientific training used {training}/66 units; implementation retries 0/12; head transforms {transforms}/552; corrections 0/48.
 
