@@ -1,0 +1,43 @@
+{
+  "authorized_role": "data_steward",
+  "created": {
+    "adt": {
+      "barcodes_sha256": "c57d45ada97c49b06dc9a1f2cadc713ece099182a6eaa2554789e848c8fda45f",
+      "obs_columns": [],
+      "path": "/root/autodl-fs/night6b_data_20260817/tonsil_label_free/tonsil_s1_adt_label_free.h5ad",
+      "sha256": "0146aabbd9845b90932c68711c985832895f93082a25a6adabdeccd9795f0ce5",
+      "shape": [
+        4326,
+        31
+      ],
+      "size_bytes": 613278,
+      "spatial_shape": [
+        4326,
+        2
+      ]
+    },
+    "rna": {
+      "barcodes_sha256": "c57d45ada97c49b06dc9a1f2cadc713ece099182a6eaa2554789e848c8fda45f",
+      "obs_columns": [],
+      "path": "/root/autodl-fs/night6b_data_20260817/tonsil_label_free/tonsil_s1_rna_label_free.h5ad",
+      "sha256": "a53bb5a1d5fcea356db65f8de9f8f6c158d1b96db8dfbef0b85d6d4d45131a0a",
+      "shape": [
+        4326,
+        18085
+      ],
+      "size_bytes": 36810093,
+      "spatial_shape": [
+        4326,
+        2
+      ]
+    }
+  },
+  "obs_zero_columns": true,
+  "original_h5ad_opened_by_anndata": false,
+  "paired_barcodes_exact": true,
+  "source_sha256": {
+    "adt": "f7e7c2b723faf59fbf1d949c131b2f345c268787cd2b72177e0c3a139afa38be",
+    "rna": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9"
+  },
+  "status": "LABEL_FREE_COPY_PASS"
+}

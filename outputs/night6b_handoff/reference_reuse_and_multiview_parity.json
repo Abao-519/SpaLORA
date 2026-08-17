@@ -1,0 +1,331 @@
+{
+  "artifact_hash_mismatches": [],
+  "decision": "Stop before formal Night-6B training; rebuilding or substituting weights is forbidden by the authority taskbook.",
+  "formal_scientific_training_units": 0,
+  "forward_replay_executed": false,
+  "hard_gate": "P0-SEMANTIC 5.2 and section 6 A1 reference reuse",
+  "head_transforms": 0,
+  "night3af_weights_substituted": false,
+  "night5a_runner_required_excludes_model_state": true,
+  "night5a_runner_sha256": "1069cf3b446dbf8418166ada22484e7d80ef134e8eeec5bdc9bed2dea63bb1de",
+  "night6a_invalid_weights_used": false,
+  "private_views_derived": false,
+  "retraining_performed": false,
+  "seeds": [
+    {
+      "all_files": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv",
+        "run_manifest.json"
+      ],
+      "artifact_checks": [
+        {
+          "actual_sha256": "8202f73ad152921b95d36695fcc8833fdd3a5885495ee8e965f08c87801fd017",
+          "expected_sha256": "8202f73ad152921b95d36695fcc8833fdd3a5885495ee8e965f08c87801fd017",
+          "match": true,
+          "name": "attention.npz"
+        },
+        {
+          "actual_sha256": "191e1860cc959c22288b11ed175608fe45a8131ed4914bd79d541305f0274e16",
+          "expected_sha256": "191e1860cc959c22288b11ed175608fe45a8131ed4914bd79d541305f0274e16",
+          "match": true,
+          "name": "clusters.csv"
+        },
+        {
+          "actual_sha256": "108d96aa473575ba82736db33db9d5811e329f1ab604fa4952ebf7a7aae4a615",
+          "expected_sha256": "108d96aa473575ba82736db33db9d5811e329f1ab604fa4952ebf7a7aae4a615",
+          "match": true,
+          "name": "coefficient_probe.json"
+        },
+        {
+          "actual_sha256": "a4cce6062260ce5e367a7339bd9996042937ca19fb5e1997ae3a7bd7e76ac585",
+          "expected_sha256": "a4cce6062260ce5e367a7339bd9996042937ca19fb5e1997ae3a7bd7e76ac585",
+          "match": true,
+          "name": "embedding.npz"
+        },
+        {
+          "actual_sha256": "0a1e3e13e74ebdc33ffffe0c866583e5c446baecc292f8c5eb4260d64d1757b0",
+          "expected_sha256": "0a1e3e13e74ebdc33ffffe0c866583e5c446baecc292f8c5eb4260d64d1757b0",
+          "match": true,
+          "name": "loss_trajectory.csv"
+        },
+        {
+          "actual_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "expected_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "match": true,
+          "name": "observation_ids.csv"
+        }
+      ],
+      "checkpoint_or_model_state_files": [],
+      "declared_artifacts": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv"
+      ],
+      "final_state_sha256_only": "8e8e5dc8eb4154e828bcb9a8af0ead2e9d3100c5044bdedd552c0569e2a73353",
+      "manifest_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/run_manifest.json",
+      "manifest_sha256": "879e9fbaa45fd33177486be4e4ba2a9b5b56894e7f165afceb9b46c8ef91566c",
+      "seed": 0
+    },
+    {
+      "all_files": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv",
+        "run_manifest.json"
+      ],
+      "artifact_checks": [
+        {
+          "actual_sha256": "425032e335d62fdc77c63e14875b3beeb4ac96add6b68a5cb32d1ed74647ae34",
+          "expected_sha256": "425032e335d62fdc77c63e14875b3beeb4ac96add6b68a5cb32d1ed74647ae34",
+          "match": true,
+          "name": "attention.npz"
+        },
+        {
+          "actual_sha256": "405e59305398e9af810a061b1547394fd78ef5be8a8d5f6b14ca819d5c9002a9",
+          "expected_sha256": "405e59305398e9af810a061b1547394fd78ef5be8a8d5f6b14ca819d5c9002a9",
+          "match": true,
+          "name": "clusters.csv"
+        },
+        {
+          "actual_sha256": "35add8524560cb86535f302d06733e698323c00947066099bcf3e59452190bc5",
+          "expected_sha256": "35add8524560cb86535f302d06733e698323c00947066099bcf3e59452190bc5",
+          "match": true,
+          "name": "coefficient_probe.json"
+        },
+        {
+          "actual_sha256": "5d6eed7328e39f072fdbb2f4886a886f50eda810660e0ae36176aeaa50c335a2",
+          "expected_sha256": "5d6eed7328e39f072fdbb2f4886a886f50eda810660e0ae36176aeaa50c335a2",
+          "match": true,
+          "name": "embedding.npz"
+        },
+        {
+          "actual_sha256": "df6a81fb4c44bb51b036169aede76d34acdae0caf250875e4e4b892485c21920",
+          "expected_sha256": "df6a81fb4c44bb51b036169aede76d34acdae0caf250875e4e4b892485c21920",
+          "match": true,
+          "name": "loss_trajectory.csv"
+        },
+        {
+          "actual_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "expected_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "match": true,
+          "name": "observation_ids.csv"
+        }
+      ],
+      "checkpoint_or_model_state_files": [],
+      "declared_artifacts": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv"
+      ],
+      "final_state_sha256_only": "0a56f2bd0ec3c24483ada73fef972a4776594e3008f67e41fd3083466eb71dd9",
+      "manifest_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/run_manifest.json",
+      "manifest_sha256": "b893c9e787aeeacb7d3324e9a7f485a0ec6400612dbff6adb65c48c5369d597e",
+      "seed": 1
+    },
+    {
+      "all_files": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv",
+        "run_manifest.json"
+      ],
+      "artifact_checks": [
+        {
+          "actual_sha256": "287f0d27e4d57c758d0c7de1379efb7d2ca4619fa6cbcf3fbd11241e7bd53c29",
+          "expected_sha256": "287f0d27e4d57c758d0c7de1379efb7d2ca4619fa6cbcf3fbd11241e7bd53c29",
+          "match": true,
+          "name": "attention.npz"
+        },
+        {
+          "actual_sha256": "f081b71f4c03ba43eaa8c5b44efec61e02436edb744e111f2de2d6971a632ab1",
+          "expected_sha256": "f081b71f4c03ba43eaa8c5b44efec61e02436edb744e111f2de2d6971a632ab1",
+          "match": true,
+          "name": "clusters.csv"
+        },
+        {
+          "actual_sha256": "30bae33659a8cf60268c35104b64a82b44fb31280de286e6f08b43637be13424",
+          "expected_sha256": "30bae33659a8cf60268c35104b64a82b44fb31280de286e6f08b43637be13424",
+          "match": true,
+          "name": "coefficient_probe.json"
+        },
+        {
+          "actual_sha256": "e1ccca6893f0326cacdebc04d06f8c2643aa59cc010ff23853cf1389f6271f6b",
+          "expected_sha256": "e1ccca6893f0326cacdebc04d06f8c2643aa59cc010ff23853cf1389f6271f6b",
+          "match": true,
+          "name": "embedding.npz"
+        },
+        {
+          "actual_sha256": "d873a69dac5768bd9cef1a05a2b781181c684e42090cb912334b0db088753448",
+          "expected_sha256": "d873a69dac5768bd9cef1a05a2b781181c684e42090cb912334b0db088753448",
+          "match": true,
+          "name": "loss_trajectory.csv"
+        },
+        {
+          "actual_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "expected_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "match": true,
+          "name": "observation_ids.csv"
+        }
+      ],
+      "checkpoint_or_model_state_files": [],
+      "declared_artifacts": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv"
+      ],
+      "final_state_sha256_only": "aa206235e69d1d9b25d3dbd667d3de0ea6f698f7b65d7320a535d445222dedf8",
+      "manifest_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/run_manifest.json",
+      "manifest_sha256": "a0620c69aa36229d54e8dfd9bf833986474d23f6a03ee2ccdfba24cad8c7147d",
+      "seed": 2
+    },
+    {
+      "all_files": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv",
+        "run_manifest.json"
+      ],
+      "artifact_checks": [
+        {
+          "actual_sha256": "57fdc7aaa81cb627bc38daa77dd5558188658ab8e1cce16522dc85db29f12ab4",
+          "expected_sha256": "57fdc7aaa81cb627bc38daa77dd5558188658ab8e1cce16522dc85db29f12ab4",
+          "match": true,
+          "name": "attention.npz"
+        },
+        {
+          "actual_sha256": "966778b1a9e6e6a4028f8b8635be2d95facbcc7c8a8135ec48d413c1e7504d9a",
+          "expected_sha256": "966778b1a9e6e6a4028f8b8635be2d95facbcc7c8a8135ec48d413c1e7504d9a",
+          "match": true,
+          "name": "clusters.csv"
+        },
+        {
+          "actual_sha256": "63a89add1100eb89373c155499112574b835e1d4980fc58795fd480d2130f3e9",
+          "expected_sha256": "63a89add1100eb89373c155499112574b835e1d4980fc58795fd480d2130f3e9",
+          "match": true,
+          "name": "coefficient_probe.json"
+        },
+        {
+          "actual_sha256": "012ed70a05c59ef5d83d4153b5f94b3dafbbef82392df73226853981f4aaee1f",
+          "expected_sha256": "012ed70a05c59ef5d83d4153b5f94b3dafbbef82392df73226853981f4aaee1f",
+          "match": true,
+          "name": "embedding.npz"
+        },
+        {
+          "actual_sha256": "ca680049b3c8240cf98d23d5fed475e1e1c5534ba9a6797bc88bcdfd98e18965",
+          "expected_sha256": "ca680049b3c8240cf98d23d5fed475e1e1c5534ba9a6797bc88bcdfd98e18965",
+          "match": true,
+          "name": "loss_trajectory.csv"
+        },
+        {
+          "actual_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "expected_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "match": true,
+          "name": "observation_ids.csv"
+        }
+      ],
+      "checkpoint_or_model_state_files": [],
+      "declared_artifacts": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv"
+      ],
+      "final_state_sha256_only": "77dbcf8dd7ebcfe48ee85d9cfee9fa08d20c6e5c58b2672ec99710d8ce0545fb",
+      "manifest_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/run_manifest.json",
+      "manifest_sha256": "995199ba5fc379a6d227bb5e17f3e63b566f79d88ce3a25d155d098ad6f91ce5",
+      "seed": 3
+    },
+    {
+      "all_files": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv",
+        "run_manifest.json"
+      ],
+      "artifact_checks": [
+        {
+          "actual_sha256": "82675d5d882fec32b851d739b7f7b304b5f9571202161a119ecb263f52ec5967",
+          "expected_sha256": "82675d5d882fec32b851d739b7f7b304b5f9571202161a119ecb263f52ec5967",
+          "match": true,
+          "name": "attention.npz"
+        },
+        {
+          "actual_sha256": "7e7f6cc1d823604d2d7f4faeccd5b5a9168e7a63ed149b740347c87ba1cf893d",
+          "expected_sha256": "7e7f6cc1d823604d2d7f4faeccd5b5a9168e7a63ed149b740347c87ba1cf893d",
+          "match": true,
+          "name": "clusters.csv"
+        },
+        {
+          "actual_sha256": "8e620bdca1a60be76a1b51cb9d21d251a2c38ad1f3cb46b09ea4e84002ca0f34",
+          "expected_sha256": "8e620bdca1a60be76a1b51cb9d21d251a2c38ad1f3cb46b09ea4e84002ca0f34",
+          "match": true,
+          "name": "coefficient_probe.json"
+        },
+        {
+          "actual_sha256": "7e984bee6340c7276ff619c548fafe971a97bafb7a6de33b1da98dc04bac07db",
+          "expected_sha256": "7e984bee6340c7276ff619c548fafe971a97bafb7a6de33b1da98dc04bac07db",
+          "match": true,
+          "name": "embedding.npz"
+        },
+        {
+          "actual_sha256": "2d4bde6bb5456ba0eeb9d4cabdce4dc8eb27b7a4a23f5df4ef00ebcb3577b9f0",
+          "expected_sha256": "2d4bde6bb5456ba0eeb9d4cabdce4dc8eb27b7a4a23f5df4ef00ebcb3577b9f0",
+          "match": true,
+          "name": "loss_trajectory.csv"
+        },
+        {
+          "actual_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "expected_sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+          "match": true,
+          "name": "observation_ids.csv"
+        }
+      ],
+      "checkpoint_or_model_state_files": [],
+      "declared_artifacts": [
+        "attention.npz",
+        "clusters.csv",
+        "coefficient_probe.json",
+        "embedding.npz",
+        "loss_trajectory.csv",
+        "observation_ids.csv"
+      ],
+      "final_state_sha256_only": "dd3013f46c51c5dd3ea81aa6a660188cb83fc661123a40690f4a9d37d5a4eef4",
+      "manifest_path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/run_manifest.json",
+      "manifest_sha256": "d2b7c3984a0357517a7c2dedaa4517518940b9dc24645fb85af7be10a4efbaf8",
+      "seed": 4
+    }
+  ],
+  "source_candidate": "Night-5 C04_SHRINK25 / B01_C04_SHRINK25",
+  "source_root": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25",
+  "status": "FAIL_REQUIRED_VALID_CHECKPOINT_ABSENT",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "valid_checkpoint_available": false
+}

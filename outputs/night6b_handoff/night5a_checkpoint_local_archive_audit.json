@@ -1,0 +1,15 @@
+{
+  "audit_scope": "D:/文档/ChatGPT/博士第一篇科研论文项目/night5a_handoff_20260813",
+  "role": "read_only_local_archive_audit",
+  "loose_pt_pth_ckpt_files": 0,
+  "archives_checked": [
+    "final.zip",
+    "final2.zip",
+    "night5a_planner_handoff_20260813.tar.gz",
+    "night5a_planner_handoff_local_reconstruction_20260813.tar.gz",
+    "night5a_planner_handoff_remote_20260813.tar.gz"
+  ],
+  "c04_shrink25_night5_model_state_entries": 0,
+  "unrelated_model_states_observed": "final2.zip contains Night-3AF model_final.pt files for historical C0/C1/etc.; these are not Night-5 C04/B01 checkpoints and are forbidden substitutes",
+  "conclusion": "No valid Night-5 C04/B01 final model checkpoint exists in the local Night-5A handoff or its archives"
+}

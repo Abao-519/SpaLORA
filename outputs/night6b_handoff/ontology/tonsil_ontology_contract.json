@@ -1,0 +1,241 @@
+{
+  "access_semantics": {
+    "authorized_role": "data_steward",
+    "deserialized_into_memory": true,
+    "explicitly_indexed_or_observed": true,
+    "used_for_training_or_selection": false
+  },
+  "authorized_role": "data_steward",
+  "barcodes_sha256": "c57d45ada97c49b06dc9a1f2cadc713ece099182a6eaa2554789e848c8fda45f",
+  "columns": {
+    "adt": {
+      "final_annot": {
+        "categories_lexical": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "categories_storage_order": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "category_counts": {
+          "connective & epithelial tissue": 731,
+          "germinal center": 183,
+          "lymphoid follicle": 834,
+          "tonsillar parenchyma": 2578
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "a587e8029c83d002f96b72e40bb2fe4ea46867f9a655d01c963d94dd18897c9a",
+        "present": true,
+        "unique_nonmissing_count": 4
+      },
+      "lab": {
+        "categories_lexical": [
+          "Endothelial",
+          "Epithelial",
+          "GC",
+          "Inter-follicular Area",
+          "Mantle Zone",
+          "Submucosa",
+          "exclude"
+        ],
+        "categories_storage_order": [
+          "Endothelial",
+          "Epithelial",
+          "GC",
+          "Inter-follicular Area",
+          "Mantle Zone",
+          "Submucosa",
+          "exclude"
+        ],
+        "category_counts": {
+          "Endothelial": 78,
+          "Epithelial": 144,
+          "GC": 223,
+          "Inter-follicular Area": 2874,
+          "Mantle Zone": 755,
+          "Submucosa": 249,
+          "exclude": 3
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "2030ce5dd288758f1b731bae213a37a235a9a877bd726e0a811ea47b69610fd3",
+        "present": true,
+        "unique_nonmissing_count": 7
+      },
+      "lab_lynn": {
+        "categories_lexical": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "categories_storage_order": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "category_counts": {
+          "connective & epithelial tissue": 732,
+          "germinal center": 183,
+          "lymphoid follicle": 773,
+          "tonsillar parenchyma": 2638
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "df7b35278a92de89fd82ccd5971a13ee88359df19daa2e2e8007a7ba01807739",
+        "present": true,
+        "unique_nonmissing_count": 4
+      },
+      "src": {
+        "categories_lexical": [
+          "s1"
+        ],
+        "categories_storage_order": [
+          "s1"
+        ],
+        "category_counts": {
+          "s1": 4326
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "649c1c4a33c6e419f79e5ed9816580f73cc39a75411d8f6eff96c7bd5a10efdb",
+        "present": true,
+        "unique_nonmissing_count": 1
+      }
+    },
+    "rna": {
+      "final_annot": {
+        "categories_lexical": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "categories_storage_order": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "category_counts": {
+          "connective & epithelial tissue": 731,
+          "germinal center": 183,
+          "lymphoid follicle": 834,
+          "tonsillar parenchyma": 2578
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "a587e8029c83d002f96b72e40bb2fe4ea46867f9a655d01c963d94dd18897c9a",
+        "present": true,
+        "unique_nonmissing_count": 4
+      },
+      "lab": {
+        "categories_lexical": [
+          "Endothelial",
+          "Epithelial",
+          "GC",
+          "Inter-follicular Area",
+          "Mantle Zone",
+          "Submucosa",
+          "exclude"
+        ],
+        "categories_storage_order": [
+          "Endothelial",
+          "Epithelial",
+          "GC",
+          "Inter-follicular Area",
+          "Mantle Zone",
+          "Submucosa",
+          "exclude"
+        ],
+        "category_counts": {
+          "Endothelial": 78,
+          "Epithelial": 144,
+          "GC": 223,
+          "Inter-follicular Area": 2874,
+          "Mantle Zone": 755,
+          "Submucosa": 249,
+          "exclude": 3
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "2030ce5dd288758f1b731bae213a37a235a9a877bd726e0a811ea47b69610fd3",
+        "present": true,
+        "unique_nonmissing_count": 7
+      },
+      "lab_lynn": {
+        "categories_lexical": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "categories_storage_order": [
+          "connective & epithelial tissue",
+          "germinal center",
+          "lymphoid follicle",
+          "tonsillar parenchyma"
+        ],
+        "category_counts": {
+          "connective & epithelial tissue": 732,
+          "germinal center": 183,
+          "lymphoid follicle": 773,
+          "tonsillar parenchyma": 2638
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "df7b35278a92de89fd82ccd5971a13ee88359df19daa2e2e8007a7ba01807739",
+        "present": true,
+        "unique_nonmissing_count": 4
+      },
+      "src": {
+        "categories_lexical": [
+          "s1"
+        ],
+        "categories_storage_order": [
+          "s1"
+        ],
+        "category_counts": {
+          "s1": 4326
+        },
+        "encoding": "categorical",
+        "missing_count": 0,
+        "per_spot_sequence_sha256": "649c1c4a33c6e419f79e5ed9816580f73cc39a75411d8f6eff96c7bd5a10efdb",
+        "present": true,
+        "unique_nonmissing_count": 1
+      }
+    }
+  },
+  "known_k": 4,
+  "paired_barcodes_exact": true,
+  "provenance": {
+    "four": "coarse manually described regions in SpaMICS paper; not selected",
+    "resolution_rule": "actual nonmissing unique count in preregistered final_annot",
+    "seven": "finer published/domain scheme and SpaMICS Human_tonsil branch; not selected",
+    "six": "SpaMosaic official tonsil section-1 tutorial n_cluster; not selected",
+    "sources": [
+      "https://spamosaic.readthedocs.io/en/latest/tutorials/integration/vertical/Tonsil_vertical.html",
+      "https://www.sciencedirect.com/science/article/pii/S1566253525005019",
+      "https://github.com/SZU-CGC/SpaMICS"
+    ]
+  },
+  "rna_adt_final_annot_exact": true,
+  "rna_adt_target_column_presence": {
+    "adt": true,
+    "rna": true
+  },
+  "source_sha256": {
+    "adt": "f7e7c2b723faf59fbf1d949c131b2f345c268787cd2b72177e0c3a139afa38be",
+    "rna": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9"
+  },
+  "status": "P0_ONTOLOGY_PASS",
+  "target_column_locked_before_read": "final_annot",
+  "target_per_spot_label_vector_sha256": "a587e8029c83d002f96b72e40bb2fe4ea46867f9a655d01c963d94dd18897c9a"
+}

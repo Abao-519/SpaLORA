@@ -1,0 +1,55 @@
+{
+  "branch": "revision/q2-night6b-graph-affinity-rescue-20260817",
+  "new_roots": {
+    "cache": "/root/autodl-fs/night6b_cache_20260817",
+    "data": "/root/autodl-fs/night6b_data_20260817",
+    "raw_runs": "/root/autodl-fs/night6b_raw_runs_20260817",
+    "repo": "/root/autodl-fs/SpaLORA-night6b"
+  },
+  "night6a_authoritative_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "night6a_checkpoint_embedding_metric_use_for_selection": false,
+  "night6a_compact_windows_verification": {
+    "bad": 0,
+    "declared": 16,
+    "delivery_index_sha256": "27ae79af08fc9a0d9b030b3ea27cc752c78beec80f31f75422b3c199b79f752b",
+    "relative_root": "official_compact/handoff",
+    "verified": 16
+  },
+  "night6a_tag_commit": "7f204a56690768f22bd06e0dac1b5785c97c4c70",
+  "protection_tag_commit": "7f204a56690768f22bd06e0dac1b5785c97c4c70",
+  "protocols": {
+    "SpaLORA_Night6A_Independent_Planner_Audit_2026-08-17.md": {
+      "actual_sha256": "4b5d501cd0c521555a919752f91b2ee48562cd623b2f851e901b7696bdd2b314",
+      "expected_sha256": "4b5d501cd0c521555a919752f91b2ee48562cd623b2f851e901b7696bdd2b314"
+    },
+    "SpaLORA_Night6B_Candidate_Registry_2026-08-17.json": {
+      "actual_sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030",
+      "expected_sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030"
+    },
+    "SpaLORA_Night6B_Firewall_Clean_Graph_and_Clustering_Rescue_Taskbook_2026-08-17.md": {
+      "actual_sha256": "fd23c99388abfed94cb27be56ca7a8185ca5baa6f60f09bcc4af6f850282691c",
+      "expected_sha256": "fd23c99388abfed94cb27be56ca7a8185ca5baa6f60f09bcc4af6f850282691c"
+    },
+    "SpaLORA_Post_Night6A_Research_Decision_2026-08-17.md": {
+      "actual_sha256": "4d7d000382f94d1f2b522bae9e55663dac63ca9f4e99898c9e9a38fa8b385c00",
+      "expected_sha256": "4d7d000382f94d1f2b522bae9e55663dac63ca9f4e99898c9e9a38fa8b385c00"
+    }
+  },
+  "status": "P0_PROTECT_PASS",
+  "upstream_parent": "7f204a56690768f22bd06e0dac1b5785c97c4c70",
+  "versions": {
+    "R": "R version 4.0.3 (2020-10-10) -- \"Bunny-Wunnies Freak Out\"",
+    "anndata": "0.8.0",
+    "cuda_available": true,
+    "git": "git version 2.25.1",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER, 580.105.08, 32760 MiB",
+    "h5py": "3.6.0",
+    "mclust": "6.1.1",
+    "numpy": "1.22.3",
+    "pandas": "1.4.2",
+    "python": "3.8.10",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118"
+  }
+}

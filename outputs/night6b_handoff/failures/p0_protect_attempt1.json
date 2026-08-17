@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "phase": "P0-PROTECT",
+  "status": "INVALID_PREFLIGHT_ATTEMPT",
+  "formal_training_units": 0,
+  "head_transforms": 0,
+  "ontology_values_accessed": false,
+  "error_type": "FileNotFoundError",
+  "error": "R was installed in /root/miniconda3/envs/SpaLORA/bin but was not present in the login-shell PATH",
+  "correction": "Use audited absolute R and Rscript paths for environment-version collection",
+  "scientific_budget_charged": false
+}
