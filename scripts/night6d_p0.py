@@ -143,6 +143,48 @@ def create_label_free(source: Path, target: Path, expected_sha: str) -> dict:
     return row
 
 
+def canonicalize_d1_coordinate_orientation(rna_path: Path, adt_path: Path,
+                                           adt_proof: dict) -> dict:
+    """Make the two zero-obs copies share the RNA orientation, fail-closed.
+
+    The registered D1 files encode the identical spatial geometry with exactly
+    opposite coordinate signs.  Reflection through the origin preserves every
+    pairwise distance and therefore every preregistered spatial graph.  We only
+    canonicalize the new label-free ADT copy; source files remain untouched.
+    """
+    rna = ad.read_h5ad(rna_path)
+    adt = ad.read_h5ad(adt_path)
+    x = np.asarray(rna.obsm["spatial"])
+    y = np.asarray(adt.obsm["spatial"])
+    if not np.array_equal(rna.obs_names.astype(str), adt.obs_names.astype(str)):
+        raise RuntimeError("D1 label-free modality barcode order mismatch")
+    source_equal = bool(np.array_equal(x, y))
+    source_exact_negation = bool(np.array_equal(x, -y))
+    if not source_equal:
+        if not source_exact_negation:
+            raise RuntimeError("D1 coordinate mismatch is not the registered exact sign reflection")
+        adt.obsm["spatial"] = x.copy()
+        temporary = adt_path.with_suffix(".canonicalizing.h5ad")
+        adt.write_h5ad(temporary, compression="gzip")
+        os.replace(temporary, adt_path)
+    rna.file.close() if getattr(rna, "file", None) else None
+    adt.file.close() if getattr(adt, "file", None) else None
+    proof = ad.read_h5ad(adt_path, backed="r")
+    adt_proof.update({
+        "sha256": sha256_file(adt_path), "size_bytes": adt_path.stat().st_size,
+        "spatial_shape": list(map(int, proof.obsm["spatial"].shape)),
+        "source_coordinates_equal_to_rna": source_equal,
+        "source_coordinates_exact_negative_of_rna": source_exact_negation,
+        "canonicalized_to_rna_coordinate_orientation": not source_equal,
+        "pairwise_distance_geometry_changed": False,
+    })
+    if not np.array_equal(np.asarray(proof.obsm["spatial"]), x):
+        proof.file.close()
+        raise RuntimeError("D1 coordinate orientation canonicalization failed")
+    proof.file.close()
+    return adt_proof
+
+
 def verify_p22_cache() -> dict:
     manifest_path = P22_CACHE / "manifest.json"
     if sha256_file(manifest_path) != "254eda53a7e7a62e30ded97443878045b78af9e573cbb5e6f2c365488ddf8f81":
@@ -337,6 +379,7 @@ def main() -> None:
     d1_adt = lf_root / "d1_adt_label_free.h5ad"
     rna_proof = create_label_free(Path(d1_cfg["rna_path"]), d1_rna, d1_cfg["rna_sha256"])
     adt_proof = create_label_free(Path(d1_cfg["modality2_path"]), d1_adt, d1_cfg["modality2_sha256"])
+    adt_proof = canonicalize_d1_coordinate_orientation(d1_rna, d1_adt, adt_proof)
     if rna_proof["ordered_observation_sha256"] != adt_proof["ordered_observation_sha256"]:
         raise RuntimeError("D1 label-free modalities are not barcode-aligned")
     with h5py.File(d1_rna, "r") as a, h5py.File(d1_adt, "r") as b:
