@@ -1,0 +1,13 @@
+{
+  "evaluator": {
+    "authorized_role": "evaluator",
+    "deserialized_into_memory": true,
+    "explicitly_indexed_or_observed": true,
+    "used_for_training_or_selection": false
+  },
+  "manifest_locked_before_access": true,
+  "protected_dataset_access": 0,
+  "stage": "R2",
+  "trainer_transformer_original_tonsil_access": 0,
+  "transform_manifest_sha256": "65c9bb2fece130f4721ccc024b780b1f5e7187323fe2982dae4072d4c4530375"
+}

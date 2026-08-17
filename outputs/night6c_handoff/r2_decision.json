@@ -1,0 +1,680 @@
+{
+  "candidate_summaries": [
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": -0.005830453052190543,
+        "tonsil": 0.08267387875715936
+      },
+      "delta_q_std": 0.053151881890376514,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "macro_delta_ari": 0.028070891403525387,
+      "macro_delta_nmi": 0.04877253430144346,
+      "macro_delta_q": 0.038421712852484406,
+      "mean_effective_runtime_seconds": 27.219152141176163,
+      "paired_q_total": 10,
+      "paired_q_wins": 5,
+      "peak_gpu_allocated_mib": 943.36083984375,
+      "peak_rss_mib": 1252.01953125,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": -0.07220456515457963,
+          "delta_geary": -0.08601642257928177,
+          "delta_moran": 0.09366091114427699,
+          "delta_neighbor": 0.07220456515457963,
+          "spatial_gate_failed": false
+        },
+        "tonsil": {
+          "delta_boundary": 0.011688461449756687,
+          "delta_geary": -0.013311280245117574,
+          "delta_moran": 0.0128496079870432,
+          "delta_neighbor": -0.011688461449756682,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": true,
+      "worst_dataset_mean_delta_q": -0.005830453052190543
+    },
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": -0.005354411096670541,
+        "tonsil": 0.07810847343784691
+      },
+      "delta_q_std": 0.0501573441847709,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "macro_delta_ari": 0.025677657520110985,
+      "macro_delta_nmi": 0.04707640482106536,
+      "macro_delta_q": 0.03637703117058818,
+      "mean_effective_runtime_seconds": 25.9737117677927,
+      "paired_q_total": 10,
+      "paired_q_wins": 6,
+      "peak_gpu_allocated_mib": 943.36083984375,
+      "peak_rss_mib": 1252.01953125,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": -0.06836174516035834,
+          "delta_geary": -0.08222490824489988,
+          "delta_moran": 0.08976379999048065,
+          "delta_neighbor": 0.06836174516035834,
+          "spatial_gate_failed": false
+        },
+        "tonsil": {
+          "delta_boundary": 0.010733642381051216,
+          "delta_geary": -0.007592077266666686,
+          "delta_moran": 0.006813207529872712,
+          "delta_neighbor": -0.010733642381051211,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": true,
+      "worst_dataset_mean_delta_q": -0.005354411096670541
+    },
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": -0.0071240222683111145,
+        "tonsil": 0.07911371728872574
+      },
+      "delta_q_std": 0.051713308292565964,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "macro_delta_ari": 0.024884010929701553,
+      "macro_delta_nmi": 0.047105684090713064,
+      "macro_delta_q": 0.03599484751020731,
+      "mean_effective_runtime_seconds": 26.95198097843677,
+      "paired_q_total": 10,
+      "paired_q_wins": 4,
+      "peak_gpu_allocated_mib": 943.36083984375,
+      "peak_rss_mib": 1252.01953125,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": -0.07526148511990756,
+          "delta_geary": -0.08892444687010277,
+          "delta_moran": 0.09657943704811933,
+          "delta_neighbor": 0.07526148511990756,
+          "spatial_gate_failed": false
+        },
+        "tonsil": {
+          "delta_boundary": 0.010853571346202634,
+          "delta_geary": -0.015992660667608384,
+          "delta_moran": 0.015569862102415333,
+          "delta_neighbor": -0.010853571346202639,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": true,
+      "worst_dataset_mean_delta_q": -0.0071240222683111145
+    },
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": -0.0014377169935760326,
+        "tonsil": 0.009538331237847012
+      },
+      "delta_q_std": 0.016161490127192552,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "macro_delta_ari": 0.0017664882559483535,
+      "macro_delta_nmi": 0.006334125988322631,
+      "macro_delta_q": 0.00405030712213549,
+      "mean_effective_runtime_seconds": 27.940010138601064,
+      "paired_q_total": 10,
+      "paired_q_wins": 7,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "peak_rss_mib": 1266.59765625,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": 0.02730424732736203,
+          "delta_geary": 0.03198182605795983,
+          "delta_moran": -0.03227400761739516,
+          "delta_neighbor": -0.02730424732736203,
+          "spatial_gate_failed": true
+        },
+        "tonsil": {
+          "delta_boundary": -0.0035563550819899094,
+          "delta_geary": 0.024840955475056447,
+          "delta_moran": -0.027087575991323165,
+          "delta_neighbor": 0.0035563550819899038,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": false,
+      "worst_dataset_mean_delta_q": -0.0014377169935760326
+    },
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": 0.0077790780253242375,
+        "tonsil": 0.08144269939683615
+      },
+      "delta_q_std": 0.04503476511472088,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "macro_delta_ari": 0.031010877358248236,
+      "macro_delta_nmi": 0.05821090006391214,
+      "macro_delta_q": 0.044610888711080196,
+      "mean_effective_runtime_seconds": 27.37366029229015,
+      "paired_q_total": 10,
+      "paired_q_wins": 10,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "peak_rss_mib": 1266.59765625,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": -0.048263507656746626,
+          "delta_geary": -0.056794591032822916,
+          "delta_moran": 0.065533819390756,
+          "delta_neighbor": 0.048263507656746626,
+          "spatial_gate_failed": false
+        },
+        "tonsil": {
+          "delta_boundary": 0.01331211513180654,
+          "delta_geary": 0.0004974139267452827,
+          "delta_moran": -0.0015027020945695524,
+          "delta_neighbor": -0.013312115131806546,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": true,
+      "worst_dataset_mean_delta_q": 0.0077790780253242375
+    },
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": 0.008270401379070647,
+        "tonsil": 0.083226770659106
+      },
+      "delta_q_std": 0.04562012105774485,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "macro_delta_ari": 0.03249355995852996,
+      "macro_delta_nmi": 0.0590036120796467,
+      "macro_delta_q": 0.04574858601908832,
+      "mean_effective_runtime_seconds": 26.2985771805048,
+      "paired_q_total": 10,
+      "paired_q_wins": 10,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "peak_rss_mib": 1266.59765625,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": -0.045050563420976596,
+          "delta_geary": -0.05305845610955072,
+          "delta_moran": 0.06175653951032689,
+          "delta_neighbor": 0.045050563420976596,
+          "spatial_gate_failed": false
+        },
+        "tonsil": {
+          "delta_boundary": 0.013630388154708345,
+          "delta_geary": 0.0023763837314563106,
+          "delta_moran": -0.003352734600543683,
+          "delta_neighbor": -0.01363038815470834,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": true,
+      "worst_dataset_mean_delta_q": 0.008270401379070647
+    },
+    {
+      "complete_cells": 10,
+      "dataset_mean_delta_q": {
+        "a1": 0.006672597635681077,
+        "tonsil": 0.0797009719687376
+      },
+      "delta_q_std": 0.04524969095960357,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "macro_delta_ari": 0.029492268282743206,
+      "macro_delta_nmi": 0.056881301321675445,
+      "macro_delta_q": 0.043186784802209346,
+      "mean_effective_runtime_seconds": 27.347683057188988,
+      "paired_q_total": 10,
+      "paired_q_wins": 10,
+      "peak_gpu_allocated_mib": 939.830078125,
+      "peak_rss_mib": 1266.59765625,
+      "spatial_by_dataset": {
+        "a1": {
+          "delta_boundary": -0.05084657613406531,
+          "delta_geary": -0.06048985399628957,
+          "delta_moran": 0.0692890997303591,
+          "delta_neighbor": 0.05084657613406531,
+          "spatial_gate_failed": false
+        },
+        "tonsil": {
+          "delta_boundary": 0.012795498051154269,
+          "delta_geary": -0.001275871562846409,
+          "delta_moran": 0.00031969586710620666,
+          "delta_neighbor": -0.012795498051154274,
+          "spatial_gate_failed": false
+        }
+      },
+      "spatial_gate_pass_both": true,
+      "worst_dataset_mean_delta_q": 0.006672597635681077
+    }
+  ],
+  "label_access_after_output_lock": true,
+  "locked_accuracy_frontier_candidate": {
+    "cells": [
+      {
+        "ari": 0.2744679880037527,
+        "dataset": "a1",
+        "delta_ari": -0.00312950665798456,
+        "delta_boundary": -0.0531638254839642,
+        "delta_geary": -0.06317765509373124,
+        "delta_moran": 0.07154981729392129,
+        "delta_neighbor": 0.053163825483964255,
+        "delta_nmi": 0.01861947020068483,
+        "delta_q": 0.0077449817713501345,
+        "effective_runtime_seconds": 23.77597995661199,
+        "nmi": 0.4147370479615583,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.3446025179826555,
+        "seed": 0
+      },
+      {
+        "ari": 0.2672471914408437,
+        "dataset": "a1",
+        "delta_ari": 0.004786372287424401,
+        "delta_boundary": -0.07844553597226239,
+        "delta_geary": -0.0900060027930234,
+        "delta_moran": 0.10075420462757878,
+        "delta_neighbor": 0.07844553597226234,
+        "delta_nmi": 0.02771964093465351,
+        "delta_q": 0.01625300661103901,
+        "effective_runtime_seconds": 22.512442726641893,
+        "nmi": 0.4132690689870538,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.3402581302139488,
+        "seed": 1
+      },
+      {
+        "ari": 0.27526557454695755,
+        "dataset": "a1",
+        "delta_ari": -0.003409077254684756,
+        "delta_boundary": 0.01132620629875758,
+        "delta_geary": 0.002546293928156085,
+        "delta_moran": 0.003694386029383989,
+        "delta_neighbor": -0.01132620629875758,
+        "delta_nmi": 0.018470536720814834,
+        "delta_q": 0.007530729733065011,
+        "effective_runtime_seconds": 31.673835599794984,
+        "nmi": 0.40954213777203574,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.34240385615949664,
+        "seed": 2
+      },
+      {
+        "ari": 0.2640021001278234,
+        "dataset": "a1",
+        "delta_ari": -0.0034017750497876142,
+        "delta_boundary": -0.06977752094770295,
+        "delta_geary": -0.07078272558878007,
+        "delta_moran": 0.08173088370773252,
+        "delta_neighbor": 0.06977752094770295,
+        "delta_nmi": 0.01588848123750214,
+        "delta_q": 0.006243353093857262,
+        "effective_runtime_seconds": 32.271653983742,
+        "nmi": 0.40423792852924534,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.33412001432853433,
+        "seed": 3
+      },
+      {
+        "ari": 0.2650444081657329,
+        "dataset": "a1",
+        "delta_ari": -0.006796361702951448,
+        "delta_boundary": -0.03519214099971102,
+        "delta_geary": -0.04387219100037498,
+        "delta_moran": 0.05105340589301788,
+        "delta_neighbor": 0.03519214099971102,
+        "delta_nmi": 0.013956233075035018,
+        "delta_q": 0.003579935686041813,
+        "effective_runtime_seconds": 37.16502254642546,
+        "nmi": 0.40158324045111066,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.33331382430842177,
+        "seed": 4
+      },
+      {
+        "ari": 0.1522327250963723,
+        "dataset": "tonsil",
+        "delta_ari": 0.0638396022416566,
+        "delta_boundary": -0.04398164164302676,
+        "delta_geary": -0.03053620269195817,
+        "delta_moran": 0.02956631225830042,
+        "delta_neighbor": 0.04398164164302676,
+        "delta_nmi": 0.11065774448088872,
+        "delta_q": 0.08724867336127262,
+        "effective_runtime_seconds": 20.116846423596144,
+        "nmi": 0.2733283147344344,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.2127805199154033,
+        "seed": 0
+      },
+      {
+        "ari": 0.148615145606812,
+        "dataset": "tonsil",
+        "delta_ari": 0.0844563249557587,
+        "delta_boundary": 0.035978689545423076,
+        "delta_geary": 0.0015903207480448822,
+        "delta_moran": -0.0020280245896990845,
+        "delta_neighbor": -0.03597868954542305,
+        "delta_nmi": 0.1135616275289085,
+        "delta_q": 0.09900897624233349,
+        "effective_runtime_seconds": 20.76144318655133,
+        "nmi": 0.2701300690467603,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.2093726073267861,
+        "seed": 1
+      },
+      {
+        "ari": 0.1553315607124325,
+        "dataset": "tonsil",
+        "delta_ari": 0.1025850615256392,
+        "delta_boundary": 0.038331142323393075,
+        "delta_geary": 0.025508364693292485,
+        "delta_moran": -0.026000019829546472,
+        "delta_neighbor": -0.038331142323393075,
+        "delta_nmi": 0.12551582490649235,
+        "delta_q": 0.11405044321606579,
+        "effective_runtime_seconds": 23.510354870930314,
+        "nmi": 0.2730142678484609,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.2141729142804467,
+        "seed": 2
+      },
+      {
+        "ari": 0.15463883708914133,
+        "dataset": "tonsil",
+        "delta_ari": 0.08695787937690515,
+        "delta_boundary": 0.03272676952881748,
+        "delta_geary": 0.006037160010899267,
+        "delta_moran": -0.00653232384673752,
+        "delta_neighbor": -0.03272676952881748,
+        "delta_nmi": 0.12028142554318122,
+        "delta_q": 0.10361965246004318,
+        "effective_runtime_seconds": 26.732370221987367,
+        "nmi": 0.27374193978974287,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1262.34375,
+        "q": 0.2141903884394421,
+        "seed": 3
+      },
+      {
+        "ari": 0.15395375517720053,
+        "dataset": "tonsil",
+        "delta_ari": -0.0009529201366761109,
+        "delta_boundary": 0.005096981018934854,
+        "delta_geary": 0.00928227589700309,
+        "delta_moran": -0.011769616995035759,
+        "delta_neighbor": -0.005096981018934854,
+        "delta_nmi": 0.025365136168305907,
+        "delta_q": 0.012206108015814898,
+        "effective_runtime_seconds": 24.465822288766503,
+        "nmi": 0.27339873762538497,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1266.59765625,
+        "q": 0.21367624640129274,
+        "seed": 4
+      }
+    ],
+    "complete_cells": 10,
+    "dataset_mean_delta_q": {
+      "a1": 0.008270401379070647,
+      "tonsil": 0.083226770659106
+    },
+    "delta_q_std": 0.04562012105774485,
+    "graph_id": "G04_SP10_F10_EUC_UNION",
+    "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+    "macro_delta_ari": 0.03249355995852996,
+    "macro_delta_nmi": 0.0590036120796467,
+    "macro_delta_q": 0.04574858601908832,
+    "mean_effective_runtime_seconds": 26.2985771805048,
+    "paired_q_total": 10,
+    "paired_q_wins": 10,
+    "peak_gpu_allocated_mib": 939.830078125,
+    "peak_rss_mib": 1266.59765625,
+    "spatial_by_dataset": {
+      "a1": {
+        "delta_boundary": -0.045050563420976596,
+        "delta_geary": -0.05305845610955072,
+        "delta_moran": 0.06175653951032689,
+        "delta_neighbor": 0.045050563420976596,
+        "spatial_gate_failed": false
+      },
+      "tonsil": {
+        "delta_boundary": 0.013630388154708345,
+        "delta_geary": 0.0023763837314563106,
+        "delta_moran": -0.003352734600543683,
+        "delta_neighbor": -0.01363038815470834,
+        "spatial_gate_failed": false
+      }
+    },
+    "spatial_gate_pass_both": true,
+    "worst_dataset_mean_delta_q": 0.008270401379070647
+  },
+  "locked_balanced_candidate": {
+    "cells": [
+      {
+        "ari": 0.2744679880037527,
+        "dataset": "a1",
+        "delta_ari": -0.00312950665798456,
+        "delta_boundary": -0.0531638254839642,
+        "delta_geary": -0.06317765509373124,
+        "delta_moran": 0.07154981729392129,
+        "delta_neighbor": 0.053163825483964255,
+        "delta_nmi": 0.01861947020068483,
+        "delta_q": 0.0077449817713501345,
+        "effective_runtime_seconds": 23.77597995661199,
+        "nmi": 0.4147370479615583,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.3446025179826555,
+        "seed": 0
+      },
+      {
+        "ari": 0.2672471914408437,
+        "dataset": "a1",
+        "delta_ari": 0.004786372287424401,
+        "delta_boundary": -0.07844553597226239,
+        "delta_geary": -0.0900060027930234,
+        "delta_moran": 0.10075420462757878,
+        "delta_neighbor": 0.07844553597226234,
+        "delta_nmi": 0.02771964093465351,
+        "delta_q": 0.01625300661103901,
+        "effective_runtime_seconds": 22.512442726641893,
+        "nmi": 0.4132690689870538,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.3402581302139488,
+        "seed": 1
+      },
+      {
+        "ari": 0.27526557454695755,
+        "dataset": "a1",
+        "delta_ari": -0.003409077254684756,
+        "delta_boundary": 0.01132620629875758,
+        "delta_geary": 0.002546293928156085,
+        "delta_moran": 0.003694386029383989,
+        "delta_neighbor": -0.01132620629875758,
+        "delta_nmi": 0.018470536720814834,
+        "delta_q": 0.007530729733065011,
+        "effective_runtime_seconds": 31.673835599794984,
+        "nmi": 0.40954213777203574,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.34240385615949664,
+        "seed": 2
+      },
+      {
+        "ari": 0.2640021001278234,
+        "dataset": "a1",
+        "delta_ari": -0.0034017750497876142,
+        "delta_boundary": -0.06977752094770295,
+        "delta_geary": -0.07078272558878007,
+        "delta_moran": 0.08173088370773252,
+        "delta_neighbor": 0.06977752094770295,
+        "delta_nmi": 0.01588848123750214,
+        "delta_q": 0.006243353093857262,
+        "effective_runtime_seconds": 32.271653983742,
+        "nmi": 0.40423792852924534,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.33412001432853433,
+        "seed": 3
+      },
+      {
+        "ari": 0.2650444081657329,
+        "dataset": "a1",
+        "delta_ari": -0.006796361702951448,
+        "delta_boundary": -0.03519214099971102,
+        "delta_geary": -0.04387219100037498,
+        "delta_moran": 0.05105340589301788,
+        "delta_neighbor": 0.03519214099971102,
+        "delta_nmi": 0.013956233075035018,
+        "delta_q": 0.003579935686041813,
+        "effective_runtime_seconds": 37.16502254642546,
+        "nmi": 0.40158324045111066,
+        "peak_gpu_allocated_mib": 764.048828125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.33331382430842177,
+        "seed": 4
+      },
+      {
+        "ari": 0.1522327250963723,
+        "dataset": "tonsil",
+        "delta_ari": 0.0638396022416566,
+        "delta_boundary": -0.04398164164302676,
+        "delta_geary": -0.03053620269195817,
+        "delta_moran": 0.02956631225830042,
+        "delta_neighbor": 0.04398164164302676,
+        "delta_nmi": 0.11065774448088872,
+        "delta_q": 0.08724867336127262,
+        "effective_runtime_seconds": 20.116846423596144,
+        "nmi": 0.2733283147344344,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.2127805199154033,
+        "seed": 0
+      },
+      {
+        "ari": 0.148615145606812,
+        "dataset": "tonsil",
+        "delta_ari": 0.0844563249557587,
+        "delta_boundary": 0.035978689545423076,
+        "delta_geary": 0.0015903207480448822,
+        "delta_moran": -0.0020280245896990845,
+        "delta_neighbor": -0.03597868954542305,
+        "delta_nmi": 0.1135616275289085,
+        "delta_q": 0.09900897624233349,
+        "effective_runtime_seconds": 20.76144318655133,
+        "nmi": 0.2701300690467603,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1256.08203125,
+        "q": 0.2093726073267861,
+        "seed": 1
+      },
+      {
+        "ari": 0.1553315607124325,
+        "dataset": "tonsil",
+        "delta_ari": 0.1025850615256392,
+        "delta_boundary": 0.038331142323393075,
+        "delta_geary": 0.025508364693292485,
+        "delta_moran": -0.026000019829546472,
+        "delta_neighbor": -0.038331142323393075,
+        "delta_nmi": 0.12551582490649235,
+        "delta_q": 0.11405044321606579,
+        "effective_runtime_seconds": 23.510354870930314,
+        "nmi": 0.2730142678484609,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1252.01953125,
+        "q": 0.2141729142804467,
+        "seed": 2
+      },
+      {
+        "ari": 0.15463883708914133,
+        "dataset": "tonsil",
+        "delta_ari": 0.08695787937690515,
+        "delta_boundary": 0.03272676952881748,
+        "delta_geary": 0.006037160010899267,
+        "delta_moran": -0.00653232384673752,
+        "delta_neighbor": -0.03272676952881748,
+        "delta_nmi": 0.12028142554318122,
+        "delta_q": 0.10361965246004318,
+        "effective_runtime_seconds": 26.732370221987367,
+        "nmi": 0.27374193978974287,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1262.34375,
+        "q": 0.2141903884394421,
+        "seed": 3
+      },
+      {
+        "ari": 0.15395375517720053,
+        "dataset": "tonsil",
+        "delta_ari": -0.0009529201366761109,
+        "delta_boundary": 0.005096981018934854,
+        "delta_geary": 0.00928227589700309,
+        "delta_moran": -0.011769616995035759,
+        "delta_neighbor": -0.005096981018934854,
+        "delta_nmi": 0.025365136168305907,
+        "delta_q": 0.012206108015814898,
+        "effective_runtime_seconds": 24.465822288766503,
+        "nmi": 0.27339873762538497,
+        "peak_gpu_allocated_mib": 939.830078125,
+        "process_peak_rss_mib": 1266.59765625,
+        "q": 0.21367624640129274,
+        "seed": 4
+      }
+    ],
+    "complete_cells": 10,
+    "dataset_mean_delta_q": {
+      "a1": 0.008270401379070647,
+      "tonsil": 0.083226770659106
+    },
+    "delta_q_std": 0.04562012105774485,
+    "graph_id": "G04_SP10_F10_EUC_UNION",
+    "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+    "macro_delta_ari": 0.03249355995852996,
+    "macro_delta_nmi": 0.0590036120796467,
+    "macro_delta_q": 0.04574858601908832,
+    "mean_effective_runtime_seconds": 26.2985771805048,
+    "paired_q_total": 10,
+    "paired_q_wins": 10,
+    "peak_gpu_allocated_mib": 939.830078125,
+    "peak_rss_mib": 1266.59765625,
+    "spatial_by_dataset": {
+      "a1": {
+        "delta_boundary": -0.045050563420976596,
+        "delta_geary": -0.05305845610955072,
+        "delta_moran": 0.06175653951032689,
+        "delta_neighbor": 0.045050563420976596,
+        "spatial_gate_failed": false
+      },
+      "tonsil": {
+        "delta_boundary": 0.013630388154708345,
+        "delta_geary": 0.0023763837314563106,
+        "delta_moran": -0.003352734600543683,
+        "delta_neighbor": -0.01363038815470834,
+        "spatial_gate_failed": false
+      }
+    },
+    "spatial_gate_pass_both": true,
+    "worst_dataset_mean_delta_q": 0.008270401379070647
+  },
+  "parameter_tuning": false,
+  "protected_dataset_access": false,
+  "reference_five_seed_complete": true,
+  "seed_search": false,
+  "stage": "R2",
+  "status": "LOCKED",
+  "terminal_status": "NIGHT6C_BALANCED_AND_OR_ACCURACY_CANDIDATES_LOCKED"
+}
