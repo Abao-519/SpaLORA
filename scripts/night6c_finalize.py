@@ -29,9 +29,16 @@ def main() -> None:
     r2d = json.loads((OUT / "r2_decision.json").read_text())
     metrics = pd.read_csv(OUT / "per_seed_metrics.csv")
     training = r1t["scientific_training_units"] + r2t["scientific_training_units"]
+    retries = r1t.get("implementation_retries", 0) + r2t.get("implementation_retries", 0)
+    total_training_attempts = r1t.get("total_training_attempts", r1t["scientific_training_units"]) + \
+        r2t.get("total_training_attempts", r2t["scientific_training_units"])
     transforms = r1x["formal_head_transforms"] + r2x["formal_head_transforms"]
-    if training > 66 or transforms > 552:
+    transform_corrections = r1x.get("transform_corrections", 0) + r2x.get("transform_corrections", 0)
+    if training > 66 or retries > 12 or total_training_attempts > 78 or \
+            transforms > 552 or transform_corrections > 48:
         raise RuntimeError("Night-6C hard budget exceeded")
+    if total_training_attempts != training + retries:
+        raise RuntimeError("training attempt accounting mismatch")
     if r1t["success_count"] != 36 or r1x["attempted_transforms"] != 432 or \
             r1x["success_count"] + r1x.get("scientific_numerical_failure_count", 0) != 432:
         raise RuntimeError("R1 fixed coverage incomplete")
@@ -67,10 +74,10 @@ def main() -> None:
         "accuracy_frontier_candidate": compact_candidate(r2d["locked_accuracy_frontier_candidate"]),
         "fresh_reference": "E00C_C04_B01_CLEAN/G00_SP18_F20_CORR_UNION/H00_FUSED_PCA20_MCLUST_EEE",
         "scientific_training_units": training, "scientific_training_cap": 66,
-        "implementation_or_infrastructure_retries": 0, "retry_cap": 12,
-        "total_training_attempts": training, "total_training_attempt_cap": 78,
+        "implementation_or_infrastructure_retries": retries, "retry_cap": 12,
+        "total_training_attempts": total_training_attempts, "total_training_attempt_cap": 78,
         "formal_head_transforms": transforms, "formal_head_transform_cap": 552,
-        "head_transform_corrections": 0, "head_transform_correction_cap": 48,
+        "head_transform_corrections": transform_corrections, "head_transform_correction_cap": 48,
         "checkpoint_round_trip_pass_count": len(all_runs),
         "checkpoint_round_trip_expected": len(all_runs),
         "label_firewall": "PASS", "parameter_tuning": False, "seed_search": False,
@@ -95,9 +102,9 @@ def main() -> None:
     atomic_json(OUT / "tests_and_invariance_audit.json", tests)
     atomic_json(OUT / "budget_and_access_audit.json", {
         "budgets": {"scientific_training": training, "scientific_training_cap": 66,
-                    "retries": 0, "retry_cap": 12, "total_attempts": training,
+                    "retries": retries, "retry_cap": 12, "total_attempts": total_training_attempts,
                     "total_attempt_cap": 78, "head_transforms": transforms,
-                    "head_transform_cap": 552, "transform_corrections": 0,
+                    "head_transform_cap": 552, "transform_corrections": transform_corrections,
                     "transform_correction_cap": 48},
         "access": {"D1": 0, "P22": 0, "GSE198353": 0, "Night4B": 0,
                    "Night5D_metric_content": 0, "Night6A_raw_or_metric_selection": 0},
@@ -129,7 +136,7 @@ Accuracy-frontier candidate: `{accuracy['graph_id'] + '/' + accuracy['head_id'] 
 - R1 training: {r1t['success_count']}/{r1t['planned_units']}; R1 head attempts: {r1x['attempted_transforms']}/{r1x['planned_transforms']} ({r1x['success_count']} successful, {r1x.get('scientific_numerical_failure_count', 0)} preregistered numerical failures, no fallback).
 - R2 training: {r2t['success_count']}/{r2t['planned_units']}; R2 head attempts: {r2x['attempted_transforms']}/{r2x['planned_transforms']} ({r2x['success_count']} successful, {r2x.get('scientific_numerical_failure_count', 0)} preregistered numerical failures, no fallback).
 - Every one of {len(all_runs)} successful training cells saved a real `model_final.pt`, canonical tensor-state SHA, full provenance, six views, and passed a fresh-process reload with exact H00 cluster labels.
-- Scientific training used {training}/66 units; implementation retries 0/12; head transforms {transforms}/552; corrections 0/48.
+- Scientific training used {training}/66 units; implementation/infrastructure retries {retries}/12; total training attempts {total_training_attempts}/78; head transforms {transforms}/552; corrections {transform_corrections}/48. Failed attempts remain preserved and were not mixed into scientific evidence.
 
 ## Scientific controls
 
