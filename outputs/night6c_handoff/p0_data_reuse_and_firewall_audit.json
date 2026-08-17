@@ -1,0 +1,252 @@
+{
+  "data_reuse": {
+    "base_caches": {
+      "a1": {
+        "directory": "/root/autodl-fs/night6c_cache_20260817/base/a1",
+        "manifest": {
+          "canonical_cache_content_sha256": "b2d6e6b41877f7b39f3b016352f45e473d707f1527843f2b3ce11f471df8b86e",
+          "canonical_model_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+          "dataset": "a1",
+          "files": {
+            "adj_feature_omics1_indices.npy": {
+              "sha256": "3c8f13da4ea02c54aa7289a6bd95d14afa5dffafda8098cbf9940b37ff64fb58",
+              "size_bytes": 1864640
+            },
+            "adj_feature_omics1_values.npy": {
+              "sha256": "eaccc35a1566a629e52124e998b2c64b2e9fcc4177696e45ec754d6fab69d4ac",
+              "size_bytes": 466256
+            },
+            "adj_feature_omics2_indices.npy": {
+              "sha256": "9c128f1ed50adf70074c381e2b86ba4636640693339097a7b4794fe434e68058",
+              "size_bytes": 1712736
+            },
+            "adj_feature_omics2_values.npy": {
+              "sha256": "0a6f9a1a416345cf8b5b0002913d57f701db05708570353b55e0cb8979977294",
+              "size_bytes": 428280
+            },
+            "adj_spatial_omics1_indices.npy": {
+              "sha256": "25944ca5c0dab76011f2e531841531269fad57ea92ecd3b9a329efa9796c5920",
+              "size_bytes": 1138240
+            },
+            "adj_spatial_omics1_values.npy": {
+              "sha256": "8d994177f19326e15b78d277045dc80105e1e25aeaa2e3b36baa42382a0ac6ba",
+              "size_bytes": 284656
+            },
+            "adj_spatial_omics2_indices.npy": {
+              "sha256": "25944ca5c0dab76011f2e531841531269fad57ea92ecd3b9a329efa9796c5920",
+              "size_bytes": 1138240
+            },
+            "adj_spatial_omics2_values.npy": {
+              "sha256": "8d994177f19326e15b78d277045dc80105e1e25aeaa2e3b36baa42382a0ac6ba",
+              "size_bytes": 284656
+            },
+            "coordinates.npy": {
+              "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+              "size_bytes": 55872
+            },
+            "features_omics1.npy": {
+              "sha256": "2520c454a4b2833488455ffcd0a67f0e5f7449d6ab7645c1c1e1eba93fa41238",
+              "size_bytes": 41808128
+            },
+            "features_omics2.npy": {
+              "sha256": "20838625d7228699b7616b6880f2ce43fd308cefe4c19b8ad42bdc280acbd15b",
+              "size_bytes": 418208
+            },
+            "metadata.json": {
+              "sha256": "4c0faeb9603328424c7f8aaf657caa35bfe5a1aaad7221ac950a7060dd69721c",
+              "size_bytes": 2209
+            },
+            "observation_ids.tsv": {
+              "sha256": "eb32884ae2bd2e126731f88dbe3a1e542b6948ae1db6392f05168129a4bc0e80",
+              "size_bytes": 76663
+            },
+            "rna_pca_explained_variance.npy": {
+              "sha256": "74a91bf003a5a8d4cb169e8023170eeba277e27eb9dfdda298aa881c0b239dc4",
+              "size_bytes": 368
+            },
+            "rna_pca_explained_variance_ratio.npy": {
+              "sha256": "0e66dee148937762f372bc480fd73bea274ecf2e53850c3ba7221cbb55e8ed0c",
+              "size_bytes": 368
+            },
+            "rna_pca_scores.npy": {
+              "sha256": "18ca37f7e5dd20c61a7bf4ee984f7c4201bbc7def59d9eb318d7263a7a473f96",
+              "size_bytes": 418208
+            },
+            "selected_genes.tsv": {
+              "sha256": "d33dc247a8d6171ee6348be35ec774c213acac17e24e7f4e74e19450dafaf1ed",
+              "size_bytes": 18903
+            },
+            "weight_vector_omics1.npy": {
+              "sha256": "2ab06f4da017f533c7c4d44e785db1c090b3ee7511f8a63bc99636632b8becfe",
+              "size_bytes": 12128
+            }
+          },
+          "manifest_excludes_itself": true,
+          "schema_version": 1
+        },
+        "manifest_sha256": "c662e921911f0b6f5e2ca60a0272ab0940f14b8124acf98d0e01adde01db9e99"
+      },
+      "tonsil": {
+        "directory": "/root/autodl-fs/night6c_cache_20260817/base/tonsil",
+        "manifest": {
+          "canonical_cache_content_sha256": "1164f9362ad46566aa98a1104f3d1860d821d3dc72026893a882c079d2ded645",
+          "canonical_model_input_sha256": "aeda8024a4314fe935679337b4af8d628c53582e912926a7288a08d5f7767367",
+          "dataset": "tonsil",
+          "files": {
+            "adj_feature_omics1_indices.npy": {
+              "sha256": "8d70da1e2f4148cdad9476606191fc898dfa1ae285ee2e20269f0001f2a00b4e",
+              "size_bytes": 2210336
+            },
+            "adj_feature_omics1_values.npy": {
+              "sha256": "6edba0b418c383b524a946efc1430ea2a4cad84bf371cdce108ddd679e6cbd5e",
+              "size_bytes": 552680
+            },
+            "adj_feature_omics2_indices.npy": {
+              "sha256": "28df9e86ff3ec4017c584e20b507ec432aaa6140e3f7ea9ef9e781c0b63be500",
+              "size_bytes": 2136672
+            },
+            "adj_feature_omics2_values.npy": {
+              "sha256": "54a22aeb4189be4df833b2394e58b7c277b210ffef5c08cf03e38d9f42ce416f",
+              "size_bytes": 534264
+            },
+            "adj_spatial_omics1_indices.npy": {
+              "sha256": "1bdc561389c163ec83b394d9e17fd8e95ee3c0ff63c4cbf0c7a73dec563cd7fb",
+              "size_bytes": 1415648
+            },
+            "adj_spatial_omics1_values.npy": {
+              "sha256": "d0ca6f4a8569d934f2160e8a325329d0fb127f7afc6c88cc55b48927f8d816b3",
+              "size_bytes": 354008
+            },
+            "adj_spatial_omics2_indices.npy": {
+              "sha256": "1bdc561389c163ec83b394d9e17fd8e95ee3c0ff63c4cbf0c7a73dec563cd7fb",
+              "size_bytes": 1415648
+            },
+            "adj_spatial_omics2_values.npy": {
+              "sha256": "d0ca6f4a8569d934f2160e8a325329d0fb127f7afc6c88cc55b48927f8d816b3",
+              "size_bytes": 354008
+            },
+            "coordinates.npy": {
+              "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+              "size_bytes": 69344
+            },
+            "features_omics1.npy": {
+              "sha256": "82e36825acc4911e2ada71a321a4135d667011dac3baf62c70bd8a5b905d012c",
+              "size_bytes": 51912128
+            },
+            "features_omics2.npy": {
+              "sha256": "ce964e47cff42ad8f378a7518d5a6c6e3b173e396adb2458a9c18b3c33d89133",
+              "size_bytes": 519248
+            },
+            "metadata.json": {
+              "sha256": "65f57abd7868617c63ffe0fb6820ea2893b6c6eafb44a1eb2e36d97b21c4ae40",
+              "size_bytes": 2213
+            },
+            "observation_ids.tsv": {
+              "sha256": "c248557139fef50e504f871ef2ecf203f68a59289cd399802c735c7233b87600",
+              "size_bytes": 95187
+            },
+            "rna_pca_explained_variance.npy": {
+              "sha256": "a62d5aa12f671f27fce122a0bec5f857afa8b0df0d746a665816600000d9a738",
+              "size_bytes": 368
+            },
+            "rna_pca_explained_variance_ratio.npy": {
+              "sha256": "5c2d3b06940489311ff979053da555769aca408ead1c2d73d99cb1d66c474c36",
+              "size_bytes": 368
+            },
+            "rna_pca_scores.npy": {
+              "sha256": "ae748a23d0394c54b30befc1aecc50b1424cb2e425923b38a9185ac70686613f",
+              "size_bytes": 519248
+            },
+            "selected_genes.tsv": {
+              "sha256": "95af5c82684922aa7c4b922dd7a2ee2b474c7b0d875a39928a31ed2f441ca9c8",
+              "size_bytes": 18877
+            },
+            "weight_vector_omics1.npy": {
+              "sha256": "2ab06f4da017f533c7c4d44e785db1c090b3ee7511f8a63bc99636632b8becfe",
+              "size_bytes": 12128
+            }
+          },
+          "manifest_excludes_itself": true,
+          "schema_version": 1
+        },
+        "manifest_sha256": "aa28931790e03ab79e5737d2eaffd4a90edff045ef6e8e540e2e8cdab5a7a359"
+      }
+    },
+    "data_steward": {
+      "authorized_role": "data_steward",
+      "deserialized_into_memory": true,
+      "explicitly_indexed_or_observed": false,
+      "per_spot_labels_read_this_round": false,
+      "used_for_training_or_selection": false
+    },
+    "known_k": 4,
+    "label_free": {
+      "adt": {
+        "obs_columns": [],
+        "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "path": "/root/autodl-fs/night6b_data_20260817/tonsil_label_free/tonsil_s1_adt_label_free.h5ad",
+        "sha256": "0146aabbd9845b90932c68711c985832895f93082a25a6adabdeccd9795f0ce5",
+        "shape": [
+          4326,
+          31
+        ],
+        "size_bytes": 613278,
+        "spatial_shape": [
+          4326,
+          2
+        ]
+      },
+      "rna": {
+        "obs_columns": [],
+        "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "path": "/root/autodl-fs/night6b_data_20260817/tonsil_label_free/tonsil_s1_rna_label_free.h5ad",
+        "sha256": "a53bb5a1d5fcea356db65f8de9f8f6c158d1b96db8dfbef0b85d6d4d45131a0a",
+        "shape": [
+          4326,
+          18085
+        ],
+        "size_bytes": 36810093,
+        "spatial_shape": [
+          4326,
+          2
+        ]
+      }
+    },
+    "status": "P0_DATA_REUSE_PASS",
+    "target_column": "final_annot",
+    "target_label_vector_sha256_not_opened": "a587e8029c83d002f96b72e40bb2fe4ea46867f9a655d01c963d94dd18897c9a",
+    "trainer_transformer": {
+      "authorized_role": "trainer_transformer",
+      "deserialized_original_obs_into_memory": false,
+      "explicitly_indexed_or_observed": false,
+      "used_for_training_or_selection": false
+    }
+  },
+  "firewall_evidence": [
+    {
+      "path": "firewall/data_role_and_access_audit.json",
+      "sha256": "b8b5719053e9fed3b9d42d27f1cadbc2e4d839bfb131505b29e17be79cb1b34e",
+      "size_bytes": 660
+    },
+    {
+      "path": "firewall/r1_label_access_audit.json",
+      "sha256": "dc3f3be456fb7bb16795b1521c673adf893704f40149d48538258d173ffbf40a",
+      "size_bytes": 428
+    },
+    {
+      "path": "firewall/r2_label_access_audit.json",
+      "sha256": "5ea469a258a8469e40b58f441c264ad8c4aaaf9470712b8fc4c72670304b2a86",
+      "size_bytes": 428
+    },
+    {
+      "path": "firewall/evaluator_access.jsonl",
+      "sha256": "ec1a0a38a88c35f0932b893b8a3baacbc218cc068d32b1fff74158be71d73467",
+      "size_bytes": 876
+    }
+  ],
+  "protected_datasets_accessed": [],
+  "r1_labels_opened_only_after_r1_transform_lock": true,
+  "r2_labels_opened_only_after_r2_transform_lock": true,
+  "schema_version": 1,
+  "status": "PASS"
+}

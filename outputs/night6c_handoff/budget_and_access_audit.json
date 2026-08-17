@@ -1,0 +1,35 @@
+{
+  "access": {
+    "D1": 0,
+    "GSE198353": 0,
+    "Night4B": 0,
+    "Night5D_metric_content": 0,
+    "Night6A_raw_or_metric_selection": 0,
+    "P22": 0
+  },
+  "budgets": {
+    "head_transform_cap": 552,
+    "head_transforms": 480,
+    "retries": 2,
+    "retry_cap": 12,
+    "scientific_training": 48,
+    "scientific_training_cap": 66,
+    "total_attempt_cap": 78,
+    "total_attempts": 50,
+    "transform_correction_cap": 48,
+    "transform_corrections": 0
+  },
+  "fixed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "historical_diagnostic_access": {
+    "Night5A_A1_C04_after_R1_and_R2_output_locks": true,
+    "role": "HISTORICAL_DRIFT_DIAGNOSTIC_ONLY",
+    "used_for_selection": false
+  },
+  "run_order_preserved": true
+}

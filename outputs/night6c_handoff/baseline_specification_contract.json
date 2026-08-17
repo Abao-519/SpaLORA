@@ -1,0 +1,251 @@
+{
+  "active_losses": [
+    "rna_reconstruction",
+    "modality2_reconstruction",
+    "corr1"
+  ],
+  "architecture": "Night5AModel with EncoderOverallCorrected; two private encoders/decoders and three learned attentions",
+  "attention": {
+    "learned_fraction": 0.25,
+    "policy": "shrink_to_uniform"
+  },
+  "canonical_baseline_spec_sha256": "97404d163b089ccfe3649b5cf27c3dbc514d8cbf807117d3e2bb11ae774bb561",
+  "checkpoint_policy": "new Night-6C model_final.pt at fixed final epoch; mandatory fresh-process reload",
+  "corr2_objective_enabled": false,
+  "determinism_flags": {
+    "fixed_final_epoch": true,
+    "fixed_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "label_early_stop": false,
+    "seed_search": false
+  },
+  "encoder_id": "E00C_C04_B01_CLEAN",
+  "historical_manifests": [
+    {
+      "candidate_id": "C04_SHRINK25",
+      "coefficients": {
+        "L_corr1_raw": 0.028442872576688254,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.04093277230361655,
+        "L_rna_recon_raw": 3.930624355119695
+      },
+      "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+      "epochs": 200,
+      "final_state_sha256": "8e8e5dc8eb4154e828bcb9a8af0ead2e9d3100c5044bdedd552c0569e2a73353",
+      "initial_state_sha256": "c1dcd30698274e1c3e54aa7137eb1f36061dff2ad56331cacf8ae1138eb6b8c7",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/run_manifest.json",
+      "seed": 0,
+      "sha256": "879e9fbaa45fd33177486be4e4ba2a9b5b56894e7f165afceb9b46c8ef91566c"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "coefficients": {
+        "L_corr1_raw": 0.03520256385412846,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03658119753265723,
+        "L_rna_recon_raw": 3.928216238613214
+      },
+      "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+      "epochs": 200,
+      "final_state_sha256": "0a56f2bd0ec3c24483ada73fef972a4776594e3008f67e41fd3083466eb71dd9",
+      "initial_state_sha256": "09075886cd131cff4622105695f557f7938b3cc67676bfa7dcfc6a36f575d16c",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/run_manifest.json",
+      "seed": 1,
+      "sha256": "b893c9e787aeeacb7d3324e9a7f485a0ec6400612dbff6adb65c48c5369d597e"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "coefficients": {
+        "L_corr1_raw": 0.029619303924950754,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03296306871934942,
+        "L_rna_recon_raw": 3.9374176273557002
+      },
+      "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+      "epochs": 200,
+      "final_state_sha256": "aa206235e69d1d9b25d3dbd667d3de0ea6f698f7b65d7320a535d445222dedf8",
+      "initial_state_sha256": "7bad35f665daa36f8277090d5d36c0003bac22e3c55e2b807c67e92652697ac0",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/run_manifest.json",
+      "seed": 2,
+      "sha256": "a0620c69aa36229d54e8dfd9bf833986474d23f6a03ee2ccdfba24cad8c7147d"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "coefficients": {
+        "L_corr1_raw": 0.03441134487710212,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.03955968063695536,
+        "L_rna_recon_raw": 3.9260289744859427
+      },
+      "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+      "epochs": 200,
+      "final_state_sha256": "77dbcf8dd7ebcfe48ee85d9cfee9fa08d20c6e5c58b2672ec99710d8ce0545fb",
+      "initial_state_sha256": "6fc29bc2c3d1fb757f6e8cf278881314eb1367edc2ac629c7c9d6528b9c534bb",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/run_manifest.json",
+      "seed": 3,
+      "sha256": "995199ba5fc379a6d227bb5e17f3e63b566f79d88ce3a25d155d098ad6f91ce5"
+    },
+    {
+      "candidate_id": "C04_SHRINK25",
+      "coefficients": {
+        "L_corr1_raw": 0.04780782362910781,
+        "L_corr2_raw": 0.0,
+        "L_mod2_recon_raw": 0.05022560149393093,
+        "L_rna_recon_raw": 3.9019665748769614
+      },
+      "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+      "epochs": 200,
+      "final_state_sha256": "dd3013f46c51c5dd3ea81aa6a660188cb83fc661123a40690f4a9d37d5a4eef4",
+      "initial_state_sha256": "3f7b8cffade6a6d6600c73d5c67a5586bb7461b61cb3bc6286398bb06524a536",
+      "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+      "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/run_manifest.json",
+      "seed": 4,
+      "sha256": "d2b7c3984a0357517a7c2dedaa4517518940b9dc24645fb85af7be10a4efbaf8"
+    }
+  ],
+  "initialization": "SpaLORA.preprocess.fix_seed(seed)",
+  "loss_coefficients": {
+    "active_coefficient_sum": 4.0,
+    "historical_seed_values": [
+      {
+        "coefficients": {
+          "L_corr1_raw": 0.028442872576688254,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.04093277230361655,
+          "L_rna_recon_raw": 3.930624355119695
+        },
+        "seed": 0
+      },
+      {
+        "coefficients": {
+          "L_corr1_raw": 0.03520256385412846,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.03658119753265723,
+          "L_rna_recon_raw": 3.928216238613214
+        },
+        "seed": 1
+      },
+      {
+        "coefficients": {
+          "L_corr1_raw": 0.029619303924950754,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.03296306871934942,
+          "L_rna_recon_raw": 3.9374176273557002
+        },
+        "seed": 2
+      },
+      {
+        "coefficients": {
+          "L_corr1_raw": 0.03441134487710212,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.03955968063695536,
+          "L_rna_recon_raw": 3.9260289744859427
+        },
+        "seed": 3
+      },
+      {
+        "coefficients": {
+          "L_corr1_raw": 0.04780782362910781,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.05022560149393093,
+          "L_rna_recon_raw": 3.9019665748769614
+        },
+        "seed": 4
+      }
+    ],
+    "policy": "active_set_IGE frozen after initial no-label gradient probe"
+  },
+  "models": {
+    "a1": {
+      "input_dims": [
+        3000,
+        30
+      ],
+      "latent_dims": [
+        64,
+        64
+      ],
+      "parameter_count": 400320,
+      "parameter_names": [
+        "encoder1.weight",
+        "decoder1.weight",
+        "encoder2.weight",
+        "decoder2.weight",
+        "attention1.w_omega",
+        "attention1.u_omega",
+        "attention2.w_omega",
+        "attention2.u_omega",
+        "cross_attention.w_omega",
+        "cross_attention.u_omega"
+      ]
+    },
+    "tonsil": {
+      "input_dims": [
+        3000,
+        30
+      ],
+      "latent_dims": [
+        64,
+        64
+      ],
+      "parameter_count": 400320,
+      "parameter_names": [
+        "encoder1.weight",
+        "decoder1.weight",
+        "encoder2.weight",
+        "decoder2.weight",
+        "attention1.w_omega",
+        "attention1.u_omega",
+        "attention2.w_omega",
+        "attention2.u_omega",
+        "cross_attention.w_omega",
+        "cross_attention.u_omega"
+      ]
+    }
+  },
+  "only_varying_fields": [
+    "dataset_id",
+    "graph_candidate_id",
+    "seed",
+    "content_addressed_input_and_graph_cache"
+  ],
+  "optimizer": {
+    "epochs": 200,
+    "learning_rate": 0.0001,
+    "name": "Adam",
+    "scheduler": null,
+    "weight_decay": 0.0
+  },
+  "preprocessing": {
+    "feature_reference_k": 20,
+    "feature_reference_metric": "correlation",
+    "hvg": 3000,
+    "spatial_reference_k": 18,
+    "variant": "corrected_unweighted"
+  },
+  "semantic_source": "Night-5 B01/C04 registry, runner, five manifests",
+  "source_files": [
+    {
+      "path": "/root/autodl-fs/SpaLORA-night5a/scripts/night5a_runner.py",
+      "sha256": "1069cf3b446dbf8418166ada22484e7d80ef134e8eeec5bdc9bed2dea63bb1de"
+    },
+    {
+      "path": "/root/autodl-fs/SpaLORA-night5a/SpaLORA/night5a_rnd.py",
+      "sha256": "1c72fdf62183be44f091558a6554e8252ff8730c20ce0884a26a83de13b7cb5f"
+    },
+    {
+      "path": "/root/autodl-fs/SpaLORA-night5a/configs/night5a_metric_rnd.json",
+      "sha256": "1973e851c5ea15cd4fa8476fc73e8c4ce3d7a1db8f45c9aa9354c3ab975732f5"
+    }
+  ],
+  "status": "PASS"
+}

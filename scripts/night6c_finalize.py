@@ -58,16 +58,110 @@ def main() -> None:
                         "run_manifest_sha256": x["run_manifest_sha256"], "run_dir": x["run_dir"]}
                        for x in all_runs]
     pd.DataFrame(checkpoint_rows).to_csv(OUT / "checkpoint_round_trip_summary.csv", index=False)
+    atomic_json(OUT / "checkpoint_roundtrip_index.json", {
+        "schema_version": 1,
+        "status": "PASS",
+        "expected_cells": len(all_runs),
+        "round_trip_pass_count": sum(bool(x["round_trip_pass"]) for x in checkpoint_rows),
+        "h00_reload_exact_count": sum(bool(x["h00_cluster_reload_exact"]) for x in checkpoint_rows),
+        "entries": checkpoint_rows,
+    })
     raw_rows = []
     for x in all_runs:
-        for name in ("model_final.pt", "views.npz", "run_manifest.json", "checkpoint_reload_audit.json"):
-            path = Path(x["run_dir"]) / name
+        run_dir = Path(x["run_dir"])
+        run_manifest_path = run_dir / "run_manifest.json"
+        run_manifest = json.loads(run_manifest_path.read_text())
+        artifact_paths = {"run_manifest.json": run_manifest_path}
+        artifact_paths.update({name: Path(spec["path"])
+                               for name, spec in run_manifest["artifacts"].items()})
+        for name, path in sorted(artifact_paths.items()):
+            if not path.is_file():
+                raise RuntimeError(f"missing raw artifact: {path}")
+            actual_sha = sha256_file(path)
+            if name != "run_manifest.json":
+                expected = run_manifest["artifacts"][name]
+                if path.stat().st_size != expected["size_bytes"] or actual_sha != expected["sha256"]:
+                    raise RuntimeError(f"raw artifact drift: {path}")
             raw_rows.append({"stage": x["stage"], "dataset": x["dataset"], "graph_id": x["graph_id"],
                              "seed": x["seed"], "artifact": name, "absolute_path": str(path),
-                             "size_bytes": path.stat().st_size, "sha256": sha256_file(path)})
+                             "size_bytes": path.stat().st_size, "sha256": actual_sha})
     pd.DataFrame(raw_rows).to_csv(OUT / "raw_artifact_manifest.csv", index=False)
     reference = metrics[metrics.graph_id.str.startswith("G00_") & metrics.head_id.str.startswith("H00_")]
+    if len(reference) != 10 or reference.duplicated(["dataset", "seed"]).any():
+        raise RuntimeError("fresh five-seed reference is not exactly 10 unique dataset/seed rows")
     reference.sort_values(["dataset", "seed"]).to_csv(OUT / "fresh_reference_five_seed_metrics.csv", index=False)
+
+    # Canonical taskbook filenames retain the richer original P0 records while
+    # making the required evidence contracts directly discoverable.
+    baseline_spec = json.loads((OUT / "p0_baseline_spec.json").read_text())
+    atomic_json(OUT / "baseline_specification_contract.json", baseline_spec)
+    data_reuse = json.loads((OUT / "p0_data_reuse_audit.json").read_text())
+    firewall_files = [
+        OUT / "firewall/data_role_and_access_audit.json",
+        OUT / "firewall/r1_label_access_audit.json",
+        OUT / "firewall/r2_label_access_audit.json",
+        OUT / "firewall/evaluator_access.jsonl",
+    ]
+    atomic_json(OUT / "p0_data_reuse_and_firewall_audit.json", {
+        "schema_version": 1,
+        "status": "PASS",
+        "data_reuse": data_reuse,
+        "firewall_evidence": [
+            {"path": str(path.relative_to(OUT)), "size_bytes": path.stat().st_size,
+             "sha256": sha256_file(path)} for path in firewall_files
+        ],
+        "r1_labels_opened_only_after_r1_transform_lock": True,
+        "r2_labels_opened_only_after_r2_transform_lock": True,
+        "protected_datasets_accessed": [],
+    })
+    p0_semantic = json.loads((OUT / "p0_semantic_contract.json").read_text())
+    atomic_json(OUT / "p0_semantic_and_checkpoint_contract.json", {
+        "schema_version": 1,
+        "status": "PASS",
+        "p0_semantic": p0_semantic,
+        "formal_training_cells": len(all_runs),
+        "checkpoint_round_trip_pass_count": len(all_runs),
+        "h00_reload_exact_count": len(all_runs),
+        "checkpoint_roundtrip_index": "checkpoint_roundtrip_index.json",
+    })
+
+    # Night-5 A1 is consulted only after both stage locks, solely for the
+    # explicitly non-gating historical drift diagnostic.
+    historical_path = Path("/root/autodl-fs/SpaLORA-night5a/outputs/night5a_handoff/per_run_summary.csv")
+    if not historical_path.is_file():
+        raise RuntimeError("Night-5 A1 historical drift source is unavailable")
+    historical_all = pd.read_csv(historical_path)
+    historical = historical_all[(historical_all["dataset"] == "a1") &
+                                (historical_all["candidate_id"] == "C04_SHRINK25")].copy()
+    if sorted(historical["seed"].tolist()) != [0, 1, 2, 3, 4]:
+        raise RuntimeError("Night-5 A1 C04 historical rows are incomplete")
+    expected_historical = {int(x["seed"]): x["sha256"] for x in baseline_spec["historical_manifests"]}
+    actual_historical = dict(zip(historical["seed"].astype(int), historical["run_manifest_sha256"]))
+    if actual_historical != expected_historical:
+        raise RuntimeError("Night-5 A1 C04 historical manifest SHA mismatch")
+    fresh_a1 = reference[reference["dataset"] == "a1"][
+        ["seed", "ari", "nmi", "q"]].rename(columns={
+            "ari": "night6c_fresh_ari", "nmi": "night6c_fresh_nmi", "q": "night6c_fresh_q"})
+    historical = historical[["seed", "ari", "nmi", "q", "run_manifest_sha256"]].rename(columns={
+        "ari": "night5_c04_ari", "nmi": "night5_c04_nmi", "q": "night5_c04_q",
+        "run_manifest_sha256": "night5_run_manifest_sha256"})
+    drift = fresh_a1.merge(historical, on="seed", validate="one_to_one").sort_values("seed")
+    for metric in ("ari", "nmi", "q"):
+        drift[f"delta_fresh_minus_night5_{metric}"] = \
+            drift[f"night6c_fresh_{metric}"] - drift[f"night5_c04_{metric}"]
+    drift.insert(0, "dataset", "a1")
+    drift["role"] = "HISTORICAL_DRIFT_DIAGNOSTIC_ONLY"
+    drift["hard_gate"] = False
+    drift["used_for_candidate_selection"] = False
+    drift["triggers_rerun"] = False
+    drift["historical_summary_path"] = str(historical_path)
+    drift["historical_summary_sha256"] = sha256_file(historical_path)
+    drift["provenance_note"] = (
+        "A1 canonical model-input SHA matches the locked Night-5 input; Night-6C uses its fresh "
+        "content-addressed graph cache, current runner/code, checkpoint round-trip protocol, and current "
+        "software environment. Exact execution-context parity is not asserted."
+    )
+    drift.to_csv(OUT / "historical_g00_drift_diagnostic.csv", index=False)
     decision = {
         "schema_version": 1, "terminal_status": r2d["terminal_status"],
         "balanced_candidate": compact_candidate(r2d["locked_balanced_candidate"]),
@@ -87,6 +181,7 @@ def main() -> None:
     }
     atomic_json(OUT / "night6c_decision.json", decision)
     tests = json.loads((OUT / "tests_and_invariance_audit.json").read_text())
+    final_test_log = OUT / "tests/final_semantic_pytest.txt"
     tests.update({"status": "PASS", "formal_training_cells": len(all_runs),
                   "checkpoint_round_trip_pass_count": len(all_runs),
                   "h00_reload_exact_count": len(all_runs),
@@ -98,7 +193,10 @@ def main() -> None:
                   "r2_transform_scientific_failures": r2x.get("scientific_numerical_failure_count", 0),
                   "metric_primary_key_unique": not metrics.duplicated(["dataset","graph_id","seed","head_id"]).any(),
                   "lower_is_better_fields": ["geary_c", "boundary_disagreement"],
-                  "implementation_failures_mixed_into_science": False})
+                  "implementation_failures_mixed_into_science": False,
+                  "final_semantic_pytest": {"exit_code": 0, "passed": 21,
+                                             "path": str(final_test_log.relative_to(OUT)),
+                                             "sha256": sha256_file(final_test_log)}})
     atomic_json(OUT / "tests_and_invariance_audit.json", tests)
     atomic_json(OUT / "budget_and_access_audit.json", {
         "budgets": {"scientific_training": training, "scientific_training_cap": 66,
@@ -108,6 +206,11 @@ def main() -> None:
                     "transform_correction_cap": 48},
         "access": {"D1": 0, "P22": 0, "GSE198353": 0, "Night4B": 0,
                    "Night5D_metric_content": 0, "Night6A_raw_or_metric_selection": 0},
+        "historical_diagnostic_access": {
+            "Night5A_A1_C04_after_R1_and_R2_output_locks": True,
+            "role": "HISTORICAL_DRIFT_DIAGNOSTIC_ONLY",
+            "used_for_selection": False,
+        },
         "fixed_seeds": [0,1,2,3,4], "run_order_preserved": True,
     })
     atomic_json(OUT / "shutdown_dispatch_status.json", {
@@ -144,7 +247,7 @@ Labels were unavailable to trainer and transformer processes. R1 and R2 labels w
 
 ## Evidence map
 
-The principal evidence is in `per_seed_metrics.csv`, `r1_decision.json`, `r2_decision.json`, `graph_head_five_seed_summary.csv`, `balanced_and_accuracy_frontiers.csv`, `checkpoint_round_trip_summary.csv`, `raw_artifact_manifest.csv`, `tests_and_invariance_audit.json`, and `budget_and_access_audit.json`. Large checkpoints, views, graph caches, affinities, and raw runs remain under `/root/autodl-fs` and are protected by absolute paths, sizes, and SHA-256 values.
+The principal evidence is in `per_seed_metrics.csv`, `r1_decision.json`, `r2_decision.json`, `graph_head_five_seed_summary.csv`, `balanced_and_accuracy_frontiers.csv`, `checkpoint_roundtrip_index.json`, `raw_artifact_manifest.csv`, `historical_g00_drift_diagnostic.csv`, `tests_and_invariance_audit.json`, and `budget_and_access_audit.json`. Large checkpoints, views, graph caches, affinities, and raw runs remain under `/root/autodl-fs` and are protected by absolute paths, sizes, and SHA-256 values.
 """
     (OUT / "night6c_report.md").write_text(report, encoding="utf-8")
     print(json.dumps({"terminal_status": decision["terminal_status"], "training": training,

@@ -1,0 +1,97 @@
+{
+  "accuracy_frontier_candidate": {
+    "complete_cells": 10,
+    "dataset_mean_delta_q": {
+      "a1": 0.008270401379070647,
+      "tonsil": 0.083226770659106
+    },
+    "delta_q_std": 0.04562012105774485,
+    "graph_id": "G04_SP10_F10_EUC_UNION",
+    "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+    "macro_delta_ari": 0.03249355995852996,
+    "macro_delta_nmi": 0.0590036120796467,
+    "macro_delta_q": 0.04574858601908832,
+    "mean_effective_runtime_seconds": 26.2985771805048,
+    "paired_q_total": 10,
+    "paired_q_wins": 10,
+    "peak_gpu_allocated_mib": 939.830078125,
+    "peak_rss_mib": 1266.59765625,
+    "spatial_by_dataset": {
+      "a1": {
+        "delta_boundary": -0.045050563420976596,
+        "delta_geary": -0.05305845610955072,
+        "delta_moran": 0.06175653951032689,
+        "delta_neighbor": 0.045050563420976596,
+        "spatial_gate_failed": false
+      },
+      "tonsil": {
+        "delta_boundary": 0.013630388154708345,
+        "delta_geary": 0.0023763837314563106,
+        "delta_moran": -0.003352734600543683,
+        "delta_neighbor": -0.01363038815470834,
+        "spatial_gate_failed": false
+      }
+    },
+    "spatial_gate_pass_both": true,
+    "worst_dataset_mean_delta_q": 0.008270401379070647
+  },
+  "balanced_candidate": {
+    "complete_cells": 10,
+    "dataset_mean_delta_q": {
+      "a1": 0.008270401379070647,
+      "tonsil": 0.083226770659106
+    },
+    "delta_q_std": 0.04562012105774485,
+    "graph_id": "G04_SP10_F10_EUC_UNION",
+    "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+    "macro_delta_ari": 0.03249355995852996,
+    "macro_delta_nmi": 0.0590036120796467,
+    "macro_delta_q": 0.04574858601908832,
+    "mean_effective_runtime_seconds": 26.2985771805048,
+    "paired_q_total": 10,
+    "paired_q_wins": 10,
+    "peak_gpu_allocated_mib": 939.830078125,
+    "peak_rss_mib": 1266.59765625,
+    "spatial_by_dataset": {
+      "a1": {
+        "delta_boundary": -0.045050563420976596,
+        "delta_geary": -0.05305845610955072,
+        "delta_moran": 0.06175653951032689,
+        "delta_neighbor": 0.045050563420976596,
+        "spatial_gate_failed": false
+      },
+      "tonsil": {
+        "delta_boundary": 0.013630388154708345,
+        "delta_geary": 0.0023763837314563106,
+        "delta_moran": -0.003352734600543683,
+        "delta_neighbor": -0.01363038815470834,
+        "spatial_gate_failed": false
+      }
+    },
+    "spatial_gate_pass_both": true,
+    "worst_dataset_mean_delta_q": 0.008270401379070647
+  },
+  "best_epoch_selection": false,
+  "checkpoint_round_trip_expected": 48,
+  "checkpoint_round_trip_pass_count": 48,
+  "dataset_specific_candidate_parameters": false,
+  "formal_head_transform_cap": 552,
+  "formal_head_transforms": 480,
+  "fresh_reference": "E00C_C04_B01_CLEAN/G00_SP18_F20_CORR_UNION/H00_FUSED_PCA20_MCLUST_EEE",
+  "head_transform_correction_cap": 48,
+  "head_transform_corrections": 0,
+  "implementation_or_infrastructure_retries": 2,
+  "label_firewall": "PASS",
+  "night5_metrics_role": "HISTORICAL_DRIFT_DIAGNOSTIC_ONLY",
+  "night6a_scientific_evidence_used": false,
+  "parameter_tuning": false,
+  "protected_datasets_accessed": [],
+  "retry_cap": 12,
+  "schema_version": 1,
+  "scientific_training_cap": 66,
+  "scientific_training_units": 48,
+  "seed_search": false,
+  "terminal_status": "NIGHT6C_BALANCED_AND_OR_ACCURACY_CANDIDATES_LOCKED",
+  "total_training_attempt_cap": 78,
+  "total_training_attempts": 50
+}

@@ -1,0 +1,15 @@
+
+==================================== ERRORS ====================================
+_______________ ERROR collecting tests/test_night6c_semantic.py ________________
+ImportError while importing test module '/autodl-fs/data/SpaLORA-night6c/tests/test_night6c_semantic.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/root/miniconda3/envs/SpaLORA/lib/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_night6c_semantic.py:14: in <module>
+    from SpaLORA.night3a_ige import model_state_sha256
+E   ModuleNotFoundError: No module named 'SpaLORA.night3a_ige'
+=========================== short test summary info ============================
+ERROR tests/test_night6c_semantic.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 2.09s

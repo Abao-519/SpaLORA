@@ -1,28 +1,8 @@
 {
   "checkpoint_round_trip_pass_count": 48,
-  "final_semantic_pytest": {
-    "exit_code": 0,
-    "passed": 21,
-    "path": "tests/final_semantic_pytest.txt",
-    "sha256": "33dfc9ad1500cd3930c1631fc9a9301ade8bc58ae02c559a62906618418e092c"
-  },
-  "fixed_run_order": true,
-  "fixed_seeds": [
-    0,
-    1,
-    2,
-    3,
-    4
-  ],
+  "checkpoint_roundtrip_index": "checkpoint_roundtrip_index.json",
   "formal_training_cells": 48,
   "h00_reload_exact_count": 48,
-  "implementation_failures_mixed_into_science": false,
-  "label_checkpoint_selection": false,
-  "lower_is_better_fields": [
-    "geary_c",
-    "boundary_disagreement"
-  ],
-  "metric_primary_key_unique": true,
   "p0_semantic": {
     "covered": [
       "kNN lexical tie-break",
@@ -51,14 +31,6 @@
     "status": "P0_SEMANTIC_PASS",
     "toy_checkpoint_round_trip": "fresh-process PASS"
   },
-  "parameter_tuning": false,
-  "protected_dataset_access": false,
-  "r1_transform_coverage": "432/432",
-  "r1_transform_scientific_failures": 37,
-  "r1_transform_successes": 395,
-  "r2_transform_coverage": "48/48",
-  "r2_transform_scientific_failures": 0,
-  "r2_transform_successes": 48,
-  "seed_search": false,
+  "schema_version": 1,
   "status": "PASS"
 }
