@@ -81,9 +81,11 @@ def one(stage: str, dataset: str, graph_id: str, seed: int, ordinal: int,
     prepared = load_cache(base_dir, base_manifest_sha)
     data, graph_manifest = load_graph_data(prepared, graph_dir)
     device = torch.device("cuda:0")
-    torch.cuda.empty_cache(); torch.cuda.reset_peak_memory_stats(device)
     started = time.perf_counter()
     try:
+        torch.cuda.set_device(device)
+        torch.cuda.init()
+        torch.cuda.empty_cache(); torch.cuda.reset_peak_memory_stats(device)
         trainer = make_trainer(data, dataset, seed, device)
         result = trainer.train()
         views = forward_model(result.model, data, device)
