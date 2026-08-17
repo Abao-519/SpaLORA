@@ -1,0 +1,1738 @@
+{
+  "attempted_transforms": 48,
+  "failure_count": 0,
+  "formal_head_transforms": 48,
+  "locked_before_label_access": true,
+  "planned_transforms": 48,
+  "schema_version": 1,
+  "scientific_numerical_failure_count": 0,
+  "selected_heads": [
+    "H00_FUSED_PCA20_MCLUST_EEE",
+    "H07_EQUAL3_AFFINITY_SPATIAL05",
+    "H05_EQUAL3_AFFINITY_SPECTRAL",
+    "H08_EQUAL3_AFFINITY_SPATIAL10"
+  ],
+  "stage": "R2",
+  "status": "LOCKED",
+  "success_count": 48,
+  "training_manifest_sha256": "310d18ca0a7528011ef818140f60ef17d210248fe6e7630855b73cbc751fcf14",
+  "transform_corrections": 0,
+  "transforms": [
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "94357b8c79708faa2750d3377407c86fdfe40795856a91790662c7f971703208",
+          "size_bytes": 83785
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "8eabaae1428b73bea981d5b7dbe63db8e29609c891c847a586ba77bc89db1bbe",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "94357b8c79708faa2750d3377407c86fdfe40795856a91790662c7f971703208",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 1,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 719.84375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 5.784668272361159,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "d64c4cdd50f35ac22b4b240aef37931af8e2d0f145f87f1613ab5827ba77a97b",
+          "size_bytes": 1095214
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "710b97eb8db4fb77388d634770a803b6a45790aeed809c5ce204f8bb9bd13f55",
+          "size_bytes": 83935
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "6c64214a023dacc5ba8c909152c1bbc379c09d35a817bb200210f4fd2644b802",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "710b97eb8db4fb77388d634770a803b6a45790aeed809c5ce204f8bb9bd13f55",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 2,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 791.046875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 4.414926344528794,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "bb72922d97207d9777d90e9c5388d111e6af23799db1d011627a817f20de22f6",
+          "size_bytes": 1064566
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "5921ca1219e41c6ac00513a0bd18267b00f2f86be760c867f9bc8e5838786502",
+          "size_bytes": 83779
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "eeb80b184c0d4ccc38e50632f204b1fb50493d0ad558f4b7da251d1e8cb08ae1",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "5921ca1219e41c6ac00513a0bd18267b00f2f86be760c867f9bc8e5838786502",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 3,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 791.046875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 3.381234971806407,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "9c4e7f40bccd14b1a65d9bbf50acf751517b41233c25f7e8dcc906dcf7edd36c",
+          "size_bytes": 1095509
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "15cb2d6a52794adbd52d82d3793807ffa840590d8c502e441997c68b84b466fc",
+          "size_bytes": 84042
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "2e99af056bc47efd040d1ab99346cf36236710b3dea60285b5db8ce3dbab8bc0",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "15cb2d6a52794adbd52d82d3793807ffa840590d8c502e441997c68b84b466fc",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 4,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 798.68359375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 4.227198584005237,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "b25225bb4c26b78a971d8ba2c159eb33db35c8c65f7d3ff9756cf62c20cfdcd4",
+          "size_bytes": 83821
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "07e2e3d5cc0f127ca462ef047e6c07e393aca96c373a1ea4b4dfd17dc32b11f2",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "b25225bb4c26b78a971d8ba2c159eb33db35c8c65f7d3ff9756cf62c20cfdcd4",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 5,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 8.23126863874495,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "99f77ad43855e9c559ab0a4f6919caf8f5c2e806c123f777d7e99e16dab0748d",
+          "size_bytes": 1072858
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "07a48293bee4cacf819a921ff91de37547147699ffd1fdd733b08571c8166ad5",
+          "size_bytes": 83913
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "0b9adb55480396de520df177bab8e5749d11b1925c5546ba31fb4f6879a129db",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "07a48293bee4cacf819a921ff91de37547147699ffd1fdd733b08571c8166ad5",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 6,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 4.06658622995019,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "0043813b4d7e9f910a554853a5d95ee1445f8a4a90b8ca47e2f2307b458fb402",
+          "size_bytes": 1042222
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "269a54adc7582bb02170d0733f6471ce11b568acdbd9ea54961c046bcf07f1d3",
+          "size_bytes": 83921
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "eaf41f52968dd1372c08f174f31f2b30abffc8972b87094b425cab72760a70a4",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "269a54adc7582bb02170d0733f6471ce11b568acdbd9ea54961c046bcf07f1d3",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 7,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 5.485930735245347,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "54ada92d48d69c8385e2d1378d2065cd1e5cc38e2b320b791bede2ef33c0459a",
+          "size_bytes": 1072851
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "8a05c6c4586463c2223d2d87b1d2fa5cd0cd3d77efcfc04b7b398e3745b54e87",
+          "size_bytes": 83912
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "abe4c2f8e3d32c63e7c259136afda89828f98c721ac05464ec6d825f2d770b8d",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "8a05c6c4586463c2223d2d87b1d2fa5cd0cd3d77efcfc04b7b398e3745b54e87",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 8,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 4.691743314266205,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "44509014bb4d2fd83901a2e22691512dfc7b33b3aaf2f4c5052abb27fb7772b9",
+          "size_bytes": 84668
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "6d0c84c1669a497b57dab90bd1b5ccf2dffe6d89f67a2de448970c49d825037b",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "44509014bb4d2fd83901a2e22691512dfc7b33b3aaf2f4c5052abb27fb7772b9",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 9,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 6.395592367276549,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "fececfee11a9ce7f22deab0d3c6d9b7e6ce15886852522ebce08c36220ef8301",
+          "size_bytes": 1078565
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "46736a6b6c76577656be81898d71916a503df2ef187ca5f32744f1e3064e6eca",
+          "size_bytes": 83827
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "9c43f9e2c9ff9527c7b9d912c349a31900e620af82d2068ee3ef777d1ef237ff",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "46736a6b6c76577656be81898d71916a503df2ef187ca5f32744f1e3064e6eca",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 10,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 4.314519573003054,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "cbd212ee2483a0f9695ef6c65b604207904136d159c6db974bc0afa291ccd0a0",
+          "size_bytes": 1046658
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "9dcc790e11c2ab306412ec3d03b7d8fe2d6293ce7f4b5d3db796b46b323b285f",
+          "size_bytes": 83799
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "ed88eaeb3fb0dbaa8562dca769a33183cc0667010dcac71870d2e3a1bcb58ba1",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9dcc790e11c2ab306412ec3d03b7d8fe2d6293ce7f4b5d3db796b46b323b285f",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 11,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 3.5893533043563366,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "2b0ceb0117b9e9fb2158fc792773ab22f1bc170c3ca9aec5ca01b68cc87b3e1c",
+          "size_bytes": 1078622
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "6c69602e5afaff9f3392efa4249a442ec35e36019e1f35a0d330304e32d0c089",
+          "size_bytes": 83919
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "f9c274ffd5c6d0df3428718d73ed52ad8ae2ffcbec6bd2d8724ae5d57ca9391a",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "6c69602e5afaff9f3392efa4249a442ec35e36019e1f35a0d330304e32d0c089",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 12,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 816.2734375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 4.671134063974023,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "9fbaf7f0b9132e6823c562e3dfc8baa9a38df299a7c44a6e1fd03fd1e09508e7",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "91c24412949f8cfa3b2a2261b0ea690a8fa6ac026428e8320076ca0cd98ea4f9",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9fbaf7f0b9132e6823c562e3dfc8baa9a38df299a7c44a6e1fd03fd1e09508e7",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 13,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 855.83984375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 4.271181799471378,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "03abec1665c3cc3df2b09f8796a2d2ba49b34260a8f5e54b083bfc76412826e0",
+          "size_bytes": 1229104
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "0e70c8c1f3afab4545e58c744b3bb275e575fb54bfc03d1c1dbe202ade63aa5a",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "eac1de1eebfcb4ede32d58ed7cd43dfdd00e0d95a9c76d28c06f5e1760c209cf",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "0e70c8c1f3afab4545e58c744b3bb275e575fb54bfc03d1c1dbe202ade63aa5a",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 14,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 855.83984375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 5.265734722837806,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "50c1f62ad773fa85335cfd43262abc9ece74657884327c9ec8696d1d80385691",
+          "size_bytes": 1183857
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "fee43a8713f850e28c9c4160d98c8ed01ff8b6ef73dce99d9e9c8b8fa96824e5",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "07ada6faa68ea1bca090a532ccf72c37a3ea5afbedcf884f2b741a7c7b6f7138",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "fee43a8713f850e28c9c4160d98c8ed01ff8b6ef73dce99d9e9c8b8fa96824e5",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 15,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 855.83984375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 3.2484323605895042,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "b3659df600389c961dda54b18e969e7ff072618940f2c512dd26dc089f1e0289",
+          "size_bytes": 1229214
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "90a171ce7682e2f178d4036e3e1ddbae34acd85b05568886d700761bfe9bb01a",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "7604904328b6c146cfc36394f4af16c345f80e6bd352be7ed48220d9ca71c633",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "90a171ce7682e2f178d4036e3e1ddbae34acd85b05568886d700761bfe9bb01a",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 16,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 855.83984375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 4.8467226810753345,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "4ab58c3f9b24e19538dcf37719795c4a9a446d9959e996c6cc4a7434379c9554",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "6aaa4a8d58efa819cafd099531c81f3f832243c153125aff1760235a0d48e2ef",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "4ab58c3f9b24e19538dcf37719795c4a9a446d9959e996c6cc4a7434379c9554",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 17,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 864.32421875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 4.238946594297886,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "6e09f3b00f043174c970c1a9e4aff994a53932c2cc35d181796e17a353a77d6f",
+          "size_bytes": 1228683
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "e61edc5e905d4802e8520cbc12ef3ea9890b88ddae457fb5a63f21416a3a8b8d",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "f9a0c6d7d0b378432627bc2519e8bf3d11819a50459b7fe18d9fb300e4fa6c62",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e61edc5e905d4802e8520cbc12ef3ea9890b88ddae457fb5a63f21416a3a8b8d",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 18,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 864.32421875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 6.02846054546535,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "dd664282073aceda8b711a16e56cca93d5b8a1c564d3c5e7bd8aafdfd969cbe2",
+          "size_bytes": 1183422
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "56137466d97cee73a9856896414e17c6fc083934eef565a9417720b921056160",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "889160c2fb129e9de49e32a64e8c9c1a82225ece7d8f2eaacafa391632a5c75a",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "56137466d97cee73a9856896414e17c6fc083934eef565a9417720b921056160",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 19,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 864.32421875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 3.4645709954202175,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "c6c02b13cd22ffad0096aff3d7a984e0b4e57f8815d0b48c58df295039fd4748",
+          "size_bytes": 1228747
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "f4dc832a886fd7dedd44f101bb142e78214dee16f1ba9fa90307033f4363a2b4",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "212f709abb6bb5a7095a41f08a9ae1807d1efa5cd5b38dd98fa5386be593476f",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "f4dc832a886fd7dedd44f101bb142e78214dee16f1ba9fa90307033f4363a2b4",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 20,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 864.32421875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 5.016291331499815,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "07305603e349d91f7d0dafba094211976ecbf66b966f633c51f14e954f0b9ff4",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "ab2e159797eb4875368fc08e42db8e24035276d36b13caa31bff2631c4e45009",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "07305603e349d91f7d0dafba094211976ecbf66b966f633c51f14e954f0b9ff4",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 21,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 4.418699869886041,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "927f985c0ecd4cfc98c6d88e1fd9a13af9831795730fc053fc4044de4b2dae47",
+          "size_bytes": 1231898
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "c3df0e694dd228518aa13c9d19efe22c050e6eec910e556762fe2f68ef64ffcb",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "b22381ff82a84a9576e5a8f38621572723eedd72c56f2b4fa2fb6f50b781bd12",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c3df0e694dd228518aa13c9d19efe22c050e6eec910e556762fe2f68ef64ffcb",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 22,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 5.35417321510613,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "842fce5bf195056a5e9e8e676051a4cd83f666f37debe2907980fa4fe609ead7",
+          "size_bytes": 1186533
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "2efe43fecdb62438195292843313819b8c2ed78034fa784cf89bbb87cd419f1e",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "0022ff3206817f7f00d1d5bece1826413c28c446ead6e92c663c0fd71a244b93",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "2efe43fecdb62438195292843313819b8c2ed78034fa784cf89bbb87cd419f1e",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 23,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 3.7834135461598635,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "bb62054357d8fa7f5242e180f5e7b7d8f29345ccdd4c60a58ae01f6eeb751178",
+          "size_bytes": 1232123
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "89aba2b69cc96fa749c4a1e05e6d7fb008815dc71d63fe80f420713825c4b52d",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "9d55158c07482b4e86ae9bbe8fca30fb4a2ef87ed08186a8cff90ee94e1d459e",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "89aba2b69cc96fa749c4a1e05e6d7fb008815dc71d63fe80f420713825c4b52d",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 24,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G00_SP18_F20_CORR_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 4.637508124113083,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "9f9e49d8ac8715e8be1a0df637854b711e468eda50ae167d736f77b1b0e0f2f2",
+          "size_bytes": 83950
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "f114eceb2cd0bb4479a131b1e3dfc86a9a5053ab1c139ef080050de686818aaf",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9f9e49d8ac8715e8be1a0df637854b711e468eda50ae167d736f77b1b0e0f2f2",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 25,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 8.733487380668521,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "c619f97689d522f8a4c232be7b47d932766b424ffbac67fb0d3b9ceb6a2aa36a",
+          "size_bytes": 1131244
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "c8cb545928247786f8427abea4f2c482d4cb58e939bfb84f5c67b2057cd172ef",
+          "size_bytes": 83943
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "687bdd58e021bcdbf56ae3eb1046b9c9f83a5133e48d87d874f2f2e363381261",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "c8cb545928247786f8427abea4f2c482d4cb58e939bfb84f5c67b2057cd172ef",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 26,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 5.011104693636298,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "07a17a82468188494c7001c74aa057b311e0f9392f6c75bea07976cad4aac4f9",
+          "size_bytes": 1101695
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "2a6ec2c0d0257a5b228b1a2440801b80afacd31d275311c7a80d7f27ccd35dc9",
+          "size_bytes": 83944
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "645f8d40e97afc21fd12b282c1c5d0419576539098390f3323f570a9f990d495",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "2a6ec2c0d0257a5b228b1a2440801b80afacd31d275311c7a80d7f27ccd35dc9",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 27,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 3.978798659518361,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "4a9035af44c118938e6b7f91f57c288322779593a1fc30178b3f7fc9812d2597",
+          "size_bytes": 1131376
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "5a153d3f681625d457daa856eed4a6704b42bc232557c85c26a6e3411298c3d5",
+          "size_bytes": 83758
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "4ad72ec193acb93524d77a18c9c9beb3917065f789e21004f30e060fbdb6f677",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "5a153d3f681625d457daa856eed4a6704b42bc232557c85c26a6e3411298c3d5",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 28,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 870.72265625,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_2/attempt_001",
+      "runtime_seconds": 5.401912247762084,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "b7dca28d8aaa4fa39351c26bd4feae6d36221722f4eccd15283ee49726340581",
+          "size_bytes": 83813
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "4d42a3899f2842c30ae1857b56ecaa5c42f1ab73b6e74797c6369812dd1e601b",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "b7dca28d8aaa4fa39351c26bd4feae6d36221722f4eccd15283ee49726340581",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 29,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 878.91796875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 7.5981390960514545,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "f7102f3aaeb0ad1097723faab59024f7a44d69ef7226bd42d6d065bb84626499",
+          "size_bytes": 1122594
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "d88c0279e4de8101e1225fb095ec5afe8f7fb1e3c90f9085edb69f57497517a5",
+          "size_bytes": 83707
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "929c904f0cde7cab90416e20a4aea268874e40c000e0bf0608caa613e129f3d4",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d88c0279e4de8101e1225fb095ec5afe8f7fb1e3c90f9085edb69f57497517a5",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 30,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 878.91796875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 5.002683632075787,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "cbca9547c65df52e218dc87b27e928ffb942bcf700040b2632d8db260418c46c",
+          "size_bytes": 1093572
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "d43e7316f837a38d30be934b8d47292126d384d851d7b2a079ac3e986a89b7cf",
+          "size_bytes": 83812
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "03077eb0281d9079f2707f59f5ae1cbc545c5f350e3e8f9df6135f0018df6bcf",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "d43e7316f837a38d30be934b8d47292126d384d851d7b2a079ac3e986a89b7cf",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 31,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 878.91796875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 4.777955142781138,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "39948939373cb6fbf93de02aa1359027498febaf5c231dd679d9cd01817bf246",
+          "size_bytes": 1122545
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "9798d17d4d5cb6c5a5ca9d25d23b8dc1eb6119c5d209ea6c38269a7a5c6f3f04",
+          "size_bytes": 83943
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "479939276943e43840cc5e61086d525e94643f577060dc63279a3381e712ebc7",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9798d17d4d5cb6c5a5ca9d25d23b8dc1eb6119c5d209ea6c38269a7a5c6f3f04",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 32,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 878.91796875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_3/attempt_001",
+      "runtime_seconds": 5.380698399618268,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "e3da88c1bb155152a4cac3530fd3f56650d6ad70c5a85d1290c489ec6a22e6e4",
+          "size_bytes": 84186
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "12800ec121e47fa6cfd802f8ca9acca65497a2145bfbc6465932fa979a4deb38",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "e3da88c1bb155152a4cac3530fd3f56650d6ad70c5a85d1290c489ec6a22e6e4",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 33,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 879.29296875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 9.26625002734363,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "675e39f225570ff5279a13bdd6848e7e72e93d023fe68b6f351e9806d383054e",
+          "size_bytes": 1122862
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "5f0bf99a406e096d61f0173ce3804583653a1570df40491c1656d31bfbc8468e",
+          "size_bytes": 83738
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "0c5cf3026a700abc9464469168f5253b5ab0e655262d44dd2950ece34c29a79d",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "5f0bf99a406e096d61f0173ce3804583653a1570df40491c1656d31bfbc8468e",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 34,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 879.29296875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 4.719271346926689,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "9632cecaac4100cf0eb759527d758d1c49223cf4de71d4a75d2334d1b4e501db",
+          "size_bytes": 1092290
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "9f60532889af185c5208a33d73c0c4eb89f51796a7570f37cbdb60f78bdfab80",
+          "size_bytes": 84615
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "9195f2d26147cb41daf9a330e5b40642b33ccbf5e539a49ba740cb0297d205b8",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9f60532889af185c5208a33d73c0c4eb89f51796a7570f37cbdb60f78bdfab80",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 35,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 879.29296875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 4.431502426043153,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "7e6c4e2270c5c4f18034273cd1dbb98cb37fd813c08f25e1ca642bc7f4ac90d7",
+          "size_bytes": 1122995
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "65ee37baefea20c6f345d79348904f1fac6be001f02296a5a892f4aef2d08728",
+          "size_bytes": 83740
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "5b05b5a93fe426f53ff57d9ed1d1e9370379214dc84ba1aa170ecce90e98e728",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "65ee37baefea20c6f345d79348904f1fac6be001f02296a5a892f4aef2d08728",
+      "dataset": "a1",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 36,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 879.29296875,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/a1/seed_4/attempt_001",
+      "runtime_seconds": 5.00194738432765,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "78f847e3ecb9bb922cb61bf1d4617e2f8b1f9e60dbb8b1178fbc7fb76ba8523a",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "aa13ac1714bdd6df57e8364db1c82f711ee9a625007dbd64df0c3ff02a6d56a1",
+          "size_bytes": 216
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "78f847e3ecb9bb922cb61bf1d4617e2f8b1f9e60dbb8b1178fbc7fb76ba8523a",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 37,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 938.28125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 3.749349605292082,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "960050f41c124d838d5ec0dc3808dc93e2bb619ef6ef306664daefd227f1873b",
+          "size_bytes": 1256413
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "f08c85f5c0cfb725d9b368431e599c3f0dad0950f5f220be64218106a0dfef5c",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "614922ee52c580a156300edf5fa952f666935e60f3334cc18c842856d9195417",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "f08c85f5c0cfb725d9b368431e599c3f0dad0950f5f220be64218106a0dfef5c",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 38,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 938.28125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 5.942908333614469,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "fa2809050185bf6b2d28b9d9a365abc49a0174656291024759f1025af367b750",
+          "size_bytes": 1211585
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "8008eba54a4e3c7751aec4fd97ac3dc96c3e04bf4b2970bfbc5272ad9a675610",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "5aaddb2fd0f6e112289f8c39786af2df28ab8080a8ff1ee5c8e2b99ff10b177f",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "8008eba54a4e3c7751aec4fd97ac3dc96c3e04bf4b2970bfbc5272ad9a675610",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 39,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 938.28125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 3.7713452223688364,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "7548112cb0773136f359c26409d7cf74cf5c5dc168a37c95ad774d22d87ac9c0",
+          "size_bytes": 1256539
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "8aa93cc0300a7ecc88bb0ded50dde8106a8f2eae2f75e32d31f7f906677f05b6",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "cc0722d1a78d073b564968cb09a16df8ceafe964cf922af1eb66d5ff44c5c7b0",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "8aa93cc0300a7ecc88bb0ded50dde8106a8f2eae2f75e32d31f7f906677f05b6",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 40,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 938.28125,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_2/attempt_001",
+      "runtime_seconds": 5.397929396480322,
+      "seed": 2,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "9a7edf05ad5751afb37b51fe63a24b024d913ad2a5dd6c3322249349c2d979d9",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "317511c2d88e4efcc57c9ead443f6d7b450eb4895f3e2b40b4b5e0bb8d5f14ae",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9a7edf05ad5751afb37b51fe63a24b024d913ad2a5dd6c3322249349c2d979d9",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 41,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 5.05059364810586,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "5b5e416303ff42125f1a18848a93fe2eb19fe518866321df4148efa3610bbcb9",
+          "size_bytes": 1253251
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "5171182ee2e7c8a86bcf90082d9e12e06e87ae7b656e1790ca3567bc1d6a73af",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "6c99ccebc099f8a636b13d2f75ae9eb9012be34d591a94382afb09b7985680ec",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "5171182ee2e7c8a86bcf90082d9e12e06e87ae7b656e1790ca3567bc1d6a73af",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 42,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 5.350738886743784,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "2aa080fb89cf6eaa799b6433d1824493fd30caf7c16075f9445dac9e913ab5b0",
+          "size_bytes": 1208280
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "76ca94a14a5c79a3d60b02b278abe40f2af96d81c811d276dc6c9b4281d21dcb",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "ab4217eb49e50e9bf02ca16e46dea71bb32c6d1a394d0edce824527a84ed66b9",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "76ca94a14a5c79a3d60b02b278abe40f2af96d81c811d276dc6c9b4281d21dcb",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 43,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 4.080868188291788,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "6b9fb7eae7792cc3089f4065c8fce5a695aa6b5896afdaa0bd2860618ab49191",
+          "size_bytes": 1253735
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "f95f6e65e081087b3a060147c744cb2053d7d9e14fa7f27a14816286b55f9330",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "0ad21b5cb20550ef10f31537cb4def5dac3693af4cefbe7960dcefea063830da",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "f95f6e65e081087b3a060147c744cb2053d7d9e14fa7f27a14816286b55f9330",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 44,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_3/attempt_001",
+      "runtime_seconds": 5.321742752566934,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/clusters.csv",
+          "sha256": "30834ad484b68c1574f7f06fb9c99b2eea467f0cd3cd9b16bd68cec6eb6dbfa6",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001/head_audit.json",
+          "sha256": "8f0acb122453465447887c9d07db6912550a97886e2763cd012342ce94cd2dbe",
+          "size_bytes": 215
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "30834ad484b68c1574f7f06fb9c99b2eea467f0cd3cd9b16bd68cec6eb6dbfa6",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H00_FUSED_PCA20_MCLUST_EEE/attempt_001",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 45,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 4.173073252663016,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/affinity.npz",
+          "sha256": "76f9367aa51e43d6bebba351e443fa76488be28b63fe37758754ea7409fb0cdd",
+          "size_bytes": 1259674
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/clusters.csv",
+          "sha256": "9461bc5293ea2b6433883bea416b7bcd537db2332c3dc5b2f35fcf18a5ce66a7",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001/head_audit.json",
+          "sha256": "0fdbec886f1ed9e54ecbbc67f90e33fa96f3d890cd0c6d087cfc21fca3e0566a",
+          "size_bytes": 328
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "9461bc5293ea2b6433883bea416b7bcd537db2332c3dc5b2f35fcf18a5ce66a7",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "e79ae70eac41fa003cebfc10594a87d89e04f68346fff095a208e424d30a61a5",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H07_EQUAL3_AFFINITY_SPATIAL05/attempt_001",
+      "head_id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 46,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 4.998347450047731,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/affinity.npz",
+          "sha256": "ac40577300ef1cfd09baa5db005935be5b3a6fb88292ecbac841abd8d7ba1987",
+          "size_bytes": 1214756
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/clusters.csv",
+          "sha256": "849066d1794437486810e4dfcc5c042796b87d908b5a83a238cbf17e4f2c76c8",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001/head_audit.json",
+          "sha256": "f590c3cf3cd49d6989cfebf09b81ed80a7d0487e1c980baf3f52f3442052d00b",
+          "size_bytes": 273
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "849066d1794437486810e4dfcc5c042796b87d908b5a83a238cbf17e4f2c76c8",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H05_EQUAL3_AFFINITY_SPECTRAL/attempt_001",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 47,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 4.452700329944491,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    },
+    {
+      "artifacts": {
+        "affinity.npz": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/affinity.npz",
+          "sha256": "8a11343c49fa4db7f2d88afa74fdf424b3ba0cc909202c070b3629bcb7acd3c0",
+          "size_bytes": 1259762
+        },
+        "clusters.csv": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/clusters.csv",
+          "sha256": "672716c9ad5e4516d77ab43ce679f0d82af3bf410976cfaf0b412dcfd9c43989",
+          "size_bytes": 103847
+        },
+        "head_audit.json": {
+          "path": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001/head_audit.json",
+          "sha256": "c4cc83f017ae6f570b2f40c044b141fd42a99193d9f67c4a44729dcb0ee54ac2",
+          "size_bytes": 326
+        }
+      },
+      "attempt": 1,
+      "cluster_file_sha256": "672716c9ad5e4516d77ab43ce679f0d82af3bf410976cfaf0b412dcfd9c43989",
+      "dataset": "tonsil",
+      "fallback": false,
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_config_sha256": "70cd1db74c5d25628ca46be9fd1490c60491e3563301bd203bc9cdd716b56ed9",
+      "head_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001/heads/H08_EQUAL3_AFFINITY_SPATIAL10/attempt_001",
+      "head_id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "label_values_deserialized": false,
+      "label_values_used": false,
+      "ordinal": 48,
+      "peak_gpu_allocated_mib": 0.0,
+      "process_peak_rss_mib": 987.6484375,
+      "run_dir": "/root/autodl-fs/night6c_raw_runs_20260817/r2/G04_SP10_F10_EUC_UNION/tonsil/seed_4/attempt_001",
+      "runtime_seconds": 5.10396858677268,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success"
+    }
+  ]
+}
