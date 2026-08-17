@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night6b-graph-affinity-rescue-20260817",
+  "date": "2026-08-17",
+  "upstream_commit": "7f204a56690768f22bd06e0dac1b5785c97c4c70",
+  "upstream_tag": "night6a-final-20260814",
+  "authoritative_night6a_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "objective": "Improve ARI and NMI with one global graph and clustering rule across A1 and an external human tonsil development section, while preserving a separately reported spatial frontier and keeping D1/P22 sealed.",
+  "development_datasets": {
+    "a1": {
+      "role": "primary_development",
+      "modalities": [
+        "RNA",
+        "ADT"
+      ],
+      "known_k": 10,
+      "label_contract": "existing separate manual-annotation CSV; evaluator-only"
+    },
+    "tonsil_s1": {
+      "role": "external_development",
+      "modalities": [
+        "RNA",
+        "ADT"
+      ],
+      "target_label_column_locked_before_read": "final_annot",
+      "known_k": "tonsil_ontology_contract.final_annot_unique_nonmissing_count",
+      "expected_documented_k_values_for_preflight_only": [
+        4,
+        6,
+        7
+      ],
+      "forbid_ontology_selection_by_metric": true
+    }
+  },
+  "protected_datasets_and_results": [
+    "Human_Lymph_Node_D1",
+    "P22_mouse_brain",
+    "GSE198353",
+    "Night4B",
+    "Night5D_metric_content",
+    "Night6A_metric_content_for_selection"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "encoder_reference": {
+    "id": "E00_C04_B01",
+    "attention_policy": "shrink_to_uniform",
+    "learned_fraction": 0.25,
+    "corr2_objective_enabled": false,
+    "active_ige_losses": [
+      "rna_reconstruction",
+      "modality2_reconstruction",
+      "corr1"
+    ],
+    "active_ige_coefficient_sum": 4.0,
+    "checkpoint_policy": "fixed_final_epoch",
+    "optimizer_and_training_hyperparameters": "exact Night-5 B01/C04 values",
+    "no_new_loss_modules": true
+  },
+  "graph_common": {
+    "spatial_metric": "euclidean",
+    "self_loop_policy": "add identity only during D^-1/2(A+I)D^-1/2 normalization",
+    "edge_weight_policy": "binary before normalization",
+    "feature_include_self": false,
+    "tie_break": "observation_id lexical order",
+    "isolated_node_policy": "no neighbor rescue; retain only the normalization self-loop and report isolated-node/component counts",
+    "same_rule_all_development_datasets": true,
+    "asr_uses_candidate_spatial_graph": true,
+    "separate_content_addressed_cache_per_dataset_and_graph_candidate": true
+  },
+  "graph_candidates": [
+    {
+      "id": "G00_SP18_F20_CORR_UNION",
+      "family": "reference",
+      "spatial_k": 18,
+      "spatial_symmetrization": "union",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "spatial_refinement": "none"
+    },
+    {
+      "id": "G01_SP3_F20_CORR_UNION",
+      "family": "spatial_scale",
+      "spatial_k": 3,
+      "spatial_symmetrization": "union",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "spatial_refinement": "none",
+      "source_inspiration": "SpaBalance 10x source default"
+    },
+    {
+      "id": "G02_SP6_F20_CORR_UNION",
+      "family": "spatial_scale",
+      "spatial_k": 6,
+      "spatial_symmetrization": "union",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "spatial_refinement": "none"
+    },
+    {
+      "id": "G03_SP10_F20_CORR_UNION",
+      "family": "spatial_scale",
+      "spatial_k": 10,
+      "spatial_symmetrization": "union",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "spatial_refinement": "none",
+      "source_inspiration": "SpaMosaic/SpaMICS neighborhood scale"
+    },
+    {
+      "id": "G04_SP10_F10_EUC_UNION",
+      "family": "feature_scale_metric",
+      "spatial_k": 10,
+      "spatial_symmetrization": "union",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "spatial_refinement": "none"
+    },
+    {
+      "id": "G05_SP6_F10_EUC_UNION",
+      "family": "feature_scale_metric",
+      "spatial_k": 6,
+      "spatial_symmetrization": "union",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "spatial_refinement": "none"
+    },
+    {
+      "id": "G06_SP10_F10_EUC_INTERSECT",
+      "family": "feature_spatial_intersection",
+      "spatial_k": 10,
+      "spatial_symmetrization": "union",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "spatial_refinement": "per_modality_support_intersection_with_its_feature_graph",
+      "source_inspiration": "clean-room sparse analogue of SpaMICS graph refinement"
+    },
+    {
+      "id": "G07_SP6_F10_EUC_INTERSECT",
+      "family": "feature_spatial_intersection",
+      "spatial_k": 6,
+      "spatial_symmetrization": "union",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "spatial_refinement": "per_modality_support_intersection_with_its_feature_graph"
+    },
+    {
+      "id": "G08_SP10_F10_EUC_MUTUAL",
+      "family": "spatial_topology",
+      "spatial_k": 10,
+      "spatial_symmetrization": "mutual",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "spatial_refinement": "none"
+    }
+  ],
+  "saved_views_required": [
+    "emb_latent_omics1",
+    "emb_latent_omics2",
+    "SpaLORA_fused",
+    "alpha_omics1",
+    "alpha_omics2",
+    "alpha_cross"
+  ],
+  "head_common": {
+    "known_k_only": true,
+    "cluster_seed": 2020,
+    "no_label_values_in_head_process": true,
+    "row_l2_normalize_each_latent_view": true,
+    "deterministic_pca_components": 20,
+    "mclust_fixed_model": "EEE",
+    "affinity_neighbor_k": 10,
+    "affinity_metric": "euclidean_on_row_l2_normalized_embedding",
+    "affinity_kernel": "self_tuning_exp_minus_d2_over_sigma_i_sigma_j",
+    "affinity_sigma": "distance_to_10th_nonself_neighbor",
+    "affinity_symmetrization": "maximum",
+    "spectral_assign_labels": "discretize",
+    "spectral_n_init": 20,
+    "spectral_random_state": 2020,
+    "spatial_blend_graph": "binary_union_spatial_knn_k6_row_normalized",
+    "implementation_rule": "all transforms must be fitted independently per dataset and per seed without labels"
+  },
+  "head_candidates": [
+    {
+      "id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "family": "reference",
+      "input_views": [
+        "SpaLORA_fused"
+      ],
+      "algorithm": "deterministic_pca20_then_mclust_EEE"
+    },
+    {
+      "id": "H01_FUSED_DIRECT_MCLUST_EEE",
+      "family": "mclust_geometry",
+      "input_views": [
+        "SpaLORA_fused"
+      ],
+      "algorithm": "mclust_EEE_without_extra_pca"
+    },
+    {
+      "id": "H02_FUSED_PCA20_MCLUST_BIC",
+      "family": "mclust_geometry",
+      "input_views": [
+        "SpaLORA_fused"
+      ],
+      "algorithm": "deterministic_pca20_then_mclust_BIC_model_selection",
+      "allowed_covariance_models": [
+        "EII",
+        "VII",
+        "EEI",
+        "VEI",
+        "EVI",
+        "VVI",
+        "EEE",
+        "EVE",
+        "VEE",
+        "VVE",
+        "EEV",
+        "VEV",
+        "EVV",
+        "VVV"
+      ]
+    },
+    {
+      "id": "H03_CONCAT_PRIVATE_PCA20_MCLUST_EEE",
+      "family": "multi_view_feature",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2"
+      ],
+      "algorithm": "equal_block_scaled_concatenation_then_deterministic_pca20_then_mclust_EEE"
+    },
+    {
+      "id": "H04_RELIABILITY_CONCAT3_PCA20_MCLUST_EEE",
+      "family": "multi_view_feature",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ],
+      "algorithm": "neighbor_overlap_reliability_weighted_block_concatenation_then_pca20_mclust_EEE",
+      "reliability": "for each view, mean Jaccard overlap of its k10 neighbor sets with the other two views; normalize nonnegative scores to sum one; scale each block by sqrt(weight)"
+    },
+    {
+      "id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "family": "sparse_affinity",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ],
+      "algorithm": "arithmetic_mean_of_three_sparse_self_tuning_affinities_then_spectral"
+    },
+    {
+      "id": "H06_AGREEMENT3_AFFINITY_SPECTRAL",
+      "family": "sparse_affinity",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ],
+      "algorithm": "retain_affinity_edges_supported_by_at_least_two_views_then_spectral",
+      "isolated_node_rule": "restore the single strongest edge from the H05 mean affinity with observation_id tie break"
+    },
+    {
+      "id": "H07_EQUAL3_AFFINITY_SPATIAL05",
+      "family": "sparse_affinity_spatial",
+      "base": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "algorithm": "0.95_molecular_affinity_plus_0.05_spatial_affinity_then_spectral"
+    },
+    {
+      "id": "H08_EQUAL3_AFFINITY_SPATIAL10",
+      "family": "sparse_affinity_spatial",
+      "base": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "algorithm": "0.90_molecular_affinity_plus_0.10_spatial_affinity_then_spectral"
+    },
+    {
+      "id": "H09_VIEW_PARTITION_COASSOCIATION",
+      "family": "partition_ensemble",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ],
+      "algorithm": "mclust_EEE_each_view_then_sparse_within_run_coassociation_then_spectral",
+      "coassociation_support": "union of the three view k10 neighbor graphs; edge value is fraction of view partitions assigning the pair together"
+    },
+    {
+      "id": "H10_MCLUST_POSTERIOR_MRF05",
+      "family": "label_spatial_refinement",
+      "base": "H00_FUSED_PCA20_MCLUST_EEE",
+      "algorithm": "deterministic_ICM_with_mclust_negative_log_posterior_unary_and_beta_0.05_spatial_disagreement",
+      "max_sweeps": 20,
+      "update_order": "observation_id_lexical",
+      "tie_break": "original_label_then_smallest_integer_label"
+    },
+    {
+      "id": "H11_MCLUST_POSTERIOR_MRF10",
+      "family": "label_spatial_refinement",
+      "base": "H00_FUSED_PCA20_MCLUST_EEE",
+      "algorithm": "deterministic_ICM_with_mclust_negative_log_posterior_unary_and_beta_0.10_spatial_disagreement",
+      "max_sweeps": 20,
+      "update_order": "observation_id_lexical",
+      "tie_break": "original_label_then_smallest_integer_label"
+    }
+  ],
+  "metrics": {
+    "primary": [
+      "ARI",
+      "NMI",
+      "Q_equal_ARI_NMI"
+    ],
+    "spatial_separate": [
+      "neighbor_agreement",
+      "Moran_I",
+      "Geary_C",
+      "boundary_disagreement"
+    ],
+    "lower_is_better": [
+      "Geary_C",
+      "boundary_disagreement"
+    ],
+    "resource": [
+      "runtime_seconds",
+      "peak_gpu_allocated_mib",
+      "process_peak_rss_mib"
+    ]
+  },
+  "selection_tracks": {
+    "balanced": {
+      "r1_macro_delta_q_min": 0.005,
+      "r1_worst_dataset_delta_q_min": -0.005,
+      "r1_paired_q_wins_min_of_4": 3,
+      "requires_spatial_gate_pass": true,
+      "final_macro_delta_q_min": 0.02,
+      "final_worst_dataset_delta_q_min": 0.0,
+      "final_paired_q_wins_min_of_10": 7
+    },
+    "accuracy_frontier": {
+      "r1_macro_delta_q_min": 0.015,
+      "r1_worst_dataset_delta_q_min": -0.01,
+      "r1_paired_q_wins_min_of_4": 3,
+      "requires_spatial_gate_pass": false,
+      "final_macro_delta_q_min": 0.03,
+      "final_worst_dataset_delta_q_min": -0.005,
+      "final_paired_q_wins_min_of_10": 7
+    }
+  },
+  "spatial_protection_gate": {
+    "fail_if": "(neighbor_delta < -0.03 and moran_delta < -0.03) or (geary_delta > 0.03 and (neighbor_delta < -0.03 or moran_delta < -0.03))",
+    "boundary_disagreement": "report_only_no_posthoc_threshold",
+    "applied_per_dataset_against_same_seed_G00_H00": true
+  },
+  "stage_caps": {
+    "graph_candidates_advanced_after_seeds_0_1": 4,
+    "balanced_graph_slots": 2,
+    "accuracy_frontier_graph_slots": 2,
+    "head_rules_advanced_after_seeds_0_1": 4,
+    "final_balanced_candidates": 1,
+    "final_accuracy_frontier_candidates": 1
+  },
+  "budgets": {
+    "maximum_scientific_training_units": 61,
+    "maximum_implementation_or_infrastructure_retries": 12,
+    "maximum_total_training_attempts": 73,
+    "maximum_head_transforms": 552,
+    "maximum_head_transform_corrections": 48,
+    "p22_training_or_evaluation": 0,
+    "d1_training_or_evaluation": 0,
+    "night4b_runs": 0
+  }
+}

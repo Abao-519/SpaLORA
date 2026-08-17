@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night6c_p0.py", line 255, in <module>
+    main()
+  File "scripts/night6c_p0.py", line 212, in main
+    baseline = historical_baseline_contract(base)
+  File "scripts/night6c_p0.py", line 91, in historical_baseline_contract
+    "coefficients": row["coefficients"],
+KeyError: 'coefficients'

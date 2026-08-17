@@ -1,0 +1,14 @@
+...................                                                      [100%]
+=============================== warnings summary ===============================
+tests/test_night6c_semantic.py: 23 warnings
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+tests/test_night6c_semantic.py::test_all_heads_execute_without_labels[H05_EQUAL3_AFFINITY_SPECTRAL]
+tests/test_night6c_semantic.py::test_all_heads_execute_without_labels[H06_AGREEMENT3_AFFINITY_SPECTRAL]
+tests/test_night6c_semantic.py::test_all_heads_execute_without_labels[H09_VIEW_PARTITION_COASSOCIATION]
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/sklearn/manifold/_spectral_embedding.py:259: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+19 passed, 26 warnings in 6.63s

@@ -1,0 +1,14 @@
+{
+  "algorithm_or_registry_changed": false,
+  "attempt": 2,
+  "corrective_action": "use orthogonal-direction synthetic clusters and rerun all tests",
+  "failed_test": "H04 toy execution",
+  "head_transforms": 0,
+  "label_values_accessed": false,
+  "phase": "P0_SEMANTIC_TEST",
+  "reason": "Toy clusters differed only by collinear magnitude, which is intentionally removed by registered row-L2 normalization",
+  "scientific_training_units": 0,
+  "status": "IMPLEMENTATION_TEST_FIXTURE_FAILURE",
+  "tests_passed": 18,
+  "tests_total": 19
+}

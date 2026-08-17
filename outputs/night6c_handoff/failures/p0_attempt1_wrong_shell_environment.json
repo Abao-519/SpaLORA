@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "cache_writes": 0,
+  "corrective_action": "activate pre-existing SpaLORA conda environment",
+  "head_transforms": 0,
+  "label_values_accessed": false,
+  "phase": "P0_IMPORT",
+  "reason": "SSH shell initially used base Python without anndata",
+  "scientific_training_units": 0,
+  "status": "INFRASTRUCTURE_FAILURE"
+}

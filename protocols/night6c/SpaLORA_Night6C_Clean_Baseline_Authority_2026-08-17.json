@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night6c-clean-baseline-graph-affinity-rescue-20260817",
+  "authority_type": "authoritative_override_contract",
+  "date": "2026-08-17",
+  "decision": "PROCEED_TO_NIGHT6C_WITH_CLEAN_PAIRED_BASELINE_RETRAINING",
+  "base_registry": {
+    "path": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\SpaLORA_Night6B_Candidate_Registry_2026-08-17.json",
+    "sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030",
+    "graph_candidates": 9,
+    "head_candidates": 12,
+    "seeds": [0, 1, 2, 3, 4]
+  },
+  "night6b_evidence": {
+    "compact_root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night6b_handoff_20260817\\official_compact",
+    "delivery_index_relative_path": "handoff/delivery_index.json",
+    "delivery_index_sha256": "883824f88b26ef10aa53297178859e123f25ef529c82537f82050b68819793f7",
+    "delivery_index_verification": "31/31",
+    "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+    "final_commit": "301f49be2ddd15d2d36823c194df3549874729a4",
+    "final_tag": "night6b-final-20260817",
+    "candidate_registry_resolved_sha256": "56636e3c09d3b2c6cc32a3e6ef7d8181f737d2e8d4222660aca32815d4fac558",
+    "valid_scientific_training_units": 0,
+    "valid_head_transforms": 0
+  },
+  "authority_precedence": [
+    "SpaLORA_Night6C_Clean_Baseline_Graph_and_Clustering_Rescue_Taskbook_2026-08-17.md",
+    "SpaLORA_Night6C_Clean_Baseline_Authority_2026-08-17.json",
+    "SpaLORA_Night6B_Candidate_Registry_2026-08-17.json"
+  ],
+  "upstream": {
+    "commit": "301f49be2ddd15d2d36823c194df3549874729a4",
+    "tag": "night6b-final-20260817",
+    "branch_to_create": "revision/q2-night6c-clean-baseline-graph-rescue-20260817",
+    "protection_tag_to_create": "baseline/pre-night6c-clean-baseline-graph-rescue-20260817",
+    "final_tag_to_create_once": "night6c-final-20260817"
+  },
+  "valid_night6b_reuse": {
+    "ontology_contract_sha256": "9b0473b22807a0408a04759c1b1ba664c1d15f77433069b1d8725300665a9e66",
+    "target_label_column": "final_annot",
+    "known_k": 4,
+    "target_label_vector_sha256": "a587e8029c83d002f96b72e40bb2fe4ea46867f9a655d01c963d94dd18897c9a",
+    "tonsil_label_free_manifest_sha256": "a613643474858cf9b8a6be85328c21c08a40c72021ecb141d8b4b62557741aed",
+    "tonsil_label_free_rna_sha256": "a53bb5a1d5fcea356db65f8de9f8f6c158d1b96db8dfbef0b85d6d4d45131a0a",
+    "tonsil_label_free_adt_sha256": "0146aabbd9845b90932c68711c985832895f93082a25a6adabdeccd9795f0ce5",
+    "paired_barcodes_sha256": "c57d45ada97c49b06dc9a1f2cadc713ece099182a6eaa2554789e848c8fda45f",
+    "reuse_mode": "read_only_after_exact_hash_verification",
+    "prelock_original_tonsil_annotation_access": 0
+  },
+  "encoder_reference_override": {
+    "id": "E00C_C04_B01_CLEAN",
+    "semantic_source": "Night-5 B01/C04 authoritative code, registry, and run manifests",
+    "training_policy": "fresh fixed-final-epoch training for every dataset x G00 x seed cell",
+    "historical_checkpoint_required": false,
+    "historical_checkpoint_substitution_forbidden": true,
+    "same_encoder_hyperparameters_for_all_graph_candidates": true,
+    "only_permitted_varying_fields": [
+      "dataset_id",
+      "graph_candidate_id",
+      "seed",
+      "content_addressed_input_and_graph_cache"
+    ]
+  },
+  "reference_definition": {
+    "cell": "E00C_C04_B01_CLEAN/G00_SP18_F20_CORR_UNION/H00_FUSED_PCA20_MCLUST_EEE",
+    "comparison_rule": "candidate minus fresh Night-6C reference on the same dataset and seed",
+    "night5_metrics_role": "diagnostic_only_after_stage_output_lock",
+    "night5_metrics_hard_gate": false,
+    "night5_metrics_selection_use": false
+  },
+  "checkpoint_contract": {
+    "required_for_every_successful_training_unit": true,
+    "required_file": "model_final.pt",
+    "atomic_write": true,
+    "payload_must_include": [
+      "model_state_dict",
+      "canonical_training_config",
+      "dataset_id",
+      "graph_candidate_id",
+      "seed",
+      "input_and_cache_sha256",
+      "code_commit",
+      "software_versions"
+    ],
+    "canonical_tensor_state_sha256_required": true,
+    "checkpoint_file_sha256_required": true,
+    "fresh_process_reload_required": true,
+    "reload_forward_all_views_required": true,
+    "reload_forward_atol": 0.000001,
+    "reload_forward_rtol": 0.00001,
+    "reload_cluster_labels_exact": true,
+    "checkpoint_or_reload_failure_effect": "cell_invalid_and_no_downstream_transform"
+  },
+  "candidate_space": {
+    "graph_and_head_definitions": "unchanged_from_sha_locked_base_registry",
+    "selection_tracks": "unchanged_from_sha_locked_base_registry",
+    "spatial_protection_gate": "unchanged_from_sha_locked_base_registry",
+    "fixed_seeds": [0, 1, 2, 3, 4],
+    "dataset_specific_candidate_parameters_forbidden": true
+  },
+  "stage_plan": {
+    "r1_training_units": 36,
+    "r1_definition": "G00-G08 x A1/tonsil x seeds 0-1",
+    "r1_head_transforms": 432,
+    "r2_training_units_maximum": 30,
+    "r2_definition": "G00 plus at most four advanced nonreference graphs x A1/tonsil x seeds 2-4",
+    "r2_head_transforms_maximum": 120
+  },
+  "budgets_override": {
+    "maximum_scientific_training_units": 66,
+    "maximum_implementation_or_infrastructure_retries": 12,
+    "maximum_total_training_attempts": 78,
+    "maximum_head_transforms": 552,
+    "maximum_head_transform_corrections": 48,
+    "p22_training_or_evaluation": 0,
+    "d1_training_or_evaluation": 0,
+    "gse198353_training_or_evaluation": 0,
+    "night4b_runs": 0
+  },
+  "forbidden_shortcuts": [
+    "reconstruct a checkpoint from a state hash, fused embedding, attention, clusters, or loss trajectory",
+    "substitute Night-3AF or Night-6A weights",
+    "call fresh G00 training a replay or retry",
+    "compare a Night-6C candidate against a historical Night-5 metric instead of the paired fresh reference",
+    "open original tonsil obs in trainer or transformer",
+    "use D1, P22, GSE198353, Night-4B, or protected result content",
+    "move or force-push an existing tag"
+  ]
+}

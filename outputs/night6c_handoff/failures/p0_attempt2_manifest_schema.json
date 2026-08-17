@@ -1,0 +1,16 @@
+{
+  "attempt": 2,
+  "completed_before_stop": [
+    "authority verification",
+    "label-free SHA/zero-obs verification",
+    "base cache construction"
+  ],
+  "corrective_action": "parse exact authoritative run-manifest schema",
+  "graph_candidate_caches_created": 0,
+  "head_transforms": 0,
+  "label_values_accessed": false,
+  "phase": "P0_BASELINE_SPEC",
+  "reason": "Historical C04 coefficients are stored as frozen_coefficients, not coefficients",
+  "scientific_training_units": 0,
+  "status": "IMPLEMENTATION_FAILURE"
+}

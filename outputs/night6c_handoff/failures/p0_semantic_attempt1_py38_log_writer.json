@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "corrective_action": "remove unsupported newline keyword and rerun full semantic gate",
+  "head_transforms": 0,
+  "label_values_accessed": false,
+  "phase": "P0_SEMANTIC_EVIDENCE_WRITE",
+  "reason": "Python 3.8 Path.write_text does not accept newline keyword",
+  "scientific_training_units": 0,
+  "semantic_test_result_reused": false,
+  "status": "IMPLEMENTATION_FAILURE"
+}

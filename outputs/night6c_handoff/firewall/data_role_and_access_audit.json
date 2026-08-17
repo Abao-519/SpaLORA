@@ -1,0 +1,43 @@
+{
+  "original_tonsil_annotation_accesses": 0,
+  "probes": [
+    {
+      "pass": true,
+      "probe": "trainer_label_free"
+    },
+    {
+      "pass": true,
+      "probe": "original_tonsil"
+    },
+    {
+      "pass": true,
+      "probe": "p22"
+    },
+    {
+      "pass": true,
+      "probe": "d1"
+    },
+    {
+      "pass": true,
+      "probe": "gse198353"
+    },
+    {
+      "pass": true,
+      "probe": "night4b"
+    },
+    {
+      "pass": true,
+      "probe": "night5d"
+    },
+    {
+      "pass": true,
+      "probe": "night6a"
+    },
+    {
+      "pass": true,
+      "probe": "label_payload"
+    }
+  ],
+  "protected_dataset_accesses": 0,
+  "status": "PASS"
+}

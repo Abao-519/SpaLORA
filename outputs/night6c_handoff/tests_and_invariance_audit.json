@@ -1,0 +1,43 @@
+{
+  "fixed_run_order": true,
+  "fixed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "label_checkpoint_selection": false,
+  "p0_semantic": {
+    "covered": [
+      "kNN lexical tie-break",
+      "union/mutual",
+      "feature metrics",
+      "per-modality intersection",
+      "isolates",
+      "H00-H11 execution",
+      "self-tuning sparse affinity",
+      "coassociation",
+      "MRF posterior",
+      "protected paths",
+      "label payload",
+      "intermediate metric rejection"
+    ],
+    "formal_training_started_before_gate": false,
+    "gate_message": "P0-SEMANTIC PASS; BEGIN R1 FRESH PAIRED TRAINING",
+    "graph_caches": "18/18 locked",
+    "graph_registry": "9/9 parsed unique",
+    "head_registry": "12/12 parsed unique",
+    "label_values_deserialized": false,
+    "pytest_exit_code": 0,
+    "pytest_log": "/autodl-fs/data/SpaLORA-night6c/outputs/night6c_handoff/tests/p0_semantic_pytest.txt",
+    "pytest_log_sha256": "e24f870c3a89f04a8e08379cb3b7cc94425e10992f5c00700a68179f897af173",
+    "silent_fallback": false,
+    "status": "P0_SEMANTIC_PASS",
+    "toy_checkpoint_round_trip": "fresh-process PASS"
+  },
+  "parameter_tuning": false,
+  "protected_dataset_access": false,
+  "seed_search": false,
+  "status": "P0_PASS_FORMAL_RESULTS_PENDING"
+}

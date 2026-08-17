@@ -1,0 +1,57 @@
+{
+  "authority_files": [
+    {
+      "actual_sha256": "258f5a432547484e924f43d72f41a0e997d4d102cb5d48165a6eac0d17ed1180",
+      "expected_sha256": "258f5a432547484e924f43d72f41a0e997d4d102cb5d48165a6eac0d17ed1180",
+      "file": "SpaLORA_Night6B_Independent_Planner_Audit_and_Night6C_Decision_2026-08-17.md",
+      "match": true
+    },
+    {
+      "actual_sha256": "fa1e3a1e810d849aa13dbe75ba81e57508a40255441318c161dd03555c41c82a",
+      "expected_sha256": "fa1e3a1e810d849aa13dbe75ba81e57508a40255441318c161dd03555c41c82a",
+      "file": "SpaLORA_Night6C_Clean_Baseline_Authority_2026-08-17.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030",
+      "expected_sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030",
+      "file": "SpaLORA_Night6B_Candidate_Registry_2026-08-17.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "261c9373b51b0193431b0bcf872f0767f760a82fc656a92aad228cae1aa6b07c",
+      "expected_sha256": "261c9373b51b0193431b0bcf872f0767f760a82fc656a92aad228cae1aa6b07c",
+      "file": "SpaLORA_Night6C_Clean_Baseline_Graph_and_Clustering_Rescue_Taskbook_2026-08-17.md",
+      "match": true
+    }
+  ],
+  "budgets": {
+    "d1_training_or_evaluation": 0,
+    "gse198353_training_or_evaluation": 0,
+    "maximum_head_transform_corrections": 48,
+    "maximum_head_transforms": 552,
+    "maximum_implementation_or_infrastructure_retries": 12,
+    "maximum_scientific_training_units": 66,
+    "maximum_total_training_attempts": 78,
+    "night4b_runs": 0,
+    "p22_training_or_evaluation": 0
+  },
+  "current_branch": "revision/q2-night6c-clean-baseline-graph-rescue-20260817",
+  "current_branch_asserted": "revision/q2-night6c-clean-baseline-graph-rescue-20260817",
+  "environment_versions_file": "/autodl-fs/data/SpaLORA-night6c/outputs/night6c_handoff/environment_versions.json",
+  "environment_versions_sha256": "a3d9066c398c25c9f0e1372872dc1799e4eff5f9b9266af71f4c1c8c0161ecc0",
+  "fixed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "night6a_metric_or_raw_use": false,
+  "protected_accesses": 0,
+  "protection_tag_verified": true,
+  "registry_graph_count": 9,
+  "registry_head_count": 12,
+  "status": "P0_PROTECT_PASS",
+  "upstream_commit": "301f49be2ddd15d2d36823c194df3549874729a4"
+}

@@ -1,0 +1,771 @@
+{
+  "authoritative_night6a_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "budgets": {
+    "d1_training_or_evaluation": 0,
+    "maximum_head_transform_corrections": 48,
+    "maximum_head_transforms": 552,
+    "maximum_implementation_or_infrastructure_retries": 12,
+    "maximum_scientific_training_units": 61,
+    "maximum_total_training_attempts": 73,
+    "night4b_runs": 0,
+    "p22_training_or_evaluation": 0
+  },
+  "date": "2026-08-17",
+  "development_datasets": {
+    "a1": {
+      "known_k": 10,
+      "label_contract": "existing separate manual-annotation CSV; evaluator-only",
+      "modalities": [
+        "RNA",
+        "ADT"
+      ],
+      "role": "primary_development"
+    },
+    "tonsil_s1": {
+      "expected_documented_k_values_for_preflight_only": [
+        4,
+        6,
+        7
+      ],
+      "forbid_ontology_selection_by_metric": true,
+      "known_k": "tonsil_ontology_contract.final_annot_unique_nonmissing_count",
+      "modalities": [
+        "RNA",
+        "ADT"
+      ],
+      "role": "external_development",
+      "target_label_column_locked_before_read": "final_annot"
+    }
+  },
+  "encoder_reference": {
+    "active_ige_coefficient_sum": 4.0,
+    "active_ige_losses": [
+      "rna_reconstruction",
+      "modality2_reconstruction",
+      "corr1"
+    ],
+    "attention_policy": "shrink_to_uniform",
+    "checkpoint_policy": "fixed_final_epoch",
+    "corr2_objective_enabled": false,
+    "id": "E00_C04_B01",
+    "learned_fraction": 0.25,
+    "no_new_loss_modules": true,
+    "optimizer_and_training_hyperparameters": "exact Night-5 B01/C04 values"
+  },
+  "fresh_encoder_reference": {
+    "active_losses": [
+      "rna_reconstruction",
+      "modality2_reconstruction",
+      "corr1"
+    ],
+    "architecture": "Night5AModel with EncoderOverallCorrected; two private encoders/decoders and three learned attentions",
+    "attention": {
+      "learned_fraction": 0.25,
+      "policy": "shrink_to_uniform"
+    },
+    "canonical_baseline_spec_sha256": "97404d163b089ccfe3649b5cf27c3dbc514d8cbf807117d3e2bb11ae774bb561",
+    "checkpoint_policy": "new Night-6C model_final.pt at fixed final epoch; mandatory fresh-process reload",
+    "corr2_objective_enabled": false,
+    "determinism_flags": {
+      "fixed_final_epoch": true,
+      "fixed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_early_stop": false,
+      "seed_search": false
+    },
+    "encoder_id": "E00C_C04_B01_CLEAN",
+    "historical_manifests": [
+      {
+        "candidate_id": "C04_SHRINK25",
+        "coefficients": {
+          "L_corr1_raw": 0.028442872576688254,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.04093277230361655,
+          "L_rna_recon_raw": 3.930624355119695
+        },
+        "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+        "epochs": 200,
+        "final_state_sha256": "8e8e5dc8eb4154e828bcb9a8af0ead2e9d3100c5044bdedd552c0569e2a73353",
+        "initial_state_sha256": "c1dcd30698274e1c3e54aa7137eb1f36061dff2ad56331cacf8ae1138eb6b8c7",
+        "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+        "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_0/run_manifest.json",
+        "seed": 0,
+        "sha256": "879e9fbaa45fd33177486be4e4ba2a9b5b56894e7f165afceb9b46c8ef91566c"
+      },
+      {
+        "candidate_id": "C04_SHRINK25",
+        "coefficients": {
+          "L_corr1_raw": 0.03520256385412846,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.03658119753265723,
+          "L_rna_recon_raw": 3.928216238613214
+        },
+        "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+        "epochs": 200,
+        "final_state_sha256": "0a56f2bd0ec3c24483ada73fef972a4776594e3008f67e41fd3083466eb71dd9",
+        "initial_state_sha256": "09075886cd131cff4622105695f557f7938b3cc67676bfa7dcfc6a36f575d16c",
+        "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+        "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_1/run_manifest.json",
+        "seed": 1,
+        "sha256": "b893c9e787aeeacb7d3324e9a7f485a0ec6400612dbff6adb65c48c5369d597e"
+      },
+      {
+        "candidate_id": "C04_SHRINK25",
+        "coefficients": {
+          "L_corr1_raw": 0.029619303924950754,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.03296306871934942,
+          "L_rna_recon_raw": 3.9374176273557002
+        },
+        "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+        "epochs": 200,
+        "final_state_sha256": "aa206235e69d1d9b25d3dbd667d3de0ea6f698f7b65d7320a535d445222dedf8",
+        "initial_state_sha256": "7bad35f665daa36f8277090d5d36c0003bac22e3c55e2b807c67e92652697ac0",
+        "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+        "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_2/run_manifest.json",
+        "seed": 2,
+        "sha256": "a0620c69aa36229d54e8dfd9bf833986474d23f6a03ee2ccdfba24cad8c7147d"
+      },
+      {
+        "candidate_id": "C04_SHRINK25",
+        "coefficients": {
+          "L_corr1_raw": 0.03441134487710212,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.03955968063695536,
+          "L_rna_recon_raw": 3.9260289744859427
+        },
+        "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+        "epochs": 200,
+        "final_state_sha256": "77dbcf8dd7ebcfe48ee85d9cfee9fa08d20c6e5c58b2672ec99710d8ce0545fb",
+        "initial_state_sha256": "6fc29bc2c3d1fb757f6e8cf278881314eb1367edc2ac629c7c9d6528b9c534bb",
+        "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+        "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_3/run_manifest.json",
+        "seed": 3,
+        "sha256": "995199ba5fc379a6d227bb5e17f3e63b566f79d88ce3a25d155d098ad6f91ce5"
+      },
+      {
+        "candidate_id": "C04_SHRINK25",
+        "coefficients": {
+          "L_corr1_raw": 0.04780782362910781,
+          "L_corr2_raw": 0.0,
+          "L_mod2_recon_raw": 0.05022560149393093,
+          "L_rna_recon_raw": 3.9019665748769614
+        },
+        "config_sha256": "3ad6c834c5a412760b71916710ebbb2af1cb657a601c93933b1c4a3de7bd184a",
+        "epochs": 200,
+        "final_state_sha256": "dd3013f46c51c5dd3ea81aa6a660188cb83fc661123a40690f4a9d37d5a4eef4",
+        "initial_state_sha256": "3f7b8cffade6a6d6600c73d5c67a5586bb7461b61cb3bc6286398bb06524a536",
+        "locked_input_sha256": "045cc0ac20ce5de4bb32d43b08cbdce957c04ad223ade1bfd6d4a4627d1b5829",
+        "path": "/root/autodl-fs/night5a_raw_runs_20260813/a1/C04_SHRINK25/seed_4/run_manifest.json",
+        "seed": 4,
+        "sha256": "d2b7c3984a0357517a7c2dedaa4517518940b9dc24645fb85af7be10a4efbaf8"
+      }
+    ],
+    "initialization": "SpaLORA.preprocess.fix_seed(seed)",
+    "loss_coefficients": {
+      "active_coefficient_sum": 4.0,
+      "historical_seed_values": [
+        {
+          "coefficients": {
+            "L_corr1_raw": 0.028442872576688254,
+            "L_corr2_raw": 0.0,
+            "L_mod2_recon_raw": 0.04093277230361655,
+            "L_rna_recon_raw": 3.930624355119695
+          },
+          "seed": 0
+        },
+        {
+          "coefficients": {
+            "L_corr1_raw": 0.03520256385412846,
+            "L_corr2_raw": 0.0,
+            "L_mod2_recon_raw": 0.03658119753265723,
+            "L_rna_recon_raw": 3.928216238613214
+          },
+          "seed": 1
+        },
+        {
+          "coefficients": {
+            "L_corr1_raw": 0.029619303924950754,
+            "L_corr2_raw": 0.0,
+            "L_mod2_recon_raw": 0.03296306871934942,
+            "L_rna_recon_raw": 3.9374176273557002
+          },
+          "seed": 2
+        },
+        {
+          "coefficients": {
+            "L_corr1_raw": 0.03441134487710212,
+            "L_corr2_raw": 0.0,
+            "L_mod2_recon_raw": 0.03955968063695536,
+            "L_rna_recon_raw": 3.9260289744859427
+          },
+          "seed": 3
+        },
+        {
+          "coefficients": {
+            "L_corr1_raw": 0.04780782362910781,
+            "L_corr2_raw": 0.0,
+            "L_mod2_recon_raw": 0.05022560149393093,
+            "L_rna_recon_raw": 3.9019665748769614
+          },
+          "seed": 4
+        }
+      ],
+      "policy": "active_set_IGE frozen after initial no-label gradient probe"
+    },
+    "models": {
+      "a1": {
+        "input_dims": [
+          3000,
+          30
+        ],
+        "latent_dims": [
+          64,
+          64
+        ],
+        "parameter_count": 400320,
+        "parameter_names": [
+          "encoder1.weight",
+          "decoder1.weight",
+          "encoder2.weight",
+          "decoder2.weight",
+          "attention1.w_omega",
+          "attention1.u_omega",
+          "attention2.w_omega",
+          "attention2.u_omega",
+          "cross_attention.w_omega",
+          "cross_attention.u_omega"
+        ]
+      },
+      "tonsil": {
+        "input_dims": [
+          3000,
+          30
+        ],
+        "latent_dims": [
+          64,
+          64
+        ],
+        "parameter_count": 400320,
+        "parameter_names": [
+          "encoder1.weight",
+          "decoder1.weight",
+          "encoder2.weight",
+          "decoder2.weight",
+          "attention1.w_omega",
+          "attention1.u_omega",
+          "attention2.w_omega",
+          "attention2.u_omega",
+          "cross_attention.w_omega",
+          "cross_attention.u_omega"
+        ]
+      }
+    },
+    "only_varying_fields": [
+      "dataset_id",
+      "graph_candidate_id",
+      "seed",
+      "content_addressed_input_and_graph_cache"
+    ],
+    "optimizer": {
+      "epochs": 200,
+      "learning_rate": 0.0001,
+      "name": "Adam",
+      "scheduler": null,
+      "weight_decay": 0.0
+    },
+    "preprocessing": {
+      "feature_reference_k": 20,
+      "feature_reference_metric": "correlation",
+      "hvg": 3000,
+      "spatial_reference_k": 18,
+      "variant": "corrected_unweighted"
+    },
+    "semantic_source": "Night-5 B01/C04 registry, runner, five manifests",
+    "source_files": [
+      {
+        "path": "/root/autodl-fs/SpaLORA-night5a/scripts/night5a_runner.py",
+        "sha256": "1069cf3b446dbf8418166ada22484e7d80ef134e8eeec5bdc9bed2dea63bb1de"
+      },
+      {
+        "path": "/root/autodl-fs/SpaLORA-night5a/SpaLORA/night5a_rnd.py",
+        "sha256": "1c72fdf62183be44f091558a6554e8252ff8730c20ce0884a26a83de13b7cb5f"
+      },
+      {
+        "path": "/root/autodl-fs/SpaLORA-night5a/configs/night5a_metric_rnd.json",
+        "sha256": "1973e851c5ea15cd4fa8476fc73e8c4ce3d7a1db8f45c9aa9354c3ab975732f5"
+      }
+    ],
+    "status": "PASS"
+  },
+  "graph_candidates": [
+    {
+      "family": "reference",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "id": "G00_SP18_F20_CORR_UNION",
+      "spatial_k": 18,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "spatial_scale",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "id": "G01_SP3_F20_CORR_UNION",
+      "source_inspiration": "SpaBalance 10x source default",
+      "spatial_k": 3,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "spatial_scale",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "id": "G02_SP6_F20_CORR_UNION",
+      "spatial_k": 6,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "spatial_scale",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "id": "G03_SP10_F20_CORR_UNION",
+      "source_inspiration": "SpaMosaic/SpaMICS neighborhood scale",
+      "spatial_k": 10,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "feature_scale_metric",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "id": "G04_SP10_F10_EUC_UNION",
+      "spatial_k": 10,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "feature_scale_metric",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "id": "G05_SP6_F10_EUC_UNION",
+      "spatial_k": 6,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "feature_spatial_intersection",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "id": "G06_SP10_F10_EUC_INTERSECT",
+      "source_inspiration": "clean-room sparse analogue of SpaMICS graph refinement",
+      "spatial_k": 10,
+      "spatial_refinement": "per_modality_support_intersection_with_its_feature_graph",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "feature_spatial_intersection",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "id": "G07_SP6_F10_EUC_INTERSECT",
+      "spatial_k": 6,
+      "spatial_refinement": "per_modality_support_intersection_with_its_feature_graph",
+      "spatial_symmetrization": "union"
+    },
+    {
+      "family": "spatial_topology",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "id": "G08_SP10_F10_EUC_MUTUAL",
+      "spatial_k": 10,
+      "spatial_refinement": "none",
+      "spatial_symmetrization": "mutual"
+    }
+  ],
+  "graph_common": {
+    "asr_uses_candidate_spatial_graph": true,
+    "edge_weight_policy": "binary before normalization",
+    "feature_include_self": false,
+    "isolated_node_policy": "no neighbor rescue; retain only the normalization self-loop and report isolated-node/component counts",
+    "same_rule_all_development_datasets": true,
+    "self_loop_policy": "add identity only during D^-1/2(A+I)D^-1/2 normalization",
+    "separate_content_addressed_cache_per_dataset_and_graph_candidate": true,
+    "spatial_metric": "euclidean",
+    "tie_break": "observation_id lexical order"
+  },
+  "head_candidates": [
+    {
+      "algorithm": "deterministic_pca20_then_mclust_EEE",
+      "family": "reference",
+      "id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "input_views": [
+        "SpaLORA_fused"
+      ]
+    },
+    {
+      "algorithm": "mclust_EEE_without_extra_pca",
+      "family": "mclust_geometry",
+      "id": "H01_FUSED_DIRECT_MCLUST_EEE",
+      "input_views": [
+        "SpaLORA_fused"
+      ]
+    },
+    {
+      "algorithm": "deterministic_pca20_then_mclust_BIC_model_selection",
+      "allowed_covariance_models": [
+        "EII",
+        "VII",
+        "EEI",
+        "VEI",
+        "EVI",
+        "VVI",
+        "EEE",
+        "EVE",
+        "VEE",
+        "VVE",
+        "EEV",
+        "VEV",
+        "EVV",
+        "VVV"
+      ],
+      "family": "mclust_geometry",
+      "id": "H02_FUSED_PCA20_MCLUST_BIC",
+      "input_views": [
+        "SpaLORA_fused"
+      ]
+    },
+    {
+      "algorithm": "equal_block_scaled_concatenation_then_deterministic_pca20_then_mclust_EEE",
+      "family": "multi_view_feature",
+      "id": "H03_CONCAT_PRIVATE_PCA20_MCLUST_EEE",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2"
+      ]
+    },
+    {
+      "algorithm": "neighbor_overlap_reliability_weighted_block_concatenation_then_pca20_mclust_EEE",
+      "family": "multi_view_feature",
+      "id": "H04_RELIABILITY_CONCAT3_PCA20_MCLUST_EEE",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ],
+      "reliability": "for each view, mean Jaccard overlap of its k10 neighbor sets with the other two views; normalize nonnegative scores to sum one; scale each block by sqrt(weight)"
+    },
+    {
+      "algorithm": "arithmetic_mean_of_three_sparse_self_tuning_affinities_then_spectral",
+      "family": "sparse_affinity",
+      "id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ]
+    },
+    {
+      "algorithm": "retain_affinity_edges_supported_by_at_least_two_views_then_spectral",
+      "family": "sparse_affinity",
+      "id": "H06_AGREEMENT3_AFFINITY_SPECTRAL",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ],
+      "isolated_node_rule": "restore the single strongest edge from the H05 mean affinity with observation_id tie break"
+    },
+    {
+      "algorithm": "0.95_molecular_affinity_plus_0.05_spatial_affinity_then_spectral",
+      "base": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "family": "sparse_affinity_spatial",
+      "id": "H07_EQUAL3_AFFINITY_SPATIAL05"
+    },
+    {
+      "algorithm": "0.90_molecular_affinity_plus_0.10_spatial_affinity_then_spectral",
+      "base": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "family": "sparse_affinity_spatial",
+      "id": "H08_EQUAL3_AFFINITY_SPATIAL10"
+    },
+    {
+      "algorithm": "mclust_EEE_each_view_then_sparse_within_run_coassociation_then_spectral",
+      "coassociation_support": "union of the three view k10 neighbor graphs; edge value is fraction of view partitions assigning the pair together",
+      "family": "partition_ensemble",
+      "id": "H09_VIEW_PARTITION_COASSOCIATION",
+      "input_views": [
+        "emb_latent_omics1",
+        "emb_latent_omics2",
+        "SpaLORA_fused"
+      ]
+    },
+    {
+      "algorithm": "deterministic_ICM_with_mclust_negative_log_posterior_unary_and_beta_0.05_spatial_disagreement",
+      "base": "H00_FUSED_PCA20_MCLUST_EEE",
+      "family": "label_spatial_refinement",
+      "id": "H10_MCLUST_POSTERIOR_MRF05",
+      "max_sweeps": 20,
+      "tie_break": "original_label_then_smallest_integer_label",
+      "update_order": "observation_id_lexical"
+    },
+    {
+      "algorithm": "deterministic_ICM_with_mclust_negative_log_posterior_unary_and_beta_0.10_spatial_disagreement",
+      "base": "H00_FUSED_PCA20_MCLUST_EEE",
+      "family": "label_spatial_refinement",
+      "id": "H11_MCLUST_POSTERIOR_MRF10",
+      "max_sweeps": 20,
+      "tie_break": "original_label_then_smallest_integer_label",
+      "update_order": "observation_id_lexical"
+    }
+  ],
+  "head_common": {
+    "affinity_kernel": "self_tuning_exp_minus_d2_over_sigma_i_sigma_j",
+    "affinity_metric": "euclidean_on_row_l2_normalized_embedding",
+    "affinity_neighbor_k": 10,
+    "affinity_sigma": "distance_to_10th_nonself_neighbor",
+    "affinity_symmetrization": "maximum",
+    "cluster_seed": 2020,
+    "deterministic_pca_components": 20,
+    "implementation_rule": "all transforms must be fitted independently per dataset and per seed without labels",
+    "known_k_only": true,
+    "mclust_fixed_model": "EEE",
+    "no_label_values_in_head_process": true,
+    "row_l2_normalize_each_latent_view": true,
+    "spatial_blend_graph": "binary_union_spatial_knn_k6_row_normalized",
+    "spectral_assign_labels": "discretize",
+    "spectral_n_init": 20,
+    "spectral_random_state": 2020
+  },
+  "metrics": {
+    "lower_is_better": [
+      "Geary_C",
+      "boundary_disagreement"
+    ],
+    "primary": [
+      "ARI",
+      "NMI",
+      "Q_equal_ARI_NMI"
+    ],
+    "resource": [
+      "runtime_seconds",
+      "peak_gpu_allocated_mib",
+      "process_peak_rss_mib"
+    ],
+    "spatial_separate": [
+      "neighbor_agreement",
+      "Moran_I",
+      "Geary_C",
+      "boundary_disagreement"
+    ]
+  },
+  "night6c_authority_override": {
+    "authority_precedence": [
+      "SpaLORA_Night6C_Clean_Baseline_Graph_and_Clustering_Rescue_Taskbook_2026-08-17.md",
+      "SpaLORA_Night6C_Clean_Baseline_Authority_2026-08-17.json",
+      "SpaLORA_Night6B_Candidate_Registry_2026-08-17.json"
+    ],
+    "authority_type": "authoritative_override_contract",
+    "base_registry": {
+      "graph_candidates": 9,
+      "head_candidates": 12,
+      "path": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\SpaLORA_Night6B_Candidate_Registry_2026-08-17.json",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sha256": "fde443719dc7ae80ff7cb7a853044ee3df4b1790ac4d7b8fe4d0ec5cee66f030"
+    },
+    "budgets_override": {
+      "d1_training_or_evaluation": 0,
+      "gse198353_training_or_evaluation": 0,
+      "maximum_head_transform_corrections": 48,
+      "maximum_head_transforms": 552,
+      "maximum_implementation_or_infrastructure_retries": 12,
+      "maximum_scientific_training_units": 66,
+      "maximum_total_training_attempts": 78,
+      "night4b_runs": 0,
+      "p22_training_or_evaluation": 0
+    },
+    "candidate_space": {
+      "dataset_specific_candidate_parameters_forbidden": true,
+      "fixed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "graph_and_head_definitions": "unchanged_from_sha_locked_base_registry",
+      "selection_tracks": "unchanged_from_sha_locked_base_registry",
+      "spatial_protection_gate": "unchanged_from_sha_locked_base_registry"
+    },
+    "checkpoint_contract": {
+      "atomic_write": true,
+      "canonical_tensor_state_sha256_required": true,
+      "checkpoint_file_sha256_required": true,
+      "checkpoint_or_reload_failure_effect": "cell_invalid_and_no_downstream_transform",
+      "fresh_process_reload_required": true,
+      "payload_must_include": [
+        "model_state_dict",
+        "canonical_training_config",
+        "dataset_id",
+        "graph_candidate_id",
+        "seed",
+        "input_and_cache_sha256",
+        "code_commit",
+        "software_versions"
+      ],
+      "reload_cluster_labels_exact": true,
+      "reload_forward_all_views_required": true,
+      "reload_forward_atol": 1e-06,
+      "reload_forward_rtol": 1e-05,
+      "required_file": "model_final.pt",
+      "required_for_every_successful_training_unit": true
+    },
+    "date": "2026-08-17",
+    "decision": "PROCEED_TO_NIGHT6C_WITH_CLEAN_PAIRED_BASELINE_RETRAINING",
+    "encoder_reference_override": {
+      "historical_checkpoint_required": false,
+      "historical_checkpoint_substitution_forbidden": true,
+      "id": "E00C_C04_B01_CLEAN",
+      "only_permitted_varying_fields": [
+        "dataset_id",
+        "graph_candidate_id",
+        "seed",
+        "content_addressed_input_and_graph_cache"
+      ],
+      "same_encoder_hyperparameters_for_all_graph_candidates": true,
+      "semantic_source": "Night-5 B01/C04 authoritative code, registry, and run manifests",
+      "training_policy": "fresh fixed-final-epoch training for every dataset x G00 x seed cell"
+    },
+    "forbidden_shortcuts": [
+      "reconstruct a checkpoint from a state hash, fused embedding, attention, clusters, or loss trajectory",
+      "substitute Night-3AF or Night-6A weights",
+      "call fresh G00 training a replay or retry",
+      "compare a Night-6C candidate against a historical Night-5 metric instead of the paired fresh reference",
+      "open original tonsil obs in trainer or transformer",
+      "use D1, P22, GSE198353, Night-4B, or protected result content",
+      "move or force-push an existing tag"
+    ],
+    "night6b_evidence": {
+      "candidate_registry_resolved_sha256": "56636e3c09d3b2c6cc32a3e6ef7d8181f737d2e8d4222660aca32815d4fac558",
+      "compact_root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night6b_handoff_20260817\\official_compact",
+      "delivery_index_relative_path": "handoff/delivery_index.json",
+      "delivery_index_sha256": "883824f88b26ef10aa53297178859e123f25ef529c82537f82050b68819793f7",
+      "delivery_index_verification": "31/31",
+      "final_commit": "301f49be2ddd15d2d36823c194df3549874729a4",
+      "final_tag": "night6b-final-20260817",
+      "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+      "valid_head_transforms": 0,
+      "valid_scientific_training_units": 0
+    },
+    "protocol_id": "spalora-night6c-clean-baseline-graph-affinity-rescue-20260817",
+    "reference_definition": {
+      "cell": "E00C_C04_B01_CLEAN/G00_SP18_F20_CORR_UNION/H00_FUSED_PCA20_MCLUST_EEE",
+      "comparison_rule": "candidate minus fresh Night-6C reference on the same dataset and seed",
+      "night5_metrics_hard_gate": false,
+      "night5_metrics_role": "diagnostic_only_after_stage_output_lock",
+      "night5_metrics_selection_use": false
+    },
+    "schema_version": 1,
+    "stage_plan": {
+      "r1_definition": "G00-G08 x A1/tonsil x seeds 0-1",
+      "r1_head_transforms": 432,
+      "r1_training_units": 36,
+      "r2_definition": "G00 plus at most four advanced nonreference graphs x A1/tonsil x seeds 2-4",
+      "r2_head_transforms_maximum": 120,
+      "r2_training_units_maximum": 30
+    },
+    "upstream": {
+      "branch_to_create": "revision/q2-night6c-clean-baseline-graph-rescue-20260817",
+      "commit": "301f49be2ddd15d2d36823c194df3549874729a4",
+      "final_tag_to_create_once": "night6c-final-20260817",
+      "protection_tag_to_create": "baseline/pre-night6c-clean-baseline-graph-rescue-20260817",
+      "tag": "night6b-final-20260817"
+    },
+    "valid_night6b_reuse": {
+      "known_k": 4,
+      "ontology_contract_sha256": "9b0473b22807a0408a04759c1b1ba664c1d15f77433069b1d8725300665a9e66",
+      "paired_barcodes_sha256": "c57d45ada97c49b06dc9a1f2cadc713ece099182a6eaa2554789e848c8fda45f",
+      "prelock_original_tonsil_annotation_access": 0,
+      "reuse_mode": "read_only_after_exact_hash_verification",
+      "target_label_column": "final_annot",
+      "target_label_vector_sha256": "a587e8029c83d002f96b72e40bb2fe4ea46867f9a655d01c963d94dd18897c9a",
+      "tonsil_label_free_adt_sha256": "0146aabbd9845b90932c68711c985832895f93082a25a6adabdeccd9795f0ce5",
+      "tonsil_label_free_manifest_sha256": "a613643474858cf9b8a6be85328c21c08a40c72021ecb141d8b4b62557741aed",
+      "tonsil_label_free_rna_sha256": "a53bb5a1d5fcea356db65f8de9f8f6c158d1b96db8dfbef0b85d6d4d45131a0a"
+    }
+  },
+  "objective": "Improve ARI and NMI with one global graph and clustering rule across A1 and an external human tonsil development section, while preserving a separately reported spatial frontier and keeping D1/P22 sealed.",
+  "protected_datasets_and_results": [
+    "Human_Lymph_Node_D1",
+    "P22_mouse_brain",
+    "GSE198353",
+    "Night4B",
+    "Night5D_metric_content",
+    "Night6A_metric_content_for_selection"
+  ],
+  "protocol_id": "spalora-night6b-graph-affinity-rescue-20260817",
+  "resolved_registry_sha256": "d8270dc484efd448c70c51482021349dd31e00b4ec0aae0940784a60c701f64e",
+  "saved_views_required": [
+    "emb_latent_omics1",
+    "emb_latent_omics2",
+    "SpaLORA_fused",
+    "alpha_omics1",
+    "alpha_omics2",
+    "alpha_cross"
+  ],
+  "schema_version": 1,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_tracks": {
+    "accuracy_frontier": {
+      "final_macro_delta_q_min": 0.03,
+      "final_paired_q_wins_min_of_10": 7,
+      "final_worst_dataset_delta_q_min": -0.005,
+      "r1_macro_delta_q_min": 0.015,
+      "r1_paired_q_wins_min_of_4": 3,
+      "r1_worst_dataset_delta_q_min": -0.01,
+      "requires_spatial_gate_pass": false
+    },
+    "balanced": {
+      "final_macro_delta_q_min": 0.02,
+      "final_paired_q_wins_min_of_10": 7,
+      "final_worst_dataset_delta_q_min": 0.0,
+      "r1_macro_delta_q_min": 0.005,
+      "r1_paired_q_wins_min_of_4": 3,
+      "r1_worst_dataset_delta_q_min": -0.005,
+      "requires_spatial_gate_pass": true
+    }
+  },
+  "spatial_protection_gate": {
+    "applied_per_dataset_against_same_seed_G00_H00": true,
+    "boundary_disagreement": "report_only_no_posthoc_threshold",
+    "fail_if": "(neighbor_delta < -0.03 and moran_delta < -0.03) or (geary_delta > 0.03 and (neighbor_delta < -0.03 or moran_delta < -0.03))"
+  },
+  "stage_caps": {
+    "accuracy_frontier_graph_slots": 2,
+    "balanced_graph_slots": 2,
+    "final_accuracy_frontier_candidates": 1,
+    "final_balanced_candidates": 1,
+    "graph_candidates_advanced_after_seeds_0_1": 4,
+    "head_rules_advanced_after_seeds_0_1": 4
+  },
+  "tonsil_known_k_resolved": 4,
+  "upstream_commit": "7f204a56690768f22bd06e0dac1b5785c97c4c70",
+  "upstream_tag": "night6a-final-20260814"
+}

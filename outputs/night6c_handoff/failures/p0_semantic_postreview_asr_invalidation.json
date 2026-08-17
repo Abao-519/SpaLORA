@@ -1,0 +1,12 @@
+{
+  "additional_correction": "propagate lexical observation-id tie break through H04-H08 neighbors",
+  "corrective_action": "materialize candidate-graph Moran scores, rebuild all 18 caches, rerun entire P0 semantic suite",
+  "head_transforms": 0,
+  "label_values_accessed": false,
+  "old_graph_cache_count": 18,
+  "old_graph_cache_root": "/root/autodl-fs/night6c_cache_20260817/invalid_attempt1_graphs_missing_asr_moran",
+  "phase": "POST_P0_PRE_SCIENCE_REVIEW",
+  "reason": "Candidate graph caches declared ASR/Moran spatial identity without materializing and hashing actual candidate-graph Moran scores",
+  "scientific_training_units": 0,
+  "status": "IMPLEMENTATION_SEMANTICS_INVALIDATED_BEFORE_SCIENCE"
+}

@@ -1,0 +1,28 @@
+{
+  "covered": [
+    "kNN lexical tie-break",
+    "union/mutual",
+    "feature metrics",
+    "per-modality intersection",
+    "isolates",
+    "H00-H11 execution",
+    "self-tuning sparse affinity",
+    "coassociation",
+    "MRF posterior",
+    "protected paths",
+    "label payload",
+    "intermediate metric rejection"
+  ],
+  "formal_training_started_before_gate": false,
+  "gate_message": "P0-SEMANTIC PASS; BEGIN R1 FRESH PAIRED TRAINING",
+  "graph_caches": "18/18 locked",
+  "graph_registry": "9/9 parsed unique",
+  "head_registry": "12/12 parsed unique",
+  "label_values_deserialized": false,
+  "pytest_exit_code": 0,
+  "pytest_log": "/autodl-fs/data/SpaLORA-night6c/outputs/night6c_handoff/tests/p0_semantic_pytest.txt",
+  "pytest_log_sha256": "bc572337196651156e4e08fbb80d2bde2367e5af9d76df9fd4b92d4713940dd1",
+  "silent_fallback": false,
+  "status": "P0_SEMANTIC_PASS",
+  "toy_checkpoint_round_trip": "fresh-process PASS"
+}
