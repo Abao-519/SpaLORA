@@ -53,9 +53,21 @@ def main() -> None:
         views = load_views(run_dir / "views.npz")
         for head_id in selected_heads:
             ordinal += 1
-            target = run_dir / "heads" / head_id
-            if target.exists():
-                raise RuntimeError(f"refusing to overwrite head output: {target}")
+            root = run_dir / "heads" / head_id
+            successes = []
+            for path in sorted(root.glob("attempt_*/transform_manifest.json")):
+                row = json.loads(path.read_text())
+                if row.get("status") == "success":
+                    if sha256_file(Path(row["head_dir"]) / "clusters.csv") != row["cluster_file_sha256"]:
+                        raise RuntimeError("existing transform output SHA mismatch")
+                    successes.append(row)
+            if len(successes) > 1:
+                raise RuntimeError("multiple successful transform attempts for one cell")
+            if successes:
+                rows.append(successes[0]); continue
+            attempts = sorted(root.glob("attempt_*")) if root.exists() else []
+            attempt = len(attempts) + 1
+            target = root / f"attempt_{attempt:03d}"
             target.mkdir(parents=True)
             started = time.perf_counter()
             try:
@@ -76,19 +88,21 @@ def main() -> None:
                     "stage": args.stage, "ordinal": ordinal,
                     "dataset": dataset, "graph_id": training_run["graph_id"],
                     "seed": int(training_run["seed"]), "head_id": head_id,
-                    "status": "success", "fallback": False,
+                    "status": "success", "fallback": False, "attempt": attempt,
                     "run_dir": str(run_dir), "head_dir": str(target),
                     "cluster_file_sha256": sha256_file(cluster_path),
                     "head_config_sha256": canonical_json_sha(heads[head_id]),
                     "artifacts": artifacts, "label_values_deserialized": False,
                     "label_values_used": False, **resource,
                 }
+                atomic_json(target / "transform_manifest.json", row)
                 rows.append(row)
             except Exception as exc:
                 atomic_json(target / "failure.json", {
                     "stage": args.stage, "ordinal": ordinal, "dataset": dataset,
                     "graph_id": training_run["graph_id"], "seed": int(training_run["seed"]),
-                    "head_id": head_id, "status": "implementation_or_infrastructure_failure",
+                    "head_id": head_id, "attempt": attempt,
+                    "status": "implementation_or_infrastructure_failure",
                     "exception_type": type(exc).__name__, "message": str(exc),
                     "label_values_deserialized": False,
                 })
@@ -98,13 +112,17 @@ def main() -> None:
                               "dataset": dataset, "graph_id": training_run["graph_id"],
                               "seed": training_run["seed"], "head_id": head_id},
                              sort_keys=True), flush=True)
+    failure_count = sum(1 for training_run in training["runs"] for head_id in selected_heads
+                        for _ in (Path(training_run["run_dir"]) / "heads" / head_id).glob("attempt_*/failure.json"))
+    if failure_count > 48:
+        raise RuntimeError("head transform correction budget exceeded")
     aggregate = {
         "schema_version": 1, "stage": args.stage, "status": "LOCKED",
         "locked_before_label_access": True, "training_manifest_sha256":
             sha256_file(OUT / f"{args.stage.lower()}_training_manifest.json"),
         "planned_transforms": planned, "attempted_transforms": len(rows),
-        "success_count": len(rows), "failure_count": 0,
-        "formal_head_transforms": len(rows), "transform_corrections": 0,
+        "success_count": len(rows), "failure_count": failure_count,
+        "formal_head_transforms": len(rows), "transform_corrections": failure_count,
         "selected_heads": selected_heads, "transforms": rows,
     }
     atomic_json(OUT / f"{args.stage.lower()}_transform_manifest.json", aggregate)
