@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "study": "SpaLORA Night-6D locked D1 and P22 confirmation",
+  "protocol_id": "spalora-night6d-locked-d1-p22-confirmation-20260817",
+  "date": "2026-08-17",
+  "authority_parent": {
+    "commit": "172cefba7559b34d2894ffa304553c0068ca23b9",
+    "tag": "night6c-final-20260817",
+    "branch": "revision/q2-night6c-clean-baseline-graph-rescue-20260817"
+  },
+  "night6c_evidence": {
+    "compact_root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night6c_handoff_20260817\\official_compact",
+    "delivery_index_sha256": "06b2fa0ff9961ce847faea73a973ee6523abb73f75377b2f1d57153a1f2020b9",
+    "delivery_index_verification": "77/77",
+    "report_sha256": "06d433c8e4f80b3ccde2f84eef14c758b3d1c3abcde191b8b4afe8fe141fef62",
+    "decision_sha256": "d63e1cb80dd146c62b2879b152e3c7e4578a503ee863bc7783d0fc4d2fa12974",
+    "resolved_registry_sha256": "377a87e51ca97eaf3c81af91e68bc2437e23df44f6cb7827190919b4b36aba62",
+    "baseline_specification_sha256": "14a5d37b45280006a24e767dcf67a17edce8ccd10d24c20bd2fe352234329171",
+    "per_seed_metrics_sha256": "284b015c005b3b877a6b06ca565b0823285b7d57f39941eb225118f45ce8bd15",
+    "checkpoint_roundtrip_index_sha256": "e58b95f32324cacc49800b22bd2c60858c6237e2de227a1f3f599b5dd3b1b478"
+  },
+  "implementation_lock": {
+    "night6c_pipeline_sha256": "b1abd06ab1f5f30d8f3c1d16e89a2ab8c240b61422f8c2b9307adc0619a0e0d1",
+    "night6c_train_sha256": "3603b1d857750ff15f9c39b570f19171b7d59b2f53efbcab04aeb10eb820d2f9",
+    "night6c_reload_sha256": "32522425a5a56130a67e0b35928f48908e25abdde3b43982dd475a507d3237d9",
+    "night6c_transform_sha256": "a33494a19bbfb22768a13e87d0111e3ca663bd970c0268aecbeeadff258b5b0e",
+    "night6c_semantic_tests_sha256": "79ece151d57d2c43e2e4e2fffa028b45bdc76c5ac1725d1b9b262529b8f54ba8",
+    "allowed_changes": [
+      "add D1 and P22 data contracts",
+      "add seeds 5 through 9",
+      "add confirmation-only manifests, evaluator, statistics, and delivery code",
+      "adapt the pre-registered C04/B01 dataset configuration without changing the locked graph or head algorithms"
+    ],
+    "forbidden_changes": [
+      "change G00, G04, H00, or H05 algorithms or parameters",
+      "add a candidate, graph, head, beta, k, covariance model, loss, epoch rule, or checkpoint selector",
+      "use labels in training, transformation, checkpoint selection, or preprocessing"
+    ]
+  },
+  "datasets": {
+    "d1_human_lymph_node": {
+      "role": "primary_held_out_within_study_confirmation",
+      "prior_g04_h05_metric_access": false,
+      "modalities": ["RNA", "protein"],
+      "rna_path": "/root/autodl-fs/Human lymph node/D1/humanlymphnode_rna.h5ad",
+      "rna_sha256": "4cf5a125027c8fe91d6b789dda066be703efd3f83a8745adf64a8667cd5bf9af",
+      "modality2_path": "/root/autodl-fs/Human lymph node/D1/humanlymphnode_adt.h5ad",
+      "modality2_sha256": "5249ac7d8b04fde673f8e0e6e663a70e339461fc4156a549de636b7494095abc",
+      "ground_truth_path": "/root/autodl-fs/Human lymph node/D1/D1_groundtruth.csv",
+      "ground_truth_sha256": "524e2447b743b093afad440fea7cd28e63239fe0660b461f1c404aba68ba84f3",
+      "ground_truth_id_column": "Barcode",
+      "ground_truth_label_column": "manual-anno",
+      "n_observations": 3359,
+      "n_clusters": 10,
+      "source_contract": {
+        "data_source_registry_path": "night4a_handoff_20260813/full_archive_extracted/outputs/night4a_handoff/data_source_registry.json",
+        "data_source_registry_sha256": "c56f6175e5a6307715930f6111674c56dc406eeefafd4a8338de8eedc7509966",
+        "postlock_label_audit_sha256": "676fffd740d59fe0604e4260b82b88238e84de015d741c393a370712df923418"
+      },
+      "preprocessing_and_encoder_contract": {
+        "inherit_from": "Night-6C A1 C04/B01",
+        "hvg": 3000,
+        "embedding_dim": 64,
+        "epochs": 200,
+        "loss_factors": [1.9, 2.5, 1.5, 10.0],
+        "locked_m_bad_expected": 2.289938091,
+        "variant": "corrected_unweighted",
+        "pca_random_state": 0,
+        "pca_svd_solver": "randomized"
+      }
+    },
+    "p22_mouse_brain": {
+      "role": "secondary_cross_dataset_confirmation_not_pristine",
+      "prior_use_disclosure": "P22 participated in Night-3B architecture work and Night-5D evaluation; G04/H05 itself has never been run on P22.",
+      "modalities": ["RNA", "ATAC"],
+      "rna_path": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+      "rna_sha256": "7478de043b784a1e1947064c6b3b9413c7c947b02adf6417f573203fa4e78d36",
+      "modality2_path": "/root/autodl-fs/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+      "modality2_sha256": "1ee1b8a60ced6cd16c66f02ee77b8038878fec7c221d375c4b99c0e1aae9c34c",
+      "ground_truth_path": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+      "ground_truth_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+      "ground_truth_id_column": "Barcode",
+      "ground_truth_label_column": "manual-anno",
+      "n_observations": 9196,
+      "n_clusters": 9,
+      "immutable_base_cache": {
+        "recorded_remote_manifest_sha256": "254eda53a7e7a62e30ded97443878045b78af9e573cbb5e6f2c365488ddf8f81",
+        "canonical_cache_content_sha256": "895bfa73c763e1fa1992ddc732fc193c4e12760249b8636c98f1c5f3111dbc40",
+        "canonical_model_input_sha256": "1111f2a7b879a0770e31ca5d98ebb9d4ce407c9f7d3ea9cc6faf02f3c8f63a95",
+        "observation_ids_file_sha256": "c4381314391f7bf7b05bb55b1c318c58903724a2dc560d1152447b02e704c7eb",
+        "coordinates_file_sha256": "67e58c064a39ff60903b42e27cb07226b2bd2d42b6fcf363174a6ed8ae572541",
+        "reuse_policy": "locate any remote read-only copy and verify every manifest file plus canonical hashes; do not regenerate"
+      },
+      "preprocessing_and_encoder_contract": {
+        "inherit_from": "Night-5D P22 B01/C04",
+        "hvg": 2000,
+        "embedding_dim": 128,
+        "epochs": 1600,
+        "loss_factors": [1.5, 5.0, 1.5, 1.0],
+        "locked_m_bad_expected": 2.290322960,
+        "variant": "corrected_unweighted",
+        "pca_random_state": 0,
+        "pca_svd_solver": "randomized"
+      }
+    }
+  },
+  "encoder": {
+    "id": "E00C_C04_B01_CLEAN",
+    "attention": "shrink_to_uniform",
+    "learned_fraction_rho": 0.25,
+    "corr2": false,
+    "loss_calibration": "active_set_IGE",
+    "active_losses": ["rna_reconstruction", "modality2_reconstruction", "corr1"],
+    "checkpoint_policy": "fixed_final_epoch with mandatory fresh-process reload",
+    "same_within_dataset_for_all_graphs": true
+  },
+  "graphs": {
+    "reference": {
+      "id": "G00_SP18_F20_CORR_UNION",
+      "config_sha256": "9e4f637c1460c7d1e7206b93df549cd4befbadeff9de220dc76297f7a47f1121",
+      "spatial_k": 18,
+      "spatial_symmetrization": "union",
+      "feature_k": 20,
+      "feature_metric": "correlation",
+      "spatial_refinement": "none"
+    },
+    "locked_candidate": {
+      "id": "G04_SP10_F10_EUC_UNION",
+      "config_sha256": "abd14bfc267f964927ea952359fa5cc94f9bfabe101f176805c037f1946bc639",
+      "spatial_k": 10,
+      "spatial_symmetrization": "union",
+      "feature_k": 10,
+      "feature_metric": "euclidean",
+      "spatial_refinement": "none"
+    }
+  },
+  "heads": {
+    "reference": {
+      "id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "config_sha256": "6a934dde7ed3e121937f34edf115aa3d8a6f51b242be907e27b271271ba21374",
+      "algorithm": "row-L2 fused embedding, deterministic full-SVD PCA20, mclust EEE, seed 2020"
+    },
+    "locked_candidate": {
+      "id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "config_sha256": "03f542f9bd43cbbe953145dbedd3bad02a2a2c15baddbf4e05925e308ec0c6f2",
+      "algorithm": "arithmetic mean of three sparse self-tuning k10 affinities followed by spectral clustering",
+      "input_views": ["emb_latent_omics1", "emb_latent_omics2", "SpaLORA_fused"],
+      "row_l2_normalize": true,
+      "affinity_k": 10,
+      "affinity_metric": "euclidean",
+      "affinity_symmetrization": "maximum",
+      "spectral_assign_labels": "discretize",
+      "spectral_n_init": 20,
+      "spectral_random_state": 2020
+    }
+  },
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "fixed_matrix": {
+    "training_units": 40,
+    "training_formula": "2 graphs x 2 datasets x 10 seeds",
+    "head_transforms": 80,
+    "transform_formula": "2 graphs x 2 heads x 2 datasets x 10 seeds",
+    "checkpoint_roundtrips": 40,
+    "primary_contrast": "G04/H05 minus same-dataset same-seed G00/H00",
+    "secondary_factorial_cells": ["G00/H05", "G04/H00"]
+  },
+  "budgets": {
+    "maximum_scientific_training_units": 40,
+    "maximum_implementation_or_infrastructure_retries": 8,
+    "maximum_total_training_attempts": 48,
+    "maximum_head_transforms": 80,
+    "maximum_head_transform_corrections": 8,
+    "candidate_additions": 0,
+    "gse198353_runs": 0,
+    "night4b_runs": 0,
+    "formal_benchmark_runs": 0
+  },
+  "primary_statistics": {
+    "endpoint": "paired delta Q where Q=(ARI+NMI)/2",
+    "datasets_tested_separately": ["d1_human_lymph_node", "p22_mouse_brain"],
+    "exact_test": "one-sided complete 2^10 sign-flip test of mean paired delta Q",
+    "multiplicity": "Holm step-down across the two dataset-level primary p-values",
+    "bootstrap": "100000 paired resamples per dataset with seed 20260817, percentile 95% CI",
+    "material_accuracy_gate": {
+      "mean_delta_ari": ">0",
+      "mean_delta_nmi": ">0",
+      "mean_delta_q": ">=0.01",
+      "positive_q_wins": ">=7/10",
+      "holm_adjusted_exact_p": "<0.05",
+      "bootstrap_delta_q_lower": ">0"
+    }
+  },
+  "spatial_protection_gate": {
+    "fail_if": "(mean_delta_neighbor < -0.03 and mean_delta_moran < -0.03) or (mean_delta_geary > 0.03 and (mean_delta_neighbor < -0.03 or mean_delta_moran < -0.03))",
+    "boundary_disagreement": "report_only",
+    "applied_per_dataset": true
+  },
+  "selection_and_access": {
+    "candidate_selection_in_night6d": false,
+    "labels_open_only_after_all_40_training_and_80_transform_cells_are_locked": true,
+    "d1_and_p22_open_in_one_authorized_evaluation_window": true,
+    "no_return_to_training_after_label_open": true,
+    "night6c_a1_tonsil_reruns": 0
+  }
+}
