@@ -1,0 +1,54 @@
+{
+  "R": "R version 4.0.3 (2020-10-10) -- \"Bunny-Wunnies Freak Out\"",
+  "authority": {
+    "SpaLORA_Night7A_Independent_Planner_Audit_and_Night7B_Decision_2026-08-18.md": {
+      "actual": "fe233615f63f646ee002f7dc939366b76fcfac1122ce70ea3c943ce337393a40",
+      "expected": "fe233615f63f646ee002f7dc939366b76fcfac1122ce70ea3c943ce337393a40",
+      "match": true
+    },
+    "SpaLORA_Night7B_Adaptive_Relational_Fusion_Registry_2026-08-18.json": {
+      "actual": "e94b5127b217a5541dae0b8e0260e6a1c029482b6f04af3224b0cfff42a2e9c3",
+      "expected": "e94b5127b217a5541dae0b8e0260e6a1c029482b6f04af3224b0cfff42a2e9c3",
+      "match": true
+    },
+    "SpaLORA_Night7B_GPU_Score_Acceleration_Taskbook_2026-08-18.md": {
+      "actual": "073c21794f709216f7ace5802833213bb9bd7d94df7af9780a95ebede3418d86",
+      "expected": "073c21794f709216f7ace5802833213bb9bd7d94df7af9780a95ebede3418d86",
+      "match": true
+    },
+    "SpaLORA_Night7B_Source_Code_Transfer_Audit_2026-08-18.md": {
+      "actual": "2d04cbe5e5722a5edde56d3dbd96e306bdb2b8b5f3545894e101ad0359b7b05e",
+      "expected": "2d04cbe5e5722a5edde56d3dbd96e306bdb2b8b5f3545894e101ad0359b7b05e",
+      "match": true
+    }
+  },
+  "autodl_api_called": false,
+  "branch": "revision/q2-night7b-adaptive-relational-score-rnd-20260818",
+  "budgets": {
+    "H_transforms": 540,
+    "R1_training": 80,
+    "R2_training_max": 88,
+    "attempts_max": 180,
+    "corrections_max": 12,
+    "scientific_training_max": 168
+  },
+  "cpu_allowed": "0-95",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4080, 32760 MiB, 580.105.08",
+  "gpu_smoke_finite": true,
+  "igraph": "0.10.8",
+  "leidenalg": "0.10.2-package",
+  "mclust": "6.1.1",
+  "memory_cgroup_bytes": 66571993088,
+  "message": "P0-AUTHORITY PASS; BEGIN P0-SOURCE",
+  "numpy": "1.22.3",
+  "parent_commit": "8b67e4bc09196f6c44b20e7afcfd0c3f0345e88b",
+  "persistent_free_bytes": 171506630656,
+  "protection_tag_peeled": "8b67e4bc09196f6c44b20e7afcfd0c3f0345e88b",
+  "python": "3.8.10",
+  "scipy": "1.8.1",
+  "sklearn": "1.1.1",
+  "status": "PASS",
+  "torch": "2.0.0+cu118",
+  "torch_cuda": "11.8"
+}

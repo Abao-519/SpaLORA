@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night7b-gpu-score-first-adaptive-relational-fusion-20260818",
+  "date": "2026-08-18",
+  "authority_type": "locked_score_development_registry",
+  "parent_commit": "8b67e4bc09196f6c44b20e7afcfd0c3f0345e88b",
+  "parent_tag": "night7a-final-20260818",
+  "execution": {
+    "autodl_mode": "GPU_CARD_MODE_REQUIRED",
+    "planner_must_not_start_instance_or_invoke_experimental_thread": true,
+    "gpu_required": true,
+    "cpu_only_no_card_mode_forbidden": true,
+    "planned_branch": "revision/q2-night7b-adaptive-relational-score-rnd-20260818",
+    "protection_tag": "baseline/pre-night7b-adaptive-relational-score-rnd-20260818",
+    "final_tag": "night7b-final-20260818"
+  },
+  "objective": "Maximize fair and transferable ARI/NMI/Q on the current development panel, prioritizing human lymph and P22 mouse brain, by combining adaptive graph reliability, stronger clustering heads, and lightweight relational representation learning.",
+  "dataset_matrix": [
+    {"id": "a1", "role": "development_score_rnd", "organism_tissue": "human_lymph_node", "K": 10, "seeds": [0,1,2,3,4], "priority_weight": 0.25},
+    {"id": "tonsil", "role": "development_score_rnd", "organism_tissue": "human_tonsil", "K": 4, "seeds": [0,1,2,3,4], "priority_weight": 0.15},
+    {"id": "d1", "role": "development_score_rnd_after_prior_confirmation", "organism_tissue": "human_lymph_node", "K": 10, "seeds": [0,1,2,3,4,5,6,7,8,9], "priority_weight": 0.25},
+    {"id": "p22", "role": "development_score_rnd_after_prior_confirmation", "organism_tissue": "mouse_brain", "K": 9, "seeds": [0,1,2,3,4,5,6,7,8,9], "priority_weight": 0.35}
+  ],
+  "references": {
+    "confirmed_reference": "C00_G04_H05_CONFIRMED",
+    "accuracy_frontier": "C06_DUAL_ROW_STOCHASTIC_MEAN",
+    "paired_reference_for_all_deltas": "same_dataset_same_seed_C00_G04_H05_CONFIRMED",
+    "old_baseline_for_context_only": "same_dataset_same_seed_G00_H00"
+  },
+  "common_affinity_contract": {
+    "input": "Night-6C/Night-6D canonical six saved views per dataset-seed, located only through verified manifests",
+    "row_normalize_embeddings": "L2",
+    "metric": "euclidean",
+    "neighbors": 10,
+    "exclude_self": true,
+    "tie_break": "observation_id_lexical",
+    "kernel": "same self-tuning kernel implementation and numerical semantics as Night-6D/Night-7A H05",
+    "symmetrization": "elementwise_max_unless_candidate_explicitly_says_arithmetic_symmetry",
+    "diagonal": 0,
+    "dense_N_by_N_residency_forbidden": true
+  },
+  "partition_heads": {
+    "SPECTRAL_DISCRETIZE": {"affinity": "precomputed", "assign_labels": "discretize", "n_init": 20, "random_state": 2020, "K": "dataset_contract"},
+    "EIGEN_MCLUST_EEE": {"laplacian": "symmetric_normalized", "eigenvectors": "K smallest with deterministic sign canonicalization", "row_L2": true, "mclust_model": "EEE", "random_seed": 2020, "K": "dataset_contract"},
+    "EIGEN_MCLUST_VVV": {"laplacian": "symmetric_normalized", "eigenvectors": "K smallest with deterministic sign canonicalization", "row_L2": true, "mclust_model": "VVV", "random_seed": 2020, "K": "dataset_contract"},
+    "EIGEN_KMEANS100": {"laplacian": "symmetric_normalized", "eigenvectors": "K smallest with deterministic sign canonicalization", "row_L2": true, "n_init": 100, "random_state": 2020, "K": "dataset_contract"},
+    "LEIDEN_EXACT_K": {"neighbors": 15, "resolution_grid": [0.05,0.1,0.15,0.2,0.3,0.4,0.5,0.6,0.8,1.0,1.2,1.5,2.0,2.5,3.0,4.0,5.0], "selection": "first_grid_value_producing_exact_K", "random_state": 2020, "no_exact_K": "scientific_numerical_failure_no_fallback"}
+  },
+  "reliability_contract": {
+    "graph_summary_embedding": "mean of the three row-L2 normalized canonical views within each graph, followed by row-L2 normalization",
+    "own_prediction_error": "Euclidean distance between Z_g[i] and the mean Z_g over g's own k10 affinity neighbors",
+    "cross_prediction_error": "Euclidean distance between Z_g[i] and the mean Z_g over the other graph's k10 affinity neighbors",
+    "raw_reliability": "cross_prediction_error minus own_prediction_error",
+    "scale": "max(median absolute raw_reliability across spots, 1e-12)",
+    "local_weight": "softmax across G00/G04 of clipped(raw_reliability/scale,-10,10) for each spot",
+    "global_weight": "softmax across G00/G04 of the spot-mean clipped(raw_reliability/scale,-10,10)",
+    "directed_mix": "w_G00[i]*row_normalize(S_G00)[i,j] + w_G04[i]*row_normalize(S_G04)[i,j]",
+    "output": "arithmetic symmetrization of directed mix, zero diagonal",
+    "zero_degree": "scientific_numerical_failure_no_epsilon_rescue"
+  },
+  "head_candidate_order": ["H00","H01","H02","H03","H04","H05","H06","H07","H08","H09","H10","H11","H12","H13","H14","H15","H16","H17"],
+  "head_candidates": [
+    {"id":"H00","affinity":"S_G04","head":"SPECTRAL_DISCRETIZE","role":"confirmed_C00_reference"},
+    {"id":"H01","affinity":"C06_equal_row_stochastic_G00_G04","head":"SPECTRAL_DISCRETIZE","role":"Night7A_accuracy_frontier"},
+    {"id":"H02","affinity":"0.40*row(S_G00)+0.60*row(S_G04), arithmetic_symmetry","head":"SPECTRAL_DISCRETIZE"},
+    {"id":"H03","affinity":"0.30*row(S_G00)+0.70*row(S_G04), arithmetic_symmetry","head":"SPECTRAL_DISCRETIZE"},
+    {"id":"H04","affinity":"0.20*row(S_G00)+0.80*row(S_G04), arithmetic_symmetry","head":"SPECTRAL_DISCRETIZE"},
+    {"id":"H05","affinity":"0.10*row(S_G00)+0.90*row(S_G04), arithmetic_symmetry","head":"SPECTRAL_DISCRETIZE"},
+    {"id":"H06","affinity":"WNN_LOCAL_RELIABILITY","head":"SPECTRAL_DISCRETIZE"},
+    {"id":"H07","affinity":"WNN_GLOBAL_RELIABILITY","head":"SPECTRAL_DISCRETIZE"},
+    {"id":"H08","affinity":"S_G04","head":"EIGEN_MCLUST_EEE"},
+    {"id":"H09","affinity":"C06_equal_row_stochastic_G00_G04","head":"EIGEN_MCLUST_EEE"},
+    {"id":"H10","affinity":"0.30*row(S_G00)+0.70*row(S_G04), arithmetic_symmetry","head":"EIGEN_MCLUST_EEE"},
+    {"id":"H11","affinity":"WNN_LOCAL_RELIABILITY","head":"EIGEN_MCLUST_EEE"},
+    {"id":"H12","affinity":"S_G04","head":"EIGEN_MCLUST_VVV"},
+    {"id":"H13","affinity":"C06_equal_row_stochastic_G00_G04","head":"EIGEN_MCLUST_VVV"},
+    {"id":"H14","affinity":"S_G04","head":"EIGEN_KMEANS100"},
+    {"id":"H15","affinity":"C06_equal_row_stochastic_G00_G04","head":"EIGEN_KMEANS100"},
+    {"id":"H16","affinity":"S_G04","head":"LEIDEN_EXACT_K"},
+    {"id":"H17","affinity":"C06_equal_row_stochastic_G00_G04","head":"LEIDEN_EXACT_K"}
+  ],
+  "head_stage": {
+    "formal_transforms": 540,
+    "matrix": "18 candidates x 30 dataset-seed units",
+    "all_outputs_lock_before_evaluation": true,
+    "promotion": "top two distinct partition-head templates by the locked ranking; H00 remains a mandatory fallback comparator but does not consume a promoted slot unless ranked top two"
+  },
+  "adapter_architecture": {
+    "inputs": "six canonical saved embeddings, two graphs x three view roles",
+    "per_view_projector": "bias-free Linear(input_dim,64) + LayerNorm",
+    "graph_summary": "mean of three projected views within graph followed by row-L2 normalization",
+    "equal_fusion": "mean of G00 and G04 summaries",
+    "residual_adapter": "Linear(64,128) + GELU + Dropout(0.1) + Linear(128,64), residual add, then row-L2",
+    "moe_gate_when_enabled": "MLP([u_G00,u_G04,abs(u_G00-u_G04),four fixed local reliability scalars],128,2) + softmax",
+    "decoders": "one Linear(64,input_dim) per input view",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.00001,
+    "epochs": 160,
+    "scheduler": "cosine decay over exactly 160 epochs",
+    "precision": "float32",
+    "early_stopping": false,
+    "best_epoch_selection": false,
+    "gradient_clip_norm": 5.0,
+    "checkpoint": "mandatory final state_dict plus optimizer/config/RNG state and SHA; immediate reload must reproduce fused embedding and both endpoint partitions exactly"
+  },
+  "loss_contract": {
+    "RECON": "mean MSE reconstructing all six row-L2 input views; weight 1.0 in every recipe",
+    "RELKL": "average KL from fused top20 sparse similarity distribution to each of six stop-gradient input-view top20 distributions; tau 0.1; weight 1.0",
+    "CLIP": "symmetric same-spot InfoNCE over all registered canonical cross-view pairs; other spots are negatives; tau 0.1; weight 0.2",
+    "MNN": "TripletMarginLoss margin 0.5 using precomputed mutual k10 positives and deterministic negatives from farthest 50 percent; weight 0.2",
+    "MASK": "deterministic 15 percent spot mask per view and seed, reconstruct masked projected target; weight 0.5",
+    "SEMANTIC": "cross-entropy to stop-gradient pseudo-cluster target from the locked best H-stage partition, only top 60 percent confidence within each predicted cluster; target temperature 0.5; weight 0.2",
+    "MOE_BALANCE": "expert importance CV squared plus load CV squared; weight 0.01",
+    "DCCA": "negative sum of top 32 canonical correlations between G00 and G04 summaries with 1e-3 ridge; weight 0.05"
+  },
+  "adapter_recipe_order": ["R00","R01","R02","R03","R04","R05","R06","R07","R08","R09"],
+  "adapter_recipes": [
+    {"id":"R00","losses":["RECON","RELKL"],"fusion":"equal"},
+    {"id":"R01","losses":["RECON","CLIP"],"fusion":"equal"},
+    {"id":"R02","losses":["RECON","MNN"],"fusion":"equal"},
+    {"id":"R03","losses":["RECON","RELKL","CLIP"],"fusion":"equal"},
+    {"id":"R04","losses":["RECON","RELKL","MNN"],"fusion":"equal"},
+    {"id":"R05","losses":["RECON","RELKL","MASK"],"fusion":"equal"},
+    {"id":"R06","losses":["RECON","RELKL","SEMANTIC"],"fusion":"equal"},
+    {"id":"R07","losses":["RECON","RELKL","MOE_BALANCE"],"fusion":"moe"},
+    {"id":"R08","losses":["RECON","RELKL","MNN","MOE_BALANCE"],"fusion":"moe"},
+    {"id":"R09","losses":["RECON","RELKL","CLIP","MNN","MASK","SEMANTIC","MOE_BALANCE","DCCA"],"fusion":"moe"}
+  ],
+  "adapter_endpoints": [
+    {"id":"E0_ADAPTER_ONLY","affinity":"self_tuning_k10_affinity_of_final_fused_z"},
+    {"id":"E1_ADAPTER_C06_MEAN","affinity":"arithmetic_symmetry_of_0.5*row(A_z)+0.5*row(C06), zero diagonal"}
+  ],
+  "adapter_stages": {
+    "R1": {
+      "seeds": {"a1":[0,1],"tonsil":[0,1],"d1":[0,1],"p22":[0,1]},
+      "training_units": 80,
+      "formal_partition_transforms_max": 320,
+      "matrix": "10 recipes x 8 dataset-seed units; each training reused for 2 endpoints x 2 promoted heads",
+      "promotion": "top four recipe-endpoint-head configurations by locked ranking, with at most four unique recipes"
+    },
+    "R2": {
+      "remaining_seeds": {"a1":[2,3,4],"tonsil":[2,3,4],"d1":[2,3,4,5,6,7,8,9],"p22":[2,3,4,5,6,7,8,9]},
+      "training_units_max": 88,
+      "formal_partition_transforms_max": 88,
+      "matrix": "up to four promoted configurations x 22 remaining dataset-seed units; training is reused when configurations share a recipe",
+      "candidate_definition_changes_after_R1_forbidden": true
+    }
+  },
+  "metric_contract": {
+    "primary_metrics": ["ARI","NMI","Q"],
+    "Q": "(ARI+NMI)/2",
+    "secondary_spatial_metrics": ["neighbor_agreement","Moran_I","Geary_C","boundary_disagreement"],
+    "priority_weighted_Q": "0.25*A1_mean_Q + 0.15*tonsil_mean_Q + 0.25*D1_mean_Q + 0.35*P22_mean_Q",
+    "balanced_macro_Q": "equal mean over four dataset mean Q values",
+    "seed_weighting": "first average within dataset, never pool spots or let D1/P22 ten seeds double dataset weight",
+    "paired_deltas": "same dataset and seed versus C00",
+    "all_failures_remain_in_denominator": true
+  },
+  "ranking": [
+    "passes_all_stage_specific_eligibility_gates",
+    "priority_weighted_delta_Q_vs_C00",
+    "balanced_macro_delta_Q_vs_C00",
+    "worst_dataset_mean_delta_Q_vs_C00",
+    "total_paired_Q_wins",
+    "lower_runtime_then_lower_peak_GPU_memory",
+    "registry_order"
+  ],
+  "final_lock_gate": {
+    "priority_weighted_delta_Q_vs_C00_min": 0.018,
+    "human_lymph_A1_D1_equal_mean_delta_Q_min_exclusive": 0.0,
+    "p22_mean_delta_Q_min": 0.03,
+    "dataset_mean_delta_Q_bounds": {"a1":0.0,"d1":0.0,"p22":0.0,"tonsil":-0.005},
+    "paired_Q_wins_min_total": 22,
+    "paired_Q_wins_min_by_dataset": {"a1":3,"tonsil":3,"d1":6,"p22":7},
+    "spatial_protection": {
+      "neighbor_agreement_mean_delta_min_each_dataset": -0.01,
+      "Moran_I_mean_delta_min_each_dataset": -0.02,
+      "Geary_C_mean_delta_max_each_dataset": 0.02,
+      "boundary_disagreement_mean_delta_max_each_dataset": 0.01
+    },
+    "no_label_in_training_or_checkpoint_selection": true,
+    "checkpoint_roundtrip_all_successful_units": true
+  },
+  "stage_label_firewall": {
+    "training_inputs_must_have_zero_obs_columns": true,
+    "original_h5ad_open_before_stage_lock_forbidden": true,
+    "low_level_HDF5_metadata_audit_must_exclude_obs_values": true,
+    "H_evaluator_opens_labels_only_after_540_output_lock": true,
+    "R1_evaluator_opens_labels_only_after_all_R1_training_checkpoints_and_transforms_lock": true,
+    "R2_evaluator_opens_labels_only_after_all_promoted_remaining_seed_outputs_lock": true,
+    "training_process_must_not_receive_label_paths_or_metric_tables": true,
+    "R1_to_R2_promotion_message_contains_only_config_IDs_and_locked_aggregate_ranking": true,
+    "labels_may_not_choose_epoch_seed_retry_or_dataset_specific_parameters": true
+  },
+  "budgets": {
+    "H_formal_transforms": 540,
+    "R1_scientific_training": 80,
+    "R2_scientific_training_max": 88,
+    "scientific_training_total_max": 168,
+    "scientific_retry": 0,
+    "global_prelabel_implementation_or_infrastructure_corrections_max": 12,
+    "training_attempt_total_max": 180,
+    "R1_partition_transforms_max": 320,
+    "R2_partition_transforms_max": 88,
+    "external_method_formal_benchmark_runs": 0,
+    "fresh_dataset_downloads_or_label_reads": 0
+  },
+  "failure_policy": {
+    "scientific_numerical_failure": "preserve logs and outputs, no fallback, no same-cell retry, continue the matrix",
+    "global_implementation_bug_before_relevant_stage_evaluation": "preserve invalid attempt, fix once globally, rerun every affected cell uniformly within correction budget",
+    "bug_discovered_after_relevant_stage_labels_opened": "do not selectively repair; invalidate the entire affected candidate-stage comparison and report",
+    "budget_exhaustion": "stop without promoting an incomplete candidate",
+    "never_delete_negative_or_failed_candidate": true
+  },
+  "forbidden_actions": [
+    "call AutoDL power API or automatically start the experimental Codex task",
+    "run this matrix in CPU-only no-card mode",
+    "feed ground-truth labels, label-derived graph, ARI, NMI, Q, dataset identity, tissue name, or file-name identity into training, gating, early stopping, checkpoint selection, or retry",
+    "select best epoch, best seed, best retry, or per-dataset candidate",
+    "change candidate formulas, loss weights, K, seeds, thresholds, endpoints, or partition settings after their stage evaluation opens labels",
+    "silently fallback from a failed solver or add a result-dependent epsilon",
+    "overwrite Night-6C, Night-6D, or Night-7A artifacts",
+    "copy unlicensed upstream source into the repository",
+    "run a formal modern-baseline benchmark or claim SOTA in Night-7B",
+    "download raw runs, checkpoints, source repositories, or caches to Windows C drive",
+    "force-push, force-with-lease, move a final tag, or create the final tag before the final delivery-index commit"
+  ],
+  "terminal_statuses": [
+    "NIGHT7B_UNIFIED_SCORE_CANDIDATE_LOCKED",
+    "NIGHT7B_P22_FRONTIER_ONLY_NO_UNIFIED_WINNER",
+    "NIGHT7B_NO_NEW_SCORE_CANDIDATE",
+    "BLOCKED_INPUT_INTEGRITY",
+    "IMPLEMENTATION_SEMANTICS_INVALID",
+    "LABEL_FIREWALL_BREACH",
+    "BUDGET_EXHAUSTED",
+    "INFRASTRUCTURE_BLOCKED"
+  ]
+}

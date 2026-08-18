@@ -1,0 +1,11 @@
+{
+  "ann_data_obs_columns": 0,
+  "label_access": false,
+  "opaque_units": 30,
+  "status": "PASS",
+  "training_worker_receives_dataset_identity": false,
+  "training_worker_receives_label_or_metric_path": false,
+  "training_worker_receives_original_h5ad": false,
+  "training_worker_receives_tissue_name": false,
+  "worker_schema_fail_closed": true
+}

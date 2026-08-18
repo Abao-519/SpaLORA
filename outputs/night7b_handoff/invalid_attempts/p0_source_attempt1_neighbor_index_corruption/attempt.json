@@ -1,0 +1,16 @@
+{
+  "attempt": 1,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved",
+  "stage": "P0-SOURCE",
+  "failure": "sklearn brute-force neighbor output transiently contained index 17281 for an input with 3484 observations",
+  "affected_next_unit": "u001",
+  "completed_partial_units": 1,
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "label_access": 0,
+  "fallback": false,
+  "same_cell_scientific_retry": false,
+  "diagnosis": "The same SHA-locked array immediately reproduced valid index range 0..3483 under both 12-thread and 1-thread standalone probes. The uniform correction is to rebuild all source units from the locked inputs with the parent Night-7A single-thread nearest-neighbor setting.",
+  "correction_count_after_record": 1
+}
