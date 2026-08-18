@@ -1,0 +1,14 @@
+{
+  "probe": 3,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved",
+  "stage": "P0-SEMANTIC synthetic fixture diagnostic",
+  "failure": "A noisy but strongly separated three-cluster k10 fixture remained disconnected and still yielded singular mclust covariance",
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "smoke_training_started": 0,
+  "label_access": 0,
+  "fallback": false,
+  "correction": "Use a fixed-seed connected random k10 fixture. An isolated diagnostic verified SPECTRAL, EEE, VVV, KMeans100 and Leiden exact-K all return K=3 without altering any formal solver or input.",
+  "correction_count_after_record": 4
+}

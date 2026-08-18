@@ -1,0 +1,15 @@
+{
+  "correction": 5,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "applied_before_smoke_and_formal_training",
+  "stage": "P0-SEMANTIC",
+  "trigger": "PyTorch warned that deterministic algorithms require an explicit CuBLAS workspace configuration on CUDA >= 10.2",
+  "change": "Set CUBLAS_WORKSPACE_CONFIG=:4096:8 before importing torch in the isolated trainer and in every smoke/formal trainer environment",
+  "candidate_or_loss_change": false,
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "smoke_training_started_at_detection": 0,
+  "label_access": 0,
+  "fallback": false,
+  "correction_count_after_record": 5
+}

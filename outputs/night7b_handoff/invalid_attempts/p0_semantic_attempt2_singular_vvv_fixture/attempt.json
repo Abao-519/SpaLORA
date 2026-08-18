@@ -1,0 +1,17 @@
+{
+  "attempt": 2,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved",
+  "stage": "P0-SEMANTIC",
+  "failure": "The perfectly separated synthetic block fixture produced singular within-cluster covariance and fixed mclust VVV correctly returned R NULL",
+  "completed_real_parity": "30/30 PASS reused after SHA audit",
+  "synthetic_eee": "executed",
+  "synthetic_vvv": "numerical NULL on degenerate fixture",
+  "smoke_training_started": 0,
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "label_access": 0,
+  "fallback": false,
+  "correction": "Replace only the synthetic test fixture with a deterministic noisy three-cluster self-tuning k10 graph. Keep the registered EEE/VVV solvers, seeds, tolerances and all formal inputs unchanged.",
+  "correction_count_after_record": 3
+}

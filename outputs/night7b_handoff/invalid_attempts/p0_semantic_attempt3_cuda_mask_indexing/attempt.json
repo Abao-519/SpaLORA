@@ -1,0 +1,17 @@
+{
+  "attempt": 3,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved",
+  "stage": "P0-SEMANTIC invalid smoke",
+  "failure": "PyTorch 2.0 deterministic CUDA advanced in-place indexing raised an internal assertion while zeroing the registered 15 percent MASK rows",
+  "real_parity": "30/30 PASS reused after SHA audit",
+  "synthetic_semantics": "PASS",
+  "completed_smoke_recipes_before_failure": ["R00", "R01", "R02", "R03", "R04"],
+  "failed_smoke_recipe": "R05",
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "label_access": 0,
+  "fallback": false,
+  "correction": "Preserve the partial invalid smoke, replace only the equivalent mask write with a boolean torch.where using the same immutable mask indices, and uniformly rerun all ten invalid smoke recipes.",
+  "correction_count_after_record": 6
+}

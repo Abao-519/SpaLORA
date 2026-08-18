@@ -1,0 +1,14 @@
+{
+  "attempt": 4,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved_and_stopped_before_formal_science",
+  "stage": "P0-SEMANTIC invalid smoke",
+  "trigger": "RELKL grouped softmax emitted a PyTorch warning that CUDA scatter_reduce has no deterministic implementation",
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "label_access": 0,
+  "fallback": false,
+  "correction": "Replace row-sorted scatter reductions with torch.segment_reduce over immutable per-row edge counts; preserve the exact logits, temperature, sparse union and KL formula; rerun all ten invalid smoke recipes uniformly.",
+  "candidate_or_loss_change": false,
+  "correction_count_after_record": 7
+}

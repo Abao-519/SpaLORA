@@ -1,0 +1,14 @@
+{
+  "attempt": 5,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved_and_stopped_before_formal_science",
+  "stage": "P0-SEMANTIC invalid smoke",
+  "trigger": "The row-length precomputation still used CUDA bincount, which PyTorch marks as non-deterministic",
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "label_access": 0,
+  "fallback": false,
+  "correction": "Use deterministic unique_consecutive on already row-sorted immutable edges to obtain identical segment lengths; keep RELKL logits, tau, union and KL unchanged; uniformly rerun all ten invalid smoke recipes.",
+  "candidate_or_loss_change": false,
+  "correction_count_after_record": 8
+}

@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "category": "global_pre_evaluation_implementation_or_infrastructure_correction",
+  "status": "invalid_preserved",
+  "stage": "P0-SEMANTIC",
+  "failure": "rpy2 could not locate R because R_HOME was absent when the Python interpreter was invoked directly",
+  "completed_real_parity": "30/30 PASS",
+  "synthetic_solver_completed": false,
+  "smoke_training_started": 0,
+  "formal_H_transforms": 0,
+  "scientific_training": 0,
+  "label_access": 0,
+  "fallback": false,
+  "same_cell_scientific_retry": false,
+  "correction": "Export the conda environment R_HOME and library path for all rpy2/mclust processes; independently rehash and reuse the completed 30/30 parity CSV, then rerun every not-yet-started semantic/smoke check.",
+  "correction_count_after_record": 2
+}

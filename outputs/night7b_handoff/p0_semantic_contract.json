@@ -1,0 +1,175 @@
+{
+  "implementation_corrections": 8,
+  "label_access": false,
+  "message": "P0-SEMANTIC PASS; BEGIN H STAGE",
+  "real_parity": {
+    "passed": 30,
+    "total": 30
+  },
+  "scientific_training": 0,
+  "smoke": [
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 393.2265625,
+      "recipe_id": "R00",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.184832325205207,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 398.505859375,
+      "recipe_id": "R01",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.408958379179239,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 122.87841796875,
+      "recipe_id": "R02",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.230993119999766,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 521.42041015625,
+      "recipe_id": "R03",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.249299334362149,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 393.22705078125,
+      "recipe_id": "R04",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.431742459535599,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 398.33056640625,
+      "recipe_id": "R05",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.149278858676553,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 393.3994140625,
+      "recipe_id": "R06",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.222040491178632,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 400.84521484375,
+      "recipe_id": "R07",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.050940280780196,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 400.845703125,
+      "recipe_id": "R08",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.000801391899586,
+      "status": "smoke_invalid_for_science"
+    },
+    {
+      "epochs": 2,
+      "peak_gpu_mib": 542.044921875,
+      "recipe_id": "R09",
+      "reload_status": "PASS",
+      "runtime_seconds": 7.257318252697587,
+      "status": "smoke_invalid_for_science"
+    }
+  ],
+  "smoke_invalid_training": 10,
+  "status": "PASS",
+  "synthetic": {
+    "disabled_moe_parameter_absent": true,
+    "disabled_semantic_parameter_absent": true,
+    "fixed_weight_shas": {
+      "H02": "6ccfacb194f3c0b8ecf1f24ca1a6f9d4e5e75704f8b7d63dad9384f71d433ab5",
+      "H03": "4f66539908e64a55ddf4110a99e6bce6533614677ee32d2a723067d5beb5b685",
+      "H04": "ac84353be4fb8907e84f8411d4ffea02d14d999b34ce61f432df669b2b7c43b6",
+      "H05": "b16e5638bcf883acc4043e8f89517139ba3f8551d021725716e9b67b0326aa4a"
+    },
+    "lexical_tie_choice": 1,
+    "losses": {
+      "CLIP": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "DCCA": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "MASK": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "MNN": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "MOE_BALANCE": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "RECON": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "RELKL": {
+        "finite": true,
+        "related_gradient_present": true
+      },
+      "SEMANTIC": {
+        "finite": true,
+        "related_gradient_present": true
+      }
+    },
+    "solver": {
+      "H00": {
+        "K": 3,
+        "head": "SPECTRAL_DISCRETIZE",
+        "sha": "727adf6926f7a30d0ed12389f6bfba66c483910e5a847e805e5423e4ed79f496"
+      },
+      "H08": {
+        "K": 3,
+        "head": "EIGEN_MCLUST_EEE",
+        "sha": "b0ddf949f6b0dbf3d4725fe8688eb4a6292a91df117516b3117801535db840a3"
+      },
+      "H12": {
+        "K": 3,
+        "head": "EIGEN_MCLUST_VVV",
+        "sha": "b714517070703ac539dd59d32cd6a9133db690258e5912752fb625c49364a8c1"
+      },
+      "H14": {
+        "K": 3,
+        "head": "EIGEN_KMEANS100",
+        "sha": "727adf6926f7a30d0ed12389f6bfba66c483910e5a847e805e5423e4ed79f496"
+      },
+      "H16": {
+        "K": 3,
+        "head": "LEIDEN_EXACT_K",
+        "sha": "7e87c8b723d1d466f6f71c232c5c6c4d8ea7996677edac9a9c09f64f6f7d3dbd"
+      }
+    },
+    "status": "PASS",
+    "zero_degree_guard": true
+  },
+  "worker_static_firewall": {
+    "can_open_original_h5ad": false,
+    "imports_anndata": false,
+    "imports_evaluator": false,
+    "original_h5ad_literal_context": "fail_closed_rejection_set_only",
+    "schema_rejects_forbidden_keys": true
+  }
+}
