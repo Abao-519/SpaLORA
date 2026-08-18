@@ -26,6 +26,7 @@ def main() -> None:
         REPO / "scripts/night7c_p1.py",
         REPO / "scripts/night7c_fail_closed_finalize.py",
         REPO / "scripts/night7c_make_delivery_index.py",
+        REPO / "scripts/night7c_package.py",
         REPO / "tests/test_night7c_conflict.py",
         REPO / "tests/test_night7c_firewall.py",
     ]

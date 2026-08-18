@@ -1,5 +1,5 @@
 {
-  "file_count": 35,
+  "file_count": 36,
   "files": [
     {
       "path": "SpaLORA/night7c_conflict.py",
@@ -153,8 +153,8 @@
     },
     {
       "path": "scripts/night7c_make_delivery_index.py",
-      "sha256": "4bba529cc16054773088d0477498fd0cfa0992eca1ff78b8f5e3ceb34e40bf3e",
-      "size_bytes": 2032
+      "sha256": "deb8974b0154fa3e86afce13eb395794d2c9af14f3c6391fa0eef418389775ac",
+      "size_bytes": 2077
     },
     {
       "path": "scripts/night7c_p0_authority.py",
@@ -165,6 +165,11 @@
       "path": "scripts/night7c_p1.py",
       "sha256": "e81de3573bf15764d7c9708ffc388933c90bf73b7393fe28b693df44816ef8b8",
       "size_bytes": 11385
+    },
+    {
+      "path": "scripts/night7c_package.py",
+      "sha256": "7ff4e0bbcd51ffe1b75dfe23f1ad4a7eada383c2b75553fc075c4c22d526c902",
+      "size_bytes": 3221
     },
     {
       "path": "tests/test_night7c_conflict.py",
@@ -181,7 +186,7 @@
   "formal_transforms": 0,
   "label_access": false,
   "root_rule": "sha256(newline_join(file_sha256_in_lexical_path_order))",
-  "root_sha256": "86e80413e179abe75f64dac30ee68a18fc04acbc77dd8672ac01c7319b73a7c4",
+  "root_sha256": "d4e20080eff519c87e31a63c3c092a856bf11cc610e3c863d2e833ff9d80b432",
   "schema_version": 1,
   "status": "IMPLEMENTATION_SEMANTICS_INVALID"
 }
