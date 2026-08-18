@@ -1,0 +1,21 @@
+{
+  "R2_full_metrics_sha256": "656663e247b9e76d2f7b468159992e8929529358f0615eb61badd81a6ee028ee",
+  "R2_lock_sha256": "11b6e49bce3eade46ede3e6576dd0776cdb08780c20edaf0954e737d19cef232",
+  "accuracy_frontier_order": [
+    "R02__E1_ADAPTER_C06_MEAN__H01",
+    "R02__E1_ADAPTER_C06_MEAN__H02",
+    "R08__E1_ADAPTER_C06_MEAN__H01",
+    "R08__E1_ADAPTER_C06_MEAN__H02"
+  ],
+  "balanced_frontier_order": [
+    "R02__E1_ADAPTER_C06_MEAN__H01",
+    "R02__E1_ADAPTER_C06_MEAN__H02",
+    "R08__E1_ADAPTER_C06_MEAN__H01",
+    "R08__E1_ADAPTER_C06_MEAN__H02"
+  ],
+  "label_opened_only_after_R2_lock": true,
+  "summary_vs_C00_sha256": "513ce0bc97cdf44f424206a078635ba180da4d19667c50a24c9f6fa19b6a62f3",
+  "summary_vs_C06_sha256": "2bfe13afa1c26f4b5337b0e3394651b7279e9f242ecd1fc6b543ac8214037bb4",
+  "terminal_status": "NIGHT7B_P22_FRONTIER_ONLY_NO_UNIFIED_WINNER",
+  "unified_pass_config_ids": []
+}

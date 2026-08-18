@@ -1,0 +1,188 @@
+{
+  "candidates": [
+    {
+      "config_id": "R02__E1_ADAPTER_C06_MEAN__H01",
+      "pass": false,
+      "spatial_by_dataset": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "tests": {
+        "a1_delta_q_ge_0": false,
+        "a1_q_wins_ge_3": false,
+        "complete_eligible": true,
+        "d1_delta_q_ge_0": false,
+        "d1_q_wins_ge_6": false,
+        "human_lymph_equal_mean_delta_q_gt_0": false,
+        "p22_delta_q_ge_0": true,
+        "p22_mean_delta_q_ge_0_03": true,
+        "p22_q_wins_ge_7": true,
+        "priority_weighted_delta_q_ge_0_018": true,
+        "spatial_protection": true,
+        "tonsil_delta_q_ge_minus_0_005": false,
+        "tonsil_q_wins_ge_3": false,
+        "total_q_wins_ge_22": false
+      }
+    },
+    {
+      "config_id": "R02__E1_ADAPTER_C06_MEAN__H02",
+      "pass": false,
+      "spatial_by_dataset": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "tests": {
+        "a1_delta_q_ge_0": false,
+        "a1_q_wins_ge_3": false,
+        "complete_eligible": true,
+        "d1_delta_q_ge_0": false,
+        "d1_q_wins_ge_6": false,
+        "human_lymph_equal_mean_delta_q_gt_0": false,
+        "p22_delta_q_ge_0": true,
+        "p22_mean_delta_q_ge_0_03": true,
+        "p22_q_wins_ge_7": true,
+        "priority_weighted_delta_q_ge_0_018": true,
+        "spatial_protection": true,
+        "tonsil_delta_q_ge_minus_0_005": false,
+        "tonsil_q_wins_ge_3": false,
+        "total_q_wins_ge_22": false
+      }
+    },
+    {
+      "config_id": "R08__E1_ADAPTER_C06_MEAN__H01",
+      "pass": false,
+      "spatial_by_dataset": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "tests": {
+        "a1_delta_q_ge_0": false,
+        "a1_q_wins_ge_3": false,
+        "complete_eligible": true,
+        "d1_delta_q_ge_0": true,
+        "d1_q_wins_ge_6": true,
+        "human_lymph_equal_mean_delta_q_gt_0": false,
+        "p22_delta_q_ge_0": true,
+        "p22_mean_delta_q_ge_0_03": true,
+        "p22_q_wins_ge_7": true,
+        "priority_weighted_delta_q_ge_0_018": false,
+        "spatial_protection": true,
+        "tonsil_delta_q_ge_minus_0_005": true,
+        "tonsil_q_wins_ge_3": false,
+        "total_q_wins_ge_22": false
+      }
+    },
+    {
+      "config_id": "R08__E1_ADAPTER_C06_MEAN__H02",
+      "pass": false,
+      "spatial_by_dataset": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "tests": {
+        "a1_delta_q_ge_0": false,
+        "a1_q_wins_ge_3": false,
+        "complete_eligible": true,
+        "d1_delta_q_ge_0": true,
+        "d1_q_wins_ge_6": true,
+        "human_lymph_equal_mean_delta_q_gt_0": false,
+        "p22_delta_q_ge_0": true,
+        "p22_mean_delta_q_ge_0_03": true,
+        "p22_q_wins_ge_7": true,
+        "priority_weighted_delta_q_ge_0_018": false,
+        "spatial_protection": true,
+        "tonsil_delta_q_ge_minus_0_005": true,
+        "tonsil_q_wins_ge_3": false,
+        "total_q_wins_ge_22": false
+      }
+    }
+  ]
+}
