@@ -1,0 +1,282 @@
+{
+  "H_contract_sha256": "14eb617d73751c81f2b4778c8875cb54b01eb6ad5266dc77d5c2bfb5bf346669",
+  "label_access": false,
+  "promoted_head_ids": [
+    "H01",
+    "H02"
+  ],
+  "pseudo_head_id": "H01",
+  "status": "LOCKED_PRE_LABEL",
+  "units": [
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "0316ffc5bd404af867c8fb3d3ee8cc1413d045cdc6a7ea84fbd3eb7cc12ba767",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "98df6fd73b6d8176fa3ed4791b16b9905982c7b6118055bcf9427c3582af14f4",
+      "unit_id": "u000",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u000/worker_input.json",
+      "worker_input_sha256": "3bf8c58480f00ad57f7d836fde09bf1f173726201410a6d7b92391e780c09094"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "88d0a9d59f3889fc84aaac585bb87c11d2d44fc8590043254c67737fc2364fd1",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "f5d8ad3e1dfb5efe71514cdecb67f750246d770ae321a4b6a5e8994509681250",
+      "unit_id": "u001",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u001/worker_input.json",
+      "worker_input_sha256": "a5c9ef3d9ff319c2592518e54c73d00309d04c0432de2ab208b295f9abda0f7d"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "f4b3b79a867bcba99ec8c49d571670e5f6898f4f070ebb0b7b78e57b9b031add",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "a9762cd7cdfb2ab4db430cf7b4444d45565239647834f97a02921b0f79e533df",
+      "unit_id": "u002",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u002/worker_input.json",
+      "worker_input_sha256": "1a893a47d52b83991c004fbcc64990f6c52c1a95664eb4358a53c8abd9bd1d77"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "d477db54e946aa6849e3327eb971c37cc03dd60985566408eda806aac8f2dbb0",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "4b209fa1099793e5af23a8a720ef86249fefa7f97b5915790895c07f5a855996",
+      "unit_id": "u003",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u003/worker_input.json",
+      "worker_input_sha256": "466854f3399d1daa19be0e40325f106cc8d6d07f07016f6fcad46122d6df5d7a"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "1beb075b8faf52e83cadba6e71857b694131e4d96b29e5009641aaf16f89b65e",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "e3f41787defcc6bbae26175ba4b3fccc85e0cc23d09feb9286ec75931a30187c",
+      "unit_id": "u004",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u004/worker_input.json",
+      "worker_input_sha256": "d874d799f0e80e63e90369f2d48bfd4f7b4383e6f9b8f21057b9de47fb7132dc"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "2d9166a0cd71462f48b68b8b9fdab99c28e8eaf6989a63bcfd0dd2dd7223a992",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "029ea722381b7f302953cde6370763c1641b11ad15ec17660b4d26006c2bb62f",
+      "unit_id": "u005",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u005/worker_input.json",
+      "worker_input_sha256": "556bb2899ce12bd464c97691e29ba047d02bc3cf0327494390d7372553b232e6"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "2c54670cfdc5a14c3d349b35cb3e68dfe9263b1ce81fbb9b5138574ece73ec13",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "9e7c545f614a07c2c085fadbf1c567b3c3c1331f30b9b0b7879ef08f32220e6a",
+      "unit_id": "u006",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u006/worker_input.json",
+      "worker_input_sha256": "0427ee1e12f01486281f6146be2a3a12e3e00c7214ad324fd06968aa8bae8fa7"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "3a707395c1948b81197bb02092530c08c8cec529009e635fd60edabe022300f2",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "21fe945b85f35cca8310a83e8ba731a5db60bc19c0a9be3b262197b54f4e4053",
+      "unit_id": "u007",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u007/worker_input.json",
+      "worker_input_sha256": "e30be610022742f893c3e4a5dc957b7172c208cbc03dff8d210e25bd5d332b94"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "91a016c70e85aa634c0c636a9da9060123357769cfdcb9423ccc133e4a3d1afa",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "04db07d98718017d997d343a49704a146aefd6954b809e51e43b37d2343baed0",
+      "unit_id": "u008",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u008/worker_input.json",
+      "worker_input_sha256": "4675492bdad0b2ffc2b7614af6119c19884b05d791c727fc1f3f4d1f3e393e7d"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "9750041290601c02c0677dbe05873234cbe106bbe4248e3c7f8fb61f77d9ef5d",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "9054e89054f1a82ce6781bc51bd53fd00a11dca91f3d868794f5f8024ba3c59e",
+      "unit_id": "u009",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u009/worker_input.json",
+      "worker_input_sha256": "70b809d399184758cd4397f6e2e42c3c32c9f9e9d8cf81875924ce8bac82b8e2"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "a52b94f78e95558a663d934311a84512c57e36b12cb3feb8a8e6910135172b68",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "029d9d4c61e446b3b0df5123f439cc4bf32037cf9cbebae46ac38b0df3e096b7",
+      "unit_id": "u010",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u010/worker_input.json",
+      "worker_input_sha256": "b75ef0e31fc0471ce8cf355317ed38b6df2f7562fbb854bbf6c54c1a777f4035"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "38823cda5ba490842f8e6074c66ea1ea90fcc2dfbe6a6956af6d1e716e68c113",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "28a2160ab534e1d319cb0ea830a9ad0547e2a9d283c1556064771c5156b4a3e0",
+      "unit_id": "u011",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u011/worker_input.json",
+      "worker_input_sha256": "d85d8c4ede0ff6ee384876646b7c04de1b2f41ac944dcea915c403d728dc329b"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "69b1643a49755284a57116992687872656622178547358cba9e86f9301403f91",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "b5421f60c863313d23d961e73d64659bc7aae12b7e967107be9023eaf12991fa",
+      "unit_id": "u012",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u012/worker_input.json",
+      "worker_input_sha256": "a639d81e4d781c3a4aab66315d36f099e66655e29e86e41aff8d32a6069e33f6"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "a08c068732925fd75d5b79467f4eeffa4b839d5ddd9211c9d2e07d82348762d3",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "24aac017029403b66baf55c04645f658dfe4854cd36d00c94f826423ba3a6b97",
+      "unit_id": "u013",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u013/worker_input.json",
+      "worker_input_sha256": "d86fb3e682ed405f932f60a9095128dc34db6cdef84599714be197c666369d13"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "2cad47d0f58c9760495c8de7cfc36b2dab87d707d939f0ce29233722c44206ca",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "8cc1a59ea13466f27e1c0f0f8da8821dc2da456b578c5cbcb867ba17fb40dfd8",
+      "unit_id": "u014",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u014/worker_input.json",
+      "worker_input_sha256": "d613181ef3cd11e5607b40fcc6ccbed25cf99e4df7d27929f0f4b9ef801d8598"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "b7b48ad1ac7c1a240ad4ca356068be6d7819f216c02284ec447ab88fbbb20abd",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "86e9763774c27a0a5a0df05079e67008a1eb89ade5a91575859c7eaff3b485f2",
+      "unit_id": "u015",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u015/worker_input.json",
+      "worker_input_sha256": "a06f14044311da501a8e718f0b242604170e3ff061dca41279092cfe164882b6"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "e0b75f2f26ae6bbb8566857f6dbe41d4d74b9b729b9673f90298e3e9e1d26f53",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "685c56473c0e0e1b4b6d2d3f39075166cf10285d2f8b42cceae5240d37e19b36",
+      "unit_id": "u016",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u016/worker_input.json",
+      "worker_input_sha256": "0d4183f4b8f4183441d6c681f41aef45187278b1570b5e6f149aa8e70ee47e01"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "42328e487025eb0b15265cf1b4bf5080d8f6a8af9cef54fa93f0073e8aeb0e8f",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "b37c15a7bf219b9f48fee13ad8b87a25426e9e4d8210e9bd178de514c9f46345",
+      "unit_id": "u017",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u017/worker_input.json",
+      "worker_input_sha256": "2706c33648033dd6f55f8974f0c71cbcde12be1cd861a72ac2823f0b3497ec43"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "2c80a973d646b81818fd14dba23a127cc346758daf5aee181e5994f491dbccf2",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "9a622861e2c8e43b95798e610fb1bb174f146164a440dd80b34fda1b9f6b68d3",
+      "unit_id": "u018",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u018/worker_input.json",
+      "worker_input_sha256": "3b15f8e67b7635a03a4397b443bfff13e70468939566b574d6098378fdf661a0"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "c22354a635b78b7264b302a624762fba2feb1ef240f8fd8ae1823fb25736d9e7",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "910a6947d3fc43b566e4e1f41c2fdb8c706f10e6c0eec4813340c8218621f9f8",
+      "unit_id": "u019",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u019/worker_input.json",
+      "worker_input_sha256": "bc85744d7eade9c55555145cfe50743a289636a6449bd87b3101914198b88053"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "897cabe95a224107dcc134bcff3fc087abdfc9811cb60aff2848e14574a088a0",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "4c76610af7b7b6fc60631e043baecfd468fa95803700dc99b8f37222871a3f31",
+      "unit_id": "u020",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u020/worker_input.json",
+      "worker_input_sha256": "083fb212c6c2730fff6f0b328c4195ec4470921d485c5bf47fafb69fda1e6750"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "936350be92241ee6761310d51531fce8268309b91ef1dc7ffa0c44213371f830",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "1b27d639495c562ed16e660b56ad6e4daef75bce5360887ec27c24c61ea826fd",
+      "unit_id": "u021",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u021/worker_input.json",
+      "worker_input_sha256": "3df8e75124bdf201dcf9b3f538c672deb1bb0c9ff9222b064d7d321584d8b12d"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "f183597d47ab3455efcfd58b31f88d4f267cc3844a85137caafe4cc3d29bec89",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "1f6c5df1f4acc9b50deb138f32c2c3569193f3329f08f610b89789345e74ae80",
+      "unit_id": "u022",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u022/worker_input.json",
+      "worker_input_sha256": "17ec359ac4f7a2b8bf5d58d220f772bda038a21ccca115cd663f8fd8f4fed922"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "2919ed00a1e0e1c0e16f673c00b9bcb57a1ecf9dacd168089d6dc36a57d02e58",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "850e06df2e60dd45f45a34ecde7bad7ade13001d3540dbb6392fe5cbc8cae0ab",
+      "unit_id": "u023",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u023/worker_input.json",
+      "worker_input_sha256": "b100deb41dc0f31e8771a0ba4fd77c7bf0626b9bbafaa97a7c7e17d3dabb7270"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "8d4d3d25fe90fd922e169323233bfa1cf33f271f33963ab9b577c1d6a1374f94",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "c02e74f15fba476427d251038b89122ecc1cafa98010830331fe1e3ccd7f3fca",
+      "unit_id": "u024",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u024/worker_input.json",
+      "worker_input_sha256": "ea3898df7ba4b70e100a80d58cac815160883b0660727b3459536ac6715d2b7e"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "12ed3c2cd4408fee1eb63ad6e7ddfc4ae20fcf3b5e8a2a4b72cb12aa4d038c54",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "08d0f9c21708508c52359629e80a2306c92543e402860635d540b7364db1b682",
+      "unit_id": "u025",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u025/worker_input.json",
+      "worker_input_sha256": "a774efcfe3c065fed44dede1f4ac9e0973e434e9ec797bb1a193c290deabd42f"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "6e14182bc6b875f42620a3947f3bf8256ad68ca40bdaa384e12a91b1cb4bba2f",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "25a42f6b3b2581ad843f876c718f72a7e25d6a8a51e196a077be8c070428c686",
+      "unit_id": "u026",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u026/worker_input.json",
+      "worker_input_sha256": "7b01cb49c96786ef6f9d550fd036d66a8cc548f4f142c0f2e39836c0874dabe3"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "26a5adfe2c1ba5828e857bb26968b113b320bd6cb99a6ba8fd450dd35e0e197e",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "c5695beb30f5a6d112d0b26afbd94548495448e92e7c0945afe036926955dc6b",
+      "unit_id": "u027",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u027/worker_input.json",
+      "worker_input_sha256": "21351a6b0a997e7469fd80b86990a097f061d397b0f5ded56700521e9bc76706"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "d9e471401c76c89f366eeefff7869c1496d729b6964cf3a81ffe3d33287888ef",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "b4130d84ed93d4961d8431a233d9d7c11bd5f55db964560ea3c0f47074f3e1f3",
+      "unit_id": "u028",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u028/worker_input.json",
+      "worker_input_sha256": "619175c1689fbf69740d328dd6550fc3f4aeadae5c47ef90ab8fff69e3a4a73c"
+    },
+    {
+      "label_access": false,
+      "pseudo_affinity_sha256": "6df3c627830fdd46f3631825aedc172985192571235fe50d3c854ac9d1386657",
+      "pseudo_head": "H01",
+      "pseudo_partition_sha256": "85bd0240b4cabc886b10937d42117f29d4d6bde3e9e89d5e65304c496399b72b",
+      "unit_id": "u029",
+      "worker_input_path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_inputs/u029/worker_input.json",
+      "worker_input_sha256": "47fa4238a6a74b1ed6fe8adb6f4a28160c72ae37e6b7d43e8b772c0949312f67"
+    }
+  ]
+}
