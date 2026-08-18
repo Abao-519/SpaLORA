@@ -1,0 +1,14 @@
+method,repository,resolved_commit,default_branch,tier,status,license_status,license_detected,recognized_open_source_license,license_compatible,label_access_hits,best_metric_selection_hits,formal_benchmark_run
+SpatialGlue,https://github.com/JinmiaoChenLab/SpatialGlue,7c976d811d27ace51ce47ae0ad94a068a7d222fa,main,classic_required,READY_WITH_FIXED_ENDPOINT_ADAPTER,LICENSE_FILE_FOUND,GPL,True,False,7,0,False
+Seurat_WNN,https://github.com/satijalab/seurat,17d6f4fc6f57a9092871b85c62f9524b173b09df,main,classic_required,READY_WITH_FIXED_ENDPOINT_ADAPTER,LICENSE_FILE_FOUND,"UNRESOLVED,MIT",True,True,40,0,False
+COSMOS,https://github.com/Lin-Xu-lab/COSMOS,56ea355be51e64d9253e2871b8bd447fdfd0d230,main,modern_high_priority,READY_WITH_FIXED_ENDPOINT_ADAPTER,LICENSE_FILE_FOUND,MIT,True,True,40,4,False
+SMART,https://github.com/Xubin-s-Lab/SMART-main,75676546a66d48a7ebfd7c5f3a2758a4c538fcfc,main,modern_high_priority,READY_WITH_FIXED_ENDPOINT_ADAPTER,LICENSE_FILE_FOUND,GPL,True,False,40,6,False
+PRESENT,https://github.com/lizhen18THU/PRESENT,c88a609b34aae9b84c2c8a7ffb6824bae5c78f23,main,modern_high_priority,READY_WITH_FIXED_ENDPOINT_ADAPTER,LICENSE_FILE_FOUND,MIT,True,True,40,4,False
+MultiGATE,https://github.com/cuhklinlab/MultiGATE,,,modern_high_priority,BLOCKED_ENVIRONMENT,,,False,False,,,False
+SpatialCOC,https://github.com/xjtu-omics/SpatialCOC,40612e6c82368f3c6bae7f61230d78ff9fd3703e,main,modern_high_priority,READY_WITH_FIXED_ENDPOINT_ADAPTER,LICENSE_FILE_FOUND,GPL,True,False,40,40,False
+SpaMode,https://github.com/bridge1924/SpaMode,d8d8e2b70c6ad47ef12aa1a5d9a65cf4fb226c00,master,source_only_until_license_resolved,SOURCE_ONLY_LICENSE_BLOCKED,NO_LICENSE_FILE,,False,False,40,14,False
+SpaMCA,https://github.com/wenwenmin/SpaMCA,33319c63350821ae701436c20753a05e87f754f6,main,source_and_feasibility,SOURCE_ONLY_LICENSE_BLOCKED,NO_LICENSE_FILE,,False,False,40,16,False
+ARISE,https://github.com/XiangxiangWang-code/ARISE,,,fixed_endpoint_adapter_required,BLOCKED_ENVIRONMENT,,,False,False,,,False
+GROVER,https://github.com/Xubin-s-Lab/GROVER,,,feasibility_only_private_weight_and_third_modality_risk,BLOCKED_ENVIRONMENT,,,False,False,,,False
+MultiSP,https://github.com/jinworks/MultiSP,,,modern_frontier_source_and_feasibility,BLOCKED_ENVIRONMENT,,,False,False,,,False
+SpatialEx,https://github.com/KEAML-JLU/SpatialEx,c3e1e069cc364d9d256cd50126bf36c7bb2af450,main,feasibility_only_histology_anchored,BLOCKED_PRIVATE_ASSET_OR_THIRD_MODALITY,LICENSE_FILE_FOUND,MIT,True,True,40,0,False

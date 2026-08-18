@@ -1,0 +1,76 @@
+{
+  "annotation_provenance": "independent manual/histology annotation not established from accession metadata",
+  "archive_or_supplement_links": [
+    "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA843455"
+  ],
+  "benchmark_feasibility": "exploratory until pairing and annotation provenance are independently audited",
+  "benchmark_feasibility_by_shortlist": "RNA+ATAC-capable common-protocol methods only; all others must be marked modality-incompatible rather than silently adapted",
+  "coordinate_source": "must be verified from official archive files",
+  "file_size_checksum_status": "archive-level sizes/checksums not asserted without controlled listing audit",
+  "id": "GSE205055",
+  "known_k_without_labels": null,
+  "large_downloads": false,
+  "license_or_terms": "NCBI GEO public-access record; downstream file-specific terms require review",
+  "metadata_fetch": {
+    "headers": {
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Headers": "Origin,X-Accept-Charset,X-Accept,Content-Type,X-Requested-With,NCBI-SID,NCBI-PHID",
+      "Access-Control-Allow-Methods": "POST, GET, PUT, OPTIONS, PATCH, DELETE",
+      "Access-Control-Allow-Origin": "",
+      "Cache-Control": "private",
+      "Connection": "close",
+      "Content-Disposition": "attachment; filename=GSE205055.txt",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Content-Type": "geo/text",
+      "Date": "Tue, 18 Aug 2026 01:35:35 GMT",
+      "NCBI-PHID": "0C42EE32A83B6E710000000000000001.m_1",
+      "NCBI-SID": "0C42EE32A83B6E71_0000SID",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Server": "Apache",
+      "Set-Cookie": "ncbi_sid=0C42EE32A83B6E71_0000SID; domain=.nih.gov; path=/; expires=Wed, 18 Aug 2027 01:35:35 GMT",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Accept-Encoding",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-UA-Compatible": "IE=Edge",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "path": "/root/autodl-fs/night7a_dataset_metadata_20260818/GSE205055_metadata.txt",
+    "sha256": "a5838747bef20df60b9de86005a31f62c469e9a307fdcbafb3f2bfad184c057b",
+    "size_bytes": 2521,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055&targ=self&form=text&view=full"
+  },
+  "modalities": [
+    "RNA",
+    "ATAC"
+  ],
+  "oep003285_metadata_fetch": {
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Connection": "close",
+      "Content-Length": "906",
+      "Content-Type": "text/html",
+      "Date": "Tue, 18 Aug 2026 01:35:35 GMT",
+      "ETag": "\"6a71a67c-38a\"",
+      "Last-Modified": "Tue, 04 Aug 2026 08:44:44 GMT",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Vary": "Accept-Encoding"
+    },
+    "path": "/root/autodl-fs/night7a_dataset_metadata_20260818/OEP003285_landing.html",
+    "sha256": "40db233c7ad318ed62bea2c482b6042304da940639aaff02758443b0f374c84c",
+    "size_bytes": 906,
+    "url": "https://www.biosino.org/node/project/detail/OEP003285"
+  },
+  "official_metadata_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055&targ=self&form=text&view=full",
+  "organism": "Mus musculus",
+  "paired_section_and_coordinates": "MISAR metadata candidate; exact section pairing requires archive-level verification",
+  "pairing_key": "same-section RNA/ATAC pairing must be locked from archive metadata",
+  "per_spot_annotations_opened": false,
+  "platform": "spatial epigenome-transcriptome profiling",
+  "purpose": "fresh mouse RNA+ATAC candidate",
+  "section_independence": "study-level independent of all four development datasets",
+  "spot_count": "not obtained without archive-level inspection",
+  "status": "NEEDS_MANUAL_PROVENANCE_REVIEW",
+  "study_and_accession": "GSE205055",
+  "tissue": "embryo/brain sections"
+}

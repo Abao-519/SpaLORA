@@ -1,0 +1,16 @@
+{
+  "development_dataset_inputs_used": false,
+  "fixed_final_label_free_adapter": {
+    "K": 3,
+    "input_shape": [
+      30,
+      4
+    ],
+    "labels_supplied": false,
+    "output_clusters": 30
+  },
+  "formal_benchmark_runs": 0,
+  "formal_dataset_execution": false,
+  "status": "PASS",
+  "synthetic_label_selection_scanner": true
+}

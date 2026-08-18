@@ -1,0 +1,13 @@
+{
+  "id": "SIMULATED_GROUND_TRUTH_PANEL",
+  "mechanisms": [
+    "boundary sharpness",
+    "noise",
+    "modality missingness",
+    "graph disagreement"
+  ],
+  "per_spot_external_labels_opened": false,
+  "role": "controlled robustness and mechanism only; never replaces real external validation",
+  "status": "NOT_SUITABLE",
+  "study_and_accession": "preregistered simulation supplement"
+}

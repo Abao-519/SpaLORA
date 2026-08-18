@@ -1,0 +1,26 @@
+{
+  "development_label_byte_hash_only_no_parse": true,
+  "development_label_byte_hashes": {
+    "a1": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+    "d1": "524e2447b743b093afad440fea7cd28e63239fe0660b461f1c404aba68ba84f3",
+    "p22": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+    "tonsil": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9"
+  },
+  "formal_benchmark_runs": 0,
+  "fresh_external_label_reads": 0,
+  "gpu_use": 0,
+  "large_fresh_downloads": 0,
+  "locked_outputs": {
+    "outputs/night7a_handoff/data_contracts/gse198353_contract.json": "74c888eba740bf9528ad91557a419f9256cb77bb0b01343d92c3e4fd3ffbbddc",
+    "outputs/night7a_handoff/data_contracts/gse205055_contract.json": "08c1625f69480f4a93a61ce50d8408310d15c087844697fc34d4ed521272c47e",
+    "outputs/night7a_handoff/data_contracts/simulated_ground_truth_panel_contract.json": "b921f25e24064ee236a597e8f7e67886198eb42a5e633832b11e261e8f8752e7",
+    "outputs/night7a_handoff/data_contracts/spamode_human_tonsil_three_sections_contract.json": "374c1fe8c557342047cb1afd7ff52ced0c583e376546e5ed2de22207f9eed1f0",
+    "outputs/night7a_handoff/external_method_readiness.json": "8e761d1a747f852a270c13d432329d0384d09043277bc3d34feb482572207e41",
+    "outputs/night7a_handoff/external_method_source_audit.csv": "6e5278bb75ffab8c81d98d775960b66c71ca7837c0213047413bb45139059c52",
+    "outputs/night7a_handoff/fresh_dataset_preflight.json": "61c2628e245dd7af46572ddd8c35e60535876caf2d095a65e249925655f4d877",
+    "outputs/night7a_handoff/label_selection_code_audit.md": "e051a4d6385a82c8bda9eebf0e56a11720524fde359e5e0e4c830ebb3eb887c0",
+    "outputs/night7a_handoff/toy_smoke_test_manifest.json": "8f4165f8d6b254c4da7ef21627c63361c71e1d6098aa44b09e580504fc1a7f00"
+  },
+  "scientific_training": 0,
+  "status": "LOCKED_PRE_LABEL"
+}

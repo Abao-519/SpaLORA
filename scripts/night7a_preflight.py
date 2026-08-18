@@ -7,8 +7,10 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
+import tarfile
 import time
 import urllib.error
 import urllib.request
@@ -64,16 +66,126 @@ def run(command: list[str], cwd: Path | None = None, timeout: int = 600) -> tupl
         return 255, f"{type(exc).__name__}: {exc}"
 
 
+def _resolved_github_head(url: str) -> tuple[str | None, str | None, list[dict]]:
+    """Resolve the canonical default branch and commit without downloading a pack."""
+    code, output = run(["git", "ls-remote", "--symref", url, "HEAD"], timeout=60)
+    if code:
+        return None, None, [{"operation": "git_ls_remote", "exit_code": code,
+                             "output": output}]
+    branch = None
+    commit = None
+    for line in output.splitlines():
+        if line.startswith("ref: refs/heads/") and line.endswith("\tHEAD"):
+            branch = line.split("\t", 1)[0][len("ref: refs/heads/"):]
+        elif line.endswith("\tHEAD") and re.fullmatch(r"[0-9a-f]{40}\tHEAD", line):
+            commit = line.split("\t", 1)[0]
+    if not branch or not commit:
+        return branch, commit, [{"operation": "git_ls_remote_parse", "exit_code": 255,
+                                 "output": output}]
+    return branch, commit, []
+
+
+def _safe_extract(archive: Path, destination: Path) -> Path:
+    """Extract a GitHub source tarball while rejecting path traversal and links."""
+    destination.mkdir(parents=True, exist_ok=False)
+    root = destination.resolve()
+    with tarfile.open(archive, "r:gz") as handle:
+        members = handle.getmembers()
+        for member in members:
+            resolved = (destination / member.name).resolve()
+            if root not in resolved.parents and resolved != root:
+                raise RuntimeError(f"unsafe tar path: {member.name}")
+            if member.issym() or member.islnk():
+                raise RuntimeError(f"source archive contains a link: {member.name}")
+        handle.extractall(destination)
+    roots = [path for path in destination.iterdir() if path.is_dir()]
+    if len(roots) != 1:
+        raise RuntimeError(f"expected one archive root, found {len(roots)}")
+    return roots[0]
+
+
+def _snapshot_metadata(target: Path) -> dict | None:
+    path = target / ".night7a_source_snapshot.json"
+    if not path.is_file():
+        return None
+    try:
+        metadata = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if (not re.fullmatch(r"[0-9a-f]{40}", str(metadata.get("resolved_commit", ""))) or
+            not metadata.get("default_branch") or
+            not any(item.name != path.name for item in target.iterdir())):
+        return None
+    return metadata
+
+
 def clone(method: str, url: str) -> tuple[Path, list[dict]]:
+    """Acquire an exact GitHub commit snapshot and fail closed on partial sources.
+
+    The AutoDL HTTPS proxy repeatedly stalled Git pack transfers after receiving a
+    partial pack.  GitHub's official codeload endpoint provides the identical tree
+    at a commit without Git history, which is sufficient for this source-only
+    audit.  Commit and default branch are independently resolved by ls-remote.
+    """
     target = SOURCES / method
-    failures = []
-    if not target.exists():
-        code, output = run(["git", "clone", "--depth", "1", "--filter=blob:none", url, str(target)], timeout=900)
-        if code:
-            failures.append({"operation": "git_clone", "exit_code": code, "output": output})
-    if not (target / ".git").exists():
+    existing_snapshot = _snapshot_metadata(target) if target.exists() else None
+    if existing_snapshot:
+        return target, []
+    if target.exists():
+        return target, [{"operation": "preexisting_incomplete_source", "exit_code": 255,
+                         "output": "target exists without a verified source snapshot"}]
+
+    match = re.fullmatch(r"https://github\.com/([^/]+)/([^/]+?)(?:\.git)?/?", url)
+    if not match:
+        return target, [{"operation": "canonical_url_parse", "exit_code": 255,
+                         "output": f"unsupported canonical repository URL: {url}"}]
+    owner, repository = match.groups()
+    branch, commit, failures = _resolved_github_head(url)
+    if failures:
         return target, failures
-    return target, failures
+
+    SOURCES.mkdir(parents=True, exist_ok=True)
+    archive = SOURCES / f".{method}.{commit}.tar.gz.part"
+    extracting = SOURCES / f".{method}.{commit}.extracting"
+    codeload = f"https://codeload.github.com/{owner}/{repository}/tar.gz/{commit}"
+    maximum = 100_000_000
+    try:
+        request = urllib.request.Request(codeload, headers={
+            "User-Agent": "SpaLORA-Night7A-source-audit/1",
+        })
+        digest = hashlib.sha256()
+        size = 0
+        with urllib.request.urlopen(request, timeout=120) as response, archive.open("xb") as output:
+            while True:
+                chunk = response.read(1024 * 1024)
+                if not chunk:
+                    break
+                size += len(chunk)
+                if size > maximum:
+                    raise RuntimeError(f"source snapshot exceeds {maximum} bytes")
+                digest.update(chunk)
+                output.write(chunk)
+        archive_root = _safe_extract(archive, extracting)
+        archive_root.rename(target)
+        extracting.rmdir()
+        atomic_json(target / ".night7a_source_snapshot.json", {
+            "schema_version": 1,
+            "repository": url,
+            "resolved_commit": commit,
+            "default_branch": branch,
+            "acquisition": "github_codeload_exact_commit",
+            "codeload_url": codeload,
+            "archive_sha256": digest.hexdigest(),
+            "archive_size_bytes": size,
+        })
+    except Exception as exc:
+        return target, [{"operation": "github_codeload_exact_commit", "exit_code": 255,
+                         "output": f"{type(exc).__name__}: {exc}"}]
+    finally:
+        archive.unlink(missing_ok=True)
+        if extracting.exists() and not target.exists():
+            shutil.rmtree(extracting)
+    return target, []
 
 
 def git_value(target: Path, *args: str) -> str | None:
@@ -154,16 +266,27 @@ def license_audit(target: Path) -> dict:
 
 def audit_method(method: str, url: str, tier: str) -> dict:
     target, failures = clone(method, url)
-    if not (target / ".git").exists():
+    source_metadata = _snapshot_metadata(target) if target.exists() else None
+    git_checkout = ((target / ".git").exists() and
+                    git_value(target, "rev-parse", "--verify", "HEAD") is not None)
+    if not source_metadata and not git_checkout:
         return {"method": method, "repository": url, "tier": tier,
                 "status": "BLOCKED_ENVIRONMENT", "failures": failures,
                 "formal_benchmark_run": False}
-    commit = git_value(target, "rev-parse", "HEAD")
-    branch_ref = git_value(target, "symbolic-ref", "refs/remotes/origin/HEAD")
-    branch = branch_ref.rsplit("/", 1)[-1] if branch_ref else git_value(
-        target, "rev-parse", "--abbrev-ref", "HEAD"
-    )
-    submodules = git_value(target, "submodule", "status") or ""
+    if source_metadata:
+        commit = source_metadata["resolved_commit"]
+        branch = source_metadata["default_branch"]
+        gitmodules = target / ".gitmodules"
+        submodules = gitmodules.read_text(encoding="utf-8", errors="ignore") if gitmodules.exists() else ""
+        acquisition = source_metadata
+    else:
+        commit = git_value(target, "rev-parse", "HEAD")
+        branch_ref = git_value(target, "symbolic-ref", "refs/remotes/origin/HEAD")
+        branch = branch_ref.rsplit("/", 1)[-1] if branch_ref else git_value(
+            target, "rev-parse", "--abbrev-ref", "HEAD"
+        )
+        submodules = git_value(target, "submodule", "status") or ""
+        acquisition = {"acquisition": "git_checkout"}
     license_info = license_audit(target)
     scan = source_scan(target)
     environment = find_files(target, (r"requirements.*\.txt", r"environment.*\.ya?ml",
@@ -184,6 +307,7 @@ def audit_method(method: str, url: str, tier: str) -> dict:
     return {
         "method": method, "repository": url, "resolved_commit": commit,
         "default_branch_at_clone": branch, "tier": tier,
+        "source_acquisition": acquisition,
         "submodules": [line for line in submodules.splitlines() if line.strip()],
         "license": license_info, "environment_files": environment,
         "candidate_entrypoints": entrypoints, "source_scan": scan,

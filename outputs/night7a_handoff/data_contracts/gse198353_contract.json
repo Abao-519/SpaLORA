@@ -1,0 +1,59 @@
+{
+  "annotation_provenance": "no official auditable manual domain labels established in metadata-only preflight",
+  "archive_or_supplement_links": [
+    "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA814678"
+  ],
+  "benchmark_feasibility": "spatial continuity and replicate transfer only; not an accuracy ground-truth benchmark",
+  "benchmark_feasibility_by_shortlist": "RNA+protein-capable common-protocol methods; accuracy methods requiring K/labels are not eligible for this label-free role",
+  "coordinate_source": "official supplementary spatial files; not opened in Night-7A",
+  "file_size_checksum_status": "archive-level sizes/checksums not asserted without controlled listing audit",
+  "id": "GSE198353",
+  "known_k_without_labels": null,
+  "large_downloads": false,
+  "license_or_terms": "NCBI GEO public-access record; downstream file-specific terms require review",
+  "metadata_fetch": {
+    "headers": {
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Headers": "Origin,X-Accept-Charset,X-Accept,Content-Type,X-Requested-With,NCBI-SID,NCBI-PHID",
+      "Access-Control-Allow-Methods": "POST, GET, PUT, OPTIONS, PATCH, DELETE",
+      "Access-Control-Allow-Origin": "",
+      "Cache-Control": "private",
+      "Connection": "close",
+      "Content-Disposition": "attachment; filename=GSE198353.txt",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Content-Type": "geo/text",
+      "Date": "Tue, 18 Aug 2026 01:35:36 GMT",
+      "NCBI-PHID": "075116E9A83B6E810000000000000001.m_1",
+      "NCBI-SID": "075116E9A83B6E81_0000SID",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Server": "Apache",
+      "Set-Cookie": "ncbi_sid=075116E9A83B6E81_0000SID; domain=.nih.gov; path=/; expires=Wed, 18 Aug 2027 01:35:36 GMT",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Accept-Encoding",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-UA-Compatible": "IE=Edge",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "path": "/root/autodl-fs/night7a_dataset_metadata_20260818/GSE198353_metadata.txt",
+    "sha256": "44094058aa1d9fd4607111536029fc8e4819148fef27814f9a15f90945a6e7c3",
+    "size_bytes": 3075,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198353&targ=self&form=text&view=full"
+  },
+  "modalities": [
+    "RNA",
+    "protein"
+  ],
+  "official_metadata_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198353&targ=self&form=text&view=full",
+  "organism": "Mus musculus",
+  "pairing_key": "same-spot RNA/protein pairing requires controlled archive acquisition",
+  "per_spot_annotations_opened": false,
+  "platform": "SPOTS spatial RNA+protein",
+  "purpose": "label-free spleen replicate stability",
+  "replicates": 2,
+  "section_independence": "study-level independent of all four development datasets",
+  "spot_count": "not parsed from per-spot files in Night-7A",
+  "status": "READY_LABEL_FREE_REPLICATION",
+  "study_and_accession": "GSE198353",
+  "tissue": "spleen"
+}

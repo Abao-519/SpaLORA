@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "phase": "B1-SOURCE-PREFLIGHT",
+  "attempt": 1,
+  "status": "INVALID_INFRASTRUCTURE_ATTEMPT_PRESERVED",
+  "reason": "GitHub HTTPS pack transfer stalled and the original preflight accepted an incomplete .git directory as source presence",
+  "affected_methods": [
+    "SpatialGlue",
+    "Seurat_WNN"
+  ],
+  "manual_interrupt": true,
+  "formal_consensus_manifest_status_before_attempt": "LOCKED",
+  "formal_consensus_cells_modified": 0,
+  "scientific_training": 0,
+  "diffusion": 0,
+  "gpu_allocation_mib": 0.0,
+  "per_spot_label_deserializations": 0,
+  "result_reuse_allowed": false,
+  "raw_quarantine": "/root/autodl-fs/night7a_external_sources_20260818_invalid_attempt1",
+  "correction_scope": "source acquisition and complete-source validation only",
+  "scientific_candidate_or_threshold_changes": 0
+}

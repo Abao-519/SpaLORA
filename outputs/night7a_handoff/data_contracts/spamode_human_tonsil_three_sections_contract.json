@@ -1,0 +1,17 @@
+{
+  "benchmark_feasibility": "not locked until official record metadata can be retrieved",
+  "id": "SPAMODE_HUMAN_TONSIL_THREE_SECTIONS",
+  "known_k_without_labels": null,
+  "large_archives_downloaded": false,
+  "metadata_fetch_failure": "RuntimeError: metadata fetch failed after 3 attempts: https://zenodo.org/api/records/12654113: <urlopen error [Errno 111] Connection refused>",
+  "metadata_source": "https://zenodo.org/records/12654113",
+  "modalities": [
+    "RNA",
+    "protein"
+  ],
+  "organism": "Homo sapiens",
+  "per_spot_annotations_opened": false,
+  "status": "NEEDS_MANUAL_PROVENANCE_REVIEW",
+  "study_and_accession": "Zenodo 12654113",
+  "tissue": "tonsil"
+}
