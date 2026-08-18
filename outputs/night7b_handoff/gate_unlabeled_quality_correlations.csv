@@ -1,0 +1,16 @@
+gate_diagnostic,unlabeled_quality,n,pearson_r,label_values_used
+expert0_mean,final_total,46,0.10696512840891802,False
+expert0_mean,final_RECON,46,-0.04019291140452768,False
+expert0_mean,final_RELKL,46,-0.14080151494587875,False
+expert0_mean,final_MNN,38,0.2889702167504517,False
+expert0_mean,final_DCCA,8,0.2284769701753777,False
+expert1_mean,final_total,46,-0.10696493041531671,False
+expert1_mean,final_RECON,46,0.040193120224046294,False
+expert1_mean,final_RELKL,46,0.1408017253067103,False
+expert1_mean,final_MNN,38,-0.28897001102167774,False
+expert1_mean,final_DCCA,8,-0.2284779445202907,False
+fraction_max_expert_gt_0_95,final_total,46,,False
+fraction_max_expert_gt_0_95,final_RECON,46,,False
+fraction_max_expert_gt_0_95,final_RELKL,46,,False
+fraction_max_expert_gt_0_95,final_MNN,38,,False
+fraction_max_expert_gt_0_95,final_DCCA,8,,False

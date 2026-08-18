@@ -1,0 +1,33 @@
+{
+  "H_formal_transforms": {
+    "limit": 540,
+    "used": 540
+  },
+  "R1_scientific_training": {
+    "limit": 80,
+    "used": 80
+  },
+  "R1_transforms": {
+    "limit": 320,
+    "used": 320
+  },
+  "R2_scientific_training": {
+    "limit": 88,
+    "used": 44
+  },
+  "R2_transforms": {
+    "limit": 88,
+    "used": 88
+  },
+  "formal_external_benchmark_runs": 0,
+  "fresh_dataset_downloads_or_label_reads": 0,
+  "global_corrections": {
+    "limit": 12,
+    "used": 8
+  },
+  "scientific_retry": 0,
+  "scientific_training_total": {
+    "limit": 168,
+    "used": 124
+  }
+}

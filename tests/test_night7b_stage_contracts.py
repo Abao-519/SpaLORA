@@ -1,9 +1,11 @@
 import json
+import inspect
 from pathlib import Path
 
 import pandas as pd
 
 from scripts.night7b_adapter_evaluate import METRICS, final_gate, spatial_gate, summarize
+from scripts.night7b_finalize import build_report, markdown_table
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -82,3 +84,20 @@ def test_dataset_first_weighting_does_not_double_ten_seed_datasets():
     result = summarize(pd.DataFrame(candidate), pd.DataFrame(reference), ["X"], "H00").iloc[0]
     assert abs(result.priority_weighted_delta_q - .27) < 1e-12
     assert abs(result.balanced_macro_delta_q - .25) < 1e-12
+
+
+def test_finalize_report_loads_loss_effects_in_its_own_scope():
+    source = inspect.getsource(build_report)
+    assert 'effects = pd.read_csv(OUT / "loss_family_effects_descriptive.csv")' in source
+
+
+def test_markdown_table_has_no_optional_tabulate_dependency():
+    source = inspect.getsource(markdown_table)
+    assert ".to_markdown(" not in source
+    rendered = markdown_table(pd.DataFrame([{"name": "a|b", "score": 0.125}]),
+                              ["name", "score"])
+    assert rendered.splitlines() == [
+        "| name | score |",
+        "| --- | --- |",
+        "| a\\|b | 0.12500 |",
+    ]

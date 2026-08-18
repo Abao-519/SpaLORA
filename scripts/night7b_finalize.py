@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import json
+import numbers
 import os
 import subprocess
 import sys
@@ -160,7 +161,20 @@ def git_audit() -> dict:
 
 def markdown_table(frame: pd.DataFrame, columns: list[str], limit: int = 10) -> str:
     use = frame.loc[:, columns].head(limit)
-    return use.to_markdown(index=False, floatfmt=".5f")
+    def render(value) -> str:
+        if pd.isna(value):
+            return ""
+        if isinstance(value, numbers.Integral) and not isinstance(value, bool):
+            return str(int(value))
+        if isinstance(value, numbers.Real) and not isinstance(value, bool):
+            return "%.5f" % float(value)
+        return str(value).replace("|", "\\|")
+
+    rows = ["| " + " | ".join(columns) + " |",
+            "| " + " | ".join("---" for _ in columns) + " |"]
+    for values in use.itertuples(index=False, name=None):
+        rows.append("| " + " | ".join(render(value) for value in values) + " |")
+    return "\n".join(rows)
 
 
 def build_report() -> None:
@@ -171,6 +185,7 @@ def build_report() -> None:
     r2c06 = pd.read_csv(OUT / "R2_final_summary_vs_C06.csv")
     loss = pd.read_csv(OUT / "loss_diagnostics.csv")
     gate = pd.read_csv(OUT / "gate_diagnostics.csv")
+    effects = pd.read_csv(OUT / "loss_family_effects_descriptive.csv")
     failures = pd.read_csv(OUT / "failure_audit.csv")
     promoted_h = json.loads((OUT / "H_to_R1_contract.json").read_text())["promoted_head_ids"]
     promoted_r1 = json.loads((OUT / "R1_to_R2_contract.json").read_text())["promoted_config_ids"]
