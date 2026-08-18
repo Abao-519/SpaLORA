@@ -1,0 +1,19 @@
+{
+  "all_four_datasets_are_development_in_night7a": true,
+  "c01_role": "mechanism-only single-graph comparator; taskbook forbids it from replacing confirmed C00",
+  "checkpoint_forward": 0,
+  "dual_graph_candidates_passing_both_gates": [],
+  "generalization_and_complexity_gates_locked_before_labels": true,
+  "gpu_use": 0,
+  "parameter_tuning": false,
+  "ranked_eligible_candidates": [
+    "C00_G04_H05_CONFIRMED"
+  ],
+  "reference": "same-dataset same-seed G00/H00",
+  "schema_version": 1,
+  "scientific_training": 0,
+  "seed_search": false,
+  "selected_structure": "C00_G04_H05_CONFIRMED",
+  "selected_structure_confirmatory_status": "retains Night-6D confirmation",
+  "terminal_status": "KEEP_CONFIRMED_G04_H05_FOR_EXTERNAL_VALIDATION"
+}

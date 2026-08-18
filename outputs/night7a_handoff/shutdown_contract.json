@@ -1,0 +1,7 @@
+{
+  "command": "/usr/bin/shutdown",
+  "console_power_state_must_be_confirmed_by_user": true,
+  "must_be_last_remote_command": true,
+  "reconnect_after_dispatch_forbidden": true,
+  "remote_dispatch_status_recorded_locally_after_session_exit": true
+}

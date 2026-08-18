@@ -77,8 +77,27 @@ def main() -> None:
                 payload.get("gpu_allocation_mib")
                 if "gpu_allocation_mib" in payload
                 else payload["preservation"]["gpu_allocation_mib"]
-            ),
-        })
+                ),
+            })
+    source_preflight_attempt_path = (
+        OUT / "invalid_attempts/preflight_attempt1_git_pack_stall/attempt.json"
+    )
+    source_preflight_payload = json.loads(source_preflight_attempt_path.read_text())
+    source_preflight_attempt = {
+        "attempt": source_preflight_payload["attempt"],
+        "path": str(source_preflight_attempt_path.relative_to(REPO)),
+        "size_bytes": source_preflight_attempt_path.stat().st_size,
+        "sha256": sha256_file(source_preflight_attempt_path),
+        "status": source_preflight_payload["status"],
+        "reason": source_preflight_payload["reason"],
+        "formal_consensus_cells_modified":
+            source_preflight_payload["formal_consensus_cells_modified"],
+        "per_spot_label_deserializations":
+            source_preflight_payload["per_spot_label_deserializations"],
+        "gpu_allocation_mib": source_preflight_payload["gpu_allocation_mib"],
+        "result_reuse_allowed": source_preflight_payload["result_reuse_allowed"],
+        "raw_quarantine": source_preflight_payload["raw_quarantine"],
+    }
     terminal = decision["terminal_status"]
     failures = [row for row in transform["transforms"] if row["status"] != "success"]
     atomic_json(OUT / "failure_and_retry_audit.json", {
@@ -88,6 +107,7 @@ def main() -> None:
         "formal_implementation_or_infrastructure_corrections":
             transform["implementation_corrections"],
         "p0_pre_science_infrastructure_attempts": p0_infrastructure_attempts,
+        "source_preflight_infrastructure_attempts": [source_preflight_attempt],
         "p0_attempts_count_against_360_plus_12_transform_budget": False,
         "silent_fallbacks": 0, "cells": failures,
     })
@@ -97,6 +117,9 @@ def main() -> None:
         "transform_corrections": transform["implementation_corrections"],
         "pre_science_p0_infrastructure_attempts": len(p0_infrastructure_attempts),
         "pre_science_p0_formal_transform_attempts": 0,
+        "source_preflight_infrastructure_attempts": 1,
+        "source_preflight_formal_consensus_cells_modified": 0,
+        "source_preflight_per_spot_label_deserializations": 0,
         "total_transform_attempts": transform["total_transform_attempts"],
         "formal_benchmark_runs": 0, "fresh_external_label_reads": 0,
         "development_label_windows": 1, "gpu_use": 0,
@@ -186,6 +209,7 @@ def main() -> None:
 - Remote views were resolved only through authoritative raw manifests: `60/60`; G00/G04 observation and coordinate parity: `30/30`; historical prediction files: `120/120`.
 - Exact real H05 parity: `{semantic['h05_exact_partition_parity']}`. C02 six-view arithmetic identity tolerance was `1e-12`.
 - Three pre-science infrastructure attempts are preserved: the first had zero completed units under an oversubscribed 0.5-CPU quota; the next two were terminated at the 2 GiB memory boundary after 21 and 1 completed P0 units. All had zero formal transforms, zero label reads, and zero GPU use. The final P0 used non-overlapping source-verifier, per-cell, and aggregator processes without changing solver, tolerance, data, order, or candidate semantics.
+- One later pre-label source-preflight infrastructure attempt is also preserved: GitHub HTTPS pack transfer stalled and the old presence check could have accepted a residual incomplete `.git` directory. It was interrupted before labels, quarantined, and never reused; it modified zero formal consensus cells and used zero GPU. The correction retained the same canonical repository and resolved commit while requiring a complete official codeload snapshot.
 - Post-lock historical H00/H05 metric replay: `{historical_replay['rows']}`, maximum absolute error `{historical_replay['maximum_absolute_error']:.3g}` (tolerance `1e-12`).
 
 ## Consensus execution
@@ -209,7 +233,7 @@ The fixed ranking was worst-dataset mean Delta-Q, dataset-balanced macro Delta-Q
 
 {markdown_table(method_table, list(method_table.columns))}
 
-This is a source audit, not an accuracy comparison. Successfully cloned repositories were resolved to exact commits, while any clone failure is preserved as `BLOCKED_ENVIRONMENT`; executable source and tutorials were scanned for label access, best-ARI/NMI or best-epoch selection, K handling, endpoints, environment files, and licenses. Missing licenses remain source-only; methods requiring labels for checkpoint selection require a disclosed fixed-final label-free adapter; private weights or a mandatory third modality remain task-mismatch blockers. No upstream no-license source was copied.
+This is a source audit, not an accuracy comparison. Successfully acquired official GitHub source snapshots were independently resolved to exact commits, while any source-acquisition failure is preserved as `BLOCKED_ENVIRONMENT`; executable source and tutorials were scanned for label access, best-ARI/NMI or best-epoch selection, K handling, endpoints, environment files, and licenses. Missing licenses remain source-only; methods requiring labels for checkpoint selection require a disclosed fixed-final label-free adapter; private weights or a mandatory third modality remain task-mismatch blockers. No upstream no-license source was copied.
 
 ## Fresh-data metadata preflight
 
@@ -232,7 +256,7 @@ Do not resume graph/head/loss development on A1, tonsil, D1, or P22. The next GP
 ## Evidence locations
 
 - Remote raw consensus: `{RAW}` (affinities and clusters remain remote only).
-- External source clones: `/root/autodl-fs/night7a_external_sources_20260818`.
+- External exact-commit source snapshots: `/root/autodl-fs/night7a_external_sources_20260818`.
 - Metadata cache: `/root/autodl-fs/night7a_dataset_metadata_20260818`.
 - Compact output: `outputs/night7a_handoff`; final Windows root: `D:/文档/ChatGPT/博士第一篇科研论文项目/night7a_handoff_20260818/official_compact` (independently verified after final Git persistence).
 - Git branch: `revision/q2-night7a-cpu-consensus-preflight-20260818`; planned immutable final tag: `night7a-final-20260818`. The final commit, bundle SHA, compact indexes, Windows verification, and shutdown dispatch status are recorded in the non-self-referential external/post-dispatch indexes created after this report's delivery-index commit.

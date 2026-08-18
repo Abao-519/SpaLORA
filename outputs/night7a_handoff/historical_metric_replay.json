@@ -1,0 +1,1640 @@
+{
+  "authorities": {
+    "night6c": {
+      "path": "/autodl-fs/data/SpaLORA-night7a/protocols/night7a/historical/night6c_per_seed_metrics.csv",
+      "sha256": "284b015c005b3b877a6b06ca565b0823285b7d57f39941eb225118f45ce8bd15"
+    },
+    "night6d": {
+      "path": "/autodl-fs/data/SpaLORA-night7a/protocols/night7a/historical/night6d_per_seed_metrics.csv",
+      "sha256": "97beb1adca50f753ccb35aa95a35d3a54a5f6758d3599844eaca2ac6b7cb1a1e"
+    }
+  },
+  "cells": [
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "a1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 0.0,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "a1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "a1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "a1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "a1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "a1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 1.3877787807814457e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 8.326672684688674e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "tonsil",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 1.3877787807814457e-17,
+        "boundary_disagreement": 2.7755575615628914e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 8.326672684688674e-17,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "tonsil",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 8.326672684688674e-17
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 2.7755575615628914e-17,
+      "metric_absolute_errors": {
+        "ari": 6.938893903907228e-18,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 2.7755575615628914e-17,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "tonsil",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 0.0,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "tonsil",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "tonsil",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6c",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "tonsil",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 2.7755575615628914e-17
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 0.0,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 5
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 5
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 5
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 8.326672684688674e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 6
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 2.7755575615628914e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 6
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 6
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 7
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 7
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 7
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 8
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 8
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 0.0
+      },
+      "seed": 8
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 2.7755575615628914e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 5.551115123125783e-17,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 9
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 9
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 9
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 2.7755575615628914e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 8.326672684688674e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 1.3877787807814457e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 0
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 8.326672684688674e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 1
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 2.7755575615628914e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 2.7755575615628914e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 2
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 0.0,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 1.3877787807814457e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 2.7755575615628914e-17,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 3
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 2.7755575615628914e-17,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 1.3877787807814457e-17,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 2.7755575615628914e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 4
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 2.7755575615628914e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 5
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 5
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 2.7755575615628914e-17,
+        "geary_c": 2.7755575615628914e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 5
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 2.7755575615628914e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 6
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 1.3877787807814457e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 6
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 4.163336342344337e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 6
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 7
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 8.326672684688674e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 7
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 4.163336342344337e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 7
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 8
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 5.551115123125783e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 2.7755575615628914e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 5.551115123125783e-17
+      },
+      "seed": 8
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 0.0,
+        "geary_c": 4.163336342344337e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 8
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "REFERENCE_G00_H00",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H00_FUSED_PCA20_MCLUST_EEE",
+      "maximum_absolute_error": 8.326672684688674e-17,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 8.326672684688674e-17,
+        "geary_c": 5.551115123125783e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 9
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "graph_id": "G04_SP10_F10_EUC_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 6.938893903907228e-17,
+      "metric_absolute_errors": {
+        "ari": 5.551115123125783e-17,
+        "boundary_disagreement": 6.938893903907228e-17,
+        "geary_c": 2.7755575615628914e-17,
+        "moran_i": 0.0,
+        "neighbor_agreement": 0.0,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 9
+    },
+    {
+      "authority": "night6d",
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "graph_id": "G00_SP18_F20_CORR_UNION",
+      "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "metric_absolute_errors": {
+        "ari": 0.0,
+        "boundary_disagreement": 5.551115123125783e-17,
+        "geary_c": 0.0,
+        "moran_i": 0.0,
+        "neighbor_agreement": 1.1102230246251565e-16,
+        "nmi": 0.0,
+        "q": 0.0
+      },
+      "seed": 9
+    }
+  ],
+  "historical_final_weights_claimed_loadable": false,
+  "label_snapshot_reuse": "not available in Night-6C/Night-6D authoritative raw delivery; byte-locked sources and 90-row numerical replay used",
+  "maximum_absolute_error": 1.1102230246251565e-16,
+  "rows": "90/90",
+  "status": "PASS",
+  "tolerance": 1e-12
+}

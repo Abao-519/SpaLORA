@@ -1,0 +1,547 @@
+{
+  "cells": [
+    {
+      "S_G00_sha256": "fa1232593dde1dad6eca678c14f7ad592e6e17331ee029260f339bb5be897ffe",
+      "S_G04_sha256": "8647a948a647f77f647c8f2cd46cbe7e4e930e2e5048392e94aab673a56e9505",
+      "affinity_audit": {
+        "canonical_sparse_sha256": "0cc36a1cc2a6497e230496161b5dd901f4167a5771a60f43c0672b054387137e",
+        "connected_component_count": 2,
+        "connected_component_sizes": [
+          3358,
+          1
+        ],
+        "diagonal_max_abs": 0.0,
+        "finite": true,
+        "max": 0.8333642209367556,
+        "min": 0.008286975354799154,
+        "nnz": 59392,
+        "shape": [
+          3359,
+          3359
+        ],
+        "sparse_csr": true,
+        "symmetry_max_error": 0.0,
+        "zero_degree_count": 1
+      },
+      "artifacts": {
+        "consensus_affinity.npz": {
+          "canonical_sparse_sha256": "0cc36a1cc2a6497e230496161b5dd901f4167a5771a60f43c0672b054387137e",
+          "path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_0/C04_DUAL_ELEMENTWISE_MIN/attempt_001/consensus_affinity.npz",
+          "sha256": "ba38253c3947f878d23b60e5db73a98ab26096fb833e882337cf6192553b3bdb",
+          "size_bytes": 542226
+        }
+      },
+      "attempt": 1,
+      "base_manifest_path": "/root/autodl-fs/night7a_consensus_20260818/base/d1/seed_0/base_manifest.json",
+      "base_manifest_sha256": "1aebac553f5bfb025eb20d3d980069fa7842a8bfbe66d14fe460b5e714e79e34",
+      "candidate_audit_path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_0/C04_DUAL_ELEMENTWISE_MIN/attempt_001/candidate_audit.json",
+      "candidate_audit_sha256": "a62d36c330eeeb01add1e7df73d987c6a6552d95d967c7c99e001a8406e2bd49",
+      "candidate_config_sha256": "2ab246a134ce7b4458f4ce9ccb79a056e7d0bf78a01abc1259311bbcdbab0d2b",
+      "candidate_diagnostics": {},
+      "candidate_id": "C04_DUAL_ELEMENTWISE_MIN",
+      "code_commit": "0d0819d983b9c8a14ed5ee60a8354aaf359bd8e8",
+      "correction_id": null,
+      "cuda_visible_devices": "",
+      "dataset": "d1",
+      "environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "numpy": "1.22.3",
+        "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+        "python": "3.8.10",
+        "scipy": "1.8.1",
+        "sklearn": "1.1.1",
+        "torch": "2.0.0+cu118"
+      },
+      "error": "invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59392, 'sparse_csr': True, 'finite': True, 'min': 0.008286975354799154, 'max': 0.8333642209367556, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '0cc36a1cc2a6497e230496161b5dd901f4167a5771a60f43c0672b054387137e'}",
+      "error_type": "FloatingPointError",
+      "fallback": false,
+      "gpu_allocation_mib": 0.0,
+      "input_views_sha256": [
+        "68140a8c5df00c66773e1de25375b28ef1fdd1175170335bca2350164ae45d3a",
+        "7cd9d913fd2c5f1c2fc985b6bf38f9dde4f582472e1b5dd4d5b6bedef926dc6b"
+      ],
+      "label_access": false,
+      "ordinal": 125,
+      "process_peak_rss_mib": 670.375,
+      "python": "3.8.10",
+      "registry_sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "runtime_seconds": 0.2591948118060827,
+      "seed": 0,
+      "six_affinity_canonical_sha256": {
+        "G00_SP18_F20_CORR_UNION/SpaLORA_fused": "42d8e1f4acc5c9e823b6a15925586d59eca61355c50dce21a90f5f4c8b637b30",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics1": "ec4c6f0472069ab641ada46933f58961bea9142680890d51723d1890a1e890b1",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics2": "31d0998295c2bb716bcb632e5ce7106bb365be4a14c9039d6ae59d5a0d72c7cd",
+        "G04_SP10_F10_EUC_UNION/SpaLORA_fused": "fe716d87b7001b5b71846b811cb2a9aa6892f806fdfcd13c57daf59df01d1afe",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics1": "edf8f4bc0a5972bca812dac6d2ec417eeeefbe4fac6bf4b6c401833b74615d7e",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics2": "c5dcb88532e13c70690c785c3a0b50198fae8808880ec78c993ad5dc8c6f8f7f"
+      },
+      "spectral_warnings": [],
+      "status": "scientific_numerical_failure",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/night7a_transform.py\", line 205, in main\n    raise FloatingPointError(f\"invalid consensus affinity audit: {audit}\")\nFloatingPointError: invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59392, 'sparse_csr': True, 'finite': True, 'min': 0.008286975354799154, 'max': 0.8333642209367556, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '0cc36a1cc2a6497e230496161b5dd901f4167a5771a60f43c0672b054387137e'}\n"
+    },
+    {
+      "S_G00_sha256": "fa1232593dde1dad6eca678c14f7ad592e6e17331ee029260f339bb5be897ffe",
+      "S_G04_sha256": "8647a948a647f77f647c8f2cd46cbe7e4e930e2e5048392e94aab673a56e9505",
+      "affinity_audit": {
+        "canonical_sparse_sha256": "222f0d7d4c09f1f4dc649d036b1da320875be4ba144eabc9d429d436bdc4a4d7",
+        "connected_component_count": 2,
+        "connected_component_sizes": [
+          3358,
+          1
+        ],
+        "diagonal_max_abs": 0.0,
+        "finite": true,
+        "max": 0.8451594702796578,
+        "min": 0.010773598017122342,
+        "nnz": 59392,
+        "shape": [
+          3359,
+          3359
+        ],
+        "sparse_csr": true,
+        "symmetry_max_error": 0.0,
+        "zero_degree_count": 1
+      },
+      "artifacts": {
+        "consensus_affinity.npz": {
+          "canonical_sparse_sha256": "222f0d7d4c09f1f4dc649d036b1da320875be4ba144eabc9d429d436bdc4a4d7",
+          "path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_0/C05_DUAL_HARMONIC_INTERSECTION/attempt_001/consensus_affinity.npz",
+          "sha256": "fac6921e9786d7750b680db045722ce61004e2692ce4cedf0c3615923aeecab1",
+          "size_bytes": 543269
+        }
+      },
+      "attempt": 1,
+      "base_manifest_path": "/root/autodl-fs/night7a_consensus_20260818/base/d1/seed_0/base_manifest.json",
+      "base_manifest_sha256": "1aebac553f5bfb025eb20d3d980069fa7842a8bfbe66d14fe460b5e714e79e34",
+      "candidate_audit_path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_0/C05_DUAL_HARMONIC_INTERSECTION/attempt_001/candidate_audit.json",
+      "candidate_audit_sha256": "8aaa3cd76a0909450050250fb766d1877a9cec0f5e6685676ab4d5f90b39fbf3",
+      "candidate_config_sha256": "03f151d39ab7fba2dc8f652da9437fa2ee547285ad9f850252aa3085e229a2cf",
+      "candidate_diagnostics": {},
+      "candidate_id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "code_commit": "0d0819d983b9c8a14ed5ee60a8354aaf359bd8e8",
+      "correction_id": null,
+      "cuda_visible_devices": "",
+      "dataset": "d1",
+      "environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "numpy": "1.22.3",
+        "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+        "python": "3.8.10",
+        "scipy": "1.8.1",
+        "sklearn": "1.1.1",
+        "torch": "2.0.0+cu118"
+      },
+      "error": "invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59392, 'sparse_csr': True, 'finite': True, 'min': 0.010773598017122342, 'max': 0.8451594702796578, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '222f0d7d4c09f1f4dc649d036b1da320875be4ba144eabc9d429d436bdc4a4d7'}",
+      "error_type": "FloatingPointError",
+      "fallback": false,
+      "gpu_allocation_mib": 0.0,
+      "input_views_sha256": [
+        "68140a8c5df00c66773e1de25375b28ef1fdd1175170335bca2350164ae45d3a",
+        "7cd9d913fd2c5f1c2fc985b6bf38f9dde4f582472e1b5dd4d5b6bedef926dc6b"
+      ],
+      "label_access": false,
+      "ordinal": 126,
+      "process_peak_rss_mib": 670.375,
+      "python": "3.8.10",
+      "registry_sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "runtime_seconds": 0.25269126147031784,
+      "seed": 0,
+      "six_affinity_canonical_sha256": {
+        "G00_SP18_F20_CORR_UNION/SpaLORA_fused": "42d8e1f4acc5c9e823b6a15925586d59eca61355c50dce21a90f5f4c8b637b30",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics1": "ec4c6f0472069ab641ada46933f58961bea9142680890d51723d1890a1e890b1",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics2": "31d0998295c2bb716bcb632e5ce7106bb365be4a14c9039d6ae59d5a0d72c7cd",
+        "G04_SP10_F10_EUC_UNION/SpaLORA_fused": "fe716d87b7001b5b71846b811cb2a9aa6892f806fdfcd13c57daf59df01d1afe",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics1": "edf8f4bc0a5972bca812dac6d2ec417eeeefbe4fac6bf4b6c401833b74615d7e",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics2": "c5dcb88532e13c70690c785c3a0b50198fae8808880ec78c993ad5dc8c6f8f7f"
+      },
+      "spectral_warnings": [],
+      "status": "scientific_numerical_failure",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/night7a_transform.py\", line 205, in main\n    raise FloatingPointError(f\"invalid consensus affinity audit: {audit}\")\nFloatingPointError: invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59392, 'sparse_csr': True, 'finite': True, 'min': 0.010773598017122342, 'max': 0.8451594702796578, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '222f0d7d4c09f1f4dc649d036b1da320875be4ba144eabc9d429d436bdc4a4d7'}\n"
+    },
+    {
+      "S_G00_sha256": "be6a7635e757e85791a3e4ad2c14bd2f3b0b0056262daed5a71e46d2d73dac05",
+      "S_G04_sha256": "8c3e320541b0fc70d119415ddf7b17d91634e83dabc208701a9c9379e8b178fc",
+      "affinity_audit": {
+        "canonical_sparse_sha256": "e86765fa7d95fbd07462f31194374f161fcaa60ae99148ac0f96582bc5f02349",
+        "connected_component_count": 2,
+        "connected_component_sizes": [
+          3358,
+          1
+        ],
+        "diagonal_max_abs": 0.0,
+        "finite": true,
+        "max": 0.8496513724624913,
+        "min": 0.01023722544638301,
+        "nnz": 59750,
+        "shape": [
+          3359,
+          3359
+        ],
+        "sparse_csr": true,
+        "symmetry_max_error": 0.0,
+        "zero_degree_count": 1
+      },
+      "artifacts": {
+        "consensus_affinity.npz": {
+          "canonical_sparse_sha256": "e86765fa7d95fbd07462f31194374f161fcaa60ae99148ac0f96582bc5f02349",
+          "path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_5/C04_DUAL_ELEMENTWISE_MIN/attempt_001/consensus_affinity.npz",
+          "sha256": "5df3fc793e71de93fd39465de94b491f7e75fce211b39d07d3d8835194f743e5",
+          "size_bytes": 545659
+        }
+      },
+      "attempt": 1,
+      "base_manifest_path": "/root/autodl-fs/night7a_consensus_20260818/base/d1/seed_5/base_manifest.json",
+      "base_manifest_sha256": "7143d19f69f9d3c956e558875aa8fd6efe12317ca0e01f09e644c4e2e13127c9",
+      "candidate_audit_path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_5/C04_DUAL_ELEMENTWISE_MIN/attempt_001/candidate_audit.json",
+      "candidate_audit_sha256": "4f0e2eea486c8963e845e79268be98f1067f467e053cd46ea94d6665acabeb0f",
+      "candidate_config_sha256": "2ab246a134ce7b4458f4ce9ccb79a056e7d0bf78a01abc1259311bbcdbab0d2b",
+      "candidate_diagnostics": {},
+      "candidate_id": "C04_DUAL_ELEMENTWISE_MIN",
+      "code_commit": "0d0819d983b9c8a14ed5ee60a8354aaf359bd8e8",
+      "correction_id": null,
+      "cuda_visible_devices": "",
+      "dataset": "d1",
+      "environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "numpy": "1.22.3",
+        "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+        "python": "3.8.10",
+        "scipy": "1.8.1",
+        "sklearn": "1.1.1",
+        "torch": "2.0.0+cu118"
+      },
+      "error": "invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59750, 'sparse_csr': True, 'finite': True, 'min': 0.01023722544638301, 'max': 0.8496513724624913, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': 'e86765fa7d95fbd07462f31194374f161fcaa60ae99148ac0f96582bc5f02349'}",
+      "error_type": "FloatingPointError",
+      "fallback": false,
+      "gpu_allocation_mib": 0.0,
+      "input_views_sha256": [
+        "b32e143031ed98d1dd95fd611aeb34a3ae85155457d69153343e6e41d9e64b88",
+        "a8d77dd2e088787082d6a3bb8ed0d79a4f2ea1402b4200a74ded48f493620f40"
+      ],
+      "label_access": false,
+      "ordinal": 185,
+      "process_peak_rss_mib": 670.375,
+      "python": "3.8.10",
+      "registry_sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "runtime_seconds": 0.302179679274559,
+      "seed": 5,
+      "six_affinity_canonical_sha256": {
+        "G00_SP18_F20_CORR_UNION/SpaLORA_fused": "dee97087d2aecc858f7079b435843baac24b2c0c21ce43816cfc479a520ba470",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics1": "649261865585f2d4db18103e6c6410407115ab240a27a2ca91bf7f1c1fe2f153",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics2": "afb8fce4dc72c11b9f24747cb63f674cb485f2bc7261b507eafd81c021b7fa25",
+        "G04_SP10_F10_EUC_UNION/SpaLORA_fused": "635f28cdec05195f6e77cbc4df5de6f1b012eb726a158c96449bfeb3f9d40f74",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics1": "89a06aa5ee062f26a606d153aaa7e70f6a8e2003127616e5487a0197aaf94acc",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics2": "08fed924581a9bfd326b1fdd8007efb12b8aef16766b7599e42ea4d58b593572"
+      },
+      "spectral_warnings": [],
+      "status": "scientific_numerical_failure",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/night7a_transform.py\", line 205, in main\n    raise FloatingPointError(f\"invalid consensus affinity audit: {audit}\")\nFloatingPointError: invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59750, 'sparse_csr': True, 'finite': True, 'min': 0.01023722544638301, 'max': 0.8496513724624913, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': 'e86765fa7d95fbd07462f31194374f161fcaa60ae99148ac0f96582bc5f02349'}\n"
+    },
+    {
+      "S_G00_sha256": "be6a7635e757e85791a3e4ad2c14bd2f3b0b0056262daed5a71e46d2d73dac05",
+      "S_G04_sha256": "8c3e320541b0fc70d119415ddf7b17d91634e83dabc208701a9c9379e8b178fc",
+      "affinity_audit": {
+        "canonical_sparse_sha256": "9c15df31da677c7297189da088f9f9737e8b991c51740de478ca814a1d76c338",
+        "connected_component_count": 2,
+        "connected_component_sizes": [
+          3358,
+          1
+        ],
+        "diagonal_max_abs": 0.0,
+        "finite": true,
+        "max": 0.8612380570512613,
+        "min": 0.013199194262616313,
+        "nnz": 59750,
+        "shape": [
+          3359,
+          3359
+        ],
+        "sparse_csr": true,
+        "symmetry_max_error": 0.0,
+        "zero_degree_count": 1
+      },
+      "artifacts": {
+        "consensus_affinity.npz": {
+          "canonical_sparse_sha256": "9c15df31da677c7297189da088f9f9737e8b991c51740de478ca814a1d76c338",
+          "path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_5/C05_DUAL_HARMONIC_INTERSECTION/attempt_001/consensus_affinity.npz",
+          "sha256": "c0a642da3b608978d8f620563a2788a0869d70416dc425df96795f01a3feecfd",
+          "size_bytes": 546564
+        }
+      },
+      "attempt": 1,
+      "base_manifest_path": "/root/autodl-fs/night7a_consensus_20260818/base/d1/seed_5/base_manifest.json",
+      "base_manifest_sha256": "7143d19f69f9d3c956e558875aa8fd6efe12317ca0e01f09e644c4e2e13127c9",
+      "candidate_audit_path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_5/C05_DUAL_HARMONIC_INTERSECTION/attempt_001/candidate_audit.json",
+      "candidate_audit_sha256": "55dc593ffeea8b7b1eaabff56358949647db6138b2e6c1f656964305fed18734",
+      "candidate_config_sha256": "03f151d39ab7fba2dc8f652da9437fa2ee547285ad9f850252aa3085e229a2cf",
+      "candidate_diagnostics": {},
+      "candidate_id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "code_commit": "0d0819d983b9c8a14ed5ee60a8354aaf359bd8e8",
+      "correction_id": null,
+      "cuda_visible_devices": "",
+      "dataset": "d1",
+      "environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "numpy": "1.22.3",
+        "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+        "python": "3.8.10",
+        "scipy": "1.8.1",
+        "sklearn": "1.1.1",
+        "torch": "2.0.0+cu118"
+      },
+      "error": "invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59750, 'sparse_csr': True, 'finite': True, 'min': 0.013199194262616313, 'max': 0.8612380570512613, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '9c15df31da677c7297189da088f9f9737e8b991c51740de478ca814a1d76c338'}",
+      "error_type": "FloatingPointError",
+      "fallback": false,
+      "gpu_allocation_mib": 0.0,
+      "input_views_sha256": [
+        "b32e143031ed98d1dd95fd611aeb34a3ae85155457d69153343e6e41d9e64b88",
+        "a8d77dd2e088787082d6a3bb8ed0d79a4f2ea1402b4200a74ded48f493620f40"
+      ],
+      "label_access": false,
+      "ordinal": 186,
+      "process_peak_rss_mib": 670.375,
+      "python": "3.8.10",
+      "registry_sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "runtime_seconds": 0.296321015805006,
+      "seed": 5,
+      "six_affinity_canonical_sha256": {
+        "G00_SP18_F20_CORR_UNION/SpaLORA_fused": "dee97087d2aecc858f7079b435843baac24b2c0c21ce43816cfc479a520ba470",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics1": "649261865585f2d4db18103e6c6410407115ab240a27a2ca91bf7f1c1fe2f153",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics2": "afb8fce4dc72c11b9f24747cb63f674cb485f2bc7261b507eafd81c021b7fa25",
+        "G04_SP10_F10_EUC_UNION/SpaLORA_fused": "635f28cdec05195f6e77cbc4df5de6f1b012eb726a158c96449bfeb3f9d40f74",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics1": "89a06aa5ee062f26a606d153aaa7e70f6a8e2003127616e5487a0197aaf94acc",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics2": "08fed924581a9bfd326b1fdd8007efb12b8aef16766b7599e42ea4d58b593572"
+      },
+      "spectral_warnings": [],
+      "status": "scientific_numerical_failure",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/night7a_transform.py\", line 205, in main\n    raise FloatingPointError(f\"invalid consensus affinity audit: {audit}\")\nFloatingPointError: invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59750, 'sparse_csr': True, 'finite': True, 'min': 0.013199194262616313, 'max': 0.8612380570512613, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '9c15df31da677c7297189da088f9f9737e8b991c51740de478ca814a1d76c338'}\n"
+    },
+    {
+      "S_G00_sha256": "e7aa5ec0d7c768475c774bdaa1090071aefa21c1cf0679265e44eabbbc1c9e45",
+      "S_G04_sha256": "e986b28edf10322876562b5d66c5e103681dd1a3cf441526fb5463457aefc37d",
+      "affinity_audit": {
+        "canonical_sparse_sha256": "e46f8dc4bd64ae7c5d2425b6d9feb0e2133c99ba1aa7f00c09cdaaddd182cbed",
+        "connected_component_count": 2,
+        "connected_component_sizes": [
+          3358,
+          1
+        ],
+        "diagonal_max_abs": 0.0,
+        "finite": true,
+        "max": 0.8271576292182652,
+        "min": 0.008593613018287573,
+        "nnz": 59044,
+        "shape": [
+          3359,
+          3359
+        ],
+        "sparse_csr": true,
+        "symmetry_max_error": 0.0,
+        "zero_degree_count": 1
+      },
+      "artifacts": {
+        "consensus_affinity.npz": {
+          "canonical_sparse_sha256": "e46f8dc4bd64ae7c5d2425b6d9feb0e2133c99ba1aa7f00c09cdaaddd182cbed",
+          "path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_6/C04_DUAL_ELEMENTWISE_MIN/attempt_001/consensus_affinity.npz",
+          "sha256": "8dd57ee367bd697670c00a7eda553906b0a5fc1e9fc28e47fa55a780e2399e47",
+          "size_bytes": 539717
+        }
+      },
+      "attempt": 1,
+      "base_manifest_path": "/root/autodl-fs/night7a_consensus_20260818/base/d1/seed_6/base_manifest.json",
+      "base_manifest_sha256": "2197e9761f9162b484ccbf7338ed035f11a385c4d80b42c8b058d7bb281d33ed",
+      "candidate_audit_path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_6/C04_DUAL_ELEMENTWISE_MIN/attempt_001/candidate_audit.json",
+      "candidate_audit_sha256": "3576608e803da56d3a26cf2836177eb64ce9de9bf18680d4d0d73b658012d661",
+      "candidate_config_sha256": "2ab246a134ce7b4458f4ce9ccb79a056e7d0bf78a01abc1259311bbcdbab0d2b",
+      "candidate_diagnostics": {},
+      "candidate_id": "C04_DUAL_ELEMENTWISE_MIN",
+      "code_commit": "0d0819d983b9c8a14ed5ee60a8354aaf359bd8e8",
+      "correction_id": null,
+      "cuda_visible_devices": "",
+      "dataset": "d1",
+      "environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "numpy": "1.22.3",
+        "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+        "python": "3.8.10",
+        "scipy": "1.8.1",
+        "sklearn": "1.1.1",
+        "torch": "2.0.0+cu118"
+      },
+      "error": "invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59044, 'sparse_csr': True, 'finite': True, 'min': 0.008593613018287573, 'max': 0.8271576292182652, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': 'e46f8dc4bd64ae7c5d2425b6d9feb0e2133c99ba1aa7f00c09cdaaddd182cbed'}",
+      "error_type": "FloatingPointError",
+      "fallback": false,
+      "gpu_allocation_mib": 0.0,
+      "input_views_sha256": [
+        "825916897f1a91e6495e0c023fc44d168c710da3b2f0dcba48ba8e7b9b8823c4",
+        "ce029d5c1243dc528de7aa96d1f587d48ae6efffbc8ddd5089f20097617a6ba3"
+      ],
+      "label_access": false,
+      "ordinal": 197,
+      "process_peak_rss_mib": 670.375,
+      "python": "3.8.10",
+      "registry_sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "runtime_seconds": 0.3015201520174742,
+      "seed": 6,
+      "six_affinity_canonical_sha256": {
+        "G00_SP18_F20_CORR_UNION/SpaLORA_fused": "617734e61ae24f8e7a283f6516d67edb67bd6a98a3495176fca3ccc930206d5c",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics1": "d53bbb6dcd954da2f4f2bdbfe1179850b4f75444061426d3bb9eb8f2da3bae7f",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics2": "96ebef0fcab436f446413dc5d512382dd8f54975ef3117689749d4fccbfbfd13",
+        "G04_SP10_F10_EUC_UNION/SpaLORA_fused": "9c7ef90e3d607afc508e827f7015cfcc39e4d973ab226a2701991df687b9e539",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics1": "a5a3a81a49bd5d335fca3993e1ac320c5654fcd6b29535684d0b7c7c7eed41bf",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics2": "fa0b62376b2cf6306a877a98e3dc24d167facdbb10951d7246b588ee8177669e"
+      },
+      "spectral_warnings": [],
+      "status": "scientific_numerical_failure",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/night7a_transform.py\", line 205, in main\n    raise FloatingPointError(f\"invalid consensus affinity audit: {audit}\")\nFloatingPointError: invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59044, 'sparse_csr': True, 'finite': True, 'min': 0.008593613018287573, 'max': 0.8271576292182652, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': 'e46f8dc4bd64ae7c5d2425b6d9feb0e2133c99ba1aa7f00c09cdaaddd182cbed'}\n"
+    },
+    {
+      "S_G00_sha256": "e7aa5ec0d7c768475c774bdaa1090071aefa21c1cf0679265e44eabbbc1c9e45",
+      "S_G04_sha256": "e986b28edf10322876562b5d66c5e103681dd1a3cf441526fb5463457aefc37d",
+      "affinity_audit": {
+        "canonical_sparse_sha256": "76598dd13844ca9feaa64e29a8505dc9672eb95be3e6dd0b3ad761a3a239a8b8",
+        "connected_component_count": 2,
+        "connected_component_sizes": [
+          3358,
+          1
+        ],
+        "diagonal_max_abs": 0.0,
+        "finite": true,
+        "max": 0.8366305456611572,
+        "min": 0.010326194830786412,
+        "nnz": 59044,
+        "shape": [
+          3359,
+          3359
+        ],
+        "sparse_csr": true,
+        "symmetry_max_error": 0.0,
+        "zero_degree_count": 1
+      },
+      "artifacts": {
+        "consensus_affinity.npz": {
+          "canonical_sparse_sha256": "76598dd13844ca9feaa64e29a8505dc9672eb95be3e6dd0b3ad761a3a239a8b8",
+          "path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_6/C05_DUAL_HARMONIC_INTERSECTION/attempt_001/consensus_affinity.npz",
+          "sha256": "a09197d4fd8f23ca881cc40a3f207d54c16e8ec548043631fd61d3a76ab35468",
+          "size_bytes": 540477
+        }
+      },
+      "attempt": 1,
+      "base_manifest_path": "/root/autodl-fs/night7a_consensus_20260818/base/d1/seed_6/base_manifest.json",
+      "base_manifest_sha256": "2197e9761f9162b484ccbf7338ed035f11a385c4d80b42c8b058d7bb281d33ed",
+      "candidate_audit_path": "/root/autodl-fs/night7a_consensus_20260818/formal/d1/seed_6/C05_DUAL_HARMONIC_INTERSECTION/attempt_001/candidate_audit.json",
+      "candidate_audit_sha256": "1857e5fe68b23f58175cb6aa8d4ea8b471098304ac6ec009db4ed012344a9c0b",
+      "candidate_config_sha256": "03f151d39ab7fba2dc8f652da9437fa2ee547285ad9f850252aa3085e229a2cf",
+      "candidate_diagnostics": {},
+      "candidate_id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "code_commit": "0d0819d983b9c8a14ed5ee60a8354aaf359bd8e8",
+      "correction_id": null,
+      "cuda_visible_devices": "",
+      "dataset": "d1",
+      "environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "numpy": "1.22.3",
+        "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+        "python": "3.8.10",
+        "scipy": "1.8.1",
+        "sklearn": "1.1.1",
+        "torch": "2.0.0+cu118"
+      },
+      "error": "invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59044, 'sparse_csr': True, 'finite': True, 'min': 0.010326194830786412, 'max': 0.8366305456611572, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '76598dd13844ca9feaa64e29a8505dc9672eb95be3e6dd0b3ad761a3a239a8b8'}",
+      "error_type": "FloatingPointError",
+      "fallback": false,
+      "gpu_allocation_mib": 0.0,
+      "input_views_sha256": [
+        "825916897f1a91e6495e0c023fc44d168c710da3b2f0dcba48ba8e7b9b8823c4",
+        "ce029d5c1243dc528de7aa96d1f587d48ae6efffbc8ddd5089f20097617a6ba3"
+      ],
+      "label_access": false,
+      "ordinal": 198,
+      "process_peak_rss_mib": 670.375,
+      "python": "3.8.10",
+      "registry_sha256": "70a719bc8b34318a5b6b043d959fab7b425ffcf7987faa3f060055a71a919767",
+      "runtime_seconds": 0.29785121604800224,
+      "seed": 6,
+      "six_affinity_canonical_sha256": {
+        "G00_SP18_F20_CORR_UNION/SpaLORA_fused": "617734e61ae24f8e7a283f6516d67edb67bd6a98a3495176fca3ccc930206d5c",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics1": "d53bbb6dcd954da2f4f2bdbfe1179850b4f75444061426d3bb9eb8f2da3bae7f",
+        "G00_SP18_F20_CORR_UNION/emb_latent_omics2": "96ebef0fcab436f446413dc5d512382dd8f54975ef3117689749d4fccbfbfd13",
+        "G04_SP10_F10_EUC_UNION/SpaLORA_fused": "9c7ef90e3d607afc508e827f7015cfcc39e4d973ab226a2701991df687b9e539",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics1": "a5a3a81a49bd5d335fca3993e1ac320c5654fcd6b29535684d0b7c7c7eed41bf",
+        "G04_SP10_F10_EUC_UNION/emb_latent_omics2": "fa0b62376b2cf6306a877a98e3dc24d167facdbb10951d7246b588ee8177669e"
+      },
+      "spectral_warnings": [],
+      "status": "scientific_numerical_failure",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/night7a_transform.py\", line 205, in main\n    raise FloatingPointError(f\"invalid consensus affinity audit: {audit}\")\nFloatingPointError: invalid consensus affinity audit: {'shape': [3359, 3359], 'nnz': 59044, 'sparse_csr': True, 'finite': True, 'min': 0.010326194830786412, 'max': 0.8366305456611572, 'symmetry_max_error': 0.0, 'diagonal_max_abs': 0.0, 'zero_degree_count': 1, 'connected_component_count': 2, 'connected_component_sizes': [3358, 1], 'canonical_sparse_sha256': '76598dd13844ca9feaa64e29a8505dc9672eb95be3e6dd0b3ad761a3a239a8b8'}\n"
+    }
+  ],
+  "formal_attempts": 360,
+  "formal_implementation_or_infrastructure_corrections": 0,
+  "p0_attempts_count_against_360_plus_12_transform_budget": false,
+  "p0_pre_science_infrastructure_attempts": [
+    {
+      "attempt": 1,
+      "formal_transform_attempts": 0,
+      "gpu_allocation_mib": 0.0,
+      "label_reads": 0,
+      "path": "outputs/night7a_handoff/p0_infrastructure_attempt1.json",
+      "reason": "The AutoDL no-card instance exposed approximately 0.5 CPU and the initial process used eight competing BLAS/OpenMP threads. The first unit remained incomplete after more than 25 wall-clock minutes, with eight worker threads sharing the same CPU quota.",
+      "sha256": "762bf15b7bee6dcd90087e39ec96aa6b7f941b1717e39dd914e2c0a7fc668fe7",
+      "size_bytes": 1133,
+      "status": "INTERRUPTED_BEFORE_FIRST_P0_SEMANTIC_UNIT_COMPLETED"
+    },
+    {
+      "attempt": 2,
+      "formal_transform_attempts": 0,
+      "gpu_allocation_mib": 0.0,
+      "label_reads": 0,
+      "path": "outputs/night7a_handoff/p0_infrastructure_attempt2.json",
+      "reason": "single-process allocator accumulation reached the CPU-only instance 2147483648-byte cgroup memory.max and the process was externally terminated",
+      "sha256": "855baa0ecc1d93b2f434a22ba743c9327c5d443274b0723f116a14d2fe956bf2",
+      "size_bytes": 971,
+      "status": "INVALID_INFRASTRUCTURE_ATTEMPT"
+    },
+    {
+      "attempt": 3,
+      "formal_transform_attempts": 0,
+      "gpu_allocation_mib": 0.0,
+      "label_reads": 0,
+      "path": "outputs/night7a_handoff/p0_infrastructure_attempt3.json",
+      "reason": "the source verifier retained Python allocator memory while waiting for isolated workers; parent plus second worker reached the CPU-only instance 2147483648-byte cgroup memory.max",
+      "sha256": "2bad8494c21d2c6f19b7f88fcbde9fc9c6a96639b9890126b0ee50babec492ee",
+      "size_bytes": 1018,
+      "status": "INVALID_INFRASTRUCTURE_ATTEMPT"
+    }
+  ],
+  "scientific_numerical_failures": 6,
+  "silent_fallbacks": 0,
+  "source_preflight_infrastructure_attempts": [
+    {
+      "attempt": 1,
+      "formal_consensus_cells_modified": 0,
+      "gpu_allocation_mib": 0.0,
+      "path": "outputs/night7a_handoff/invalid_attempts/preflight_attempt1_git_pack_stall/attempt.json",
+      "per_spot_label_deserializations": 0,
+      "raw_quarantine": "/root/autodl-fs/night7a_external_sources_20260818_invalid_attempt1",
+      "reason": "GitHub HTTPS pack transfer stalled and the original preflight accepted an incomplete .git directory as source presence",
+      "result_reuse_allowed": false,
+      "sha256": "9c8d7894609c8f5239960f9c0d606c8158f6465d797d61e22f6fdc6e5e76430f",
+      "size_bytes": 830,
+      "status": "INVALID_INFRASTRUCTURE_ATTEMPT_PRESERVED"
+    }
+  ],
+  "status": "PASS",
+  "successful_transforms": 354
+}

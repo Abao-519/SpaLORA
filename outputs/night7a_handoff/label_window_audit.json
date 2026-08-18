@@ -1,0 +1,79 @@
+{
+  "anndata_read_h5ad_calls": 0,
+  "datasets": {
+    "a1": {
+      "aligned_rows": 3484,
+      "anndata_read_h5ad_calls": 0,
+      "authorized_role": "single_evaluator_process",
+      "known_k": 10,
+      "ordered_label_vector_sha256": "2af9d92e8efad029284d4577977ee73bd56ab6563bfe78833c7937b6159fa57c",
+      "rows": 3484,
+      "snapshot_path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/a1_labels_locked.npz",
+      "snapshot_sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c",
+      "source_file_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+      "source_kind": "csv",
+      "source_path": "/root/autodl-fs/Human lymph node/A1/A1_groundtruth.csv",
+      "unique_labels": 10,
+      "used_for_training_or_transform": false
+    },
+    "d1": {
+      "aligned_rows": 3359,
+      "anndata_read_h5ad_calls": 0,
+      "authorized_role": "single_evaluator_process",
+      "known_k": 10,
+      "ordered_label_vector_sha256": "d9c62e2ef902e3d62aab5e66f04ac0d4bf666f76a8324547b002a779e8b70891",
+      "rows": 3359,
+      "snapshot_path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/d1_labels_locked.npz",
+      "snapshot_sha256": "74d203671e55a7b249ab8d5de890599c1e6317cde56e45b0d903ad61dee8122f",
+      "source_file_sha256": "524e2447b743b093afad440fea7cd28e63239fe0660b461f1c404aba68ba84f3",
+      "source_kind": "csv",
+      "source_path": "/root/autodl-fs/Human lymph node/D1/D1_groundtruth.csv",
+      "unique_labels": 10,
+      "used_for_training_or_transform": false
+    },
+    "p22": {
+      "aligned_rows": 9196,
+      "anndata_read_h5ad_calls": 0,
+      "authorized_role": "single_evaluator_process",
+      "known_k": 9,
+      "ordered_label_vector_sha256": "99e1977bd406e3dbb6892b2cdfa547a7152acb622f953a6bf9c9985c9a0d2a4b",
+      "rows": 9196,
+      "snapshot_path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/p22_labels_locked.npz",
+      "snapshot_sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4",
+      "source_file_sha256": "ca2a702323b42a63588687be29bbffeed7b2d57586386e5a000b0f6135619b32",
+      "source_kind": "csv",
+      "source_path": "/root/autodl-fs/P22 mouse brain coronal section/MouseBrain_groundtruth.csv",
+      "unique_labels": 9,
+      "used_for_training_or_transform": false
+    },
+    "tonsil": {
+      "aligned_rows": 4326,
+      "anndata_read_h5ad_calls": 0,
+      "authorized_role": "single_evaluator_process",
+      "known_k": 4,
+      "ordered_label_vector_sha256": "47afb84eea5484b9798945078b3fa4e8025a3dca36cb07f9177b7680dd6d96b2",
+      "rows": 4326,
+      "snapshot_path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/tonsil_labels_locked.npz",
+      "snapshot_sha256": "aa58a69d24d1a265f1bf499fd0af92bcfffab1671eceffef1dfce22fbfd3b288",
+      "source_file_sha256": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9",
+      "source_kind": "h5ad_low_level",
+      "source_path": "/root/autodl-fs/datasets/human_tonsil_official/section1/s1_adata_rna.h5ad",
+      "unique_labels": 4,
+      "used_for_training_or_transform": false
+    }
+  },
+  "datasets_opened_together": [
+    "a1",
+    "tonsil",
+    "d1",
+    "p22"
+  ],
+  "fresh_external_label_reads": 0,
+  "labels_used_for_training_or_transform": false,
+  "preflight_lock_sha256": "3cacc7d7706e5d2944d67a510062e1c9105bf20fcd2131e210ab453c03034dc8",
+  "return_to_affinity_or_clustering_after_access": false,
+  "single_authorized_evaluator_process": true,
+  "status": "PASS",
+  "transform_manifest_sha256": "a56dd337d88831ad9dd1f9a807105310436e1f9537f288c83a9909520fcc3392",
+  "transforms_terminal_before_access": "360/360"
+}

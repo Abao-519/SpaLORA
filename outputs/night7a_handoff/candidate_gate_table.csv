@@ -1,0 +1,13 @@
+candidate_id,complete,mean_delta_q_all_datasets_ge_0_005,mean_delta_nmi_positive_all,positive_mean_delta_ari_dataset_count,mean_delta_ari_floor_pass,q_wins_gate_pass,median_delta_q_all_positive,spatial_protection_all_pass,generalization_gate_pass,dual_graph,complexity_option_a,complexity_option_b,complexity_gate_pass,eligible,worst_dataset_mean_delta_q,dataset_balanced_macro_mean_delta_q,total_paired_q_wins,future_complexity_rank
+C00_G04_H05_CONFIRMED,True,True,True,3,True,True,True,True,True,False,False,False,True,True,0.008270401379070636,0.038311903958896075,28,1
+C01_G00_H05,True,False,True,3,False,False,False,True,False,False,False,False,True,False,-0.0053544110966705525,0.04265978874925794,26,0
+C02_DUAL_ARITHMETIC_MEAN,True,False,True,3,True,True,True,True,False,True,False,False,False,False,0.0045774766357052025,0.045956808858194684,29,2
+C03_DUAL_ELEMENTWISE_MAX,True,False,True,3,False,False,True,True,False,True,False,False,False,False,0.002148547951276092,0.04615385178377366,28,3
+C04_DUAL_ELEMENTWISE_MIN,False,False,False,0,False,False,False,False,False,True,False,False,False,False,,,0,4
+C05_DUAL_HARMONIC_INTERSECTION,False,False,False,0,False,False,False,False,False,True,False,False,False,False,,,0,5
+C06_DUAL_ROW_STOCHASTIC_MEAN,True,True,True,3,True,True,True,True,True,True,False,False,False,False,0.005068731185650333,0.04930688905704621,29,6
+C07_DUAL_LOCAL_RELIABILITY,True,False,True,3,False,True,True,True,False,True,False,False,False,False,0.004138806721235589,0.044970756193125724,29,8
+C08_SIX_VIEW_SUPPORT_MEDIAN,True,False,True,3,False,True,True,True,False,True,False,False,False,False,0.004408529692208951,0.0459421814401207,29,7
+C09_DUAL_SPARSE_SNF10,True,False,False,2,False,False,False,True,False,True,False,False,False,False,-0.052686568284058176,-0.0036833059039272694,9,11
+C10_DUAL_MEAN_SPATIAL05,True,False,True,3,False,False,False,True,False,True,False,False,False,False,0.0012451698618030304,0.04874306070669074,27,9
+C11_DUAL_MEAN_SPATIAL10,True,False,True,3,False,False,False,True,False,True,False,False,False,False,-0.003962246677234782,0.04733130179929669,26,10

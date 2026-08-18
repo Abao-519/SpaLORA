@@ -1,0 +1,423 @@
+{
+  "lower_is_better": [
+    "geary_c",
+    "boundary_disagreement"
+  ],
+  "rows": [
+    {
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.045050563420976596,
+      "mean_delta_geary": -0.0530584561095507,
+      "mean_delta_moran": 0.06175653951032689,
+      "mean_delta_neighbor": 0.045050563420976596,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.01363038815470834,
+      "mean_delta_geary": 0.002376383731456333,
+      "mean_delta_moran": -0.003352734600543683,
+      "mean_delta_neighbor": -0.01363038815470834,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.0033828284037839664,
+      "mean_delta_geary": 0.011528641820980217,
+      "mean_delta_moran": -0.007309446997984803,
+      "mean_delta_neighbor": 0.0033828284037839664,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C00_G04_H05_CONFIRMED",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.0847773501924134,
+      "mean_delta_geary": -0.07911778306312107,
+      "mean_delta_moran": 0.07493612981086736,
+      "mean_delta_neighbor": 0.0847773501924134,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C01_G00_H05",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.06836174516035834,
+      "mean_delta_geary": -0.08222490824489986,
+      "mean_delta_moran": 0.08976379999048065,
+      "mean_delta_neighbor": 0.06836174516035834,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C01_G00_H05",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.010733642381051211,
+      "mean_delta_geary": -0.007592077266666675,
+      "mean_delta_moran": 0.006813207529872712,
+      "mean_delta_neighbor": -0.010733642381051211,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C01_G00_H05",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.029364746736917736,
+      "mean_delta_geary": -0.015125950278194421,
+      "mean_delta_moran": 0.019390061428691173,
+      "mean_delta_neighbor": 0.029364746736917736,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C01_G00_H05",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.10485871357888951,
+      "mean_delta_geary": -0.11243885001088907,
+      "mean_delta_moran": 0.10981335891945401,
+      "mean_delta_neighbor": 0.10485871357888951,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C02_DUAL_ARITHMETIC_MEAN",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.061664258884715405,
+      "mean_delta_geary": -0.07466639957461571,
+      "mean_delta_moran": 0.08272257761575792,
+      "mean_delta_neighbor": 0.061664258884715405,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C02_DUAL_ARITHMETIC_MEAN",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.012389584630641859,
+      "mean_delta_geary": -0.0027034148750501364,
+      "mean_delta_moran": 0.00198349785408809,
+      "mean_delta_neighbor": -0.012389584630641859,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C02_DUAL_ARITHMETIC_MEAN",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.019761106454316835,
+      "mean_delta_geary": -0.008428596551718199,
+      "mean_delta_moran": 0.012773234622341988,
+      "mean_delta_neighbor": 0.019761106454316835,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C02_DUAL_ARITHMETIC_MEAN",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.09725123694337548,
+      "mean_delta_geary": -0.10050950249627918,
+      "mean_delta_moran": 0.09687382382760407,
+      "mean_delta_neighbor": 0.09725123694337548,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C03_DUAL_ELEMENTWISE_MAX",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.05315804680728111,
+      "mean_delta_geary": -0.06327763413580283,
+      "mean_delta_moran": 0.07088028193301259,
+      "mean_delta_neighbor": 0.05315804680728111,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C03_DUAL_ELEMENTWISE_MAX",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.013312115131806523,
+      "mean_delta_geary": -0.0008799017498151707,
+      "mean_delta_moran": 0.00030366096493759096,
+      "mean_delta_neighbor": -0.013312115131806523,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C03_DUAL_ELEMENTWISE_MAX",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.013504370734043824,
+      "mean_delta_geary": -0.001775344343710894,
+      "mean_delta_moran": 0.006075803475585351,
+      "mean_delta_neighbor": 0.013504370734043824,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C03_DUAL_ELEMENTWISE_MAX",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.08949422759758109,
+      "mean_delta_geary": -0.08944804353333687,
+      "mean_delta_moran": 0.08565726144529275,
+      "mean_delta_neighbor": 0.08949422759758109,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C04_DUAL_ELEMENTWISE_MIN",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.09560242704420689,
+      "mean_delta_geary": -0.10720271287205393,
+      "mean_delta_moran": 0.11372668493462341,
+      "mean_delta_neighbor": 0.09560242704420689,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C04_DUAL_ELEMENTWISE_MIN",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.008113655757743476,
+      "mean_delta_geary": -0.007912223270123609,
+      "mean_delta_moran": 0.006792015631893822,
+      "mean_delta_neighbor": -0.008113655757743476,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C04_DUAL_ELEMENTWISE_MIN",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.1156096756459593,
+      "mean_delta_geary": -0.13929320004154105,
+      "mean_delta_moran": 0.13954246292235117,
+      "mean_delta_neighbor": 0.1156096756459593,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.09279976885293269,
+      "mean_delta_geary": -0.1142903873849257,
+      "mean_delta_moran": 0.12311373396129979,
+      "mean_delta_neighbor": 0.09279976885293269,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.008630272838395726,
+      "mean_delta_geary": -0.008120294977712505,
+      "mean_delta_moran": 0.006984055772987441,
+      "mean_delta_neighbor": -0.008630272838395726,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C05_DUAL_HARMONIC_INTERSECTION",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.11568884002199012,
+      "mean_delta_geary": -0.13922550487578841,
+      "mean_delta_moran": 0.13913148346955495,
+      "mean_delta_neighbor": 0.11568884002199012,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.06637965905807572,
+      "mean_delta_geary": -0.07769480242582814,
+      "mean_delta_moran": 0.08557490816488138,
+      "mean_delta_neighbor": 0.06637965905807572,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.013764155077377249,
+      "mean_delta_geary": -0.0025278881188711246,
+      "mean_delta_moran": 0.001471461505644145,
+      "mean_delta_neighbor": -0.013764155077377249,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.02539216860256256,
+      "mean_delta_geary": -0.013794293630743809,
+      "mean_delta_moran": 0.01813189202214005,
+      "mean_delta_neighbor": 0.02539216860256256,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C06_DUAL_ROW_STOCHASTIC_MEAN",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.09747333699835074,
+      "mean_delta_geary": -0.1045163566595662,
+      "mean_delta_moran": 0.10111943766080866,
+      "mean_delta_neighbor": 0.09747333699835074,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C07_DUAL_LOCAL_RELIABILITY",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.06321294423577002,
+      "mean_delta_geary": -0.07632771336628721,
+      "mean_delta_moran": 0.08437673023953558,
+      "mean_delta_neighbor": 0.06321294423577002,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C07_DUAL_LOCAL_RELIABILITY",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.012205078530408909,
+      "mean_delta_geary": -0.0031965198972223165,
+      "mean_delta_moran": 0.0024598276220949345,
+      "mean_delta_neighbor": -0.012205078530408909,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C07_DUAL_LOCAL_RELIABILITY",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.02113818704346785,
+      "mean_delta_geary": -0.009591320972754913,
+      "mean_delta_moran": 0.01395849481510696,
+      "mean_delta_neighbor": 0.02113818704346785,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C07_DUAL_LOCAL_RELIABILITY",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.0983683342495877,
+      "mean_delta_geary": -0.10345265461704237,
+      "mean_delta_moran": 0.10014080095141757,
+      "mean_delta_neighbor": 0.0983683342495877,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.061201964750072224,
+      "mean_delta_geary": -0.07394530838008269,
+      "mean_delta_moran": 0.08204460204886077,
+      "mean_delta_neighbor": 0.061201964750072224,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.012394197283147657,
+      "mean_delta_geary": -0.002547330262478631,
+      "mean_delta_moran": 0.001795282259727715,
+      "mean_delta_neighbor": -0.012394197283147657,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.019458747455394543,
+      "mean_delta_geary": -0.007914843405338112,
+      "mean_delta_moran": 0.012243149540540298,
+      "mean_delta_neighbor": 0.019458747455394543,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C08_SIX_VIEW_SUPPORT_MEDIAN",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.09725563496426608,
+      "mean_delta_geary": -0.10146117933586525,
+      "mean_delta_moran": 0.09793294623742782,
+      "mean_delta_neighbor": 0.09725563496426608,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C09_DUAL_SPARSE_SNF10",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.15367234903207164,
+      "mean_delta_geary": -0.187044124352261,
+      "mean_delta_moran": 0.19327621107012508,
+      "mean_delta_neighbor": 0.15367234903207164,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C09_DUAL_SPARSE_SNF10",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.011056528056458848,
+      "mean_delta_geary": -0.005521780301182155,
+      "mean_delta_moran": 0.004519816896666739,
+      "mean_delta_neighbor": -0.011056528056458848,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C09_DUAL_SPARSE_SNF10",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.16418692372170995,
+      "mean_delta_geary": -0.1415884484168394,
+      "mean_delta_moran": 0.14507592847683148,
+      "mean_delta_neighbor": 0.16418692372170995,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C09_DUAL_SPARSE_SNF10",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.1367421660252886,
+      "mean_delta_geary": -0.17874680419818845,
+      "mean_delta_moran": 0.17618254876939796,
+      "mean_delta_neighbor": 0.1367421660252886,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C10_DUAL_MEAN_SPATIAL05",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.07963594336896854,
+      "mean_delta_geary": -0.09181201936900754,
+      "mean_delta_moran": 0.0997854840235654,
+      "mean_delta_neighbor": 0.07963594336896854,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C10_DUAL_MEAN_SPATIAL05",
+      "dataset": "tonsil",
+      "mean_delta_boundary": 0.012546414815839846,
+      "mean_delta_geary": -0.015987726224829003,
+      "mean_delta_moran": 0.015290451811909356,
+      "mean_delta_neighbor": -0.012546414815839846,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C10_DUAL_MEAN_SPATIAL05",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.04055801700395163,
+      "mean_delta_geary": -0.029495485702645936,
+      "mean_delta_moran": 0.03408123823267719,
+      "mean_delta_neighbor": 0.04055801700395163,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C10_DUAL_MEAN_SPATIAL05",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.09828807036833426,
+      "mean_delta_geary": -0.10657443801900705,
+      "mean_delta_moran": 0.1032183373106101,
+      "mean_delta_neighbor": 0.09828807036833426,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C11_DUAL_MEAN_SPATIAL10",
+      "dataset": "a1",
+      "mean_delta_boundary": -0.09451025715111241,
+      "mean_delta_geary": -0.10633810586020065,
+      "mean_delta_moran": 0.11463295031184831,
+      "mean_delta_neighbor": 0.09451025715111241,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C11_DUAL_MEAN_SPATIAL10",
+      "dataset": "tonsil",
+      "mean_delta_boundary": -0.003062801263866799,
+      "mean_delta_geary": -0.05040562449946704,
+      "mean_delta_moran": 0.050226330966528045,
+      "mean_delta_neighbor": 0.003062801263866799,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C11_DUAL_MEAN_SPATIAL10",
+      "dataset": "d1",
+      "mean_delta_boundary": -0.05476290264638965,
+      "mean_delta_geary": -0.046338186789228714,
+      "mean_delta_moran": 0.05111973222364541,
+      "mean_delta_neighbor": 0.05476290264638965,
+      "spatial_gate_failed": false
+    },
+    {
+      "candidate_id": "C11_DUAL_MEAN_SPATIAL10",
+      "dataset": "p22",
+      "mean_delta_boundary": -0.10024848818031887,
+      "mean_delta_geary": -0.11073526744451316,
+      "mean_delta_moran": 0.10760751241083241,
+      "mean_delta_neighbor": 0.10024848818031887,
+      "spatial_gate_failed": false
+    }
+  ],
+  "rule": "(neighbor<-0.03 and Moran<-0.03) or (Geary>0.03 and (neighbor<-0.03 or Moran<-0.03))"
+}

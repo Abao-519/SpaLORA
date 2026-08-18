@@ -1,0 +1,82 @@
+{
+  "authority_views_resolution": "60/60",
+  "formal_transform_primary_keys": "360/360 unique fixed order",
+  "g00_g04_observation_coordinate_parity": "30/30",
+  "h05_exact_partition_parity": "30/30 x 2",
+  "historical_metric_replay": {
+    "maximum_absolute_error": 1.1102230246251565e-16,
+    "rows": "90/90",
+    "status": "PASS"
+  },
+  "historical_prediction_files": "120/120",
+  "independent_recompute": {
+    "boundary_direction_max_error": 1.942890293094024e-16,
+    "dataset_balanced_macro_max_error": 1.1102230246251565e-16,
+    "decision_match": true,
+    "directional_wins_mismatches": [],
+    "gate_rows_recomputed": 12,
+    "label_files_reopened": false,
+    "metric_rows": 384,
+    "paired_delta_max_error": 1.942890293094024e-16,
+    "primary_keys_unique": true,
+    "q_formula_max_error": 1.1102230246251565e-16,
+    "selected_structure": "C00_G04_H05_CONFIRMED",
+    "status": "PASS",
+    "summary_statistic_max_error": 2.220446049250313e-16,
+    "tolerance": 1e-12
+  },
+  "label_firewall": "PASS",
+  "status": "PASS",
+  "test_logs": [
+    {
+      "path": "outputs/night7a_handoff/preformal_pytest.log",
+      "sha256": "b8907383cca055d61b8a3fe35a0b956b04e327a412956955ee78ab7810c352a5",
+      "size_bytes": 1094
+    },
+    {
+      "path": "outputs/night7a_handoff/preformal_pytest_attempt4.log",
+      "sha256": "cbfc1d3726b8b5fd817306926fd71df4c52942460637cfdad95cd5cd29847caa",
+      "size_bytes": 1094
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/post_evaluation_night7a_pytest.txt",
+      "sha256": "cc5c94ae0990410490ee93b63b89a609526d0a0b2ca9421b33c417abdd952b2d",
+      "size_bytes": 1093
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/post_p0_pytest.txt",
+      "sha256": "b3e0766165bdacb2f97645c91439af17bbf39e0fd5d4044c5039cfa0f86a00f6",
+      "size_bytes": 1093
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/post_preflight_acquisition_fix_night7a_pytest.txt",
+      "sha256": "6adbdcf68a0573705795cfe612e1fe6029537a18d665e605fb3062903a8043d7",
+      "size_bytes": 91
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/post_preflight_acquisition_fix_night7a_pytest_corrected.txt",
+      "sha256": "f4af7c7a85cd217bc84f815c4fc6dfabafca06f74d475d1ecc6377defe806dbe",
+      "size_bytes": 1093
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/post_preflight_acquisition_fix_pytest.txt",
+      "sha256": "68ee93c41cd3f496ffbf6bb6b90fe4db5eb65013f24407eaea483f320c073c8f",
+      "size_bytes": 12107
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/post_report_audit_fix_night7a_pytest.txt",
+      "sha256": "089b7d3a2af1654116b8ee2b98d369711060caac7e9728a0567021824bd7d1e9",
+      "size_bytes": 1093
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/preformal_attempt2_pytest.txt",
+      "sha256": "b8907383cca055d61b8a3fe35a0b956b04e327a412956955ee78ab7810c352a5",
+      "size_bytes": 1094
+    },
+    {
+      "path": "outputs/night7a_handoff/tests/preformal_attempt4_pytest.txt",
+      "sha256": "cbfc1d3726b8b5fd817306926fd71df4c52942460637cfdad95cd5cd29847caa",
+      "size_bytes": 1094
+    }
+  ]
+}
