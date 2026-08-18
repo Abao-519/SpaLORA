@@ -205,6 +205,10 @@ def train(unit_dir: Path, config_path: Path, output: Path, smoke: bool) -> None:
         "state_tensor_sha256": state_sha(model.state_dict()),
         "embedding_path": str(output / "embedding.npy"), "embedding_sha256": array_sha(embedding),
         "gate_path": str(output / "gate_weights.npy"), "gate_sha256": array_sha(gates),
+        "gate_quantiles": {
+            "expert_0": [float(x) for x in np.quantile(gates[:, 0], [0, .25, .5, .75, 1])],
+            "expert_1": [float(x) for x in np.quantile(gates[:, 1], [0, .25, .5, .75, 1])],
+        },
         "config_sha256": sha_file(config_path), "worker_input_sha256": sha_file(unit_dir / "worker_input.json"),
         "fixed_indices_sha256": sha_file(output / "fixed_indices.json"),
         "loss_curve_sha256": sha_file(output / "loss_curve.csv"),
