@@ -16,24 +16,36 @@ from sklearn.metrics import adjusted_rand_score, normalized_mutual_info_score
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO))
 from SpaLORA.night1_evaluation import _mean_cluster_moran  # noqa: E402
+from SpaLORA.night6c_pipeline import array_sha  # noqa: E402
 from SpaLORA.night3b_metrics import mean_one_vs_rest_geary, symmetric_knn_adjacency  # noqa: E402
 from SpaLORA.night7a_consensus import atomic_json, canonical_partition, sha256_file  # noqa: E402
 
 OUT = REPO / "outputs/night7b_handoff"
 RAW = Path("/root/autodl-fs/night7b_score_rnd_20260818")
 LABEL_ROOT = Path("/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots")
+LABEL_AUDIT = REPO / "outputs/night7a_handoff/label_window_audit.json"
 DATASETS = ("a1", "tonsil", "d1", "p22")
 WEIGHTS = {"a1":.25, "tonsil":.15, "d1":.25, "p22":.35}
 
 
 def load_labels(dataset: str):
     path = LABEL_ROOT / (dataset + "_labels_locked.npz")
+    authority = json.loads(LABEL_AUDIT.read_text())
+    expected = authority["datasets"][dataset]
+    observed_sha = sha256_file(path)
+    if observed_sha != expected["snapshot_sha256"]:
+        raise RuntimeError("locked label snapshot byte SHA mismatch: %s" % dataset)
     with np.load(path, allow_pickle=False) as value:
         keys = set(value.files)
         if keys != {"observation_id", "label"}:
             raise RuntimeError("locked label snapshot schema mismatch: %s" % sorted(keys))
-        return (np.asarray(value["observation_id"]).astype(str),
-                np.asarray(value["label"]).astype(str), sha256_file(path), sorted(keys))
+        ids = np.asarray(value["observation_id"]).astype(str)
+        labels = np.asarray(value["label"]).astype(str)
+        if len(ids) != expected["aligned_rows"] or len(np.unique(labels)) != expected["known_k"]:
+            raise RuntimeError("locked label snapshot cardinality mismatch: %s" % dataset)
+        if array_sha(labels) != expected["ordered_label_vector_sha256"]:
+            raise RuntimeError("locked ordered label vector SHA mismatch: %s" % dataset)
+        return ids, labels, observed_sha, sorted(keys)
 
 
 def load_coordinates(dataset: str, expected_ids: np.ndarray) -> np.ndarray:

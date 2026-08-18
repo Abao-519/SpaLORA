@@ -1,0 +1,53 @@
+{
+  "aggregate_only_message": {
+    "config_ids": [
+      "H01",
+      "H02"
+    ],
+    "ranking_sha256": "8a34c7c19b05e3862f70826a2ca4aeca3ae819472c7594c6040f1d5bbe7a4b36"
+  },
+  "fallback_comparator": "H00",
+  "label_opened_after_lock": true,
+  "label_window": {
+    "a1": {
+      "authorized_role": "stage_H_evaluator",
+      "keys": [
+        "label",
+        "observation_id"
+      ],
+      "snapshot_sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c"
+    },
+    "d1": {
+      "authorized_role": "stage_H_evaluator",
+      "keys": [
+        "label",
+        "observation_id"
+      ],
+      "snapshot_sha256": "74d203671e55a7b249ab8d5de890599c1e6317cde56e45b0d903ad61dee8122f"
+    },
+    "p22": {
+      "authorized_role": "stage_H_evaluator",
+      "keys": [
+        "label",
+        "observation_id"
+      ],
+      "snapshot_sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4"
+    },
+    "tonsil": {
+      "authorized_role": "stage_H_evaluator",
+      "keys": [
+        "label",
+        "observation_id"
+      ],
+      "snapshot_sha256": "aa58a69d24d1a265f1bf499fd0af92bcfffab1671eceffef1dfce22fbfd3b288"
+    }
+  },
+  "locked_manifest_sha256": "64000e4a6c44c7f272f364c6f96b5c5e77bad5f47f1a97f55c43b7d8bb4f6052",
+  "promoted_head_ids": [
+    "H01",
+    "H02"
+  ],
+  "ranking_table_sha256": "8a34c7c19b05e3862f70826a2ca4aeca3ae819472c7594c6040f1d5bbe7a4b36",
+  "stage": "H",
+  "status": "PASS"
+}
