@@ -1,0 +1,51 @@
+{
+  "aggregate_ranking_sha256": "a40083ea81fe0212f94d9664b363d5f79d5fc77e06596aa517b5bc4cf09603c3",
+  "fixed_parameter_sha256": {
+    "R02__E1_ADAPTER_C06_MEAN__H01": "828e3f49472a8e259c33e4afa7c0a073df34631d684f93428ceed91af5227402",
+    "R02__E1_ADAPTER_C06_MEAN__H02": "337f0ad43d8e6a314ae153dfa03f26707fb471bd9a3f4c74b845f35d6e1452a6",
+    "R08__E1_ADAPTER_C06_MEAN__H01": "7447fc45993a229401cb3ab940f39a8f8da9982429bbacfaa1d87bf60ebe13d2",
+    "R08__E1_ADAPTER_C06_MEAN__H02": "9d2111993aa80dfd21556c065eb7c77c8ce600c6ce4fb706b3199ce1f4c53232"
+  },
+  "label_values_or_per_spot_metrics_in_message": false,
+  "locked_R1_manifest_sha256": "d599dabc1be4603349fabbd582e0625a8f2eb77eadebacd386014f471ab654ad",
+  "promoted_config_ids": [
+    "R02__E1_ADAPTER_C06_MEAN__H01",
+    "R02__E1_ADAPTER_C06_MEAN__H02",
+    "R08__E1_ADAPTER_C06_MEAN__H01",
+    "R08__E1_ADAPTER_C06_MEAN__H02"
+  ],
+  "remaining_seeds": {
+    "a1": [
+      2,
+      3,
+      4
+    ],
+    "d1": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "p22": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tonsil": [
+      2,
+      3,
+      4
+    ]
+  },
+  "stage": "R1",
+  "status": "PASS"
+}

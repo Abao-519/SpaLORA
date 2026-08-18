@@ -1,0 +1,38 @@
+{
+  "a1": {
+    "authorized_role": "stage_R1_evaluator",
+    "snapshot_keys": [
+      "label",
+      "observation_id"
+    ],
+    "snapshot_sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c",
+    "used_for_training_or_transform": false
+  },
+  "d1": {
+    "authorized_role": "stage_R1_evaluator",
+    "snapshot_keys": [
+      "label",
+      "observation_id"
+    ],
+    "snapshot_sha256": "74d203671e55a7b249ab8d5de890599c1e6317cde56e45b0d903ad61dee8122f",
+    "used_for_training_or_transform": false
+  },
+  "p22": {
+    "authorized_role": "stage_R1_evaluator",
+    "snapshot_keys": [
+      "label",
+      "observation_id"
+    ],
+    "snapshot_sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4",
+    "used_for_training_or_transform": false
+  },
+  "tonsil": {
+    "authorized_role": "stage_R1_evaluator",
+    "snapshot_keys": [
+      "label",
+      "observation_id"
+    ],
+    "snapshot_sha256": "aa58a69d24d1a265f1bf499fd0af92bcfffab1671eceffef1dfce22fbfd3b288",
+    "used_for_training_or_transform": false
+  }
+}
