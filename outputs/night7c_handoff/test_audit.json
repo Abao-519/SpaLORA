@@ -1,0 +1,13 @@
+{
+  "full_repository": "277 passed, 7 failed, 84 warnings",
+  "full_test_log_sha256": "e4340dd187f16a8ed96ef9d036ad06912bc7b6ad39f9b5e69b1acc6e11bb79e0",
+  "legacy_failure_classification": [
+    "old result files absent from isolated worktree",
+    "old protected manifests compare later scientific source revisions",
+    "old Night-3 handoff paths not materialized in this isolated worktree"
+  ],
+  "legacy_failures": 7,
+  "night7c_directed": "9 passed",
+  "night7c_touched_function_failures": 0,
+  "schema_version": 1
+}

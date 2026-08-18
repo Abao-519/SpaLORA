@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "delivery_id": "SPALORA_NIGHT7C_PLANNING_DELIVERY_20260818",
+  "created_date": "2026-08-18",
+  "authority": "planning_worker_preregistered_development_rnd",
+  "parent_commit": "32d6ed947b313423805ee0f80c9dada06bb6a28d",
+  "parent_tag": "night7b-final-20260818",
+  "workspace_root": "D:/文档/ChatGPT/博士第一篇科研论文项目",
+  "file_count": 5,
+  "files": [
+    {
+      "path": "SpaLORA_Night7B_Independent_Audit_and_Night7C_Decision_2026-08-18.md",
+      "size_bytes": 7570,
+      "sha256": "df8fa4ade3543f0816c4e67de7f7a6e12c3b93188072e26895412c2605179e7d",
+      "role": "independent Night-7B integrity, GPU/runtime and scientific decision audit"
+    },
+    {
+      "path": "SpaLORA_Night7C_Source_Code_Transfer_Audit_2026-08-18.md",
+      "size_bytes": 11616,
+      "sha256": "3cc2817d7dbf3dec5516dc39a422498d73eb6c03fcceb345f342c338a89a63aa",
+      "role": "primary-source code mechanism audit and allowed transfer boundary"
+    },
+    {
+      "path": "SpaLORA_Night7C_Conflict_Gated_Affinity_Registry_2026-08-18.json",
+      "size_bytes": 12911,
+      "sha256": "1a13c62e11daf1e8357c3755368d13c115c1a1e679d9a8500741610d2f985b20",
+      "role": "machine-readable candidates, formulas, budgets, gates and terminal statuses"
+    },
+    {
+      "path": "SpaLORA_Night7C_Conflict_Gated_Routing_and_Runtime_Acceleration_Taskbook_2026-08-18.md",
+      "size_bytes": 16998,
+      "sha256": "24b494b099d605658a132a74ff53cfe70c999c06251b979b8d502cd04983414e",
+      "role": "authoritative experimental execution taskbook"
+    },
+    {
+      "path": "README_FIRST_Night7C_Experimental_Codex_Prompt_2026-08-18.md",
+      "size_bytes": 3721,
+      "sha256": "c5d61e8d52350d187cc6bd5f3135c89860810061b7a439e2d0487b9fb33ca925",
+      "role": "manual copy-paste bootstrap prompt for the experimental Codex"
+    }
+  ],
+  "execution_notes": {
+    "manual_dispatch_only": true,
+    "autodl_mode": "GPU/card mode",
+    "autodl_api_allowed": false,
+    "large_artifacts_in_delivery": false,
+    "read_all_five_files_before_execution": true,
+    "stop_on_hash_mismatch_or_uncertainty": true
+  }
+}

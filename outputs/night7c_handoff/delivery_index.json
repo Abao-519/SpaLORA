@@ -1,0 +1,187 @@
+{
+  "file_count": 35,
+  "files": [
+    {
+      "path": "SpaLORA/night7c_conflict.py",
+      "sha256": "1774fe646fb8201dad0a8739150272385cc05712ca090c87a4d3c5045eb30cc7",
+      "size_bytes": 12734
+    },
+    {
+      "path": "SpaLORA/night7c_firewall.py",
+      "sha256": "ba4a8ba10612923857e9ea8b63f7b94cc894d27167b9af8bac70500633db00db",
+      "size_bytes": 2662
+    },
+    {
+      "path": "outputs/night7c_handoff/budget_audit.json",
+      "sha256": "8e5beb7e27323c201fa9f33cc7c439da7cea4c3d472cf7105807152adac439a0",
+      "size_bytes": 477
+    },
+    {
+      "path": "outputs/night7c_handoff/failure_audit.csv",
+      "sha256": "1046de25f3a4c4b763cc35df532f45f5aae0bea38f1d9c112128203c2ff4a659",
+      "size_bytes": 283
+    },
+    {
+      "path": "outputs/night7c_handoff/full_test_log.txt",
+      "sha256": "e4340dd187f16a8ed96ef9d036ad06912bc7b6ad39f9b5e69b1acc6e11bb79e0",
+      "size_bytes": 12261
+    },
+    {
+      "path": "outputs/night7c_handoff/gate_audit.json",
+      "sha256": "dd351597009876855068e9dcb867d37cfa343ed17e6d4adf971cc231eba2c549",
+      "size_bytes": 267
+    },
+    {
+      "path": "outputs/night7c_handoff/git_audit_pre_final.json",
+      "sha256": "37262d76239418dd1fce0346aaae3ff843c7081b54aae46f68e184d6c2ea17c5",
+      "size_bytes": 274
+    },
+    {
+      "path": "outputs/night7c_handoff/invalid_attempts/p0_authority_attempt1_obs_hash_semantics.json",
+      "sha256": "f5970435d659e3feeab23cfef0a77c7a9a9ae5682a2e49aff1a8533df618cc89",
+      "size_bytes": 451
+    },
+    {
+      "path": "outputs/night7c_handoff/invalid_attempts/p1_attempt1_initial_mnn_mismatch.json",
+      "sha256": "47386bce39be457dc87c35f754dace8c2ddd147f59c2d2211b49c32413ee198e",
+      "size_bytes": 518
+    },
+    {
+      "path": "outputs/night7c_handoff/invalid_attempts/p1_diagnostic_rng_state_tensor_location.json",
+      "sha256": "e9efb0338e87c648496c2e15cf10a40f7ca5d3900d975e9b19a2b8db0141496e",
+      "size_bytes": 478
+    },
+    {
+      "path": "outputs/night7c_handoff/invalid_attempts/p1_final_replay_mismatch_after_rng_restore.json",
+      "sha256": "038720a5707b78462f555c7bb2f22f2a7e1f01fc11ad1e50b12db9e0773ac8e3",
+      "size_bytes": 687
+    },
+    {
+      "path": "outputs/night7c_handoff/label_window_audit.json",
+      "sha256": "96d9280a4c0511a27939d350266149e5ca36224d41cd1e6ac75bdaaf721f292d",
+      "size_bytes": 213
+    },
+    {
+      "path": "outputs/night7c_handoff/night7c_report.md",
+      "sha256": "af7ae61a747e865bace5fce70da72085280c7147ddaf12c9df82362a4c77a840",
+      "size_bytes": 2218
+    },
+    {
+      "path": "outputs/night7c_handoff/night7c_test_log.txt",
+      "sha256": "0e2b25c28c129355c8801946f8270242d9a18abb04eac4c9a2296747ce541071",
+      "size_bytes": 579
+    },
+    {
+      "path": "outputs/night7c_handoff/p0_authority_audit.json",
+      "sha256": "f42dd7556e559cb0eff40980240ca268c1a0479a0f1c33b5a79f6bbf3da3db37",
+      "size_bytes": 3002
+    },
+    {
+      "path": "outputs/night7c_handoff/p1_semantic_contract.json",
+      "sha256": "7250d6bddef51a1075f285629d5ac60017956bd6ddd93a2cfa7ad4b173f40d04",
+      "size_bytes": 694
+    },
+    {
+      "path": "outputs/night7c_handoff/plain_language_summary.txt",
+      "sha256": "6736d68173140b22509fedf0274a4d418c35dfa00b84802672f87c8dbcfd11cf",
+      "size_bytes": 379
+    },
+    {
+      "path": "outputs/night7c_handoff/raw_artifact_index.json",
+      "sha256": "c5c98e2a2c7cfb5317c0f4b08745aa3225e890f61be976e01120f44c6795144f",
+      "size_bytes": 3410
+    },
+    {
+      "path": "outputs/night7c_handoff/routing_transform_manifest.json",
+      "sha256": "e0a3cf4ea08fb778da03025d0a892bfca4e88794997f550ad8f47dc37179d2ad",
+      "size_bytes": 297
+    },
+    {
+      "path": "outputs/night7c_handoff/runtime_report.json",
+      "sha256": "dc6ea58a0d709486e3b2f99c97e3cbcfb0996ae9bf34175aa74c6d1999ac57b7",
+      "size_bytes": 549
+    },
+    {
+      "path": "outputs/night7c_handoff/test_audit.json",
+      "sha256": "2e1336df165f08299355475633467cbde270104fb7fb83c9c0a03f75417af5aa",
+      "size_bytes": 522
+    },
+    {
+      "path": "outputs/night7c_handoff/weighted_mnn_training_manifest.json",
+      "sha256": "fbb123bade45703e016d868cf35acf00e18a392691443d0fb596e44e5bca2993",
+      "size_bytes": 262
+    },
+    {
+      "path": "outputs/night7c_handoff/weighted_mnn_transform_manifest.json",
+      "sha256": "38ed6e3191c3fd964b87522891885c8baa387448e8d2c2ed11922978a4724f63",
+      "size_bytes": 186
+    },
+    {
+      "path": "protocols/night7c/README_FIRST_Night7C_Experimental_Codex_Prompt_2026-08-18.md",
+      "sha256": "c5d61e8d52350d187cc6bd5f3135c89860810061b7a439e2d0487b9fb33ca925",
+      "size_bytes": 3721
+    },
+    {
+      "path": "protocols/night7c/SpaLORA_Night7B_Independent_Audit_and_Night7C_Decision_2026-08-18.md",
+      "sha256": "df8fa4ade3543f0816c4e67de7f7a6e12c3b93188072e26895412c2605179e7d",
+      "size_bytes": 7570
+    },
+    {
+      "path": "protocols/night7c/SpaLORA_Night7C_Conflict_Gated_Affinity_Registry_2026-08-18.json",
+      "sha256": "1a13c62e11daf1e8357c3755368d13c115c1a1e679d9a8500741610d2f985b20",
+      "size_bytes": 12911
+    },
+    {
+      "path": "protocols/night7c/SpaLORA_Night7C_Conflict_Gated_Routing_and_Runtime_Acceleration_Taskbook_2026-08-18.md",
+      "sha256": "24b494b099d605658a132a74ff53cfe70c999c06251b979b8d502cd04983414e",
+      "size_bytes": 16998
+    },
+    {
+      "path": "protocols/night7c/SpaLORA_Night7C_Planning_Delivery_Index_2026-08-18.json",
+      "sha256": "a0aad701b405f5d60084c4d0d459cdc6d6b381105860227e25bdb4e73653a2b6",
+      "size_bytes": 2119
+    },
+    {
+      "path": "protocols/night7c/SpaLORA_Night7C_Source_Code_Transfer_Audit_2026-08-18.md",
+      "sha256": "3cc2817d7dbf3dec5516dc39a422498d73eb6c03fcceb345f342c338a89a63aa",
+      "size_bytes": 11616
+    },
+    {
+      "path": "scripts/night7c_fail_closed_finalize.py",
+      "sha256": "1d01bbb6f151f6af6e794abfe94a025d5d11e1536f8fa5f7ec5f16407b0691cf",
+      "size_bytes": 9446
+    },
+    {
+      "path": "scripts/night7c_make_delivery_index.py",
+      "sha256": "4bba529cc16054773088d0477498fd0cfa0992eca1ff78b8f5e3ceb34e40bf3e",
+      "size_bytes": 2032
+    },
+    {
+      "path": "scripts/night7c_p0_authority.py",
+      "sha256": "6b733a4d3dfd32c650b7283305f91f926233679c58298616bf12b554af3a9314",
+      "size_bytes": 17458
+    },
+    {
+      "path": "scripts/night7c_p1.py",
+      "sha256": "e81de3573bf15764d7c9708ffc388933c90bf73b7393fe28b693df44816ef8b8",
+      "size_bytes": 11385
+    },
+    {
+      "path": "tests/test_night7c_conflict.py",
+      "sha256": "12297cd6e1ee030edc83a99060f2c19c45b614246391e211cc7ed1491bec99c2",
+      "size_bytes": 4702
+    },
+    {
+      "path": "tests/test_night7c_firewall.py",
+      "sha256": "942fabefb98675447e0fd5f1064926ebdeadbafd5d155e436b1d54207a22ad21",
+      "size_bytes": 1463
+    }
+  ],
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "label_access": false,
+  "root_rule": "sha256(newline_join(file_sha256_in_lexical_path_order))",
+  "root_sha256": "86e80413e179abe75f64dac30ee68a18fc04acbc77dd8672ac01c7319b73a7c4",
+  "schema_version": 1,
+  "status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

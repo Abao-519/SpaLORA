@@ -1,0 +1,28 @@
+{
+  "formal_routing_transforms": {
+    "limit": 240,
+    "used": 0
+  },
+  "formal_training": {
+    "limit": 48,
+    "used": 0
+  },
+  "formal_weighted_transforms": {
+    "limit": 48,
+    "used": 0
+  },
+  "implementation_corrections": {
+    "limit": 8,
+    "used": 2
+  },
+  "schema_version": 1,
+  "scientific_retry": {
+    "limit": 0,
+    "used": 0
+  },
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "total_training_attempts": {
+    "limit": 56,
+    "used": 0
+  }
+}

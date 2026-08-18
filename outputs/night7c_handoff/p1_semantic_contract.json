@@ -1,0 +1,19 @@
+{
+  "checkpoint_and_final_endpoint_parity_verified_before_m_initial_gate": true,
+  "first_failed_unit": "u005",
+  "fixed_input_and_mnn_sha_verified": true,
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "fresh_reload_pass_before_stop": 5,
+  "hard_stop": "P1 m_initial parity did not satisfy <=1e-7",
+  "label_access": false,
+  "m_initial_absolute_error": 2.7619302272713364e-05,
+  "m_initial_historical": 0.0974991172552108,
+  "m_initial_recomputed": 0.09747149795293808,
+  "m_initial_repeat_after_rng_restore": 0.09747149795293808,
+  "m_initial_tolerance": 1e-07,
+  "planned_units": 30,
+  "schema_version": 1,
+  "status": "FAIL",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

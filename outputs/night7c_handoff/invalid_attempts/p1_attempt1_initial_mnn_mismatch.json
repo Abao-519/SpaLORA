@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "stage": "P1-SEMANTICS",
+  "classification": "semantic_parity_failure",
+  "status": "INVALID_NO_SCIENCE",
+  "first_failed_unit": "u005",
+  "passed_before_failure": 5,
+  "recomputed_m_initial": 0.09747149795293808,
+  "historical_first_curve_mnn": 0.09749911725521079,
+  "absolute_error": 0.000027619302272713364,
+  "registered_tolerance": 0.0000001,
+  "fixed_input_and_mnn_sha_verified": true,
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "label_access": false,
+  "scientific_retry": false
+}

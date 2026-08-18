@@ -1,0 +1,16 @@
+{
+  "current_cuda_smoke": {
+    "loss": "cuda:0",
+    "model": "cuda:0",
+    "peak_gpu_mib": 16.25390625,
+    "views": "cuda:0"
+  },
+  "current_gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "gpu_spectral_diagnostic": "NOT_RUN",
+  "historical_training_cells_positive_gpu_memory": "124/124",
+  "historical_training_gpu": "NVIDIA GeForce RTX 4080",
+  "parallel_transform_parity_speed_test": "NOT_RUN",
+  "schema_version": 1,
+  "scientific_interpretation": "No runtime acceleration conclusion was generated.",
+  "status": "P2_NOT_STARTED_DUE_P1_HARD_STOP"
+}

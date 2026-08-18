@@ -1,0 +1,100 @@
+{
+  "authority": {
+    "sha256": {
+      "README_FIRST_Night7C_Experimental_Codex_Prompt_2026-08-18.md": "c5d61e8d52350d187cc6bd5f3135c89860810061b7a439e2d0487b9fb33ca925",
+      "SpaLORA_Night7B_Independent_Audit_and_Night7C_Decision_2026-08-18.md": "df8fa4ade3543f0816c4e67de7f7a6e12c3b93188072e26895412c2605179e7d",
+      "SpaLORA_Night7C_Conflict_Gated_Affinity_Registry_2026-08-18.json": "1a13c62e11daf1e8357c3755368d13c115c1a1e679d9a8500741610d2f985b20",
+      "SpaLORA_Night7C_Conflict_Gated_Routing_and_Runtime_Acceleration_Taskbook_2026-08-18.md": "24b494b099d605658a132a74ff53cfe70c999c06251b979b8d502cd04983414e",
+      "SpaLORA_Night7C_Planning_Delivery_Index_2026-08-18.json": "a0aad701b405f5d60084c4d0d459cdc6d6b381105860227e25bdb4e73653a2b6",
+      "SpaLORA_Night7C_Source_Code_Transfer_Audit_2026-08-18.md": "3cc2817d7dbf3dec5516dc39a422498d73eb6c03fcceb345f342c338a89a63aa"
+    },
+    "verified": 6
+  },
+  "budgets": {
+    "implementation_corrections_max": 8,
+    "routing_new_transforms": 240,
+    "scientific_retry": 0,
+    "total_training_attempts_max": 56,
+    "weighted_mnn_pilot_training": 48,
+    "weighted_mnn_pilot_transforms": 48
+  },
+  "compact": {
+    "expected": 67,
+    "root_sha256": "eb52cc09e58722fb0a0f7c083d4099b74e526afbf71f1af750244194f3136eb0",
+    "verified": 67
+  },
+  "environment": {
+    "cpu_count": 96,
+    "cuda_smoke": {
+      "loss": "cuda:0",
+      "model": "cuda:0",
+      "peak_gpu_mib": 16.25390625,
+      "views": "cuda:0"
+    },
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "igraph": "0.10.8",
+    "python": "3.8.10",
+    "r_mclust": "6.1.1",
+    "ram_gib": 503.5123176574707,
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118",
+    "torch_cuda": "11.8"
+  },
+  "firewall_static": {
+    "base_trainer_imports_anndata": false,
+    "identity_branch_hits": [],
+    "label_access": false,
+    "prelock_original_h5ad_allowed": false
+  },
+  "git": {
+    "head": "32d6ed947b313423805ee0f80c9dada06bb6a28d",
+    "status_header": "## revision/q2-night7c-conflict-gated-mnn-rnd-20260818",
+    "tag_peel": "32d6ed947b313423805ee0f80c9dada06bb6a28d"
+  },
+  "historical": {
+    "H01_H02_exact_pairs": 60,
+    "checkpoint_reload_pass": 124,
+    "gpu_model_exact": 124,
+    "peak_gpu_mib_max": 2556.228515625,
+    "peak_gpu_mib_min": 120.7890625,
+    "positive_peak_gpu": 124,
+    "specialist_transforms": 120,
+    "training_artifact_file_checks": 992,
+    "training_cells": 124
+  },
+  "label_access": false,
+  "schema_version": 1,
+  "source": {
+    "example_shapes": {
+      "SpaLORA_fused": [
+        3484,
+        64
+      ],
+      "alpha_cross": [
+        3484,
+        2
+      ],
+      "alpha_omics1": [
+        3484,
+        2
+      ],
+      "alpha_omics2": [
+        3484,
+        2
+      ],
+      "emb_latent_omics1": [
+        3484,
+        64
+      ],
+      "emb_latent_omics2": [
+        3484,
+        64
+      ]
+    },
+    "six_view_archives": 60,
+    "units": 30,
+    "verified_artifact_checks": 270
+  },
+  "status": "PASS"
+}

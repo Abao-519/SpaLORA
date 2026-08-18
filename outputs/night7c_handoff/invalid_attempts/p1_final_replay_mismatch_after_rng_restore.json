@@ -1,0 +1,18 @@
+{
+  "stage": "P1-SEMANTICS",
+  "classification": "terminal_semantic_parity_failure",
+  "status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "unit_id": "u005",
+  "current_gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "historical_gpu": "NVIDIA GeForce RTX 4080",
+  "recomputed_attempt_1": 0.09747149795293808,
+  "recomputed_attempt_2_after_exact_rng_restore": 0.09747149795293808,
+  "historical_first_curve_mnn": 0.09749911725521079,
+  "absolute_error": 0.000027619302272713364,
+  "registered_tolerance": 0.0000001,
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "label_access": false,
+  "scientific_retry": false,
+  "decision": "Fail closed; do not run P2, Stage T, Stage W, or evaluation."
+}

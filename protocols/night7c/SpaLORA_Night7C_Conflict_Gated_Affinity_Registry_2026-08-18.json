@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "protocol_id": "NIGHT7C_CONFLICT_GATED_AFFINITY_AND_CONFIDENCE_WEIGHTED_MNN_RND_20260818",
+  "date": "2026-08-18",
+  "authority_type": "planner_preregistered_development_rnd",
+  "parent_commit": "32d6ed947b313423805ee0f80c9dada06bb6a28d",
+  "parent_tag": "night7b-final-20260818",
+  "objective": "Preserve the confirmed C00 result on low-conflict datasets while retaining or improving the Night-7B R02 P22 gain, using only label-free conflict, matching-confidence and shared-neighbor evidence.",
+  "cross_dataset_training_semantics": {
+    "development_panel": "four dataset instances in three data families: A1 and D1 are human lymph-node sections from one technology/data family; tonsil and P22 are the other two families",
+    "joint_training_or_data_pooling": false,
+    "shared_learned_checkpoint_across_datasets": false,
+    "fresh_model_per_dataset_and_seed": true,
+    "shared_across_datasets": [
+      "architecture",
+      "candidate definitions and formulas",
+      "budgets and selection order",
+      "label-free router rule",
+      "evaluation and protection gates"
+    ],
+    "allowed_adaptation": "the same preregistered formula may produce different per-unit or per-spot weights from each unit's own label-free conflict, matching-confidence and shared-neighbor statistics",
+    "forbidden_manual_routing": [
+      "dataset id or name",
+      "tissue or organism",
+      "technology or platform name",
+      "modality name",
+      "file or directory name",
+      "ground-truth label or evaluation metric"
+    ],
+    "interpretation": "unified means one identity-blind adaptive rule, not one frozen model state or one fixed numeric modality/loss weight for every technology"
+  },
+  "execution": {
+    "autodl_mode": "GPU/card mode required because the task needs CUDA training plus high-CPU/high-memory graph transforms",
+    "autodl_api_allowed": false,
+    "automatic_other_codex_invocation_allowed": false,
+    "remote_persistent_root": "/root/autodl-fs",
+    "formal_gpu_required": true,
+    "formal_cpu_transform_allowed": true,
+    "fresh_dataset_downloads": 0,
+    "formal_external_benchmark_runs": 0
+  },
+  "authority_inputs": [
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/compact_delivery_index.json",
+      "sha256": "032da4baf8bde8f3c7abbfaebf6830c3546a21618c1c32d0d5309b34bff93626"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/night7b_report.md",
+      "sha256": "48e16b12934fb13c668ea08e966e26e1c2454f5aad59e8510e7b391a4d2cd0a9"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/locked_R1_manifest.json",
+      "sha256": "d599dabc1be4603349fabbd582e0625a8f2eb77eadebacd386014f471ab654ad"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/locked_R2_manifest.json",
+      "sha256": "11b6e49bce3eade46ede3e6576dd0776cdb08780c20edaf0954e737d19cef232"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/R2_full_per_seed_metrics.csv",
+      "sha256": "656663e247b9e76d2f7b468159992e8929529358f0615eb61badd81a6ee028ee"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "a1",
+      "seeds": [0, 1, 2, 3, 4],
+      "pilot_seeds": [0, 1],
+      "priority_weight": 0.25
+    },
+    {
+      "id": "tonsil",
+      "seeds": [0, 1, 2, 3, 4],
+      "pilot_seeds": [0, 1],
+      "priority_weight": 0.15
+    },
+    {
+      "id": "d1",
+      "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "pilot_seeds": [0, 1],
+      "priority_weight": 0.25
+    },
+    {
+      "id": "p22",
+      "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "pilot_seeds": [0, 1],
+      "priority_weight": 0.35
+    }
+  ],
+  "immutable_specialists": {
+    "S0_C00": "confirmed C00 G04/H05 affinity and partition from Night-6C/Night-7A, exposed as Night-7B H00",
+    "S2_R02": "R02 E1_ADAPTER_C06_MEAN affinity with the single H01 spectral-discretize endpoint",
+    "S8_R08": "R08 E1_ADAPTER_C06_MEAN affinity with the single H01 spectral-discretize endpoint",
+    "duplicate_endpoint_forbidden": "Night-7B H01/H02 rows were exactly identical, so H02 must not be rerun"
+  },
+  "label_free_feature_contract": {
+    "m_initial": "the R02 MNN component on the first formal forward before the first optimizer step, recomputed from the locked input, fixed MNN indices and deterministic initialization; it must match the first saved loss-curve value within 1e-7",
+    "c_i": "1-cosine(u00_i,u04_i) from the fresh-reloaded R02 model's two graph summaries before equal fusion",
+    "rank_c_i": "deterministic tied-average percentile rank of c_i in [0,1] within the unit; n=1 maps to 0",
+    "q_i": "clip((d_second_i-d_positive_i)/(d_second_i+1e-12),0,1), where d_positive is the fixed reciprocal-MNN positive distance and d_second is the nearest deterministic alternative not equal to that positive",
+    "s_i": "Jaccard overlap in [0,1] between the deterministic top-10 neighbor sets of u00_i and u04_i; no original h5ad read is allowed",
+    "dataset_metadata_forbidden": [
+      "dataset id",
+      "file or directory name",
+      "organism or tissue name",
+      "modality name",
+      "ground-truth label",
+      "ARI/NMI/Q or any evaluation metric"
+    ]
+  },
+  "affinity_mix_contract": {
+    "row_normalization": "row-normalize each nonnegative specialist affinity with zero-degree fail-closed",
+    "two_way": "B=diag(1-alpha)@R(S0)+diag(alpha)@R(S2); S=0.5*(B+B.T); set diagonal to zero; eliminate zeros; canonical CSR",
+    "three_way": "B=diag(w0)@R(S0)+diag(w8)@R(S8)+diag(w2)@R(S2); S=0.5*(B+B.T); set diagonal to zero; eliminate zeros; canonical CSR",
+    "partition": "the exact Night-7B spectral-discretize implementation with locked K and seed semantics",
+    "no_posthoc_repair": true
+  },
+  "routing_candidate_order": [
+    "T00_C00_REFERENCE",
+    "T01_R02_REFERENCE",
+    "T02_GLOBAL_WIDE",
+    "T03_GLOBAL_CONSERVATIVE",
+    "T04_HARD_CONFLICT_030",
+    "T05_LOCAL_CONFLICT",
+    "T06_LOCAL_CONFLICT_SQUARED",
+    "T07_LOCAL_QUALITY_CONFLICT",
+    "T08_LOCAL_SHARED_SUPPORT",
+    "T09_THREE_SPECIALIST_EXPLORATORY"
+  ],
+  "routing_candidates": [
+    {
+      "id": "T00_C00_REFERENCE",
+      "new_transform": false,
+      "weights": "w0=1,w2=0"
+    },
+    {
+      "id": "T01_R02_REFERENCE",
+      "new_transform": false,
+      "weights": "w0=0,w2=1"
+    },
+    {
+      "id": "T02_GLOBAL_WIDE",
+      "new_transform": true,
+      "weights": "alpha_i=clip((m_initial-0.20)/0.15,0,1) for every spot"
+    },
+    {
+      "id": "T03_GLOBAL_CONSERVATIVE",
+      "new_transform": true,
+      "weights": "alpha_i=clip((m_initial-0.25)/0.10,0,1) for every spot"
+    },
+    {
+      "id": "T04_HARD_CONFLICT_030",
+      "new_transform": true,
+      "weights": "alpha_i=1 if m_initial>=0.30 else 0 for every spot"
+    },
+    {
+      "id": "T05_LOCAL_CONFLICT",
+      "new_transform": true,
+      "weights": "alpha_i=clip((m_initial-0.20)/0.15,0,1)*rank_c_i"
+    },
+    {
+      "id": "T06_LOCAL_CONFLICT_SQUARED",
+      "new_transform": true,
+      "weights": "alpha_i=clip((m_initial-0.25)/0.10,0,1)*(rank_c_i^2)"
+    },
+    {
+      "id": "T07_LOCAL_QUALITY_CONFLICT",
+      "new_transform": true,
+      "weights": "alpha_i=clip((m_initial-0.20)/0.15,0,1)*rank_c_i*q_i"
+    },
+    {
+      "id": "T08_LOCAL_SHARED_SUPPORT",
+      "new_transform": true,
+      "weights": "alpha_i=clip((m_initial-0.20)/0.15,0,1)*sqrt(rank_c_i*q_i*s_i)"
+    },
+    {
+      "id": "T09_THREE_SPECIALIST_EXPLORATORY",
+      "new_transform": true,
+      "weights": "w2=clip((m_initial-0.30)/0.05,0,1); w8=(1-w2)*clip((m_initial-0.22)/0.08,0,1); w0=1-w2-w8"
+    }
+  ],
+  "weighted_mnn_architecture": {
+    "base": "exact Night-7B R02 architecture, optimizer, scheduler, float32 and 160-epoch fixed endpoint",
+    "fusion": "equal",
+    "loss": "RECON + 0.2*weighted_MNN",
+    "triplet_margin": 0.5,
+    "early_stopping": false,
+    "best_epoch_selection": false,
+    "endpoint": "E1_ADAPTER_C06_MEAN with H01 only",
+    "weight_normalization": "nonzero per-spot weights are divided by their arithmetic mean before the weighted MNN mean, except filtered zeros remain zero"
+  },
+  "weighted_mnn_candidate_order": [
+    "W00_FILTER75",
+    "W01_QUALITY_SOFT",
+    "W02_CONFLICT_RANK",
+    "W03_QUALITY_CONFLICT",
+    "W04_QUALITY_SHARED",
+    "W05_QUALITY_CONFLICT_SHARED"
+  ],
+  "weighted_mnn_candidates": [
+    {
+      "id": "W00_FILTER75",
+      "weight": "1 for the highest 75 percent q_i using deterministic stable order, otherwise 0"
+    },
+    {
+      "id": "W01_QUALITY_SOFT",
+      "weight": "q_i"
+    },
+    {
+      "id": "W02_CONFLICT_RANK",
+      "weight": "rank_c_i"
+    },
+    {
+      "id": "W03_QUALITY_CONFLICT",
+      "weight": "q_i*rank_c_i"
+    },
+    {
+      "id": "W04_QUALITY_SHARED",
+      "weight": "q_i*sqrt(s_i)"
+    },
+    {
+      "id": "W05_QUALITY_CONFLICT_SHARED",
+      "weight": "q_i*rank_c_i*sqrt(s_i)"
+    }
+  ],
+  "routing_success_gate_vs_C00": {
+    "a1_mean_delta_q_min": -0.001,
+    "tonsil_mean_delta_q_min": -0.001,
+    "d1_mean_delta_q_min": -0.001,
+    "p22_mean_delta_q_min": 0.04,
+    "p22_q_wins_min": 8,
+    "priority_weighted_delta_q_min": 0.015,
+    "nonloss_q_cells_min_of_30": 26,
+    "spatial_protection_required_for_all_datasets": true,
+    "complete_cells_required": 30
+  },
+  "strong_unified_gate_vs_C00": {
+    "every_dataset_mean_delta_q_strictly_positive": true,
+    "priority_weighted_delta_q_min": 0.018,
+    "total_q_wins_min": 20,
+    "spatial_protection_required_for_all_datasets": true
+  },
+  "spatial_protection_contract_vs_C00": {
+    "neighbor_agreement_mean_delta_min_each_dataset": -0.01,
+    "moran_i_mean_delta_min_each_dataset": -0.02,
+    "geary_c_mean_delta_max_each_dataset": 0.02,
+    "boundary_disagreement_mean_delta_max_each_dataset": 0.01,
+    "semantics": "Reuse the exact Night-7B metric implementation and compare same-seed candidate means with C00; no metric redefinition is allowed."
+  },
+  "weighted_mnn_pilot_promotion": {
+    "complete_cells_required": 8,
+    "p22_mean_delta_q_vs_R02_min_or_p22_delta_ari_min": [0.005, 0.01],
+    "no_dataset_spatial_protection_failure": true,
+    "maximum_promoted_candidates": 2,
+    "selection_order": [
+      "p22 mean delta Q versus same-seed R02",
+      "p22 mean delta ARI versus same-seed R02",
+      "human-lymph equal-mean delta Q versus same-seed R02",
+      "lower runtime",
+      "registry order"
+    ],
+    "pilot_is_not_full_seed_confirmation": true
+  },
+  "runtime_contract": {
+    "nvml_sampling_seconds": 1,
+    "phase_markers_required": true,
+    "all_124_night7b_training_cells_must_show_positive_gpu_memory": true,
+    "parallel_transform_candidate": "four worker processes, each with OMP/MKL/OpenBLAS threads fixed at 8, memory guard below 48 GiB RSS",
+    "parallel_transform_acceptance": "canonical affinity and partition SHA must equal serial for every parity cell and four-unit P22 batch wall time must be at least 1.5x faster",
+    "gpu_spectral_backend": "optional diagnostic only; formal use requires exact canonical partition SHA on all 30 historical C00 units and all 30 R02 units",
+    "speed_never_overrides_exactness": true
+  },
+  "budgets": {
+    "routing_new_transforms": 240,
+    "weighted_mnn_pilot_training": 48,
+    "weighted_mnn_pilot_transforms": 48,
+    "scientific_retry": 0,
+    "implementation_corrections_max": 8,
+    "total_training_attempts_max": 56
+  },
+  "label_firewall": {
+    "all routing outputs and all weighted_mnn pilot outputs_locked_before_labels": true,
+    "original_h5ad_read_before_lock": false,
+    "label_window_count": 1,
+    "return_to_training_or_transform_after_label_window": false,
+    "low_level_hdf5_obs_values_before_lock": false
+  },
+  "forbidden_actions": [
+    "dataset-name, tissue-name, organism-name or modality-name routing",
+    "label, ARI, NMI, Q or spatial-metric routing",
+    "seed search, seed deletion or per-dataset seed choice",
+    "best epoch selection",
+    "post-label threshold or formula changes",
+    "fallback after numerical failure",
+    "retrying a scientific unit",
+    "using Night-6A invalid scientific outputs",
+    "copying ARISE ground-truth best-ARI training logic",
+    "opening D1, P22 or any original h5ad with anndata before total lock",
+    "force push or moving an existing tag",
+    "calling the AutoDL API"
+  ],
+  "terminal_statuses": [
+    "NIGHT7C_STRONG_UNIFIED_CONFLICT_ROUTER_LOCKED",
+    "NIGHT7C_SAFE_P22_CONFLICT_ROUTER_LOCKED",
+    "NIGHT7C_WEIGHTED_MNN_CANDIDATES_READY_FOR_FULL_SEEDS",
+    "NIGHT7C_SAFE_ROUTER_AND_WEIGHTED_MNN_CANDIDATES_READY",
+    "NIGHT7C_NO_SAFE_ROUTER_OR_WEIGHTED_MNN_CANDIDATE",
+    "BLOCKED_PREFLIGHT",
+    "IMPLEMENTATION_SEMANTICS_INVALID",
+    "BUDGET_EXHAUSTED"
+  ]
+}

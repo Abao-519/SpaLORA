@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "classification": "global_preformal_implementation_correction",
+  "stage": "P0-AUTHORITY",
+  "status": "INVALID_NO_SCIENCE",
+  "cause": "Auditor compared the registered newline-joined observation-id SHA with the generic typed-array SHA.",
+  "correction": "Use the exact Night-7B obs_sha contract: sha256(newline_join(ids)).",
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "label_access": false,
+  "scientific_retry": false
+}

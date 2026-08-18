@@ -1,0 +1,1 @@
+Night-7C 在 P1 语义一致性门按预注册规则停止。前 5 个 R02 单元 exact；u005 的初始 MNN 复算与历史首条 loss 相差 2.76193e-05，超过 1e-7 容差。因此没有启动 P2、240 个路由 transform、48 次 weighted-MNN 训练、48 个 transform，也没有打开标签。终态为 IMPLEMENTATION_SEMANTICS_INVALID；不能产生方法优劣结论。

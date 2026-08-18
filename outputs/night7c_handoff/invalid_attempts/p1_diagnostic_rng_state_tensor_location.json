@@ -1,0 +1,11 @@
+{
+  "stage": "P1-SEMANTICS-DIAGNOSTIC",
+  "classification": "preformal_implementation_correction",
+  "status": "INVALID_NO_SCIENCE",
+  "cause": "torch.load(map_location='cuda') placed saved RNG-state tensors on CUDA; torch.set_rng_state requires a CPU ByteTensor.",
+  "correction": "Move stored CPU and CUDA RNG-state byte tensors to CPU before restoring the generators.",
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "label_access": false,
+  "scientific_retry": false
+}
