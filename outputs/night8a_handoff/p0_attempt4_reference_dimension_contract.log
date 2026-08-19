@@ -1,0 +1,21 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "scripts/night8a_p0.py", line 377, in <module>
+    main()
+  File "scripts/night8a_p0.py", line 360, in main
+    outputs["p22_smoke"] = p22_smoke()
+  File "scripts/night8a_p0.py", line 321, in p22_smoke
+    command([str(PYTHON), str(REPO / "scripts/night8a_train.py"), "train", "--config", str(config_path)], timeout=900)
+  File "scripts/night8a_p0.py", line 52, in command
+    raise RuntimeError(f"command failed {args}: {result.stdout[-2000:]}")
+RuntimeError: command failed ['/root/miniconda3/envs/SpaLORA/bin/python', '/autodl-fs/data/SpaLORA-night8a/scripts/night8a_train.py', 'train', '--config', '/root/autodl-fs/night8a_raw_runs_20260820/p0_full_size_p22_smoke/cell_config.json']: Traceback (most recent call last):
+  File "/autodl-fs/data/SpaLORA-night8a/scripts/night8a_train.py", line 336, in <module>
+    main()
+  File "/autodl-fs/data/SpaLORA-night8a/scripts/night8a_train.py", line 331, in main
+    if args.mode == "train": run_train(args.config)
+  File "/autodl-fs/data/SpaLORA-night8a/scripts/night8a_train.py", line 191, in run_train
+    inputs = load_inputs(config, family, active)
+  File "/autodl-fs/data/SpaLORA-night8a/scripts/night8a_train.py", line 103, in load_inputs
+    raise RuntimeError("family reference shape mismatch")
+RuntimeError: family reference shape mismatch
+

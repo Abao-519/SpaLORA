@@ -1,0 +1,220 @@
+{
+  "license_policy": "GPL/unknown source not copied; only scientific ideas independently implemented",
+  "repositories": {
+    "ARISE": {
+      "acquisition": "remote shallow git clone",
+      "audit_warning": "official training code contains label/best-ARI semantics; prohibited from Night-8A training",
+      "commit": "fefdd849494c0d08e755052a7a31b20169945e40",
+      "copied_into_spalora": false,
+      "license": {
+        "classification": "NO_CLEAR_LICENSE_FILE",
+        "files": []
+      },
+      "observed_origin": "https://github.com/XiangxiangWang-code/ARISE.git",
+      "portable_idea_only": "RNA-feature and spatial-support intersection; independently implemented",
+      "read_files": [
+        {
+          "path": "ARISE/begin.py",
+          "sha256": "a5413d282153e6d6ff29c38dd507a9fe78eea0d30ede481fb7727728397f420a",
+          "size_bytes": 2407
+        },
+        {
+          "path": "ARISE/code/H3K4me3.py",
+          "sha256": "b262c143ac4b3bf0e1cdac071c878c0b50015bb51a4f8b31af12f85813c2f6f8",
+          "size_bytes": 17340
+        },
+        {
+          "path": "ARISE/code/hln.py",
+          "sha256": "3dc35155af674132e8a5eed6855f89c36eda56875e19484ef1007594675f555a",
+          "size_bytes": 13073
+        },
+        {
+          "path": "ARISE/code/mouse_brain.py",
+          "sha256": "3b597c31deac9f9dff0bf7dbf3b943eecf605b13800562c5f27922c642cc22c7",
+          "size_bytes": 15510
+        }
+      ],
+      "url": "https://github.com/XiangxiangWang-code/ARISE.git"
+    },
+    "COSMOS": {
+      "acquisition": "remote shallow git clone",
+      "audit_warning": "accelerated coordinate subset indexing suspicion recorded without altering upstream",
+      "commit": "56ea355be51e64d9253e2871b8bd447fdfd0d230",
+      "copied_into_spalora": false,
+      "license": {
+        "classification": "MIT",
+        "files": [
+          {
+            "classification": "MIT",
+            "path": "LICENSE",
+            "sha256": "dd3a579390f24cc4e6d20649684529612113fdf6a03a0a8725480fee48f005e8"
+          }
+        ]
+      },
+      "observed_origin": "https://github.com/Lin-Xu-lab/COSMOS.git",
+      "portable_idea_only": "sparse global-local mutual-information control; independently implemented",
+      "read_files": [
+        {
+          "path": "COSMOS/cosmos.py",
+          "sha256": "33578438f2bd1aab62c819a054908d543bf8cefff9280863ec519166426b14ee",
+          "size_bytes": 17302
+        }
+      ],
+      "url": "https://github.com/Lin-Xu-lab/COSMOS.git"
+    },
+    "MultiGATE": {
+      "acquisition": "remote shallow git clone",
+      "commit": "7e846af5c5f5cf6a8f318dd432b68fc0752030d3",
+      "copied_into_spalora": false,
+      "license": {
+        "classification": "APACHE",
+        "files": [
+          {
+            "classification": "APACHE",
+            "path": "LICENSE",
+            "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+          }
+        ]
+      },
+      "observed_origin": "https://github.com/cuhklinlab/MultiGATE.git",
+      "read_files": [
+        {
+          "path": "MultiGATE/Train_MultiGATE.py",
+          "sha256": "392aea12cf488adf50fefc8846ac16e1fb03ef50e0570868039ec9c84b196be3",
+          "size_bytes": 10174
+        },
+        {
+          "path": "MultiGATE/model_MultiGATE.py",
+          "sha256": "5445573bd217781dac7d7077236521d22797def298291a28d7ecb47ef1b6191e",
+          "size_bytes": 14414
+        },
+        {
+          "path": "MultiGATE/utils.py",
+          "sha256": "2168b76309a204d5844e48a6f01c4e236d26261131b2002b742542dacc4a85d8",
+          "size_bytes": 32188
+        },
+        {
+          "path": "Reproduce/clustering/MultiGATE/Train_MultiGATE.py",
+          "sha256": "9b613e70cb093f79804b2295e5a99432870a9f5cf36102075bd7fea69f28900a",
+          "size_bytes": 10629
+        }
+      ],
+      "url": "https://github.com/cuhklinlab/MultiGATE.git"
+    },
+    "SMART": {
+      "acquisition": "GitHub API commit authority plus codeload source snapshot; remote git clone failed by TLS timeout",
+      "audit_warning": "tutorial parameters vary by platform/dataset; this is not permission for identity routing",
+      "commit": "75676546a66d48a7ebfd7c5f3a2758a4c538fcfc",
+      "copied_into_spalora": false,
+      "license": {
+        "classification": "GPL",
+        "files": [
+          {
+            "classification": "GPL",
+            "path": "LICENSE",
+            "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+          }
+        ]
+      },
+      "observed_origin": "https://github.com/Xubin-s-Lab/SMART-main.git",
+      "read_files": [
+        {
+          "path": "smart/MNN.py",
+          "sha256": "9a1e6b2467fc9ce0942b6c6e0211c9619429825f1902c6fd931103a0c2b3d6c3",
+          "size_bytes": 7226
+        },
+        {
+          "path": "smart/layer.py",
+          "sha256": "5e9f15d0fb043558340e4c3842a2c358057d7d52830f2249a63a359b15582705",
+          "size_bytes": 6160
+        },
+        {
+          "path": "smart/train.py",
+          "sha256": "8708c98a0be4a595ebe43ab20591377547ec5039fd382eaa8bbe42a1d9ba02e1",
+          "size_bytes": 11150
+        }
+      ],
+      "url": "https://github.com/Xubin-s-Lab/SMART-main.git"
+    },
+    "SpaMosaic": {
+      "acquisition": "GitHub API commit authority plus codeload source snapshot; remote git clone failed by TLS timeout",
+      "commit": "cc1336755de8d1ddd1337b3cd67c9d41a61c2cb4",
+      "copied_into_spalora": false,
+      "license": {
+        "classification": "MIT",
+        "files": [
+          {
+            "classification": "MIT",
+            "path": "LICENSE",
+            "sha256": "3d200cf5a630c4035781ccd736d842d1b5fa218218dac832cd110136c7db65ff"
+          }
+        ]
+      },
+      "observed_origin": "https://github.com/JinmiaoChenLab/SpaMosaic.git",
+      "read_files": [
+        {
+          "path": "spamosaic/build_graph.py",
+          "sha256": "c7fe6132bf173dc4c1f1f981cffa05d8dde40e3b1659f6c69d975371cda787de",
+          "size_bytes": 10404
+        },
+        {
+          "path": "spamosaic/framework.py",
+          "sha256": "a5b90dc08f41188156006d026d4ede02604c64ee192c9c9a5dc714a52c6a3d6d",
+          "size_bytes": 21938
+        },
+        {
+          "path": "spamosaic/loss.py",
+          "sha256": "173c42fe7ffa32dbd7035b63d7b79bde9df66e7b10837bb335987e5a136af032",
+          "size_bytes": 2415
+        },
+        {
+          "path": "spamosaic/preprocessing.py",
+          "sha256": "2925a4f58ea7f46450cabc7508fd291a2a5ba9bd34210bfb71b28c3bdcfa12f4",
+          "size_bytes": 13572
+        }
+      ],
+      "url": "https://github.com/JinmiaoChenLab/SpaMosaic.git"
+    },
+    "scMultiBench": {
+      "acquisition": "remote shallow git clone",
+      "commit": "0c68f87d554a52e363dbfda2a9d1fa9538eeae9f",
+      "copied_into_spalora": false,
+      "license": {
+        "classification": "APACHE",
+        "files": [
+          {
+            "classification": "APACHE",
+            "path": "LICENSE",
+            "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+          }
+        ]
+      },
+      "observed_origin": "https://github.com/PYangLab/scMultiBench.git",
+      "read_files": [
+        {
+          "path": "evaluation_pipelines/classification/MLP_classification/util.py",
+          "sha256": "fe5ff7d1b9cb282f0be0f96d1ea0b0c447fffd08daefab67e6a0241808738625",
+          "size_bytes": 7122
+        },
+        {
+          "path": "evaluation_pipelines/clustering/SINFONIA_graph.py",
+          "sha256": "18048e00a3ce170f0b1f32085c831f30ca4de5c59db3764fc8155fdd46b39222",
+          "size_bytes": 4700
+        },
+        {
+          "path": "evaluation_pipelines/clustering/SINFONIA_graph_batch.py",
+          "sha256": "38a87a1f223d3e39e18e125bffa56291fc25477022de76d0b6239bf5863c9767",
+          "size_bytes": 4885
+        },
+        {
+          "path": "evaluation_pipelines/scib_metrics/scib_metrics.py",
+          "sha256": "47950485eee0b719d611fac5a41ddb0e0ab0dacde59abf7649d91d1664459ec4",
+          "size_bytes": 5723
+        }
+      ],
+      "url": "https://github.com/PYangLab/scMultiBench.git"
+    }
+  },
+  "status": "PASS_INDEPENDENT_IMPLEMENTATION_BOUNDARY",
+  "third_party_code_copied": false
+}

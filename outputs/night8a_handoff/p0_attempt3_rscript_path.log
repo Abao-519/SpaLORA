@@ -1,0 +1,17 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "scripts/night8a_p0.py", line 376, in <module>
+    main()
+  File "scripts/night8a_p0.py", line 347, in main
+    "environment": environment_gate(), "firewall": firewall_gate()}
+  File "scripts/night8a_p0.py", line 270, in environment_gate
+    r_version = command(["Rscript", "-e", "cat(as.character(getRversion()))"])
+  File "scripts/night8a_p0.py", line 49, in command
+    result = subprocess.run(args, cwd=cwd, text=True, stdout=subprocess.PIPE,
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'Rscript'

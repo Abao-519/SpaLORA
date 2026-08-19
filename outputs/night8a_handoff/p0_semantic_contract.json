@@ -1,0 +1,24 @@
+{
+  "completed_at_unix": 1787162619.2486005,
+  "elapsed_seconds": 150.1959617137909,
+  "formal_scientific_training_attempts": 0,
+  "formal_transforms": 0,
+  "label_access": false,
+  "outputs": {
+    "authority": "PASS",
+    "environment": "PASS",
+    "firewall": "PASS_PRE_LABEL",
+    "history": "PASS",
+    "locked_inputs": "PASS",
+    "p22_smoke": "PASS",
+    "source": "PASS_INDEPENDENT_IMPLEMENTATION_BOUNDARY",
+    "tests": "PASS"
+  },
+  "status": "PASS",
+  "terminal_gate": "P0_SEMANTIC_AND_RUNTIME_PASS",
+  "tests": {
+    "log_sha256": "99a35365d90efbff30c4388c2de1d87c92da249b63a51c1cfb040f30a2901e68",
+    "passed": 41,
+    "status": "PASS"
+  }
+}

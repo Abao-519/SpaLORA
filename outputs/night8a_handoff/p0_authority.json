@@ -1,0 +1,48 @@
+{
+  "authority": {
+    "outputs/night6d_handoff/night6d_report.md": {
+      "actual_sha256": "333192ce979a02ce8cbc785828e58fa7b9314906ce653c7d8cae016b92e8a053",
+      "expected_sha256": "333192ce979a02ce8cbc785828e58fa7b9314906ce653c7d8cae016b92e8a053",
+      "match": true
+    },
+    "outputs/night7a_handoff/night7a_report.md": {
+      "actual_sha256": "274cf68d82634ab935b894a101e439904f0ce3f4e0d16f6d146b2d7ee95e4de3",
+      "expected_sha256": "274cf68d82634ab935b894a101e439904f0ce3f4e0d16f6d146b2d7ee95e4de3",
+      "match": true
+    },
+    "outputs/night7b_handoff/night7b_final_candidate_lock.json": {
+      "actual_sha256": "74d76ca45ca7d9d632bdfdd694bfccbe635318b3cdfaad409ca21100805ddd97",
+      "expected_sha256": "74d76ca45ca7d9d632bdfdd694bfccbe635318b3cdfaad409ca21100805ddd97",
+      "match": true
+    },
+    "outputs/night7b_handoff/night7b_report.md": {
+      "actual_sha256": "48e16b12934fb13c668ea08e966e26e1c2454f5aad59e8510e7b391a4d2cd0a9",
+      "expected_sha256": "48e16b12934fb13c668ea08e966e26e1c2454f5aad59e8510e7b391a4d2cd0a9",
+      "match": true
+    },
+    "outputs/night7c_handoff/night7c_report.md": {
+      "actual_sha256": "af7ae61a747e865bace5fce70da72085280c7147ddaf12c9df82362a4c77a840",
+      "expected_sha256": "af7ae61a747e865bace5fce70da72085280c7147ddaf12c9df82362a4c77a840",
+      "match": true
+    },
+    "protocols/night8a/SpaLORA_Night8A_Literature_Code_and_Dataset_Scout_2026-08-20.md": {
+      "actual_sha256": "e17fbf724b79872ada2e6f64a0580258d5107f0e06a2bda6b83804a94b00511d",
+      "expected_sha256": "e17fbf724b79872ada2e6f64a0580258d5107f0e06a2bda6b83804a94b00511d",
+      "match": true
+    },
+    "protocols/night8a/SpaLORA_Night8A_MFSPC_Registry_2026-08-20.json": {
+      "actual_sha256": "cfe056489f0d42692cc78049cbc987ef47fe814d8d1594a6d958413ca8ccf9c1",
+      "expected_sha256": "cfe056489f0d42692cc78049cbc987ef47fe814d8d1594a6d958413ca8ccf9c1",
+      "match": true
+    },
+    "protocols/night8a/SpaLORA_Night8A_MFSPC_RnD_and_External_Data_Lock_Taskbook_2026-08-20.md": {
+      "actual_sha256": "f23c045ac5e6181b3d25069a6510ba66bdc336c16638ed65359420165abc4178",
+      "expected_sha256": "f23c045ac5e6181b3d25069a6510ba66bdc336c16638ed65359420165abc4178",
+      "match": true
+    }
+  },
+  "base_commit": "e34567db5ace4f0fcdd2526cfb94a84fc9148020",
+  "branch": "revision/q2-night8a-mfspc-rnd-20260820",
+  "force_push": false,
+  "status": "PASS"
+}

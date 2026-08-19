@@ -1,0 +1,15 @@
+{
+  "all_registered_mechanism_classes_exercised": true,
+  "checkpoint_round_trip": true,
+  "cluster_exact_round_trip": true,
+  "cuda_used": true,
+  "dense_n_by_n_created": false,
+  "epochs": 1,
+  "full_size_observations": 9196,
+  "status": "PASS",
+  "total_runtime_seconds": 143.3378166584298,
+  "training_manifest_sha256": "6df57857825833f8a398459d8557cada7a91552880fc63fa67b0bc5514522d41",
+  "training_peak_gpu_mib": 132.701171875,
+  "transform_manifest_sha256": "6789299f4f885f0e0924189c59203bf09718734b67b139b4c69d48ccf3bcc62a",
+  "transform_runtime_seconds": 89.92280210088938
+}

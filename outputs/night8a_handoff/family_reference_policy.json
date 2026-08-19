@@ -1,0 +1,81 @@
+{
+  "family_selector_examples": {
+    "opaque_a": "RNA_PROTEIN",
+    "opaque_b": "RNA_PROTEIN",
+    "opaque_c": "RNA_EPIGENOME",
+    "opaque_d": "RNA_EPIGENOME"
+  },
+  "identity_blind": true,
+  "p22_spatial_support": {
+    "nnz": 172740,
+    "path": "/root/autodl-fs/night8a_raw_runs_20260820/locked_inputs/p22_spatial_support.npz",
+    "sha256": "2ac213ce742fd5fabe9253d79f175189c109fa4504c591cb4c9fcf4c52c478bc",
+    "shape": [
+      9196,
+      9196
+    ]
+  },
+  "r02_references": [
+    {
+      "manifest_sha256": "f7a42ddc4b812be0c6e6de270b217e38e500568fbbec9173fc47c7a2602e8619",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u020/attempt_001/worker/embedding.npy",
+      "sha256": "b346bcbed1ce69a9f512d725de8d77bf2610839757e3050c01e58a250db2a1db",
+      "unit_id": "u020"
+    },
+    {
+      "manifest_sha256": "1b9beae533f670540f37c2f653e0d3d7f04890a02255314388bb495aade0b2a6",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u021/attempt_001/worker/embedding.npy",
+      "sha256": "9c65f79d89f96cf2ff3321bbebaf36c44d4029d87b6c0f55359b8b305af249f2",
+      "unit_id": "u021"
+    },
+    {
+      "manifest_sha256": "ea101fd8616974338e6c482aab12db3a0b28c9742b5c1617c1b4a696c6ac39bf",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u022/attempt_001/worker/embedding.npy",
+      "sha256": "f2a9f2e165a3e922de49170987776fca5578b15602477d20f43f7f8bd664e36f",
+      "unit_id": "u022"
+    },
+    {
+      "manifest_sha256": "52cc4304cbfbddd5025d9358f5c21cabf3450fda4c31056f8eeba09d7ea5570a",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u023/attempt_001/worker/embedding.npy",
+      "sha256": "4c9c9714dfed4a96bb8128bf7c9da096828fb22361952173530eb2f53c80b2e6",
+      "unit_id": "u023"
+    },
+    {
+      "manifest_sha256": "575a2ace3309932dd603f0beba395394b337feb63e2f3d2ed92911e59ecc1f45",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u024/attempt_001/worker/embedding.npy",
+      "sha256": "4c4c93cb7064064fbd7651de8035c554ea601756da6fd25c26d2580e1462fc43",
+      "unit_id": "u024"
+    },
+    {
+      "manifest_sha256": "9f38016006f81afd80950d4c56cfc17a9df984158d61a56355f16f9914f1cde0",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u025/attempt_001/worker/embedding.npy",
+      "sha256": "1a94c03475bb6010576b4740094a110b6760e0c79b1b2dfe7e5c6614d16fc94f",
+      "unit_id": "u025"
+    },
+    {
+      "manifest_sha256": "3ed9268e3f28505ba656283d825e7200ce63a0f917ef37b00ea5708fccc73426",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u026/attempt_001/worker/embedding.npy",
+      "sha256": "52ae4df7ed49325665834a8ac3c27dd59e9e1d1b2f13470c306c24014251a25b",
+      "unit_id": "u026"
+    },
+    {
+      "manifest_sha256": "66742c73c6e0886ea60a9b9126a19ab624f7763104550ff41934164891a1d11c",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u027/attempt_001/worker/embedding.npy",
+      "sha256": "44c7897de6ef0f982811007640e14861e62e01bbbcdf54dad8b64a1980409419",
+      "unit_id": "u027"
+    },
+    {
+      "manifest_sha256": "65a127779b02420014b39bd40d19ff4dc343cf80eafdbc48d39341af1a127928",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u028/attempt_001/worker/embedding.npy",
+      "sha256": "8ef5c54c29346284b5f44a622bb90c72b6e39676e86a277ac614bd318a6a0750",
+      "unit_id": "u028"
+    },
+    {
+      "manifest_sha256": "fb177272c22f6e0662fc08f89ce6b0d3854cc68d85db31144abb93e3d2fe8c66",
+      "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u029/attempt_001/worker/embedding.npy",
+      "sha256": "69b9fb81d9cd11793a329368f3ebe637e127f6386f3e45a53c4e8853a2acb4f9",
+      "unit_id": "u029"
+    }
+  ],
+  "status": "PASS"
+}

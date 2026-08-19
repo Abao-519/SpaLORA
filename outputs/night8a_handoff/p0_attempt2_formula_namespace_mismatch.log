@@ -1,0 +1,9 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "scripts/night8a_p0.py", line 370, in <module>
+    main()
+  File "scripts/night8a_p0.py", line 339, in main
+    outputs = {"authority": authority_gate(), "history": historical_gate(),
+  File "scripts/night8a_p0.py", line 135, in historical_gate
+    raise RuntimeError(f"BLOCKED_HISTORICAL_RECOMPUTE: max error {max_error}")
+RuntimeError: BLOCKED_HISTORICAL_RECOMPUTE: max error 0.03137041176803218

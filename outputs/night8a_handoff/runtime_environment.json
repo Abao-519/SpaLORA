@@ -1,0 +1,14 @@
+{
+  "R": "4.0.3",
+  "cpu_transform_workers_max": 3,
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4080",
+  "mclust": "6.1.1",
+  "status": "PASS",
+  "threads_per_worker_max": 3,
+  "torch": "2.0.0+cu118",
+  "torch_cuda": "11.8",
+  "torch_geometric": null,
+  "training_device_required": "cuda",
+  "transform_timeout_seconds": 2700
+}
