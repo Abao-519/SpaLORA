@@ -1,0 +1,40 @@
+{
+  "classified_historical_failures": [
+    "tests.test_night2.test_night1_protected_files_match_pre_run_checksums",
+    "tests.test_night2b.test_all_preexisting_night1_night2_and_frozen_files_are_unchanged",
+    "tests.test_night2c.test_gate_and_conditional_result_completeness_after_execution",
+    "tests.test_night3a.test_config_source_and_data_lock_is_complete",
+    "tests.test_night3af.test_config_source_data_order_and_cache_locks_are_exact",
+    "tests.test_night3ar.test_actual_p0ar_matches_old_fingerprints_and_order",
+    "tests.test_night3ar.test_config_source_data_and_old_evidence_locks_are_complete"
+  ],
+  "full_repository": {
+    "errors": 0,
+    "failed_tests": [
+      "tests.test_night2.test_night1_protected_files_match_pre_run_checksums",
+      "tests.test_night2b.test_all_preexisting_night1_night2_and_frozen_files_are_unchanged",
+      "tests.test_night2c.test_gate_and_conditional_result_completeness_after_execution",
+      "tests.test_night3a.test_config_source_and_data_lock_is_complete",
+      "tests.test_night3af.test_config_source_data_order_and_cache_locks_are_exact",
+      "tests.test_night3ar.test_actual_p0ar_matches_old_fingerprints_and_order",
+      "tests.test_night3ar.test_config_source_data_and_old_evidence_locks_are_complete"
+    ],
+    "failures": 7,
+    "sha256": "6ae6f8c5bda56cf46827a712fd8026e220ff58b17eaba338d964694f757b63de",
+    "skipped": 0,
+    "tests": 304
+  },
+  "interpretation": "All Night-7C directed tests passed. The seven full-repository failures are legacy Night-1/Night-2/Night-3 raw-delivery or frozen-source checks that cannot pass in this incremental Night-7C worktree; none exercises new or touched Night-7C behavior.",
+  "night7c_directed": {
+    "errors": 0,
+    "failed_tests": [],
+    "failures": 0,
+    "sha256": "3280770364084d73167a8174592a305c21fb6b22f045fe6d63212575cc5ecc5a",
+    "skipped": 0,
+    "tests": 29
+  },
+  "night7c_new_or_touched_failures": 0,
+  "schema_version": 1,
+  "status": "PASS_NIGHT7C_DIRECTED_WITH_CLASSIFIED_HISTORICAL_FULL_REPO_FAILURES",
+  "unexpected_failures": []
+}

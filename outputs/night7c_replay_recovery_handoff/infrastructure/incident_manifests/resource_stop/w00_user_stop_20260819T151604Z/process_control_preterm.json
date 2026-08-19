@@ -1,0 +1,183 @@
+{
+  "attempt_inventory_at_sigstop": [
+    {
+      "mtime_ns": 1787077541778776827,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/cell_manifest.json",
+      "sha256": "56c37ae6657301048ae31fad0dc04433f362c5c90ab1547e883a28c14ca87545",
+      "size": 3198
+    },
+    {
+      "mtime_ns": 1787077541729578025,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/reload.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "mtime_ns": 1787077538121730778,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/train.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "mtime_ns": 1787077537236233840,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/embedding.npy",
+      "sha256": "78550d7492bffb126ccb37364d7268a8a86eafa80672b053c20f522f25fe4642",
+      "size": 892032
+    },
+    {
+      "mtime_ns": 1787077537302436616,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/gate_weights.npy",
+      "sha256": "19b42a5ca35d71b3c90de2ca63b57bd8f16fe025f33f784c14fca2a50d82d5ad",
+      "size": 28000
+    },
+    {
+      "mtime_ns": 1787077537382243529,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/loss_curve.csv",
+      "sha256": "73f7f18934b7e15d0b4e11dcc747ba0b6fe402ad2991a99a94b9a61bb5ec35eb",
+      "size": 14421
+    },
+    {
+      "mtime_ns": 1787077537350106566,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/mnn_normalized_weights.npy",
+      "sha256": "2d4b4dc082eb5bb898be5fca8c2b3122f36a0edc7c4d48e7ea95eb5eb35d29d5",
+      "size": 28000
+    },
+    {
+      "mtime_ns": 1787077537313680566,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/mnn_raw_weights.npy",
+      "sha256": "2d4b4dc082eb5bb898be5fca8c2b3122f36a0edc7c4d48e7ea95eb5eb35d29d5",
+      "size": 28000
+    },
+    {
+      "mtime_ns": 1787077537105137221,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/model_final.pt",
+      "sha256": "74c7e69731c0fc63907bd8fd738958e4ec443e1bdecdb8addb14636e57397e8c",
+      "size": 889249
+    },
+    {
+      "mtime_ns": 1787077541146353650,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "bb6f646cd6de0c5c284c0707c7b33196764323d3e1b2af68c313248135351dde",
+      "size": 340
+    },
+    {
+      "mtime_ns": 1787077537463527510,
+      "path": "stage_w/formal/W00_FILTER75/u000/attempt_001/worker/training_manifest.json",
+      "sha256": "d65ee4daaee25f70863138865bf8ddd9baffa3591397abf88038e74944d517b1",
+      "size": 2239
+    }
+  ],
+  "authority_sha256": "24dba16c3aae027e392062b6c81f93732585e119f07e3b87e962e22fb3770a75",
+  "coordinator_stop": {
+    "after": {
+      "exists": false,
+      "pid": 101248
+    },
+    "before": {
+      "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python /root/autodl-fs/night7c_replay_recovery_20260818/repo/scripts/night7c_stagew_resource_bounded.py coordinator ",
+      "exists": true,
+      "pgid": 101248,
+      "pid": 101248,
+      "ppid": 1,
+      "rss_pages": 133823,
+      "sid": 101248,
+      "start_ticks": 494173051,
+      "state": "S",
+      "stime_ticks": 328,
+      "utime_ticks": 699
+    },
+    "sigkill_needed": false
+  },
+  "driver_before_sigstop": {
+    "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python scripts/night7c_replay_recovery_stage_w_resume.py ",
+    "exists": true,
+    "pgid": 929,
+    "pid": 929,
+    "ppid": 1,
+    "rss_pages": 147329,
+    "sid": 878,
+    "start_ticks": 489569013,
+    "state": "R",
+    "stime_ticks": 60225,
+    "utime_ticks": 4847044
+  },
+  "driver_stopped": {
+    "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python scripts/night7c_replay_recovery_stage_w_resume.py ",
+    "exists": true,
+    "pgid": 929,
+    "pid": 929,
+    "ppid": 1,
+    "rss_pages": 147329,
+    "sid": 878,
+    "start_ticks": 489569013,
+    "state": "T",
+    "stime_ticks": 60225,
+    "utime_ticks": 4847044
+  },
+  "guard_stop": {
+    "after": {
+      "exists": false,
+      "pid": 67932
+    },
+    "before": {
+      "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python /root/autodl-fs/night7c_replay_recovery_20260818/repo/scripts/w00_boundary_guard.py --pid 929 --start-ticks 489569013 --pgid 929 --cmdline /root/miniconda3/envs/SpaLORA/bin/python scripts/night7c_replay_recovery_stage_w_resume.py --manifest /root/autodl-fs/night7c_replay_recovery_20260818/stage_w/formal/W00_FILTER75/u000/attempt_001/transform/transform_manifest.json --log /root/autodl-fs/night7c_replay_recovery_20260818/infrastructure/w00_boundary_guard.jsonl --poll-seconds 0.02 ",
+      "exists": true,
+      "pgid": 67932,
+      "pid": 67932,
+      "ppid": 1,
+      "rss_pages": 3113,
+      "sid": 67932,
+      "start_ticks": 492601742,
+      "state": "S",
+      "stime_ticks": 11368,
+      "utime_ticks": 26059
+    },
+    "sigkill_needed": false
+  },
+  "initial": {
+    "coordinator": {
+      "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python /root/autodl-fs/night7c_replay_recovery_20260818/repo/scripts/night7c_stagew_resource_bounded.py coordinator ",
+      "exists": true,
+      "pgid": 101248,
+      "pid": 101248,
+      "ppid": 1,
+      "rss_pages": 133823,
+      "sid": 101248,
+      "start_ticks": 494173051,
+      "state": "S",
+      "stime_ticks": 328,
+      "utime_ticks": 699
+    },
+    "driver": {
+      "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python scripts/night7c_replay_recovery_stage_w_resume.py ",
+      "exists": true,
+      "pgid": 929,
+      "pid": 929,
+      "ppid": 1,
+      "rss_pages": 147329,
+      "sid": 878,
+      "start_ticks": 489569013,
+      "state": "R",
+      "stime_ticks": 60225,
+      "utime_ticks": 4847023
+    },
+    "guard": {
+      "cmdline": "/root/miniconda3/envs/SpaLORA/bin/python /root/autodl-fs/night7c_replay_recovery_20260818/repo/scripts/w00_boundary_guard.py --pid 929 --start-ticks 489569013 --pgid 929 --cmdline /root/miniconda3/envs/SpaLORA/bin/python scripts/night7c_replay_recovery_stage_w_resume.py --manifest /root/autodl-fs/night7c_replay_recovery_20260818/stage_w/formal/W00_FILTER75/u000/attempt_001/transform/transform_manifest.json --log /root/autodl-fs/night7c_replay_recovery_20260818/infrastructure/w00_boundary_guard.jsonl --poll-seconds 0.02 ",
+      "exists": true,
+      "pgid": 67932,
+      "pid": 67932,
+      "ppid": 1,
+      "rss_pages": 3113,
+      "sid": 67932,
+      "start_ticks": 492601742,
+      "state": "S",
+      "stime_ticks": 11368,
+      "utime_ticks": 26058
+    }
+  },
+  "label_access": false,
+  "manifest_after_sigstop": false,
+  "manifest_before_control": false,
+  "schema_version": 1,
+  "started_at_utc": "2026-08-19T15:16:04.112344+00:00"
+}

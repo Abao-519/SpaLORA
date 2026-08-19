@@ -1,0 +1,9 @@
+{
+  "claim_boundary": "Only client dispatch status may be reported; console power-off confirmation is not claimed.",
+  "control_session": 41410,
+  "exact_command": "/usr/bin/shutdown",
+  "must_be_final_remote_command": true,
+  "reconnect_after_dispatch": false,
+  "schema_version": 1,
+  "status": "PREPARED_NOT_DISPATCHED"
+}

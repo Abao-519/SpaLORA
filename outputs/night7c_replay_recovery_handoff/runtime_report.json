@@ -1,0 +1,199 @@
+{
+  "bounded_queue_status": "LOCKED_PRE_LABEL",
+  "interpretation": "CUDA training retained positive GPU use. Affinity construction, ARPACK spectral partitioning and clustering are CPU phases where GPU=0 is expected. W00/u000 was resource-censored by the user-authorized immediate-stop amendment after an extreme unchanged-solver long tail. W01-W05 then completed with the same transform_cell/H01/ARPACK implementation under the bounded four-worker scheduler.",
+  "p2": {
+    "canonical_exact": true,
+    "formal_backend": "serial_reference",
+    "gpu_zero_during_cpu_transform_allowed": true,
+    "label_access": false,
+    "parallel_backend_accepted": false,
+    "parallel_seconds": 173.02962720394135,
+    "parity_cells": 4,
+    "schema_version": 1,
+    "serial_seconds": 203.30580483190715,
+    "speedup": 1.1749768413491453,
+    "status": "PASS"
+  },
+  "p2_parallel_resource": {
+    "cpu_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_memory_mib": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_power_w": {
+      "max": 15.4,
+      "mean": 15.200534351145038
+    },
+    "gpu_sm_clock_mhz": {
+      "max": 210.0,
+      "mean": 210.0
+    },
+    "gpu_util_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "rows": 131,
+    "rss_mib": {
+      "max": 4726.73046875,
+      "mean": 3837.886182013359
+    }
+  },
+  "p2_serial_resource": {
+    "cpu_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_memory_mib": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_power_w": {
+      "max": 15.41,
+      "mean": 15.273920454545454
+    },
+    "gpu_sm_clock_mhz": {
+      "max": 210.0,
+      "mean": 210.0
+    },
+    "gpu_util_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "rows": 176,
+    "rss_mib": {
+      "max": 1609.625,
+      "mean": 1381.8619939630682
+    }
+  },
+  "schema_version": 1,
+  "stage_t_resource": {
+    "cpu_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_memory_mib": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_power_w": {
+      "max": 15.45,
+      "mean": 15.170797819623388
+    },
+    "gpu_sm_clock_mhz": {
+      "max": 210.0,
+      "mean": 210.0
+    },
+    "gpu_util_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "rows": 4036,
+    "rss_mib": {
+      "max": 1634.76953125,
+      "mean": 1303.6382779593039
+    }
+  },
+  "stage_w_bounded_resource": {
+    "rows": 0
+  },
+  "stage_w_resource": {
+    "cpu_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_memory_mib": {
+      "max": 653.0,
+      "mean": 22.93288857120165
+    },
+    "gpu_power_w": {
+      "max": 64.26,
+      "mean": 16.89768088317052
+    },
+    "gpu_sm_clock_mhz": {
+      "max": 2550.0,
+      "mean": 362.67810340719564
+    },
+    "gpu_util_percent": {
+      "max": 19.0,
+      "mean": 0.08625208482249226
+    },
+    "rows": 12591,
+    "rss_mib": {
+      "max": 1605.03515625,
+      "mean": 642.9242160819236
+    }
+  },
+  "stage_w_resume_resource": {
+    "cpu_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "gpu_memory_mib": {
+      "max": 1.0,
+      "mean": 1.0
+    },
+    "gpu_power_w": {
+      "max": 26.87,
+      "mean": 17.78202747900575
+    },
+    "gpu_sm_clock_mhz": {
+      "max": 210.0,
+      "mean": 210.0
+    },
+    "gpu_util_percent": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "rows": 41559,
+    "rss_mib": {
+      "max": 575.50390625,
+      "mean": 575.4552671916733
+    }
+  },
+  "threading_clarification": {
+    "algorithm_or_candidate_change": false,
+    "autodl_advertised_cpu_cores": 12,
+    "captured_at_utc": "2026-08-19T16:13:58.595266+00:00",
+    "cgroup_cpu_max_raw": "1200000 100000",
+    "effective_cgroup_cpu_quota": 12.0,
+    "host_visible_logical_cpu_count": 96,
+    "interpretation": "The container exposed 96 logical CPUs through affinity but cpu.max constrained it to 12 CPU equivalents. Four already-running workers each inherited an 8-thread request, so oversubscription was possible. The environment was not changed mid-queue and no cell was rerun; all 40 eligible transforms completed under one consistent environment.",
+    "prelabel_disclosure_modified": false,
+    "prelabel_disclosure_sha256": "e8932f40ec3c884bd35fe9dfca665aa3bb8cc52a1765965a404d32041b44806c",
+    "requested_aggregate_thread_ceiling": 32,
+    "requested_threads_per_worker": 8,
+    "rerun": false,
+    "schema_version": 1,
+    "worker_count": 4
+  },
+  "threading_disclosure": {
+    "active_worker_environment_samples": [
+      {
+        "MKL_NUM_THREADS": "8",
+        "OMP_NUM_THREADS": "8",
+        "OPENBLAS_NUM_THREADS": "8",
+        "candidate_id": "W01_QUALITY_SOFT",
+        "pid": 107566,
+        "unit_id": "u020"
+      }
+    ],
+    "algorithm_changed": false,
+    "candidate_order_changed": false,
+    "captured_at_utc": "2026-08-19T15:44:04.887149+00:00",
+    "formal_workers_already_started_at_decision": 8,
+    "label_access": false,
+    "logical_cpu_count": 96,
+    "requested_aggregate_thread_ceiling": 32,
+    "requested_threads_per_worker": 8,
+    "rerun": false,
+    "resource_note": "Potential oversubscription relative to 12 logical CPUs; retained because formal workers had already started and full-queue environment consistency/no-rerun take priority.",
+    "schema_version": 1,
+    "scientific_retry": 0,
+    "status": "RECORDED_NO_MID_QUEUE_CHANGE",
+    "workers_max": 4
+  },
+  "triage_status": "PASS_W01_W05_BOUNDED_CONTINUATION_AUTHORIZED"
+}

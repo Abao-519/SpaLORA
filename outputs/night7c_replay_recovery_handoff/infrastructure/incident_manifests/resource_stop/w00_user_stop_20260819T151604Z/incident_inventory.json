@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "path": "final_stagew_resource_bounded.nohup.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "final_stagew_resource_bounded.pid",
+      "sha256": "8aef008296ac26ca1201f744dd571b3e3d0a0f5e0b870f911d69937bf7a1f246",
+      "size": 7
+    },
+    {
+      "path": "final_stagew_resource_bounded_coordinator.jsonl",
+      "sha256": "023fd1159e1469b8c799ca2e3e9014b8ca3d276de8fe70f9f5c949d6c0bdf94c",
+      "size": 431
+    },
+    {
+      "path": "final_w00_boundary_guard.jsonl",
+      "sha256": "09a60d2eccc2a9894889be8061f03b62484976fb1278fe2b51b8b11814380a69",
+      "size": 565
+    },
+    {
+      "path": "process_control_final.json",
+      "sha256": "74ff9d3c88871611e37e8ef74a0e822136b0889dfc0cb8538576828f965f5b9f",
+      "size": 7139
+    },
+    {
+      "path": "process_control_preterm.json",
+      "sha256": "ea5879092053542ba21d71ba15ccd8db9cf46cdcafd8c6866b2391aec51a5472",
+      "size": 6731
+    },
+    {
+      "path": "stagew_resource_bounded.nohup.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "stagew_resource_bounded.pid",
+      "sha256": "8aef008296ac26ca1201f744dd571b3e3d0a0f5e0b870f911d69937bf7a1f246",
+      "size": 7
+    },
+    {
+      "path": "stagew_resource_bounded_coordinator.jsonl",
+      "sha256": "023fd1159e1469b8c799ca2e3e9014b8ca3d276de8fe70f9f5c949d6c0bdf94c",
+      "size": 431
+    },
+    {
+      "path": "w00_boundary_guard.jsonl",
+      "sha256": "09a60d2eccc2a9894889be8061f03b62484976fb1278fe2b51b8b11814380a69",
+      "size": 565
+    }
+  ],
+  "label_access": false,
+  "schema_version": 1,
+  "status": "RESOURCE_CENSORED_USER_STOP_AFTER_EXTREME_LONGTAIL"
+}

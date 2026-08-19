@@ -1,0 +1,44 @@
+{
+  "fallback": 0,
+  "formal_training_registered": 48,
+  "formal_training_success": 48,
+  "formal_transforms_registered": 288,
+  "implementation_corrections": [
+    {
+      "attempt": "p1a_attempt1_source_ordinal_contract",
+      "classification": "infrastructure_only_correction",
+      "preserved": true,
+      "scientific_retry": false
+    },
+    {
+      "attempt": "p2_attempt1_import_location",
+      "classification": "infrastructure_only_correction",
+      "preserved": true,
+      "scientific_retry": false
+    },
+    {
+      "attempt": "stage_w_transform_attempt1_infrastructure_disconnect",
+      "classification": "infrastructure_only_correction",
+      "preserved": true,
+      "scientific_retry": false
+    },
+    {
+      "attempt": "stagew_immediate_triage_native_crash_20260819T153708Z",
+      "classification": "infrastructure_only_correction",
+      "preserved": true,
+      "scientific_retry": false
+    }
+  ],
+  "label_window_count": 1,
+  "old_order_diagnostics": 4,
+  "prior_infrastructure_aborted_invocations": 1,
+  "replay_initial_forwards": 60,
+  "routing_transforms_numerical_failure": 1,
+  "routing_transforms_success": 239,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "weighted_physical_transform_invocations": 42,
+  "weighted_transforms_resource_censored": 1,
+  "weighted_transforms_resource_skipped": 7,
+  "weighted_transforms_success": 40
+}

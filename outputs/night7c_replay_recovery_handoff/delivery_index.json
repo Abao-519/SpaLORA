@@ -1,0 +1,276 @@
+{
+  "file_count": 53,
+  "files": [
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/budget_audit.json",
+      "sha256": "c24649e4b28c85ba3dfc01dac06f47d50b51f12bebda8c76f2a798021c9f3446",
+      "size_bytes": 1376
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/failure_audit.csv",
+      "sha256": "ff812d62f5997d922150947987e823bcb6eb123718d104d509790527bf9c7250",
+      "size_bytes": 1095
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/gate_audit.json",
+      "sha256": "78987e7794e43ed19a9186739c1676c7f2926861df0f77294a7af415448f255a",
+      "size_bytes": 12244
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/git_audit_pre_final.json",
+      "sha256": "a471e274706209253766b421a3bc692edde2dc77a4161dec40c4570aa8a7909a",
+      "size_bytes": 311
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/evaluation.log",
+      "sha256": "84a025af8a7b1ded753da3c86af75566e8732aa17e422eec5f950ccca0db9cda",
+      "size_bytes": 82038
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/incident_manifests/invalid_attempts/stage_w_transform_attempt1_infrastructure_disconnect/incident_manifest.json",
+      "sha256": "ccfcefe931f5b7fe631bb95602745566b7e99e85fa56e5d1449bb135176d0f3d",
+      "size_bytes": 929
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/incident_manifests/invalid_attempts/stagew_immediate_triage_native_crash_20260819T153708Z/incident_manifest.json",
+      "sha256": "5dd8e05349f8b90d37b8209aef2718b4bab3b437402ad0060c45d69e37283769",
+      "size_bytes": 1663
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/incident_manifests/resource_stop/w00_user_stop_20260819T151604Z/incident_inventory.json",
+      "sha256": "c3726ae055495610d7efd7b68ce340a92f5b96027b02ee64418e40142b426b09",
+      "size_bytes": 1786
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/incident_manifests/resource_stop/w00_user_stop_20260819T151604Z/process_control_final.json",
+      "sha256": "74ff9d3c88871611e37e8ef74a0e822136b0889dfc0cb8538576828f965f5b9f",
+      "size_bytes": 7139
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/incident_manifests/resource_stop/w00_user_stop_20260819T151604Z/process_control_preterm.json",
+      "sha256": "ea5879092053542ba21d71ba15ccd8db9cf46cdcafd8c6866b2391aec51a5472",
+      "size_bytes": 6731
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/night7c_directed_tests.xml",
+      "sha256": "3280770364084d73167a8174592a305c21fb6b22f045fe6d63212575cc5ecc5a",
+      "size_bytes": 4216
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/stagew_immediate_bounded.nohup.log",
+      "sha256": "f90f4cf1127f76b8625b5674bca875d429df3c5ec5889d601f02b8920434083f",
+      "size_bytes": 647
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/stagew_immediate_bounded_completion.json",
+      "sha256": "1320d388e300becee2cf8238abb6b576c2f52704fc529f02cbef610846dc6be3",
+      "size_bytes": 705
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/stagew_immediate_bounded_coordinator.jsonl",
+      "sha256": "a0aae146260224c14392bd6caacbecd74086717d50340cf4f6262204885a8b0d",
+      "size_bytes": 23170
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/stagew_immediate_semantic_triage_completion.json",
+      "sha256": "1c7688c722a78c19bee21d9f328725a92a695b0b58131b6bdaef4883821a0c1a",
+      "size_bytes": 28554
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/stagew_immediate_triage.log",
+      "sha256": "2a013c75c84a321944a7075cb45cc80b22f041fb386e0f4084a144c289246d56",
+      "size_bytes": 34
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/stagew_immediate_triage_isolated.log",
+      "sha256": "984214a572f2e2da199235e361c5747f277c870f205958d66392075e7a730299",
+      "size_bytes": 359
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/test_stagew_immediate_prelabel.log",
+      "sha256": "54f9ddf51880b74e185ed6b639d13a7fff7bf95d4963663152bd99b9353ead43",
+      "size_bytes": 99
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/test_stagew_immediate_triage.log",
+      "sha256": "25f2f83b6eaad6285a303cb51e9e20c7b3115a7c8c68cb5ce64d6016ea5373e5",
+      "size_bytes": 98
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/test_stagew_immediate_triage_isolated.log",
+      "sha256": "636731d21df72217c9d2e418894781a1669685e0515f554f34862aeb7f175310",
+      "size_bytes": 98
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/test_stagew_resource_bounded.log",
+      "sha256": "b54f48e4ecca377283e2b00968c273e8c5a8da84eb2613f8d2ee03e71ae84640",
+      "size_bytes": 98
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/total_prelabel_lock.log",
+      "sha256": "2882f850deaac3ffdae5d036e2f7a890c722ad71fff714954b007f3716ffd773",
+      "size_bytes": 2708
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/infrastructure/w00_boundary_guard.jsonl",
+      "sha256": "09a60d2eccc2a9894889be8061f03b62484976fb1278fe2b51b8b11814380a69",
+      "size_bytes": 565
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/label_window_audit.json",
+      "sha256": "d2f75c9b1f2c93f13ad390970a41063f9f3f5a2447c3caac3a634736a965c7cc",
+      "size_bytes": 1335
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/night7c_replay_recovery_report.md",
+      "sha256": "8e6eacef19b568542c3b9506157a0e477762df8de65e2c80a6ed1a52d2d8c8b3",
+      "size_bytes": 3980
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/p0_recovery_authority.json",
+      "sha256": "8359338ea9c847738e0e8e9b6311691ed757d58999fc4850cd89b144aab28394",
+      "size_bytes": 3646
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/p1a_replay_portability_contract.json",
+      "sha256": "2f35883cd95eb843cd9b289913d8474bcb8acd136bbad27cd239a7d07646b076",
+      "size_bytes": 1115
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/p1b_feature_freeze_contract.json",
+      "sha256": "fb30e46affca3683c38482a09095f928511ffafc074f3207355aef53ba08e450",
+      "size_bytes": 398
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/p2_runtime_contract.json",
+      "sha256": "e840b2418bd5944cb1537c95fff54db6a98f79054051476d1b29b1194f0c733d",
+      "size_bytes": 361
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/plain_language_summary.txt",
+      "sha256": "53ebfb5293ee13bf4d982994c776c7b1b98f6f0669b89b0bae41eddc1f76bc84",
+      "size_bytes": 292
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/raw_artifact_index.json",
+      "sha256": "15f9dc464479742c50a7be62354f39cf5f3fd8227d251952737d141d1c35758f",
+      "size_bytes": 1289
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/routing_candidate_summary.csv",
+      "sha256": "cfc93f6e0577d646af1bf96f68217474dc3b9ed90935da99e1b78dc54a4df93b",
+      "size_bytes": 14695
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/routing_feature_manifest.csv",
+      "sha256": "504ef5c42f35a6cde36ec37f10fff8102c884edcac91265ad4fbd863b0c0cff1",
+      "size_bytes": 9481
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/routing_per_seed_metrics.csv",
+      "sha256": "4638804f1dfde53f1b9eb977bfa9b6a579f97b16dd8910957a556bc7bf7d3a30",
+      "size_bytes": 59823
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/routing_transform_manifest.json",
+      "sha256": "4922ad959246299f3f1de76650bddf3e5f67e8ced8dd11a6d764267a2663b62b",
+      "size_bytes": 519232
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/routing_weights_manifest.csv",
+      "sha256": "edabcb2fe695ed209f3ecd22204ce0b41fcfdf5303bba3607619d47a0324f407",
+      "size_bytes": 64933
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/runtime_report.json",
+      "sha256": "19b69c91b5c0755010c49facf19f8f9798c095e9b09c6a8930eeb1099ced6905",
+      "size_bytes": 5387
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/shutdown_contract.json",
+      "sha256": "6036cfd082ac1601004e0d9d41d9f2d9a15fec5d30ebf5884fe308007e0f445c",
+      "size_bytes": 325
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/ssh_session_replacement_audit.json",
+      "sha256": "bf46bf6d7f18c442433276eef405b97ad564f9fe3ffc13e01a8ef11247e5cf6d",
+      "size_bytes": 580
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_immediate_semantic_triage.json",
+      "sha256": "6f4e17a1d82ac67501bce2488ec3312a178fd4d5e649504df37461f3648f1fad",
+      "size_bytes": 258401
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_immediate_semantic_triage_cells.csv",
+      "sha256": "b0ec62a661f31f9a38b265cda437cf88a55e29eea9bce3b46823181bf50eb4ee",
+      "size_bytes": 13333
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_immediate_triage_affinity_manifest.json",
+      "sha256": "fc66d7abc1c52c0ad46dff4abb4c466509f42f023674933b2232b9a093107302",
+      "size_bytes": 20080
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_parallel_amendment_contract.json",
+      "sha256": "08022f5e09953636517b5fb828485f7c143cacdd3aca817aa73aef2557036131",
+      "size_bytes": 1467
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_resource_bounded_plan_and_eligibility.json",
+      "sha256": "c96fc30d5420201ba1a5895ee0d9ddda900fd790ded33a34a2b678d1fad4ccc1",
+      "size_bytes": 9808
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_resource_cutoff_contract.json",
+      "sha256": "5b0cab1bbed9d5af19c7328d3437d84b23b28ed3b428e1498bd6de7890c6411f",
+      "size_bytes": 1953
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_worker_threading_resource_clarification.json",
+      "sha256": "289e2358b7c42970baf508757dbe97971cf82674b66167ddeeac6e81fc746f94",
+      "size_bytes": 906
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/stagew_worker_threading_resource_disclosure.json",
+      "sha256": "e8932f40ec3c884bd35fe9dfca665aa3bb8cc52a1765965a404d32041b44806c",
+      "size_bytes": 873
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/test_audit.json",
+      "sha256": "10ac97cd49c8fd80157623528796040bdadb5a00c60d327c07e965afd0a87990",
+      "size_bytes": 2073
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/total_prelabel_lock.json",
+      "sha256": "16c1b3aeea4ae365bb15329bacd2428d1f4ccc45c5fe9cddc07d534da85b7693",
+      "size_bytes": 3186
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/weighted_mnn_candidate_summary.csv",
+      "sha256": "3fc51506394869ac5173b8060cf1d0b7f1eff2de9e45acc90ed2ad38a056b3ce",
+      "size_bytes": 9563
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/weighted_mnn_per_seed_metrics.csv",
+      "sha256": "fbe02c40203ff66eb0af7d79cf3cb9e86fc908bac9fb14b1daaf2cabae314df1",
+      "size_bytes": 9555
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/weighted_mnn_training_manifest.json",
+      "sha256": "3c43fc3cb2863a03dc8eca16ce692d273e5cb67dfad6fd0456c055f66cabaa2c",
+      "size_bytes": 167860
+    },
+    {
+      "path": "outputs/night7c_replay_recovery_handoff/weighted_mnn_transform_manifest.json",
+      "sha256": "ddf6932c07c423d46ebb41066a84bcdb1894a5367491132c7269364b8aaa5ded",
+      "size_bytes": 51496
+    }
+  ],
+  "raw_files_included": false,
+  "root_rule": "sha256(newline_join(file_sha256_in_lexical_path_order))",
+  "root_sha256": "f63db9444bbc5214ebb06be81992423879dbddcd10304d40c5f154c04eb2e487",
+  "schema_version": 1,
+  "self_referential_fields": false,
+  "status": "NIGHT7C_RECOVERY_NO_SAFE_ROUTER_OR_WEIGHTED_MNN_CANDIDATE"
+}

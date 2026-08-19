@@ -1,0 +1,16 @@
+{
+  "algorithm_or_candidate_change": false,
+  "autodl_advertised_cpu_cores": 12,
+  "captured_at_utc": "2026-08-19T16:13:58.595266+00:00",
+  "cgroup_cpu_max_raw": "1200000 100000",
+  "effective_cgroup_cpu_quota": 12.0,
+  "host_visible_logical_cpu_count": 96,
+  "interpretation": "The container exposed 96 logical CPUs through affinity but cpu.max constrained it to 12 CPU equivalents. Four already-running workers each inherited an 8-thread request, so oversubscription was possible. The environment was not changed mid-queue and no cell was rerun; all 40 eligible transforms completed under one consistent environment.",
+  "prelabel_disclosure_modified": false,
+  "prelabel_disclosure_sha256": "e8932f40ec3c884bd35fe9dfca665aa3bb8cc52a1765965a404d32041b44806c",
+  "requested_aggregate_thread_ceiling": 32,
+  "requested_threads_per_worker": 8,
+  "rerun": false,
+  "schema_version": 1,
+  "worker_count": 4
+}

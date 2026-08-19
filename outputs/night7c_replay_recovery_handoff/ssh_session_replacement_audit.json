@@ -1,0 +1,11 @@
+{
+  "label_evaluation_restarted": false,
+  "occurred_after_single_label_evaluation_completed": true,
+  "original_control_session": 68838,
+  "replacement_control_session": 41410,
+  "replacement_reason": "A post-evaluation read-only summary accidentally invoked the system Python without pandas. The command returned nonzero and the fail-fast SSH shell exited.",
+  "schema_version": 1,
+  "shutdown_contract": "Replacement session remains the sole control session; /usr/bin/shutdown will be its final remote command.",
+  "training_restarted": false,
+  "transform_restarted": false
+}

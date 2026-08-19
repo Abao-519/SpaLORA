@@ -1,0 +1,534 @@
+{
+  "evaluated_weighted_mnn_candidates": [
+    "W01_QUALITY_SOFT",
+    "W02_CONFLICT_RANK",
+    "W03_QUALITY_CONFLICT",
+    "W04_QUALITY_SHARED",
+    "W05_QUALITY_CONFLICT_SHARED"
+  ],
+  "independent_recalculation": {
+    "routing": {
+      "compared_aggregates": 273,
+      "maximum_absolute_error": 2.220446049250313e-16,
+      "status": "PASS",
+      "tolerance": 1e-12
+    },
+    "weighted": {
+      "compared_aggregates": 168,
+      "maximum_absolute_error": 0.0,
+      "status": "PASS",
+      "tolerance": 1e-12
+    }
+  },
+  "promoted_weighted_mnn_candidates": [],
+  "resource_ineligible_weighted_mnn_candidates": [
+    {
+      "candidate_id": "W00_FILTER75",
+      "reason": "RESOURCE_CENSORED_USER_STOP_AFTER_EXTREME_LONGTAIL",
+      "scientific_metrics_computed": false
+    }
+  ],
+  "return_to_training_or_transform": false,
+  "routing_gates": [
+    {
+      "candidate_id": "T00_C00_REFERENCE",
+      "nonloss_q_cells": 30,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T01_R02_REFERENCE",
+      "nonloss_q_cells": 15,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T02_GLOBAL_WIDE",
+      "nonloss_q_cells": 17,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T03_GLOBAL_CONSERVATIVE",
+      "nonloss_q_cells": 15,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": false,
+          "geary": false,
+          "moran": false,
+          "neighbor": false
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": false,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T04_HARD_CONFLICT_030",
+      "nonloss_q_cells": 16,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T05_LOCAL_CONFLICT",
+      "nonloss_q_cells": 17,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T06_LOCAL_CONFLICT_SQUARED",
+      "nonloss_q_cells": 16,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T07_LOCAL_QUALITY_CONFLICT",
+      "nonloss_q_cells": 16,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T08_LOCAL_SHARED_SUPPORT",
+      "nonloss_q_cells": 16,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    },
+    {
+      "candidate_id": "T09_THREE_SPECIALIST_EXPLORATORY",
+      "nonloss_q_cells": 17,
+      "safe_router_gate": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true,
+      "strong_unified_gate": false
+    }
+  ],
+  "routing_metrics_sha256": "4638804f1dfde53f1b9eb977bfa9b6a579f97b16dd8910957a556bc7bf7d3a30",
+  "safe_router_candidates": [],
+  "schema_version": 1,
+  "selected_router": null,
+  "single_label_window": true,
+  "strong_router_candidates": [],
+  "terminal_status": "NIGHT7C_RECOVERY_NO_SAFE_ROUTER_OR_WEIGHTED_MNN_CANDIDATE",
+  "weighted_metrics_sha256": "fbe02c40203ff66eb0af7d79cf3cb9e86fc908bac9fb14b1daaf2cabae314df1",
+  "weighted_mnn_gates": [
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "material_or_gate": false,
+      "pass": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "material_or_gate": false,
+      "pass": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "material_or_gate": false,
+      "pass": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "material_or_gate": false,
+      "pass": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "material_or_gate": false,
+      "pass": false,
+      "spatial": {
+        "a1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "d1": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "p22": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        },
+        "tonsil": {
+          "boundary": true,
+          "geary": true,
+          "moran": true,
+          "neighbor": true
+        }
+      },
+      "spatial_ok": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "archive_path": "/root/autodl-fs/night7c_replay_recovery_20260818/invalid_attempts/stage_w_transform_attempt1_infrastructure_disconnect/stage_w/formal/W00_FILTER75/u000/attempt_001/transform",
+  "autodl_api_called": false,
+  "candidate_id": "W00_FILTER75",
+  "classification": "infrastructure_disconnect_before_transform_output",
+  "label_access": false,
+  "last_verified_at": "2026-08-19T06:27:14+08:00",
+  "last_verified_pid": 26013,
+  "last_verified_pid_cpu_time": "03:44:06",
+  "last_verified_pid_elapsed": "04:01:51",
+  "last_verified_pid_rss_kib": 597424,
+  "last_verified_pid_state": "Rl+",
+  "preserved": true,
+  "previous_output_file_count": 0,
+  "previous_physical_invocation_count": 1,
+  "retry_classification": "infrastructure_correction_not_scientific_retry",
+  "schema_version": 1,
+  "scientific_training_added": 0,
+  "scientific_transform_completed": 0,
+  "shutdown_command_sent": false,
+  "unit_id": "u000"
+}

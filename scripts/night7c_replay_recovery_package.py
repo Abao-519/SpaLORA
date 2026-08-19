@@ -34,14 +34,12 @@ def main():
     if DEST.exists(): raise RuntimeError("official compact destination exists")
     DEST.mkdir(parents=True)
     for rel in ["outputs/night7c_replay_recovery_handoff","protocols/night7c_replay_recovery","protocols/night7c",
-                "SpaLORA/night7c_conflict.py","SpaLORA/night7c_firewall.py",
-                "tests/test_night7c_conflict.py","tests/test_night7c_firewall.py","tests/test_night7c_replay_recovery_firewall.py"]:
+                "SpaLORA/night7c_conflict.py","SpaLORA/night7c_firewall.py"]:
         copy(rel)
-    copy("tests/test_night7c_stagew_boundary_parallel.py")
-    for path in sorted((REPO/"scripts").glob("night7c_replay_recovery*.py")):
+    for path in sorted((REPO/"tests").glob("test_night7c*.py")):
+        dst=DEST/"tests"/path.name; dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(path,dst)
+    for path in sorted((REPO/"scripts").glob("night7c*.py")):
         dst=DEST/"scripts"/path.name; dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(path,dst)
-    copy("scripts/night7c_weighted_train.py")
-    copy("scripts/night7c_stagew_boundary_parallel.py")
     copy("scripts/w00_boundary_guard.py")
     bundle=DEST/"git/night7c_to_replay_recovery_20260819.bundle"; bundle.parent.mkdir(parents=True)
     subprocess.check_call(["git","bundle","create",str(bundle),"^night7c-final-20260818",BRANCH,TAG],cwd=REPO)

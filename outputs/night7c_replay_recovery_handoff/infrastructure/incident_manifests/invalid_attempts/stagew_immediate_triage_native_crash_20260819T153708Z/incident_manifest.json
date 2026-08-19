@@ -1,0 +1,47 @@
+{
+  "H01_calls": 0,
+  "files": [
+    {
+      "path": "partial_triage/preclustering_affinity/W00_FILTER75/u000/affinity.npz",
+      "sha256": "f5a952ced89228d337d084f68876af7040e45af18799305ae888edf944dd3633",
+      "size": 1737077
+    },
+    {
+      "path": "partial_triage/preclustering_affinity/W00_FILTER75/u001/affinity.npz",
+      "sha256": "78f4a29d5495e3b20ecdd65cc57b0a509e802bafec6bc6b31fd18dd2533ef4ed",
+      "size": 1725519
+    },
+    {
+      "path": "partial_triage/preclustering_affinity/W00_FILTER75/u005/affinity.npz",
+      "sha256": "0a2fb05a795c5fa8e02e9d7dba72ec7b200dee60f295a758cf9a266796cc46aa",
+      "size": 1788895
+    },
+    {
+      "path": "partial_triage/preclustering_affinity/W00_FILTER75/u006/affinity.npz",
+      "sha256": "5af3cd6176061b3e4ef9e1dfc24685bd66b207f828685e09e176b43360231696",
+      "size": 1826417
+    },
+    {
+      "path": "partial_triage/preclustering_affinity/W00_FILTER75/u010/affinity.npz",
+      "sha256": "69850167070739cea76dc5ba566f5ff571229298bc30b9bad2a28ae72022aeb7",
+      "size": 1661295
+    },
+    {
+      "path": "partial_triage/preclustering_affinity/W00_FILTER75/u011/affinity.npz",
+      "sha256": "430475677edaf108de5e439354e8639cbde468d6676f32bb6ce5524108e66942",
+      "size": 1664784
+    },
+    {
+      "path": "stagew_immediate_triage.log",
+      "sha256": "2a013c75c84a321944a7075cb45cc80b22f041fb386e0f4084a144c289246d56",
+      "size": 34
+    }
+  ],
+  "label_access": false,
+  "partial_affinity_count": 6,
+  "schema_version": 1,
+  "scientific_training": 0,
+  "scientific_transform": 0,
+  "status": "INFRASTRUCTURE_NATIVE_LIBRARY_CRASH",
+  "stderr": "double free or corruption (!prev)"
+}
