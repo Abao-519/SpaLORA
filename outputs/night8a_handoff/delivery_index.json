@@ -1,0 +1,261 @@
+{
+  "file_count": 50,
+  "files": [
+    {
+      "path": "outputs/night8a_handoff/b00_parity_diagnostic.csv",
+      "sha256": "c94f3ba692fbd759a3dc1e9430637d1dda094e6245595ded0a0d9d7919c71a95",
+      "size_bytes": 3085
+    },
+    {
+      "path": "outputs/night8a_handoff/budget_audit.json",
+      "sha256": "588bbfc29ec01e941acb055841640f03fcd25203874621ea2a89b25e932fc654",
+      "size_bytes": 268
+    },
+    {
+      "path": "outputs/night8a_handoff/checkpoint_and_roundtrip_audit.json",
+      "sha256": "43380570f95b0ffcdadce25123242e49c312e98c68312a442daefe08f53a8180",
+      "size_bytes": 101265
+    },
+    {
+      "path": "outputs/night8a_handoff/config_registry_frozen.json",
+      "sha256": "cfe056489f0d42692cc78049cbc987ef47fe814d8d1594a6d958413ca8ccf9c1",
+      "size_bytes": 10030
+    },
+    {
+      "path": "outputs/night8a_handoff/delivery_prepare.log",
+      "sha256": "fd5d9dec5b3e9a916b5f1b2e6ae90dd5b58ac1bec9e9bfb394b2575f3e9d441b",
+      "size_bytes": 160
+    },
+    {
+      "path": "outputs/night8a_handoff/dev_window1_attempt1_historical_parity.log",
+      "sha256": "70781b62f08b0b044b14815a05ea6955c4fbb22adec003f35ce4bf4090396d4d",
+      "size_bytes": 60436
+    },
+    {
+      "path": "outputs/night8a_handoff/dev_window1_parity_diagnostic.log",
+      "sha256": "d6694132dc9318eac0b4f8a77cef977ba08783ac4b3d59c94742dc178a0e8dfe",
+      "size_bytes": 8147
+    },
+    {
+      "path": "outputs/night8a_handoff/dev_window1_semantic_invalidation.json",
+      "sha256": "47bfafbefc0d37e36ad63fa264976fac724fe82a447cd568e03fde215f0aee8c",
+      "size_bytes": 10257
+    },
+    {
+      "path": "outputs/night8a_handoff/dev_window_1_audit.json",
+      "sha256": "3ebaadd3a86b3daf439ab60fe12ea9e94eac1459dc1431603db11f02078b9dfb",
+      "size_bytes": 542
+    },
+    {
+      "path": "outputs/night8a_handoff/external_dataset_lock.json",
+      "sha256": "706395103ded06d0c4c4d0d79010b5685adab34e77a1fcc692a72cb6a658e386",
+      "size_bytes": 2249
+    },
+    {
+      "path": "outputs/night8a_handoff/external_dataset_preflight.json",
+      "sha256": "e5698d9adbe1b15b02d57dd3fc62cf249a884a0e2031c65cea3aed4e644be871",
+      "size_bytes": 13793
+    },
+    {
+      "path": "outputs/night8a_handoff/external_preflight.log",
+      "sha256": "8b9f7159fe47b73bcfdb2cbc0f0853961e026f95d7a2764e69f3c78eadee6dc1",
+      "size_bytes": 107
+    },
+    {
+      "path": "outputs/night8a_handoff/failure_and_retry_audit.json",
+      "sha256": "f5f6547653db417cd627f2383a3cc94545b0c55579ce8ddfc02852ead3df84ac",
+      "size_bytes": 1177
+    },
+    {
+      "path": "outputs/night8a_handoff/family_reference_policy.json",
+      "sha256": "97d8588ae5fb8920299e23ce562f3e8d62556db9ddc8d2efd5937442fe04a4ac",
+      "size_bytes": 3911
+    },
+    {
+      "path": "outputs/night8a_handoff/final_test.log",
+      "sha256": "ecbd98666ecec996b90d1bff0ed97e213ef08fbb1c93f21584a217b1eef9ef48",
+      "size_bytes": 99
+    },
+    {
+      "path": "outputs/night8a_handoff/finalize_invalid.log",
+      "sha256": "bcca11e22cc1dc4ab7bfea49075a234b6324aabafe7670b681eb3ed5e41f96cc",
+      "size_bytes": 140
+    },
+    {
+      "path": "outputs/night8a_handoff/git_audit.json",
+      "sha256": "a0462f6b2095c18c1e576ddda2e0fdd61184b7167d2dbbf46a269fa76e2a6676",
+      "size_bytes": 676
+    },
+    {
+      "path": "outputs/night8a_handoff/historical_metric_recompute.json",
+      "sha256": "a46f8cf9a3d6e5abb7e08afc351b7741ac14e6a8128720d0f9b4473a2396c045",
+      "size_bytes": 3108
+    },
+    {
+      "path": "outputs/night8a_handoff/label_firewall_audit.json",
+      "sha256": "72888102b71fcf4b7a44be6485766e529a3e1d52b6eee233cd1b6b8e9c4971d0",
+      "size_bytes": 406
+    },
+    {
+      "path": "outputs/night8a_handoff/label_firewall_prelabel_audit.json",
+      "sha256": "89c03d035dad54272cddf43b91b5513e9b0271189b2ee118bfd0075c7725599f",
+      "size_bytes": 923
+    },
+    {
+      "path": "outputs/night8a_handoff/module_ablation_summary.csv",
+      "sha256": "08ba2b4cb033ed3d8f7fbfa082c3d46036703445b5a2df10f9c4fe948fab7a1e",
+      "size_bytes": 42
+    },
+    {
+      "path": "outputs/night8a_handoff/night8a_decision.json",
+      "sha256": "bc99e0269857c26986928781101df9662e23a3ab5fa49910d236e47470a8bb6b",
+      "size_bytes": 717
+    },
+    {
+      "path": "outputs/night8a_handoff/night8a_report.md",
+      "sha256": "22fa3fe04c2548a6a7909f29aa72660f0e157699ceef8904323a83082caa6307",
+      "size_bytes": 2069
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_attempt1_historical_subset_misinterpretation.log",
+      "sha256": "fcd04bc46d6c9b492ff933e2235748949b24693d6175ad01c5ba55fb318be514",
+      "size_bytes": 463
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_attempt2_formula_namespace_mismatch.log",
+      "sha256": "d787a5b7ba175696e76b5ac60cdd9deba8f7c3131b134b9768a98b98602ded84",
+      "size_bytes": 462
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_attempt3_rscript_path.log",
+      "sha256": "a34ecf58b7645895dd60ee68af07a52dc883b6507b52f9eb756f1c04b6096272",
+      "size_bytes": 1028
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_attempt4_reference_dimension_contract.log",
+      "sha256": "c70e7b7dfc534a477233a870021e0ef4a6da6da3ccb84756f683cbe4ac3548e5",
+      "size_bytes": 1360
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_authority.json",
+      "sha256": "ad35da4b3658e179142a61856f5c10387cbeca54668563c0821b74dc6aa9ae08",
+      "size_bytes": 2405
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_authority_and_semantic_contract.json",
+      "sha256": "739babb1e303454e1e7d83106eb190da1181c410ee72689330b55d9e1d94a02b",
+      "size_bytes": 959
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_config_lock.json",
+      "sha256": "8596b8e21738d2567737de8d79d57bb9eb47d898129a4782ee6a3b0d779e98e0",
+      "size_bytes": 342
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_full_size_p22_smoke.json",
+      "sha256": "60760381bb82edc24e8ff392d9f50c5c823cce79f5618893b74a5d86fc1082e7",
+      "size_bytes": 584
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_run.log",
+      "sha256": "90073265b9cdee5082f50d8aff71a3ab4c036fa3bae16e250d141fd9a5f8bd32",
+      "size_bytes": 606
+    },
+    {
+      "path": "outputs/night8a_handoff/p0_semantic_contract.json",
+      "sha256": "0246e73e5f2b3ec4adb6e9d536c959e6bc36f14dd7728112146644bc0737777d",
+      "size_bytes": 656
+    },
+    {
+      "path": "outputs/night8a_handoff/paired_deltas.csv",
+      "sha256": "131f378f88e436f3bd415f47f07c8a0a918f235e0364d29238aba8fdc8a8f712",
+      "size_bytes": 61
+    },
+    {
+      "path": "outputs/night8a_handoff/pareto_frontier.csv",
+      "sha256": "01d878cd7bcc499919898b08196a7bcddd6faa990ff6b9460a2f48878367d32a",
+      "size_bytes": 34
+    },
+    {
+      "path": "outputs/night8a_handoff/per_seed_metrics.csv",
+      "sha256": "131f378f88e436f3bd415f47f07c8a0a918f235e0364d29238aba8fdc8a8f712",
+      "size_bytes": 61
+    },
+    {
+      "path": "outputs/night8a_handoff/plain_language_summary.md",
+      "sha256": "9df9ee20db95a3694876c72d2a4c0f3845b00d4efb25313779280bedac5f3f29",
+      "size_bytes": 878
+    },
+    {
+      "path": "outputs/night8a_handoff/r1_attempt1_registry_key_case.log",
+      "sha256": "b1f5199751106a568565787408ee9ee7050bb6e6a0837a607096cd6b21c1bab7",
+      "size_bytes": 661
+    },
+    {
+      "path": "outputs/night8a_handoff/r1_run.log",
+      "sha256": "3b93dccfb2ad787fad980651302d816f768ed486a12c812ade07d0125fe01ee1",
+      "size_bytes": 9015
+    },
+    {
+      "path": "outputs/night8a_handoff/r1_stage_manifest.json",
+      "sha256": "15000596a8db3d20d057fd4d3d5d081e275ce7d81d2300edd6683ee89ad17911",
+      "size_bytes": 243504
+    },
+    {
+      "path": "outputs/night8a_handoff/r2_run.log",
+      "sha256": "532047be776cd4ddb5ad88fcf649b6150f817484da6986aaef5d6da08266bd1e",
+      "size_bytes": 27515
+    },
+    {
+      "path": "outputs/night8a_handoff/r2_stage_manifest.json",
+      "sha256": "c7be512d335d6e6d45f1d4e566987a23df7ad6d96fc6ff9b696e3b75388537a2",
+      "size_bytes": 787491
+    },
+    {
+      "path": "outputs/night8a_handoff/resolved_family_policy.json",
+      "sha256": "8495e91fda1ba63839d494124aa4298063098d940687fa71a465449f02d5ed0b",
+      "size_bytes": 4169
+    },
+    {
+      "path": "outputs/night8a_handoff/runtime_and_gpu_timeline.csv",
+      "sha256": "12ce2d38e3dc47a555797746ed7ea7fa3f5105556a21115170bbceae7f1cd981",
+      "size_bytes": 57744
+    },
+    {
+      "path": "outputs/night8a_handoff/runtime_environment.json",
+      "sha256": "2eafcc2cf5ad2f46145ae72911ed7a6210b04b942ae6d2442f4f83f6006cb498",
+      "size_bytes": 339
+    },
+    {
+      "path": "outputs/night8a_handoff/shutdown_contract.json",
+      "sha256": "cff3a7e388a40300045f6ae90939aade94fe9f7cf20eda0529706ab437d2d515",
+      "size_bytes": 316
+    },
+    {
+      "path": "outputs/night8a_handoff/tests/p0_pytest.txt",
+      "sha256": "99a35365d90efbff30c4388c2de1d87c92da249b63a51c1cfb040f30a2901e68",
+      "size_bytes": 99
+    },
+    {
+      "path": "outputs/night8a_handoff/third_party_source_audit.json",
+      "sha256": "a8716405944406cb7a49c8c29b1b25bc773b82b42aeffc5745d342d7146e8fd7",
+      "size_bytes": 8159
+    },
+    {
+      "path": "outputs/night8a_handoff/training_cells.csv",
+      "sha256": "e80cada600b5c1af3650c97b1d0a3f2e4bafeb89b5ef8fc3fc9fcd65d17c82b1",
+      "size_bytes": 53180
+    },
+    {
+      "path": "outputs/night8a_handoff/training_manifest.json",
+      "sha256": "adda0727e180362a9663658b09408cee400a5efbefb0a3605f86bc37c131ea17",
+      "size_bytes": 96013
+    }
+  ],
+  "raw_files_included": false,
+  "root_rule": "sha256(newline_join(file_sha256_in_lexical_path_order))",
+  "root_sha256": "3ae4dc91975a0465caae46397c9c706f705239ad310e60dc91b35a8d4464dc56",
+  "schema_version": 1,
+  "self_referential_fields": false,
+  "status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

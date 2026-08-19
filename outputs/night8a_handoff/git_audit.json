@@ -1,0 +1,13 @@
+{
+  "base_commit": "e34567db5ace4f0fcdd2526cfb94a84fc9148020",
+  "base_tag": "night7c-final-20260818",
+  "branch": "revision/q2-night8a-mfspc-rnd-20260820",
+  "final_binding_rule": "final tag is created once after the delivery-index commit and verified in compact_delivery_index.json",
+  "final_tag_absent_before_final_commit": true,
+  "force_push_used": false,
+  "pre_delivery_index_commit": "ca78fc5a43414b1aeee00f84a76efe3054e6cf16",
+  "protection_tag": "baseline/pre-night8a-mfspc-rnd-20260820",
+  "protection_tag_peel": "e34567db5ace4f0fcdd2526cfb94a84fc9148020",
+  "remote_branch_commit": "ca78fc5a43414b1aeee00f84a76efe3054e6cf16",
+  "status": "PASS_PRE_FINAL_INDEX"
+}
