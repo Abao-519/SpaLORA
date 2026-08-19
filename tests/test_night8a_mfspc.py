@@ -8,6 +8,8 @@ import pytest
 import scipy.sparse as sp
 import torch
 
+from scripts.night8a_transform import protein_endpoint
+
 from SpaLORA.night8a_mfspc import (
     EMAScaler, MFSPCModel, centered_cross_covariance_loss, dgi_loss,
     fixed_triplets, normalized_assays, prototype_loss, resolve_modules,
@@ -145,6 +147,22 @@ def test_tensor_state_sha_deterministic_and_sensitive():
     assert first == tensor_state_sha(model.state_dict())
     with torch.no_grad(): next(model.parameters()).add_(1)
     assert first != tensor_state_sha(model.state_dict())
+
+
+def test_protein_family_reference_reuses_locked_affinity_and_partition(tmp_path):
+    affinity = sp.csr_matrix(np.array([[0.0, 0.75, 0.0], [0.75, 0.0, 0.25], [0.0, 0.25, 0.0]]))
+    partition = np.array([1, 1, 2], dtype=np.int64)
+    affinity_path = tmp_path / "locked_affinity.npz"
+    partition_path = tmp_path / "locked_partition.npy"
+    sp.save_npz(affinity_path, affinity)
+    np.save(partition_path, partition)
+    worker = {"pseudo_affinity": str(affinity_path), "pseudo_partition": str(partition_path)}
+    actual_affinity, actual_partition, audit = protein_endpoint(
+        {"registered_modules": []}, worker, [np.zeros((3, 2))] * 3, ["a", "b", "c"])
+    assert (actual_affinity != affinity).nnz == 0
+    assert np.array_equal(actual_partition, partition)
+    assert audit["locked_reference_reuse"] is True
+    assert audit["endpoint"] == "C00_G04_H05_LOCKED_REFERENCE_ARTIFACTS"
 
 
 def test_registry_has_exact_locked_candidates():

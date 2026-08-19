@@ -85,7 +85,8 @@ def selected_units(stage: str, units: list[dict], registry: dict) -> list[dict]:
         seeds = registry["fixed_seeds"]["R2_pilot"]
     else:
         seeds = registry["fixed_seeds"]["R3_extension_if_selected"]
-    return [u for u in units if u["seed"] in set(map(int, seeds[u["dataset"]]))]
+    normalized = {str(key).lower(): value for key, value in seeds.items()}
+    return [u for u in units if u["seed"] in set(map(int, normalized[u["dataset"].lower()]))]
 
 
 def r02_reference(unit_id: str) -> Path:

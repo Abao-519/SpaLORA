@@ -27,6 +27,31 @@ def atomic_json(path: Path, value: object) -> None:
     os.replace(tmp, path)
 
 
+def protein_endpoint(config: dict, worker: dict, views: list[np.ndarray], ids: list[str]) -> tuple[sp.csr_matrix, np.ndarray | None, dict]:
+    """Resolve C00 exactly and construct new protein candidates without changing H05."""
+    if not config["registered_modules"]:
+        affinity_path = Path(worker["pseudo_affinity"])
+        partition_path = Path(worker["pseudo_partition"])
+        affinity = sp.load_npz(affinity_path).tocsr()
+        labels = np.load(partition_path, allow_pickle=False).astype(np.int64, copy=False)
+        if affinity.shape != (len(ids), len(ids)) or labels.shape != (len(ids),):
+            raise RuntimeError("locked C00 reference shape mismatch")
+        return affinity, labels, {
+            "endpoint": "C00_G04_H05_LOCKED_REFERENCE_ARTIFACTS",
+            "locked_reference_reuse": True,
+            "locked_affinity_path": str(affinity_path),
+            "locked_affinity_file_sha256": file_sha(affinity_path),
+            "locked_partition_path": str(partition_path),
+            "locked_partition_file_sha256": file_sha(partition_path),
+        }
+    pieces = [self_tuning_affinity(view, 10, ids) for view in views]
+    affinity = (pieces[0] + pieces[1] + pieces[2]) * (1.0 / 3.0)
+    return affinity.tocsr(), None, {
+        "endpoint": "C00_G04_H05_EQUAL3_AFFINITY_SPECTRAL",
+        "locked_reference_reuse": False,
+    }
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(); ap.add_argument("--config", type=Path, required=True)
     ap.add_argument("--training-output", type=Path, required=True)
@@ -41,10 +66,11 @@ def main() -> None:
     worker = json.loads(Path(config["worker_input"]).read_text())
     ids = [x.strip() for x in Path(worker["observation_ids"]).read_text().splitlines() if x.strip()]
     views = [z["emb_latent_omics1"], z["emb_latent_omics2"], z["SpaLORA_fused"]]
+    locked_labels = None
+    reference_audit = {"locked_reference_reuse": False}
     if family == "RNA_PROTEIN":
-        pieces = [self_tuning_affinity(v, 10, ids) for v in views]
-        affinity = (pieces[0] + pieces[1] + pieces[2]) * (1.0 / 3.0)
-        endpoint = "C00_G04_H05_EQUAL3_AFFINITY_SPECTRAL"
+        affinity, locked_labels, reference_audit = protein_endpoint(config, worker, views, ids)
+        endpoint = reference_audit["endpoint"]
     elif family == "RNA_EPIGENOME":
         c06_path = Path(worker["g04_views"]).parent / "c06_affinity.npz"
         if not c06_path.exists():
@@ -56,8 +82,9 @@ def main() -> None:
     else:
         raise RuntimeError("unknown family")
     affinity = affinity.tocsr(); affinity.sum_duplicates(); affinity.eliminate_zeros(); affinity.sort_indices()
-    labels = spectral(affinity, int(config["K"]))
-    replay = spectral(affinity, int(config["K"]))
+    labels = spectral(affinity, int(config["K"])) if locked_labels is None else locked_labels
+    replay = spectral(affinity, int(config["K"])) if locked_labels is None else np.load(
+        reference_audit["locked_partition_path"], allow_pickle=False).astype(np.int64, copy=False)
     if not np.array_equal(labels, replay):
         raise RuntimeError("cluster exact replay mismatch")
     if len(np.unique(labels)) != int(config["K"]):
@@ -83,6 +110,7 @@ def main() -> None:
         "training_manifest_sha256": file_sha(args.training_output / "training_manifest.json"),
         "reload_audit_sha256": file_sha(args.training_output / "reload_audit.json"),
         "metrics_placeholder_sha256": file_sha(placeholder),
+        "reference_artifact_audit": reference_audit,
         "runtime_seconds": time.perf_counter() - start,
         "process_peak_rss_mib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024,
     }

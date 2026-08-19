@@ -1,0 +1,14 @@
+{
+  "authorized_role": "single_evaluator",
+  "candidate_metrics_released_for_selection": false,
+  "diagnostic_only_outputs": [
+    "b00_parity_diagnostic.csv",
+    "dev_window1_semantic_invalidation.json"
+  ],
+  "failure": "RNA_PROTEIN B00 rebuilt an approximate affinity instead of reusing the SHA-locked C00 G04/H05 affinity and partition",
+  "labels_opened_after_R1_R2_total_lock": true,
+  "post_window_training_or_transform": false,
+  "shortlist_created": false,
+  "status": "FAILED_CLOSED_SEMANTIC",
+  "window_closed_without_R3": true
+}

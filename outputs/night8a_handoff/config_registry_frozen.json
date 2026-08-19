@@ -1,0 +1,321 @@
+{
+  "schema_version": "night8a-mfspc-registry-v1",
+  "created_at": "2026-08-20T00:00:00+08:00",
+  "working_method_name": "MF-SPC",
+  "working_method_expansion": "Modality-Family-conditioned Shared-Private Prototype Consensus",
+  "scientific_status_before_run": "RND_NOT_STARTED",
+  "authority": {
+    "night6d_report": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night6d_handoff_20260817/official_compact/handoff/night6d_report.md",
+      "sha256": "333192ce979a02ce8cbc785828e58fa7b9314906ce653c7d8cae016b92e8a053"
+    },
+    "night7a_report": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7a_handoff_20260818/official_compact/handoff/night7a_report.md",
+      "sha256": "274cf68d82634ab935b894a101e439904f0ce3f4e0d16f6d146b2d7ee95e4de3"
+    },
+    "night7b_report": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/night7b_report.md",
+      "sha256": "48e16b12934fb13c668ea08e966e26e1c2454f5aad59e8510e7b391a4d2cd0a9"
+    },
+    "night7b_candidate_lock": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/night7b_final_candidate_lock.json",
+      "sha256": "74d76ca45ca7d9d632bdfdd694bfccbe635318b3cdfaad409ca21100805ddd97"
+    },
+    "night7c_report": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7c_handoff_20260818/official_compact/outputs/night7c_handoff/night7c_report.md",
+      "sha256": "af7ae61a747e865bace5fce70da72085280c7147ddaf12c9df82362a4c77a840"
+    },
+    "night7c_compact_index": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7c_handoff_20260818/official_compact/compact_delivery_index.json",
+      "sha256": "1797d4f1583d3dea0fedca93aa53ad1ade9417d1b08f0bc79fb03729c472e734"
+    }
+  },
+  "git_base": {
+    "commit": "e34567db5ace4f0fcdd2526cfb94a84fc9148020",
+    "tag": "night7c-final-20260818",
+    "new_branch": "revision/q2-night8a-mfspc-rnd-20260820",
+    "protection_tag": "baseline/pre-night8a-mfspc-rnd-20260820",
+    "final_tag": "night8a-final-20260820"
+  },
+  "dataset_families": {
+    "selector": "derive only from normalized assay metadata; dataset names and labels are forbidden inputs",
+    "RNA_PROTEIN": {
+      "allowed_assays": [
+        "RNA+ADT",
+        "RNA+protein"
+      ],
+      "development_units": [
+        "A1",
+        "D1",
+        "tonsil"
+      ],
+      "family_reference": "C00_G04_H05_CONFIRMED"
+    },
+    "RNA_EPIGENOME": {
+      "allowed_assays": [
+        "RNA+ATAC",
+        "RNA+histone",
+        "RNA+epigenome"
+      ],
+      "development_units": [
+        "P22"
+      ],
+      "family_reference": "R02_P22_FRONTIER_DEVELOPMENT_REFERENCE"
+    },
+    "unknown_family_policy": "hard_error"
+  },
+  "fixed_seeds": {
+    "R1_mechanism_probe": {
+      "A1": [0],
+      "tonsil": [0],
+      "D1": [0],
+      "P22": [0]
+    },
+    "R2_pilot": {
+      "A1": [0, 1, 2],
+      "tonsil": [0, 1, 2],
+      "D1": [0, 1, 2],
+      "P22": [0, 1, 2]
+    },
+    "R3_extension_if_selected": {
+      "A1": [3, 4],
+      "tonsil": [3, 4],
+      "D1": [3, 4, 5, 6, 7, 8, 9],
+      "P22": [3, 4, 5, 6, 7, 8, 9]
+    }
+  },
+  "module_contracts": {
+    "SP": {
+      "shared_fraction_of_existing_latent": 0.75,
+      "private_fraction_of_existing_latent": 0.25,
+      "orthogonality_loss": "squared cross-covariance Frobenius norm between centered shared and private embeddings",
+      "normalized_aux_weight": 0.05
+    },
+    "RR10": {
+      "type": "same-spot VICReg-style shared alignment",
+      "internal_invariance_weight": 25.0,
+      "internal_variance_weight": 25.0,
+      "internal_covariance_weight": 1.0,
+      "normalized_aux_weight": 0.10,
+      "negative_samples": false
+    },
+    "RR30": {
+      "type": "same-spot VICReg-style shared alignment",
+      "internal_invariance_weight": 25.0,
+      "internal_variance_weight": 25.0,
+      "internal_covariance_weight": 1.0,
+      "normalized_aux_weight": 0.30,
+      "negative_samples": false
+    },
+    "PROTO": {
+      "type": "soft prototype consensus across modality-shared and fused embeddings",
+      "prototype_count": "locked benchmark K",
+      "student_temperature": 0.10,
+      "teacher_ema": 0.99,
+      "occupancy_regularizer": "weak KL to EMA occupancy; no exact equal-cluster constraint",
+      "normalized_aux_weight": 0.10
+    },
+    "RNA_ANCHOR": {
+      "active_family": "RNA_EPIGENOME",
+      "topology": "sparse intersection of spatial edges and RNA-feature neighbor edges, with self loops",
+      "inactive_behavior": "identity/no-op with content-addressed artifact aliasing allowed"
+    },
+    "DGI": {
+      "type": "sparse global-local mutual-information objective",
+      "normalized_aux_weight": 0.10,
+      "dense_n_by_n_forbidden": true
+    },
+    "SMART_TRIPLET": {
+      "type": "independent SMART-style distant metric-learning control",
+      "mnn_k": 3,
+      "farthest_fraction": 0.60,
+      "margin": 0.50,
+      "normalized_aux_weight": 0.10
+    },
+    "loss_scale_normalization": {
+      "formula": "L_base + lambda_i * clip(EMA(abs(L_base))/(EMA(abs(L_i))+1e-8),0.1,10.0) * L_i",
+      "ema_beta": 0.99,
+      "warmup_epochs": 10,
+      "gradient_through_scale": false
+    }
+  },
+  "R1_configs": [
+    {
+      "id": "A00_FAMILY_REFERENCE",
+      "modules": [],
+      "fresh_training": true
+    },
+    {
+      "id": "A01_SP",
+      "modules": ["SP"],
+      "fresh_training": true
+    },
+    {
+      "id": "A02_RR10",
+      "modules": ["RR10"],
+      "fresh_training": true
+    },
+    {
+      "id": "A03_RR30",
+      "modules": ["RR30"],
+      "fresh_training": true
+    },
+    {
+      "id": "A04_PROTO",
+      "modules": ["PROTO"],
+      "fresh_training": true
+    },
+    {
+      "id": "A05_RNA_ANCHOR",
+      "modules": ["RNA_ANCHOR"],
+      "fresh_training": true,
+      "allow_noop_alias_on_RNA_PROTEIN": true
+    },
+    {
+      "id": "A06_DGI",
+      "modules": ["DGI"],
+      "fresh_training": true
+    },
+    {
+      "id": "A07_SMART_TRIPLET",
+      "modules": ["SMART_TRIPLET"],
+      "fresh_training": true
+    }
+  ],
+  "R2_configs": [
+    {
+      "id": "B00_FAMILY_REFERENCE",
+      "modules": []
+    },
+    {
+      "id": "B01_SP_RR10",
+      "modules": ["SP", "RR10"]
+    },
+    {
+      "id": "B02_SP_RR30",
+      "modules": ["SP", "RR30"]
+    },
+    {
+      "id": "B03_RR10_PROTO",
+      "modules": ["RR10", "PROTO"]
+    },
+    {
+      "id": "B04_SP_RR10_PROTO",
+      "modules": ["SP", "RR10", "PROTO"]
+    },
+    {
+      "id": "B05_SP_RR10_PROTO_RNAANCHOR",
+      "modules": ["SP", "RR10", "PROTO", "RNA_ANCHOR"],
+      "allow_noop_alias_on_RNA_PROTEIN": true
+    },
+    {
+      "id": "B06_SP_RR10_PROTO_DGI",
+      "modules": ["SP", "RR10", "PROTO", "DGI"]
+    },
+    {
+      "id": "B07_SP_RR10_PROTO_TRIPLET",
+      "modules": ["SP", "RR10", "PROTO", "SMART_TRIPLET"]
+    }
+  ],
+  "ranking": {
+    "Q_definition": "(ARI + NMI) / 2",
+    "Q_HLN_definition": "mean(dataset_mean_Q_A1, dataset_mean_Q_D1)",
+    "priority_macro_Q": "0.45*Q_HLN + 0.45*Q_P22 + 0.10*Q_tonsil",
+    "important_families": [
+      "human_lymph",
+      "mouse_brain_P22"
+    ],
+    "pilot_shortlist_slots": [
+      "unified_balanced",
+      "human_lymph_frontier",
+      "P22_frontier"
+    ],
+    "max_distinct_R3_finalists": 3,
+    "unified_pilot_gate": {
+      "delta_Q_HLN_min": 0.0,
+      "delta_Q_P22_min": 0.0,
+      "delta_Q_tonsil_min": -0.01,
+      "spatial_protection": "pass"
+    },
+    "specialist_pilot_gate": {
+      "non_target_important_family_delta_Q_min": -0.01,
+      "spatial_protection": "pass"
+    },
+    "full_balanced_material_gate": {
+      "priority_macro_delta_Q_min": 0.01,
+      "delta_Q_HLN_min": 0.0,
+      "delta_Q_P22_min": 0.0,
+      "spatial_protection": "pass"
+    },
+    "negative_results": "retain all runs and report Pareto frontier even when formal gates fail"
+  },
+  "evaluation": {
+    "primary": [
+      "ARI",
+      "NMI",
+      "Q"
+    ],
+    "spatial_protection": [
+      "neighbor_agreement",
+      "Morans_I",
+      "Geary_C",
+      "boundary_disagreement"
+    ],
+    "secondary_labeled": [
+      "AMI",
+      "FMI",
+      "homogeneity",
+      "completeness",
+      "V_measure"
+    ],
+    "secondary_label_free": [
+      "silhouette",
+      "Davies_Bouldin",
+      "Calinski_Harabasz",
+      "graph_connectivity",
+      "modularity"
+    ],
+    "selection_use": "only primary plus spatial protection; secondary metrics are descriptive in Night-8A"
+  },
+  "runtime": {
+    "server_mode": "GPU/card mode required",
+    "gpu_training_required": true,
+    "representative_P22_smoke_before_science": true,
+    "single_transform_wall_timeout_minutes": 45,
+    "cpu_transform_workers_max": 3,
+    "threads_per_worker_max": 3,
+    "dense_n_by_n_paths_forbidden": true,
+    "science_training_hard_cap": 180,
+    "infrastructure_retry_hard_cap": 12,
+    "scientific_retry_hard_cap": 0,
+    "fallback_hard_cap": 0
+  },
+  "external_data_preflight": {
+    "labels_sealed": true,
+    "primary": [
+      "MISAR_E15_5_or_E18_5_from_OEP003285_or_SMART_Zenodo_17093158"
+    ],
+    "secondary": [
+      "GSE205055_mouse_embryo_E13",
+      "Zenodo_12654113_tonsil_sections_2_3",
+      "GSE198353_SPOTS_spleen_label_free"
+    ],
+    "large_scale_deferred": [
+      "Zenodo_8041114_STARmap_RIBOmap"
+    ],
+    "windows_download_limit_bytes": 104857600,
+    "large_files_location": "remote persistent disk only",
+    "formal_external_benchmark_in_night8a": false
+  },
+  "hard_prohibitions": [
+    "dataset-name-conditioned code",
+    "labels or ARI/NMI in training, early stopping, checkpoint selection, family selection or clustering resolution",
+    "seed search or best-seed reporting",
+    "best-epoch selection by labels",
+    "overwriting or deleting failed runs",
+    "copying code without license review and attribution",
+    "force push or moving historical tags",
+    "downloading raw runs or checkpoints to Windows unless required for compact verification",
+    "restarting Night-7C router or weighted-MNN search"
+  ]
+}

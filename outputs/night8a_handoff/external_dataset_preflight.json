@@ -1,0 +1,370 @@
+{
+  "authorized_role": "night8a_external_data_steward",
+  "formal_external_training_or_benchmark": false,
+  "label_files_opened": false,
+  "label_values_or_distribution_read": false,
+  "large_scale_deferred": {
+    "downloaded_in_night8a": false,
+    "files": [
+      {
+        "bytes": 31237200922,
+        "checksum": "md5:7e86fb6a6801cebe9be961c232e5db96",
+        "name": "2023-05-05-Brain-combined.h5ad"
+      },
+      {
+        "bytes": 15630967,
+        "checksum": "md5:63771f8a3452a2f6551d0dfc985aed4a",
+        "name": "tissue_umap_ribomap_starmap_integration.csv"
+      },
+      {
+        "bytes": 10546955,
+        "checksum": "md5:0de4a0b9316a437239c4160eb044ddbf",
+        "name": "tissue_umap_ribomap.csv"
+      },
+      {
+        "bytes": 533523,
+        "checksum": "md5:98f2f7c3e279ee34f9afdf6a5b7d8aea",
+        "name": "tissue_umap_oo.csv"
+      },
+      {
+        "bytes": 4560437,
+        "checksum": "md5:5291413561440e88ccc47797607b377e",
+        "name": "tissue_spatial_STARmap_rep2.csv"
+      },
+      {
+        "bytes": 4587660,
+        "checksum": "md5:9e3f1c75fb2c5793a8187a2b7ffae9f1",
+        "name": "tissue_spatial_RIBOmap_rep2.csv"
+      },
+      {
+        "bytes": 4904912,
+        "checksum": "md5:f8cf4725dc9855ffec76a452492ca905",
+        "name": "tissue_spatial_RIBOmap_rep1.csv"
+      },
+      {
+        "bytes": 36067416,
+        "checksum": "md5:ee1007db94445ae444a10b9628311c31",
+        "name": "tissue_metadata.csv"
+      },
+      {
+        "bytes": 139646286,
+        "checksum": "md5:c6f5564502c451c67cb99c5e2fd193fc",
+        "name": "tissue_expression_matrix_scaled_ribomap.csv.gz"
+      },
+      {
+        "bytes": 231260883,
+        "checksum": "md5:451a870749406940d2cf604e0bcb1aae",
+        "name": "tissue_expression_matrix_scaled.csv.gz"
+      },
+      {
+        "bytes": 37865727,
+        "checksum": "md5:b065323f18f504f00deded0eeffe366a",
+        "name": "tissue_expression_matrix_raw_ribomap.csv.gz"
+      },
+      {
+        "bytes": 62553367,
+        "checksum": "md5:fe5dd6f44f7ba68dc3435bcafef19d0c",
+        "name": "tissue_expression_matrix_raw.csv.gz"
+      },
+      {
+        "bytes": 101256664,
+        "checksum": "md5:508da5144059eea1b25417a5d9b93f24",
+        "name": "tissue_expression_matrix_norm_ribomap.csv.gz"
+      },
+      {
+        "bytes": 170459801,
+        "checksum": "md5:b761d05fca3131696df3d0f03ba27dff",
+        "name": "tissue_expression_matrix_norm.csv.gz"
+      },
+      {
+        "bytes": 3075438160,
+        "checksum": "md5:3279dcf5147e9da2db8e58f7fd213c21",
+        "name": "tissue_expression_matrix_combat.csv.gz"
+      },
+      {
+        "bytes": 35175161,
+        "checksum": "md5:7e7a31403cb06325c6f08b95e36cd926",
+        "name": "cell_culture_starmap_expression_matrix_pp.csv"
+      },
+      {
+        "bytes": 2789,
+        "checksum": "md5:6e2f41996f9b5612dd72cbd3a497f5a3",
+        "name": "README.txt"
+      },
+      {
+        "bytes": 231995,
+        "checksum": "md5:77f0fcff88772980ba3f151148b68c68",
+        "name": "cell_culture_starmap_diffmap.csv"
+      },
+      {
+        "bytes": 534810,
+        "checksum": "md5:d7a8a4044ec1631131bf0ce736a0c9bb",
+        "name": "cell_culture_ribomap_metadata.csv"
+      },
+      {
+        "bytes": 493445,
+        "checksum": "md5:fe1c463c95fd6e2bfb6e7e07cccd44a8",
+        "name": "cell_culture_starmap_metadata.csv"
+      },
+      {
+        "bytes": 66190,
+        "checksum": "md5:f40db6761058b4361974d2c6ef94efb2",
+        "name": "cell_culture_ribomap_gene_cluster.csv"
+      },
+      {
+        "bytes": 66197,
+        "checksum": "md5:804fa47a16439ccc130a3c6fc555d403",
+        "name": "cell_culture_starmap_gene_cluster.csv"
+      },
+      {
+        "bytes": 7385771,
+        "checksum": "md5:0e701e59dd98fd99d0a955473bb7bff0",
+        "name": "cell_culture_starmap_expression_matrix_raw.csv"
+      },
+      {
+        "bytes": 7710256,
+        "checksum": "md5:fb77c9f7e966697a2117e41a3a5a880f",
+        "name": "cell_culture_ribomap_expression_matrix_raw.csv"
+      },
+      {
+        "bytes": 37099140,
+        "checksum": "md5:17b1a97c718f7f894766f7b7e0a4243f",
+        "name": "cell_culture_ribomap_expression_matrix_pp.csv"
+      },
+      {
+        "bytes": 256908,
+        "checksum": "md5:e56793df521eb408050a193db71c54b7",
+        "name": "cell_culture_ribomap_diffmap.csv"
+      },
+      {
+        "bytes": 13154584680,
+        "checksum": "md5:f64c08eef56985d5e9c3180eadfb79d7",
+        "name": "2023-05-05-Brain-RIBOmap.h5ad"
+      }
+    ],
+    "metadata_snapshot": "/root/autodl-fs/night8a_external_data_20260820/zenodo8041114.json",
+    "metadata_snapshot_sha256": "f7f72296db0c0036a978f0d3013bb562cfc69ea05c0fbe0f5943e35ad0b07249",
+    "reason": "approximately 58k aligned spots and very large matrix files; registered only by protocol",
+    "record_id": "8041114",
+    "record_url": "https://zenodo.org/records/8041114",
+    "title": "Gene expression dataset of the Spatially Resolved Single-cell Translatomics at Molecular Resolution"
+  },
+  "primary": {
+    "SMART_bundle_not_downloaded_reason": "10.74 GB monolithic archive; outside Night-8A selective preflight scope",
+    "SMART_processed_bundle_metadata_only": {
+      "files": [
+        {
+          "bytes": 10739923283,
+          "checksum": "md5:e99fa8908c058598b32e77203f76f7a2",
+          "name": "SMART_data.zip"
+        }
+      ],
+      "metadata_snapshot": "/root/autodl-fs/night8a_external_data_20260820/zenodo17093158.json",
+      "metadata_snapshot_sha256": "561a4ad0c7f5acab29e9572a2d65c403d98c2f99cf2c23a5e20dd9b8a9d2873f",
+      "record_id": "17093158",
+      "record_url": "https://zenodo.org/records/17093158",
+      "title": "Datasets used in SMART's experiments"
+    },
+    "dataset": "MISAR-seq mouse brain E15.5 S1",
+    "integrity": {
+      "all_barcodes": 2500,
+      "annotation_values_deserialized": false,
+      "atac_peak_features": 141420,
+      "coordinates_present_and_unique": true,
+      "files": [
+        {
+          "bytes": 48966670,
+          "name": "E15_5-S1_raw_feature_bc_matrix.h5",
+          "official_checksum": "md5:85068d59bfecc7ff19394594bb94b071",
+          "path": "/root/autodl-fs/night8a_external_data_20260820/E15_5-S1_raw_feature_bc_matrix.h5",
+          "sha256": "4db64464b4ffdd36a362bcf4a2687ccefa28c96c22571ac727d3bb49fa71dfd4"
+        },
+        {
+          "bytes": 11083,
+          "name": "position_E15_5-S1.txt",
+          "official_checksum": "md5:ab7cc4c996b29ab7a4a60838933141f8",
+          "path": "/root/autodl-fs/night8a_external_data_20260820/position_E15_5-S1.txt",
+          "sha256": "4659dfebc7be524036931ac5d57990a1ef0bcab2a733f4619b2d4dc1951ea030"
+        },
+        {
+          "bytes": 64115,
+          "name": "MISAR-seq_barcode_filter.csv",
+          "official_checksum": "md5:73dc8a0fad504cc883ae394669fb8fe0",
+          "path": "/root/autodl-fs/night8a_external_data_20260820/MISAR-seq_barcode_filter.csv",
+          "sha256": "db150f59c6a45454d8d91e9079f3d6659c44fa074ef870b2f3861b2a34feb771"
+        },
+        {
+          "bytes": 64129,
+          "name": "MISAR-seq_barcode.csv",
+          "official_checksum": "md5:9404a58a3252a181b0de6ab613ce990b",
+          "path": "/root/autodl-fs/night8a_external_data_20260820/MISAR-seq_barcode.csv",
+          "sha256": "e7eb1d788098d745c8e3822f9432f1e0a4a3bc5fb291029b6dcc96dfff5bf623"
+        }
+      ],
+      "matrix_nnz": 31667544,
+      "matrix_shape_features_by_all_barcodes": [
+        173705,
+        2500
+      ],
+      "rna_atac_same_spot_alignment": true,
+      "rna_features": 32285,
+      "selected_barcodes_unique": 1949,
+      "selected_tissue_spots": 1949,
+      "status": "PASS_LABEL_SEALED"
+    },
+    "official_release_metadata": {
+      "files": [
+        {
+          "bytes": 1147,
+          "checksum": "md5:e586d68cc646d90de73a63331c6ec5b6",
+          "name": "MISAR_Split_BC_ATAC.py"
+        },
+        {
+          "bytes": 897,
+          "checksum": "md5:fc9b11f6af6ae466e6d7726404d87a45",
+          "name": "README.md"
+        },
+        {
+          "bytes": 1589,
+          "checksum": "md5:494074a8192ba042527f85460872b0cb",
+          "name": "utils.py"
+        },
+        {
+          "bytes": 11225,
+          "checksum": "md5:2d7a1625ec20214f0b4d72b010957d65",
+          "name": "MISAR-seq.R"
+        },
+        {
+          "bytes": 48966670,
+          "checksum": "md5:85068d59bfecc7ff19394594bb94b071",
+          "name": "E15_5-S1_raw_feature_bc_matrix.h5"
+        },
+        {
+          "bytes": 481278,
+          "checksum": "md5:e04fe95f3b16d430826571d54e0ed448",
+          "name": "E15_5-S1_per_barcode_metrics.csv"
+        },
+        {
+          "bytes": 840891,
+          "checksum": "md5:14cc09ca90e091049e8041d14c104bfb",
+          "name": "E15_5-S1-HE.jpg"
+        },
+        {
+          "bytes": 9059,
+          "checksum": "md5:fc35e7849a131da2ce7cde9efd0aef69",
+          "name": "737K-arc-v1.txt.gz"
+        },
+        {
+          "bytes": 668384,
+          "checksum": "md5:405e8c73850f4818e19838a0ffad0fef",
+          "name": "atac_fragments.tsv.gz.tbi"
+        },
+        {
+          "bytes": 25578,
+          "checksum": "md5:8cb59dbc3f674e20a95b7ad2735392a1",
+          "name": "function.R"
+        },
+        {
+          "bytes": 727802133,
+          "checksum": "md5:22eaa631b7ba8be83d0ec70b25e9a829",
+          "name": "atac_fragments.tsv.gz"
+        },
+        {
+          "bytes": 1437,
+          "checksum": "md5:0a9ccb50e359d43ae633b5db1b4909d7",
+          "name": "Grid_filter.py"
+        },
+        {
+          "bytes": 64129,
+          "checksum": "md5:9404a58a3252a181b0de6ab613ce990b",
+          "name": "MISAR-seq_barcode.csv"
+        },
+        {
+          "bytes": 64115,
+          "checksum": "md5:73dc8a0fad504cc883ae394669fb8fe0",
+          "name": "MISAR-seq_barcode_filter.csv"
+        },
+        {
+          "bytes": 1274606,
+          "checksum": "md5:f9125254712780aea137e3f747edd7c0",
+          "name": "MISAR-seq.png"
+        },
+        {
+          "bytes": 2393,
+          "checksum": "md5:b341d8aa15b52dbe419cdab3b9acf828",
+          "name": "MISAR-seq.sh"
+        },
+        {
+          "bytes": 11083,
+          "checksum": "md5:ab7cc4c996b29ab7a4a60838933141f8",
+          "name": "position_E15_5-S1.txt"
+        },
+        {
+          "bytes": 875,
+          "checksum": "md5:985f0045f3f09f06e414ac7e4b7c9dad",
+          "name": "MISAR_Split_BC_RNA.py"
+        }
+      ],
+      "metadata_snapshot": "/root/autodl-fs/night8a_external_data_20260820/zenodo7480069.json",
+      "metadata_snapshot_sha256": "ca79f42855fabe08440ec550692e3a36660690a8f6877e3b2946ce1458443515",
+      "record_id": "7480069",
+      "record_url": "https://zenodo.org/records/7480069",
+      "title": "MISAR-seq"
+    }
+  },
+  "secondary": {
+    "GSE198353_SPOTS_spleen": {
+      "accession": "GSE198353",
+      "downloaded_in_night8a": false,
+      "metadata_snapshot": "/root/autodl-fs/night8a_external_data_20260820/GSE198353_brief.txt",
+      "metadata_snapshot_sha256": "44094058aa1d9fd4607111536029fc8e4819148fef27814f9a15f90945a6e7c3",
+      "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198353",
+      "role": "label-free replication candidate; metadata-only preflight",
+      "supplementary_files": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_mmtv_pymt_ADT.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_mmtv_pymt_GEX_filtered_feature_bc_matrix.h5",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_mmtv_pymt_spatial.tar.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_spleen_rep_1_filtered_feature_bc_matrix.h5",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_spleen_rep_2_filtered_feature_bc_matrix.h5",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_spleen_replicate_1_spatial.tar.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198353/suppl/GSE198353_spleen_replicate_2_spatial.tar.gz"
+      ],
+      "title": "Integration of whole transcriptome spatial profiling with protein markers"
+    },
+    "GSE205055_mouse_embryo_E13": {
+      "accession": "GSE205055",
+      "downloaded_in_night8a": false,
+      "metadata_snapshot": "/root/autodl-fs/night8a_external_data_20260820/GSE205055_brief.txt",
+      "metadata_snapshot_sha256": "a5838747bef20df60b9de86005a31f62c469e9a307fdcbafb3f2bfad184c057b",
+      "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055",
+      "supplementary_files": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE205nnn/GSE205055/suppl/GSE205055_RAW.tar"
+      ],
+      "title": "Spatial epigenome-transcriptome co-profiling of mammalian tissues"
+    },
+    "Zenodo_12654113_tonsil_sections_2_3": {
+      "downloaded_in_night8a": false,
+      "files": [
+        {
+          "bytes": 1680922883,
+          "checksum": "md5:b2af89db7c9c9117b23df3ab41fe7738",
+          "name": "data_integration.zip"
+        },
+        {
+          "bytes": 486654827,
+          "checksum": "md5:9435a1d1c5b38953aa600118acceb3de",
+          "name": "data_imputation.zip"
+        }
+      ],
+      "metadata_snapshot": "/root/autodl-fs/night8a_external_data_20260820/zenodo12654113.json",
+      "metadata_snapshot_sha256": "5a8e0c55cd289107bc019b1d8433a0a78d458efa538244c31b74275ab67f877f",
+      "record_id": "12654113",
+      "record_url": "https://zenodo.org/records/12654113",
+      "role": "same-tissue section replication; metadata-only preflight",
+      "title": "Datasets used in SpaMosaic's experiments"
+    }
+  },
+  "status": "PASS_PRIMARY_EXTERNAL_DATASET_LOCKED_LABEL_SEALED",
+  "windows_download_limit_bytes": 104857600,
+  "windows_new_download_bytes": 49105997
+}

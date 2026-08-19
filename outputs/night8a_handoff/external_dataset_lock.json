@@ -1,0 +1,60 @@
+{
+  "annotation_provenance": {
+    "classification": "manual anatomical regions with atlas-guided interpretation; not treated as a pristine expert gold standard",
+    "night8a_use": "sealed; no values or distribution read",
+    "night8b_requirement": "re-audit the exact annotation file and provenance before the one-time evaluation window"
+  },
+  "coordinates": {
+    "available": true,
+    "grid_axis_fields": [
+      "array_col",
+      "array_row"
+    ]
+  },
+  "cross_reference": "GSE213264 / SRP491963 raw reads",
+  "dataset_id": "MISAR_E15_5_S1",
+  "family": "RNA_EPIGENOME",
+  "features": {
+    "ATAC_peaks": 141420,
+    "RNA": 32285
+  },
+  "files": [
+    {
+      "bytes": 48966670,
+      "name": "E15_5-S1_raw_feature_bc_matrix.h5",
+      "official_checksum": "md5:85068d59bfecc7ff19394594bb94b071",
+      "path": "/root/autodl-fs/night8a_external_data_20260820/E15_5-S1_raw_feature_bc_matrix.h5",
+      "sha256": "4db64464b4ffdd36a362bcf4a2687ccefa28c96c22571ac727d3bb49fa71dfd4"
+    },
+    {
+      "bytes": 11083,
+      "name": "position_E15_5-S1.txt",
+      "official_checksum": "md5:ab7cc4c996b29ab7a4a60838933141f8",
+      "path": "/root/autodl-fs/night8a_external_data_20260820/position_E15_5-S1.txt",
+      "sha256": "4659dfebc7be524036931ac5d57990a1ef0bcab2a733f4619b2d4dc1951ea030"
+    },
+    {
+      "bytes": 64115,
+      "name": "MISAR-seq_barcode_filter.csv",
+      "official_checksum": "md5:73dc8a0fad504cc883ae394669fb8fe0",
+      "path": "/root/autodl-fs/night8a_external_data_20260820/MISAR-seq_barcode_filter.csv",
+      "sha256": "db150f59c6a45454d8d91e9079f3d6659c44fa074ef870b2f3861b2a34feb771"
+    },
+    {
+      "bytes": 64129,
+      "name": "MISAR-seq_barcode.csv",
+      "official_checksum": "md5:9404a58a3252a181b0de6ab613ce990b",
+      "path": "/root/autodl-fs/night8a_external_data_20260820/MISAR-seq_barcode.csv",
+      "sha256": "e7eb1d788098d745c8e3822f9432f1e0a4a3bc5fb291029b6dcc96dfff5bf623"
+    }
+  ],
+  "formal_benchmark_run_in_night8a": false,
+  "labels_sealed": true,
+  "modalities_same_spot_aligned": true,
+  "official_processed_release": "Zenodo 7480069",
+  "primary_accession": "OEP003285",
+  "section": "S1",
+  "spots": 1949,
+  "stage": "E15.5",
+  "status": "LOCKED_FOR_FUTURE_NIGHT8B_CONFIRMATION"
+}

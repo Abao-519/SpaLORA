@@ -1,0 +1,17 @@
+{
+  "P22_B00_max_abs_metric_error": 4.440892098500626e-16,
+  "R3_started": false,
+  "balanced_material_winners": [],
+  "detected_at": "DEV_WINDOW_1 historical parity hard gate",
+  "external_benchmark_run": false,
+  "external_dataset_locked": "MISAR_E15_5_S1",
+  "frontier_winners": [],
+  "post_detection_scientific_training": 0,
+  "post_detection_transforms": 0,
+  "protein_B00_max_abs_metric_error": 0.0090879431050157,
+  "reason": "RNA_PROTEIN B00 rebuilt an approximate affinity instead of reusing the SHA-locked C00 G04/H05 affinity and partition",
+  "repair_used_for_scientific_results": false,
+  "scientific_conclusion_allowed": false,
+  "status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "unified_winner": null
+}

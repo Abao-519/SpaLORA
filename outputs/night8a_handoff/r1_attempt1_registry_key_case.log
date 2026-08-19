@@ -1,0 +1,13 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "scripts/night8a_stage.py", line 321, in <module>
+    main()
+  File "scripts/night8a_stage.py", line 317, in main
+    run_stage(ap.parse_args().stage)
+  File "scripts/night8a_stage.py", line 266, in run_stage
+    registered = configs(stage, registry); chosen = selected_units(stage, units, registry)
+  File "scripts/night8a_stage.py", line 88, in selected_units
+    return [u for u in units if u["seed"] in set(map(int, seeds[u["dataset"]]))]
+  File "scripts/night8a_stage.py", line 88, in <listcomp>
+    return [u for u in units if u["seed"] in set(map(int, seeds[u["dataset"]]))]
+KeyError: 'a1'

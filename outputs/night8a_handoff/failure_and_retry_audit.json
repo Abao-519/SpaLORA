@@ -1,0 +1,30 @@
+{
+  "fallback_count": 0,
+  "formal_transform_failures": [
+    {
+      "config_id": "B03_RR10_PROTO",
+      "dataset": "p22",
+      "family": "RNA_EPIGENOME",
+      "model_file_sha256": "e576fe4ebb82d16ab98b326d3c460dc5f90a58155df1e89db82ae85cdcfb0646",
+      "model_tensor_state_sha256": "fccb3b6819a27a5dfe1779cf23ceda937336aecaf7f97413e574bacdb6e0cc58",
+      "raw_root": "/root/autodl-fs/night8a_raw_runs_20260820/R2/B03_RR10_PROTO/u021/attempt_001",
+      "seed": 1,
+      "stage": "R2",
+      "status": "SUCCESS_PRE_LABEL",
+      "training_manifest_sha256": "76bb4c12e7ceda5e0c00c2a3dc1e57e62bfe388ae59dbea08a746bc2b6e06ad3",
+      "transform_manifest_sha256": null,
+      "transform_status": "SCIENTIFIC_NUMERICAL_FAILURE_NO_RETRY",
+      "unit_id": "u021"
+    }
+  ],
+  "preserved_infrastructure_attempts": [
+    "p0_attempt1_historical_subset_misinterpretation.log",
+    "p0_attempt2_formula_namespace_mismatch.log",
+    "p0_attempt3_rscript_path.log",
+    "p0_attempt4_reference_dimension_contract.log",
+    "r1_attempt1_registry_key_case.log"
+  ],
+  "scientific_retry_count": 0,
+  "semantic_failure": "dev_window1_semantic_invalidation.json",
+  "status": "COMPLETE"
+}

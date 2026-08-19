@@ -1,0 +1,25 @@
+{
+  "files": {
+    "historical_metric_recompute.json": {
+      "sha256": "a46f8cf9a3d6e5abb7e08afc351b7741ac14e6a8128720d0f9b4473a2396c045"
+    },
+    "p0_authority.json": {
+      "sha256": "ad35da4b3658e179142a61856f5c10387cbeca54668563c0821b74dc6aa9ae08"
+    },
+    "p0_config_lock.json": {
+      "sha256": "8596b8e21738d2567737de8d79d57bb9eb47d898129a4782ee6a3b0d779e98e0"
+    },
+    "p0_full_size_p22_smoke.json": {
+      "sha256": "60760381bb82edc24e8ff392d9f50c5c823cce79f5618893b74a5d86fc1082e7"
+    },
+    "p0_semantic_contract.json": {
+      "sha256": "0246e73e5f2b3ec4adb6e9d536c959e6bc36f14dd7728112146644bc0737777d"
+    }
+  },
+  "formal_scientific_training_at_gate": 0,
+  "formal_transforms_at_gate": 0,
+  "label_access_at_gate": false,
+  "p0_gap": "P0 checked P22 full-size replay but did not assert exact locked C00 protein affinity/partition reuse",
+  "post_label_audit_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "status_at_gate": "PASS"
+}

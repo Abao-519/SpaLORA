@@ -1,30 +1,11 @@
 {
-  "development_windows": [
-    "DEV_WINDOW_1",
-    "DEV_WINDOW_2"
-  ],
-  "label_file_byte_hash_only": {
-    "a1_labels_locked.npz": {
-      "sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c",
-      "size_bytes": 29393
-    },
-    "d1_labels_locked.npz": {
-      "sha256": "74d203671e55a7b249ab8d5de890599c1e6317cde56e45b0d903ad61dee8122f",
-      "size_bytes": 28414
-    },
-    "p22_labels_locked.npz": {
-      "sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4",
-      "size_bytes": 45868
-    },
-    "tonsil_labels_locked.npz": {
-      "sha256": "aa58a69d24d1a265f1bf499fd0af92bcfffab1671eceffef1dfce22fbfd3b288",
-      "size_bytes": 34279
-    }
-  },
-  "label_values_deserialized": false,
-  "label_values_used": false,
-  "original_h5ad_anndata_read_calls": 0,
-  "status": "PASS_PRE_LABEL",
-  "trainer_payloads_checked": 30,
-  "trainer_receives_dataset_identity": false
+  "DEV_WINDOW_2_opened": false,
+  "R1_R2_locked_before_label_access": true,
+  "authorized_DEV_WINDOW_1_opened": true,
+  "external_label_values_opened": false,
+  "labels_used_for_training_checkpoint_family_selector_or_cluster_selection": false,
+  "post_semantic_failure_training": 0,
+  "post_semantic_failure_transform": 0,
+  "status": "PASS_FAIL_CLOSED",
+  "trainer_or_transformer_label_access": false
 }
