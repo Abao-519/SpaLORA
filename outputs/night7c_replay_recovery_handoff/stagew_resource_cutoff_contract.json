@@ -1,0 +1,47 @@
+{
+  "algorithm_unchanged": true,
+  "boundary_amendment_sha256": "98387915dec4d5a1d5a6fb5963889fbcb90e7088dd2385fdc9f4f5557c109653",
+  "continuation_wall_limit_seconds": 43200.0,
+  "fallback": 0,
+  "gpu_backend": false,
+  "label_access": false,
+  "old_unbounded_coordinator": {
+    "code_sha256": "6df51d00967a9e223a88736f1cf941487d6b9bbe41edc4c38166a3f0327278e4",
+    "log_sha256": "4609d9408f94f461ee1a37a7b2c0a948759dde11680d98739acb52c0f0f98399",
+    "nohup_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pid": 68756,
+    "preserved": true,
+    "running": false,
+    "start_ticks": 492636241
+  },
+  "p2": {
+    "canonical_exact": true,
+    "formal_backend": "serial_reference",
+    "gpu_zero_during_cpu_transform_allowed": true,
+    "label_access": false,
+    "parallel_backend_accepted": false,
+    "parallel_seconds": 173.02962720394135,
+    "parity_cells": 4,
+    "schema_version": 1,
+    "serial_seconds": 203.30580483190715,
+    "speedup": 1.1749768413491453,
+    "status": "PASS"
+  },
+  "p2_report_sha256": "e840b2418bd5944cb1537c95fff54db6a98f79054051476d1b29b1194f0c733d",
+  "resource_amendment_sha256": "060858d84e57947de870e4fe92a5e04ce95954035ff4c6fec4f2d0f708db7536",
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "PASS_BY_RESOURCE_CUTOFF_AMENDMENT",
+  "transform_function_source_sha256": "2108c9971c0f33bd91ddd8cc1f3b88d956f396e0ccf4ab419ebe88ebd588cc4c",
+  "transform_module": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/scripts/night7c_replay_recovery_stage_w.py",
+  "transform_module_sha256": "34d0e8c78e03d12630df689aca6c6e3c1f6df585ed7f876599229a51853dff77",
+  "unit_wall_limit_seconds": 3600.0,
+  "w00_wall_limit_seconds": 57600.0,
+  "worker_call_chain": "resource_bounded_worker -> exact imported transform_cell(training, unit)",
+  "worker_environment": {
+    "MKL_NUM_THREADS": "8",
+    "OMP_NUM_THREADS": "8",
+    "OPENBLAS_NUM_THREADS": "8"
+  },
+  "workers": 4
+}

@@ -1,0 +1,34 @@
+{
+  "algorithm_unchanged": true,
+  "boundary_amendment_sha256": "98387915dec4d5a1d5a6fb5963889fbcb90e7088dd2385fdc9f4f5557c109653",
+  "gpu_backend": false,
+  "label_access": false,
+  "old_amendment_sha256": "fb0bc530fb7d12d9f57907498510e7b32a73c8cd89600ec4bcbdd49bbd990d31",
+  "p2": {
+    "canonical_exact": true,
+    "formal_backend": "serial_reference",
+    "gpu_zero_during_cpu_transform_allowed": true,
+    "label_access": false,
+    "parallel_backend_accepted": false,
+    "parallel_seconds": 173.02962720394135,
+    "parity_cells": 4,
+    "schema_version": 1,
+    "serial_seconds": 203.30580483190715,
+    "speedup": 1.1749768413491453,
+    "status": "PASS"
+  },
+  "p2_report": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/outputs/night7c_replay_recovery_handoff/p2_runtime_contract.json",
+  "p2_report_sha256": "e840b2418bd5944cb1537c95fff54db6a98f79054051476d1b29b1194f0c733d",
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "PASS_BY_AUTHORIZED_BOUNDARY_PARALLEL_AMENDMENT",
+  "transform_function_source_sha256": "2108c9971c0f33bd91ddd8cc1f3b88d956f396e0ccf4ab419ebe88ebd588cc4c",
+  "transform_module": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/scripts/night7c_replay_recovery_stage_w.py",
+  "transform_module_sha256": "34d0e8c78e03d12630df689aca6c6e3c1f6df585ed7f876599229a51853dff77",
+  "worker_environment": {
+    "MKL_NUM_THREADS": "8",
+    "OMP_NUM_THREADS": "8",
+    "OPENBLAS_NUM_THREADS": "8"
+  },
+  "workers": 4
+}

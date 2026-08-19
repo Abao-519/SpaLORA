@@ -1,0 +1,395 @@
+{
+  "all_cells": [
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "RESOURCE_CENSORED_USER_STOP_AFTER_EXTREME_LONGTAIL",
+      "registry_index": 0,
+      "unit_id": "u000"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 1,
+      "unit_id": "u001"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 2,
+      "unit_id": "u005"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 3,
+      "unit_id": "u006"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 4,
+      "unit_id": "u010"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 5,
+      "unit_id": "u011"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 6,
+      "unit_id": "u020"
+    },
+    {
+      "candidate_id": "W00_FILTER75",
+      "outcome_status": "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+      "registry_index": 7,
+      "unit_id": "u021"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 8,
+      "unit_id": "u000"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 9,
+      "unit_id": "u001"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 10,
+      "unit_id": "u005"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 11,
+      "unit_id": "u006"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 12,
+      "unit_id": "u010"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 13,
+      "unit_id": "u011"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 14,
+      "unit_id": "u020"
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "outcome_status": "success",
+      "registry_index": 15,
+      "unit_id": "u021"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 16,
+      "unit_id": "u000"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 17,
+      "unit_id": "u001"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 18,
+      "unit_id": "u005"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 19,
+      "unit_id": "u006"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 20,
+      "unit_id": "u010"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 21,
+      "unit_id": "u011"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 22,
+      "unit_id": "u020"
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "outcome_status": "success",
+      "registry_index": 23,
+      "unit_id": "u021"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 24,
+      "unit_id": "u000"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 25,
+      "unit_id": "u001"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 26,
+      "unit_id": "u005"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 27,
+      "unit_id": "u006"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 28,
+      "unit_id": "u010"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 29,
+      "unit_id": "u011"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 30,
+      "unit_id": "u020"
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "outcome_status": "success",
+      "registry_index": 31,
+      "unit_id": "u021"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 32,
+      "unit_id": "u000"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 33,
+      "unit_id": "u001"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 34,
+      "unit_id": "u005"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 35,
+      "unit_id": "u006"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 36,
+      "unit_id": "u010"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 37,
+      "unit_id": "u011"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 38,
+      "unit_id": "u020"
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "outcome_status": "success",
+      "registry_index": 39,
+      "unit_id": "u021"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 40,
+      "unit_id": "u000"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 41,
+      "unit_id": "u001"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 42,
+      "unit_id": "u005"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 43,
+      "unit_id": "u006"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 44,
+      "unit_id": "u010"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 45,
+      "unit_id": "u011"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 46,
+      "unit_id": "u020"
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "outcome_status": "success",
+      "registry_index": 47,
+      "unit_id": "u021"
+    }
+  ],
+  "candidate_eligibility": [
+    {
+      "candidate_id": "W00_FILTER75",
+      "status": "INELIGIBLE_RESOURCE_CENSORED",
+      "statuses": [
+        "RESOURCE_CENSORED_USER_STOP_AFTER_EXTREME_LONGTAIL",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER",
+        "SKIPPED_CANDIDATE_RESOURCE_CIRCUIT_BREAKER"
+      ]
+    },
+    {
+      "candidate_id": "W01_QUALITY_SOFT",
+      "status": "ELIGIBLE_COMPLETE_SUCCESS",
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    },
+    {
+      "candidate_id": "W02_CONFLICT_RANK",
+      "status": "ELIGIBLE_COMPLETE_SUCCESS",
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    },
+    {
+      "candidate_id": "W03_QUALITY_CONFLICT",
+      "status": "ELIGIBLE_COMPLETE_SUCCESS",
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    },
+    {
+      "candidate_id": "W04_QUALITY_SHARED",
+      "status": "ELIGIBLE_COMPLETE_SUCCESS",
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    },
+    {
+      "candidate_id": "W05_QUALITY_CONFLICT_SHARED",
+      "status": "ELIGIBLE_COMPLETE_SUCCESS",
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ]
+    }
+  ],
+  "continuation_wall_limit_seconds": 43200.0,
+  "eligible_weighted_mnn_candidates": [
+    "W01_QUALITY_SOFT",
+    "W02_CONFLICT_RANK",
+    "W03_QUALITY_CONFLICT",
+    "W04_QUALITY_SHARED",
+    "W05_QUALITY_CONFLICT_SHARED"
+  ],
+  "fallback": 0,
+  "label_access": false,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "LOCKED_PRE_LABEL",
+  "triage_report_sha256": "6f4e17a1d82ac67501bce2488ec3312a178fd4d5e649504df37461f3648f1fad",
+  "unit_wall_limit_seconds": 3600.0,
+  "w00_mode": "user_immediate_resource_stop_after_extreme_longtail",
+  "workers": 4
+}

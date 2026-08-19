@@ -1,0 +1,117 @@
+{
+  "environment": {
+    "cpu_count": 96,
+    "cuda_smoke": {
+      "loss": "cuda:0",
+      "model": "cuda:0",
+      "peak_gpu_mib": 16.25390625,
+      "views": "cuda:0"
+    },
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "igraph": "0.10.8",
+    "python": "3.8.10",
+    "r_mclust": "6.1.1",
+    "ram_gib": 503.5123176574707,
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118",
+    "torch_cuda": "11.8"
+  },
+  "firewall_static": {
+    "base_trainer_imports_anndata": false,
+    "identity_branch_hits": [],
+    "label_access": false,
+    "prelock_original_h5ad_allowed": false
+  },
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "git": {
+    "branch": "revision/q2-night7c-replay-portability-recovery-20260818",
+    "head": "e34567db5ace4f0fcdd2526cfb94a84fc9148020",
+    "old_tag_peel": "e34567db5ace4f0fcdd2526cfb94a84fc9148020"
+  },
+  "invalid_partial_p1_reused": false,
+  "label_access": false,
+  "new_raw_root": "/root/autodl-fs/night7c_replay_recovery_20260818",
+  "night7b_compact": {
+    "expected": 67,
+    "root_sha256": "eb52cc09e58722fb0a0f7c083d4099b74e526afbf71f1af750244194f3136eb0",
+    "verified": 67
+  },
+  "night7b_source": {
+    "example_shapes": {
+      "SpaLORA_fused": [
+        3484,
+        64
+      ],
+      "alpha_cross": [
+        3484,
+        2
+      ],
+      "alpha_omics1": [
+        3484,
+        2
+      ],
+      "alpha_omics2": [
+        3484,
+        2
+      ],
+      "emb_latent_omics1": [
+        3484,
+        64
+      ],
+      "emb_latent_omics2": [
+        3484,
+        64
+      ]
+    },
+    "six_view_archives": 60,
+    "units": 30,
+    "verified_artifact_checks": 270
+  },
+  "night7b_training_and_specialists": {
+    "H01_H02_exact_pairs": 60,
+    "checkpoint_reload_pass": 124,
+    "gpu_model_exact": 124,
+    "peak_gpu_mib_max": 2556.228515625,
+    "peak_gpu_mib_min": 120.7890625,
+    "positive_peak_gpu": 124,
+    "specialist_transforms": 120,
+    "training_artifact_file_checks": 992,
+    "training_cells": 124
+  },
+  "old_invalid_run": {
+    "budget_sha256": "8e5beb7e27323c201fa9f33cc7c439da7cea4c3d472cf7105807152adac439a0",
+    "formal_training": 0,
+    "formal_transforms": 0,
+    "label_access": false,
+    "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+  },
+  "recovery_authority": {
+    "files": [
+      {
+        "path": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/protocols/night7c_replay_recovery/SpaLORA_Night7C_Replay_Portability_Recovery_Planning_Index_2026-08-18.json",
+        "sha256": "a321232ebb2246ab6767385616aabcbb19a191c537f32a4a985e0eccd241e706",
+        "size_bytes": 2053
+      },
+      {
+        "path": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/protocols/night7c_replay_recovery/SpaLORA_Night7C_Replay_Portability_Independent_Audit_2026-08-18.md",
+        "sha256": "beda9ee591cab487c3cca46d795cf4a368a2a10103a77763ee3a571e7410613f",
+        "size_bytes": 6123
+      },
+      {
+        "path": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/protocols/night7c_replay_recovery/SpaLORA_Night7C_Replay_Portability_Recovery_Registry_2026-08-18.json",
+        "sha256": "f10f7d1301b00aa1314d98c2d22de2a463a26135ad5d96dce31f952f2437c004",
+        "size_bytes": 5630
+      },
+      {
+        "path": "/autodl-fs/data/night7c_replay_recovery_20260818/repo/protocols/night7c_replay_recovery/SpaLORA_Night7C_Replay_Portability_Recovery_Taskbook_2026-08-18.md",
+        "sha256": "7cb371738d82ec2f30af4c40f84e4e250a151b879657f5d46b7d8d3426171955",
+        "size_bytes": 7767
+      }
+    ],
+    "registry_protocol_id": "NIGHT7C_REPLAY_PORTABILITY_RECOVERY_20260818"
+  },
+  "schema_version": 1,
+  "status": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "current_hardware_replay_used_for_routing": false,
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "gates": {
+    "T02_T03_alpha_absolute_delta_max": 0.0017958879470825195,
+    "T04_hard_decision_mismatch_count": 0,
+    "all_30_historical_order_repeats_finite": true,
+    "fixed_index_or_formula_mismatch_count": 0,
+    "historical_vs_current_absolute_error_max": 0.00017958879470825195,
+    "historical_vs_current_relative_error_max": 0.0007245646918169974,
+    "pre_forward_rng_repeat_mismatch_count": 0,
+    "reconstructed_initial_state_sha_repeat_mismatch_count": 0,
+    "within_current_hardware_repeat_absolute_error_max": 0.0
+  },
+  "historical_authority_manifest_sha256": "181d6bb2c8195143a7f21bc3bbe2f297efda306b379b738841cf053ac17a75fc",
+  "independent_replays": 60,
+  "label_access": false,
+  "old_order_shape_diagnostics": 4,
+  "replay_summary_sha256": "0ee3f9a1146bd6e3b583fd7ec84b510c2487ae0d7f963904f73bc9032f92fe86",
+  "routing_m_initial_source": "night7b_sha_locked_loss_curve_first_row_MNN",
+  "schema_version": 1,
+  "status": "PASS_BY_LOCKED_HISTORICAL_FEATURE_AUTHORITY",
+  "units": 30
+}

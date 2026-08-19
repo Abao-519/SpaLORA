@@ -1,0 +1,26 @@
+{
+  "active_worker_environment_samples": [
+    {
+      "MKL_NUM_THREADS": "8",
+      "OMP_NUM_THREADS": "8",
+      "OPENBLAS_NUM_THREADS": "8",
+      "candidate_id": "W01_QUALITY_SOFT",
+      "pid": 107566,
+      "unit_id": "u020"
+    }
+  ],
+  "algorithm_changed": false,
+  "candidate_order_changed": false,
+  "captured_at_utc": "2026-08-19T15:44:04.887149+00:00",
+  "formal_workers_already_started_at_decision": 8,
+  "label_access": false,
+  "logical_cpu_count": 96,
+  "requested_aggregate_thread_ceiling": 32,
+  "requested_threads_per_worker": 8,
+  "rerun": false,
+  "resource_note": "Potential oversubscription relative to 12 logical CPUs; retained because formal workers had already started and full-queue environment consistency/no-rerun take priority.",
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "RECORDED_NO_MID_QUEUE_CHANGE",
+  "workers_max": 4
+}

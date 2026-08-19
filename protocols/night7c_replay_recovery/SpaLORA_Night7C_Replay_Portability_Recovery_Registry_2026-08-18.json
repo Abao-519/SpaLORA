@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "protocol_id": "NIGHT7C_REPLAY_PORTABILITY_RECOVERY_20260818",
+  "date": "2026-08-18",
+  "authority_type": "planner_preregistered_protocol_recovery_before_any_scientific_output",
+  "parent_commit": "e34567db5ace4f0fcdd2526cfb94a84fc9148020",
+  "parent_tag": "night7c-final-20260818",
+  "old_terminal_status_preserved": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "revision_scope": "Only the source of authority and replay audit for m_initial are revised. All Night-7C scientific candidates, thresholds, seeds, budgets, selection order, label firewall and evaluation/protection gates remain unchanged.",
+  "authority_inputs": [
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7c_handoff_20260818/official_compact/compact_delivery_index.json",
+      "sha256": "1797d4f1583d3dea0fedca93aa53ad1ade9417d1b08f0bc79fb03729c472e734"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7c_handoff_20260818/official_compact/outputs/night7c_handoff/night7c_report.md",
+      "sha256": "af7ae61a747e865bace5fce70da72085280c7147ddaf12c9df82362a4c77a840"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7c_handoff_20260818/official_compact/outputs/night7c_handoff/p1_semantic_contract.json",
+      "sha256": "7250d6bddef51a1075f285629d5ac60017956bd6ddd93a2cfa7ad4b173f40d04"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/SpaLORA_Night7C_Planning_Delivery_Index_2026-08-18.json",
+      "sha256": "a0aad701b405f5d60084c4d0d459cdc6d6b381105860227e25bdb4e73653a2b6"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/SpaLORA_Night7C_Conflict_Gated_Affinity_Registry_2026-08-18.json",
+      "sha256": "1a13c62e11daf1e8357c3755368d13c115c1a1e679d9a8500741610d2f985b20"
+    }
+  ],
+  "execution": {
+    "manual_dispatch_only": true,
+    "autodl_mode": "GPU/card mode",
+    "autodl_api_allowed": false,
+    "automatic_other_codex_invocation_allowed": false,
+    "new_remote_root": "/root/autodl-fs/night7c_replay_recovery_20260818",
+    "reuse_invalid_partial_p1_features": false,
+    "formal_training_before_recovery_gate": 0,
+    "formal_transform_before_recovery_gate": 0,
+    "label_access_before_total_lock": 0
+  },
+  "m_initial_authority": {
+    "primary_value": "For each R02 unit, the first-row MNN value in the original Night-7B loss_curve.csv whose file SHA is registered in the immutable Night-7B training manifest.",
+    "current_gpu_recomputed_value_used_for_routing": false,
+    "night7c_invalid_partial_value_used": false,
+    "reason": "The historical value is the actual label-free first-forward observation and was locked before Night-7C existed; cross-device replay is not guaranteed bitwise identical."
+  },
+  "replay_diagnostic": {
+    "units": 30,
+    "historical_order_fresh_process_repeats_per_unit": 2,
+    "night7c_old_order_probe_per_shape": 1,
+    "dataset_shapes": ["a1", "tonsil", "d1", "p22"],
+    "must_not_load_or_forward_final_checkpoint_before_initial_forward": true,
+    "must_reproduce_historical_allocation_and_construction_order": true,
+    "must_record": [
+      "GPU model, driver, CUDA, cuDNN, cuBLAS and PyTorch",
+      "TF32 and deterministic flags including warn_only mode",
+      "input/config/fixed-positive/fixed-negative SHA",
+      "reconstructed initial state tensor SHA",
+      "pre-forward CPU and CUDA RNG SHA",
+      "historical and recomputed m_initial",
+      "absolute and relative error",
+      "T02/T03 continuous alpha deltas and T04 hard-decision parity",
+      "within-current-hardware repeat parity"
+    ]
+  },
+  "recovery_gate": {
+    "all_authority_and_artifact_sha_exact": true,
+    "all_30_historical_order_repeats_finite": true,
+    "within_current_hardware_repeat_absolute_error_max": 1e-7,
+    "historical_vs_current_absolute_error_max": 0.001,
+    "historical_vs_current_relative_error_max": 0.01,
+    "T04_hard_decision_mismatch_count": 0,
+    "T02_T03_alpha_absolute_delta_max": 0.01,
+    "reconstructed_initial_state_sha_repeat_mismatch_count": 0,
+    "fixed_index_or_formula_mismatch_count": 0,
+    "pass_status": "PASS_BY_LOCKED_HISTORICAL_FEATURE_AUTHORITY",
+    "fail_status": "BLOCKED_REPLAY_PORTABILITY_RECOVERY"
+  },
+  "scientific_protocol_after_pass": {
+    "base_registry": "SpaLORA_Night7C_Conflict_Gated_Affinity_Registry_2026-08-18.json",
+    "base_taskbook": "SpaLORA_Night7C_Conflict_Gated_Routing_and_Runtime_Acceleration_Taskbook_2026-08-18.md",
+    "routing_new_transforms": 240,
+    "weighted_mnn_pilot_training": 48,
+    "weighted_mnn_pilot_transforms": 48,
+    "scientific_retry": 0,
+    "total_training_attempts_max": 56,
+    "candidate_formula_changes": 0,
+    "threshold_changes": 0,
+    "seed_changes": 0,
+    "evaluation_gate_changes": 0
+  },
+  "git": {
+    "branch": "revision/q2-night7c-replay-portability-recovery-20260818",
+    "protection_tag": "baseline/pre-night7c-replay-portability-recovery-20260818",
+    "final_tag": "night7c-replay-recovery-final-20260818",
+    "force_push_allowed": false,
+    "move_existing_tag_allowed": false,
+    "final_tag_create_once_after_all_tracked_delivery": true
+  },
+  "terminal_statuses": [
+    "NIGHT7C_RECOVERY_STRONG_UNIFIED_CONFLICT_ROUTER_LOCKED",
+    "NIGHT7C_RECOVERY_SAFE_P22_CONFLICT_ROUTER_LOCKED",
+    "NIGHT7C_RECOVERY_WEIGHTED_MNN_CANDIDATES_READY_FOR_FULL_SEEDS",
+    "NIGHT7C_RECOVERY_SAFE_ROUTER_AND_WEIGHTED_MNN_CANDIDATES_READY",
+    "NIGHT7C_RECOVERY_NO_SAFE_ROUTER_OR_WEIGHTED_MNN_CANDIDATE",
+    "BLOCKED_REPLAY_PORTABILITY_RECOVERY",
+    "BLOCKED_PREFLIGHT",
+    "IMPLEMENTATION_SEMANTICS_INVALID"
+  ]
+}
