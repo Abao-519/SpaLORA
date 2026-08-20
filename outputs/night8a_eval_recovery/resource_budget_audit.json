@@ -1,0 +1,15 @@
+{
+  "evaluation_timeout_seconds": 3600,
+  "evaluator_workers": 1,
+  "external_benchmark": 0,
+  "gpu_compute_used": false,
+  "label_window_wall_seconds": 49.85267233848572,
+  "schema_version": "night8a-eval-recovery-resource-v1",
+  "server_mode": "card mode for CPU/memory only",
+  "status": "PASS",
+  "thread_limit": 3,
+  "threads_per_worker": 3,
+  "training": 0,
+  "transform": 0,
+  "worker_limit": 3
+}

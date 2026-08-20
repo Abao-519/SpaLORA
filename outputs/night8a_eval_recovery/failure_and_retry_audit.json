@@ -1,0 +1,27 @@
+{
+  "fixed_scientific_failure": "B03/P22/seed1 retained; no rerun",
+  "infrastructure_attempts": [
+    {
+      "attempt": 1,
+      "label_access": false,
+      "phase": "P0 implementation",
+      "reason": "auditor initially compared R02 canonical embedding hash as file hash"
+    },
+    {
+      "attempt": 2,
+      "label_access": false,
+      "phase": "P0 implementation",
+      "reason": "auditor initially looked only in Night-7B R1 for seed2, which is locked in R2"
+    },
+    {
+      "attempt": 3,
+      "phase": "P0",
+      "status": "PASS"
+    }
+  ],
+  "schema_version": "night8a-eval-recovery-failures-v1",
+  "scientific_retry": 0,
+  "status": "PASS_RETAINED",
+  "training_retry": 0,
+  "transform_retry": 0
+}

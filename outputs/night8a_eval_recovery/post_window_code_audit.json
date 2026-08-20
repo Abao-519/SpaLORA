@@ -1,0 +1,17 @@
+{
+  "configuration_threshold_seed_or_rule_changes_after_label_window": false,
+  "evaluator_freeze_commit": "6946a50e2b023325ac11fd23c39647e297a7652f",
+  "post_window_recluster": 0,
+  "post_window_scientific_training": 0,
+  "post_window_scripts": [
+    "mechanical summary/shortlist implementation of the pre-locked rules",
+    "read-only after-manifest rehash",
+    "delivery packaging"
+  ],
+  "post_window_transform": 0,
+  "primary_and_independent_evaluator_frozen_and_pushed_before_label_window": true,
+  "rule_lock_commit": "e0173e57df696679705930efd0455667e26fc6fd",
+  "schema_version": "night8a-eval-recovery-post-window-code-v1",
+  "shortlist_count": 0,
+  "status": "PASS"
+}

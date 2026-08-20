@@ -1,0 +1,241 @@
+{
+  "label_audit": {
+    "a1": {
+      "authorized_role": "night8a_eval_recovery_independent",
+      "file_sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c",
+      "used_for_training_or_transform": false
+    },
+    "d1": {
+      "authorized_role": "night8a_eval_recovery_independent",
+      "file_sha256": "74d203671e55a7b249ab8d5de890599c1e6317cde56e45b0d903ad61dee8122f",
+      "used_for_training_or_transform": false
+    },
+    "p22": {
+      "authorized_role": "night8a_eval_recovery_independent",
+      "file_sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4",
+      "used_for_training_or_transform": false
+    },
+    "tonsil": {
+      "authorized_role": "night8a_eval_recovery_independent",
+      "file_sha256": "aa58a69d24d1a265f1bf499fd0af92bcfffab1671eceffef1dfce22fbfd3b288",
+      "used_for_training_or_transform": false
+    }
+  },
+  "max_abs_error": 1.0547118733938987e-15,
+  "metric_comparisons": 889,
+  "schema_version": "night8a-eval-recovery-independent-v1",
+  "scope": [
+    "ARI contingency-table",
+    "NMI contingency-table",
+    "Q",
+    "neighbor agreement",
+    "Moran I",
+    "Geary C",
+    "boundary disagreement"
+  ],
+  "status": "PASS",
+  "successful_rows": 127,
+  "tolerance": 1e-12,
+  "worst": [
+    {
+      "abs_error": 1.0547118733938987e-15,
+      "config_id": "A07_SMART_TRIPLET",
+      "dataset": "tonsil",
+      "independent": 0.27295981515350687,
+      "metric": "nmi",
+      "primary": 0.2729598151535058,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 7.771561172376096e-16,
+      "config_id": "B06_SP_RR10_PROTO_DGI",
+      "dataset": "tonsil",
+      "independent": 0.27635411839134827,
+      "metric": "nmi",
+      "primary": 0.2763541183913475,
+      "seed": 1,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 7.216449660063518e-16,
+      "config_id": "B02_SP_RR30",
+      "dataset": "tonsil",
+      "independent": 0.2811034821117476,
+      "metric": "nmi",
+      "primary": 0.2811034821117469,
+      "seed": 0,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 6.661338147750939e-16,
+      "config_id": "A02_RR10",
+      "dataset": "tonsil",
+      "independent": 0.276391256667069,
+      "metric": "nmi",
+      "primary": 0.2763912566670683,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 6.661338147750939e-16,
+      "config_id": "B00_FAMILY_REFERENCE",
+      "dataset": "tonsil",
+      "independent": 0.41858951690633633,
+      "metric": "geary_c",
+      "primary": 0.418589516906337,
+      "seed": 1,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 6.661338147750939e-16,
+      "config_id": "B02_SP_RR30",
+      "dataset": "tonsil",
+      "independent": 0.28301485017332245,
+      "metric": "nmi",
+      "primary": 0.2830148501733218,
+      "seed": 2,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 6.661338147750939e-16,
+      "config_id": "B04_SP_RR10_PROTO",
+      "dataset": "tonsil",
+      "independent": 0.2767228142310775,
+      "metric": "nmi",
+      "primary": 0.2767228142310768,
+      "seed": 0,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 6.661338147750939e-16,
+      "config_id": "B05_SP_RR10_PROTO_RNAANCHOR",
+      "dataset": "tonsil",
+      "independent": 0.2767228142310775,
+      "metric": "nmi",
+      "primary": 0.2767228142310768,
+      "seed": 0,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 6.106226635438361e-16,
+      "config_id": "A01_SP",
+      "dataset": "tonsil",
+      "independent": 0.2720739801934277,
+      "metric": "nmi",
+      "primary": 0.2720739801934271,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 6.106226635438361e-16,
+      "config_id": "B07_SP_RR10_PROTO_TRIPLET",
+      "dataset": "tonsil",
+      "independent": 0.279911085844531,
+      "metric": "nmi",
+      "primary": 0.2799110858445304,
+      "seed": 0,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "A00_FAMILY_REFERENCE",
+      "dataset": "d1",
+      "independent": 0.37711150488672424,
+      "metric": "nmi",
+      "primary": 0.3771115048867248,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "A05_RNA_ANCHOR",
+      "dataset": "d1",
+      "independent": 0.37711150488672424,
+      "metric": "nmi",
+      "primary": 0.3771115048867248,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "A07_SMART_TRIPLET",
+      "dataset": "tonsil",
+      "independent": 0.20972196548276956,
+      "metric": "q",
+      "primary": 0.209721965482769,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "B00_FAMILY_REFERENCE",
+      "dataset": "tonsil",
+      "independent": 0.27013006904676085,
+      "metric": "nmi",
+      "primary": 0.2701300690467603,
+      "seed": 1,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "B00_FAMILY_REFERENCE",
+      "dataset": "d1",
+      "independent": 0.37711150488672424,
+      "metric": "nmi",
+      "primary": 0.3771115048867248,
+      "seed": 0,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "B07_SP_RR10_PROTO_TRIPLET",
+      "dataset": "tonsil",
+      "independent": 0.2761014349979062,
+      "metric": "nmi",
+      "primary": 0.2761014349979056,
+      "seed": 1,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "B07_SP_RR10_PROTO_TRIPLET",
+      "dataset": "tonsil",
+      "independent": 0.28467856414512577,
+      "metric": "nmi",
+      "primary": 0.2846785641451252,
+      "seed": 2,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 5.551115123125783e-16,
+      "config_id": "B07_SP_RR10_PROTO_TRIPLET",
+      "dataset": "d1",
+      "independent": 0.3867956083733756,
+      "metric": "nmi",
+      "primary": 0.3867956083733762,
+      "seed": 2,
+      "stage": "R2"
+    },
+    {
+      "abs_error": 4.996003610813204e-16,
+      "config_id": "A02_RR10",
+      "dataset": "d1",
+      "independent": 0.384040172533259,
+      "metric": "nmi",
+      "primary": 0.3840401725332595,
+      "seed": 0,
+      "stage": "R1"
+    },
+    {
+      "abs_error": 4.996003610813204e-16,
+      "config_id": "A03_RR30",
+      "dataset": "d1",
+      "independent": 0.3835545655923813,
+      "metric": "nmi",
+      "primary": 0.3835545655923818,
+      "seed": 0,
+      "stage": "R1"
+    }
+  ]
+}

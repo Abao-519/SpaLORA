@@ -1,0 +1,21 @@
+{
+  "authorized_roles": [
+    "night8a_eval_recovery_primary",
+    "night8a_eval_recovery_independent"
+  ],
+  "closed": true,
+  "configuration_or_code_changes_after_labels": false,
+  "external_benchmark": 0,
+  "gpu_used": false,
+  "independent_max_abs_error": 1.0547118733938987e-15,
+  "independent_status": "PASS",
+  "opened_after_rule_lock_push": true,
+  "rule_lock_commit": "e0173e57df696679705930efd0455667e26fc6fd",
+  "rule_lock_sha256": "09f9e6bedb70057e29de6f9c1c1a52164560676553a70565a39b0f3776c0d8f7",
+  "schema_version": "night8a-eval-recovery-label-window-v1",
+  "status": "CLOSED_PASS",
+  "training": 0,
+  "transform": 0,
+  "wall_seconds": 49.85267233848572,
+  "window_count": 1
+}
