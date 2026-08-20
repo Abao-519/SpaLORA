@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night9a-efficient-topology-transfer-rnd-20260820",
+  "date": "2026-08-20",
+  "authority_type": "bounded_rna_epigenome_efficiency_and_accuracy_rnd",
+  "objective": "Replace the second full G00 backbone required by R02 with a low-cost topology-transferred expert while preserving the confirmed RNA+ATAC accuracy advantage and meeting the 1.50x runtime gate.",
+  "method_working_name": "ETRF_Efficient_Topology_Transferred_Relational_Fusion",
+  "base": {
+    "commit": "991ba9dcbd7108c2b3b4c9b4b8e233c5f394da5a",
+    "tag": "night8b-cardinality-safe-eval-final-20260820",
+    "planned_branch": "revision/q2-night9a-efficient-topology-transfer-rnd-20260820",
+    "protection_tag": "baseline/pre-night9a-efficient-topology-transfer-rnd-20260820",
+    "final_tag": "night9a-final-20260820",
+    "remote_repo": "/root/autodl-fs/SpaLORA-night9a",
+    "raw_root": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820",
+    "windows_compact_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night9a_handoff_20260820/official_compact"
+  },
+  "authority_files": [
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/night8b_cardinality_safe_eval_report.md",
+      "sha256": "6b4614168ac5bf1b8af487f697d1f4de8ffc483977a86345b3eb91ae1c8f45c7"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/night8b_cardinality_safe_eval_decision.json",
+      "sha256": "de1f68046ddef4becb483d376185c9cddfa048af6a18c10c1778386928860a2c"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/cardinality_safe_resource_audit.json",
+      "sha256": "509aca7857efe3a00bb3af40e863be7d1f1e003e5e96b29cfa093011c2452619"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/cardinality_safe_paired_statistics.json",
+      "sha256": "5f14c82a0f3ba274381a0be2ffb39fdf2646a0cc49530a7eb78d48dbe63214b6"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/cardinality_safe_paired_deltas.csv",
+      "sha256": "71417b4d1d48afc1fc262731b0ecb03e7f5c5eb20df1e217e3dc45872c9334e5"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/external_delivery_index.json",
+      "sha256": "81d5eaaae6f792323e973ed08794193527c0585367604683c5b8a8c07d0d4d4d"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/night7b_final_candidate_lock.json",
+      "sha256": "74d76ca45ca7d9d632bdfdd694bfccbe635318b3cdfaad409ca21100805ddd97"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/protocols/night7b/SpaLORA_Night7B_Adaptive_Relational_Fusion_Registry_2026-08-18.json",
+      "sha256": "e94b5127b217a5541dae0b8e0260e6a1c029482b6f04af3224b0cfff42a2e9c3"
+    }
+  ],
+  "confirmed_teacher": {
+    "id": "F00_FULL_DUAL_BACKBONE_R02",
+    "recipe": "G00_FULL_1600_PLUS_G04_FULL_1600_THEN_RECON_MNN_EQUAL_ADAPTER_160",
+    "misar_mean_delta_ari_vs_u00": 0.013742195598846013,
+    "misar_mean_delta_nmi_vs_u00": 0.02098186475959347,
+    "misar_mean_delta_q_vs_u00": 0.017362030179219744,
+    "misar_q_wins": "10/10",
+    "misar_runtime_ratio": 2.2610218782557188,
+    "misar_peak_gpu_ratio": 1.0022196569598876,
+    "evidence_label": "POST_LOCK_EXTERNAL_EVALUATION_RECOVERY_NOT_PRISTINE_HOLDOUT"
+  },
+  "resource_breakdown_seconds": {
+    "u00_g04_backbone_mean": 27.6034246918745,
+    "u00_head_mean": 0.643304296582937,
+    "u00_end_to_end_mean": 28.2467289884575,
+    "f00_two_backbones_mean": 56.3028871492483,
+    "f00_adapter_mean": 6.97995443828404,
+    "f00_head_mean": 0.583630644530058,
+    "f00_end_to_end_mean": 63.8664722320624,
+    "runtime_1_50x_target": 42.3700934826862,
+    "minimum_mean_saving_required": 21.4963787493762
+  },
+  "scientific_scope": {
+    "family": "RNA_EPIGENOME_ONLY",
+    "development_dataset": "P22",
+    "label_free_teacher_fidelity_dataset": "MISAR_E15_5_S1",
+    "rna_protein_A1_D1_tonsil": "CODE_AND_HASH_REGRESSION_ONLY_NO_SCIENTIFIC_RUN",
+    "misar_raw_Y_read": 0,
+    "misar_third_Y_read_forbidden": true,
+    "candidate_search": true,
+    "sota_claim": false,
+    "third_party_benchmark": 0
+  },
+  "fixed_backbone_and_adapter": {
+    "source_backbone": "G04_SP10_F10_EUC_UNION_C04_SHRINK25",
+    "target_topology": "G00_SP18_F20_CORR_UNION",
+    "source_epochs": 1600,
+    "source_checkpoint_reused_within_seed": true,
+    "target_optimizer": "Adam",
+    "target_learning_rate": 0.0001,
+    "target_weight_decay": 0.0,
+    "target_scheduler": null,
+    "adapter_recipe": "R02_RECON_MNN_EQUAL",
+    "adapter_epochs": 160,
+    "adapter_optimizer": "AdamW",
+    "adapter_learning_rate": 0.001,
+    "adapter_weight_decay": 0.00001,
+    "endpoint": "E1_ADAPTER_C06_MEAN",
+    "head": "DATASET_LOCKED_EIGEN_KMEANS100",
+    "no_best_epoch": true
+  },
+  "candidates": [
+    {
+      "id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+      "family": "weight_transfer",
+      "target_epochs": 0,
+      "definition": "Strict-load the same-seed G04 state into the shape-identical G00 model and run one G00 forward without optimization."
+    },
+    {
+      "id": "E01_WARM_FULL_E40",
+      "family": "weight_transfer",
+      "target_epochs": 40,
+      "definition": "Strict-load same-seed G04 state, then optimize all parameters for exactly 40 fixed G00 epochs."
+    },
+    {
+      "id": "E02_WARM_FULL_E80",
+      "family": "weight_transfer",
+      "target_epochs": 80,
+      "definition": "Strict-load same-seed G04 state, then optimize all parameters for exactly 80 fixed G00 epochs."
+    },
+    {
+      "id": "E03_WARM_FULL_E160",
+      "family": "weight_transfer",
+      "target_epochs": 160,
+      "definition": "Strict-load same-seed G04 state, then optimize all parameters for exactly 160 fixed G00 epochs."
+    },
+    {
+      "id": "E04_WARM_FULL_E320",
+      "family": "weight_transfer",
+      "target_epochs": 320,
+      "definition": "Strict-load same-seed G04 state, then optimize all parameters for exactly 320 fixed G00 epochs."
+    },
+    {
+      "id": "E05_SGC1_RESIDUAL50",
+      "family": "precomputed_topology_projection",
+      "target_epochs": 0,
+      "definition": "For each G04 view H, use row_l2(0.5*H+0.5*P00_view*H) as the virtual G00 view."
+    },
+    {
+      "id": "E06_SGC2_MEAN",
+      "family": "precomputed_topology_projection",
+      "target_epochs": 0,
+      "definition": "For each G04 view H, use row_l2((H+P00_view*H+P00_view^2*H)/3) as the virtual G00 view."
+    },
+    {
+      "id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+      "family": "precomputed_topology_projection",
+      "target_epochs": 0,
+      "definition": "For each G04 view H, use row_l2(H+0.5*(P00_view-P04_view)*H) as the virtual G00 view."
+    },
+    {
+      "id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+      "family": "precomputed_topology_projection",
+      "target_epochs": 0,
+      "definition": "For each G04 view H, use row_l2(H+(P00_view-P04_view)*H) as the virtual G00 view."
+    }
+  ],
+  "projection_operator_contract": {
+    "canonicalization": "float64_CSR_nonnegative_sorted_zero_diagonal_then_row_normalize",
+    "omics1": "P_graph_view=0.5*(adj_spatial_omics1+adj_feature_omics1)",
+    "omics2": "P_graph_view=0.5*(adj_spatial_omics2+adj_feature_omics2)",
+    "fused": "P_graph_view=0.5*(P_omics1+P_omics2)",
+    "post_projection": "row_l2_float32",
+    "no_learned_parameter": true,
+    "same_function_for_all_datasets_and_seeds": true
+  },
+  "stages": {
+    "R1": {
+      "candidate_ids": ["E00_ZERO_SHOT_TOPOLOGY_SWAP", "E01_WARM_FULL_E40", "E02_WARM_FULL_E80", "E03_WARM_FULL_E160", "E04_WARM_FULL_E320", "E05_SGC1_RESIDUAL50", "E06_SGC2_MEAN", "E07_DELTA_TOPOLOGY_RESIDUAL50", "E08_DELTA_TOPOLOGY_RESIDUAL100"],
+      "datasets": ["P22", "MISAR_E15_5_S1"],
+      "seeds": [0, 1, 2],
+      "units": 54,
+      "selection_slots_max": 3
+    },
+    "R2": {
+      "datasets": ["P22", "MISAR_E15_5_S1"],
+      "seeds": [3, 4],
+      "units_max": 12,
+      "final_candidate_slots": 1
+    },
+    "R3": {
+      "datasets": ["P22", "MISAR_E15_5_S1"],
+      "seeds": [5, 6, 7, 8, 9],
+      "units_max": 10,
+      "role": "locked_confirmation_no_candidate_change"
+    }
+  },
+  "scientific_budget": {
+    "formal_chain_units_max": 76,
+    "scientific_retry": 0,
+    "fallback": 0,
+    "global_infrastructure_corrections_max": 4,
+    "total_attempts_max": 80,
+    "unit_wall_minutes_max": 20,
+    "total_wall_hours_max": 6
+  },
+  "r1_r2_selection_gates": {
+    "runtime_ratio_vs_u00_max": 1.5,
+    "peak_gpu_ratio_vs_u00_max": 1.25,
+    "p22_mean_q_delta_vs_full_f00_min": -0.003,
+    "p22_mean_q_delta_vs_u00_min": 0.04,
+    "p22_mean_ari_delta_vs_full_f00_min": -0.005,
+    "p22_mean_nmi_delta_vs_full_f00_min": -0.005,
+    "p22_spatial_protection_vs_full_f00_required": true,
+    "misar_mean_partition_ari_vs_full_f00_min": 0.9,
+    "misar_min_partition_ari_vs_full_f00_min": 0.8,
+    "misar_mean_partition_nmi_vs_full_f00_min": 0.9,
+    "candidate_ranking_after_hard_gates": [
+      "highest_worst_dataset_normalized_preservation",
+      "highest_misar_mean_partition_ari",
+      "highest_p22_mean_q",
+      "lowest_runtime_ratio",
+      "registry_order"
+    ]
+  },
+  "resource_accounting_contract": {
+    "candidate_end_to_end": "same_dataset_seed_full_G04_historical_measured_seconds plus topology_transfer_or_projection_measured_seconds plus R02_adapter_measured_seconds plus endpoint_and_head_measured_seconds",
+    "u00_end_to_end": "same_dataset_seed_full_G04_historical_measured_seconds plus identical_head_measured_seconds",
+    "checkpoint_reuse_does_not_make_backbone_cost_zero": true,
+    "report_actual_incremental_wall_time_separately": true,
+    "incremental_wall_time_may_not_replace_method_level_end_to_end_time": true
+  },
+  "r3_confirmation_gates": {
+    "runtime_ratio_vs_u00_max": 1.5,
+    "peak_gpu_ratio_vs_u00_max": 1.25,
+    "p22_mean_q_delta_vs_full_f00_min": -0.003,
+    "p22_mean_q_delta_vs_u00_min": 0.04,
+    "p22_q_wins_vs_u00_min": 4,
+    "p22_spatial_protection_required": true,
+    "misar_partition_exact_10_of_10_for_metric_inheritance": true,
+    "misar_high_fidelity_mean_ari_min": 0.9,
+    "misar_high_fidelity_min_ari_min": 0.8
+  },
+  "label_windows": {
+    "P22_R1": "only_after_all_54_R1_outputs_and_manifests_lock",
+    "P22_R2": "only_after_all_shortlist_seed3_4_outputs_lock",
+    "P22_R3": "only_after_final_candidate_seed5_9_outputs_lock",
+    "MISAR": "raw_Y_never_read_under_any_condition",
+    "no_return_to_completed_stage_candidates_after_label_open": true
+  },
+  "terminal_statuses": [
+    "NIGHT9A_BALANCED_EFFICIENT_R02_CONFIRMED_WITH_MISAR_EXACT_INHERITANCE",
+    "NIGHT9A_EFFICIENT_R02_P22_CONFIRMED_MISAR_HIGH_FIDELITY",
+    "NIGHT9A_EFFICIENT_R02_LOCKED_FOR_NEW_EXTERNAL_VALIDATION",
+    "NIGHT9A_NO_EFFICIENT_R02_REPLACEMENT_KEEP_FULL_F00",
+    "NIGHT9A_PARTIAL_OR_MIXED_EVIDENCE",
+    "IMPLEMENTATION_SEMANTICS_INVALID",
+    "BLOCKED_INPUT_INTEGRITY",
+    "BLOCKED_DEPLOYABILITY",
+    "BUDGET_EXHAUSTED"
+  ],
+  "forbidden_actions": [
+    "read or deserialize MISAR Y",
+    "use MISAR metrics or label-derived artifacts in training selection or evaluation",
+    "modify the confirmed full F00 teacher artifacts",
+    "retrain historical U00 or full F00 solely to improve runtime accounting",
+    "change candidate epochs formulas adapter losses fusion endpoint or head after R1 starts",
+    "best epoch early stopping seed search failed-unit replacement or fallback",
+    "run A1 D1 tonsil scientific experiments in this family-specific task",
+    "claim inherited MISAR metrics unless all ten canonical partitions are exactly equal up to label permutation",
+    "claim pristine holdout or SOTA",
+    "run third-party formal benchmarks",
+    "download raw runs checkpoints views embeddings affinities or partitions to Windows",
+    "force push force-with-lease move tags or create final tag early",
+    "call AutoDL power API"
+  ],
+  "source_inspiration": [
+    {
+      "name": "Simplifying Graph Convolutional Networks",
+      "url": "https://proceedings.mlr.press/v97/wu19e.html",
+      "use": "parameter-free precomputed graph propagation"
+    },
+    {
+      "name": "SIGN Scalable Inception Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2004.11198",
+      "use": "precompute multiple graph diffusion operators before lightweight learning"
+    },
+    {
+      "name": "Strategies for Pre-training Graph Neural Networks",
+      "url": "https://github.com/snap-stanford/pretrain-gnns",
+      "use": "strict checkpoint transfer followed by bounded fine-tuning"
+    }
+  ],
+  "execution": {
+    "autodl_mode": "GPU_CARD_MODE_REQUIRED",
+    "gpu_required": true,
+    "autodl_power_api_forbidden": true,
+    "plain_language_final_required": true,
+    "shutdown_last_remote_command": "/usr/bin/shutdown",
+    "no_reconnect_after_shutdown": true
+  }
+}
