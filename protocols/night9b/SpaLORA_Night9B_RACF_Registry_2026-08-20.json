@@ -1,0 +1,141 @@
+{
+  "registry_id": "night9b_racf_locked_20260820_v1",
+  "parent_commit": "aa933b8fc11fc05470287a21f80facd03d0acfb9",
+  "parent_tag": "night9a-final-20260820",
+  "datasets": {
+    "A1": {
+      "family": "RNA_PROTEIN",
+      "reference": "C00_G04_H05_CONFIRMED"
+    },
+    "P22": {
+      "family": "RNA_ATAC",
+      "reference": "F00_R02_FULL"
+    }
+  },
+  "r1_seeds": [0, 1, 2],
+  "r2_extension_seeds": [3, 4],
+  "shared_rules": {
+    "optimizer_schedule_preprocessing_latent_and_endpoint": "inherit_exact_family_reference",
+    "dataset_specific_new_weights": false,
+    "label_based_epoch_or_hyperparameter_selection": false,
+    "scientific_retry": 0,
+    "fallback": false,
+    "dgi_weight": 0.05,
+    "reliability_temperature": 1.0,
+    "reliability_min": 0.1,
+    "reliability_max": 0.9,
+    "runtime_safety_ratio_max": 3.0
+  },
+  "common_graph": {
+    "feature_metric": "cosine",
+    "spatial_metric": "euclidean",
+    "combine": "edge_intersection_then_symmetrize",
+    "self_loops": true,
+    "union_fallback": false,
+    "used_for": "auxiliary_modality_cooperative_message_passing"
+  },
+  "hierarchical_fusion": {
+    "stage_1": "learned_linear_fusion_of_rna_feature_and_rna_spatial_branches",
+    "stage_2": "learned_linear_fusion_of_stage1_rna_and_auxiliary_common_graph_branch",
+    "normalization": "inherit_reference_plus_final_row_l2",
+    "direct_all_branch_concat": false
+  },
+  "reliability_gate": {
+    "signal": "per_spot_robust_standardized_reconstruction_residual",
+    "statistics": "median_and_mad_with_stop_gradient",
+    "normalization": "two_modality_softmax_of_negative_residual",
+    "temperature": 1.0,
+    "clip": [0.1, 0.9]
+  },
+  "dgi": {
+    "weight": 0.05,
+    "corruption": "single_seed_derived_fixed_spot_permutation",
+    "negative_resampling_per_epoch": false
+  },
+  "candidates": [
+    {
+      "id": "N01_ANCHOR_K10",
+      "common_graph_k": 10,
+      "hierarchical_fusion": false,
+      "reliability_gate": false,
+      "dgi": false
+    },
+    {
+      "id": "N02_HIER_ONLY",
+      "common_graph_k": null,
+      "hierarchical_fusion": true,
+      "reliability_gate": false,
+      "dgi": false
+    },
+    {
+      "id": "N03_ANCHOR_K10_HIER",
+      "common_graph_k": 10,
+      "hierarchical_fusion": true,
+      "reliability_gate": false,
+      "dgi": false
+    },
+    {
+      "id": "N04_ANCHOR_K15_HIER",
+      "common_graph_k": 15,
+      "hierarchical_fusion": true,
+      "reliability_gate": false,
+      "dgi": false
+    },
+    {
+      "id": "N05_ANCHOR_K10_HIER_DGI",
+      "common_graph_k": 10,
+      "hierarchical_fusion": true,
+      "reliability_gate": false,
+      "dgi": true
+    },
+    {
+      "id": "N06_ANCHOR_K10_HIER_REL",
+      "common_graph_k": 10,
+      "hierarchical_fusion": true,
+      "reliability_gate": true,
+      "dgi": false
+    },
+    {
+      "id": "N07_ANCHOR_K10_HIER_REL_DGI",
+      "common_graph_k": 10,
+      "hierarchical_fusion": true,
+      "reliability_gate": true,
+      "dgi": true
+    }
+  ],
+  "shortlist_gates": {
+    "spatial_gate": "reuse_exact_night6d_authoritative_implementation_and_thresholds",
+    "balanced": {
+      "a1_mean_delta_q_min": 0.01,
+      "p22_mean_delta_q_min": 0.01,
+      "q_wins_min_each_dataset": 2
+    },
+    "lymph_specialist": {
+      "a1_mean_delta_q_min": 0.02,
+      "p22_mean_delta_q_min": -0.005
+    },
+    "brain_specialist": {
+      "p22_mean_delta_q_min": 0.03,
+      "a1_mean_delta_q_min": -0.005
+    },
+    "max_per_slot": 2,
+    "max_unique_r2_candidates": 4
+  },
+  "benchmark": {
+    "method": "COSMOS",
+    "source_commit": "56ea355be51e64d9253e2871b8bd447fdfd0d230",
+    "dataset": "P22",
+    "seeds": [0, 1, 2, 3, 4],
+    "lanes": ["COSMOS_NATIVE_FIXED", "COSMOS_COMMON_HEAD"],
+    "label_metric_selection": false,
+    "unit_timeout_minutes": 45
+  },
+  "budgets": {
+    "r1_new_training_units": 42,
+    "r2_new_training_units_max": 16,
+    "new_scientific_training_units_max": 58,
+    "cosmos_training_units": 5,
+    "infrastructure_corrections_before_science_max": 4
+  }
+}
+

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "scripts/night9b_p0_audit.py", line 684, in <module>
+    raise SystemExit(main())
+  File "scripts/night9b_p0_audit.py", line 465, in main
+    commit = command(["git", "rev-parse", "HEAD"], cwd=root)
+  File "scripts/night9b_p0_audit.py", line 64, in command
+    raise RuntimeError(
+RuntimeError: command failed (128): git rev-parse HEAD
+fatal: not a git repository (or any parent up to mount point /autodl-fs)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

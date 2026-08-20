@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "audit_role": "windows_root_aware_compact_verifier",
+  "generated_at_timezone": "Asia/Shanghai",
+  "status": "PASS",
+  "authority_inputs": [
+    {
+      "path": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\SpaLORA_Night9B_SOTA_Gap_and_RNA_Anchored_Cooperative_Fusion_Taskbook_2026-08-20.md",
+      "sha256": "845a7002fad6109490e1bc30f43463e3bbc51d35fddcbf682cd2e240eee2855a"
+    },
+    {
+      "path": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\SpaLORA_Night9B_RACF_Registry_2026-08-20.json",
+      "sha256": "ce181a59429ca90f1df8bf114cf54e5ab9eb3657c853caeb5096fec5a26b3bd4"
+    }
+  ],
+  "compact_verification": [
+    {
+      "lineage": "night9a",
+      "root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night9a_handoff_20260820\\official_compact",
+      "external_index": "compact_delivery_index.json",
+      "external_index_sha256": "14777eeb0ad62f418b154dcac5584fe8ed1531646e99ebfc142964b1922b2e50",
+      "external_verified": "35/35",
+      "tracked_index_sha256": "72a97f0376e35d8fb36e8d80ff42f5e74ea31578afd18f4c3166b70aa9b54396",
+      "tracked_verified": "30/30",
+      "status": "PASS"
+    },
+    {
+      "lineage": "night8b_cardinality_safe_eval",
+      "root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night8b_cardinality_safe_eval_handoff_20260820\\official_compact",
+      "external_index": "external_delivery_index.json",
+      "external_index_sha256": "81d5eaaae6f792323e973ed08794193527c0585367604683c5b8a8c07d0d4d4d",
+      "external_verified": "47/47",
+      "tracked_index_sha256": "00c731793d5d326bfd501c862135db9a24b50e6fc56224ac6e4773a53a57bea6",
+      "tracked_verified": "40/40",
+      "status": "PASS"
+    },
+    {
+      "lineage": "night7a",
+      "root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night7a_handoff_20260818\\official_compact",
+      "external_index": "external_delivery_index.json",
+      "external_index_sha256": "bbe324a073ad7fff9a8b74307d6c05da8c30584d0b4d3531306324617d2560c7",
+      "internal_index_sha256": "1fe95b44d26d216acad4784b22729cf6c43a91475d793fa2c5c9c3d51db7d176",
+      "external_verified": "4/4",
+      "internal_root_aware_verified": "97/97",
+      "status": "PASS"
+    },
+    {
+      "lineage": "night6d",
+      "root": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night6d_handoff_20260817\\official_compact",
+      "external_index": "external_delivery_index.json",
+      "external_index_sha256": "55d6736ad46d143b1fe00c1040e32595fb57be4340ba3eaba9caee27650b9458",
+      "internal_index_sha256": "337c93cefbeb0e08b83820ded4e3ec7ac94e5248a0af1431849c03b58f16c4a6",
+      "external_verified": "5/5",
+      "internal_root_aware_verified": "68/68",
+      "status": "PASS"
+    }
+  ],
+  "selected_files_verified": [
+    {"lineage": "night9a", "relative_path": "outputs/night9a/locked_R1_manifest.json", "sha256": "ae3d72a9a762938a1ea4760d1efe9856ac9dcf8815548f4813eff31082bbf5eb"},
+    {"lineage": "night9a", "relative_path": "outputs/night9a/R1_p22_per_seed_metrics.csv", "sha256": "19af2fc93ece0cf90637b406ba5fa4557beffbcc218ebb4fa276abd8b4c51a1f"},
+    {"lineage": "night9a", "relative_path": "outputs/night9a/R1_candidate_summary.json", "sha256": "614b9b5f1fcb1fcf7b07df40a0b27eb6b1c2b9eebe2a297ae67df0ad2f5e948b"},
+    {"lineage": "night9a", "relative_path": "protocols/night9a/SpaLORA_Night9A_Efficient_Topology_Transfer_Registry_2026-08-20.json", "sha256": "8ebd6e09cb49f065b49873b27bc0aedf60ef10217319d77e2b7470a99954087b"},
+    {"lineage": "night8b_cardinality_safe_eval", "relative_path": "protocols/night8b_cardinality_safe_eval/SpaLORA_Night8B_Cardinality_Safe_Evaluation_Recovery_Registry_2026-08-20.json", "sha256": "26bc2d71b37fe801eea21df13177c493d3a4bdefc718a1ef2d30cf7b3757b3c6"},
+    {"lineage": "night8b_cardinality_safe_eval", "relative_path": "outputs/night8b_cardinality_safe_eval/evaluation_contract_lock.json", "sha256": "da63e83272fdd95c880838e26426cc5053bcc98f2a8f9d2973d62860c8a16be5"},
+    {"lineage": "night8b_cardinality_safe_eval", "relative_path": "outputs/night8b_cardinality_safe_eval/final_Y_read_guard.json", "sha256": "cbed617b8d80e83f3fa2d1acc379bb3d55bc33a9b70023d419ae51d553bc3bc4"},
+    {"lineage": "night7a", "relative_path": "handoff/external_method_source_audit.csv", "sha256": "6e5278bb75ffab8c81d98d775960b66c71ca7837c0213047413bb45139059c52"},
+    {"lineage": "night7a", "relative_path": "handoff/external_method_readiness.json", "sha256": "8e761d1a747f852a270c13d432329d0384d09043277bc3d34feb482572207e41"},
+    {"lineage": "night7a", "relative_path": "handoff/benchmark_and_data_preflight_lock.json", "sha256": "3cacc7d7706e5d2944d67a510062e1c9105bf20fcd2131e210ab453c03034dc8"},
+    {"lineage": "night7a", "relative_path": "handoff/source_reuse_manifest.json", "sha256": "384701bdf2b504419c5395a222da2b3b573183c455dae3951c9d03ef5f7d4dba"},
+    {"lineage": "night6d", "relative_path": "handoff/dataset_and_method_contract.json", "sha256": "6ef8350c8dcd2fea297c5e3570560bf784006c1ca7fcf1b53dc7e7111a3f3099"},
+    {"lineage": "night6d", "relative_path": "handoff/spatial_protection.json", "sha256": "4cd9320a5db39da14d743f80b1be64ab19f2597229d4ce6dff8ebec1c7b34d80"},
+    {"lineage": "night6d", "relative_path": "SpaLORA/night6d_pipeline.py", "sha256": "5aef023f7bba8d7a4cf2c75982bac95f2c88f25ad972029672bd914f7dff3897"},
+    {"lineage": "night6d", "relative_path": "scripts/night6d_evaluate.py", "sha256": "e62d6ceffa1cdfb4ed0a14530c9e2f980c1bf6bb005f85605f3d4513816b69c4"},
+    {"lineage": "night6d", "relative_path": "handoff/d1_p22_per_seed_metrics.csv", "sha256": "97beb1adca50f753ccb35aa95a35d3a54a5f6758d3599844eaca2ac6b7cb1a1e"},
+    {"lineage": "night6d", "relative_path": "handoff/checkpoint_roundtrip_index.json", "sha256": "d87d324499bda1a6131c164de9feab7d3ba06e85f517b2216a4e919491166311"}
+  ],
+  "verification_notes": [
+    "All enumerated files were checked by size and SHA-256 under each index root rule.",
+    "No h5ad, obs, A1 labels, P22 labels, or MISAR Y were opened during this Windows-side audit."
+  ]
+}

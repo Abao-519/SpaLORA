@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "scripts/night9b_p0_audit.py", line 684, in <module>
+    raise SystemExit(main())
+  File "scripts/night9b_p0_audit.py", line 424, in main
+    windows = json.loads(authority_paths["windows_verification"].read_text(encoding="utf-8"))
+  File "/root/miniconda3/lib/python3.8/pathlib.py", line 1236, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/root/miniconda3/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/root/miniconda3/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/autodl-fs/data/SpaLORA-night9b/protocols/night9b/windows_authority_verification.json'

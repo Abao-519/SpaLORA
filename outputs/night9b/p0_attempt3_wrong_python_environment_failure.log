@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night9b_p0_audit.py", line 698, in <module>
+    raise SystemExit(main())
+  File "scripts/night9b_p0_audit.py", line 556, in main
+    environment = runtime_environment()
+  File "scripts/night9b_p0_audit.py", line 358, in runtime_environment
+    import scipy
+ModuleNotFoundError: No module named 'scipy'

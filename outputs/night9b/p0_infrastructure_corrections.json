@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "phase": "P0_AUTHORITY_ONLY",
+  "status": "PASS_AFTER_INFRASTRUCTURE_CORRECTIONS",
+  "scientific_training_units": 0,
+  "transform_units": 0,
+  "benchmark_units": 0,
+  "a1_label_reads": 0,
+  "p22_label_reads": 0,
+  "misar_Y_reads": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "classification": "infrastructure_only",
+      "cause": "Windows authority sidecar uploaded with an extra night9b_ filename prefix.",
+      "correction": "Renamed the same byte-identical file to the path required by the P0 script.",
+      "log": "outputs/night9b/p0_attempt1_sidecar_filename_failure.log",
+      "log_sha256": "7d603615148f18d97cbb19902f896ee279734f0c36c490e053eb38a932e7623c",
+      "scientific_outputs_created": 0,
+      "label_access": 0
+    },
+    {
+      "attempt": 2,
+      "classification": "infrastructure_only",
+      "cause": "The first COSMOS location pointed at an archive wrapper rather than its nested Git checkout.",
+      "correction": "Changed source probes to the exact nested Git repositories and made non-Git wrappers fail explicitly.",
+      "log": "outputs/night9b/p0_attempt2_cosmos_checkout_path_failure.log",
+      "log_sha256": "e6cef0939325ae53236e395bf02dc3bc86689b38bceac0f3ef56672113d6715c",
+      "scientific_outputs_created": 0,
+      "label_access": 0
+    },
+    {
+      "attempt": 3,
+      "classification": "infrastructure_only",
+      "cause": "The base Python executable lacked the locked SpaLORA scipy/sklearn environment.",
+      "correction": "Re-ran the unchanged audit with /root/miniconda3/envs/SpaLORA/bin/python.",
+      "log": "outputs/night9b/p0_attempt3_wrong_python_environment_failure.log",
+      "log_sha256": "20894f13c766382d1967b58e8d8157786fa3a1e412330e0b1afbb0362f25c45f",
+      "partial_resource_audit": "outputs/night9b/night9a_resource_semantics_audit_attempt3_partial.json",
+      "scientific_outputs_created": 0,
+      "label_access": 0
+    },
+    {
+      "attempt": 4,
+      "classification": "validation_metadata_only",
+      "cause": "Three manually transcribed log SHA strings in the correction ledger contained one extra hexadecimal character.",
+      "correction": "Replaced the ledger strings with independently recomputed sha256sum values; no scientific or P0 contract file was changed.",
+      "log": "outputs/night9b/p0_validation_attempt1_metadata_hash_typo.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "scientific_outputs_created": 0,
+      "label_access": 0
+    }
+  ],
+  "final_success_log": "outputs/night9b/p0_run.log",
+  "final_success_log_sha256": "b9dceea0fe18b46142fe7b3ff48f3ce735d272129ed81bd46b770d8e501a4221"
+}
