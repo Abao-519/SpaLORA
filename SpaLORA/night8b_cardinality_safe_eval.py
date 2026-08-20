@@ -93,10 +93,11 @@ def canonicalize_labels(raw: np.ndarray, expected_n: int) -> Tuple[np.ndarray, d
     for value in values.tolist():
         kind, text = _canonical_scalar(value)
         kinds.append(kind)
-        canonical.append(kind + ":" + text)
+        canonical.append(text)
     if len(set(kinds)) != 1:
         raise ValueError("MIXED_LABEL_TYPES_FORBIDDEN")
-    encoded = "\n".join(canonical).encode("utf-8")
+    # The type header makes the SHA unambiguous without altering category values.
+    encoded = (kinds[0] + "\n" + "\n".join(canonical)).encode("utf-8")
     unique, counts = np.unique(np.asarray(canonical, dtype=str), return_counts=True)
     if not (2 <= unique.size < int(expected_n)):
         raise ValueError("REFERENCE_K_OUT_OF_RANGE:%d" % unique.size)

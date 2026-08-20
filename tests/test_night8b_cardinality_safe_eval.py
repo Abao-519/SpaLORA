@@ -22,6 +22,7 @@ def test_predicted_and_reference_cardinality_mismatch_is_valid():
     labels, contract = canonicalize_labels(raw, 4)
     assert contract["reference_K"] == 3
     assert labels.shape == (4,)
+    assert labels.tolist() == ["a", "a", "b", "c"]
     assert contract["missing_like_count"] == 0
 
 
