@@ -1,0 +1,199 @@
+{
+  "file_count": 38,
+  "files": [
+    {
+      "path": "outputs/night8b_handoff/budget_and_access_audit.json",
+      "sha256": "5d2fdbf3aa583ee84429f539652fbab7b6f6a29e77183dbb4f6183b67e2070a3",
+      "size_bytes": 310
+    },
+    {
+      "path": "outputs/night8b_handoff/corrected_misar_provenance_lock.json",
+      "sha256": "335e35896871f0d5fd3d5a6c4ae3f8fa27959d4eca29fa2e19d4827caf1380cc",
+      "size_bytes": 1028
+    },
+    {
+      "path": "outputs/night8b_handoff/git_audit.json",
+      "sha256": "bb12ebd27cbc2cef3bf6bc7921fa0fc0ba08fcebb73b56e4dbce71120589ec5e",
+      "size_bytes": 271
+    },
+    {
+      "path": "outputs/night8b_handoff/night8b_decision.json",
+      "sha256": "c7eaa285ac413a868bdcad5dbd0b50491454e0410661ec4a07a588e096e848a3",
+      "size_bytes": 292
+    },
+    {
+      "path": "outputs/night8b_handoff/night8b_plain_language_summary.md",
+      "sha256": "2ee51618c90aa0c3f35d33b5930cb52bcda352628f6bc00b9831fad611f1ec22",
+      "size_bytes": 633
+    },
+    {
+      "path": "outputs/night8b_handoff/night8b_report.md",
+      "sha256": "980a754561b0ce36dc60af513b6cdbd705575a60929b75561071ff9fce6b82d3",
+      "size_bytes": 1520
+    },
+    {
+      "path": "outputs/night8b_handoff/night8b_tests.log",
+      "sha256": "30b653121d1567ba07540f97c2dcd774d4c9c20050889db9ea67664904624a74",
+      "size_bytes": 934
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_attempt1_infrastructure_correction.json",
+      "sha256": "7d40716e5636eb3b8f5f6c41e5b270918d292ce1b0c0961ae9f3b95f38a8268d",
+      "size_bytes": 598
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_attempt2_infrastructure_correction.json",
+      "sha256": "37bca163c6b3a1bd67f678d2599c0c7c7945a11b80ab3bc2df799bb9bbdb78e6",
+      "size_bytes": 700
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_attempt3_infrastructure_correction.json",
+      "sha256": "d47c44a39dfcbd09c39f1b2dbca157cd674e031f10bbce2d7c34fc0103f0f60c",
+      "size_bytes": 591
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_authority_provenance_deployability.json",
+      "sha256": "9371a4b512df65cf3ef3cb16dd9b1cc328b55bca48d99c4557c4240b309699d6",
+      "size_bytes": 16276
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_cuda_probe.json",
+      "sha256": "cd494a03057a2406e408864d013559207ae79796b9a6652e40135ced6fdbd22a",
+      "size_bytes": 308
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_p22_code_parity.json",
+      "sha256": "ac84d0086974f017e6f19cd13c45fd975d2a1fc7df4a8b706e48d5c724fffab3",
+      "size_bytes": 206
+    },
+    {
+      "path": "outputs/night8b_handoff/p0_smoke_audit.json",
+      "sha256": "2b3e72b1989b22d384ff8a8bdac5b6cd44589493ce86fa2a2a5fbc6717bb45b6",
+      "size_bytes": 1155
+    },
+    {
+      "path": "outputs/night8b_handoff/prelabel_incomplete_manifest.json",
+      "sha256": "eebb21cc24216129dde29415d829f796c22958d3f68b699e696b5778c37d52ce",
+      "size_bytes": 4848
+    },
+    {
+      "path": "outputs/night8b_handoff/prelabel_observation_mapping.csv",
+      "sha256": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+      "size_bytes": 56796
+    },
+    {
+      "path": "outputs/night8b_handoff/raw_artifact_manifest.csv",
+      "sha256": "d45465d1ab2c9b8f7d50aef4bcb8f0d67b869e4071070d7945e73269f5c8b4c9",
+      "size_bytes": 51116
+    },
+    {
+      "path": "outputs/night8b_handoff/tests_and_invariance_audit.json",
+      "sha256": "eaa800014053e13c874583aee6de2751c7d88237ec30fb428db8104635b14817",
+      "size_bytes": 288
+    },
+    {
+      "path": "protocols/night8b/SpaLORA_Night8B_MISAR_Family_Policy_External_Confirmation_Taskbook_2026-08-20.md",
+      "sha256": "068d9e7b0953dc600cd1cc809978a12037afb007bc894a52a8429cbd7f0bedcf",
+      "size_bytes": 11958
+    },
+    {
+      "path": "protocols/night8b/SpaLORA_Night8B_MISAR_Family_Policy_Registry_2026-08-20.json",
+      "sha256": "4ea482e37fcfdb17ccc8981a2895892c76b6c13a7f5019eae0976b408f2036c7",
+      "size_bytes": 8834
+    },
+    {
+      "path": "scripts/__pycache__/night8b_assert_prelabel_push.cpython-38.pyc",
+      "sha256": "6770d720ff0b65b19255d9fbd5ee6cd543ee05a73b55e9b66d989552505ccef5",
+      "size_bytes": 1388
+    },
+    {
+      "path": "scripts/__pycache__/night8b_evaluate.cpython-38.pyc",
+      "sha256": "07d726db47ee3eb3cc9d39f60d66eab058abfe98176c551a2e16050f06fc7bc5",
+      "size_bytes": 9441
+    },
+    {
+      "path": "scripts/__pycache__/night8b_finalize.cpython-38.pyc",
+      "sha256": "37b9268990e4ec2729b9a7034ac3905f192d6dba07a38490e1f9460addd79a0b",
+      "size_bytes": 6281
+    },
+    {
+      "path": "scripts/__pycache__/night8b_finalize_blocked.cpython-38.pyc",
+      "sha256": "b6d05a624e74deff8b89c227e0a47fd3099707193ee98271cc4938a260959aeb",
+      "size_bytes": 7047
+    },
+    {
+      "path": "scripts/__pycache__/night8b_formal.cpython-38.pyc",
+      "sha256": "66d3290666181c44ffeb54c840c7a87b381f718dfb23f22c0a74191d69c460ea",
+      "size_bytes": 4216
+    },
+    {
+      "path": "scripts/__pycache__/night8b_independent_metrics.cpython-38.pyc",
+      "sha256": "519dc55945bbf85daf2497d19efc02ab0938b16aeb0024f083855d6d14409485",
+      "size_bytes": 4317
+    },
+    {
+      "path": "scripts/__pycache__/night8b_lock.cpython-38.pyc",
+      "sha256": "6ce03dac4aa24bfb92f52a707954b4ad34eeed2501b7d8d9182a6082006f93c2",
+      "size_bytes": 5125
+    },
+    {
+      "path": "scripts/__pycache__/night8b_p0.cpython-38.pyc",
+      "sha256": "64c012cd2cbd04cc5e5e29fe002b45e29a97da392562809d782efd1ef643c0a2",
+      "size_bytes": 11924
+    },
+    {
+      "path": "scripts/__pycache__/night8b_train.cpython-38.pyc",
+      "sha256": "3d330807e926c80051ae3c5c7af23f49a51cfee811d2ef314049d6fcf68a619a",
+      "size_bytes": 12630
+    },
+    {
+      "path": "scripts/night8b_assert_prelabel_push.py",
+      "sha256": "38dfc03b9eb3edc6f9ead2bbb3f2bc777da3f3dab0e871eb3ddb56b1104aaeca",
+      "size_bytes": 1107
+    },
+    {
+      "path": "scripts/night8b_evaluate.py",
+      "sha256": "0bac717d1a31c5ab39c6284127b8b04dff0da754321fb7285fbdb56d5f778b64",
+      "size_bytes": 9412
+    },
+    {
+      "path": "scripts/night8b_finalize.py",
+      "sha256": "0873ebc6c2cb4d7265993fc1b2c4d7271cf61f84047950e8ecd693234350c935",
+      "size_bytes": 6086
+    },
+    {
+      "path": "scripts/night8b_finalize_blocked.py",
+      "sha256": "32c4ad0a6674a1d4e214294d1e599fbfe26759d65ef5c945519dd0bddecb36cd",
+      "size_bytes": 7027
+    },
+    {
+      "path": "scripts/night8b_formal.py",
+      "sha256": "9bb0daba4a667644381ca4151414178134dc493c4765b282b2ef1d1c2fd62cdb",
+      "size_bytes": 4984
+    },
+    {
+      "path": "scripts/night8b_independent_metrics.py",
+      "sha256": "078d2420ea8cd9253922443868257e266243cd7c135f32fb12d33957b18c92a7",
+      "size_bytes": 3626
+    },
+    {
+      "path": "scripts/night8b_lock.py",
+      "sha256": "ae042979efda099f5315ac10cf837f319bbc23bf6b5d6a4923830c5a7c490ab0",
+      "size_bytes": 6578
+    },
+    {
+      "path": "scripts/night8b_p0.py",
+      "sha256": "e65bb8942ad61d62383d015282ec55aca57183b7bb7d26b7bebacdc6e4c99d6b",
+      "size_bytes": 12051
+    },
+    {
+      "path": "scripts/night8b_train.py",
+      "sha256": "34c4651a2d5aacae8648d8d391ee108e2c6aaa69a1b1d3fbb7853a237b54b710",
+      "size_bytes": 13844
+    }
+  ],
+  "final_tag_must_follow_final_commit": true,
+  "root_rule": "repository-relative paths; index excludes itself",
+  "schema_version": 1,
+  "terminal_status": "INFRASTRUCTURE_BLOCKED"
+}

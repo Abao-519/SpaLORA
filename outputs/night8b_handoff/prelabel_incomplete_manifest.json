@@ -1,0 +1,101 @@
+{
+  "candidate_search": false,
+  "checkpoint_roundtrips_pass": "20/20",
+  "evaluation_run": false,
+  "failed_primary_key": {
+    "K_required": 12,
+    "head": "H05",
+    "method": "U00_UNIVERSAL_C00",
+    "seed": 6
+  },
+  "failure_log": "/root/autodl-fs/night8b_raw_runs_20260820/logs/formal/transform_U00_seed_6.log",
+  "failure_log_sha256": "03a646046f17b0f75adae452001642b21b9ea31c22a53c30fc808df3f5d6023e",
+  "fallback": 0,
+  "formal_transforms_success": "19/20",
+  "labels_Y_read": false,
+  "raw_artifact_manifest_sha256": "d45465d1ab2c9b8f7d50aef4bcb8f0d67b869e4071070d7945e73269f5c8b4c9",
+  "reason_code": "FIXED_H05_NUMERICAL_HEAD_FAILURE_K_NOT_12",
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "scientific_training_units_success": "20/20",
+  "status": "PRELABEL_TOTAL_LOCK_INCOMPLETE",
+  "successful_transform_manifest_sha256": [
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_0/transform_manifest.json",
+      "sha256": "cc3e41c2ff2eb95bf4ee9f02d408022ff78d982bb4b6ca6f1404bdedc5084c29"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_1/transform_manifest.json",
+      "sha256": "1c1043e4576914f1b37897d08a912db39bc97242c97bcacd251c5db4d16f0602"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_2/transform_manifest.json",
+      "sha256": "08e009d080ea45e4253e918ad1c0aae24ace2db24f889c7aa6103e16fffecb3e"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_3/transform_manifest.json",
+      "sha256": "73c52d5dc1d1d02916c1d13b40dc58e38fc5a3c12f9bf00cf700caf9b4f8d779"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_4/transform_manifest.json",
+      "sha256": "e0c9ebfd5f60545cf45eb308796a47988695bd8e2a70fde6290241a8e2adb408"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_5/transform_manifest.json",
+      "sha256": "9ae380bc6c8177d3feadef92e5be54932329f10a6e81ca267aa04f8b65370f16"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_6/transform_manifest.json",
+      "sha256": "f08b718ef8054627fb10c0ddd9cb68606a4e6a68445687555889f7bef716f291"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_7/transform_manifest.json",
+      "sha256": "53c70078f1c47afede0080d181cf8a73393df5db7997dfd9584a63ed6b176b53"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_8/transform_manifest.json",
+      "sha256": "b5ab044bbaabf5b69d990c14dcb5c27f6e30d219f5d4471e8065aa62857bec43"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_9/transform_manifest.json",
+      "sha256": "2ced3eb715936a9aef5a48894086c3c1a9bf4345176f9dfd1b44ce8d50fb7e83"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_0/transform_manifest.json",
+      "sha256": "6db80bf05dcb6918d17ebadb15a4a2b81784a79be8fe1d89dd4500173ee16b85"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_1/transform_manifest.json",
+      "sha256": "8ba4e79438698888d4dd26e483285d87a20286e1100f80c662e385f23d557942"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_2/transform_manifest.json",
+      "sha256": "9159c6f903c1ef743a6dda5014028db24c66567954ff8150d09037e416aee936"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_3/transform_manifest.json",
+      "sha256": "be6378ce554d93d8e520d91ad07a6300f6e4e7fff9f5d64a650edfd96b7834d6"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_4/transform_manifest.json",
+      "sha256": "d6cf634e466711fe29daf941d7cf85b29847b48e6c2607818405c142b0275c5e"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_5/transform_manifest.json",
+      "sha256": "2cec79b38ba9083224351a0d173965658cef4e072b5127cda8a2237892f3498e"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_7/transform_manifest.json",
+      "sha256": "61bd1c74c1d46fdcc341a20843f264fbe6d61709ec4e44848faf1e91e4239807"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_8/transform_manifest.json",
+      "sha256": "047a6f8298d610217ff7f43dca21e3393444a7891072959d8f234c4e24b202e0"
+    },
+    {
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_9/transform_manifest.json",
+      "sha256": "e096ef896e4e3cd4869d2a2480847f4ce21bfbbc19b094f33dce7481769991e2"
+    }
+  ],
+  "terminal_status": "INFRASTRUCTURE_BLOCKED"
+}

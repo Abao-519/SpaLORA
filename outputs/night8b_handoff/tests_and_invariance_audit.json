@@ -1,0 +1,9 @@
+{
+  "candidate_search": false,
+  "independent_metrics_test": "synthetic_only_because_authorized_label_window_not_opened",
+  "label_window_one_way_test": true,
+  "no_retry_test": true,
+  "semantic_tests": 10,
+  "status": "PASS",
+  "test_log": "outputs/night8b_handoff/night8b_tests.log"
+}
