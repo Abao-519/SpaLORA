@@ -1,0 +1,19 @@
+{
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "branch": "revision/q2-night8b-uniform-head-recovery-20260820",
+  "commit": "4bdf30a743bf92424cdf4ce4102ddfd8d803b2fd",
+  "deterministic_exact": "20/20",
+  "exact_K": "20/20",
+  "force_push": false,
+  "label_access": false,
+  "locked_partition_manifest_sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+  "ordinary_push": true,
+  "partition_rows": "20/20",
+  "recovery_input_view_manifest_sha256": "8e9e042a7de8954425e2b46fc4f878bbc3f7c698f6283a80bb30132d9efcd71e",
+  "recovery_rule_lock_sha256": "9b098fff1b80cc3e562c2afa1833255ea050c14601c46e698011a8b0739d6c35",
+  "remote_commit_verified_equal": true,
+  "schema_version": 1,
+  "status": "PASS",
+  "training": 0
+}
