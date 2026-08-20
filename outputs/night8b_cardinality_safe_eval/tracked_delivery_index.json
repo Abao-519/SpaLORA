@@ -1,0 +1,208 @@
+{
+  "index_self_reference_excluded": true,
+  "row_count": 40,
+  "rows": [
+    {
+      "path": "SpaLORA/night8b_cardinality_safe_eval.py",
+      "sha256": "df423eae1b1696172d46bc0b83ae6ec912db47e5b17ca9cafd1a1571f56bd358",
+      "size_bytes": 14482
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/budget_and_access_audit.json",
+      "sha256": "3157b3e10c573393732afb241e3280dc39924198d53177774dde6b9d351b69c7",
+      "size_bytes": 539
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/cardinality_safe_20row_metrics.csv",
+      "sha256": "368f52f64999280bcf560ce67abaaa0ba19bd52ac061549750622b2948d67d76",
+      "size_bytes": 6620
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/cardinality_safe_independent_recompute.json",
+      "sha256": "7141f0d5922415a2dac0b0f7e61b01c05cd5ff5b4ca9c28562f7c3bfa3a65d51",
+      "size_bytes": 37807
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/cardinality_safe_paired_deltas.csv",
+      "sha256": "71417b4d1d48afc1fc262731b0ecb03e7f5c5eb20df1e217e3dc45872c9334e5",
+      "size_bytes": 1975
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/cardinality_safe_paired_statistics.json",
+      "sha256": "5f14c82a0f3ba274381a0be2ffb39fdf2646a0cc49530a7eb78d48dbe63214b6",
+      "size_bytes": 1141
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/cardinality_safe_resource_audit.json",
+      "sha256": "509aca7857efe3a00bb3af40e863be7d1f1e003e5e96b29cfa093011c2452619",
+      "size_bytes": 493
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/cardinality_safe_spatial_protection.json",
+      "sha256": "583282c6171ef7b6da9becd3d23428e02fd6fec5d9c086435de206165c0fd9b7",
+      "size_bytes": 325
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/evaluation_contract_lock.json",
+      "sha256": "da63e83272fdd95c880838e26426cc5053bcc98f2a8f9d2973d62860c8a16be5",
+      "size_bytes": 2718
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/final_Y_read_guard.json",
+      "sha256": "cbed617b8d80e83f3fa2d1acc379bb3d55bc33a9b70023d419ae51d553bc3bc4",
+      "size_bytes": 706
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/final_tests.log",
+      "sha256": "77d238e287c4baa4f55d60895d73d8f6ab1267400918cac18f897b02bceb29a4",
+      "size_bytes": 601
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/git_audit.json",
+      "sha256": "ef52a346cc242e9e3cac3cc7d1555e35d7c5727802d3f9598d713b3bb70cc39e",
+      "size_bytes": 669
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/head_recovery_after_invariance.json",
+      "sha256": "265fe6bdeaa5dedae003c36422bb47281456d0ec2e724b4a2c85f65d96d2d71a",
+      "size_bytes": 26919
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/label_access_and_evaluation_order_audit.json",
+      "sha256": "46ead77cf248c052c863bb19fc4afc576f9cd24cef4cc34259a509e2f0897bef",
+      "size_bytes": 673
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/night8b_cardinality_safe_eval_decision.json",
+      "sha256": "de1f68046ddef4becb483d376185c9cddfa048af6a18c10c1778386928860a2c",
+      "size_bytes": 1017
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/night8b_cardinality_safe_eval_plain_language_summary.md",
+      "sha256": "769e9289e24e34a3172c6e30d8b5ac32b1c7d2374330978efd8e7ed8937ab132",
+      "size_bytes": 710
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/night8b_cardinality_safe_eval_report.md",
+      "sha256": "6b4614168ac5bf1b8af487f697d1f4de8ffc483977a86345b3eb91ae1c8f45c7",
+      "size_bytes": 2267
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/original_raw_after_invariance.json",
+      "sha256": "2190234cea5d3cc676e256a9f39b238f5da13ab039f158df38fdccd4b7410175",
+      "size_bytes": 77710
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/original_spectral_9pair_sensitivity.csv",
+      "sha256": "71c4732a215f6462f1ada50661ab44efc844f784eb690634f6cb84fae04398f3",
+      "size_bytes": 6907
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/original_spectral_sensitivity_audit.json",
+      "sha256": "e665fdcfaf1d3540299989a56400ee77bfa59eabba78d03f4727db862d82bf2a",
+      "size_bytes": 193
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/p0_eval_recovery_authority.json",
+      "sha256": "fdd323fe4302c550dec8b673268c9f7c7387291c902264e03c45096dd4838f27",
+      "size_bytes": 35301
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_input_preload_audit.json",
+      "sha256": "4bbd3987e1cfbb36a22c2b95d5d7b9da6fc3e776fb7cfa9566211d6cf45b43eb",
+      "size_bytes": 1056
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_preload_attempt1_infrastructure_correction.json",
+      "sha256": "356eb6965bec99a3e5bc001f5ac0141b895e1f856ab33ba7c604d874321cfc3f",
+      "size_bytes": 828
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_preload_attempt2_infrastructure_correction.json",
+      "sha256": "4b2befb24a1018eca9105604a88f7719300b627088704e897ec50cd8f21b8f98",
+      "size_bytes": 708
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_push_audit.json",
+      "sha256": "d0ef3cc2cb190aa45328e4522d6a35173df84e1be0bdd7b54d9df788bd275538",
+      "size_bytes": 1357
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_test_attempt1_infrastructure_correction.json",
+      "sha256": "65b0b2e2eb2d243c876f35865b7209bca6228cd6ecd06cf43608dca263dce6be",
+      "size_bytes": 655
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_tests.log",
+      "sha256": "f6214a8fef3d1175ea66d4d34e28adbf3d02e20939f72ff8674371fbdc73e584",
+      "size_bytes": 601
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_tests_attempt1.log",
+      "sha256": "6b5b0ef7aec8b50f9383f10cde8e1f0627d423eab2e3cd79eccb8e76a5e7a058",
+      "size_bytes": 2262
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/prelabel_tests_before_preload_correction.log",
+      "sha256": "129f858b47fdfcbce8182a57f02e0686ba7b18601e4dbe354041c203ee7d2aad",
+      "size_bytes": 601
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/reference_label_contract.json",
+      "sha256": "441b63d3f7ae9c6cb4e904fa175b47f37c072efababe0b8160fe3dbd55c017d5",
+      "size_bytes": 1708
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/ssh_session_continuity_audit.json",
+      "sha256": "409620bdd542e35e1f4869ae36e964a9926ae412da0f8d2735bd393c5a95c0b4",
+      "size_bytes": 485
+    },
+    {
+      "path": "outputs/night8b_cardinality_safe_eval/tests_and_invariance_audit.json",
+      "sha256": "366939fe1c63c6d65a2a09e7d41b869be347909ddd591ccbfdb8edf1b4bb44de",
+      "size_bytes": 627
+    },
+    {
+      "path": "protocols/night8b_cardinality_safe_eval/SpaLORA_Night8B_Cardinality_Safe_Evaluation_Recovery_Registry_2026-08-20.json",
+      "sha256": "26bc2d71b37fe801eea21df13177c493d3a4bdefc718a1ef2d30cf7b3757b3c6",
+      "size_bytes": 10558
+    },
+    {
+      "path": "protocols/night8b_cardinality_safe_eval/SpaLORA_Night8B_Cardinality_Safe_Evaluation_Recovery_Taskbook_2026-08-20.md",
+      "sha256": "d9222e359bfa1c47ea1faa88bad02d1960bb05b64069531aa1e26e2258f72f35",
+      "size_bytes": 14201
+    },
+    {
+      "path": "protocols/night8b_cardinality_safe_eval/evaluation_contract_lock.json",
+      "sha256": "da63e83272fdd95c880838e26426cc5053bcc98f2a8f9d2973d62860c8a16be5",
+      "size_bytes": 2718
+    },
+    {
+      "path": "protocols/night8b_cardinality_safe_eval/windows_authority_verification.json",
+      "sha256": "71c18ad399bd8978b6d2f170760d05aa00532a540b606485d5dde0a902fc1e02",
+      "size_bytes": 4264
+    },
+    {
+      "path": "scripts/night8b_cardinality_safe_evaluate.py",
+      "sha256": "ebf74c8c1eec7c016c120fd63be8487aa80d1b8bd8b9a9d59df250833bb9c7f9",
+      "size_bytes": 30140
+    },
+    {
+      "path": "scripts/night8b_cardinality_safe_finalize.py",
+      "sha256": "b1e9b9f719fdc9790361b056f2fe37801c5b80644592e4790efafc8d9f0a9ea6",
+      "size_bytes": 11911
+    },
+    {
+      "path": "scripts/night8b_cardinality_safe_p0.py",
+      "sha256": "bcb0ef93e95ea297a785eb8cb9a307870d3c8e31c1c2b56b219e2734a3c57d4e",
+      "size_bytes": 11412
+    },
+    {
+      "path": "tests/test_night8b_cardinality_safe_eval.py",
+      "sha256": "2ec534b02ff5040ae79bf618dd4eb97b8c469f654176c48e072f2748c3b007ad",
+      "size_bytes": 4790
+    }
+  ],
+  "schema_version": 1,
+  "status": "COMPLETE_TRACKED_INDEX_EXCLUDING_SELF"
+}

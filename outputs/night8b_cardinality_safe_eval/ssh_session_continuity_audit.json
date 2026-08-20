@@ -1,0 +1,9 @@
+{
+  "active_session_retained_from_before_final_Y_read_through_delivery_and_shutdown": true,
+  "cause": "interactive shell inherited nonzero prelabel diagnostic statuses; no long-running remote process or scientific result was interrupted",
+  "earlier_sessions_ended_before_final_Y_read": 2,
+  "raw_Y_read_count_at_replacement": 0,
+  "schema_version": 1,
+  "shutdown_must_be_final_command_on_active_session": true,
+  "status": "PASS_WITH_PRELABEL_INFRASTRUCTURE_SESSION_REPLACEMENTS"
+}
