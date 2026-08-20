@@ -1,0 +1,134 @@
+{
+  "attempted_units": 4,
+  "failure_units": 0,
+  "fallback": 0,
+  "label_access": {
+    "A1": 0,
+    "MISAR_Y": 0,
+    "P22": 0
+  },
+  "planned_units": 4,
+  "rows": [
+    {
+      "attempt": 1,
+      "candidate_id": "N02_HIER_ONLY",
+      "config_path": "/root/autodl-fs/night9b_racf_20260820/configs/r2/r2-u000.json",
+      "config_sha256": "016b450e8507d664f0d14c0d563a537cd46ec3d583ffc3971bbaa80044072cb7",
+      "dataset": "A1",
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "7612dfd98a8df9bba368be936bc31b1a510fc21d231921020ad73507bb5e5450",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/r2/r2-u000/attempt_001",
+      "reload": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u000.reload.log",
+        "log_sha256": "a3a05a9ed895c1c7d6b0909edac84ac886ad39cf0da888406c4ec1995bf5b3ee",
+        "returncode": 0,
+        "runtime_seconds": 7.760217007249594
+      },
+      "reload_audit_sha256": "0cb0f18224faa945f7c57127c46c112685b28280338889c8c99284d18f355aaf",
+      "scientific_retry": 0,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success",
+      "train": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u000.train.log",
+        "log_sha256": "1efc674fc1963743c802630403fb0c4031ae64f0139eaca9ec4099a5a6d0bde7",
+        "returncode": 0,
+        "runtime_seconds": 9.766301948577166
+      },
+      "unit_id": "r2-u000"
+    },
+    {
+      "attempt": 1,
+      "candidate_id": "N02_HIER_ONLY",
+      "config_path": "/root/autodl-fs/night9b_racf_20260820/configs/r2/r2-u001.json",
+      "config_sha256": "beabd46847b9c87d2dd7efb978f8c08b2ab70861ce167442e959697d9b54072a",
+      "dataset": "A1",
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "b161b53232cfe1e47501790819e8125a4ea9a8282e53c82962c143092f912a60",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/r2/r2-u001/attempt_001",
+      "reload": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u001.reload.log",
+        "log_sha256": "7f4a79cffbab5102a64cf301c43d740e5691726019ae30e61721ab29ca8ecd5d",
+        "returncode": 0,
+        "runtime_seconds": 7.608251366764307
+      },
+      "reload_audit_sha256": "6d604572a58f7a928ce5189d5ac95bdcd4ff72983ad847235f79f9a4b459ff99",
+      "scientific_retry": 0,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success",
+      "train": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u001.train.log",
+        "log_sha256": "0686de9fc2eef2975d05fc94ceaf89674792a75f15011c51b19970a9ee8611a1",
+        "returncode": 0,
+        "runtime_seconds": 10.01978313922882
+      },
+      "unit_id": "r2-u001"
+    },
+    {
+      "attempt": 1,
+      "candidate_id": "N02_HIER_ONLY",
+      "config_path": "/root/autodl-fs/night9b_racf_20260820/configs/r2/r2-u002.json",
+      "config_sha256": "c23011991e156102ebcb8c2b533e524036334264b1053d61bed456c0bfc60a97",
+      "dataset": "P22",
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "20e989c2ac2da2395fb3e48ef4827968273aa5caaa4891c05277d5f6e20708cb",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/r2/r2-u002/attempt_001",
+      "reload": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u002.reload.log",
+        "log_sha256": "c4a832e41bf502c0cad3de95891cbaccd29cecb320c285b9909fde09a3c95ceb",
+        "returncode": 0,
+        "runtime_seconds": 17.74193456582725
+      },
+      "reload_audit_sha256": "e977655c7730dad0609d118ff18896ae4a003dbb7c5e29139fbfa3216326ed44",
+      "scientific_retry": 0,
+      "seed": 3,
+      "stage": "R2",
+      "status": "success",
+      "train": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u002.train.log",
+        "log_sha256": "675590e88862e31103d8992ce4016f867856a79f2ce2c117b579f35727157720",
+        "returncode": 0,
+        "runtime_seconds": 19.593987276777625
+      },
+      "unit_id": "r2-u002"
+    },
+    {
+      "attempt": 1,
+      "candidate_id": "N02_HIER_ONLY",
+      "config_path": "/root/autodl-fs/night9b_racf_20260820/configs/r2/r2-u003.json",
+      "config_sha256": "2280fe10b54886d38fde3b69b777b2945d78e7b802bb235dda8b0c9511598447",
+      "dataset": "P22",
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "1bb8b42e390547cc9b3183587be7b12c41020c73e6dd729da57b3ecd0b8294c2",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/r2/r2-u003/attempt_001",
+      "reload": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u003.reload.log",
+        "log_sha256": "b0852483f57a0f0bb266300bde186fc0d9e846cf3e534ec30dfb7489182b0eee",
+        "returncode": 0,
+        "runtime_seconds": 15.286094913259149
+      },
+      "reload_audit_sha256": "b8a1d1129da79fa968139e4d6271b482bea5fecce6c23a45750d992ca6ccdb36",
+      "scientific_retry": 0,
+      "seed": 4,
+      "stage": "R2",
+      "status": "success",
+      "train": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/r2/r2-u003.train.log",
+        "log_sha256": "4ecb3124b7fedb7f7fbc2d27d730124c3865339878e18ea76c22bff0bdf4dafc",
+        "returncode": 0,
+        "runtime_seconds": 19.625513717532158
+      },
+      "unit_id": "r2-u003"
+    }
+  ],
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "stage": "R2",
+  "status": "PASS",
+  "success_units": 4
+}
