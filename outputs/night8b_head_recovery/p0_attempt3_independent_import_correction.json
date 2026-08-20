@@ -1,0 +1,12 @@
+{
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "formal_partitions_repeated": 0,
+  "label_access": false,
+  "reason": "The pre-label synthetic evaluator smoke launched the independent script by absolute path and exposed a missing repository-root sys.path insertion.",
+  "schema_version": 1,
+  "scientific_retry": false,
+  "status": "INFRASTRUCTURE_ONLY_CORRECTED_PRELABEL",
+  "synthetic_dummy_labels_only": true,
+  "training": 0
+}

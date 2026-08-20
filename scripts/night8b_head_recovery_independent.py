@@ -16,6 +16,11 @@ from sklearn.metrics import (
     v_measure_score,
 )
 
+import sys
+
+REPO = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO))
+
 from SpaLORA.night1_evaluation import _mean_cluster_moran
 from SpaLORA.night3b_metrics import mean_one_vs_rest_geary
 
