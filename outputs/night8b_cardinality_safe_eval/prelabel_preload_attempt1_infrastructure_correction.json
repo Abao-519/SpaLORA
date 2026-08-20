@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "RESOLVED_PRELABEL_INFRASTRUCTURE_ONLY_INPUT_LOOKUP",
+  "attempt": 1,
+  "cause": "The first preload audit incorrectly looked for cache files and the annotation carrier in the 297-row formal-run artifact manifest; that manifest intentionally covers formal run artifacts, not the locked cache or carrier.",
+  "correction": "The base cache manifest is now verified against its preregistered SHA and its internal per-file SHA/size rows. The carrier byte SHA is locked in the pre-label push audit and rechecked by the evaluator.",
+  "raw_Y_read": 0,
+  "metrics_computed": 0,
+  "scientific_inputs_changed": false,
+  "scientific_retry": 0,
+  "scope_counts": {
+    "training": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "head_transform": 0
+  }
+}

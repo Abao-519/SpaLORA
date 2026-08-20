@@ -47,6 +47,7 @@ LOCK_PATH = RECOVERY / "manifests/locked_recovery_partition_manifest.json"
 LOCK_SHA = "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c"
 EXPECTED_MAPPING_SHA = "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5"
 EXPECTED_ORDER_SHA = "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b"
+EXPECTED_BASE_CACHE_MANIFEST_SHA = "c5a8b3c3e6ffd0de378ce60f890aabcce9eccd57014c42b482e9dee180a5c544"
 BRANCH = "revision/q2-night8b-cardinality-safe-eval-20260820"
 EXPECTED_N = 1949
 DECISION_KEYS = (
@@ -181,8 +182,14 @@ def preload_nonlabel_inputs() -> dict:
     coordinates_path = ORIGINAL / "cache/base/coordinates.npy"
     observation_path = ORIGINAL / "cache/base/observation_ids.tsv"
     cache_manifest_path = ORIGINAL / "cache/base/manifest.json"
-    for path in (coordinates_path, observation_path, cache_manifest_path):
-        verify_expected_artifact(path, expected)
+    if sha256_file(cache_manifest_path) != EXPECTED_BASE_CACHE_MANIFEST_SHA:
+        raise RuntimeError("base cache manifest SHA drift")
+    cache_manifest = json.loads(cache_manifest_path.read_text(encoding="utf-8"))
+    for path in (coordinates_path, observation_path):
+        row = cache_manifest["files"].get(path.name)
+        if (row is None or not path.is_file() or path.stat().st_size != row["size_bytes"]
+                or sha256_file(path) != row["sha256"]):
+            raise RuntimeError("base cache file drift: %s" % path)
     coordinates = np.load(coordinates_path, allow_pickle=False)
     cache_ids = pd.read_csv(observation_path, sep="\t", header=None).iloc[:, 0].astype(str).tolist()
     if cache_ids != expected_ids or coordinates.shape[0] != EXPECTED_N:
@@ -220,7 +227,12 @@ def preload_nonlabel_inputs() -> dict:
             sensitivity_predictions[(method, seed)] = frame["cluster"].to_numpy(np.int64)
 
     carrier = ORIGINAL / "annotation_carrier/MISAR_seq_mouse_E15_brain_ATAC_data.h5"
-    verify_expected_artifact(carrier, expected)
+    carrier_sha = sha256_file(carrier)
+    locked_input = push["locked_input_sha256"]
+    if locked_input.get("carrier") != carrier_sha:
+        raise RuntimeError("pre-label carrier SHA lock mismatch")
+    if locked_input.get("base_cache_manifest") != EXPECTED_BASE_CACHE_MANIFEST_SHA:
+        raise RuntimeError("pre-label cache manifest lock mismatch")
     return {
         "p0": p0, "contract": contract, "push": push, "lock": lock,
         "expected_ids": expected_ids, "carrier_rows": carrier_rows,
@@ -228,14 +240,14 @@ def preload_nonlabel_inputs() -> dict:
         "primary_predictions": primary_predictions,
         "sensitivity_predictions": sensitivity_predictions,
         "resources": resources, "carrier": carrier,
-        "carrier_sha256": sha256_file(carrier),
+        "carrier_sha256": carrier_sha,
         "input_sha256": {
             "locked_partition_manifest": LOCK_SHA,
             "annotation_mapping": EXPECTED_MAPPING_SHA,
             "coordinates": sha256_file(coordinates_path),
             "observation_ids": sha256_file(observation_path),
             "cache_manifest": sha256_file(cache_manifest_path),
-            "carrier": sha256_file(carrier),
+            "carrier": carrier_sha,
         },
     }
 
