@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night9b_evaluate.py", line 293, in <module>
+    if __name__ == "__main__": main()
+  File "scripts/night9b_evaluate.py", line 241, in main
+    gate = prelabel_gate(); labels, label_audit = load_labels_once()
+  File "scripts/night9b_evaluate.py", line 54, in prelabel_gate
+    if git("status", "--porcelain"): raise RuntimeError("repository is not clean before label window")
+RuntimeError: repository is not clean before label window
