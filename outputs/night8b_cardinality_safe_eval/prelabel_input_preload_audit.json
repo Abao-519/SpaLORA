@@ -1,0 +1,34 @@
+{
+  "coordinates_shape": [
+    1949,
+    2
+  ],
+  "elapsed_seconds": 4.016508661210537,
+  "graph_nnz": 39288,
+  "graph_shape": [
+    1949,
+    1949
+  ],
+  "input_sha256": {
+    "annotation_mapping": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+    "cache_manifest": "c5a8b3c3e6ffd0de378ce60f890aabcce9eccd57014c42b482e9dee180a5c544",
+    "carrier": "2f5862cff045b6a296f3cbc0a978d8576bd36f2d4c9419b75c6760c9c7e9d2e3",
+    "coordinates": "d7cf6a56b6d924b6be87d49509b4dcb78b195dd334407640afa5c69ffa8e6bb5",
+    "locked_partition_manifest": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+    "observation_ids": "bda44acb095ce34c165542a5fecc92c4d1d79f44ca51ecf246a6eb954e327c7f"
+  },
+  "primary_partitions_preloaded": 20,
+  "raw_Y_read": 0,
+  "resource_records_preloaded": 20,
+  "schema_version": 1,
+  "scope_counts": {
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "head_transform": 0,
+    "training": 0
+  },
+  "spectral_partitions_preloaded": 18,
+  "status": "PASS"
+}

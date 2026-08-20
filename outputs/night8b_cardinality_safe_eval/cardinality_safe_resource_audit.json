@@ -1,0 +1,13 @@
+{
+  "HR_F00_mean_end_to_end_seconds": 63.86647223206237,
+  "HR_F00_mean_peak_gpu_mib": 401.03271484375,
+  "HR_U00_mean_end_to_end_seconds": 28.24672898845747,
+  "HR_U00_mean_peak_gpu_mib": 400.14453125,
+  "definition": "original training plus fixed adapter when applicable plus locked recovery head cost",
+  "evaluation_gpu_used": false,
+  "pass": false,
+  "peak_gpu_ratio": 1.0022196569598876,
+  "peak_gpu_ratio_max": 1.25,
+  "runtime_ratio": 2.2610218782557188,
+  "runtime_ratio_max": 1.5
+}

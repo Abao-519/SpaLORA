@@ -1,0 +1,23 @@
+{
+  "after": 2,
+  "carrier_closed_after_evaluation": true,
+  "elapsed_seconds": 6.794488934800029,
+  "lineage_raw_Y_read_count_before": 1,
+  "one_evaluator_process": true,
+  "one_raw_Y_deserialization_this_task": true,
+  "reference_K_persisted_before_metrics": true,
+  "return_to_training_checkpoint_forward_adapter_affinity_head_mapping_code_or_K": false,
+  "same_process_same_in_memory_Y_primary_and_independent": true,
+  "schema_version": 1,
+  "scope_counts": {
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "head_transform": 0,
+    "training": 0
+  },
+  "status": "COMPLETED_SECOND_AND_FINAL_RAW_Y_READ",
+  "third_read_forbidden": true,
+  "this_task": 1
+}

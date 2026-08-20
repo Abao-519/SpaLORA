@@ -1,0 +1,22 @@
+{
+  "head_recovery_root_invariance": true,
+  "independent_max_absolute_error": 1.7763568394002505e-15,
+  "independent_threshold": 1e-12,
+  "lineage_raw_Y_read_count_after": 2,
+  "original_raw_invariance": "297/297",
+  "original_spectral_terminal_decision_input": false,
+  "paired_rows": "10/10",
+  "partition_rows": "20/20",
+  "predicted_reference_K_mismatch_is_allowed": true,
+  "reference_K_persisted_before_metrics": true,
+  "schema_version": 1,
+  "scope_counts": {
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "head_transform": 0,
+    "training": 0
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,40 @@
+{
+  "ari_wins": 10,
+  "bootstrap_delta_ari": {
+    "ci_lower": 0.008950019330306092,
+    "ci_upper": 0.019488029314031388,
+    "mean": 0.013742195598846013,
+    "replicates": 100000,
+    "seed": 20260820
+  },
+  "bootstrap_delta_nmi": {
+    "ci_lower": 0.014739413925961698,
+    "ci_upper": 0.02775833563065931,
+    "mean": 0.02098186475959347,
+    "replicates": 100000,
+    "seed": 20260820
+  },
+  "bootstrap_delta_q": {
+    "ci_lower": 0.012135163090994478,
+    "ci_upper": 0.023296783897405693,
+    "mean": 0.017362030179219744,
+    "replicates": 100000,
+    "seed": 20260820
+  },
+  "exact_sign_flip_delta_q": {
+    "enumerations": 1024,
+    "observed_mean": 0.017362030179219744,
+    "p_one_sided": 0.0009765625,
+    "tail_count": 1
+  },
+  "inference_note": "seeds measure algorithmic stability, not independent biological replication",
+  "mean_delta_ari": 0.013742195598846013,
+  "mean_delta_nmi": 0.02098186475959347,
+  "mean_delta_q": 0.017362030179219744,
+  "nmi_wins": 10,
+  "paired_units": 10,
+  "q_wins": 10,
+  "std_delta_ari": 0.008984883918597458,
+  "std_delta_nmi": 0.011133497421813408,
+  "std_delta_q": 0.009556767297934846
+}

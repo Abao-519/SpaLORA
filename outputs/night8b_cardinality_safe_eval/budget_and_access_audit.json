@@ -1,0 +1,22 @@
+{
+  "AutoDL_API_called": false,
+  "evaluation_elapsed_seconds": 6.794488934800029,
+  "evaluation_limit_minutes": 30,
+  "fallback": 0,
+  "gpu_used": false,
+  "independent_recompute_limit_minutes": 30,
+  "raw_Y_read_lineage_after": 2,
+  "raw_Y_read_this_task": 1,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "scope_counts": {
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "head_transform": 0,
+    "training": 0
+  },
+  "third_raw_Y_read_forbidden": true,
+  "wall_time_limit_minutes": 90
+}

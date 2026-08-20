@@ -1,0 +1,1792 @@
+{
+  "all_match": true,
+  "expected_row_count": 297,
+  "failures": [],
+  "root": "/root/autodl-fs/night8b_raw_runs_20260820",
+  "row_count": 297,
+  "rows": [
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_0.json",
+      "sha256": "50ce6068ba2693f1e6db27e7e2ea53d9d829ef5aa0f37f5f9903625643e784ba",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_1.json",
+      "sha256": "8e3337ef2213de9fc31937ee9132c1403da622e59beaf2954e9498c93ef756bb",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_2.json",
+      "sha256": "b5ad2595a073ec1b3369bff725962b8d8e28a0ff28afc749caded266cb06a41c",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_3.json",
+      "sha256": "2fe9c65befb1d9082a3fdca8b7bdefe084a68dfab8f4f34fa9e4e878a30de59c",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_4.json",
+      "sha256": "3cfb120461857c8247823580e652078248049e4665e17154542e0c6f83c20a70",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_5.json",
+      "sha256": "ce726d4eabfb0d16c2cd116626317f6d90d8b5059ae4138241abebe694bf93fc",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_6.json",
+      "sha256": "8367bd68c72dc7fcfcdbccf590bdd0953d0252b6e94ade9596fd8248a9840f4b",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_7.json",
+      "sha256": "526de46e730aaaa1d4e79797f12c1e8deb273b8d1e2b623e0d8de90d13968431",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_8.json",
+      "sha256": "35f75270561417f950ccf0dcc7b931e5a92a80e8ab4e222ac2de246a05857d1b",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/configs/seed_9.json",
+      "sha256": "8d71ece3e326eab32a7d557450e3f5681c238ef3f07d95031dfb177d54cb5aed",
+      "size_bytes": 118
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/adapter_unit_manifest.json",
+      "sha256": "e6e011ce253218d54792f502e6c32c801f811bbe8b4af3878523fcc6816bbbbb",
+      "size_bytes": 2125
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/embedding.npy",
+      "sha256": "012471bc9e4f51524756a77eaef8ee7a364740277fcb2487c15076ae22dc8562",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/fixed_indices.json",
+      "sha256": "a0af8df584692dae3d4f9f6f32934c51ee9cdd46958c80903e752df040ed1180",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/loss_curve.csv",
+      "sha256": "9abb74b7645ebc4526c58aa3a9e76f02529ba6107dcb3829d75197be816b810c",
+      "size_bytes": 14459
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/model_final.pt",
+      "sha256": "4afcfbd2c70d8ec3c0dbbc673c6eb1e8e6bf160424ff8abbc8b89692a30ca092",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "4f1c48c012bb08f927967adc260f3c55abdf6369dcd0ec09b7c4cfab277d192d",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_0/attempt_001/worker/training_manifest.json",
+      "sha256": "15230f2efbcd05f56afc38bd8754c2602d11f42c8a6c65f3635167d79bac5a54",
+      "size_bytes": 1664
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/adapter_unit_manifest.json",
+      "sha256": "ca97709cc30937688808f340fed898dbd401ef4a52d789755dbbd58072e7f681",
+      "size_bytes": 2123
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/embedding.npy",
+      "sha256": "72ca6e37b291ff46b5d5f15751d7c578efdf1705b146e8abc54723eb431e38e1",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/fixed_indices.json",
+      "sha256": "bde9ffc43ffcaccb11bdb313ed4b92fe24f25c3d772a6176fdae22ee076fcf8d",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/loss_curve.csv",
+      "sha256": "b9891361d68140ce3b6b96046a8bfd7244efaa1d627b73241c3462e8f062a98c",
+      "size_bytes": 14445
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/model_final.pt",
+      "sha256": "ff172180b94bbe51a049cdd0f6fd2f6ee24e551e083f1bd3093ebb3f43f27302",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "750fbf038b1c89bd473564832074d8a86c1d209c9834c2469af78f1bf86c89c2",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_1/attempt_001/worker/training_manifest.json",
+      "sha256": "9ae91e6684d6df031465fe6a5b29e478613a73d9becd49c0afdcf2a6191158a0",
+      "size_bytes": 1662
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/adapter_unit_manifest.json",
+      "sha256": "42b25f49cd58f07a2917186ded3aa7d5292611eac0c87b7637b5e0aa5b762464",
+      "size_bytes": 2125
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/embedding.npy",
+      "sha256": "5341bab8ee8882d69cb4a6203758d7802ad12f5a44655abb67fe22de39f37fb4",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/fixed_indices.json",
+      "sha256": "57b4e6fb063e7ed29308bdf0fda6cc162bd9d7e163ac99f71031b514201378f8",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/loss_curve.csv",
+      "sha256": "7c84ad95385075b5820a5b68abe9ff1bf38aafeada6f23eee6f5b7fcdc9dffae",
+      "size_bytes": 14430
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/model_final.pt",
+      "sha256": "bcaba8b8f0b1a0d5fbc54b751d414d52c4b7056c4cfcf8429b5bb573b874333c",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "0bab46cbe1299041c544f146ee38ccc89848664017f9b93ad10f5efe80c5205c",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_2/attempt_001/worker/training_manifest.json",
+      "sha256": "a0c4e8b8f3ee5b567c165a4fbaaa5a48347005c126b53a308a5a96aec637fe94",
+      "size_bytes": 1664
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/adapter_unit_manifest.json",
+      "sha256": "fac09d0bce7cd5921f9245ae2489fbb4ee3861e8e8d724a8ffafdff7c54a98f2",
+      "size_bytes": 2117
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/embedding.npy",
+      "sha256": "d29d677c0b1b86e678346f99a11850033ad94d004612fe046e1732a4738baeb2",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/fixed_indices.json",
+      "sha256": "f6d348beba072440c842192c1ebf4dc1118d0a54d0cc3c3b725b16a0d5c7432d",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/loss_curve.csv",
+      "sha256": "dd15309c2dc04f1c5528f6d4bb19d19126ac53d274396c16393eb374b263037e",
+      "size_bytes": 14443
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/model_final.pt",
+      "sha256": "392abfd57cd5383aa4c758c015d801129b56842faf84e42c99ca8129023eafa4",
+      "size_bytes": 1483361
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "8d80696ba38c9ece8054291c187063121da1e3bfa09ec6dadb2d987d927ffc29",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_3/attempt_001/worker/training_manifest.json",
+      "sha256": "ad8e639cfdb341b4d6238903c2706265d1eec280c282b3c038bccf9ac21cf98d",
+      "size_bytes": 1656
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/adapter_unit_manifest.json",
+      "sha256": "bdfa4c23b3cff091c042a7913b07923f316286bd2847e289a0c3e1a477672d24",
+      "size_bytes": 2124
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/embedding.npy",
+      "sha256": "f8aed21066f50d1deadafbfd91c9be2fb9ddc5982f6434557658482a682f8b1e",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/fixed_indices.json",
+      "sha256": "84a2314fb0a3b1e38dc39113453ff668ea77b29f4150c0de1981b4a8d6c30ae4",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/loss_curve.csv",
+      "sha256": "2381011e7d25694300b8b2bb111eee10b48ad4acf83eeaafa00fe48f158d41e1",
+      "size_bytes": 14476
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/model_final.pt",
+      "sha256": "49fe06bc277a41a9cf31ecd8eb8d5670b65486e37bdee06011eaa21bfe271f54",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "c7536664dce7a110d6aee0ad9cc02851a3ce30d7568c1a06ac1033b6bf46388e",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_4/attempt_001/worker/training_manifest.json",
+      "sha256": "ea318edf49977e729b0c8e49a730764596c98e7f68c37bd1b6510300ebb917ff",
+      "size_bytes": 1663
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/adapter_unit_manifest.json",
+      "sha256": "c53702474d03dc59a5e3fe2b110559ff928f3747e8c8dad4396d2eef408c0612",
+      "size_bytes": 2121
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/embedding.npy",
+      "sha256": "86da2b91a74e313442a5514a7d3be0436a78bf342e3cc64bcdf851f4f5191a2a",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/fixed_indices.json",
+      "sha256": "cc5a2f050c6941cf729abcc2c78c5487157ab18e6e990c2430ad7bacf407fb48",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/loss_curve.csv",
+      "sha256": "4946cf096be53cfa8ef0704449d03a81445111294b8bd1d1eb1d8e496ba5b22f",
+      "size_bytes": 14455
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/model_final.pt",
+      "sha256": "cb63d665d0830f476c72d1794e351c710b7173846baba2fc83f7e42b031681cc",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "2af661fb74d3a2975c6f0c29d22f12252981abc8e605f516f55996dfcdc89d18",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_5/attempt_001/worker/training_manifest.json",
+      "sha256": "da7d6677e69c917a4f96e4ec2b4782725c80ec118daec777d93b0e83478cc2b3",
+      "size_bytes": 1660
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/adapter_unit_manifest.json",
+      "sha256": "1f67fd8b5426f350c3736d5f6a6b9aa42b1b10eea560e01e29890e1454763c4f",
+      "size_bytes": 2124
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/embedding.npy",
+      "sha256": "c06052156491ea9c22829bd3c689fca09e333668e73b857ea2901a4e8e32562f",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/fixed_indices.json",
+      "sha256": "4c8bce004701b718bd588a6056e4abd88f6d4991b321e46428c1a6ade74e0e37",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/loss_curve.csv",
+      "sha256": "7b3abd9619e6ea7ceed8f18f007d973896bb4eb4712a882c696dad11ad7d2c07",
+      "size_bytes": 14483
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/model_final.pt",
+      "sha256": "d535e2bd798a8275cf47fd9a4bc45b0bc7a45850243b597bdfc1ca7beffb8d9a",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "ce6d77fbee3fd13ee47e86ba4cafcf2960853c540c49ec08eb0e7fbf49874c59",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_6/attempt_001/worker/training_manifest.json",
+      "sha256": "33a83db0312d21298a00c1d76ee7e097589ebce934af074af000a6b43b7d5431",
+      "size_bytes": 1663
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/adapter_unit_manifest.json",
+      "sha256": "b1cc86d3d17318ebccd33de29fa3573bc2221219b1dcbccc0b447f70a9799025",
+      "size_bytes": 2124
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/embedding.npy",
+      "sha256": "d343b11015b2037e997cc30d2d405db5ecd7e4f40394f61a98d05c802cf2e8ae",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/fixed_indices.json",
+      "sha256": "c71c72e8f54ae03a103fd5bb2823e8dba03f329b66b71f1ac859614709a37d2e",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/loss_curve.csv",
+      "sha256": "24cbbc101ea32db5dd0a3a2137e99ce1b3b221e9157c2e4941c5e03758a485ec",
+      "size_bytes": 14458
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/model_final.pt",
+      "sha256": "0bee478ccdd358db34cb7f966bf2cce57bbb167009c51fd11d3137ac41d6491d",
+      "size_bytes": 1483489
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "37a5f8bca70050e3928b27926329ff4e778a546febc16ea3b700aaac0b63f0ce",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_7/attempt_001/worker/training_manifest.json",
+      "sha256": "00714e49a82e0a8ea47a98866bfbc2739663a0cc055c0363c8d6e41b1f44cd81",
+      "size_bytes": 1663
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/adapter_unit_manifest.json",
+      "sha256": "adb3334e6a9fd0628e5d702ea7ace05b9251bfd4462ce9cd4f6aaffb2315d589",
+      "size_bytes": 2123
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/embedding.npy",
+      "sha256": "1760c864c30277532d532d6019463f0e96b015c4cbcc65a7c13b5babf21bd1d5",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/fixed_indices.json",
+      "sha256": "0f39b9f986add7319d4b1130e0190843a70cc00811268ec8c8b6d4384a69b393",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/loss_curve.csv",
+      "sha256": "6917ce625d0119797b7f605910b88c62d389e7efe2ad9d02eeaee04fd5f7bf1a",
+      "size_bytes": 14491
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/model_final.pt",
+      "sha256": "8cf1fbcbc98d3496276adbc6bb95c088c458f8d112a8636026bb93f0ac452560",
+      "size_bytes": 1483489
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "682b854af83fb4ebbf4028d3befce6d45a95a6f3828ccda670dd0b353c11a6af",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_8/attempt_001/worker/training_manifest.json",
+      "sha256": "766f2fafd2c293f5a31faffbb02e0a8007d9eb8c32fad217510c69313f3549af",
+      "size_bytes": 1663
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/adapter_unit_manifest.json",
+      "sha256": "cf963a3e1df8516e1d573a53ef685d647e56d7b50856a43fe34d111ffe065a10",
+      "size_bytes": 2123
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/embedding.npy",
+      "sha256": "f22d439db26dbe2c150be12ad9085013128c9492d0c9944e3d1ce10f09e511d8",
+      "size_bytes": 499072
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/fixed_indices.json",
+      "sha256": "2cb38f7f6af924295cdaed564794f94c6306ae5bdb1841854dd00c1879fa142e",
+      "size_bytes": 1470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/gate_weights.npy",
+      "sha256": "df501a0ceffdc37b9e1a2ccb301022e9d0e48327cb7e84da02c201fc3ef53e2d",
+      "size_bytes": 15720
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/loss_curve.csv",
+      "sha256": "3e59bb8e2e5d67472e78157fb8374a6c9e3d9ea0667e9f8dd6ddcaf6e7fe3565",
+      "size_bytes": 14446
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/model_final.pt",
+      "sha256": "28f9d7f8c0afc50bac635a3d84034f8e8cfdaf5b9e5f666cfa5613e5885784a5",
+      "size_bytes": 1483425
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/reload_forward_audit.json",
+      "sha256": "f88d8f22f707bb607d431150fd9937cd265f90c06f778a7eb4c36d9b76f749be",
+      "size_bytes": 368
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/formal/seed_9/attempt_001/worker/training_manifest.json",
+      "sha256": "71dee3fe611195ec9d3ef4a02e676a758753dbb05d3b2b5f5379c0f51de7f084",
+      "size_bytes": 1662
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_0/c06_affinity.npz",
+      "sha256": "29e2c93967129b04bb577ddd2e6d64707112b987acfe209649c5550ea62a6d1c",
+      "size_bytes": 315320
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_0/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_0/s00.npz",
+      "sha256": "7c4cbd47cb4c964136bb2437c5eab6fc4729a2c188c57eb76d9c1d1802611ad6",
+      "size_bytes": 242731
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_0/s04.npz",
+      "sha256": "429d16518edb4fd9de618744089019fc9b4b115b9fbe36bed34fbfb4359e2a4c",
+      "size_bytes": 251313
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_0/worker_input.json",
+      "sha256": "5010e3f61de0dad5e240e3cc660d91693c7f4890ee4d80f68d21359e9596d3e8",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_1/c06_affinity.npz",
+      "sha256": "32df4fb006484b4261b7f98d94990443c8b9f1509ca47d9758f9fffd00dd9a2b",
+      "size_bytes": 319444
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_1/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_1/s00.npz",
+      "sha256": "2de3318be70618f669c62a7bde7cdba12ce43374607af5908d8a35207353cf05",
+      "size_bytes": 244646
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_1/s04.npz",
+      "sha256": "841e53aa3ab342557d8dcb166e0e520e3ca43875061f39046b2897d158044a3a",
+      "size_bytes": 257874
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_1/worker_input.json",
+      "sha256": "34826b559ee8ff0b7cf95b822da2836e9dee6a9c245f970794d15ee385e6eddf",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_2/c06_affinity.npz",
+      "sha256": "0a9958b8c05c43c5c766cdf839efc76e0c338814343335ec57205dacf6444113",
+      "size_bytes": 316553
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_2/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_2/s00.npz",
+      "sha256": "83a6f2c3b6077f77408de8836c879b43539556cfa4f8d2d7be1874dff72b96ad",
+      "size_bytes": 244625
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_2/s04.npz",
+      "sha256": "7bdfcf1f2304e41d148bc18dbe7a796c6a94370b53b37518032062b9f9942c19",
+      "size_bytes": 253998
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_2/worker_input.json",
+      "sha256": "ea76c0ac83dae5dca10a776375b24e0a5f1b02134b884e02f6c1e48569d0ecfb",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_3/c06_affinity.npz",
+      "sha256": "aec89765c903f0c01a001f869117247b777c89cd97a0c02ed6e2c1eff2e4f740",
+      "size_bytes": 323471
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_3/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_3/s00.npz",
+      "sha256": "a079550e7d85fd95c7a94afb6b383fe5573eaf7d63b21e0a6b35e774f70d7f21",
+      "size_bytes": 248654
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_3/s04.npz",
+      "sha256": "c5898219591df5d6568b48729be600f7d5a9d5a48d70040d4356e81eda203de4",
+      "size_bytes": 255984
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_3/worker_input.json",
+      "sha256": "171b8c427e39e84da0823e01450a49445ec57dd0a8d143c16a5af5b77da3f792",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_4/c06_affinity.npz",
+      "sha256": "05ec5132c9b5dbed57b99b97d9a804e8c0897595be7da6e007dca04afe1c83a9",
+      "size_bytes": 317988
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_4/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_4/s00.npz",
+      "sha256": "7533d32ff3b879345c748574fc92fd93b79847b41a1baa9f10971074e684b967",
+      "size_bytes": 246388
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_4/s04.npz",
+      "sha256": "6f98b23e2cab8e52ef668f3e857ef49cbe07d07f86eaec7950e81eb60cc96658",
+      "size_bytes": 252446
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_4/worker_input.json",
+      "sha256": "e0f395f3f1f2f453667ebf7b8f516a8d057db2f27b1dcaed7123e9446c17940a",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_5/c06_affinity.npz",
+      "sha256": "2783c1f00a71956e44d6ecf9a89c7eba631a3c9a541dad3de8cffe9a34cf01d3",
+      "size_bytes": 320574
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_5/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_5/s00.npz",
+      "sha256": "b2e8e9d4b24f8857aebc0b87b45f73d4266da74da6b201fb59e30c03f3896142",
+      "size_bytes": 245833
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_5/s04.npz",
+      "sha256": "cf60970668d5a7cfb0d7803756144b4f86476dcf4ff4936274a2dedad9bf208b",
+      "size_bytes": 256947
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_5/worker_input.json",
+      "sha256": "5eabe5bd9ab9b680f4e99986f827d23150791739a95bceb91091092a9c4b7b0e",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_6/c06_affinity.npz",
+      "sha256": "878b4c261618bdebacade56b511b125949ce134d441567992aac9048e429c32a",
+      "size_bytes": 320796
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_6/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_6/s00.npz",
+      "sha256": "949a3c185521bea4336f95064fbbcccfa4b09aae00a7795fb8f603eccb7b76f6",
+      "size_bytes": 246088
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_6/s04.npz",
+      "sha256": "4dc1a865e9fa0d330eba34eed2b482f15ad69ae0f1f23225230912f89deae6ce",
+      "size_bytes": 256375
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_6/worker_input.json",
+      "sha256": "cc0eac31a97aa8073f94b6d28dccabb5aa30878cbd43a09ab9112ccb1e3ae44d",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_7/c06_affinity.npz",
+      "sha256": "4068814fb9b6a4e5647dd72d3af4f3b924e9cc389a8bcc5c6bf9a173adfbaaa6",
+      "size_bytes": 320646
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_7/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_7/s00.npz",
+      "sha256": "0beffa403fe57164f95862483513df63b16749b70f9b2648653733faa637a434",
+      "size_bytes": 246226
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_7/s04.npz",
+      "sha256": "6ed2c10a317e87e4b9a86009a72447e4d184be17fc59d277305f638cb879e6ef",
+      "size_bytes": 256315
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_7/worker_input.json",
+      "sha256": "d12e768baaec54b265c9f9428ebf513ae0d8522a4c653526e8bac549b8db8110",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_8/c06_affinity.npz",
+      "sha256": "ee349d5341033c8ca55823abac484f36822f62ad00de698d4a2bb77f72b8f30b",
+      "size_bytes": 320084
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_8/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_8/s00.npz",
+      "sha256": "dcd4951b10f326203dc486a74b3d4b94aa0ab0acf18f5b96f8d039c2531f36dd",
+      "size_bytes": 247866
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_8/s04.npz",
+      "sha256": "fb5ee94f7ab5c84a10f6d0588d052c63085e13c0f8290429add9e991d0f6cffb",
+      "size_bytes": 256362
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_8/worker_input.json",
+      "sha256": "23246d6b704cf06aaca850222a35a1bbb3d6854b9e2bbd270361922438e53dc7",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_9/c06_affinity.npz",
+      "sha256": "b3cb4ddf2c24096d994a94f50acab187fc14b493be49c4dbc424d23d7a053549",
+      "size_bytes": 322627
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_9/observation_ids.txt",
+      "sha256": "c5b6375c6a20e215f4fee3b025dd81103302d9a95d498f71a13e34beda9e6140",
+      "size_bytes": 37031
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_9/s00.npz",
+      "sha256": "c440f30d96967d02860d0b00bc0a84d61f238f05c82dedcfa1d26238f644e1b8",
+      "size_bytes": 248520
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_9/s04.npz",
+      "sha256": "15dad862d66c85852b29e56f421f90899a2c7aaab11898605652ec1faccee6d1",
+      "size_bytes": 255225
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_9/worker_input.json",
+      "sha256": "ea80ab9cba7b5bfd538e34aa769c7afa12bad40a368e7ce4fbdf904fdd0ea618",
+      "size_bytes": 771
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "8d305abc2ac1ce977a8fca60f92d81f290d8b26165d9b2a32ccec241dc42e53f",
+      "size_bytes": 5461
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "c7ce6939643bcf28c7b237720b7756fd425210081021036a1ed0e85fce793e29",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "e850198c31f7b48331682bb8067813bec908ec08fd3b518ff4ae40e1207943b6",
+      "size_bytes": 3250
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "d612d33da3d8e669d4caa790ac2edbb773e37aeaf9152c478a80f3666845b0fc",
+      "size_bytes": 2816688
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "a197e579f746fcae75817a4a8119b017d0b38dca30ae1a1acf19a34526789e5a",
+      "size_bytes": 5466
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "10251dbd9d638ffa8b5012d49e2500b773096cf10e1d668851d32274abf2160b",
+      "size_bytes": 6950119
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "0e93488ccf5586a7f73b4a5762c3e251e1683921fa25c4c1d7cde6d9d2b53f4e",
+      "size_bytes": 3249
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "97aeff5ddff5124c982ca36d6a69384bb6add28de77545d9b4aeedda14fe735d",
+      "size_bytes": 2816346
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "077e9741bc4e90db0b426049d51e2b582289ea835dbda4e68f757f60a26ca328",
+      "size_bytes": 1533
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_0/attempt_001/base_unit_manifest.json",
+      "sha256": "20ce5fd0a4f11e80c561412e10b3798215422ab98c9003d2a5948d7e7e6578e8",
+      "size_bytes": 7419
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "bd21564282538226b93aa8d2b5caf232bad6857568d5f39cc39e649bba9eb427",
+      "size_bytes": 5460
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "9a1428e01d6e34706aa461558f45d3ce24c6ebe27297af49c3d2602aaa918250",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "376f7cfa668757348c2e5946c293bc8b782220a8c758df8d02abe33f4be471c9",
+      "size_bytes": 3247
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "4f3734a3f9468742a9912520f38001a2ab3f1d30a339f2df69a806676b5f0814",
+      "size_bytes": 2816878
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "e8fb4de4f12c7de619fca8f5558dbdd676d18f1015ee2daaa2aebe268fb9f240",
+      "size_bytes": 5456
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "c5b925dd91a73f716eff5151cea0c37b67ec75cf61a8def6a69c86c035937d05",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "0d6e0959f36a9d731c4b0c57a0043d9ac78fb8aaa26397bd7e1f132f7dd0c909",
+      "size_bytes": 3251
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "f430fbdfcc84d55f905be595067904a6a37aa4920b436475b0b9af0edd79d826",
+      "size_bytes": 2816415
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "fe58b0059de488d17f33f5e34499d431df80d3e17b2be73d4df3585e4618f2fe",
+      "size_bytes": 1531
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_1/attempt_001/base_unit_manifest.json",
+      "sha256": "db9385f34db0f9a57e8ce3496dfe63025ef0213c5e1140d53f00fd5f60155abc",
+      "size_bytes": 7419
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "c5e2b3ed6ea89265efdcde00f33deddae2653e123be4ec2772cd968050f9d77d",
+      "size_bytes": 5451
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "661b672fd730c5e6f7079b804606b729461a506cfa34e4a0b3bbc313a0000b0f",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "c9808900915b786f805997802f06cd82511f6d7f3339691194f69c71dc6a4e55",
+      "size_bytes": 3247
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "ee16840f06ecaa4367b3a5a7409b34d88104af72c0d45a43288a06e282842e4e",
+      "size_bytes": 2816018
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "a854fd84316070aa1ed08e7182fcbbc607052cd54226a8fbde08ff568de3bb6f",
+      "size_bytes": 5464
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "7e8f0e1eab87fe14fe6d86c59ba351d14299a4e9b8dcc67f913a0e530b83c2f8",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "b8cbcc90b2d950b2203581d40e596f4fc007fdc3f20bd70096d56552de8c093e",
+      "size_bytes": 3250
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "6c1fdba6f5e1d25339c6989302cf3c859f1ee2b431a6df7e89ee42a741c66d93",
+      "size_bytes": 2816384
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "979919fc2858b483bff9e38473f9014f2b3d04cc22656881b688dfab33b9e7e6",
+      "size_bytes": 1550
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_2/attempt_001/base_unit_manifest.json",
+      "sha256": "f73593a5214eefb6e0a9d791bea107548daf99fdcb84d04469e108481911bd3f",
+      "size_bytes": 7417
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "8a416e15388cc33bb9be1c8cb507badcb5b55d63f713788d55777fbba11a2300",
+      "size_bytes": 5465
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "01fac34dbadb8d70c4f8b6267d7612fafbb6762f576f7deddcd30369aa00b40c",
+      "size_bytes": 6950119
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "833c3d03f08bfbce37b27b8cb8711672f76e694558078c49f8f434af3ddb8134",
+      "size_bytes": 3245
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "27621ca5ea3e1e3bde39d9b31e93dd6b040e28401e72a636ab38a3fe2b4181a4",
+      "size_bytes": 2816508
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "2f694a1936b42f59ad0b9384d45d899966fc8924ea937c93a84ff7edd7256795",
+      "size_bytes": 5476
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "1dd8851712435b69e11ad751df899a239fc55cd3a416afe0235c42961f31f311",
+      "size_bytes": 6950119
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "03cd5f845720d999ede6376e30babc029aa6db648d6fda22a70cc8b44702e4b8",
+      "size_bytes": 3250
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "fa3d8bbe186cc9b13755127f22b844497c8b00723eae33680d25ce6c641fd66c",
+      "size_bytes": 2816147
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "6a6a6b86e8e37d880c6a2ef6069893224692c83e404259a4956530e8dd1fa6ee",
+      "size_bytes": 1571
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_3/attempt_001/base_unit_manifest.json",
+      "sha256": "8340e025eea032bb8fb60b1435690d3f4555ac03f39f40cce1259f9cd41030e1",
+      "size_bytes": 7415
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "9dcce4bb4d6900dc4dd918ac52a0784714c6eac957948d5505c91f2bb5cf87e5",
+      "size_bytes": 5473
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "dfe93e5ec3217a235bab5a7d4db16197031d874d638a076a768f6ca771636ee1",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "25e656b69f53ed240643209dac14356c7ccfde7ab0264b2291d85ba007329cea",
+      "size_bytes": 3248
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "8313f4dc9aedc46934090f11bd6e0a3a5ba1372f13c385bde6f31df0209f3b48",
+      "size_bytes": 2816606
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "6c5dc817a2f4946a021e2eb80807f79a89629dac544002bbec8baff9c5d55398",
+      "size_bytes": 5470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "8d823a7dfc06ec74c7c6c722417da0fb6fb87f808f745a19f4868cbe7fd4b26d",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "77ed26a31b2f9b6a429733c64d2ea35f88b09172e8a42106dd911d6d1563c89b",
+      "size_bytes": 3250
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "e7cf8f6f763200e58be316b689b74f62e1b21202a3e91b51177b6368dc79718d",
+      "size_bytes": 2816313
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "9f5b446c735f7f07badfbad12f7cbb4c35dfc168475f9363e3eeef8ca1d8644c",
+      "size_bytes": 1570
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_4/attempt_001/base_unit_manifest.json",
+      "sha256": "c3f813b6d61275cb81ea9f55882975ef4f5e8d5e100c998c4d39d12b21fc3c5e",
+      "size_bytes": 7418
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "4a7d01cc5496ac06357c1fe13f7cce43ab12a5443c5a89293152929761044906",
+      "size_bytes": 5455
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "2563a19cee711d544ef5574647212020239a0ecbc56d89e5cadaf76d92a49745",
+      "size_bytes": 6950119
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "d241bb53ccdc653f4c4c5c604a04f92aff039aa7e758cd60a944c0d0ecbc72fc",
+      "size_bytes": 3247
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "bdd9b9e202658f6be73aada6b5ab2ecc14b7567932071c85e1a33b0632ae2ec4",
+      "size_bytes": 2816318
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "41395ac554e3c95fc91d5aa7c6a0130ae67d3c12309a76a5ef8aefa912cb561c",
+      "size_bytes": 5475
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "cb08826bdd1326758f7131a9028b5d4d7aa31e8af3e7ff7b8bcad9258a4ca2f8",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "ea07de3b705663b12af858d18adbb0cc18db012a35ee6edd3af80370c3e5a6b8",
+      "size_bytes": 3252
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "410bd0ff4faaeb7d6d2a5893474411582d793ede8190dd57c6c2eaaef52db910",
+      "size_bytes": 2816396
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "27709e7f7708efcbfc0257573b9402dca2329aa1db309d9d9861b975513a335f",
+      "size_bytes": 1566
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_5/attempt_001/base_unit_manifest.json",
+      "sha256": "ef1e5bef99e590422985bb2fd172762ae61dd71ff627c40b717e59b2fbeef13a",
+      "size_bytes": 7420
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "99dfd902b9f87fb392a6b743d8097c9ef2b2d08cdc747725a01d2ad14bec5f52",
+      "size_bytes": 5457
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "723d636c94bae85fc47c4fe5cc08b1a22bb34f46e3988dfa52580a2610e118e3",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "8bfac729673351dcad113f63abf9c8957fa98879c78a8ab65f8ded66f38c4a71",
+      "size_bytes": 3247
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "06b961580343b8040a586b61edc3666faf7918775d44d1975071fa0e2a9b8e93",
+      "size_bytes": 2817008
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "814635c56b1aec4abf374ac0c70cf10881e224ec5bea895ba9d880c0488612aa",
+      "size_bytes": 5489
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "b8988385f6fe5c5d330d7e8a22962cecde1a7c9ea27d91c59d09bc6978806793",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "bc73e918a0f7c62b2b88e3d819546faa15329ff89568ed0a91a1818983b4782a",
+      "size_bytes": 3251
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "5974aecc7884fdb6e62a24683866d9f0f3373e9b8b0fbf7782c7265c3e379fe0",
+      "size_bytes": 2816393
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "a917c18a824eeebc1ea2a54df4852d1e76959f9c5efef4698c3f557852eceed4",
+      "size_bytes": 1532
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_6/attempt_001/base_unit_manifest.json",
+      "sha256": "470c43f16ed70e99d9e0f37587d9208293de6f4edfb179748c607d4007b6c5ea",
+      "size_bytes": 7417
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "16fee2b3ccda503f084b7b9634ad20ca1e43af0f98a14b87720bb0b13f4849e8",
+      "size_bytes": 5470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "a223e3bc7e2afb1a3671aabb1fa6a2d9ddb9074eb9ea03f1cd445709a293dc6b",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "3fac8b96f994e1e0708ec1b3615a5af790dc820f62f01c3c7bee089921fa1347",
+      "size_bytes": 3248
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "a38389b5acf9fe845ff3f2c20e42f33480a2fd051b42c761a41b5ef7ff86b05d",
+      "size_bytes": 2816163
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "3605329b11a2dda90c603a7765604c83538a3acb6758cc2a897ef92ad482a4d2",
+      "size_bytes": 5441
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "d07230b9772f813464287949feda851345e96db93dbbcf3969ebb55ca15d8d5c",
+      "size_bytes": 6950247
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "d838fb1d0d1137649a9ca4b8a338aa6d52bc0de12585e4d007e52d22ec7c391a",
+      "size_bytes": 3251
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "af98d53d98bf35178ba7fff51019f1f57eb8bcc21ea14a7d8e0d1c267bfdce50",
+      "size_bytes": 2816475
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "211118bf6ab5aa7b330b5f78e3130af9ef1bddcc360ccd2dab6eb68323454b72",
+      "size_bytes": 1551
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_7/attempt_001/base_unit_manifest.json",
+      "sha256": "1873203bd3c896219f51f6c9694a77a08df6bbf717740388e571409ad741a112",
+      "size_bytes": 7419
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "57560267c98cac78ae6b76a1b06af1e4b1bc963196899d29ad3119c831200c16",
+      "size_bytes": 5462
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "2078a1b1c0f17c5f712976baaeb76c4807fcca32f9eafc402d2912e8f2931e46",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "adae12ea34261cfd653527c5d55a966700d2f6d4af74a802e87f8ff68fe81edb",
+      "size_bytes": 3249
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "eb54e8fc336a41a7f67952eb76f1d6a367bfb999a86be1386f8b7d68e2964074",
+      "size_bytes": 2815728
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "0a7541395fda7e58b8408c7650380727636404d76b7adef55ee89f47afa0e2b9",
+      "size_bytes": 5461
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "cbb6acff45bdaed03b681fbfd7164d5e8f4a5bd4ba9110eb9cf69346641fb96b",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "ed77baf2c7137c19304d39e2c78104cde854bb260127c98e9c05ca3c59943197",
+      "size_bytes": 3252
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "5424131b55be540b99c5fbe245058d42d990a788cfa6703c8839cf0cc29a1f25",
+      "size_bytes": 2815794
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "10d9298d690f163e00716e3809e01da22d5e35550d84deba7355a33ab4be8c5c",
+      "size_bytes": 1531
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_8/attempt_001/base_unit_manifest.json",
+      "sha256": "8f9af713f92022880c41a3a1100e0a097ca8b21eaaae271d755bc7c7166df357",
+      "size_bytes": 7421
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G00_SP18_F20_CORR_UNION/loss_curve.csv",
+      "sha256": "67c7805226561ca12eb6915fd3ea723f7ca9ad660377db9db2123356c6a06d10",
+      "size_bytes": 5470
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G00_SP18_F20_CORR_UNION/model_final.pt",
+      "sha256": "851647de24b9f1808438b97d72532e2fa7f21192958638758452019550d6bd6e",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G00_SP18_F20_CORR_UNION/training_manifest.json",
+      "sha256": "567ac2b3bdceb745b557bb9f8810a9e4ee343a84425d460a69a962bde6fd4ffa",
+      "size_bytes": 3249
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G00_SP18_F20_CORR_UNION/views.npz",
+      "sha256": "13860a86e3597cd0ba2a061fa8397dbb16a393ad1606f80ecec71121d22b056b",
+      "size_bytes": 2816137
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G04_SP10_F10_EUC_UNION/loss_curve.csv",
+      "sha256": "3409a6ed1baaf3b57537934cda5e3f151c7d845996b9374a788f6b2ebcf2d3e7",
+      "size_bytes": 5440
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G04_SP10_F10_EUC_UNION/model_final.pt",
+      "sha256": "7a421b9610c7addbf0d47ccb220fde199f33e426f1cd66156f746f11a0b6ee99",
+      "size_bytes": 6950183
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G04_SP10_F10_EUC_UNION/training_manifest.json",
+      "sha256": "25c10b40ba86251d20e94fa793c605196ead4671c7fde04616da59c3027c7928",
+      "size_bytes": 3246
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/G04_SP10_F10_EUC_UNION/views.npz",
+      "sha256": "a0a8ab23eb85290be012dd0cc5fdf4cb3edbead36a9ea30f9e495e2c32d7d98a",
+      "size_bytes": 2815800
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/base_checkpoint_reload_audit.json",
+      "sha256": "51ac899207a5a53a0fd42f420cacc9691e4b108ee336ea8fd1aa7a0fde871a11",
+      "size_bytes": 1550
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/base/seed_9/attempt_001/base_unit_manifest.json",
+      "sha256": "d39ab9e45a787a246d48d46cefd0d65b718e25c5c38e68e8d68c0960c082bd60",
+      "size_bytes": 7416
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_0/affinity.npz",
+      "sha256": "e425c8e45425094ef6ad1ff17bc3a145170dbcb6c6fcaae66865ee1f8369e887",
+      "size_bytes": 347411
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_0/clusters.csv",
+      "sha256": "c7f511992d390753277a22247dedcf98ee694a99fa5bae05e4e852151a941a93",
+      "size_bytes": 41454
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_0/transform_manifest.json",
+      "sha256": "cc3e41c2ff2eb95bf4ee9f02d408022ff78d982bb4b6ca6f1404bdedc5084c29",
+      "size_bytes": 839
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_1/affinity.npz",
+      "sha256": "32759aa4c02cd0a5313aab94707cc0fdaa53374b784997d29c25188b29e82124",
+      "size_bytes": 349651
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_1/clusters.csv",
+      "sha256": "71d1cd3053516d357cca7a08f23affda5edebca5ca7b559bbe266e99c12c4ab3",
+      "size_bytes": 41418
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_1/transform_manifest.json",
+      "sha256": "1c1043e4576914f1b37897d08a912db39bc97242c97bcacd251c5db4d16f0602",
+      "size_bytes": 840
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_2/affinity.npz",
+      "sha256": "f3c35903e9e9e694323461feab59ebaa8dc08baa23ae5c6a114b2ae240702176",
+      "size_bytes": 345029
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_2/clusters.csv",
+      "sha256": "def4ed8b8317b730e22feed3e9260fca35d689fec89224e284ecd01fe652cd74",
+      "size_bytes": 41407
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_2/transform_manifest.json",
+      "sha256": "08e009d080ea45e4253e918ad1c0aae24ace2db24f889c7aa6103e16fffecb3e",
+      "size_bytes": 840
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_3/affinity.npz",
+      "sha256": "5fb90cf348f5f2089d89d102f6af3ac13d5384e766f50d1ac844368e639e1c50",
+      "size_bytes": 356066
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_3/clusters.csv",
+      "sha256": "32903bfa309da5f1bf60ffa0c2b46de03a38791d5a71fcf98ceede7951f623db",
+      "size_bytes": 41498
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_3/transform_manifest.json",
+      "sha256": "73c52d5dc1d1d02916c1d13b40dc58e38fc5a3c12f9bf00cf700caf9b4f8d779",
+      "size_bytes": 841
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_4/affinity.npz",
+      "sha256": "71d099b35bd0c6cbf17855249a71e9918645bf5b1ba7bb693aece6bb4c4f69b2",
+      "size_bytes": 349477
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_4/clusters.csv",
+      "sha256": "5ab6323e7e436c9160c91276df92f6523295a87eef230d2b65259dbca72f38b4",
+      "size_bytes": 41630
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_4/transform_manifest.json",
+      "sha256": "e0c9ebfd5f60545cf45eb308796a47988695bd8e2a70fde6290241a8e2adb408",
+      "size_bytes": 841
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_5/affinity.npz",
+      "sha256": "3e65d963b5e8c28773e79317398f39edafdb25d90c74f0464847ce10cf73db8a",
+      "size_bytes": 355439
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_5/clusters.csv",
+      "sha256": "ffca84892c095f9ef1a282c0d5135dd01dec34edf3e69961618354ba186e9d4c",
+      "size_bytes": 41386
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_5/transform_manifest.json",
+      "sha256": "9ae380bc6c8177d3feadef92e5be54932329f10a6e81ca267aa04f8b65370f16",
+      "size_bytes": 841
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_6/affinity.npz",
+      "sha256": "46df3253f7d8ad097e303ca96b7533b8bd45f70c483073d37b932c2ee491d93b",
+      "size_bytes": 353165
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_6/clusters.csv",
+      "sha256": "c89d2d219a40bf4fe319db4051579a9ce792fbd3f9e31a906a5fd442fcc2a223",
+      "size_bytes": 41535
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_6/transform_manifest.json",
+      "sha256": "f08b718ef8054627fb10c0ddd9cb68606a4e6a68445687555889f7bef716f291",
+      "size_bytes": 841
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_7/affinity.npz",
+      "sha256": "2a3fee1811778eb6f85acb90ee5beb0ed6fc1de5635c95d4ca6062e6c76377f4",
+      "size_bytes": 350893
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_7/clusters.csv",
+      "sha256": "9a9437ca2ba8b3119c6d67a760c1c6f1347a6d2cc9ce21a9e450abf39c4d9064",
+      "size_bytes": 41395
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_7/transform_manifest.json",
+      "sha256": "53c70078f1c47afede0080d181cf8a73393df5db7997dfd9584a63ed6b176b53",
+      "size_bytes": 842
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_8/affinity.npz",
+      "sha256": "563a69f1a0e78fcd497f542767a954f64e199806a6389a560e8b9a0487d9af78",
+      "size_bytes": 354854
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_8/clusters.csv",
+      "sha256": "e86a8b49a83a5c10796c8e057ad25ea78930d4c84e0b71d28de8e32281b678c2",
+      "size_bytes": 41507
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_8/transform_manifest.json",
+      "sha256": "b5ab044bbaabf5b69d990c14dcb5c27f6e30d219f5d4471e8065aa62857bec43",
+      "size_bytes": 840
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_9/affinity.npz",
+      "sha256": "93460223f2795c9d9ac416242d7ca4df94f4fa7fba55ec27d71b4e7409e13e3a",
+      "size_bytes": 356199
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_9/clusters.csv",
+      "sha256": "196e328266b5509146b3f57ffb53c7b6f7420709c4bd634de8991fc225027542",
+      "size_bytes": 41537
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_9/transform_manifest.json",
+      "sha256": "2ced3eb715936a9aef5a48894086c3c1a9bf4345176f9dfd1b44ce8d50fb7e83",
+      "size_bytes": 842
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_0/affinity.npz",
+      "sha256": "429d16518edb4fd9de618744089019fc9b4b115b9fbe36bed34fbfb4359e2a4c",
+      "size_bytes": 251313
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_0/clusters.csv",
+      "sha256": "aaf7beab6b9ad5e82d0902f860159fd8c2b66b6b41d07f636d462ac3c7369c34",
+      "size_bytes": 41275
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_0/transform_manifest.json",
+      "sha256": "6db80bf05dcb6918d17ebadb15a4a2b81784a79be8fe1d89dd4500173ee16b85",
+      "size_bytes": 845
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_1/affinity.npz",
+      "sha256": "841e53aa3ab342557d8dcb166e0e520e3ca43875061f39046b2897d158044a3a",
+      "size_bytes": 257874
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_1/clusters.csv",
+      "sha256": "881697bfbf6ed036f5a59a50a15547dc4cc2371f22eb5763d5912cc8efc81d1f",
+      "size_bytes": 41262
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_1/transform_manifest.json",
+      "sha256": "8ba4e79438698888d4dd26e483285d87a20286e1100f80c662e385f23d557942",
+      "size_bytes": 845
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_2/affinity.npz",
+      "sha256": "7bdfcf1f2304e41d148bc18dbe7a796c6a94370b53b37518032062b9f9942c19",
+      "size_bytes": 253998
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_2/clusters.csv",
+      "sha256": "cb11f95c3d776f47dbc26718433e01d939caa9ca610e4c833003f021940d34eb",
+      "size_bytes": 41252
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_2/transform_manifest.json",
+      "sha256": "9159c6f903c1ef743a6dda5014028db24c66567954ff8150d09037e416aee936",
+      "size_bytes": 840
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_3/affinity.npz",
+      "sha256": "c5898219591df5d6568b48729be600f7d5a9d5a48d70040d4356e81eda203de4",
+      "size_bytes": 255984
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_3/clusters.csv",
+      "sha256": "7ac282e7a83f8c64643fa56857669d11bad4247562e1ab062de8bcc3a9d7dfc1",
+      "size_bytes": 41598
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_3/transform_manifest.json",
+      "sha256": "be6378ce554d93d8e520d91ad07a6300f6e4e7fff9f5d64a650edfd96b7834d6",
+      "size_bytes": 843
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_4/affinity.npz",
+      "sha256": "6f98b23e2cab8e52ef668f3e857ef49cbe07d07f86eaec7950e81eb60cc96658",
+      "size_bytes": 252446
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_4/clusters.csv",
+      "sha256": "45dad5747f1d331dc792f891b8ab7693fb9c6d5c9a9d722f3ad338b05c45e9cf",
+      "size_bytes": 41290
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_4/transform_manifest.json",
+      "sha256": "d6cf634e466711fe29daf941d7cf85b29847b48e6c2607818405c142b0275c5e",
+      "size_bytes": 845
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_5/affinity.npz",
+      "sha256": "cf60970668d5a7cfb0d7803756144b4f86476dcf4ff4936274a2dedad9bf208b",
+      "size_bytes": 256947
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_5/clusters.csv",
+      "sha256": "761dacefea41d4d9907fea1715d88f3a1025c85fe1c76fb2138d7d2e9720ba9e",
+      "size_bytes": 41644
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_5/transform_manifest.json",
+      "sha256": "2cec79b38ba9083224351a0d173965658cef4e072b5127cda8a2237892f3498e",
+      "size_bytes": 845
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_7/affinity.npz",
+      "sha256": "6ed2c10a317e87e4b9a86009a72447e4d184be17fc59d277305f638cb879e6ef",
+      "size_bytes": 256315
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_7/clusters.csv",
+      "sha256": "2e0541fb184420867c56b3b198cfdf6afe57f964ab90eb15de02e5bdef41b060",
+      "size_bytes": 41441
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_7/transform_manifest.json",
+      "sha256": "61bd1c74c1d46fdcc341a20843f264fbe6d61709ec4e44848faf1e91e4239807",
+      "size_bytes": 845
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_8/affinity.npz",
+      "sha256": "fb5ee94f7ab5c84a10f6d0588d052c63085e13c0f8290429add9e991d0f6cffb",
+      "size_bytes": 256362
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_8/clusters.csv",
+      "sha256": "42cbdc0f9b46b6c17af4756568e540e131fcdeda56235f04357385be793a1635",
+      "size_bytes": 41501
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_8/transform_manifest.json",
+      "sha256": "047a6f8298d610217ff7f43dca21e3393444a7891072959d8f234c4e24b202e0",
+      "size_bytes": 845
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_9/affinity.npz",
+      "sha256": "15dad862d66c85852b29e56f421f90899a2c7aaab11898605652ec1faccee6d1",
+      "size_bytes": 255225
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_9/clusters.csv",
+      "sha256": "3709c0966abf114edf11d927b6b6b696d1068260d28403e090f52ece7b7659f5",
+      "size_bytes": 41525
+    },
+    {
+      "match": true,
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_9/transform_manifest.json",
+      "sha256": "e096ef896e4e3cd4869d2a2480847f4ce21bfbbc19b094f33dce7481769991e2",
+      "size_bytes": 845
+    }
+  ],
+  "schema_version": 1
+}

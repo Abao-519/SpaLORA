@@ -1,0 +1,13 @@
+{
+  "mean_delta_boundary": -0.008760944817756055,
+  "mean_delta_geary": -0.014034189916400902,
+  "mean_delta_moran": 0.014604536403329538,
+  "mean_delta_neighbor": 0.008760944817756055,
+  "pass": true,
+  "thresholds": {
+    "boundary_max": 0.01,
+    "geary_max": 0.02,
+    "moran_min": -0.02,
+    "neighbor_min": -0.01
+  }
+}

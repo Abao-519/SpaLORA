@@ -1,0 +1,34 @@
+{
+  "bootstrap_delta_q_95CI": [
+    0.012135163090994478,
+    0.023296783897405693
+  ],
+  "candidate_search": false,
+  "claim_pristine_holdout": false,
+  "claim_sota": false,
+  "evidence_label": "POST_LOCK_EXTERNAL_EVALUATION_RECOVERY_NOT_PRISTINE_HOLDOUT",
+  "exact_sign_flip_p": 0.0009765625,
+  "independent_recompute_pass": true,
+  "mean_delta_ari": 0.013742195598846013,
+  "mean_delta_nmi": 0.02098186475959347,
+  "mean_delta_q": 0.017362030179219744,
+  "original_spectral_terminal_decision_input": false,
+  "predicted_K": 12,
+  "predicted_reference_K_equality_required": false,
+  "q_wins": 10,
+  "reference_K": 7,
+  "resource_gate_pass": false,
+  "schema_version": 1,
+  "science_core_gate_pass": true,
+  "scope_counts": {
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "head_transform": 0,
+    "training": 0
+  },
+  "spatial_gate_pass": true,
+  "terminal_status": "NIGHT8B_CARDINALITY_SAFE_ACCURACY_CONFIRMED_WITH_COMPLEXITY_COST",
+  "third_party_benchmark": false
+}

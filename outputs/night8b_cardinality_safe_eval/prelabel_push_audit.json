@@ -1,0 +1,31 @@
+{
+  "all_code_tests_protocol_contract_pushed_before_Y": true,
+  "branch": "revision/q2-night8b-cardinality-safe-eval-20260820",
+  "force_push": false,
+  "label_access_count_before": 1,
+  "locked_input_sha256": {
+    "base_cache_manifest": "c5a8b3c3e6ffd0de378ce60f890aabcce9eccd57014c42b482e9dee180a5c544",
+    "carrier": "2f5862cff045b6a296f3cbc0a978d8576bd36f2d4c9419b75c6760c9c7e9d2e3",
+    "evaluation_contract": "da63e83272fdd95c880838e26426cc5053bcc98f2a8f9d2973d62860c8a16be5",
+    "evaluator": "ebf74c8c1eec7c016c120fd63be8487aa80d1b8bd8b9a9d59df250833bb9c7f9",
+    "manifest": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+    "mapping": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+    "module": "df423eae1b1696172d46bc0b83ae6ec912db47e5b17ca9cafd1a1571f56bd358",
+    "observation_order": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b"
+  },
+  "metrics_computed_before": 0,
+  "ordinary_push": true,
+  "prelabel_semantics_commit": "20c7c6191e1dc9b3e33eb1fb5c66705529753c76",
+  "reference_K_persisted_before": false,
+  "remote_branch_sha": "20c7c6191e1dc9b3e33eb1fb5c66705529753c76",
+  "schema_version": 1,
+  "scope_counts": {
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "head_transform": 0,
+    "training": 0
+  },
+  "status": "PASS"
+}
