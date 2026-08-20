@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "authority_count": 12,
+  "matched_count": 12,
+  "taskbook_sha256": "d9222e359bfa1c47ea1faa88bad02d1960bb05b64069531aa1e26e2258f72f35",
+  "registry_sha256": "26bc2d71b37fe801eea21df13177c493d3a4bdefc718a1ef2d30cf7b3757b3c6",
+  "rows": [
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_report.md",
+      "expected_sha256": "8fb7c8cc44152581a114d2a822503e8e301b2c6961582e4719bb584a174b0757",
+      "actual_sha256": "8fb7c8cc44152581a114d2a822503e8e301b2c6961582e4719bb584a174b0757",
+      "match": true,
+      "size_bytes": 1934
+    },
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_decision.json",
+      "expected_sha256": "54d653c9a33759789a740c3b35d42c4309cdd48fe53d0374987ddf6ef5495252",
+      "actual_sha256": "54d653c9a33759789a740c3b35d42c4309cdd48fe53d0374987ddf6ef5495252",
+      "match": true,
+      "size_bytes": 555
+    },
+    {
+      "path": "outputs/night8b_head_recovery/evaluation_failure_audit.json",
+      "expected_sha256": "2e402fe014aa0242b5340379fe91ad66d5412476e9b2cf460f7380a62bb0f739",
+      "actual_sha256": "2e402fe014aa0242b5340379fe91ad66d5412476e9b2cf460f7380a62bb0f739",
+      "match": true,
+      "size_bytes": 771
+    },
+    {
+      "path": "outputs/night8b_head_recovery/locked_recovery_partition_manifest.json",
+      "expected_sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+      "actual_sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+      "match": true,
+      "size_bytes": 23779
+    },
+    {
+      "path": "outputs/night8b_head_recovery/tracked_delivery_index.json",
+      "expected_sha256": "f660dde18fac9791e4f62cc5b2006cfd411464208b35f0cf252a39f17a247971",
+      "actual_sha256": "f660dde18fac9791e4f62cc5b2006cfd411464208b35f0cf252a39f17a247971",
+      "match": true,
+      "size_bytes": 9180
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_input_view_manifest.json",
+      "expected_sha256": "8e9e042a7de8954425e2b46fc4f878bbc3f7c698f6283a80bb30132d9efcd71e",
+      "actual_sha256": "8e9e042a7de8954425e2b46fc4f878bbc3f7c698f6283a80bb30132d9efcd71e",
+      "match": true,
+      "size_bytes": 14354
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_rule_lock.json",
+      "expected_sha256": "9b098fff1b80cc3e562c2afa1833255ea050c14601c46e698011a8b0739d6c35",
+      "actual_sha256": "9b098fff1b80cc3e562c2afa1833255ea050c14601c46e698011a8b0739d6c35",
+      "match": true,
+      "size_bytes": 1300
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_head_partition_concordance.csv",
+      "expected_sha256": "a4b00ad3e8633396245a8003821097da4a003831553b9fafe889d0c165bb5b60",
+      "actual_sha256": "a4b00ad3e8633396245a8003821097da4a003831553b9fafe889d0c165bb5b60",
+      "match": true,
+      "size_bytes": 3709
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_artifact_manifest_before.json",
+      "expected_sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb",
+      "actual_sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb",
+      "match": true,
+      "size_bytes": 126817
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_artifact_manifest_after.json",
+      "expected_sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb",
+      "actual_sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb",
+      "match": true,
+      "size_bytes": 126817
+    },
+    {
+      "path": "night8b_head_recovery_planner_handoff_20260820.tar.gz",
+      "expected_sha256": "f51ededf76c0a961c82072971226974bf6f65d7a62747ae0d462f8e5de235566",
+      "actual_sha256": "f51ededf76c0a961c82072971226974bf6f65d7a62747ae0d462f8e5de235566",
+      "match": true,
+      "size_bytes": 159934
+    },
+    {
+      "path": "bundles/night8b_to_night8b_head_recovery_incremental.bundle",
+      "expected_sha256": "9a6395fd684edc2cb2e0ab101c183fb0a9b61232aa3d737f9bf3c2c01faab3b8",
+      "actual_sha256": "9a6395fd684edc2cb2e0ab101c183fb0a9b61232aa3d737f9bf3c2c01faab3b8",
+      "match": true,
+      "size_bytes": 79144
+    }
+  ]
+}

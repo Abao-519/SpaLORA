@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "RESOLVED_INFRASTRUCTURE_ONLY_TEST_ASSERTION",
+  "attempt": 1,
+  "cause": "The static CLI test matched the git ls-remote option --heads as if it were an evaluator head-transform argument.",
+  "correction": "The test now inspects only argparse add_argument declarations and requires the sole authorized final-Y-read flag.",
+  "scientific_inputs_changed": false,
+  "raw_Y_read_count_this_attempt": 0,
+  "lineage_raw_Y_read_count_after_attempt": 1,
+  "metrics_computed": 0,
+  "training": 0,
+  "checkpoint_load": 0,
+  "forward": 0,
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "head_transform": 0,
+  "scientific_retry": 0
+}

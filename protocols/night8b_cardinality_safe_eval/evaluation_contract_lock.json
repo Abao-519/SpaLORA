@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "status": "LOCKED_BEFORE_FINAL_Y_READ",
+  "protocol_id": "spalora-night8b-cardinality-safe-evaluation-recovery-20260820",
+  "primary_inputs": {
+    "methods": ["HR_U00", "HR_F00"],
+    "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "partition_rows": 20,
+    "predicted_K": 12,
+    "head": "RECOVERY_EIGEN_KMEANS100",
+    "contrast": "HR_F00_MINUS_HR_U00_PAIRED_BY_SEED",
+    "locked_manifest_sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c"
+  },
+  "reference_contract": {
+    "predicted_K_must_equal_reference_K": false,
+    "expected_observations": 1949,
+    "minimum_reference_K": 2,
+    "maximum_reference_K_exclusive": 1949,
+    "flatten_singleton_dimension_only": true,
+    "bytes_decode": "utf-8-strict",
+    "string_trim_outer_whitespace": true,
+    "numeric_cast": "preserve_exact_value_no_rounding",
+    "category_merge": false,
+    "category_drop": false,
+    "category_rename": false,
+    "missing_like_policy": "HARD_STOP_BEFORE_METRICS"
+  },
+  "label_access": {
+    "lineage_raw_Y_read_count_before": 1,
+    "authorized_this_task": 1,
+    "lineage_raw_Y_read_count_after": 2,
+    "this_is_final_raw_Y_read_for_night8b_lineage": true,
+    "one_evaluator_process": true,
+    "same_in_memory_Y_for_primary_and_independent": true,
+    "persist_reference_contract_before_metrics": true,
+    "third_read_forbidden": true
+  },
+  "statistics": {
+    "primary": ["ARI", "NMI", "Q"],
+    "Q": "(ARI+NMI)/2",
+    "paired_units": 10,
+    "exact_test": "one-sided paired sign-flip on mean delta Q; all 2^10 assignments",
+    "bootstrap_replicates": 100000,
+    "bootstrap_seed": 20260820,
+    "bootstrap_interval": "paired percentile 95CI",
+    "independent_max_absolute_error": 1e-12
+  },
+  "scientific_gate": {
+    "mean_delta_Q_min": 0.01,
+    "mean_delta_ARI_min": 0.0,
+    "mean_delta_NMI_min": 0.0,
+    "paired_Q_wins_min": 8,
+    "exact_sign_flip_p_max_exclusive": 0.05,
+    "bootstrap_delta_Q_95CI_lower_min_exclusive": 0.0,
+    "neighbor_mean_delta_min": -0.01,
+    "Moran_mean_delta_min": -0.02,
+    "Geary_mean_delta_max": 0.02,
+    "boundary_mean_delta_max": 0.01
+  },
+  "resource_gate": {
+    "F00_end_to_end_runtime_ratio_max": 1.5,
+    "F00_peak_gpu_ratio_max": 1.25,
+    "cost_definition": "original training plus fixed adapter when applicable plus locked recovery head"
+  },
+  "descriptive_sensitivity": {
+    "original_spectral_seeds": [0, 1, 2, 3, 4, 5, 7, 8, 9],
+    "terminal_decision_input": false
+  },
+  "scope_counts": {
+    "training": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "head_transform": 0
+  },
+  "evidence_label": "POST_LOCK_EXTERNAL_EVALUATION_RECOVERY_NOT_PRISTINE_HOLDOUT"
+}

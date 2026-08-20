@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night8b-cardinality-safe-evaluation-recovery-20260820",
+  "date": "2026-08-20",
+  "authority_type": "post_lock_evaluation_only_protocol_revision",
+  "objective": "Evaluate the already locked HR_F00 versus HR_U00 K=12 partitions against the official MISAR Y without requiring predicted K to equal reference-label cardinality.",
+  "scientific_scope": {
+    "training": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "head_transform": 0,
+    "candidate_search": false,
+    "third_party_benchmark": 0,
+    "gpu_expected": false
+  },
+  "authority": {
+    "base_commit": "4b4c10c32220c9210a366f8e0b3691b2b46cf4fe",
+    "base_tag": "night8b-head-recovery-final-20260820",
+    "base_branch": "revision/q2-night8b-uniform-head-recovery-20260820",
+    "planned_branch": "revision/q2-night8b-cardinality-safe-eval-20260820",
+    "protection_tag": "baseline/pre-night8b-cardinality-safe-eval-20260820",
+    "final_tag": "night8b-cardinality-safe-eval-final-20260820",
+    "remote_repo": "/root/autodl-fs/SpaLORA-night8b-cardinality-safe-eval",
+    "new_output_root": "/root/autodl-fs/night8b_cardinality_safe_eval_20260820",
+    "immutable_original_raw_root": "/root/autodl-fs/night8b_raw_runs_20260820",
+    "immutable_head_recovery_root": "/root/autodl-fs/night8b_head_recovery_20260820",
+    "windows_authority_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_head_recovery_handoff_20260820/official_compact",
+    "windows_delivery_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact"
+  },
+  "authority_files": [
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_report.md",
+      "sha256": "8fb7c8cc44152581a114d2a822503e8e301b2c6961582e4719bb584a174b0757"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_decision.json",
+      "sha256": "54d653c9a33759789a740c3b35d42c4309cdd48fe53d0374987ddf6ef5495252"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/evaluation_failure_audit.json",
+      "sha256": "2e402fe014aa0242b5340379fe91ad66d5412476e9b2cf460f7380a62bb0f739"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/locked_recovery_partition_manifest.json",
+      "sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/tracked_delivery_index.json",
+      "sha256": "f660dde18fac9791e4f62cc5b2006cfd411464208b35f0cf252a39f17a247971"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_input_view_manifest.json",
+      "sha256": "8e9e042a7de8954425e2b46fc4f878bbc3f7c698f6283a80bb30132d9efcd71e"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_rule_lock.json",
+      "sha256": "9b098fff1b80cc3e562c2afa1833255ea050c14601c46e698011a8b0739d6c35"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_head_partition_concordance.csv",
+      "sha256": "a4b00ad3e8633396245a8003821097da4a003831553b9fafe889d0c165bb5b60"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_artifact_manifest_before.json",
+      "sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb"
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_artifact_manifest_after.json",
+      "sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb"
+    },
+    {
+      "path": "night8b_head_recovery_planner_handoff_20260820.tar.gz",
+      "sha256": "f51ededf76c0a961c82072971226974bf6f65d7a62747ae0d462f8e5de235566"
+    },
+    {
+      "path": "bundles/night8b_to_night8b_head_recovery_incremental.bundle",
+      "sha256": "9a6395fd684edc2cb2e0ab101c183fb0a9b61232aa3d737f9bf3c2c01faab3b8"
+    }
+  ],
+  "prior_status": {
+    "original_night8b": "INFRASTRUCTURE_BLOCKED",
+    "uniform_head_recovery": "RECOVERY_BLOCKED_INPUT_INTEGRITY",
+    "uniform_head_partitions": "20/20_TOTAL_LOCKED_BEFORE_FIRST_Y_ACCESS",
+    "metrics_computed": 0,
+    "lineage_raw_Y_read_count": 1,
+    "actual_reference_K_persisted": false,
+    "reason": "The prior evaluator incorrectly treated predicted K=12 and reference-label cardinality equality as mandatory and exited before persisting actual reference cardinality."
+  },
+  "fixed_dataset": {
+    "id": "MISAR_E15_5_S1_FIGSHARE_SPAVAE_CARRIER",
+    "spots_expected": 1949,
+    "predicted_partition_K": 12,
+    "reference_K": "DISCOVER_AND_PERSIST_DURING_FINAL_EVALUATION_READ",
+    "reference_K_may_differ_from_predicted_K": true,
+    "observation_order_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+    "annotation_mapping_sha256": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+    "public_source": "https://figshare.com/articles/dataset/Spatial_genomics_datasets/21623148",
+    "source_note": "The official Figshare README defines Y as true labels but does not assert K=12."
+  },
+  "fixed_primary_inputs": {
+    "manifest": "/root/autodl-fs/night8b_head_recovery_20260820/outputs/night8b_head_recovery/locked_recovery_partition_manifest.json",
+    "manifest_sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+    "methods": ["HR_U00", "HR_F00"],
+    "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "rows": 20,
+    "contrast": "HR_F00_MINUS_HR_U00_PAIRED_BY_SEED",
+    "same_predicted_K_for_both_methods": true,
+    "partitions_must_remain_byte_identical": true
+  },
+  "protocol_revision": {
+    "predicted_K_must_equal_reference_K": false,
+    "justification": "ARI and information-theoretic clustering agreement are defined for two partitions with different cardinalities. Both compared methods have the same fixed predicted K=12, so the paired contrast does not compare methods with different output cardinalities.",
+    "no_K_search": true,
+    "no_repartition": true,
+    "no_label_granularity_search": true,
+    "absolute_SOTA_comparison_allowed": false,
+    "evidence_label": "POST_LOCK_EXTERNAL_EVALUATION_RECOVERY_NOT_PRISTINE_HOLDOUT"
+  },
+  "label_access_contract": {
+    "raw_Y_read_authorized_this_task": 1,
+    "lineage_raw_Y_read_count_after_success": 2,
+    "this_is_final_raw_Y_read_for_night8b_lineage": true,
+    "all_code_inputs_partitions_and_decision_rules_must_be_committed_and_ordinary_pushed_before_read": true,
+    "preload_and_verify_all_partition_and_spatial_inputs_before_raw_Y_read": true,
+    "one_evaluator_process": true,
+    "two_independent_metric_implementations_run_in_same_process_on_same_in_memory_Y": true,
+    "no_return_to_training_affinity_head_partition_K_mapping_or_code_after_read": true,
+    "persist_reference_contract_before_metrics": true,
+    "persist_fields": [
+      "raw_Y_file_sha256",
+      "Y_dataset_shape",
+      "Y_dataset_dtype",
+      "canonical_Y_sha256",
+      "reference_K",
+      "category_values_and_counts",
+      "missing_like_count",
+      "observation_alignment_checks"
+    ],
+    "raw_label_vector_in_windows_compact_forbidden": true,
+    "raw_label_vector_in_git_forbidden": true
+  },
+  "label_canonicalization": {
+    "flatten_singleton_dimension_only": true,
+    "bytes_decode": "utf-8-strict",
+    "string_trim_outer_whitespace": true,
+    "numeric_cast": "preserve_exact_value_no_rounding",
+    "missing_like": ["IEEE_NAN", "POSITIVE_INFINITY", "NEGATIVE_INFINITY", "EMPTY_STRING_AFTER_TRIM"],
+    "missing_like_policy": "HARD_STOP_BEFORE_METRICS",
+    "category_merge": false,
+    "category_drop": false,
+    "minimum_reference_K": 2,
+    "maximum_reference_K_exclusive": 1949
+  },
+  "primary_metrics": ["ARI", "NMI", "Q"],
+  "Q": "(ARI+NMI)/2",
+  "secondary_metrics": [
+    "AMI",
+    "FMI",
+    "homogeneity",
+    "completeness",
+    "V_measure",
+    "neighbor_agreement",
+    "Moran_I",
+    "Geary_C",
+    "boundary_disagreement"
+  ],
+  "statistics": {
+    "paired_units": 10,
+    "exact_test": "one_sided_paired_sign_flip_on_mean_delta_Q_enumerate_all_2^10",
+    "alpha": 0.05,
+    "bootstrap_replicates": 100000,
+    "bootstrap_seed": 20260820,
+    "bootstrap_interval": "paired_percentile_95CI",
+    "note": "Seeds measure algorithmic stability, not independent biological replication."
+  },
+  "scientific_gate": {
+    "mean_delta_Q_min": 0.01,
+    "mean_delta_ARI_min": 0.0,
+    "mean_delta_NMI_min": 0.0,
+    "paired_Q_wins_min": 8,
+    "exact_sign_flip_p_max_exclusive": 0.05,
+    "bootstrap_95CI_delta_Q_lower_min_exclusive": 0.0,
+    "spatial_protection": {
+      "neighbor_agreement_mean_delta_min": -0.01,
+      "Moran_I_mean_delta_min": -0.02,
+      "Geary_C_mean_delta_max": 0.02,
+      "boundary_disagreement_mean_delta_max": 0.01
+    }
+  },
+  "resource_gate": {
+    "F00_end_to_end_runtime_ratio_max": 1.5,
+    "F00_peak_gpu_ratio_max": 1.25,
+    "use_original_training_plus_locked_recovery_head_cost": true
+  },
+  "descriptive_sensitivity": {
+    "original_spectral_complete_pairs": 9,
+    "seeds": [0, 1, 2, 3, 4, 5, 7, 8, 9],
+    "terminal_decision_input": false,
+    "same_in_memory_Y_only": true
+  },
+  "terminal_statuses": [
+    "NIGHT8B_CARDINALITY_SAFE_FAMILY_POLICY_CONFIRMED",
+    "NIGHT8B_CARDINALITY_SAFE_ACCURACY_CONFIRMED_WITH_COMPLEXITY_COST",
+    "NIGHT8B_CARDINALITY_SAFE_PARTIAL_OR_MIXED_EVIDENCE",
+    "NIGHT8B_CARDINALITY_SAFE_FAMILY_POLICY_NOT_GENERALIZED",
+    "EVAL_RECOVERY_BLOCKED_LABEL_INTEGRITY",
+    "EVAL_RECOVERY_BLOCKED_INPUT_INTEGRITY",
+    "EVAL_RECOVERY_SEMANTICS_INVALID",
+    "TIME_BUDGET_EXHAUSTED"
+  ],
+  "execution": {
+    "autodl_mode": "GPU_CARD_MODE_FOR_NORMAL_CPU_AND_MEMORY",
+    "gpu_utilization_expected": 0,
+    "wall_time_minutes_max": 90,
+    "evaluation_minutes_max": 30,
+    "independent_recompute_minutes_max": 30,
+    "autodl_power_api_forbidden": true,
+    "scientific_retry": 0,
+    "fallback": 0
+  },
+  "forbidden_actions": [
+    "train or load model checkpoints",
+    "run forward passes",
+    "rebuild adapters or affinities",
+    "rerun any head transform",
+    "change or search K",
+    "switch annotation carrier or label granularity",
+    "merge drop or relabel categories",
+    "modify any locked partition",
+    "use original spectral nine-pair results in the terminal decision",
+    "read raw Y more than once in this task",
+    "perform any third raw Y read in the Night8B lineage",
+    "return to code or model changes after Y access",
+    "claim pristine holdout or SOTA",
+    "run third-party benchmarks",
+    "download raw runs checkpoints affinities partitions or label vectors to Windows",
+    "force push force-with-lease or move tags",
+    "call AutoDL power API"
+  ]
+}
