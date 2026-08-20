@@ -429,6 +429,11 @@ def construct_candidate_views(dataset: str, seed: int, candidate: dict,
     paths = dataset_paths(dataset, seed)
     source_views = load_npz_views(paths["source_views"])
     started = time.perf_counter()
+    # A chain runs in a fresh process.  Initialize the CUDA context before
+    # resetting its counters; older torch builds fail if reset is the very
+    # first CUDA call in that process.
+    if not torch.cuda.is_initialized():
+        torch.cuda.init()
     torch.cuda.empty_cache(); torch.cuda.reset_peak_memory_stats(0)
     if candidate["family"] == "precomputed_topology_projection":
         target_ops = load_projection_operators(paths["target_graph_dir"])
