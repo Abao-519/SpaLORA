@@ -1,0 +1,144 @@
+{
+  "attempted_training_units": 5,
+  "endpoint_outputs_expected": 10,
+  "endpoint_outputs_successful": 10,
+  "environment_only_endpoint_completion_units": 2,
+  "fallback": 0,
+  "label_access": {
+    "A1": 0,
+    "MISAR_Y": 0,
+    "P22": 0
+  },
+  "one_training_shared_by_two_lanes_per_seed": true,
+  "planned_training_units": 5,
+  "rows": [
+    {
+      "attempt": 1,
+      "endpoint_environment_recovery": {
+        "endpoint_completion_seconds": 11.382852382957935,
+        "fallback": false,
+        "label_access": false,
+        "pre_recovery_artifacts": {
+          "embedding.npy": {
+            "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_0/attempt_001/embedding.npy",
+            "sha256": "99495fed1db005e916169e43936e4f1f068d86c2aeababb6314572b1affd513f",
+            "size_bytes": 1839328
+          },
+          "weights.npy": {
+            "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_0/attempt_001/weights.npy",
+            "sha256": "30296a372f931696b257471c5d5ce31ae9137e61892964267f96f08d0117b96d",
+            "size_bytes": 73696
+          }
+        },
+        "scientific_retry": 0,
+        "training_reexecuted": false
+      },
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "6963fccb97ee073788b3d6af60300a125e72d97765be9a119722c6467442e287",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_0/attempt_001",
+      "run": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/p2_cosmos/seed_0.log",
+        "log_sha256": "34c1ea88fbae72217f6379d63cf07fba6dde5ee2c873aba5168e21e5c37ce936",
+        "returncode": 1,
+        "runtime_seconds": 228.00940785370767
+      },
+      "scientific_retry": 0,
+      "scientific_training": true,
+      "seed": 0,
+      "status": "success"
+    },
+    {
+      "attempt": 1,
+      "endpoint_environment_recovery": {
+        "endpoint_completion_seconds": 13.626140059903264,
+        "fallback": false,
+        "label_access": false,
+        "pre_recovery_artifacts": {
+          "embedding.npy": {
+            "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_1/attempt_001/embedding.npy",
+            "sha256": "52a11f33c1ab8a1017941d635e01da6b071c9e5c75fa8ca9e137842f6c924558",
+            "size_bytes": 1839328
+          },
+          "weights.npy": {
+            "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_1/attempt_001/weights.npy",
+            "sha256": "d3a045bd431177ffa9a97a0b8056969fcb87f798a1da9074ba5a08112004a825",
+            "size_bytes": 73696
+          }
+        },
+        "scientific_retry": 0,
+        "training_reexecuted": false
+      },
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "1004234d56ad25b08cebf75d8ef1c0f1f2ef8b9a18ed55196b1631cae30ec429",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_1/attempt_001",
+      "run": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/p2_cosmos/seed_1.log",
+        "log_sha256": "c17b3faa0c45829922c46780a66bc416df1fcdd548b6b0cac09f4fbe6ced0506",
+        "returncode": 1,
+        "runtime_seconds": 230.47480269894004
+      },
+      "scientific_retry": 0,
+      "scientific_training": true,
+      "seed": 1,
+      "status": "success"
+    },
+    {
+      "attempt": 1,
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "6d07e078bca0c3b9493b6a5a50018f90f4038c4e681ac336a69664dfbba341c2",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_2/attempt_001",
+      "run": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/p2_cosmos/seed_2.log",
+        "log_sha256": "2f7b05b2596efaf2a862b5a2fb0b134d74ada5defb1c48602339f474cfaaa5d1",
+        "returncode": 0,
+        "runtime_seconds": 256.8592551127076
+      },
+      "scientific_retry": 0,
+      "scientific_training": true,
+      "seed": 2,
+      "status": "success"
+    },
+    {
+      "attempt": 1,
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "ee31613db8f5afd9ff45defe2d11ef0166445f798642534318872d62bb541a54",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_3/attempt_001",
+      "run": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/p2_cosmos/seed_3.log",
+        "log_sha256": "5412ab0ded6656bcc3dfb38d8931ba5914e2e1ef4a52971caa49a8ed65d1a594",
+        "returncode": 0,
+        "runtime_seconds": 247.59234463237226
+      },
+      "scientific_retry": 0,
+      "scientific_training": true,
+      "seed": 3,
+      "status": "success"
+    },
+    {
+      "attempt": 1,
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "ad383c03d72fc55b724b28db4032b014c486368e94d357ead4a3d758d3ca1045",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_4/attempt_001",
+      "run": {
+        "log": "/root/autodl-fs/night9b_racf_20260820/logs/p2_cosmos/seed_4.log",
+        "log_sha256": "62b38d5c22534f900e84547486424ab0d23fd1a465f0520ed841a8567533080d",
+        "returncode": 0,
+        "runtime_seconds": 258.6853131595999
+      },
+      "scientific_retry": 0,
+      "scientific_training": true,
+      "seed": 4,
+      "status": "success"
+    }
+  ],
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "PASS",
+  "successful_training_units": 5,
+  "training_reexecutions": 0
+}

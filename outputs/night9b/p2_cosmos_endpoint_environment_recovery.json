@@ -1,0 +1,66 @@
+{
+  "cause_class": "environment_only_post_training_endpoint_completion",
+  "endpoint_completion_units": 2,
+  "fallback": 0,
+  "formal_training_units": 5,
+  "label_access": {
+    "A1": 0,
+    "MISAR_Y": 0,
+    "P22": 0
+  },
+  "original_failed_seed_count": 2,
+  "original_lock_sha256": "0a9a13c712340bc7e333173e8ff0fdbbc8e417f71afecf01546ce4e19be35ce4",
+  "recovered_lock_sha256": "4b91023c1b8f926ae5871a73d22ebbe2b75d43f5cedf96bb8fd727f8cb983db2",
+  "recoveries": [
+    {
+      "endpoint_completion_seconds": 11.382852382957935,
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "6963fccb97ee073788b3d6af60300a125e72d97765be9a119722c6467442e287",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_0/attempt_001",
+      "pre_recovery_artifacts": {
+        "embedding.npy": {
+          "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_0/attempt_001/embedding.npy",
+          "sha256": "99495fed1db005e916169e43936e4f1f068d86c2aeababb6314572b1affd513f",
+          "size_bytes": 1839328
+        },
+        "weights.npy": {
+          "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_0/attempt_001/weights.npy",
+          "sha256": "30296a372f931696b257471c5d5ce31ae9137e61892964267f96f08d0117b96d",
+          "size_bytes": 73696
+        }
+      },
+      "scientific_retry": 0,
+      "seed": 0,
+      "status": "success",
+      "training_reexecuted": false
+    },
+    {
+      "endpoint_completion_seconds": 13.626140059903264,
+      "fallback": false,
+      "label_access": false,
+      "manifest_sha256": "1004234d56ad25b08cebf75d8ef1c0f1f2ef8b9a18ed55196b1631cae30ec429",
+      "output_dir": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_1/attempt_001",
+      "pre_recovery_artifacts": {
+        "embedding.npy": {
+          "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_1/attempt_001/embedding.npy",
+          "sha256": "52a11f33c1ab8a1017941d635e01da6b071c9e5c75fa8ca9e137842f6c924558",
+          "size_bytes": 1839328
+        },
+        "weights.npy": {
+          "path": "/root/autodl-fs/night9b_racf_20260820/p2_cosmos/seed_1/attempt_001/weights.npy",
+          "sha256": "d3a045bd431177ffa9a97a0b8056969fcb87f798a1da9074ba5a08112004a825",
+          "size_bytes": 73696
+        }
+      },
+      "scientific_retry": 0,
+      "seed": 1,
+      "status": "success",
+      "training_reexecuted": false
+    }
+  ],
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "PASS",
+  "training_reexecutions": 0
+}

@@ -1,0 +1,31 @@
+{
+  "COSMOS_endpoint_outputs": "10/10",
+  "COSMOS_training": "5/5",
+  "P1": "PASS",
+  "R1_checkpoint_reload": "42/42",
+  "R1_six_views_and_H05_exact": "42/42",
+  "R1_training": "42/42",
+  "evaluator_locked_before_label_access": true,
+  "fallback": 0,
+  "label_access": {
+    "A1": 0,
+    "MISAR_Y": 0,
+    "P22": 0
+  },
+  "raw_artifact_manifest_sha256": "4c2999d6866533a01532340d71df924c154705c83040d6ee7d48059a52289068",
+  "raw_artifact_rows": 324,
+  "return_to_model_structure_or_evaluator_change_after_lock": false,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "source_sha256": {
+    "SpaLORA/night9b_racf.py": "5204e1cd9320336a424ccffd867269e64397c4a6a6210efe09ae614b0a58ab7f",
+    "protocols/night9b/SpaLORA_Night9B_RACF_Registry_2026-08-20.json": "ce181a59429ca90f1df8bf114cf54e5ab9eb3657c853caeb5096fec5a26b3bd4",
+    "scripts/night9b_cosmos.py": "5e66981f30b3fe61e006f3ba8d50ff53380763bf2d79bee244ae01158673f1b9",
+    "scripts/night9b_evaluate.py": "c5be46e67ebf3a8608ebe84916d10a49ec172fd3a87a5c14c7373b58c88cd4b6",
+    "scripts/night9b_lock.py": "8d23a5f17de58fc02bdff82583ad5ea94761a6db0cfbb828919bedf2a7404804",
+    "scripts/night9b_orchestrate.py": "e56f6cf7316d7c50ede22fcc1c4429cfcc69889cf69539fb0341909a85e580cb",
+    "scripts/night9b_train.py": "65c633db198dca7b8dfa4f27117c4aaf626011feec579af9cb8ae222369fc76a",
+    "tests/test_night9b_racf.py": "1f097bfc1aee1121ace2e6a5a7ef8d6ad3f24706818144bc7ceb43d80fbeb34a"
+  },
+  "status": "LOCKED_PRE_LABEL"
+}
