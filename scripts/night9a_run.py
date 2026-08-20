@@ -174,12 +174,17 @@ def dataset_paths(dataset: str, seed: int) -> dict:
             "source_manifest": base / G04 / "training_manifest.json",
             "teacher_checkpoint": base / G00 / "model_final.pt",
             "teacher_manifest": base / G00 / "training_manifest.json",
-            "teacher_affinity": N8B_HEAD / f"partitions/HR_F00/seed_{seed}/affinity.npz",
+            # Reuse the exact affinity carriers named by the locked Night-8B
+            # uniform-head transform manifests.  The recovery partition
+            # directory intentionally contains clusters/manifests only.
+            "teacher_affinity": N8B_RAW / f"formal/transforms/F00/seed_{seed}/affinity.npz",
             "teacher_partition": N8B_HEAD / f"partitions/HR_F00/seed_{seed}/clusters.csv",
+            "teacher_partition_manifest": N8B_HEAD / f"partitions/HR_F00/seed_{seed}/transform_manifest.json",
             "teacher_embedding": adapter / "worker/embedding.npy",
             "teacher_adapter_manifest": adapter / "worker/training_manifest.json",
-            "u00_affinity": N8B_HEAD / f"partitions/HR_U00/seed_{seed}/affinity.npz",
+            "u00_affinity": N8B_RAW / f"formal/adapter/inputs/seed_{seed}/s04.npz",
             "u00_partition": N8B_HEAD / f"partitions/HR_U00/seed_{seed}/clusters.csv",
+            "u00_partition_manifest": N8B_HEAD / f"partitions/HR_U00/seed_{seed}/transform_manifest.json",
             "target_graph_dir": N8B_RAW / "cache/graphs" / G00,
             "source_graph_dir": N8B_RAW / "cache/graphs" / G04,
         }
@@ -272,6 +277,13 @@ def build_references() -> list[dict]:
                 })
                 if dataset == "misar":
                     locked_path = paths["u00_partition"] if method == "U00" else paths["teacher_partition"]
+                    locked_manifest_path = (paths["u00_partition_manifest"] if method == "U00"
+                                            else paths["teacher_partition_manifest"])
+                    locked_manifest = json.loads(locked_manifest_path.read_text())
+                    if Path(locked_manifest["input_path"]) != affinity_path:
+                        raise RuntimeError(f"MISAR locked affinity path drift: {method} seed {seed}")
+                    if locked_manifest["input_file_sha256"] != sha256_file(affinity_path):
+                        raise RuntimeError(f"MISAR locked affinity SHA drift: {method} seed {seed}")
                     locked = load_clusters(locked_path, ids)
                     if not exact_partition_equal(labels, locked):
                         raise RuntimeError(f"MISAR locked uniform head parity failed: {method} seed {seed}")
@@ -297,7 +309,8 @@ def used_authority_files() -> list[Path]:
             for graph in (row["target_graph_dir"], row["source_graph_dir"]):
                 files.extend(sorted(graph.glob("*")))
             if dataset == "misar":
-                files.extend([row["teacher_partition"], row["u00_partition"]])
+                files.extend([row["teacher_partition"], row["u00_partition"],
+                              row["teacher_partition_manifest"], row["u00_partition_manifest"]])
     unique = []
     seen = set()
     for path in files:
