@@ -1,0 +1,55 @@
+{
+  "K": 12,
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "fallback": 0,
+  "head_config": {
+    "affinity_dtype": "float64_csr",
+    "affinity_symmetrization": "0.5*(A+A.T)",
+    "algorithm": "symmetric_normalized_laplacian_eigenvectors_then_kmeans",
+    "degree_policy": "fail_if_nonfinite_or_leq_zero",
+    "diagonal": 0.0,
+    "eigensolver": {
+      "function": "scipy.sparse.linalg.eigsh",
+      "k": 12,
+      "maxiter": "max(10000,N*20)",
+      "tol": 1e-10,
+      "v0": "numpy.linspace(1,2,N,dtype=float64)",
+      "which": "SM"
+    },
+    "eigenvector_sign": "largest_absolute_pivot_positive",
+    "fallback": false,
+    "head_id": "RECOVERY_EIGEN_KMEANS100",
+    "kmeans": {
+      "algorithm": "lloyd",
+      "n_clusters": 12,
+      "n_init": 100,
+      "random_state": 2020
+    },
+    "row_l2_floor": 1e-12
+  },
+  "head_config_sha256": "1336480e7ff99c0806c75a9b0e20ba07852bdeb12d3940c2456a03ae76a7175a",
+  "head_id": "RECOVERY_EIGEN_KMEANS100",
+  "input_manifest_sha256": "8e9e042a7de8954425e2b46fc4f878bbc3f7c698f6283a80bb30132d9efcd71e",
+  "label_access": false,
+  "methods": [
+    "HR_U00",
+    "HR_F00"
+  ],
+  "schema_version": 1,
+  "science_retry": 0,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "status": "LOCKED_PRELABEL",
+  "training": 0
+}

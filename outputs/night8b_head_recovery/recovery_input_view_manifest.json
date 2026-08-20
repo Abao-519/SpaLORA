@@ -1,0 +1,355 @@
+{
+  "head_config_sha256": "1336480e7ff99c0806c75a9b0e20ba07852bdeb12d3940c2456a03ae76a7175a",
+  "head_id": "RECOVERY_EIGEN_KMEANS100",
+  "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+  "original_u00_s04_parity": [
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "cce9ce52fa8b50a7ab69a38564f0ddd30e25a34ae70fbc7f9da283c15f0a5acb",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_0/affinity.npz",
+      "s04_canonical_sparse_sha256": "cce9ce52fa8b50a7ab69a38564f0ddd30e25a34ae70fbc7f9da283c15f0a5acb",
+      "seed": 0
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "ad7d80f67811379e7af8843a6a8667287a0b549db7536769bbe58c043a3b9752",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_1/affinity.npz",
+      "s04_canonical_sparse_sha256": "ad7d80f67811379e7af8843a6a8667287a0b549db7536769bbe58c043a3b9752",
+      "seed": 1
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "258b9aa69d0269a10e9760cb58c7a0389ba8a68b77b438bae227a2cdc62b3ec6",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_2/affinity.npz",
+      "s04_canonical_sparse_sha256": "258b9aa69d0269a10e9760cb58c7a0389ba8a68b77b438bae227a2cdc62b3ec6",
+      "seed": 2
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "e3c1f762c4262578e23f2b57ccc3be0f3aaad6461e98aec05e2b64ec5a89831e",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_3/affinity.npz",
+      "s04_canonical_sparse_sha256": "e3c1f762c4262578e23f2b57ccc3be0f3aaad6461e98aec05e2b64ec5a89831e",
+      "seed": 3
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "2a53569cbad724a2646acb3dbd2a898850e1a96c22758f9364033f478240817e",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_4/affinity.npz",
+      "s04_canonical_sparse_sha256": "2a53569cbad724a2646acb3dbd2a898850e1a96c22758f9364033f478240817e",
+      "seed": 4
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "c6ddf37e40cbfd362303e496012d6ff91cbb2714b80d21dee126e15291924757",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_5/affinity.npz",
+      "s04_canonical_sparse_sha256": "c6ddf37e40cbfd362303e496012d6ff91cbb2714b80d21dee126e15291924757",
+      "seed": 5
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "02ef4c4dcd47851d782be3a2211aa779e76f58ea41299123d55522f7285a150e",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_7/affinity.npz",
+      "s04_canonical_sparse_sha256": "02ef4c4dcd47851d782be3a2211aa779e76f58ea41299123d55522f7285a150e",
+      "seed": 7
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "29c2d8ed224ba1c34a235bdb485efc2a4cd2ef8a926dc829a602e9e5c806edfa",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_8/affinity.npz",
+      "s04_canonical_sparse_sha256": "29c2d8ed224ba1c34a235bdb485efc2a4cd2ef8a926dc829a602e9e5c806edfa",
+      "seed": 8
+    },
+    {
+      "exact": true,
+      "old_canonical_sparse_sha256": "31fa2d5accf403ad698db12c04b5dc7099164f9cb2d517de688d7afbebde1073",
+      "old_path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/U00/seed_9/affinity.npz",
+      "s04_canonical_sparse_sha256": "31fa2d5accf403ad698db12c04b5dc7099164f9cb2d517de688d7afbebde1073",
+      "seed": 9
+    }
+  ],
+  "row_count": 20,
+  "rows": [
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "cce9ce52fa8b50a7ab69a38564f0ddd30e25a34ae70fbc7f9da283c15f0a5acb",
+      "file_sha256": "429d16518edb4fd9de618744089019fc9b4b115b9fbe36bed34fbfb4359e2a4c",
+      "method": "HR_U00",
+      "nnz": 38686,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_0/s04.npz",
+      "seed": 0,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "ad7d80f67811379e7af8843a6a8667287a0b549db7536769bbe58c043a3b9752",
+      "file_sha256": "841e53aa3ab342557d8dcb166e0e520e3ca43875061f39046b2897d158044a3a",
+      "method": "HR_U00",
+      "nnz": 39276,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_1/s04.npz",
+      "seed": 1,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "258b9aa69d0269a10e9760cb58c7a0389ba8a68b77b438bae227a2cdc62b3ec6",
+      "file_sha256": "7bdfcf1f2304e41d148bc18dbe7a796c6a94370b53b37518032062b9f9942c19",
+      "method": "HR_U00",
+      "nnz": 38944,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_2/s04.npz",
+      "seed": 2,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "e3c1f762c4262578e23f2b57ccc3be0f3aaad6461e98aec05e2b64ec5a89831e",
+      "file_sha256": "c5898219591df5d6568b48729be600f7d5a9d5a48d70040d4356e81eda203de4",
+      "method": "HR_U00",
+      "nnz": 39052,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_3/s04.npz",
+      "seed": 3,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "2a53569cbad724a2646acb3dbd2a898850e1a96c22758f9364033f478240817e",
+      "file_sha256": "6f98b23e2cab8e52ef668f3e857ef49cbe07d07f86eaec7950e81eb60cc96658",
+      "method": "HR_U00",
+      "nnz": 38704,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_4/s04.npz",
+      "seed": 4,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "c6ddf37e40cbfd362303e496012d6ff91cbb2714b80d21dee126e15291924757",
+      "file_sha256": "cf60970668d5a7cfb0d7803756144b4f86476dcf4ff4936274a2dedad9bf208b",
+      "method": "HR_U00",
+      "nnz": 39140,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_5/s04.npz",
+      "seed": 5,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "00df3c8d393f6273086402fcd523137cd2a259c816005053c1fb2defeae04a07",
+      "file_sha256": "4dc1a865e9fa0d330eba34eed2b482f15ad69ae0f1f23225230912f89deae6ce",
+      "method": "HR_U00",
+      "nnz": 39188,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_6/s04.npz",
+      "seed": 6,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "02ef4c4dcd47851d782be3a2211aa779e76f58ea41299123d55522f7285a150e",
+      "file_sha256": "6ed2c10a317e87e4b9a86009a72447e4d184be17fc59d277305f638cb879e6ef",
+      "method": "HR_U00",
+      "nnz": 39180,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_7/s04.npz",
+      "seed": 7,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "29c2d8ed224ba1c34a235bdb485efc2a4cd2ef8a926dc829a602e9e5c806edfa",
+      "file_sha256": "fb5ee94f7ab5c84a10f6d0588d052c63085e13c0f8290429add9e991d0f6cffb",
+      "method": "HR_U00",
+      "nnz": 39166,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_8/s04.npz",
+      "seed": 8,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "31fa2d5accf403ad698db12c04b5dc7099164f9cb2d517de688d7afbebde1073",
+      "file_sha256": "15dad862d66c85852b29e56f421f90899a2c7aaab11898605652ec1faccee6d1",
+      "method": "HR_U00",
+      "nnz": 39046,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/adapter/inputs/seed_9/s04.npz",
+      "seed": 9,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "d668303b42b8997d034b152584c056a05dd151f4b241f956b0877b7771e4a6c4",
+      "file_sha256": "e425c8e45425094ef6ad1ff17bc3a145170dbcb6c6fcaae66865ee1f8369e887",
+      "method": "HR_F00",
+      "nnz": 52516,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_0/affinity.npz",
+      "seed": 0,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "1c45bb17a1e0f214917922b666d399ed0e896f2b1e677a83cd4e0e94f49ab012",
+      "file_sha256": "32759aa4c02cd0a5313aab94707cc0fdaa53374b784997d29c25188b29e82124",
+      "method": "HR_F00",
+      "nnz": 52534,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_1/affinity.npz",
+      "seed": 1,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "2d326a8eed35eb49f5f3068ce97c162001f237c3dffdf2edae485b87cee0c65e",
+      "file_sha256": "f3c35903e9e9e694323461feab59ebaa8dc08baa23ae5c6a114b2ae240702176",
+      "method": "HR_F00",
+      "nnz": 52062,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_2/affinity.npz",
+      "seed": 2,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "4d9b4b3afb9ade86157b3763adae13dd1dafc6c7a697a6b39db381378a19641a",
+      "file_sha256": "5fb90cf348f5f2089d89d102f6af3ac13d5384e766f50d1ac844368e639e1c50",
+      "method": "HR_F00",
+      "nnz": 53308,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_3/affinity.npz",
+      "seed": 3,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "62428093881a63f7d15dfa3f638309281de17c8a9fbe8355fa4f6978cd6204a0",
+      "file_sha256": "71d099b35bd0c6cbf17855249a71e9918645bf5b1ba7bb693aece6bb4c4f69b2",
+      "method": "HR_F00",
+      "nnz": 52598,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_4/affinity.npz",
+      "seed": 4,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "13d180922b09806a2a5a1ab9aa25143e08c945921ac934cb434cf78b5a5a5362",
+      "file_sha256": "3e65d963b5e8c28773e79317398f39edafdb25d90c74f0464847ce10cf73db8a",
+      "method": "HR_F00",
+      "nnz": 53154,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_5/affinity.npz",
+      "seed": 5,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "f159a5b66e0511295d80d76b90b54eb497ab92fa0fcfa38a031c2cbcf023cbdc",
+      "file_sha256": "46df3253f7d8ad097e303ca96b7533b8bd45f70c483073d37b932c2ee491d93b",
+      "method": "HR_F00",
+      "nnz": 53044,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_6/affinity.npz",
+      "seed": 6,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "8bdc6bc6e2de0df505f4af96d37094574a07222db80ef188c5962e71d35b1db0",
+      "file_sha256": "2a3fee1811778eb6f85acb90ee5beb0ed6fc1de5635c95d4ca6062e6c76377f4",
+      "method": "HR_F00",
+      "nnz": 52740,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_7/affinity.npz",
+      "seed": 7,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "181b46d1ac3d9be5e4d6a1553f1db4a5f2009abc69f8cdf0ba5210e91e67addc",
+      "file_sha256": "563a69f1a0e78fcd497f542767a954f64e199806a6389a560e8b9a0487d9af78",
+      "method": "HR_F00",
+      "nnz": 53262,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_8/affinity.npz",
+      "seed": 8,
+      "shape": [
+        1949,
+        1949
+      ]
+    },
+    {
+      "K": 12,
+      "canonical_sparse_sha256": "fb1eca1ce6c309ffdeed2eafd3c117cd86dccfa425181e4a024816fcf5e6327d",
+      "file_sha256": "93460223f2795c9d9ac416242d7ca4df94f4fa7fba55ec27d71b4e7409e13e3a",
+      "method": "HR_F00",
+      "nnz": 53338,
+      "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "path": "/root/autodl-fs/night8b_raw_runs_20260820/formal/transforms/F00/seed_9/affinity.npz",
+      "seed": 9,
+      "shape": [
+        1949,
+        1949
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "status": "LOCKED_PRELABEL"
+}

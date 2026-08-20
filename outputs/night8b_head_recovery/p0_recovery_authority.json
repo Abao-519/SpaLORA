@@ -1,0 +1,218 @@
+{
+  "adapter": 0,
+  "adapter_units": "10/10",
+  "affinity_rebuild": 0,
+  "annotation_Y_values_deserialized": false,
+  "authority": {
+    "registry_sha256": "ba55faf2a25038f00c4ff2bc4984ec2d0ae3322a84d934c6f74c8cb26ce22162",
+    "taskbook_sha256": "65229a18a8f4c6f1f3911391da8fc6def4f692b92b674b5ce41acc445113f045"
+  },
+  "base_units": "10/10",
+  "checkpoint_reload_audits": "20/20",
+  "f00_affinity_inputs": "10/10",
+  "label_access": false,
+  "mapping_sha256": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+  "observation_count": 1949,
+  "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+  "original_compact": {
+    "compact_only_pyc_paths": [
+      "scripts/__pycache__/night8b_assert_prelabel_push.cpython-38.pyc",
+      "scripts/__pycache__/night8b_evaluate.cpython-38.pyc",
+      "scripts/__pycache__/night8b_finalize.cpython-38.pyc",
+      "scripts/__pycache__/night8b_finalize_blocked.cpython-38.pyc",
+      "scripts/__pycache__/night8b_formal.cpython-38.pyc",
+      "scripts/__pycache__/night8b_independent_metrics.cpython-38.pyc",
+      "scripts/__pycache__/night8b_lock.cpython-38.pyc",
+      "scripts/__pycache__/night8b_p0.cpython-38.pyc",
+      "scripts/__pycache__/night8b_train.cpython-38.pyc"
+    ],
+    "compact_only_pyc_verified_on_windows": "9/9",
+    "hashes": {
+      "original_decision": "c7eaa285ac413a868bdcad5dbd0b50491454e0410661ec4a07a588e096e848a3",
+      "original_incomplete": "eebb21cc24216129dde29415d829f796c22958d3f68b699e696b5778c37d52ce",
+      "original_index": "f15cfaae937b246cb30017a0e8203db04bf6f254cafb8f5fcb9994ae91ff708b",
+      "original_p0": "9371a4b512df65cf3ef3cb16dd9b1cc328b55bca48d99c4557c4240b309699d6",
+      "original_raw_manifest": "d45465d1ab2c9b8f7d50aef4bcb8f0d67b869e4071070d7945e73269f5c8b4c9",
+      "original_report": "980a754561b0ce36dc60af513b6cdbd705575a60929b75561071ff9fce6b82d3"
+    },
+    "note": "The nine pyc files were compact-only artifacts and are not Git members; the Windows root-rule audit verified their bytes.",
+    "remote_git_worktree_index_members_verified": "29/38",
+    "windows_compact_independently_verified_by_executor": "38/38"
+  },
+  "original_u00_s04_parity": "9/9",
+  "raw_manifest_rows_verified": 297,
+  "s04_inputs": "10/10",
+  "schema_version": 1,
+  "status": "P0_RECOVERY_AUTHORITY_PASS",
+  "training": 0,
+  "unit_evidence": {
+    "adapter_reload": [
+      {
+        "audit_sha256": "4f1c48c012bb08f927967adc260f3c55abdf6369dcd0ec09b7c4cfab277d192d",
+        "seed": 0
+      },
+      {
+        "audit_sha256": "750fbf038b1c89bd473564832074d8a86c1d209c9834c2469af78f1bf86c89c2",
+        "seed": 1
+      },
+      {
+        "audit_sha256": "0bab46cbe1299041c544f146ee38ccc89848664017f9b93ad10f5efe80c5205c",
+        "seed": 2
+      },
+      {
+        "audit_sha256": "8d80696ba38c9ece8054291c187063121da1e3bfa09ec6dadb2d987d927ffc29",
+        "seed": 3
+      },
+      {
+        "audit_sha256": "c7536664dce7a110d6aee0ad9cc02851a3ce30d7568c1a06ac1033b6bf46388e",
+        "seed": 4
+      },
+      {
+        "audit_sha256": "2af661fb74d3a2975c6f0c29d22f12252981abc8e605f516f55996dfcdc89d18",
+        "seed": 5
+      },
+      {
+        "audit_sha256": "ce6d77fbee3fd13ee47e86ba4cafcf2960853c540c49ec08eb0e7fbf49874c59",
+        "seed": 6
+      },
+      {
+        "audit_sha256": "37a5f8bca70050e3928b27926329ff4e778a546febc16ea3b700aaac0b63f0ce",
+        "seed": 7
+      },
+      {
+        "audit_sha256": "682b854af83fb4ebbf4028d3befce6d45a95a6f3828ccda670dd0b353c11a6af",
+        "seed": 8
+      },
+      {
+        "audit_sha256": "f88d8f22f707bb607d431150fd9937cd265f90c06f778a7eb4c36d9b76f749be",
+        "seed": 9
+      }
+    ],
+    "adapter_units": [
+      {
+        "manifest_sha256": "e6e011ce253218d54792f502e6c32c801f811bbe8b4af3878523fcc6816bbbbb",
+        "seed": 0
+      },
+      {
+        "manifest_sha256": "ca97709cc30937688808f340fed898dbd401ef4a52d789755dbbd58072e7f681",
+        "seed": 1
+      },
+      {
+        "manifest_sha256": "42b25f49cd58f07a2917186ded3aa7d5292611eac0c87b7637b5e0aa5b762464",
+        "seed": 2
+      },
+      {
+        "manifest_sha256": "fac09d0bce7cd5921f9245ae2489fbb4ee3861e8e8d724a8ffafdff7c54a98f2",
+        "seed": 3
+      },
+      {
+        "manifest_sha256": "bdfa4c23b3cff091c042a7913b07923f316286bd2847e289a0c3e1a477672d24",
+        "seed": 4
+      },
+      {
+        "manifest_sha256": "c53702474d03dc59a5e3fe2b110559ff928f3747e8c8dad4396d2eef408c0612",
+        "seed": 5
+      },
+      {
+        "manifest_sha256": "1f67fd8b5426f350c3736d5f6a6b9aa42b1b10eea560e01e29890e1454763c4f",
+        "seed": 6
+      },
+      {
+        "manifest_sha256": "b1cc86d3d17318ebccd33de29fa3573bc2221219b1dcbccc0b447f70a9799025",
+        "seed": 7
+      },
+      {
+        "manifest_sha256": "adb3334e6a9fd0628e5d702ea7ace05b9251bfd4462ce9cd4f6aaffb2315d589",
+        "seed": 8
+      },
+      {
+        "manifest_sha256": "cf963a3e1df8516e1d573a53ef685d647e56d7b50856a43fe34d111ffe065a10",
+        "seed": 9
+      }
+    ],
+    "base_reload": [
+      {
+        "audit_sha256": "077e9741bc4e90db0b426049d51e2b582289ea835dbda4e68f757f60a26ca328",
+        "seed": 0
+      },
+      {
+        "audit_sha256": "fe58b0059de488d17f33f5e34499d431df80d3e17b2be73d4df3585e4618f2fe",
+        "seed": 1
+      },
+      {
+        "audit_sha256": "979919fc2858b483bff9e38473f9014f2b3d04cc22656881b688dfab33b9e7e6",
+        "seed": 2
+      },
+      {
+        "audit_sha256": "6a6a6b86e8e37d880c6a2ef6069893224692c83e404259a4956530e8dd1fa6ee",
+        "seed": 3
+      },
+      {
+        "audit_sha256": "9f5b446c735f7f07badfbad12f7cbb4c35dfc168475f9363e3eeef8ca1d8644c",
+        "seed": 4
+      },
+      {
+        "audit_sha256": "27709e7f7708efcbfc0257573b9402dca2329aa1db309d9d9861b975513a335f",
+        "seed": 5
+      },
+      {
+        "audit_sha256": "a917c18a824eeebc1ea2a54df4852d1e76959f9c5efef4698c3f557852eceed4",
+        "seed": 6
+      },
+      {
+        "audit_sha256": "211118bf6ab5aa7b330b5f78e3130af9ef1bddcc360ccd2dab6eb68323454b72",
+        "seed": 7
+      },
+      {
+        "audit_sha256": "10d9298d690f163e00716e3809e01da22d5e35550d84deba7355a33ab4be8c5c",
+        "seed": 8
+      },
+      {
+        "audit_sha256": "51ac899207a5a53a0fd42f420cacc9691e4b108ee336ea8fd1aa7a0fde871a11",
+        "seed": 9
+      }
+    ],
+    "base_units": [
+      {
+        "manifest_sha256": "20ce5fd0a4f11e80c561412e10b3798215422ab98c9003d2a5948d7e7e6578e8",
+        "seed": 0
+      },
+      {
+        "manifest_sha256": "db9385f34db0f9a57e8ce3496dfe63025ef0213c5e1140d53f00fd5f60155abc",
+        "seed": 1
+      },
+      {
+        "manifest_sha256": "f73593a5214eefb6e0a9d791bea107548daf99fdcb84d04469e108481911bd3f",
+        "seed": 2
+      },
+      {
+        "manifest_sha256": "8340e025eea032bb8fb60b1435690d3f4555ac03f39f40cce1259f9cd41030e1",
+        "seed": 3
+      },
+      {
+        "manifest_sha256": "c3f813b6d61275cb81ea9f55882975ef4f5e8d5e100c998c4d39d12b21fc3c5e",
+        "seed": 4
+      },
+      {
+        "manifest_sha256": "ef1e5bef99e590422985bb2fd172762ae61dd71ff627c40b717e59b2fbeef13a",
+        "seed": 5
+      },
+      {
+        "manifest_sha256": "470c43f16ed70e99d9e0f37587d9208293de6f4edfb179748c607d4007b6c5ea",
+        "seed": 6
+      },
+      {
+        "manifest_sha256": "1873203bd3c896219f51f6c9694a77a08df6bbf717740388e571409ad741a112",
+        "seed": 7
+      },
+      {
+        "manifest_sha256": "8f9af713f92022880c41a3a1100e0a097ca8b21eaaae271d755bc7c7166df357",
+        "seed": 8
+      },
+      {
+        "manifest_sha256": "d39ab9e45a787a246d48d46cefd0d65b718e25c5c38e68e8d68c0960c082bd60",
+        "seed": 9
+      }
+    ]
+  }
+}
