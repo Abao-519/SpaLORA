@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/autodl-fs/night9b_racf_20260820/infrastructure/night9b_finalize_outputs.py", line 266, in <module>
+    main()
+  File "/root/autodl-fs/night9b_racf_20260820/infrastructure/night9b_finalize_outputs.py", line 90, in main
+    ax.set_xticks(x, ids, rotation=25, ha="right")
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 73, in wrapper
+    return get_method(self)(*args, **kwargs)
+TypeError: set_ticks() got an unexpected keyword argument 'rotation'

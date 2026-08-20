@@ -1,0 +1,18 @@
+{
+  "P0_is_ancestor": true,
+  "accepted_P0_commit": "397638728debfe2c9aef0b6425776b471bfe4977",
+  "authoritative_parent": "aa933b8fc11fc05470287a21f80facd03d0acfb9",
+  "branch": "revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820",
+  "existing_final_tag_before_creation": false,
+  "force_push": false,
+  "fsck_returncode": 0,
+  "fsck_stderr": "",
+  "fsck_stdout": "dangling blob 30cbbb02a69379f3717d8d7810d7d678203b7dbb\ndangling blob fcebe3a9e81464f5967661ad9f42692416b69265\ndangling blob 4c6d49b9204a876148d8ba1defaa1f3fba3df478\ndangling blob 2411da009b916d9dfd91e3fce3d1aca8f272f630\ndangling blob ebb1ca2f1e67c24f5bada02310b3ee9d3e532cbb\ndangling tag 75d3f73c5743d23865f3096a77dd0d764f5a66e3\ndangling blob 85144ad3425bda3b660364c298596eeb8e990bfb\ndangling blob 5937619b13555dfbc07c54ecdb2d585c2320c143\ndangling blob f2f7e7021ad8dded95a85914b66190cf8d6e0dae\ndangling blob 483b62dd207ad00c81abfae36bba09cb4a4d22ae\ndangling blob 1d7ca74fbf09e8b251de3dfae2a0f66d330cf0cf\ndangling tag 6b1c4d75a22e57021a3cd1ccade03e2c1f336513\ndangling blob 59dfef3f390f8ee38597ee4b1e44e8fd92a4e4e3\n",
+  "head_before_final_delivery_commit": "b377dee510e5c65abc87b2316f6b8dcfae8cf7e7",
+  "head_equals_upstream": true,
+  "parent_is_ancestor": true,
+  "planned_final_tag": "night9b-final-20260820",
+  "schema_version": 1,
+  "status": "PASS",
+  "upstream": "b377dee510e5c65abc87b2316f6b8dcfae8cf7e7"
+}

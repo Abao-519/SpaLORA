@@ -1,0 +1,107 @@
+{
+  "P1": {
+    "environment_only_cycles": [
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 1,
+        "label_access": false,
+        "resolution": "lock PYTHON to /root/miniconda3/bin/python before P1 execution",
+        "root_cause": "P1 orchestrator initially referenced a stale non-existent interpreter path instead of the verified active Python 3.8 base environment"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 2,
+        "label_access": false,
+        "resolution": "lock P1 and formal execution to the verified /root/miniconda3/envs/SpaLORA/bin/python environment containing torch 2.0.0+cu118, pytest 7.2.2, rpy2 and anndata",
+        "root_cause": "The active base interpreter had CUDA but did not include the repository test dependency pytest"
+      }
+    ],
+    "implementation_correction_cycles": [
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 1,
+        "label_access": false,
+        "resolution": "use /root/autodl-fs/night8a_external_sources_20260820/COSMOS/COSMOS and require exact git HEAD 56ea355be51e64d9253e2871b8bd447fdfd0d230",
+        "root_cause": "P1 selected the Night-7A content mirror that has no retained Git metadata instead of the byte-equivalent Night-8A exact-commit checkout"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 2,
+        "label_access": false,
+        "resolution": "import HEADS from SpaLORA.night6d_pipeline while retaining the unchanged authoritative night6c run_head implementation",
+        "root_cause": "The new worker imported the locked HEADS mapping from night6c_pipeline although the mapping is defined by night6d_pipeline and only run_head lives in night6c_pipeline"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 3,
+        "label_access": false,
+        "resolution": "parse the exact one-column observation_id CSV schema with csv.DictReader and fail closed on any other schema",
+        "root_cause": "The worker treated the one-column observation_ids.csv as a headerless text list, counting its registered header as an observation"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 4,
+        "label_access": false,
+        "resolution": "compute the registered stop-gradient median and MAD deterministically with NumPy on CPU, return the two scalars to CUDA, and keep softmax/clipping on the model device",
+        "root_cause": "torch 2.0 CUDA median-with-indices has no deterministic implementation while the fixed endpoint enables deterministic algorithms"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 5,
+        "label_access": false,
+        "resolution": "treat per-spot reliability as a normalized multiplicative modulation of the learned stage-2 modality weights so both registered mechanisms remain active",
+        "root_cause": "The first reliability implementation replaced the second hierarchical gate, leaving stage2_logits outside the active N06/N07 computation graph"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 1,
+        "cycle": 6,
+        "label_access": false,
+        "resolution": "preserve and hash the partial smoke; use dataset-independent identity initialization for the five square inherited-latent projections so the adapter begins at the inherited representation while remaining trainable",
+        "root_cause": "The first real A1 smoke used random square projections and its one-epoch candidate views caused the fixed H05 endpoint to return non-exact K"
+      },
+      {
+        "affected_formal_scientific_units": 0,
+        "affected_smoke_units": 0,
+        "cycle": 7,
+        "label_access": false,
+        "resolution": "make the shared adapter projections input_dim to inherited latent_dim and decoders latent_dim to input_dim; use deterministic partial-identity initialization; preserve and reuse the already completed A1 smoke instead of rerunning it",
+        "root_cause": "P22 inherits 128-dimensional source views but the frozen R02 family reference and latent endpoint are 64-dimensional; the first worker incorrectly required equal source and reference dimensions"
+      }
+    ],
+    "p0_correction_budget_reopened": false,
+    "schema_version": 1,
+    "scientific_retry": 0
+  },
+  "P2_environment_only": {
+    "affected_seeds": [
+      0,
+      1
+    ],
+    "cause": "R executable unavailable to rpy2 after single formal training",
+    "endpoint_completion_units": 2,
+    "evidence": "outputs/night9b/p2_cosmos_endpoint_environment_recovery.json",
+    "training_reexecuted": false
+  },
+  "evaluation_environment_only": {
+    "attempt_1": "prelabel clean-tree gate blocked because tee created an untracked log",
+    "evidence": "outputs/night9b/evaluation_attempt1_prelabel_gate.log",
+    "label_reads_attempt_1": {
+      "A1": 0,
+      "MISAR_Y": 0,
+      "P22": 0
+    },
+    "source_or_evaluator_changed": false
+  },
+  "fallback": 0,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "COMPLETE"
+}

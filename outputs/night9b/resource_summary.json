@@ -1,0 +1,84 @@
+{
+  "COSMOS_per_seed": [
+    {
+      "checkpoint_reload_seconds": 0.0,
+      "common_head_seconds": 5.562620684504509,
+      "endpoint_completion_seconds": 11.382852382957935,
+      "native_endpoint_seconds": 5.454387711361051,
+      "original_process_observed_seconds": 228.00940785370767,
+      "peak_gpu_allocated_mib": null,
+      "preprocessing_seconds": null,
+      "seed": 0,
+      "total_observed_seconds": 239.3922602366656,
+      "training_runtime_note": "preprocessing and training were completed in the one formal process, but their split was not persisted before the post-training R discovery failure",
+      "training_seconds": null
+    },
+    {
+      "checkpoint_reload_seconds": 0.0,
+      "common_head_seconds": 5.033214410766959,
+      "endpoint_completion_seconds": 13.626140059903264,
+      "native_endpoint_seconds": 8.297898719087243,
+      "original_process_observed_seconds": 230.47480269894004,
+      "peak_gpu_allocated_mib": null,
+      "preprocessing_seconds": null,
+      "seed": 1,
+      "total_observed_seconds": 244.1009427588433,
+      "training_runtime_note": "preprocessing and training were completed in the one formal process, but their split was not persisted before the post-training R discovery failure",
+      "training_seconds": null
+    },
+    {
+      "checkpoint_reload_seconds": 0.0,
+      "common_head_seconds": 30.54885766096413,
+      "native_endpoint_seconds": 8.968985045328736,
+      "peak_gpu_allocated_mib": 1214.1064453125,
+      "preprocessing_seconds": 0.02433529682457447,
+      "seed": 2,
+      "total_seconds": 252.39649745635688,
+      "training_seconds": 212.12399467080832
+    },
+    {
+      "checkpoint_reload_seconds": 0.0,
+      "common_head_seconds": 29.656294248998165,
+      "native_endpoint_seconds": 9.31219220161438,
+      "peak_gpu_allocated_mib": 1214.1064453125,
+      "preprocessing_seconds": 0.02510235272347927,
+      "seed": 3,
+      "total_seconds": 242.96095498278737,
+      "training_seconds": 203.1573780309409
+    },
+    {
+      "checkpoint_reload_seconds": 0.0,
+      "common_head_seconds": 31.324715044349432,
+      "native_endpoint_seconds": 7.175317715853453,
+      "peak_gpu_allocated_mib": 1214.1064453125,
+      "preprocessing_seconds": 0.024537701159715652,
+      "seed": 4,
+      "total_seconds": 254.00349579378963,
+      "training_seconds": 214.6878906674683
+    }
+  ],
+  "COSMOS_runtime_disclosure": "Seeds 0 and 1 completed their single CUDA training attempt, then failed after embedding/weights save because R was not discoverable. Their exact preprocess/train split was not persisted; endpoints were completed without retraining.",
+  "RACF_runtime_seconds": {
+    "R1_mean": 11.024186001602738,
+    "R1_total": 463.015812067315,
+    "R2_mean": 11.19066064991057,
+    "R2_total": 44.76264259964228
+  },
+  "endpoint_outputs": {
+    "COSMOS": 10,
+    "RACF_H05": 46
+  },
+  "formal_scientific_training": {
+    "COSMOS": 5,
+    "R1": 42,
+    "R2": 4,
+    "RACF_total": 46,
+    "all_new_training_units": 51,
+    "fallback": 0,
+    "scientific_retry": 0
+  },
+  "raw_bytes": 327388562,
+  "raw_root": "/root/autodl-fs/night9b_racf_20260820",
+  "schema_version": 1,
+  "status": "PASS_WITH_DISCLOSED_P2_RUNTIME_SPLIT_MISSING_FOR_SEEDS_0_1"
+}
