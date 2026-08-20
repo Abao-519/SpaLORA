@@ -1,0 +1,13 @@
+{
+  "Y_values_read": false,
+  "candidate_changed": false,
+  "correction": "use the unchanged Seurat-v3 ranks and select exactly the finite locked ranks 0..1999",
+  "failed_attempt_preserved_in_log": "/root/autodl-fs/night8b_raw_runs_20260820/logs/p0.log",
+  "failure": "Scanpy 1.9.1 highly_variable boolean marked 2001 genes although only ranks 0..1999 were finite",
+  "formal_transforms": 0,
+  "parameter_changed": false,
+  "scientific_training_units": 0,
+  "scope": "global_prelabel_infrastructure_correction_1_of_4",
+  "status": "CORRECTED_BEFORE_FORMAL_SCIENCE",
+  "threshold_changed": false
+}

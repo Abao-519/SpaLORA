@@ -1,0 +1,404 @@
+{
+  "authority": {
+    "registry": {
+      "actual": "4ea482e37fcfdb17ccc8981a2895892c76b6c13a7f5019eae0976b408f2036c7",
+      "expected": "4ea482e37fcfdb17ccc8981a2895892c76b6c13a7f5019eae0976b408f2036c7",
+      "match": true
+    },
+    "taskbook": {
+      "actual": "068d9e7b0953dc600cd1cc809978a12037afb007bc894a52a8429cbd7f0bedcf",
+      "expected": "068d9e7b0953dc600cd1cc809978a12037afb007bc894a52a8429cbd7f0bedcf",
+      "match": true
+    }
+  },
+  "autodl_api_called": false,
+  "cache_lock": {
+    "base_dir": "/root/autodl-fs/night8b_raw_runs_20260820/cache/base",
+    "base_manifest_sha256": "c5a8b3c3e6ffd0de378ce60f890aabcce9eccd57014c42b482e9dee180a5c544",
+    "graph_caches": {
+      "G00_SP18_F20_CORR_UNION": {
+        "directory": "/root/autodl-fs/night8b_raw_runs_20260820/cache/graphs/G00_SP18_F20_CORR_UNION",
+        "manifest": {
+          "arrays": {
+            "coordinates": {
+              "canonical_array_sha256": "e33fe1ff8ad1524c63e44b47b688ae54d712f8e63b861af19738b6478e68cd8b",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                2
+              ]
+            },
+            "features_omics1": {
+              "canonical_array_sha256": "64de0f7d376a76723889aca3d82c0237e59f8cd924f8efd2b1dc0d9aff9b82ef",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                2000
+              ]
+            },
+            "features_omics2": {
+              "canonical_array_sha256": "9d261a9df425689d71aae916c3dab630936dc4530ceb82015182c294f4b726e1",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                50
+              ]
+            },
+            "rna_pca_scores": {
+              "canonical_array_sha256": "7669f1cf2f0c333764bb84ded11ea82277390666ad961a82fdb78a73c9e096af",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                50
+              ]
+            },
+            "weight_vector_omics1": {
+              "canonical_array_sha256": "bd622555d9052a55a1d055be76fd5b997cd5f340ab548da544ce65007095f77c",
+              "dtype": "float32",
+              "shape": [
+                2000
+              ]
+            }
+          },
+          "asr_moran_scores": {
+            "canonical_array_sha256": "74199fd87bffb328bd43c661bd94493af578662eaa63fdcd3792ad0101a9b274",
+            "dtype": "float64",
+            "file": "asr_moran_scores_selected_genes.npy",
+            "file_sha256": "5bdd6839f5eaf826bd60980376c6470f6b7bd478d88ec61758ea3258c6c8fcd4",
+            "shape": [
+              2000
+            ],
+            "size_bytes": 16128
+          },
+          "asr_moran_scoring_executed": true,
+          "asr_moran_spatial_rule": "G00_SP18_F20_CORR_UNION",
+          "asr_moran_spatial_support_sha256": "0097c96a9fc01bdd7b8b0de6819ed5784c5b15a7645af09d240a526f6bdd0f61",
+          "asr_training_effect": "diagnostic_only_under_corrected_unweighted_HVG_only_C04; selection_and_weights_remain_fixed",
+          "base_cache_manifest_sha256": "c5a8b3c3e6ffd0de378ce60f890aabcce9eccd57014c42b482e9dee180a5c544",
+          "candidate": {
+            "family": "reference",
+            "feature_k": 20,
+            "feature_metric": "correlation",
+            "id": "G00_SP18_F20_CORR_UNION",
+            "spatial_k": 18,
+            "spatial_refinement": "none",
+            "spatial_symmetrization": "union"
+          },
+          "candidate_config_sha256": "9e4f637c1460c7d1e7206b93df549cd4befbadeff9de220dc76297f7a47f1121",
+          "canonical_graph_cache_sha256": "86fedf701a23b5377df6a2998d7bab17b907e9145e10e350b83c8992e516820f",
+          "canonical_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+          "graphs": {
+            "adj_feature_omics1": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_feature_omics1_support.npz",
+              "file_sha256": "967c35e273d9666d9fb8bb4059924d0810bf17041f84151f2ca5f4b53a4a8492",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 62856,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 93565,
+              "support_sha256": "dd0ed1aebc89011275b80a1a2352b57dc89bdd271eea78e4acf925ecd516553f",
+              "undirected_edges": 31428
+            },
+            "adj_feature_omics2": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_feature_omics2_support.npz",
+              "file_sha256": "089a0eadb003fdf9fcd29e47dd0463cbf1d6f97ee7994e05287c6900d9cb4ddc",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 50750,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 71764,
+              "support_sha256": "2989f4c97f1397c7aad8c95bdbb8939c1bcb2abe461b880f9247b595a0d1378c",
+              "undirected_edges": 25375
+            },
+            "adj_spatial_omics1": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_spatial_omics1_support.npz",
+              "file_sha256": "7123b01e57aaaa4a53062c3c2d6d3227c76e7eb5e709d6e7fbab657f2008f0ad",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 38446,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 29119,
+              "support_sha256": "0097c96a9fc01bdd7b8b0de6819ed5784c5b15a7645af09d240a526f6bdd0f61",
+              "undirected_edges": 19223
+            },
+            "adj_spatial_omics2": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_spatial_omics2_support.npz",
+              "file_sha256": "7123b01e57aaaa4a53062c3c2d6d3227c76e7eb5e709d6e7fbab657f2008f0ad",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 38446,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 29119,
+              "support_sha256": "0097c96a9fc01bdd7b8b0de6819ed5784c5b15a7645af09d240a526f6bdd0f61",
+              "undirected_edges": 19223
+            }
+          },
+          "schema_version": 1,
+          "silent_fallback": false
+        },
+        "manifest_sha256": "c8919140bf8f0088ca54ad5b0051b6a159e3f4967a8d9d9dbddc46a0215c1b7f"
+      },
+      "G04_SP10_F10_EUC_UNION": {
+        "directory": "/root/autodl-fs/night8b_raw_runs_20260820/cache/graphs/G04_SP10_F10_EUC_UNION",
+        "manifest": {
+          "arrays": {
+            "coordinates": {
+              "canonical_array_sha256": "e33fe1ff8ad1524c63e44b47b688ae54d712f8e63b861af19738b6478e68cd8b",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                2
+              ]
+            },
+            "features_omics1": {
+              "canonical_array_sha256": "64de0f7d376a76723889aca3d82c0237e59f8cd924f8efd2b1dc0d9aff9b82ef",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                2000
+              ]
+            },
+            "features_omics2": {
+              "canonical_array_sha256": "9d261a9df425689d71aae916c3dab630936dc4530ceb82015182c294f4b726e1",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                50
+              ]
+            },
+            "rna_pca_scores": {
+              "canonical_array_sha256": "7669f1cf2f0c333764bb84ded11ea82277390666ad961a82fdb78a73c9e096af",
+              "dtype": "float32",
+              "shape": [
+                1949,
+                50
+              ]
+            },
+            "weight_vector_omics1": {
+              "canonical_array_sha256": "bd622555d9052a55a1d055be76fd5b997cd5f340ab548da544ce65007095f77c",
+              "dtype": "float32",
+              "shape": [
+                2000
+              ]
+            }
+          },
+          "asr_moran_scores": {
+            "canonical_array_sha256": "6317916ab5f98db8ee37dad28e866cf94bc5b95490e6b70bb495c8a31f67f064",
+            "dtype": "float64",
+            "file": "asr_moran_scores_selected_genes.npy",
+            "file_sha256": "f4e05ad06848d7b324a022f6832c4e87c10954e16945b54c2c3a09fddad93803",
+            "shape": [
+              2000
+            ],
+            "size_bytes": 16128
+          },
+          "asr_moran_scoring_executed": true,
+          "asr_moran_spatial_rule": "G04_SP10_F10_EUC_UNION",
+          "asr_moran_spatial_support_sha256": "5073ccd5d1be6d558bf65fba7bcc1c185937767586d4237edab134343ce071cf",
+          "asr_training_effect": "diagnostic_only_under_corrected_unweighted_HVG_only_C04; selection_and_weights_remain_fixed",
+          "base_cache_manifest_sha256": "c5a8b3c3e6ffd0de378ce60f890aabcce9eccd57014c42b482e9dee180a5c544",
+          "candidate": {
+            "family": "feature_scale_metric",
+            "feature_k": 10,
+            "feature_metric": "euclidean",
+            "id": "G04_SP10_F10_EUC_UNION",
+            "spatial_k": 10,
+            "spatial_refinement": "none",
+            "spatial_symmetrization": "union"
+          },
+          "candidate_config_sha256": "abd14bfc267f964927ea952359fa5cc94f9bfabe101f176805c037f1946bc639",
+          "canonical_graph_cache_sha256": "4dc5ef39b6b4925647ae5833e414e16361f66b6b3a6d56d15a588c198ee52dba",
+          "canonical_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+          "graphs": {
+            "adj_feature_omics1": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_feature_omics1_support.npz",
+              "file_sha256": "9d3064afc6bf8f889b47a0118a6857105f4163694ad2da372cf3d1dcc5fd7998",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 35178,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 58506,
+              "support_sha256": "1eda630943da3f012543a51259545c3cb803c6e7b49b89d8ca0109f757a76703",
+              "undirected_edges": 17589
+            },
+            "adj_feature_omics2": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_feature_omics2_support.npz",
+              "file_sha256": "f90b1b99142ca29f0800c47935a5b621a9d5dab7a17661f9bb3a4c8d55c9586a",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 27716,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 44769,
+              "support_sha256": "5bfe9d5eec97951c49ebd840a3daf2a4b0fabfd8b164bb226e7e43f6cd1965fa",
+              "undirected_edges": 13858
+            },
+            "adj_spatial_omics1": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_spatial_omics1_support.npz",
+              "file_sha256": "a823efa296c29e72e442745542bc376adae177b5f95907424dd684e92ba714cf",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 21900,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 24470,
+              "support_sha256": "5073ccd5d1be6d558bf65fba7bcc1c185937767586d4237edab134343ce071cf",
+              "undirected_edges": 10950
+            },
+            "adj_spatial_omics2": {
+              "connected_components_before_normalization": 1,
+              "file": "adj_spatial_omics2_support.npz",
+              "file_sha256": "a823efa296c29e72e442745542bc376adae177b5f95907424dd684e92ba714cf",
+              "isolated_nodes_before_normalization": 0,
+              "nnz": 21900,
+              "normalization_self_loop_only_for_isolates": true,
+              "size_bytes": 24470,
+              "support_sha256": "5073ccd5d1be6d558bf65fba7bcc1c185937767586d4237edab134343ce071cf",
+              "undirected_edges": 10950
+            }
+          },
+          "schema_version": 1,
+          "silent_fallback": false
+        },
+        "manifest_sha256": "79ce9ac80244f92e66ed73b6499279cb8dbb55cee0fb445570f311149154d35f"
+      }
+    },
+    "observation_count": 1949,
+    "ordered_observation_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b"
+  },
+  "cuda": {
+    "backward_finite": true,
+    "cuda_available": true,
+    "driver": "595.71.05",
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "loss_device": "cuda:0",
+    "parameter_device": "cuda:0",
+    "peak_gpu_mib": 17.2607421875,
+    "status": "PASS",
+    "tensor_device": "cuda:0",
+    "torch": "2.0.0+cu118",
+    "torch_cuda": "11.8"
+  },
+  "elapsed_seconds": 59.280301658436656,
+  "environment": {
+    "cpu_count": 96,
+    "memory_kib": 527970932,
+    "numpy": "1.22.3",
+    "python": "3.8.10",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118"
+  },
+  "label_access": false,
+  "official_files": [
+    {
+      "bytes": 48966670,
+      "match": true,
+      "md5": "85068d59bfecc7ff19394594bb94b071",
+      "name": "E15_5-S1_raw_feature_bc_matrix.h5",
+      "sha256": "4db64464b4ffdd36a362bcf4a2687ccefa28c96c22571ac727d3bb49fa71dfd4"
+    },
+    {
+      "bytes": 11083,
+      "match": true,
+      "md5": "ab7cc4c996b29ab7a4a60838933141f8",
+      "name": "position_E15_5-S1.txt",
+      "sha256": "4659dfebc7be524036931ac5d57990a1ef0bcab2a733f4619b2d4dc1951ea030"
+    },
+    {
+      "bytes": 64115,
+      "match": true,
+      "md5": "73dc8a0fad504cc883ae394669fb8fe0",
+      "name": "MISAR-seq_barcode_filter.csv",
+      "sha256": "db150f59c6a45454d8d91e9079f3d6659c44fa074ef870b2f3861b2a34feb771"
+    },
+    {
+      "bytes": 64129,
+      "match": true,
+      "md5": "9404a58a3252a181b0de6ab613ce990b",
+      "name": "MISAR-seq_barcode.csv",
+      "sha256": "e7eb1d788098d745c8e3822f9432f1e0a4a3bc5fb291029b6dcc96dfff5bf623"
+    }
+  ],
+  "p22_code_parity": {
+    "c06_exact": true,
+    "label_access": false,
+    "p22_artifacts_in_misar_model_dag": false,
+    "role": "read_only_code_semantics_parity_only",
+    "s00_exact": true,
+    "s04_exact": true,
+    "status": "PASS"
+  },
+  "provenance": {
+    "Y_values_read": false,
+    "annotation_carrier": "Figshare 21623148 v5 file 42520831",
+    "carrier": {
+      "Y_dtype": "|S10",
+      "Y_shape": [
+        1949
+      ],
+      "Y_value_deserialized": false,
+      "archive_md5": "76fb78c20d218baf8c964d214a5899b2",
+      "archive_sha256": "c9f2896ae3fef900fed413f337fc517751d3487351b83641aa323ac41c75210f",
+      "hdf5_keys": [
+        "X",
+        "Y",
+        "cell",
+        "peak",
+        "pos"
+      ]
+    },
+    "correction": "GSE213264 is unrelated spatial-CITE-seq and is not a MISAR cross-reference",
+    "forbidden_incorrect_cross_reference": "GSE213264",
+    "mapping_rows": 1949,
+    "mapping_sha256": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+    "official_accession": "OEP003285",
+    "official_processed_record": "Zenodo 7480069",
+    "raw_shapes": {
+      "ATAC": [
+        1949,
+        141420
+      ],
+      "RNA": [
+        1949,
+        32285
+      ]
+    },
+    "status": "PASS_CORRECTED",
+    "training_uses_annotation_expression_matrix": false,
+    "valid_raw_read_cross_reference": "SRP491963"
+  },
+  "smoke": {
+    "U00_and_F00_transform_smoke": true,
+    "formal_transforms": 0,
+    "label_access": false,
+    "rows": [
+      {
+        "command": "/root/miniconda3/envs/SpaLORA/bin/python /autodl-fs/data/SpaLORA-night8b/scripts/night8b_train.py base",
+        "returncode": 0,
+        "seconds": 5.526026983745396
+      },
+      {
+        "command": "/root/miniconda3/envs/SpaLORA/bin/python /autodl-fs/data/SpaLORA-night8b/scripts/night8b_train.py reload-base",
+        "returncode": 0,
+        "seconds": 3.997052530758083
+      },
+      {
+        "command": "/root/miniconda3/envs/SpaLORA/bin/python /autodl-fs/data/SpaLORA-night8b/scripts/night8b_train.py adapter",
+        "returncode": 0,
+        "seconds": 17.832186286337674
+      },
+      {
+        "command": "/root/miniconda3/envs/SpaLORA/bin/python /autodl-fs/data/SpaLORA-night8b/scripts/night8b_train.py transform",
+        "returncode": 0,
+        "seconds": 3.531538661569357
+      },
+      {
+        "command": "/root/miniconda3/envs/SpaLORA/bin/python /autodl-fs/data/SpaLORA-night8b/scripts/night8b_train.py transform",
+        "returncode": 0,
+        "seconds": 3.9881133707240224
+      }
+    ],
+    "scientific_training_units": 0,
+    "status": "PASS"
+  },
+  "status": "P0_PASS"
+}

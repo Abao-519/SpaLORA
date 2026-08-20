@@ -1,0 +1,13 @@
+{
+  "Y_values_read": false,
+  "candidate_changed": false,
+  "correction": "write the identical UTF-8 LF-delimited observation contract through Path.open(newline='\\n')",
+  "failed_attempt_preserved_in_log": "/root/autodl-fs/night8b_raw_runs_20260820/logs/p0_attempt3.log",
+  "failure": "Python 3.8 pathlib.Path.write_text does not accept the newline keyword",
+  "formal_transforms": 0,
+  "parameter_changed": false,
+  "scientific_training_units": 0,
+  "scope": "global_prelabel_infrastructure_correction_3_of_4",
+  "status": "CORRECTED_BEFORE_FORMAL_SCIENCE",
+  "threshold_changed": false
+}

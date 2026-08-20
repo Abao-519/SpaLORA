@@ -1,0 +1,13 @@
+{
+  "Y_values_read": false,
+  "candidate_changed": false,
+  "correction": "apply the already-established Night-6C checkpoint view tolerance atol=1e-6, rtol=1e-5 while retaining exact canonical tensor-state SHA",
+  "failed_attempt_preserved_in_log": "/root/autodl-fs/night8b_raw_runs_20260820/logs/p0_attempt2.log",
+  "failure": "fresh-process CUDA forward differed by at most 5.960464477539063e-08 while the first implementation incorrectly required bitwise equality",
+  "formal_transforms": 0,
+  "parameter_changed": false,
+  "scientific_training_units": 0,
+  "scope": "global_prelabel_infrastructure_correction_2_of_4",
+  "status": "CORRECTED_BEFORE_FORMAL_SCIENCE",
+  "threshold_changed": false
+}

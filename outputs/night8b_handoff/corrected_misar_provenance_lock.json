@@ -1,0 +1,39 @@
+{
+  "Y_values_read": false,
+  "annotation_carrier": "Figshare 21623148 v5 file 42520831",
+  "carrier": {
+    "Y_dtype": "|S10",
+    "Y_shape": [
+      1949
+    ],
+    "Y_value_deserialized": false,
+    "archive_md5": "76fb78c20d218baf8c964d214a5899b2",
+    "archive_sha256": "c9f2896ae3fef900fed413f337fc517751d3487351b83641aa323ac41c75210f",
+    "hdf5_keys": [
+      "X",
+      "Y",
+      "cell",
+      "peak",
+      "pos"
+    ]
+  },
+  "correction": "GSE213264 is unrelated spatial-CITE-seq and is not a MISAR cross-reference",
+  "forbidden_incorrect_cross_reference": "GSE213264",
+  "mapping_rows": 1949,
+  "mapping_sha256": "322e7bf0f459998c882a0305e8aea129deee29570412982b3697976ac64b8ae5",
+  "official_accession": "OEP003285",
+  "official_processed_record": "Zenodo 7480069",
+  "raw_shapes": {
+    "ATAC": [
+      1949,
+      141420
+    ],
+    "RNA": [
+      1949,
+      32285
+    ]
+  },
+  "status": "PASS_CORRECTED",
+  "training_uses_annotation_expression_matrix": false,
+  "valid_raw_read_cross_reference": "SRP491963"
+}

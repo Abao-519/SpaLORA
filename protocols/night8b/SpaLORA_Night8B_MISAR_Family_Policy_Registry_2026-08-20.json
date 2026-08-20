@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "protocol_id": "spalora-night8b-misar-frozen-family-policy-external-confirmation-20260820",
+  "date": "2026-08-20",
+  "authority_type": "one_time_external_confirmation_no_candidate_search",
+  "base_commit": "b2eb62d8ddb1b80b14f916e4dcbbcb407581c6ca",
+  "base_tag": "night8a-eval-recovery-final-20260820",
+  "execution": {
+    "autodl_mode": "GPU_CARD_MODE_REQUIRED",
+    "gpu_required_for_training": true,
+    "autodl_power_api_forbidden": true,
+    "planned_branch": "revision/q2-night8b-misar-family-policy-external-20260820",
+    "protection_tag": "baseline/pre-night8b-misar-family-policy-external-20260820",
+    "final_tag": "night8b-final-20260820",
+    "remote_repo": "/root/autodl-fs/SpaLORA-night8b",
+    "raw_root": "/root/autodl-fs/night8b_raw_runs_20260820",
+    "compact_root_windows": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_handoff_20260820/official_compact"
+  },
+  "objective": "Test, without further selection, whether the pre-locked RNA_EPIGENOME R02 policy generalizes from P22 to independent MISAR E15.5 S1 compared with the universal confirmed C00 route.",
+  "authority_files": [
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8a_eval_recovery_handoff_20260820/official_compact/compact_delivery_index.json",
+      "sha256": "14b25477e72bb1943620c5fb0056d42913bee201dd2d00d22f8b1070f778e96e"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8a_eval_recovery_handoff_20260820/official_compact/outputs/night8a_eval_recovery/recovery_decision.json",
+      "sha256": "3a92c62fe4be9cfe5909b9e0270504392cec067abd7b59efeb6d642d34f48b77"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8a_handoff_20260820/official_compact/outputs/night8a_handoff/external_dataset_lock.json",
+      "sha256": "706395103ded06d0c4c4d0d79010b5685adab34e77a1fcc692a72cb6a658e386",
+      "status": "source_lock_with_known_cross_reference_correction"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8a_handoff_20260820/official_compact/outputs/night8a_handoff/family_reference_policy.json",
+      "sha256": "97d8588ae5fb8920299e23ce562f3e8d62556db9ddc8d2efd5937442fe04a4ac"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/night7b_final_candidate_lock.json",
+      "sha256": "74d76ca45ca7d9d632bdfdd694bfccbe635318b3cdfaad409ca21100805ddd97"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/protocols/night7b/SpaLORA_Night7B_Adaptive_Relational_Fusion_Registry_2026-08-18.json",
+      "sha256": "e94b5127b217a5541dae0b8e0260e6a1c029482b6f04af3224b0cfff42a2e9c3"
+    }
+  ],
+  "dataset": {
+    "id": "MISAR_E15_5_S1",
+    "family": "RNA_EPIGENOME",
+    "stage": "E15.5",
+    "section": "S1",
+    "spots": 1949,
+    "K": 12,
+    "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "role": "one_time_external_confirmation",
+    "official_accession": "OEP003285",
+    "valid_raw_read_cross_reference": "SRP491963",
+    "forbidden_incorrect_cross_reference": "GSE213264",
+    "official_processed_record": {
+      "url": "https://zenodo.org/records/7480069",
+      "record_id": 7480069,
+      "title": "MISAR-seq"
+    },
+    "training_inputs": [
+      {
+        "name": "E15_5-S1_raw_feature_bc_matrix.h5",
+        "bytes": 48966670,
+        "md5": "85068d59bfecc7ff19394594bb94b071",
+        "sha256": "4db64464b4ffdd36a362bcf4a2687ccefa28c96c22571ac727d3bb49fa71dfd4"
+      },
+      {
+        "name": "position_E15_5-S1.txt",
+        "bytes": 11083,
+        "md5": "ab7cc4c996b29ab7a4a60838933141f8",
+        "sha256": "4659dfebc7be524036931ac5d57990a1ef0bcab2a733f4619b2d4dc1951ea030"
+      },
+      {
+        "name": "MISAR-seq_barcode_filter.csv",
+        "bytes": 64115,
+        "md5": "73dc8a0fad504cc883ae394669fb8fe0",
+        "sha256": "db150f59c6a45454d8d91e9079f3d6659c44fa074ef870b2f3861b2a34feb771"
+      },
+      {
+        "name": "MISAR-seq_barcode.csv",
+        "bytes": 64129,
+        "md5": "9404a58a3252a181b0de6ab613ce990b",
+        "sha256": "e7eb1d788098d745c8e3822f9432f1e0a4a3bc5fb291029b6dcc96dfff5bf623"
+      }
+    ],
+    "annotation_carrier": {
+      "source": "Figshare spatial genomics datasets used in the spaVAE study",
+      "article_id": 21623148,
+      "version": 5,
+      "doi": "10.6084/m9.figshare.21623148.v5",
+      "archive": "MISAR_seq_mouse_E15_brain_data.zip",
+      "bytes": 21670493,
+      "md5": "76fb78c20d218baf8c964d214a5899b2",
+      "download_url": "https://ndownloader.figshare.com/files/42520831",
+      "label_dataset": "MISAR_seq_mouse_E15_brain_ATAC_data.h5::Y",
+      "values_must_remain_sealed_until_all_predictions_lock": true
+    }
+  },
+  "fixed_methods": [
+    {
+      "id": "U00_UNIVERSAL_C00",
+      "recipe": "C00_G04_H05_CONFIRMED",
+      "role": "universal_reference"
+    },
+    {
+      "id": "F00_FAMILY_R02",
+      "recipe": "R02__E1_ADAPTER_C06_MEAN__H01",
+      "role": "prelocked_RNA_EPIGENOME_policy",
+      "adapter_losses": ["RECON", "MNN"],
+      "fusion": "equal",
+      "endpoint": "E1_ADAPTER_C06_MEAN"
+    }
+  ],
+  "candidate_search": false,
+  "training": {
+    "base_training_units": 10,
+    "adapter_training_units": 10,
+    "scientific_training_total": 20,
+    "scientific_retries": 0,
+    "global_prelabel_infrastructure_corrections_max": 4,
+    "checkpoint_roundtrip_required": true,
+    "reuse_base_views_within_seed": true,
+    "p22_artifacts_as_model_inputs_forbidden": true
+  },
+  "transforms": {
+    "U00": 10,
+    "F00": 10,
+    "total": 20,
+    "all_lock_before_label_open": true
+  },
+  "label_firewall": {
+    "training_inputs_have_zero_obs_columns": true,
+    "Y_value_deserialization_before_total_lock_forbidden": true,
+    "only_low_level_cell_pos_and_HDF5_shape_audit_allowed_prelock": true,
+    "dataset_name_tissue_name_and_labels_not_model_inputs": true,
+    "one_authorized_evaluation_window": true,
+    "no_return_to_training_transform_or_clustering_after_label_open": true
+  },
+  "primary_metrics": ["ARI", "NMI", "Q"],
+  "Q": "(ARI+NMI)/2",
+  "secondary_metrics": [
+    "AMI",
+    "FMI",
+    "homogeneity",
+    "completeness",
+    "V_measure",
+    "neighbor_agreement",
+    "Moran_I",
+    "Geary_C",
+    "boundary_disagreement"
+  ],
+  "primary_contrast": "F00_FAMILY_R02 minus U00_UNIVERSAL_C00, paired by seed",
+  "statistics": {
+    "test": "exact_one_sided_paired_sign_flip_permutation_on_mean_delta_Q_enumerating_all_2^10_signs",
+    "alpha": 0.05,
+    "bootstrap_replicates": 100000,
+    "bootstrap_seed": 20260820,
+    "note": "seed-level inference measures algorithmic stability, not independent biological replication"
+  },
+  "scientific_gate": {
+    "mean_delta_Q_min": 0.01,
+    "mean_delta_ARI_min": 0.0,
+    "mean_delta_NMI_min": 0.0,
+    "paired_Q_wins_min": 8,
+    "exact_sign_flip_p_max_exclusive": 0.05,
+    "bootstrap_95CI_delta_Q_lower_min_exclusive": 0.0,
+    "spatial_protection": {
+      "neighbor_agreement_mean_delta_min": -0.01,
+      "Moran_I_mean_delta_min": -0.02,
+      "Geary_C_mean_delta_max": 0.02,
+      "boundary_disagreement_mean_delta_max": 0.01
+    }
+  },
+  "resource_gate": {
+    "F00_end_to_end_runtime_ratio_max": 1.5,
+    "F00_peak_gpu_ratio_max": 1.25,
+    "training_unit_wall_minutes_max": 60,
+    "transform_unit_wall_minutes_max": 20,
+    "total_wall_hours_max": 6
+  },
+  "published_context_only": {
+    "requires_exact_1949_spot_12_region_annotation_compatibility": true,
+    "SEPAR_reported_ARI": 0.644,
+    "SEPAR_reported_SpatialGlue_ARI": 0.371,
+    "claim_SOTA_forbidden": true
+  },
+  "terminal_statuses": [
+    "NIGHT8B_MISAR_FAMILY_POLICY_BALANCED_CONFIRMED",
+    "NIGHT8B_MISAR_FAMILY_POLICY_ACCURACY_CONFIRMED_WITH_COMPLEXITY_COST",
+    "NIGHT8B_MISAR_PARTIAL_OR_MIXED_EVIDENCE",
+    "NIGHT8B_MISAR_FAMILY_POLICY_NOT_GENERALIZED",
+    "BLOCKED_PROVENANCE_OR_ANNOTATION",
+    "BLOCKED_DEPLOYABILITY",
+    "IMPLEMENTATION_SEMANTICS_INVALID",
+    "LABEL_FIREWALL_BREACH",
+    "TIME_BUDGET_EXHAUSTED",
+    "INFRASTRUCTURE_BLOCKED"
+  ],
+  "forbidden_actions": [
+    "run MF-SPC R3 or add a new candidate",
+    "change method, preprocessing, K, seed, threshold, endpoint or partition head after label opening",
+    "use P22 embeddings, P22 spatial support or P22 checkpoints as MISAR model inputs",
+    "open Y values before all 20 partitions and manifests are locked and pushed",
+    "treat GSE213264 as MISAR provenance",
+    "select best seed, best retry, best epoch or best label mapping",
+    "run third-party formal benchmark or claim SOTA in Night-8B",
+    "run in CPU-only no-card mode",
+    "call AutoDL power API",
+    "force-push, move a final tag or create final tag before final index commit",
+    "download raw runs or checkpoints to Windows"
+  ]
+}
