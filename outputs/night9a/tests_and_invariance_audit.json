@@ -1,0 +1,591 @@
+{
+  "candidate_real_smoke": "9/9 PASS",
+  "formal_key_coverage": "54/54",
+  "independent_recompute": {
+    "chain_count": 54,
+    "max_abs_error": 5.551115123125783e-16,
+    "metric_audit": {
+      "path": "/autodl-fs/data/SpaLORA-night9a/outputs/night9a/R1_independent_metric_recompute.json",
+      "sha256": "9916c15a1fbb51616d54d1884301a02f772c6f8f38f5f7d5b5135d80d34eb223",
+      "size_bytes": 5825
+    },
+    "rows": [
+      {
+        "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 1,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 2,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 3,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 4,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 5,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 6,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E01_WARM_FULL_E40",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 7,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E01_WARM_FULL_E40",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 8,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E01_WARM_FULL_E40",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 9,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E01_WARM_FULL_E40",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 10,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E01_WARM_FULL_E40",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 11,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E01_WARM_FULL_E40",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 12,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E02_WARM_FULL_E80",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 13,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E02_WARM_FULL_E80",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 14,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E02_WARM_FULL_E80",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 15,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E02_WARM_FULL_E80",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 16,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E02_WARM_FULL_E80",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 17,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E02_WARM_FULL_E80",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 18,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E03_WARM_FULL_E160",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 19,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E03_WARM_FULL_E160",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 20,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E03_WARM_FULL_E160",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 21,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E03_WARM_FULL_E160",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 22,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E03_WARM_FULL_E160",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 23,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E03_WARM_FULL_E160",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 24,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E04_WARM_FULL_E320",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 25,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E04_WARM_FULL_E320",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 26,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E04_WARM_FULL_E320",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 27,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E04_WARM_FULL_E320",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 28,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E04_WARM_FULL_E320",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 29,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E04_WARM_FULL_E320",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 30,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E05_SGC1_RESIDUAL50",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 31,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E05_SGC1_RESIDUAL50",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 32,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E05_SGC1_RESIDUAL50",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 33,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E05_SGC1_RESIDUAL50",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 34,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E05_SGC1_RESIDUAL50",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 35,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E05_SGC1_RESIDUAL50",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 36,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E06_SGC2_MEAN",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 37,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E06_SGC2_MEAN",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 38,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E06_SGC2_MEAN",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 39,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E06_SGC2_MEAN",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 40,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E06_SGC2_MEAN",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 41,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E06_SGC2_MEAN",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 42,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 43,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 44,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 45,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 46,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 47,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 48,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 49,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 50,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+        "dataset": "p22",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 51,
+        "resource_checks": 6,
+        "seed": 2
+      },
+      {
+        "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 52,
+        "resource_checks": 6,
+        "seed": 0
+      },
+      {
+        "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 53,
+        "resource_checks": 6,
+        "seed": 1
+      },
+      {
+        "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+        "dataset": "misar",
+        "fidelity_checks": 7,
+        "max_abs_error": 0.0,
+        "ordinal": 54,
+        "resource_checks": 6,
+        "seed": 2
+      }
+    ],
+    "status": "PASS",
+    "tolerance": 1e-12
+  },
+  "infrastructure": {
+    "corrections": [
+      {
+        "id": "P0_PATH_AUTHORITY_CORRECTION",
+        "label_access": 0,
+        "log": {
+          "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0.log",
+          "sha256": "298482020471c24e1620be1c344fd77b05455ce8d68b6eeb72356e97f58b667b",
+          "size_bytes": 589
+        },
+        "note": "MISAR locked affinity was initially addressed in the partition directory; no scientific chain ran.",
+        "scientific_retry": 0
+      },
+      {
+        "id": "P0_FRESH_PROCESS_CUDA_INIT_CORRECTION",
+        "label_access": 0,
+        "log": {
+          "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke.log",
+          "sha256": "dd948df542bc84fc807a56034ce62957cff838ce53432c13ddc51cf49f308959",
+          "size_bytes": 335
+        },
+        "note": "Fresh-process CUDA statistics reset preceded CUDA initialization; empty partial was isolated.",
+        "scientific_retry": 0
+      },
+      {
+        "id": "P0_NATIVE_THREAD_RUNTIME_CORRECTION",
+        "label_access": 0,
+        "log": {
+          "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke_attempt2.log",
+          "sha256": "679e31e33858ccea013b33950d51b93bab72c5bf85e73bdef381b82f21577f7d",
+          "size_bytes": 75
+        },
+        "note": "Three-thread native runtime crashed before adapter/affinity completion; partial was isolated and one-thread reproduction passed.",
+        "scientific_retry": 0
+      }
+    ],
+    "fallback": 0,
+    "final_smoke": {
+      "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke_attempt3_single_thread.log",
+      "sha256": "71066029f1438e0ba24f8a0c87c8ce7a96d623e4e1ffdb4c398023e3f9ae14af",
+      "size_bytes": 22936
+    },
+    "global_infrastructure_corrections_max": 4,
+    "global_infrastructure_corrections_used": 3,
+    "preserved_partial_artifacts": [
+      {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/invalid_infrastructure_attempts/p0_smoke_attempt2_native_crash/attempt_001/candidate_virtual_g00_views.npz",
+        "sha256": "2896f67fa7ec36fc1c33d72be67508f5ebdc5e5bc10a725ac313944f0fba20f6",
+        "size_bytes": 13267541
+      },
+      {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/invalid_infrastructure_attempts/p0_smoke_attempt2_native_crash/attempt_001/topology_expert_model_final.pt",
+        "sha256": "fab6f4e16d5ae70861de8c24cd477cf3a60fe108c41d1de9b9af0580b2c88e52",
+        "size_bytes": 2301487
+      }
+    ],
+    "scientific_retry": 0,
+    "single_thread_reproduction": {
+      "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke_e00_single_thread_repro.log",
+      "sha256": "68061bd787a8647a0f95fd033c758c2f703ff6dea675379532abbc56c493a473",
+      "size_bytes": 2560
+    },
+    "status": "PASS"
+  },
+  "pytest_log": {
+    "path": "/autodl-fs/data/SpaLORA-night9a/outputs/night9a/final_tests.log",
+    "sha256": "21f91fa1334833765aa770be8bb44c2ed7e8ab176109984991237aefe34d2fc3",
+    "size_bytes": 744
+  },
+  "same_head": "DATASET_LOCKED_EIGEN_KMEANS100",
+  "status": "PASS",
+  "teacher_invariance": {
+    "after_manifest": {
+      "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/manifests/teacher_authority_after.json",
+      "sha256": "7ba884c7268d0b01f12813e8a924340bb763b753fb0ee2463fec16ba60095eed",
+      "size_bytes": 65978
+    },
+    "before_manifest": {
+      "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/manifests/teacher_authority_before.json",
+      "sha256": "7ba884c7268d0b01f12813e8a924340bb763b753fb0ee2463fec16ba60095eed",
+      "size_bytes": 65978
+    },
+    "byte_level_rows_exact": true,
+    "row_count_after": 275,
+    "row_count_before": 275,
+    "status": "PASS"
+  },
+  "unchanged_adapter": "R02_RECON_MNN_EQUAL_160_FIXED_EPOCHS"
+}

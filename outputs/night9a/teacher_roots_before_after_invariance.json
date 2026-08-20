@@ -1,0 +1,16 @@
+{
+  "after_manifest": {
+    "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/manifests/teacher_authority_after.json",
+    "sha256": "7ba884c7268d0b01f12813e8a924340bb763b753fb0ee2463fec16ba60095eed",
+    "size_bytes": 65978
+  },
+  "before_manifest": {
+    "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/manifests/teacher_authority_before.json",
+    "sha256": "7ba884c7268d0b01f12813e8a924340bb763b753fb0ee2463fec16ba60095eed",
+    "size_bytes": 65978
+  },
+  "byte_level_rows_exact": true,
+  "row_count_after": 275,
+  "row_count_before": 275,
+  "status": "PASS"
+}

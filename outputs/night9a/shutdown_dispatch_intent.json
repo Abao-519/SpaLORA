@@ -1,0 +1,8 @@
+{
+  "autodl_api_used": false,
+  "command": "/usr/bin/shutdown",
+  "dispatch_only_after_windows_compact_verification": true,
+  "must_be_last_remote_command": true,
+  "reconnect_after_dispatch_forbidden": true,
+  "status": "INTENT_RECORDED_BEFORE_FINAL_COMMIT"
+}

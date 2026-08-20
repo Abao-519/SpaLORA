@@ -1,0 +1,161 @@
+{
+  "file_count": 30,
+  "files": [
+    {
+      "relative_path": "SpaLORA/night9a_efficient.py",
+      "sha256": "fb240c33470eaa9564d1d8fd742286ff903f7bc08aa97a90188fc4754af8583c",
+      "size_bytes": 11968
+    },
+    {
+      "relative_path": "scripts/night9a_run.py",
+      "sha256": "c02b53c63efecafd9141af411568fc544b31ea1a445f9573091cf08642a6eca8",
+      "size_bytes": 38867
+    },
+    {
+      "relative_path": "scripts/night9a_evaluate.py",
+      "sha256": "8eddb07fe63cf83e9678c74ef59ff668192f0014c57ac046c79cb2a251dc7bcf",
+      "size_bytes": 21532
+    },
+    {
+      "relative_path": "scripts/night9a_finalize.py",
+      "sha256": "81a43defeff2f4312e3fa000eb914b9c6c5fb583860fe33ed7323faf18454536",
+      "size_bytes": 20662
+    },
+    {
+      "relative_path": "tests/test_night9a_efficient.py",
+      "sha256": "2f1dc3308df1d80fff5c9c10879e9e2f2dabbe9f260ff02666a58f917a7f7c39",
+      "size_bytes": 5178
+    },
+    {
+      "relative_path": "reports/night9a_report.md",
+      "sha256": "6db4ba2f65a63ae09f311e26fa76968cd0b4ff493bb4ccd6b4aee3ea9f169344",
+      "size_bytes": 2250
+    },
+    {
+      "relative_path": "protocols/night9a/SpaLORA_Night9A_Efficient_Topology_Transfer_Registry_2026-08-20.json",
+      "sha256": "8ebd6e09cb49f065b49873b27bc0aedf60ef10217319d77e2b7470a99954087b",
+      "size_bytes": 13429
+    },
+    {
+      "relative_path": "protocols/night9a/SpaLORA_Night9A_Efficient_Topology_Transfer_Taskbook_2026-08-20.md",
+      "sha256": "f06ea1f69cdb05cc56adade187092b3fd23f75b1b74007ae4366d64819bde98c",
+      "size_bytes": 13729
+    },
+    {
+      "relative_path": "protocols/night9a/source_code_inspiration_audit.md",
+      "sha256": "94e4ca246398e692767f71f7a00c007c2baf6c6060a4cd5f7a7723429f8a2551",
+      "size_bytes": 3396
+    },
+    {
+      "relative_path": "outputs/night9a/R1_candidate_summary.json",
+      "sha256": "614b9b5f1fcb1fcf7b07df40a0b27eb6b1c2b9eebe2a297ae67df0ad2f5e948b",
+      "size_bytes": 25119
+    },
+    {
+      "relative_path": "outputs/night9a/R1_independent_metric_recompute.json",
+      "sha256": "9916c15a1fbb51616d54d1884301a02f772c6f8f38f5f7d5b5135d80d34eb223",
+      "size_bytes": 5825
+    },
+    {
+      "relative_path": "outputs/night9a/R1_label_window_audit.json",
+      "sha256": "22a489f173553d8fe32a55fa91295f26b2701d46b03ff5d639314047808793ce",
+      "size_bytes": 632
+    },
+    {
+      "relative_path": "outputs/night9a/R1_p22_per_seed_metrics.csv",
+      "sha256": "19af2fc93ece0cf90637b406ba5fa4557beffbcc218ebb4fa276abd8b4c51a1f",
+      "size_bytes": 5742
+    },
+    {
+      "relative_path": "outputs/night9a/R1_prelabel_push_gate.json",
+      "sha256": "9410018ccb1972f680d954000f8d32d2f0fa72da1748ec7fa07f289c1d16e049",
+      "size_bytes": 303
+    },
+    {
+      "relative_path": "outputs/night9a/R1_shortlist.json",
+      "sha256": "a9525a77ed3f5cc2d6c8d188d6146c1013932d13c37f84c9c0c644abafb2d265",
+      "size_bytes": 29615
+    },
+    {
+      "relative_path": "outputs/night9a/budget_and_label_access_audit.json",
+      "sha256": "c9c959d64a2a1880b7cd5c9300921af17d7b449c39048a3aca662f7dc625e01a",
+      "size_bytes": 575
+    },
+    {
+      "relative_path": "outputs/night9a/final_tests.log",
+      "sha256": "21f91fa1334833765aa770be8bb44c2ed7e8ab176109984991237aefe34d2fc3",
+      "size_bytes": 744
+    },
+    {
+      "relative_path": "outputs/night9a/git_audit.json",
+      "sha256": "24c72402ac4f6ec8cbec76caecad83dd929c407f7541f9c5e849f3c6153d7cbc",
+      "size_bytes": 581
+    },
+    {
+      "relative_path": "outputs/night9a/independent_metric_resource_fidelity_recompute.json",
+      "sha256": "ce8751cb4ffb8a5936334880c75a26b24b1d6921c386afecb82ebc3702581cee",
+      "size_bytes": 11463
+    },
+    {
+      "relative_path": "outputs/night9a/infrastructure_corrections_and_failures.json",
+      "sha256": "d83987dfeec60a5864bed2e695aaece2b9f0c4368f58e210dae3dd10863fed24",
+      "size_bytes": 2772
+    },
+    {
+      "relative_path": "outputs/night9a/locked_R1_manifest.json",
+      "sha256": "ae3d72a9a762938a1ea4760d1efe9856ac9dcf8815548f4813eff31082bbf5eb",
+      "size_bytes": 465420
+    },
+    {
+      "relative_path": "outputs/night9a/night9a_candidate_resource_fidelity_summary.csv",
+      "sha256": "4ce0eb1daf46d52a06194c2f672b065a65f29d16df76196acfb9e7c00ec36f83",
+      "size_bytes": 2520
+    },
+    {
+      "relative_path": "outputs/night9a/night9a_decision.json",
+      "sha256": "5bc527db38e7564fa54bf1b9abb03f4393841efcc042931499e9c63cd149866a",
+      "size_bytes": 28003
+    },
+    {
+      "relative_path": "outputs/night9a/night9a_report.md",
+      "sha256": "6db4ba2f65a63ae09f311e26fa76968cd0b4ff493bb4ccd6b4aee3ea9f169344",
+      "size_bytes": 2250
+    },
+    {
+      "relative_path": "outputs/night9a/p0_authority_semantics_profile.json",
+      "sha256": "69714324435e5196737ee7412706c5e6818ce1af51f9eba6be2386c48285b983",
+      "size_bytes": 14335
+    },
+    {
+      "relative_path": "outputs/night9a/p0_real_seed_smoke_profile.json",
+      "sha256": "5c14602c08dd512d5ac2270f6f6a704e51c561befca774e140e43ff4be7ac792",
+      "size_bytes": 3958
+    },
+    {
+      "relative_path": "outputs/night9a/p0_reference_manifest.json",
+      "sha256": "4d6bdc5af47140246904cd14c1c42aed8c5201f6e7138c709ed86efc104d1eea",
+      "size_bytes": 12786
+    },
+    {
+      "relative_path": "outputs/night9a/shutdown_dispatch_intent.json",
+      "sha256": "67af66bd927aa5cb6daf76fd44b1ef9be113029c7e4f122c37cb7c555122c3f5",
+      "size_bytes": 261
+    },
+    {
+      "relative_path": "outputs/night9a/teacher_roots_before_after_invariance.json",
+      "sha256": "eb74ec21e389b503a9459ff4009e87c6c3135eb25e8467a3d10fce2ad3f2a7de",
+      "size_bytes": 607
+    },
+    {
+      "relative_path": "outputs/night9a/tests_and_invariance_audit.json",
+      "sha256": "cf2d75983729db14c8f63fb4d352ac889c5a9e9da457fd4b518b3c14bc6fd837",
+      "size_bytes": 16481
+    }
+  ],
+  "final_tag_must_be_created_only_after_commit_containing_this_index": "night9a-final-20260820",
+  "root": "/autodl-fs/data/SpaLORA-night9a",
+  "root_rule": "all listed paths are relative to repository root; this non-self-referential index excludes itself",
+  "schema_version": 1,
+  "status": "PASS",
+  "terminal_status": "NIGHT9A_NO_EFFICIENT_R02_REPLACEMENT_KEEP_FULL_F00"
+}

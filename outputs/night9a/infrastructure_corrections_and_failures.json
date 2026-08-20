@@ -1,0 +1,64 @@
+{
+  "corrections": [
+    {
+      "id": "P0_PATH_AUTHORITY_CORRECTION",
+      "label_access": 0,
+      "log": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0.log",
+        "sha256": "298482020471c24e1620be1c344fd77b05455ce8d68b6eeb72356e97f58b667b",
+        "size_bytes": 589
+      },
+      "note": "MISAR locked affinity was initially addressed in the partition directory; no scientific chain ran.",
+      "scientific_retry": 0
+    },
+    {
+      "id": "P0_FRESH_PROCESS_CUDA_INIT_CORRECTION",
+      "label_access": 0,
+      "log": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke.log",
+        "sha256": "dd948df542bc84fc807a56034ce62957cff838ce53432c13ddc51cf49f308959",
+        "size_bytes": 335
+      },
+      "note": "Fresh-process CUDA statistics reset preceded CUDA initialization; empty partial was isolated.",
+      "scientific_retry": 0
+    },
+    {
+      "id": "P0_NATIVE_THREAD_RUNTIME_CORRECTION",
+      "label_access": 0,
+      "log": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke_attempt2.log",
+        "sha256": "679e31e33858ccea013b33950d51b93bab72c5bf85e73bdef381b82f21577f7d",
+        "size_bytes": 75
+      },
+      "note": "Three-thread native runtime crashed before adapter/affinity completion; partial was isolated and one-thread reproduction passed.",
+      "scientific_retry": 0
+    }
+  ],
+  "fallback": 0,
+  "final_smoke": {
+    "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke_attempt3_single_thread.log",
+    "sha256": "71066029f1438e0ba24f8a0c87c8ce7a96d623e4e1ffdb4c398023e3f9ae14af",
+    "size_bytes": 22936
+  },
+  "global_infrastructure_corrections_max": 4,
+  "global_infrastructure_corrections_used": 3,
+  "preserved_partial_artifacts": [
+    {
+      "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/invalid_infrastructure_attempts/p0_smoke_attempt2_native_crash/attempt_001/candidate_virtual_g00_views.npz",
+      "sha256": "2896f67fa7ec36fc1c33d72be67508f5ebdc5e5bc10a725ac313944f0fba20f6",
+      "size_bytes": 13267541
+    },
+    {
+      "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/invalid_infrastructure_attempts/p0_smoke_attempt2_native_crash/attempt_001/topology_expert_model_final.pt",
+      "sha256": "fab6f4e16d5ae70861de8c24cd477cf3a60fe108c41d1de9b9af0580b2c88e52",
+      "size_bytes": 2301487
+    }
+  ],
+  "scientific_retry": 0,
+  "single_thread_reproduction": {
+    "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/logs/p0_smoke_e00_single_thread_repro.log",
+    "sha256": "68061bd787a8647a0f95fd033c758c2f703ff6dea675379532abbc56c493a473",
+    "size_bytes": 2560
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "R1": 54,
+  "R2": 0,
+  "R3": 0,
+  "fallback": 0,
+  "formal_chain_units_max": 76,
+  "formal_chain_units_used": 54,
+  "infrastructure_corrections_max": 4,
+  "infrastructure_corrections_used": 3,
+  "label_access": {
+    "MISAR_Y_this_task": 0,
+    "MISAR_lineage_total": 2,
+    "P22_R1_windows": 1,
+    "P22_R2_windows": 0,
+    "P22_R3_windows": 0,
+    "third_MISAR_Y_read": 0
+  },
+  "scientific_retry": 0,
+  "status": "PASS",
+  "total_attempts_max": 80,
+  "total_formal_attempts": 54,
+  "total_wall_hours_max": 6,
+  "unit_timeout_count": 0,
+  "unit_wall_minutes_max": 20
+}
