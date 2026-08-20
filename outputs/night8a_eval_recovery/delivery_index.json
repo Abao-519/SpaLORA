@@ -1,0 +1,227 @@
+{
+  "branch": "revision/q2-night8a-eval-recovery-20260820",
+  "file_count": 43,
+  "files": [
+    {
+      "path": "outputs/night8a_eval_recovery/candidate_dependency_audit.json",
+      "sha256": "fabf2e5c1a0a0c4b6e19a176dc66081164b96f297598c7d7d4bc3b5b4b25a77b",
+      "size_bytes": 29345
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/evaluation_view_manifest.json",
+      "sha256": "59fcb28fc4c83f298e0dd198da5641c30f4eb59d1d14de8865a1b586052d2efc",
+      "size_bytes": 148720
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/failure_and_retry_audit.json",
+      "sha256": "cb2820a2eeb5e33deac618c35cabd3908a12040dc48bbdafabc110144d2715a1",
+      "size_bytes": 718
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/final_test.log",
+      "sha256": "5dd00a1195b9c92ba645983d39049179d4344641f09eebbef4fcc3e65befa4fd",
+      "size_bytes": 582
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/finalize.log",
+      "sha256": "a9f1dcace364d5dedc251e5c90ad6a2b56b820c2de1dc0661bf7716bebcd7f29",
+      "size_bytes": 591
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/git_audit.json",
+      "sha256": "67269a89329d291ef817685e824712a0a997dbdff7ef8b75ced57fa0529c68bc",
+      "size_bytes": 436
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/independent.log",
+      "sha256": "158d2b54e91eaf83a23302f8c2d83003473a242c10f2f3eb0c639fef6393a304",
+      "size_bytes": 35110
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/independent_recompute_audit.json",
+      "sha256": "6a52c3ab9f04a5f28453140e3bd079133b926352e3f21b13f7b36e1e14edda7d",
+      "size_bytes": 6470
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/night8a_eval_recovery_report.md",
+      "sha256": "22e3c67a2f600a53b50270b8008f2527810b90aee7cb643a7dd88faaf7f539a3",
+      "size_bytes": 1641
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/original_artifact_manifest_after.json",
+      "sha256": "0c7e6dd12d48e6a59eb662aafdfdfad71ac1b583776fba9adb168bbf94e39204",
+      "size_bytes": 756233
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/original_artifact_manifest_before.json",
+      "sha256": "0c7e6dd12d48e6a59eb662aafdfdfad71ac1b583776fba9adb168bbf94e39204",
+      "size_bytes": 756233
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/original_tree_invariance_audit.json",
+      "sha256": "4e26ec2ec3186b14d4983f58634222eadcd768e9a08c43d4dbb92e4c054a1c90",
+      "size_bytes": 305
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/p0_attempt1_infrastructure.log",
+      "sha256": "04a202f5ea57248529894d2381dfbb8c5b559d52b37f65e63832c0025eb82715",
+      "size_bytes": 662
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/p0_attempt2_infrastructure.log",
+      "sha256": "6bdd93d23515d7b90a92b09cbcdce34e8bd4badb5e8612c90cbe245f5a3a2252",
+      "size_bytes": 376
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/p0_pass.log",
+      "sha256": "b94073d15544b012ed10704fd411d1d10b31dac2db92d679e3b16267995c7e9b",
+      "size_bytes": 203
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/p0_recovery_authority.json",
+      "sha256": "728b480c3e32c1a09bb6292f7c3dbdf9904e3e6a2bd3cb048695e535533742cf",
+      "size_bytes": 682
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/plain_language_summary.md",
+      "sha256": "8239dc3e18fed34b08c3b66fac99f34ec11566305f79753065327b86153a70d1",
+      "size_bytes": 417
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/post_window_code_audit.json",
+      "sha256": "519daa154d868663ba7443fc314b6d8d3f0739e58f128762e0afb2824222f67c",
+      "size_bytes": 681
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/prelabel_test.log",
+      "sha256": "811a0c73e3af828036207ae0c78810a63bd4e58658bdda58eff41460454cc3f6",
+      "size_bytes": 581
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/primary.log",
+      "sha256": "724e5946a3ec529694d5dd45bdb5a00d6eaf8a25e881fcc320ee761b9d1a18ac",
+      "size_bytes": 59087
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovered_pareto_frontier.csv",
+      "sha256": "3ac8d580a1d969c3cc6c58024e898a47ba09abd03b8993cb6df9e61b2b7397bb",
+      "size_bytes": 60
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovered_r1_module_probe_summary.csv",
+      "sha256": "6119a287346c6148147b6319518695b5f429ed9a84c0a803cb5dfc8812b9edd2",
+      "size_bytes": 4354
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovered_r1_per_seed_metrics.csv",
+      "sha256": "2333228861fdc463ccfe69f2b44bb285d8e4bd1cd3ce91b6b3e5acd00d2a2a80",
+      "size_bytes": 28188
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovered_r2_candidate_summary.csv",
+      "sha256": "410ae2ab072bc6383babe184f1b8b7d9a797ceb5c14edf1d5af4e0d8e3e12f70",
+      "size_bytes": 11605
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovered_r2_per_seed_metrics.csv",
+      "sha256": "210b957ed7e4820610e09635ca532bcca2748b0367f9d5839f8a4ebf609da06a",
+      "size_bytes": 84228
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovered_shortlist_ids.json",
+      "sha256": "1e2a596f272d7c33595d9f683ce775c69a8b60110b0a51233e6848fd2b878124",
+      "size_bytes": 457
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovery_decision.json",
+      "sha256": "3a92c62fe4be9cfe5909b9e0270504392cec067abd7b59efeb6d642d34f48b77",
+      "size_bytes": 625
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovery_label_window_audit.json",
+      "sha256": "070298763998cc694605b88487c6e457ca022abd1fb975a5c4439fa1fb1c7fe7",
+      "size_bytes": 693
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/recovery_rule_lock.json",
+      "sha256": "09f9e6bedb70057e29de6f9c1c1a52164560676553a70565a39b0f3776c0d8f7",
+      "size_bytes": 745
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/rehash.log",
+      "sha256": "982dd7f219d9a8a84d0e345716a4d2c5552e3dff1d348605ec78a310e2088e6d",
+      "size_bytes": 287
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/resource_budget_audit.json",
+      "sha256": "05595eefe7541e5aee3cb2ff559860653ffb88776f4831aa924dc66b1a52f9eb",
+      "size_bytes": 404
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/runtime_resource_audit.csv",
+      "sha256": "6aac6fc947aaa2d5ac0e2b9487bb376dac9ffadb997771e9734cf95205111be4",
+      "size_bytes": 118
+    },
+    {
+      "path": "outputs/night8a_eval_recovery/window.log",
+      "sha256": "33eb1049ba6a5f91825041c583caa288721a92cacca4651895d54e26f390a8cd",
+      "size_bytes": 647
+    },
+    {
+      "path": "protocols/night8a_eval_recovery/SpaLORA_Night8A_Evaluation_Only_Recovery_Taskbook_2026-08-20.md",
+      "sha256": "3013bab0cd0676ecab7ed36021baece0ba21ae05fd427bb3413b1f1967eab593",
+      "size_bytes": 10084
+    },
+    {
+      "path": "protocols/night8a_eval_recovery/SpaLORA_Night8A_Independent_Audit_and_Recovery_Decision_2026-08-20.md",
+      "sha256": "b6166dd170b3be4d9774d63eae8e39be6cfff6bd66e5526d9cd934c4c2329241",
+      "size_bytes": 4577
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_delivery.py",
+      "sha256": "ae8171d27d9946052bf12d551893c5cc9765a576e5ee3bd01db371bf1a3081c5",
+      "size_bytes": 6628
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_finalize.py",
+      "sha256": "5e44890e47e7389c8f01cd3d020ec51d302cb0ae621ff68324533d4744d16ec1",
+      "size_bytes": 9855
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_independent.py",
+      "sha256": "79a7ff6ac1180a90c07d536566326c0df574205e4f127e7a4e6a990c72e0e35c",
+      "size_bytes": 4724
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_p0.py",
+      "sha256": "1c46272eb688f2f2ef82e11b17e2148203bc0e8bbe87cfda239682d753fe1607",
+      "size_bytes": 21367
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_primary.py",
+      "sha256": "8a910e75bba92748d7f1d5081555799801272356f47d8d982a6b7de3c93db196",
+      "size_bytes": 8153
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_rehash.py",
+      "sha256": "6944ed94cb1dc34af24536ebb212d30640884b0eff0a95762c532260c2f11447",
+      "size_bytes": 2190
+    },
+    {
+      "path": "scripts/night8a_eval_recovery_window.py",
+      "sha256": "99b5d7b1850315748e6f51cf030fe9acbcfeb17e5a41023090d4641f129554de",
+      "size_bytes": 2229
+    },
+    {
+      "path": "tests/test_night8a_eval_recovery.py",
+      "sha256": "478d5395731b87bd49a77a2d4ac0bbf4cee7de31fbe85e6f2066f99c2e386bf9",
+      "size_bytes": 1762
+    }
+  ],
+  "final_tag": "night8a-eval-recovery-final-20260820",
+  "raw_files_included": false,
+  "results_commit": "c285e9c1def6e562caad0eeaf0f640c0e55d946b",
+  "root_rule": "sha256(newline_join(file_sha256_in_lexical_path_order))",
+  "root_sha256": "d014aea97fbe376bb684c2b0e84deb4d319c52ae71de7c73ecb9b4fc64693f8e",
+  "schema_version": "night8a-eval-recovery-delivery-v1"
+}
