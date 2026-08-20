@@ -1,0 +1,20 @@
+{
+  "P22_role": "development data; not pristine holdout",
+  "SOTA_claim": false,
+  "final_slots": {
+    "max_per_slot": 2,
+    "max_unique_r2": 4,
+    "selection_order": [
+      "BALANCED",
+      "LYMPH_SPECIALIST",
+      "BRAIN_SPECIALIST"
+    ],
+    "shortlist_candidate_ids": [],
+    "slots": {
+      "BALANCED": [],
+      "BRAIN_SPECIALIST": [],
+      "LYMPH_SPECIALIST": []
+    }
+  },
+  "terminal_status": "NIGHT9B_COSMOS_GAP_CALIBRATED_NO_RACF_CANDIDATE"
+}

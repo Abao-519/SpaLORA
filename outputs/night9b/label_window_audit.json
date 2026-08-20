@@ -1,0 +1,30 @@
+{
+  "MISAR_Y_read_count": 0,
+  "conditional_R2_lock_commit": "94c8737ea5dacb2c60d0770270e7c04b61609f54",
+  "datasets": {
+    "a1": {
+      "authorized_role": "single_night9b_evaluator_process",
+      "path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/a1_labels_locked.npz",
+      "read_count_this_round": 1,
+      "reference_K": 10,
+      "rows": 3484,
+      "sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c",
+      "used_for_training_checkpoint_epoch_or_hyperparameter": false
+    },
+    "p22": {
+      "authorized_role": "single_night9b_evaluator_process",
+      "path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/p22_labels_locked.npz",
+      "read_count_this_round": 1,
+      "reference_K": 9,
+      "rows": 9196,
+      "sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4",
+      "used_for_training_checkpoint_epoch_or_hyperparameter": false
+    }
+  },
+  "fallback": 0,
+  "first_label_derived_commit": "593ff007ea9d67ed71e604d1960e944d8b1baaef",
+  "return_to_structure_evaluator_or_hyperparameter_change": false,
+  "scientific_retry": 0,
+  "single_process_window": true,
+  "status": "CLOSED"
+}

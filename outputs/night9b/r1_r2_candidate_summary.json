@@ -1,0 +1,71 @@
+[
+  {
+    "candidate_id": "N02_HIER_ONLY",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": -0.005915474701365342,
+        "mean_delta_boundary_disagreement": -0.052464605605316385,
+        "mean_delta_geary_c": -0.056715652673435625,
+        "mean_delta_moran_i": 0.05698097025731852,
+        "mean_delta_neighbor_agreement": 0.052464605605316385,
+        "mean_delta_nmi": -0.0059296383610232374,
+        "mean_delta_q": -0.005922556531194301,
+        "mean_runtime_seconds": 7.40804323554039,
+        "q_wins": 1,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.010215130096188019
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.03851656182229137,
+        "mean_delta_boundary_disagreement": -0.013510720175920855,
+        "mean_delta_geary_c": 0.000834752617580492,
+        "mean_delta_moran_i": -0.0005465454897201516,
+        "mean_delta_neighbor_agreement": 0.013510720175920855,
+        "mean_delta_nmi": 0.022814352805821912,
+        "mean_delta_q": 0.030665457314056677,
+        "mean_runtime_seconds": 17.26560652665794,
+        "q_wins": 5,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.0008206120216857071
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]

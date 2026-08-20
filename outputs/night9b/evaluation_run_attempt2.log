@@ -1,0 +1,27 @@
+[revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820 593ff00] Night-9B: lock R1 evaluation and shortlist
+ 6 files changed, 612 insertions(+)
+ create mode 100644 outputs/night9b/cosmos_gap_calibration.json
+ create mode 100644 outputs/night9b/cosmos_p22_per_seed_metrics.csv
+ create mode 100644 outputs/night9b/label_window_in_progress.json
+ create mode 100644 outputs/night9b/r1_candidate_summary.json
+ create mode 100644 outputs/night9b/r1_per_seed_metrics.csv
+ create mode 100644 outputs/night9b/r1_shortlist.json
+To github.com:Abao-519/SpaLORA.git
+   798aa6a..593ff00  revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820 -> revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820
+{"planned": 4, "stage": "R2", "status": "PASS", "success": 4}
+[revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820 94c8737] Night-9B: lock conditional R2 outputs
+ 1 file changed, 134 insertions(+)
+ create mode 100644 outputs/night9b/r2_lock_manifest.json
+To github.com:Abao-519/SpaLORA.git
+   593ff00..94c8737  revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820 -> revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{"R1_shortlist": ["N02_HIER_ONLY"], "final_candidates": [], "terminal_status": "NIGHT9B_COSMOS_GAP_CALIBRATED_NO_RACF_CANDIDATE"}
