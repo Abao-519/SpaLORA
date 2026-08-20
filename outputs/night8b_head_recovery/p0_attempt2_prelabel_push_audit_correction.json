@@ -1,0 +1,11 @@
+{
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "head_transforms_repeated": 0,
+  "label_access": false,
+  "reason": "The first evaluator gate required the partition-lock commit to equal the later audit commit, an impossible self-reference. The corrected gate requires the named lock commit to be an ancestor of the ordinary-pushed remote tip.",
+  "schema_version": 1,
+  "scientific_retry": false,
+  "status": "INFRASTRUCTURE_ONLY_CORRECTED_PRELABEL",
+  "training": 0
+}

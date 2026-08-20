@@ -123,8 +123,16 @@ def prelabel_gate() -> tuple[dict, dict]:
     remote = subprocess.check_output(
         ["git", "ls-remote", "--heads", "origin", BRANCH], cwd=REPO,
         text=True).split()[0]
-    if remote != commit:
-        raise RuntimeError(f"prelabel push commit mismatch {remote} != {commit}")
+    # The attestation itself is necessarily committed after the partition-lock
+    # commit it names.  Require the named lock commit to be an ancestor of the
+    # current ordinary-pushed remote tip; equality would create an impossible
+    # self-referential audit file.
+    ancestry = subprocess.run(
+        ["git", "merge-base", "--is-ancestor", commit, remote], cwd=REPO,
+        check=False,
+    )
+    if ancestry.returncode != 0:
+        raise RuntimeError(f"prelabel lock commit is not in remote history: {commit} -> {remote}")
     for row in lock["rows"]:
         clusters = Path(row["clusters_path"])
         manifest = Path(row["transform_manifest_path"])
