@@ -1,0 +1,34 @@
+{
+  "MISAR_Y_read_count": 0,
+  "datasets": {
+    "a1": {
+      "authorized_role": "single_night9b_evaluator_process",
+      "path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/a1_labels_locked.npz",
+      "read_count_this_round": 1,
+      "reference_K": 10,
+      "rows": 3484,
+      "sha256": "6ac73285671e107c6f9782e086a21ab6a8380b61fbae593e653b05c356928d4c",
+      "used_for_training_checkpoint_epoch_or_hyperparameter": false
+    },
+    "p22": {
+      "authorized_role": "single_night9b_evaluator_process",
+      "path": "/root/autodl-fs/night7a_consensus_20260818/evaluation_label_snapshots/p22_labels_locked.npz",
+      "read_count_this_round": 1,
+      "reference_K": 9,
+      "rows": 9196,
+      "sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4",
+      "used_for_training_checkpoint_epoch_or_hyperparameter": false
+    }
+  },
+  "prelabel_gate": {
+    "head": "798aa6af53dcb4aa63815304bc388d5d03dc8747",
+    "prelabel_lock_sha256": "bfa50fac25d8741e0a1e3c614136f90c9a34beb20dfa9f1263425c61697c1347",
+    "status": "PASS",
+    "upstream": "798aa6af53dcb4aa63815304bc388d5d03dc8747"
+  },
+  "raw_snapshot_deserializations": {
+    "A1": 1,
+    "P22": 1
+  },
+  "status": "OPEN_SINGLE_PROCESS"
+}

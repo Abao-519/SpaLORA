@@ -1,0 +1,23 @@
+{
+  "lanes": {
+    "COSMOS_COMMON_HEAD": {
+      "mean_ari": 0.44996671381337255,
+      "mean_delta_ari_vs_F00": -0.017773436909727835,
+      "mean_delta_nmi_vs_F00": -0.011364160041779581,
+      "mean_delta_q_vs_F00": -0.014568798475753675,
+      "mean_nmi": 0.6220084969261933,
+      "mean_q": 0.535987605369783
+    },
+    "COSMOS_NATIVE_FIXED": {
+      "mean_ari": 0.2757089113323128,
+      "mean_delta_ari_vs_F00": -0.19203123939078764,
+      "mean_delta_nmi_vs_F00": -0.11331375489134791,
+      "mean_delta_q_vs_F00": -0.15267249714106776,
+      "mean_nmi": 0.520058902076625,
+      "mean_q": 0.39788390670446894
+    }
+  },
+  "not_claimed_same_protocol_as_paper": true,
+  "paper_reported_ARI_context_only": 0.63,
+  "protocol_role": "P22 same locked K and project inputs; common-head lane is direct numeric comparison"
+}

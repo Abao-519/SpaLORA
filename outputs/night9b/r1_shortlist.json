@@ -1,0 +1,19 @@
+{
+  "max_per_slot": 2,
+  "max_unique_r2": 4,
+  "selection_order": [
+    "BALANCED",
+    "LYMPH_SPECIALIST",
+    "BRAIN_SPECIALIST"
+  ],
+  "shortlist_candidate_ids": [
+    "N02_HIER_ONLY"
+  ],
+  "slots": {
+    "BALANCED": [],
+    "BRAIN_SPECIALIST": [
+      "N02_HIER_ONLY"
+    ],
+    "LYMPH_SPECIALIST": []
+  }
+}

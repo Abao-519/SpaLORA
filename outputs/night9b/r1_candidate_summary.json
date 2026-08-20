@@ -1,0 +1,471 @@
+[
+  {
+    "candidate_id": "N01_ANCHOR_K10",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": -0.0003697372986641301,
+        "mean_delta_boundary_disagreement": -0.08752768949243954,
+        "mean_delta_geary_c": -0.09843057784917665,
+        "mean_delta_moran_i": 0.0974701215312308,
+        "mean_delta_neighbor_agreement": 0.08752768949243954,
+        "mean_delta_nmi": -0.00019735421137214346,
+        "mean_delta_q": -0.00028354575501811824,
+        "mean_runtime_seconds": 6.511305584261815,
+        "q_wins": 1,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.003816791788887275
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.02013684650379442,
+        "mean_delta_boundary_disagreement": -0.02853582554517135,
+        "mean_delta_geary_c": -0.03223591992045452,
+        "mean_delta_moran_i": 0.03488106384168477,
+        "mean_delta_neighbor_agreement": 0.02853582554517135,
+        "mean_delta_nmi": 0.00987720141552939,
+        "mean_delta_q": 0.015007023959661988,
+        "mean_runtime_seconds": 15.403197744861245,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.012549833838450652
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "candidate_id": "N02_HIER_ONLY",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": -0.0031419535371439897,
+        "mean_delta_boundary_disagreement": -0.05157468939612827,
+        "mean_delta_geary_c": -0.057191533377103164,
+        "mean_delta_moran_i": 0.05756667487712649,
+        "mean_delta_neighbor_agreement": 0.05157468939612827,
+        "mean_delta_nmi": -0.005653304803732291,
+        "mean_delta_q": -0.004397629170438159,
+        "mean_runtime_seconds": 8.112213353315989,
+        "q_wins": 1,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.010215130096188019
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.050316478285101086,
+        "mean_delta_boundary_disagreement": -0.01654388858347078,
+        "mean_delta_geary_c": 0.002971430392403986,
+        "mean_delta_moran_i": -0.0028193330819417475,
+        "mean_delta_neighbor_agreement": 0.01654388858347078,
+        "mean_delta_nmi": 0.031122017101111548,
+        "mean_delta_q": 0.040719247693106385,
+        "mean_runtime_seconds": 18.089655383800466,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.031408084076218645
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "candidate_id": "N03_ANCHOR_K10_HIER",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": 0.0007207662647024845,
+        "mean_delta_boundary_disagreement": -0.08524511220263893,
+        "mean_delta_geary_c": -0.09572523970752976,
+        "mean_delta_moran_i": 0.09477791297879239,
+        "mean_delta_neighbor_agreement": 0.08524511220263893,
+        "mean_delta_nmi": 0.0006979571808433301,
+        "mean_delta_q": 0.000709361722772898,
+        "mean_runtime_seconds": 6.148716025054455,
+        "q_wins": 2,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.0032306365221553834
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.02126456603749745,
+        "mean_delta_boundary_disagreement": -0.02792376763789628,
+        "mean_delta_geary_c": -0.03134227126679807,
+        "mean_delta_moran_i": 0.033989131923921646,
+        "mean_delta_neighbor_agreement": 0.02792376763789628,
+        "mean_delta_nmi": 0.010530663220335986,
+        "mean_delta_q": 0.015897614628916774,
+        "mean_runtime_seconds": 14.675985210885605,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.014375807775465321
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "candidate_id": "N04_ANCHOR_K15_HIER",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": -0.0011263949580893606,
+        "mean_delta_boundary_disagreement": -0.08470576904555523,
+        "mean_delta_geary_c": -0.09568678443196864,
+        "mean_delta_moran_i": 0.09541044254327258,
+        "mean_delta_neighbor_agreement": 0.08470576904555523,
+        "mean_delta_nmi": 0.0005688574680518532,
+        "mean_delta_q": -0.0002787687450187722,
+        "mean_runtime_seconds": 6.154099451377988,
+        "q_wins": 2,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.006746339868590134
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.022239795595679734,
+        "mean_delta_boundary_disagreement": -0.029609675645959326,
+        "mean_delta_geary_c": -0.03394377792525587,
+        "mean_delta_moran_i": 0.03661898903476405,
+        "mean_delta_neighbor_agreement": 0.029609675645959326,
+        "mean_delta_nmi": 0.010664953995438356,
+        "mean_delta_q": 0.016452374795559093,
+        "mean_runtime_seconds": 15.795204206680259,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.014638658510864211
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "candidate_id": "N05_ANCHOR_K10_HIER_DGI",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": 0.00017394659348402008,
+        "mean_delta_boundary_disagreement": -0.08581334874313777,
+        "mean_delta_geary_c": -0.0964975989854789,
+        "mean_delta_moran_i": 0.09563201917877599,
+        "mean_delta_neighbor_agreement": 0.08581334874313777,
+        "mean_delta_nmi": 0.00034836736920921635,
+        "mean_delta_q": 0.00026115698134663673,
+        "mean_runtime_seconds": 6.511834731946389,
+        "q_wins": 2,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.004243479769843961
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.02075516743880577,
+        "mean_delta_boundary_disagreement": -0.02793476269012281,
+        "mean_delta_geary_c": -0.03128729993952332,
+        "mean_delta_moran_i": 0.033912662090245606,
+        "mean_delta_neighbor_agreement": 0.02793476269012281,
+        "mean_delta_nmi": 0.010455334888667678,
+        "mean_delta_q": 0.015605251163736752,
+        "mean_runtime_seconds": 14.280837665622434,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.01442032854418307
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "candidate_id": "N06_ANCHOR_K10_HIER_REL",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": -0.004390613478366019,
+        "mean_delta_boundary_disagreement": -0.0797842627371665,
+        "mean_delta_geary_c": -0.08549394707218011,
+        "mean_delta_moran_i": 0.08465490292336823,
+        "mean_delta_neighbor_agreement": 0.0797842627371665,
+        "mean_delta_nmi": -0.0041490209162604414,
+        "mean_delta_q": -0.004269817197313212,
+        "mean_runtime_seconds": 6.377509572232763,
+        "q_wins": 2,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.01643347587576005
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.014964743447535567,
+        "mean_delta_boundary_disagreement": -0.02767821147150451,
+        "mean_delta_geary_c": -0.03133153261512725,
+        "mean_delta_moran_i": 0.033898873448217105,
+        "mean_delta_neighbor_agreement": 0.02767821147150451,
+        "mean_delta_nmi": 0.006237300931610752,
+        "mean_delta_q": 0.010601022189573225,
+        "mean_runtime_seconds": 14.552516349901756,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.00535089800503219
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "candidate_id": "N07_ANCHOR_K10_HIER_REL_DGI",
+    "complete": true,
+    "datasets": {
+      "a1": {
+        "complete": true,
+        "mean_delta_ari": -0.003269915746597,
+        "mean_delta_boundary_disagreement": -0.08138302995280744,
+        "mean_delta_geary_c": -0.0891187897305704,
+        "mean_delta_moran_i": 0.0882669809922469,
+        "mean_delta_neighbor_agreement": 0.08138302995280744,
+        "mean_delta_nmi": -0.0033032813013998776,
+        "mean_delta_q": -0.003286598523998411,
+        "mean_runtime_seconds": 6.8589632113774615,
+        "q_wins": 2,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": -0.015547236229748185
+      },
+      "p22": {
+        "complete": true,
+        "mean_delta_ari": 0.015664640779810723,
+        "mean_delta_boundary_disagreement": -0.02783947223749313,
+        "mean_delta_geary_c": -0.031536916496111456,
+        "mean_delta_moran_i": 0.034093919351799284,
+        "mean_delta_neighbor_agreement": 0.02783947223749313,
+        "mean_delta_nmi": 0.006900549145088568,
+        "mean_delta_q": 0.011282594962449691,
+        "mean_runtime_seconds": 14.866565531119704,
+        "q_wins": 3,
+        "spatial_protection": {
+          "components": {
+            "boundary": true,
+            "geary": true,
+            "moran": true,
+            "neighbor": true
+          },
+          "pass": true,
+          "thresholds": {
+            "boundary_max": 0.01,
+            "geary_max": 0.02,
+            "moran_min": -0.02,
+            "neighbor_min": -0.01
+          }
+        },
+        "worst_seed_delta_q": 0.007952298432089666
+      }
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  }
+]
