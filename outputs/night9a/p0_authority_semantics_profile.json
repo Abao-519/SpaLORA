@@ -1,0 +1,525 @@
+{
+  "base_commit": "991ba9dcbd7108c2b3b4c9b4b8e233c5f394da5a",
+  "base_tag": "night8b-cardinality-safe-eval-final-20260820",
+  "candidate_count": 9,
+  "candidate_ids": [
+    "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+    "E01_WARM_FULL_E40",
+    "E02_WARM_FULL_E80",
+    "E03_WARM_FULL_E160",
+    "E04_WARM_FULL_E320",
+    "E05_SGC1_RESIDUAL50",
+    "E06_SGC2_MEAN",
+    "E07_DELTA_TOPOLOGY_RESIDUAL50",
+    "E08_DELTA_TOPOLOGY_RESIDUAL100"
+  ],
+  "compatibility": [
+    {
+      "dataset": "p22",
+      "graph_cache_sha256": "3f7a5545f51532c41ae561b273c6c3514a2472fef39846affdde039d9b2de188",
+      "initial_state_equals_source_final": true,
+      "seed": 0,
+      "state_contracts": [
+        {
+          "dtype": "torch.float32",
+          "name": "attention1.u_omega",
+          "shape": [
+            128,
+            1
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            1
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "attention1.w_omega",
+          "shape": [
+            128,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "attention2.u_omega",
+          "shape": [
+            128,
+            1
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            1
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "attention2.w_omega",
+          "shape": [
+            128,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "cross_attention.u_omega",
+          "shape": [
+            128,
+            1
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            1
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "cross_attention.w_omega",
+          "shape": [
+            128,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "decoder1.weight",
+          "shape": [
+            128,
+            2000
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            2000
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "decoder2.weight",
+          "shape": [
+            128,
+            50
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            50
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "encoder1.weight",
+          "shape": [
+            2000,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            2000,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "encoder2.weight",
+          "shape": [
+            50,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            50,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "reliability_weights",
+          "shape": [
+            0,
+            2
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            0,
+            2
+          ]
+        }
+      ],
+      "state_key_count": 11,
+      "strict_load": true,
+      "view_shapes": {
+        "SpaLORA_fused": [
+          9196,
+          128
+        ],
+        "alpha_cross": [
+          9196,
+          2
+        ],
+        "alpha_omics1": [
+          9196,
+          2
+        ],
+        "alpha_omics2": [
+          9196,
+          2
+        ],
+        "emb_latent_omics1": [
+          9196,
+          128
+        ],
+        "emb_latent_omics2": [
+          9196,
+          128
+        ]
+      },
+      "views_finite": true
+    },
+    {
+      "dataset": "misar",
+      "graph_cache_sha256": "86fedf701a23b5377df6a2998d7bab17b907e9145e10e350b83c8992e516820f",
+      "initial_state_equals_source_final": true,
+      "seed": 0,
+      "state_contracts": [
+        {
+          "dtype": "torch.float32",
+          "name": "attention1.u_omega",
+          "shape": [
+            128,
+            1
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            1
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "attention1.w_omega",
+          "shape": [
+            128,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "attention2.u_omega",
+          "shape": [
+            128,
+            1
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            1
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "attention2.w_omega",
+          "shape": [
+            128,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "cross_attention.u_omega",
+          "shape": [
+            128,
+            1
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            1
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "cross_attention.w_omega",
+          "shape": [
+            128,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "decoder1.weight",
+          "shape": [
+            128,
+            2000
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            2000
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "decoder2.weight",
+          "shape": [
+            128,
+            50
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            128,
+            50
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "encoder1.weight",
+          "shape": [
+            2000,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            2000,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "encoder2.weight",
+          "shape": [
+            50,
+            128
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            50,
+            128
+          ]
+        },
+        {
+          "dtype": "torch.float32",
+          "name": "reliability_weights",
+          "shape": [
+            0,
+            2
+          ],
+          "target_dtype": "torch.float32",
+          "target_shape": [
+            0,
+            2
+          ]
+        }
+      ],
+      "state_key_count": 11,
+      "strict_load": true,
+      "view_shapes": {
+        "SpaLORA_fused": [
+          1949,
+          128
+        ],
+        "alpha_cross": [
+          1949,
+          2
+        ],
+        "alpha_omics1": [
+          1949,
+          2
+        ],
+        "alpha_omics2": [
+          1949,
+          2
+        ],
+        "emb_latent_omics1": [
+          1949,
+          128
+        ],
+        "emb_latent_omics2": [
+          1949,
+          128
+        ]
+      },
+      "views_finite": true
+    }
+  ],
+  "environment": {
+    "cuda_runtime": "11.8",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "numpy": "1.22.3",
+    "python": "3.8.10",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118"
+  },
+  "head_determinism": {
+    "exact": true,
+    "first": {
+      "canonical_affinity_sha256": "0ef16cab53c71f674b9620a8f07286c4a694b6f0e9a67484332db8d0a29952a5",
+      "canonical_partition_sha256": "e057100147d2a4c6d73550a5ed1fff4bf1fc79cba5ce03742b0bd1afd89ed07a",
+      "head_config": {
+        "affinity_dtype": "float64_csr",
+        "affinity_symmetrization": "0.5*(A+A.T)",
+        "algorithm": "symmetric_normalized_laplacian_eigenvectors_then_kmeans",
+        "dataset_locked_K": 9,
+        "degree_policy": "fail_if_nonfinite_or_leq_zero",
+        "diagonal": 0.0,
+        "eigensolver": {
+          "function": "scipy.sparse.linalg.eigsh",
+          "k": 9,
+          "maxiter": "max(10000,N*20)",
+          "tol": 1e-10,
+          "v0": "numpy.linspace(1,2,N,dtype=float64)",
+          "which": "SM"
+        },
+        "eigenvector_sign": "largest_absolute_pivot_positive",
+        "fallback": false,
+        "head_id": "DATASET_LOCKED_EIGEN_KMEANS100",
+        "kmeans": {
+          "algorithm": "lloyd",
+          "n_clusters": 9,
+          "n_init": 100,
+          "random_state": 2020
+        },
+        "row_l2_floor": 1e-12
+      },
+      "head_config_sha256": "a21be540c93936c28456b44ceaaa868888a3fb2fab35e966747c6b2fdcc9950c",
+      "head_id": "DATASET_LOCKED_EIGEN_KMEANS100",
+      "runtime_seconds": 0.7970975618809462
+    },
+    "second": {
+      "canonical_affinity_sha256": "0ef16cab53c71f674b9620a8f07286c4a694b6f0e9a67484332db8d0a29952a5",
+      "canonical_partition_sha256": "e057100147d2a4c6d73550a5ed1fff4bf1fc79cba5ce03742b0bd1afd89ed07a",
+      "head_config": {
+        "affinity_dtype": "float64_csr",
+        "affinity_symmetrization": "0.5*(A+A.T)",
+        "algorithm": "symmetric_normalized_laplacian_eigenvectors_then_kmeans",
+        "dataset_locked_K": 9,
+        "degree_policy": "fail_if_nonfinite_or_leq_zero",
+        "diagonal": 0.0,
+        "eigensolver": {
+          "function": "scipy.sparse.linalg.eigsh",
+          "k": 9,
+          "maxiter": "max(10000,N*20)",
+          "tol": 1e-10,
+          "v0": "numpy.linspace(1,2,N,dtype=float64)",
+          "which": "SM"
+        },
+        "eigenvector_sign": "largest_absolute_pivot_positive",
+        "fallback": false,
+        "head_id": "DATASET_LOCKED_EIGEN_KMEANS100",
+        "kmeans": {
+          "algorithm": "lloyd",
+          "n_clusters": 9,
+          "n_init": 100,
+          "random_state": 2020
+        },
+        "row_l2_floor": 1e-12
+      },
+      "head_config_sha256": "a21be540c93936c28456b44ceaaa868888a3fb2fab35e966747c6b2fdcc9950c",
+      "head_id": "DATASET_LOCKED_EIGEN_KMEANS100",
+      "runtime_seconds": 0.7919349279254675
+    }
+  },
+  "label_firewall": {
+    "lineage_raw_Y_read_count": 2,
+    "misar_Y_access": 0,
+    "p22_label_access": 0,
+    "third_read_forbidden": true
+  },
+  "projection_determinism": [
+    {
+      "candidate_id": "E05_SGC1_RESIDUAL50",
+      "exact": true,
+      "first": {
+        "SpaLORA_fused": "874a27d4dcff8dad031edb38999a838794875eaa783e472bf769391505b0be51",
+        "emb_latent_omics1": "0dfadff5c771983e0dfdd34e2f830d3065715c92ce08ceb2f821ce4a10b63960",
+        "emb_latent_omics2": "815a270016b0f68b6dad94c1895f32abd063b5dbe0f0a7257aaa52478df89603"
+      },
+      "second": {
+        "SpaLORA_fused": "874a27d4dcff8dad031edb38999a838794875eaa783e472bf769391505b0be51",
+        "emb_latent_omics1": "0dfadff5c771983e0dfdd34e2f830d3065715c92ce08ceb2f821ce4a10b63960",
+        "emb_latent_omics2": "815a270016b0f68b6dad94c1895f32abd063b5dbe0f0a7257aaa52478df89603"
+      }
+    },
+    {
+      "candidate_id": "E06_SGC2_MEAN",
+      "exact": true,
+      "first": {
+        "SpaLORA_fused": "9e70a91a9ccedf288ba43fad20410829422c8a190d611288a5924afd5d78ae11",
+        "emb_latent_omics1": "d0031c5779d6fc4b84fa708d84836e3d2c1bb3fb01f590143c481eb28b0faf3b",
+        "emb_latent_omics2": "0365aa9cf5208f75373a5a5322fb4dda1729b970e0982822ffd13ad7042968ef"
+      },
+      "second": {
+        "SpaLORA_fused": "9e70a91a9ccedf288ba43fad20410829422c8a190d611288a5924afd5d78ae11",
+        "emb_latent_omics1": "d0031c5779d6fc4b84fa708d84836e3d2c1bb3fb01f590143c481eb28b0faf3b",
+        "emb_latent_omics2": "0365aa9cf5208f75373a5a5322fb4dda1729b970e0982822ffd13ad7042968ef"
+      }
+    },
+    {
+      "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+      "exact": true,
+      "first": {
+        "SpaLORA_fused": "9cc428ca5c0289b00b63cd6dee931b03423402455cb0a8d8bc447afe69d10669",
+        "emb_latent_omics1": "71d1d1f78046d33c8a3a10402ef3e0b6325a89bb024ef8bd0cb9a08f95ff4dff",
+        "emb_latent_omics2": "c5f566134395e40d383965ec729fee59cfddb4ea4d6af7aa81f894b6e7cf7106"
+      },
+      "second": {
+        "SpaLORA_fused": "9cc428ca5c0289b00b63cd6dee931b03423402455cb0a8d8bc447afe69d10669",
+        "emb_latent_omics1": "71d1d1f78046d33c8a3a10402ef3e0b6325a89bb024ef8bd0cb9a08f95ff4dff",
+        "emb_latent_omics2": "c5f566134395e40d383965ec729fee59cfddb4ea4d6af7aa81f894b6e7cf7106"
+      }
+    },
+    {
+      "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+      "exact": true,
+      "first": {
+        "SpaLORA_fused": "6a527dd5d551b95f3fa24fb022a8039d9a97f06313de802ac798a6daede42e89",
+        "emb_latent_omics1": "3176f733b5881b2faca78f0cf88198677927db665702e60a70914ac4f034e0cd",
+        "emb_latent_omics2": "8c96cd811b5554369e8b13a02507283b8f6627e277800a9f151037f8fd109f16"
+      },
+      "second": {
+        "SpaLORA_fused": "6a527dd5d551b95f3fa24fb022a8039d9a97f06313de802ac798a6daede42e89",
+        "emb_latent_omics1": "3176f733b5881b2faca78f0cf88198677927db665702e60a70914ac4f034e0cd",
+        "emb_latent_omics2": "8c96cd811b5554369e8b13a02507283b8f6627e277800a9f151037f8fd109f16"
+      }
+    }
+  ],
+  "registry_sha256": "8ebd6e09cb49f065b49873b27bc0aedf60ef10217319d77e2b7470a99954087b",
+  "status": "P0_AUTHORITY_SEMANTICS_PROFILE_PASS",
+  "taskbook_sha256": "f06ea1f69cdb05cc56adade187092b3fd23f75b1b74007ae4366d64819bde98c",
+  "teacher_authority_before_sha256": "7ba884c7268d0b01f12813e8a924340bb763b753fb0ee2463fec16ba60095eed",
+  "teacher_authority_rows": 275
+}

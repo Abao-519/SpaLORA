@@ -1,0 +1,99 @@
+{
+  "dataset": "p22",
+  "label_access": false,
+  "rows": [
+    {
+      "candidate_id": "E00_ZERO_SHOT_TOPOLOGY_SWAP",
+      "elapsed_seconds": 94.94413230009377,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E00_ZERO_SHOT_TOPOLOGY_SWAP/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "65df095e9493d7ea7bd5334d67561b7aed715d0ce8b8b7b0074f8cdc119e9116",
+        "size_bytes": 7912
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E01_WARM_FULL_E40",
+      "elapsed_seconds": 95.46442966349423,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E01_WARM_FULL_E40/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "ab8e0a731a8625df45c8ac910f405501fda5d5e21b930688b9fe193d1ca35583",
+        "size_bytes": 7891
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E02_WARM_FULL_E80",
+      "elapsed_seconds": 97.09984727948904,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E02_WARM_FULL_E80/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "f0f489f7c511108bfacdca53d87a4bdf088e99c0b0a8e3baa7c800c20c9c1400",
+        "size_bytes": 7899
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E03_WARM_FULL_E160",
+      "elapsed_seconds": 99.73646624013782,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E03_WARM_FULL_E160/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "b8f786f1c5fa14cb78a2bbd1e89c116ba6f5bb1cf90f630d07b28685b2a02be2",
+        "size_bytes": 7919
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E04_WARM_FULL_E320",
+      "elapsed_seconds": 103.549351811409,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E04_WARM_FULL_E320/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "d477d6fb4a4279271da464326747cb722fb14ca13427ad62689bb528ac3686d8",
+        "size_bytes": 7938
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E05_SGC1_RESIDUAL50",
+      "elapsed_seconds": 95.1490391753614,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E05_SGC1_RESIDUAL50/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "bd66f9106812adf2f37bb5a447e304be8da3ba34577b2dd2af80a2fa06565c00",
+        "size_bytes": 7547
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E06_SGC2_MEAN",
+      "elapsed_seconds": 95.29385907761753,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E06_SGC2_MEAN/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "fdfea470fd548ffcf919daf307b560748a6e8a5a518ac1780ab53607949b5163",
+        "size_bytes": 7506
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E07_DELTA_TOPOLOGY_RESIDUAL50",
+      "elapsed_seconds": 95.85352822206914,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E07_DELTA_TOPOLOGY_RESIDUAL50/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "ef3af3b6d7b047a46385322507f94fb5ae44c46cf095c87d3fe0ea9f8f0a7d92",
+        "size_bytes": 7633
+      },
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "E08_DELTA_TOPOLOGY_RESIDUAL100",
+      "elapsed_seconds": 93.80138157308102,
+      "manifest": {
+        "path": "/root/autodl-fs/night9a_efficient_topology_transfer_20260820/smoke/SMOKE/E08_DELTA_TOPOLOGY_RESIDUAL100/p22/seed_0/attempt_001/chain_manifest.json",
+        "sha256": "714079495ae3adc9c2f126c14bc7490469d53f430e87f341ca0a0e24f7b17eb0",
+        "size_bytes": 7637
+      },
+      "status": "PASS"
+    }
+  ],
+  "scientific_chain_count": 0,
+  "seed": 0,
+  "status": "PASS"
+}
