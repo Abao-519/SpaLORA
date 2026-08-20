@@ -191,7 +191,10 @@ def preload_nonlabel_inputs() -> dict:
                 or sha256_file(path) != row["sha256"]):
             raise RuntimeError("base cache file drift: %s" % path)
     coordinates = np.load(coordinates_path, allow_pickle=False)
-    cache_ids = pd.read_csv(observation_path, sep="\t", header=None).iloc[:, 0].astype(str).tolist()
+    cache_id_table = pd.read_csv(observation_path, sep="\t", header=0)
+    if list(cache_id_table.columns) != ["observation_id"]:
+        raise RuntimeError("cache observation-id schema mismatch")
+    cache_ids = cache_id_table["observation_id"].astype(str).tolist()
     if cache_ids != expected_ids or coordinates.shape[0] != EXPECTED_N:
         raise RuntimeError("spatial/cache observation alignment mismatch")
     graph = symmetric_knn_adjacency(coordinates, 18)

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "RESOLVED_PRELABEL_INFRASTRUCTURE_ONLY_TSV_HEADER_PARSE",
+  "attempt": 2,
+  "cause": "The observation_ids.tsv file has the locked header observation_id; the first loader version treated that header as an observation and therefore reported a false 1950-versus-1949 alignment failure.",
+  "correction": "The parser now requires the exact one-column observation_id header and reads only its 1949 data rows.",
+  "raw_Y_read": 0,
+  "metrics_computed": 0,
+  "scientific_inputs_changed": false,
+  "scientific_retry": 0,
+  "scope_counts": {
+    "training": 0,
+    "checkpoint_load": 0,
+    "forward": 0,
+    "adapter": 0,
+    "affinity_rebuild": 0,
+    "head_transform": 0
+  }
+}

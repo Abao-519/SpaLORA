@@ -5,4 +5,4 @@ tests/test_night8b_cardinality_safe_eval.py::test_primary_and_independent_decisi
     self._set_arrayXarray(i, j, x)
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-12 passed, 1 warning in 0.65s
+12 passed, 1 warning in 0.89s
