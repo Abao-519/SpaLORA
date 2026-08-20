@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scripts/night8a_eval_recovery_p0.py", line 349, in <module>
+    main()
+  File "scripts/night8a_eval_recovery_p0.py", line 310, in main
+    before, dependency, view = build()
+  File "scripts/night8a_eval_recovery_p0.py", line 221, in build
+    s = source[unit]; seed = int(s["seed"]); locked = r02[("p22", seed)]
+KeyError: ('p22', 2)

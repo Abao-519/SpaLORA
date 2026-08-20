@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "scripts/night8a_eval_recovery_p0.py", line 345, in <module>
+    main()
+  File "scripts/night8a_eval_recovery_p0.py", line 306, in main
+    before, dependency, view = build()
+  File "scripts/night8a_eval_recovery_p0.py", line 225, in build
+    evidence.add(base / "worker/embedding.npy", locked["embedding_sha256"], "locked_R02_embedding", unit)
+  File "scripts/night8a_eval_recovery_p0.py", line 55, in add
+    raise RuntimeError(f"conflicting expected SHA for {p}")
+RuntimeError: conflicting expected SHA for /root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u020/attempt_001/worker/embedding.npy

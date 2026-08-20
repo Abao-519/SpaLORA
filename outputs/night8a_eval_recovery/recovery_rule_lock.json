@@ -1,0 +1,19 @@
+{
+  "label_values_deserialized_before_lock": false,
+  "rules": {
+    "B00_FAMILY_REFERENCE": "comparator only; excluded from shortlist, new-candidate Pareto and R3 finalist",
+    "B03_RR10_PROTO": "incomplete 11/12; descriptive only; cannot advance",
+    "maximum_distinct_finalist_slots": 3,
+    "metrics_spatial_weights_seeds_tiebreak": "unchanged from Night-8A registry",
+    "r3_training_in_this_task": 0,
+    "slots": [
+      "unified_balanced",
+      "human_lymph_frontier",
+      "P22_frontier"
+    ],
+    "threshold_or_configuration_changes": 0
+  },
+  "schema_version": "night8a-eval-recovery-rule-lock-v1",
+  "source_registry_sha256": "cfe056489f0d42692cc78049cbc987ef47fe814d8d1594a6d958413ca8ccf9c1",
+  "status": "LOCKED_PRE_LABEL"
+}
