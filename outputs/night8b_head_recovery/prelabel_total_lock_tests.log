@@ -1,0 +1,11 @@
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_night8b_head_recovery.py::test_zero_degree_fails_closed
+tests/test_night8b_head_recovery.py::test_same_process_repeat_is_exact_and_K12
+tests/test_night8b_head_recovery.py::test_same_process_repeat_is_exact_and_K12
+tests/test_night8b_head_recovery.py::test_same_process_repeat_is_exact_and_K12
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 4 warnings in 3.10s

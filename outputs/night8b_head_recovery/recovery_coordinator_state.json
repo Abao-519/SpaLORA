@@ -1,0 +1,295 @@
+{
+  "cell_timeout_seconds": 600,
+  "elapsed_seconds": 26.36070442199707,
+  "fallback": 0,
+  "jobs": [
+    [
+      "HR_U00",
+      0
+    ],
+    [
+      "HR_U00",
+      1
+    ],
+    [
+      "HR_U00",
+      2
+    ],
+    [
+      "HR_U00",
+      3
+    ],
+    [
+      "HR_U00",
+      4
+    ],
+    [
+      "HR_U00",
+      5
+    ],
+    [
+      "HR_U00",
+      6
+    ],
+    [
+      "HR_U00",
+      7
+    ],
+    [
+      "HR_U00",
+      8
+    ],
+    [
+      "HR_U00",
+      9
+    ],
+    [
+      "HR_F00",
+      0
+    ],
+    [
+      "HR_F00",
+      1
+    ],
+    [
+      "HR_F00",
+      2
+    ],
+    [
+      "HR_F00",
+      3
+    ],
+    [
+      "HR_F00",
+      4
+    ],
+    [
+      "HR_F00",
+      5
+    ],
+    [
+      "HR_F00",
+      6
+    ],
+    [
+      "HR_F00",
+      7
+    ],
+    [
+      "HR_F00",
+      8
+    ],
+    [
+      "HR_F00",
+      9
+    ]
+  ],
+  "label_access": false,
+  "results": [
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_0.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 0,
+      "status": "success",
+      "wall_seconds": 4.595251560211182
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_1.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 1,
+      "status": "success",
+      "wall_seconds": 4.834670305252075
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_2.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 2,
+      "status": "success",
+      "wall_seconds": 5.073797941207886
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_3.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 3,
+      "status": "success",
+      "wall_seconds": 4.798377752304077
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_4.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 4,
+      "status": "success",
+      "wall_seconds": 5.0771894454956055
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_5.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 5,
+      "status": "success",
+      "wall_seconds": 4.81683349609375
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_6.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 6,
+      "status": "success",
+      "wall_seconds": 5.14882493019104
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_7.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 7,
+      "status": "success",
+      "wall_seconds": 4.852410316467285
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_8.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 8,
+      "status": "success",
+      "wall_seconds": 4.540528297424316
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_F00_seed_9.log",
+      "method": "HR_F00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 9,
+      "status": "success",
+      "wall_seconds": 4.862513780593872
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_0.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 0,
+      "status": "success",
+      "wall_seconds": 5.324585914611816
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_1.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 1,
+      "status": "success",
+      "wall_seconds": 4.527201890945435
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_2.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 2,
+      "status": "success",
+      "wall_seconds": 4.849178314208984
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_3.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 3,
+      "status": "success",
+      "wall_seconds": 4.847630023956299
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_4.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 4,
+      "status": "success",
+      "wall_seconds": 5.233865976333618
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_5.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 5,
+      "status": "success",
+      "wall_seconds": 4.797301769256592
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_6.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 6,
+      "status": "success",
+      "wall_seconds": 4.840216875076294
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_7.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 7,
+      "status": "success",
+      "wall_seconds": 4.9138123989105225
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_8.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 8,
+      "status": "success",
+      "wall_seconds": 4.899688243865967
+    },
+    {
+      "fallback": false,
+      "log": "/root/autodl-fs/night8b_head_recovery_20260820/logs/HR_U00_seed_9.log",
+      "method": "HR_U00",
+      "returncode": 0,
+      "scientific_retry": false,
+      "seed": 9,
+      "status": "success",
+      "wall_seconds": 4.896265983581543
+    }
+  ],
+  "scientific_retry": 0,
+  "started_unix": 1787217990.8383317,
+  "status": "complete",
+  "wall_limit_seconds": 7200,
+  "worker_limit": 4
+}
