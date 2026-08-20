@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "scripts/night9b_orchestrate.py", line 241, in <module>
+    if __name__ == "__main__": main()
+  File "scripts/night9b_orchestrate.py", line 237, in main
+    if args.mode == "p1": p1()
+  File "scripts/night9b_orchestrate.py", line 152, in p1
+    lock = source_lock(); atomic_json(OUT / "external_source_semantics_lock.json", lock)
+  File "scripts/night9b_orchestrate.py", line 65, in source_lock
+    "commit": git_head(COSMOS),
+  File "scripts/night9b_orchestrate.py", line 43, in git_head
+    return subprocess.run(["git", "-C", str(path), "rev-parse", "HEAD"],
+  File "/root/miniconda3/envs/SpaLORA/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '-C', '/root/autodl-fs/night7a_external_sources_20260818/COSMOS/COSMOS', 'rev-parse', 'HEAD']' returned non-zero exit status 128.

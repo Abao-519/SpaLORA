@@ -1,0 +1,1040 @@
+{
+  "ARISE": {
+    "allowed_fair_benchmark": false,
+    "allowed_use": "source semantics and structural provenance only; never imported or executed",
+    "commit": "fefdd849494c0d08e755052a7a31b20169945e40",
+    "endpoint": "public scripts deserialize true labels, evaluate every epoch and retain best embedding by ARI",
+    "files": {
+      "begin.py": "a5413d282153e6d6ff29c38dd507a9fe78eea0d30ede481fb7727728397f420a",
+      "code/H3K4me3.py": "b262c143ac4b3bf0e1cdac071c878c0b50015bb51a4f8b31af12f85813c2f6f8",
+      "code/hln.py": "3dc35155af674132e8a5eed6855f89c36eda56875e19484ef1007594675f555a",
+      "code/mouse_brain.py": "3b597c31deac9f9dff0bf7dbf3b943eecf605b13800562c5f27922c642cc22c7",
+      "model.py": "e728c2c6f17a24041b7a2d4d2fa6a31e3620f75f750372f06b9454995910837b",
+      "process.py": "71a3844ce51fdfcf42290cb9e546cdc49a5bed1d9e5b45077268bd55bb01d8b7",
+      "train.py": "c57665974e9d188008659aa763ab046724f3e1ecfa0f94265a846fab73f3c780"
+    },
+    "label_selection_hits": [
+      {
+        "line": 34,
+        "path": "begin.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "47622a446abb630f14649417423de1b9159ea1cdc08625b9d38b7b1cd42d4e22"
+      },
+      {
+        "line": 43,
+        "path": "begin.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b1834e15065c934f09341ce091e9b2ed897104d48a439f444e6cfe0bf48c07b2"
+      },
+      {
+        "line": 51,
+        "path": "begin.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "00fb3039f5b66d6468121002572d326ba9d9a68c599e76756600a54c0321001a"
+      },
+      {
+        "line": 7,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b98a25df19415bd0854a3d0aefaca60f2c5dda20116a6cb037fa1ad5994d1276"
+      },
+      {
+        "line": 20,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "23fbc848f77917e8cbc992eba6cdea4c79fed6ddee9ec2edd99eb6bf1f7b8186"
+      },
+      {
+        "line": 42,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "eaf1ae771a04afccabc33880ebc4d17a6a2f77f57382f78261aaad8555a788df"
+      },
+      {
+        "line": 43,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "883e3be481dbe9d67cd8a5f86a375612c867765e9bd627eae32e3d4a028d57fe"
+      },
+      {
+        "line": 44,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "31ac0d80d85e680d97d39ec5a071a724d7c2c02406eb8760850ea3563b689059"
+      },
+      {
+        "line": 45,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a4f0b80e965957ae09126b6636c0f9371195b0c293d89125db523775eb47495c"
+      },
+      {
+        "line": 76,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "8cd43d536f869123704230a57aa30e5010d5508c7e57cee1e4286a161f7a88f4"
+      },
+      {
+        "line": 81,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6c48eed8bc8e82f5d228bc716328fd9fce99d451be9f964948d4e56bd9249753"
+      },
+      {
+        "line": 83,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "43a31297880ffad51b81c3e4abcf09f31ae44186cbac0eae5b132a2bd1d84dbb"
+      },
+      {
+        "line": 96,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "086bc0433d65577de72e41e0d649fab8346cc086365adb12958526c179f3146d"
+      },
+      {
+        "line": 113,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "69057df6c83aed8bdd6d8aa59aad36f1c42d86ac9b2d30e152be7758becff557"
+      },
+      {
+        "line": 115,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "86157d3ca9cef83ff06bd87007632799b172a8972f92c82def906b07e4435a64"
+      },
+      {
+        "line": 116,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "bc05187d9682c8f28f57c9d7768fba6bbf1b11ca35743e23ec0a8fe0bcf83a29"
+      },
+      {
+        "line": 118,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6a648aa8f00a3891c60eeb3be3a959e403f32a7fb57f52cb9c029ae8b42b5fa9"
+      },
+      {
+        "line": 119,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "f671ab3f039ae1f3035593d3aa2dbaec5c98e96d68aca348adbc5d22979f25b7"
+      },
+      {
+        "line": 121,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "71ac5190c407fad43d1198fce6efac8490bdcce219080f9f658a91996302e105"
+      },
+      {
+        "line": 123,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "fa7e80ae7a159d1a5399cac3419387ebef78222f9024a21a0fda78b3015b52a0"
+      },
+      {
+        "line": 125,
+        "path": "train.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0ef76b96570ee0ad304ff7c8709700915a20b7ebad1bc971000ee7fe61259158"
+      },
+      {
+        "line": 21,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "20f296461cfc8ac0696e501897bcbb147f2ca561d44a21a9e8f7df6baf367fdc"
+      },
+      {
+        "line": 87,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "f67f134b14c1fd86e044e25d59cb7ba5e402c3da7bdd910330c708f2126bca83"
+      },
+      {
+        "line": 99,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "887bf20f86d2077657e22bd519fd938a8dbc17bf7d121a5094a90db36ad55377"
+      },
+      {
+        "line": 100,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b29515d52c13f40f38ba0fbbd2ff5b2022976d8ab40a1590ade31cacc9026e3a"
+      },
+      {
+        "line": 132,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4bc96c0294391057802e45a100b5b77f2ede91b8b549844dd4b08411b2cfaa68"
+      },
+      {
+        "line": 139,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "28bff9edd81f1dfad0d52155145852d1d8832ab413c45cf34c7249ea8d05762e"
+      },
+      {
+        "line": 146,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ee2409276bbb22ae38c8bdd24245ec63fb38bbac6ae6af1b1184845eae6e0d46"
+      },
+      {
+        "line": 149,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4495e4acc748164e3c972ef1549ffd761e047de56f052381ba33a45b722fe3af"
+      },
+      {
+        "line": 154,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "51973c770751290ccfb9d1b375f81687d480096188909f6e79ef2c3f7de39504"
+      },
+      {
+        "line": 162,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d3dd098c99db8061fa9c6d3d17c2f92e990e276d6a91146f86e73f54edb22491"
+      },
+      {
+        "line": 164,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "76a6a8e081a4440771bd827d3fc598c6450c96916cf137527cfd5d510eb56d76"
+      },
+      {
+        "line": 170,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0e4535a7172f0ac0b2448ebd9959ad8461d33c8cb1ffeb4ff29032d15655b085"
+      },
+      {
+        "line": 192,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "20f296461cfc8ac0696e501897bcbb147f2ca561d44a21a9e8f7df6baf367fdc"
+      },
+      {
+        "line": 204,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "88cc2d5fc5057afbabf6b568c05e06199064cc59616dc9546d4e35f178d78415"
+      },
+      {
+        "line": 263,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "499b49bf81e78dae63a78edbf8234664c01903cb79f3ccc87cd81a2afa4da24e"
+      },
+      {
+        "line": 273,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a8ba2c639e6debde97f10aeefb7d055935e30f6da3f11fe0e40000294fb59cc5"
+      },
+      {
+        "line": 274,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "2bfc7fb7d956a5019d6380877a1921434959faf84c95a6efe1797167bb666ab9"
+      },
+      {
+        "line": 276,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "887bf20f86d2077657e22bd519fd938a8dbc17bf7d121a5094a90db36ad55377"
+      },
+      {
+        "line": 277,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b29515d52c13f40f38ba0fbbd2ff5b2022976d8ab40a1590ade31cacc9026e3a"
+      },
+      {
+        "line": 311,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4bc96c0294391057802e45a100b5b77f2ede91b8b549844dd4b08411b2cfaa68"
+      },
+      {
+        "line": 321,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "28bff9edd81f1dfad0d52155145852d1d8832ab413c45cf34c7249ea8d05762e"
+      },
+      {
+        "line": 329,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4198dde14aa4be3465762933221f6d0ff02299a33bc64db355a1d297cc81d084"
+      },
+      {
+        "line": 330,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "8f54d77e1b762583a7f48d31ff47e2599e57ed6e63426e5160bcaf9a4dd43cb8"
+      },
+      {
+        "line": 332,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0dda461e51430fdd9342a75abca0371e3fa68f8fd808e2af8638a9ac28ac1651"
+      },
+      {
+        "line": 333,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4495e4acc748164e3c972ef1549ffd761e047de56f052381ba33a45b722fe3af"
+      },
+      {
+        "line": 340,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "51973c770751290ccfb9d1b375f81687d480096188909f6e79ef2c3f7de39504"
+      },
+      {
+        "line": 341,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0c3945e9de8b46533a809f09bacdd9fbdd0f070d43c0e0a9479c9a1f455c6b6f"
+      },
+      {
+        "line": 344,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "3fddebb8359eec391e0c77d00e74b062ed63b5ff7ec7f68cb919d61334beb7c9"
+      },
+      {
+        "line": 347,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d3dd098c99db8061fa9c6d3d17c2f92e990e276d6a91146f86e73f54edb22491"
+      },
+      {
+        "line": 349,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "76a6a8e081a4440771bd827d3fc598c6450c96916cf137527cfd5d510eb56d76"
+      },
+      {
+        "line": 360,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ee64f6c051c3f39449752b90143eb0a62c06653f3738a9c355487ad862065bca"
+      },
+      {
+        "line": 361,
+        "path": "model.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0e4535a7172f0ac0b2448ebd9959ad8461d33c8cb1ffeb4ff29032d15655b085"
+      },
+      {
+        "line": 7,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "80638986f700274fb4fedd02af8217d4a9df3adf624add62f429c0923329a8e1"
+      },
+      {
+        "line": 64,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "cdace60ace59987d2b070bd0ad8bd09acd540bc1d9a955c877314c7a47ecdca5"
+      },
+      {
+        "line": 68,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "9289bf68196d2efd6854884fab2cc51291bf9ce061608627089b0295aeb76108"
+      },
+      {
+        "line": 74,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a035fa2560995d160eb192d51e9f3f731d639076645f39547b89f484c39b0482"
+      },
+      {
+        "line": 75,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "03a535cb9bf065cdb60cda810204711d0f2463a239665f817766ad92f7f23d56"
+      },
+      {
+        "line": 117,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4b843ea46a464a867276e3ee69cbbbdb969a5a2268196cbfc49017cb3a8e9402"
+      },
+      {
+        "line": 124,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4e7717b7bb00d82ad60ba9934cacd0223ffb60f08001acecdc47772eb160391f"
+      },
+      {
+        "line": 126,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0c2173e92e8281dbf2537248d5653654c6574597439d01c4e4e16d840fc7e4b7"
+      },
+      {
+        "line": 127,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d9d74eb99ea1814aa4afc29aff77eedbe75fe930ee94959802f96a013f020a57"
+      },
+      {
+        "line": 128,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "dd576c8a4f005a5c6ea0f621ee114c7d55a6d53ed8c01270825185304578fd5d"
+      },
+      {
+        "line": 147,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "91e3f0e601d0bb023e148b3054d033ea1d9059d108a7db7d7159a9c618d5e039"
+      },
+      {
+        "line": 154,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "9b680ac9896ac8ee59a55254555da8ecb00928fb50bedaf9190d8f90dac0e504"
+      },
+      {
+        "line": 158,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "f298746d2b3ee153de76ad61aa814ba966ef924501385c2992d4c1cb61528f5d"
+      },
+      {
+        "line": 170,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6df87dddbf4f7e46a10bcdcbca6029341b7cd7294b00d39344cf835188bbbe9f"
+      },
+      {
+        "line": 171,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "5ed9f897ffa28478db9b7020f1afe04f6a57bfe77879cd0383a3877445ddbe93"
+      },
+      {
+        "line": 174,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "7cc03706b4a46bed7461c1b11f8f128564ef12d2db5ba11d9080a989a4fada50"
+      },
+      {
+        "line": 193,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "aac3ad63e0a1bafcceaa4336fa1c0632f0a77fbf00daeee68b721b4555aaf5df"
+      },
+      {
+        "line": 205,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ee8ed3d67da5f00e5609aea252a6c0b8991de8ea3e997040b52854eb74b62229"
+      },
+      {
+        "line": 210,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "e87f989f478a4143a97848f5728353d1be28fc64767d6da0435c9b4589ac94d8"
+      },
+      {
+        "line": 217,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "8ca6f7d5f7a684f5e65faf685dbb041e01b8cc6650dc44fee40211723fed7def"
+      },
+      {
+        "line": 260,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "fbfda5ee8aa68cdaefc048d0b6b541f768c4ff4747a6ae8406e05484af3feba7"
+      },
+      {
+        "line": 264,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6d0b620c4868bb9797cdb2524a196b85dfee60547ac5cb0bea76fe4654122a87"
+      },
+      {
+        "line": 271,
+        "path": "process.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "f690dbbd6a5ff94fe90c4072c7e4c65ca2568f18d778d3753b68ae110d700c36"
+      },
+      {
+        "line": 12,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b98a25df19415bd0854a3d0aefaca60f2c5dda20116a6cb037fa1ad5994d1276"
+      },
+      {
+        "line": 14,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "80638986f700274fb4fedd02af8217d4a9df3adf624add62f429c0923329a8e1"
+      },
+      {
+        "line": 123,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4bc96c0294391057802e45a100b5b77f2ede91b8b549844dd4b08411b2cfaa68"
+      },
+      {
+        "line": 137,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "1f63aa631efe1014910df1cba932326c5942e042813d756b8f7ab95ff8eafc4f"
+      },
+      {
+        "line": 139,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4495e4acc748164e3c972ef1549ffd761e047de56f052381ba33a45b722fe3af"
+      },
+      {
+        "line": 146,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "51973c770751290ccfb9d1b375f81687d480096188909f6e79ef2c3f7de39504"
+      },
+      {
+        "line": 154,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d3dd098c99db8061fa9c6d3d17c2f92e990e276d6a91146f86e73f54edb22491"
+      },
+      {
+        "line": 163,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "da3c731ec5cfb56100e1af0c71e007e4258bda1ef26fcd357d549d8b85f2aa23"
+      },
+      {
+        "line": 177,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "eaf1ae771a04afccabc33880ebc4d17a6a2f77f57382f78261aaad8555a788df"
+      },
+      {
+        "line": 179,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "883e3be481dbe9d67cd8a5f86a375612c867765e9bd627eae32e3d4a028d57fe"
+      },
+      {
+        "line": 180,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "31ac0d80d85e680d97d39ec5a071a724d7c2c02406eb8760850ea3563b689059"
+      },
+      {
+        "line": 181,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a4f0b80e965957ae09126b6636c0f9371195b0c293d89125db523775eb47495c"
+      },
+      {
+        "line": 227,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "47622a446abb630f14649417423de1b9159ea1cdc08625b9d38b7b1cd42d4e22"
+      },
+      {
+        "line": 228,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "698ac839a2c0b00352fd86cf46d1eeb040bd8499fcd75511287336893a316a74"
+      },
+      {
+        "line": 233,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6d0b620c4868bb9797cdb2524a196b85dfee60547ac5cb0bea76fe4654122a87"
+      },
+      {
+        "line": 241,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "cc349094817b66ac2fdb0701eb89975af3dfb45d955c358a367298356eceb2fc"
+      },
+      {
+        "line": 247,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ee8ed3d67da5f00e5609aea252a6c0b8991de8ea3e997040b52854eb74b62229"
+      },
+      {
+        "line": 253,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "e87f989f478a4143a97848f5728353d1be28fc64767d6da0435c9b4589ac94d8"
+      },
+      {
+        "line": 261,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "8ca6f7d5f7a684f5e65faf685dbb041e01b8cc6650dc44fee40211723fed7def"
+      },
+      {
+        "line": 313,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6c48eed8bc8e82f5d228bc716328fd9fce99d451be9f964948d4e56bd9249753"
+      },
+      {
+        "line": 319,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "499d2e50701234d065277fc8fe45680f5e62dcda2573b7828145d6bef7924264"
+      },
+      {
+        "line": 343,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "43a31297880ffad51b81c3e4abcf09f31ae44186cbac0eae5b132a2bd1d84dbb"
+      },
+      {
+        "line": 365,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "69057df6c83aed8bdd6d8aa59aad36f1c42d86ac9b2d30e152be7758becff557"
+      },
+      {
+        "line": 368,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "86157d3ca9cef83ff06bd87007632799b172a8972f92c82def906b07e4435a64"
+      },
+      {
+        "line": 369,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "bc05187d9682c8f28f57c9d7768fba6bbf1b11ca35743e23ec0a8fe0bcf83a29"
+      },
+      {
+        "line": 371,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6a648aa8f00a3891c60eeb3be3a959e403f32a7fb57f52cb9c029ae8b42b5fa9"
+      },
+      {
+        "line": 372,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "f671ab3f039ae1f3035593d3aa2dbaec5c98e96d68aca348adbc5d22979f25b7"
+      },
+      {
+        "line": 374,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "71ac5190c407fad43d1198fce6efac8490bdcce219080f9f658a91996302e105"
+      },
+      {
+        "line": 378,
+        "path": "code/hln.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "5d92934322612f1e646de1e9877157b6235afcafe8b6f913218245848b961a60"
+      },
+      {
+        "line": 12,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b98a25df19415bd0854a3d0aefaca60f2c5dda20116a6cb037fa1ad5994d1276"
+      },
+      {
+        "line": 13,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "80638986f700274fb4fedd02af8217d4a9df3adf624add62f429c0923329a8e1"
+      },
+      {
+        "line": 122,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4bc96c0294391057802e45a100b5b77f2ede91b8b549844dd4b08411b2cfaa68"
+      },
+      {
+        "line": 136,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "e8d8ce2409e201fb3004c7f1caa7e27724ba741abd2c2b8b0a33969bee9f2c94"
+      },
+      {
+        "line": 138,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4495e4acc748164e3c972ef1549ffd761e047de56f052381ba33a45b722fe3af"
+      },
+      {
+        "line": 145,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "51973c770751290ccfb9d1b375f81687d480096188909f6e79ef2c3f7de39504"
+      },
+      {
+        "line": 153,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d3dd098c99db8061fa9c6d3d17c2f92e990e276d6a91146f86e73f54edb22491"
+      },
+      {
+        "line": 162,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "da3c731ec5cfb56100e1af0c71e007e4258bda1ef26fcd357d549d8b85f2aa23"
+      },
+      {
+        "line": 175,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "eaf1ae771a04afccabc33880ebc4d17a6a2f77f57382f78261aaad8555a788df"
+      },
+      {
+        "line": 177,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "883e3be481dbe9d67cd8a5f86a375612c867765e9bd627eae32e3d4a028d57fe"
+      },
+      {
+        "line": 178,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "31ac0d80d85e680d97d39ec5a071a724d7c2c02406eb8760850ea3563b689059"
+      },
+      {
+        "line": 179,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a4f0b80e965957ae09126b6636c0f9371195b0c293d89125db523775eb47495c"
+      },
+      {
+        "line": 230,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a035fa2560995d160eb192d51e9f3f731d639076645f39547b89f484c39b0482"
+      },
+      {
+        "line": 231,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "03a535cb9bf065cdb60cda810204711d0f2463a239665f817766ad92f7f23d56"
+      },
+      {
+        "line": 256,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "56c7d08ac6f09a4bf574325334351c90987ce50cc032f98ac3ad9ff492c1eef0"
+      },
+      {
+        "line": 262,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0c2173e92e8281dbf2537248d5653654c6574597439d01c4e4e16d840fc7e4b7"
+      },
+      {
+        "line": 263,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d9d74eb99ea1814aa4afc29aff77eedbe75fe930ee94959802f96a013f020a57"
+      },
+      {
+        "line": 264,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "dd576c8a4f005a5c6ea0f621ee114c7d55a6d53ed8c01270825185304578fd5d"
+      },
+      {
+        "line": 283,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "47622a446abb630f14649417423de1b9159ea1cdc08625b9d38b7b1cd42d4e22"
+      },
+      {
+        "line": 287,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6d0b620c4868bb9797cdb2524a196b85dfee60547ac5cb0bea76fe4654122a87"
+      },
+      {
+        "line": 291,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "746f174c296d3b90623a2f66780d396ec53c29db81bc377b7c66ed6616108c18"
+      },
+      {
+        "line": 295,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "55f8da12502bff241b62f63eb9f822ae548013a86750a2eb202b12e890882150"
+      },
+      {
+        "line": 296,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4cf2b3833bcdf9d7a32ef13524048d1b911bc7d81d5af1ea609e39451a8e5cab"
+      },
+      {
+        "line": 308,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ee8ed3d67da5f00e5609aea252a6c0b8991de8ea3e997040b52854eb74b62229"
+      },
+      {
+        "line": 314,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "e87f989f478a4143a97848f5728353d1be28fc64767d6da0435c9b4589ac94d8"
+      },
+      {
+        "line": 322,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "8ca6f7d5f7a684f5e65faf685dbb041e01b8cc6650dc44fee40211723fed7def"
+      },
+      {
+        "line": 374,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6c48eed8bc8e82f5d228bc716328fd9fce99d451be9f964948d4e56bd9249753"
+      },
+      {
+        "line": 380,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "499d2e50701234d065277fc8fe45680f5e62dcda2573b7828145d6bef7924264"
+      },
+      {
+        "line": 401,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "43a31297880ffad51b81c3e4abcf09f31ae44186cbac0eae5b132a2bd1d84dbb"
+      },
+      {
+        "line": 420,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "69057df6c83aed8bdd6d8aa59aad36f1c42d86ac9b2d30e152be7758becff557"
+      },
+      {
+        "line": 423,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "86157d3ca9cef83ff06bd87007632799b172a8972f92c82def906b07e4435a64"
+      },
+      {
+        "line": 424,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "bc05187d9682c8f28f57c9d7768fba6bbf1b11ca35743e23ec0a8fe0bcf83a29"
+      },
+      {
+        "line": 426,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6a648aa8f00a3891c60eeb3be3a959e403f32a7fb57f52cb9c029ae8b42b5fa9"
+      },
+      {
+        "line": 427,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "f671ab3f039ae1f3035593d3aa2dbaec5c98e96d68aca348adbc5d22979f25b7"
+      },
+      {
+        "line": 429,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "71ac5190c407fad43d1198fce6efac8490bdcce219080f9f658a91996302e105"
+      },
+      {
+        "line": 432,
+        "path": "code/mouse_brain.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "5d92934322612f1e646de1e9877157b6235afcafe8b6f913218245848b961a60"
+      },
+      {
+        "line": 19,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "b98a25df19415bd0854a3d0aefaca60f2c5dda20116a6cb037fa1ad5994d1276"
+      },
+      {
+        "line": 20,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "80638986f700274fb4fedd02af8217d4a9df3adf624add62f429c0923329a8e1"
+      },
+      {
+        "line": 145,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4bc96c0294391057802e45a100b5b77f2ede91b8b549844dd4b08411b2cfaa68"
+      },
+      {
+        "line": 160,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "1f63aa631efe1014910df1cba932326c5942e042813d756b8f7ab95ff8eafc4f"
+      },
+      {
+        "line": 162,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4495e4acc748164e3c972ef1549ffd761e047de56f052381ba33a45b722fe3af"
+      },
+      {
+        "line": 169,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "51973c770751290ccfb9d1b375f81687d480096188909f6e79ef2c3f7de39504"
+      },
+      {
+        "line": 175,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d3dd098c99db8061fa9c6d3d17c2f92e990e276d6a91146f86e73f54edb22491"
+      },
+      {
+        "line": 184,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "da3c731ec5cfb56100e1af0c71e007e4258bda1ef26fcd357d549d8b85f2aa23"
+      },
+      {
+        "line": 198,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "eaf1ae771a04afccabc33880ebc4d17a6a2f77f57382f78261aaad8555a788df"
+      },
+      {
+        "line": 200,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "883e3be481dbe9d67cd8a5f86a375612c867765e9bd627eae32e3d4a028d57fe"
+      },
+      {
+        "line": 201,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "31ac0d80d85e680d97d39ec5a071a724d7c2c02406eb8760850ea3563b689059"
+      },
+      {
+        "line": 202,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "a4f0b80e965957ae09126b6636c0f9371195b0c293d89125db523775eb47495c"
+      },
+      {
+        "line": 273,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "56c7d08ac6f09a4bf574325334351c90987ce50cc032f98ac3ad9ff492c1eef0"
+      },
+      {
+        "line": 279,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "0c2173e92e8281dbf2537248d5653654c6574597439d01c4e4e16d840fc7e4b7"
+      },
+      {
+        "line": 280,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "d9d74eb99ea1814aa4afc29aff77eedbe75fe930ee94959802f96a013f020a57"
+      },
+      {
+        "line": 281,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "dd576c8a4f005a5c6ea0f621ee114c7d55a6d53ed8c01270825185304578fd5d"
+      },
+      {
+        "line": 319,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "cbcd4f1ec93e5e51c89500b8a0451346c38404a2508a008ad1bfd5a4fde58c6f"
+      },
+      {
+        "line": 322,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "746f174c296d3b90623a2f66780d396ec53c29db81bc377b7c66ed6616108c18"
+      },
+      {
+        "line": 329,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "55f8da12502bff241b62f63eb9f822ae548013a86750a2eb202b12e890882150"
+      },
+      {
+        "line": 330,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "4cf2b3833bcdf9d7a32ef13524048d1b911bc7d81d5af1ea609e39451a8e5cab"
+      },
+      {
+        "line": 343,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ee8ed3d67da5f00e5609aea252a6c0b8991de8ea3e997040b52854eb74b62229"
+      },
+      {
+        "line": 349,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "e87f989f478a4143a97848f5728353d1be28fc64767d6da0435c9b4589ac94d8"
+      },
+      {
+        "line": 357,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "ccf44fd1fecfd22d2735bebdcb95aa73debc2b221a30c3c80f5da2889afb3936"
+      },
+      {
+        "line": 478,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "6a648aa8f00a3891c60eeb3be3a959e403f32a7fb57f52cb9c029ae8b42b5fa9"
+      },
+      {
+        "line": 479,
+        "path": "code/H3K4me3.py",
+        "semantic": "true-label evaluation or ARI-selected best embedding path",
+        "text_sha256": "303a058e6ec5f2859739c428d0460090d0bda566f39d38fd31e8ead150af3cfd"
+      }
+    ],
+    "license_file": null,
+    "url": "https://github.com/XiangxiangWang-code/ARISE"
+  },
+  "COSMOS": {
+    "allowed_fair_benchmark": true,
+    "commit": "56ea355be51e64d9253e2871b8bd447fdfd0d230",
+    "contains_loss_early_stopping": true,
+    "endpoint": "official loss-based fixed endpoint; label callbacks forbidden",
+    "expected_commit": "56ea355be51e64d9253e2871b8bd447fdfd0d230",
+    "files": {
+      "cosmos.py": "33578438f2bd1aab62c819a054908d543bf8cefff9280863ec519166426b14ee",
+      "modulesWNN.py": "76afe7c500dc30d11636487f4b7253e54a08213d60dfacea84ed0a6e4b52767f",
+      "pyWNN.py": "fc8bb0f4367cbe013e61b7196ef046fb7480ccb682625d45e3cefd96a6d8b741",
+      "util.py": "dd75bfa0517f7072022a9aaa63144db6d1a911288be96afbefeed4b0b294cfcf"
+    },
+    "license_file": null,
+    "url": "https://github.com/Lin-Xu-lab/COSMOS"
+  },
+  "label_access": false,
+  "night9b_policy": {
+    "ARISE_execution_count": 0,
+    "ARISE_import_count": 0,
+    "label_or_ARI_selection_count": 0
+  },
+  "schema_version": 1,
+  "status": "PASS"
+}

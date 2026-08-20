@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "implementation_correction_cycles": [
+    {
+      "cycle": 1,
+      "root_cause": "P1 selected the Night-7A content mirror that has no retained Git metadata instead of the byte-equivalent Night-8A exact-commit checkout",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "use /root/autodl-fs/night8a_external_sources_20260820/COSMOS/COSMOS and require exact git HEAD 56ea355be51e64d9253e2871b8bd447fdfd0d230"
+    },
+    {
+      "cycle": 2,
+      "root_cause": "The new worker imported the locked HEADS mapping from night6c_pipeline although the mapping is defined by night6d_pipeline and only run_head lives in night6c_pipeline",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "import HEADS from SpaLORA.night6d_pipeline while retaining the unchanged authoritative night6c run_head implementation"
+    },
+    {
+      "cycle": 3,
+      "root_cause": "The worker treated the one-column observation_ids.csv as a headerless text list, counting its registered header as an observation",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "parse the exact one-column observation_id CSV schema with csv.DictReader and fail closed on any other schema"
+    },
+    {
+      "cycle": 4,
+      "root_cause": "torch 2.0 CUDA median-with-indices has no deterministic implementation while the fixed endpoint enables deterministic algorithms",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "compute the registered stop-gradient median and MAD deterministically with NumPy on CPU, return the two scalars to CUDA, and keep softmax/clipping on the model device"
+    },
+    {
+      "cycle": 5,
+      "root_cause": "The first reliability implementation replaced the second hierarchical gate, leaving stage2_logits outside the active N06/N07 computation graph",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "treat per-spot reliability as a normalized multiplicative modulation of the learned stage-2 modality weights so both registered mechanisms remain active"
+    },
+    {
+      "cycle": 6,
+      "root_cause": "The first real A1 smoke used random square projections and its one-epoch candidate views caused the fixed H05 endpoint to return non-exact K",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 1,
+      "label_access": false,
+      "resolution": "preserve and hash the partial smoke; use dataset-independent identity initialization for the five square inherited-latent projections so the adapter begins at the inherited representation while remaining trainable"
+    },
+    {
+      "cycle": 7,
+      "root_cause": "P22 inherits 128-dimensional source views but the frozen R02 family reference and latent endpoint are 64-dimensional; the first worker incorrectly required equal source and reference dimensions",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "make the shared adapter projections input_dim to inherited latent_dim and decoders latent_dim to input_dim; use deterministic partial-identity initialization; preserve and reuse the already completed A1 smoke instead of rerunning it"
+    }
+  ],
+  "environment_only_cycles": [
+    {
+      "cycle": 1,
+      "root_cause": "P1 orchestrator initially referenced a stale non-existent interpreter path instead of the verified active Python 3.8 base environment",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "lock PYTHON to /root/miniconda3/bin/python before P1 execution"
+    },
+    {
+      "cycle": 2,
+      "root_cause": "The active base interpreter had CUDA but did not include the repository test dependency pytest",
+      "affected_formal_scientific_units": 0,
+      "affected_smoke_units": 0,
+      "label_access": false,
+      "resolution": "lock P1 and formal execution to the verified /root/miniconda3/envs/SpaLORA/bin/python environment containing torch 2.0.0+cu118, pytest 7.2.2, rpy2 and anndata"
+    }
+  ],
+  "p0_correction_budget_reopened": false,
+  "scientific_retry": 0
+}

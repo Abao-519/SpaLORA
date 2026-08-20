@@ -1,0 +1,65 @@
+{
+  "label_access": false,
+  "rows": [
+    {
+      "config_sha256": "a483796912df3b8ad50eb8fd135b790ed0786147c0649ac1de0240b80625c61d",
+      "dataset_role_recorded_only_by_orchestrator": "A1",
+      "graph_semantics": {
+        "common_graph": {
+          "active": true,
+          "combine": "edge_intersection_then_symmetrize",
+          "common_graph_sha256": "5f9597240cce7106368c2a57043f2ee472b1104087895df91910ca1cf3e3b2e1",
+          "feature_metric": "cosine",
+          "feature_support_sha256": "87e66309484274f1bd997f6c9b7f126b8fa69797324e7bae45c5ed14cb013d49",
+          "k": 10,
+          "nnz": 19488,
+          "self_loops": true,
+          "spatial_metric": "euclidean",
+          "spatial_support_sha256": "08b598e957c874b775dcdb9513f4ae892218fc8b8fd756e89f88d0de219e3611",
+          "union_fallback": false,
+          "zero_degree_count": 0
+        },
+        "spatial_operator_sha256": "8e6dc1a0d169e2a34e705b3974759ad18100c587692c4ea89429d8dccc4491e8"
+      },
+      "h05_partition_exact": true,
+      "label_access": false,
+      "manifest_sha256": "2d686b2733b98b9d8b597f718e81895874be5afe27dca73db7117577e14a8066",
+      "opaque_unit_id": "smoke-u000",
+      "reload_audit_sha256": "49f5eeaec56453e467ba0efa5d1aaeda8045d6b995521f51c03f96aa8f260aa2",
+      "reused_completed_smoke": true,
+      "six_views_exact": true,
+      "status": "PASS"
+    },
+    {
+      "config_sha256": "6c2a525c4801e0229d39b6e7d9dc1b652dd77f87c1a005afcb35c0dab2af4405",
+      "dataset_role_recorded_only_by_orchestrator": "P22",
+      "graph_semantics": {
+        "common_graph": {
+          "active": true,
+          "combine": "edge_intersection_then_symmetrize",
+          "common_graph_sha256": "02c41f3a18dc382761dbe21076a9c0eba207f44443a0b39a3df6eb82ea50fa20",
+          "feature_metric": "cosine",
+          "feature_support_sha256": "90fbf187beb3dc06a7cbb2b417ade538ea2a500a109133fcb3fdfdd02f2ea6b3",
+          "k": 10,
+          "nnz": 92758,
+          "self_loops": true,
+          "spatial_metric": "euclidean",
+          "spatial_support_sha256": "2ba4233e9d26030aeffd3dddb0f0aea95fbf483ea3aa32f90d1c02211fc687dc",
+          "union_fallback": false,
+          "zero_degree_count": 0
+        },
+        "spatial_operator_sha256": "a6c5fe91951bbc8dbe3af918768f3ee4b4a55e67f2acc8526e896bebdfa230b0"
+      },
+      "h05_partition_exact": true,
+      "label_access": false,
+      "manifest_sha256": "d09f46db7a1ab32a4128080a5908391bd38f2ca6de50e74aeed294f74ec9ce06",
+      "opaque_unit_id": "smoke-u001",
+      "reload_audit_sha256": "bb2449dc5397a9d0f0a7c1a7a27a5943b406aa71966be582bcc7faae3f4e4f3c",
+      "reused_completed_smoke": false,
+      "six_views_exact": true,
+      "status": "PASS"
+    }
+  ],
+  "scientific_training_units": 0,
+  "status": "PASS"
+}

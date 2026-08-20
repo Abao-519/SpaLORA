@@ -1,0 +1,26 @@
+{
+  "H05_partition_exact_parity": "2/2",
+  "checkpoint_roundtrip": "2/2",
+  "common_graph_intersection_negative_tests": "PASS",
+  "dgi_seed_permutation": "PASS",
+  "external_source_lock_sha256": "2753cbd1d98253a1530887f3dcddee96d4a0f151e697e66c1ddcd9f5cb7e5398",
+  "formal_science_started": false,
+  "gradient_three_branch_test": "PASS",
+  "label_access": {
+    "A1": 0,
+    "MISAR_Y": 0,
+    "P22": 0
+  },
+  "next_phase_authorized": true,
+  "pytest": {
+    "log": "/autodl-fs/data/SpaLORA-night9b/outputs/night9b/p1_pytest.log",
+    "log_sha256": "48cb0d84704171cfb14e3dd8880e2dbabc48ba25b2f5db107cea2d9cb5ab4a02",
+    "returncode": 0,
+    "runtime_seconds": 5.7504255920648575
+  },
+  "real_smokes": "2/2",
+  "reliability_simplex_range_and_stop_gradient": "PASS",
+  "schema_version": 1,
+  "six_view_exact_parity": "2/2",
+  "status": "PASS"
+}
