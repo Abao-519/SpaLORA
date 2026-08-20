@@ -1,0 +1,17 @@
+{
+  "label_authority": {
+    "authorized_role": "night9a_stage_evaluator",
+    "reference_K": 9,
+    "rows": 9196,
+    "snapshot_sha256": "d669e2c226f8cf85fde2bdbc32ec69c5791fd19d7a07e81dcea98af3ec9deab4"
+  },
+  "label_opened_only_after_stage_lock_and_push": true,
+  "lineage_raw_Y_read_count": 2,
+  "misar_Y_access": 0,
+  "p22_label_access_this_stage": 1,
+  "return_to_completed_stage_candidates": false,
+  "selection_output_sha256": "a9525a77ed3f5cc2d6c8d188d6146c1013932d13c37f84c9c0c644abafb2d265",
+  "stage": "R1",
+  "stage_lock_sha256": "ae3d72a9a762938a1ea4760d1efe9856ac9dcf8815548f4813eff31082bbf5eb",
+  "status": "PASS"
+}
