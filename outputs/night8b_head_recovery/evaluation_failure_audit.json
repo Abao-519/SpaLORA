@@ -1,0 +1,23 @@
+{
+  "Y_authorized_read_count": 1,
+  "actual_K_not_persisted_before_process_exit": true,
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "fallback": 0,
+  "head_transforms": "20/20",
+  "head_transforms_repeated_after_label": 0,
+  "label_access_before_total_lock": false,
+  "label_firewall_breach": false,
+  "metrics_computed": 0,
+  "old_spectral_sensitivity_evaluated_postlabel": false,
+  "paired_statistics_computed": false,
+  "primary_rows": 0,
+  "reason_code": "LOCKED_ANNOTATION_K_CONTRACT_MISMATCH_AT_SINGLE_AUTHORIZED_WINDOW",
+  "registry_expected_K": 12,
+  "return_to_mapping_affinity_head_K_or_code": false,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "HARD_STOPPED_FAIL_CLOSED",
+  "terminal_status": "RECOVERY_BLOCKED_INPUT_INTEGRITY",
+  "training": 0
+}

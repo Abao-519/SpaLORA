@@ -1,0 +1,21 @@
+{
+  "Y_authorized_read_count": 1,
+  "adapter": 0,
+  "affinity_rebuild": 0,
+  "autodl_api_called": false,
+  "cell_timeout_seconds": 600,
+  "coordinator_elapsed_seconds": 26.36070442199707,
+  "fallback": 0,
+  "gpu_expected": false,
+  "gpu_used": false,
+  "head_transforms": 20,
+  "metrics_computed": 0,
+  "schema_version": 1,
+  "scientific_retry": 0,
+  "status": "PASS_FAIL_CLOSED",
+  "third_party_benchmark": false,
+  "threads_per_worker": 1,
+  "total_wall_seconds_max": 7200,
+  "training": 0,
+  "workers_max": 4
+}

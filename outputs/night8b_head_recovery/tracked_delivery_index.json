@@ -1,0 +1,234 @@
+{
+  "file_count": 45,
+  "files": [
+    {
+      "path": "SpaLORA/night8b_head_recovery.py",
+      "sha256": "cf95df0677412aaf35606034c8524bfc458068613d98a97618a9226244cb6e5e",
+      "size_bytes": 5251
+    },
+    {
+      "path": "outputs/night8b_head_recovery/budget_and_access_audit.json",
+      "sha256": "16af937fbba44a07a88825cff82775755e03154b8dba5f45a3af18c37079d790",
+      "size_bytes": 513
+    },
+    {
+      "path": "outputs/night8b_head_recovery/evaluation_console.log",
+      "sha256": "9dab2f67caa0bd4c7ef3aac5fd70ca4fcac8eafad344f70c85a121296f43550e",
+      "size_bytes": 342
+    },
+    {
+      "path": "outputs/night8b_head_recovery/evaluation_failure_audit.json",
+      "sha256": "2e402fe014aa0242b5340379fe91ad66d5412476e9b2cf460f7380a62bb0f739",
+      "size_bytes": 771
+    },
+    {
+      "path": "outputs/night8b_head_recovery/git_audit.json",
+      "sha256": "d1c49025956a5ff06e856de85d910850810caee349d122d5e41907f287220a34",
+      "size_bytes": 533
+    },
+    {
+      "path": "outputs/night8b_head_recovery/label_window_audit.json",
+      "sha256": "e6d924ef38958b3c04e4b047209b208466e45c2b15af5e7923f17656dd2ef9fd",
+      "size_bytes": 400
+    },
+    {
+      "path": "outputs/night8b_head_recovery/locked_recovery_partition_manifest.json",
+      "sha256": "8a696ec456b9abe45c9fd65c3b646f2654300f6c51e47d766fb0bfcef0686e6c",
+      "size_bytes": 23779
+    },
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_decision.json",
+      "sha256": "54d653c9a33759789a740c3b35d42c4309cdd48fe53d0374987ddf6ef5495252",
+      "size_bytes": 555
+    },
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_plain_language_summary.md",
+      "sha256": "813efad354e3accc856721060cf7e8163fb327405286871a325176765bddddc7",
+      "size_bytes": 962
+    },
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_report.md",
+      "sha256": "8fb7c8cc44152581a114d2a822503e8e301b2c6961582e4719bb584a174b0757",
+      "size_bytes": 1934
+    },
+    {
+      "path": "outputs/night8b_head_recovery/night8b_head_recovery_tests.log",
+      "sha256": "f0c818e8bbe261212eadd2d41dc2dcd660475da16399e6e1933da88ff1560f3f",
+      "size_bytes": 808
+    },
+    {
+      "path": "outputs/night8b_head_recovery/operational_blocked_finalizer_audit.json",
+      "sha256": "4682d568e838dc528c6606fcdbeac8ed4b29707fe653a49396e029c909467719",
+      "size_bytes": 324
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_artifact_manifest_after.json",
+      "sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb",
+      "size_bytes": 126817
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_artifact_manifest_before.json",
+      "sha256": "87273b5053588553fe1f6cdc7c51177eb98e0c3dbf84936caf7cdbebd920a6eb",
+      "size_bytes": 126817
+    },
+    {
+      "path": "outputs/night8b_head_recovery/original_spectral_9pair_sensitivity.csv",
+      "sha256": "2fb62d211b604d4fca1dff4e26a9aec84277ad870767d8def542203a3363a29f",
+      "size_bytes": 43
+    },
+    {
+      "path": "outputs/night8b_head_recovery/p0_attempt1_infrastructure_correction.json",
+      "sha256": "b11dbf07ca1ad2ed347e4988f0034076a215c0bd88522a989abf35d0f2d47f75",
+      "size_bytes": 448
+    },
+    {
+      "path": "outputs/night8b_head_recovery/p0_attempt2_prelabel_push_audit_correction.json",
+      "sha256": "af10f5d0bba7cff2f3fb8654375c72e54ed96780603323c38257642e7b2e17e3",
+      "size_bytes": 466
+    },
+    {
+      "path": "outputs/night8b_head_recovery/p0_attempt3_independent_import_correction.json",
+      "sha256": "6f78ef58c5e4a3f527805c1955e01a4dc82e431471b775ae19382bdbb57e0c52",
+      "size_bytes": 428
+    },
+    {
+      "path": "outputs/night8b_head_recovery/p0_recovery_authority.json",
+      "sha256": "a621e8e310d75e0ef6c244fdca316f909daf95918ed7b95edbdfbf66bb4e94d9",
+      "size_bytes": 7648
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_evaluator_smoke.json",
+      "sha256": "0cbb66629e22512a84b23453de1fd2c5c04a773c246421e1b62788de4c3f1b0a",
+      "size_bytes": 271
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_head_partition_concordance.csv",
+      "sha256": "a4b00ad3e8633396245a8003821097da4a003831553b9fafe889d0c165bb5b60",
+      "size_bytes": 3709
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_push_audit.json",
+      "sha256": "467f53851cbb36285464edb46d5e86a06f29e73e08a9a9e6eec029a45334620c",
+      "size_bytes": 737
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_tests.log",
+      "sha256": "d1fe6c94300ac7b1dc5165b1458c2d1e3aa832ecad4f23190cfba87919a94b65",
+      "size_bytes": 819
+    },
+    {
+      "path": "outputs/night8b_head_recovery/prelabel_total_lock_tests.log",
+      "sha256": "70751d8d7d2c92bdb92d22451b93d202516b459cc4c8e36bc2ac813b9c1b9f87",
+      "size_bytes": 808
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_20row_metrics.csv",
+      "sha256": "f4e9767edaf06218d9410480f4c62966de9e8b48e956c6e2c64bf90990f5c3a2",
+      "size_bytes": 26
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_coordinator_state.json",
+      "sha256": "0f3a7a2842cc2eb610a78e031600c2510b0b16aad7616cb6c960e8b72656e1d8",
+      "size_bytes": 6828
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_independent_recalculation.json",
+      "sha256": "385ffcdf9cbc2d59a10973151d32008e644337a7105f86653f2acfe59efb4aed",
+      "size_bytes": 241
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_input_view_manifest.json",
+      "sha256": "8e9e042a7de8954425e2b46fc4f878bbc3f7c698f6283a80bb30132d9efcd71e",
+      "size_bytes": 14354
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_orchestrator.log",
+      "sha256": "10eafc3401f5bcb4b48b8265aaaa310af265177c54399d4df4252dfed4ea0d17",
+      "size_bytes": 87
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_paired_deltas.csv",
+      "sha256": "2b1c9210cad396eecc138ae448a42118774949e6e9889ebbd22d4e3b5f15b707",
+      "size_bytes": 19
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_paired_statistics.json",
+      "sha256": "0b4b0b84abd910571252203fb54e9687f8122f68bfdfbf23770c55ec946149a7",
+      "size_bytes": 149
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_resource_audit.json",
+      "sha256": "9507522267280c9acfb3ff2da5854330de225f9905616b88f46cc3b62d20bd49",
+      "size_bytes": 192
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_rule_lock.json",
+      "sha256": "9b098fff1b80cc3e562c2afa1833255ea050c14601c46e698011a8b0739d6c35",
+      "size_bytes": 1300
+    },
+    {
+      "path": "outputs/night8b_head_recovery/recovery_spatial_protection.json",
+      "sha256": "4e56b834713339889517fa15f740e308ab2c397fbf7f617d9da41b0e97da2719",
+      "size_bytes": 178
+    },
+    {
+      "path": "outputs/night8b_head_recovery/shutdown_dispatch_intent.json",
+      "sha256": "f2c3e0fc236615c2a66f8f6204b744cb9850eb5ba40b749ae1f143b449fc2ea2",
+      "size_bytes": 176
+    },
+    {
+      "path": "outputs/night8b_head_recovery/tests_and_invariance_audit.json",
+      "sha256": "a1e2346e3dddc8c264ecb6395243f7aa6c8a11005e4cd217535ca3bfc8647026",
+      "size_bytes": 510
+    },
+    {
+      "path": "protocols/night8b_head_recovery/SpaLORA_Night8B_Uniform_Head_Evaluation_Recovery_Taskbook_2026-08-20.md",
+      "sha256": "65229a18a8f4c6f1f3911391da8fc6def4f692b92b674b5ce41acc445113f045",
+      "size_bytes": 10785
+    },
+    {
+      "path": "protocols/night8b_head_recovery/SpaLORA_Night8B_Uniform_Head_Recovery_Registry_2026-08-20.json",
+      "sha256": "ba55faf2a25038f00c4ff2bc4984ec2d0ae3322a84d934c6f74c8cb26ce22162",
+      "size_bytes": 9048
+    },
+    {
+      "path": "scripts/night8b_head_recovery_evaluate.py",
+      "sha256": "a91c004c577cd0935d47384c4792a94ab156a2776b4ab407698529e5d13dd1e0",
+      "size_bytes": 18162
+    },
+    {
+      "path": "scripts/night8b_head_recovery_finalize.py",
+      "sha256": "40c2c8fa3f51edfd9a6b64bbe444ac0b698ad0a3b4634fe2450c6a548f289370",
+      "size_bytes": 11169
+    },
+    {
+      "path": "scripts/night8b_head_recovery_independent.py",
+      "sha256": "5655bd1a27c1dbb57238b140c550553ff8449a2a10f2e6f6c6fbc36d68e1bf29",
+      "size_bytes": 4855
+    },
+    {
+      "path": "scripts/night8b_head_recovery_orchestrate.py",
+      "sha256": "b60bb63e7af0d80903d97c177a09d035a2d75966eb485af9581f3225a7dd6783",
+      "size_bytes": 9109
+    },
+    {
+      "path": "scripts/night8b_head_recovery_p0.py",
+      "sha256": "2e278d9d0f01e2251ca2cd232a819b8bac960ca2fe33affa6c9d955d60099a6e",
+      "size_bytes": 13221
+    },
+    {
+      "path": "scripts/night8b_head_recovery_transform.py",
+      "sha256": "7a30ea9d815619d2106abe41f6785b7649cc45f85daf7d84fc42cbde46072e93",
+      "size_bytes": 4766
+    },
+    {
+      "path": "tests/test_night8b_head_recovery.py",
+      "sha256": "41c2c4f92af7f8cb078ab29d89d84169e046d43bf8eafad689f55dec15061afb",
+      "size_bytes": 3022
+    }
+  ],
+  "final_tag_must_follow_final_commit": true,
+  "root_rule": "repository-relative paths; index excludes itself",
+  "schema_version": 1,
+  "terminal_status": "RECOVERY_BLOCKED_INPUT_INTEGRITY"
+}

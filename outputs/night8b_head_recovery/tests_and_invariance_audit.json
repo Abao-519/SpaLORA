@@ -1,0 +1,15 @@
+{
+  "Y_opened_after_lock_and_push": true,
+  "Y_read_count": 1,
+  "determinism": "20/20",
+  "exact_K_recovery_partitions": "20/20",
+  "metrics_not_computed_after_K_contract_failure": true,
+  "original_manifest_rows": 297,
+  "original_night8b_files_modified_moved_or_overwritten": false,
+  "original_night8b_terminal_status": "INFRASTRUCTURE_BLOCKED",
+  "original_tree_before_after_byte_exact": true,
+  "recovery_input_lock": "20/20",
+  "recovery_partitions": "20/20",
+  "schema_version": 1,
+  "status": "PASS"
+}

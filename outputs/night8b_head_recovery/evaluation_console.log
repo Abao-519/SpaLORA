@@ -1,0 +1,7 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "scripts/night8b_head_recovery_evaluate.py", line 338, in <module>
+    main()
+  File "scripts/night8b_head_recovery_evaluate.py", line 160, in main
+    raise RuntimeError("locked MISAR annotation contract K=12 failed")
+RuntimeError: locked MISAR annotation contract K=12 failed
