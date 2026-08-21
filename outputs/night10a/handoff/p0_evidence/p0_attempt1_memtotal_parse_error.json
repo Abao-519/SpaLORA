@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "category": "P0_INFRASTRUCTURE_ONLY",
+  "error": "ValueError while parsing /proc/meminfo scientific-notation output as int",
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "label_values_accessed": 0,
+  "scientific_retry": false,
+  "resolution": "parse MemTotal directly from /proc/meminfo as integer KiB",
+  "preserved": true
+}

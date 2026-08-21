@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "path": "budget_and_failure_audit.json",
+      "sha256": "129849029bb888b4a353d9000addfb51a91cc338c2d4b8d8913c8f5d26cab0c0",
+      "size_bytes": 459
+    },
+    {
+      "path": "finalization_attempt1_python38_pathlib_error.json",
+      "sha256": "5c89240e27cc4fc28667b9166ec24ceadd26e876a97272ed51e45b1296288df4",
+      "size_bytes": 307
+    },
+    {
+      "path": "frontier_registry.json",
+      "sha256": "2a0570110e412d4846f86c02fa4fabd19d82ff252d0037c67d2e0e4ed022b79b",
+      "size_bytes": 147
+    },
+    {
+      "path": "independent_recomputation.json",
+      "sha256": "5f2d1fd9f42169fd3d888373e1b2dd46b0695762fee8fccd28c7b0a916e9c9cf",
+      "size_bytes": 223
+    },
+    {
+      "path": "label_read_audit.json",
+      "sha256": "76b78dc0abf41b20234dc0b27906fde4b77c8a1ca16f7ce49b5e660186ed227d",
+      "size_bytes": 358
+    },
+    {
+      "path": "metric_backfill_coverage.json",
+      "sha256": "92ee01b99469c3028746b4f9da7f268c475e005f4b70aceb6b6bdb512a28ec8f",
+      "size_bytes": 200
+    },
+    {
+      "path": "metric_backfill_long.csv",
+      "sha256": "fc3485a88fd4f699e861467ced5382d756e23669a3d7e4c53fe7de897a2574f0",
+      "size_bytes": 77
+    },
+    {
+      "path": "night10a_decision.json",
+      "sha256": "740dd0d01bb2a92c46e54c44c9b3bec1922208dca8fc0d6d9cadc4844d7a96cc",
+      "size_bytes": 590
+    },
+    {
+      "path": "night10a_report.md",
+      "sha256": "a02f7a32e3f34b89d3d0f7ce9ee97a8eb602c138e1f648296b8a19cc5af02b86",
+      "size_bytes": 1905
+    },
+    {
+      "path": "p0_evidence/p0_attempt1_memtotal_parse_error.json",
+      "sha256": "4c198116aadd72f495966c0e29467ccdd17eeca0ea34a560a23149f2a0f0b7e7",
+      "size_bytes": 375
+    },
+    {
+      "path": "p0_evidence/p0_attempt2_test_import_path_error.json",
+      "sha256": "4bb5f6d09abd631ee11cb677fd80e200b884e08dc37fda628e2ce96b6a99b817",
+      "size_bytes": 497
+    },
+    {
+      "path": "p0_evidence/p0_attempt3_a1_id_rule_error.json",
+      "sha256": "8708d27d73a279df1d825583800d987419aa1d756be4fab360c2b02b7a807733",
+      "size_bytes": 675
+    },
+    {
+      "path": "p0_evidence/p0_attempt4_numpy_bool_serialization_error.json",
+      "sha256": "60f7cf2fec459ea2b3abce243eb86b3d77cae1a7f61643a8ad01940d270cfd0c",
+      "size_bytes": 665
+    },
+    {
+      "path": "p0_evidence/p0_authority_and_resource_contract.json",
+      "sha256": "1925c3ea44b656af3c3592fc6d3fdeb7655c4f5add03103c6f93bcc2beaa7b6d",
+      "size_bytes": 3707
+    },
+    {
+      "path": "p0_evidence/p0_final_gate.json",
+      "sha256": "13bcecb86af50fbda676ad58ce49f7948a863298e5780e84a1f022cc7b371d5a",
+      "size_bytes": 450
+    },
+    {
+      "path": "p0_evidence/p0_historical_metric_parity.json",
+      "sha256": "54c81128715c0b1d6f6272f42310389dcaa92e83c8b89ec2dfdda52c490bdc8c",
+      "size_bytes": 566
+    },
+    {
+      "path": "p0_evidence/p0_qcrd_real_semantic_probe.json",
+      "sha256": "91101f7683a8ab93379d0b9c93232ba4b7bf94272387fb18bcbbb52dd0164f9f",
+      "size_bytes": 849
+    },
+    {
+      "path": "p0_evidence/p0_test_report.json",
+      "sha256": "005ff6614db1cd1cd1be343aa215735efa2a7fd5eb430744241e99203ee81130",
+      "size_bytes": 193
+    },
+    {
+      "path": "p0_semantic_coverage_reaudit.json",
+      "sha256": "9990265001d75918eca85c640a69f64309a7bf43f93eac7cb531680df4c782dd",
+      "size_bytes": 1348
+    },
+    {
+      "path": "per_seed_metrics_long.csv",
+      "sha256": "8f2d59be5242d09d843083e4a142b3cb965c3d4e2c6489eb6ae7be9291e01f2d",
+      "size_bytes": 66
+    },
+    {
+      "path": "plain_language_summary.md",
+      "sha256": "32933d6cbed66e3baab5385a30f73c585f1f612291d31b66435360f9249c03a1",
+      "size_bytes": 1063
+    },
+    {
+      "path": "resource_audit.json",
+      "sha256": "aec3ae08f35d70cb204f33386a295aad2dc3bafb824731278d3060b54317065c",
+      "size_bytes": 586
+    },
+    {
+      "path": "tests_and_semantics_audit.json",
+      "sha256": "3d4ac2dd25b8a1e32ca1c2682505f2eddb9a644ad2bfac354b3c1b1f99a84f29",
+      "size_bytes": 438
+    }
+  ],
+  "entry_count": 23,
+  "root": "outputs/night10a/handoff",
+  "root_rule": "all regular files below root except delivery_index.json",
+  "schema": "spalora.night10a.tracked_delivery_index.v1",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

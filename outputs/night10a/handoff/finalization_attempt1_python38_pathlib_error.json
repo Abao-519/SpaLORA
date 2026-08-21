@@ -1,0 +1,9 @@
+{
+  "category": "DELIVERY_INFRASTRUCTURE_ONLY",
+  "error": "Python 3.8 pathlib.Path.write_text does not accept newline",
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "preserved": true,
+  "resolution": "use Path.open with explicit newline",
+  "scientific_work_affected": false
+}

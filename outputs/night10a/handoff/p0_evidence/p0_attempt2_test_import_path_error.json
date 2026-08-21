@@ -1,0 +1,12 @@
+{
+  "attempt": 2,
+  "category": "P0_INFRASTRUCTURE_ONLY",
+  "error": "combined pytest process omitted scripts/night10a from PYTHONPATH, so the authority reference test could not import its sibling module",
+  "authority_and_resource_contract_passed": true,
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "label_values_accessed": 0,
+  "scientific_retry": false,
+  "resolution": "set explicit test-only PYTHONPATH to repository and scripts/night10a",
+  "preserved": true
+}

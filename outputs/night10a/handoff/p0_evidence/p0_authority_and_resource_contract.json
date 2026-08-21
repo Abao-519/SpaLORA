@@ -1,0 +1,86 @@
+{
+  "authority": {
+    "Night10A_Local_Evidence_and_Innovation_Audit_2026-08-21.md": {
+      "actual_sha256": "ea920aeee3593a7903b6189119dc60b7327cee48f9d8b00e0c4283420049b34c",
+      "expected_sha256": "ea920aeee3593a7903b6189119dc60b7327cee48f9d8b00e0c4283420049b34c",
+      "match": true,
+      "path": "/root/autodl-fs/SpaLORA-night10a/protocols/night10a/planning/Night10A_Local_Evidence_and_Innovation_Audit_2026-08-21.md"
+    },
+    "SpaLORA_Night10A_QCRD_Score_RnD_Taskbook_2026-08-21.md": {
+      "actual_sha256": "5551270041576969e1a777a6dcf8f1b8113d2fdefe7b7322738a4d57c8b4bd0d",
+      "expected_sha256": "5551270041576969e1a777a6dcf8f1b8113d2fdefe7b7322738a4d57c8b4bd0d",
+      "match": true,
+      "path": "/root/autodl-fs/SpaLORA-night10a/protocols/night10a/planning/SpaLORA_Night10A_QCRD_Score_RnD_Taskbook_2026-08-21.md"
+    },
+    "authoritative_scoreboard_20260821.csv": {
+      "actual_sha256": "951a9e0449e6e083834cd15268bb4c316b011726c80bd122dd9a7516626a0d68",
+      "expected_sha256": "951a9e0449e6e083834cd15268bb4c316b011726c80bd122dd9a7516626a0d68",
+      "match": true,
+      "path": "/root/autodl-fs/SpaLORA-night10a/protocols/night10a/planning/authoritative_scoreboard_20260821.csv"
+    },
+    "metric_expansion_reference.py": {
+      "actual_sha256": "33397cada3701108fbfb15d58fafd6f1f9e20417ac7bc14cce1e8aee993cd159",
+      "expected_sha256": "33397cada3701108fbfb15d58fafd6f1f9e20417ac7bc14cce1e8aee993cd159",
+      "match": true,
+      "path": "/root/autodl-fs/SpaLORA-night10a/protocols/night10a/planning/metric_expansion_reference.py"
+    },
+    "night10a_qcrd_candidate_registry.json": {
+      "actual_sha256": "b310e232282840772b69ad9d1c1d1de6e04c92e8b7b013a7e5247c628dfd959d",
+      "expected_sha256": "b310e232282840772b69ad9d1c1d1de6e04c92e8b7b013a7e5247c628dfd959d",
+      "match": true,
+      "path": "/root/autodl-fs/SpaLORA-night10a/protocols/night10a/planning/night10a_qcrd_candidate_registry.json"
+    },
+    "test_metric_expansion_reference.py": {
+      "actual_sha256": "4100b23ab30d74db02cb2e540112b9548080ae1c17817011c202a409b48c6ab0",
+      "expected_sha256": "4100b23ab30d74db02cb2e540112b9548080ae1c17817011c202a409b48c6ab0",
+      "match": true,
+      "path": "/root/autodl-fs/SpaLORA-night10a/protocols/night10a/planning/test_metric_expansion_reference.py"
+    }
+  },
+  "constraints": {
+    "e18_5_access": 0,
+    "formal_training_units_started": 0,
+    "formal_transforms_started": 0,
+    "misar_y_access": 0,
+    "new_external_data_access": 0,
+    "new_third_party_benchmarks": 0
+  },
+  "git": {
+    "branch": "revision/q2-night10a-qcrd-score-rnd-20260821",
+    "head": "e9bd62e2bb07c58f58c219956b8aaf090527c471",
+    "protection_tag_target": "e9bd62e2bb07c58f58c219956b8aaf090527c471",
+    "status_porcelain": "?? SpaLORA/night10a_qcrd.py\n?? protocols/night10a/\n?? scripts/night10a/\n?? tests/night10a/"
+  },
+  "historical_roots": {
+    "/root/autodl-fs/night6c_raw_runs_20260817": {
+      "exists": true
+    },
+    "/root/autodl-fs/night6d_raw_runs_20260817": {
+      "exists": true
+    },
+    "/root/autodl-fs/night7b_score_rnd_20260818": {
+      "exists": true
+    },
+    "/root/autodl-fs/night8b_raw_runs_20260820": {
+      "exists": true
+    },
+    "/root/autodl-fs/night9b_racf_20260820": {
+      "exists": true
+    }
+  },
+  "pass": true,
+  "protocol": "Night-10A/P0",
+  "resources": {
+    "cpu_count": 96,
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER, 580.105.08, 32760",
+    "memory_bytes_proc": 540642230272,
+    "numpy": "1.22.3",
+    "persistent_free_bytes": 135110520832,
+    "python": "3.8.10",
+    "scikit_learn": "1.1.1",
+    "scipy": "1.8.1",
+    "torch": "2.0.0+cu118",
+    "torch_cuda_build": "11.8"
+  }
+}

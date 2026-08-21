@@ -1,0 +1,20 @@
+{
+  "formal_gpu_training_observed": false,
+  "overall_wall_clock_limit_hours": 12,
+  "reason_no_formal_gpu_training": "P0 semantic coverage hard gate",
+  "resources": {
+    "cpu_count": 96,
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER, 580.105.08, 32760",
+    "memory_bytes_proc": 540642230272,
+    "numpy": "1.22.3",
+    "persistent_free_bytes": 135110520832,
+    "python": "3.8.10",
+    "scikit_learn": "1.1.1",
+    "scipy": "1.8.1",
+    "torch": "2.0.0+cu118",
+    "torch_cuda_build": "11.8"
+  },
+  "single_transform_limit_minutes": 30,
+  "status": "PASS"
+}

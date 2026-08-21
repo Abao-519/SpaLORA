@@ -1,0 +1,16 @@
+{
+  "checkpoint_roundtrip_max_abs_error": 0.0,
+  "full_registry_coverage_passed": false,
+  "full_registry_coverage_report": "p0_semantic_coverage_reaudit.json",
+  "historical_ari_nmi_parity_max_abs_error": 0.0,
+  "partial_probe_passed": true,
+  "qcrd_partial_semantics_tests": {
+    "passed": 6,
+    "skipped": 0
+  },
+  "reference_tests": {
+    "passed": 4,
+    "skipped": 0
+  },
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

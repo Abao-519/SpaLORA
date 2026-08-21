@@ -1,0 +1,23 @@
+{
+  "decision": "Fail closed before Stage M and all formal candidate training.",
+  "fallback": 0,
+  "frontiers_locked": [],
+  "protocol": "SpaLORA Night-10A QCRD score RnD",
+  "qcrd_candidates_locked": [],
+  "r1": {
+    "real_training_units": 0,
+    "status": "NOT_STARTED_P0_HARD_GATE",
+    "transforms": 0
+  },
+  "r2": {
+    "real_training_units": 0,
+    "status": "NOT_ELIGIBLE",
+    "transforms": 0
+  },
+  "scientific_retry": 0,
+  "score_improvement_claimed": false,
+  "stage_m": {
+    "status": "NOT_STARTED_P0_HARD_GATE"
+  },
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

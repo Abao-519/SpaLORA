@@ -1,0 +1,35 @@
+{
+  "authority_ambiguities_that_must_not_be_guessed": [
+    "masked-denoising fraction and deterministic masking recipe",
+    "weights for correction magnitude, original-representation anchor, and local-boundary preservation",
+    "Q07 confidence-weighted MNN loss weight"
+  ],
+  "fallback": 0,
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "implemented_and_verified_but_insufficient": [
+    "frozen silhouette/DB/CH evidence",
+    "local residual-based spot weighting",
+    "cross-modal cosine disagreement",
+    "sparse reciprocal MNN support",
+    "stop-gradient teacher",
+    "bounded correction and exact checkpoint reload"
+  ],
+  "labels_used_for_training_or_selection": false,
+  "missing_required_global_quality_features": [
+    "spatial local consistency on the frozen partition",
+    "graph local residual as a global feature"
+  ],
+  "missing_required_spot_quality_features": [
+    "local neighbor entropy"
+  ],
+  "prior_partial_probe_preserved": true,
+  "r1_started": false,
+  "r2_started": false,
+  "reason": "The first probe tested implemented behavior but did not establish full registry coverage.",
+  "scientific_retry": 0,
+  "stage_m_started": false,
+  "status": "FAIL",
+  "supersedes_for_gate_decision": "outputs/night10a/p0/p0_final_gate.json",
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+}

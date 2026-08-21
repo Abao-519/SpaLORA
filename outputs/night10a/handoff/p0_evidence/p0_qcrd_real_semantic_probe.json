@@ -1,0 +1,23 @@
+{
+  "all_outputs_finite": true,
+  "checkpoint_roundtrip_max_abs": 0.0,
+  "checkpoint_roundtrip_pass": true,
+  "checkpoint_state_sha256": "a370d3c6e893e5452810334d10ac8f0e52897d1bf7d32dc656155a5667e26ab7",
+  "dataset_name_routing_absent": true,
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "label_values_accessed": 0,
+  "modality_swap_global": true,
+  "modality_swap_per_spot": true,
+  "neutral_equal_quality": true,
+  "no_dense_pairwise_source": true,
+  "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+  "pass": true,
+  "q05_boundary_suppression": true,
+  "q07_sparse_reciprocal_edges": true,
+  "quality_pre_optimizer_non_trainable": true,
+  "real_unit": "u000",
+  "same_module_class_across_families": true,
+  "spot_order_exact": true,
+  "teacher_stop_gradient": true
+}
