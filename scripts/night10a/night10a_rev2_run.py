@@ -162,14 +162,16 @@ def atomic_npy(path: pathlib.Path, value: np.ndarray) -> None:
     tmp = pathlib.Path(str(path) + ".tmp.npy"); np.save(tmp, value); os.replace(tmp, path)
 
 
-def _assert_real_array(name: str, value: np.ndarray, n: int, columns: Optional[int] = None) -> None:
+def _assert_real_array(name: str, value: np.ndarray, n: int,
+                       columns: Optional[int] = None, floating: bool = True) -> None:
     if not isinstance(value, np.ndarray) or value.ndim != 2:
         raise AssertionError(f"{name} must be a two-dimensional numpy array")
     if value.shape[0] != n or value.shape[1] <= 0:
         raise AssertionError(f"{name} shape mismatch: {value.shape}")
     if columns is not None and value.shape[1] != columns:
         raise AssertionError(f"{name} feature dimension mismatch: {value.shape[1]} != {columns}")
-    if not np.issubdtype(value.dtype, np.floating) or not np.isfinite(value).all():
+    numeric = np.issubdtype(value.dtype, np.floating) if floating else np.issubdtype(value.dtype, np.number)
+    if not numeric or not np.isfinite(value).all():
         raise AssertionError(f"{name} dtype/finite gate failed")
 
 
@@ -295,7 +297,7 @@ def prepare_one(dataset: str, seed: int) -> dict:
     names = ids(unit_id); n = len(names); graph_file = graph_path(dataset); coord_file = coords_path(dataset, unit_id)
     graph = sp.load_npz(graph_file); coords = np.load(coord_file)
     _assert_real_array("z1", z1, n); _assert_real_array("z2", z2, n, z1.shape[1])
-    _assert_real_array("zf_raw", zf_raw, n); _assert_real_array("coordinates", coords, n)
+    _assert_real_array("zf_raw", zf_raw, n); _assert_real_array("coordinates", coords, n, floating=False)
     if coords.shape[1] != 2 or len(pf) != n or not np.isfinite(pf).all():
         raise AssertionError("coordinate/reference partition schema mismatch")
     if graph.shape != (n, n) or not np.isfinite(graph.data).all():

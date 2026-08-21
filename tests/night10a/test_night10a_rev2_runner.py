@@ -2,6 +2,9 @@ from __future__ import annotations
 
 import inspect
 
+import numpy as np
+import pytest
+
 from scripts.night10a import night10a_rev2_p0 as p0
 from scripts.night10a import night10a_rev2_run as runner
 
@@ -23,6 +26,12 @@ def test_prepare_one_has_full_real_schema_and_frozen_harmonizer_gates():
         assert token in source
     assert "frozen_reference_harmonizer" in source
     assert "dataset == \"p22\"" not in inspect.getsource(runner.load_zf_aligned)
+
+
+def test_real_schema_dtype_gate_accepts_numeric_coordinates_only():
+    runner._assert_real_array("coordinates", np.arange(12).reshape(6, 2), 6, floating=False)
+    with pytest.raises(AssertionError):
+        runner._assert_real_array("view", np.arange(12).reshape(6, 2), 6)
 
 
 def test_formal_config_requires_exact_preflight_binding_and_zero_labels():

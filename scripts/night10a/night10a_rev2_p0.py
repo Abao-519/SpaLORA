@@ -83,6 +83,12 @@ def authority() -> dict:
             "correction": "use python -m package.module for P0, reload, and transform",
             "real_runtime_rows": 0, "optimizer_steps": 0, "formal_training": 0,
             "label_reads": 0, "scientific_retry": False,
+        }, {
+            "attempt": 2, "scope": "p0-real-schema-dtype-assertion",
+            "issue": "floating-view dtype assertion was incorrectly applied to integer coordinates",
+            "correction": "require floating z1/z2/zf and finite numeric coordinates",
+            "real_runtime_rows": 0, "optimizer_steps": 0, "formal_training": 0,
+            "label_reads": 0, "scientific_retry": False,
         }],
     }
     if not (branch == EXPECTED_BRANCH and parent_exists and result["worktree_clean"] and
