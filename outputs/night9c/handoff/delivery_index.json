@@ -1,0 +1,113 @@
+{
+  "embeddings": 0,
+  "files": [
+    {
+      "path": "outputs/night9c/attempts/finalizer_attempt1_git_peel_error.json",
+      "sha256": "5e70350e8fc15d4a9668086803aa09b69bbe5a9dd162e31aa5c5c5f2c59e3aa9",
+      "size_bytes": 739
+    },
+    {
+      "path": "outputs/night9c/attempts/p0_attempt1_spaddm_public_blob/e18_5_data_provenance_and_firewall.json",
+      "sha256": "5c54e1aa8c0b1dd4cb03651c1b285ee2d256c52cdbee00be04ab5258c572631b",
+      "size_bytes": 1643
+    },
+    {
+      "path": "outputs/night9c/attempts/p0_attempt1_spaddm_public_blob/e18_5_label_free_copy_manifest.json",
+      "sha256": "8dc828d966e8350267ad2e1e91f71ce704332bcb47562bfd0e4b8155ebab5997",
+      "size_bytes": 1435
+    },
+    {
+      "path": "outputs/night9c/attempts/p0_attempt1_spaddm_public_blob/e18_5_source_file_manifest.json",
+      "sha256": "1c5fdae6c549d8af6d41ab7ddb50c8e622a63186ee356403391929a885a1b024",
+      "size_bytes": 4935
+    },
+    {
+      "path": "outputs/night9c/attempts/p0_attempt1_spaddm_public_blob/night9c_p0_contract.json",
+      "sha256": "0cc4956707e776e034f30b7f3085fe5c22b6adaf0e7d8c622052880c3f8d74f0",
+      "size_bytes": 2165
+    },
+    {
+      "path": "outputs/night9c/e18_5_data_provenance_and_firewall.json",
+      "sha256": "5c54e1aa8c0b1dd4cb03651c1b285ee2d256c52cdbee00be04ab5258c572631b",
+      "size_bytes": 1643
+    },
+    {
+      "path": "outputs/night9c/e18_5_label_free_copy_manifest.json",
+      "sha256": "8dc828d966e8350267ad2e1e91f71ce704332bcb47562bfd0e4b8155ebab5997",
+      "size_bytes": 1435
+    },
+    {
+      "path": "outputs/night9c/e18_5_source_file_manifest.json",
+      "sha256": "1c5fdae6c549d8af6d41ab7ddb50c8e622a63186ee356403391929a885a1b024",
+      "size_bytes": 4935
+    },
+    {
+      "path": "outputs/night9c/git_delivery_audit.json",
+      "sha256": "f0b3bcdcadf96f8e0aaaec9e3485c6949996509b88bb4c5910a5a2defe0fb47c",
+      "size_bytes": 508
+    },
+    {
+      "path": "outputs/night9c/night9c_modern_source_code_audit.json",
+      "sha256": "4fdac89e005a04c72eb319229ad9a41edcf4c02cec3fbaa3d975036b5c383220",
+      "size_bytes": 371
+    },
+    {
+      "path": "outputs/night9c/night9c_modern_source_code_audit.md",
+      "sha256": "bef535188721b3539d33c481dace14c8dcad183d8ee37e03338c1aac3e5f3c61",
+      "size_bytes": 308
+    },
+    {
+      "path": "outputs/night9c/night9c_p0_contract.json",
+      "sha256": "0cc4956707e776e034f30b7f3085fe5c22b6adaf0e7d8c622052880c3f8d74f0",
+      "size_bytes": 2165
+    },
+    {
+      "path": "outputs/night9c/night9c_report.md",
+      "sha256": "8305558fff1f73cd4502ca190789035906e4e9c58991ac285375d07d855ba10b",
+      "size_bytes": 2668
+    },
+    {
+      "path": "outputs/night9c/p0_source_recovery_audit.json",
+      "sha256": "5b9d5c72733af4b9570043d0c839f5f517b9777058a1853f94e5eeb8f671595a",
+      "size_bytes": 13670
+    },
+    {
+      "path": "outputs/night9c/scientific_budget_and_label_access.json",
+      "sha256": "b8bdc73f6cde099606834b27b7d9a15569b705a6f46f41ed4d6881a0f4ed92b2",
+      "size_bytes": 257
+    },
+    {
+      "path": "protocols/night9c/SpaLORA_Night9C_E18_5_Registry_2026-08-21.json",
+      "sha256": "bfd053ccac50a5ba6c8e914333ec17d6c17e104558c825d4aa5bc2952dbaf324",
+      "size_bytes": 3076
+    },
+    {
+      "path": "protocols/night9c/SpaLORA_Night9C_Frozen_Hierarchy_E18_5_External_Confirmation_Taskbook_2026-08-21.md",
+      "sha256": "466f7a139ac2cf443568509e7177ed75341508202538b331b2612ad891f3b059",
+      "size_bytes": 11443
+    },
+    {
+      "path": "scripts/night9c_finalize_blocked.py",
+      "sha256": "84d2eb5992bd329ab24011a2044d392d3aa477a1216a03319cd3dd138f84d83f",
+      "size_bytes": 13053
+    },
+    {
+      "path": "scripts/night9c_p0_data.py",
+      "sha256": "3f848784b773f9d2cddef4a006007c2e7017aba277e59cc4a7f9ed1b83699dfd",
+      "size_bytes": 18680
+    },
+    {
+      "path": "tests/test_night9c_p0_data.py",
+      "sha256": "42862edb451ccebee91a7f610cbf3ba97f196875c16f99c0fb39f763596af1cc",
+      "size_bytes": 1540
+    }
+  ],
+  "label_value_reads": 0,
+  "partitions": 0,
+  "root": "repository",
+  "root_rule": "Paths are repository-root-relative; this index excludes itself.",
+  "schema": "spalora.night9c.tracked_delivery_index.v1",
+  "science_evidence_commit": "59c09f0d85bd7c6a08c63f540ba60a6e844c4fa6",
+  "terminal_status": "BLOCKED_DATA_PROVENANCE",
+  "training_units": 0
+}
