@@ -1,0 +1,27 @@
+{
+  "blas_threads_per_worker": 3,
+  "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+  "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+  "dataset": "p22",
+  "elapsed_seconds": 48.564377784729004,
+  "failed_probe_attempts": [
+    {
+      "result": "not installed",
+      "tool": "/usr/bin/time",
+      "transform_started": false
+    }
+  ],
+  "label_reads": 0,
+  "mem_available_after_kb": 484250876,
+  "mem_available_before_kb": 484222876,
+  "mem_available_minimum_kb": 483421796,
+  "peak_process_rss_kb": 1055136,
+  "projected_four_worker_rss_kb": 4220544,
+  "projected_headroom_kb": 480002332,
+  "returncode": 0,
+  "schema": "spalora.night10a.rev2.transform_memory_probe.v1",
+  "seed": 0,
+  "status": "PASS",
+  "transform_timeout_seconds": 1800,
+  "worker_limit": 4
+}

@@ -1,0 +1,23 @@
+START count=21 labels=0
+01/21 seed=0 candidate=Q01_GLOBAL_QUALITY_BLEND rc=0 seconds=9.754
+02/21 seed=0 candidate=Q02_SPOT_QUALITY_BLEND rc=0 seconds=9.988
+03/21 seed=0 candidate=Q03_MASKED_RESIDUAL rc=0 seconds=24.859
+04/21 seed=0 candidate=Q04_SPOT_GATED_MASKED_RESIDUAL rc=0 seconds=25.992
+05/21 seed=0 candidate=Q05_BOUNDARY_GATED_RESIDUAL rc=0 seconds=26.382
+06/21 seed=0 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.903
+07/21 seed=0 candidate=Q07_CONFIDENCE_MNN_RESIDUAL rc=0 seconds=25.728
+08/21 seed=1 candidate=Q01_GLOBAL_QUALITY_BLEND rc=0 seconds=9.741
+09/21 seed=1 candidate=Q02_SPOT_QUALITY_BLEND rc=0 seconds=9.794
+10/21 seed=1 candidate=Q03_MASKED_RESIDUAL rc=0 seconds=26.165
+11/21 seed=1 candidate=Q04_SPOT_GATED_MASKED_RESIDUAL rc=0 seconds=25.624
+12/21 seed=1 candidate=Q05_BOUNDARY_GATED_RESIDUAL rc=0 seconds=26.056
+13/21 seed=1 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=24.883
+14/21 seed=1 candidate=Q07_CONFIDENCE_MNN_RESIDUAL rc=0 seconds=26.413
+15/21 seed=2 candidate=Q01_GLOBAL_QUALITY_BLEND rc=0 seconds=9.894
+16/21 seed=2 candidate=Q02_SPOT_QUALITY_BLEND rc=0 seconds=9.872
+17/21 seed=2 candidate=Q03_MASKED_RESIDUAL rc=0 seconds=25.383
+18/21 seed=2 candidate=Q04_SPOT_GATED_MASKED_RESIDUAL rc=0 seconds=25.928
+19/21 seed=2 candidate=Q05_BOUNDARY_GATED_RESIDUAL rc=0 seconds=25.216
+20/21 seed=2 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.645
+21/21 seed=2 candidate=Q07_CONFIDENCE_MNN_RESIDUAL rc=0 seconds=26.321
+PASS count=21 labels=0
