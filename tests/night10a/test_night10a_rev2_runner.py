@@ -50,3 +50,4 @@ def test_no_label_loader_or_scientific_retry_in_p0_and_runner():
     assert '"fallback": 0' in combined
     assert "ThreadPoolExecutor(max_workers=4)" in combined
     assert "timeout=1800" in combined
+    assert '"-m","scripts.night10a.night10a_rev2_run"' in combined

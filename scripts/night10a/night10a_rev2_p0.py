@@ -77,6 +77,13 @@ def authority() -> dict:
         "dataset_routing_signature_absent": "dataset" not in inspect.signature(
             __import__("SpaLORA.night10a_qcrd", fromlist=["*"]).frozen_reference_harmonizer).parameters,
         "label_loader_absent_from_training_source": "load_labels" not in source,
+        "implementation_corrections": [{
+            "attempt": 1, "scope": "p0-and-formal-subprocess-infrastructure",
+            "issue": "direct script invocation omitted repository root from Python module path",
+            "correction": "use python -m package.module for P0, reload, and transform",
+            "real_runtime_rows": 0, "optimizer_steps": 0, "formal_training": 0,
+            "label_reads": 0, "scientific_retry": False,
+        }],
     }
     if not (branch == EXPECTED_BRANCH and parent_exists and result["worktree_clean"] and
             result["contract_sha256"] == EXPECTED_CONTRACT_SHA and result["final_tag_absent"] and

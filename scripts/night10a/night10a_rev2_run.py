@@ -562,7 +562,7 @@ def train(config_file: pathlib.Path):
     expected=np.load(outdir/"corrected_views.npz"); expected_sha={k:canonical_array_sha256(expected[k]) for k in expected.files}
     manifest={"status":"TRAINED_AWAITING_RELOAD","config":cfg,"config_file_sha256":sha(config_file),"model_file_sha256":sha(outdir/"model_final.pt"),"canonical_state_sha256":canonical_state_sha256(model.state_dict()),"initial_state_sha256":initial,"view_shas":expected_sha,"loss_curve_sha256":sha(outdir/"loss_curve.csv"),"epochs":120,"device":torch.cuda.get_device_name(0),"peak_gpu_bytes":peak,"runtime_seconds":time.time()-start,"label_reads":0,"scientific_retry":0,"fallback":0}
     atomic_json(final,manifest)
-    cmd=[PYTHON,str(REPO/"scripts/night10a/night10a_rev2_run.py"),"reload",str(config_file)]
+    cmd=[PYTHON,"-m","scripts.night10a.night10a_rev2_run","reload",str(config_file)]
     proc=subprocess.run(cmd,cwd=REPO,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=600)
     (outdir/"reload.log").write_text(proc.stdout)
     if proc.returncode: raise RuntimeError("fresh reload failed")
@@ -626,7 +626,7 @@ def run_stage(stage: str):
         if time.time()-run_start>12*3600:
             error={"ordinal":ordinal,"config":str(cfg),"phase":"transform","error":"WALLCLOCK_BUDGET_REACHED"}; atomic_json(out/"failure.json",error); return error
         try:
-            proc=subprocess.run([PYTHON,str(REPO/"scripts/night10a/night10a_rev2_run.py"),"transform",str(cfg)],cwd=REPO,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=1800,env={**os.environ,"OMP_NUM_THREADS":"3","MKL_NUM_THREADS":"3","OPENBLAS_NUM_THREADS":"3"})
+            proc=subprocess.run([PYTHON,"-m","scripts.night10a.night10a_rev2_run","transform",str(cfg)],cwd=REPO,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=1800,env={**os.environ,"OMP_NUM_THREADS":"3","MKL_NUM_THREADS":"3","OPENBLAS_NUM_THREADS":"3"})
             (out/"transform.log").write_text(proc.stdout)
             if proc.returncode: raise RuntimeError("transform subprocess nonzero")
             return None
