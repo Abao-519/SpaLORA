@@ -4,7 +4,7 @@
   "backbones": [
     {
       "backbone_id": "G00_SP18_F20_CORR_UNION",
-      "base_cache_dir": "/root/autodl-fs/night6d_cache_20260817/base/p22",
+      "base_cache_dir": "/root/autodl-fs/night3af_p0d_builds_20260810/process_a/p22",
       "graph_cache_dir": "/root/autodl-fs/night6d_cache_20260817/graphs/p22/G00_SP18_F20_CORR_UNION",
       "model_config": {
         "embedding_dim": 128,
@@ -21,7 +21,7 @@
     },
     {
       "backbone_id": "G04_SP10_F10_EUC_UNION",
-      "base_cache_dir": "/root/autodl-fs/night6d_cache_20260817/base/p22",
+      "base_cache_dir": "/root/autodl-fs/night3af_p0d_builds_20260810/process_a/p22",
       "graph_cache_dir": "/root/autodl-fs/night6d_cache_20260817/graphs/p22/G04_SP10_F10_EUC_UNION",
       "model_config": {
         "embedding_dim": 128,
