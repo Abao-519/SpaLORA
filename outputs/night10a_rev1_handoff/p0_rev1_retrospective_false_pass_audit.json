@@ -1,0 +1,957 @@
+{
+  "checkpoint_roundtrip_pass_cells": 63,
+  "complete_transform_cells": 42,
+  "failure_rows": [
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 64,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND/failure.json",
+      "sha256": "9c60d66352864bcc49febc6609c286a78b8b546b87da987014d35c0cad16d484"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q02_SPOT_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 65,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q02_SPOT_QUALITY_BLEND/failure.json",
+      "sha256": "872ed00d100bd4009de8146f1811d10be795e232c183c176cfe256597a99b2ce"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q03_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 66,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q03_MASKED_RESIDUAL/failure.json",
+      "sha256": "5da9dd314be6ed1891577332dae3a094e127577349480214caa7f50ff8b291c9"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 67,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/failure.json",
+      "sha256": "0caf490d9fb38a0e33f79737eb836e2170d50145cedbdce272210dab2447bff3"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 68,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/failure.json",
+      "sha256": "e71f9096ccc3de1c02f63030e388783c71c23566704966dfb6bc461fe77ed20a"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x336 and 400x64)')",
+      "ordinal": 69,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/failure.json",
+      "sha256": "556aebf9a3c3e52582fb6b31234e50fe93f415f38a83cf14160c185aea77c2a7"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 70,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/failure.json",
+      "sha256": "49ed4a49fad481384d2d7d19e65102d2a849aa6f2f2a317e615a8dde37cbd3a1"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q01_GLOBAL_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 71,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q01_GLOBAL_QUALITY_BLEND/failure.json",
+      "sha256": "94db5454ef752b45610c1d994795359493052f77c58bbc41215f219bfba9e51a"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q02_SPOT_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 72,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q02_SPOT_QUALITY_BLEND/failure.json",
+      "sha256": "b24caf314c947f4865d7ca6d5a3c7864853fe08723464f2d94feca6df747213a"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q03_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 73,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q03_MASKED_RESIDUAL/failure.json",
+      "sha256": "26868995800f3489f39008147e5559a3db93c0b2bc9273c7aa223c04467f1be3"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 74,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/failure.json",
+      "sha256": "b95a5090b3c726d94b7167e6616d8d7274fcb8cddd16f829f60fe94f074b6ec4"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 75,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/failure.json",
+      "sha256": "7c64a2b86df8e1b8867bf19ea08860160456cc7f9cdde81c743eb01056aabf25"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x336 and 400x64)')",
+      "ordinal": 76,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/failure.json",
+      "sha256": "32ba9121a7fe2329722ec23a9bc5bf3f2c4e7fa5e86405beb4675ccc9843f16b"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 77,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/failure.json",
+      "sha256": "68a98ba63c1926c106a303d8a6f918d1528add912fa4a66578858b3dc29fb78f"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q01_GLOBAL_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 78,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q01_GLOBAL_QUALITY_BLEND/failure.json",
+      "sha256": "57a4a11396d85ede14fbae6f093d2ea2ceeb22da911a64dfab2af12cbc3b1174"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q02_SPOT_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 79,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q02_SPOT_QUALITY_BLEND/failure.json",
+      "sha256": "3fd3a8ccf9dfdd91af296cf9d91afbf9ef73b18798e8124f28c5d0fe2659d342"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q03_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 80,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q03_MASKED_RESIDUAL/failure.json",
+      "sha256": "a5f31928152df0fc4888bc7eca3ec3c9ff2916c6d2c94f2810956991057e697d"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 81,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/failure.json",
+      "sha256": "69dda640973dfcf7a0d1d896e7a492f3dd6a1304fb3170d5c33599c25a8a64a1"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 82,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/failure.json",
+      "sha256": "52826c500e4fce89c352b15219dd2592e90d3cd00e74ec825fb8d165b01843ae"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x336 and 400x64)')",
+      "ordinal": 83,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/failure.json",
+      "sha256": "639ce9df06a96c647ca0369561bb2be044826e742d450385639f2f54aff9ca30"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 84,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/failure.json",
+      "sha256": "298c30cfe7ab8d3e6acb60c111947a8d55f3e73e5f93a7f1072d7cdc83e8a11c"
+    }
+  ],
+  "fallback": 0,
+  "formal_failure_cells": 21,
+  "p0_rev1_original_status": "PASS",
+  "p0_rev1_retrospective_status": "FALSE_PASS_REAL_FORWARD_COVERAGE_GAP",
+  "p22_failures_before_optimizer_step": 21,
+  "partial_transforms": [
+    {
+      "cell": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND/corrected_views.npz",
+          "sha256": "3b84904ca37e0f42f574aabf415623c3bc29f0ad11a28f436b5dfbfa5fc13d9e",
+          "size": 3194429
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND/loss_curve.csv",
+          "sha256": "b1d3d96e0a1e2fc04eaad8adda941a0b579fc49dd3151e9beb284b11fde114f7",
+          "size": 14658
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND/model_final.pt",
+          "sha256": "f5687dccffedc91c6a3fb628cf6a063fe5d33c468182f5b42b985bce477ae63e",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND/training_manifest.json",
+          "sha256": "01967121165de9d692892f85728336a9c29d077aa46dfb460b546e572e453562",
+          "size": 2451
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND/corrected_views.npz",
+          "sha256": "3483ee965010ef18c15538b402d3594463ff444587b7d5aa3cfe6078e27b5877",
+          "size": 3199125
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND/loss_curve.csv",
+          "sha256": "0288ff1931a529a5f6686b2cf443badff1098610588c88d76a38f441907d7428",
+          "size": 14025
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND/model_final.pt",
+          "sha256": "36fb696186b7e44872d26eb714f516938fd2d1ac20bca6e8e14b231c00fafd23",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND/training_manifest.json",
+          "sha256": "c150f13535eb8c7afb66aa504b77a071da21f0f267bedd0024b86f339cfe30c3",
+          "size": 2449
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_0/Q03_MASKED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q03_MASKED_RESIDUAL/corrected_views.npz",
+          "sha256": "98216ad42cfce8cfad28f107eda9d40501af83e8986de4df0dd995908784fdea",
+          "size": 3192136
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q03_MASKED_RESIDUAL/loss_curve.csv",
+          "sha256": "cbd1f2ab07a794d729effbd41bc2acc66532c75faadf4554e4ec1a617b70570e",
+          "size": 16046
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q03_MASKED_RESIDUAL/model_final.pt",
+          "sha256": "24d254a79cadf8830da0f2bc50668501d671b21f1fc755b214dd64a2d4f96da3",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q03_MASKED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q03_MASKED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q03_MASKED_RESIDUAL/training_manifest.json",
+          "sha256": "db3313bddd287ab649143dc93d8ae61633c251d93e5c45cebeff9854247d307f",
+          "size": 2444
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/corrected_views.npz",
+          "sha256": "3a3fb5bbcb9cbfb15abe435289c4748959572980bee0c0a82436aa1530419c3f",
+          "size": 3195518
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/loss_curve.csv",
+          "sha256": "8507a4d20bc66a5bff5069d0b9b1d37b7f5a3d3a060d71e0812cfb98a88966f3",
+          "size": 15727
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/model_final.pt",
+          "sha256": "60cda85874bbd25d0a81ed9cb4a35d11ef1ba97dd6a296d83dd2c5950ce0c88c",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/training_manifest.json",
+          "sha256": "b2a7942f4fa75b81b18dee2210bea1cd5044de3019548db43120061123323fd5",
+          "size": 2457
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/corrected_views.npz",
+          "sha256": "c1b6b4ce0736b4406f2d5cc11a7ee1f7879dd88dc75514eda3dad479edeb43e1",
+          "size": 3195677
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/loss_curve.csv",
+          "sha256": "81e09178f4faeef86ff32d7aa6f33c10475829d46c24868e7ae12c0aba4565f8",
+          "size": 15677
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/model_final.pt",
+          "sha256": "892f07e38179702189881437890b09732f2f2a1b27232445b6eab87e9a360458",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/training_manifest.json",
+          "sha256": "80c0906358ff6ae9876dc355efbd82cfa5b80c087c93740c2bc0df58fc4a044f",
+          "size": 2453
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/corrected_views.npz",
+          "sha256": "73b17f3ff8ffe24b2cd88054ec6f48ec8bfb3be01b5635312e9125372d75309e",
+          "size": 3195884
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/loss_curve.csv",
+          "sha256": "a3d955e865ab21f5642f6b129fd1e61b833c0a8c5ecaaaf12992001f1914b38b",
+          "size": 15730
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/model_final.pt",
+          "sha256": "f0cfce0a12d1d772c31c1d05a446ac693112c0cf034918f599bfc0976bd972e6",
+          "size": 64905
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/training_manifest.json",
+          "sha256": "0d05f8aa502ef627fa205507ec202a257c9edce6d78f2fb5d45e5582203024dd",
+          "size": 2455
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/corrected_views.npz",
+          "sha256": "9ce2ec0e55b52e2d2f4edd130822b61086bf4bec7447746f55f883aad3be4aed",
+          "size": 3195665
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/loss_curve.csv",
+          "sha256": "9fe64f8cf89b54d67c4c87aff3f8cc94274626f84e532a42874fecd14278cd96",
+          "size": 17537
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/model_final.pt",
+          "sha256": "883dc2caaab3c748d4260b648d06c7d8f5620c8cb3fecab3f388286686dc8eed",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/training_manifest.json",
+          "sha256": "11c68f94eca036bc8c99866c146d21e2bfaf52fdd110cc8f46a9b8c01ad995b5",
+          "size": 2452
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND/corrected_views.npz",
+          "sha256": "d4401e6133c74237d215a6bdea42e05203717ff7b397d87b93e1ebaeb120ff21",
+          "size": 3194000
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND/loss_curve.csv",
+          "sha256": "2754ca63cb53498d3b0b06c48554b3ab7c37475a300b469907bff1f505c0b9e4",
+          "size": 14626
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND/model_final.pt",
+          "sha256": "886969e80fd339422b694ba65f371f7ae02c811fc1f7f72ccffa07fdd30d27da",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND/training_manifest.json",
+          "sha256": "4765581ee0aaec88ad82e0e368659043b201a6625877abc3d82c8202ccb567b5",
+          "size": 2451
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND/corrected_views.npz",
+          "sha256": "d2fdf4d440d7df1fea840457ced3433f802691692e4adc4d7ed391dc9c225da7",
+          "size": 3198176
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND/loss_curve.csv",
+          "sha256": "9214ddadd58fb0b3ac1f17bf0e261a024a9fc517809f4cf4e3e5a53dde53cc33",
+          "size": 14042
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND/model_final.pt",
+          "sha256": "93b1f20705e083ab5b2722815c68be0f00d4e61b85a848f7b427d78e1e8fd683",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND/training_manifest.json",
+          "sha256": "74d0f80ea50a332be7645333256dd497169ac0b77cf157a7e74fd04fbaef9b4a",
+          "size": 2449
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q03_MASKED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q03_MASKED_RESIDUAL/corrected_views.npz",
+          "sha256": "c9dedaa2150c506aaa52c44366f2378e7632c0cd3524c412492732ba2836261a",
+          "size": 3191833
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q03_MASKED_RESIDUAL/loss_curve.csv",
+          "sha256": "4fdb583523a134158380cd4cce7c8f836b4cd75ec7fd37112f7a82a4709d8329",
+          "size": 16054
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q03_MASKED_RESIDUAL/model_final.pt",
+          "sha256": "f38065f7beb32300f55c5717c4051c015455c17dad184f00dc7c0b9670fa467f",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q03_MASKED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q03_MASKED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q03_MASKED_RESIDUAL/training_manifest.json",
+          "sha256": "e836a135984783cc6d736ec44f75f1d9d93ad5e13fdb104f48c290c76300064f",
+          "size": 2445
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/corrected_views.npz",
+          "sha256": "099a4c1d9a30e6a52faedd392d67deb21551fd48a42b20bae57777338e956a07",
+          "size": 3194256
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/loss_curve.csv",
+          "sha256": "01582d9334e5937fb507ead7abf582f2fc89b2111e940c077baa3da9321e9bb9",
+          "size": 15725
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/model_final.pt",
+          "sha256": "29f419f80ea4f8c2832631c0c5d0f06c2472b420ed4b59134cd406fe18102a17",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/training_manifest.json",
+          "sha256": "e4a0b6aa37e9fdbe3fab58faba97405da1169a12d84b33ba16a46e0befe3ad3a",
+          "size": 2457
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/corrected_views.npz",
+          "sha256": "4b8e42107687ab5b0e5901a653cc73fad47cd206f83fbf93a3063dccb6e7aa6b",
+          "size": 3194237
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/loss_curve.csv",
+          "sha256": "8e3026b3170484b45d6e85304cd48493d632609ef307eaa0cfdeb4ba61fc7e22",
+          "size": 15679
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/model_final.pt",
+          "sha256": "b7471497ddd4b0c8771aff4fbd8be93aeb4de2d36679f0d1cfb857d4252a899b",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/training_manifest.json",
+          "sha256": "01edd27e8992876e73a95b1d618c54b381ee27c7ceefb65221f536edb871c2a5",
+          "size": 2453
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/corrected_views.npz",
+          "sha256": "2b8864849865631af9315b23c1eb6752583e6f48e071d50af0b56ba2aa1f08d5",
+          "size": 3194363
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/loss_curve.csv",
+          "sha256": "4e5881019bf46a310e611fe599593d774e231a7bf7a8a02113c5d4eeb6c6b244",
+          "size": 15733
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/model_final.pt",
+          "sha256": "54407e05601a2f356ebc433938f9578de699841694e1d34bf25a7149f3764f73",
+          "size": 64905
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/training_manifest.json",
+          "sha256": "8b45ac24fab3825f306b08e7711a0f9b7c9b7d2432c26c37e2ea03d0c8cfb2ea",
+          "size": 2455
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/corrected_views.npz",
+          "sha256": "772b2dd4a70f62b0f5287bbba6d43692311de5d4b9adb899dc4c912ec0b3cb75",
+          "size": 3194067
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/loss_curve.csv",
+          "sha256": "080a8e58fe8f47d26867f9b38cdeac8091ba4989f758367675a9392011e1430e",
+          "size": 17563
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/model_final.pt",
+          "sha256": "647f00c5f5a70db9d3dc05c4a1793d4969aa5d58226bf58bb93bef333a48c410",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/training_manifest.json",
+          "sha256": "062011339880b92c3d066e1332cf1021b08bee43921bb14bd762df25b399b3d6",
+          "size": 2454
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND/corrected_views.npz",
+          "sha256": "e7935a0db6f140eda39d190729822c32e0875493fc87db42f19f9918453a22fb",
+          "size": 3193304
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND/loss_curve.csv",
+          "sha256": "bfa263af6869f15cdcbd2cc56a37807753d9158ad6ca691776862dcf9f01daa1",
+          "size": 14643
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND/model_final.pt",
+          "sha256": "d25a46fdbebfc85dad01c1044d740cb5b19693bb7e288a686e386af281c5a527",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND/training_manifest.json",
+          "sha256": "0ff277324b63f1d1fc07e48823a6e4e8ff883a700c7bc97d85464d4b2567d29c",
+          "size": 2451
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND/corrected_views.npz",
+          "sha256": "df2fe5945d3aedd4a31ee3b4373c33c7c3a14b8ebb5453f16a7a6bbcfc17f222",
+          "size": 3198700
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND/loss_curve.csv",
+          "sha256": "1696942c8d13cd35b9376c4479a22f3aeff91280446cfd9bf53650d972207854",
+          "size": 14063
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND/model_final.pt",
+          "sha256": "9138ad0f7a5d0eb60a827a26a402866d891b3d711b6bede76da996f46cedaae3",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND/training_manifest.json",
+          "sha256": "8bb4b11447f168eab2674bdf181e5792c47536b74445eeca1a77cfd1cd273e9c",
+          "size": 2449
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q03_MASKED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q03_MASKED_RESIDUAL/corrected_views.npz",
+          "sha256": "574fdd2a05595917e92805380b76f562e826086bf6b2e5a0cb877e7d7769867e",
+          "size": 3190970
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q03_MASKED_RESIDUAL/loss_curve.csv",
+          "sha256": "b52b702a6c2d1768c5c58b04ddd0145cdba91ec45aa8e68b27f75ccec3b48d91",
+          "size": 16073
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q03_MASKED_RESIDUAL/model_final.pt",
+          "sha256": "383bf8fbb0ff802bf441f6e72922e8209f6fb0f7c7baa3b606dd18fdecea260b",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q03_MASKED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q03_MASKED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q03_MASKED_RESIDUAL/training_manifest.json",
+          "sha256": "849c81c1b002178b84c97712deba12ff0bd93894722960aa826b410b6d3088bb",
+          "size": 2445
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/corrected_views.npz",
+          "sha256": "ab9eca452ed16b30a7f70938fa22e74e68709c523b243e362de9fbe3bb661353",
+          "size": 3196325
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/loss_curve.csv",
+          "sha256": "b8b6846ea50e196d476cef199dac216931b5ae1f9ff5c5c4ec7014a96a5fe9b5",
+          "size": 15712
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/model_final.pt",
+          "sha256": "e110c355166a172762ea62932f012102f348a6ce3b1ec646ea0ee189f15e7441",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/training_manifest.json",
+          "sha256": "940954bb294584cae480d6b8c2b304f46de440cf14b4cb998f5b0cd13a2b3a45",
+          "size": 2456
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/corrected_views.npz",
+          "sha256": "bff50908097abb73cf43469a5a8a7bfdb700ff809f2bdc9c300661ccb04ece37",
+          "size": 3196795
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/loss_curve.csv",
+          "sha256": "4e6ce375d12c1b8194507bcb76d19d4937be87ee98d7ee947ba4342be23f1315",
+          "size": 15687
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/model_final.pt",
+          "sha256": "37b44467812a5b6e0716aef581490b6e892223f73bb46b0ccf4d76e5a0c77af2",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/training_manifest.json",
+          "sha256": "420fb82fcfea28fa5e6099ef3f5275e6891480074f9dbd7019d5aea11ee4bdef",
+          "size": 2454
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/corrected_views.npz",
+          "sha256": "3af40daa46acecd26174bc5c0c65b33f499b398eb31c1fd48490088db45205e0",
+          "size": 3196213
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/loss_curve.csv",
+          "sha256": "35b7e7051a34e73779782d2de7d056faaf78cb1156b536aabe1f27968ad20706",
+          "size": 15713
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/model_final.pt",
+          "sha256": "9b86f2dbcb30989518734cebeb73e5ceec0982ab31ddd4d9311d6a9665078825",
+          "size": 64905
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/training_manifest.json",
+          "sha256": "f8933f02e44cfbdcb49b552b5b06423ccb7d0d8f53faea88a09d7652f6739958",
+          "size": 2456
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    },
+    {
+      "cell": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "files": [
+        {
+          "relative_path": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/corrected_views.npz",
+          "sha256": "f8050d8f17a8ea1b1cc278ac14c5ac6bc595855853dd9be73f0943aa2af86c5e",
+          "size": 3196171
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/loss_curve.csv",
+          "sha256": "1e22e7525cdba2b9e0d6a73f7f3d59c2848ea6640fd2593d4708107e9a95d027",
+          "size": 17628
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/model_final.pt",
+          "sha256": "bc07569be1fed87ff77485c2a8f3f2648ae7375fd15839e416af0cccc5c9d945",
+          "size": 60809
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/reload.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/reload_audit.json",
+          "sha256": "992074a80491100c7c095b5fa92fe2d5c75b5bba10e399f3cd927a67e917c7fe",
+          "size": 452
+        },
+        {
+          "relative_path": "r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/training_manifest.json",
+          "sha256": "b9a903047c14bb72ce8bda933b0ac6faa01d1a469bd37a9faed9f0ebb33f50ec",
+          "size": 2453
+        }
+      ],
+      "status": "INVALID_PARTIAL_TRANSFORM_STOPPED_AFTER_SYSTEMIC_SEMANTIC_FAILURE"
+    }
+  ],
+  "r1_label_reads": 0,
+  "r2_training_cells": 0,
+  "root_cause": {
+    "actual_concatenated_dimension": 320,
+    "adapter_declared_input_dimension": 384,
+    "affected_dataset": "p22",
+    "affected_registered_cells": 21,
+    "error": "mat1 and mat2 shapes cannot be multiplied",
+    "p22_r02_reference_dimension": 64,
+    "private_view_dimension": 128,
+    "q06_actual_concatenated_dimension": 336,
+    "q06_declared_input_dimension": 400
+  },
+  "schema": "spalora.night10a.rev1.retrospective_invalid.v1",
+  "scientific_retry": 0,
+  "stage_m_runs": 0,
+  "stop_capture_sha256": "30affa83ccf9f79e7fcd9d535cb610c7ba3acdb8137eadc3e26d78944625c99d",
+  "successful_training_cells": 63,
+  "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID",
+  "why_not_corrected": "The scientific implementation and 63 formal outputs were already locked. Adding a reference projection or changing the adapter shape now would alter the preregistered trainable architecture after scientific execution began."
+}

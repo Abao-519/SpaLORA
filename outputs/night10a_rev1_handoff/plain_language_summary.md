@@ -1,0 +1,1 @@
+Night-10A REV1 did not produce a score conclusion. P22 exposed a 128-versus-64 input contract error after 63 protein-family trainings; labels stayed closed, results were preserved, and the run stopped without changing the locked model.

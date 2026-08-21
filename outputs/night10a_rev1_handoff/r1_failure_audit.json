@@ -1,0 +1,173 @@
+{
+  "count": 21,
+  "rows": [
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 64,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND/failure.json",
+      "sha256": "9c60d66352864bcc49febc6609c286a78b8b546b87da987014d35c0cad16d484"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q02_SPOT_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 65,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q02_SPOT_QUALITY_BLEND/failure.json",
+      "sha256": "872ed00d100bd4009de8146f1811d10be795e232c183c176cfe256597a99b2ce"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q03_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 66,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q03_MASKED_RESIDUAL/failure.json",
+      "sha256": "5da9dd314be6ed1891577332dae3a094e127577349480214caa7f50ff8b291c9"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 67,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL/failure.json",
+      "sha256": "0caf490d9fb38a0e33f79737eb836e2170d50145cedbdce272210dab2447bff3"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 68,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q05_BOUNDARY_GATED_RESIDUAL/failure.json",
+      "sha256": "e71f9096ccc3de1c02f63030e388783c71c23566704966dfb6bc461fe77ed20a"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x336 and 400x64)')",
+      "ordinal": 69,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL/failure.json",
+      "sha256": "556aebf9a3c3e52582fb6b31234e50fe93f415f38a83cf14160c185aea77c2a7"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 70,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL/failure.json",
+      "sha256": "49ed4a49fad481384d2d7d19e65102d2a849aa6f2f2a317e615a8dde37cbd3a1"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q01_GLOBAL_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 71,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q01_GLOBAL_QUALITY_BLEND/failure.json",
+      "sha256": "94db5454ef752b45610c1d994795359493052f77c58bbc41215f219bfba9e51a"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q02_SPOT_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 72,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q02_SPOT_QUALITY_BLEND/failure.json",
+      "sha256": "b24caf314c947f4865d7ca6d5a3c7864853fe08723464f2d94feca6df747213a"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q03_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 73,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q03_MASKED_RESIDUAL/failure.json",
+      "sha256": "26868995800f3489f39008147e5559a3db93c0b2bc9273c7aa223c04467f1be3"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 74,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL/failure.json",
+      "sha256": "b95a5090b3c726d94b7167e6616d8d7274fcb8cddd16f829f60fe94f074b6ec4"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 75,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q05_BOUNDARY_GATED_RESIDUAL/failure.json",
+      "sha256": "7c64a2b86df8e1b8867bf19ea08860160456cc7f9cdde81c743eb01056aabf25"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x336 and 400x64)')",
+      "ordinal": 76,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL/failure.json",
+      "sha256": "32ba9121a7fe2329722ec23a9bc5bf3f2c4e7fa5e86405beb4675ccc9843f16b"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 77,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL/failure.json",
+      "sha256": "68a98ba63c1926c106a303d8a6f918d1528add912fa4a66578858b3dc29fb78f"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q01_GLOBAL_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 78,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q01_GLOBAL_QUALITY_BLEND/failure.json",
+      "sha256": "57a4a11396d85ede14fbae6f093d2ea2ceeb22da911a64dfab2af12cbc3b1174"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q02_SPOT_QUALITY_BLEND.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 79,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q02_SPOT_QUALITY_BLEND/failure.json",
+      "sha256": "3fd3a8ccf9dfdd91af296cf9d91afbf9ef73b18798e8124f28c5d0fe2659d342"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q03_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 80,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q03_MASKED_RESIDUAL/failure.json",
+      "sha256": "a5f31928152df0fc4888bc7eca3ec3c9ff2916c6d2c94f2810956991057e697d"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 81,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL/failure.json",
+      "sha256": "69dda640973dfcf7a0d1d896e7a492f3dd6a1304fb3170d5c33599c25a8a64a1"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 82,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q05_BOUNDARY_GATED_RESIDUAL/failure.json",
+      "sha256": "52826c500e4fce89c352b15219dd2592e90d3cd00e74ec825fb8d165b01843ae"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x336 and 400x64)')",
+      "ordinal": 83,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL/failure.json",
+      "sha256": "639ce9df06a96c647ca0369561bb2be044826e742d450385639f2f54aff9ca30"
+    },
+    {
+      "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev1/formal_configs/r1/p22/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "error": "RuntimeError('mat1 and mat2 shapes cannot be multiplied (9196x320 and 384x64)')",
+      "ordinal": 84,
+      "phase": "training",
+      "relative_path": "r1/p22/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL/failure.json",
+      "sha256": "298c30cfe7ab8d3e6acb60c111947a8d55f3e73e5f93a7f1072d7cdc83e8a11c"
+    }
+  ]
+}
