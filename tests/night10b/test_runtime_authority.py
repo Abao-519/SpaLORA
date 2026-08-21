@@ -3,8 +3,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import numpy as np
+import pytest
+import scipy.sparse as sp
+
 from SpaLORA.family_runtime import (
     EXPECTED_DATA_STEWARD_ROWS, EXPECTED_UNIT_ORDER, load_q00_rows,
+    sparse_roundtrip_audit,
 )
 
 
@@ -29,3 +34,15 @@ def test_training_worker_has_no_label_module_import() -> None:
     assert "annotation_reader" not in source
     assert "misar_y" not in source
     assert "adjusted_rand" not in source
+
+
+def test_sparse_roundtrip_accepts_float_jitter_but_rejects_support_drift() -> None:
+    expected = sp.csr_matrix(np.asarray([[0.0, 0.25], [0.75, 0.0]]))
+    observed = expected.copy()
+    observed.data += np.asarray([2e-9, -3e-9])
+    audit = sparse_roundtrip_audit(observed, expected)
+    assert audit["sparse_support_exact"] is True
+    assert audit["max_absolute_error"] <= 3.1e-9
+    drift = sp.csr_matrix(np.asarray([[0.1, 0.25], [0.75, 0.0]]))
+    with pytest.raises(RuntimeError, match="support mismatch"):
+        sparse_roundtrip_audit(drift, expected)

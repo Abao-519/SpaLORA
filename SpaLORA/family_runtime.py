@@ -110,6 +110,34 @@ def reject_dense_n_by_n(value: object, n: int, name: str) -> None:
         raise RuntimeError(f"dense N-by-N guard rejected {name}")
 
 
+def sparse_roundtrip_audit(
+    observed: sp.spmatrix, expected: sp.spmatrix,
+    *, atol: float = 1e-8, rtol: float = 1e-6,
+) -> dict[str, Any]:
+    """Verify an invariant sparse graph despite harmless CUDA float jitter."""
+    left = observed.tocsr(copy=True)
+    right = expected.tocsr(copy=True)
+    left.sort_indices()
+    right.sort_indices()
+    if left.shape != right.shape:
+        raise RuntimeError("fresh sparse round-trip shape mismatch")
+    if not (
+        np.array_equal(left.indptr, right.indptr)
+        and np.array_equal(left.indices, right.indices)
+    ):
+        raise RuntimeError("fresh sparse round-trip support mismatch")
+    if not np.allclose(left.data, right.data, atol=atol, rtol=rtol):
+        raise RuntimeError("fresh sparse round-trip values exceed tolerance")
+    maximum = (
+        float(np.max(np.abs(left.data - right.data))) if left.nnz else 0.0
+    )
+    return {
+        "atol": float(atol), "max_absolute_error": maximum,
+        "nnz": int(left.nnz), "rtol": float(rtol),
+        "sparse_support_exact": True, "sparse_values_allclose": True,
+    }
+
+
 def load_q00_rows(path: str | Path = DEFAULT_Q00_AUDIT) -> list[dict[str, Any]]:
     audit = json.loads(Path(path).read_text(encoding="utf-8"))
     rows = list(audit.get("q00_references", []))

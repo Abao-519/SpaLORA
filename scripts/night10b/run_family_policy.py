@@ -22,7 +22,7 @@ sys.path.insert(0, str(REPO))
 from SpaLORA.family_policy import resolve_family_policy  # noqa: E402
 from SpaLORA.family_runtime import (  # noqa: E402
     atomic_json, atomic_npy, authority_audit, file_sha256, load_q00_rows,
-    ordered_observation_sha256,
+    ordered_observation_sha256, sparse_roundtrip_audit,
     replay_q00_row, resource_snapshot, verify_replay_row,
 )
 from SpaLORA.night3a_ige import model_state_sha256  # noqa: E402
@@ -376,8 +376,9 @@ def reload_smoke(config_path: Path, output: Path) -> dict[str, Any]:
             observed_views["G04_SP10_F10_EUC_UNION"], ids, coords,
         )
         c06, _ = candidate_affinity("C06_DUAL_ROW_STOCHASTIC_MEAN", base, ids)
-        if sparse_sha(c06) != sparse_sha(sp.load_npz(output / "c06_affinity.npz")):
-            raise RuntimeError("fresh C06 rebuild mismatch")
+        c06_roundtrip = sparse_roundtrip_audit(
+            c06, sp.load_npz(output / "c06_affinity.npz")
+        )
         unit, recipe, worker = output / "adapter_input", output / "r02_config.json", output / "adapter"
         _run_adapter([
             str(PYTHON), str(ADAPTER_TRAINER), "reload", "--unit-dir", str(unit),
@@ -405,6 +406,8 @@ def reload_smoke(config_path: Path, output: Path) -> dict[str, Any]:
         "status": "PASS",
         **resource_snapshot(started),
     }
+    if policy.recipe.family == "RNA_EPIGENOME":
+        audit["c06_roundtrip"] = c06_roundtrip
     atomic_json(output / "checkpoint_roundtrip_audit.json", audit)
     return audit
 
