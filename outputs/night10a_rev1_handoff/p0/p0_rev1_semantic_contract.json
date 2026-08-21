@@ -1,0 +1,73 @@
+{
+  "authority": {
+    "branch": "revision/q2-night10a-rev1-qcrd-execution-20260821",
+    "e18_5_reads": 0,
+    "expected_old_report_sha256": "a02f7a32e3f34b89d3d0f7ce9ee97a8eb602c138e1f648296b8a19cc5af02b86",
+    "formal_training_units": 0,
+    "formal_transforms": 0,
+    "label_reads": 0,
+    "misar_y_reads": 0,
+    "old_parent_exists": true,
+    "old_report_sha256": "a02f7a32e3f34b89d3d0f7ce9ee97a8eb602c138e1f648296b8a19cc5af02b86",
+    "old_tag_commit": "1e576b68938fa194dcdd53ee58915767b7a78325"
+  },
+  "cuda_roundtrip": {
+    "canonical_state_sha256": "62cc4e47c95a735ec66120503bc85f2b6f45335fff99d363b687f74ca27c54f7",
+    "cuda": true,
+    "device": "NVIDIA GeForce RTX 4080 SUPER",
+    "epoch0_noop": true,
+    "exact_output": true,
+    "file_sha256": "a54a0083809a5e1c810c1cba722548a4978cc9ec0b4c2308597bd65fc4f1cadf",
+    "max_abs": 0.0
+  },
+  "elapsed_seconds": 98.48351621627808,
+  "endpoint_parity": {
+    "p22_e1_h01": {
+      "affinity_sha256": "069a660640878e6f0151f7d09b14a2e718f487b9679587859f96fb82d53a6a7a",
+      "c06_file_sha256": "ba41e7ea75bbbf3bc2413c5feda9f5f899f81570f90d9706bd642abed857fb96",
+      "exact_partition": true,
+      "historical_alias_sha256": "68c28ae88dd14d6c9288f5b2bc843e5675d724574b122cb212bf00b6c3dfb576",
+      "historical_embedding_sha256": "b346bcbed1ce69a9f512d725de8d77bf2610839757e3050c01e58a250db2a1db",
+      "partition_ari": 1.0,
+      "recomputed_sha256": "68c28ae88dd14d6c9288f5b2bc843e5675d724574b122cb212bf00b6c3dfb576",
+      "unit": "u020"
+    },
+    "protein_h05": {
+      "affinity_sha256": "68820aac9c9005653b8da02c43ddcdc1f0ecb384144f49a0b78778ba4cb7d241",
+      "exact_partition": true,
+      "historical_alias_sha256": "bdf4607fb351ca446e0d3b5957649318ee7c228b453997ab0ca2261fffe69acc",
+      "partition_ari": 1.0,
+      "recomputed_sha256": "bdf4607fb351ca446e0d3b5957649318ee7c228b453997ab0ca2261fffe69acc",
+      "unit": "u000"
+    }
+  },
+  "formal_training_units": 0,
+  "formal_transforms": 0,
+  "implementation_corrections": [
+    {
+      "attempt": 1,
+      "formal_training": 0,
+      "issue": "invalid chained numpy comparison in test",
+      "label_reads": 0,
+      "scientific_retry": false,
+      "scope": "test-only"
+    },
+    {
+      "attempt": 2,
+      "formal_training": 0,
+      "issue": "corrected protected report path after fail-closed FileNotFoundError",
+      "label_reads": 0,
+      "scientific_retry": false,
+      "scope": "p0-infrastructure"
+    },
+    {
+      "attempt": 3,
+      "scientific_retry": false,
+      "status": "PASS"
+    }
+  ],
+  "label_reads": 0,
+  "pytest": "10 passed",
+  "schema": "spalora.night10a.p0_rev1_semantic_contract.v1",
+  "status": "PASS"
+}

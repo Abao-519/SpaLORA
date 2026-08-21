@@ -1,0 +1,251 @@
+{
+  "schema": "spalora.night10a.qcrd_rev1_semantics.v1",
+  "authority_date": "2026-08-21",
+  "supersedes_only": [
+    "Undefined QCRD feature formulas in night10a_qcrd_candidate_registry.json",
+    "Undefined QCRD mask recipe and loss weights in SpaLORA_Night10A_QCRD_Score_RnD_Taskbook_2026-08-21.md"
+  ],
+  "does_not_change": [
+    "Registered datasets and seed sets",
+    "Q00-Q07 candidate identities",
+    "No dataset-name routing",
+    "No ground-truth use in training or candidate construction",
+    "No dense N-by-N operation",
+    "R1 and conditional R2 frontier policy",
+    "12-hour wall-clock and 30-minute single-transform timeout",
+    "Compact-only D-drive delivery"
+  ],
+  "recovery_parent": {
+    "commit": "1e576b68938fa194dcdd53ee58915767b7a78325",
+    "tag": "night10a-final-20260821",
+    "status": "IMPLEMENTATION_SEMANTICS_INVALID_WITH_ZERO_FORMAL_TRAINING"
+  },
+  "target": {
+    "branch": "revision/q2-night10a-rev1-qcrd-execution-20260821",
+    "tag": "night10a-rev1-final-20260821"
+  },
+  "notation": {
+    "z1_z2": "Two authoritative frozen modality views in exact paired spot order, row-L2-normalized.",
+    "zf": "Authoritative frozen family reference fused view in the same order, row-L2-normalized.",
+    "A": "The authoritative existing sparse spatial graph for the exact unit, symmetrized by binary union with its transpose and with diagonal removed.",
+    "p1_p2": "Modality-specific frozen partitions computed or reused before QCRD training with the exact registered no-label H00 endpoint and exact registered K for that dataset.",
+    "pf": "Frozen family reference partition used only for output/reference parity and reporting.",
+    "eps": 1e-08
+  },
+  "zero_degree_rule": {
+    "neighbor_mean": "For a zero-degree spot, use its own row-normalized embedding as neighbor mean.",
+    "neighbor_entropy": 0.0,
+    "boundary_edge_loss_contribution": 0.0,
+    "audit": "Record zero-degree spot count for every unit; do not fail or silently add edges."
+  },
+  "frozen_modality_partitions": {
+    "endpoint": "Exact registered H00 implementation and K, with no labels passed to the transform process.",
+    "reuse_first": true,
+    "rule": "Reuse an exact historical p1/p2 partition when view SHA, graph SHA, seed, H00 config SHA and ordered spot SHA all match. Otherwise compute p1/p2 once before model initialization, lock them and hash them.",
+    "selection_use": "The partitions are unsupervised quality evidence only and may not be chosen or changed after label metrics are visible."
+  },
+  "global_quality": {
+    "per_modality_features": [
+      {
+        "id": "silhouette",
+        "formula": "silhouette_score(standardize(zm), pm, metric='euclidean', sample_size=min(N,5000), random_state=0)",
+        "higher_is_better": true
+      },
+      {
+        "id": "davies_bouldin",
+        "formula": "-log1p(max(davies_bouldin_score(standardize(zm), pm),0))",
+        "higher_is_better": true
+      },
+      {
+        "id": "calinski_harabasz",
+        "formula": "log1p(max(calinski_harabasz_score(standardize(zm), pm),0))",
+        "higher_is_better": true
+      },
+      {
+        "id": "spatial_local_consistency",
+        "formula": "mean over degree-positive i of mean over j in N_A(i) of 1[pm_i == pm_j]; if no degree-positive spots, value=0",
+        "higher_is_better": true
+      },
+      {
+        "id": "graph_local_residual",
+        "formula": "-log1p(mean_i ||zm_i - neighbor_mean_A(zm)_i||_2)",
+        "higher_is_better": true
+      }
+    ],
+    "pairwise_contrast": "For each feature t: c_t=(e1_t-e2_t)/(abs(e1_t)+abs(e2_t)+eps), clipped to [-1,1].",
+    "logit": "global_delta=mean(c_t for all five features)",
+    "weights": "global_w1=sigmoid(global_delta); global_w2=1-global_w1",
+    "freeze": "All raw features, contrasts and weights are computed before QCRDAdapter construction, persisted with SHA-256 and never recomputed during training."
+  },
+  "per_spot_quality": {
+    "local_residual": "r_mi=||zm_i-neighbor_mean_A(zm)_i||_2",
+    "shared_residual_scale": "s=max(median(concat(r_1,r_2)),eps)",
+    "neighbor_entropy": "For each modality and spot, count modality-partition labels pm among spatial neighbors plus the spot itself. H_mi=-sum_c prob_c*log(prob_c)/log(min(K,degree_i+1)); define H_mi=0 when the denominator is 0.",
+    "reciprocal_mnn": {
+      "k": 10,
+      "metric": "cosine on row-normalized views",
+      "implementation": "blockwise or neighbor-index search only; no dense N-by-N matrix",
+      "support_1": "number of reciprocal pairs whose first-view endpoint is i, divided by k and clipped to [0,1]",
+      "support_2": "number of reciprocal pairs whose second-view endpoint is i, divided by k and clipped to [0,1]"
+    },
+    "spot_logits": "l_mi=log(global_wm+eps)-r_mi/s-0.5*H_mi+0.5*support_mi",
+    "spot_weights": "softmax([l_1i,l_2i])",
+    "disagreement": "d_i=clip((1-cos(z1_i,z2_i))/2,0,1)",
+    "fused_residual": "rf_i=||zf_i-neighbor_mean_A(zf)_i||_2",
+    "fused_residual_normalization": "rn_i=clip((rf_i-quantile_0.05(rf))/(quantile_0.95(rf)-quantile_0.05(rf)+eps),0,1)",
+    "boundary_risk": "b_i=clip(0.5*rn_i+0.25*(H_1i+H_2i),0,1)",
+    "base_gate": "g_i=clip(0.5*abs(w_1i-w_2i)+0.25*d_i+0.25*max(support_1i,support_2i),0,1)*(1-0.25*(H_1i+H_2i))",
+    "freeze": "All arrays are computed before model initialization, saved and hashed."
+  },
+  "model": {
+    "class": "One QCRDAdapter class for both modality families; no dataset identifier argument or branch.",
+    "input": "concat(student_input, stopgrad(teacher), stopgrad(zf), optional fixed Fourier coordinates)",
+    "hidden_width": 64,
+    "residual_rank": 16,
+    "dropout": 0.1,
+    "activation": "GELU",
+    "initialization": "Standard deterministic initialization for all layers except the final up-projection weight, which is initialized to exact zeros so epoch-0 correction is a no-op.",
+    "teacher": "teacher_i=w_1i*z1_i+w_2i*z2_i",
+    "student": "student_i=w_2i*z1_i+w_1i*z2_i",
+    "raw_delta": "adapter(student_input, stopgrad(teacher), stopgrad(zf), optional_coords)",
+    "bounded_delta": "delta=raw_delta/max(||raw_delta||_2,1) row-wise",
+    "maximum_correction_norm": 0.25,
+    "candidate_gate": {
+      "Q01_GLOBAL_QUALITY_BLEND": "abs(global_w1-global_w2), repeated for every spot",
+      "Q02_SPOT_QUALITY_BLEND": "base_gate",
+      "Q03_MASKED_RESIDUAL": "abs(global_w1-global_w2), repeated for every spot",
+      "Q04_SPOT_GATED_MASKED_RESIDUAL": "base_gate",
+      "Q05_BOUNDARY_GATED_RESIDUAL": "base_gate*(1-boundary_risk)",
+      "Q06_COORDINATE_PRIOR_RESIDUAL": "base_gate",
+      "Q07_CONFIDENCE_MNN_RESIDUAL": "base_gate"
+    },
+    "correction": "corr_i=0.25*candidate_gate_i*delta_i",
+    "view_updates": [
+      "z1c_i=normalize(z1_i+(1-w_1i)*corr_i)",
+      "z2c_i=normalize(z2_i+(1-w_2i)*corr_i)",
+      "zc_i=normalize((z1c_i+z2c_i+zf_i)/3)"
+    ],
+    "inference": "No masking. Use clean student input and model.eval()."
+  },
+  "masking": {
+    "candidates": [
+      "Q03_MASKED_RESIDUAL",
+      "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "Q05_BOUNDARY_GATED_RESIDUAL",
+      "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "Q07_CONFIDENCE_MNN_RESIDUAL"
+    ],
+    "fraction": 0.15,
+    "masked_dimensions_per_spot": "max(1,round_half_up(0.15*D)); cap at D-1 when D>1",
+    "replacement": 0.0,
+    "sampling": "For every spot, sample exactly the registered number of distinct feature dimensions without replacement.",
+    "seed": "Little-endian uint64 from the first 8 bytes of SHA256('night10a-qcrd-mask-v1|'+candidate_id+'|'+input_artifact_sha256+'|'+scientific_seed+'|'+epoch).",
+    "target": "The clean, detached student mixture before masking.",
+    "non_masked_candidates": "Q01 and Q02 use clean student input and L_mask=0.",
+    "prohibitions": [
+      "No adaptive mask fraction",
+      "No dataset-name component in the mask seed",
+      "No label-dependent mask",
+      "No re-sampling after seeing loss or metrics"
+    ]
+  },
+  "losses": {
+    "cosine_distance": "1-cosine_similarity, with eps=1e-8",
+    "L_align": "sum_i gate_i*(1-cos(student_corrected_i,stopgrad(teacher_i)))/(sum_i gate_i+eps)",
+    "L_mask": "For masked candidates: mean_i [sum_d M_id*(pred_student_id-clean_student_id)^2/(sum_d M_id*clean_student_id^2+eps)]; otherwise 0. pred_student is normalize(masked_student+corr).",
+    "L_anchor": "0.5*mean_i[(1-cos(z1c_i,z1_i))+(1-cos(z2c_i,z2_i))]",
+    "L_correction": "mean_i (||corr_i||_2/0.25)^2",
+    "L_boundary": "Over sparse spatial edges (i,j) with frozen pf_i != pf_j: mean relu(cos(zc_i,zc_j)-cos(zf_i,zf_j))^2; if no such edge, 0.",
+    "L_mnn": "Q07 only. Weighted mean over frozen reciprocal pairs (i,j) of 1-cos(z1c_i,z2c_j), with frozen edge weight sqrt((1-H_1i)*(1-H_2j))*(1-b_i)*(1-b_j); if total edge weight is 0, define 0.",
+    "weights": {
+      "align": 1.0,
+      "mask": 1.0,
+      "anchor": 0.25,
+      "correction": 0.05,
+      "boundary": 0.25,
+      "mnn_q07_only": 0.1
+    },
+    "total": "L=1.0*L_align+I_mask*1.0*L_mask+0.25*L_anchor+0.05*L_correction+0.25*L_boundary+I_Q07*0.10*L_mnn",
+    "forbidden": [
+      "No data-dependent retuning of loss weights",
+      "No label metric in any loss",
+      "No omission of a registered nonzero term",
+      "No best-epoch selection"
+    ]
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 120,
+    "early_stopping": false,
+    "best_epoch": false,
+    "gradient_clip_norm": 5.0,
+    "amp": false,
+    "scientific_retry": 0,
+    "fallback": 0
+  },
+  "fourier_coordinates_q06": {
+    "standardization": "Per coordinate dimension subtract mean and divide by max(std,1e-6).",
+    "frequencies": [1, 2, 4, 8],
+    "features": "Concatenate sin(freq*coord) and cos(freq*coord) for every frequency and coordinate dimension.",
+    "trainable": false
+  },
+  "candidate_semantics": {
+    "Q00_REFERENCE_ALIAS": "Exact authoritative output alias. No model, optimizer, masking or transform recomputation unless needed only for hash/parity verification.",
+    "Q01_GLOBAL_QUALITY_BLEND": "Global weights and global gate; clean input; common losses without L_mask or L_mnn.",
+    "Q02_SPOT_QUALITY_BLEND": "Per-spot weights and base gate; clean input; common losses without L_mask or L_mnn.",
+    "Q03_MASKED_RESIDUAL": "Global weights and global gate; deterministic 15% masking; common losses plus L_mask.",
+    "Q04_SPOT_GATED_MASKED_RESIDUAL": "Per-spot weights and base gate; deterministic 15% masking; common losses plus L_mask.",
+    "Q05_BOUNDARY_GATED_RESIDUAL": "Q04 with gate multiplied by 1-boundary_risk; same boundary loss weight.",
+    "Q06_COORDINATE_PRIOR_RESIDUAL": "Q04 plus fixed Fourier coordinate features; no dense spatial kernel.",
+    "Q07_CONFIDENCE_MNN_RESIDUAL": "Q04 plus frozen sparse confidence-weighted reciprocal-MNN loss at weight 0.10."
+  },
+  "fixed_output_endpoints": {
+    "common_rules": {
+      "self_tuning_affinity": "Exact Night-6C implementation: Euclidean k=10 on row-L2-normalized embedding; sigma_i is distance to the 10th nonself neighbor; exp(-d2/(sigma_i*sigma_j)); maximum symmetrization; observation-id tie break.",
+      "spectral": "Exact Night-6C/Night-7B SPECTRAL_DISCRETIZE: precomputed sparse affinity, assign_labels='discretize', n_init=20, random_state=2020, exact registered K.",
+      "labels_in_process": 0,
+      "timeout_minutes": 30
+    },
+    "RNA+protein": {
+      "datasets": ["A1", "tonsil", "D1"],
+      "source": "Exact same-seed authoritative G04 private1/private2/fused views and spatial graph used by C00.",
+      "reference_partition": "Exact C00 G04/H05 partition.",
+      "candidate_endpoint": "Run exact H05_EQUAL3_AFFINITY_SPECTRAL on corrected z1c, z2c and zc: arithmetic mean of their three sparse self-tuning affinities, followed by the fixed spectral partition.",
+      "Q00_parity": "Q00 must alias the historical C00 partition exactly and must not recompute it for reported reference metrics."
+    },
+    "RNA+ATAC": {
+      "datasets": ["P22"],
+      "source": "Exact same-seed authoritative G04 private views, C06 equal-row-stochastic G00/G04 affinity, and F00/R02 fused adapter embedding/partition from Night-7B/Night-9B.",
+      "reference_partition": "Exact F00/R02 E1_ADAPTER_C06_MEAN/H01 partition for the registered seed.",
+      "candidate_endpoint": "Compute az=self_tuning_affinity(zc,k=10); compute affinity=sym_zero(0.5*row_sparse_strict(az)+0.5*row_sparse_strict(C06)); then run the exact fixed H01 SPECTRAL_DISCRETIZE partition.",
+      "Q00_parity": "Q00 must alias the historical F00/R02 partition exactly and must not recompute it for reported reference metrics.",
+      "prohibition": "Do not substitute C00, C01 or N02 as the P22 primary reference and do not rebuild G00/G04 or C06 by retraining."
+    },
+    "modality_quality_partitions": "For p1/p2 only, apply the same common self-tuning affinity and fixed spectral endpoint independently to frozen z1 and z2 before QCRD model initialization. Lock and hash these partitions; they are not final candidate endpoints."
+  },
+  "mandatory_semantic_tests": [
+    "Five global feature values and exact global contrast/weight hand calculation on a tiny graph",
+    "Modality-specific neighbor entropy hand calculation including zero-degree spot",
+    "Spot logit, softmax weight, boundary risk and base gate hand calculation",
+    "Mask cardinality, determinism, epoch change and artifact-SHA change",
+    "All six loss components against an independent hand implementation",
+    "Each Q00-Q07 candidate activates exactly its registered gate, mask, coordinates and MNN terms",
+    "Teacher stop-gradient and frozen quality arrays",
+    "No dataset-name routing and identical trainable architecture across modality families",
+    "Sparse MNN and boundary losses without dense N-by-N allocation",
+    "Zero final up-projection gives exact epoch-0 no-op",
+    "Checkpoint round-trip",
+    "RNA+protein Q00 exact C00 parity and candidate H05 endpoint semantics",
+    "P22 Q00 exact F00/R02 parity and candidate E1_ADAPTER_C06_MEAN/H01 endpoint semantics",
+    "Negative tests fail if any registered quality feature or nonzero loss term is omitted"
+  ],
+  "label_policy": {
+    "training_access": 0,
+    "quality_feature_access": 0,
+    "mask_access": 0,
+    "loss_access": 0,
+    "selection": "Only after all registered outputs in a stage are locked. Core datasets are development evidence and must not be described as pristine holdouts."
+  }
+}

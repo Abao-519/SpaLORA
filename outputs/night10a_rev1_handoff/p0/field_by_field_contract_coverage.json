@@ -1,0 +1,1126 @@
+{
+  "failed_fields": 0,
+  "implementation_sha256": "69e420790003ec62c49a8807a67fa7c412e10b7975096fffb1c4a7777a4caad9",
+  "passed_fields": 186,
+  "rows": [
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "spalora.night10a.qcrd_rev1_semantics.v1",
+      "field": "schema",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "2026-08-21",
+      "field": "authority_date",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Undefined QCRD feature formulas in night10a_qcrd_candidate_registry.json",
+      "field": "supersedes_only[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Undefined QCRD mask recipe and loss weights in SpaLORA_Night10A_QCRD_Score_RnD_Taskbook_2026-08-21.md",
+      "field": "supersedes_only[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Registered datasets and seed sets",
+      "field": "does_not_change[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Q00-Q07 candidate identities",
+      "field": "does_not_change[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "No dataset-name routing",
+      "field": "does_not_change[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "No ground-truth use in training or candidate construction",
+      "field": "does_not_change[3]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "No dense N-by-N operation",
+      "field": "does_not_change[4]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "R1 and conditional R2 frontier policy",
+      "field": "does_not_change[5]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "12-hour wall-clock and 30-minute single-transform timeout",
+      "field": "does_not_change[6]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Compact-only D-drive delivery",
+      "field": "does_not_change[7]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "1e576b68938fa194dcdd53ee58915767b7a78325",
+      "field": "recovery_parent.commit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "night10a-final-20260821",
+      "field": "recovery_parent.tag",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "IMPLEMENTATION_SEMANTICS_INVALID_WITH_ZERO_FORMAL_TRAINING",
+      "field": "recovery_parent.status",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "revision/q2-night10a-rev1-qcrd-execution-20260821",
+      "field": "target.branch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "night10a-rev1-final-20260821",
+      "field": "target.tag",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Two authoritative frozen modality views in exact paired spot order, row-L2-normalized.",
+      "field": "notation.z1_z2",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Authoritative frozen family reference fused view in the same order, row-L2-normalized.",
+      "field": "notation.zf",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "The authoritative existing sparse spatial graph for the exact unit, symmetrized by binary union with its transpose and with diagonal removed.",
+      "field": "notation.A",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Modality-specific frozen partitions computed or reused before QCRD training with the exact registered no-label H00 endpoint and exact registered K for that dataset.",
+      "field": "notation.p1_p2",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Frozen family reference partition used only for output/reference parity and reporting.",
+      "field": "notation.pf",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": 1e-08,
+      "field": "notation.eps",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "For a zero-degree spot, use its own row-normalized embedding as neighbor mean.",
+      "field": "zero_degree_rule.neighbor_mean",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": 0.0,
+      "field": "zero_degree_rule.neighbor_entropy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": 0.0,
+      "field": "zero_degree_rule.boundary_edge_loss_contribution",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "Record zero-degree spot count for every unit; do not fail or silently add edges.",
+      "field": "zero_degree_rule.audit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "quality_manifest.json",
+      "expected": "Exact registered H00 implementation and K, with no labels passed to the transform process.",
+      "field": "frozen_modality_partitions.endpoint",
+      "status": "PASS"
+    },
+    {
+      "evidence": "quality_manifest.json",
+      "expected": true,
+      "field": "frozen_modality_partitions.reuse_first",
+      "status": "PASS"
+    },
+    {
+      "evidence": "quality_manifest.json",
+      "expected": "Reuse an exact historical p1/p2 partition when view SHA, graph SHA, seed, H00 config SHA and ordered spot SHA all match. Otherwise compute p1/p2 once before model initialization, lock them and hash them.",
+      "field": "frozen_modality_partitions.rule",
+      "status": "PASS"
+    },
+    {
+      "evidence": "quality_manifest.json",
+      "expected": "The partitions are unsupervised quality evidence only and may not be chosen or changed after label metrics are visible.",
+      "field": "frozen_modality_partitions.selection_use",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "silhouette",
+      "field": "global_quality.per_modality_features[0].id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "silhouette_score(standardize(zm), pm, metric='euclidean', sample_size=min(N,5000), random_state=0)",
+      "field": "global_quality.per_modality_features[0].formula",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": true,
+      "field": "global_quality.per_modality_features[0].higher_is_better",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "davies_bouldin",
+      "field": "global_quality.per_modality_features[1].id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "-log1p(max(davies_bouldin_score(standardize(zm), pm),0))",
+      "field": "global_quality.per_modality_features[1].formula",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": true,
+      "field": "global_quality.per_modality_features[1].higher_is_better",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "calinski_harabasz",
+      "field": "global_quality.per_modality_features[2].id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "log1p(max(calinski_harabasz_score(standardize(zm), pm),0))",
+      "field": "global_quality.per_modality_features[2].formula",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": true,
+      "field": "global_quality.per_modality_features[2].higher_is_better",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "spatial_local_consistency",
+      "field": "global_quality.per_modality_features[3].id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "mean over degree-positive i of mean over j in N_A(i) of 1[pm_i == pm_j]; if no degree-positive spots, value=0",
+      "field": "global_quality.per_modality_features[3].formula",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": true,
+      "field": "global_quality.per_modality_features[3].higher_is_better",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "graph_local_residual",
+      "field": "global_quality.per_modality_features[4].id",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "-log1p(mean_i ||zm_i - neighbor_mean_A(zm)_i||_2)",
+      "field": "global_quality.per_modality_features[4].formula",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": true,
+      "field": "global_quality.per_modality_features[4].higher_is_better",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "For each feature t: c_t=(e1_t-e2_t)/(abs(e1_t)+abs(e2_t)+eps), clipped to [-1,1].",
+      "field": "global_quality.pairwise_contrast",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "global_delta=mean(c_t for all five features)",
+      "field": "global_quality.logit",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "global_w1=sigmoid(global_delta); global_w2=1-global_w1",
+      "field": "global_quality.weights",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_global_five_features_and_hand_contrast",
+      "expected": "All raw features, contrasts and weights are computed before QCRDAdapter construction, persisted with SHA-256 and never recomputed during training.",
+      "field": "global_quality.freeze",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "r_mi=||zm_i-neighbor_mean_A(zm)_i||_2",
+      "field": "per_spot_quality.local_residual",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "s=max(median(concat(r_1,r_2)),eps)",
+      "field": "per_spot_quality.shared_residual_scale",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "For each modality and spot, count modality-partition labels pm among spatial neighbors plus the spot itself. H_mi=-sum_c prob_c*log(prob_c)/log(min(K,degree_i+1)); define H_mi=0 when the denominator is 0.",
+      "field": "per_spot_quality.neighbor_entropy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": 10,
+      "field": "per_spot_quality.reciprocal_mnn.k",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "cosine on row-normalized views",
+      "field": "per_spot_quality.reciprocal_mnn.metric",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "blockwise or neighbor-index search only; no dense N-by-N matrix",
+      "field": "per_spot_quality.reciprocal_mnn.implementation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "number of reciprocal pairs whose first-view endpoint is i, divided by k and clipped to [0,1]",
+      "field": "per_spot_quality.reciprocal_mnn.support_1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "number of reciprocal pairs whose second-view endpoint is i, divided by k and clipped to [0,1]",
+      "field": "per_spot_quality.reciprocal_mnn.support_2",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "l_mi=log(global_wm+eps)-r_mi/s-0.5*H_mi+0.5*support_mi",
+      "field": "per_spot_quality.spot_logits",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "softmax([l_1i,l_2i])",
+      "field": "per_spot_quality.spot_weights",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "d_i=clip((1-cos(z1_i,z2_i))/2,0,1)",
+      "field": "per_spot_quality.disagreement",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "rf_i=||zf_i-neighbor_mean_A(zf)_i||_2",
+      "field": "per_spot_quality.fused_residual",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "rn_i=clip((rf_i-quantile_0.05(rf))/(quantile_0.95(rf)-quantile_0.05(rf)+eps),0,1)",
+      "field": "per_spot_quality.fused_residual_normalization",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "b_i=clip(0.5*rn_i+0.25*(H_1i+H_2i),0,1)",
+      "field": "per_spot_quality.boundary_risk",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "g_i=clip(0.5*abs(w_1i-w_2i)+0.25*d_i+0.25*max(support_1i,support_2i),0,1)*(1-0.25*(H_1i+H_2i))",
+      "field": "per_spot_quality.base_gate",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_entropy_zero_degree_spot_logits_boundary_and_gate_hand",
+      "expected": "All arrays are computed before model initialization, saved and hashed.",
+      "field": "per_spot_quality.freeze",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "One QCRDAdapter class for both modality families; no dataset identifier argument or branch.",
+      "field": "model.class",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "concat(student_input, stopgrad(teacher), stopgrad(zf), optional fixed Fourier coordinates)",
+      "field": "model.input",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": 64,
+      "field": "model.hidden_width",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": 16,
+      "field": "model.residual_rank",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": 0.1,
+      "field": "model.dropout",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "GELU",
+      "field": "model.activation",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "Standard deterministic initialization for all layers except the final up-projection weight, which is initialized to exact zeros so epoch-0 correction is a no-op.",
+      "field": "model.initialization",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "teacher_i=w_1i*z1_i+w_2i*z2_i",
+      "field": "model.teacher",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "student_i=w_2i*z1_i+w_1i*z2_i",
+      "field": "model.student",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "adapter(student_input, stopgrad(teacher), stopgrad(zf), optional_coords)",
+      "field": "model.raw_delta",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "delta=raw_delta/max(||raw_delta||_2,1) row-wise",
+      "field": "model.bounded_delta",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": 0.25,
+      "field": "model.maximum_correction_norm",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "abs(global_w1-global_w2), repeated for every spot",
+      "field": "model.candidate_gate.Q01_GLOBAL_QUALITY_BLEND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "base_gate",
+      "field": "model.candidate_gate.Q02_SPOT_QUALITY_BLEND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "abs(global_w1-global_w2), repeated for every spot",
+      "field": "model.candidate_gate.Q03_MASKED_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "base_gate",
+      "field": "model.candidate_gate.Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "base_gate*(1-boundary_risk)",
+      "field": "model.candidate_gate.Q05_BOUNDARY_GATED_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "base_gate",
+      "field": "model.candidate_gate.Q06_COORDINATE_PRIOR_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "base_gate",
+      "field": "model.candidate_gate.Q07_CONFIDENCE_MNN_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "corr_i=0.25*candidate_gate_i*delta_i",
+      "field": "model.correction",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "z1c_i=normalize(z1_i+(1-w_1i)*corr_i)",
+      "field": "model.view_updates[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "z2c_i=normalize(z2_i+(1-w_2i)*corr_i)",
+      "field": "model.view_updates[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "zc_i=normalize((z1c_i+z2c_i+zf_i)/3)",
+      "field": "model.view_updates[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_zero_up_projection_checkpoint_and_stop_gradient",
+      "expected": "No masking. Use clean student input and model.eval().",
+      "field": "model.inference",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Q03_MASKED_RESIDUAL",
+      "field": "masking.candidates[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "field": "masking.candidates[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "field": "masking.candidates[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "field": "masking.candidates[3]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "field": "masking.candidates[4]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": 0.15,
+      "field": "masking.fraction",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "max(1,round_half_up(0.15*D)); cap at D-1 when D>1",
+      "field": "masking.masked_dimensions_per_spot",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": 0.0,
+      "field": "masking.replacement",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "For every spot, sample exactly the registered number of distinct feature dimensions without replacement.",
+      "field": "masking.sampling",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Little-endian uint64 from the first 8 bytes of SHA256('night10a-qcrd-mask-v1|'+candidate_id+'|'+input_artifact_sha256+'|'+scientific_seed+'|'+epoch).",
+      "field": "masking.seed",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "The clean, detached student mixture before masking.",
+      "field": "masking.target",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "Q01 and Q02 use clean student input and L_mask=0.",
+      "field": "masking.non_masked_candidates",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "No adaptive mask fraction",
+      "field": "masking.prohibitions[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "No dataset-name component in the mask seed",
+      "field": "masking.prohibitions[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "No label-dependent mask",
+      "field": "masking.prohibitions[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_mask_cardinality_determinism_epoch_and_artifact_changes",
+      "expected": "No re-sampling after seeing loss or metrics",
+      "field": "masking.prohibitions[3]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "1-cosine_similarity, with eps=1e-8",
+      "field": "losses.cosine_distance",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "sum_i gate_i*(1-cos(student_corrected_i,stopgrad(teacher_i)))/(sum_i gate_i+eps)",
+      "field": "losses.L_align",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "For masked candidates: mean_i [sum_d M_id*(pred_student_id-clean_student_id)^2/(sum_d M_id*clean_student_id^2+eps)]; otherwise 0. pred_student is normalize(masked_student+corr).",
+      "field": "losses.L_mask",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "0.5*mean_i[(1-cos(z1c_i,z1_i))+(1-cos(z2c_i,z2_i))]",
+      "field": "losses.L_anchor",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "mean_i (||corr_i||_2/0.25)^2",
+      "field": "losses.L_correction",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "Over sparse spatial edges (i,j) with frozen pf_i != pf_j: mean relu(cos(zc_i,zc_j)-cos(zf_i,zf_j))^2; if no such edge, 0.",
+      "field": "losses.L_boundary",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "Q07 only. Weighted mean over frozen reciprocal pairs (i,j) of 1-cos(z1c_i,z2c_j), with frozen edge weight sqrt((1-H_1i)*(1-H_2j))*(1-b_i)*(1-b_j); if total edge weight is 0, define 0.",
+      "field": "losses.L_mnn",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": 1.0,
+      "field": "losses.weights.align",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": 1.0,
+      "field": "losses.weights.mask",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": 0.25,
+      "field": "losses.weights.anchor",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": 0.05,
+      "field": "losses.weights.correction",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": 0.25,
+      "field": "losses.weights.boundary",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": 0.1,
+      "field": "losses.weights.mnn_q07_only",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "L=1.0*L_align+I_mask*1.0*L_mask+0.25*L_anchor+0.05*L_correction+0.25*L_boundary+I_Q07*0.10*L_mnn",
+      "field": "losses.total",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "No data-dependent retuning of loss weights",
+      "field": "losses.forbidden[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "No label metric in any loss",
+      "field": "losses.forbidden[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "No omission of a registered nonzero term",
+      "field": "losses.forbidden[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_all_six_losses_against_independent_hand_implementation",
+      "expected": "No best-epoch selection",
+      "field": "losses.forbidden[3]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": "AdamW",
+      "field": "optimizer.name",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": 0.001,
+      "field": "optimizer.learning_rate",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": 0.0001,
+      "field": "optimizer.weight_decay",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": 120,
+      "field": "optimizer.epochs",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": false,
+      "field": "optimizer.early_stopping",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": false,
+      "field": "optimizer.best_epoch",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": 5.0,
+      "field": "optimizer.gradient_clip_norm",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": false,
+      "field": "optimizer.amp",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": 0,
+      "field": "optimizer.scientific_retry",
+      "status": "PASS"
+    },
+    {
+      "evidence": "formal_config_static_contract",
+      "expected": 0,
+      "field": "optimizer.fallback",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Per coordinate dimension subtract mean and divide by max(std,1e-6).",
+      "field": "fourier_coordinates_q06.standardization",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": 1,
+      "field": "fourier_coordinates_q06.frequencies[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": 2,
+      "field": "fourier_coordinates_q06.frequencies[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": 4,
+      "field": "fourier_coordinates_q06.frequencies[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": 8,
+      "field": "fourier_coordinates_q06.frequencies[3]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Concatenate sin(freq*coord) and cos(freq*coord) for every frequency and coordinate dimension.",
+      "field": "fourier_coordinates_q06.features",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": false,
+      "field": "fourier_coordinates_q06.trainable",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Exact authoritative output alias. No model, optimizer, masking or transform recomputation unless needed only for hash/parity verification.",
+      "field": "candidate_semantics.Q00_REFERENCE_ALIAS",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Global weights and global gate; clean input; common losses without L_mask or L_mnn.",
+      "field": "candidate_semantics.Q01_GLOBAL_QUALITY_BLEND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Per-spot weights and base gate; clean input; common losses without L_mask or L_mnn.",
+      "field": "candidate_semantics.Q02_SPOT_QUALITY_BLEND",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Global weights and global gate; deterministic 15% masking; common losses plus L_mask.",
+      "field": "candidate_semantics.Q03_MASKED_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Per-spot weights and base gate; deterministic 15% masking; common losses plus L_mask.",
+      "field": "candidate_semantics.Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Q04 with gate multiplied by 1-boundary_risk; same boundary loss weight.",
+      "field": "candidate_semantics.Q05_BOUNDARY_GATED_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Q04 plus fixed Fourier coordinate features; no dense spatial kernel.",
+      "field": "candidate_semantics.Q06_COORDINATE_PRIOR_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "test_candidate_truth_table_and_coords",
+      "expected": "Q04 plus frozen sparse confidence-weighted reciprocal-MNN loss at weight 0.10.",
+      "field": "candidate_semantics.Q07_CONFIDENCE_MNN_RESIDUAL",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Exact Night-6C implementation: Euclidean k=10 on row-L2-normalized embedding; sigma_i is distance to the 10th nonself neighbor; exp(-d2/(sigma_i*sigma_j)); maximum symmetrization; observation-id tie break.",
+      "field": "fixed_output_endpoints.common_rules.self_tuning_affinity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Exact Night-6C/Night-7B SPECTRAL_DISCRETIZE: precomputed sparse affinity, assign_labels='discretize', n_init=20, random_state=2020, exact registered K.",
+      "field": "fixed_output_endpoints.common_rules.spectral",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": 0,
+      "field": "fixed_output_endpoints.common_rules.labels_in_process",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": 30,
+      "field": "fixed_output_endpoints.common_rules.timeout_minutes",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "A1",
+      "field": "fixed_output_endpoints.RNA+protein.datasets[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "tonsil",
+      "field": "fixed_output_endpoints.RNA+protein.datasets[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "D1",
+      "field": "fixed_output_endpoints.RNA+protein.datasets[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Exact same-seed authoritative G04 private1/private2/fused views and spatial graph used by C00.",
+      "field": "fixed_output_endpoints.RNA+protein.source",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Exact C00 G04/H05 partition.",
+      "field": "fixed_output_endpoints.RNA+protein.reference_partition",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Run exact H05_EQUAL3_AFFINITY_SPECTRAL on corrected z1c, z2c and zc: arithmetic mean of their three sparse self-tuning affinities, followed by the fixed spectral partition.",
+      "field": "fixed_output_endpoints.RNA+protein.candidate_endpoint",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Q00 must alias the historical C00 partition exactly and must not recompute it for reported reference metrics.",
+      "field": "fixed_output_endpoints.RNA+protein.Q00_parity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "P22",
+      "field": "fixed_output_endpoints.RNA+ATAC.datasets[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Exact same-seed authoritative G04 private views, C06 equal-row-stochastic G00/G04 affinity, and F00/R02 fused adapter embedding/partition from Night-7B/Night-9B.",
+      "field": "fixed_output_endpoints.RNA+ATAC.source",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Exact F00/R02 E1_ADAPTER_C06_MEAN/H01 partition for the registered seed.",
+      "field": "fixed_output_endpoints.RNA+ATAC.reference_partition",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Compute az=self_tuning_affinity(zc,k=10); compute affinity=sym_zero(0.5*row_sparse_strict(az)+0.5*row_sparse_strict(C06)); then run the exact fixed H01 SPECTRAL_DISCRETIZE partition.",
+      "field": "fixed_output_endpoints.RNA+ATAC.candidate_endpoint",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Q00 must alias the historical F00/R02 partition exactly and must not recompute it for reported reference metrics.",
+      "field": "fixed_output_endpoints.RNA+ATAC.Q00_parity",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "Do not substitute C00, C01 or N02 as the P22 primary reference and do not rebuild G00/G04 or C06 by retraining.",
+      "field": "fixed_output_endpoints.RNA+ATAC.prohibition",
+      "status": "PASS"
+    },
+    {
+      "evidence": "real_endpoint_parity.json",
+      "expected": "For p1/p2 only, apply the same common self-tuning affinity and fixed spectral endpoint independently to frozen z1 and z2 before QCRD model initialization. Lock and hash these partitions; they are not final candidate endpoints.",
+      "field": "fixed_output_endpoints.modality_quality_partitions",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Five global feature values and exact global contrast/weight hand calculation on a tiny graph",
+      "field": "mandatory_semantic_tests[0]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Modality-specific neighbor entropy hand calculation including zero-degree spot",
+      "field": "mandatory_semantic_tests[1]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Spot logit, softmax weight, boundary risk and base gate hand calculation",
+      "field": "mandatory_semantic_tests[2]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Mask cardinality, determinism, epoch change and artifact-SHA change",
+      "field": "mandatory_semantic_tests[3]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "All six loss components against an independent hand implementation",
+      "field": "mandatory_semantic_tests[4]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Each Q00-Q07 candidate activates exactly its registered gate, mask, coordinates and MNN terms",
+      "field": "mandatory_semantic_tests[5]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Teacher stop-gradient and frozen quality arrays",
+      "field": "mandatory_semantic_tests[6]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "No dataset-name routing and identical trainable architecture across modality families",
+      "field": "mandatory_semantic_tests[7]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Sparse MNN and boundary losses without dense N-by-N allocation",
+      "field": "mandatory_semantic_tests[8]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Zero final up-projection gives exact epoch-0 no-op",
+      "field": "mandatory_semantic_tests[9]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Checkpoint round-trip",
+      "field": "mandatory_semantic_tests[10]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "RNA+protein Q00 exact C00 parity and candidate H05 endpoint semantics",
+      "field": "mandatory_semantic_tests[11]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "P22 Q00 exact F00/R02 parity and candidate E1_ADAPTER_C06_MEAN/H01 endpoint semantics",
+      "field": "mandatory_semantic_tests[12]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "authority_or_static_contract",
+      "expected": "Negative tests fail if any registered quality feature or nonzero loss term is omitted",
+      "field": "mandatory_semantic_tests[13]",
+      "status": "PASS"
+    },
+    {
+      "evidence": "p0_label_reads_zero",
+      "expected": 0,
+      "field": "label_policy.training_access",
+      "status": "PASS"
+    },
+    {
+      "evidence": "p0_label_reads_zero",
+      "expected": 0,
+      "field": "label_policy.quality_feature_access",
+      "status": "PASS"
+    },
+    {
+      "evidence": "p0_label_reads_zero",
+      "expected": 0,
+      "field": "label_policy.mask_access",
+      "status": "PASS"
+    },
+    {
+      "evidence": "p0_label_reads_zero",
+      "expected": 0,
+      "field": "label_policy.loss_access",
+      "status": "PASS"
+    },
+    {
+      "evidence": "p0_label_reads_zero",
+      "expected": "Only after all registered outputs in a stage are locked. Core datasets are development evidence and must not be described as pristine holdouts.",
+      "field": "label_policy.selection",
+      "status": "PASS"
+    }
+  ],
+  "schema": "spalora.night10a.rev1.field_coverage.v1",
+  "test_sha256": "bcf64cb4214bf7dfe77274c9e341ba460ed7459fb061e85d6e24f7af5204ebe0",
+  "total_fields": 186
+}

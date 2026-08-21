@@ -1,0 +1,28 @@
+{
+  "corrections": [
+    {
+      "id": "TEST_NUMPY_CHAINED_COMPARISON",
+      "outcome": "fixed",
+      "scope": "test_only"
+    },
+    {
+      "id": "OLD_REPORT_PROTECTED_PATH",
+      "outcome": "fixed",
+      "scope": "p0_infrastructure"
+    },
+    {
+      "id": "P22_COORDINATE_AUTHORITY_PATH",
+      "outcome": "fixed_to_locked_night7b_source_coordinates",
+      "scope": "preformal_input_resolution"
+    },
+    {
+      "id": "R02_U022_COMPLETION_STAGE_LOCATION",
+      "outcome": "fixed_to_complete_R2_authoritative_endpoint",
+      "scope": "preformal_input_resolution"
+    }
+  ],
+  "formal_training": 0,
+  "formal_transforms": 0,
+  "label_reads": 0,
+  "scientific_retry": 0
+}
