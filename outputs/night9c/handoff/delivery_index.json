@@ -43,8 +43,13 @@
     },
     {
       "path": "outputs/night9c/git_delivery_audit.json",
-      "sha256": "f0b3bcdcadf96f8e0aaaec9e3485c6949996509b88bb4c5910a5a2defe0fb47c",
-      "size_bytes": 508
+      "sha256": "5fc612126986615f06be0d199dcb284b3f88d567bc715af0aea14cd0915e43bc",
+      "size_bytes": 746
+    },
+    {
+      "path": "outputs/night9c/handoff/tag_freeze_and_delivery_metadata_erratum.json",
+      "sha256": "a57f6cff45f8f9e53ddcb48ad5a794aed61f8f35bf6af7e72d77e0559dce8cfa",
+      "size_bytes": 665
     },
     {
       "path": "outputs/night9c/night9c_modern_source_code_audit.json",
@@ -102,12 +107,14 @@
       "size_bytes": 1540
     }
   ],
+  "final_tag_commit": "225f350be67e118695253dfebcb5a8386b45736a",
   "label_value_reads": 0,
+  "metadata_erratum": "outputs/night9c/handoff/tag_freeze_and_delivery_metadata_erratum.json",
   "partitions": 0,
   "root": "repository",
   "root_rule": "Paths are repository-root-relative; this index excludes itself.",
   "schema": "spalora.night9c.tracked_delivery_index.v1",
-  "science_evidence_commit": "59c09f0d85bd7c6a08c63f540ba60a6e844c4fa6",
+  "science_evidence_commit": "59c09f0cfefe7e580f95ae95fcbb06dcc324fc64",
   "terminal_status": "BLOCKED_DATA_PROVENANCE",
   "training_units": 0
 }
