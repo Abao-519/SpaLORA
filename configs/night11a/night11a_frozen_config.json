@@ -1,0 +1,35 @@
+{
+  "schema": "spalora.night11a.frozen_config.v1",
+  "ridge_alpha": 1.0,
+  "spot_folds": 2,
+  "feature_folds": 5,
+  "patch_fraction": 0.2,
+  "damage_fraction": 0.3,
+  "replicate_seeds": [17, 29, 43],
+  "conditions": ["CLEAN_HOLDOUT", "LOCAL_TARGET_DAMAGE", "LOCAL_AUXILIARY_CONFLICT"],
+  "directions": ["MODALITY2_TO_MODALITY1", "MODALITY1_TO_MODALITY2"],
+  "arms": ["B0_SELF_ONLY", "B1_ALWAYS_TRANSFER", "B2_UNCERTAINTY_ONLY", "B3_SELECTIVE_NULL"],
+  "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL",
+  "units": {
+    "u000": {
+      "family": "RNA+PROTEIN",
+      "N": 3484,
+      "K": 10,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "source_root": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000",
+      "spatial_graph": "/root/autodl-fs/night6c_cache_20260817/graphs/a1/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz"
+    },
+    "u020": {
+      "family": "RNA+ATAC",
+      "N": 9196,
+      "K": 9,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "source_root": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020",
+      "spatial_graph": "/root/autodl-fs/night6d_cache_20260817/graphs/p22/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz"
+    }
+  },
+  "smokes": [
+    {"unit_id": "u000", "replicate_seed": 17, "condition": "LOCAL_TARGET_DAMAGE"},
+    {"unit_id": "u020", "replicate_seed": 17, "condition": "LOCAL_AUXILIARY_CONFLICT"}
+  ]
+}

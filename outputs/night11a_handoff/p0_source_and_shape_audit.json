@@ -1,0 +1,525 @@
+{
+  "authority_parent": "10f16eab93d9dbc4c33c3aaff2b84ee782694a80",
+  "forbidden_counters": {
+    "annotation_spatial_metrics": 0,
+    "ari_nmi_q_ami_fmi": 0,
+    "dataset_name_routing": 0,
+    "dense_nxn": 0,
+    "e18_5": 0,
+    "labels_read": 0,
+    "misar_y": 0,
+    "new_data": 0,
+    "qcrd": 0,
+    "scientific_retry_fallback": 0,
+    "third_party_benchmark": 0
+  },
+  "status": "PASS",
+  "units": {
+    "u000": {
+      "K": 10,
+      "N": 3484,
+      "call_chain": [
+        "registered input",
+        "preprocessing",
+        "real forward and frozen view provenance",
+        "checkpoint reload",
+        "pilot evidence",
+        "selective fusion",
+        "fixed H05_EQUAL3_AFFINITY_SPECTRAL endpoint"
+      ],
+      "checkpoints": {
+        "G00": {
+          "checkpoint_reload_audit_sha256": "38899c84698c217ac6739f0f4700054a9ce7473e4e7adec8984d8361ede2b8a7",
+          "checkpoint_round_trip_status": "PASS",
+          "fresh_process": true,
+          "labels_deserialized": false,
+          "labels_used": false,
+          "model_final_sha256": "50d56b443fb88e215b8f65ee9d0b57cdf458eae4a3cc5a09a84d111f630461af",
+          "reload_spec_sha256": "885de2796f7f480c52dc653aad2e2587349f6bebc7726a3cc9a4cb9dea68577f",
+          "run_manifest_sha256": "ff86488811071f21c3d8316c3447db2acb2b8348ccf7c7aef5ad3ac6b5dd54b1",
+          "run_root": "/root/autodl-fs/night6c_raw_runs_20260817/r1/G00_SP18_F20_CORR_UNION/a1/seed_0/attempt_003",
+          "views_sha256": "a60bc4239609281f5c418c3b5aede321fbfafc28de4f1b27a425fedca6bf2ab5"
+        },
+        "G04": {
+          "checkpoint_reload_audit_sha256": "c0c439858e46c7bca3054ff5dda3a8f346d064edf56b6e6c292974e0bce394e2",
+          "checkpoint_round_trip_status": "PASS",
+          "fresh_process": true,
+          "labels_deserialized": false,
+          "labels_used": false,
+          "model_final_sha256": "831491c0593e88e275d94ce010501a2f6a637cc9c4cd57292f5cc6222563f4f0",
+          "reload_spec_sha256": "ec1bb3aeb60330feb193599508f7bd7df5e08328b4608bbeea3697b97a05bf17",
+          "run_manifest_sha256": "5673b44335fea9ceeab8aa60c90236e6fed4e29451b527a9b99fa05dc90bfa40",
+          "run_root": "/root/autodl-fs/night6c_raw_runs_20260817/r1/G04_SP10_F10_EUC_UNION/a1/seed_0/attempt_001",
+          "views_sha256": "0391997d6b0f893ef10e8f76b899d8e992e7ac1043d45816e8db8fd5fdcdc290"
+        }
+      },
+      "family": "RNA+PROTEIN",
+      "graphs": {
+        "c00_affinity": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/c00_affinity.npz",
+          "finite": true,
+          "nnz": 119894,
+          "sha256": "ca64d206ef4e466458303ca91c6f165045c7990fbb63e42a9310eafb8d0f2412",
+          "shape": [
+            3484,
+            3484
+          ],
+          "sparse": true
+        },
+        "c06_affinity": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/c06_affinity.npz",
+          "finite": true,
+          "nnz": 174378,
+          "sha256": "a8700404e75dac33a1d498bc2c6123b2db0436942e4ce48093116c881aca07c5",
+          "shape": [
+            3484,
+            3484
+          ],
+          "sparse": true
+        },
+        "s00": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/s00.npz",
+          "finite": true,
+          "nnz": 115386,
+          "sha256": "aea3ee498bbdb5486d3258ee626c273c6f36b3f72f9cc30280d32af1e0994a17",
+          "shape": [
+            3484,
+            3484
+          ],
+          "sparse": true
+        },
+        "s04": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/s04.npz",
+          "finite": true,
+          "nnz": 119894,
+          "sha256": "ca64d206ef4e466458303ca91c6f165045c7990fbb63e42a9310eafb8d0f2412",
+          "shape": [
+            3484,
+            3484
+          ],
+          "sparse": true
+        }
+      },
+      "night10a_rev2_input": {
+        "dimensions": {
+          "d_z1": 64,
+          "d_z2": 64,
+          "d_zf_aligned": 64,
+          "d_zf_raw": 64
+        },
+        "files": {
+          "coordinates_file": {
+            "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/coordinates.npy",
+            "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb"
+          },
+          "p1_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u000/p1.npy",
+            "sha256": "ba4f5e7e92236426ea7384436971b0ad4223a9c7781cf05425b07f01beaecbfc"
+          },
+          "p2_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u000/p2.npy",
+            "sha256": "f6352548a115969e5f3f58e18c43663a7f6281fd27b861495557690af3b47141"
+          },
+          "pf_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u000/pf.npy",
+            "sha256": "f7b451f10341f35abcaed7c62ddf359482188f08f88316e18e68605daf8120b9"
+          },
+          "quality_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u000/quality.npz",
+            "sha256": "5fa1596670c9f088130234ef712cd2d9bd0a069576e362d8333d61a4f2daacbc"
+          },
+          "spatial_graph_file": {
+            "path": "/root/autodl-fs/night6c_cache_20260817/graphs/a1/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz",
+            "sha256": "af815110126fe484b48a88f58d0f86f5eb0ed58d9b7da021ba9d4cea796e1d78"
+          }
+        },
+        "harmonizer_mode": "identity",
+        "manifest": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u000/input_manifest.json",
+        "manifest_sha256": "c4fa3fe03e2441e46901da7018e97e3affb5c4efd0988d141da4e75f2b2d0273"
+      },
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "source_worker_input": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/worker_input.json",
+      "tensors": {
+        "coordinates": {
+          "dtype": "int64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/coordinates.npy",
+          "finite": true,
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "shape": [
+            3484,
+            2
+          ]
+        },
+        "g00": {
+          "arrays": {
+            "SpaLORA_fused": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "alpha_cross": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                64
+              ]
+            }
+          },
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/g00_views.npz",
+          "sha256": "a60bc4239609281f5c418c3b5aede321fbfafc28de4f1b27a425fedca6bf2ab5"
+        },
+        "g04": {
+          "arrays": {
+            "SpaLORA_fused": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "alpha_cross": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                2
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                64
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                3484,
+                64
+              ]
+            }
+          },
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/g04_views.npz",
+          "sha256": "0391997d6b0f893ef10e8f76b899d8e992e7ac1043d45816e8db8fd5fdcdc290"
+        }
+      }
+    },
+    "u020": {
+      "K": 9,
+      "N": 9196,
+      "call_chain": [
+        "registered input",
+        "preprocessing",
+        "real forward and frozen view provenance",
+        "checkpoint reload",
+        "pilot evidence",
+        "selective fusion",
+        "fixed H05_EQUAL3_AFFINITY_SPECTRAL endpoint"
+      ],
+      "checkpoints": {
+        "G00": {
+          "checkpoint_reload_audit_sha256": "6dbcb7a39a2cd630991ad97eb9fad4184c7649b4bbcf92f31db34a7713910703",
+          "checkpoint_round_trip_status": "PASS",
+          "fresh_process": true,
+          "labels_deserialized": false,
+          "labels_used": false,
+          "model_final_sha256": "62210c7bc786cda91531d30196e4b1ad8106a9f699ad3c62f784076b8f1d9149",
+          "reload_spec_sha256": "7f99b2cb4ab378d2faf781ec3e14f7fa5349d8385c00cafc92e44b7b7c598aeb",
+          "run_manifest_sha256": "bded8d21ebfa5c81e4b14c6e42122282f5ca3ca6dd2879087df4f3e61aa4381d",
+          "run_root": "/root/autodl-fs/night6d_raw_runs_20260817/G00_SP18_F20_CORR_UNION/p22/seed_0/attempt_001",
+          "views_sha256": "b26866a97621d7e035e1f52b83d727d1adcf03b86bcc405b5f8802720b12550c"
+        },
+        "G04": {
+          "checkpoint_reload_audit_sha256": "14be9ca68d1a84329288ec84ad577c5445f50eac8b26fe3d818ed67b90aed142",
+          "checkpoint_round_trip_status": "PASS",
+          "fresh_process": true,
+          "labels_deserialized": false,
+          "labels_used": false,
+          "model_final_sha256": "338fc2c6f392f7a19c06ff484437a92b45657b822b27b91018f467ec9266210b",
+          "reload_spec_sha256": "459c37d45c266c08f5f2ff1df4d76eef479ae84594271badbc7e2a69f08131d2",
+          "run_manifest_sha256": "63663e8736194a472df1c8c172c4e329fc0c33adb050c680c38273a3dc63edf4",
+          "run_root": "/root/autodl-fs/night6d_raw_runs_20260817/G04_SP10_F10_EUC_UNION/p22/seed_0/attempt_001",
+          "views_sha256": "c33182fd61822a4e3f6befdc693a8b09bd7fc2b0da494147eadc4656bb7edfd2"
+        }
+      },
+      "family": "RNA+ATAC",
+      "graphs": {
+        "c00_affinity": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/c00_affinity.npz",
+          "finite": true,
+          "nnz": 246632,
+          "sha256": "0acc8a0543f41604233b2d063c08e93ea3ff770a5729c6f4b0a8d07bc74cd3de",
+          "shape": [
+            9196,
+            9196
+          ],
+          "sparse": true
+        },
+        "c06_affinity": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/c06_affinity.npz",
+          "finite": true,
+          "nnz": 346976,
+          "sha256": "ba41e7ea75bbbf3bc2413c5feda9f5f899f81570f90d9706bd642abed857fb96",
+          "shape": [
+            9196,
+            9196
+          ],
+          "sparse": true
+        },
+        "s00": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/s00.npz",
+          "finite": true,
+          "nnz": 235814,
+          "sha256": "2a37529ec7848f7ce839aee25df7b55747818a7f2ae8602703578053dd2e30e4",
+          "shape": [
+            9196,
+            9196
+          ],
+          "sparse": true
+        },
+        "s04": {
+          "dtype": "float64",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/s04.npz",
+          "finite": true,
+          "nnz": 246632,
+          "sha256": "0acc8a0543f41604233b2d063c08e93ea3ff770a5729c6f4b0a8d07bc74cd3de",
+          "shape": [
+            9196,
+            9196
+          ],
+          "sparse": true
+        }
+      },
+      "night10a_rev2_input": {
+        "dimensions": {
+          "d_z1": 128,
+          "d_z2": 128,
+          "d_zf_aligned": 128,
+          "d_zf_raw": 64
+        },
+        "files": {
+          "coordinates_file": {
+            "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/coordinates.npy",
+            "sha256": "67e58c064a39ff60903b42e27cb07226b2bd2d42b6fcf363174a6ed8ae572541"
+          },
+          "p1_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u020/p1.npy",
+            "sha256": "089959be2b0085349914f87f3253996fe521b09af1180742fb437f6fc23a8455"
+          },
+          "p2_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u020/p2.npy",
+            "sha256": "d66b56b848c1060003c48a3e9cac8b09f4ae485e9da2061d56c46ffa1f728111"
+          },
+          "pf_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u020/pf.npy",
+            "sha256": "11c67260ef62e6ab143e1af11a9a9bfe7d61a149159089fcc8856edb1021d8c3"
+          },
+          "projection_file": {
+            "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u020/reference_projection.npy",
+            "sha256": "336df86ba2bbc4c9d64e19e96f51d2151edff235b0189c4425213d62b6289c0e"
+          },
+          "quality_file": {
+            "path": "/root/autodl-fs/night10a_rev1_qcrd_20260821/raw/inputs/u020/quality.npz",
+            "sha256": "16d421b6053eb00e3ff937fa88495c6791df059ab75e889e1e2901ced812ad43"
+          },
+          "spatial_graph_file": {
+            "path": "/root/autodl-fs/night6d_cache_20260817/graphs/p22/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz",
+            "sha256": "f598fba254ca376a3ef1995cf96f249c7a612544fddb076f1403e28284990124"
+          },
+          "zf_aligned_file": {
+            "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u020/zf_aligned.npy",
+            "sha256": "9778110d5d873794d31aaae8a1ad40dc3f1541c9435a3fc994fe921a3ed9b9d3"
+          }
+        },
+        "harmonizer_mode": "rectangular_expansion",
+        "manifest": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u020/input_manifest.json",
+        "manifest_sha256": "ea80fd90f2f9a84ad4c40af8af2bdcc6373190ae87e52e76b361dafee501582a"
+      },
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "source_worker_input": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/worker_input.json",
+      "tensors": {
+        "coordinates": {
+          "dtype": "float32",
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/coordinates.npy",
+          "finite": true,
+          "sha256": "67e58c064a39ff60903b42e27cb07226b2bd2d42b6fcf363174a6ed8ae572541",
+          "shape": [
+            9196,
+            2
+          ]
+        },
+        "g00": {
+          "arrays": {
+            "SpaLORA_fused": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "alpha_cross": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                128
+              ]
+            }
+          },
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/g00_views.npz",
+          "sha256": "b26866a97621d7e035e1f52b83d727d1adcf03b86bcc405b5f8802720b12550c"
+        },
+        "g04": {
+          "arrays": {
+            "SpaLORA_fused": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "alpha_cross": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "alpha_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "alpha_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                2
+              ]
+            },
+            "emb_latent_omics1": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                128
+              ]
+            },
+            "emb_latent_omics2": {
+              "dtype": "float32",
+              "finite": true,
+              "shape": [
+                9196,
+                128
+              ]
+            }
+          },
+          "file": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/g04_views.npz",
+          "sha256": "c33182fd61822a4e3f6befdc693a8b09bd7fc2b0da494147eadc4656bb7edfd2"
+        }
+      }
+    }
+  }
+}

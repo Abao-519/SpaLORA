@@ -1,0 +1,35 @@
+{
+  "schema": "spalora.night11a.planning_delivery_index.v1",
+  "date": "2026-08-22",
+  "root": "D:/文档/ChatGPT/博士第一篇科研论文项目",
+  "file_count": 4,
+  "files": [
+    {
+      "path": "strategic_pivot_20260822/SpaLORA_Post_Night10B_Global_Research_Plan_2026-08-22.md",
+      "size": 11883,
+      "sha256": "143af1df7638b130bbeee0a1bc68931339eba5442ceac040ea51731df862e49f"
+    },
+    {
+      "path": "night11a_selective_transfer_identifiability_planning_20260822/night11a_selective_transfer_identifiability_contract.json",
+      "size": 15320,
+      "sha256": "be9f6c2f0e04f5e07a8d21d65c5bf3043e4e4efe397991ce87ddad95d3650366"
+    },
+    {
+      "path": "night11a_selective_transfer_identifiability_planning_20260822/SpaLORA_Night11A_Selective_Transfer_Identifiability_Taskbook_2026-08-22.md",
+      "size": 15280,
+      "sha256": "085398ba7cfa3b738e4ea2e6915eb4eb9fc8ca23e423293834bd97ccfbe00765"
+    },
+    {
+      "path": "night11a_selective_transfer_identifiability_planning_20260822/README_COPY_TO_CODEX2_NIGHT11A_2026-08-22.md",
+      "size": 7675,
+      "sha256": "49bd2072a90334aee683c91e79aae7268a07b54bcfe2ca7a0fe8cde16c81a0f5"
+    }
+  ],
+  "parent_night10b": {
+    "commit": "10f16eab93d9dbc4c33c3aaff2b84ee782694a80",
+    "tag": "night10b-final-20260821",
+    "compact_file_count": 54,
+    "compact_index_sha256": "696b9d99720e2168bd8930cdf4c0b6d2071cd71263df8960d89c648bb2e89910",
+    "bundle_sha256": "c31888546aaad21d2be912ef9646ee3819212caad90d4605c5b387c1a3f0b15a"
+  }
+}

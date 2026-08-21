@@ -1,0 +1,244 @@
+{
+  "schema": "spalora.night11a.selective_transfer_identifiability_contract.v1",
+  "date": "2026-08-22",
+  "task_id": "NIGHT11A_SELECTIVE_TRANSFER_IDENTIFIABILITY",
+  "claim_boundary": "Label-free mechanism identifiability only. A pass is LOCAL_SIGNAL and is not evidence of improved clustering, SOTA performance, or a paper-ready method.",
+  "objective": "Test whether cross-fitted held-out evidence can identify, at spot level, when a cross-modal message helps and when an explicit no-transfer path should be selected.",
+  "parent_authority": {
+    "commit": "10f16eab93d9dbc4c33c3aaff2b84ee782694a80",
+    "tag": "night10b-final-20260821",
+    "compact_index_path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10b_delivery_20260821/official_compact/compact_delivery_index.json",
+    "compact_index_sha256": "696b9d99720e2168bd8930cdf4c0b6d2071cd71263df8960d89c648bb2e89910",
+    "compact_file_count": 54,
+    "compact_missing": 0,
+    "compact_size_mismatch": 0,
+    "compact_sha_mismatch": 0,
+    "bundle_path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10b_delivery_20260821/official_compact/night10b_incremental_from_8b83fe38_to_final.bundle",
+    "bundle_sha256": "c31888546aaad21d2be912ef9646ee3819212caad90d4605c5b387c1a3f0b15a"
+  },
+  "local_authority_files": [
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/strategic_pivot_20260822/SpaLORA_Q2_Plus_Innovation_Pivot_Decision_2026-08-22.md",
+      "sha256": "7fe293c02f9c5868d2598e8a63483b018db49dd40493e067fce550a126d807bc"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/research_governance_20260821/PROJECT_MEMORY_PLUGIN_RESEARCH_WORKFLOW_2026-08-21.md",
+      "sha256": "ea795cd6dc10361c87f9991cd33fdfa05a746efca0854bb9cc53be010837fa63"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/research_governance_20260821/Spatial_MultiOmics_Reading_List_2025_2026.md",
+      "sha256": "7abe7fe3014627f9c222335b6d95bd33cf531fe1b18ef3144b05ced07ec04375"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10b_delivery_20260821/official_compact/outputs/night10b_handoff/night10b_report.md",
+      "sha256": "877c7a988a5ac91e952e767233741a682d8fe932e796f1332624a2d55d02df93"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10b_delivery_20260821/official_compact/outputs/night10b_handoff/night10b_decision.json",
+      "sha256": "782d72d34deeda422cd778f1eb9ceadf553fc08b3f21ffe896f8332db78ee0d0"
+    }
+  ],
+  "historical_interpretation_locks": {
+    "night10a_rev2": "QCRD engineering repair succeeded; the final scientific candidate failed overall and only D1 retained a local positive result.",
+    "night10b": "Frozen family-policy engineering integration passed; no new scientific candidate or performance claim was created."
+  },
+  "scope": {
+    "formal_units": [
+      {
+        "unit_id": "u000",
+        "data_steward_id": "a1",
+        "seed": 0,
+        "assay_family": "RNA_PROTEIN",
+        "assay_pair": [
+          "RNA",
+          "PROTEIN"
+        ]
+      },
+      {
+        "unit_id": "u020",
+        "data_steward_id": "p22",
+        "seed": 0,
+        "assay_family": "RNA_EPIGENOME",
+        "assay_pair": [
+          "RNA",
+          "ATAC"
+        ]
+      }
+    ],
+    "corruption_replicate_seeds": [
+      17,
+      29,
+      43
+    ],
+    "conditions": [
+      "CLEAN_HOLDOUT",
+      "LOCAL_TARGET_DAMAGE",
+      "LOCAL_AUXILIARY_CONFLICT"
+    ],
+    "arms": [
+      {
+        "id": "B0_SELF_ONLY",
+        "meaning": "Use the cross-fitted self-modality predictor and accept no cross-modal message."
+      },
+      {
+        "id": "B1_ALWAYS_TRANSFER",
+        "meaning": "Apply the full cross-modal prediction residual at every evaluated spot."
+      },
+      {
+        "id": "B2_UNCERTAINTY_ONLY",
+        "meaning": "Attenuate transfer using instability only; do not use the signed held-out utility comparison."
+      },
+      {
+        "id": "B3_SELECTIVE_NULL",
+        "meaning": "Use signed cross-fitted utility minus uncertainty and allow the exact self-only no-transfer path."
+      }
+    ],
+    "new_datasets": 0,
+    "third_party_benchmarks": 0,
+    "scientific_seed_search": 0,
+    "formal_scientific_evaluation": 0
+  },
+  "fixed_endpoint": {
+    "id": "H05_EQUAL3_AFFINITY_SPECTRAL",
+    "inputs": "B3-updated modality-1 representation, B3-updated modality-2 representation, and their equal-weight fused representation; the same construction is used for B0-B2.",
+    "cluster_count": "Use only the already registered K bound to each authoritative input manifest. Do not read labels or infer a new K.",
+    "purpose": "Engineering completeness and fresh-process partition round-trip only. Endpoint partitions are not scientifically scored in Night-11A.",
+    "sparsity": "Reuse the registered sparse self-tuning affinity implementation; any dense N-by-N materialization is forbidden."
+  },
+  "real_semantic_preflight": {
+    "families_required": 2,
+    "required_chain": [
+      "registered real input",
+      "preprocessing",
+      "G00 and G04 real forward or authoritative frozen-view provenance replay",
+      "checkpoint reload",
+      "pilot evidence",
+      "selective fusion",
+      "H05_EQUAL3_AFFINITY_SPECTRAL fixed clustering endpoint"
+    ],
+    "shape_audit": "Record every actual N x D tensor for each family and each G00/G04 modality-private/fused view. Do not infer dimensions from dataset name or copy assumptions from another family.",
+    "baseline_semantics": "Reuse the Night-10B locked C00/F00 artifacts as historical baselines and authority references. Do not retrain or reconstruct them under a same-name configuration.",
+    "mixed_path_rule": "A real endpoint smoke plus a separate synthetic adapter smoke is not sufficient. Both families must pass the complete mixed path in one fresh process and after checkpoint reload.",
+    "failure_action": "Any unresolved shape, observation-order, view-semantic, checkpoint, or endpoint mismatch is NIGHT11A_IMPLEMENTATION_SEMANTICS_INVALID and formal identifiability must not start."
+  },
+  "pilot_protocol": {
+    "target_object": "For each transfer direction, the clean authoritative G04 modality-private representation of the receiving modality is the only held-out prediction target. Its actual dimension may differ by family and is audited rather than assumed.",
+    "predictor_inputs": "The self predictor receives the receiving modality's registered G00 representation plus the observable feature folds of its G04 target. Transfer predictors receive the identical self inputs and add exactly one registered auxiliary-modality private view: G00 or G04. Fused representations never enter pilot fitting or gate evidence because they already mix modalities.",
+    "cross_view_rule": "Fit one transfer predictor with auxiliary G00 and one with auxiliary G04 using identical training rows and preprocessing. Their predictions are averaged to define the B1 transfer proposal. No graph view is selected by performance.",
+    "standardization": "Fit feature centering and scaling on the training spot fold only; apply unchanged to the held-out spot fold; zero-variance dimensions are recorded and removed identically in all arms.",
+    "spot_cross_fitting": {
+      "folds": 2,
+      "assignment": "sha256(unit_id + '|' + ordered_observation_id + '|spot-fold') modulo 2",
+      "rule": "All decoder fitting, scale estimation, and temperature estimation for a held-out spot use the opposite spot fold only."
+    },
+    "feature_cross_fitting": {
+      "folds": 5,
+      "assignment": "sha256(unit_id + '|' + direction + '|' + canonical_feature_index + '|feature-fold') modulo 5",
+      "rule": "For evaluation fold e, evidence folds are (e+1) modulo 5 and (e+2) modulo 5; predictor-input target folds are the remaining two folds. Decoders predict both evidence and evaluation folds. The evaluation fold never contributes to its own gate score, scaling, temperature, or uncertainty. Feature folds are defined only inside the receiving G04 target space, never shared across differently sized G00/G04 tensors."
+    },
+    "predictors": {
+      "self": "Fixed-alpha ridge predictor of held-out receiving-G04 coordinates from receiving-G00 plus the two registered observable receiving-G04 folds.",
+      "transfer": "Two fixed-alpha ridge predictors with the identical self inputs and training rows, one augmented by auxiliary G00 and one by auxiliary G04. Their predictions are averaged; no labels, dataset identity, tissue, or historical metric is allowed.",
+      "ridge_alpha": 1.0,
+      "model_selection": "None. No alpha, dimension, threshold, or fold search."
+    },
+    "gate": {
+      "utility": "u_i = L_self_evidence(i) - L_transfer_evidence(i)",
+      "uncertainty": "s_i is the median absolute deviation of four utility estimates: two fixed evidence folds times the auxiliary-G00 versus auxiliary-G04 transfer predictors. It is computed without the evaluation fold.",
+      "lambda": 1.0,
+      "temperature": "max(median(abs(u)) on the training spot fold, 1e-6)",
+      "formula": "g_i = sigmoid((u_i - 1.0 * s_i) / temperature)",
+      "selective_prediction": "prediction_self + g_i * (prediction_transfer - prediction_self)",
+      "uncertainty_only_gate": "exp(-s_i / max(median(s) on the training spot fold, 1e-6)) clipped to [0,1]",
+      "exact_null_test": "B3 with an externally forced g=0 must be byte-exact to B0 at the prediction and reconstructed-representation boundaries."
+    }
+  },
+  "corruption_protocol": {
+    "patch_fraction": 0.2,
+    "patch_construction": "Choose an anchor by sha256(unit_id|direction|condition|replicate_seed|anchor) modulo N, then breadth-first expand on the registered sparse spatial graph with ordered-observation-ID tie-breaking until ceil(0.2*N) spots are selected.",
+    "clean_target_rule": "Copy and hash the uncorrupted held-out representation target before any perturbation. It is used only by the label-free identifiability evaluator.",
+    "LOCAL_TARGET_DAMAGE": "Within the registered patch, replace 30 percent of coordinates in each receiving-modality predictor input (receiving G00 and the two observable receiving-G04 folds), selected within that tensor by its own feature hash, with training-fold medians. The clean held-out receiving-G04 target and auxiliary modality remain unchanged.",
+    "LOCAL_AUXILIARY_CONFLICT": "Keep all receiving-modality inputs unchanged and apply the same fixed-point-free row permutation to auxiliary G00 and auxiliary G04 inside the registered patch. Reject permutations whose paired spots remain direct spatial neighbors; preserve feature marginals, view pairing, and observation cardinality.",
+    "CLEAN_HOLDOUT": "Apply only the registered feature holdout; no local damage or row permutation.",
+    "immutability": "Patch IDs, feature masks, permutations, clean-target hashes, and all corruption manifests are frozen before formal arm execution."
+  },
+  "identifiability_metrics": {
+    "oracle_utility": "On the evaluation feature fold only: U_eval(i) = MSE_self(i) - MSE_transfer(i). Positive means transfer helped that held-out object; negative means it harmed it.",
+    "classification": "AUROC and AUPRC of the frozen gate score for sign(U_eval), excluding only abs(U_eval) <= max(1e-8, 0.01 * median(abs(U_eval))) and reporting the excluded fraction.",
+    "rank": "Spearman correlation between frozen gate score and continuous U_eval.",
+    "regret": "MSE_arm - min(MSE_self, MSE_transfer), reported absolute and normalized by MSE_self + 1e-8.",
+    "gate_separation": "Median g on positive-utility evaluated spots minus median g on negative-utility evaluated spots.",
+    "runtime": "Wall time, CPU time, peak RSS, GPU time if used, and peak GPU memory per family and arm."
+  },
+  "go_no_go_gates": {
+    "all_required": true,
+    "minimum_nonambiguous_spot_events_per_family_per_sign": 100,
+    "pooled_auroc_min": 0.75,
+    "per_family_auroc_min": 0.7,
+    "pooled_spearman_min": 0.35,
+    "per_family_spearman_min": 0.25,
+    "per_family_gate_separation_min": 0.25,
+    "clean_safety": "B3 mean MSE <= 1.02 * B0 mean MSE in each family.",
+    "target_damage_usefulness": "B3 mean MSE <= 0.99 * min(B0 mean MSE, B1 mean MSE) in each family.",
+    "auxiliary_conflict_safety": "B3 mean MSE <= 1.01 * B0 mean MSE and <= 0.90 * B1 mean MSE in each family.",
+    "uncertainty_ablation": "Pooled normalized regret of B3 <= 0.90 * pooled normalized regret of B2.",
+    "no_gate_collapse": "In each family, gate standard deviation >= 0.05 and no single bin among [0,0.1], (0.1,0.9), [0.9,1] contains more than 95 percent of evaluated gates.",
+    "roundtrip": "2/2 family checkpoints and 2/2 fixed endpoints reload successfully; partitions are canonical exact and all numerical tensors meet atol=1e-6, rtol=1e-5.",
+    "resource": "Total remote wall time <= 4 hours and peak GPU memory <= 8192 MiB."
+  },
+  "label_and_scope_firewall": {
+    "training_label_reads": 0,
+    "evaluation_label_reads": 0,
+    "label_reads_total": 0,
+    "ari_nmi_q_ami_fmi_computations": 0,
+    "label_based_spatial_metric_computations": 0,
+    "misar_y_reads": 0,
+    "e18_5_accesses": 0,
+    "new_external_data_accesses": 0,
+    "third_party_benchmark_runs": 0,
+    "qcrd_train_resume_evaluate_runs": 0,
+    "dataset_name_router_calls": 0,
+    "dense_n_by_n_constructed": 0,
+    "scientific_retries_or_fallbacks": 0
+  },
+  "formal_execution": {
+    "freeze_before_formal": [
+      "source audit",
+      "actual shape table",
+      "ordered observation hashes",
+      "spot and feature folds",
+      "patches and permutations",
+      "four arm configs",
+      "implementation hash",
+      "thresholds"
+    ],
+    "global_correction_cycles_max": 1,
+    "correction_rule": "A global implementation correction invalidates every formal row and requires rerunning both families, all conditions, all registered replicates, and all arms. Preserve the invalid attempt. No partial rerun is valid.",
+    "ordinary_numerical_failure": "Lock and report without changing seed, alpha, folds, patch, temperature, threshold, solver, endpoint, or resource budget."
+  },
+  "terminals": {
+    "pass": "NIGHT11A_SELECTIVE_TRANSFER_IDENTIFIABILITY_PASS",
+    "scientific_no_go": "NIGHT11A_NO_IDENTIFIABLE_TRANSFER_UTILITY",
+    "implementation_failure": "NIGHT11A_IMPLEMENTATION_SEMANTICS_INVALID",
+    "authority_failure": "NIGHT11A_AUTHORITY_OR_ARTIFACT_BLOCKED",
+    "infrastructure_failure": "NIGHT11A_INFRASTRUCTURE_BLOCKED"
+  },
+  "git_and_delivery": {
+    "remote_repo": "/root/autodl-fs/SpaLORA-night11a",
+    "branch": "revision/q2-night11a-selective-transfer-identifiability-20260822",
+    "protection_tag": "baseline/pre-night11a-selective-transfer-identifiability-20260822",
+    "raw_root": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822",
+    "final_tag": "night11a-final-20260822",
+    "windows_compact": "D:/文档/ChatGPT/博士第一篇科研论文项目/night11a_delivery_20260822/official_compact",
+    "force_push_allowed": false,
+    "historical_mutation_allowed": false,
+    "compact_excludes": [
+      "raw data",
+      "checkpoints",
+      "embeddings",
+      "affinities",
+      "large arrays"
+    ],
+    "shutdown_last_remote_command": "/usr/bin/shutdown"
+  }
+}

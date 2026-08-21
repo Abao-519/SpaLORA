@@ -1,0 +1,128 @@
+{
+  "arms": [
+    "B0_SELF_ONLY",
+    "B1_ALWAYS_TRANSFER",
+    "B2_UNCERTAINTY_ONLY",
+    "B3_SELECTIVE_NULL"
+  ],
+  "conditions": [
+    "CLEAN_HOLDOUT",
+    "LOCAL_TARGET_DAMAGE",
+    "LOCAL_AUXILIARY_CONFLICT"
+  ],
+  "config_sha256": "5ba3aae3021d1e7346db7e128f96e6a041cdf0a497d9b93114762f9af7ca5988",
+  "contract_sha256": "be9f6c2f0e04f5e07a8d21d65c5bf3043e4e4efe397991ce87ddad95d3650366",
+  "directions": [
+    "MODALITY2_TO_MODALITY1",
+    "MODALITY1_TO_MODALITY2"
+  ],
+  "forbidden_counters": {
+    "ari_nmi_q_ami_fmi_computations": 0,
+    "dataset_name_router_calls": 0,
+    "dense_n_by_n_constructed": 0,
+    "e18_5_accesses": 0,
+    "evaluation_label_reads": 0,
+    "label_based_spatial_metric_computations": 0,
+    "label_reads_total": 0,
+    "misar_y_reads": 0,
+    "new_external_data_accesses": 0,
+    "qcrd_train_resume_evaluate_runs": 0,
+    "scientific_retries_or_fallbacks": 0,
+    "third_party_benchmark_runs": 0,
+    "training_label_reads": 0
+  },
+  "formal_expected_rows": 144,
+  "frozen_epoch": 1787336515.2917216,
+  "global_correction_cycles_used": 0,
+  "go_no_go_gates": {
+    "all_required": true,
+    "auxiliary_conflict_safety": "B3 mean MSE <= 1.01 * B0 mean MSE and <= 0.90 * B1 mean MSE in each family.",
+    "clean_safety": "B3 mean MSE <= 1.02 * B0 mean MSE in each family.",
+    "minimum_nonambiguous_spot_events_per_family_per_sign": 100,
+    "no_gate_collapse": "In each family, gate standard deviation >= 0.05 and no single bin among [0,0.1], (0.1,0.9), [0.9,1] contains more than 95 percent of evaluated gates.",
+    "per_family_auroc_min": 0.7,
+    "per_family_gate_separation_min": 0.25,
+    "per_family_spearman_min": 0.25,
+    "pooled_auroc_min": 0.75,
+    "pooled_spearman_min": 0.35,
+    "resource": "Total remote wall time <= 4 hours and peak GPU memory <= 8192 MiB.",
+    "roundtrip": "2/2 family checkpoints and 2/2 fixed endpoints reload successfully; partitions are canonical exact and all numerical tensors meet atol=1e-6, rtol=1e-5.",
+    "target_damage_usefulness": "B3 mean MSE <= 0.99 * min(B0 mean MSE, B1 mean MSE) in each family.",
+    "uncertainty_ablation": "Pooled normalized regret of B3 <= 0.90 * pooled normalized regret of B2."
+  },
+  "implementation_hashes": {
+    "SpaLORA/night11a_corruption.py": "82eca9ec3d52454b0b7fbae9989f0d7a3ae992425b7aa1c7cf87cd2e519213f4",
+    "SpaLORA/selective_transfer.py": "6eb4158b807ee17545d4bed26dc24e3e3eda33978fe63a19cf3de4d19c125234",
+    "configs/night11a/night11a_frozen_config.json": "5ba3aae3021d1e7346db7e128f96e6a041cdf0a497d9b93114762f9af7ca5988",
+    "scripts/night11a/run_identifiability.py": "1cb8be2ddfcbed401128ab6cd7049c20d3a081d5c603e056df72a1f81dc29665",
+    "scripts/night11a/summarize_identifiability.py": "548c39a0790deaa1359177079741c3ee7bbdf33e695ac9bef36f256d44fc3b94"
+  },
+  "ordered_and_fold_hashes": {
+    "u000": {
+      "directions": {
+        "MODALITY1_TO_MODALITY2": "a4fa78bcd2d78e4bf068d9077631e110bb822e3fb215428e812f820f48f5f7f1",
+        "MODALITY2_TO_MODALITY1": "9093858b33ab56c03fcb0f71e8cb147dfa8bea4ccf27adc8a291cdcaf047d7e1"
+      },
+      "spot_fold_sha256": "ed468943c7c730d5fad17c3bc6b1d871875910e7c135a5e945820271092222ad"
+    },
+    "u020": {
+      "directions": {
+        "MODALITY1_TO_MODALITY2": "9b7d8141edce46d86c463cd0ce31ffa842f1dd06bdbad3dd1386d8561936cf20",
+        "MODALITY2_TO_MODALITY1": "b40596b570a14206de39e5c88279ab8c69aa5dc90065be629ae4ac9049aaa88c"
+      },
+      "spot_fold_sha256": "afe3b315b2743937969c9826f5990088adcf6ad863d92aa29db89f3867a44ea1"
+    }
+  },
+  "replicate_seeds": [
+    17,
+    29,
+    43
+  ],
+  "schema": "spalora.night11a.formal_freeze.v1",
+  "scientific_formula_changes_after_smoke": 0,
+  "shape_audit_sha256": "6035512021fd05cbadbeed8a7199b9ce4bb865727b706083e71b22018faf8737",
+  "smoke_index_sha256": "52ab108fd5cb89be116d3732d62a164be3a8326fac9e981ae4a6e42f0c597076",
+  "smokes": [
+    {
+      "checkpoint_sha256": "a6ec263bafc941fdb1be73deeccda28b34b869794045c3dbdbbd49fbfffb4e56",
+      "corruption": {
+        "MODALITY1_TO_MODALITY2": {
+          "patch_sha256": "f0eaab31d409318188200b38d0ec9408d2680d0439ef1657f1399b7478b09ec0",
+          "patch_size": 697,
+          "permutation_fixed_points": 0,
+          "permutation_sha256": "f69f2138f23d2cb16e1b1afdf170d1f5d2f8b56aff65ed8b5996f0defcdba104"
+        },
+        "MODALITY2_TO_MODALITY1": {
+          "patch_sha256": "8610a4e06806dffc5fed1d2c22a336404b0593bbd1b973301b3854136c49f324",
+          "patch_size": 697,
+          "permutation_fixed_points": 0,
+          "permutation_sha256": "8ab67a8989b23620c4eb261e1f7ed3af9b71e691f0d244034bc9f1352dc61008"
+        }
+      },
+      "fresh_process_roundtrip": "PASS",
+      "manifest": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/smoke/u000/LOCAL_TARGET_DAMAGE/seed_17/manifest.json",
+      "manifest_sha256": "633f72c3654145a5a3cea3269fee378c3558a82464e0fbcaae077d56f2cc65ff"
+    },
+    {
+      "checkpoint_sha256": "e82c9477eb191c65323b9002e3df1f5697200759d8e21340a78de6749fa9f607",
+      "corruption": {
+        "MODALITY1_TO_MODALITY2": {
+          "patch_sha256": "26990f4d9c5777e9c311bf1753f432375950ad88a33bc6d4ad1044889f000434",
+          "patch_size": 1840,
+          "permutation_fixed_points": 0,
+          "permutation_sha256": "d33a69fba21bb74b435e555ed12eb99a9345716006bdf2be1e8d9d6320319786"
+        },
+        "MODALITY2_TO_MODALITY1": {
+          "patch_sha256": "7a0342afc51ed8877c72afde48eafeac8d367e4c00f43351a88102901af63308",
+          "patch_size": 1840,
+          "permutation_fixed_points": 0,
+          "permutation_sha256": "0470c49e2f20057bdd3ce34f0a4d6ba13df314e215782dfc16da91fab395d4a8"
+        }
+      },
+      "fresh_process_roundtrip": "PASS",
+      "manifest": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/smoke/u020/LOCAL_AUXILIARY_CONFLICT/seed_17/manifest.json",
+      "manifest_sha256": "9180f1d59dd8b4eca9d3980b156d87584ed86927c42d238586881be373451b19"
+    }
+  ],
+  "status": "FROZEN"
+}
