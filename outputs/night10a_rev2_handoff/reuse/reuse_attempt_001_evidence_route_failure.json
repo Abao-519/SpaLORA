@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "common_error": "loss_curve.csv absent from preserved raw-artifact manifest",
+  "label_reads": 0,
+  "observed_failure_count": 63,
+  "outcome_information_used": false,
+  "resolution": "validate loss curve against loss_curve_sha256 in each preserved training_manifest.json",
+  "schema": "spalora.night10a.rev2.reuse_attempt_correction.v1",
+  "scientific_retry": false,
+  "status": "STOPPED_EVIDENCE_ROUTE_ERROR",
+  "successful_reuse_rows": 0
+}

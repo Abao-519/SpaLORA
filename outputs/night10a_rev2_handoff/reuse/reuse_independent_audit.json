@@ -1,0 +1,21 @@
+{
+  "checkpoint_replays": 63,
+  "d1_transforms_pending": 21,
+  "e18_5_reads": 0,
+  "group_decisions": {
+    "a1": "REUSE_ALL_21",
+    "d1": "REUSE_ALL_21",
+    "tonsil": "REUSE_ALL_21"
+  },
+  "label_reads": 0,
+  "metric_table_reads": 0,
+  "misar_y_reads": 0,
+  "p22_new_training_required": 21,
+  "reused_existing_transforms": 42,
+  "reused_training_cells": 63,
+  "rev1_preserved_artifact_mismatches": 0,
+  "rev1_preserved_artifacts_rehashed": 473,
+  "schema": "spalora.night10a.rev2.reuse_independent_audit.v1",
+  "status": "PASS",
+  "unique_replay_row_sha256": 63
+}

@@ -1,0 +1,449 @@
+{
+  "count": 63,
+  "label_reads": 0,
+  "rows": [
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "8a8eb0b86e0bb34e722b8bb751aa692ae2dc7b9e35359758ead27421c49809da"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "7a12e8fe441457d4c0eaf15de08fb9f5307ea87330e7ee5765e8484e2ff4aaa9"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "87f7328f9c84e22ffd8abbfe6d21151852f8c79c6294f46e0c531695db20f8d9"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "c6f3266416cb1960364caefa239730bf704a13947b3466f6b84c0662f9b90948"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "daf83126fa1a61a5b37929068eac3f3ec0b4c097a74f4e9b9b38534a3dd5e1c8"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "85af83693f7773edd38b43b835de554908c9ceca4d2008450a2797ee7070bfa3"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "a1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "addede66f8819a0ec6ff34b32dc869949aca25e9203b71c7a10e6ed4caf62ab9"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "fea0fc3a6f41ae04b50dd14778bc9981082713b7954435f788261e6874d0e4ba"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "0f9a68c5ac9bbafec3d290fea21db58de1d26cc42ba945a815f8637935976671"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "02dc7304f1ea5a9f598995acd2a423458a635b083ec81914903c3226dc556f98"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "84fac6255ed111b4a4d44358e029dc55f89be0a1315682094eeb91abb95f30b9"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "99c36542b9addc2ffe3fca31fcc2ca9f2f534a174acabae43e0c3b1788d2a513"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "21bdda2a281b584da741a6ef379718025374ddacb6da95f554b3d4cd86e1c2c0"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "a1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "446ab5b716cbe958ff5744144ec831d9ca847510b2eb3c1cd1a2a77c7bf7cf04"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "e0ddacce82bfcbeba442e5188538b966fac70166cfcc95fd67cc6d88dbb9d189"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "1aeccdad2cb26921092bd41f59148884f6e754299b706b6e34b3fa0b5e204b3a"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "1af32a01a33c079fd79fe4d2ce708708dd49d111a3488e5bc1cd9c8ba2bc06bc"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "451bc9174ff9f45164078cc7f5593933e3721b8fb6e2fe6aba374b067b45cbf1"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "6630867e3fa9ddb8cd509bf896aec2522ae07f4152978f1faa9f972644f6113e"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "aec1adda3ddcc143bc4b72d2f34f9d442c83f5247605734a30ea921154c02342"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "a1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/a1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "e3ae71eb4d7e1b9567169ca0de8b8f3703b217768e6abf947caba173b6ce1395"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "d95f86bcc6d50084ff97f1c1370ccdd7a800293c4c8635017080ee4ba2f95c58"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "09ef95b84c5aa19c23a2648a97434733a93f2fef6ff15541e3f7b8af4f227165"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "4c09cc72ad1af755220de7357d236cf7e67273ca4a9b645bc7e706fc0dc0b7d7"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "4e848374dbd4aa1934448be7674b4d094c9756dd29309dbf71e2bd13b886935b"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "1e7b6b54260b776c029ab777d99691a8b60cfb36af085bf8a94389ccc8c6ba7e"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "abadb9a74abbeca67b052f2ac4bd71e2132bb236ec5f5d7b0d661cf89e4fec05"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "3d228111d6606557b22754a7181bf2be18212c44565ac74a269b29b9903a8f7a"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "4af94c892375ed4d2013d5d817ef782e177b77d667e8c606c8386140e25120f4"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "421fc8bf6e9924f638fbe31dd66792f7f990527e238e6292f5c430ac609b7f37"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "2cb0d9f22913884cde48e77297b9719d5ee59075ab97157e8c93767f3dadbc0d"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "7beb9c1bfa4c677daf17622d28f8ad2dbc480cacf0b6e1bee11f0793fd93a377"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "89dc657bf459c4296c0f0af3e062e11e2f16709472f08d2be1b686a075bcd7a6"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "88fe3856962db0d927ad1ed411ab7965a3b5a38502b5e21d20874a38a56ea23a"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "7d7685fd3ee3af8023a9f725bc0aeb64009998e5389792ad3758d144aa9125f0"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "fe3851573c6bfd15d61656c3375ab9b1791d41ee4d9cb2f95f4b3df68e2dcea5"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "57ed0446d6ff3af01cc3dbdef6bdb19d80a796c632ca5fdb1269ae32653cb72c"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "03a4f7806fc5fec3471a03a2559b0d6b35c558f83e7a85d736e30c85a4e21c87"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "48510302b1c3f11c0859413ecde67da4b267392d658b399e87e6f8bad6f249af"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "8a6db71f3740cddc3ccd52d646b797d42255ed9ad3734fe90bb8572cfd03a97d"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "001c0a4681160c3270d8f4d013cca2d3bbc8355bff230f6c25e6e982be10f13d"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "tonsil",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/tonsil/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "616cecfcdd33139f59923520441f4d3f2ad66217d91704943ee288f68cb229ad"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "6ddd25b11ca65cc996c5406470e8ad1d74cf50ec13180628a1b661887ee80ac5"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "02b9048ace30af70118ad9e24a0c9449076863cb2ff71d9175c0f01a65adb5c6"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "754831b2ad241aa1210fb8c4ee19262ac3ac3e13e9423d3e3a443960f80411d6"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "bdb3ea146dff4be129e797c94337fe8ebe9e1060fd32103802a7b43e10598a0d"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "1d0578dd456231c8b543dd9589859dc6c541f6d0551525d217a8a2a8ba2e2f81"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "9f6b2969d4aacec06e4a9d70acb20747c983c94dbffbb1a7cb764c1569ec6fb1"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "d1",
+      "seed": 0,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "9978f512c72931de21bbbc502c60cfb5b2f02114f8e646ad4181241610f02132"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "955cf156c160b9d462ab00f310af04d2af28c12ae09efba6bb46099a3b35bb94"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "c6453718ec812e0a77596854dccd025db6677e31b02ba8bea879716ff3a8854d"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "dc60db23b8bfb88d98542ffb6befd69808fb2607985c607ae626e7b16ed94393"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "44c51ad5d4a7c73dadcc4516d29bb8f058c7413a0f531b98f9a2ef65ed02cfbd"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "b88706c1a38e3fc1f5577559329b6d26d4a424ac9418469ef1ef5d522e47cbcf"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "35799715b7b2d73687dd736d99b0e9d31aaa9b1a38f14592dadfd8750db0bcbd"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "d1",
+      "seed": 1,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "e00e8ba23a8022b5059bb5cd6832b66eaa579a74997641859277febd857d75bd"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND",
+      "training_wrapper_sha256": "925695f302a3ff91fb37b862e83dae3a45fbcee6540b6c815857090598afdce1"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND",
+      "training_wrapper_sha256": "869e862bb0425010a60723c5602b3a1612ce2b9a98b20833831b0395958c2c7a"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q03_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "0e748d75edf43a60cad8f776ed0a49ad896610829b01fa7e198654fa84a011ba"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "training_wrapper_sha256": "fc36b614c1fc54d1331fbd4a0621adbae8ea64b8550ac06a2f1701ebd01a2fba"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL",
+      "training_wrapper_sha256": "2bf4f6af003db614c5ab27651184eb35717b597ed6bca11be2e61fa18b55de23"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL",
+      "training_wrapper_sha256": "29ce170bd3a81c848db1ac14a736f23a2e38dd29e8ec661b007366caa5cc4f67"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "d1",
+      "seed": 2,
+      "target": "/root/autodl-fs/night10a_rev2_qcrd_20260821/r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL",
+      "training_wrapper_sha256": "ca28b9917a9f452c00cd35769725dbc2fd2abe4bdd8198fd1137cb460b388244"
+    }
+  ],
+  "source_raw_modified": false,
+  "status": "PASS"
+}
