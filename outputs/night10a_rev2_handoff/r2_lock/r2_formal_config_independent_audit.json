@@ -1,0 +1,49 @@
+{
+  "config_count": 18,
+  "dataset_counts": {
+    "a1": 2,
+    "d1": 7,
+    "p22": 7,
+    "tonsil": 2
+  },
+  "e18_5_reads": 0,
+  "exact_preflight_row_sha_bindings": 18,
+  "input_manifest_sha_recomputed": 18,
+  "label_reads_during_r2_config_generation": 0,
+  "misar_y_reads": 0,
+  "prior_r1_label_reads_per_dataset": 1,
+  "r1_frontier_decision_sha256": "a143d9d0e9abd485f8f4a87cd9e195db47cdceb4f882e8b9a0293dc32d7ee58f",
+  "schema": "spalora.night10a.rev2.r2_formal_config_independent_audit.v1",
+  "seeds_by_dataset": {
+    "a1": [
+      3,
+      4
+    ],
+    "d1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "p22": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tonsil": [
+      3,
+      4
+    ]
+  },
+  "selected_candidates": [
+    "Q06_COORDINATE_PRIOR_RESIDUAL"
+  ],
+  "status": "PASS"
+}
