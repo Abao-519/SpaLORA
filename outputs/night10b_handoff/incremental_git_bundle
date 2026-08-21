@@ -1,0 +1,7 @@
+{
+  "bundle_filename": "night10b_incremental_from_8b83fe38_to_final.bundle",
+  "bundle_range": "8b83fe38f3fbd4d3cb24fef6512596be2d49408b..night10b-final-20260821",
+  "note": "The actual verified bundle is generated after the final commit and included in official_compact; this tracked descriptor avoids a self-referential Git object.",
+  "schema": "spalora.night10b.incremental_git_bundle_descriptor.v1",
+  "status": "PENDING_POST_FINAL_COMMIT_DERIVATION"
+}

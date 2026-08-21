@@ -1,0 +1,17 @@
+{
+  "authority_implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+  "formal_correction_cycles_used": 2,
+  "formal_replay_expected": 30,
+  "formal_replay_passed": 30,
+  "fresh_process_roundtrips_passed": 2,
+  "fresh_process_row_verify_passed": 30,
+  "fresh_smokes_passed": 2,
+  "historical_raw_immutable": true,
+  "identity_blind_router": true,
+  "label_and_forbidden_counts_all_zero": true,
+  "resource_budget_pass": true,
+  "schema": "spalora.night10b.independent_final_audit.v1",
+  "scientific_claim_boundary_pass": true,
+  "status": "PASS",
+  "terminal_status": "NIGHT10B_FROZEN_FAMILY_POLICY_INTEGRATION_LOCKED"
+}

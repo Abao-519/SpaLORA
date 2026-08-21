@@ -1,0 +1,30 @@
+{
+  "formal_correction_cycles": 2,
+  "formal_fresh_process_verify": "30/30",
+  "formal_replay": "30/30",
+  "fresh_full_smokes": "2/2",
+  "fresh_process_roundtrips": "2/2",
+  "frozen_recipe_semantics": true,
+  "historical_raw_immutable": true,
+  "identity_blind_router": true,
+  "label_and_forbidden_access_counts": {
+    "ari_nmi_q_ami_fmi_spatial_metric_computations": 0,
+    "dataset_name_router_calls": 0,
+    "dense_n_by_n_constructed": 0,
+    "e18_5_accesses": 0,
+    "evaluation_label_reads": 0,
+    "label_reads_total": 0,
+    "misar_y_reads": 0,
+    "new_external_data_accesses": 0,
+    "new_scientific_candidates": 0,
+    "qcrd_train_resume_evaluate_runs": 0,
+    "scientific_retry_fallbacks": 0,
+    "third_party_benchmark_runs": 0,
+    "training_label_reads": 0
+  },
+  "night10a_frozen_interpretation": "QCRD engineering repair succeeded; scientific candidates failed.",
+  "schema": "spalora.night10b.decision.v1",
+  "scientific_claim": "Frozen family-policy integration and reproducibility closure only; no performance-improvement, SOTA, or trainable-unification claim.",
+  "status": "PASS",
+  "terminal_status": "NIGHT10B_FROZEN_FAMILY_POLICY_INTEGRATION_LOCKED"
+}

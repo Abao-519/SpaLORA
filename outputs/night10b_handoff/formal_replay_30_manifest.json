@@ -1,0 +1,2008 @@
+{
+  "active_cycle": 2,
+  "correction_cycle_limit": 2,
+  "expected_rows": 30,
+  "failed_rows": 0,
+  "formal_correction_cycles": 2,
+  "fresh_process_replay_verifications": 30,
+  "invalidated_cycles": [
+    0,
+    1
+  ],
+  "label_reads": 0,
+  "passed_rows": 30,
+  "raw_log": {
+    "path": "/root/autodl-fs/night10b_family_policy_integration_20260821/logs/formal_replay_cycle_2.log",
+    "sha256": "595436bc0fe055f50664a39a268ab2a227b62599c20e1d9a3e2dd830a78f5eb1"
+  },
+  "rows": [
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "a1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "c4fa3fe03e2441e46901da7018e97e3affb5c4efd0988d141da4e75f2b2d0273",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "raw_manifest_file_sha256": "9c36dc5cf25575d0a8a6e89cfd73495647be03d1180a9eb83d8c5198cbd80c8d",
+      "registered_input_sha256": "46df38fa164bfc8ba4df0fd34e6867aec03e2f6765c92132b3fdad90313a9d45",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "e784b722c8c9088bc4d96e5c3cafa673416dbefdfc4d393cb1321b30fadd9701",
+      "replay_manifest_sha256": "f6fbcad6ac5901e1458656fa8dc01554a4ed9dfe45603786d5f1808ca5025954",
+      "replay_partition_sha256": "bdf4607fb351ca446e0d3b5957649318ee7c228b453997ab0ca2261fffe69acc",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.881833268329501,
+      "seed": 0,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/worker_input.json",
+          "sha256": "a1414668e158204a15ccc8bf97185fbb11c4ca70c348e4f2d09cefce500910de",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/g04_views.npz",
+          "sha256": "0391997d6b0f893ef10e8f76b899d8e992e7ac1043d45816e8db8fd5fdcdc290",
+          "size": 2557016
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/c00_partition.npy",
+          "sha256": "f7b451f10341f35abcaed7c62ddf359482188f08f88316e18e68605daf8120b9",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "source_reference_embedding_sha256": "e784b722c8c9088bc4d96e5c3cafa673416dbefdfc4d393cb1321b30fadd9701",
+      "source_reference_partition_sha256": "bdf4607fb351ca446e0d3b5957649318ee7c228b453997ab0ca2261fffe69acc",
+      "status": "PASS",
+      "unit_id": "u000"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "a1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "3bbd6c6e0a346e6b1a7c9b068c62e5e62657ef32c4eb417aeaf2a0278af552b7",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "raw_manifest_file_sha256": "1f048309ef10cb8262b500db615f257f13c638fece98f319126afbbe607298a2",
+      "registered_input_sha256": "a2fc05ea7b9a410b039d6510b2dc299b739e4fd099ed78695a327b4975152142",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "a3535082bc8ec402af567059b09c63fac38310849eb559890e7e19609b3b9dfd",
+      "replay_manifest_sha256": "f765e02e4101a4b50d73d81ce661827a6d5b7134fed5774a68e2863022195219",
+      "replay_partition_sha256": "759188c0b3f85709379d5071ab3c215d20e6b775d141d457f65d13f31dd7434f",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.803565399721265,
+      "seed": 1,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/worker_input.json",
+          "sha256": "c515ed3ffe8c9785ee279424ebc439742042e8ab35eae23a3f62b3f7437e4d32",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/g04_views.npz",
+          "sha256": "ebc790713fdfdc1b7eb0ded4ed79e4f5a8615b24d65ea47105caf9bf2a6b9777",
+          "size": 2556819
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/c00_partition.npy",
+          "sha256": "86cea14d1cf0a44bc0cb8fc028ae93b4462a47160f40b22c0131abb57ec5e528",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "source_reference_embedding_sha256": "a3535082bc8ec402af567059b09c63fac38310849eb559890e7e19609b3b9dfd",
+      "source_reference_partition_sha256": "759188c0b3f85709379d5071ab3c215d20e6b775d141d457f65d13f31dd7434f",
+      "status": "PASS",
+      "unit_id": "u001"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "a1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "b6b02112ccef7a2878e6dac1703f5572201466cc5592afdb3b274afa80a5d114",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "raw_manifest_file_sha256": "43de96492875d4d2cd691297d00a9d3ec4491304892a56e0727603cb4f7aef5d",
+      "registered_input_sha256": "8f45c7989bea891b33aa1b3f532215f4cb7d5789d0540c59e8705ee252abd7ba",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "b8e47ec7b8c517bf6afd57715efb31ca4b19bd631295130e848c4dc9e44cf606",
+      "replay_manifest_sha256": "02e0d8f7c448ae3f334d7453f421f2d5fab63ce801502e7f1de338b7aa518256",
+      "replay_partition_sha256": "137a8372cd1b871d699d3d41119d26cf9eea834ab0d8fa136a2c3b15a0601aeb",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.8549003954976797,
+      "seed": 2,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/worker_input.json",
+          "sha256": "4acf9ed7ff47c37be9360714719dab48808e4a9ce8fe590a3179903ee944b708",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/g04_views.npz",
+          "sha256": "510bb370db87441cc060c658a566a1846f7a7ab98f2da222b11b85551e4a4bb9",
+          "size": 2556363
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/c00_partition.npy",
+          "sha256": "eca7a7950833ffe69fa95bbb40eceac23ff9a9ab019c57658f83214ba1d1dd18",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "source_reference_embedding_sha256": "b8e47ec7b8c517bf6afd57715efb31ca4b19bd631295130e848c4dc9e44cf606",
+      "source_reference_partition_sha256": "137a8372cd1b871d699d3d41119d26cf9eea834ab0d8fa136a2c3b15a0601aeb",
+      "status": "PASS",
+      "unit_id": "u002"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "a1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "378941726c09fe9dda91712f58af0785ed1c636e2e77815f32458d4ccc1c6e27",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "raw_manifest_file_sha256": "310341ff6474534177d6a5d46fd93fb3651f412c34030496ea4aa1ab0ebbd076",
+      "registered_input_sha256": "511aa5becf6772e01dc2c3c7ef5aa01207d7d46059ac3da43e30b25f4322f72e",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "e0319b862bdb1b78e335f17f52b3f81c64aab9ed20858df47e330d7513ba78f9",
+      "replay_manifest_sha256": "cd6d6f16e477fd487a778532de0ff833b6f9979d7989f63f9717672f1e4bc1f7",
+      "replay_partition_sha256": "5dfa57efae20cfea5511918edad51cbbc1641fb7e857081607bf4ee6c3778ee6",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 4.256451111286879,
+      "seed": 3,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/worker_input.json",
+          "sha256": "c60fecf46aca8b927162d6f1c29c0947dd61b5d101611dee0202c1e99862cc61",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/g04_views.npz",
+          "sha256": "2779522c681089523c73b9c5c495fdc36c33ef7cc92484c9b0b05ab53a4bc824",
+          "size": 2556788
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/c00_partition.npy",
+          "sha256": "44aed1010f0c71427f93f41fb4734f09abe9beb062c57fce6765bef148d4d89c",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "source_reference_embedding_sha256": "e0319b862bdb1b78e335f17f52b3f81c64aab9ed20858df47e330d7513ba78f9",
+      "source_reference_partition_sha256": "5dfa57efae20cfea5511918edad51cbbc1641fb7e857081607bf4ee6c3778ee6",
+      "status": "PASS",
+      "unit_id": "u003"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "a1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "ace5df76e6a75033721e3e2010e94b528cfbcc69ab7c5da563579eb4bd13bba1",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "raw_manifest_file_sha256": "a80946c9943649d194c693348061dbe3e9f13297920157e7a2329aea817e2a9c",
+      "registered_input_sha256": "476338bf9c42aaa23fc468b3b32ada72f5b0f24346b2a5a048033d154d5a1885",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "641b079bf516389ac2bd3ad121f928293fb871f4f59bcae6496e23e21026e1b8",
+      "replay_manifest_sha256": "74b3d567d6139d984a4c925900244e50e58039a1bacf1dd98711a222f10d2f83",
+      "replay_partition_sha256": "81a51208ad873e356056e0d21fc11ad3ab4701fec135bf7fcb0d7cd58fcb4da9",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.693221280351281,
+      "seed": 4,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/worker_input.json",
+          "sha256": "bbaa4d4d6839dc3582a39a41d8e03adb34442a95d644d68662b0012a8b40097e",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/g04_views.npz",
+          "sha256": "cff0f0eb5ec79e30b450ce8cf769f69cf974d56eb056a677eae278679fc3d615",
+          "size": 2556491
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/c00_partition.npy",
+          "sha256": "5cfff04dfd5a2cab8c95c5db3e4357bf2f961b0f36fece110fe76844e6201373",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "source_reference_embedding_sha256": "641b079bf516389ac2bd3ad121f928293fb871f4f59bcae6496e23e21026e1b8",
+      "source_reference_partition_sha256": "81a51208ad873e356056e0d21fc11ad3ab4701fec135bf7fcb0d7cd58fcb4da9",
+      "status": "PASS",
+      "unit_id": "u004"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "tonsil",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "dad75bf4c4f3f06ed593b1375a7c1e985613878cea9fd2c77f4f5d7083f0e35e",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "raw_manifest_file_sha256": "2a1697f2980c538f936bf69a45765cb3fe81a8c98968a37213440112a4955853",
+      "registered_input_sha256": "7da0ead39ac8d24238b92352b7a53b4b0d395a999d68a293a7fb4826e8c10c58",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "42668e7ab0ce2e34a6ba33e5aa41d387d2fd1570db5ef548656f00793f5b99cb",
+      "replay_manifest_sha256": "802235f030bec126ad8b2e28bbd43498abeda2157be9cba77274fde8c8f8f963",
+      "replay_partition_sha256": "9291d89a8f4456c5a38b264e4f6a8596c3e96f511e13dd6f66518f42cf904d90",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.565690129995346,
+      "seed": 0,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/worker_input.json",
+          "sha256": "a38f7c2a9a76ec04adeef0168e61ea93de7baf7dfbfa15aca2cbea38181b936d",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/g04_views.npz",
+          "sha256": "2470d1d17f8cd2323e03ccd63fc8c77e1d1fab26097dec3e1d40e953cc0cf56e",
+          "size": 3171733
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/c00_partition.npy",
+          "sha256": "38d532e948dc660520ba20e4ab662ae59bf4090ab48415c235f487cce7ad65ed",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "source_reference_embedding_sha256": "42668e7ab0ce2e34a6ba33e5aa41d387d2fd1570db5ef548656f00793f5b99cb",
+      "source_reference_partition_sha256": "9291d89a8f4456c5a38b264e4f6a8596c3e96f511e13dd6f66518f42cf904d90",
+      "status": "PASS",
+      "unit_id": "u005"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "tonsil",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "7140577eaa29a3e3cd6fe3f2b6d0e22f2f348cd8bea0fd75ef2a7dab8d81532a",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "raw_manifest_file_sha256": "f3afba5faa01c80951267a57c61b10dfe146ee897eb65e69258d1c3d4eecf4d5",
+      "registered_input_sha256": "b7883a62630c9f9a522e337b1f6dc72967742e402041bf9f5ead2d5f602556c4",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "783681b75247c40936fb4e7be7d920d4d9e7d51d5bcdc98f5725a3a3684be3c9",
+      "replay_manifest_sha256": "a5c7a091c62f069e207eb7a2143bd05178911475347179b3f4d586dfe0614c38",
+      "replay_partition_sha256": "cff15ac03a718d78c8e5bd00b62d6ad3f25d89a75dd6f75e67642705222471e5",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.200610024854541,
+      "seed": 1,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/worker_input.json",
+          "sha256": "93041cf1d5763d2366aea10f9409315a3aa794ad516e878285bbe1d7d8f988f0",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/g04_views.npz",
+          "sha256": "ebc1509e09b208846d47d361fc18aa366ebafd8058f4ea07d3e94ac7978c0ac3",
+          "size": 3170667
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/c00_partition.npy",
+          "sha256": "e5449fab63f8fcaefd098642b057b3af6cfc3560fa58af3a3bef034d760981c4",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "source_reference_embedding_sha256": "783681b75247c40936fb4e7be7d920d4d9e7d51d5bcdc98f5725a3a3684be3c9",
+      "source_reference_partition_sha256": "cff15ac03a718d78c8e5bd00b62d6ad3f25d89a75dd6f75e67642705222471e5",
+      "status": "PASS",
+      "unit_id": "u006"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "tonsil",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "933d106f527f1db66f0b9703d29bda4c013e35b7eccfc5657abb0146a6235bbd",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "raw_manifest_file_sha256": "66e72bd4942dfd3f4d192e4f80e5ce1faae1df7eb17665bcb264bc5ce4d56143",
+      "registered_input_sha256": "f914bb3c08b49d0da2f7091e623fe3707be7acfd51f7a26fd5dfc468669d8c96",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "df193d338c47781e180584d1a50e9c55891424c3852487df052c264f5f6014ab",
+      "replay_manifest_sha256": "04b5bb0e0e8f0fb3d80f619ef9bb328ae3e1a8156882ebb974a7d5319f2b3971",
+      "replay_partition_sha256": "87056b4f5af480bb76e056e995766e859cf818472c79aeb65670af5e92fff672",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.3276446405798197,
+      "seed": 2,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/worker_input.json",
+          "sha256": "2607fb4b91b3ae2e6c4ce6d536ca50afb4c43824b96c105b37c135737304674d",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/g04_views.npz",
+          "sha256": "987292acc95c5a1edefc0c14c8c3ad5f4fa136bd023a1ad44297e7e32687d684",
+          "size": 3171567
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/c00_partition.npy",
+          "sha256": "84bb92d1d0199cce63215255cee34de9b2411787d89c5680d2d36bce11592363",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "source_reference_embedding_sha256": "df193d338c47781e180584d1a50e9c55891424c3852487df052c264f5f6014ab",
+      "source_reference_partition_sha256": "87056b4f5af480bb76e056e995766e859cf818472c79aeb65670af5e92fff672",
+      "status": "PASS",
+      "unit_id": "u007"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "tonsil",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "fddde62ab44c6bbac51a43a5b8889a9dc020028430eaa226428f472689a4d9dc",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "raw_manifest_file_sha256": "5c800d6542df772c20ef4525a4ad7b2bddca88a8ca6a3c6e485c35927af16575",
+      "registered_input_sha256": "c475cdfc748985daaf0eda2bd2ccf35d0f6a71f8667017e3affc398d690634aa",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "6633b97237dbd30ed4a4aaff31893d38be66a5228161707ac4c4dad04d2e8b92",
+      "replay_manifest_sha256": "e5e67669e09642ed7ba2f5cf6ea1f558a456b31b6fde84c70c71313815e3d571",
+      "replay_partition_sha256": "868520e73522974eaa0821a3fe981a1ed489dc8b4c6620cf288316e38fc5fd1e",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.5645296424627304,
+      "seed": 3,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/worker_input.json",
+          "sha256": "0532d4a75fe0a2256e6bf41eaaf1235b7f0261168d1b2904c9dfe2eb9c58fb8b",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/g04_views.npz",
+          "sha256": "f309df877d27573b45a548c391336b2d26f14524f563b7804444627d95f00c0a",
+          "size": 3171603
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/c00_partition.npy",
+          "sha256": "bfb1c6a0dfb09ad982dec96fb5b0dcb547da0ec7cdbda2cf9c1d514079a9f9bd",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "source_reference_embedding_sha256": "6633b97237dbd30ed4a4aaff31893d38be66a5228161707ac4c4dad04d2e8b92",
+      "source_reference_partition_sha256": "868520e73522974eaa0821a3fe981a1ed489dc8b4c6620cf288316e38fc5fd1e",
+      "status": "PASS",
+      "unit_id": "u008"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "tonsil",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "0526dc484e069578467e8e83f5e635d790aa33359e5660fef017887a65f685db",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "raw_manifest_file_sha256": "762482a11523d08181f6b808e74d9779e221b52f0fd6f04b96b034c1ede64db0",
+      "registered_input_sha256": "b8e0294eef68f2e729fa97b0d9591e8724471ef221f374ffee6dd61d8c1a50c4",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "6e47f05b6b201666a626035568d0e3faf7fee931bbd9a4e1df354f6df997d18e",
+      "replay_manifest_sha256": "b51b74e6ea3c7fbd3a3862cce2667e136116f30861d667e149b9a10ecd00ab7a",
+      "replay_partition_sha256": "d5d0d508a89ef43022cbd189b6afb812d46943ce531665ae5a179a9ba40ad3b9",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.843286667019129,
+      "seed": 4,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/worker_input.json",
+          "sha256": "77b22337b004365dad55be4b651a63a12b317d6116db6ae77212233820a73062",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/g04_views.npz",
+          "sha256": "63695bec1032d2de861740f18f0ecdba3926cea2472a75e926469fab22dc7f4b",
+          "size": 3171929
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/c00_partition.npy",
+          "sha256": "e2cfbde4196653db3be02403e796fc87bae4405c6aa03a3cc96a34387d54cb22",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "source_reference_embedding_sha256": "6e47f05b6b201666a626035568d0e3faf7fee931bbd9a4e1df354f6df997d18e",
+      "source_reference_partition_sha256": "d5d0d508a89ef43022cbd189b6afb812d46943ce531665ae5a179a9ba40ad3b9",
+      "status": "PASS",
+      "unit_id": "u009"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "170f6069cf83bc90599ba10d07c3dcc53bb105cdb27d4c4b67b8bf21eda0b956",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "01e933abdc686298582030989970243b3f8b3cc96dbc8f50369de216f2cb2a69",
+      "registered_input_sha256": "4226d6f27eee767e76e1882ddc3bd4f54bf1b6678a9c2787b6c394dd7fffa8cf",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "4903189fd0e87d1f3d6d6f54667d9e9429534fdbc56eab3363731154aed1862c",
+      "replay_manifest_sha256": "222745ac89f3b6d504affe19c36ae66c72de84b67a32b31122560cf3cc1dc65f",
+      "replay_partition_sha256": "e986013447c3c5e31cbee418bea48488f8b75cb8af08cd0822f5bab244d00b9e",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 4.314883261919022,
+      "seed": 0,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/worker_input.json",
+          "sha256": "ca814a962d5262e71d389893c8e2145d1c05451ed1e4b663f636621e510ba3e6",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/g04_views.npz",
+          "sha256": "7cd9d913fd2c5f1c2fc985b6bf38f9dde4f582472e1b5dd4d5b6bedef926dc6b",
+          "size": 2466443
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/c00_partition.npy",
+          "sha256": "46c6c68879342f722d6a433a49185a3b7a25ab801f9d20f686eeb3d21cf5b11c",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "4903189fd0e87d1f3d6d6f54667d9e9429534fdbc56eab3363731154aed1862c",
+      "source_reference_partition_sha256": "e986013447c3c5e31cbee418bea48488f8b75cb8af08cd0822f5bab244d00b9e",
+      "status": "PASS",
+      "unit_id": "u010"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "28038cb3e4d3fccad99a882678836bf49f019416689a5ee05be706772f0dd3d2",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "94948ace40489a1093a7a3d37bf60afbd8162bdff8948ba00d1471f58262ecd4",
+      "registered_input_sha256": "3a0efa382ae47179c91f30263d1572bc351ba0798d4dda53fb13a5da82c89f07",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "6eee24a841897999473bff2b451ce017eaf7ae1f224786238583e56cb64e2bba",
+      "replay_manifest_sha256": "f67293f633305a5d835fcb0c9eb63517428d7699e695263431099bdee94bdeb7",
+      "replay_partition_sha256": "44976cf8f2ce4197931ebd2d18eb96a21e315353c67f373cddaa35c7e31518e7",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.295212708413601,
+      "seed": 1,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/worker_input.json",
+          "sha256": "f41d9e7eeea3ce5a4f7734dc1aeccbfa0ad6809073b360d11efb09ca6e5181ec",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/g04_views.npz",
+          "sha256": "2bacf04c5e67251ab62458b514a770ba260471d671002f19a04a3263c9e42f62",
+          "size": 2465458
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/c00_partition.npy",
+          "sha256": "dd63f15e8db6a48562e4fd4a9af565062d6ca161e1e464965f4eed1eec5dbf6d",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "6eee24a841897999473bff2b451ce017eaf7ae1f224786238583e56cb64e2bba",
+      "source_reference_partition_sha256": "44976cf8f2ce4197931ebd2d18eb96a21e315353c67f373cddaa35c7e31518e7",
+      "status": "PASS",
+      "unit_id": "u011"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "716bda3daa3eefca09a9225e05cd1d59a2255330120130537806eca7f298a887",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "c8e040e0d9371f03864c0ef011afcaca016dbbbf2ed47136ee509ebb86e33a72",
+      "registered_input_sha256": "0e834f2569e88b3dd0c6117d2d6229b13adb5fac72b718d3d3c249b7a6d7dc4c",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "9810e85ef75d68da705d85803730615393305b8a6abafb584a0056a5e9441e42",
+      "replay_manifest_sha256": "9794baf1780ee32354a5c93f98371d714f77479051c485a4410b6bce1662255e",
+      "replay_partition_sha256": "92ab625126c810d04d1ec3c33ff703957a4b0192cb815504e96391176bd6d57a",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.4316152930259705,
+      "seed": 2,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/worker_input.json",
+          "sha256": "ce922326fe10d1d1581cdd316acffca74947748644738f853861778206977d94",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/g04_views.npz",
+          "sha256": "1791bad8b2bb32b8d6a66e4bd0e668f0c0cd57f6bfcd9db1d7e0b4395b30d86d",
+          "size": 2466446
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/c00_partition.npy",
+          "sha256": "618f73a26049e917c45804fa50a770549d40e864ab61f4cdc8dbd003cb5b9d98",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "9810e85ef75d68da705d85803730615393305b8a6abafb584a0056a5e9441e42",
+      "source_reference_partition_sha256": "92ab625126c810d04d1ec3c33ff703957a4b0192cb815504e96391176bd6d57a",
+      "status": "PASS",
+      "unit_id": "u012"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "84f7730ab09a9a6fd32556271cc6d1bd128b147773c86176cea1579486e4054b",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "069a4aaaf523c2b2d4d83a96f5b2b08a579736ddf006837d85e62c7919b5c513",
+      "registered_input_sha256": "fcf377786a794f11867602b1464e551bbc00b6ab91d329e35e10543f8cea8148",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "f6301b410b935ea07de6dddd4e334b7f9293b777ebf2802089fd94e86d37b194",
+      "replay_manifest_sha256": "71077e4f0f064311104914badb25761d63ae037030256790fb3f9841fc30f38f",
+      "replay_partition_sha256": "8f9bcab8a60afc3426cb0b7c4791cc8770007f1b029c2bccbb3cbb6ee74a32fb",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.9582720026373863,
+      "seed": 3,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/worker_input.json",
+          "sha256": "0a68c225b45036dfa9e753d3cc42ca10e1c0ec7239b3b4c90e65570f407d5029",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/g04_views.npz",
+          "sha256": "7971c1f074543f00fe39446fb6486b4c716d248645d7d274ddd34d89289c6c28",
+          "size": 2466519
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/c00_partition.npy",
+          "sha256": "80aaca6155954e72f4590775a051e555c104c90eee2dcd9f7ce3b730b85e9f25",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "f6301b410b935ea07de6dddd4e334b7f9293b777ebf2802089fd94e86d37b194",
+      "source_reference_partition_sha256": "8f9bcab8a60afc3426cb0b7c4791cc8770007f1b029c2bccbb3cbb6ee74a32fb",
+      "status": "PASS",
+      "unit_id": "u013"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "4f7773fc6f3bc9bd1ed37526c6e659d0bdd4f9af780ce04abad996dc7a0bb065",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "fb5e1bb671ad4f94bbe28a8341f5ea37cf2687374e1dd3d884857b8d5f4f093b",
+      "registered_input_sha256": "bad286dba225513512ba1c595103b68c861a2c6cd0489134cc02fe513bd9ad0d",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "b5e2e7f7cef6d4f3ff96a2b69966ffd648525ae2080968a2faa55c19275765ed",
+      "replay_manifest_sha256": "4fba7007be6dbbe23b0367eb9181807329cc4a0a5ea0495c12dcd42869bb3ece",
+      "replay_partition_sha256": "4e9fbc4ec62b797d1c9aea45cdc362b72f71753662eb015718d2b6b9268783a1",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.3383911959826946,
+      "seed": 4,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/worker_input.json",
+          "sha256": "6a4468821f5ddfdfb908cd610c2b92084ab715e1e81b81ce4efbfa27f7c507a8",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/g04_views.npz",
+          "sha256": "2a7b4cedc7e5e3ebec5984987de3e070a68ee213973933a53852e0ad4cc85153",
+          "size": 2465908
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/c00_partition.npy",
+          "sha256": "864176c54b7e21b42d7029c8e9f7466f838c1695460e0fbc7a3324f76112a850",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "b5e2e7f7cef6d4f3ff96a2b69966ffd648525ae2080968a2faa55c19275765ed",
+      "source_reference_partition_sha256": "4e9fbc4ec62b797d1c9aea45cdc362b72f71753662eb015718d2b6b9268783a1",
+      "status": "PASS",
+      "unit_id": "u014"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "a6e9075d055b1b969c8ee9d9da41fd93d307e0044fcfa9a3880849ee49c456b0",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "5a70b105aaf558efc7fcf586f67ac313705c63ccca7b3bbb6722a9a9bcd344dc",
+      "registered_input_sha256": "41614c5fd5e00d55f9db2b0b63a95d9f2b186ab2ac809554383e82fbb4acb6ce",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "2cc40cfc49e1cc430a8212f0926fa0bc2281e87d9646c18f8146b0a398078e50",
+      "replay_manifest_sha256": "2578cf23756dc9fed81eafc00b6a2d8a8693b7a7052c6f1bc3ab6b9ab0983789",
+      "replay_partition_sha256": "b56ab9a52b7f2f73b201bcbf804705b2922c7047e58ab6eaab7d75d67686090f",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.63034931384027,
+      "seed": 5,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/worker_input.json",
+          "sha256": "cf45c06ef7041792268a2ffd1e97857493eec3474f896658ea97b955c5a6e508",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/g04_views.npz",
+          "sha256": "a8d77dd2e088787082d6a3bb8ed0d79a4f2ea1402b4200a74ded48f493620f40",
+          "size": 2466312
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/c00_partition.npy",
+          "sha256": "52da91e480ba48acab17bb2836f207e956a5b8b081013ccc8789f5ce31bc9e76",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "2cc40cfc49e1cc430a8212f0926fa0bc2281e87d9646c18f8146b0a398078e50",
+      "source_reference_partition_sha256": "b56ab9a52b7f2f73b201bcbf804705b2922c7047e58ab6eaab7d75d67686090f",
+      "status": "PASS",
+      "unit_id": "u015"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "0fd9b56d723143accd1e097454952fc9516a8a4775e32a438f444ea324b8840a",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "8cb83c41581bcced783984ea2af71f3ad2764139b0d410a7f822615e94c37800",
+      "registered_input_sha256": "1d255a47430b141e86c82b832f4904c602895cdbc588e40f13ac9b79c400379b",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "d414a00b0c0e65511dc51be175a987ba11e792e5b46e12dfcb7012740601bfa4",
+      "replay_manifest_sha256": "b60d40a50adad109484fab19c57556ba49afdc0cfe0c2807db25fa56046eca57",
+      "replay_partition_sha256": "409d203ef8a3d3ebc4ac3d7ddedfd1e5459529ed7ec38542d6f7e891aa5fa9ff",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 4.1354374792426825,
+      "seed": 6,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/worker_input.json",
+          "sha256": "d1e4bb8c2a2efe0a709981d03b4aa18321f9c32714409e876a731b7b957c01ae",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/g04_views.npz",
+          "sha256": "ce029d5c1243dc528de7aa96d1f587d48ae6efffbc8ddd5089f20097617a6ba3",
+          "size": 2465716
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/c00_partition.npy",
+          "sha256": "b8ed1f487be0df06ed0ccbd3e836e6dcc83d43b650b772e4fe89916aeed2bbe7",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "d414a00b0c0e65511dc51be175a987ba11e792e5b46e12dfcb7012740601bfa4",
+      "source_reference_partition_sha256": "409d203ef8a3d3ebc4ac3d7ddedfd1e5459529ed7ec38542d6f7e891aa5fa9ff",
+      "status": "PASS",
+      "unit_id": "u016"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "a0070f34d626a936d3c30df9cf482b128ce8615a908f009c4a51b6340bfa6f94",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "25ce92f15716f376123f2eac75ee970c8369cf88d0320125d8f3d6162947eff2",
+      "registered_input_sha256": "dd7fe215558d04ab625636538b1a06579a0f3fcc4704eb93c0df54df35493660",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "2cecc129c5f9f535088db48559bcaec6af69f0794b33ddf8b8349e0b36e1065a",
+      "replay_manifest_sha256": "3bb132358616f050fb3416763c25c34c9f7dc8a99f352cf45beb4d09c1242b3b",
+      "replay_partition_sha256": "6d7ef062dfecd90ee48db34bac859f9622e3e45b85c045571325155f2b7f9243",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.7085949294269085,
+      "seed": 7,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/worker_input.json",
+          "sha256": "e02134041d4b6139bcdb34d0544447ae183bb9ae6aa03f35af851abcc3797812",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/g04_views.npz",
+          "sha256": "b7225074b4a57204902ec264cd7ebb60a0710e6f1d8322add7317026e7a464f9",
+          "size": 2466747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/c00_partition.npy",
+          "sha256": "b0d7f4b43a0b7425a923b96cd141aa3dfd7a75cfb8221f98d1f0c58626282476",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "2cecc129c5f9f535088db48559bcaec6af69f0794b33ddf8b8349e0b36e1065a",
+      "source_reference_partition_sha256": "6d7ef062dfecd90ee48db34bac859f9622e3e45b85c045571325155f2b7f9243",
+      "status": "PASS",
+      "unit_id": "u017"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "aab833abc9a6822660c561d64867b0fe63a78e55fea8779df7f06b4fef083767",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "5a7639af8de44e54f345db1a5e758dd2624c62af2f8c86452bb541fdc5a7ec89",
+      "registered_input_sha256": "82c0c09d8e2588a818341cfb12a5554443eb973dfa9ff15f22840be00809a143",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "97bab98cca8fc4979d168362265659a0626cf3c4882223e677d08b988324118b",
+      "replay_manifest_sha256": "322dace72e59bfbde795c6af75d0a6b443518a99fc1a89cf36ecc2e9970f2917",
+      "replay_partition_sha256": "a3e5873ea3e37ade511a7133345042ce7d74460582e5368a1969ddb5df4b63bc",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 3.3964734598994255,
+      "seed": 8,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/worker_input.json",
+          "sha256": "63b72b32170ddfd3fa1dee8ea158fd1c7a8edcac78570bdba01e881225ede340",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/g04_views.npz",
+          "sha256": "524674e5bf37bf0ce65203d0da86355adc039f9f2146092b081a3387977bba76",
+          "size": 2466710
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/c00_partition.npy",
+          "sha256": "ed863f76c9854091670367b56c4ecd22e79de9b7f0c79bb0238eedafaaa2bced",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "97bab98cca8fc4979d168362265659a0626cf3c4882223e677d08b988324118b",
+      "source_reference_partition_sha256": "a3e5873ea3e37ade511a7133345042ce7d74460582e5368a1969ddb5df4b63bc",
+      "status": "PASS",
+      "unit_id": "u018"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "dataset_data_steward_id": "d1",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "cc8841709bbd3f976c78fc18b012f2267a99318ab9b4beb755e34fc9f259a88f",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "raw_manifest_file_sha256": "216db576ac3807aba631b2e15e75ffe46f4e06ed6c41269556f71502f86565a6",
+      "registered_input_sha256": "da5e80ab3bdbfa40668633f36055e0868872cf353da9f5446eefa59e9a933e07",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "f757aeac84eefeb29b9ec24bfc35c8808d6b40a6ae217bb3e4a78fc7e3b9ec02",
+      "replay_manifest_sha256": "027ba43f4c559c993b6e5b624f73b64ac36cfdab27e6e905e3083457bf46a953",
+      "replay_partition_sha256": "251e7167ed894d1e13a7ca3d895499760b6cf0eace895597abd5bfc3523973ae",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "resolved_recipe_config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 4.085081912577152,
+      "seed": 9,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/worker_input.json",
+          "sha256": "2ea15ad7fb734adf241ce0125439bd25d315631fa3b07b0a4411882eac05e62b",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/g04_views.npz",
+          "sha256": "ac7e4020523bcfe7107f8b41e69c81e52bac5aa29417f4f959f190959b5c0092",
+          "size": 2466001
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/c00_partition.npy",
+          "sha256": "7a2160220ffdc6cc505e15e998d28e8dc80514330548fa09d0eb0d3792e82fdf",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "source_reference_embedding_sha256": "f757aeac84eefeb29b9ec24bfc35c8808d6b40a6ae217bb3e4a78fc7e3b9ec02",
+      "source_reference_partition_sha256": "251e7167ed894d1e13a7ca3d895499760b6cf0eace895597abd5bfc3523973ae",
+      "status": "PASS",
+      "unit_id": "u019"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "ea80fd90f2f9a84ad4c40af8af2bdcc6373190ae87e52e76b361dafee501582a",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "9d7287f44e25071beb1bdafa8430b4e10883c57cd57f309365a7fac0be736d1a",
+      "registered_input_sha256": "52618a8ff907dd732ef006f7bf7d58aa3834b34f3bda0432dc4c9485234bebd4",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "42d998ac88e147611ccb50ad973961d183f50ea6368181245721eda26b177d85",
+      "replay_manifest_sha256": "66658cbb2bb9d0039465d1b65a7126206553e9bb351cc8ab27912ea637f98efb",
+      "replay_partition_sha256": "68c28ae88dd14d6c9288f5b2bc843e5675d724574b122cb212bf00b6c3dfb576",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 50.55588428862393,
+      "seed": 0,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/worker_input.json",
+          "sha256": "fd4fc20645be4b0224c866338397fdd425cd206ff3fa057b0125688e52b16499",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u020/attempt_001/worker/embedding.npy",
+          "sha256": "b346bcbed1ce69a9f512d725de8d77bf2610839757e3050c01e58a250db2a1db",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u020/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "869d272c59690718da64a58308debe5ea05a72969ecef79bb6a5ad23c475d891",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/c06_affinity.npz",
+          "sha256": "ba41e7ea75bbbf3bc2413c5feda9f5f899f81570f90d9706bd642abed857fb96",
+          "size": 2949198
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "42d998ac88e147611ccb50ad973961d183f50ea6368181245721eda26b177d85",
+      "source_reference_partition_sha256": "68c28ae88dd14d6c9288f5b2bc843e5675d724574b122cb212bf00b6c3dfb576",
+      "status": "PASS",
+      "unit_id": "u020"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "f3646def2ae20fb808518dd2c5910f314397c8cda80af6a2efdd765c5fb4e4f8",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "7a9262d93d99b43fd5be4668e769d836e03b16250f9ff9a3c8fa4d5ff4f9ffe4",
+      "registered_input_sha256": "1f4d589bd85adbca83804c750df2ecd24a94b99ac55b7fffef80314f9b452a67",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "9b7e88a766b057adc3a0c8126454ae86c732bf3cbfb4a0c7ed536a14e82a27eb",
+      "replay_manifest_sha256": "8038643037158065aae3678491d40b45ad3b755255128f10e88d36d860b06e8d",
+      "replay_partition_sha256": "5fefba1b85c25bbcf0f49bb7772c4748a64e2fa6868870dd2a6622553151017b",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 53.0124233122915,
+      "seed": 1,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u021/worker_input.json",
+          "sha256": "728bbe7b55cbb75cf0ab77424c675fbee5174a7b90aba362f583ab2e9e6c6164",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u021/attempt_001/worker/embedding.npy",
+          "sha256": "9c65f79d89f96cf2ff3321bbebaf36c44d4029d87b6c0f55359b8b305af249f2",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u021/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "59beb9d512407032ced96ea28cb39ebda75ec010db082e922e8f0faf91c55889",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u021/c06_affinity.npz",
+          "sha256": "ff8c9a2767d5cd747a38c1797337d237d2f41fa24e4c861c6fab9bf3c3d2fba4",
+          "size": 3016416
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u021/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "9b7e88a766b057adc3a0c8126454ae86c732bf3cbfb4a0c7ed536a14e82a27eb",
+      "source_reference_partition_sha256": "5fefba1b85c25bbcf0f49bb7772c4748a64e2fa6868870dd2a6622553151017b",
+      "status": "PASS",
+      "unit_id": "u021"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "c450713246b54e904da56b75aba78d2b6946faf1b3e036be992babe7dcf15257",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "12d7ebed6e886f57b7105a01a1875103113ca9f24ea84b7471a1effef3a23444",
+      "registered_input_sha256": "31ccea4ac30fe335bc3f5a66ff0d6a91ddd3cbdd31b9ad87a098235d7f5c4edf",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "7d155a0b0689d942c79a045f076deeaec6e540c7a8e4c501baab3c5e287c498b",
+      "replay_manifest_sha256": "e061ef113a49d3a5d75cf786f72fc1e875d13c067b3d669fbb3a82ea9c7d928d",
+      "replay_partition_sha256": "f7776fbe69b01fe67a87558f67d0913905e2c2bc82f941ada813194c2d9f3720",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 63.79175394028425,
+      "seed": 2,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u022/worker_input.json",
+          "sha256": "ef9ca48c51d7a0eff5f29473ffb4fb2bfe9f336116c858542b5a8a9b7874bfd1",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u022/attempt_001/worker/embedding.npy",
+          "sha256": "f2a9f2e165a3e922de49170987776fca5578b15602477d20f43f7f8bd664e36f",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u022/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "c7a7095b3f328cd68a6fac17de10a2322f9d4fe6c3e353d43c5b8a7e9de9de93",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u022/c06_affinity.npz",
+          "sha256": "97d0ce6e5cdfebfc4649b0930336093b72c7cbb098f3704cb94f404857430fb0",
+          "size": 2962812
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u022/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "7d155a0b0689d942c79a045f076deeaec6e540c7a8e4c501baab3c5e287c498b",
+      "source_reference_partition_sha256": "f7776fbe69b01fe67a87558f67d0913905e2c2bc82f941ada813194c2d9f3720",
+      "status": "PASS",
+      "unit_id": "u022"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "8276357edc2d0b151129dd2d3e82f71aecd6e838ddac5d3732a5da8cc07f6324",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "5d1d6bb10bcbe63537bf98dcf2a8239ea3714bcb67663c0be113a7ad544752dd",
+      "registered_input_sha256": "699175eb52243b717f939f0ef87c953f321b2b6c68f4aae0fd6e8060af0e10ac",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "4eb40a47cc6a029ee77adc5c84a7e24b506621445c427cc3eeb2f7e0cefdf73f",
+      "replay_manifest_sha256": "e1a23209e926d1153a6eaec97719dcde6e8c3951e0481fa6f53cb0d51e0aecf5",
+      "replay_partition_sha256": "e018a291a3e50694d7f4ce32f9dac4784ceedfd92f132abc32ac6531982fdea5",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 56.834648326039314,
+      "seed": 3,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u023/worker_input.json",
+          "sha256": "2af8b24e0ba1164b1a6343184cb6d3f62e5189792e791c8c3ab9018692a1a233",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u023/attempt_001/worker/embedding.npy",
+          "sha256": "4c9c9714dfed4a96bb8128bf7c9da096828fb22361952173530eb2f53c80b2e6",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u023/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "a40d72e13a009dcedbf04d4ffb73ce158db686e0cad902bf93524d45843856d9",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u023/c06_affinity.npz",
+          "sha256": "70df611bee8a6878f2b7848607ba316afb94e4133eb889e60e47bade18962705",
+          "size": 2937332
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u023/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "4eb40a47cc6a029ee77adc5c84a7e24b506621445c427cc3eeb2f7e0cefdf73f",
+      "source_reference_partition_sha256": "e018a291a3e50694d7f4ce32f9dac4784ceedfd92f132abc32ac6531982fdea5",
+      "status": "PASS",
+      "unit_id": "u023"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "5f206c65d8fc3913f9747265b9253d88c6ff312cdcb2a89dd73595cfb7f73564",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "3e7e42cb124b61c7f7c7d3aaee9fbd37b0e5fb1a792de98df682af5a66ef9232",
+      "registered_input_sha256": "fb551b568cc3bdaeb9e9590004460d90f4ccfa3648db7a6697b514e11ddb707c",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "50aec48bcb81895d63bc2f65459960eafa5e3e403f16e34957a6f6a499d4290f",
+      "replay_manifest_sha256": "3b23dfb71315195d4b1063c20afbcb367f24ee8ccc02a76773f7499ffe7c904c",
+      "replay_partition_sha256": "e2675166a25ff1cb1d3312528c94cdbfe7d18b90c833706309ec3076fa4002c0",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 45.10990515910089,
+      "seed": 4,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u024/worker_input.json",
+          "sha256": "21aac2cb58de48d813f641457d34800b8714a5a6b28f666353e5da35ca97864b",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u024/attempt_001/worker/embedding.npy",
+          "sha256": "4c4c93cb7064064fbd7651de8035c554ea601756da6fd25c26d2580e1462fc43",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u024/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "5a93221b84400013cb3cc6322adc1d72f1387bf3c375e04467dd0f7c7c2624ef",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u024/c06_affinity.npz",
+          "sha256": "77e808514d9435ef4e2aafc6ca1840931076939b7f1f9dc37a4dd631171bdb02",
+          "size": 2926894
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u024/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "50aec48bcb81895d63bc2f65459960eafa5e3e403f16e34957a6f6a499d4290f",
+      "source_reference_partition_sha256": "e2675166a25ff1cb1d3312528c94cdbfe7d18b90c833706309ec3076fa4002c0",
+      "status": "PASS",
+      "unit_id": "u024"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "dbe9ca655f3f95433257ce76f8bc44e807717e3616b91efc246b1220bd048207",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "fadb6e284689e31284d41f73a1a9e0291d9070740dfc99378642ab18c7eeada9",
+      "registered_input_sha256": "6cf345e1a44c886c43a2111b957a44a1c8d974d77c976559606c781738a12e07",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "b798cc548cdd8b7917c1afdd1b9cb3cadeef2dcc4cd446ec9482c0a569aea4c2",
+      "replay_manifest_sha256": "ec41ca1a4a4005390ca9f128d52a8d2500021f5b10072a2bd43d75f020e95d76",
+      "replay_partition_sha256": "f3beac52010be3b55522ae3c034278d5979512fcb87bee426ca39e3222446c92",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 58.27873236127198,
+      "seed": 5,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u025/worker_input.json",
+          "sha256": "e9a5d428d979e777ae56faa68bee281761538b216df9b233ac1916267c3c5611",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u025/attempt_001/worker/embedding.npy",
+          "sha256": "1a94c03475bb6010576b4740094a110b6760e0c79b1b2dfe7e5c6614d16fc94f",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u025/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "cf071915ff4c450e819fbef8522f151a3f89c13c61ca4ea410882b2ad8b2aff4",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u025/c06_affinity.npz",
+          "sha256": "e769eae859ab8f18435cd90875d141f5a1e7c0245042c30e4a40cd5f82356a60",
+          "size": 2964273
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u025/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "b798cc548cdd8b7917c1afdd1b9cb3cadeef2dcc4cd446ec9482c0a569aea4c2",
+      "source_reference_partition_sha256": "f3beac52010be3b55522ae3c034278d5979512fcb87bee426ca39e3222446c92",
+      "status": "PASS",
+      "unit_id": "u025"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "f1f7b2286b72be7c8d5fa7508f900e8663e9ce60f5dd57fafe6f2ca1ad428222",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "fa150a792a9ce71bda0c42f83df63ce099746b3991ff81d9a5a4cd8e3b8eb54c",
+      "registered_input_sha256": "98178477d207f526ae71d657f9543ab8b002217ea212da97eae9d27af8594784",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "9a420347b19f5852fccbd8ff4916ba2d09dc5348bc569f30faccd1b237aa08fe",
+      "replay_manifest_sha256": "478362a045bf32c39931c0dabb2e123175fc26905834f759596a8e16b5cb4e85",
+      "replay_partition_sha256": "9998742ea0a3ed1ec6793d56a831e1e566f99350bfcd83a500584d516483b2f1",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 40.03170476295054,
+      "seed": 6,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u026/worker_input.json",
+          "sha256": "d6cb0840fda64c680d13dd99236be770147eb7b8af67f3fbd1a659ac02b6b1c4",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u026/attempt_001/worker/embedding.npy",
+          "sha256": "52ae4df7ed49325665834a8ac3c27dd59e9e1d1b2f13470c306c24014251a25b",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u026/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "e563412aa0a1ebc084ca0929c144d995bf4f6fe8004ab3c5b5a12088548b150b",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u026/c06_affinity.npz",
+          "sha256": "4d5de74be043ddb5ccac45d14d1be6b47dea98cae2149bddb155a7aed6491a8a",
+          "size": 2934543
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u026/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "9a420347b19f5852fccbd8ff4916ba2d09dc5348bc569f30faccd1b237aa08fe",
+      "source_reference_partition_sha256": "9998742ea0a3ed1ec6793d56a831e1e566f99350bfcd83a500584d516483b2f1",
+      "status": "PASS",
+      "unit_id": "u026"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "89b6f8c12c3758cf03eeb70bd7b6332c036d790dd2af2fc8b17694f25a6079ef",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "027019532bae8d6076f82c4d685e50d49630956e504bd170f3756df81431b273",
+      "registered_input_sha256": "0303981896e4cfad70e40ffdfa960b962ae2635537ef87e08de911d3b00c9485",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "b2b285dffb9e7a5a18f458df34642e70956b55d24737f61fd1e2bbd7b8900849",
+      "replay_manifest_sha256": "4900eac839ad297d87d84d4cafef202310a663e1d89d376172f91fed0f39db80",
+      "replay_partition_sha256": "219564f4c2cd491820ade7a6aefa9526c96af278725221ba45c183657c387a44",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 45.01294770464301,
+      "seed": 7,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u027/worker_input.json",
+          "sha256": "18dac490e6f5e64359618a3614c18b94c741b15f32e12f945afa9bcd97c2ec97",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u027/attempt_001/worker/embedding.npy",
+          "sha256": "44c7897de6ef0f982811007640e14861e62e01bbbcdf54dad8b64a1980409419",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u027/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "6d7be3ff5c73d9779facb81f477c8a3de7de69e4573f5f2f2f5c93b795e7cb83",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u027/c06_affinity.npz",
+          "sha256": "4d393b54ea1f0c51ba51235b349010f44642eb72cd4473e24b34c762453edce4",
+          "size": 2951581
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u027/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "b2b285dffb9e7a5a18f458df34642e70956b55d24737f61fd1e2bbd7b8900849",
+      "source_reference_partition_sha256": "219564f4c2cd491820ade7a6aefa9526c96af278725221ba45c183657c387a44",
+      "status": "PASS",
+      "unit_id": "u027"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "e8910d6c99aa938722ce3e7ef8db6d072c72046cd91ca5f50319c67981b44e23",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "590f5e3d953e42e68edd10d6aa5d47da2c65b00f315a5b3b0ae9abbd039bbe0c",
+      "registered_input_sha256": "3af8a95b87f2b8589c6e527b747738a526108b611082c30c4dfca7be1dc5a7c9",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "7bd3a895649dc0a95472495e55919bb8772065ea84393c7f2496fb16deab13c4",
+      "replay_manifest_sha256": "a00f9368283ea61fb73bd7302bed0f9e57714e62e857275cf40c2ec3072d6aef",
+      "replay_partition_sha256": "6c1509574b380f6f5d9255ad7269ea0728024e9ef5da2c538f3a5be104538019",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 51.31179961934686,
+      "seed": 8,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u028/worker_input.json",
+          "sha256": "85ec4f507f001f3e5936c059ba8e11a40abc20caa261921b311e5f46abba57e8",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u028/attempt_001/worker/embedding.npy",
+          "sha256": "8ef5c54c29346284b5f44a622bb90c72b6e39676e86a277ac614bd318a6a0750",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u028/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "64d41717dd0f0d63bfd28a206c7d5943260f20cfad8c392039a78baef7978fdb",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u028/c06_affinity.npz",
+          "sha256": "3c068ecde8a4b20013c0e6f25e8a94cea84cdf2577b339a0c103223bd63e15ec",
+          "size": 2939888
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u028/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "7bd3a895649dc0a95472495e55919bb8772065ea84393c7f2496fb16deab13c4",
+      "source_reference_partition_sha256": "6c1509574b380f6f5d9255ad7269ea0728024e9ef5da2c538f3a5be104538019",
+      "status": "PASS",
+      "unit_id": "u028"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "dataset_data_steward_id": "p22",
+      "fresh_process": true,
+      "implementation_sha256": "ded0d2b2f52cb7f5423fe1aeed195f79de0a82f9d25eafb18e45de4bc829a363",
+      "input_manifest_sha256": "e87ef1cf7e4ab8cb74fea9228eb1b3940442672ba582291d2d7cc1a7a74353cf",
+      "label_objects_deserialized": 0,
+      "label_reads": 0,
+      "ordered_observation_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "raw_manifest_file_sha256": "3aab9c564ee9747c26ba707a16a020c167208633372cc80c55d0ef12868a887c",
+      "registered_input_sha256": "239ae7b1f49c6cd831fd65dfe2ace562a3336b39bffda943e873fa0533f7a72f",
+      "replay_embedding_mode": "AUTHORITATIVE_NO_OP_ALIAS_REHASHED",
+      "replay_embedding_sha256": "89207e433343670812e97dafc6ba08d52b26e4cd50431b9b8afadc7365adb7df",
+      "replay_manifest_sha256": "2b817a26afa243cfd8beb2013dd64a6465e3ef35806ec0c213a8565f07e5d83a",
+      "replay_partition_sha256": "cd0b684f4b480101ae8f11a5146d2c382fec44b5259a071f64edec7a452a6979",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "resolved_recipe_config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 56.050124725326896,
+      "seed": 9,
+      "source_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u029/worker_input.json",
+          "sha256": "f8ef910d1fdfdccac8d32ca6f6ceac076eb02fda204faf3e3cc4d5272dca4190",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u029/attempt_001/worker/embedding.npy",
+          "sha256": "69b9fb81d9cd11793a329368f3ebe637e127f6386f3e45a53c4e8853a2acb4f9",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u029/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "e51db4186bcceb3908bbac4c39191581c29878ade00372bd4e35cec336e4e996",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u029/c06_affinity.npz",
+          "sha256": "db48be4649340968c6676f5d3690952d1fb9a6bdc5849157d85283af1f230aab",
+          "size": 2970865
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u029/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "source_reference_embedding_sha256": "89207e433343670812e97dafc6ba08d52b26e4cd50431b9b8afadc7365adb7df",
+      "source_reference_partition_sha256": "cd0b684f4b480101ae8f11a5146d2c382fec44b5259a071f64edec7a452a6979",
+      "status": "PASS",
+      "unit_id": "u029"
+    }
+  ],
+  "schema": "spalora.night10b.formal_replay_30_manifest.v1",
+  "science_metric_computations": 0,
+  "status": "PASS",
+  "unique_row_sha256": true,
+  "unit_order": [
+    "u000",
+    "u001",
+    "u002",
+    "u003",
+    "u004",
+    "u005",
+    "u006",
+    "u007",
+    "u008",
+    "u009",
+    "u010",
+    "u011",
+    "u012",
+    "u013",
+    "u014",
+    "u015",
+    "u016",
+    "u017",
+    "u018",
+    "u019",
+    "u020",
+    "u021",
+    "u022",
+    "u023",
+    "u024",
+    "u025",
+    "u026",
+    "u027",
+    "u028",
+    "u029"
+  ],
+  "verification_rows": [
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "9c36dc5cf25575d0a8a6e89cfd73495647be03d1180a9eb83d8c5198cbd80c8d",
+      "raw_verify_file_sha256": "092ac4d03e23587afc7ca8f7b0ff7b5a812570c6a4ab4c109b8ddfdfe67db21a",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u000"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "1f048309ef10cb8262b500db615f257f13c638fece98f319126afbbe607298a2",
+      "raw_verify_file_sha256": "e325338692371847242a04fd7fa6c3f87da5a6ca6e0c9f8ffcae5620949b1e23",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u001"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "43de96492875d4d2cd691297d00a9d3ec4491304892a56e0727603cb4f7aef5d",
+      "raw_verify_file_sha256": "52d08cbd6a372162333d916bf1ec2419d548cec3cc4653c15092cf867b73b6ac",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u002"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "310341ff6474534177d6a5d46fd93fb3651f412c34030496ea4aa1ab0ebbd076",
+      "raw_verify_file_sha256": "4baf06fabc5993a512e679d73715d4860ca4a6fa13b7c7a4732c151ed3fdd742",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u003"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "a80946c9943649d194c693348061dbe3e9f13297920157e7a2329aea817e2a9c",
+      "raw_verify_file_sha256": "d6868dce272a4b763805becfdeda21284f995335f3fd2da07ba9ed973e67bb49",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u004"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "2a1697f2980c538f936bf69a45765cb3fe81a8c98968a37213440112a4955853",
+      "raw_verify_file_sha256": "bbdf6a6a69f36fd52ef26b0ddddb476a75ca0512d7c30a8c0feee2fe30c3dd76",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u005"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "f3afba5faa01c80951267a57c61b10dfe146ee897eb65e69258d1c3d4eecf4d5",
+      "raw_verify_file_sha256": "8dd416d0794e51797da12149b954affde344d53971726028c27b34b84784fec8",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u006"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "66e72bd4942dfd3f4d192e4f80e5ce1faae1df7eb17665bcb264bc5ce4d56143",
+      "raw_verify_file_sha256": "2684f63548fd2ca649ee43648f406c19860e2fb797223c6b7e51dfa03cb4f2ae",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u007"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "5c800d6542df772c20ef4525a4ad7b2bddca88a8ca6a3c6e485c35927af16575",
+      "raw_verify_file_sha256": "b5c5314e98f2a01787dee61431b7aef8d88001a87017cfa7019fa215300c3990",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u008"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "762482a11523d08181f6b808e74d9779e221b52f0fd6f04b96b034c1ede64db0",
+      "raw_verify_file_sha256": "f030912878cc60b560707bc7b055e1fb9c57d71d615e640feb01b68592e50348",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u009"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "01e933abdc686298582030989970243b3f8b3cc96dbc8f50369de216f2cb2a69",
+      "raw_verify_file_sha256": "84e2a3e456cf282237e4f9e5046ca4b0e288e4850df7ddd8f59fa359dab64d74",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u010"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "94948ace40489a1093a7a3d37bf60afbd8162bdff8948ba00d1471f58262ecd4",
+      "raw_verify_file_sha256": "0036c7bcfbd1399007bd3de01ea0dbc2d82cf6f490c69ca10cd8bd5c7f413abd",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u011"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "c8e040e0d9371f03864c0ef011afcaca016dbbbf2ed47136ee509ebb86e33a72",
+      "raw_verify_file_sha256": "1ba2ec300e6818d63f742dbbb01668a15fa7e06eb80aad89ce8614f0acc69ce9",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u012"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "069a4aaaf523c2b2d4d83a96f5b2b08a579736ddf006837d85e62c7919b5c513",
+      "raw_verify_file_sha256": "f07ff26f835a1bcf678695c05e54f1959aaf4e18431a1d9f5d445fb1779f7863",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u013"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "fb5e1bb671ad4f94bbe28a8341f5ea37cf2687374e1dd3d884857b8d5f4f093b",
+      "raw_verify_file_sha256": "d8c4b6e85abfa9abc36933f8d88b5d1711615e3e6a24c8d5d3fb59d03168bb8a",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u014"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "5a70b105aaf558efc7fcf586f67ac313705c63ccca7b3bbb6722a9a9bcd344dc",
+      "raw_verify_file_sha256": "d1417fa3d206280c4aea01e008a3fe7a25083c9db963bb0665cb51922e5869c2",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u015"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "8cb83c41581bcced783984ea2af71f3ad2764139b0d410a7f822615e94c37800",
+      "raw_verify_file_sha256": "561c72f16cc510e9c8c26d345d6a7c5ebca432ec6afd1a14e1a6019a52f16a51",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u016"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "25ce92f15716f376123f2eac75ee970c8369cf88d0320125d8f3d6162947eff2",
+      "raw_verify_file_sha256": "56e4ab023574c82e68b36460ca2fba5a986f8bb2dbe2ec3b43e55e63923e5a02",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u017"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "5a7639af8de44e54f345db1a5e758dd2624c62af2f8c86452bb541fdc5a7ec89",
+      "raw_verify_file_sha256": "ad92bf7a2b217eda77eb809be438692f4bbfbb5ec7f20c803a811eed125b1e20",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u018"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "216db576ac3807aba631b2e15e75ffe46f4e06ed6c41269556f71502f86565a6",
+      "raw_verify_file_sha256": "df817acd0c53a2746ab39bb3f85aef24ecea33cbeaf7fd885826a0c21cd8d1bc",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u019"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "9d7287f44e25071beb1bdafa8430b4e10883c57cd57f309365a7fac0be736d1a",
+      "raw_verify_file_sha256": "f04f70fbc06407631702a180069c5e3945382f98b3f6e7c940def46372db4387",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u020"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "7a9262d93d99b43fd5be4668e769d836e03b16250f9ff9a3c8fa4d5ff4f9ffe4",
+      "raw_verify_file_sha256": "fe69e5586fc7b83d22b82d3672d0a626e7cf61ad59a63940148cdfc2ec485cdd",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u021"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "12d7ebed6e886f57b7105a01a1875103113ca9f24ea84b7471a1effef3a23444",
+      "raw_verify_file_sha256": "5ab90f802b89135e7134617392207144bc4782d2425c6f3e793043d12a282c00",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u022"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "5d1d6bb10bcbe63537bf98dcf2a8239ea3714bcb67663c0be113a7ad544752dd",
+      "raw_verify_file_sha256": "0825f9b32b9a944dd66ec718481160a2e3a07f02384cfd9037b984144afec7eb",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u023"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "3e7e42cb124b61c7f7c7d3aaee9fbd37b0e5fb1a792de98df682af5a66ef9232",
+      "raw_verify_file_sha256": "1eb6adc3fc4c14b44e610cf82a942a3c713d9ca911e2ce5f8f382615cb0e59ec",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u024"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "fadb6e284689e31284d41f73a1a9e0291d9070740dfc99378642ab18c7eeada9",
+      "raw_verify_file_sha256": "5c84fbd005491ba7f4265a6331b3311d2c6f13c691dc89ce436be412b957638c",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u025"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "fa150a792a9ce71bda0c42f83df63ce099746b3991ff81d9a5a4cd8e3b8eb54c",
+      "raw_verify_file_sha256": "bad0055813c3da3684beaa11d88354860a561f0cbe3d9dde364ae2985868f608",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u026"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "027019532bae8d6076f82c4d685e50d49630956e504bd170f3756df81431b273",
+      "raw_verify_file_sha256": "a72284ddfc8e83ecde8d4902211f331acf265a71d4e0b1d26f11c3f49ad16f87",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u027"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "590f5e3d953e42e68edd10d6aa5d47da2c65b00f315a5b3b0ae9abbd039bbe0c",
+      "raw_verify_file_sha256": "7d0659ee2202b458ed6bf2bdf5092ad75dfe97700dd74342cd517cbfb764aede",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u028"
+    },
+    {
+      "fresh_process": true,
+      "label_objects_deserialized": 0,
+      "manifest_file_sha256": "3aab9c564ee9747c26ba707a16a020c167208633372cc80c55d0ef12868a887c",
+      "raw_verify_file_sha256": "88a5fea88d71e8a49c6d330c65d98c0dfb3f6fbc77ec7d74dfaec9acd28ee10f",
+      "row_binding_exact": true,
+      "status": "PASS",
+      "unit_id": "u029"
+    }
+  ]
+}

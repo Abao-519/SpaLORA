@@ -1,0 +1,38 @@
+{
+  "active_replay_cycle": 2,
+  "events": [
+    {
+      "disposition": "new nonexisting locked output path; only actual smoke counted",
+      "kind": "operator_output_path_precondition",
+      "phase": "P3_A1_PRESTART",
+      "preserved_log": "/root/autodl-fs/night10b_family_policy_integration_20260821/logs/smoke_a1_seed0.log",
+      "training_steps": 0
+    },
+    {
+      "disposition": "correction cycle 1; all cycle 0 replay invalidated",
+      "kind": "global_config_authority_error",
+      "phase": "P3_P22_PRESTART",
+      "preserved_log": "/root/autodl-fs/night10b_family_policy_integration_20260821/logs/smoke_p22_seed0_full.log",
+      "training_steps": 0
+    },
+    {
+      "diagnosis": "CSR shape/support/nnz exact; max float jitter 3.54e-9; endpoint partition exact",
+      "disposition": "correction cycle 2; all cycle 1 replay invalidated",
+      "kind": "global_roundtrip_semantics_error",
+      "phase": "P3_P22_ROUNDTRIP",
+      "preserved_log": "/root/autodl-fs/night10b_family_policy_integration_20260821/logs/smoke_p22_seed0_reload_cycle1.log",
+      "training_steps": 0
+    }
+  ],
+  "formal_correction_cycles_max": 2,
+  "formal_correction_cycles_used": 2,
+  "invalidated_replay_cycles": [
+    0,
+    1
+  ],
+  "ordinary_numerical_failures": 0,
+  "schema": "spalora.night10b.failure_audit.v1",
+  "scientific_failures": 0,
+  "scientific_retries": 0,
+  "status": "PASS_WITH_PRESERVED_CORRECTIONS"
+}

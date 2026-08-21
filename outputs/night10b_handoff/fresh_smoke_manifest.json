@@ -1,0 +1,145 @@
+{
+  "expected_smokes": 2,
+  "failed_smokes": 0,
+  "label_reads": 0,
+  "passed_smokes": 2,
+  "rows": [
+    {
+      "checkpoint_roundtrip": {
+        "backbones": [
+          {
+            "atol": 1e-06,
+            "backbone_id": "G04_SP10_F10_EUC_UNION",
+            "checkpoint_file_sha256": "819b4a441d3dfed09e47e704eeef10aec61c231ab230a445816d1a5e6698f734",
+            "forward_allclose": true,
+            "fresh_process": true,
+            "label_reads": 0,
+            "max_absolute_error": 5.960464477539063e-08,
+            "rtol": 1e-05,
+            "state_load_strict": true,
+            "status": "PASS"
+          }
+        ],
+        "canonical_partition_exact": true,
+        "canonical_partition_sha256": "160f60b3e2ac545e104510dc14346b8dc676d5def7df79fb27539da6803e99b6",
+        "fresh_process": true,
+        "label_reads": 0,
+        "peak_gpu_mib": 331.20947265625,
+        "peak_rss_mib": 847.5546875,
+        "runtime_seconds": 4.734778370708227,
+        "schema": "spalora.night10b.checkpoint_roundtrip_audit.v1",
+        "smoke_id": "S00_RNA_PROTEIN_A1_SEED0",
+        "status": "PASS"
+      },
+      "checkpoint_roundtrip_path": "/root/autodl-fs/night10b_family_policy_integration_20260821/smokes/a1_seed0_full/checkpoint_roundtrip_audit.json",
+      "checkpoint_roundtrip_sha256": "8997a302354806a33a0dcf6e293079ce53a81feaedf2b29667c0abf23e60cbf7",
+      "endpoint": {
+        "canonical_partition_sha256": "160f60b3e2ac545e104510dc14346b8dc676d5def7df79fb27539da6803e99b6",
+        "cluster_count": 10,
+        "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL",
+        "label_reads": 0,
+        "sparse_affinity": true,
+        "status": "PASS",
+        "transform_audit": {
+          "affinity_nnz": 119894,
+          "affinity_sha256": "ee8173fc90fd2f39d83c69704faa7cecd5b1e28c56ada38974b75302d3726fcd",
+          "clusters_sha256": "3d77465deece2576a5145b974bbd3cebb5c3ed0baf486774a635badba51f09df",
+          "fallback": false,
+          "head_id": "H05_EQUAL3_AFFINITY_SPECTRAL"
+        }
+      },
+      "fresh_full_training": true,
+      "label_reads": 0,
+      "manifest_path": "/root/autodl-fs/night10b_family_policy_integration_20260821/smokes/a1_seed0_full/smoke_manifest.json",
+      "manifest_sha256": "80cbb6a3b8b82bf99c7a3008e6369a60835edf278a858d85b1523759909aafc4",
+      "peak_gpu_mib": 764.048828125,
+      "peak_rss_mib": 1105.39453125,
+      "recipe_id": "C00_G04_H05_CONFIRMED",
+      "runtime_seconds": 11.294727820903063,
+      "seed": 0,
+      "smoke_id": "S00_RNA_PROTEIN_A1_SEED0",
+      "status": "PASS"
+    },
+    {
+      "checkpoint_roundtrip": {
+        "backbones": [
+          {
+            "atol": 1e-06,
+            "backbone_id": "G00_SP18_F20_CORR_UNION",
+            "checkpoint_file_sha256": "fc6356ad9b0a961158df0ce772c8aacbbf439f0b60cec6c4601a582a94f04fd1",
+            "forward_allclose": true,
+            "fresh_process": true,
+            "label_reads": 0,
+            "max_absolute_error": 5.960464477539063e-08,
+            "rtol": 1e-05,
+            "state_load_strict": true,
+            "status": "PASS"
+          },
+          {
+            "atol": 1e-06,
+            "backbone_id": "G04_SP10_F10_EUC_UNION",
+            "checkpoint_file_sha256": "2a19125fa33e0b463738c0ca8932e9bceade3bdf9a6742aaf96457e2c592a158",
+            "forward_allclose": true,
+            "fresh_process": true,
+            "label_reads": 0,
+            "max_absolute_error": 1.1920928955078125e-07,
+            "rtol": 1e-05,
+            "state_load_strict": true,
+            "status": "PASS"
+          }
+        ],
+        "c06_roundtrip": {
+          "atol": 1e-08,
+          "max_absolute_error": 3.5750911779597327e-09,
+          "nnz": 346976,
+          "rtol": 1e-06,
+          "sparse_support_exact": true,
+          "sparse_values_allclose": true
+        },
+        "canonical_partition_exact": true,
+        "canonical_partition_sha256": "9308b884ea756bbbe54b1377a824dbd0b87f25ad1339257b047eb9497aee1cfc",
+        "fresh_process": true,
+        "label_reads": 0,
+        "peak_gpu_mib": 606.95556640625,
+        "peak_rss_mib": 1466.10546875,
+        "runtime_seconds": 84.62694081291556,
+        "schema": "spalora.night10b.checkpoint_roundtrip_audit.v1",
+        "smoke_id": "S01_RNA_EPIGENOME_P22_SEED0",
+        "status": "PASS"
+      },
+      "checkpoint_roundtrip_path": "/root/autodl-fs/night10b_family_policy_integration_20260821/smokes/p22_seed0_full_cycle1/checkpoint_roundtrip_audit.json",
+      "checkpoint_roundtrip_sha256": "1ed5e121d89fe3a0db2d6154334ef027b596f08e6555a55d3a39a865cbd6bfb9",
+      "endpoint": {
+        "adapter_checkpoint_sha256": "14c6f9e295709bd5e77655d034bd335ed224e540d75a8029dac2716a35929b26",
+        "adapter_embedding_sha256": "2d64ae6cf4bde2dc514836c3f139ba9410c94bf1f0f70e0c33c5e1b434c05aee",
+        "adapter_reload_audit_sha256": "01a04ea6a42852d58d97d9dd5172a1f599278ba3fd11ddebc999d4e58353df5e",
+        "c06_aux": {},
+        "c06_canonical_sha256": "27090758f55c1ae36be7162e0a7d853259c2c5249275805bee53d8cfdc8b5607",
+        "canonical_partition_sha256": "9308b884ea756bbbe54b1377a824dbd0b87f25ad1339257b047eb9497aee1cfc",
+        "cluster_count": 9,
+        "endpoint": "E1_ADAPTER_C06_MEAN__H01",
+        "label_reads": 0,
+        "sparse_affinity": true,
+        "status": "PASS",
+        "transform_audit": {
+          "canonical_partition_sha256": "30a41d876447c8b9d243f1dfc8b2944b05b84ebda735b6158f754a2cd8122320",
+          "partition_head": "SPECTRAL_DISCRETIZE"
+        }
+      },
+      "fresh_full_training": true,
+      "label_reads": 0,
+      "manifest_path": "/root/autodl-fs/night10b_family_policy_integration_20260821/smokes/p22_seed0_full_cycle1/smoke_manifest.json",
+      "manifest_sha256": "145147d107e9ae333bf3d8c1dddc4c36aa31777b5d43c45d8ae975f175222be6",
+      "peak_gpu_mib": 1613.5166015625,
+      "peak_rss_mib": 1722.87109375,
+      "recipe_id": "F00_R02_FULL",
+      "runtime_seconds": 226.00940463133156,
+      "seed": 0,
+      "smoke_id": "S01_RNA_EPIGENOME_P22_SEED0",
+      "status": "PASS"
+    }
+  ],
+  "schema": "spalora.night10b.fresh_smoke_manifest_index.v1",
+  "scientific_retry_fallbacks": 0,
+  "status": "PASS"
+}

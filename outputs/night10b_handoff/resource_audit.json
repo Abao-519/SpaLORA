@@ -1,0 +1,20 @@
+{
+  "autodl_mode": "GPU_CARD_MODE",
+  "blas_threads_max_allowed": 3,
+  "blas_threads_per_adapter_worker": 1,
+  "cpu_workers_max_allowed": 4,
+  "cpu_workers_max_observed": 1,
+  "dense_n_by_n_constructed": 0,
+  "end_to_end_smokes": 2,
+  "gpu_model": "NVIDIA GeForce RTX 4080",
+  "new_scientific_training_units": 0,
+  "overall_wall_clock_hours": 2.4653830620977613,
+  "overall_wall_clock_hours_max": 6,
+  "peak_gpu_mib": 1613.5166015625,
+  "peak_rss_mib": 1722.87109375,
+  "schema": "spalora.night10b.resource_audit.v1",
+  "single_transform_timeout_minutes": 30,
+  "status": "PASS",
+  "training_components": 4,
+  "training_components_max": 4
+}

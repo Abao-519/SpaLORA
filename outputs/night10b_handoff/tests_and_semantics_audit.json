@@ -1,25 +1,21 @@
 {
-  "formal_correction_cycles": 0,
+  "formal_correction_cycles": 2,
+  "identity_blind_router_pass": true,
   "label_reads": 0,
   "night10b_tests": {
     "failed": 0,
-    "log": "tests/p1_night10b_tests.log",
-    "passed": 18,
-    "sha256": "0900572d3cfbe29922a84f93ce5480f5c876e834953afbf59f449140b3b20e62"
+    "log": "tests/p1_night10b_tests_after_cycle2.log",
+    "passed": 19,
+    "sha256": "0d05804d061ca2539ce944052171597dc152b69c6522732668db9466476b8c25"
   },
-  "preformal_corrections": [
-    "test AST falsely matched __future__.annotations",
-    "test copied C00 SHA typo",
-    "Q00 partition authority uses stored-array canonical serialization, not cluster relabelling",
-    "smoke ordered-observation SHA aligned to frozen newline serialization"
-  ],
   "regression_tests": {
     "failed": 0,
-    "log": "tests/regression_tests.log",
+    "log": "tests/regression_tests_after_cycle2.log",
     "passed": 33,
-    "sha256": "fec3c935a0b4ead65ffc3db55d4ff4f0d78254e1c31db5380e3b2f89e4d58a14",
+    "sha256": "6c59f747ce47a35e04effdbc2472e803aa8ac980e2c51141b9cd28c32e71be4b",
     "warnings": 12
   },
   "schema": "spalora.night10b.tests_and_semantics_audit.v1",
+  "sparse_boundary_and_fail_closed_pass": true,
   "status": "PASS"
 }
