@@ -1,0 +1,893 @@
+{
+  "count": 177,
+  "files": [
+    {
+      "relative_path": "SpaLORA/night10a_qcrd.py",
+      "sha256": "98cfa6331913ff96e9d77ecda75b01681cf5792112a27db23bef2e093b042da4",
+      "size": 28111
+    },
+    {
+      "relative_path": "SpaLORA/night6c_pipeline.py",
+      "sha256": "b1abd06ab1f5f30d8f3c1d16e89a2ab8c240b61422f8c2b9307adc0619a0e0d1",
+      "size": 29352
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/SpaLORA_Night10A_REV2_Final_Report_2026-08-21.md",
+      "sha256": "4cb99b6f89ee1354feb44ef3adc646d728df78877ccb5547f7bf7f0402b0826e",
+      "size": 6355
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/SpaLORA_Night10A_REV2_Plain_Summary_2026-08-21.md",
+      "sha256": "477740184fff641e31fee7cab69d2f67b7bfe11634b37523ef0feb969a1a2987",
+      "size": 1891
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/compact_policy.json",
+      "sha256": "4a906253f4a34a099afb66901cbb067573c256e541e4e2a464a4563cd1add23a",
+      "size": 1008
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/dimension_and_execution_audit.json",
+      "sha256": "e504fa1034e1cb023cfa7a1755521e14cedae653636f3f8ea6f46358867af0fe",
+      "size": 892
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/execution_summary.json",
+      "sha256": "379718923c0db736b246ad46aa5f8d778e301278852ca808e03645b7b0af24ef",
+      "size": 726
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/failure_audit.json",
+      "sha256": "b42839e1d161cfaf45aa2e09f2a0ad06f48608e3829429af3c7cc6a371a53a5f",
+      "size": 2266
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/final_delivery_validation.json",
+      "sha256": "8c042fd96eb043f4987465e9eb917b2c6ecdf36df375754d6f06bdbf723b5d89",
+      "size": 505
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/final_tests.log",
+      "sha256": "9c5301de3ee2fe73d0433f3a87090c8ee3cf0db2be4eed7df0acdf34450f3e14",
+      "size": 671
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/finalization_precommit_git_audit.json",
+      "sha256": "7083a07eed8541994ae191369bbfd18b1054c585e8d7b88fd730941cc29abaa5",
+      "size": 1039
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/frontier_registry.json",
+      "sha256": "1e8729ba8244e689b649fb975206b827cf7ff5437466548101130622c49e2cee",
+      "size": 305
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/label_access_audit.json",
+      "sha256": "1e8fe741cbc1899ffc801e944fe07d83198cacdc4782efe78bd40f51fe3fb444",
+      "size": 1667
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/metric_backfill_long.csv",
+      "sha256": "f9e5d163ae88ce1137aec2fa5e3507a53dfeb150e28cf546278818e33bd6603e",
+      "size": 21546
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/harmonizer_audit_summary.json",
+      "sha256": "272972f057797d1af75b04da32fbade0d177519988862dca9c3628d7d773cbee",
+      "size": 4281
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/p0_independent_recomputation.json",
+      "sha256": "7b8e1bf4cacd433a7fcf9d8f25808161318f737bf7db265855a4b6a7a02171bc",
+      "size": 306
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/p0_rev2_authority.json",
+      "sha256": "014e501ea277751197fcb17f1c5050a705f0084663e542a390d175a1c5747a8e",
+      "size": 1783
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/p0_rev2_summary.json",
+      "sha256": "5869a207ff7cf660f6ae18867750c459b3d4c79d61085a57768c542843c7880b",
+      "size": 1072
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/post_p0_reuse_fix_tests.log",
+      "sha256": "a30dac6f190771565e86929903e6fda20186389cf6984acf3d922a5cfdf15c96",
+      "size": 671
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/r1_formal_config_independent_audit.json",
+      "sha256": "90d02ded049da174ea0a67ae816d3e70672d98679b7e134cdcbdf0973c981814",
+      "size": 668
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/real_runtime_preflight.csv",
+      "sha256": "14811374f510de90815e65a0b25c4abd00e3ff106ae3c34008616a76df8a7fc4",
+      "size": 192173
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/real_runtime_preflight.json",
+      "sha256": "d4ef0c8c86855ca0a1cfc7b250e1f78c053c80a701bb044cbbf7ddf98804fc8d",
+      "size": 391001
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/real_runtime_schema_matrix.csv",
+      "sha256": "8705823aed3617849b4904970c2936c001f3b1caccc1c496f2fff9c09fdc411c",
+      "size": 37459
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/real_runtime_schema_matrix.json",
+      "sha256": "1bedf8859a72bf86ff74d4523c9224a1b720c801d3ba7c2bdeb5502c2e5d4531",
+      "size": 64188
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/schema_preparation_timings.json",
+      "sha256": "5ec45f6cadddcf26abc8b7383302375f0bf4ddc911feff3ff68268c37b95e3ec",
+      "size": 2705
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/p0/static_and_synthetic_tests.log",
+      "sha256": "a5106f68ab348c7e98364eb44922ada4d10cbdffe94a04a2f869535bcce6f27f",
+      "size": 671
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_candidate_summary.csv",
+      "sha256": "532ebd3193fe2dd47bc3d8723462763f6d9daf0ac58a8681519989528eaf961e",
+      "size": 32032
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_evaluation_independent_audit.json",
+      "sha256": "02ac0945411fa8661ce5023f6eff0724e48f78fb3a9f0583cc8de87f3f2f130f",
+      "size": 1110
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_evaluation_window.log",
+      "sha256": "2f2dce5fc123e7db8dabf75d5bb868f94b9548ef5c6a8ced23dca9a7dea353bc",
+      "size": 22970
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_frontier_decision.json",
+      "sha256": "a143d9d0e9abd485f8f4a87cd9e195db47cdceb4f882e8b9a0293dc32d7ee58f",
+      "size": 344
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_independent_recompute.csv",
+      "sha256": "aef9d86c3b6055f85157b7bbe87e2789bf8a70c6350317ea3b267303c84ceabe",
+      "size": 10776
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_label_window_audit.json",
+      "sha256": "a46b55819e1f25ef73ba4412d18808dcab6cd25f093f6f76403f60aa1cd964b4",
+      "size": 1232
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_lock/memory_probe_transform.json",
+      "sha256": "b5c8ce5db9388c567b9487d0dd14f5e4914680c147f19b28d55148fce701b13d",
+      "size": 846
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_lock/memory_probe_transform.stdout.log",
+      "sha256": "f9cbb879368f1472ae0380177c38f439ad510153b48a9e945f82a518ee668620",
+      "size": 236
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_lock/p22_sequential_training.log",
+      "sha256": "af06ce1202d48b7655fd73262f92aa5e4b9410dad1e14d1106e4658f5c08897f",
+      "size": 1499
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_lock/r1_lock_manifest.json",
+      "sha256": "c68be02dd21f2620f93b0dbb07be626c6aaca49fd0a6a391b6ed0022c5e18d53",
+      "size": 134
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_lock/r1_total_lock_independent_audit.json",
+      "sha256": "785105c834d7ac19f73104c3c0cb85f205067b8a20f023c3bb98afa7abcf0e73",
+      "size": 81323
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_per_seed_metrics.csv",
+      "sha256": "c94f4f20d18615cdae47e0880ca2a837f1ac64573c30a8f7bd9330d9be7a6e74",
+      "size": 45936
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r1_prelabel_lock_audit.json",
+      "sha256": "aa6c97019e136eb33f0fd7bcacd939cbe5636c06a6668a64ba93bd35a67b6fff",
+      "size": 27769
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_candidate_summary.csv",
+      "sha256": "a4ec9eaf6181ff43531362f76e21488e2868465464b4d81e95c6475b8c2f8f23",
+      "size": 9488
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_evaluation_independent_audit.json",
+      "sha256": "f4ad6bb18f1527dce2a8c9600d1c57848a7ab6d5c293fe5b2450b8ea4597b72b",
+      "size": 1937
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_evaluation_window.log",
+      "sha256": "5bdcd99a0334ab31a37f1adb7f5ba086770855c807f089e792dc1456648ab703",
+      "size": 14160
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_independent_recompute.csv",
+      "sha256": "5ca2558c8ba0739502956c181cb63fab74d8639764f27abbbfdb9b9e08507398",
+      "size": 6687
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_label_window_audit.json",
+      "sha256": "3611ebcf13f26210526044105226bd7d841263140553c3fa3aab75fcdcfa33ff",
+      "size": 1232
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_lock/r2_formal_config_independent_audit.json",
+      "sha256": "b59a916f9478c965faf10526edb58dd69e29c88967c2348403b466e40a9fe628",
+      "size": 851
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_lock/r2_lock_manifest.json",
+      "sha256": "bd54e1c7b79f2a740d86e419dc02ab5f1bb263bc182d54a7e75e49416e7a9dab",
+      "size": 135
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_lock/r2_sequential_training.log",
+      "sha256": "375bb3196efb5782498909b57ab8d860dcf4b6704ce2df9550fe2fc0234c8d2d",
+      "size": 1619
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_lock/r2_total_lock_independent_audit.json",
+      "sha256": "b85ca47915589471afee0732bc336fca31071f1bfa114494f538dcd0618adedc",
+      "size": 41283
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_per_seed_metrics.csv",
+      "sha256": "21f87c0984b093336d9c2aa3ba6804e285336a78bbd784489663567983f67664",
+      "size": 27955
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_prelabel_lock_audit.json",
+      "sha256": "baa2c047ae422927d621d0e9aaa4a390c569a5e101b20bec8b6842192ccf6352",
+      "size": 6133
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/r2_preregistered_statistics.json",
+      "sha256": "aa2f15f93a757b96e011eefb12f0eb34b075254c197485dd9c492f4e60c83358",
+      "size": 1013
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/resource_audit.json",
+      "sha256": "23c8edc5fcb6217f0fbd8c0b767eb6d97b26c6573d7cbf889339110f2e314406",
+      "size": 1998
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/reuse/reuse_attempt_001_evidence_route_failure.json",
+      "sha256": "1651c23e0bc11dac64be8f0d28e2cfd436c1c6434dab17e395611bbacf423ef4",
+      "size": 462
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/reuse/reuse_certification.json",
+      "sha256": "9176e7a68f589915bfdc32bab66254771c0fad470274977eb380f6655366c0f8",
+      "size": 227133
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/reuse/reuse_independent_audit.json",
+      "sha256": "1bfcffbf4d69b10ab2f12a2dcc691fa3aa84ca14caeed7d8fa8e825aac30e901",
+      "size": 567
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/reuse/reuse_materialization.json",
+      "sha256": "85f66a5fdcf2eb73aa986554eaef860e334c24b726160212ab3d9d51fc7b8221",
+      "size": 19417
+    },
+    {
+      "relative_path": "outputs/night10a_rev2_handoff/stage_m_audit.json",
+      "sha256": "c380c33b6cb202337fd0cd3eaaac1297bdebba6a31774535259a1d16704bd19e",
+      "size": 168
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/Night10A_REV1_Failure_Root_Cause_and_REV2_Safety_Audit_2026-08-21.md",
+      "sha256": "4256fbc6fb6c54d4476770e62a0b24904bb96f5ed31c959c2b8799bee9fd2acc",
+      "size": 5388
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/SpaLORA_Current_State_Handoff_After_Night10A_REV1_2026-08-21.md",
+      "sha256": "ddb9438407222ec0744180bfd2822b07635ab3a243cbebfd1c5899ab24c192b6",
+      "size": 3124
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/SpaLORA_Night10A_REV2_Execution_Taskbook_2026-08-21.md",
+      "sha256": "c673216d650188dbca70e883802102e3fdb4507b0bcebd447aa7e6085eb08c3e",
+      "size": 7322
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "62aaf746188aa151e648e53a354a6c4d2f62c763b0690b068cff89a1e8cfe59d",
+      "size": 1623
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "157c36b098c43c3e6bb596de3f9d2729f0776383714c7f33c4f98ad49d82b555",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q03_MASKED_RESIDUAL.json",
+      "sha256": "93676dd9b9561fb792bbdf3a7db205171099097751d2d6106dbbc73bbf79c4c1",
+      "size": 1618
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "617abfa9f09cdb6acf4e05e3bb663efcfad274bb1ab9054d0a145cbd2995a0d7",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "7c94a328651cbc707943cbb19264f2b609a60e6dbd63832d1c6b82edcbf4fce5",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "1a1d3b81fc14f597d52d163b85acdfeec51d5acb1eae29d9e2687d6e559684c4",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "bd276b3df1e4b6c8c1f28938796d68aa5b22d58e4497d947040e133c7ea3cd9c",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "f26ed5444ca89228848dffe0151ad81a1d93a39aaff9433a7b9a429cb90455e6",
+      "size": 1623
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "3b4561f55cffb2575c8f1c87a0d46f8c44b492d70151ddadd4d28883fa9afd24",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q03_MASKED_RESIDUAL.json",
+      "sha256": "d13b488555380ba0d245076ede0461be4963eea1e0834774f1bb56752e3e03d4",
+      "size": 1618
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "1ec50967046554a6ee90013bb378e2610fa129901fc7f76493d5c96bf353995c",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "3e3e7dd5db02a78d3704b4d1db08e82c172340af55dd137034c6576f4b3a78de",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "5a356038e39ada526077904d5224b8b2aab03b45f0ee3b21e73d347a9755ff9e",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "4a8a6bc5d3ba6dbb76d2a4f94098fe5abe6eec86753cc738695a250e95abf4b2",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "919b295d720a7382e3ed3bae711bc94285c6863883d98151fb4fbb64b1a14b09",
+      "size": 1623
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "a2a14704d9609b0c0d91a423dfcf89439eaff24540f3a6760527a81abf875071",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q03_MASKED_RESIDUAL.json",
+      "sha256": "4447eef0fe45c0360ef17f431207c3ce7229406c01048af9520da607bf3d298d",
+      "size": 1618
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "01d49025ccfa3e30dc1fc783207dd7fe58487f821bfab78a199272d18955714e",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "84453f3086ec636b2802b5e7675f2339f46904cb53c8cc589726ad69200189a5",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "ac1c8a46134fbc5bb4910b82caaa674ffd251287e41d74dc7cd17f752aa164f6",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/a1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "b04814594ff6fff2099015c62704e9fd899e930f4ce15c9db80eb2047594b63b",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "042861ddda634f81f8c099fe5358df7ad7268b5eec0465098df05a8903f28d5c",
+      "size": 1623
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "6798e2125158e36d94e590f37ce558ba686ebeed6db53c3ca89c0c724bda8775",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q03_MASKED_RESIDUAL.json",
+      "sha256": "98df285818a2557bae3a5dc587c411b3c08104f267806b9e49da7a91496368db",
+      "size": 1618
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "56b7506ca1b92e3ccf6fb187e4e1b8dbd4617081233d823419ca869ea5094a60",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "da55ba4e6ff5901affcfb377a974501b960d0d0164f83c571d8931a850423ca4",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "916b95ccb20c37ecc9bd68a75bc12ead67541ac1a1107ed656d88ff404e36bd1",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "8830f3b4710a6d0ee7b90047c3c72153e2ed4d333620e3345aaa8d4a1b38dbd8",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "6f4c1262218d16a5a85c4595cb5bc3ff43a5a2f2287f26cc2da61cd8082aa0c4",
+      "size": 1623
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "cf3163745a56d3b5c9b0fc29d6272a8cca2ce970885fab56f347631e4dd95aed",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q03_MASKED_RESIDUAL.json",
+      "sha256": "65a59f1ac5f434644f585a7f4e03c26ffc827badd6f3e3d35835b65b4c81427d",
+      "size": 1618
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "40bdc1e0fcfa27121beeb48fca7c73766660bb4be0f31d924f72940535c678b7",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "20e9f37969a1c90825056deada1506cb90269b9b731dea95d80e8b1ab8ed764b",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "9a4251da8f725dca53afbda361b5895b211e1e212b7ea84c1d5ef99f1398cb0b",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "57db9829764e1b406dde933a720359b83aba2a7c9767808fe52fa5b049197deb",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "c92d95339388246bc6c0e35dc9a2393aec44aa66582c3c9c2a62236e51c10f97",
+      "size": 1623
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "ea70d29e8b3cb4979786f41cb80ed96d15b41d2c2c7c56a5d23f664404471125",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q03_MASKED_RESIDUAL.json",
+      "sha256": "774ddfd3f588fa3ddbacf6deae374181a2a7db6a11c0da937fa638caa6f61272",
+      "size": 1618
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "3c78e71920fbab5d1b177b7eaecc3d7281934589a0b74949a403a9c7390088d9",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "ab2adbb7b832e197f67de01edd18228bfcea788942e35b7368cf7f74a8beb411",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "d3fd595b11c73c308084512f9e8a1a1fc26dc5cec9aa7d0b0d6d3f5062746acc",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/d1/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "a201bc7f4a17a9f62144387e0fddf3c0c2c4c76b4d916ed4d148804b12b6a54c",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "0b10584c32a90a685180a043d08f6aaf00332ed58bf8bd4ca7db7bec4d9ff24d",
+      "size": 1633
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "8631606ffa45c15f274454f47ceffcd5c8c901f8703a060a4b5ad6730f98eac0",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q03_MASKED_RESIDUAL.json",
+      "sha256": "e057d6640c8941d469a9d09135062055ec0f4ee62299268f27cca3e52a688894",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "a92714b5f764e5e667eb1de6f53a30093c87a7fe6d4f5757445a9015a07e86cc",
+      "size": 1639
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "67d169c40ec9f8f20b3675ec9326f990f2603c75e7174012e9914845c181ab2d",
+      "size": 1636
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "17492433016490453806b28050bc26b51d2976c9d86c4b8f4fff221a22fa5773",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "102a638febcc70df8319c073c64428653b3e4f996335f51c72a6f217c17b572b",
+      "size": 1636
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "42d7e8f76ad51e0c7d7861fda0451115dd93e334eee2354e7d7d1e82be266c9f",
+      "size": 1633
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "a97a9f683f8d39be8df8220b1ed80608b02084664728d8b25645f34df3617954",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q03_MASKED_RESIDUAL.json",
+      "sha256": "cea3ca600618274112edce6a255e31cca9adcc655198a0406069ca173e80b5e2",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "2b12c041a5daa6a108056bfbb3886fe3f0001e03da28520545357b7ea4f91198",
+      "size": 1639
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "16df96bc907423bc28669afb77d0dea3f9dd568509bea1f28154342a6e8b72ea",
+      "size": 1636
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "78eeca76966aff74febd3f7761d4d58d9a7773fbd4e7a2052a85d96bd950b404",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "4bd559f5f5e1560abb2ee81a6cace8f8f23ea3637d5b54b49b1250f9390f59cd",
+      "size": 1636
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "38f32e81f7bc0d28971940d5760231fa6a529a6d0b72660a4f202f61145ca435",
+      "size": 1633
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "33bb143bfd9a4e98693219f5b0ff3af5436b8f71108ca2c5132f80aac170abad",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q03_MASKED_RESIDUAL.json",
+      "sha256": "e45136769a8ccdca5d6ab218027215c4cbcc51759771c8456b3f8a64deb35edb",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "6ec9312d0e65ddc2f89e458690f9783981c87ac0dac3be09e6f0d9493d29d6b1",
+      "size": 1639
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "8d716eb0aed74457a9ca586fcbbd942e00571fd4c922f77638f44441fae03245",
+      "size": 1636
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "64800790ca3e19d116284f2629e8a16a6c6afbc8b358dc731259460148be8bcd",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/p22/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "ce735d07e0ae8f3ee8484dd0b55f456dbb646b8f86d910db1a99e373bafc6182",
+      "size": 1636
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "43db043003845d67fed997963617dfa8db311cea1a46bfa810d3c039ccfd8e42",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "637b38cb06a1ac7ee15ab99bf58a4b8e22c10ee707c958ee130c461368abb30b",
+      "size": 1624
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q03_MASKED_RESIDUAL.json",
+      "sha256": "1d56f39234d0c8bbbf80751fccd793b6d291e1235c0ace9e7b174e97f5ab17df",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "930be39e1b5ffb20e39bcbc7390fcfa673b649d5bf8464eb37aef6513b6d8db2",
+      "size": 1632
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "a78400c04c6d17ee98f48e07590758c7427435a2f94f2dc89c713afa68a21b66",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "0568aa9e2c6821b42a9e6f5c98cd435335c50773a87466a9afb9dd13589107ac",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_0/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "837380d01038ea5994468f349cad71d93fd71c4f879fd0e01d6634c9fc334224",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "f82df04e439c2f527a72a5273078d1f39c097fa8b3cb10d422d4ee3b974493d8",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "cb0d1d6b99dc34c6f071b693fccd99f80a6302a86401b78b235f57835061bf17",
+      "size": 1624
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q03_MASKED_RESIDUAL.json",
+      "sha256": "5abc782cc13b25b25bae74fdbd11db181ce69ed490094ba3218e4b41cbd7ddea",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "12a203b1649dd27e82c6cd4bbe41e0d7c3baae97290c667ebe08dbf3118efdd1",
+      "size": 1632
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "34a184c5d7ba8065686180e36b352b9cbe7342c92d732657a2792b65b1fa805d",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "bdfa223a8b0a5c3c8a25a3a99b8fe47247871fa5fe28abc1b0e50279e7100631",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_1/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "52a1e7bf076046abe7d766d85fdaaa5fb893173ca5888505990352c1f3ade3a6",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q01_GLOBAL_QUALITY_BLEND.json",
+      "sha256": "19ab37c7019660ff7a5ce8ec4f5b81e9e798a63ce4a14e75c54ba8931f58a7c2",
+      "size": 1626
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q02_SPOT_QUALITY_BLEND.json",
+      "sha256": "90790072572ea7430d80a09fe9e49a8a899a61b9427d462eb9db22cb531f2322",
+      "size": 1624
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q03_MASKED_RESIDUAL.json",
+      "sha256": "283be0fd72e18d84daa63272abc89de5631e50e60d90d1aaa16b3d4f429399a7",
+      "size": 1621
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q04_SPOT_GATED_MASKED_RESIDUAL.json",
+      "sha256": "7406897cabd7c73b97cf4296b16aec4a29b074cad549ea7ad324fbf7777b6931",
+      "size": 1632
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q05_BOUNDARY_GATED_RESIDUAL.json",
+      "sha256": "97e6af1be601f957d4b13cac63d2fa56297c1d76e6608cbb54434571a268fb24",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "fd94f5b02d2e08a69ab068a1e50410c081445f40cd2a6a3fc93d9e9204622e17",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1/tonsil/seed_2/Q07_CONFIDENCE_MNN_RESIDUAL.json",
+      "sha256": "f98e9707c7121338b81a4d835611a8f81340ad6dcfbc736551c771635220a336",
+      "size": 1629
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r1_index.json",
+      "sha256": "3b9b5f7aa84dcb3cad9232b619c6c228b118312334334776cd5d59979ff8e68d",
+      "size": 164889
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/a1/seed_3/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "aa2f4e96b2b11ed7865eae44297b440c5f5a06cdaa534852ee49eb7c39361461",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/a1/seed_4/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "f26fce5c7025c8053b2327d4ae48e6e32d57005218ce5fb2763500e7fa74a8c8",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_3/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "47a57c33fbe158a7c2d01b3639e59dfe5597d94fd2d67c77aa37291591b0ccac",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_4/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "2d5254d4f9881c2fcdc6ee0be9156d92f78b13e6b3623343f2427e9a86637206",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_5/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "c6f2b9150b673ac1107aff27fd42df861f084076d043915c99236e5af3e6da63",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_6/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "e18daecd7643834c1e53814ff0d338f667eddc88096249da1872ada37676ae49",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_7/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "20aa4b1edba4e85df5f09914557879947c852d60c10aa1922ba9e397aa53dc0f",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_8/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "ea323914c320c8e48b7e4595ceac9ba00db7316a97259072b39a8674261ab48c",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/d1/seed_9/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "fa494d5bede0ea6b5959a6b3741a4a37a91c90a9745dd33b2a159f29fe48b16e",
+      "size": 1628
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_3/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "9feb081ec7e0dc45ef646670187f15a558cc240d9af303230b34f567643eb87c",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_4/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "07dddaa7a7b426d20df9ac2da5916fb9776a2c8447c41f0f40a25c0814dacf04",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_5/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "e05f807699bd25b9ff48fc10e324ae751c8f438c17130db2dd4e7449c56df394",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_6/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "032ebc7c111dc796bda86c5948f77da3c3315ee83badaf693a05daf6ead06eb7",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_7/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "bb3daa3d57ab04ea0d8ce558804e1c4c7cca31ef840aabfce0ec75b4c44dafd4",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_8/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "c2a90b6d7995ae6d603e3edd7fab7e27292b1804f6be1fd3d594886b1068a0cb",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/p22/seed_9/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "819514c8bfd97daf0778353df3f450dba8b0ee0dcc92de8d2a32da6e94faf3b6",
+      "size": 1638
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/tonsil/seed_3/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "1d685a5e0f07ddf2a808390c78ef16b5d4d1ed748093bbb227045ccf24068900",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2/tonsil/seed_4/Q06_COORDINATE_PRIOR_RESIDUAL.json",
+      "sha256": "ad30fdc856cef4b4b8ec14df568bd5ba2bf66e418ab9e96447d5363dbcf4ef91",
+      "size": 1631
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/formal_configs/r2_index.json",
+      "sha256": "2971bcfafd903b5d58411e4f7989ec3a4adf5a1e5259449df866fce9c937c72e",
+      "size": 35512
+    },
+    {
+      "relative_path": "protocols/night10a_rev2/night10a_qcrd_rev2_dimension_and_reuse_contract.json",
+      "sha256": "991e27573c31d0ce072ef6782055bbc0f43fbea008ae3e14a0ce4503fc969a9b",
+      "size": 6615
+    },
+    {
+      "relative_path": "scripts/night10a/metric_expansion_reference.py",
+      "sha256": "33397cada3701108fbfb15d58fafd6f1f9e20417ac7bc14cce1e8aee993cd159",
+      "size": 7618
+    },
+    {
+      "relative_path": "scripts/night10a/night10a_rev2_evaluate.py",
+      "sha256": "f6f87b9c355024ae61a465e7c8f472c44db183290ceb8f7edf94c3a5fe4e0402",
+      "size": 14625
+    },
+    {
+      "relative_path": "scripts/night10a/night10a_rev2_p0.py",
+      "sha256": "c72a25f2fa5ff6f484d0bbab32e33fbae5753b99431a25d553dbd826360d0065",
+      "size": 16856
+    },
+    {
+      "relative_path": "scripts/night10a/night10a_rev2_reuse.py",
+      "sha256": "fee994b21677cfff2c01987b7d65b7804f19e4aaa78b80aa9fbf615bacb648ab",
+      "size": 13111
+    },
+    {
+      "relative_path": "scripts/night10a/night10a_rev2_run.py",
+      "sha256": "655c89318a6ed9492d3b7557ca2bbdc86dac0cb8977ce8df1c4d63b3d8246533",
+      "size": 41621
+    },
+    {
+      "relative_path": "scripts/night7b_evaluate.py",
+      "sha256": "50b6cfad3ab547b80dd2688128ca5bc5bce7c7ecc051cd86ea94ffdfe50ee247",
+      "size": 8781
+    },
+    {
+      "relative_path": "tests/night10a/test_metric_expansion_reference.py",
+      "sha256": "4100b23ab30d74db02cb2e540112b9548080ae1c17817011c202a409b48c6ab0",
+      "size": 1788
+    },
+    {
+      "relative_path": "tests/night10a/test_night10a_qcrd.py",
+      "sha256": "d0412b8dc65a6e51b098b8ca1de53202ab38d254622477f8b0871b7b404add73",
+      "size": 4270
+    },
+    {
+      "relative_path": "tests/night10a/test_night10a_qcrd_rev1.py",
+      "sha256": "bcf64cb4214bf7dfe77274c9e341ba460ed7459fb061e85d6e24f7af5204ebe0",
+      "size": 9320
+    },
+    {
+      "relative_path": "tests/night10a/test_night10a_qcrd_rev2.py",
+      "sha256": "2532aeaa37884ab1d2db4d6352e1daa8c11eaf55e0607be8228757cc33e32e66",
+      "size": 4802
+    },
+    {
+      "relative_path": "tests/night10a/test_night10a_rev1_runner.py",
+      "sha256": "7a79b9122003857e2d13f0338e7b2efc5a186a3efe13ad4d52af66155d8c8d33",
+      "size": 2170
+    },
+    {
+      "relative_path": "tests/night10a/test_night10a_rev2_runner.py",
+      "sha256": "97709a38cfcabeb0a3d949b86361ff69aef763df6126c232c1ddaea50ea5f3a7",
+      "size": 2998
+    }
+  ],
+  "root_rule": "paths are relative to repository root; this self-index is excluded to avoid circular hashing",
+  "schema": "spalora.night10a.rev2.repo_delivery_file_index.v1",
+  "total_size": 1898672
+}

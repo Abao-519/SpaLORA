@@ -1,0 +1,25 @@
+{
+  "authorized_label_reads": 8,
+  "e18_5_reads": 0,
+  "engineering_outcome": "P22_DIMENSION_HARMONIZATION_AND_REAL_RUNTIME_GATE_PASS",
+  "final_frontier_entry": false,
+  "final_macro_delta_q": -0.0024104939546254,
+  "misar_y_reads": 0,
+  "ordinary_numerical_failures": 1,
+  "p0": "210/210",
+  "r1_locked": "84/84",
+  "r2_conditional_selected": [
+    "Q06_COORDINATE_PRIOR_RESIDUAL"
+  ],
+  "r2_new_locked": "18/18",
+  "reuse": {
+    "a1": "REUSE_ALL_21",
+    "d1": "REUSE_ALL_21",
+    "p22": "RETRAIN_ALL_21_REV2_REQUIRED",
+    "tonsil": "REUSE_ALL_21"
+  },
+  "schema": "spalora.night10a.rev2.execution_summary.v1",
+  "scientific_outcome": "QCRD_NO_FINAL_FRONTIER_ENTRY",
+  "status": "COMPLETE",
+  "training_label_reads": 0
+}

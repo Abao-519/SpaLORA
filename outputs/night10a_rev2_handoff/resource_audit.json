@@ -1,0 +1,58 @@
+{
+  "affinities_downloaded_to_windows": false,
+  "blas_threads_per_worker": 3,
+  "checkpoints_downloaded_to_windows": false,
+  "device": "NVIDIA GeForce RTX 4080 SUPER",
+  "formal_unique_cells": 102,
+  "full_embeddings_downloaded_to_windows": false,
+  "full_history_bundle_created": false,
+  "maximum_concurrent_blas_threads": 12,
+  "maximum_peak_gpu_bytes": 238497792,
+  "maximum_peak_gpu_mib": 227.44921875,
+  "memory_probe": {
+    "blas_threads_per_worker": 3,
+    "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+    "config": "/root/autodl-fs/SpaLORA-night10a-rev1/protocols/night10a_rev2/formal_configs/r1/p22/seed_0/Q01_GLOBAL_QUALITY_BLEND.json",
+    "dataset": "p22",
+    "elapsed_seconds": 48.564377784729004,
+    "failed_probe_attempts": [
+      {
+        "result": "not installed",
+        "tool": "/usr/bin/time",
+        "transform_started": false
+      }
+    ],
+    "label_reads": 0,
+    "mem_available_after_kb": 484250876,
+    "mem_available_before_kb": 484222876,
+    "mem_available_minimum_kb": 483421796,
+    "peak_process_rss_kb": 1055136,
+    "projected_four_worker_rss_kb": 4220544,
+    "projected_headroom_kb": 480002332,
+    "returncode": 0,
+    "schema": "spalora.night10a.rev2.transform_memory_probe.v1",
+    "seed": 0,
+    "status": "PASS",
+    "transform_timeout_seconds": 1800,
+    "worker_limit": 4
+  },
+  "p0_elapsed_seconds": 474.2096576690674,
+  "p0_under_90_minutes": true,
+  "raw_downloaded_to_windows": false,
+  "recorded_training_runtime_seconds_sum": 895.2590193748474,
+  "recorded_transform_runtime_seconds_sum": 1557.4728372097015,
+  "schema": "spalora.night10a.rev2.resource_audit.v1",
+  "status": "PASS",
+  "training_status_counts": {
+    "CHECKPOINT_ROUNDTRIP_PASS": 39,
+    "REUSED_CHECKPOINT_ROUNDTRIP_PASS": 63
+  },
+  "transform_status_counts": {
+    "PASS": 60,
+    "REUSED_PASS": 42
+  },
+  "transform_timeout_seconds": 1800,
+  "transform_worker_limit": 4,
+  "wallclock_seconds_since_p0_authority_mtime": 4331.588340520859,
+  "within_12_hour_budget": true
+}

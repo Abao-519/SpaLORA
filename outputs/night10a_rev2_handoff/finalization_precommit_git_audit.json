@@ -1,0 +1,23 @@
+{
+  "baseline_tag": "baseline/pre-night10a-rev2-real-schema-harmonization-20260821",
+  "baseline_tag_peeled_commit": "c7cb3ecd1631db7a21606e62c69eaec05fe31ac1",
+  "branch": "revision/q2-night10a-rev2-real-schema-harmonization-20260821",
+  "current_head_before_final_delivery_commit": "e102bbf254dcb6f5f954f35fdc82c9aeddcc9a11",
+  "final_tag": "night10a-rev2-final-20260821",
+  "final_tag_absent_before_final_commit": true,
+  "force_pushes_used": false,
+  "old_rev1_raw_modified": false,
+  "old_tags_modified": false,
+  "old_tags_observed": [
+    "baseline/pre-night10a-qcrd-score-rnd-20260821",
+    "baseline/pre-night10a-rev1-qcrd-20260821",
+    "baseline/pre-night10a-rev2-real-schema-harmonization-20260821",
+    "night10a-final-20260821",
+    "night10a-rev1-final-20260821"
+  ],
+  "remote_origin": "git@github.com:Abao-519/SpaLORA.git",
+  "required_parent": "c7cb3ecd1631db7a21606e62c69eaec05fe31ac1",
+  "required_parent_is_ancestor": true,
+  "schema": "spalora.night10a.rev2.finalization_precommit_git_audit.v1",
+  "status": "PASS"
+}

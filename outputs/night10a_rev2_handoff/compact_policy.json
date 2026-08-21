@@ -1,0 +1,28 @@
+{
+  "affinity_files_in_compact": false,
+  "bundle_scope": "incremental c7cb3ecd1631db7a21606e62c69eaec05fe31ac1..final_commit",
+  "checkpoint_files_in_compact": false,
+  "forbidden_download_categories": [
+    "raw runs",
+    "checkpoints",
+    "full embeddings",
+    "affinities",
+    "full-history Git bundle"
+  ],
+  "full_embedding_files_in_compact": false,
+  "include_categories": [
+    "final report and plain summary",
+    "four REV2 authority files",
+    "real schema matrix and 210-row preflight",
+    "reuse audits",
+    "source and tests",
+    "formal config indexes and configs",
+    "R1/R2 metrics, resource, label, failure, Git, and lock audits",
+    "incremental Git bundle",
+    "root-relative compact SHA index"
+  ],
+  "raw_runs_in_compact": false,
+  "schema": "spalora.night10a.rev2.compact_policy.v1",
+  "status": "PASS",
+  "windows_destination": "D:/\u6587\u6863/ChatGPT/\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee/night10a_rev2_delivery_20260821/official_compact"
+}

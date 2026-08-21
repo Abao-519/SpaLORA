@@ -1,0 +1,63 @@
+{
+  "implementation_and_audit_corrections": [
+    {
+      "completed_runtime_rows_before_correction": 0,
+      "issue": "direct script invocation lacked repository root on module path",
+      "label_reads": 0,
+      "optimizer_steps_before_correction": 0,
+      "scientific_retry": false,
+      "scope": "P0 subprocess invocation"
+    },
+    {
+      "completed_runtime_rows_before_correction": 0,
+      "issue": "floating-view dtype gate was incorrectly applied to numeric integer coordinates",
+      "label_reads": 0,
+      "optimizer_steps_before_correction": 0,
+      "scientific_retry": false,
+      "scope": "P0 coordinate schema gate"
+    },
+    {
+      "issue": "audit initially assumed identity datasets were 128-dimensional; real evidence is 64-dimensional identity",
+      "label_reads": 0,
+      "pipeline_outputs_changed": false,
+      "scope": "independent P0 audit"
+    },
+    {
+      "issue": "adapter replay initially assumed 128-dimensional identity inputs",
+      "label_reads": 0,
+      "scientific_retry": false,
+      "scope": "reuse checkpoint replay",
+      "successful_reuse_rows_before_correction": 0
+    },
+    {
+      "issue": "loss_curve.csv is not in compact raw-artifact manifest",
+      "label_reads": 0,
+      "resolution": "verify against loss_curve_sha256 in frozen training_manifest.json",
+      "scientific_retry": false,
+      "scope": "reuse evidence routing",
+      "successful_reuse_rows_before_correction": 0
+    },
+    {
+      "issue": "/usr/bin/time not installed",
+      "label_reads": 0,
+      "resolution": "poll process RSS and MemAvailable through /proc",
+      "scope": "memory probe tooling",
+      "transform_started": false
+    }
+  ],
+  "ordinary_numerical_failures": [
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "p22",
+      "disposition": "retained without rerun, seed change, or backfill",
+      "issue": "spectral partition has 8 nonempty clusters for frozen K=9",
+      "label_reads": 0,
+      "partition_sha256": "033f6d3d4e4e0c4b138f5b80ed9b4e2ba550037c85a238ab4c459e294be18b3d",
+      "seed": 2,
+      "stage": "r1"
+    }
+  ],
+  "schema": "spalora.night10a.rev2.failure_audit.v1",
+  "status": "PASS_WITH_RETAINED_FAILURES",
+  "systemic_failures_after_formal_training_started": 0
+}

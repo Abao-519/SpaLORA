@@ -1,0 +1,34 @@
+{
+  "contract_sha256": "991e27573c31d0ce072ef6782055bbc0f43fbea008ae3e14a0ce4503fc969a9b",
+  "dataset_name_blind_signature": true,
+  "formal_config_binding_failures": 0,
+  "formal_configs_bound_to_preflight_rows": 102,
+  "identity": {
+    "actual_dimensions": "64->64",
+    "byte_exact": true,
+    "same_object": true,
+    "units": 20
+  },
+  "p0_passed_rows": 210,
+  "p0_real_rows": 210,
+  "rectangular": {
+    "actual_dimensions": "64->128",
+    "geometry_full_certified_bound_gate": 1e-08,
+    "geometry_subset_gate": 1e-10,
+    "orthogonality_gate": 1e-10,
+    "projection_frozen_and_hashed": true,
+    "projection_shape": [
+      64,
+      128
+    ],
+    "rank_all": 64,
+    "units": 10
+  },
+  "schema": "spalora.night10a.rev2.dimension_and_execution_audit.v1",
+  "status": "PASS",
+  "zf_aligned_consumers": [
+    "adapter_input",
+    "final_three_view_fusion",
+    "boundary_loss"
+  ]
+}
