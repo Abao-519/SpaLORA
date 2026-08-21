@@ -1,0 +1,138 @@
+{
+  "RNA+ATAC": {
+    "CLEAN_HOLDOUT": {
+      "B0_SELF_ONLY": {
+        "mse": 0.0019931934897984044,
+        "normalized_regret": 0.03148784478979487,
+        "regret": 1.6537789079776747e-05
+      },
+      "B1_ALWAYS_TRANSFER": {
+        "mse": 0.002000366632291799,
+        "normalized_regret": 0.049243833071408956,
+        "regret": 2.371093157317139e-05
+      },
+      "B2_UNCERTAINTY_ONLY": {
+        "mse": 0.001990189450666023,
+        "normalized_regret": 0.031414017807927075,
+        "regret": 1.353374994739523e-05
+      },
+      "B3_SELECTIVE_NULL": {
+        "mse": 0.001988212477576644,
+        "normalized_regret": 0.008455844286926561,
+        "regret": 1.1556776858016381e-05
+      }
+    },
+    "LOCAL_AUXILIARY_CONFLICT": {
+      "B0_SELF_ONLY": {
+        "mse": 0.0019931934897984044,
+        "normalized_regret": 0.02742493461035447,
+        "regret": 1.395961000668753e-05
+      },
+      "B1_ALWAYS_TRANSFER": {
+        "mse": 0.0020039629836392995,
+        "normalized_regret": 0.046805055125246,
+        "regret": 2.4729103847582507e-05
+      },
+      "B2_UNCERTAINTY_ONLY": {
+        "mse": 0.001991841598181644,
+        "normalized_regret": 0.028303193242222247,
+        "regret": 1.2607718389926988e-05
+      },
+      "B3_SELECTIVE_NULL": {
+        "mse": 0.001989962326500168,
+        "normalized_regret": 0.007807749133886147,
+        "regret": 1.0728446708450942e-05
+      }
+    },
+    "LOCAL_TARGET_DAMAGE": {
+      "B0_SELF_ONLY": {
+        "mse": 0.002166080973549448,
+        "normalized_regret": 0.018741427878794438,
+        "regret": 2.3715390276123795e-05
+      },
+      "B1_ALWAYS_TRANSFER": {
+        "mse": 0.002168074410221565,
+        "normalized_regret": 0.03398219469465663,
+        "regret": 2.5708826948240653e-05
+      },
+      "B2_UNCERTAINTY_ONLY": {
+        "mse": 0.002160297521534697,
+        "normalized_regret": 0.018002022713411916,
+        "regret": 1.7931938261372627e-05
+      },
+      "B3_SELECTIVE_NULL": {
+        "mse": 0.0021561125509586532,
+        "normalized_regret": 0.00274398549617038,
+        "regret": 1.3746967685328361e-05
+      }
+    }
+  },
+  "RNA+PROTEIN": {
+    "CLEAN_HOLDOUT": {
+      "B0_SELF_ONLY": {
+        "mse": 0.0011053093466370724,
+        "normalized_regret": 0.026388156355532152,
+        "regret": 1.698620442256332e-05
+      },
+      "B1_ALWAYS_TRANSFER": {
+        "mse": 0.0011143270781122491,
+        "normalized_regret": 0.05936786836863589,
+        "regret": 2.6003935897739934e-05
+      },
+      "B2_UNCERTAINTY_ONLY": {
+        "mse": 0.0011035459169677607,
+        "normalized_regret": 0.026101471290340142,
+        "regret": 1.5222774753251365e-05
+      },
+      "B3_SELECTIVE_NULL": {
+        "mse": 0.001100147803863972,
+        "normalized_regret": 0.00670213930603862,
+        "regret": 1.1824661649462594e-05
+      }
+    },
+    "LOCAL_AUXILIARY_CONFLICT": {
+      "B0_SELF_ONLY": {
+        "mse": 0.0011053093466370724,
+        "normalized_regret": 0.022474402807180566,
+        "regret": 1.3820985899116328e-05
+      },
+      "B1_ALWAYS_TRANSFER": {
+        "mse": 0.0011178023055494822,
+        "normalized_regret": 0.06722086534416391,
+        "regret": 2.6313944811525976e-05
+      },
+      "B2_UNCERTAINTY_ONLY": {
+        "mse": 0.0011049299799957251,
+        "normalized_regret": 0.0267705733035012,
+        "regret": 1.3441619257769264e-05
+      },
+      "B3_SELECTIVE_NULL": {
+        "mse": 0.0011020099797680756,
+        "normalized_regret": 0.006412581174348461,
+        "regret": 1.0521619030119463e-05
+      }
+    },
+    "LOCAL_TARGET_DAMAGE": {
+      "B0_SELF_ONLY": {
+        "mse": 0.0012581261849304536,
+        "normalized_regret": 0.02665476080895654,
+        "regret": 2.7049333718972684e-05
+      },
+      "B1_ALWAYS_TRANSFER": {
+        "mse": 0.0012594103542660185,
+        "normalized_regret": 0.05893508763638006,
+        "regret": 2.8333503054537508e-05
+      },
+      "B2_UNCERTAINTY_ONLY": {
+        "mse": 0.001253465100144502,
+        "normalized_regret": 0.026065407620390595,
+        "regret": 2.238824893302101e-05
+      },
+      "B3_SELECTIVE_NULL": {
+        "mse": 0.0012467103090885259,
+        "normalized_regret": 0.00816287494232188,
+        "regret": 1.563345787704475e-05
+      }
+    }
+  }
+}

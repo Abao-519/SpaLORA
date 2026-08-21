@@ -1,0 +1,142 @@
+{
+  "claim_boundary": "Label-free mechanism identifiability only; no clustering performance or paper-readiness claim.",
+  "classification": "SCIENTIFIC NEGATIVE",
+  "forbidden_counters": {
+    "ari_nmi_q_ami_fmi_computations": 0,
+    "dataset_name_router_calls": 0,
+    "dense_n_by_n_constructed": 0,
+    "e18_5_accesses": 0,
+    "evaluation_label_reads": 0,
+    "label_based_spatial_metric_computations": 0,
+    "label_reads_total": 0,
+    "misar_y_reads": 0,
+    "new_external_data_accesses": 0,
+    "qcrd_train_resume_evaluate_runs": 0,
+    "scientific_retries_or_fallbacks": 0,
+    "third_party_benchmark_runs": 0,
+    "training_label_reads": 0
+  },
+  "formal_cases": 18,
+  "formal_rows": 144,
+  "gates": {
+    "auxiliary_conflict_safety": false,
+    "clean_safety": true,
+    "event_counts": true,
+    "firewall": true,
+    "no_gate_collapse": true,
+    "per_family_auroc": true,
+    "per_family_gate_separation": false,
+    "per_family_spearman": true,
+    "pooled_auroc": true,
+    "pooled_spearman": true,
+    "resource": true,
+    "roundtrip": true,
+    "target_damage_usefulness": false,
+    "uncertainty_ablation": true
+  },
+  "global_correction_cycles": 0,
+  "identifiability": {
+    "POOLED": {
+      "auprc": 0.8613154881063174,
+      "auroc": 0.8717082048724941,
+      "excluded_fraction": 0.01007273045916579,
+      "gate_bins": [
+        0.07222222222222222,
+        0.9268839817735717,
+        0.0008937960042060989
+      ],
+      "gate_separation": 0.19319451427149176,
+      "gate_std": 0.15778477594847629,
+      "negative_events": 125311,
+      "positive_events": 100630,
+      "spearman": 0.7276646558309203
+    },
+    "RNA+ATAC": {
+      "auprc": 0.8690987413573493,
+      "auroc": 0.8767169479573474,
+      "excluded_fraction": 0.009998308443284531,
+      "gate_bins": [
+        0.05316925233193176,
+        0.9460272582282152,
+        0.0008034894398530762
+      ],
+      "gate_separation": 0.18371422253865854,
+      "gate_std": 0.1516732446994399,
+      "negative_events": 89568,
+      "positive_events": 74305,
+      "spearman": 0.7428315232222845
+    },
+    "RNA+PROTEIN": {
+      "auprc": 0.8407440700283382,
+      "auroc": 0.8604565696396463,
+      "excluded_fraction": 0.010301058808521502,
+      "gate_bins": [
+        0.12251243781094527,
+        0.8763554024748055,
+        0.0011321597142492665
+      ],
+      "gate_separation": 0.22202410495685634,
+      "gate_std": 0.17129882001105065,
+      "negative_events": 35748,
+      "positive_events": 26318,
+      "spearman": 0.6907298050905613
+    }
+  },
+  "mse_by_family_condition_arm": {
+    "RNA+ATAC": {
+      "CLEAN_HOLDOUT": {
+        "B0_SELF_ONLY": 0.0019931934897984044,
+        "B1_ALWAYS_TRANSFER": 0.002000366632291799,
+        "B2_UNCERTAINTY_ONLY": 0.001990189450666023,
+        "B3_SELECTIVE_NULL": 0.001988212477576644
+      },
+      "LOCAL_AUXILIARY_CONFLICT": {
+        "B0_SELF_ONLY": 0.0019931934897984044,
+        "B1_ALWAYS_TRANSFER": 0.0020039629836392995,
+        "B2_UNCERTAINTY_ONLY": 0.001991841598181644,
+        "B3_SELECTIVE_NULL": 0.001989962326500168
+      },
+      "LOCAL_TARGET_DAMAGE": {
+        "B0_SELF_ONLY": 0.002166080973549448,
+        "B1_ALWAYS_TRANSFER": 0.002168074410221565,
+        "B2_UNCERTAINTY_ONLY": 0.002160297521534697,
+        "B3_SELECTIVE_NULL": 0.0021561125509586532
+      }
+    },
+    "RNA+PROTEIN": {
+      "CLEAN_HOLDOUT": {
+        "B0_SELF_ONLY": 0.0011053093466370724,
+        "B1_ALWAYS_TRANSFER": 0.0011143270781122491,
+        "B2_UNCERTAINTY_ONLY": 0.0011035459169677607,
+        "B3_SELECTIVE_NULL": 0.001100147803863972
+      },
+      "LOCAL_AUXILIARY_CONFLICT": {
+        "B0_SELF_ONLY": 0.0011053093466370724,
+        "B1_ALWAYS_TRANSFER": 0.0011178023055494822,
+        "B2_UNCERTAINTY_ONLY": 0.0011049299799957251,
+        "B3_SELECTIVE_NULL": 0.0011020099797680756
+      },
+      "LOCAL_TARGET_DAMAGE": {
+        "B0_SELF_ONLY": 0.0012581261849304536,
+        "B1_ALWAYS_TRANSFER": 0.0012594103542660185,
+        "B2_UNCERTAINTY_ONLY": 0.001253465100144502,
+        "B3_SELECTIVE_NULL": 0.0012467103090885259
+      }
+    }
+  },
+  "pooled_normalized_regret": {
+    "B0_SELF_ONLY": 0.02552858787510217,
+    "B1_ALWAYS_TRANSFER": 0.052592484040081905,
+    "B2_UNCERTAINTY_ONLY": 0.02610944766296553,
+    "B3_SELECTIVE_NULL": 0.006714195723282008
+  },
+  "resources": {
+    "formal_cpu_seconds_sum": 3476.709441136,
+    "peak_gpu_mib": 0,
+    "peak_rss_kib": 1172764,
+    "remote_wall_seconds": 4116.400908470154
+  },
+  "roundtrip_count": 2,
+  "schema": "spalora.night11a.decision.v1",
+  "terminal": "NIGHT11A_NO_IDENTIFIABLE_TRANSFER_UTILITY"
+}

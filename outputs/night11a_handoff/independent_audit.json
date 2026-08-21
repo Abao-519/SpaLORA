@@ -1,0 +1,186 @@
+{
+  "checkpoint_hashes": [
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/CLEAN_HOLDOUT/seed_17/checkpoint.npz",
+      "sha256": "ce985c1945c4d9321ce69b81ddb5d40a6c79a84554f7373041fc17c85e3df513"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/CLEAN_HOLDOUT/seed_29/checkpoint.npz",
+      "sha256": "ce985c1945c4d9321ce69b81ddb5d40a6c79a84554f7373041fc17c85e3df513"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/CLEAN_HOLDOUT/seed_43/checkpoint.npz",
+      "sha256": "ce985c1945c4d9321ce69b81ddb5d40a6c79a84554f7373041fc17c85e3df513"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_TARGET_DAMAGE/seed_17/checkpoint.npz",
+      "sha256": "a6ec263bafc941fdb1be73deeccda28b34b869794045c3dbdbbd49fbfffb4e56"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_TARGET_DAMAGE/seed_29/checkpoint.npz",
+      "sha256": "d255667facc5d010fcc0bee373db780d6aa00b0db6481d2aea280971883707aa"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_TARGET_DAMAGE/seed_43/checkpoint.npz",
+      "sha256": "c979bf842e748ee8e8493debce3b643ab3864cdf9b14bb43d40198ab8cc2ce43"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_AUXILIARY_CONFLICT/seed_17/checkpoint.npz",
+      "sha256": "8f80529fcf17e6d676d3260229d670dce93d202fdc6a5d36ad2390b1b9909a46"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_AUXILIARY_CONFLICT/seed_29/checkpoint.npz",
+      "sha256": "069ada25ba015659bd325ba9812f563fb4409125ce575c9dc767ecec114ebcc6"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_AUXILIARY_CONFLICT/seed_43/checkpoint.npz",
+      "sha256": "51e780e6d288282cc05a72b79bddb6519533c9878958daa924c6d04190a30db5"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/CLEAN_HOLDOUT/seed_17/checkpoint.npz",
+      "sha256": "938fdbc70ec09a41088b991ee42c7c4ed2a5f146a23f2666bd61f46133e5ca31"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/CLEAN_HOLDOUT/seed_29/checkpoint.npz",
+      "sha256": "938fdbc70ec09a41088b991ee42c7c4ed2a5f146a23f2666bd61f46133e5ca31"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/CLEAN_HOLDOUT/seed_43/checkpoint.npz",
+      "sha256": "938fdbc70ec09a41088b991ee42c7c4ed2a5f146a23f2666bd61f46133e5ca31"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_TARGET_DAMAGE/seed_17/checkpoint.npz",
+      "sha256": "5e806debe320eca0a84ece2c63024067c4b14c8236c1b35d39f47e26c1758b56"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_TARGET_DAMAGE/seed_29/checkpoint.npz",
+      "sha256": "08655b6fe2b6c5a185578cb2a55d59c5b516cfb518c3f473002735cc9b579cc1"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_TARGET_DAMAGE/seed_43/checkpoint.npz",
+      "sha256": "e3559d74a4fdade1dbe30813ed603ba6983f44ef467d54ade60e64489e7aa9df"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_AUXILIARY_CONFLICT/seed_17/checkpoint.npz",
+      "sha256": "e82c9477eb191c65323b9002e3df1f5697200759d8e21340a78de6749fa9f607"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_AUXILIARY_CONFLICT/seed_29/checkpoint.npz",
+      "sha256": "0bc2accf0acb62068f8fbbd4b6db807b0022202ddb8818a51378a7802a530a08"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_AUXILIARY_CONFLICT/seed_43/checkpoint.npz",
+      "sha256": "f17f2b2964218bdf5cd1eab22c6eb6b3ef92a9658f1bf8bb813305ba7126b799"
+    }
+  ],
+  "checks": {
+    "all_runtime_rows_pass": true,
+    "correction_cycles_within_limit": true,
+    "decision_terminal_contract_valid": true,
+    "forbidden_counters_all_zero": true,
+    "formal_matrix_144_unique": true,
+    "implementation_and_config_frozen": true,
+    "resource_gpu_within_8192mib": true,
+    "resource_wall_within_4h": true,
+    "smoke_fresh_process_roundtrip_2_of_2": true,
+    "sparse_patch_permutations_no_fixed_points": true
+  },
+  "decision_sha256": "cc02fee040f76535c10db3b61097910bb4f990c6f52632317eb77db7b82eb638",
+  "forbidden_counters": {
+    "ari_nmi_q_ami_fmi_computations": 0,
+    "dataset_name_router_calls": 0,
+    "dense_n_by_n_constructed": 0,
+    "e18_5_accesses": 0,
+    "evaluation_label_reads": 0,
+    "label_based_spatial_metric_computations": 0,
+    "label_reads_total": 0,
+    "misar_y_reads": 0,
+    "new_external_data_accesses": 0,
+    "qcrd_train_resume_evaluate_runs": 0,
+    "scientific_retries_or_fallbacks": 0,
+    "third_party_benchmark_runs": 0,
+    "training_label_reads": 0
+  },
+  "formal_expected_rows": 144,
+  "formal_index_sha256": "6273eb8052ea1065d17519553df3ca675610616469feeef0af81b53967627830",
+  "formal_rows": 144,
+  "freeze_sha256": "dbbff7e3f9ec83f056cff529967399526c0ce7c9b60516e6a68815c8ad7f7611",
+  "manifest_hashes": [
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/CLEAN_HOLDOUT/seed_17/manifest.json",
+      "sha256": "39e95302a356c738beb8ff627f5bc54bb10b3e9cccdf41adcd412acfddefb1fc"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/CLEAN_HOLDOUT/seed_29/manifest.json",
+      "sha256": "b3c18976a8b055a7fed6df3937f8b5db2a87171206b82d1899a0446fae4c5330"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/CLEAN_HOLDOUT/seed_43/manifest.json",
+      "sha256": "5bd58c433f5379701e52fc25f0dad15673db73b4e6b6c1842a18a7f9f0b54212"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_TARGET_DAMAGE/seed_17/manifest.json",
+      "sha256": "ec1a94f387a65003c8a94b3c232ecb56400fb1a188df7e1308aa33eb7a38c4a8"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_TARGET_DAMAGE/seed_29/manifest.json",
+      "sha256": "d767c7466e4f59a65b386b0d9fde9e44bff9a4761e66c524fb0b0233ffa1c340"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_TARGET_DAMAGE/seed_43/manifest.json",
+      "sha256": "58e8ba23c37d881db192c1ce78a2e14f3b5de96b4dd8e39a9d5ece00fa427e63"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_AUXILIARY_CONFLICT/seed_17/manifest.json",
+      "sha256": "4e2f37b20130053abf20b55ffd91869fa4b313b7050e88063cd67d7e1aa6c9ab"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_AUXILIARY_CONFLICT/seed_29/manifest.json",
+      "sha256": "136f007de736e3a151329a30e46aafc57b34f205a8de98f0dafeea97324649ed"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u000/LOCAL_AUXILIARY_CONFLICT/seed_43/manifest.json",
+      "sha256": "73a9327d5360d88aff0199825944855c0aa5becf27aa99202028bccb704c7025"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/CLEAN_HOLDOUT/seed_17/manifest.json",
+      "sha256": "78a3486b8f83bed5862dbb631b144b5afe070239eb21bcf6043a3da0fbbbd374"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/CLEAN_HOLDOUT/seed_29/manifest.json",
+      "sha256": "a473ed88ade3c7a036f6478bb272cde9cf4f6bbeeb37336ee8919d72a5bc04a9"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/CLEAN_HOLDOUT/seed_43/manifest.json",
+      "sha256": "241451604046aa307a76e77c5ab986efab2ff7e6e635c1f16f19d7ddfdb52c2e"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_TARGET_DAMAGE/seed_17/manifest.json",
+      "sha256": "90b59004d67b399c18669fe92ed0e5459b13ef92cb6852b2b97b956ac8c6a97c"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_TARGET_DAMAGE/seed_29/manifest.json",
+      "sha256": "80249a09378897e98fff68cf2f617a0825f6db507c770e0422206d6b6aa2bb99"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_TARGET_DAMAGE/seed_43/manifest.json",
+      "sha256": "81b065d69f26de0bba9fb0c9dbfdc37a5b2a1c00802e0b7e64b9e3976319bd2e"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_AUXILIARY_CONFLICT/seed_17/manifest.json",
+      "sha256": "7872469e29efff249e9585c1e24f589ecdc64f8476f0a8c5e34f7d7d92b22337"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_AUXILIARY_CONFLICT/seed_29/manifest.json",
+      "sha256": "b21f3f60468c419678d7dff36b64a288519aa4d0ebff22615e3999edae19665c"
+    },
+    {
+      "path": "/root/autodl-fs/night11a_selective_transfer_identifiability_20260822/formal/u020/LOCAL_AUXILIARY_CONFLICT/seed_43/manifest.json",
+      "sha256": "a0743905eeb23fdd68b3b1c41e6376e1b959b958273605b66afb762c98c501d3"
+    }
+  ],
+  "schema": "spalora.night11a.independent_audit.v1",
+  "smoke_index_sha256": "52ab108fd5cb89be116d3732d62a164be3a8326fac9e981ae4a6e42f0c597076",
+  "smoke_roundtrip_count": 2,
+  "status": "PASS"
+}
