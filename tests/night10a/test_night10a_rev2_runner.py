@@ -39,6 +39,8 @@ def test_reuse_replay_uses_authoritative_view_width_not_dataset_assumption():
     source = inspect.getsource(reuse.replay_one)
     assert "QCRDAdapter(first.shape[1]" in source
     assert "QCRDAdapter(128" not in source
+    assert 'old_manifest.get("loss_curve_sha256")' in source
+    assert '"corrected_views.npz", "loss_curve.csv"' not in source
 
 
 def test_formal_config_requires_exact_preflight_binding_and_zero_labels():

@@ -45,9 +45,19 @@ def replay_one(dataset: str, seed: int, candidate: str,
                artifact_index: dict[str, dict], device: torch.device) -> dict:
     started = time.time(); source = old_cell(dataset, seed, candidate)
     required = ["training_manifest.json", "reload_audit.json", "model_final.pt",
-                "corrected_views.npz", "loss_curve.csv"]
+                "corrected_views.npz"]
     evidence = [verify_rev1_artifact(source / name, artifact_index) for name in required]
     old_manifest = json.loads((source / "training_manifest.json").read_text(encoding="utf-8"))
+    loss_curve = source / "loss_curve.csv"
+    loss_curve_sha = sha(loss_curve)
+    if loss_curve_sha != old_manifest.get("loss_curve_sha256"):
+        raise AssertionError("REV1 loss curve SHA does not match its frozen training manifest")
+    evidence.append({
+        "relative_path": str(loss_curve.relative_to(REV1_RAW)),
+        "size": loss_curve.stat().st_size,
+        "sha256": loss_curve_sha,
+        "authority": "frozen_training_manifest.loss_curve_sha256",
+    })
     old_reload = json.loads((source / "reload_audit.json").read_text(encoding="utf-8"))
     if old_manifest.get("status") != "CHECKPOINT_ROUNDTRIP_PASS" or old_reload.get("status") != "PASS":
         raise AssertionError("REV1 checkpoint was not round-trip locked")
@@ -191,6 +201,12 @@ def main() -> None:
             "scope": "pre-reuse checkpoint replay",
             "issue": "reuse replay initially assumed identity datasets were 128-dimensional",
             "correction": "instantiate the unchanged adapter from the authoritative private-view width",
+            "reuse_rows_before_correction": 0, "label_reads": 0,
+            "scientific_retry": False,
+        }, {
+            "scope": "first reuse audit attempt",
+            "issue": "loss_curve.csv is deliberately absent from the REV1 compact raw-artifact manifest",
+            "correction": "verify its SHA against loss_curve_sha256 in the preserved training manifest",
             "reuse_rows_before_correction": 0, "label_reads": 0,
             "scientific_retry": False,
         }],
