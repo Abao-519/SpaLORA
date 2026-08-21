@@ -1,8 +1,8 @@
-"""Night-10A REV1 quality-calibrated cross-modal residual denoising.
+"""Night-10A REV2 quality-calibrated cross-modal residual denoising.
 
 This module is label-free and dataset-identity blind. It consumes paired,
-frozen views plus a sparse spatial graph and implements the exact REV1
-semantic contract dated 2026-08-21.
+frozen views plus a sparse spatial graph. REV2 adds the frozen, rectangular
+orthogonal reference harmonizer while retaining the exact REV1 QCRD formulas.
 """
 from __future__ import annotations
 
@@ -67,6 +67,128 @@ def canonical_sparse_sha256(matrix: sp.spmatrix) -> str:
     digest.update(value.indptr.astype(np.int64).tobytes())
     digest.update(value.indices.astype(np.int64).tobytes()); digest.update(value.data.tobytes())
     return digest.hexdigest()
+
+
+def _row_l2_normalize_float64(x: np.ndarray) -> np.ndarray:
+    """Registered CPU-float64 normalization used only by the harmonizer."""
+    value = np.asarray(x, dtype=np.float64)
+    norm = np.linalg.norm(value, axis=1, keepdims=True)
+    return value / np.maximum(norm, np.float64(EPS))
+
+
+@dataclass(frozen=True)
+class FrozenReferenceHarmonizer:
+    """Outcome-blind frozen reference alignment and its audit evidence."""
+    mode: str
+    zf_aligned: np.ndarray
+    projection: Optional[np.ndarray]
+    audit: Dict[str, object]
+
+
+def frozen_reference_harmonizer(
+        first: np.ndarray, second: np.ndarray, fused_reference_raw: np.ndarray,
+        first_order_sha256: Optional[str] = None,
+        second_order_sha256: Optional[str] = None,
+        reference_order_sha256: Optional[str] = None,
+        audited_row_count: int = 256) -> FrozenReferenceHarmonizer:
+    """Build the exact REV2 identity or rectangular-orthogonal harmonizer.
+
+    The signature deliberately has no dataset identifier.  Identity returns
+    ``fused_reference_raw`` itself: no copy, cast, SVD, or renormalization.
+    Expansion computes P in CPU float64 and casts only the final aligned array.
+    """
+    if not isinstance(fused_reference_raw, np.ndarray):
+        raise TypeError("authoritative fused reference must be a numpy array")
+    z1 = np.asarray(first); z2 = np.asarray(second); zf_raw = fused_reference_raw
+    for name, value in (("first", z1), ("second", z2), ("fused_reference_raw", zf_raw)):
+        if value.ndim != 2:
+            raise ValueError(f"{name} must be a two-dimensional array")
+        if not np.issubdtype(value.dtype, np.number):
+            raise TypeError(f"{name} must have a numeric dtype")
+        if not np.isfinite(value).all():
+            raise ValueError(f"{name} contains non-finite values")
+    if not (len(z1) == len(z2) == len(zf_raw)):
+        raise ValueError("view/reference cardinality mismatch")
+    if len(z1) <= 0:
+        raise ValueError("empty paired spot set is unsupported")
+    d_view = int(z1.shape[1]); d_second = int(z2.shape[1]); d_ref = int(zf_raw.shape[1])
+    if d_view <= 0 or d_second <= 0 or d_ref <= 0:
+        raise ValueError("non-positive feature dimension is unsupported")
+    if d_view != d_second:
+        raise ValueError("private views must have identical feature dimensions")
+    order_values = (first_order_sha256, second_order_sha256, reference_order_sha256)
+    if any(value is not None for value in order_values):
+        if any(not isinstance(value, str) or len(value) != 64 for value in order_values):
+            raise ValueError("all three ordered-spot SHA values are required")
+        if len(set(order_values)) != 1:
+            raise ValueError("ordered spot identity mismatch")
+
+    raw_sha = canonical_array_sha256(zf_raw)
+    common = {
+        "d_view": d_view, "d_ref": d_ref, "n_spots": int(len(z1)),
+        "zf_raw_canonical_sha256": raw_sha,
+        "ordered_spot_sha256": first_order_sha256,
+        "dataset_name_routing": False,
+    }
+    if d_ref == d_view:
+        audit = {
+            **common, "mode": "identity", "projection_canonical_sha256": None,
+            "zf_aligned_canonical_sha256": canonical_array_sha256(zf_raw),
+            "identity_same_object": True, "identity_sha_exact": True,
+        }
+        return FrozenReferenceHarmonizer("identity", zf_raw, None, audit)
+    if d_ref > d_view:
+        raise ValueError("reference contraction is unsupported by the REV2 contract")
+
+    x = _row_l2_normalize_float64(zf_raw)
+    target = _row_l2_normalize_float64(np.float64(0.5) *
+                                       (np.asarray(z1, dtype=np.float64) +
+                                        np.asarray(z2, dtype=np.float64)))
+    covariance = x.T @ target
+    if not np.isfinite(covariance).all():
+        raise ValueError("non-finite harmonizer cross-covariance")
+    u, singular_values, vt = np.linalg.svd(covariance, full_matrices=False)
+    if not (np.isfinite(u).all() and np.isfinite(singular_values).all() and
+            np.isfinite(vt).all()):
+        raise ValueError("non-finite harmonizer factorization")
+    maximum = float(singular_values.max(initial=0.0))
+    rank = int(np.sum(singular_values > maximum * 1e-10)) if maximum > 0 else 0
+    if rank != d_ref:
+        raise ValueError(f"rank-deficient harmonizer covariance: rank={rank}, expected={d_ref}")
+    projection = np.ascontiguousarray(u @ vt, dtype=np.float64)
+    orthogonality_error = float(np.max(np.abs(
+        projection @ projection.T - np.eye(d_ref, dtype=np.float64))))
+    if not np.isfinite(orthogonality_error) or orthogonality_error > 1e-10:
+        raise ValueError("rectangular harmonizer orthogonality gate failed")
+    projected = x @ projection
+    count = max(1, min(int(audited_row_count), len(x)))
+    subset = np.unique(np.linspace(0, len(x) - 1, count, dtype=np.int64))
+    before_subset = x[subset] @ x[subset].T
+    after_subset = projected[subset] @ projected[subset].T
+    subset_error = float(np.max(np.abs(before_subset - after_subset)))
+    if not np.isfinite(subset_error) or subset_error > 1e-10:
+        raise ValueError("audited reference geometry gate failed")
+    # Certify every pair without allocating a forbidden dense N-by-N matrix.
+    residual = projection @ projection.T - np.eye(d_ref, dtype=np.float64)
+    full_bound = float(np.max(np.sum(np.abs(x), axis=1)) ** 2 * np.max(np.abs(residual)))
+    if not np.isfinite(full_bound) or full_bound > 1e-8:
+        raise ValueError("full reference geometry bound failed")
+    aligned64 = _row_l2_normalize_float64(projected)
+    if not np.isfinite(aligned64).all():
+        raise ValueError("non-finite aligned reference")
+    aligned = np.ascontiguousarray(aligned64.astype(np.float32, copy=False))
+    audit = {
+        **common, "mode": "rectangular_expansion", "rank": rank,
+        "rank_rtol": 1e-10, "singular_values": singular_values.tolist(),
+        "projection_shape": list(projection.shape),
+        "projection_canonical_sha256": canonical_array_sha256(projection),
+        "orthogonality_max_abs": orthogonality_error,
+        "geometry_audited_row_count": int(len(subset)),
+        "geometry_subset_max_abs": subset_error,
+        "geometry_full_max_abs_certified_bound": full_bound,
+        "zf_aligned_canonical_sha256": canonical_array_sha256(aligned),
+    }
+    return FrozenReferenceHarmonizer("rectangular_expansion", aligned, projection, audit)
 
 
 def binary_spatial_graph(graph: sp.spmatrix, n: int) -> sp.csr_matrix:
@@ -153,11 +275,12 @@ class FrozenQuality:
     zero_degree_count: int; diagnostics: Dict[str, object]
 
 
-def frozen_quality(first: np.ndarray, second: np.ndarray, fused: np.ndarray,
+def frozen_quality(first: np.ndarray, second: np.ndarray, aligned_reference: np.ndarray,
                    partition1: np.ndarray, partition2: np.ndarray,
                    spatial_graph: sp.spmatrix, k_clusters: int,
                    mnn_k: int = 10) -> FrozenQuality:
-    z1, z2, zf = row_normalize(first), row_normalize(second), row_normalize(fused)
+    z1, z2, zf = (row_normalize(first), row_normalize(second),
+                  row_normalize(aligned_reference))
     p1, p2 = np.asarray(partition1), np.asarray(partition2)
     if not (len(z1) == len(z2) == len(zf) == len(p1) == len(p2)):
         raise ValueError("view/partition cardinality mismatch")
@@ -208,8 +331,8 @@ class QCRDAdapter(torch.nn.Module):
         self.up = torch.nn.Linear(int(rank), self.dim, bias=False); torch.nn.init.zeros_(self.up.weight)
 
     def forward(self, student_input: torch.Tensor, teacher: torch.Tensor,
-                fused_reference: torch.Tensor, coords: Optional[torch.Tensor] = None) -> torch.Tensor:
-        pieces = [student_input, teacher.detach(), fused_reference.detach()]
+                zf_aligned: torch.Tensor, coords: Optional[torch.Tensor] = None) -> torch.Tensor:
+        pieces = [student_input, teacher.detach(), zf_aligned.detach()]
         if self.coord_features:
             if coords is None or coords.shape[1] != self.coord_features:
                 raise ValueError("registered coordinate feature shape mismatch")
@@ -259,18 +382,27 @@ def candidate_weights_and_gate(quality: FrozenQuality, candidate_id: str,
 
 
 def qcrd_forward(model: QCRDAdapter, first: torch.Tensor, second: torch.Tensor,
-                 fused_reference: torch.Tensor, quality: FrozenQuality,
+                 zf_aligned: torch.Tensor, quality: FrozenQuality,
                  candidate_id: str, coord_features: Optional[torch.Tensor] = None,
                  mask: Optional[torch.Tensor] = None) -> Dict[str, torch.Tensor]:
+    if first.ndim != 2 or second.ndim != 2 or zf_aligned.ndim != 2:
+        raise ValueError("QCRD views must be two-dimensional")
+    if first.shape != second.shape or first.shape != zf_aligned.shape:
+        raise ValueError("QCRD requires harmonized equal-shaped views")
+    if first.shape[1] != model.dim:
+        raise ValueError("adapter dimension does not match harmonized view dimension")
+    if not (torch.isfinite(first).all() and torch.isfinite(second).all() and
+            torch.isfinite(zf_aligned).all()):
+        raise ValueError("QCRD received non-finite views")
     weights, gate = candidate_weights_and_gate(quality, candidate_id, first.dtype, first.device)
     teacher = weights[:, :1] * first + weights[:, 1:] * second
     clean_student = weights[:, 1:] * first + weights[:, :1] * second
     model_student = clean_student if mask is None else clean_student.masked_fill(mask, 0.0)
-    raw_delta = model(model_student, teacher, fused_reference, coord_features)
+    raw_delta = model(model_student, teacher, zf_aligned, coord_features)
     delta = raw_delta / raw_delta.norm(dim=1, keepdim=True).clamp_min(1.0); correction = 0.25 * gate * delta
     first_c = _torch_normalize(first + (1.0 - weights[:, :1]) * correction)
     second_c = _torch_normalize(second + (1.0 - weights[:, 1:]) * correction)
-    fused_c = _torch_normalize((first_c + second_c + fused_reference) / 3.0)
+    fused_c = _torch_normalize((first_c + second_c + zf_aligned) / 3.0)
     return {"weights": weights, "gate": gate, "teacher": teacher, "clean_student": clean_student,
             "model_student": model_student, "raw_delta": raw_delta, "delta": delta,
             "correction": correction, "z1c": first_c, "z2c": second_c, "zc": fused_c,
@@ -279,15 +411,15 @@ def qcrd_forward(model: QCRDAdapter, first: torch.Tensor, second: torch.Tensor,
 
 
 def corrected_views(model: QCRDAdapter, first: torch.Tensor, second: torch.Tensor,
-                    fused_reference: torch.Tensor, quality: FrozenQuality,
+                    zf_aligned: torch.Tensor, quality: FrozenQuality,
                     candidate_id: str, coord_features: Optional[torch.Tensor] = None
                     ) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
-    result = qcrd_forward(model, first, second, fused_reference, quality, candidate_id, coord_features, mask=None)
+    result = qcrd_forward(model, first, second, zf_aligned, quality, candidate_id, coord_features, mask=None)
     return result["z1c"], result["z2c"], result["zc"], result["correction"]
 
 
 def qcrd_loss_components(forward: Mapping[str, torch.Tensor], first: torch.Tensor,
-                         second: torch.Tensor, fused_reference: torch.Tensor,
+                         second: torch.Tensor, zf_aligned: torch.Tensor,
                          quality: FrozenQuality, candidate_id: str,
                          spatial_graph: sp.spmatrix, reference_partition: np.ndarray,
                          mask: Optional[torch.Tensor]) -> Dict[str, torch.Tensor]:
@@ -312,7 +444,7 @@ def qcrd_loss_components(forward: Mapping[str, torch.Tensor], first: torch.Tenso
         rows = torch.as_tensor(upper.row[keep], dtype=torch.long, device=first.device)
         cols = torch.as_tensor(upper.col[keep], dtype=torch.long, device=first.device)
         new_cos = torch.sum(forward["zc"][rows] * forward["zc"][cols], dim=1)
-        old_cos = torch.sum(fused_reference[rows] * fused_reference[cols], dim=1)
+        old_cos = torch.sum(zf_aligned[rows] * zf_aligned[cols], dim=1)
         boundary = torch.mean(F.relu(new_cos - old_cos) ** 2)
     else: boundary = align.new_zeros(())
     if candidate_id == "Q07_CONFIDENCE_MNN_RESIDUAL" and len(quality.mnn_rows):
@@ -338,11 +470,13 @@ def state_bytes(state: Mapping[str, torch.Tensor]) -> bytes:
     buffer = io.BytesIO(); torch.save(state, buffer); return buffer.getvalue()
 
 
-__all__ = ["ALL_TRAINABLE_CANDIDATES", "EPS", "FrozenQuality", "GLOBAL_CANDIDATES",
+__all__ = ["ALL_TRAINABLE_CANDIDATES", "EPS", "FrozenQuality",
+           "FrozenReferenceHarmonizer", "GLOBAL_CANDIDATES",
            "LOSS_WEIGHTS", "MASKED_CANDIDATES", "MASK_FRACTION", "QCRDAdapter",
            "binary_spatial_graph", "candidate_weights_and_gate", "canonical_array_sha256",
            "canonical_sparse_sha256", "canonical_state_sha256", "corrected_views",
            "deterministic_mask", "fourier_coordinates", "frozen_quality",
+           "frozen_reference_harmonizer",
            "mask_dimension_count", "modality_global_features", "neighbor_entropy",
            "qcrd_forward", "qcrd_loss_components", "reciprocal_mnn_support",
            "row_normalize", "sparse_neighbor_mean", "standardize"]

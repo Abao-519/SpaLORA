@@ -1,0 +1,121 @@
+{
+  "schema": "spalora.night10a.qcrd_rev2.dimension_and_reuse.v1",
+  "authority_date": "2026-08-21",
+  "parent": {
+    "branch": "revision/q2-night10a-rev1-qcrd-execution-20260821",
+    "commit": "c7cb3ecd1631db7a21606e62c69eaec05fe31ac1",
+    "tag": "night10a-rev1-final-20260821",
+    "terminal_status": "IMPLEMENTATION_SEMANTICS_INVALID"
+  },
+  "scope": {
+    "changes_only": [
+      "Reference embedding dimension harmonization",
+      "Real-input runtime coverage gate",
+      "Outcome-blind reuse certification for unaffected REV1 artifacts"
+    ],
+    "unchanged": [
+      "Q01-Q07 candidate identities",
+      "QCRD quality features, masks, losses and fixed weights",
+      "Optimizer and epoch count",
+      "RNA+protein H05 endpoint",
+      "RNA+ATAC E1_ADAPTER_C06_MEAN/H01 endpoint",
+      "R1 and conditional R2 seed sets and frontier policy",
+      "No labels in training, construction, preflight or reuse audit",
+      "No dataset-name routing"
+    ]
+  },
+  "symbols": {
+    "z1_z2": "Authoritative paired private views in identical ordered spot rows.",
+    "zf_raw": "Authoritative frozen family reference embedding before dimension harmonization.",
+    "d_view": "Feature dimension shared by z1 and z2.",
+    "d_ref": "Feature dimension of zf_raw.",
+    "zf_aligned": "Frozen reference embedding in d_view dimensions used by QCRD forward, fusion and boundary loss."
+  },
+  "dimension_contract": {
+    "cardinality": "N(z1)=N(z2)=N(zf_raw)=N(ordered_spot_ids)",
+    "private_views": "d(z1)=d(z2)=d_view and d_view>0",
+    "identity_case": {
+      "condition": "d_ref=d_view",
+      "operation": "Return zf_raw exactly. Do not run SVD, copy, cast or renormalize.",
+      "required_evidence": "Canonical array SHA before and after is identical."
+    },
+    "rectangular_expansion_case": {
+      "condition": "0<d_ref<d_view",
+      "input_x": "X=row_l2_normalize(zf_raw) in CPU float64",
+      "target": "T=row_l2_normalize(0.5*(z1+z2)) in CPU float64",
+      "cross_covariance": "C=X.T@T",
+      "factorization": "numpy.linalg.svd(C, full_matrices=False) gives U,S,Vt",
+      "map": "P=U@Vt with shape [d_ref,d_view]",
+      "aligned": "zf_aligned=row_l2_normalize(X@P), cast once to float32 after all audits",
+      "constraints": [
+        "All values finite",
+        "rank(C)=d_ref under rtol=1e-10 relative to max singular value",
+        "max_abs(P@P.T-I)<=1e-10 in float64",
+        "max_abs((X@X.T)-(X@P)@(X@P).T)<=1e-10 on a deterministic audited row subset and <=1e-8 for full summary",
+        "Repeat computation in the locked environment has identical canonical P SHA"
+      ]
+    },
+    "unsupported_case": "If d_ref>d_view, d_ref<=0, dimensions are non-finite, or the rank/orthogonality/determinism gates fail, stop as IMPLEMENTATION_SEMANTICS_INVALID. No truncation, zero padding, random projection or trainable projection is authorized."
+  },
+  "use_of_aligned_reference": {
+    "adapter_input": "concat(student_input[d_view], stopgrad(teacher[d_view]), stopgrad(zf_aligned[d_view]), optional fixed coordinates)",
+    "final_fusion": "normalize((z1c+z2c+zf_aligned)/3)",
+    "boundary_loss_reference": "Use zf_aligned. Rectangular orthogonality preserves the reference sample geometry within the registered tolerance.",
+    "reference_partition": "The authoritative historical reference partition remains unchanged and is never recomputed from zf_aligned for Q00 reporting.",
+    "gradient": "P and zf_aligned are frozen and have no gradient.",
+    "routing": "The implementation must not accept or inspect a dataset name when selecting identity versus expansion."
+  },
+  "real_runtime_preflight": {
+    "units": {
+      "a1": [0, 1, 2, 3, 4],
+      "tonsil": [0, 1, 2, 3, 4],
+      "d1": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "p22": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    "candidates": [
+      "Q01_GLOBAL_QUALITY_BLEND",
+      "Q02_SPOT_QUALITY_BLEND",
+      "Q03_MASKED_RESIDUAL",
+      "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "Q05_BOUNDARY_GATED_RESIDUAL",
+      "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "Q07_CONFIDENCE_MNN_RESIDUAL"
+    ],
+    "expected_rows": 210,
+    "per_row_actions": [
+      "Load the actual registered views, graph, coordinates where applicable, frozen partitions and reference embedding",
+      "Assert the full schema and all authoritative hashes",
+      "Construct or reuse the frozen harmonizer",
+      "Run the actual candidate forward and every registered loss component",
+      "Run backward, gradient finite checks and exactly one temporary optimizer step",
+      "Perform checkpoint state round-trip and inference output shape/finite checks"
+    ],
+    "synthetic_substitution": "Forbidden. Synthetic unit tests remain useful but cannot satisfy any of the 210 real rows.",
+    "formal_link": "Every formal config must contain a preflight row SHA that binds unit, input hashes, harmonizer hash, candidate, code commit and contract SHA.",
+    "pass_gate": "210/210 real rows must pass before any formal training. Any missing row is a failure, not not-applicable."
+  },
+  "rev1_artifact_reuse": {
+    "label_reads_before_decision": 0,
+    "eligible_datasets": ["a1", "tonsil", "d1"],
+    "ineligible_dataset": "p22",
+    "grouping": "All 21 R1 cells of a dataset are reused together or retrained together. Per-cell outcome-based reuse is forbidden.",
+    "required_checks": [
+      "All declared REV1 artifacts match their preserved SHA and no source file changed",
+      "Identity harmonizer path is canonical-array-SHA exact",
+      "All checkpoints load with exact state SHA",
+      "All 21 cells per dataset replay corrected-view arrays within max_abs<=1e-7 and with identical shapes and finite status",
+      "Existing fixed-endpoint partitions and manifests match authoritative hashes",
+      "No labels or metric tables are read during the reuse decision"
+    ],
+    "existing_transforms": "The 42 completed A1 and tonsil transforms may be reused only after the checks above. Missing D1 transforms must be computed from the locked reused corrected views.",
+    "p22_rule": "All 21 P22 R1 cells are newly trained under REV2 after preflight passes because REV1 failed before the first optimizer step.",
+    "failure_rule": "If a dataset group fails reuse certification, do not mix reused and retrained cells within that dataset. Retrain the full 21-cell group before labels are opened, or stop if the task budget does not authorize it."
+  },
+  "labels": {
+    "p0_rev2": 0,
+    "reuse_audit": 0,
+    "formal_training": 0,
+    "evaluation": "Only after all R1 formal outputs, including recovered and new outputs, are locked and pushed."
+  }
+}
+
