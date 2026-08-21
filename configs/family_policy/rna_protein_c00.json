@@ -1,0 +1,14 @@
+{
+  "adapter": null,
+  "auxiliary_assay": "PROTEIN",
+  "backbones": [
+    "G04_SP10_F10_EUC_UNION"
+  ],
+  "dense_n_by_n_allowed": false,
+  "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL",
+  "family": "RNA_PROTEIN",
+  "preprocessing_contract_id": "frozen_RNA_PROTEIN_A1_tonsil_D1_semantics",
+  "primary_assay": "RNA",
+  "recipe_id": "C00_G04_H05_CONFIRMED",
+  "sparse_graph_required": true
+}

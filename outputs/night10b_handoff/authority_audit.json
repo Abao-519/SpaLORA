@@ -1,0 +1,1394 @@
+{
+  "authority_rows": [
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "a1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u000/input_manifest.json",
+        "sha256": "c4fa3fe03e2441e46901da7018e97e3affb5c4efd0988d141da4e75f2b2d0273",
+        "size": 5431
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/worker_input.json",
+          "sha256": "a1414668e158204a15ccc8bf97185fbb11c4ca70c348e4f2d09cefce500910de",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/g04_views.npz",
+          "sha256": "0391997d6b0f893ef10e8f76b899d8e992e7ac1043d45816e8db8fd5fdcdc290",
+          "size": 2557016
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/c00_partition.npy",
+          "sha256": "f7b451f10341f35abcaed7c62ddf359482188f08f88316e18e68605daf8120b9",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u000/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "reference_embedding_sha256": "e784b722c8c9088bc4d96e5c3cafa673416dbefdfc4d393cb1321b30fadd9701",
+      "reference_partition_sha256": "bdf4607fb351ca446e0d3b5957649318ee7c228b453997ab0ca2261fffe69acc",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 0,
+      "unit_id": "u000"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "a1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u001/input_manifest.json",
+        "sha256": "3bbd6c6e0a346e6b1a7c9b068c62e5e62657ef32c4eb417aeaf2a0278af552b7",
+        "size": 5431
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/worker_input.json",
+          "sha256": "c515ed3ffe8c9785ee279424ebc439742042e8ab35eae23a3f62b3f7437e4d32",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/g04_views.npz",
+          "sha256": "ebc790713fdfdc1b7eb0ded4ed79e4f5a8615b24d65ea47105caf9bf2a6b9777",
+          "size": 2556819
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/c00_partition.npy",
+          "sha256": "86cea14d1cf0a44bc0cb8fc028ae93b4462a47160f40b22c0131abb57ec5e528",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u001/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "reference_embedding_sha256": "a3535082bc8ec402af567059b09c63fac38310849eb559890e7e19609b3b9dfd",
+      "reference_partition_sha256": "759188c0b3f85709379d5071ab3c215d20e6b775d141d457f65d13f31dd7434f",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 1,
+      "unit_id": "u001"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "a1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u002/input_manifest.json",
+        "sha256": "b6b02112ccef7a2878e6dac1703f5572201466cc5592afdb3b274afa80a5d114",
+        "size": 5431
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/worker_input.json",
+          "sha256": "4acf9ed7ff47c37be9360714719dab48808e4a9ce8fe590a3179903ee944b708",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/g04_views.npz",
+          "sha256": "510bb370db87441cc060c658a566a1846f7a7ab98f2da222b11b85551e4a4bb9",
+          "size": 2556363
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/c00_partition.npy",
+          "sha256": "eca7a7950833ffe69fa95bbb40eceac23ff9a9ab019c57658f83214ba1d1dd18",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u002/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "reference_embedding_sha256": "b8e47ec7b8c517bf6afd57715efb31ca4b19bd631295130e848c4dc9e44cf606",
+      "reference_partition_sha256": "137a8372cd1b871d699d3d41119d26cf9eea834ab0d8fa136a2c3b15a0601aeb",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 2,
+      "unit_id": "u002"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "a1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u003/input_manifest.json",
+        "sha256": "378941726c09fe9dda91712f58af0785ed1c636e2e77815f32458d4ccc1c6e27",
+        "size": 4585
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/worker_input.json",
+          "sha256": "c60fecf46aca8b927162d6f1c29c0947dd61b5d101611dee0202c1e99862cc61",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/g04_views.npz",
+          "sha256": "2779522c681089523c73b9c5c495fdc36c33ef7cc92484c9b0b05ab53a4bc824",
+          "size": 2556788
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/c00_partition.npy",
+          "sha256": "44aed1010f0c71427f93f41fb4734f09abe9beb062c57fce6765bef148d4d89c",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u003/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "reference_embedding_sha256": "e0319b862bdb1b78e335f17f52b3f81c64aab9ed20858df47e330d7513ba78f9",
+      "reference_partition_sha256": "5dfa57efae20cfea5511918edad51cbbc1641fb7e857081607bf4ee6c3778ee6",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 3,
+      "unit_id": "u003"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "a1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u004/input_manifest.json",
+        "sha256": "ace5df76e6a75033721e3e2010e94b528cfbcc69ab7c5da563579eb4bd13bba1",
+        "size": 4585
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/worker_input.json",
+          "sha256": "bbaa4d4d6839dc3582a39a41d8e03adb34442a95d644d68662b0012a8b40097e",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/g04_views.npz",
+          "sha256": "cff0f0eb5ec79e30b450ce8cf769f69cf974d56eb056a677eae278679fc3d615",
+          "size": 2556491
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/c00_partition.npy",
+          "sha256": "5cfff04dfd5a2cab8c95c5db3e4357bf2f961b0f36fece110fe76844e6201373",
+          "size": 28000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/coordinates.npy",
+          "sha256": "44cb0e69746a269bba7f243bf3fa112329dc0b3290390f93a4a4647e763057fb",
+          "size": 55872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u004/observation_ids.txt",
+          "sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+          "size": 76648
+        }
+      ],
+      "reference_embedding_sha256": "641b079bf516389ac2bd3ad121f928293fb871f4f59bcae6496e23e21026e1b8",
+      "reference_partition_sha256": "81a51208ad873e356056e0d21fc11ad3ab4701fec135bf7fcb0d7cd58fcb4da9",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 4,
+      "unit_id": "u004"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "tonsil",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u005/input_manifest.json",
+        "sha256": "dad75bf4c4f3f06ed593b1375a7c1e985613878cea9fd2c77f4f5d7083f0e35e",
+        "size": 5436
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/worker_input.json",
+          "sha256": "a38f7c2a9a76ec04adeef0168e61ea93de7baf7dfbfa15aca2cbea38181b936d",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/g04_views.npz",
+          "sha256": "2470d1d17f8cd2323e03ccd63fc8c77e1d1fab26097dec3e1d40e953cc0cf56e",
+          "size": 3171733
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/c00_partition.npy",
+          "sha256": "38d532e948dc660520ba20e4ab662ae59bf4090ab48415c235f487cce7ad65ed",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u005/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "reference_embedding_sha256": "42668e7ab0ce2e34a6ba33e5aa41d387d2fd1570db5ef548656f00793f5b99cb",
+      "reference_partition_sha256": "9291d89a8f4456c5a38b264e4f6a8596c3e96f511e13dd6f66518f42cf904d90",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 0,
+      "unit_id": "u005"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "tonsil",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u006/input_manifest.json",
+        "sha256": "7140577eaa29a3e3cd6fe3f2b6d0e22f2f348cd8bea0fd75ef2a7dab8d81532a",
+        "size": 5437
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/worker_input.json",
+          "sha256": "93041cf1d5763d2366aea10f9409315a3aa794ad516e878285bbe1d7d8f988f0",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/g04_views.npz",
+          "sha256": "ebc1509e09b208846d47d361fc18aa366ebafd8058f4ea07d3e94ac7978c0ac3",
+          "size": 3170667
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/c00_partition.npy",
+          "sha256": "e5449fab63f8fcaefd098642b057b3af6cfc3560fa58af3a3bef034d760981c4",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u006/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "reference_embedding_sha256": "783681b75247c40936fb4e7be7d920d4d9e7d51d5bcdc98f5725a3a3684be3c9",
+      "reference_partition_sha256": "cff15ac03a718d78c8e5bd00b62d6ad3f25d89a75dd6f75e67642705222471e5",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 1,
+      "unit_id": "u006"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "tonsil",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u007/input_manifest.json",
+        "sha256": "933d106f527f1db66f0b9703d29bda4c013e35b7eccfc5657abb0146a6235bbd",
+        "size": 5436
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/worker_input.json",
+          "sha256": "2607fb4b91b3ae2e6c4ce6d536ca50afb4c43824b96c105b37c135737304674d",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/g04_views.npz",
+          "sha256": "987292acc95c5a1edefc0c14c8c3ad5f4fa136bd023a1ad44297e7e32687d684",
+          "size": 3171567
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/c00_partition.npy",
+          "sha256": "84bb92d1d0199cce63215255cee34de9b2411787d89c5680d2d36bce11592363",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u007/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "reference_embedding_sha256": "df193d338c47781e180584d1a50e9c55891424c3852487df052c264f5f6014ab",
+      "reference_partition_sha256": "87056b4f5af480bb76e056e995766e859cf818472c79aeb65670af5e92fff672",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 2,
+      "unit_id": "u007"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "tonsil",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u008/input_manifest.json",
+        "sha256": "fddde62ab44c6bbac51a43a5b8889a9dc020028430eaa226428f472689a4d9dc",
+        "size": 4592
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/worker_input.json",
+          "sha256": "0532d4a75fe0a2256e6bf41eaaf1235b7f0261168d1b2904c9dfe2eb9c58fb8b",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/g04_views.npz",
+          "sha256": "f309df877d27573b45a548c391336b2d26f14524f563b7804444627d95f00c0a",
+          "size": 3171603
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/c00_partition.npy",
+          "sha256": "bfb1c6a0dfb09ad982dec96fb5b0dcb547da0ec7cdbda2cf9c1d514079a9f9bd",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u008/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "reference_embedding_sha256": "6633b97237dbd30ed4a4aaff31893d38be66a5228161707ac4c4dad04d2e8b92",
+      "reference_partition_sha256": "868520e73522974eaa0821a3fe981a1ed489dc8b4c6620cf288316e38fc5fd1e",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 3,
+      "unit_id": "u008"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "tonsil",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u009/input_manifest.json",
+        "sha256": "0526dc484e069578467e8e83f5e635d790aa33359e5660fef017887a65f685db",
+        "size": 4591
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/worker_input.json",
+          "sha256": "77b22337b004365dad55be4b651a63a12b317d6116db6ae77212233820a73062",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/g04_views.npz",
+          "sha256": "63695bec1032d2de861740f18f0ecdba3926cea2472a75e926469fab22dc7f4b",
+          "size": 3171929
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/c00_partition.npy",
+          "sha256": "e2cfbde4196653db3be02403e796fc87bae4405c6aa03a3cc96a34387d54cb22",
+          "size": 34736
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/coordinates.npy",
+          "sha256": "980597c70b65ba1794afde298a08e463794ab072b64861d06e4d93356015ea6e",
+          "size": 69344
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u009/observation_ids.txt",
+          "sha256": "93fbdd565cdc81d274b2f64f742e782906d26df318732eed4e726033322a6cd4",
+          "size": 95172
+        }
+      ],
+      "reference_embedding_sha256": "6e47f05b6b201666a626035568d0e3faf7fee931bbd9a4e1df354f6df997d18e",
+      "reference_partition_sha256": "d5d0d508a89ef43022cbd189b6afb812d46943ce531665ae5a179a9ba40ad3b9",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 4,
+      "unit_id": "u009"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u010/input_manifest.json",
+        "sha256": "170f6069cf83bc90599ba10d07c3dcc53bb105cdb27d4c4b67b8bf21eda0b956",
+        "size": 5430
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/worker_input.json",
+          "sha256": "ca814a962d5262e71d389893c8e2145d1c05451ed1e4b663f636621e510ba3e6",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/g04_views.npz",
+          "sha256": "7cd9d913fd2c5f1c2fc985b6bf38f9dde4f582472e1b5dd4d5b6bedef926dc6b",
+          "size": 2466443
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/c00_partition.npy",
+          "sha256": "46c6c68879342f722d6a433a49185a3b7a25ab801f9d20f686eeb3d21cf5b11c",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u010/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "4903189fd0e87d1f3d6d6f54667d9e9429534fdbc56eab3363731154aed1862c",
+      "reference_partition_sha256": "e986013447c3c5e31cbee418bea48488f8b75cb8af08cd0822f5bab244d00b9e",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 0,
+      "unit_id": "u010"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u011/input_manifest.json",
+        "sha256": "28038cb3e4d3fccad99a882678836bf49f019416689a5ee05be706772f0dd3d2",
+        "size": 5431
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/worker_input.json",
+          "sha256": "f41d9e7eeea3ce5a4f7734dc1aeccbfa0ad6809073b360d11efb09ca6e5181ec",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/g04_views.npz",
+          "sha256": "2bacf04c5e67251ab62458b514a770ba260471d671002f19a04a3263c9e42f62",
+          "size": 2465458
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/c00_partition.npy",
+          "sha256": "dd63f15e8db6a48562e4fd4a9af565062d6ca161e1e464965f4eed1eec5dbf6d",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u011/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "6eee24a841897999473bff2b451ce017eaf7ae1f224786238583e56cb64e2bba",
+      "reference_partition_sha256": "44976cf8f2ce4197931ebd2d18eb96a21e315353c67f373cddaa35c7e31518e7",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 1,
+      "unit_id": "u011"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u012/input_manifest.json",
+        "sha256": "716bda3daa3eefca09a9225e05cd1d59a2255330120130537806eca7f298a887",
+        "size": 5431
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/worker_input.json",
+          "sha256": "ce922326fe10d1d1581cdd316acffca74947748644738f853861778206977d94",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/g04_views.npz",
+          "sha256": "1791bad8b2bb32b8d6a66e4bd0e668f0c0cd57f6bfcd9db1d7e0b4395b30d86d",
+          "size": 2466446
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/c00_partition.npy",
+          "sha256": "618f73a26049e917c45804fa50a770549d40e864ab61f4cdc8dbd003cb5b9d98",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u012/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "9810e85ef75d68da705d85803730615393305b8a6abafb584a0056a5e9441e42",
+      "reference_partition_sha256": "92ab625126c810d04d1ec3c33ff703957a4b0192cb815504e96391176bd6d57a",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 2,
+      "unit_id": "u012"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u013/input_manifest.json",
+        "sha256": "84f7730ab09a9a6fd32556271cc6d1bd128b147773c86176cea1579486e4054b",
+        "size": 4585
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/worker_input.json",
+          "sha256": "0a68c225b45036dfa9e753d3cc42ca10e1c0ec7239b3b4c90e65570f407d5029",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/g04_views.npz",
+          "sha256": "7971c1f074543f00fe39446fb6486b4c716d248645d7d274ddd34d89289c6c28",
+          "size": 2466519
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/c00_partition.npy",
+          "sha256": "80aaca6155954e72f4590775a051e555c104c90eee2dcd9f7ce3b730b85e9f25",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u013/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "f6301b410b935ea07de6dddd4e334b7f9293b777ebf2802089fd94e86d37b194",
+      "reference_partition_sha256": "8f9bcab8a60afc3426cb0b7c4791cc8770007f1b029c2bccbb3cbb6ee74a32fb",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 3,
+      "unit_id": "u013"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u014/input_manifest.json",
+        "sha256": "4f7773fc6f3bc9bd1ed37526c6e659d0bdd4f9af780ce04abad996dc7a0bb065",
+        "size": 4585
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/worker_input.json",
+          "sha256": "6a4468821f5ddfdfb908cd610c2b92084ab715e1e81b81ce4efbfa27f7c507a8",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/g04_views.npz",
+          "sha256": "2a7b4cedc7e5e3ebec5984987de3e070a68ee213973933a53852e0ad4cc85153",
+          "size": 2465908
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/c00_partition.npy",
+          "sha256": "864176c54b7e21b42d7029c8e9f7466f838c1695460e0fbc7a3324f76112a850",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u014/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "b5e2e7f7cef6d4f3ff96a2b69966ffd648525ae2080968a2faa55c19275765ed",
+      "reference_partition_sha256": "4e9fbc4ec62b797d1c9aea45cdc362b72f71753662eb015718d2b6b9268783a1",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 4,
+      "unit_id": "u014"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u015/input_manifest.json",
+        "sha256": "a6e9075d055b1b969c8ee9d9da41fd93d307e0044fcfa9a3880849ee49c456b0",
+        "size": 4586
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/worker_input.json",
+          "sha256": "cf45c06ef7041792268a2ffd1e97857493eec3474f896658ea97b955c5a6e508",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/g04_views.npz",
+          "sha256": "a8d77dd2e088787082d6a3bb8ed0d79a4f2ea1402b4200a74ded48f493620f40",
+          "size": 2466312
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/c00_partition.npy",
+          "sha256": "52da91e480ba48acab17bb2836f207e956a5b8b081013ccc8789f5ce31bc9e76",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u015/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "2cc40cfc49e1cc430a8212f0926fa0bc2281e87d9646c18f8146b0a398078e50",
+      "reference_partition_sha256": "b56ab9a52b7f2f73b201bcbf804705b2922c7047e58ab6eaab7d75d67686090f",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 5,
+      "unit_id": "u015"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u016/input_manifest.json",
+        "sha256": "0fd9b56d723143accd1e097454952fc9516a8a4775e32a438f444ea324b8840a",
+        "size": 4585
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/worker_input.json",
+          "sha256": "d1e4bb8c2a2efe0a709981d03b4aa18321f9c32714409e876a731b7b957c01ae",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/g04_views.npz",
+          "sha256": "ce029d5c1243dc528de7aa96d1f587d48ae6efffbc8ddd5089f20097617a6ba3",
+          "size": 2465716
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/c00_partition.npy",
+          "sha256": "b8ed1f487be0df06ed0ccbd3e836e6dcc83d43b650b772e4fe89916aeed2bbe7",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u016/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "d414a00b0c0e65511dc51be175a987ba11e792e5b46e12dfcb7012740601bfa4",
+      "reference_partition_sha256": "409d203ef8a3d3ebc4ac3d7ddedfd1e5459529ed7ec38542d6f7e891aa5fa9ff",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 6,
+      "unit_id": "u016"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u017/input_manifest.json",
+        "sha256": "a0070f34d626a936d3c30df9cf482b128ce8615a908f009c4a51b6340bfa6f94",
+        "size": 4586
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/worker_input.json",
+          "sha256": "e02134041d4b6139bcdb34d0544447ae183bb9ae6aa03f35af851abcc3797812",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/g04_views.npz",
+          "sha256": "b7225074b4a57204902ec264cd7ebb60a0710e6f1d8322add7317026e7a464f9",
+          "size": 2466747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/c00_partition.npy",
+          "sha256": "b0d7f4b43a0b7425a923b96cd141aa3dfd7a75cfb8221f98d1f0c58626282476",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u017/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "2cecc129c5f9f535088db48559bcaec6af69f0794b33ddf8b8349e0b36e1065a",
+      "reference_partition_sha256": "6d7ef062dfecd90ee48db34bac859f9622e3e45b85c045571325155f2b7f9243",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 7,
+      "unit_id": "u017"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u018/input_manifest.json",
+        "sha256": "aab833abc9a6822660c561d64867b0fe63a78e55fea8779df7f06b4fef083767",
+        "size": 4585
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/worker_input.json",
+          "sha256": "63b72b32170ddfd3fa1dee8ea158fd1c7a8edcac78570bdba01e881225ede340",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/g04_views.npz",
+          "sha256": "524674e5bf37bf0ce65203d0da86355adc039f9f2146092b081a3387977bba76",
+          "size": 2466710
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/c00_partition.npy",
+          "sha256": "ed863f76c9854091670367b56c4ecd22e79de9b7f0c79bb0238eedafaaa2bced",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u018/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "97bab98cca8fc4979d168362265659a0626cf3c4882223e677d08b988324118b",
+      "reference_partition_sha256": "a3e5873ea3e37ade511a7133345042ce7d74460582e5368a1969ddb5df4b63bc",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 8,
+      "unit_id": "u018"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "PROTEIN"
+      ],
+      "data_steward_id": "d1",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u019/input_manifest.json",
+        "sha256": "cc8841709bbd3f976c78fc18b012f2267a99318ab9b4beb755e34fc9f259a88f",
+        "size": 4586
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/worker_input.json",
+          "sha256": "2ea15ad7fb734adf241ce0125439bd25d315631fa3b07b0a4411882eac05e62b",
+          "size": 781
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/g04_views.npz",
+          "sha256": "ac7e4020523bcfe7107f8b41e69c81e52bac5aa29417f4f959f190959b5c0092",
+          "size": 2466001
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/c00_partition.npy",
+          "sha256": "7a2160220ffdc6cc505e15e998d28e8dc80514330548fa09d0eb0d3792e82fdf",
+          "size": 27000
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/coordinates.npy",
+          "sha256": "56ebfa3c9c91fc4ba4dece5465d1cfa5b74404ca8620db30e20aab68e5d599d3",
+          "size": 53872
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u019/observation_ids.txt",
+          "sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+          "size": 73898
+        }
+      ],
+      "reference_embedding_sha256": "f757aeac84eefeb29b9ec24bfc35c8808d6b40a6ae217bb3e4a78fc7e3b9ec02",
+      "reference_partition_sha256": "251e7167ed894d1e13a7ca3d895499760b6cf0eace895597abd5bfc3523973ae",
+      "resolved_family": "RNA_PROTEIN",
+      "resolved_recipe_id": "C00_G04_H05_CONFIRMED",
+      "seed": 9,
+      "unit_id": "u019"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u020/input_manifest.json",
+        "sha256": "ea80fd90f2f9a84ad4c40af8af2bdcc6373190ae87e52e76b361dafee501582a",
+        "size": 7878
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/worker_input.json",
+          "sha256": "fd4fc20645be4b0224c866338397fdd425cd206ff3fa057b0125688e52b16499",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u020/attempt_001/worker/embedding.npy",
+          "sha256": "b346bcbed1ce69a9f512d725de8d77bf2610839757e3050c01e58a250db2a1db",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u020/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "869d272c59690718da64a58308debe5ea05a72969ecef79bb6a5ad23c475d891",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/c06_affinity.npz",
+          "sha256": "ba41e7ea75bbbf3bc2413c5feda9f5f899f81570f90d9706bd642abed857fb96",
+          "size": 2949198
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u020/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "42d998ac88e147611ccb50ad973961d183f50ea6368181245721eda26b177d85",
+      "reference_partition_sha256": "68c28ae88dd14d6c9288f5b2bc843e5675d724574b122cb212bf00b6c3dfb576",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 0,
+      "unit_id": "u020"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u021/input_manifest.json",
+        "sha256": "f3646def2ae20fb808518dd2c5910f314397c8cda80af6a2efdd765c5fb4e4f8",
+        "size": 7860
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u021/worker_input.json",
+          "sha256": "728bbe7b55cbb75cf0ab77424c675fbee5174a7b90aba362f583ab2e9e6c6164",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u021/attempt_001/worker/embedding.npy",
+          "sha256": "9c65f79d89f96cf2ff3321bbebaf36c44d4029d87b6c0f55359b8b305af249f2",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R1/formal/R02/u021/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "59beb9d512407032ced96ea28cb39ebda75ec010db082e922e8f0faf91c55889",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u021/c06_affinity.npz",
+          "sha256": "ff8c9a2767d5cd747a38c1797337d237d2f41fa24e4c861c6fab9bf3c3d2fba4",
+          "size": 3016416
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u021/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "9b7e88a766b057adc3a0c8126454ae86c732bf3cbfb4a0c7ed536a14e82a27eb",
+      "reference_partition_sha256": "5fefba1b85c25bbcf0f49bb7772c4748a64e2fa6868870dd2a6622553151017b",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 1,
+      "unit_id": "u021"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u022/input_manifest.json",
+        "sha256": "c450713246b54e904da56b75aba78d2b6946faf1b3e036be992babe7dcf15257",
+        "size": 7876
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u022/worker_input.json",
+          "sha256": "ef9ca48c51d7a0eff5f29473ffb4fb2bfe9f336116c858542b5a8a9b7874bfd1",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u022/attempt_001/worker/embedding.npy",
+          "sha256": "f2a9f2e165a3e922de49170987776fca5578b15602477d20f43f7f8bd664e36f",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u022/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "c7a7095b3f328cd68a6fac17de10a2322f9d4fe6c3e353d43c5b8a7e9de9de93",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u022/c06_affinity.npz",
+          "sha256": "97d0ce6e5cdfebfc4649b0930336093b72c7cbb098f3704cb94f404857430fb0",
+          "size": 2962812
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u022/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "7d155a0b0689d942c79a045f076deeaec6e540c7a8e4c501baab3c5e287c498b",
+      "reference_partition_sha256": "f7776fbe69b01fe67a87558f67d0913905e2c2bc82f941ada813194c2d9f3720",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 2,
+      "unit_id": "u022"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u023/input_manifest.json",
+        "sha256": "8276357edc2d0b151129dd2d3e82f71aecd6e838ddac5d3732a5da8cc07f6324",
+        "size": 7025
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u023/worker_input.json",
+          "sha256": "2af8b24e0ba1164b1a6343184cb6d3f62e5189792e791c8c3ab9018692a1a233",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u023/attempt_001/worker/embedding.npy",
+          "sha256": "4c9c9714dfed4a96bb8128bf7c9da096828fb22361952173530eb2f53c80b2e6",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u023/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "a40d72e13a009dcedbf04d4ffb73ce158db686e0cad902bf93524d45843856d9",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u023/c06_affinity.npz",
+          "sha256": "70df611bee8a6878f2b7848607ba316afb94e4133eb889e60e47bade18962705",
+          "size": 2937332
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u023/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "4eb40a47cc6a029ee77adc5c84a7e24b506621445c427cc3eeb2f7e0cefdf73f",
+      "reference_partition_sha256": "e018a291a3e50694d7f4ce32f9dac4784ceedfd92f132abc32ac6531982fdea5",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 3,
+      "unit_id": "u023"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u024/input_manifest.json",
+        "sha256": "5f206c65d8fc3913f9747265b9253d88c6ff312cdcb2a89dd73595cfb7f73564",
+        "size": 7025
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u024/worker_input.json",
+          "sha256": "21aac2cb58de48d813f641457d34800b8714a5a6b28f666353e5da35ca97864b",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u024/attempt_001/worker/embedding.npy",
+          "sha256": "4c4c93cb7064064fbd7651de8035c554ea601756da6fd25c26d2580e1462fc43",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u024/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "5a93221b84400013cb3cc6322adc1d72f1387bf3c375e04467dd0f7c7c2624ef",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u024/c06_affinity.npz",
+          "sha256": "77e808514d9435ef4e2aafc6ca1840931076939b7f1f9dc37a4dd631171bdb02",
+          "size": 2926894
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u024/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "50aec48bcb81895d63bc2f65459960eafa5e3e403f16e34957a6f6a499d4290f",
+      "reference_partition_sha256": "e2675166a25ff1cb1d3312528c94cdbfe7d18b90c833706309ec3076fa4002c0",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 4,
+      "unit_id": "u024"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u025/input_manifest.json",
+        "sha256": "dbe9ca655f3f95433257ce76f8bc44e807717e3616b91efc246b1220bd048207",
+        "size": 7025
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u025/worker_input.json",
+          "sha256": "e9a5d428d979e777ae56faa68bee281761538b216df9b233ac1916267c3c5611",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u025/attempt_001/worker/embedding.npy",
+          "sha256": "1a94c03475bb6010576b4740094a110b6760e0c79b1b2dfe7e5c6614d16fc94f",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u025/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "cf071915ff4c450e819fbef8522f151a3f89c13c61ca4ea410882b2ad8b2aff4",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u025/c06_affinity.npz",
+          "sha256": "e769eae859ab8f18435cd90875d141f5a1e7c0245042c30e4a40cd5f82356a60",
+          "size": 2964273
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u025/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "b798cc548cdd8b7917c1afdd1b9cb3cadeef2dcc4cd446ec9482c0a569aea4c2",
+      "reference_partition_sha256": "f3beac52010be3b55522ae3c034278d5979512fcb87bee426ca39e3222446c92",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 5,
+      "unit_id": "u025"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u026/input_manifest.json",
+        "sha256": "f1f7b2286b72be7c8d5fa7508f900e8663e9ce60f5dd57fafe6f2ca1ad428222",
+        "size": 7018
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u026/worker_input.json",
+          "sha256": "d6cb0840fda64c680d13dd99236be770147eb7b8af67f3fbd1a659ac02b6b1c4",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u026/attempt_001/worker/embedding.npy",
+          "sha256": "52ae4df7ed49325665834a8ac3c27dd59e9e1d1b2f13470c306c24014251a25b",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u026/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "e563412aa0a1ebc084ca0929c144d995bf4f6fe8004ab3c5b5a12088548b150b",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u026/c06_affinity.npz",
+          "sha256": "4d5de74be043ddb5ccac45d14d1be6b47dea98cae2149bddb155a7aed6491a8a",
+          "size": 2934543
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u026/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "9a420347b19f5852fccbd8ff4916ba2d09dc5348bc569f30faccd1b237aa08fe",
+      "reference_partition_sha256": "9998742ea0a3ed1ec6793d56a831e1e566f99350bfcd83a500584d516483b2f1",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 6,
+      "unit_id": "u026"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u027/input_manifest.json",
+        "sha256": "89b6f8c12c3758cf03eeb70bd7b6332c036d790dd2af2fc8b17694f25a6079ef",
+        "size": 7025
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u027/worker_input.json",
+          "sha256": "18dac490e6f5e64359618a3614c18b94c741b15f32e12f945afa9bcd97c2ec97",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u027/attempt_001/worker/embedding.npy",
+          "sha256": "44c7897de6ef0f982811007640e14861e62e01bbbcdf54dad8b64a1980409419",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u027/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "6d7be3ff5c73d9779facb81f477c8a3de7de69e4573f5f2f2f5c93b795e7cb83",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u027/c06_affinity.npz",
+          "sha256": "4d393b54ea1f0c51ba51235b349010f44642eb72cd4473e24b34c762453edce4",
+          "size": 2951581
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u027/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "b2b285dffb9e7a5a18f458df34642e70956b55d24737f61fd1e2bbd7b8900849",
+      "reference_partition_sha256": "219564f4c2cd491820ade7a6aefa9526c96af278725221ba45c183657c387a44",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 7,
+      "unit_id": "u027"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u028/input_manifest.json",
+        "sha256": "e8910d6c99aa938722ce3e7ef8db6d072c72046cd91ca5f50319c67981b44e23",
+        "size": 7023
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u028/worker_input.json",
+          "sha256": "85ec4f507f001f3e5936c059ba8e11a40abc20caa261921b311e5f46abba57e8",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u028/attempt_001/worker/embedding.npy",
+          "sha256": "8ef5c54c29346284b5f44a622bb90c72b6e39676e86a277ac614bd318a6a0750",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u028/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "64d41717dd0f0d63bfd28a206c7d5943260f20cfad8c392039a78baef7978fdb",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u028/c06_affinity.npz",
+          "sha256": "3c068ecde8a4b20013c0e6f25e8a94cea84cdf2577b339a0c103223bd63e15ec",
+          "size": 2939888
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u028/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "7bd3a895649dc0a95472495e55919bb8772065ea84393c7f2496fb16deab13c4",
+      "reference_partition_sha256": "6c1509574b380f6f5d9255ad7269ea0728024e9ef5da2c538f3a5be104538019",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 8,
+      "unit_id": "u028"
+    },
+    {
+      "assay_pair": [
+        "RNA",
+        "ATAC"
+      ],
+      "data_steward_id": "p22",
+      "input_manifest": {
+        "path": "/root/autodl-fs/night10a_rev2_qcrd_20260821/raw/inputs/u029/input_manifest.json",
+        "sha256": "e87ef1cf7e4ab8cb74fea9228eb1b3940442672ba582291d2d7cc1a7a74353cf",
+        "size": 7028
+      },
+      "reference_artifacts": [
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u029/worker_input.json",
+          "sha256": "f8ef910d1fdfdccac8d32ca6f6ceac076eb02fda204faf3e3cc4d5272dca4190",
+          "size": 780
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u029/attempt_001/worker/embedding.npy",
+          "sha256": "69b9fb81d9cd11793a329368f3ebe637e127f6386f3e45a53c4e8853a2acb4f9",
+          "size": 2354304
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/adapter_stage/R2/formal/R02/u029/attempt_001/transforms/E1_ADAPTER_C06_MEAN/H01/clusters.csv",
+          "sha256": "e51db4186bcceb3908bbac4c39191581c29878ade00372bd4e35cec336e4e996",
+          "size": 174747
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u029/c06_affinity.npz",
+          "sha256": "db48be4649340968c6676f5d3690952d1fb9a6bdc5849157d85283af1f230aab",
+          "size": 2970865
+        },
+        {
+          "path": "/root/autodl-fs/night7b_score_rnd_20260818/source/u029/observation_ids.txt",
+          "sha256": "f2e066aaf5d601cf9303c9ac47d3c6a46074b097e2b4c9dbf3633787849a2c9f",
+          "size": 156332
+        }
+      ],
+      "reference_embedding_sha256": "89207e433343670812e97dafc6ba08d52b26e4cd50431b9b8afadc7365adb7df",
+      "reference_partition_sha256": "cd0b684f4b480101ae8f11a5146d2c382fec44b5259a071f64edec7a452a6979",
+      "resolved_family": "RNA_EPIGENOME",
+      "resolved_recipe_id": "F00_R02_FULL",
+      "seed": 9,
+      "unit_id": "u029"
+    }
+  ],
+  "conflicting_frozen_implementations": 0,
+  "implementation_sha256": "84bd733e445594a664a28eff6267dd5f6dd87a1b09a54c465b0282f1320d9c42",
+  "label_paths_reachable_from_worker": false,
+  "label_reads": 0,
+  "q00_rows": 30,
+  "schema": "spalora.night10b.authority_audit.v1",
+  "source_files": [
+    {
+      "path": "SpaLORA/family_recipes.py",
+      "sha256": "b70742355a683be63b580bbc73c2f2be21eb1e3cb2ac58f789b9f2142c82dc4f",
+      "size": 2719
+    },
+    {
+      "path": "SpaLORA/family_policy.py",
+      "sha256": "b7bda526a8545fd889e22c87ffbd3502297b0d77f372d3cc38ba64af160888ff",
+      "size": 1600
+    },
+    {
+      "path": "SpaLORA/family_runtime.py",
+      "sha256": "c1c00f92e2d22ea4b556a668021e57d948f94006695e0a6533503664b9ffbbd1",
+      "size": 17325
+    },
+    {
+      "path": "scripts/night10b/run_family_policy.py",
+      "sha256": "d7adafc8cfff6f54ca9e94192addea62fe18520a37cc14a389b0b1f8268023e4",
+      "size": 20288
+    }
+  ],
+  "status": "PASS",
+  "unique_recipe_sources": {
+    "C00_G04_H05_CONFIRMED": [
+      "SpaLORA/night6c_pipeline.py",
+      "SpaLORA/night6d_pipeline.py"
+    ],
+    "F00_R02_FULL": [
+      "SpaLORA/night7b_adaptive.py",
+      "scripts/night7b_train.py",
+      "scripts/night7b_adapter_stage.py"
+    ]
+  }
+}

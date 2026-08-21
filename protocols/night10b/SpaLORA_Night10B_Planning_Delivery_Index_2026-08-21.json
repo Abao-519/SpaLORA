@@ -1,0 +1,41 @@
+{
+  "schema": "spalora.night10b.planning_delivery_index.v1",
+  "created_at": "2026-08-21T00:00:00+08:00",
+  "root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10b_family_policy_integration_planning_20260821",
+  "file_count_excluding_this_index": 5,
+  "declared_total_bytes_excluding_this_index": 42656,
+  "files": [
+    {
+      "path": "night10b_frozen_family_policy_integration_contract.json",
+      "bytes": 13852,
+      "sha256": "9f0582032aa07e895343f8d32d2561faa913d2c047b9bb4b703b8f325e86d5e7",
+      "role": "machine_readable_execution_contract"
+    },
+    {
+      "path": "README_COPY_TO_NEW_CODEX_NIGHT10B_2026-08-21.md",
+      "bytes": 4831,
+      "sha256": "d6dd0c561875a126da1d9acaa1711a82abe5cba638ba09d5cb71d42d1316ac3c",
+      "role": "copy_ready_execution_codex_prompt"
+    },
+    {
+      "path": "README_FIRST_NEW_PLANNING_WORKER_AFTER_NIGHT10A_REV2_2026-08-21.md",
+      "bytes": 2989,
+      "sha256": "94522a02f601651a162aba21390cb373c52f9b35b1b210e53b41959648f98ac2",
+      "role": "future_planning_worker_bootstrap"
+    },
+    {
+      "path": "SpaLORA_Night10B_Frozen_Family_Policy_Integration_Taskbook_2026-08-21.md",
+      "bytes": 13243,
+      "sha256": "123ac0fd7c7d04e39912979295291b2602ea5b2fd7ccd4b06e26bb9313525ec8",
+      "role": "execution_taskbook"
+    },
+    {
+      "path": "SpaLORA_Post_Night10A_REV2_Research_Decision_2026-08-21.md",
+      "bytes": 7741,
+      "sha256": "bae8a2e1a47b36a818d013df8b5782d6182db63bd657eb9f333231cc6f5305c2",
+      "role": "scientific_decision_and_scope"
+    }
+  ],
+  "self_hash_rule": "This index does not include itself to avoid recursive hashing.",
+  "expected_verification": "5/5 files present with exact size and SHA-256"
+}

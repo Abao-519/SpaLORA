@@ -1,0 +1,17 @@
+{
+  "adapter": null,
+  "auxiliary_assay": "PROTEIN",
+  "backbones": [
+    "G04_SP10_F10_EUC_UNION"
+  ],
+  "config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+  "dense_n_by_n_allowed": false,
+  "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL",
+  "family": "RNA_PROTEIN",
+  "policy_contract": "spalora.night10b.resolved_family_policy.v1",
+  "preprocessing_contract_id": "frozen_RNA_PROTEIN_A1_tonsil_D1_semantics",
+  "primary_assay": "RNA",
+  "recipe_id": "C00_G04_H05_CONFIRMED",
+  "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+  "sparse_graph_required": true
+}

@@ -1,0 +1,28 @@
+{
+  "K": 10,
+  "auxiliary_assay": "PROTEIN",
+  "backbones": [
+    {
+      "backbone_id": "G04_SP10_F10_EUC_UNION",
+      "base_cache_dir": "/root/autodl-fs/night6c_cache_20260817/base/a1",
+      "graph_cache_dir": "/root/autodl-fs/night6c_cache_20260817/graphs/a1/G04_SP10_F10_EUC_UNION",
+      "model_config": {
+        "embedding_dim": 64,
+        "epochs": 200,
+        "locked_m_bad_expected": 2.289938091,
+        "loss_factors": [
+          1.9,
+          2.5,
+          1.5,
+          10.0
+        ],
+        "n_clusters": 10
+      }
+    }
+  ],
+  "data_steward_id": "a1",
+  "primary_assay": "RNA",
+  "recipe_id": "C00_G04_H05_CONFIRMED",
+  "seed": 0,
+  "smoke_id": "S00_RNA_PROTEIN_A1_SEED0"
+}

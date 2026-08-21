@@ -1,0 +1,325 @@
+{
+  "schema": "spalora.night10b.frozen_family_policy_integration.v1",
+  "authority_date": "2026-08-21",
+  "protocol_id": "night10b-frozen-family-policy-integration-20260821",
+  "mode": "engineering_and_reproducibility_closure_no_new_scientific_selection",
+  "parent": {
+    "commit": "8b83fe38f3fbd4d3cb24fef6512596be2d49408b",
+    "tag": "night10a-rev2-final-20260821",
+    "branch": "revision/q2-night10a-rev2-real-schema-harmonization-20260821",
+    "required_tag_peel": "8b83fe38f3fbd4d3cb24fef6512596be2d49408b"
+  },
+  "target": {
+    "branch": "revision/q2-night10b-frozen-family-policy-integration-20260821",
+    "protection_tag": "baseline/pre-night10b-frozen-family-policy-integration-20260821",
+    "final_tag": "night10b-final-20260821",
+    "remote_repo": "/root/autodl-fs/SpaLORA-night10b",
+    "raw_root": "/root/autodl-fs/night10b_family_policy_integration_20260821",
+    "windows_delivery_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10b_delivery_20260821/official_compact"
+  },
+  "objective": "Integrate the two frozen assay-family recipes behind one dataset-identity-blind, label-free, content-addressed API and verify exact replay against all 30 Night-10A Q00 references.",
+  "authority_files": [
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night6d_handoff_20260817/official_compact/handoff/night6d_report.md",
+      "sha256": "333192ce979a02ce8cbc785828e58fa7b9314906ce653c7d8cae016b92e8a053",
+      "role": "locked_G04_H05_D1_P22_confirmation_report"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night7b_handoff_20260818/official_compact/handoff/night7b_final_candidate_lock.json",
+      "sha256": "74d76ca45ca7d9d632bdfdd694bfccbe635318b3cdfaad409ca21100805ddd97",
+      "role": "authoritative_R02_E1_C06_H01_candidate_lock"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8a_handoff_20260820/official_compact/outputs/night8a_handoff/family_reference_policy.json",
+      "sha256": "97d8588ae5fb8920299e23ce562f3e8d62556db9ddc8d2efd5937442fe04a4ac",
+      "role": "identity_blind_family_policy_and_P22_R02_reference_manifest"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/night8b_cardinality_safe_eval_decision.json",
+      "sha256": "de1f68046ddef4becb483d376185c9cddfa048af6a18c10c1778386928860a2c",
+      "role": "frozen_F00_external_accuracy_and_complexity_decision"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night9a_handoff_20260820/official_compact/outputs/night9a/night9a_report.md",
+      "sha256": "6db4ba2f65a63ae09f311e26fa76968cd0b4ff493bb4ccd6b4aee3ea9f169344",
+      "role": "no_efficient_R02_replacement_keep_full_F00"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night9b_handoff_20260821/official_compact/outputs/night9b/night9b_report.md",
+      "sha256": "8683db15871584073462e363a84e96d4a81d61ba646afa914fb77e23a2f294eb",
+      "role": "no_transferable_RACF_candidate_keep_family_baselines"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_handoff_20260821/official_compact/protocol/night10a_qcrd_candidate_registry.json",
+      "sha256": "b310e232282840772b69ad9d1c1d1de6e04c92e8b7b013a7e5247c628dfd959d",
+      "role": "frozen_dataset_family_and_Q00_reference_identity"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_rev2_delivery_20260821/official_compact/compact_delivery_index.json",
+      "sha256": "d2b1a1c6baf469aede5b7042b2133b6d065b6ffe0f30919682a952b08decc804",
+      "role": "Night10A_REV2_182_of_182_delivery_authority"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_rev2_delivery_20260821/official_compact/repo/outputs/night10a_rev2_handoff/SpaLORA_Night10A_REV2_Final_Report_2026-08-21.md",
+      "sha256": "4cb99b6f89ee1354feb44ef3adc646d728df78877ccb5547f7bf7f0402b0826e",
+      "role": "QCRD_final_negative_and_engineering_closure"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_rev2_delivery_20260821/official_compact/repo/outputs/night10a_rev2_handoff/execution_summary.json",
+      "sha256": "379718923c0db736b246ad46aa5f8d778e301278852ca808e03645b7b0af24ef",
+      "role": "Night10A_REV2_terminal_state"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_rev2_delivery_20260821/official_compact/repo/outputs/night10a_rev2_handoff/r2_lock/r2_total_lock_independent_audit.json",
+      "sha256": "b85ca47915589471afee0732bc336fca31071f1bfa114494f538dcd0618adedc",
+      "role": "authoritative_30_Q00_reference_rows"
+    },
+    {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_rev2_delivery_20260821/official_compact/repo/outputs/night10a_rev2_handoff/label_access_audit.json",
+      "sha256": "1e8fe741cbc1899ffc801e944fe07d83198cacdc4782efe78bd40f51fe3fb444",
+      "role": "historical_label_read_boundary"
+    }
+  ],
+  "scope": {
+    "allowed_datasets": ["a1", "tonsil", "d1", "p22"],
+    "allowed_use": "existing_label_free_artifacts_and_two_fixed_fresh_engineering_smokes_only",
+    "new_dataset_count": 0,
+    "third_party_benchmark_count": 0,
+    "new_scientific_candidate_count": 0,
+    "new_label_evaluation_windows": 0,
+    "misar_y_reads": 0,
+    "e18_5_reads": 0,
+    "qcrd_training_or_recovery": 0
+  },
+  "router_contract": {
+    "required_inputs": ["primary_assay", "auxiliary_assay"],
+    "canonical_pairs": [
+      {
+        "primary_assay": "RNA",
+        "auxiliary_assay": "PROTEIN",
+        "family": "RNA_PROTEIN",
+        "recipe_id": "C00_G04_H05_CONFIRMED"
+      },
+      {
+        "primary_assay": "RNA",
+        "auxiliary_assay": "ATAC",
+        "family": "RNA_EPIGENOME",
+        "recipe_id": "F00_R02_FULL"
+      }
+    ],
+    "forbidden_router_inputs": [
+      "dataset_id",
+      "dataset_name",
+      "tissue",
+      "species",
+      "development_stage",
+      "spot_count",
+      "feature_dimension",
+      "file_path",
+      "annotation",
+      "labels",
+      "historical_metrics"
+    ],
+    "inference_from_dimensions_forbidden": true,
+    "unknown_or_ambiguous_pair": "FAIL_CLOSED_UNSUPPORTED_ASSAY_PAIR",
+    "dataset_identity_may_only_be_used_by": "data_steward_for_content_addressed_artifact_location",
+    "dataset_identity_must_not_reach": ["policy_resolver", "trainer", "endpoint", "selector"]
+  },
+  "recipes": {
+    "RNA_PROTEIN": {
+      "recipe_id": "C00_G04_H05_CONFIRMED",
+      "backbones": ["G04_SP10_F10_EUC_UNION"],
+      "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "family_preprocessing": "frozen_RNA_PROTEIN_A1_tonsil_D1_semantics",
+      "trainable_family_specific_weights": false,
+      "dataset_specific_trainable_weights": false
+    },
+    "RNA_EPIGENOME": {
+      "recipe_id": "F00_R02_FULL",
+      "backbones": ["G00_SP18_F20_CORR_UNION", "G04_SP10_F10_EUC_UNION"],
+      "adapter": {
+        "id": "R02",
+        "losses": ["RECON", "MNN"],
+        "fusion": "equal",
+        "epochs": 160,
+        "early_stopping": false,
+        "best_epoch_selection": false
+      },
+      "endpoint": "E1_ADAPTER_C06_MEAN__H01",
+      "family_preprocessing": "frozen_sparse_RNA_ATAC_LSI_semantics",
+      "night9a_approximate_replacement_allowed": false,
+      "dense_n_by_n_allowed": false
+    }
+  },
+  "formal_replay": {
+    "source": "Night10A_REV2_r2_total_lock_independent_audit.q00_references",
+    "expected_rows": 30,
+    "units": {
+      "a1": [0, 1, 2, 3, 4],
+      "tonsil": [0, 1, 2, 3, 4],
+      "d1": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "p22": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    "required_per_row_binding": [
+      "unit_id",
+      "dataset_data_steward_id",
+      "seed",
+      "assay_pair",
+      "resolved_family",
+      "resolved_recipe_id",
+      "ordered_observation_sha256",
+      "registered_input_sha256",
+      "input_manifest_sha256",
+      "source_reference_embedding_sha256",
+      "source_reference_partition_sha256",
+      "implementation_sha256",
+      "resolved_policy_sha256",
+      "replay_manifest_sha256"
+    ],
+    "replay_checks": [
+      "source artifacts rehash exactly before use",
+      "ordered observations exact",
+      "resolved family and recipe exact",
+      "embedding shape and finite status exact",
+      "replayed embedding canonical SHA exact or documented authoritative no-op alias exact",
+      "canonical partition SHA exact",
+      "fresh-process load and endpoint replay",
+      "no label-bearing object deserialized"
+    ],
+    "pass_gate": "30_of_30_rows_pass_with_unique_row_sha",
+    "partial_pass_forbidden": true,
+    "per_dataset_or_per_seed_outcome_based_reuse_forbidden": true
+  },
+  "fresh_engineering_smokes": [
+    {
+      "smoke_id": "S00_RNA_PROTEIN_A1_SEED0",
+      "dataset": "a1",
+      "seed": 0,
+      "assay_pair": ["RNA", "PROTEIN"],
+      "recipe_id": "C00_G04_H05_CONFIRMED",
+      "training_components": ["G04_full_backbone"],
+      "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL"
+    },
+    {
+      "smoke_id": "S01_RNA_EPIGENOME_P22_SEED0",
+      "dataset": "p22",
+      "seed": 0,
+      "assay_pair": ["RNA", "ATAC"],
+      "recipe_id": "F00_R02_FULL",
+      "training_components": ["G00_full_backbone", "G04_full_backbone", "R02_fixed_adapter"],
+      "endpoint": "E1_ADAPTER_C06_MEAN__H01"
+    }
+  ],
+  "fresh_smoke_rules": {
+    "role": "engineering_deployability_only",
+    "labels": 0,
+    "scientific_metrics": 0,
+    "historical_score_comparison": 0,
+    "scientific_promotion": false,
+    "checkpoint_atomic_write": true,
+    "checkpoint_fresh_process_roundtrip": true,
+    "reload_output_atol": 1e-6,
+    "reload_output_rtol": 1e-5,
+    "canonical_partition_exact_after_reload": true,
+    "seed_or_config_change": false,
+    "scientific_retry": 0,
+    "fallback": 0
+  },
+  "implementation_contract": {
+    "single_public_entrypoint_required": true,
+    "content_addressed_configs_required": true,
+    "one_cli_or_config_reproduces_one_output_row": true,
+    "training_and_evaluation_separated": true,
+    "label_module_importable_from_training_process": false,
+    "fixed_seed_and_determinism_manifest_required": true,
+    "counts_log_model_aux_representations_named_explicitly": true,
+    "sparse_graph_required": true,
+    "dense_n_by_n_operation_forbidden": true,
+    "raw_data_checkpoint_embedding_affinity_in_git_forbidden": true,
+    "ast_and_runtime_identity_blind_audits_required": true
+  },
+  "correction_policy": {
+    "preformal_implementation_or_infrastructure_corrections_max": 6,
+    "formal_global_correction_cycles_max": 2,
+    "global_correction_requires": "invalidate_all_formal_replay_rows_and_replay_all_30_from_zero",
+    "per_row_retry_or_replacement": false,
+    "failed_attempts_preserved": true,
+    "label_or_metric_informed_correction": false,
+    "ordinary_numerical_failure": "lock_and_report_without_seed_solver_K_or_threshold_change"
+  },
+  "resource_contract": {
+    "autodl_mode": "GPU_CARD_MODE_REQUIRED",
+    "gpu_required_only_for_fresh_smokes_and_checkpoint_forward_replay": true,
+    "overall_wall_clock_hours_max": 6,
+    "cpu_workers_max": 4,
+    "blas_threads_per_worker_max": 3,
+    "single_transform_timeout_minutes": 30,
+    "end_to_end_smokes": 2,
+    "training_components_max": 4,
+    "new_scientific_training_units": 0
+  },
+  "label_firewall": {
+    "label_reads_total": 0,
+    "training_label_reads": 0,
+    "evaluation_label_reads": 0,
+    "misar_y_reads": 0,
+    "label_paths_in_worker_process": false,
+    "ari_nmi_q_or_spatial_label_metrics": false,
+    "after_any_accidental_label_read": "STOP_LABEL_FIREWALL_BREACH"
+  },
+  "success_gate": {
+    "terminal_status": "NIGHT10B_FROZEN_FAMILY_POLICY_INTEGRATION_LOCKED",
+    "requires": [
+      "authority_and_parent_git_pass",
+      "identity_blind_router_pass",
+      "frozen_recipe_semantics_pass",
+      "formal_replay_30_of_30_pass",
+      "fresh_smokes_2_of_2_pass",
+      "fresh_process_roundtrip_2_of_2_pass",
+      "label_reads_zero",
+      "forbidden_data_and_benchmarks_zero",
+      "resource_budget_pass",
+      "git_and_delivery_pass"
+    ]
+  },
+  "terminal_statuses": [
+    "NIGHT10B_FROZEN_FAMILY_POLICY_INTEGRATION_LOCKED",
+    "NIGHT10B_REPLAY_LOCKED_FRESH_SMOKE_INFRASTRUCTURE_BLOCKED",
+    "BLOCKED_AUTHORITY_OR_ARTIFACT",
+    "BLOCKED_RESOURCE_BUDGET",
+    "IMPLEMENTATION_SEMANTICS_INVALID",
+    "LABEL_FIREWALL_BREACH"
+  ],
+  "forbidden_actions": [
+    "continue QCRD or create a new candidate",
+    "read labels or compute scientific metrics",
+    "read MISAR Y or E18.5",
+    "add a dataset or third-party benchmark",
+    "route by dataset tissue species stage dimensions or historical score",
+    "replace full F00 with a Night9A approximate transfer candidate",
+    "retrain historical baselines merely to fill missing replay evidence",
+    "relax a SHA or canonical partition gate after seeing a mismatch",
+    "change seed K solver threshold epoch or recipe after formal replay begins",
+    "use dense N-by-N matrices",
+    "force-push move an existing tag or overwrite historical raw artifacts",
+    "download raw runs checkpoints embeddings or affinities to Windows",
+    "call the AutoDL power API"
+  ],
+  "required_delivery_files": [
+    "night10b_report.md",
+    "night10b_plain_language_summary.md",
+    "night10b_decision.json",
+    "authority_audit.json",
+    "resolved_family_policy_contract.json",
+    "router_identity_blind_audit.json",
+    "formal_replay_30_manifest.json",
+    "fresh_smoke_manifest.json",
+    "checkpoint_roundtrip_audit.json",
+    "label_access_audit.json",
+    "resource_audit.json",
+    "failure_audit.json",
+    "tests_and_semantics_audit.json",
+    "repo_delivery_file_index.json",
+    "incremental_git_bundle"
+  ]
+}

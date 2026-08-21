@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "SpaLORA/night6c_pipeline.py",
+      "sha256": "b1abd06ab1f5f30d8f3c1d16e89a2ab8c240b61422f8c2b9307adc0619a0e0d1",
+      "size": 29352
+    },
+    {
+      "path": "SpaLORA/night6d_pipeline.py",
+      "sha256": "5aef023f7bba8d7a4cf2c75982bac95f2c88f25ad972029672bd914f7dff3897",
+      "size": 3666
+    },
+    {
+      "path": "scripts/night6c_train.py",
+      "sha256": "3603b1d857750ff15f9c39b570f19171b7d59b2f53efbcab04aeb10eb820d2f9",
+      "size": 11853
+    },
+    {
+      "path": "scripts/night6c_reload.py",
+      "sha256": "32522425a5a56130a67e0b35928f48908e25abdde3b43982dd475a507d3237d9",
+      "size": 4511
+    },
+    {
+      "path": "scripts/night6c_transform.py",
+      "sha256": "a33494a19bbfb22768a13e87d0111e3ca663bd970c0268aecbeeadff258b5b0e",
+      "size": 9590
+    },
+    {
+      "path": "SpaLORA/night7b_adaptive.py",
+      "sha256": "6aa385efc5b0efe3ab828fca87ffd73e791dfe97aca93680851a4e255814a117",
+      "size": 22199
+    },
+    {
+      "path": "scripts/night7b_train.py",
+      "sha256": "0078f73c1ab1c2f3420634e60e7e56c6376d923f96ef8c001f9be3c646191d8d",
+      "size": 13912
+    },
+    {
+      "path": "scripts/night7b_adapter_stage.py",
+      "sha256": "e8d6d0b6918afe75d9aede5573bfb8d98e3d17ab750df6e43d40c81b8d7ff393",
+      "size": 19553
+    },
+    {
+      "path": "scripts/night7b_heads.py",
+      "sha256": "84505d67a2cf62b89f4b3699703edef2ccef92644fbafb243e0db4253167f784",
+      "size": 6704
+    },
+    {
+      "path": "SpaLORA/night8a_mfspc.py",
+      "sha256": "9ed7d1c4ee12d21043f9ac635e5d500105dbf68f52ca42f52fbe997296ff6e82",
+      "size": 15082
+    },
+    {
+      "path": "SpaLORA/night8b_pipeline.py",
+      "sha256": "50323fd43e88247ec230f2aaa2023ca89f02c4f16f845e52d36bd16321b9005c",
+      "size": 12790
+    },
+    {
+      "path": "scripts/night8a_transform.py",
+      "sha256": "6e8ec28b67afe9564c7f48abc83a06b34ff8fa0e3cc6ea1d94d56f2af0adbada",
+      "size": 6806
+    },
+    {
+      "path": "scripts/night7b_p0.py",
+      "sha256": "fe5c21b46aed91a7831cf3413508346503ec182fb1ed096a2442e1f07eda356f",
+      "size": 27211
+    },
+    {
+      "path": "SpaLORA/night7a_consensus.py",
+      "sha256": "16ba9f49c196a6471e892f9f8aeb6fff04c3dea9ce5031c13e6c947f33769f98",
+      "size": 14260
+    },
+    {
+      "path": "scripts/night10a/night10a_rev2_run.py",
+      "sha256": "655c89318a6ed9492d3b7557ca2bbdc86dac0cb8977ce8df1c4d63b3d8246533",
+      "size": 41621
+    }
+  ],
+  "frozen_conclusion": "QCRD_ENGINEERING_REPAIR_SUCCEEDED_SCIENTIFIC_CANDIDATES_FAILED",
+  "label_reads": 0,
+  "personally_read_full_or_relevant_complete_sections": true,
+  "schema": "spalora.night10b.p0_source_audit.v1",
+  "status": "PASS"
+}

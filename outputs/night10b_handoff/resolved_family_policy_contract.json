@@ -1,0 +1,54 @@
+{
+  "dataset_name_routes": 0,
+  "label_reads": 0,
+  "route_count": 2,
+  "routes": [
+    {
+      "adapter": null,
+      "auxiliary_assay": "PROTEIN",
+      "backbones": [
+        "G04_SP10_F10_EUC_UNION"
+      ],
+      "config_sha256": "f987a7a4e3771fa9f1e4f4a1181f2fa9665f184a7c384c26714ac083ecd56a1a",
+      "dense_n_by_n_allowed": false,
+      "endpoint": "H05_EQUAL3_AFFINITY_SPECTRAL",
+      "family": "RNA_PROTEIN",
+      "policy_contract": "spalora.night10b.resolved_family_policy.v1",
+      "preprocessing_contract_id": "frozen_RNA_PROTEIN_A1_tonsil_D1_semantics",
+      "primary_assay": "RNA",
+      "recipe_id": "C00_G04_H05_CONFIRMED",
+      "resolved_policy_sha256": "fbcc351fd6ccd17372ef20ebbbd9a03b658a172321f8e9029153f7ae6f239e52",
+      "sparse_graph_required": true
+    },
+    {
+      "adapter": {
+        "best_epoch_selection": false,
+        "early_stopping": false,
+        "epochs": 160,
+        "fusion": "equal",
+        "id": "R02",
+        "losses": [
+          "RECON",
+          "MNN"
+        ]
+      },
+      "auxiliary_assay": "ATAC",
+      "backbones": [
+        "G00_SP18_F20_CORR_UNION",
+        "G04_SP10_F10_EUC_UNION"
+      ],
+      "config_sha256": "0fdfd2a254be77034049ba14f91275986176903ef9aa98a2b51e1b663f8d8b7a",
+      "dense_n_by_n_allowed": false,
+      "endpoint": "E1_ADAPTER_C06_MEAN__H01",
+      "family": "RNA_EPIGENOME",
+      "policy_contract": "spalora.night10b.resolved_family_policy.v1",
+      "preprocessing_contract_id": "frozen_sparse_RNA_ATAC_LSI_semantics",
+      "primary_assay": "RNA",
+      "recipe_id": "F00_R02_FULL",
+      "resolved_policy_sha256": "e60acfbc86c49b08a7c5419b3d5c0db8bcdbab4ce3d1e7248adb49b1a7ae0620",
+      "sparse_graph_required": true
+    }
+  ],
+  "schema": "spalora.night10b.resolved_family_policy_contract.v1",
+  "status": "PASS"
+}

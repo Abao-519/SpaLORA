@@ -1,0 +1,17 @@
+{
+  "ast_tests_passed": true,
+  "dataset_name_routes": 0,
+  "fail_closed_tests_passed": true,
+  "label_reads": 0,
+  "permitted_parameters": [
+    "primary_assay",
+    "auxiliary_assay"
+  ],
+  "resolver_parameters": [
+    "primary_assay",
+    "auxiliary_assay"
+  ],
+  "runtime_identity_blind_tests_passed": true,
+  "schema": "spalora.night10b.router_identity_blind_audit.v1",
+  "status": "PASS"
+}

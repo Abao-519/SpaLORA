@@ -1,0 +1,25 @@
+{
+  "adapter": {
+    "best_epoch_selection": false,
+    "early_stopping": false,
+    "epochs": 160,
+    "fusion": "equal",
+    "id": "R02",
+    "losses": [
+      "RECON",
+      "MNN"
+    ]
+  },
+  "auxiliary_assay": "ATAC",
+  "backbones": [
+    "G00_SP18_F20_CORR_UNION",
+    "G04_SP10_F10_EUC_UNION"
+  ],
+  "dense_n_by_n_allowed": false,
+  "endpoint": "E1_ADAPTER_C06_MEAN__H01",
+  "family": "RNA_EPIGENOME",
+  "preprocessing_contract_id": "frozen_sparse_RNA_ATAC_LSI_semantics",
+  "primary_assay": "RNA",
+  "recipe_id": "F00_R02_FULL",
+  "sparse_graph_required": true
+}
