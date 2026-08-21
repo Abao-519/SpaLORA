@@ -1,0 +1,228 @@
+{
+  "schema": "spalora.night10a.qcrd_registry.v1",
+  "created_at": "2026-08-21T00:00:00+08:00",
+  "scientific_parent": {
+    "branch": "revision/q2-night9b-rna-anchor-cooperative-fusion-rnd-20260820",
+    "commit": "e9bd62e2bb07c58f58c219956b8aaf090527c471",
+    "tag": "night9b-final-20260820"
+  },
+  "metadata_lineage_note": {
+    "night9c_branch_head": "a8932e4cca85db6985dd19fcb96007229b18deca",
+    "night9c_status": "BLOCKED_DATA_PROVENANCE",
+    "instruction": "Preserve Night-9C provenance metadata, but do not use E18.5 data in Night-10A."
+  },
+  "target_branch": "revision/q2-night10a-qcrd-score-rnd-20260821",
+  "target_tag": "night10a-final-20260821",
+  "objective": "Develop and audit Quality-Calibrated Cross-modal Residual Denoising (QCRD) on frozen authoritative representations, with no dataset-name routing and no new external benchmark.",
+  "development_status": "A1, tonsil, D1 and P22 are development evidence, not pristine holdouts.",
+  "data_policy": {
+    "allowed_datasets": ["A1", "tonsil", "D1", "P22"],
+    "forbidden_datasets": ["MISAR_E15.5_S1", "E18.5", "GSE198353", "GSE205055"],
+    "forbidden_actions": [
+      "Run a new third-party benchmark",
+      "Retrain an old baseline only to backfill metrics",
+      "Use labels in training, loss, early stopping, epoch selection, seed selection or cluster-endpoint selection",
+      "Route by dataset name",
+      "Build dense N-by-N distance, adjacency or spatial-kernel matrices",
+      "Read MISAR Y again"
+    ],
+    "allowed_family_preprocessing": [
+      "RNA+protein family preprocessing shared by A1, tonsil and D1",
+      "RNA+ATAC family preprocessing shared by P22 and future RNA+ATAC data"
+    ]
+  },
+  "datasets": [
+    {
+      "id": "A1",
+      "family": "RNA+protein",
+      "r1_seeds": [0, 1, 2],
+      "r2_seeds": [0, 1, 2, 3, 4],
+      "reference": "C00_G04_H05_CONFIRMED"
+    },
+    {
+      "id": "tonsil",
+      "family": "RNA+protein",
+      "r1_seeds": [0, 1, 2],
+      "r2_seeds": [0, 1, 2, 3, 4],
+      "reference": "C00_G04_H05_CONFIRMED"
+    },
+    {
+      "id": "D1",
+      "family": "RNA+protein",
+      "r1_seeds": [0, 1, 2],
+      "r2_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "reference": "C00_G04_H05_CONFIRMED",
+      "diagnostic_frontier": "C01_G00_H05"
+    },
+    {
+      "id": "P22",
+      "family": "RNA+ATAC",
+      "r1_seeds": [0, 1, 2],
+      "r2_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "reference": "F00_R02 or its authoritative Night-7B equivalent for the exact registered seed",
+      "diagnostic_frontiers": ["C01_G00_H05", "N02_HIER_ONLY"]
+    }
+  ],
+  "frozen_inputs": {
+    "policy": "Reuse existing authoritative views, partitions, affinities and checkpoints; hash before and after. Do not retrain to create missing metric inputs.",
+    "remote_roots": [
+      "/root/autodl-fs/night6c_raw_runs_20260817",
+      "/root/autodl-fs/night6d_raw_runs_20260817",
+      "/root/autodl-fs/night7b_score_rnd_20260818",
+      "/root/autodl-fs/night8b_raw_runs_20260820",
+      "/root/autodl-fs/night9b_racf_20260820"
+    ]
+  },
+  "qcrd_contract": {
+    "quality_features_are_frozen_before_training": true,
+    "teacher_gradient": "stop_gradient",
+    "correction": "normalize(z_low + gate * delta(z_low, stopgrad(z_high), spatial_context))",
+    "global_quality_features": [
+      "silhouette_without_labels_on_frozen_view_and_frozen_partition",
+      "davies_bouldin_without_labels_on_frozen_view_and_frozen_partition",
+      "calinski_harabasz_without_labels_on_frozen_view_and_frozen_partition",
+      "moran_or_graph_local_consistency_without_ground_truth",
+      "graph_local_residual"
+    ],
+    "spot_quality_features": [
+      "local_neighbor_residual",
+      "local_neighbor_entropy",
+      "cross_modal_cosine_disagreement",
+      "sparse_mutual_neighbor_support"
+    ],
+    "mandatory_regularizers": [
+      "correction_magnitude_anchor",
+      "original_representation_anchor",
+      "local_boundary_preservation"
+    ],
+    "implementation_constraints": [
+      "Sparse kNN only",
+      "No dense N-by-N operation",
+      "Same trainable architecture for RNA+protein and RNA+ATAC",
+      "Family-dependent preprocessing is allowed; dataset-dependent trainable weights are not"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "Q00_REFERENCE_ALIAS",
+      "mechanism": "No QCRD correction; exact authoritative family reference.",
+      "trainable": false
+    },
+    {
+      "id": "Q01_GLOBAL_QUALITY_BLEND",
+      "mechanism": "Frozen global quality chooses a soft teacher and a bounded global residual gate.",
+      "trainable": true
+    },
+    {
+      "id": "Q02_SPOT_QUALITY_BLEND",
+      "mechanism": "Frozen per-spot reliability gates a small conditional residual adapter.",
+      "trainable": true
+    },
+    {
+      "id": "Q03_MASKED_RESIDUAL",
+      "mechanism": "Unilateral masked residual reconstruction of the lower-confidence modality conditioned on the teacher.",
+      "trainable": true
+    },
+    {
+      "id": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "mechanism": "Q02 plus masked conditional residual denoising.",
+      "trainable": true
+    },
+    {
+      "id": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "mechanism": "Q04 with a fixed boundary-risk suppressor that reduces correction at local discontinuities.",
+      "trainable": true
+    },
+    {
+      "id": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "mechanism": "Q04 with low-dimensional Fourier coordinate features; no dense spatial kernel.",
+      "trainable": true
+    },
+    {
+      "id": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "mechanism": "Q04 with sparse reciprocal-MNN positives weighted by frozen confidence; no dense pairwise distance matrix.",
+      "trainable": true
+    }
+  ],
+  "training_defaults": {
+    "adapter_epochs": 120,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_width": 64,
+    "residual_rank": 16,
+    "dropout": 0.1,
+    "max_correction_norm_ratio": 0.25,
+    "early_stopping": false,
+    "best_epoch_selection": false,
+    "scientific_retry": 0,
+    "fallback": 0
+  },
+  "stage_r1": {
+    "candidates": ["Q00_REFERENCE_ALIAS", "Q01_GLOBAL_QUALITY_BLEND", "Q02_SPOT_QUALITY_BLEND", "Q03_MASKED_RESIDUAL", "Q04_SPOT_GATED_MASKED_RESIDUAL", "Q05_BOUNDARY_GATED_RESIDUAL", "Q06_COORDINATE_PRIOR_RESIDUAL", "Q07_CONFIDENCE_MNN_RESIDUAL"],
+    "datasets": ["A1", "tonsil", "D1", "P22"],
+    "seeds": "dataset.r1_seeds",
+    "maximum_real_training_units": 84,
+    "selection": "Rank after all registered outputs are locked. Preserve at most one accuracy, one balanced and one spatial frontier, deduplicated to at most three candidates. A mild loss on one dataset is a ranking penalty, not an automatic invalidation."
+  },
+  "stage_r2": {
+    "maximum_candidates": 3,
+    "datasets": ["A1", "tonsil", "D1", "P22"],
+    "seeds": "dataset.r2_seeds",
+    "maximum_real_training_units": 90,
+    "entry_condition": "At least one real candidate is finite, semantically valid and improves either a modality-family mean Q or a registered frontier score without catastrophic spatial collapse.",
+    "stop_condition": "If no candidate is semantically valid or all candidates show catastrophic spatial collapse, stop after R1 and report the negative result."
+  },
+  "evaluation": {
+    "primary": ["ARI", "NMI", "Q"],
+    "extended_label_metrics": ["MI", "AMI", "FMI", "homogeneity", "completeness", "V_measure"],
+    "embedding_geometry": ["silhouette", "davies_bouldin", "calinski_harabasz"],
+    "cross_modal": ["symmetric_FOSCTTM", "Recall@1", "Recall@5", "Recall@10", "paired_median_rank"],
+    "spatial": ["neighbor_agreement", "Moran_I", "Geary_C", "boundary_disagreement"],
+    "reporting": [
+      "Per seed values",
+      "Mean, median, standard deviation and worst seed",
+      "Paired deltas against the exact same-seed reference",
+      "Bootstrap confidence intervals",
+      "Exact paired sign-flip p-value when sample size permits",
+      "Runtime and peak-GPU ratios"
+    ],
+    "ranking_frontiers": {
+      "accuracy": "Mean paired Q with ARI and NMI shown separately; extended metrics are secondary tie-breakers.",
+      "balanced": "Worst-dataset and worst-family paired Q, followed by macro paired Q.",
+      "spatial": "Accuracy gain with no material deterioration across the four registered spatial metrics."
+    }
+  },
+  "hard_invalidity_only": [
+    "Ground-truth leakage into training or selection",
+    "Wrong dataset, modality, spot order, seed, reference or config SHA",
+    "Non-finite model output",
+    "Corrupted or overwritten authoritative artifact",
+    "Implementation does not match the registered candidate semantics"
+  ],
+  "operational_limits": {
+    "startup_mode": "AutoDL GPU mode",
+    "overall_wall_clock_hours": 12,
+    "single_transform_timeout_minutes": 30,
+    "cpu_workers": 4,
+    "rule": "Do not silently wait on one CPU transform for hours. Record TIMEOUT and continue independent registered units; stop cleanly at the wall-clock limit."
+  },
+  "delivery": {
+    "windows_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_handoff_20260821/official_compact",
+    "download_raw_runs": false,
+    "download_checkpoints": false,
+    "download_embeddings": false,
+    "required": [
+      "plain_language_summary.md",
+      "night10a_report.md",
+      "night10a_decision.json",
+      "metric_backfill_long.csv",
+      "per_seed_metrics_long.csv",
+      "frontier_registry.json",
+      "resource_audit.json",
+      "tests_and_semantics_audit.json",
+      "delivery_index.json",
+      "incremental_git_bundle"
+    ]
+  }
+}

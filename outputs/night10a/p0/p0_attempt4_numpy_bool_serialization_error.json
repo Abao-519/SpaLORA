@@ -1,0 +1,16 @@
+{
+  "attempt": 4,
+  "category": "P0_INFRASTRUCTURE_ONLY",
+  "error": "historical metric parity completed, but its numpy.bool_ pass flag could not be serialized by the standard JSON encoder",
+  "authority_and_resource_contract_passed": true,
+  "reference_tests_passed": true,
+  "qcrd_real_semantic_probe_passed": true,
+  "historical_metric_computation_completed": true,
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "a1_label_file_reads": 1,
+  "labels_used_for_training_or_selection": false,
+  "scientific_retry": false,
+  "resolution": "cast the scalar pass flag to built-in bool before atomic JSON serialization",
+  "preserved": true
+}

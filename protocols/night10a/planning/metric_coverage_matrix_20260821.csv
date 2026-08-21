@@ -1,0 +1,21 @@
+﻿metric,category,core_four_available,misar_available,requires,next_action
+ARI,label agreement,yes,yes,clusters + labels,retain primary
+NMI,label agreement,yes,yes,clusters + labels,retain primary
+AMI,label agreement,no,yes,clusters + labels,backfill all core results
+FMI,label agreement,no,yes,clusters + labels,backfill all core results
+MI,label agreement,no,no,clusters + labels,backfill all results
+V-measure,label agreement,no,yes,clusters + labels,backfill all core results
+Homogeneity,label agreement,no,yes,clusters + labels,backfill all core results
+Completeness,label agreement,no,yes,clusters + labels,backfill all core results
+Silhouette,embedding geometry,no,no,embedding + predicted clusters,compute with fixed metric and scaling
+Davies-Bouldin,embedding geometry,no,no,embedding + predicted clusters,compute as secondary metric
+Calinski-Harabasz,embedding geometry,no,no,embedding + predicted clusters,compute as secondary metric
+Neighbor agreement,spatial continuity,yes,yes,clusters + spatial graph,retain
+Moran's I,spatial continuity,yes,yes,clusters + coordinates,retain
+Geary's C,spatial continuity,yes,yes,clusters + coordinates,retain
+Boundary disagreement,spatial continuity,yes,yes,clusters + spatial graph,retain
+CHAOS/PAS,spatial continuity,no,no,clusters + coordinates,add after definition parity test
+FOSCTTM,cross-modal alignment,no,no,paired modality embeddings,backfill where private views exist
+Cross-modal retrieval,cross-modal alignment,no,no,paired modality embeddings,add Recall@K and median rank
+Marker coherence,biological validity,no,no,raw modalities + clusters,defer until candidate freeze
+Peak-gene coherence,biological validity,no,no,RNA/ATAC + clusters,defer until candidate freeze

@@ -1,0 +1,19 @@
+{
+  "interpretation_constraints": [
+    "Do not compare means across different seed scopes as if they were paired.",
+    "N02 is a P22 development frontier, not a cross-platform locked winner.",
+    "Night-7B R02 ten-seed results and Night-9B five-seed F00 results are different summaries of overlapping but non-identical seed sets.",
+    "Missing current clusters/embeddings must be read from AutoDL persistent raw roots; do not retrain merely to backfill metrics."
+  ],
+  "metric_coverage": "metric_coverage_matrix_20260821.csv",
+  "row_count": 23,
+  "schema": "spalora.night10a.local_scoreboard.v1",
+  "scoreboard": "authoritative_scoreboard_20260821.csv",
+  "source_files": [
+    "night7a_handoff_20260818/official_compact/handoff/four_dataset_summary.csv",
+    "night7b_handoff_20260818/official_compact/handoff/R2_final_summary_vs_C00.csv",
+    "night8b_cardinality_safe_eval_handoff_20260820/official_compact/outputs/night8b_cardinality_safe_eval/cardinality_safe_20row_metrics.csv",
+    "night9b_handoff_20260821/official_compact/outputs/night9b/cosmos_p22_per_seed_metrics.csv",
+    "night9b_handoff_20260821/official_compact/outputs/night9b/r1_r2_per_seed_metrics.csv"
+  ]
+}

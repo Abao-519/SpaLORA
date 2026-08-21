@@ -1,0 +1,16 @@
+{
+  "aligned_spots": 3484,
+  "authorized_role": "isolated_p0_metric_evaluator",
+  "cumulative_p0_a1_label_file_reads": 4,
+  "dataset": "a1_historical_c00_seed0",
+  "ground_truth_file_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+  "label_file_reads_this_attempt": 1,
+  "max_abs_error": 0.0,
+  "pass": true,
+  "project_ari": 0.2744679880037527,
+  "project_nmi": 0.4147370479615583,
+  "reference_ari": 0.2744679880037527,
+  "reference_nmi": 0.4147370479615583,
+  "tolerance": 1e-12,
+  "used_for_training_or_candidate_selection": false
+}

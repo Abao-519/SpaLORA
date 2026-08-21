@@ -1,0 +1,16 @@
+{
+  "attempt": 3,
+  "category": "P0_EVALUATOR_IMPLEMENTATION_ONLY",
+  "error": "A1 strip_s1_prefix was applied to the wrong side of the ID mapping, producing zero aligned rows",
+  "authority_and_resource_contract_passed": true,
+  "reference_tests_passed": true,
+  "qcrd_real_semantic_probe_passed": true,
+  "formal_training_units_started": 0,
+  "formal_transforms_started": 0,
+  "a1_label_file_reads_in_failed_process": 1,
+  "a1_label_file_reads_in_diagnostic_schema_check": 1,
+  "labels_used_for_training_or_selection": false,
+  "scientific_retry": false,
+  "resolution": "apply the project's locked lowercase s1- canonicalization to observation IDs",
+  "preserved": true
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "spalora.night10a.local_planning_delivery.v1",
+  "created_date": "2026-08-21",
+  "root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night10a_local_planning_20260821",
+  "scope": "Local read-only evidence audit, metric reference implementation, QCRD candidate registry and server taskbook. No AutoDL connection and no scientific training occurred during this local stage.",
+  "validation": {
+    "json_files": "valid",
+    "python_compile": "passed",
+    "local_unit_tests": "4 discovered, 2 passed, 2 skipped because the bundled minimal Windows runtime lacks scikit-learn",
+    "server_requirement": "All 4 metric tests must pass without skips before Night-10A training."
+  },
+  "files": [
+    {
+      "path": "authoritative_scoreboard_20260821.csv",
+      "size": 8618,
+      "sha256": "951a9e0449e6e083834cd15268bb4c316b011726c80bd122dd9a7516626a0d68"
+    },
+    {
+      "path": "build_authoritative_scoreboard.py",
+      "size": 12573,
+      "sha256": "72946ccf5b6199813886217ebc4f24b8ede917cb40c1c096b246ee43dbdf4238"
+    },
+    {
+      "path": "metric_coverage_matrix_20260821.csv",
+      "size": 1748,
+      "sha256": "99af0be49c0026bb27bb11b682d84e6bb2ce113a6a4b61ef5ffdcf55c780b524"
+    },
+    {
+      "path": "metric_expansion_reference.py",
+      "size": 7618,
+      "sha256": "33397cada3701108fbfb15d58fafd6f1f9e20417ac7bc14cce1e8aee993cd159"
+    },
+    {
+      "path": "Night10A_Local_Evidence_and_Innovation_Audit_2026-08-21.md",
+      "size": 9389,
+      "sha256": "ea920aeee3593a7903b6189119dc60b7327cee48f9d8b00e0c4283420049b34c"
+    },
+    {
+      "path": "night10a_qcrd_candidate_registry.json",
+      "size": 9541,
+      "sha256": "b310e232282840772b69ad9d1c1d1de6e04c92e8b7b013a7e5247c628dfd959d"
+    },
+    {
+      "path": "README_COPY_TO_CODEX_NIGHT10A_2026-08-21.md",
+      "size": 3234,
+      "sha256": "cdcd1ca2aa8bcbb0f0e00ddc65381dc2f9edd626a7ac27d822cbe9b9e4ffd339"
+    },
+    {
+      "path": "scoreboard_manifest_20260821.json",
+      "size": 1204,
+      "sha256": "0eaf09f4918b908f5e58b262a7cbe666564f26ae59f4f645ecf47dfb314668c9"
+    },
+    {
+      "path": "SpaLORA_Night10A_QCRD_Score_RnD_Taskbook_2026-08-21.md",
+      "size": 14072,
+      "sha256": "5551270041576969e1a777a6dcf8f1b8113d2fdefe7b7322738a4d57c8b4bd0d"
+    },
+    {
+      "path": "test_metric_expansion_reference.py",
+      "size": 1788,
+      "sha256": "4100b23ab30d74db02cb2e540112b9548080ae1c17817011c202a409b48c6ab0"
+    }
+  ]
+}
