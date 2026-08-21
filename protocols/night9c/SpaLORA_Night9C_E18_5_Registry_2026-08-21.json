@@ -1,0 +1,95 @@
+{
+  "registry_id": "night9c_e18_5_frozen_hierarchy_confirmation_v1",
+  "parent_commit": "e9bd62e2bb07c58f58c219956b8aaf090527c471",
+  "parent_tag": "night9b-final-20260820",
+  "dataset": {
+    "id": "MISAR_E18_5_S1",
+    "family": "RNA_ATAC",
+    "source_project": "OEP003285_SRP491963",
+    "expected_spots": 2129,
+    "expected_rna_features": 32285,
+    "expected_annotation_key": "Annotation_for_Combined",
+    "locked_k": 10,
+    "k_provenance": "published_SMART_E18_5_S1_ten_regions_before_local_label_access"
+  },
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "models": [
+    {
+      "id": "B00_F00_R02_REFERENCE",
+      "role": "RNA_ATAC_family_reference",
+      "training_units": 10,
+      "endpoint": "H05_K10"
+    },
+    {
+      "id": "B01_N02_HIER_FROZEN",
+      "role": "confirmatory_candidate",
+      "training_units": 10,
+      "implementation_sha256": "5204e1cd9320336a424ccffd867269e64397c4a6a6210efe09ae614b0a58ab7f",
+      "candidate": {
+        "id": "N02_HIER_ONLY",
+        "common_graph_k": null,
+        "hierarchical_fusion": true,
+        "reliability_gate": false,
+        "dgi": false,
+        "reference_mix": 0.75,
+        "candidate_mix": 0.25
+      },
+      "endpoint": "H05_K10"
+    },
+    {
+      "id": "B02_SMART_FIXED",
+      "role": "modern_external_baseline",
+      "source": "https://github.com/Xubin-s-Lab/SMART-main",
+      "source_ref_to_lock_at_p1": "SMART-reproduce",
+      "training_units": 10,
+      "native_endpoint": true,
+      "common_endpoint": "H05_K10",
+      "label_metric_selection": false
+    },
+    {
+      "id": "B03_PRESENT_FIXED",
+      "role": "modern_external_baseline",
+      "source": "https://github.com/lizhen18THU/PRESENT",
+      "source_ref_to_lock_at_p1": "main",
+      "training_units": 10,
+      "native_endpoint": true,
+      "common_endpoint": "H05_K10",
+      "label_metric_selection": false
+    }
+  ],
+  "primary_contrast": {
+    "name": "B01_N02_minus_B00_F00",
+    "mean_delta_ari_min": 0.01,
+    "mean_delta_nmi_min": 0.01,
+    "mean_delta_q_min": 0.015,
+    "q_wins_min": 7,
+    "two_sided_exact_sign_flip_p_max_exclusive": 0.05,
+    "paired_bootstrap_replicates": 100000,
+    "paired_bootstrap_seed": 20260821,
+    "delta_q_ci_lower_min_exclusive": 0.0,
+    "worst_seed_delta_q_min": -0.01,
+    "spatial_gate": "reuse_exact_night6d_authoritative_gate"
+  },
+  "strong_benchmark_frontier": {
+    "n02_mean_delta_q_vs_each_complete_baseline_min": 0.01,
+    "n02_mean_delta_ari_vs_each_complete_baseline_min": -0.005,
+    "n02_mean_delta_nmi_vs_each_complete_baseline_min": -0.005
+  },
+  "budgets": {
+    "formal_training_units_max": 40,
+    "implementation_correction_cycles_max": 6,
+    "environment_correction_cycles_max": 3,
+    "endpoint_only_recovery_per_external_method_max": 2,
+    "scientific_retry": 0,
+    "fallback": 0,
+    "unit_timeout_minutes": 60
+  },
+  "label_firewall": {
+    "prelock_label_value_reads": 0,
+    "authorized_evaluator_processes": 1,
+    "read_rna_annotation_once": true,
+    "read_atac_annotation_once": true,
+    "return_to_training_after_label_window": false
+  }
+}
+

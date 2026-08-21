@@ -1,0 +1,159 @@
+{
+  "files": {
+    "ATAC": {
+      "annotation_values_read": false,
+      "computed_git_blob_sha1": "48c20fe96f3de1422e90ee59424e0a9e55dc2c95",
+      "expected_sha256": "5e03d404f959893a3d035e655427c8933951be6fd7f509893bcacb1d53e69d10",
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source/E18_5_atac.h5ad",
+      "public_processed_source_git_blob_sha1": "48c20fe96f3de1422e90ee59424e0a9e55dc2c95",
+      "public_processed_source_url": "https://raw.githubusercontent.com/WHY-17/SpaDDM/main/Cross-omics%20translation/MISAR/E18_5-S1/adata_Peak.h5ad",
+      "role": "ATAC",
+      "schema": {
+        "annotation_path_present": false,
+        "annotation_values_read": false,
+        "obs_storage_keys_names_only": [
+          "ATAC_Clusters",
+          "Combined_Clusters",
+          "Combined_Clusters_annotation",
+          "RNA_Clusters",
+          "_index",
+          "array_col",
+          "array_row"
+        ],
+        "obsm_storage_keys_names_only": [
+          "spatial"
+        ],
+        "root_keys": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          117473
+        ],
+        "spatial_dtype": "int64",
+        "spatial_shape": [
+          2129,
+          2
+        ],
+        "uns_storage_keys_names_only": [],
+        "var_storage_keys_names_only": [
+          "_index"
+        ],
+        "x": {
+          "dtype": "int64",
+          "encoding": "dense",
+          "shape": [
+            2129,
+            117473
+          ]
+        }
+      },
+      "sha256": "5e03d404f959893a3d035e655427c8933951be6fd7f509893bcacb1d53e69d10",
+      "size_bytes": 51450382,
+      "source_opened_with_anndata": false,
+      "upstream_raw_accession": [
+        "OEP003285",
+        "SRP491963"
+      ],
+      "upstream_raw_project": "https://github.com/gpenglab/MISAR-seq"
+    },
+    "RNA": {
+      "annotation_values_read": false,
+      "computed_git_blob_sha1": "7b0696a207fdc9f2c766e700187a214a2f7d2b05",
+      "expected_sha256": "6e93ead6f07ece06d49b132dade58ac11c9246bf278cbb10593e6332cf25a287",
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source/E18_5_expr.h5ad",
+      "public_processed_source_git_blob_sha1": "7b0696a207fdc9f2c766e700187a214a2f7d2b05",
+      "public_processed_source_url": "https://raw.githubusercontent.com/WHY-17/SpaDDM/main/Cross-omics%20translation/MISAR/E18_5-S1/adata_RNA.h5ad",
+      "role": "RNA",
+      "schema": {
+        "annotation_path_present": false,
+        "annotation_values_read": false,
+        "obs_storage_keys_names_only": [
+          "ATAC_Clusters",
+          "Combined_Clusters",
+          "Combined_Clusters_annotation",
+          "RNA_Clusters",
+          "_index",
+          "array_col",
+          "array_row"
+        ],
+        "obsm_storage_keys_names_only": [
+          "spatial"
+        ],
+        "root_keys": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          32285
+        ],
+        "spatial_dtype": "int64",
+        "spatial_shape": [
+          2129,
+          2
+        ],
+        "uns_storage_keys_names_only": [],
+        "var_storage_keys_names_only": [
+          "_index",
+          "feature_types",
+          "gene_ids",
+          "genome"
+        ],
+        "x": {
+          "data_dtype": "float32",
+          "encoding": "csr_matrix",
+          "indices_dtype": "int32",
+          "indptr_dtype": "int32",
+          "nnz": 4513269,
+          "shape": [
+            2129,
+            32285
+          ]
+        }
+      },
+      "sha256": "6e93ead6f07ece06d49b132dade58ac11c9246bf278cbb10593e6332cf25a287",
+      "size_bytes": 12209028,
+      "source_opened_with_anndata": false,
+      "upstream_raw_accession": [
+        "OEP003285",
+        "SRP491963"
+      ],
+      "upstream_raw_project": "https://github.com/gpenglab/MISAR-seq"
+    }
+  },
+  "generated_at_utc": "2026-08-21T03:23:18.834572+00:00",
+  "paired_exactness": {
+    "atac_ordered_observation_sha256": "35b889f423e2ce7b144a490c8f7ab926efd849a9b8b5b8ece31de0e4f93facda",
+    "atac_spatial_sha256": "376b5febc6b4b461236a7524a8db387dcb111270cfb251bc5240a5b082e1b901",
+    "checks": {
+      "atac_annotation_key_present": false,
+      "atac_spots_expected": true,
+      "observation_order_exact": true,
+      "rna_annotation_key_present": false,
+      "rna_features_expected": true,
+      "rna_spots_expected": true,
+      "spatial_shape_exact": true,
+      "spatial_values_exact": true
+    },
+    "inner_join_performed": false,
+    "rna_ordered_observation_sha256": "35b889f423e2ce7b144a490c8f7ab926efd849a9b8b5b8ece31de0e4f93facda",
+    "rna_spatial_sha256": "376b5febc6b4b461236a7524a8db387dcb111270cfb251bc5240a5b082e1b901",
+    "spots_dropped": 0
+  }
+}

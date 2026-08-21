@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "atac_zero_obs": true,
+    "order_preserved": true,
+    "rna_zero_obs": true,
+    "shape_preserved": true
+  },
+  "files": {
+    "ATAC": {
+      "obs_columns": [],
+      "obs_columns_count": 0,
+      "ordered_observation_sha256": "35b889f423e2ce7b144a490c8f7ab926efd849a9b8b5b8ece31de0e4f93facda",
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/label_free/E18_5_atac_label_free.h5ad",
+      "sha256": "57444531a3706aa1fcf6ff312c7b30052f05c7b07518a19b929c6b2c27fa8fff",
+      "shape": [
+        2129,
+        117473
+      ],
+      "size_bytes": 51423933,
+      "source_annotation_values_read": false,
+      "source_opened_with_anndata": false,
+      "spatial_shape": [
+        2129,
+        2
+      ]
+    },
+    "RNA": {
+      "obs_columns": [],
+      "obs_columns_count": 0,
+      "ordered_observation_sha256": "35b889f423e2ce7b144a490c8f7ab926efd849a9b8b5b8ece31de0e4f93facda",
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/label_free/E18_5_expr_label_free.h5ad",
+      "sha256": "6b6a1261a4240ba5031051b73e63f6a4fb7b42b8b8cc14d7bc02a1405d98002c",
+      "shape": [
+        2129,
+        32285
+      ],
+      "size_bytes": 12178515,
+      "source_annotation_values_read": false,
+      "source_opened_with_anndata": false,
+      "spatial_shape": [
+        2129,
+        2
+      ]
+    }
+  },
+  "generated_at_utc": "2026-08-21T03:23:18.834636+00:00",
+  "source_annotation_values_read": false
+}

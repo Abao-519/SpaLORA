@@ -1,0 +1,38 @@
+{
+  "annotation_claim": "Published unsupervised reference clusters with anatomical interpretation; not manual ground truth",
+  "annotation_tier": "TIER_B_PUBLISHED_REFERENCE_CLUSTER",
+  "annotation_values_read": false,
+  "dataset": "MISAR-seq E18.5 S1",
+  "evidence_urls": [
+    "https://github.com/gpenglab/MISAR-seq",
+    "https://www.biosino.org/node/project/detail/OEP003285",
+    "https://github.com/WHY-17/SpaDDM",
+    "https://bio-present.readthedocs.io/en/latest/Tutorial4_spatial-RNA-ATAC-data_representation_MouseBrain.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13031631/"
+  ],
+  "history_audit": {
+    "assigned_role": "PRISTINE_EXTERNAL_CONFIRMATION",
+    "audit_scope": "/root/autodl-fs filename plus text-file path-only search before source download",
+    "filename_hit_paths": [],
+    "historical_training_or_selection_use_found": false,
+    "matching_file_contents_or_label_values_printed": false,
+    "prior_e18_5_artifact_evidence_found": false,
+    "text_presence_hit_paths": []
+  },
+  "k_provenance": "published SMART E18.5 S1 ten-region description fixed before local label access",
+  "label_firewall": {
+    "annotation_value_hashes": 0,
+    "annotation_value_reads": 0,
+    "embeddings": 0,
+    "original_h5ad_anndata_deserialization_count": 0,
+    "partitions": 0,
+    "training_units": 0
+  },
+  "locked_k": 10,
+  "source_chain": [
+    "MISAR-seq original project and OEP003285/SRP491963 raw accession",
+    "SpaDDM public repository processed E18.5-S1 H5AD blobs",
+    "PRESENT public tutorial independently documents the same 2129-spot/32285-RNA-feature schema and annotation key"
+  ],
+  "status": "PASS"
+}

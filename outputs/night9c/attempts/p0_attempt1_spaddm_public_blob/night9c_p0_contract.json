@@ -1,0 +1,60 @@
+{
+  "authority": {
+    "branch": "revision/q2-night9c-frozen-hierarchy-e18-5-confirmation-20260821",
+    "head": "e9bd62e2bb07c58f58c219956b8aaf090527c471",
+    "n02_sha256": "5204e1cd9320336a424ccffd867269e64397c4a6a6210efe09ae614b0a58ab7f",
+    "parent_tag_commit": "e9bd62e2bb07c58f58c219956b8aaf090527c471",
+    "registry_sha256": "bfd053ccac50a5ba6c8e914333ec17d6c17e104558c825d4aa5bc2952dbaf324",
+    "taskbook_sha256": "466f7a139ac2cf443568509e7177ed75341508202538b331b2612ad891f3b059"
+  },
+  "checks": {
+    "atac_annotation_key_present": false,
+    "atac_public_git_blob_exact": true,
+    "atac_source_sha256_exact": true,
+    "atac_spots_expected": true,
+    "atac_zero_obs": true,
+    "branch": true,
+    "cuda_available": true,
+    "disk_minimum_50gb": true,
+    "head_parent": true,
+    "history_pristine": true,
+    "n02_implementation_sha": true,
+    "observation_order_exact": true,
+    "order_preserved": true,
+    "parent_tag_peels_to_parent": true,
+    "parent_tracked_files_unchanged_during_p0": true,
+    "provenance_resolved": true,
+    "registry_sha": true,
+    "rna_annotation_key_present": false,
+    "rna_features_expected": true,
+    "rna_public_git_blob_exact": true,
+    "rna_source_sha256_exact": true,
+    "rna_spots_expected": true,
+    "rna_zero_obs": true,
+    "shape_preserved": true,
+    "spatial_shape_exact": true,
+    "spatial_values_exact": true,
+    "taskbook_sha": true
+  },
+  "label_access": {
+    "authorized_evaluator_processes_started": 0,
+    "prelock_annotation_value_reads": 0
+  },
+  "label_free_manifest_canonical_sha256": "0f9cc27a50ec3c4dc23c454057829d35c2dc5254fb5a23b1ff4fcaf4e1faa261",
+  "resource": {
+    "disk_free_bytes": 148002709504,
+    "gpu_memory_total_mib": 32760,
+    "gpu_name": "NVIDIA GeForce RTX 4080 SUPER",
+    "h5py": "3.6.0",
+    "numpy": "1.22.3",
+    "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+    "torch_cuda_available": true
+  },
+  "scientific_counts": {
+    "embedding": 0,
+    "partition": 0,
+    "training": 0
+  },
+  "source_manifest_canonical_sha256": "e8ad7286ea23cd63c853512d64fe25d219d713d435dabbba374baa9c321bf68f",
+  "status": "BLOCKED_DATA_PROVENANCE"
+}

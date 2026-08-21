@@ -1,0 +1,420 @@
+{
+  "annotation_claim": "Published reference clusters with anatomical interpretation; not manual ground truth",
+  "annotation_provenance_tier": "TIER_B_PUBLISHED_REFERENCE_CLUSTER",
+  "candidate_comparisons": {
+    "smart_atac": {
+      "annotation_key_present": false,
+      "feature_count": 117473,
+      "feature_count_matches_expected": false,
+      "spots_match": true
+    },
+    "smart_rna": {
+      "annotation_key_present": false,
+      "feature_count": 32285,
+      "feature_count_matches_expected": true,
+      "spots_match": true
+    },
+    "spaddm_atac": {
+      "annotation_key_present": false,
+      "feature_count": 117473,
+      "feature_count_matches_expected": false,
+      "spots_match": true
+    },
+    "spaddm_rna": {
+      "annotation_key_present": false,
+      "feature_count": 32285,
+      "feature_count_matches_expected": true,
+      "spots_match": true
+    },
+    "spamosaic_atac": {
+      "annotation_key_present": false,
+      "feature_count": 191034,
+      "feature_count_matches_expected": false,
+      "spots_match": true
+    },
+    "spamosaic_rna": {
+      "annotation_key_present": false,
+      "feature_count": 25740,
+      "feature_count_matches_expected": false,
+      "spots_match": true
+    }
+  },
+  "candidate_files": {
+    "smart_atac": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source_smart_zenodo/E18_5_atac.h5ad",
+      "schema": {
+        "annotation_key_present": false,
+        "annotation_values_read": false,
+        "obs_keys_names_only": [
+          "atac_TSS_fragments",
+          "atac_barcode",
+          "atac_chimeric_reads",
+          "atac_dup_reads",
+          "atac_fragments",
+          "atac_lowmapq",
+          "atac_mitochondrial_reads",
+          "atac_peak_region_cutsites",
+          "atac_peak_region_fragments",
+          "atac_raw_reads",
+          "atac_unmapped_reads",
+          "barcode",
+          "excluded_reason",
+          "gex_barcode",
+          "gex_conf_exonic_antisense_reads",
+          "gex_conf_exonic_dup_reads",
+          "gex_conf_exonic_reads",
+          "gex_conf_exonic_unique_reads",
+          "gex_conf_intergenic_reads",
+          "gex_conf_intronic_antisense_reads",
+          "gex_conf_intronic_dup_reads",
+          "gex_conf_intronic_reads",
+          "gex_conf_intronic_unique_reads",
+          "gex_conf_txomic_unique_reads",
+          "gex_exonic_umis",
+          "gex_genes_count",
+          "gex_intronic_umis",
+          "gex_mapped_reads",
+          "gex_raw_reads",
+          "gex_umis_count",
+          "is_cell"
+        ],
+        "obsm_keys_names_only": [
+          "spatial"
+        ],
+        "opened_with_anndata": false,
+        "root_keys_names_only": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          117473
+        ]
+      },
+      "sha256": "29444d14f3447784c82ef33a9d4ac0009b2f816e5636df117b18e7b9f0ea05f5",
+      "size_bytes": 157199170
+    },
+    "smart_rna": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source_smart_zenodo/E18_5_expr.h5ad",
+      "schema": {
+        "annotation_key_present": false,
+        "annotation_values_read": false,
+        "obs_keys_names_only": [
+          "atac_TSS_fragments",
+          "atac_barcode",
+          "atac_chimeric_reads",
+          "atac_dup_reads",
+          "atac_fragments",
+          "atac_lowmapq",
+          "atac_mitochondrial_reads",
+          "atac_peak_region_cutsites",
+          "atac_peak_region_fragments",
+          "atac_raw_reads",
+          "atac_unmapped_reads",
+          "barcode",
+          "excluded_reason",
+          "gex_barcode",
+          "gex_conf_exonic_antisense_reads",
+          "gex_conf_exonic_dup_reads",
+          "gex_conf_exonic_reads",
+          "gex_conf_exonic_unique_reads",
+          "gex_conf_intergenic_reads",
+          "gex_conf_intronic_antisense_reads",
+          "gex_conf_intronic_dup_reads",
+          "gex_conf_intronic_reads",
+          "gex_conf_intronic_unique_reads",
+          "gex_conf_txomic_unique_reads",
+          "gex_exonic_umis",
+          "gex_genes_count",
+          "gex_intronic_umis",
+          "gex_mapped_reads",
+          "gex_raw_reads",
+          "gex_umis_count",
+          "is_cell"
+        ],
+        "obsm_keys_names_only": [
+          "spatial"
+        ],
+        "opened_with_anndata": false,
+        "root_keys_names_only": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          32285
+        ]
+      },
+      "sha256": "9f916055d76b373a7663663489e4e51a1933ec2f4890ac8a9c41831cc2fb8321",
+      "size_bytes": 40273370
+    },
+    "spaddm_atac": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source/E18_5_atac.h5ad",
+      "schema": {
+        "annotation_key_present": false,
+        "annotation_values_read": false,
+        "obs_keys_names_only": [
+          "ATAC_Clusters",
+          "Combined_Clusters",
+          "Combined_Clusters_annotation",
+          "RNA_Clusters",
+          "_index",
+          "array_col",
+          "array_row"
+        ],
+        "obsm_keys_names_only": [
+          "spatial"
+        ],
+        "opened_with_anndata": false,
+        "root_keys_names_only": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          117473
+        ]
+      },
+      "sha256": "5e03d404f959893a3d035e655427c8933951be6fd7f509893bcacb1d53e69d10",
+      "size_bytes": 51450382
+    },
+    "spaddm_rna": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source/E18_5_expr.h5ad",
+      "schema": {
+        "annotation_key_present": false,
+        "annotation_values_read": false,
+        "obs_keys_names_only": [
+          "ATAC_Clusters",
+          "Combined_Clusters",
+          "Combined_Clusters_annotation",
+          "RNA_Clusters",
+          "_index",
+          "array_col",
+          "array_row"
+        ],
+        "obsm_keys_names_only": [
+          "spatial"
+        ],
+        "opened_with_anndata": false,
+        "root_keys_names_only": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          32285
+        ]
+      },
+      "sha256": "6e93ead6f07ece06d49b132dade58ac11c9246bf278cbb10593e6332cf25a287",
+      "size_bytes": 12209028
+    },
+    "spamosaic_atac": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source_spamosaic_zenodo/E18_5_atac.h5ad",
+      "schema": {
+        "annotation_key_present": false,
+        "annotation_values_read": false,
+        "obs_keys_names_only": [
+          "Sample",
+          "_index"
+        ],
+        "obsm_keys_names_only": [
+          "spatial"
+        ],
+        "opened_with_anndata": false,
+        "root_keys_names_only": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          191034
+        ]
+      },
+      "sha256": "91d03876ccaf54eb44dd3a543a5e4fabcca70df652277c2e7e3279555dec2db2",
+      "size_bytes": 255643473
+    },
+    "spamosaic_rna": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/source_spamosaic_zenodo/E18_5_expr.h5ad",
+      "schema": {
+        "annotation_key_present": false,
+        "annotation_values_read": false,
+        "obs_keys_names_only": [
+          "Sample",
+          "_index"
+        ],
+        "obsm_keys_names_only": [
+          "spatial"
+        ],
+        "opened_with_anndata": false,
+        "root_keys_names_only": [
+          "X",
+          "layers",
+          "obs",
+          "obsm",
+          "obsp",
+          "uns",
+          "var",
+          "varm",
+          "varp"
+        ],
+        "shape": [
+          2129,
+          25740
+        ]
+      },
+      "sha256": "538edde29c35d51df9d81143e013f8f98dffae04473c8f87531439beb9f8698f",
+      "size_bytes": 220457601
+    }
+  },
+  "exact_pair_available": false,
+  "generated_at_utc": "2026-08-21T05:26:03.896814+00:00",
+  "history_role": "PRISTINE_EXTERNAL_CONFIRMATION",
+  "label_firewall": {
+    "anndata_deserializations_of_label_bearing_source": 0,
+    "annotation_value_hashes": 0,
+    "annotation_value_reads": 0,
+    "authorized_evaluator_processes_started": 0
+  },
+  "official_expected_contract": {
+    "annotation_key": "Annotation_for_Combined",
+    "atac_features": 294734,
+    "k": 10,
+    "rna_features": 32285,
+    "spots": 2129
+  },
+  "prohibited_actions_not_taken": [
+    "No alias from Combined_Clusters_annotation or a sidecar cluster column",
+    "No reconstruction of a 294734-feature ATAC H5AD",
+    "No annotation value access",
+    "No training, embedding, partition, or evaluation",
+    "No AutoDL API call"
+  ],
+  "reason": "No public candidate simultaneously satisfies the preregistered 2129 x 32285 RNA, 2129 x 294734 ATAC, and in-file obs/Annotation_for_Combined contract. Substitution, aliasing, reconstruction, or sidecar-label injection was not authorized.",
+  "scientific_counts": {
+    "embedding": 0,
+    "evaluation": 0,
+    "partition": 0,
+    "training": 0
+  },
+  "scope": "Night-9C P0-DATA only",
+  "source_findings": [
+    {
+      "finding": "E18_5-S1.arrow is present, but the preregistered paired H5AD files are not present.",
+      "label_values_read": false,
+      "source": "MISAR-seq official Baidu share"
+    },
+    {
+      "finding": "RNA has 32285 features; ATAC has 117473 features; the required annotation key is absent.",
+      "label_values_read": false,
+      "source": "SpaDDM public Git blobs and Zenodo 15681100"
+    },
+    {
+      "finding": "E18 processed pair is 25740 RNA features and 191034 ATAC features; required annotation key is absent.",
+      "label_values_read": false,
+      "source": "SpaMosaic reproduce branch and Zenodo 16925549"
+    },
+    {
+      "finding": "RNA has 32285 features; ATAC has 117473 features; required annotation key is absent and labels are a sidecar.",
+      "label_values_read": false,
+      "source": "SMART reproduce branch and Zenodo 17093158"
+    },
+    {
+      "finding": "Tutorial documents the expected in-file schema, while the maintainer points requesters to OEP003285 rather than publishing the tutorial H5AD pair.",
+      "label_values_read": false,
+      "source": "PRESENT official tutorial and repository issues"
+    }
+  ],
+  "supporting_evidence": {
+    "misar_official_baidu_inventory.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/misar_official_baidu_inventory.json",
+      "sha256": "061dcb1948c7f8351061d2410075aeaf71bf0c8d1880d36d925507c18fdb78c8",
+      "size_bytes": 4110
+    },
+    "pre_download_filename_audit.txt": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/pre_download_filename_audit.txt",
+      "sha256": "bf9538663db860c5e5f6857e9a9eb7a538c97503306990b00bed266cc5aa3976",
+      "size_bytes": 27
+    },
+    "pre_download_text_presence_paths.txt": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/pre_download_text_presence_paths.txt",
+      "sha256": "80c80c0e3a34f38d8d9cf08a5a90094b5145e5b7eea7d5213a89277c67e508bd",
+      "size_bytes": 48
+    },
+    "smart_e18_anno.csv": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/smart_e18_anno.csv",
+      "sha256": "7da73ebea49ac996c4e01d8fc57983e4ca54903122edd9884fcfda25544f72fb",
+      "size_bytes": 80889
+    },
+    "spamosaic_raw_meta_data.csv": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/spamosaic_raw_meta_data.csv",
+      "sha256": "201a8857fc2e59a136607b1c598e3d4f288d66259e29f4cf8ed2d1746732cf39",
+      "size_bytes": 1528749
+    },
+    "zenodo_15681100_Data_rar_index.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/zenodo_15681100_Data_rar_index.json",
+      "sha256": "4af088235518dc1d8758ca3b30d163a07aa47110c7867eb6911cdcf9692d2a34",
+      "size_bytes": 936820
+    },
+    "zenodo_15681100_record.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/zenodo_15681100_record.json",
+      "sha256": "89f88c088fac694f3ec1334710ce026733e639143439abaf65e2ac3a8faa93e1",
+      "size_bytes": 4659
+    },
+    "zenodo_16925549_SpaMosaic_data_zip_index.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/zenodo_16925549_SpaMosaic_data_zip_index.json",
+      "sha256": "1576e2c6acb46f525d992af810b8bb54f1f7ad81ea62081653e1da8aabe8ae88",
+      "size_bytes": 389871
+    },
+    "zenodo_16925549_record.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/zenodo_16925549_record.json",
+      "sha256": "1a3d8f758607419673e6a452c63168cb19e1548b0faffb9846d0d10d6d5e2ea0",
+      "size_bytes": 3930
+    },
+    "zenodo_17093158_SMART_data_zip_index.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/zenodo_17093158_SMART_data_zip_index.json",
+      "sha256": "2e3b1191a42bccbc24580e1afe14c6b0507864de88d69c1f186f676eeb37b7db",
+      "size_bytes": 46020
+    },
+    "zenodo_17093158_record.json": {
+      "path": "/root/autodl-fs/night9c_data_e18_5_20260821/p0_audit/zenodo_17093158_record.json",
+      "sha256": "86b199439b8c40681d56d6f4b27c3d97182b08565321e710cf97b77c3f54e088",
+      "size_bytes": 3861
+    }
+  },
+  "terminal_status": "BLOCKED_DATA_PROVENANCE"
+}

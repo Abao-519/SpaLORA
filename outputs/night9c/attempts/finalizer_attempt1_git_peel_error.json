@@ -1,0 +1,15 @@
+{
+  "attempt_id": "night9c_finalizer_attempt1",
+  "classification": "INFRASTRUCTURE_ONLY_REPORT_GENERATION_ERROR",
+  "error": "git rev-parse received an over-escaped tag peel expression",
+  "affected_script_sha256": "9f40fbeb8f772adac57509afc0d093667a56e544079cf5537a5cc2ca5e72c6c2",
+  "correction": "Replace night9b-final-20260820^{{commit}} with night9b-final-20260820^{commit}",
+  "corrected_script_sha256": "84d2eb5992bd329ab24011a2044d392d3aa477a1216a03319cd3dd138f84d83f",
+  "scientific_effect": "NONE",
+  "training_units_started": 0,
+  "embeddings_created": 0,
+  "partitions_created": 0,
+  "label_value_reads": 0,
+  "raw_or_h5ad_mutations": 0,
+  "preserved_attempt_path": "outputs/night9c/attempts/p0_attempt1_spaddm_public_blob"
+}
