@@ -1,0 +1,111 @@
+{
+  "count": 21,
+  "files": [
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/frontier_registry.json",
+      "sha256": "ad3f68a43cf9773807859294249f933799dca787fbf918739010d2bea7241a70",
+      "size": 131
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/label_read_and_firewall_audit.json",
+      "sha256": "c36a9092c072895a3f660f4912f08089978594639a8ca4ec292d1682adad159e",
+      "size": 191
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/metric_backfill_long.csv",
+      "sha256": "0e065c03629c44154c85795c2f588aee2250495439e595ee4d5c226c17359cfe",
+      "size": 64
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/night10a_decision.json",
+      "sha256": "7c19504ad2bfec0ca1db2419222dd247c8748a7c035ba5f133166b9741975bda",
+      "size": 279
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/night10a_report.md",
+      "sha256": "40260606b7d16aaf3eb9a1255c0e3b6a1978bad76779ca51fb658fa1c06a7e9f",
+      "size": 1905
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/cuda_checkpoint_roundtrip.json",
+      "sha256": "0c008b17e45500cb85f825ecf8b7803d8a52bf29db41ce9db1b37a166fe5c054",
+      "size": 310
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/field_by_field_contract_coverage.json",
+      "sha256": "403d633a44497b68f33684996bef184a559540141ee200f32b77c0113eb2bd08",
+      "size": 41690
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/p0_rev1_authority_protection.json",
+      "sha256": "a7256a34eadbc2bc9b2ce1768c52ecb5957fdfa7dfbdd2f73bb9673d973dcf0d",
+      "size": 470
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/p0_rev1_semantic_contract.json",
+      "sha256": "a237e33c410b90f09700a1a963c445870ff1ddd32ce0a99f71306eb141095ef7",
+      "size": 2668
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/preformal_corrections.json",
+      "sha256": "ee8afcba39bc9ba9cf60523a9c33216d09628c41547036bfbaa36fe9f535130b",
+      "size": 683
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/preformal_full_tests.log",
+      "sha256": "bba57944e4de184f0b59a632ff195425b6a0ffb8374f7b154593df9f517de7a2",
+      "size": 617
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0/real_endpoint_parity.json",
+      "sha256": "050200cc3cae6dffe3a3eabacbe1a50a9f75b91c4142f49dbe0604b62e26478c",
+      "size": 958
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/p0_rev1_retrospective_false_pass_audit.json",
+      "sha256": "1767e596a353173972e1eaec13ce875f472bc8da07a5307247a084c5e0c17023",
+      "size": 42332
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/per_seed_metrics_long.csv",
+      "sha256": "ff9c0ec894c4576c42f6f35ea22a2a193c33b41be4476dd0491c52cd7bc69a99",
+      "size": 64
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/plain_language_summary.md",
+      "sha256": "7d25378af5cd4fb9844e5f51a55269043d2bbdd2331a838fbf7ef4ada6745d65",
+      "size": 236
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/r1_failure_audit.json",
+      "sha256": "9afaa74fc04ba741a7272c26ce70a386764b379cfc08575428b80e28e402633e",
+      "size": 9754
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/raw_artifact_manifest.csv",
+      "sha256": "840497e0e827ecd4e396a69d30e4e7d9572524a2fe1141cffdcf32ff9a3de746",
+      "size": 59506
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/resource_audit.json",
+      "sha256": "ef5edcbdc10e581499b93b86ad72d0c6541902fd81850cf9fb8d61a2f1206574",
+      "size": 279
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/resource_per_training_cell.csv",
+      "sha256": "e448554f645384bcc16f2b748ec7d5ec13b5bd2aa79dabaec6dfd8ea66d826b2",
+      "size": 6497
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/shutdown_dispatch_prepared.json",
+      "sha256": "423df84c2a8cd7d619b0cf6e5a19df7722b20db990d6173db2c787178c1309f2",
+      "size": 144
+    },
+    {
+      "relative_path": "outputs/night10a_rev1_handoff/tests_and_semantics_audit.json",
+      "sha256": "2563146c82078f75041245af4c733030670cbd30d1e73f6913f3bfba93958aec",
+      "size": 272
+    }
+  ],
+  "schema": "spalora.night10a.rev1.invalid.delivery.v1"
+}
