@@ -1,0 +1,26 @@
+{
+  "candidate_counts": {
+    "Q01_GLOBAL_QUALITY_BLEND": 12,
+    "Q02_SPOT_QUALITY_BLEND": 12,
+    "Q03_MASKED_RESIDUAL": 12,
+    "Q04_SPOT_GATED_MASKED_RESIDUAL": 12,
+    "Q05_BOUNDARY_GATED_RESIDUAL": 12,
+    "Q06_COORDINATE_PRIOR_RESIDUAL": 12,
+    "Q07_CONFIDENCE_MNN_RESIDUAL": 12
+  },
+  "config_count": 84,
+  "dataset_counts": {
+    "a1": 21,
+    "d1": 21,
+    "p22": 21,
+    "tonsil": 21
+  },
+  "exact_preflight_row_sha_bindings": 84,
+  "input_manifest_sha_recomputed": 84,
+  "label_reads": 0,
+  "p22_new_training_configs": 21,
+  "schema": "spalora.night10a.rev2.formal_config_independent_audit.v1",
+  "stage": "r1",
+  "status": "PASS",
+  "unique_paths": 84
+}
