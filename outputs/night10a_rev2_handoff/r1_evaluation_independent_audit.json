@@ -1,0 +1,39 @@
+{
+  "candidate_rows": 84,
+  "e18_5_reads": 0,
+  "evaluation_rows": 96,
+  "failed_evaluation_rows": 0,
+  "frontier_entry": true,
+  "independent_contingency_rows": 96,
+  "independent_max_abs_error": 7.2164496600635185e-16,
+  "label_reads": {
+    "a1": 1,
+    "d1": 1,
+    "p22": 1,
+    "tonsil": 1
+  },
+  "misar_y_reads": 0,
+  "prelabel_locked": 84,
+  "q00_excluded_from_frontier": true,
+  "q00_rows": 12,
+  "schema": "spalora.night10a.rev2.r1_evaluation_independent_audit.v1",
+  "selected": [
+    "Q06_COORDINATE_PRIOR_RESIDUAL"
+  ],
+  "selected_summary": {
+    "any_family_positive_q": true,
+    "atac_family_mean_delta_q": -0.008227798065265,
+    "macro_delta_q": -0.0015582756778234,
+    "protein_family_mean_delta_q": 0.0006648984513236,
+    "spatial_protected_0_03": true,
+    "worst_dataset_delta_q": -0.008227798065265,
+    "worst_family_delta_q": -0.008227798065265
+  },
+  "selection_roles": {
+    "accuracy": "Q06_COORDINATE_PRIOR_RESIDUAL",
+    "balanced": "Q06_COORDINATE_PRIOR_RESIDUAL",
+    "spatial": "Q06_COORDINATE_PRIOR_RESIDUAL"
+  },
+  "status": "PASS",
+  "total_label_reads_this_window": 4
+}

@@ -1,0 +1,681 @@
+{
+  "all_locked": true,
+  "expected_trainable_outputs": 84,
+  "label_reads_before_lock": 0,
+  "locked_trainable_outputs": 84,
+  "rows": [
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "8a8eb0b86e0bb34e722b8bb751aa692ae2dc7b9e35359758ead27421c49809da",
+      "transform_manifest_sha256": "588472f4fd00e1a873545ce90469ba472067b93713e304ce910145f41ef5df05"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "7a12e8fe441457d4c0eaf15de08fb9f5307ea87330e7ee5765e8484e2ff4aaa9",
+      "transform_manifest_sha256": "c1eb8f75c731ac251fc0074fd63d5146e4828dba62e49782fd141659cb10281c"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "87f7328f9c84e22ffd8abbfe6d21151852f8c79c6294f46e0c531695db20f8d9",
+      "transform_manifest_sha256": "b5efedcc583940900e850ca7e04abbe822af0ac2ac7f5d2a49038bfcf3635bb6"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "c6f3266416cb1960364caefa239730bf704a13947b3466f6b84c0662f9b90948",
+      "transform_manifest_sha256": "3bc4fb987e7bc4a17796139849b3450c4affbbb322d7dedd231be73a7467884b"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "daf83126fa1a61a5b37929068eac3f3ec0b4c097a74f4e9b9b38534a3dd5e1c8",
+      "transform_manifest_sha256": "3643bd59e77497e93d10364d7c9747cc0ba2f23957e48ef4cdb69849619a6e24"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "85af83693f7773edd38b43b835de554908c9ceca4d2008450a2797ee7070bfa3",
+      "transform_manifest_sha256": "91eea1799f63ecb77872c8ba3fd17b02bcb68d05dec8f80a79e2c9584aeb1146"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "addede66f8819a0ec6ff34b32dc869949aca25e9203b71c7a10e6ed4caf62ab9",
+      "transform_manifest_sha256": "80a14646c335355b187a6e73b8b3bbbc75d07c303eea2e6165a6869507024cd8"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "fea0fc3a6f41ae04b50dd14778bc9981082713b7954435f788261e6874d0e4ba",
+      "transform_manifest_sha256": "2cbeadc9dbb7ca9227ac1effaeaf110a8cd80351af43bd1e8c9f200e311247af"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "0f9a68c5ac9bbafec3d290fea21db58de1d26cc42ba945a815f8637935976671",
+      "transform_manifest_sha256": "66b767dcc0fd4eaec326155866d1f7e86d51e4bf905bfcfa680ecdbf599b45c4"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "02dc7304f1ea5a9f598995acd2a423458a635b083ec81914903c3226dc556f98",
+      "transform_manifest_sha256": "d5a505a564604f8e2a84a04d7a9b309e3761a5a92ff080fe4fc8d850fb0a9f7a"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "84fac6255ed111b4a4d44358e029dc55f89be0a1315682094eeb91abb95f30b9",
+      "transform_manifest_sha256": "3b491c1917b5a7d017361ecce23664e74cda4e6efde86e85ef85aec6d640224a"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "99c36542b9addc2ffe3fca31fcc2ca9f2f534a174acabae43e0c3b1788d2a513",
+      "transform_manifest_sha256": "0f18712ca5e2c7dad82bd58088f68fdb02ec9c87eb4a58cd7e2766b48af6760b"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "21bdda2a281b584da741a6ef379718025374ddacb6da95f554b3d4cd86e1c2c0",
+      "transform_manifest_sha256": "447e61bc02e97c5d22aff55949b90514820ca12d00fd21d5fdd22be80eb34c4f"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "446ab5b716cbe958ff5744144ec831d9ca847510b2eb3c1cd1a2a77c7bf7cf04",
+      "transform_manifest_sha256": "cbd2585551fb93e3e7a45d736a28f83bb8f27bab9e07a78a7334f1d1c6ff5083"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "e0ddacce82bfcbeba442e5188538b966fac70166cfcc95fd67cc6d88dbb9d189",
+      "transform_manifest_sha256": "e445b8412c184c9ac85485e5c3237318f2c2bd1d8194786535b4cb7b081962dd"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "1aeccdad2cb26921092bd41f59148884f6e754299b706b6e34b3fa0b5e204b3a",
+      "transform_manifest_sha256": "dfdb896579d8eb73dbe943e40ac8c12d7679a3114a288253cea858c609b1c778"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "1af32a01a33c079fd79fe4d2ce708708dd49d111a3488e5bc1cd9c8ba2bc06bc",
+      "transform_manifest_sha256": "f84ebd6c18d43491e650b40d3c2438916b8be1f9815642a1e6daea046886e4ed"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "451bc9174ff9f45164078cc7f5593933e3721b8fb6e2fe6aba374b067b45cbf1",
+      "transform_manifest_sha256": "e4b4e1341a973706161e1dcf554784fa8f5dfbe2a2730d33e5f9f83599343de6"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "6630867e3fa9ddb8cd509bf896aec2522ae07f4152978f1faa9f972644f6113e",
+      "transform_manifest_sha256": "57defe6219284aa7c5071846f195359d2c15a4506f39fe5d6f200f7dad9ae5d5"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "aec1adda3ddcc143bc4b72d2f34f9d442c83f5247605734a30ea921154c02342",
+      "transform_manifest_sha256": "7552d1d7fd176c549fea0e3acbed4956ae40f8cd78559933d1383f11cf61dd9a"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "a1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "e3ae71eb4d7e1b9567169ca0de8b8f3703b217768e6abf947caba173b6ce1395",
+      "transform_manifest_sha256": "c0f2fd8bc6ea2ed9222c34daf7548ab7bb9a3d6fafd78f57ffdc079f8b0faec2"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "d95f86bcc6d50084ff97f1c1370ccdd7a800293c4c8635017080ee4ba2f95c58",
+      "transform_manifest_sha256": "5eb9112f05693ae6337aecc12590689dec73ad21ffb1a0980ade068867ed9934"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "09ef95b84c5aa19c23a2648a97434733a93f2fef6ff15541e3f7b8af4f227165",
+      "transform_manifest_sha256": "5044eeea2a43bf7f37f25251a384d4e23ef9c3fa9d182342f5b71804b7353cf8"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "4c09cc72ad1af755220de7357d236cf7e67273ca4a9b645bc7e706fc0dc0b7d7",
+      "transform_manifest_sha256": "763246b6d7460302c815a9a87331135d06e222a87a8cfed2ca0b3780c56550c2"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "4e848374dbd4aa1934448be7674b4d094c9756dd29309dbf71e2bd13b886935b",
+      "transform_manifest_sha256": "e7495a00f25e69427224fa89640b9d8498b88f3ed3a6ad0c0094da356be3a470"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "1e7b6b54260b776c029ab777d99691a8b60cfb36af085bf8a94389ccc8c6ba7e",
+      "transform_manifest_sha256": "d0da6e654202e98367edf50a8575a21add49d70174f230ebf479dfa50227ab69"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "abadb9a74abbeca67b052f2ac4bd71e2132bb236ec5f5d7b0d661cf89e4fec05",
+      "transform_manifest_sha256": "7090deb1c1d861d3a2a1b551f7bcaadbcf42f2c2db516aaefb2d9e0468e1e8a5"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "3d228111d6606557b22754a7181bf2be18212c44565ac74a269b29b9903a8f7a",
+      "transform_manifest_sha256": "9b5292dc3944ff237963f1343410784210b71f858c160851dc17be88143aab40"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "4af94c892375ed4d2013d5d817ef782e177b77d667e8c606c8386140e25120f4",
+      "transform_manifest_sha256": "685b7003c44dcb463c8e386183d4cba597d78353d4e5f1118f8e6d9d9ff13600"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "421fc8bf6e9924f638fbe31dd66792f7f990527e238e6292f5c430ac609b7f37",
+      "transform_manifest_sha256": "1ccc5a3bb08419380e2574a35bd36855f676f7f5a71a0c57ab88b61b0f2580a5"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "2cb0d9f22913884cde48e77297b9719d5ee59075ab97157e8c93767f3dadbc0d",
+      "transform_manifest_sha256": "269948b66db0f0876702e209a56577462c15b8b19e858455f769aba44feb68e3"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "7beb9c1bfa4c677daf17622d28f8ad2dbc480cacf0b6e1bee11f0793fd93a377",
+      "transform_manifest_sha256": "1b711edf40715c9b31f22de2de478b45a265eb2222155dd1ace5f580b3094cd9"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "89dc657bf459c4296c0f0af3e062e11e2f16709472f08d2be1b686a075bcd7a6",
+      "transform_manifest_sha256": "c738be634524b46c1b37ccca1e2e82f7e982e7be9a5f7b2328af527e8b286f26"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "88fe3856962db0d927ad1ed411ab7965a3b5a38502b5e21d20874a38a56ea23a",
+      "transform_manifest_sha256": "a9a72061abdd6eaac3278b0d1e6a0e0690290152817ba1b97b6b502c66f261ea"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "7d7685fd3ee3af8023a9f725bc0aeb64009998e5389792ad3758d144aa9125f0",
+      "transform_manifest_sha256": "8c16b48beee738c3b9abaaf2e7ec71b350ad2b5badbba64fd50d27528b64542d"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "fe3851573c6bfd15d61656c3375ab9b1791d41ee4d9cb2f95f4b3df68e2dcea5",
+      "transform_manifest_sha256": "5fbf643973c63247ea0533565a23363dde4c27276da6f9d7240524af3726058c"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "57ed0446d6ff3af01cc3dbdef6bdb19d80a796c632ca5fdb1269ae32653cb72c",
+      "transform_manifest_sha256": "c70eb68840e818a68326dd6142400afe0899adff7d9556959087256068443e7e"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "03a4f7806fc5fec3471a03a2559b0d6b35c558f83e7a85d736e30c85a4e21c87",
+      "transform_manifest_sha256": "21f5c154e7fe980b10c7e41d37bc7313e61ed860bf3bf0a6318302decb247d89"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "48510302b1c3f11c0859413ecde67da4b267392d658b399e87e6f8bad6f249af",
+      "transform_manifest_sha256": "78d0912a0b741c523cef936ba43e533832ac269cf66770cba6b9f043aac2a2dc"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "8a6db71f3740cddc3ccd52d646b797d42255ed9ad3734fe90bb8572cfd03a97d",
+      "transform_manifest_sha256": "a506c908942b15750bbdedb4a9fd309608c7282c0bc1b0a75020e3c5387b85f4"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "001c0a4681160c3270d8f4d013cca2d3bbc8355bff230f6c25e6e982be10f13d",
+      "transform_manifest_sha256": "a4270a55579e4eba35dc8d02e2cf4362d83e094592f83be968d56f8e6fb13e44"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "tonsil",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "616cecfcdd33139f59923520441f4d3f2ad66217d91704943ee288f68cb229ad",
+      "transform_manifest_sha256": "915b8abe76cf461115ea56ff5ee6080bc219f34204385cb2b5948a396d8a28fd"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "6ddd25b11ca65cc996c5406470e8ad1d74cf50ec13180628a1b661887ee80ac5",
+      "transform_manifest_sha256": "4643f29eb6b698a86c3d20a84d8a462afceb68b04ae3e77ddc8212652263d0dd"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "02b9048ace30af70118ad9e24a0c9449076863cb2ff71d9175c0f01a65adb5c6",
+      "transform_manifest_sha256": "b7b31002dc456420ac8744b8c0484e562b2c0c57c95c539859272992fea76db1"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "754831b2ad241aa1210fb8c4ee19262ac3ac3e13e9423d3e3a443960f80411d6",
+      "transform_manifest_sha256": "6e9c5772c738887cbb12497647a3551f61198b9ababad3766907abe24f872d0f"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "bdb3ea146dff4be129e797c94337fe8ebe9e1060fd32103802a7b43e10598a0d",
+      "transform_manifest_sha256": "bdb5e093535117e6907e0a5b2fce18a015fef99565b74870a2cdacafbadb15d9"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "1d0578dd456231c8b543dd9589859dc6c541f6d0551525d217a8a2a8ba2e2f81",
+      "transform_manifest_sha256": "c18ca0cd15265554357db5b820f3d2b14e29b60618ae76f2a08bf98e6d04ac59"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "9f6b2969d4aacec06e4a9d70acb20747c983c94dbffbb1a7cb764c1569ec6fb1",
+      "transform_manifest_sha256": "5c3ae069ebde9f3e217d153ca2293b3447fc301c2efff6102d1e4bcd31e217cf"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "9978f512c72931de21bbbc502c60cfb5b2f02114f8e646ad4181241610f02132",
+      "transform_manifest_sha256": "adb98056113a0ceaa0c3bb4bf698d6246ba23bce984ae31c2443b0283b6e5fe6"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "955cf156c160b9d462ab00f310af04d2af28c12ae09efba6bb46099a3b35bb94",
+      "transform_manifest_sha256": "282c0e666ef121f16514a22d74da09e42f9182e1aafd7b15e2b28554bcf994b1"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "c6453718ec812e0a77596854dccd025db6677e31b02ba8bea879716ff3a8854d",
+      "transform_manifest_sha256": "595cd12c02d9f6f826f5d28cec859f73782d1377722314b6c029f57329342974"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "dc60db23b8bfb88d98542ffb6befd69808fb2607985c607ae626e7b16ed94393",
+      "transform_manifest_sha256": "7ff4b9dafaea8d446deca83bad4945cbd246d187cd895dc18d481ca3a581f170"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "44c51ad5d4a7c73dadcc4516d29bb8f058c7413a0f531b98f9a2ef65ed02cfbd",
+      "transform_manifest_sha256": "da4a6f88305507be0dff82b09b93c872c901c0915b0ce05593e4ebd8baab2d1a"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "b88706c1a38e3fc1f5577559329b6d26d4a424ac9418469ef1ef5d522e47cbcf",
+      "transform_manifest_sha256": "e608279acac80a4b421df406befc3d62527da42bbaf219a33407264217669391"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "35799715b7b2d73687dd736d99b0e9d31aaa9b1a38f14592dadfd8750db0bcbd",
+      "transform_manifest_sha256": "5ccd5042173dc68c032f9a1dc66047bf3e9af89c45d1dfcee159924dcb2b781f"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "e00e8ba23a8022b5059bb5cd6832b66eaa579a74997641859277febd857d75bd",
+      "transform_manifest_sha256": "a334630888a00f3bc15614ac86da8624f1c75d75008126acd506b8aa5f9b85ec"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "925695f302a3ff91fb37b862e83dae3a45fbcee6540b6c815857090598afdce1",
+      "transform_manifest_sha256": "16f204c3450df76e745d8b03b75b282f22be60648b307ac879bee1fcabc18456"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "869e862bb0425010a60723c5602b3a1612ce2b9a98b20833831b0395958c2c7a",
+      "transform_manifest_sha256": "6d8b56d214611550fcb1a58f2687a295c778368f6f313893a7a2d63a45c00255"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "0e748d75edf43a60cad8f776ed0a49ad896610829b01fa7e198654fa84a011ba",
+      "transform_manifest_sha256": "a781d8c091fbfa948d70a2a497ace8643ede4713b410e6a1df074c280ca36a9e"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "fc36b614c1fc54d1331fbd4a0621adbae8ea64b8550ac06a2f1701ebd01a2fba",
+      "transform_manifest_sha256": "657141a3229935df8afc6301c872849e2a42be74dce4af0a29920300bd4669b5"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "2bf4f6af003db614c5ab27651184eb35717b597ed6bca11be2e61fa18b55de23",
+      "transform_manifest_sha256": "3bee466953575cdc57526e785881141a9eba3fff52badfbdb26aac29f147a36b"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "29ce170bd3a81c848db1ac14a736f23a2e38dd29e8ec661b007366caa5cc4f67",
+      "transform_manifest_sha256": "87810ab1300c4736197f1ad3b96c356da134c6fd77809fcb63abb7bca00bcf53"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "d1",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "ca28b9917a9f452c00cd35769725dbc2fd2abe4bdd8198fd1137cb460b388244",
+      "transform_manifest_sha256": "0dc72894673d6507acc6d212b021a88ff24fb954643534ecf090a9668a5414f3"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "554c308a7f589d80d875ce2f2dcf40c17626191baba90cb4ea6bb627791054b0",
+      "transform_manifest_sha256": "2e38cd76e5ed6a2a174994b93707fb6b958f4d34fd2c514deed5e3d6a1a8711f"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "ce2182ef2f3fc112713bfca1f68777e4133a2b8b6d25510388deae9f3240f254",
+      "transform_manifest_sha256": "aca3e5ef93a3465bd177a91fb458000644222fc296d18a8cf6a76ce001bc1c2b"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "1034009f15f220e7cdb9c412fd982d07957446e7d57e91b0843f9a2189f62c06",
+      "transform_manifest_sha256": "10e63c9daab3e6231b3e9a6fd5e46df78d02f1e49d0ce45955791fb1b39ba830"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "6acc3dd78a340f4bec20286597c6804b39bc0efa6ce702019759e78d14174ff2",
+      "transform_manifest_sha256": "75865354e3d4439ace90982c4b8bdc4077a2efc4a5d82070e1049b8fe6f5e4be"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "11ed4fdd8c81b9b34d284d5cbc413fbfc45fa10ae26d52328b8a3394ca6a2223",
+      "transform_manifest_sha256": "b55c324005dc7a205fa344ce164326758d89e2eec03b6a3fad197fd6121686a5"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "0055541e9d2c9d8b33b656512d44e205e46efbaeebbc6585638057fa23fa3ecc",
+      "transform_manifest_sha256": "e47e97c71da6fdcdaab1bb8a7324ea700478dd1110785805ac0bd450314643c2"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 0,
+      "training_manifest_sha256": "41b96818a8928d2a9c1e96bb28330531f9f04b7b1c5e642bdca52aece37597ed",
+      "transform_manifest_sha256": "ffce15915e82132304b0c117cbcafd79d29511e8828054407a69b448e92b2904"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "e37467a2dd7b19311f0bad9884759293f398d5d0cdacabc2467c17ee208b2a2a",
+      "transform_manifest_sha256": "e4a64eea9bab96e9bccd65fbcf4078e022e6fd345af6a8960c2710b58f0c52e2"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "3d876427295f7d5b98da1ed633165e8450d1416bfa0db1c0b71e04798564e510",
+      "transform_manifest_sha256": "01a396310cf78077949679768f9842f2f210194134636da619cd4ca24fc47c90"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "a305bf4201e6a230514c364926cf66075567a8eae2a660766b8c158026cf4cec",
+      "transform_manifest_sha256": "b8d9e4b96e11fa15037828c93f71d247b816bb23f2a4da5d45c8564be92ad022"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "80fd61fe38e6eff1a935477e31a407c119a68332ba14acd2e2c1d5683ca1d9df",
+      "transform_manifest_sha256": "63c778897aa7be37f8c78ed66aa64daa7f5b09f4c74ba6a5b8d478355af83395"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "7aa021011b542b74eeedc16732e4c596e0ac3f7337639d6d24d4a06bacfba3ac",
+      "transform_manifest_sha256": "388f09d2160939a0b1f88c340bc9589d544eafe5dc2634d95ee86900472d42a9"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "01f1510084ac7d39d745f37c590d48a156b36fc48eb1b1fb255893efea11da5e",
+      "transform_manifest_sha256": "c97a292a031c439fc1d1ce0fff0f522e1fc031446530504da4832a0a49755eb5"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 1,
+      "training_manifest_sha256": "a3f8385ae2c2b22e0600f27843fdd0596e6e1da2c0fb14ea8a6e08c865f84f9c",
+      "transform_manifest_sha256": "30f9f6b632f89c52521c39693ba96d24f5cda1eaca3a872fa074dcbd8323a018"
+    },
+    {
+      "candidate": "Q01_GLOBAL_QUALITY_BLEND",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "3efd52df93bfc88a7e0c50c34560fd3fb7e61ddf5b7093394eb64cbcd57ac9aa",
+      "transform_manifest_sha256": "404fe054eb7584c662b501934e20a41cfa1fddd279882ca9cefec82109961780"
+    },
+    {
+      "candidate": "Q02_SPOT_QUALITY_BLEND",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "e8cffc7841d339f933db8b374732a8444ac5f79f0ab23ef5c0475c3b16d24c18",
+      "transform_manifest_sha256": "9f7c55441274ad61ebe1cffcb9bb61d8184ea2b463f97f454d81c1f688926200"
+    },
+    {
+      "candidate": "Q03_MASKED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "1838f9c75501cc8383b197214113e6731c3e3f649c29325ef7ada15518b774b2",
+      "transform_manifest_sha256": "d4243bb3cde97ec704a4278aca347a41866be50c228ab2d425366676913715f3"
+    },
+    {
+      "candidate": "Q04_SPOT_GATED_MASKED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "3125129be268540aaf07285f8cda687095afb262aa00ab86959890a4550d2f70",
+      "transform_manifest_sha256": "b0e1291bb42a282814e125d45b55fefdac4c5ba2c3a05d7ef9e8256b37d7a5f1"
+    },
+    {
+      "candidate": "Q05_BOUNDARY_GATED_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "59bd81d7b350c7ab67a601b4646447fc2e3507aa451c704d5598531717690b92",
+      "transform_manifest_sha256": "a0c5ca62622b1a95a95169a9f2cd983dc6019a9e4d7a30a8d12493e0b87cd5f2"
+    },
+    {
+      "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "2bef5742be1bfe382cf0c7ddd67a33aa1f5891e78e80dddd025c4e360ce4e366",
+      "transform_manifest_sha256": "e2edc41c19e6034e6ef0e999a2ed72565d3829a8278309fb730197d7199039c6"
+    },
+    {
+      "candidate": "Q07_CONFIDENCE_MNN_RESIDUAL",
+      "dataset": "p22",
+      "locked": true,
+      "seed": 2,
+      "training_manifest_sha256": "bb614cebf867b9bf959b9ef62faae1793658436b0263e019bf334b6c6b4aff00",
+      "transform_manifest_sha256": "911cea0d2f6f6359386d1266a2fbf5e8728e741a5c0093518020d4f11a26b226"
+    }
+  ],
+  "stage": "r1"
+}
