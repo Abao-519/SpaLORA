@@ -1,0 +1,10 @@
+...........................                                              [100%]
+=============================== warnings summary ===============================
+tests/night10a/test_night10a_qcrd_rev1.py: 22 warnings
+tests/night10a/test_night10a_rev1_runner.py: 4 warnings
+tests/night10a/test_night10a_qcrd_rev2.py: 4 warnings
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+27 passed, 30 warnings in 2.77s

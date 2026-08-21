@@ -6,6 +6,7 @@ import numpy as np
 import pytest
 
 from scripts.night10a import night10a_rev2_p0 as p0
+from scripts.night10a import night10a_rev2_reuse as reuse
 from scripts.night10a import night10a_rev2_run as runner
 
 
@@ -32,6 +33,12 @@ def test_real_schema_dtype_gate_accepts_numeric_coordinates_only():
     runner._assert_real_array("coordinates", np.arange(12).reshape(6, 2), 6, floating=False)
     with pytest.raises(AssertionError):
         runner._assert_real_array("view", np.arange(12).reshape(6, 2), 6)
+
+
+def test_reuse_replay_uses_authoritative_view_width_not_dataset_assumption():
+    source = inspect.getsource(reuse.replay_one)
+    assert "QCRDAdapter(first.shape[1]" in source
+    assert "QCRDAdapter(128" not in source
 
 
 def test_formal_config_requires_exact_preflight_binding_and_zero_labels():

@@ -1,0 +1,33 @@
+{
+  "code_commit": "6a489f80ec12a07f47a4d20504295f383495b554",
+  "contract_sha256": "991e27573c31d0ce072ef6782055bbc0f43fbea008ae3e14a0ce4503fc969a9b",
+  "device": "NVIDIA GeForce RTX 4080 SUPER",
+  "elapsed_seconds": 474.2096576690674,
+  "expected_rows": 210,
+  "failed_rows": 0,
+  "formal_training_started": false,
+  "label_reads": 0,
+  "p22_mixed_dimension_rows": 70,
+  "p22_q06_rows": 10,
+  "passed_rows": 210,
+  "real_inputs_only": true,
+  "schema": "spalora.night10a.rev2.real_runtime_preflight.v1",
+  "schema_matrix_count": 30,
+  "static_tests": {
+    "command": [
+      "/root/miniconda3/envs/SpaLORA/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/night10a/test_night10a_qcrd_rev1.py",
+      "tests/night10a/test_night10a_rev1_runner.py",
+      "tests/night10a/test_night10a_qcrd_rev2.py",
+      "tests/night10a/test_night10a_rev2_runner.py"
+    ],
+    "log_sha256": "a5106f68ab348c7e98364eb44922ada4d10cbdffe94a04a2f869535bcce6f27f",
+    "returncode": 0
+  },
+  "status": "PASS",
+  "synthetic_substitution_rows": 0,
+  "unique_row_sha256": 210
+}

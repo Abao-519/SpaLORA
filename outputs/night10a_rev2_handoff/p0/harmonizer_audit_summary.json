@@ -1,0 +1,116 @@
+{
+  "dataset_name_routing": false,
+  "identity": {
+    "byte_exact_sha_recomputed": true,
+    "count": 20,
+    "dimensions": "64->64",
+    "same_object_recomputed": true,
+    "unit_ids": [
+      "u000",
+      "u001",
+      "u002",
+      "u003",
+      "u004",
+      "u005",
+      "u006",
+      "u007",
+      "u008",
+      "u009",
+      "u010",
+      "u011",
+      "u012",
+      "u013",
+      "u014",
+      "u015",
+      "u016",
+      "u017",
+      "u018",
+      "u019"
+    ]
+  },
+  "label_reads": 0,
+  "rectangular_expansion": {
+    "count": 10,
+    "dimensions": "64->128",
+    "projection_frozen_and_hashed": true,
+    "projection_shape": [
+      64,
+      128
+    ],
+    "rank_all": 64,
+    "rows": [
+      {
+        "geometry_full_max_abs_certified_bound": 7.493826147441619e-14,
+        "geometry_subset_max_abs": 2.609024107869118e-15,
+        "orthogonality_max_abs_recomputed": 1.4432899320127035e-15,
+        "projection_canonical_sha256": "4ececfa898712b78db5160937c9d86471e7cc7a3f122ebeab068de96581f35ef",
+        "unit_id": "u020"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 9.54843441367625e-14,
+        "geometry_subset_max_abs": 3.219646771412954e-15,
+        "orthogonality_max_abs_recomputed": 1.887379141862766e-15,
+        "projection_canonical_sha256": "657af1f91480640d9047f310aa42f39ac451ab07756f90e8ccb37eee8c2083cf",
+        "unit_id": "u021"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 7.607602127987051e-14,
+        "geometry_subset_max_abs": 2.220446049250313e-15,
+        "orthogonality_max_abs_recomputed": 1.4432899320127035e-15,
+        "projection_canonical_sha256": "afd22850d307e36cbdd31f63d1da41d338347c338cb2f86804ce050e8a0da0fb",
+        "unit_id": "u022"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 8.049749640298537e-14,
+        "geometry_subset_max_abs": 2.3314683517128287e-15,
+        "orthogonality_max_abs_recomputed": 1.5543122344752192e-15,
+        "projection_canonical_sha256": "ed437d88d19cc5f8d2a0ff14bac00320f52b404c7aa0373a2279ba76b4965374",
+        "unit_id": "u023"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 5.672979506703429e-14,
+        "geometry_subset_max_abs": 2.3314683517128287e-15,
+        "orthogonality_max_abs_recomputed": 1.1102230246251565e-15,
+        "projection_canonical_sha256": "182ea521b10eb3a0ebc21e491f5faa63b7a950f6566c1b54a97df208cbc68603",
+        "unit_id": "u024"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 7.821090307917441e-14,
+        "geometry_subset_max_abs": 2.3314683517128287e-15,
+        "orthogonality_max_abs_recomputed": 1.5543122344752192e-15,
+        "projection_canonical_sha256": "133066055bb3dbaf20bc41020b6ad833c7caf8b58299c8911950f3ca764f1af5",
+        "unit_id": "u025"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 8.094647192297194e-14,
+        "geometry_subset_max_abs": 2.55351295663786e-15,
+        "orthogonality_max_abs_recomputed": 1.5543122344752192e-15,
+        "projection_canonical_sha256": "bf95f42498032a06c220c1ad1afa0a3a1694141ed32a2bc01f61aeb2a3c03733",
+        "unit_id": "u026"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 1.1520862550199464e-13,
+        "geometry_subset_max_abs": 2.220446049250313e-15,
+        "orthogonality_max_abs_recomputed": 2.220446049250313e-15,
+        "projection_canonical_sha256": "c08cfba79587148fc4609ca1f215ef9cf9cc0e396c55c79c65cefed9962bcd03",
+        "unit_id": "u027"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 6.250023101482343e-14,
+        "geometry_subset_max_abs": 2.7755575615628914e-15,
+        "orthogonality_max_abs_recomputed": 1.2212453270876722e-15,
+        "projection_canonical_sha256": "cc0ea2ecb3d1e66d7d2ef23802a6cfdab0d3f192c2e5aad1f389d3c6e751313f",
+        "unit_id": "u028"
+      },
+      {
+        "geometry_full_max_abs_certified_bound": 7.811301829843174e-14,
+        "geometry_subset_max_abs": 2.7755575615628914e-15,
+        "orthogonality_max_abs_recomputed": 1.5543122344752192e-15,
+        "projection_canonical_sha256": "cf05853792d95fbe046db753e3486b82af9ac80b19f7c3adce2c1f235cd31b8e",
+        "unit_id": "u029"
+      }
+    ]
+  },
+  "schema": "spalora.night10a.rev2.harmonizer_audit_summary.v1",
+  "status": "PASS"
+}

@@ -71,7 +71,7 @@ def replay_one(dataset: str, seed: int, candidate: str,
         coord = torch.as_tensor(fourier_coordinates(np.load(manifest["coordinates_file"])),
                                 dtype=torch.float32, device=device)
     checkpoint = checkpoint_load(source / "model_final.pt", device)
-    model = QCRDAdapter(128, 0 if coord is None else 16, 64, 16, .1).to(device).eval()
+    model = QCRDAdapter(first.shape[1], 0 if coord is None else 16, 64, 16, .1).to(device).eval()
     model.load_state_dict(checkpoint["state_dict"])
     state_sha = canonical_state_sha256(model.state_dict())
     if state_sha != old_manifest["canonical_state_sha256"]:
@@ -187,6 +187,13 @@ def main() -> None:
         "rev1_source_sha256": sha(compact_source), "label_reads_before_decision": 0,
         "metric_tables_read": 0, "misar_y_reads": 0, "e18_5_reads": 0,
         "grouping_rule": "all 21 cells reuse or all 21 cells retrain",
+        "implementation_corrections": [{
+            "scope": "pre-reuse checkpoint replay",
+            "issue": "reuse replay initially assumed identity datasets were 128-dimensional",
+            "correction": "instantiate the unchanged adapter from the authoritative private-view width",
+            "reuse_rows_before_correction": 0, "label_reads": 0,
+            "scientific_retry": False,
+        }],
         "groups": groups, "p22": {"decision": "RETRAIN_ALL_21_REV2_REQUIRED",
                                     "reason": "REV1 failed before first optimizer step"},
     }

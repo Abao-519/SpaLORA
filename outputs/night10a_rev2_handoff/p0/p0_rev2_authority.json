@@ -1,0 +1,44 @@
+{
+  "branch": "revision/q2-night10a-rev2-real-schema-harmonization-20260821",
+  "contract_sha256": "991e27573c31d0ce072ef6782055bbc0f43fbea008ae3e14a0ce4503fc969a9b",
+  "dataset_routing_signature_absent": true,
+  "e18_5_reads": 0,
+  "expected_contract_sha256": "991e27573c31d0ce072ef6782055bbc0f43fbea008ae3e14a0ce4503fc969a9b",
+  "expected_parent_exists": true,
+  "final_tag_absent": true,
+  "formal_training_units": 0,
+  "formal_transforms": 0,
+  "head": "6a489f80ec12a07f47a4d20504295f383495b554",
+  "implementation_corrections": [
+    {
+      "attempt": 1,
+      "correction": "use python -m package.module for P0, reload, and transform",
+      "formal_training": 0,
+      "issue": "direct script invocation omitted repository root from Python module path",
+      "label_reads": 0,
+      "optimizer_steps": 0,
+      "real_runtime_rows": 0,
+      "scientific_retry": false,
+      "scope": "p0-and-formal-subprocess-infrastructure"
+    },
+    {
+      "attempt": 2,
+      "correction": "require floating z1/z2/zf and finite numeric coordinates",
+      "formal_training": 0,
+      "issue": "floating-view dtype assertion was incorrectly applied to integer coordinates",
+      "label_reads": 0,
+      "optimizer_steps": 0,
+      "real_runtime_rows": 0,
+      "scientific_retry": false,
+      "scope": "p0-real-schema-dtype-assertion"
+    }
+  ],
+  "implementation_sha256": "98cfa6331913ff96e9d77ecda75b01681cf5792112a27db23bef2e093b042da4",
+  "label_loader_absent_from_training_source": true,
+  "label_reads": 0,
+  "misar_y_reads": 0,
+  "p0_sha256": "c72a25f2fa5ff6f484d0bbab32e33fbae5753b99431a25d553dbd826360d0065",
+  "runner_sha256": "655c89318a6ed9492d3b7557ca2bbdc86dac0cb8977ce8df1c4d63b3d8246533",
+  "schema": "spalora.night10a.rev2.p0_authority.v1",
+  "worktree_clean": true
+}
