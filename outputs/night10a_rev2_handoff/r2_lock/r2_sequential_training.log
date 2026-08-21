@@ -1,0 +1,20 @@
+START count=18 selected=Q06 labels_during_training=0
+01/18 dataset=a1 seed=3 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=13.916
+02/18 dataset=a1 seed=4 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=14.395
+03/18 dataset=tonsil seed=3 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=15.445
+04/18 dataset=tonsil seed=4 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=15.192
+05/18 dataset=d1 seed=3 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=13.687
+06/18 dataset=d1 seed=4 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=13.660
+07/18 dataset=d1 seed=5 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=14.190
+08/18 dataset=d1 seed=6 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=14.561
+09/18 dataset=d1 seed=7 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=13.763
+10/18 dataset=d1 seed=8 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=13.826
+11/18 dataset=d1 seed=9 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=13.844
+12/18 dataset=p22 seed=3 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.387
+13/18 dataset=p22 seed=4 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.544
+14/18 dataset=p22 seed=5 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.306
+15/18 dataset=p22 seed=6 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.796
+16/18 dataset=p22 seed=7 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=25.801
+17/18 dataset=p22 seed=8 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=24.796
+18/18 dataset=p22 seed=9 candidate=Q06_COORDINATE_PRIOR_RESIDUAL rc=0 seconds=24.786
+PASS count=18 labels_during_training=0
