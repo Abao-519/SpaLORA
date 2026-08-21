@@ -1,0 +1,42 @@
+[
+  {
+    "bootstrap_ci": [
+      -0.0025649705636252573,
+      0.0006374343004835303
+    ],
+    "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+    "dataset": "a1",
+    "exact_sign_flip_p_one_sided": 0.6875,
+    "mean_delta_q": -0.0007067648828813833
+  },
+  {
+    "bootstrap_ci": [
+      -0.002809482819983189,
+      -0.0011970543311285054
+    ],
+    "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+    "dataset": "tonsil",
+    "exact_sign_flip_p_one_sided": 1.0,
+    "mean_delta_q": -0.001982587238706124
+  },
+  {
+    "bootstrap_ci": [
+      0.000634652392188325,
+      0.0031476626315166275
+    ],
+    "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+    "dataset": "d1",
+    "exact_sign_flip_p_one_sided": 0.0068359375,
+    "mean_delta_q": 0.0017995783872460703
+  },
+  {
+    "bootstrap_ci": [
+      -0.01038600006934153,
+      -0.007112763544802812
+    ],
+    "candidate": "Q06_COORDINATE_PRIOR_RESIDUAL",
+    "dataset": "p22",
+    "exact_sign_flip_p_one_sided": 1.0,
+    "mean_delta_q": -0.008752202084160287
+  }
+]
