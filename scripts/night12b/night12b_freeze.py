@@ -80,7 +80,15 @@ def main() -> int:
     }
     atomic_json(out / "label_and_prohibited_action_firewall.json", firewall)
     atomic_json(out / "correction_cycle_registry.json", {
-        "formal_correction_cycles_used": 0, "formal_correction_limit": 1,
+        "formal_correction_cycles_used": 1, "formal_correction_limit": 1,
+        "formal_corrections": [{
+            "cycle": 1,
+            "timing": "after initial freeze but before any formal scientific output",
+            "reason": "replace literal repeated OLS with preregistered numerically equivalent Frisch-Waugh cross-products",
+            "old_formal_outputs_invalidated": 0,
+            "required_rerun_scope": "all six units, both families, all folds, axes and decision bootstraps",
+            "formula_threshold_panel_seed_changed": False,
+        }],
         "preformal_implementation_fixes": [
             "registered P10 authority hash was corrected to include the contract-required final newline",
             "compact Night-12A audits that omitted a false/implicit CSV header flag are restored from header width before loading",

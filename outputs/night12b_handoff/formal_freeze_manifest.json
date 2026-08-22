@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "SpaLORA/night12b_link_ident.py",
-      "sha256": "36be2c5eae1bb1c769923f4922526087aad4499f1e01dc3fc31903bad75e6d63",
-      "size": 33065
+      "sha256": "d61d48cb3721b06fcb925ed82cef665ad5a93afa0bc6ea23cbdbc5aa5c7d2b5a",
+      "size": 35909
     },
     {
       "path": "scripts/night12b/night12b_runner.py",
@@ -14,13 +14,13 @@
     },
     {
       "path": "scripts/night12b/night12b_freeze.py",
-      "sha256": "dae4d4254d13160008856210809e1279ffb4b6e6f2819e3e44c6e88fd5cdab70",
-      "size": 7104
+      "sha256": "6597447e497c72005644b0c4c65b00609ff76103479fcd7e557fdb2493e0ed5b",
+      "size": 7600
     },
     {
       "path": "tests/night12b/test_night12b_link_ident.py",
-      "sha256": "989f53eb1a709573ebfdb9ddd8c216d05b808cff68065ddcbd956ddfa8d504a9",
-      "size": 3866
+      "sha256": "3b90110424c5377b5d51f0216708aaf184d383bc984ae868e1f7b6f0b5b4b8ed",
+      "size": 4533
     },
     {
       "path": "configs/night12b/SpaLORA_Night12B_Replicate_Calibrated_Link_Identifiability_Taskbook_2026-08-22.md",
@@ -79,8 +79,8 @@
     },
     {
       "path": "outputs/night12b_handoff/correction_cycle_registry.json",
-      "sha256": "3d1a5904e3d1deca2bb1280f876d2004c9bc420a43e4586aac206b7fb840949b",
-      "size": 492
+      "sha256": "25703c870fec65239c417ac900b90da579ea9818ae59e4d777e5dc41fb3f50c1",
+      "size": 949
     }
   ],
   "firewall_all_zero": true,

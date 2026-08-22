@@ -467,6 +467,58 @@ def reference_crossfit(rna: np.ndarray, target: np.ndarray, coords: np.ndarray,
     return baseline, linked, zero_rna, zero_target
 
 
+def optimized_crossfit(rna: np.ndarray, target: np.ndarray, coords: np.ndarray,
+                       blocks: np.ndarray) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Frisch-Waugh equivalent of the frozen per-candidate OLS.
+
+    It keeps the exact training-only standardization and held-out predictions,
+    but evaluates every candidate/target SSE through matrix cross-products.
+    Numerically rank-deficient candidate columns fall back to the literal
+    reference fit.
+    """
+    rna, target = np.asarray(rna, dtype=np.float64), np.asarray(target, dtype=np.float64)
+    m = rna.shape[1]
+    baseline = np.zeros((FOLD_COUNT, m), dtype=np.float64)
+    linked = np.zeros((FOLD_COUNT, m, m), dtype=np.float64)
+    zero_rna = np.zeros((FOLD_COUNT, m), dtype=bool)
+    zero_target = np.zeros((FOLD_COUNT, m), dtype=bool)
+    basis = spatial_basis(coords)
+    for fold in range(FOLD_COUNT):
+        test_mask = blocks == fold
+        train_mask = ~test_mask
+        ytr, yte, zy = _standardize_train_apply(target[train_mask], target[test_mask])
+        xtr, xte, zx = _standardize_train_apply(rna[train_mask], rna[test_mask])
+        zero_rna[fold], zero_target[fold] = zx, zy
+        btr, bte = basis[train_mask], basis[test_mask]
+        beta_y = np.linalg.lstsq(btr, ytr, rcond=1e-12)[0]
+        gamma_x = np.linalg.lstsq(btr, xtr, rcond=1e-12)[0]
+        residual_y_train = ytr - btr @ beta_y
+        residual_x_train = xtr - btr @ gamma_x
+        residual_y_test = yte - bte @ beta_y
+        residual_x_test = xte - bte @ gamma_x
+        base = np.sum(residual_y_test * residual_y_test, axis=0, dtype=np.float64)
+        baseline[fold] = base
+        denominator = np.sum(residual_x_train * residual_x_train, axis=0, dtype=np.float64)
+        numerator = residual_x_train.T @ residual_y_train
+        test_cross = residual_x_test.T @ residual_y_test
+        test_norm = np.sum(residual_x_test * residual_x_test, axis=0, dtype=np.float64)
+        for candidate in range(m):
+            tolerance = np.finfo(np.float64).eps * max(1.0, float(np.sum(xtr[:, candidate] ** 2))) * 100.0
+            if denominator[candidate] <= tolerance:
+                dtr = np.column_stack([btr, xtr[:, candidate]])
+                dte = np.column_stack([bte, xte[:, candidate]])
+                beta = np.linalg.lstsq(dtr, ytr, rcond=1e-12)[0]
+                residual = yte - dte @ beta
+                linked[fold, :, candidate] = np.sum(residual * residual, axis=0, dtype=np.float64)
+            else:
+                coefficient = numerator[candidate] / denominator[candidate]
+                linked[fold, :, candidate] = (
+                    base - 2.0 * coefficient * test_cross[candidate]
+                    + coefficient * coefficient * test_norm[candidate]
+                )
+    return baseline, linked, zero_rna, zero_target
+
+
 def utility_and_tail(baseline: np.ndarray, linked: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
     base = np.sum(baseline, axis=0)
     link = np.sum(linked, axis=0)
@@ -498,7 +550,7 @@ def run_unit_formal(unit: str, artifact: Path, output_dir: Path) -> dict:
         coords = data["coordinates"].astype(np.float64)
         blocks = data["blocks"]
         genes = data["genes"].tolist()
-    baseline, linked, zero_rna, zero_target = reference_crossfit(rna, target, coords, blocks)
+    baseline, linked, zero_rna, zero_target = optimized_crossfit(rna, target, coords, blocks)
     utility, p_link = utility_and_tail(baseline, linked)
     p_boot_draws, p_unstable, seed = unit_bootstrap(unit, baseline, linked)
     nonident = np.any(zero_rna, axis=0) | np.any(zero_target, axis=0)

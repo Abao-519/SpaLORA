@@ -9,6 +9,7 @@ from SpaLORA.night12b_link_ident import (
     ZERO_COUNTS,
     _scores,
     fisher_pool,
+    optimized_crossfit,
     reference_crossfit,
     safe_spearman,
     spatial_blocks,
@@ -44,6 +45,20 @@ def test_reference_ols_shapes_finite_and_decoy_ties_count_against_true():
     tied = np.zeros((5, m, m))
     utility, p = utility_and_tail(np.ones((5, m)), tied)
     assert np.array_equal(p, np.ones(m))
+
+
+def test_optimized_crossfit_matches_literal_candidate_ols_to_frozen_tolerance():
+    rng = np.random.default_rng(19)
+    n, m = 125, 5
+    coords = rng.random((n, 2))
+    blocks, _ = spatial_blocks(coords, [f"u{i:03d}" for i in range(n)])
+    rna = rng.normal(size=(n, m))
+    target = rng.normal(size=(n, m)) + .25 * rna
+    ref = reference_crossfit(rna, target, coords, blocks)
+    opt = optimized_crossfit(rna, target, coords, blocks)
+    assert np.allclose(ref[0], opt[0], atol=1e-10, rtol=1e-10)
+    assert np.allclose(ref[1], opt[1], atol=1e-10, rtol=1e-10)
+    assert np.array_equal(ref[2], opt[2]) and np.array_equal(ref[3], opt[3])
 
 
 def test_block_bootstrap_is_exactly_reproducible():
