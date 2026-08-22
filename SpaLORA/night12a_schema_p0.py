@@ -7,6 +7,7 @@ identifiers, coordinates, fragments and official identifier annotations.
 """
 from __future__ import annotations
 
+import bisect
 import csv
 import gzip
 import hashlib
@@ -149,10 +150,12 @@ def inspect_csv_matrix(path: Path, coordinate_ids: Sequence[str]) -> Dict[str, o
         header = next(reader)
         if len(header) < 2:
             raise ValueError("matrix header has fewer than two columns")
-        header_ids = [canonical_pixel_id(x.strip('"')) for x in header[1:]]
+        header_raw = [x.strip('"') for x in header[1:]]
+        header_ids = [canonical_pixel_id(x) for x in header_raw]
         header_hits = sum(x in coordinate_set for x in header_ids)
         row_count = 0
         width = len(header) - 1
+        row_raw: List[str] = []
         row_ids: List[str] = []
         nnz = 0
         integer_like = True
@@ -160,7 +163,8 @@ def inspect_csv_matrix(path: Path, coordinate_ids: Sequence[str]) -> Dict[str, o
             if len(row) != width + 1:
                 raise ValueError("matrix row width drift")
             row_count += 1
-            row_ids.append(canonical_pixel_id(row[0].strip('"')))
+            row_raw.append(row[0].strip('"'))
+            row_ids.append(canonical_pixel_id(row_raw[-1]))
             row_nnz, _, row_int = _numeric_row(row[1:])
             nnz += row_nnz
             integer_like = integer_like and row_int
@@ -169,11 +173,11 @@ def inspect_csv_matrix(path: Path, coordinate_ids: Sequence[str]) -> Dict[str, o
         raise ValueError("matrix orientation ambiguous against coordinate IDs")
     if header_hits == len(header_ids):
         orientation = "features_by_rows_spots_by_columns"
-        observations, features = header_ids, row_ids
+        observations, features = header_ids, row_raw
         obs_by_feature_shape = [len(header_ids), row_count]
     elif row_hits == len(row_ids):
         orientation = "spots_by_rows_features_by_columns"
-        observations, features = row_ids, [x.strip('"') for x in header[1:]]
+        observations, features = row_ids, header_raw
         obs_by_feature_shape = [row_count, width]
     else:
         raise ValueError(
@@ -250,6 +254,28 @@ def normalize_counts(counts: np.ndarray, library_size: np.ndarray) -> np.ndarray
     return normalized.astype(np.float32)
 
 
+def seurat_clr_counts(counts: np.ndarray) -> np.ndarray:
+    value = np.asarray(counts, dtype=np.float64)
+    if value.ndim != 2 or np.any(value < 0) or np.any(~np.isfinite(value)):
+        raise ValueError("CLR input must be a finite non-negative matrix")
+    denominator = np.exp(np.log1p(value).sum(axis=1) / float(value.shape[1]))
+    normalized = np.log1p(value / denominator[:, None])
+    if not np.all(np.isfinite(normalized)):
+        raise ValueError("non-finite CLR output")
+    return normalized
+
+
+def scale_features(counts: np.ndarray) -> np.ndarray:
+    value = np.asarray(counts, dtype=np.float64)
+    mean = value.mean(axis=0, dtype=np.float64)
+    std = value.std(axis=0, ddof=1, dtype=np.float64)
+    std[std == 0] = 1.0
+    scaled = (value - mean) / std
+    if not np.all(np.isfinite(scaled)):
+        raise ValueError("non-finite scaled feature matrix")
+    return scaled.astype(np.float32)
+
+
 def parse_ensembl79_genes(path: Path) -> Dict[str, object]:
     """Parse unique gene symbols from Ensembl release 79 GRCm38 GTF."""
     pattern = re.compile(r'(\w+) "([^"]+)"')
@@ -322,6 +348,153 @@ def map_adt_targets(targets: Sequence[str], gene_info: Mapping[str, object]) -> 
                          "gene_id": "", "status": "unmapped",
                          "authority": "no exact NCBI Gene Symbol/Synonym token"})
     return rows
+
+
+def gene_score_intervals(
+    registry: Mapping[str, object],
+    symbols: Sequence[str],
+    upstream_bp: int = 5000,
+) -> List[dict]:
+    """Build strand-aware, zero-based half-open gene-body plus upstream intervals."""
+    if upstream_bp < 0:
+        raise ValueError("upstream_bp must be non-negative")
+    unique = registry["unique"]
+    rows: List[dict] = []
+    for symbol in sorted(set(map(str, symbols))):
+        if symbol not in unique:
+            raise ValueError(f"symbol lacks unique Ensembl79 authority: {symbol}")
+        gene = unique[symbol]
+        start = int(gene["start_1based"]) - 1
+        end = int(gene["end_1based"])
+        strand = str(gene["strand"])
+        if strand == "+":
+            start = max(0, start - upstream_bp)
+        elif strand == "-":
+            end += upstream_bp
+        else:
+            raise ValueError(f"invalid gene strand for {symbol}")
+        rows.append({
+            "feature": symbol,
+            "gene_id": gene["gene_id"],
+            "chrom": gene["chrom"],
+            "start_0based": start,
+            "end_0based_exclusive": end,
+            "strand": strand,
+            "upstream_bp": upstream_bp,
+        })
+    return rows
+
+
+def scan_fragments(
+    path: Path,
+    observation_ids: Sequence[str],
+    intervals: Sequence[Mapping[str, object]],
+) -> Dict[str, object]:
+    """Stream a coordinate-sorted fragments file into sparse selected gene scores."""
+    obs = list(map(str, observation_ids))
+    obs_index = {value: index for index, value in enumerate(obs)}
+    if len(obs_index) != len(obs):
+        raise ValueError("duplicate registered observation identifiers")
+    features = [str(row["feature"]) for row in intervals]
+    feature_index = {value: index for index, value in enumerate(features)}
+    if len(feature_index) != len(features):
+        raise ValueError("duplicate registered gene-score feature")
+    by_chrom: Dict[str, List[dict]] = defaultdict(list)
+    for row in intervals:
+        by_chrom[str(row["chrom"])].append(dict(row))
+    for chrom in by_chrom:
+        by_chrom[chrom].sort(
+            key=lambda row: (
+                int(row["start_0based"]),
+                int(row["end_0based_exclusive"]),
+                str(row["feature"]),
+            )
+        )
+    starts = {
+        chrom: [int(row["start_0based"]) for row in rows]
+        for chrom, rows in by_chrom.items()
+    }
+    values: Dict[Tuple[int, int], float] = defaultdict(float)
+    all_barcodes = set()
+    registered_barcodes = set()
+    line_count = 0
+    multiplicity_sum = 0
+    registered_depth = np.zeros(len(obs), dtype=np.float64)
+    with _open_text(Path(path)) as handle:
+        for line in handle:
+            if not line or line.startswith("#"):
+                continue
+            fields = line.rstrip("\n").split("\t")
+            if len(fields) < 4:
+                raise ValueError("fragments row has fewer than four fields")
+            chrom, start_raw, end_raw, barcode_raw = fields[:4]
+            start, end = int(start_raw), int(end_raw)
+            if start < 0 or end <= start:
+                raise ValueError("invalid fragment coordinate")
+            multiplicity = int(fields[4]) if len(fields) >= 5 else 1
+            if multiplicity <= 0:
+                raise ValueError("invalid fragment multiplicity")
+            barcode = canonical_pixel_id(barcode_raw)
+            all_barcodes.add(barcode)
+            line_count += 1
+            multiplicity_sum += multiplicity
+            row_index = obs_index.get(barcode)
+            registered_barcodes.add(barcode)
+            if row_index is None:
+                continue
+            registered_depth[row_index] += float(multiplicity)
+            chrom_rows = by_chrom.get(chrom)
+            if not chrom_rows:
+                continue
+            midpoint = (start + end) // 2
+            upper = bisect.bisect_right(starts[chrom], midpoint)
+            for interval in chrom_rows[:upper]:
+                if midpoint < int(interval["end_0based_exclusive"]):
+                    column = feature_index[str(interval["feature"])]
+                    values[(row_index, column)] += float(multiplicity)
+    if values:
+        keys = list(values)
+        matrix = sp.coo_matrix(
+            (
+                np.asarray([values[key] for key in keys], dtype=np.float32),
+                (
+                    np.asarray([key[0] for key in keys], dtype=np.int64),
+                    np.asarray([key[1] for key in keys], dtype=np.int64),
+                ),
+            ),
+            shape=(len(obs), len(features)),
+        ).tocsr()
+    else:
+        matrix = sp.csr_matrix((len(obs), len(features)), dtype=np.float32)
+    return {
+        "counts": matrix,
+        "fragment_rows": line_count,
+        "fragment_multiplicity_sum": multiplicity_sum,
+        "all_barcode_count": len(all_barcodes),
+        "all_barcode_sha256": text_sha256(sorted(all_barcodes)),
+        "registered_barcode_count": len(registered_barcodes),
+        "registered_barcode_sha256": text_sha256(sorted(registered_barcodes)),
+        "registered_coordinate_count": len(obs),
+        "registered_coordinate_sha256": text_sha256(obs),
+        "registered_missing_count": len(set(obs) - registered_barcodes),
+        "registered_fragment_depth": registered_depth,
+    }
+
+
+def normalize_gene_scores(counts: sp.spmatrix,
+                          fragment_library_size: np.ndarray) -> np.ndarray:
+    matrix = counts.tocsr().astype(np.float64)
+    library = np.asarray(fragment_library_size, dtype=np.float64)
+    if library.shape != (matrix.shape[0],):
+        raise ValueError("fragment library shape mismatch")
+    if np.any(library <= 0) or np.any(~np.isfinite(library)):
+        raise ValueError("registered fragment library has zero or non-finite depth")
+    normalized = matrix.multiply((10000.0 / library)[:, None])
+    normalized.data = np.log1p(normalized.data)
+    value = normalized.toarray().astype(np.float32)
+    if not np.all(np.isfinite(value)):
+        raise ValueError("non-finite normalized gene scores")
+    return value
 
 
 def sparse_spatial_graph(coordinates: np.ndarray, ids: Sequence[str],
