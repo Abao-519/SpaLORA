@@ -7,8 +7,11 @@ import json
 import time
 from pathlib import Path
 
+import numpy as np
+
 from SpaLORA.night12a_schema_p0 import (
     atomic_json,
+    exact_reindex,
     inspect_csv_matrix,
     read_coordinates,
     scan_fragments,
@@ -45,11 +48,13 @@ def main():
     }
     if args.other_kind == "ADT":
         other = inspect_csv_matrix(args.other, coordinate["ordered_ids"])
-        if other["ordered_observation_ids"] != rna["ordered_observation_ids"]:
-            raise ValueError("RNA and ADT ordered IDs differ")
+        reindex = exact_reindex(other["ordered_observation_ids"],
+                                rna["ordered_observation_ids"])
         record["adt"] = compact_matrix(other)
         record["adt_feature_ids"] = other["feature_ids"]
-        record["paired_spot_identity"] = "byte-exact after frozen terminal -1 transform"
+        record["paired_spot_identity"] = "byte-exact set equality after frozen terminal -1 transform"
+        record["other_order_matches_rna"] = bool(np.array_equal(reindex, np.arange(len(reindex))))
+        record["exact_id_reindex_required"] = not record["other_order_matches_rna"]
     elif args.other_kind == "ATAC_fragments":
         fragment = scan_fragments(args.other, rna["ordered_observation_ids"], [])
         record["fragments"] = {k: v for k, v in fragment.items()

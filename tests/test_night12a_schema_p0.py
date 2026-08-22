@@ -11,6 +11,7 @@ import torch
 from SpaLORA.night12a_schema_p0 import (
     UnifiedZeroStepAutoencoder,
     canonical_pixel_id,
+    exact_reindex,
     gene_score_intervals,
     inspect_csv_matrix,
     map_adt_targets,
@@ -72,6 +73,17 @@ def test_atac_interval_is_strand_aware_and_mm10_prefixed():
     assert rows[0]["start_0based"] == 5000 and rows[0]["end_0based_exclusive"] == 12000
     assert rows[1]["start_0based"] == 20000 and rows[1]["end_0based_exclusive"] == 27000
     assert all(row["chrom"].startswith("chr") for row in rows)
+
+
+def test_exact_id_reindex_never_uses_values_or_nearest_neighbors():
+    index = exact_reindex(["B", "A", "C"], ["A", "B", "C"])
+    assert index.tolist() == [1, 0, 2]
+    try:
+        exact_reindex(["A", "B"], ["A", "C"])
+    except ValueError as exc:
+        assert "sets differ" in str(exc)
+    else:
+        raise AssertionError("mismatched ID sets must fail closed")
 
 
 def test_adt_mapping_has_four_fail_closed_states():

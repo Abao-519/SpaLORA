@@ -19,6 +19,7 @@ from SpaLORA.night12a_schema_p0 import (
     atomic_json,
     atomic_npz,
     atomic_torch,
+    exact_reindex,
     file_sha256,
     fixed_linked_features,
     gene_score_intervals,
@@ -102,8 +103,8 @@ def prepare_protein(args):
     coord = read_coordinates(args.coordinates)
     rna_audit = inspect_csv_matrix(args.rna, coord["ordered_ids"])
     adt_audit = inspect_csv_matrix(args.other, coord["ordered_ids"])
-    if rna_audit["ordered_observation_ids"] != adt_audit["ordered_observation_ids"]:
-        raise ValueError("RNA and ADT ordered spot identifiers differ")
+    adt_reindex = exact_reindex(adt_audit["ordered_observation_ids"],
+                                rna_audit["ordered_observation_ids"])
     mapping = map_adt_targets(adt_audit["feature_ids"],
                               parse_ncbi_gene_info(args.gene_info))
     rna_features = set(rna_audit["feature_ids"])
@@ -122,7 +123,7 @@ def prepare_protein(args):
     rna_loaded = load_selected_counts(args.rna, rna_audit, canonical)
     view1 = normalize_counts(rna_loaded["counts"], rna_loaded["library_size"])
     adt_loaded = load_selected_counts(args.other, adt_audit, adt_audit["feature_ids"])
-    adt_all = scale_features(seurat_clr_counts(adt_loaded["counts"]))
+    adt_all = scale_features(seurat_clr_counts(adt_loaded["counts"]))[adt_reindex]
     adt_index = {name: i for i, name in enumerate(adt_audit["feature_ids"])}
     view2 = adt_all[:, [adt_index[name] for name in raw_targets]].astype(np.float32)
     metadata = {
@@ -130,6 +131,7 @@ def prepare_protein(args):
         "rna_audit": compact_audit(rna_audit),
         "adt_audit": compact_audit(adt_audit),
         "coordinate_audit": compact_audit(coord),
+        "exact_id_reindex_required": bool(not np.array_equal(adt_reindex, np.arange(len(adt_reindex)))),
         "mapping_status_counts": {
             status: sum(row["status"] == status for row in mapping)
             for status in ["unique", "ambiguous", "control", "unmapped"]

@@ -87,6 +87,19 @@ def canonical_pixel_id(value: str) -> str:
     return PIXEL_SUFFIX.sub("", str(value).strip())
 
 
+def exact_reindex(source_ids: Sequence[str], target_ids: Sequence[str]) -> np.ndarray:
+    source = list(map(str, source_ids))
+    target = list(map(str, target_ids))
+    if len(set(source)) != len(source) or len(set(target)) != len(target):
+        raise ValueError("exact reindex requires unique identifiers")
+    if set(source) != set(target):
+        raise ValueError("exact reindex identifier sets differ")
+    position = {value: index for index, value in enumerate(source)}
+    result = np.asarray([position[value] for value in target], dtype=np.int64)
+    if [source[index] for index in result] != target:
+        raise ValueError("exact reindex verification failed")
+    return result
+
 def _open_text(path: Path):
     return gzip.open(path, "rt", encoding="utf-8", newline="") if path.suffix == ".gz" else path.open("r", encoding="utf-8", newline="")
 
