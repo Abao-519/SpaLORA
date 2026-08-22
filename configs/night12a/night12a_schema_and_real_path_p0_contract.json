@@ -1,0 +1,116 @@
+{
+  "contract_version": "night12a-schema-real-path-p0-v1",
+  "date": "2026-08-22",
+  "project_name_status": "SpaLORA_PROVISIONAL_NAME",
+  "task": "DOWNLOAD_ONLY_TWO_FROZEN_GSE308623_COHORTS_AND_CLOSE_SCHEMA_MAPPING_REAL_PATH_P0",
+  "scientific_claim_allowed": false,
+  "parent": {
+    "commit": "5eb3d881dfdf5e2cd1f553ccf0d51241e4fc044b",
+    "tag": "night11b-final-20260822"
+  },
+  "git": {
+    "workspace": "/root/autodl-fs/SpaLORA-night12a",
+    "branch": "revision/q2-night12a-linked-replicate-schema-p0-20260822",
+    "protection_tag": "baseline/pre-night12a-linked-replicate-schema-p0-20260822",
+    "final_tag": "night12a-final-20260822",
+    "force_push_allowed": false
+  },
+  "raw_root": "/root/autodl-fs/night12a_linked_replicate_schema_p0_20260822",
+  "units": [
+    {
+      "unit_id": "U_ATAC_P5",
+      "family": "RNA+ATAC",
+      "study": "GSE308623",
+      "cohort": "mouse brain postnatal day 5",
+      "replicates": ["P5S1", "P5S2", "P5S3"],
+      "allowed_modalities": ["RNA", "ATAC", "spatial_coordinates"],
+      "disallowed_modalities": ["protein", "annotation_labels"],
+      "smoke_replicate": "P5S1"
+    },
+    {
+      "unit_id": "U_PROTEIN_P10",
+      "family": "RNA+PROTEIN",
+      "study": "GSE308623",
+      "cohort": "mouse brain postnatal day 10",
+      "replicates": ["P10S1", "P10S2", "P10S3"],
+      "allowed_modalities": ["RNA", "ADT", "spatial_coordinates", "ADT_target_list"],
+      "disallowed_modalities": ["ATAC", "annotation_labels"],
+      "smoke_replicate": "P10S1"
+    }
+  ],
+  "authoritative_sources": {
+    "paper": "https://www.nature.com/articles/s41586-025-09663-y",
+    "geo": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308623",
+    "nemo_root": "https://assets.nemoarchive.org/col-1w5kt2k",
+    "source_repo": "https://github.com/di-0579/spatial_tri-omics",
+    "source_commit": "300c96e8bcc6178ad0b7307e349ae7abc0266642",
+    "source_license": "NONE_DETECTED_SOURCE_INSPECTION_ONLY",
+    "genome": "GRCm38/mm10",
+    "annotation_sources_allowed": ["NCBI", "Ensembl", "Bioconductor"]
+  },
+  "download_rules": {
+    "download_processed_or_minimal_files_only": true,
+    "raw_fastq_allowed": false,
+    "sra_allowed": false,
+    "whole_GSE308623_RAW_tar_allowed": false,
+    "third_party_repacked_benchmark_allowed": false,
+    "reserve_dataset_download_allowed": false,
+    "allowed_reserve_metadata_only": ["GSE263333", "GSE213264"],
+    "every_download_requires_url_size_sha256": true,
+    "partial_or_resumable_download_allowed": true
+  },
+  "label_firewall": {
+    "cluster_or_celltype_label_content_reads": 0,
+    "annotation_based_metric_calls": 0,
+    "allowed_metadata": ["study", "organism", "tissue", "timepoint", "replicate", "modality", "genome_build", "file_format"],
+    "sealed_registry_fields": ["path", "size", "sha256", "reason_for_label_suspicion"],
+    "forbidden_metrics": ["ARI", "NMI", "AMI", "FMI", "Q", "annotation_based_spatial_metrics"]
+  },
+  "schema_gates": [
+    "accession-to-file-to-modality-to-replicate map is authoritative",
+    "all real tensor or fragment shapes and orientations are reported",
+    "pixel IDs close by byte-exact identity or one preregistered pure-format transform",
+    "P5 ATAC is mm10 and peak/gene-score generation is traceable and clean-room reproducible",
+    "P10 ADT targets are partitioned into unique mapped, ambiguous, control and unmapped without guessing",
+    "historical raw roots remain byte- and metadata-immutable"
+  ],
+  "real_path_smoke": {
+    "seed": 20260822,
+    "replicates": ["P5S1", "P10S1"],
+    "full_observation_set_required": true,
+    "canonical_linked_feature_cap": 256,
+    "feature_selection": "canonical lexical order after authoritative mapping; use all if fewer than 256",
+    "latent_dim": 64,
+    "training_steps": 0,
+    "loss": "finite reconstruction loss only; engineering check, not candidate objective",
+    "fusion": "equal mean of two 64-d private views; engineering check only",
+    "endpoint": "existing sparse H05-style three-view endpoint",
+    "endpoint_k": 2,
+    "endpoint_k_semantics": "engineering-only fixed K; never a biological cluster count",
+    "checkpoint_fresh_process_reload": true,
+    "partition_canonical_exact": true,
+    "dense_N_by_N_allowed": false
+  },
+  "identifiability_execution": {
+    "run_in_night12a": false,
+    "required_output": "frozen P0-IDENT input and gate contract for a later separately authorized task",
+    "inherited_gate": "combined evidence must strictly beat the best single axis in both families with paired-bootstrap 95% CI lower bound > 0"
+  },
+  "model_rules": {
+    "dataset_name_routing_allowed": false,
+    "family_specific_model_branch_allowed": false,
+    "modality_specific_preprocessing_allowed": true,
+    "separate_input_projection_weights_allowed": true,
+    "single_architecture_and_call_signature_required": true,
+    "new_scientific_candidate_allowed": false
+  },
+  "formal_correction_cycles_max": 1,
+  "terminal_statuses": {
+    "success": "NIGHT12A_SCHEMA_AND_REAL_PATH_P0_READY",
+    "data_blocked": "NIGHT12A_DATA_PROVENANCE_BLOCKED",
+    "implementation_failure": "NIGHT12A_IMPLEMENTATION_SEMANTICS_INVALID",
+    "infrastructure_failure": "NIGHT12A_INFRASTRUCTURE_BLOCKED"
+  },
+  "windows_delivery": "D:/文档/ChatGPT/博士第一篇科研论文项目/night12a_delivery_20260822/official_compact"
+}
+
