@@ -1,0 +1,37 @@
+{
+  "contract_version": "night12a-download-whitelist-v1",
+  "frozen_at_utc": "2026-08-22T07:44:00Z",
+  "frozen_before_payload_download": true,
+  "authority_chain": {
+    "geo_series": "GSE308623",
+    "paper_doi": "10.1038/s41586-025-09663-y",
+    "nemo_parent_collection": "nemo:col-1w5kt2k",
+    "nemo_rna_collection": "nemo:col-czxop90",
+    "nemo_atac_collection": "nemo:col-f5mz5ad",
+    "nemo_protein_collection": "nemo:col-0cggtum",
+    "nemo_release_path": "publication_release/Zhang_Fan_DBiTseq_2025-bag-2026-04-12",
+    "upstream_source_commit": "300c96e8bcc6178ad0b7307e349ae7abc0266642"
+  },
+  "bdbag_provenance": [
+    {"modality":"RNA","file":"Analysis_bag_1_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_RNA.tgz","size":3586,"sha256":"cb7b16d223e1cc04549418eca6466b5780c4efe51e6860e1dfbc74d746535260"},
+    {"modality":"ATAC","file":"Analysis_bag_2_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_ATAC.tgz","size":2605,"sha256":"1d7055cf2b9b22615bffb6aeb12d402991a5c36376cde21821750572386168df"},
+    {"modality":"ADT","file":"Analysis_bag_3_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_Protein.tgz","size":2523,"sha256":"a1de4732d9b606a1929d9574ab6465e31a6d000b4de66fa9c2f9d031583fc87d"}
+  ],
+  "payload_count": 18,
+  "allowed_units": ["U_ATAC_P5", "U_PROTEIN_P10"],
+  "allowed_replicates": ["P5S1", "P5S2", "P5S3", "P10S1", "P10S2", "P10S3"],
+  "forbidden": ["FASTQ", "SRA", "GSE308623_RAW.tar", "P5 protein", "P10 ATAC", "GSE263333 content", "GSE213264 content", "labels", "third-party repacks"],
+  "pixel_id_transform": {
+    "frozen_before_numeric_read": true,
+    "matrix_rule": "strip exactly one terminal -1 suffix if present; otherwise identity",
+    "coordinate_rule": "byte-exact identity",
+    "fragment_rule": "strip exactly one terminal -1 suffix if present; otherwise identity",
+    "prohibited_matching": ["expression", "correlation", "nearest-neighbor", "spatial-distance", "image-position"]
+  },
+  "download_transport": {
+    "official_urls_only": true,
+    "remote_direct_http_observation": "AutoDL egress returned HTTP 403",
+    "approved_fallback": "download the same frozen official NeMO HTTPS URLs on the authorized Windows host, verify size and BDBag MD5, then transfer byte-exact payloads to the new Night-12A raw root",
+    "unofficial_mirror_allowed": false
+  }
+}
