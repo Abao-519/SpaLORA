@@ -15,6 +15,7 @@ from SpaLORA.night12a_schema_p0 import (
     inspect_csv_matrix,
     map_adt_targets,
     reconstruction_loss,
+    scan_fragments,
     sparse_spatial_graph,
 )
 
@@ -109,6 +110,22 @@ def test_sparse_graph_and_zero_step_forward_are_finite():
     assert result["fused"].shape == (7, 64)
     assert torch.isfinite(reconstruction_loss(result, left, right))
     assert all(parameter.grad is None for parameter in model.parameters())
+
+
+def test_fragment_sweep_counts_only_registered_barcodes(tmp_path):
+    fragments = tmp_path / "fragments.tsv.gz"
+    with gzip.open(fragments, "wt") as handle:
+        handle.write("chr1\t0\t10\tA-1\t2\n")
+        handle.write("chr1\t20\t30\tC-1\t5\n")
+        handle.write("chr1\t40\t50\tB-1\t3\n")
+    intervals = [{"feature": "G", "chrom": "chr1", "start_0based": 0,
+                  "end_0based_exclusive": 100}]
+    audit = scan_fragments(fragments, ["A", "B"], intervals)
+    assert audit["all_barcode_count"] == 3
+    assert audit["registered_barcode_count"] == 2
+    assert audit["registered_missing_count"] == 0
+    assert audit["counts"].toarray().tolist() == [[2.0], [3.0]]
+    assert audit["registered_fragment_depth"].tolist() == [2.0, 3.0]
 
 
 def test_label_and_scientific_metric_symbols_are_unreachable():

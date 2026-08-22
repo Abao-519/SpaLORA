@@ -427,6 +427,7 @@ def scan_fragments(
         chrom: [int(row["start_0based"]) for row in rows]
         for chrom, rows in by_chrom.items()
     }
+    sweep_state: Dict[str, dict] = {}
     values: Dict[Tuple[int, int], float] = defaultdict(float)
     all_barcodes = set()
     registered_barcodes = set()
@@ -460,9 +461,24 @@ def scan_fragments(
             if not chrom_rows:
                 continue
             midpoint = (start + end) // 2
-            upper = bisect.bisect_right(starts[chrom], midpoint)
-            for interval in chrom_rows[:upper]:
-                if midpoint < int(interval["end_0based_exclusive"]):
+            state = sweep_state.setdefault(
+                chrom, {"cursor": 0, "active": [], "last_midpoint": -1})
+            if midpoint >= state["last_midpoint"]:
+                cursor = int(state["cursor"])
+                while cursor < len(chrom_rows) and starts[chrom][cursor] <= midpoint:
+                    state["active"].append(chrom_rows[cursor])
+                    cursor += 1
+                state["cursor"] = cursor
+                state["active"] = [
+                    row for row in state["active"]
+                    if midpoint < int(row["end_0based_exclusive"])
+                ]
+            else:
+                upper = bisect.bisect_right(starts[chrom], midpoint)
+                state["active"] = [row for row in chrom_rows[:upper]
+                                   if midpoint < int(row["end_0based_exclusive"])]
+            state["last_midpoint"] = midpoint
+            for interval in state["active"]:
                     column = feature_index[str(interval["feature"])]
                     values[(row_index, column)] += float(multiplicity)
     if values:
