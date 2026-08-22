@@ -1,7 +1,10 @@
 {
-  "contract_version": "night12a-download-whitelist-v1",
-  "frozen_at_utc": "2026-08-22T07:44:00Z",
+  "contract_version": "night12a-download-whitelist-v2",
+  "frozen_at_utc": "2026-08-22T08:03:00Z",
   "frozen_before_payload_download": true,
+  "global_correction_cycle": 1,
+  "superseded_manifest": "outputs/night12a_handoff/accession_file_manifest_cycle0_nemo_tar.csv",
+  "correction_reason": "Before schema numeric read or smoke, transport was globally corrected from NeMO tar payloads to accession-specific official GEO supplementary files; only the three ADT files remain on NeMO.",
   "authority_chain": {
     "geo_series": "GSE308623",
     "paper_doi": "10.1038/s41586-025-09663-y",
@@ -17,7 +20,7 @@
     {"modality":"ATAC","file":"Analysis_bag_2_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_ATAC.tgz","size":2605,"sha256":"1d7055cf2b9b22615bffb6aeb12d402991a5c36376cde21821750572386168df"},
     {"modality":"ADT","file":"Analysis_bag_3_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_Protein.tgz","size":2523,"sha256":"a1de4732d9b606a1929d9574ab6465e31a6d000b4de66fa9c2f9d031583fc87d"}
   ],
-  "payload_count": 18,
+  "payload_count": 21,
   "allowed_units": ["U_ATAC_P5", "U_PROTEIN_P10"],
   "allowed_replicates": ["P5S1", "P5S2", "P5S3", "P10S1", "P10S2", "P10S3"],
   "forbidden": ["FASTQ", "SRA", "GSE308623_RAW.tar", "P5 protein", "P10 ATAC", "GSE263333 content", "GSE213264 content", "labels", "third-party repacks"],
@@ -31,7 +34,7 @@
   "download_transport": {
     "official_urls_only": true,
     "remote_direct_http_observation": "AutoDL egress returned HTTP 403",
-    "approved_fallback": "download the same frozen official NeMO HTTPS URLs on the authorized Windows host, verify size and BDBag MD5, then transfer byte-exact payloads to the new Night-12A raw root",
+    "approved_fallback": "download accession-specific official GEO HTTPS payloads on the authorized Windows host; use official NeMO only for the three ADT files absent from GEO; verify size and independently compute SHA-256 before byte-exact transfer",
     "unofficial_mirror_allowed": false
   }
 }
