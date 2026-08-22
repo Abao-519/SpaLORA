@@ -1,0 +1,15 @@
+{
+  "schema": "spalora.night12b.formal_unit_completion.v1",
+  "required": "6/6",
+  "completed_finite": "6/6",
+  "units": [
+    {"unit_id":"P5S1","m":80,"non_identifiable_count":22,"wall_seconds":3.923741561360657,"peak_ram_mib":584.13671875,"formal_array_sha256":"9b76527ce82fd933f71fa4136250cc5b8167948b0165d4b78885dd795a02fd963"},
+    {"unit_id":"P5S2","m":80,"non_identifiable_count":13,"wall_seconds":7.702966862358153,"peak_ram_mib":717.1953125,"formal_array_sha256":"cf1a844170aaee50e3a2544be5c7c8b833368ae38f62aea047ea117f48ac79efc"},
+    {"unit_id":"P5S3","m":80,"non_identifiable_count":17,"wall_seconds":5.161191675812006,"peak_ram_mib":595.4453125,"formal_array_sha256":"c809519b4e4f7fdedbe775813f6b7c5735efaae5adfe3b49eded4441c44cd3ffb"},
+    {"unit_id":"P10S1","m":80,"non_identifiable_count":19,"wall_seconds":4.462504547089338,"peak_ram_mib":584.54296875,"formal_array_sha256":"83e8af6fa3b7014ed04a266f6130facc7f5e0c61cab14abf6b29967f90f50291f"},
+    {"unit_id":"P10S2","m":80,"non_identifiable_count":18,"wall_seconds":9.339797240681946,"peak_ram_mib":796.80859375,"formal_array_sha256":"88313064a661f517c02a299db2a19ff57624248b8aa43e1be5eff21a6d9ebb40a"},
+    {"unit_id":"P10S3","m":80,"non_identifiable_count":20,"wall_seconds":4.22391632758081,"peak_ram_mib":574.9609375,"formal_array_sha256":"56920e3884cc65b40d8ae1caee419e65e39f53afe7b19f43e422bd2ab9ae83b34"}
+  ],
+  "heldout_summary_completed": false,
+  "terminal_state": "NIGHT12B_IMPLEMENTATION_SEMANTICS_INVALID"
+}

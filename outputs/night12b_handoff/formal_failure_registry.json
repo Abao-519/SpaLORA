@@ -1,0 +1,16 @@
+{
+  "schema": "spalora.night12b.formal_failure.v1",
+  "cycle": 1,
+  "formal_unit_outputs_completed": 6,
+  "summary_attempts": 1,
+  "failure_stage": "safe_spearman called from first held-out fold",
+  "exception": "AttributeError: SpearmanrResult object has no attribute 'statistic'",
+  "partial_summary_files_preserved": [
+    "per_candidate_crossfit_utility.csv.gz",
+    "per_feature_replicate_evidence.csv"
+  ],
+  "heldout_fold_statistics_completed": 0,
+  "manual_or_alternate_summary_used": false,
+  "second_correction_used": false,
+  "terminal_state": "NIGHT12B_IMPLEMENTATION_SEMANTICS_INVALID"
+}

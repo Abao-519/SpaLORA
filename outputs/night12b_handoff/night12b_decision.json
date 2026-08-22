@@ -1,0 +1,35 @@
+{
+  "schema": "spalora.night12b.decision.v1",
+  "status": "NIGHT12B_IMPLEMENTATION_SEMANTICS_INVALID",
+  "classification": "IMPLEMENTATION_FAILURE",
+  "scientific_gate_evaluated": false,
+  "scientific_conclusion_available": false,
+  "failure": {
+    "stage": "first leave-one-replicate-out Spearman aggregation",
+    "exception_type": "AttributeError",
+    "message": "SpearmanrResult object has no attribute statistic",
+    "frozen_code_expected_field": "statistic",
+    "runtime_available_field": "correlation"
+  },
+  "bridge_panel": {
+    "p10_only_count": 83,
+    "p10_only_sha256": "ac1b801fceba359bbd7e9454c6811400443440575e4022376c9f64940e612a43",
+    "final_m": 80,
+    "structural_deletions": ["Jaml", "Lilrb4a", "Vsir"],
+    "structural_non_identifiable_replacements": 0
+  },
+  "execution": {
+    "real_preflight": "6/6",
+    "fresh_process_reload": "6/6",
+    "formal_unit_ols_decoy_block_bootstrap": "6/6 finite",
+    "heldout_folds_completed": "0/6",
+    "family_gates_completed": "0/2",
+    "correction_cycles_used": 1,
+    "correction_cycles_allowed": 1,
+    "second_fix_or_bypass_used": false,
+    "scientific_retries": 0
+  },
+  "interpretation": "No LOCAL_SIGNAL or SCIENTIFIC_NEGATIVE conclusion is valid; the failure occurred before any held-out fold statistic was completed.",
+  "hard_prohibition_counts_file": "label_and_prohibited_action_firewall.json",
+  "raw_immutability_file": "raw_immutability_audit.json"
+}

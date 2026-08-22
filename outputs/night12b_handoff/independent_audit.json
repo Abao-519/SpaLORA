@@ -1,0 +1,27 @@
+{
+  "schema": "spalora.night12b.independent_audit.v1",
+  "authority": {
+    "parent_commit_exact": true,
+    "parent_tag_peel_exact": true,
+    "p10_83_count_and_hash_exact": true,
+    "final_structural_panel_frozen_before_numeric_reads": true
+  },
+  "real_path": {
+    "preflight_passed": "6/6",
+    "fresh_process_reload_passed": "6/6",
+    "formal_unit_outputs_finite": "6/6",
+    "heldout_summary_completed": "0/6"
+  },
+  "implementation": {
+    "targeted_tests": "8/8",
+    "correction_cycles_used": 1,
+    "correction_cycles_allowed": 1,
+    "second_correction_or_bypass": false,
+    "formal_failure_preserved": true,
+    "terminal_state_matches_contract": true
+  },
+  "firewall_all_zero": true,
+  "historical_raw_metadata_exact": true,
+  "scientific_gate_was_not_interpreted": true,
+  "audit_passed_for_failure_classification_and_delivery": true
+}

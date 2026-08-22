@@ -1,0 +1,17 @@
+{
+  "schema": "spalora.night12b.resource_audit.v1",
+  "preflight_slowest_unit": "P5S3",
+  "preflight_slowest_wall_seconds": 1702.7,
+  "formal_slowest_unit": "P10S2",
+  "formal_slowest_wall_seconds": 9.339797240681946,
+  "wall_to_terminal_failure_seconds": 3047,
+  "peak_process_ram_mib": 796.80859375,
+  "night12b_cuda_allocation_peak_mib": 0,
+  "observed_gpu_baseline_mib": 1,
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "gpu_total_mib_reported_by_nvidia_smi": 32760,
+  "cpu_count": 12,
+  "formal_unit_count": 6,
+  "block_bootstraps_per_unit": 64,
+  "decision_bootstraps_completed": 0
+}
