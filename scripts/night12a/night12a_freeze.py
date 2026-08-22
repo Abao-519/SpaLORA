@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import gzip
 import hashlib
 import json
 import os
@@ -30,6 +31,11 @@ SCHEMA = RAW / "derived/schema"
 DOWNLOADS = RAW / "downloads"
 P5 = ["P5S1", "P5S2", "P5S3"]
 P10 = ["P10S1", "P10S2", "P10S3"]
+P5_FRAGMENT_FILES = {
+    "P5S1": "GSM9248997_02_P5S1_atac_fragments.tsv.gz",
+    "P5S2": "GSM9248998_02_P5S2_atac_fragments.tsv.gz",
+    "P5S3": "GSM9248999_02_P5S3_atac_fragments.tsv.gz",
+}
 
 
 def load(path: Path):
@@ -55,6 +61,28 @@ def write_rows(path: Path, fieldnames: list[str], rows: list[dict], delimiter=",
         writer.writerows(rows)
         handle.flush(); os.fsync(handle.fileno())
     os.replace(temp, path)
+
+
+def fragment_header(path: Path) -> dict:
+    result = {}
+    with gzip.open(path, "rt", encoding="utf-8") as handle:
+        for line in handle:
+            if not line.startswith("#"):
+                break
+            value = line[1:].strip()
+            if "=" in value:
+                key, content = value.split("=", 1)
+                result[key] = content
+    required = {
+        "pipeline_name": "cellranger-arc",
+        "pipeline_version": "cellranger-arc-2.0.2",
+        "reference_version": "2020-A",
+        "reference_fasta_hash": "c9c31fef9ba3b93f99ad59d9345aeee0c9cb0640",
+        "reference_gtf_hash": "73e68486af93260a77bf2ebad4b5dd2532aaa016",
+    }
+    if any(result.get(key) != value for key, value in required.items()):
+        raise ValueError(f"fragment reference header mismatch: {path.name}")
+    return result
 
 
 def download_audit():
@@ -180,6 +208,7 @@ def schema_and_links():
             "selected_feature_sha256": text_sha256(linked),
             "intervals": intervals,
             "fragment_audit": fragment,
+            "fragment_header": fragment_header(DOWNLOADS / P5_FRAGMENT_FILES[unit]),
         })
     mapping_rows = []
     protein_units = []
