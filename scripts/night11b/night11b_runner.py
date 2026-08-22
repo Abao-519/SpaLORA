@@ -8,6 +8,7 @@ import hashlib
 import json
 import os
 import resource
+import shutil
 import subprocess
 import sys
 import time
@@ -272,7 +273,7 @@ def delta_auc_bootstrap(labels, score, axis, count, seed):
     return point, ci(np.asarray(values))
 
 
-def run_one_formal(dataset, contract):
+def run_one_formal(dataset, contract, cycle):
     start = time.perf_counter(); data = load_registered_input(DATASETS[dataset])
     audit = contract["datasets"][dataset]
     if data["audit"]["ordered_observation_sha256"] != audit["ordered_observation_sha256"] or data["audit"]["linked_feature_sha256"] != audit["linked_feature_sha256"]:
@@ -307,7 +308,7 @@ def run_one_formal(dataset, contract):
                 "morans_i": float(axes["moran"][k]), "spatial_excess": float(axes["spatial_excess"][k]),
                 "p_space": float(axes["p_space"][k]), "combined_evidence": float(axes["combined"][k]),
             })
-    root = RAW / "formal_cycle_0" / dataset
+    root = RAW / ("formal_cycle_%d" % cycle) / dataset
     arrays = {
         "shared_prediction_oof": shared["prediction"], "residual_oof": shared["residual"],
         "residual_full": shared["full_residual"], "control_patterns": patterns,
@@ -318,7 +319,7 @@ def run_one_formal(dataset, contract):
         "schema": "spalora.night11b.formal_dataset.v1", "dataset": dataset, "status": "FORMAL_COMPLETE",
         "contract_sha256": file_sha(CONFIG_PATH), "input_audit": data["audit"], "feature_ids": data["feature_ids"],
         "outer_selected_alphas": shared["outer_alphas"], "full_alpha": shared["full_alpha"],
-        "elapsed_seconds": time.perf_counter() - start, "formal_correction_cycle": 0,
+        "elapsed_seconds": time.perf_counter() - start, "formal_correction_cycle": cycle,
         "label_values_opened": False, "scientific_retry_or_fallback": False,
     })
     atomic_json(root / "formal_manifest.json", manifest)
@@ -331,12 +332,24 @@ def formal():
     freeze_manifest = json.loads((OUT / "formal_freeze_manifest.json").read_text(encoding="utf-8"))
     if freeze_manifest["status"] != "FORMAL_FROZEN" or freeze_manifest["contract_sha256"] != file_sha(CONFIG_PATH):
         raise RuntimeError("formal freeze/contract mismatch")
+    cycle0_done = (RAW / "formal_cycle_0/d1/formal_manifest.json").is_file()
+    cycle1_done = (RAW / "formal_cycle_1/d1/formal_manifest.json").is_file()
+    if cycle1_done:
+        raise RuntimeError("formal correction cycle limit already exhausted")
+    cycle = 1 if cycle0_done else 0
+    if cycle == 1:
+        invalid = RAW / "formal_cycle_0_summary_invalid"
+        invalid.mkdir(parents=True, exist_ok=False)
+        for name in ("night11b_decision.json", "night11b_report.md", "control_summary.csv", "formal_execution_audit.json", "resource_audit.json"):
+            source = OUT / name
+            if source.is_file():
+                shutil.copy2(str(source), str(invalid / name))
     start = time.perf_counter(); gpu_start = gpu_used_mib()
     freeze_manifest["formal_started"] = True
     atomic_json(OUT / "formal_freeze_manifest.json", freeze_manifest)
     all_rows = []; manifests = []
     for dataset in DATASETS:
-        rows, manifest = run_one_formal(dataset, contract)
+        rows, manifest = run_one_formal(dataset, contract, cycle)
         all_rows.extend(rows); manifests.append(manifest)
         print(json.dumps({"event": "formal_dataset_complete", "dataset": dataset, "elapsed_seconds": manifest["elapsed_seconds"]}, sort_keys=True), flush=True)
     fields = list(all_rows[0]); write_csv(OUT / "evidence_by_dataset_feature.csv", fields, all_rows)
@@ -356,10 +369,17 @@ def formal():
     features = contract["linked_features"]
     a1_score = np.asarray([float(real[("a1", f)]["combined_evidence"]) for f in features])
     d1_score = np.asarray([float(real[("d1", f)]["combined_evidence"]) for f in features])
-    rho = float(spearmanr(a1_score, d1_score).correlation)
-    rng = np.random.RandomState(contract["permutation_seed"] + 99000)
-    null_rho = np.asarray([spearmanr(a1_score, d1_score[rng.permutation(29)]).correlation for _ in range(contract["permutation_count"])])
-    p_repro = float((1 + np.sum(null_rho >= rho)) / (len(null_rho) + 1.0))
+    rho_raw = float(spearmanr(a1_score, d1_score).correlation)
+    rank_constant = not np.isfinite(rho_raw)
+    if rank_constant:
+        rho = 0.0
+        p_repro = 1.0
+    else:
+        rho = rho_raw
+        rng = np.random.RandomState(contract["permutation_seed"] + 99000)
+        null_rho = np.asarray([spearmanr(a1_score, d1_score[rng.permutation(29)]).correlation for _ in range(contract["permutation_count"])])
+        finite = null_rho[np.isfinite(null_rho)]
+        p_repro = float((1 + np.sum(finite >= rho)) / (len(finite) + 1.0)) if len(finite) else 1.0
     controls_gate = pooled_ci[0] > 0.5 and all(v > 0.5 for v in dataset_auc.values())
     axis_gate = boot_delta_ci[0] > 0.0 and space_delta_ci[0] > 0.0
     repro_gate = rho > 0.0 and p_repro < 0.05
@@ -400,16 +420,17 @@ def formal():
             "combined_minus_boot_auc": boot_delta, "combined_minus_boot_auc_ci95": boot_delta_ci,
             "combined_minus_space_auc": space_delta, "combined_minus_space_auc_ci95": space_delta_ci,
             "a1_d1_spearman": rho, "a1_d1_permutation_p": p_repro,
+            "a1_d1_rank_constant": rank_constant,
         },
-        "formal_correction_cycles": 0, "scientific_retries": 0, "formula_changes_after_formal": 0,
+        "formal_correction_cycles": cycle, "scientific_retries": 0, "formula_changes_after_formal": 0,
         "labels_read": 0, "clustering_metrics_computed": 0,
     }
     atomic_json(OUT / "night11b_decision.json", decision)
     atomic_json(OUT / "formal_execution_audit.json", {
         "status": "FORMAL_COMPLETE", "dataset_count": 3, "feature_rows": 3 * 29,
         "control_rows": 3 * 29 * 5, "bootstrap_count": 32, "permutation_count": 199,
-        "manifests": [{"dataset": m["dataset"], "path": str(RAW / "formal_cycle_0" / m["dataset"] / "formal_manifest.json"), "sha256": file_sha(RAW / "formal_cycle_0" / m["dataset"] / "formal_manifest.json")} for m in manifests],
-        "formal_correction_cycles": 0, "scientific_retries": 0,
+        "manifests": [{"dataset": m["dataset"], "path": str(RAW / ("formal_cycle_%d" % cycle) / m["dataset"] / "formal_manifest.json"), "sha256": file_sha(RAW / ("formal_cycle_%d" % cycle) / m["dataset"] / "formal_manifest.json")} for m in manifests],
+        "formal_correction_cycles": cycle, "scientific_retries": 0,
     })
     forbidden = {
         "training_label_reads": 0, "evaluation_label_reads": 0, "total_label_reads": 0,
@@ -428,6 +449,17 @@ def formal():
         "gpu_code_path_used": False, "wall_budget_seconds": 14400, "within_budget": elapsed <= 14400,
     }
     atomic_json(OUT / "resource_audit.json", resources)
+    atomic_json(OUT / "formal_correction_audit.json", {
+        "status": "CORRECTED_AND_CLOSED" if cycle else "NOT_USED",
+        "formal_correction_cycles": cycle,
+        "cycle_0_preserved": cycle == 1,
+        "cycle_0_preserved_root": str(RAW / "formal_cycle_0") if cycle == 1 else None,
+        "cycle_0_invalid_summary_preserved_root": str(RAW / "formal_cycle_0_summary_invalid") if cycle == 1 else None,
+        "correction": "constant target ranks are fail-closed as rho=0 and permutation p=1; strict JSON contains no NaN" if cycle == 1 else None,
+        "all_three_datasets_rerun": cycle == 1,
+        "seeds_controls_formulas_thresholds_changed": False,
+        "scientific_retry": False,
+    })
     atomic_json(OUT / "night11b_contract.json", contract)
     render_report(decision, summary_rows, resources)
     print(json.dumps({"event": "formal_complete", "terminal_status": terminal, "classification": classification, "pooled_auc": pooled_point, "spearman": rho, "p": p_repro}, sort_keys=True), flush=True)
@@ -453,7 +485,7 @@ def render_report(decision, rows, resources):
         "- combined 相对 boot 单轴 AUROC 差 = %.4f，95%% CI [%.4f, %.4f]。" % (g["combined_minus_boot_auc"], g["combined_minus_boot_auc_ci95"][0], g["combined_minus_boot_auc_ci95"][1]),
         "- combined 相对 space 单轴 AUROC 差 = %.4f，95%% CI [%.4f, %.4f]。" % (g["combined_minus_space_auc"], g["combined_minus_space_auc_ci95"][0], g["combined_minus_space_auc_ci95"][1]),
         "- A1↔D1 同 target evidence-rank Spearman = %.4f，预注册 permutation p = %.4f。" % (g["a1_d1_spearman"], g["a1_d1_permutation_p"]),
-        "- 真实端到端 smoke 与 fresh-process reload：3/3。formal correction cycle：0。scientific retry：0。", "",
+        "- 真实端到端 smoke 与 fresh-process reload：3/3。formal correction cycle：%d。scientific retry：0。" % decision["formal_correction_cycles"], "",
         "## 导师汇报版", "",
         "Night-11B 没有训练一个新模型，而是先检查 RNA–蛋白不一致是否有可观测的三分证据。",
         "三个真实组织单元都从 feature-level RNA/ADT 和登记的稀疏空间图出发，并只用了 29 个完全同名的 deposited feature pairs。",
