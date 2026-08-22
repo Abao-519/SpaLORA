@@ -1,0 +1,16 @@
+{
+  "correction_count": 1,
+  "cycle_0": {
+    "dataset": "a1",
+    "exception": "ValueError: sparse spatial-linked RNA was passed to numpy.concatenate without toarray()",
+    "scientific_values_used": false,
+    "stage": "real_smoke",
+    "status": "IMPLEMENTATION_FAILURE_PRESERVED"
+  },
+  "cycle_1": {
+    "status": "3_OF_3_REAL_SMOKE_AND_FRESH_RELOAD_PASS"
+  },
+  "formal_rows_invalidated": 0,
+  "formula_or_threshold_changed": false,
+  "status": "CLOSED_BEFORE_FORMAL"
+}

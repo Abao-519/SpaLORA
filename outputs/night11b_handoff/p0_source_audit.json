@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "path": "SpaLORA/night1_pipeline.py",
+      "sha256": "0173a8c371cff7f67fe42f40fd8ffd1d6a1dfe0d3702589934df97d9b52250e1",
+      "size": 15204
+    },
+    {
+      "path": "SpaLORA/preprocess.py",
+      "sha256": "8b1a9c27611cc365ae575ff7b95ea2a76f4addafdd37c3189d9c162ad9628a38",
+      "size": 10046
+    },
+    {
+      "path": "SpaLORA/night11b_discordance.py",
+      "sha256": "90bdedbccd44acfa56e97a64f98f9ca256d49147fcfb038fdf3f5f6e823d1146",
+      "size": 17576
+    },
+    {
+      "path": "scripts/night11b/night11b_runner.py",
+      "sha256": "5e67fa4c146d21214580b5e4abf5055da2206b6a953788388d3cc8024c6820ff",
+      "size": 30633
+    },
+    {
+      "path": "scripts/night11b/night11b_reload.py",
+      "sha256": "8f19419874ceb24b783316e2deb58de9be13c98b0fcbfd0f99b50c4ca2df5a61",
+      "size": 2250
+    },
+    {
+      "path": "scripts/post_night11a_direction_reset/read_only_asset_audit.py",
+      "sha256": "ccf906dda4ae6d694bc9f3f2dbb0f29f58f06ba8bbdf56b4aee9f5085e4161bd",
+      "size": 14486
+    },
+    {
+      "path": "outputs/post_night11a_direction_reset/asset_capability_matrix.csv",
+      "sha256": "0b68dac03d21c46f68f8ec5329071632d442d81d3760a8933b8601799ed8d880",
+      "size": 3388
+    },
+    {
+      "path": "outputs/post_night11a_direction_reset/source_dependency_map.md",
+      "sha256": "351703d9df1a7c37491a4c52f5963d4ba3b8617dff9ce7e222a35e5ada158dd6",
+      "size": 6041
+    },
+    {
+      "path": "outputs/post_night11a_direction_reset/direction_decision.json",
+      "sha256": "2443707214a2fa8929804dcfece26b5c38e9afddfb5b3367ffebf87b502d3e1c",
+      "size": 3301
+    }
+  ],
+  "guesswork_used": false,
+  "status": "PASS",
+  "verified_semantics": [
+    "Night-1 RNA log-normalize",
+    "Night-1 Seurat CLR then Scanpy ddof=1 scale",
+    "29 byte-exact mappings",
+    "G04 sparse graph",
+    "HDF5 label firewall"
+  ]
+}

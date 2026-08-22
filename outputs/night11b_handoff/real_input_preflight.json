@@ -1,0 +1,585 @@
+{
+  "all_fresh_reload": true,
+  "all_real_feature_level": true,
+  "all_registered_preprocessing": true,
+  "all_sparse_graph": true,
+  "label_values_opened": false,
+  "rows": [
+    {
+      "dataset": "a1",
+      "elapsed_seconds": 1.3747299425303936,
+      "exact_link_count": 29,
+      "excluded_links": [
+        "HLA-DRA",
+        "PTPRC-1"
+      ],
+      "feature_ids": [
+        "CD163",
+        "CR2",
+        "PCNA",
+        "VIM",
+        "KRT5",
+        "CD68",
+        "CEACAM8",
+        "PTPRC",
+        "PAX5",
+        "SDC1",
+        "CD8A",
+        "BCL2",
+        "CD19",
+        "PDCD1",
+        "ACTA2",
+        "FCGR3A",
+        "ITGAX",
+        "CXCR5",
+        "EPCAM",
+        "MS4A1",
+        "CD3E",
+        "CD14",
+        "CD40",
+        "PECAM1",
+        "CD4",
+        "ITGAM",
+        "CD27",
+        "CCR7",
+        "CD274"
+      ],
+      "fresh_reload": {
+        "artifact": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822/smoke/a1/smoke_artifact.npz",
+        "artifact_sha256": "6113047f8ec5ea48e214dfe0c171a13043b506828d255df3e0171c89451bae61",
+        "checks": {
+          "combined": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "242b3d24fb3e54e01de9514cb6c7889ba52d7ee095bd5957562f183a3a192213",
+            "shape": [
+              29
+            ]
+          },
+          "coordinates": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "68a4b09f46678e00bcf4e90b9155d90ef903b71b65ba9f589f5159530b5a232d",
+            "shape": [
+              3484,
+              2
+            ]
+          },
+          "feature_ids_utf8": {
+            "dtype": "|S7",
+            "pass": true,
+            "sha256": "214c0b05447526934775a08dc95b29bbd541cab81db729275152e18394b9732c",
+            "shape": [
+              29
+            ]
+          },
+          "folds": {
+            "dtype": "int64",
+            "pass": true,
+            "sha256": "a99d4f1ec260ec953a2dfb8262567be7932357deed305e9a861850bef5c2890f",
+            "shape": [
+              3484
+            ]
+          },
+          "ordered_ids_utf8": {
+            "dtype": "|S21",
+            "pass": true,
+            "sha256": "e5afeb57ccd21acf56884c23d3caf67d61799f6f924f12e0847ac583cd553db0",
+            "shape": [
+              3484
+            ]
+          },
+          "residual": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "4f063883ca7cc089b6a0ec64719e446cbe7e40f0eb13b37ac75f2f719873483a",
+            "shape": [
+              3484,
+              29
+            ]
+          },
+          "shared_prediction": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "ce6cb4e81d052681ac5872a24ff9b15fd1b7ff06b3fb282261ac00e76ea9e2b3",
+            "shape": [
+              3484,
+              29
+            ]
+          }
+        },
+        "label_values_opened": false,
+        "manifest": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822/smoke/a1/smoke_manifest.json",
+        "process_id": 1900,
+        "schema": "spalora.night11b.fresh_reload.v1",
+        "shape_dtype_id_byte_exact": true,
+        "status": "PASS"
+      },
+      "full_alpha": 100.0,
+      "input_audit": {
+        "adt_dtype": "float32",
+        "adt_file": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_adt.h5ad",
+        "adt_file_mtime_ns": 1786110490660003967,
+        "adt_file_size": 1165256,
+        "adt_obs_keys_not_opened": [
+          "final_annot",
+          "lab",
+          "lab_lynn",
+          "src"
+        ],
+        "adt_raw_shape": [
+          3484,
+          31
+        ],
+        "coordinate_sha256": "295770aae8dba8e93786428f5ce86878356d3c6706a409c5e298ed962616368e",
+        "coordinates_shape": [
+          3484,
+          2
+        ],
+        "dataset": "a1",
+        "design_shape": [
+          3484,
+          58
+        ],
+        "graph_file": "/autodl-fs/data/night6c_cache_20260817/graphs/a1/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz",
+        "graph_file_sha256": "af815110126fe484b48a88f58d0f86f5eb0ed58d9b7da021ba9d4cea796e1d78",
+        "graph_nnz": 38624,
+        "graph_shape": [
+          3484,
+          3484
+        ],
+        "h5_read_allowlist": [
+          "/X",
+          "/obs/_index",
+          "/var/_index",
+          "/obsm/spatial"
+        ],
+        "label_values_opened": false,
+        "linked_adt_shape": [
+          3484,
+          29
+        ],
+        "linked_feature_sha256": "97880093a2b3732574b1402e24f28a809609409278e6d127bc065b2f0bdb0027",
+        "linked_rna_shape": [
+          3484,
+          29
+        ],
+        "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "preprocessing": {
+          "protein": "Night-1 Seurat CLR per spot over all 31 deposited targets then Scanpy scale ddof=1",
+          "rna": "Night-1 log1p(10000 * raw_count / full_library_size)",
+          "spatial_context": "registered G04 symmetric sparse row-normalized one-hop linked RNA"
+        },
+        "processed_dtype": "float64",
+        "rna_dtype": "float32",
+        "rna_file": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_rna.h5ad",
+        "rna_file_mtime_ns": 1786110507488421061,
+        "rna_file_size": 56585218,
+        "rna_obs_keys_not_opened": [
+          "final_annot",
+          "lab",
+          "lab_lynn",
+          "src"
+        ],
+        "rna_raw_shape": [
+          3484,
+          18085
+        ],
+        "spot_count": 3484
+      },
+      "outer_selected_alphas": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "spatial_fold_counts": [
+        697,
+        697,
+        697,
+        697,
+        696
+      ],
+      "status": "REAL_END_TO_END_AND_FRESH_RELOAD_PASS"
+    },
+    {
+      "dataset": "tonsil",
+      "elapsed_seconds": 2.23110518604517,
+      "exact_link_count": 29,
+      "excluded_links": [
+        "HLA-DRA",
+        "PTPRC-1"
+      ],
+      "feature_ids": [
+        "CD163",
+        "CR2",
+        "PCNA",
+        "VIM",
+        "KRT5",
+        "CD68",
+        "CEACAM8",
+        "PTPRC",
+        "PAX5",
+        "SDC1",
+        "CD8A",
+        "BCL2",
+        "CD19",
+        "PDCD1",
+        "ACTA2",
+        "FCGR3A",
+        "ITGAX",
+        "CXCR5",
+        "EPCAM",
+        "MS4A1",
+        "CD3E",
+        "CD14",
+        "CD40",
+        "PECAM1",
+        "CD4",
+        "ITGAM",
+        "CD27",
+        "CCR7",
+        "CD274"
+      ],
+      "fresh_reload": {
+        "artifact": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822/smoke/tonsil/smoke_artifact.npz",
+        "artifact_sha256": "de1831289fba7c262f2b7b69c39a5101752336b4bf1991fc68c8520be7f52ad9",
+        "checks": {
+          "combined": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "765229f6934e253342c5c694eae7ef20d93f873acf18ab2beacd7aeef1d3bc03",
+            "shape": [
+              29
+            ]
+          },
+          "coordinates": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "4571fbc24c50c59e45b443c0bfdb054708c5e078a5823eb8c2d828fdeece6e8f",
+            "shape": [
+              4326,
+              2
+            ]
+          },
+          "feature_ids_utf8": {
+            "dtype": "|S7",
+            "pass": true,
+            "sha256": "214c0b05447526934775a08dc95b29bbd541cab81db729275152e18394b9732c",
+            "shape": [
+              29
+            ]
+          },
+          "folds": {
+            "dtype": "int64",
+            "pass": true,
+            "sha256": "0a4164244c7211332169a79d356017c9669df64b10a702772fa9b7da743fb936",
+            "shape": [
+              4326
+            ]
+          },
+          "ordered_ids_utf8": {
+            "dtype": "|S21",
+            "pass": true,
+            "sha256": "fde91e20da881e093ffd478369f99a32f653964a2f9cfa2edfbb471f77bdfbfb",
+            "shape": [
+              4326
+            ]
+          },
+          "residual": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "e9fe5a0637afaa8ddbf9ce4da445b9efc97d369d234dde81a9e7d2aed67930e6",
+            "shape": [
+              4326,
+              29
+            ]
+          },
+          "shared_prediction": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "2ed80931fc87105f7c621789d7575b00662dcaab093077ebcb99401065882b4c",
+            "shape": [
+              4326,
+              29
+            ]
+          }
+        },
+        "label_values_opened": false,
+        "manifest": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822/smoke/tonsil/smoke_manifest.json",
+        "process_id": 1971,
+        "schema": "spalora.night11b.fresh_reload.v1",
+        "shape_dtype_id_byte_exact": true,
+        "status": "PASS"
+      },
+      "full_alpha": 100.0,
+      "input_audit": {
+        "adt_dtype": "float32",
+        "adt_file": "/autodl-fs/data/night6b_data_20260817/tonsil_label_free/tonsil_s1_adt_label_free.h5ad",
+        "adt_file_mtime_ns": 1786961511897365649,
+        "adt_file_size": 613278,
+        "adt_obs_keys_not_opened": [],
+        "adt_raw_shape": [
+          4326,
+          31
+        ],
+        "coordinate_sha256": "fe7e02282c01ddd1b521fd53981eb0128a3085757a3f6a45ade6ea05a57601dd",
+        "coordinates_shape": [
+          4326,
+          2
+        ],
+        "dataset": "tonsil",
+        "design_shape": [
+          4326,
+          58
+        ],
+        "graph_file": "/autodl-fs/data/night6c_cache_20260817/graphs/tonsil/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz",
+        "graph_file_sha256": "0f999e93ab3e7335d00584b42f8cfe17c87a18e4eea7b2b42983dbe13f4823a1",
+        "graph_nnz": 48212,
+        "graph_shape": [
+          4326,
+          4326
+        ],
+        "h5_read_allowlist": [
+          "/X",
+          "/obs/_index",
+          "/var/_index",
+          "/obsm/spatial"
+        ],
+        "label_values_opened": false,
+        "linked_adt_shape": [
+          4326,
+          29
+        ],
+        "linked_feature_sha256": "97880093a2b3732574b1402e24f28a809609409278e6d127bc065b2f0bdb0027",
+        "linked_rna_shape": [
+          4326,
+          29
+        ],
+        "ordered_observation_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "preprocessing": {
+          "protein": "Night-1 Seurat CLR per spot over all 31 deposited targets then Scanpy scale ddof=1",
+          "rna": "Night-1 log1p(10000 * raw_count / full_library_size)",
+          "spatial_context": "registered G04 symmetric sparse row-normalized one-hop linked RNA"
+        },
+        "processed_dtype": "float64",
+        "rna_dtype": "float32",
+        "rna_file": "/autodl-fs/data/night6b_data_20260817/tonsil_label_free/tonsil_s1_rna_label_free.h5ad",
+        "rna_file_mtime_ns": 1786961507151570945,
+        "rna_file_size": 36810093,
+        "rna_obs_keys_not_opened": [],
+        "rna_raw_shape": [
+          4326,
+          18085
+        ],
+        "spot_count": 4326
+      },
+      "outer_selected_alphas": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "spatial_fold_counts": [
+        866,
+        865,
+        865,
+        865,
+        865
+      ],
+      "status": "REAL_END_TO_END_AND_FRESH_RELOAD_PASS"
+    },
+    {
+      "dataset": "d1",
+      "elapsed_seconds": 1.3159304168075323,
+      "exact_link_count": 29,
+      "excluded_links": [
+        "HLA-DRA",
+        "PTPRC-1"
+      ],
+      "feature_ids": [
+        "CD163",
+        "CR2",
+        "PCNA",
+        "VIM",
+        "KRT5",
+        "CD68",
+        "CEACAM8",
+        "PTPRC",
+        "PAX5",
+        "SDC1",
+        "CD8A",
+        "BCL2",
+        "CD19",
+        "PDCD1",
+        "ACTA2",
+        "FCGR3A",
+        "ITGAX",
+        "CXCR5",
+        "EPCAM",
+        "MS4A1",
+        "CD3E",
+        "CD14",
+        "CD40",
+        "PECAM1",
+        "CD4",
+        "ITGAM",
+        "CD27",
+        "CCR7",
+        "CD274"
+      ],
+      "fresh_reload": {
+        "artifact": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822/smoke/d1/smoke_artifact.npz",
+        "artifact_sha256": "38545ce59dab5ecaeb130d2d796e5ff127b4e27469797ac7c9e41cdeb05f5967",
+        "checks": {
+          "combined": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "83baca64f2ebdc4bd158421a16235ee8e5f7381b6ac06c42c3b1f679fac1c259",
+            "shape": [
+              29
+            ]
+          },
+          "coordinates": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "5c741e1af84cc4811fa874b096ce45a404c8f0e225779fa254ffd0d85032d6a0",
+            "shape": [
+              3359,
+              2
+            ]
+          },
+          "feature_ids_utf8": {
+            "dtype": "|S7",
+            "pass": true,
+            "sha256": "214c0b05447526934775a08dc95b29bbd541cab81db729275152e18394b9732c",
+            "shape": [
+              29
+            ]
+          },
+          "folds": {
+            "dtype": "int64",
+            "pass": true,
+            "sha256": "e9ae89b0f31091c932ff526499bc69136f26678b3288350bdede35e7e8ebc9df",
+            "shape": [
+              3359
+            ]
+          },
+          "ordered_ids_utf8": {
+            "dtype": "|S21",
+            "pass": true,
+            "sha256": "92e0070fcffaccd0ca80afb0f89de485503dcd59d614b15f1daf06b0c850d257",
+            "shape": [
+              3359
+            ]
+          },
+          "residual": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "ba3428d12d0501c2eff1bc22622b88d048354fb03674b5eca1a9c8aa51331d06",
+            "shape": [
+              3359,
+              29
+            ]
+          },
+          "shared_prediction": {
+            "dtype": "float64",
+            "pass": true,
+            "sha256": "cc61bc63a0084f812e645b5345c2acf9f5818f99eeae4431a93b33992a7f1663",
+            "shape": [
+              3359,
+              29
+            ]
+          }
+        },
+        "label_values_opened": false,
+        "manifest": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822/smoke/d1/smoke_manifest.json",
+        "process_id": 2028,
+        "schema": "spalora.night11b.fresh_reload.v1",
+        "shape_dtype_id_byte_exact": true,
+        "status": "PASS"
+      },
+      "full_alpha": 100.0,
+      "input_audit": {
+        "adt_dtype": "float32",
+        "adt_file": "/autodl-fs/data/night6d_data_20260817/d1_label_free/d1_adt_label_free.h5ad",
+        "adt_file_mtime_ns": 1786983848896021561,
+        "adt_file_size": 464002,
+        "adt_obs_keys_not_opened": [],
+        "adt_raw_shape": [
+          3359,
+          31
+        ],
+        "coordinate_sha256": "4a8ac21c9bd31c5c64fbfc33dd553ef3c30ef7c541304ba3625ac657e9943c69",
+        "coordinates_shape": [
+          3359,
+          2
+        ],
+        "dataset": "d1",
+        "design_shape": [
+          3359,
+          58
+        ],
+        "graph_file": "/autodl-fs/data/night6d_cache_20260817/graphs/d1/G04_SP10_F10_EUC_UNION/adj_spatial_omics1_support.npz",
+        "graph_file_sha256": "4f3cf0d88fb7b727836b5fd175c06570bda685a64d28a270014263181ce58cab",
+        "graph_nnz": 37242,
+        "graph_shape": [
+          3359,
+          3359
+        ],
+        "h5_read_allowlist": [
+          "/X",
+          "/obs/_index",
+          "/var/_index",
+          "/obsm/spatial"
+        ],
+        "label_values_opened": false,
+        "linked_adt_shape": [
+          3359,
+          29
+        ],
+        "linked_feature_sha256": "97880093a2b3732574b1402e24f28a809609409278e6d127bc065b2f0bdb0027",
+        "linked_rna_shape": [
+          3359,
+          29
+        ],
+        "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+        "preprocessing": {
+          "protein": "Night-1 Seurat CLR per spot over all 31 deposited targets then Scanpy scale ddof=1",
+          "rna": "Night-1 log1p(10000 * raw_count / full_library_size)",
+          "spatial_context": "registered G04 symmetric sparse row-normalized one-hop linked RNA"
+        },
+        "processed_dtype": "float64",
+        "rna_dtype": "float32",
+        "rna_file": "/autodl-fs/data/night6d_data_20260817/d1_label_free/d1_rna_label_free.h5ad",
+        "rna_file_mtime_ns": 1786983720731039996,
+        "rna_file_size": 8535191,
+        "rna_obs_keys_not_opened": [],
+        "rna_raw_shape": [
+          3359,
+          18085
+        ],
+        "spot_count": 3359
+      },
+      "outer_selected_alphas": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "spatial_fold_counts": [
+        672,
+        672,
+        672,
+        672,
+        671
+      ],
+      "status": "REAL_END_TO_END_AND_FRESH_RELOAD_PASS"
+    }
+  ],
+  "schema": "spalora.night11b.real_input_preflight.v1",
+  "status": "3_OF_3_PASS"
+}
