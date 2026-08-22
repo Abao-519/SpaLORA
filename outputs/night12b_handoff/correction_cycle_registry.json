@@ -1,0 +1,10 @@
+{
+  "formal_correction_cycles_used": 0,
+  "formal_correction_limit": 1,
+  "preformal_implementation_fixes": [
+    "registered P10 authority hash was corrected to include the contract-required final newline",
+    "compact Night-12A audits that omitted a false/implicit CSV header flag are restored from header width before loading",
+    "ADT observation order omitted by compact schema is re-audited from identifiers before exact reindex"
+  ],
+  "scientific_formula_or_threshold_changes": 0
+}

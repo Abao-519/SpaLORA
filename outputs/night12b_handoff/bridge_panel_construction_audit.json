@@ -1,0 +1,44 @@
+{
+  "all_six_rna_feature_hashes": {
+    "P10S1": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+    "P10S2": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+    "P10S3": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+    "P5S1": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+    "P5S2": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+    "P5S3": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8"
+  },
+  "final_m": 80,
+  "final_ordered_identifier_sha256": "83fc26b64268694450a1601868c0ce470c9f9f41a4d0b6efebe608fdb9be1bbd",
+  "gtf_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/Mus_musculus.GRCm38.79.gtf.gz",
+  "gtf_sha256": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+  "label_reads": 0,
+  "numeric_matrix_reads": 0,
+  "p10_only_count": 83,
+  "p10_only_ordered_sha256": "ac1b801fceba359bbd7e9454c6811400443440575e4022376c9f64940e612a43",
+  "p5_lexical_first_256_used": false,
+  "panel_csv_sha256": "53d7e20f88c20b52c39562d749cb9d58f3cde795396b8ac4210844276a1cba51",
+  "panel_text_sha256": "83fc26b64268694450a1601868c0ce470c9f9f41a4d0b6efebe608fdb9be1bbd",
+  "schema": "spalora.night12b.bridge_panel.v1",
+  "structural_deletion_count": 3,
+  "structural_deletions": [
+    {
+      "canonical_identifier": "Jaml",
+      "structural_reasons": [
+        "not_exactly_one_Ensembl79_interval"
+      ]
+    },
+    {
+      "canonical_identifier": "Lilrb4a",
+      "structural_reasons": [
+        "not_exactly_one_Ensembl79_interval"
+      ]
+    },
+    {
+      "canonical_identifier": "Vsir",
+      "structural_reasons": [
+        "not_exactly_one_Ensembl79_interval"
+      ]
+    }
+  ],
+  "wall_seconds": 4.694941317662597
+}

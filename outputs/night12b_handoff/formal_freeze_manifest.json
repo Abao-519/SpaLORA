@@ -1,0 +1,138 @@
+{
+  "block_bootstraps": 64,
+  "decision_bootstraps": 2000,
+  "files": [
+    {
+      "path": "SpaLORA/night12b_link_ident.py",
+      "sha256": "36be2c5eae1bb1c769923f4922526087aad4499f1e01dc3fc31903bad75e6d63",
+      "size": 33065
+    },
+    {
+      "path": "scripts/night12b/night12b_runner.py",
+      "sha256": "46cdc9ab76368323bba08a2e489451cd969c241d909131d7461193a44c764c54",
+      "size": 194
+    },
+    {
+      "path": "scripts/night12b/night12b_freeze.py",
+      "sha256": "dae4d4254d13160008856210809e1279ffb4b6e6f2819e3e44c6e88fd5cdab70",
+      "size": 7104
+    },
+    {
+      "path": "tests/night12b/test_night12b_link_ident.py",
+      "sha256": "989f53eb1a709573ebfdb9ddd8c216d05b808cff68065ddcbd956ddfa8d504a9",
+      "size": 3866
+    },
+    {
+      "path": "configs/night12b/SpaLORA_Night12B_Replicate_Calibrated_Link_Identifiability_Taskbook_2026-08-22.md",
+      "sha256": "6e2dd8258cf083f7a8498e2f4110b2646f1212800cb100e64a0607f80dc90ca2",
+      "size": 12963
+    },
+    {
+      "path": "configs/night12b/night12b_replicate_calibrated_link_identifiability_contract.json",
+      "sha256": "fe0348b75aaaab7f6658404b50e518f439bf48a22978fe17a0236694e6a9b88d",
+      "size": 17639
+    },
+    {
+      "path": "outputs/night12b_handoff/bridge_panel.csv",
+      "sha256": "53d7e20f88c20b52c39562d749cb9d58f3cde795396b8ac4210844276a1cba51",
+      "size": 5885
+    },
+    {
+      "path": "outputs/night12b_handoff/bridge_panel_identifiers.txt",
+      "sha256": "83fc26b64268694450a1601868c0ce470c9f9f41a4d0b6efebe608fdb9be1bbd",
+      "size": 465
+    },
+    {
+      "path": "outputs/night12b_handoff/bridge_panel_construction_audit.json",
+      "sha256": "fb9539b6e501b867f954c5625e737cc6d9f740bfb2386fff7dc7bbead637cda4",
+      "size": 1793
+    },
+    {
+      "path": "outputs/night12b_handoff/real_unit_preflight.json",
+      "sha256": "d5245e546d8c8b6534d6eac725353968b438ef42bfa003de2d7833114eb3df3f",
+      "size": 16439
+    },
+    {
+      "path": "outputs/night12b_handoff/row_join_audit.csv",
+      "sha256": "68543df98bc2d21eb22285c6a01c9c35b6330b89fdba0c50ae78b3475142ae49",
+      "size": 571
+    },
+    {
+      "path": "outputs/night12b_handoff/spatial_fold_assignment_manifest.json",
+      "sha256": "5bd1265020666acb5b9d2a04385938a3da324bd1620bb156e3028e176ab76f87",
+      "size": 2304
+    },
+    {
+      "path": "outputs/night12b_handoff/label_and_prohibited_action_firewall.json",
+      "sha256": "a38fe3ff8a81c9ae97420249951ac50218d57c4b5e8073d42fa8d30ffa99c9a7",
+      "size": 1021
+    },
+    {
+      "path": "outputs/night12b_handoff/raw_immutability_baseline.json",
+      "sha256": "3bc69f0444c1d405e09f615afec77e42faa60389aee42818c8ee9e8a155f4fc7",
+      "size": 225
+    },
+    {
+      "path": "outputs/night12b_handoff/environment_audit.json",
+      "sha256": "d6ba79ff95ea9cb42610ff6019faedc5cbc7205e0fdd00950baa6be44905e92b",
+      "size": 282
+    },
+    {
+      "path": "outputs/night12b_handoff/correction_cycle_registry.json",
+      "sha256": "3d1a5904e3d1deca2bb1280f876d2004c9bc420a43e4586aac206b7fb840949b",
+      "size": 492
+    }
+  ],
+  "firewall_all_zero": true,
+  "frozen": true,
+  "panel_m": 80,
+  "parent_commit": "ed7c93d979a85eb8b907058ea463d93ba65f6956",
+  "passed_preflight": "6/6",
+  "registered_artifacts": [
+    {
+      "artifact_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S1/registered_matrices.npz",
+      "artifact_sha256": "b15744459527b3877e28955d5e2f14b1366ba8c2da0cf6956a2d9e606fa78e2b",
+      "artifact_size": 520865,
+      "fold_assignment_sha256": "acc7c3e846b119c1ef2ac864ebcaa4203e35e3f02df2f8f7fc794a17951dc21e",
+      "unit_id": "P5S1"
+    },
+    {
+      "artifact_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S2/registered_matrices.npz",
+      "artifact_sha256": "7af0a89fcd6ab7d50606c7c5c2082a501cbb34cd3f172cef07921ca65088127f",
+      "artifact_size": 1406073,
+      "fold_assignment_sha256": "b3530ad91d635bc5ad3302810b8c7cdfe8bb515d50ab2edf60cf08dcd94a8412",
+      "unit_id": "P5S2"
+    },
+    {
+      "artifact_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S3/registered_matrices.npz",
+      "artifact_sha256": "4384044f093134a2a38cdf4ae42c371abe133d63f66d489c2cb2a5ea16358fcf",
+      "artifact_size": 894433,
+      "fold_assignment_sha256": "cbbb225b4ebe1b48def3100367b0f587f7efd883716bcfdfa060be6b8bf6cc88",
+      "unit_id": "P5S3"
+    },
+    {
+      "artifact_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S1/registered_matrices.npz",
+      "artifact_sha256": "f4e6f1f6ce5ac56bc403ea5f523a2e3503426a557b7c1385e347a8827fe0a05c",
+      "artifact_size": 1407490,
+      "fold_assignment_sha256": "166c55ae90df73b1eb13a870a273c889354d662fc3a751b71091d7b3de38b56d",
+      "unit_id": "P10S1"
+    },
+    {
+      "artifact_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S2/registered_matrices.npz",
+      "artifact_sha256": "dd27ef81dd72c0d65d8736c070804c072063a4a8a862d14e60eb59591b1909c9",
+      "artifact_size": 3352774,
+      "fold_assignment_sha256": "ffd403276709bb422cd396000860f70ac9c8c7e6b96c2a851f5557fb05909f1c",
+      "unit_id": "P10S2"
+    },
+    {
+      "artifact_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S3/registered_matrices.npz",
+      "artifact_sha256": "fb326dc1d162bffdcc47c534c8ddc61b2674d8059cc4b19e76c38d2f36c3ee97",
+      "artifact_size": 775611,
+      "fold_assignment_sha256": "5293fa5adabbb54508bbca28f349aecdc454ffc42924bdd754708c02a2365d4e",
+      "unit_id": "P10S3"
+    }
+  ],
+  "required_preflight": "6/6",
+  "schema": "spalora.night12b.formal_freeze.v1",
+  "scientific_values_used_to_change_contract": false
+}

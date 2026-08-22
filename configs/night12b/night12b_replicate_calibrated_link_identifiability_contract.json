@@ -1,0 +1,292 @@
+{
+  "contract_version": "1.0.0",
+  "date": "2026-08-22",
+  "project_working_name": "SpaLORA",
+  "experiment": "Night-12B",
+  "authorization": {
+    "authorized_by_user": true,
+    "authorized_scope": "P0_IDENT_ONLY_NO_NEW_DOWNLOAD_NO_LABEL_NO_CLUSTER_METRIC_NO_NEURAL_MODEL_TRAINING",
+    "supersedes_historical_planning_flag": {
+      "file": "post_night12a_p0_ident_readiness_review_20260822/decision.json",
+      "field": "night12b_authorized",
+      "old_value": false,
+      "reason": "The user explicitly authorized Night-12B after reviewing the proposal."
+    }
+  },
+  "scientific_question": "Can link specificity, spatial-block stability, and agreement across two discovery replicates predict authoritative cross-modal link utility in a completely held-out third replicate, under one common formula for RNA+protein and RNA+ATAC?",
+  "interpretation_boundary": {
+    "success_is": "LOCAL_SIGNAL authorizing design of a later small gated-fusion layer",
+    "success_is_not": [
+      "clustering improvement",
+      "model performance improvement",
+      "confirmed paper contribution",
+      "SOTA",
+      "permission to read labels or calculate ARI/NMI/Q"
+    ],
+    "failure_with_correct_implementation_is": "SCIENTIFIC_NEGATIVE and stops this new direction",
+    "novelty_boundary": "replicate-calibrated authoritative cross-modal linked utility for future information-transfer gating",
+    "prohibited_novelty_claims": [
+      "first use of biological replicates in spatial omics",
+      "first replicate-aware spatial statistics",
+      "first uncertainty-aware spatial multi-omics integration"
+    ]
+  },
+  "frozen_lineage": {
+    "parent_commit": "ed7c93d979a85eb8b907058ea463d93ba65f6956",
+    "parent_tag": "night12a-final-20260822",
+    "branch": "revision/q2-night12b-replicate-calibrated-link-identifiability-20260822",
+    "protection_tag": "baseline/pre-night12b-replicate-calibrated-link-identifiability-20260822",
+    "final_tag": "night12b-final-20260822",
+    "remote_workspace": "/root/autodl-fs/SpaLORA-night12b",
+    "night12a_raw_root_read_only": "/root/autodl-fs/night12a_linked_replicate_schema_p0_20260822",
+    "night12b_derived_root": "/root/autodl-fs/night12b_replicate_calibrated_link_identifiability_20260822",
+    "windows_delivery_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night12b_delivery_20260822/official_compact",
+    "push_policy": "normal push only; no force"
+  },
+  "authority_inputs": {
+    "night12a_compact_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night12a_delivery_20260822/official_compact",
+    "night12a_compact_expected_files": "35/35",
+    "night12a_compact_index_sha256": "27a102c731f91078d519d08da2cf01067f4037dd8b9075bf41f69a075f69d933",
+    "night12a_bundle_sha256": "ce0b8f60a050579693fb63ff4764fba3c367640c1dd80c3181e0e4b96e80fbf8",
+    "planning_review": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/post_night12a_p0_ident_readiness_review_20260822/Night12A_Independent_Review_and_Night12B_P0_IDENT_Proposal_2026-08-22.md",
+      "sha256": "6ccfa16e52b2534912ebfd88bb360f880e2d371454503f8975ccd2777b273be1"
+    },
+    "planning_decision_before_authorization": {
+      "path": "D:/文档/ChatGPT/博士第一篇科研论文项目/post_night12a_p0_ident_readiness_review_20260822/decision.json",
+      "sha256": "8f96237a8627cc2de564035241204562bd08c00fb3ffaf9b6b155055a2249fad"
+    }
+  },
+  "units": {
+    "RNA_PLUS_ATAC": ["P5S1", "P5S2", "P5S3"],
+    "RNA_PLUS_PROTEIN": ["P10S1", "P10S2", "P10S3"],
+    "leave_one_replicate_out_folds_per_family": 3,
+    "spotwise_cross_replicate_alignment": "PROHIBITED"
+  },
+  "bridge_panel": {
+    "meaning": "A fixed set of canonical genes representable by the same gene identity in both modality families; it is a fairness interface, not the method name.",
+    "construction_order": [
+      "intersect status=unique canonical_identifier values across P10S1, P10S2, and P10S3",
+      "intersect with feature identifiers in all six RNA matrices",
+      "intersect with genes having exactly one Ensembl release 79 GRCm38 interval under the frozen Night-12A annotation parser",
+      "sort by exact Unicode code-point order",
+      "write one UTF-8 identifier per line with a final newline and record SHA-256 before any numeric expression or outcome value is inspected"
+    ],
+    "selection_prohibitions": [
+      "expression mean",
+      "expression variance",
+      "marker status",
+      "preliminary effect",
+      "held-out result",
+      "family-specific feature selection"
+    ],
+    "observed_pre_annotation_p10_intersection_count": 83,
+    "observed_pre_annotation_p10_ordered_list_sha256": "ac1b801fceba359bbd7e9454c6811400443440575e4022376c9f64940e612a43",
+    "expected_p10_three_replicate_intersection_count": 83,
+    "final_count": "m is determined mechanically by the remaining intersections with all six RNA identifiers and unique Ensembl79 intervals before any numeric matrix is read; no fixed final m is assumed",
+    "allowed_final_count": "3 <= m <= 83",
+    "mismatch_policy": "If the P10-only intersection is not exactly the registered 83-gene list/hash, stop as NIGHT12B_INPUT_PROVENANCE_BLOCKED. If later structural intersections remove genes, record every identifier and structural reason and continue only when m>=3; never replace removed genes or adapt the panel.",
+    "minimum_for_exhaustive_decoys": 3,
+    "constant_or_zero_features": "retain, mark non-identifiable, and report; never silently drop",
+    "p5_lexical_first_256": "PROHIBITED_ENGINEERING_SMOKE_ONLY"
+  },
+  "preprocessing": {
+    "common_rna": {
+      "formula": "log1p(10000 * count / full_spot_library_sum)",
+      "library_sum_scope": "all deposited RNA features before bridge-panel selection",
+      "zero_library_policy": "fail closed and report"
+    },
+    "RNA_PLUS_ATAC_target": {
+      "source": "official P5 fragments already downloaded and frozen by Night-12A",
+      "annotation": "Ensembl release 79 GRCm38",
+      "link_formula": "gene body plus strand-aware 5 kb upstream; for every selected gene interval containing the fragment midpoint, add fifth-column multiplicity to that gene (overlapping selected-gene intervals may each receive the same fragment, exactly as in the frozen Night-12A parser)",
+      "normalization": "log1p(10000 * bridge_gene_fragment_count / full_registered_fragment_depth_for_joined_spot)",
+      "claim_boundary": "clean-room score; not numerically equivalent to ArchR GeneScoreMatrix",
+      "join": "exact canonical barcode join within each replicate; preserve and report all pre/post counts"
+    },
+    "RNA_PLUS_PROTEIN_target": {
+      "source": "official P10 ADT matrix already downloaded and frozen by Night-12A",
+      "transform": "For each spot and all deposited ADT targets, denominator = exp(sum(log1p(count_target))/number_of_targets), output_target = log1p(count_target/denominator); then select the structurally frozen bridge targets. Do not apply global feature scaling before outer cross-fit.",
+      "mapping": "only Night-12A status=unique canonical mappings; ambiguous, control, and unmapped targets never enter the bridge panel"
+    },
+    "coordinate_transform": {
+      "within_replicate_only": true,
+      "formula": "min-max normalize x and y to [0,1] using that replicate's full coordinate set",
+      "degenerate_axis": "retain as zero after subtraction; report"
+    },
+    "fold_standardization": "For every outer fold, standardize the target and candidate RNA predictor using training observations only; apply those parameters to the held-out block. The fixed spatial basis is not standardized. Zero training variance yields a zero standardized column and is reported."
+  },
+  "spatial_folds": {
+    "count": 5,
+    "construction": [
+      "center the replicate's normalized x,y coordinates",
+      "compute the 2x2 covariance and its leading eigenvector",
+      "fix sign so the loading with largest absolute magnitude is positive; ties choose x before y",
+      "if the leading eigenvalue is exactly tied and the leading vector is not uniquely determined, use the normalized x axis and report the fallback",
+      "sort by projection, normalized x, normalized y, then canonical spot identifier",
+      "split the ordered observations with numpy.array_split into five non-empty equal-count contiguous blocks"
+    ],
+    "scope": "coordinate-only and fixed before target values are inspected"
+  },
+  "per_replicate_link_utility": {
+    "spatial_basis": ["1", "x", "y", "x^2", "x*y", "y^2"],
+    "baseline": "target ~ fixed spatial basis",
+    "linked": "target ~ fixed spatial basis + one candidate RNA gene",
+    "estimator": "ordinary least squares via numpy.linalg.lstsq with rcond=1e-12",
+    "outer_cross_fit": "five fixed spatial blocks; train on four and predict the held-out block",
+    "utility": "u[r,j,g] = (SSE_baseline[r,j] - SSE_linked[r,j,g]) / max(SSE_baseline[r,j], 1e-12)",
+    "candidate_set": "all m bridge RNA genes for every bridge target j",
+    "true_link": "g equals the same canonical gene j",
+    "decoys": "all m-1 other bridge RNA genes; exhaustive, no subsampling",
+    "true_link_empirical_tail": "p_link[r,j] = (1 + count over g!=j of u[r,j,g] >= u[r,j,j]) / m",
+    "tie_policy": "ties count against the authoritative true link",
+    "p_link_note": "an empirical exhaustive-decoy rank tail, not a formally calibrated probability",
+    "implementation_equivalence": "residualization or batched linear algebra is permitted only if tests prove numerical equivalence to the frozen per-candidate OLS within absolute and relative tolerance 1e-10"
+  },
+  "spatial_block_bootstrap": {
+    "replicates": 64,
+    "seed_base": 120064,
+    "unit_seed": "seed_base + first 8 hex digits of SHA256(unit_id) interpreted as unsigned integer modulo 1000000",
+    "resampling_unit": "the five held-out spatial-block SSE contribution pairs",
+    "draw": "sample five block indices with replacement and sum their baseline/linked SSE contributions before recomputing all candidate utilities and the exhaustive-decoy rank tail",
+    "instability_tail": "p_unstable[r,j] = (1 + count over bootstrap b of p_link_boot[b,r,j] > 0.5) / 65",
+    "tie_policy": "p_link_boot equal to 0.5 is not counted as worse; all comparisons otherwise exact",
+    "p_unstable_note": "a smoothed block-instability rate, not a formally calibrated probability"
+  },
+  "leave_one_replicate_out": {
+    "folds": "For each modality family, hold each replicate out once and use only the other two as discovery replicates a,b.",
+    "heldout_outcome": "Y[h,j] = -log10(p_link[h,j])",
+    "axes_from_discovery_only": {
+      "link_only": "S_link[j] = -log10(sqrt(p_link[a,j] * p_link[b,j]))",
+      "bootstrap_only": "S_boot[j] = -log10(max(p_unstable[a,j], p_unstable[b,j]))",
+      "replicate_only": "S_repl[j] = -log10(max(p_link[a,j], p_link[b,j]))",
+      "combined": "S_comb[j] = -log10(max(p_link[a,j], p_link[b,j], p_unstable[a,j], p_unstable[b,j]))"
+    },
+    "score_note": "All four are deterministic ranking scores. None is to be described as a calibrated p-value.",
+    "heldout_isolation": "No held-out target values, utilities, ranks, or summaries may influence panel construction, formulas, thresholds, signs, transformations, or tie rules."
+  },
+  "evaluation": {
+    "fold_statistic": "Spearman correlation across all m bridge features between a discovery score and held-out Y",
+    "undefined_or_constant_policy": "set correlation to 0.0 and fail closed; report the reason",
+    "family_pooling": "clip each of the three fold correlations to [-1+1e-12, 1-1e-12], take arithmetic mean of Fisher atanh values, then tanh",
+    "decision_bootstrap": {
+      "replicates": 2000,
+      "seed": 120777,
+      "unit": "bridge feature identity",
+      "synchronous_resampling": "resample the same feature indices with replacement across all three held-out folds and all four axes within a family",
+      "interval": "two-sided percentile 95% interval using numpy quantile at 0.025 and 0.975 with method=linear",
+      "strongest_single_each_draw": "max of pooled link_only, bootstrap_only, and replicate_only correlations",
+      "paired_difference_each_draw": "pooled combined correlation minus strongest_single_each_draw"
+    }
+  },
+  "strict_scientific_gate": {
+    "per_family_all_required": [
+      "combined pooled point correlation is > 0",
+      "combined correlation is > 0 in each of the three held-out folds",
+      "95% bootstrap lower bound for pooled combined correlation is > 0",
+      "95% bootstrap lower bound for combined minus strongest single axis is > 0",
+      "median held-out p_link is < 0.5 in each of the three held-out folds",
+      "all six required real units completed with finite registered outputs and no forbidden read/action"
+    ],
+    "overall": "Both RNA_PLUS_ATAC and RNA_PLUS_PROTEIN must pass every per-family requirement. There is no partial overall pass.",
+    "no_additional_thresholds": true
+  },
+  "terminal_states": {
+    "success": {
+      "status": "NIGHT12B_REPLICATE_CALIBRATED_LINK_EVIDENCE_IDENTIFIABLE",
+      "classification": "LOCAL_SIGNAL"
+    },
+    "scientific_negative": {
+      "status": "NIGHT12B_LINK_EVIDENCE_NOT_IDENTIFIABLE",
+      "classification": "SCIENTIFIC_NEGATIVE"
+    },
+    "input_provenance_blocked": {
+      "status": "NIGHT12B_INPUT_PROVENANCE_BLOCKED",
+      "classification": "INFRASTRUCTURE_FAILURE"
+    },
+    "implementation_invalid": {
+      "status": "NIGHT12B_IMPLEMENTATION_SEMANTICS_INVALID",
+      "classification": "IMPLEMENTATION_FAILURE"
+    },
+    "infrastructure_blocked": {
+      "status": "NIGHT12B_INFRASTRUCTURE_BLOCKED",
+      "classification": "INFRASTRUCTURE_FAILURE"
+    }
+  },
+  "formal_freeze_and_corrections": {
+    "preformal": "Implementation and synthetic-test defects may be corrected before formal freeze, with a complete log. No real scientific summary may be inspected to choose a formula or threshold.",
+    "formal_freeze": "Hash source, contract, bridge panel, input manifests, fold assignments, and environment before formal evaluation.",
+    "after_freeze": "At most one global implementation correction cycle is allowed. It invalidates and reruns all six units, both families, all held-out folds, all axes, and all decision bootstraps.",
+    "forbidden_corrections": [
+      "formula revision after formal values are visible",
+      "threshold revision",
+      "feature removal",
+      "family-specific rescue",
+      "seed change",
+      "rerun of selected units",
+      "scientific fallback"
+    ]
+  },
+  "hard_prohibitions_and_expected_counts": {
+    "new_downloads": 0,
+    "new_external_datasets": 0,
+    "training_label_reads": 0,
+    "evaluation_label_reads": 0,
+    "total_label_reads": 0,
+    "ARI": 0,
+    "NMI": 0,
+    "AMI": 0,
+    "FMI": 0,
+    "Q": 0,
+    "annotation_based_spatial_metrics": 0,
+    "clustering_endpoint_calls": 0,
+    "neural_candidate_training_steps": 0,
+    "third_party_benchmarks": 0,
+    "MISAR_Y": 0,
+    "E18_5": 0,
+    "GSE263333_or_GSE213264_downloads": 0,
+    "QCRD_calls": 0,
+    "dataset_name_routing": 0,
+    "family_specific_scientific_formula_or_threshold": 0,
+    "dense_N_by_N_allocations": 0,
+    "scientific_retries_or_fallbacks": 0,
+    "spotwise_cross_replicate_alignment": 0,
+    "Night12A_historical_raw_mutations": 0
+  },
+  "p0_real_path_gate": {
+    "before_formal": [
+      "verify Night-12A compact 35/35 and all authority SHA-256 values",
+      "verify parent commit/tag and create the protection tag before changes",
+      "recompute the registered 83-gene P10-only upper set and then the exact final structural bridge panel (m<=83) before reading numeric matrices",
+      "materialize the six bridge-panel RNA/target matrices into the new derived root and verify exact identifiers, row joins, shapes, finiteness, sparse construction, and hashes",
+      "run fixed preprocessing -> five-block construction -> one baseline/linked OLS computation -> artifact write -> fresh-process reload on every real unit without printing or using scientific utility summaries",
+      "run synthetic controls and equivalence tests for OLS, exhaustive decoys, bootstrap, held-out isolation, and gate logic",
+      "verify the complete label and prohibited-action firewall before formal freeze"
+    ],
+    "required_units": "6/6",
+    "failure": "stop before formal evaluation and classify according to provenance, implementation, or infrastructure cause"
+  },
+  "required_reporting": {
+    "plain_chinese_first": [
+      "这一步想解决什么问题",
+      "实际做了什么以及位于流水线哪一层",
+      "结果对论文意味着什么"
+    ],
+    "main_tables": [
+      "bridge-panel count and non-identifiable count by unit",
+      "per family and held-out fold: median p_link plus four axis Spearman correlations",
+      "per family: pooled combined correlation and 95% CI, strongest-single difference and 95% CI, every gate boolean",
+      "runtime, peak RAM, and peak GPU"
+    ],
+    "mentor_summary": "5-8 plain Chinese sentences covering question, gap, new object, key numbers, limitation, and next step",
+    "technical_appendix": "commit, tags, hashes, compact verification, firewall counts, correction cycles, raw immutability, and resource audit",
+    "prohibited_wording": [
+      "SOTA",
+      "paper-ready",
+      "clustering improvement",
+      "model improvement",
+      "confirmed milestone"
+    ]
+  },
+  "shutdown_policy": "After all Windows delivery verification and final reporting are complete, dispatch /usr/bin/shutdown as the final remote command; do not reconnect and do not claim provider control-panel power state."
+}
