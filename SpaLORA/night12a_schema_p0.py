@@ -141,17 +141,12 @@ def read_coordinates(path: Path) -> Dict[str, object]:
 
 
 def _numeric_row(values: Sequence[str]) -> Tuple[int, float, bool]:
-    nnz = 0
-    total = 0.0
-    integer_like = True
-    for value in values:
-        number = float(value)
-        if not math.isfinite(number):
-            raise ValueError("non-finite matrix value")
-        if number != 0.0:
-            nnz += 1
-        total += number
-        integer_like = integer_like and abs(number - round(number)) <= 1e-9
+    numbers = np.asarray(values, dtype=np.float64)
+    if not np.all(np.isfinite(numbers)):
+        raise ValueError("non-finite matrix value")
+    nnz = int(np.count_nonzero(numbers))
+    total = float(numbers.sum(dtype=np.float64))
+    integer_like = bool(np.all(np.abs(numbers - np.rint(numbers)) <= 1e-9))
     return nnz, total, integer_like
 
 
