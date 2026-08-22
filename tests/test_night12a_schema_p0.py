@@ -51,6 +51,13 @@ def test_pixel_rule_and_orientation_do_not_rewrite_features(tmp_path):
     assert canonical_pixel_id("A-1") == "A"
     assert canonical_pixel_id("A-2") == "A-2"
 
+    no_index = tmp_path / "matrix.tsv"
+    no_index.write_text("A-1\tB-1\nGene-1\t1\t0\nGene\t0\t2\n")
+    audit_no_index = inspect_csv_matrix(no_index, ["A", "B"])
+    assert audit_no_index["header_index_field_present"] is False
+    assert audit_no_index["observation_by_feature_shape"] == [2, 2]
+    assert audit_no_index["feature_ids"] == ["Gene-1", "Gene"]
+
 
 def test_atac_interval_is_strand_aware_and_mm10_prefixed():
     registry = {"unique": {

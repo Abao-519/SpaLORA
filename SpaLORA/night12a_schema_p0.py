@@ -11,6 +11,7 @@ import bisect
 import csv
 import gzip
 import hashlib
+import itertools
 import json
 import math
 import os
@@ -150,16 +151,24 @@ def inspect_csv_matrix(path: Path, coordinate_ids: Sequence[str]) -> Dict[str, o
         header = next(reader)
         if len(header) < 2:
             raise ValueError("matrix header has fewer than two columns")
-        header_raw = [x.strip('"') for x in header[1:]]
+        first_row = next(reader)
+        if len(first_row) == len(header):
+            header_index_field_present = True
+            header_raw = [x.strip('"') for x in header[1:]]
+        elif len(first_row) == len(header) + 1:
+            header_index_field_present = False
+            header_raw = [x.strip('"') for x in header]
+        else:
+            raise ValueError("matrix header/data width contract invalid")
         header_ids = [canonical_pixel_id(x) for x in header_raw]
         header_hits = sum(x in coordinate_set for x in header_ids)
         row_count = 0
-        width = len(header) - 1
+        width = len(header_raw)
         row_raw: List[str] = []
         row_ids: List[str] = []
         nnz = 0
         integer_like = True
-        for row in reader:
+        for row in itertools.chain([first_row], reader):
             if len(row) != width + 1:
                 raise ValueError("matrix row width drift")
             row_count += 1
@@ -193,6 +202,7 @@ def inspect_csv_matrix(path: Path, coordinate_ids: Sequence[str]) -> Dict[str, o
         "source_path": str(Path(path).resolve()),
         "source_shape": [row_count, width],
         "observation_by_feature_shape": obs_by_feature_shape,
+        "header_index_field_present": header_index_field_present,
         "orientation": orientation,
         "dtype": "integer_count" if integer_like else "float64",
         "sparse_on_disk": False,
@@ -220,7 +230,9 @@ def load_selected_counts(path: Path, audit: Mapping[str, object],
         reader = csv.reader(handle, delimiter=delimiter)
         header = next(reader)
         if audit["orientation"] == "features_by_rows_spots_by_columns":
-            if [canonical_pixel_id(x.strip('"')) for x in header[1:]] != obs:
+            header_values = (header[1:] if audit["header_index_field_present"]
+                             else header)
+            if [canonical_pixel_id(x.strip('"')) for x in header_values] != obs:
                 raise ValueError("matrix observation order changed after preflight")
             for row in reader:
                 values = np.asarray(row[1:], dtype=np.float64)
@@ -231,7 +243,8 @@ def load_selected_counts(path: Path, audit: Mapping[str, object],
                 if name in feature_position:
                     output[:, feature_position[name]] = values.astype(np.float32)
         elif audit["orientation"] == "spots_by_rows_features_by_columns":
-            all_features = [x.strip('"') for x in header[1:]]
+            header_values = (header[1:] if audit["header_index_field_present"] else header)
+            all_features = [x.strip('"') for x in header_values]
             indices = [all_features.index(name) for name in selected]
             for row_index, row in enumerate(reader):
                 if canonical_pixel_id(row[0].strip('"')) != obs[row_index]:
@@ -439,9 +452,9 @@ def scan_fragments(
             line_count += 1
             multiplicity_sum += multiplicity
             row_index = obs_index.get(barcode)
-            registered_barcodes.add(barcode)
             if row_index is None:
                 continue
+            registered_barcodes.add(barcode)
             registered_depth[row_index] += float(multiplicity)
             chrom_rows = by_chrom.get(chrom)
             if not chrom_rows:
