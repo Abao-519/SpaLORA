@@ -1,0 +1,26 @@
+{
+  "schema": "spalora.post_night11a.source_read_audit.v1",
+  "status": "PASS",
+  "personally_read_relevant_complete_implementations": true,
+  "files": [
+    {"path": "SpaLORA/night1_pipeline.py", "sha256": "0173a8c371cff7f67fe42f40fd8ffd1d6a1dfe0d3702589934df97d9b52250e1", "role": "label-free input and feature-level preprocessing"},
+    {"path": "SpaLORA/night6c_pipeline.py", "sha256": "b1abd06ab1f5f30d8f3c1d16e89a2ab8c240b61422f8c2b9307adc0619a0e0d1", "role": "G00/G04 graph, six views and H05 endpoint"},
+    {"path": "SpaLORA/night7b_adaptive.py", "sha256": "6aa385efc5b0efe3ab828fca87ffd73e791dfe97aca93680851a4e255814a117", "role": "R02-family adaptive fusion primitives and sparse relations"},
+    {"path": "scripts/night7b_adapter_stage.py", "sha256": "e8d6d0b6918afe75d9aede5573bfb8d98e3d17ab750df6e43d40c81b8d7ff393", "role": "adapter checkpoint/reload and C06/H01 transform boundary"},
+    {"path": "SpaLORA/selective_transfer.py", "sha256": "6eb4158b807ee17545d4bed26dc24e3e3eda33978fe63a19cf3de4d19c125234", "role": "Night11A cross-fit ridge pilot"},
+    {"path": "SpaLORA/night11a_corruption.py", "sha256": "82eca9ec3d52454b0b7fbae9989f0d7a3ae992425b7aa1c7cf87cd2e519213f4", "role": "sparse patch and deterministic conflict permutation"},
+    {"path": "scripts/night11a/run_identifiability.py", "sha256": "1cb8be2ddfcbed401128ab6cd7049c20d3a081d5c603e056df72a1f81dc29665", "role": "actual Night11A call chain, endpoint and checkpoint"},
+    {"path": "outputs/night11a_handoff/p0_source_and_shape_audit.json", "sha256": "6035512021fd05cbadbeed8a7199b9ce4bb865727b706083e71b22018faf8737", "role": "u000/u020 frozen shape and provenance authority"},
+    {"path": "outputs/night8a_handoff/third_party_source_audit.json", "sha256": "a8716405944406cb7a49c8c29b1b25bc773b82b42aeffc5745d342d7146e8fd7", "role": "existing third-party source boundary"},
+    {"path": "outputs/night8a_handoff/external_dataset_preflight.json", "sha256": "e5698d9adbe1b15b02d57dd3fc62cf249a884a0e2031c65cea3aed4e644be871", "role": "existing external dataset roles without new access"},
+    {"path": "outputs/night7a_handoff/data_contracts/gse198353_contract.json", "sha256": "74c888eba740bf9528ad91557a419f9256cb77bb0b01343d92c3e4fd3ffbbddc", "role": "GSE198353 historical role authority"}
+  ],
+  "observed_dependencies": {
+    "dataset_name_or_registered_dataset_config": ["Night1 P22 filter", "PCA width", "modality2 preprocessing", "embedding width", "epochs", "K"],
+    "shape_dependent": ["G00/G04 encoder widths", "R02 projectors", "Night11A ridge targets"],
+    "assay_family_dependent": ["protein CLR/PCA versus P22 deposited ATAC LSI"],
+    "label_dependent": []
+  },
+  "label_or_ground_truth_contents_opened": false,
+  "new_third_party_source_downloads": 0
+}

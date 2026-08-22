@@ -1,0 +1,28 @@
+{
+  "schema": "spalora.post_night11a.audit_manifest.v1",
+  "status": "PASS_READ_ONLY_AUDIT_COMPLETE",
+  "parent_commit": "166eaf7c5838a345a2f7c6cf0b213275c8bc5cd6",
+  "parent_tag": "night11a-final-20260822",
+  "branch": "audit/post-night11a-direction-reset-feasibility-20260822",
+  "terminal": "NEW_METHOD_REQUIRES_SCOPE_EXPANSION",
+  "root_invariance": "12/12 PASS",
+  "tests": "3/3 PASS",
+  "files": [
+    {"path": "outputs/post_night11a_direction_reset/asset_capability_matrix.csv", "size_bytes": 3388, "sha256": "0b68dac03d21c46f68f8ec5329071632d442d81d3760a8933b8601799ed8d880"},
+    {"path": "outputs/post_night11a_direction_reset/asset_schema_audit.json", "size_bytes": 24575, "sha256": "1206bb8cd4331c2451656b77a2ac342c4b3797de541914c3f1e9f8e477b9a2b5"},
+    {"path": "outputs/post_night11a_direction_reset/candidate_thesis_feasibility.md", "size_bytes": 3089, "sha256": "f9fdd34edb760c2d50734258984851b7ffffa6c1db833a7d0bf6c2e852ce1943"},
+    {"path": "outputs/post_night11a_direction_reset/direction_decision.json", "size_bytes": 3301, "sha256": "2443707214a2fa8929804dcfece26b5c38e9afddfb5b3367ffebf87b502d3e1c"},
+    {"path": "outputs/post_night11a_direction_reset/minimal_test.log", "size_bytes": 459, "sha256": "d90d82512a1ede59ed3f04232fd10d16d9abda8aef1fa8325fb55f01e9eb30ae"},
+    {"path": "outputs/post_night11a_direction_reset/post_night11a_direction_reset_report.md", "size_bytes": 7990, "sha256": "82a5c1a693802b93c2d17d82db3928ac20a451f59520c0b2ffecf6ae0316f136"},
+    {"path": "outputs/post_night11a_direction_reset/raw_root_invariance_audit.json", "size_bytes": 16540, "sha256": "3983fb6b88586451f69c376483d4dad1ce9f80346e143265cd80efc403fa876f"},
+    {"path": "outputs/post_night11a_direction_reset/raw_root_metadata_after.json", "size_bytes": 7148, "sha256": "6ec0b17b9cce4af4357d6c00529c6e3f8d8adc0ab7c4e60e1c92c7f2fffd2d7a"},
+    {"path": "outputs/post_night11a_direction_reset/raw_root_metadata_before.json", "size_bytes": 7149, "sha256": "820d54a40f63a53034d71e54644c3be6cf5e4d5021f90731998de9f9dba65e7d"},
+    {"path": "outputs/post_night11a_direction_reset/source_dependency_map.md", "size_bytes": 6041, "sha256": "351703d9df1a7c37491a4c52f5963d4ba3b8617dff9ce7e222a35e5ada158dd6"},
+    {"path": "outputs/post_night11a_direction_reset/source_read_audit.json", "size_bytes": 2758, "sha256": "f95a29d11705da2e9f5eda683a43b9964f6a9590062a17a158978f97a5bfac19"},
+    {"path": "outputs/post_night11a_direction_reset/unit_prior_use_registry.csv", "size_bytes": 4267, "sha256": "8e9ca5b62c7b771dea65e218155b5fb8d480fec1cef8fd526f40d0f33f5f1fc0"},
+    {"path": "scripts/post_night11a_direction_reset/read_only_asset_audit.py", "size_bytes": 14486, "sha256": "ccf906dda4ae6d694bc9f3f2dbb0f29f58f06ba8bbdf56b4aee9f5085e4161bd"},
+    {"path": "tests/test_post_night11a_read_only_asset_audit.py", "size_bytes": 1083, "sha256": "df09648860a7fc7cf5a5c3d63743ad03328106a75cbb911b66c6c4f595dcb8f9"}
+  ],
+  "label_file_contents_opened": false,
+  "gpu_peak_mib": 0
+}

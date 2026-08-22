@@ -1,0 +1,33 @@
+unit_id,family,seed_or_slice,Night2C_to_Night11A_role,current_Night11A_formula_or_threshold_design,never_used_for_current_formula,pristine_confirmatory_status,next_stage_role_if_authorized
+u000,RNA+PROTEIN,A1_seed0,"development; threshold observation; candidate selection; Q00 reference; Night11A formula",YES,NO,NO,INELIGIBLE
+u001,RNA+PROTEIN,A1_seed1,"development; threshold observation; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u002,RNA+PROTEIN,A1_seed2,"development; threshold observation; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u003,RNA+PROTEIN,A1_seed3,"development; threshold observation; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u004,RNA+PROTEIN,A1_seed4,"development; threshold observation; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u005,RNA+PROTEIN,tonsil_seed0,"within-study external family check; development; threshold observation; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u006,RNA+PROTEIN,tonsil_seed1,"within-study external family check; development; threshold observation; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u007,RNA+PROTEIN,tonsil_seed2,"within-study external family check; development; threshold observation; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u008,RNA+PROTEIN,tonsil_seed3,"within-study external family check; development; threshold observation; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u009,RNA+PROTEIN,tonsil_seed4,"within-study external family check; development; threshold observation; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u010,RNA+PROTEIN,D1_seed0,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u011,RNA+PROTEIN,D1_seed1,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u012,RNA+PROTEIN,D1_seed2,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u013,RNA+PROTEIN,D1_seed3,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u014,RNA+PROTEIN,D1_seed4,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u015,RNA+PROTEIN,D1_seed5,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u016,RNA+PROTEIN,D1_seed6,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u017,RNA+PROTEIN,D1_seed7,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u018,RNA+PROTEIN,D1_seed8,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u019,RNA+PROTEIN,D1_seed9,"held-out check then development/selection; Q00 reference",NO,YES,NO,DISCOVERY_ONLY
+u020,RNA+ATAC,P22_seed0,"development; candidate selection; Q00 reference; Night11A formula",YES,NO,NO,INELIGIBLE
+u021,RNA+ATAC,P22_seed1,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u022,RNA+ATAC,P22_seed2,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u023,RNA+ATAC,P22_seed3,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u024,RNA+ATAC,P22_seed4,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u025,RNA+ATAC,P22_seed5,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u026,RNA+ATAC,P22_seed6,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u027,RNA+ATAC,P22_seed7,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u028,RNA+ATAC,P22_seed8,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+u029,RNA+ATAC,P22_seed9,"development; candidate selection; Q00 reference",INDIRECT_SAME_UNIT,NO,NO,INELIGIBLE
+GSE198353_REP1,RNA+PROTEIN,independent_slice1,"Night4A schema preflight; Night7A registration; Night8A metadata-only external family preflight; no model formula/training",NO,YES,NO_PRISTINE_CONFIRMATORY_UNIT,DISCOVERY_ONLY
+GSE198353_REP2,RNA+PROTEIN,independent_slice2,"Night4A schema preflight; Night7A registration; Night8A metadata-only external family preflight; no model formula/training",NO,YES,NO_PRISTINE_CONFIRMATORY_UNIT,RESERVE_ONLY_IF_GOVERNANCE_ACCEPTS_PRIOR_PREFLIGHT

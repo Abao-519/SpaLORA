@@ -1,0 +1,7 @@
+PYTHONPATH=. /root/miniconda3/envs/SpaLORA/bin/python -m pytest -q tests/test_post_night11a_read_only_asset_audit.py
+...                                                                      [100%]
+3 passed in 0.41s
+
+The tests cover explicit peak-coordinate parsing with fail-closed unknowns,
+byte-exact metadata snapshot comparison, and order-sensitive identifier hashing.
+No training, model import, GPU allocation, label file, or scientific metric was used.

@@ -1,0 +1,993 @@
+{
+  "h5ad_pairs": {
+    "A1_LYMPH_NODE": {
+      "coordinates_byte_exact": true,
+      "deposited_exact_name_correspondence": {
+        "matched": 29,
+        "normalization_or_similarity_guessing_used": false,
+        "one_to_many": 0,
+        "one_to_one_exact": 29,
+        "total_protein_targets": 31,
+        "unmapped": [
+          "HLA-DRA",
+          "PTPRC-1"
+        ]
+      },
+      "family": "RNA+PROTEIN",
+      "modality2": {
+        "X": {
+          "dtype": "float32",
+          "keys": [
+            "data",
+            "indices",
+            "indptr"
+          ],
+          "shape": [
+            3484,
+            31
+          ],
+          "storage": "csr_matrix"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 31,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "CD163",
+          "CR2",
+          "PCNA",
+          "VIM",
+          "KRT5",
+          "CD68",
+          "CEACAM8",
+          "PTPRC",
+          "HLA-DRA",
+          "PAX5"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [
+          "final_annot",
+          "lab",
+          "lab_lynn",
+          "src"
+        ],
+        "observation_ids_unique": true,
+        "obsm": {
+          "spatial": {
+            "dtype": "int64",
+            "shape": [
+              3484,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "path": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_adt.h5ad",
+        "raw": null,
+        "shape": [
+          3484,
+          31
+        ],
+        "spatial": {
+          "dtype": "int64",
+          "shape": [
+            3484,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "af9880ca8964382febd2900e8f8baf68e7c52d1991159654edfffa0d3ca33921",
+        "uns_keys": [],
+        "var_storage_keys": [
+          "_index",
+          "feature_types",
+          "gene_ids",
+          "genome"
+        ],
+        "varm": {}
+      },
+      "modality2_feature_count": 31,
+      "modality2_feature_identifiers_unique": true,
+      "paired_observation_ids_byte_exact": true,
+      "protein_target_identifiers": [
+        "CD163",
+        "CR2",
+        "PCNA",
+        "VIM",
+        "KRT5",
+        "CD68",
+        "CEACAM8",
+        "PTPRC",
+        "HLA-DRA",
+        "PAX5",
+        "SDC1",
+        "PTPRC-1",
+        "CD8A",
+        "BCL2",
+        "CD19",
+        "PDCD1",
+        "ACTA2",
+        "FCGR3A",
+        "ITGAX",
+        "CXCR5",
+        "EPCAM",
+        "MS4A1",
+        "CD3E",
+        "CD14",
+        "CD40",
+        "PECAM1",
+        "CD4",
+        "ITGAM",
+        "CD27",
+        "CCR7",
+        "CD274"
+      ],
+      "rna": {
+        "X": {
+          "dtype": "float32",
+          "keys": [
+            "data",
+            "indices",
+            "indptr"
+          ],
+          "shape": [
+            3484,
+            18085
+          ],
+          "storage": "csr_matrix"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 18085,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "SAMD11",
+          "NOC2L",
+          "KLHL17",
+          "PLEKHN1",
+          "PERM1",
+          "HES4",
+          "ISG15",
+          "AGRN",
+          "RNF223",
+          "C1orf159"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [
+          "final_annot",
+          "lab",
+          "lab_lynn",
+          "src"
+        ],
+        "observation_ids_unique": true,
+        "obsm": {
+          "spatial": {
+            "dtype": "int64",
+            "shape": [
+              3484,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "path": "/autodl-fs/data/Human lymph node/A1/humanlymphnode_rna.h5ad",
+        "raw": null,
+        "shape": [
+          3484,
+          18085
+        ],
+        "spatial": {
+          "dtype": "int64",
+          "shape": [
+            3484,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "af9880ca8964382febd2900e8f8baf68e7c52d1991159654edfffa0d3ca33921",
+        "uns_keys": [],
+        "var_storage_keys": [
+          "_index",
+          "feature_types",
+          "gene_ids",
+          "genome"
+        ],
+        "varm": {}
+      },
+      "rna_feature_count": 18085,
+      "rna_feature_identifiers_unique": true,
+      "spot_count": 3484,
+      "unit": "A1_LYMPH_NODE"
+    },
+    "A1_TONSIL": {
+      "coordinates_byte_exact": true,
+      "deposited_exact_name_correspondence": {
+        "matched": 29,
+        "normalization_or_similarity_guessing_used": false,
+        "one_to_many": 0,
+        "one_to_one_exact": 29,
+        "total_protein_targets": 31,
+        "unmapped": [
+          "HLA-DRA",
+          "PTPRC-1"
+        ]
+      },
+      "family": "RNA+PROTEIN",
+      "modality2": {
+        "X": {
+          "dtype": "float32",
+          "shape": [
+            4337,
+            31
+          ],
+          "storage": "dense"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 31,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "CD163",
+          "CR2",
+          "PCNA",
+          "VIM",
+          "KRT5",
+          "CD68",
+          "CEACAM8",
+          "PTPRC",
+          "HLA-DRA",
+          "PAX5"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [],
+        "observation_ids_unique": true,
+        "obsm": {
+          "feat": {
+            "dtype": "float32",
+            "shape": [
+              4337,
+              30
+            ],
+            "storage": "dense"
+          },
+          "spatial": {
+            "dtype": "int64",
+            "shape": [
+              4337,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "b738eec09cf549c2e1fb55a1b73bea178401a3eba982cd0531e817a1d37ec2df",
+        "path": "/autodl-fs/data/night4a_external_data/extracted/GSE263617/GSM8195499_A1_TNSL_Protein.h5ad",
+        "raw": null,
+        "shape": [
+          4337,
+          31
+        ],
+        "spatial": {
+          "dtype": "int64",
+          "shape": [
+            4337,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "480c5d4f532bf8370f910d207a9e73f68a1a22ea369a888d84cacf36654a55fd",
+        "uns_keys": [],
+        "var_storage_keys": [
+          "_index",
+          "feature_types",
+          "gene_ids",
+          "genome",
+          "mean",
+          "std"
+        ],
+        "varm": {}
+      },
+      "modality2_feature_count": 31,
+      "modality2_feature_identifiers_unique": true,
+      "paired_observation_ids_byte_exact": true,
+      "protein_target_identifiers": [
+        "CD163",
+        "CR2",
+        "PCNA",
+        "VIM",
+        "KRT5",
+        "CD68",
+        "CEACAM8",
+        "PTPRC",
+        "HLA-DRA",
+        "PAX5",
+        "SDC1",
+        "PTPRC-1",
+        "CD8A",
+        "BCL2",
+        "CD19",
+        "PDCD1",
+        "ACTA2",
+        "FCGR3A",
+        "ITGAX",
+        "CXCR5",
+        "EPCAM",
+        "MS4A1",
+        "CD3E",
+        "CD14",
+        "CD40",
+        "PECAM1",
+        "CD4",
+        "ITGAM",
+        "CD27",
+        "CCR7",
+        "CD274"
+      ],
+      "rna": {
+        "X": {
+          "dtype": "float32",
+          "shape": [
+            4337,
+            17950
+          ],
+          "storage": "dense"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 17950,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "SAMD11",
+          "NOC2L",
+          "KLHL17",
+          "PLEKHN1",
+          "PERM1",
+          "HES4",
+          "ISG15",
+          "AGRN",
+          "RNF223",
+          "C1orf159"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [],
+        "observation_ids_unique": true,
+        "obsm": {
+          "feat": {
+            "dtype": "float32",
+            "shape": [
+              4337,
+              30
+            ],
+            "storage": "dense"
+          },
+          "spatial": {
+            "dtype": "int64",
+            "shape": [
+              4337,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "b738eec09cf549c2e1fb55a1b73bea178401a3eba982cd0531e817a1d37ec2df",
+        "path": "/autodl-fs/data/night4a_external_data/extracted/GSE263617/GSM8195495_A1_TNSL.h5ad",
+        "raw": null,
+        "shape": [
+          4337,
+          17950
+        ],
+        "spatial": {
+          "dtype": "int64",
+          "shape": [
+            4337,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "480c5d4f532bf8370f910d207a9e73f68a1a22ea369a888d84cacf36654a55fd",
+        "uns_keys": [
+          "hvg",
+          "log1p"
+        ],
+        "var_storage_keys": [
+          "_index",
+          "feature_types",
+          "gene_ids",
+          "genome",
+          "highly_variable",
+          "highly_variable_rank",
+          "mean",
+          "means",
+          "n_cells",
+          "std",
+          "variances",
+          "variances_norm"
+        ],
+        "varm": {}
+      },
+      "rna_feature_count": 17950,
+      "rna_feature_identifiers_unique": true,
+      "spot_count": 4337,
+      "unit": "A1_TONSIL"
+    },
+    "D1_LYMPH_NODE_LABEL_FREE": {
+      "coordinates_byte_exact": true,
+      "deposited_exact_name_correspondence": {
+        "matched": 29,
+        "normalization_or_similarity_guessing_used": false,
+        "one_to_many": 0,
+        "one_to_one_exact": 29,
+        "total_protein_targets": 31,
+        "unmapped": [
+          "HLA-DRA",
+          "PTPRC-1"
+        ]
+      },
+      "family": "RNA+PROTEIN",
+      "modality2": {
+        "X": {
+          "dtype": "float32",
+          "keys": [
+            "data",
+            "indices",
+            "indptr"
+          ],
+          "shape": [
+            3359,
+            31
+          ],
+          "storage": "csr_matrix"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 31,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "CD163",
+          "CR2",
+          "PCNA",
+          "VIM",
+          "KRT5",
+          "CD68",
+          "CEACAM8",
+          "PTPRC",
+          "HLA-DRA",
+          "PAX5"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [],
+        "observation_ids_unique": true,
+        "obsm": {
+          "spatial": {
+            "dtype": "int64",
+            "shape": [
+              3359,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+        "path": "/autodl-fs/data/night6d_data_20260817/d1_label_free/d1_adt_label_free.h5ad",
+        "raw": null,
+        "shape": [
+          3359,
+          31
+        ],
+        "spatial": {
+          "dtype": "int64",
+          "shape": [
+            3359,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "1c43f872be1e7db564b752e0320b391af7a34b1c84bdfd7c85823467e9e40d90",
+        "uns_keys": [],
+        "var_storage_keys": [
+          "_index"
+        ],
+        "varm": {}
+      },
+      "modality2_feature_count": 31,
+      "modality2_feature_identifiers_unique": true,
+      "paired_observation_ids_byte_exact": true,
+      "protein_target_identifiers": [
+        "CD163",
+        "CR2",
+        "PCNA",
+        "VIM",
+        "KRT5",
+        "CD68",
+        "CEACAM8",
+        "PTPRC",
+        "HLA-DRA",
+        "PAX5",
+        "SDC1",
+        "PTPRC-1",
+        "CD8A",
+        "BCL2",
+        "CD19",
+        "PDCD1",
+        "ACTA2",
+        "FCGR3A",
+        "ITGAX",
+        "CXCR5",
+        "EPCAM",
+        "MS4A1",
+        "CD3E",
+        "CD14",
+        "CD40",
+        "PECAM1",
+        "CD4",
+        "ITGAM",
+        "CD27",
+        "CCR7",
+        "CD274"
+      ],
+      "rna": {
+        "X": {
+          "dtype": "float32",
+          "keys": [
+            "data",
+            "indices",
+            "indptr"
+          ],
+          "shape": [
+            3359,
+            18085
+          ],
+          "storage": "csr_matrix"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 18085,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "SAMD11",
+          "NOC2L",
+          "KLHL17",
+          "PLEKHN1",
+          "PERM1",
+          "HES4",
+          "ISG15",
+          "AGRN",
+          "RNF223",
+          "C1orf159"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [],
+        "observation_ids_unique": true,
+        "obsm": {
+          "spatial": {
+            "dtype": "int64",
+            "shape": [
+              3359,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+        "path": "/autodl-fs/data/night6d_data_20260817/d1_label_free/d1_rna_label_free.h5ad",
+        "raw": null,
+        "shape": [
+          3359,
+          18085
+        ],
+        "spatial": {
+          "dtype": "int64",
+          "shape": [
+            3359,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "1c43f872be1e7db564b752e0320b391af7a34b1c84bdfd7c85823467e9e40d90",
+        "uns_keys": [],
+        "var_storage_keys": [
+          "_index"
+        ],
+        "varm": {}
+      },
+      "rna_feature_count": 18085,
+      "rna_feature_identifiers_unique": true,
+      "spot_count": 3359,
+      "unit": "D1_LYMPH_NODE_LABEL_FREE"
+    },
+    "P22_MOUSE_BRAIN": {
+      "atac_peak_identifiers": {
+        "coordinate_examples": [
+          "chr1-3094734-3095650",
+          "chr1-3119757-3120179",
+          "chr1-3120267-3120653",
+          "chr1-3121314-3122051",
+          "chr1-3264998-3265766",
+          "chr1-3292462-3293293",
+          "chr1-3294044-3295081",
+          "chr1-3300717-3301474",
+          "chr1-3301682-3302319",
+          "chr1-3309769-3310662"
+        ],
+        "coordinate_fraction": 0.9996613473419896,
+        "coordinate_parseable": 121027,
+        "coordinate_unparseable": 41,
+        "coordinates_valid_order": true
+      },
+      "coordinates_byte_exact": true,
+      "family": "RNA+ATAC",
+      "modality2": {
+        "X": {
+          "dtype": "float32",
+          "keys": [
+            "data",
+            "indices",
+            "indptr"
+          ],
+          "shape": [
+            9215,
+            121068
+          ],
+          "storage": "csc_matrix"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 121068,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "chr1-3094734-3095650",
+          "chr1-3119757-3120179",
+          "chr1-3120267-3120653",
+          "chr1-3121314-3122051",
+          "chr1-3264998-3265766",
+          "chr1-3292462-3293293",
+          "chr1-3294044-3295081",
+          "chr1-3300717-3301474",
+          "chr1-3301682-3302319",
+          "chr1-3309769-3310662"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [
+          "ATAC_clusters",
+          "RNA_clusters",
+          "nCount_ATAC",
+          "nCount_SCT",
+          "nCount_Spatial",
+          "nCount_peaks",
+          "nFeature_ATAC",
+          "nFeature_SCT",
+          "nFeature_Spatial",
+          "nFeature_peaks"
+        ],
+        "observation_ids_unique": true,
+        "obsm": {
+          "X_lsi": {
+            "dtype": "float64",
+            "shape": [
+              9215,
+              50
+            ],
+            "storage": "dense"
+          },
+          "X_pca": {
+            "dtype": "float64",
+            "shape": [
+              9215,
+              50
+            ],
+            "storage": "dense"
+          },
+          "X_umap": {
+            "dtype": "float32",
+            "shape": [
+              9215,
+              2
+            ],
+            "storage": "dense"
+          },
+          "spatial": {
+            "dtype": "float32",
+            "shape": [
+              9215,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "00181eeef9cf454ef8048f214ffe2e4e88a69e96fb44352cb5e51bec383c2174",
+        "path": "/autodl-fs/data/P22 mouse brain coronal section/mousebrain_atac.h5ad",
+        "raw": null,
+        "shape": [
+          9215,
+          121068
+        ],
+        "spatial": {
+          "dtype": "float32",
+          "shape": [
+            9215,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "62705d938895184887f2c7140546930bdbdd52e218ed698544bd6a29e47eef88",
+        "uns_keys": [
+          "ATAC",
+          "ATAC_clusters_colors",
+          "umap"
+        ],
+        "var_storage_keys": [
+          "_index",
+          "count",
+          "percentile"
+        ],
+        "varm": {}
+      },
+      "modality2_feature_count": 121068,
+      "modality2_feature_identifiers_unique": true,
+      "paired_observation_ids_byte_exact": true,
+      "rna": {
+        "X": {
+          "dtype": "float32",
+          "keys": [
+            "data",
+            "indices",
+            "indptr"
+          ],
+          "shape": [
+            9215,
+            22914
+          ],
+          "storage": "csc_matrix"
+        },
+        "declared_genome_metadata": {},
+        "exists": true,
+        "feature_identifier_count": 22914,
+        "feature_identifier_python_type": "str",
+        "feature_identifier_sample": [
+          "Gm26752",
+          "Ppp1r14c",
+          "Iyd",
+          "Plekhg1",
+          "Mthfd1l",
+          "Gm25369",
+          "Akap12",
+          "Zbtb2",
+          "Gm21781",
+          "Gm16153"
+        ],
+        "feature_identifiers_unique": true,
+        "layers": {},
+        "obs_storage_keys_not_read": [
+          "ATAC_clusters",
+          "RNA_clusters",
+          "nCount_ATAC",
+          "nCount_SCT",
+          "nCount_Spatial",
+          "nCount_peaks",
+          "nFeature_ATAC",
+          "nFeature_SCT",
+          "nFeature_Spatial",
+          "nFeature_peaks"
+        ],
+        "observation_ids_unique": true,
+        "obsm": {
+          "X_pca": {
+            "dtype": "float64",
+            "shape": [
+              9215,
+              50
+            ],
+            "storage": "dense"
+          },
+          "X_umap": {
+            "dtype": "float64",
+            "shape": [
+              9215,
+              2
+            ],
+            "storage": "dense"
+          },
+          "spatial": {
+            "dtype": "float32",
+            "shape": [
+              9215,
+              2
+            ],
+            "storage": "dense"
+          }
+        },
+        "ordered_observation_sha256": "00181eeef9cf454ef8048f214ffe2e4e88a69e96fb44352cb5e51bec383c2174",
+        "path": "/autodl-fs/data/P22 mouse brain coronal section/mousebrain_rna.h5ad",
+        "raw": null,
+        "shape": [
+          9215,
+          22914
+        ],
+        "spatial": {
+          "dtype": "float32",
+          "shape": [
+            9215,
+            2
+          ],
+          "storage": "dense"
+        },
+        "spatial_sha256": "62705d938895184887f2c7140546930bdbdd52e218ed698544bd6a29e47eef88",
+        "uns_keys": [],
+        "var_storage_keys": [
+          "_index",
+          "name"
+        ],
+        "varm": {}
+      },
+      "rna_feature_count": 22914,
+      "rna_feature_identifiers_unique": true,
+      "spot_count": 9215,
+      "unit": "P22_MOUSE_BRAIN"
+    }
+  },
+  "independent_tenx": {
+    "GSE198353_SPLEEN_REP1": {
+      "deposited_exact_name_correspondence": {
+        "matched": 0,
+        "normalization_or_similarity_guessing_used": false,
+        "total_protein_targets": 21,
+        "unmapped": [
+          "CD29",
+          "CD3",
+          "F4_80",
+          "CD169_siglec",
+          "CD4",
+          "CD19",
+          "CD105",
+          "CD8",
+          "B220_CD45R",
+          "Ly6C",
+          "CD31",
+          "CD68",
+          "EpCAM",
+          "CD163",
+          "Ly6G",
+          "CD38",
+          "IgM",
+          "IgD",
+          "MadCAM1",
+          "CD20",
+          "CD11b"
+        ]
+      },
+      "exists": true,
+      "feature_identifier_count": 32306,
+      "feature_identifier_samples": {
+        "Antibody Capture": [
+          "CD29",
+          "CD3",
+          "F4_80",
+          "CD169_siglec",
+          "CD4",
+          "CD19",
+          "CD105",
+          "CD8",
+          "B220_CD45R",
+          "Ly6C"
+        ],
+        "Gene Expression": [
+          "Xkr4",
+          "Gm1992",
+          "Gm19938",
+          "Gm37381",
+          "Rp1",
+          "Sox17",
+          "Gm37587",
+          "Gm37323",
+          "Mrpl15",
+          "Lypla1"
+        ]
+      },
+      "feature_identifiers_unique": false,
+      "feature_type_counts": {
+        "Antibody Capture": 21,
+        "Gene Expression": 32285
+      },
+      "matrix_data_dtype": "int32",
+      "matrix_nnz": 8956698,
+      "matrix_storage": "csc_sparse_10x",
+      "observation_ids_unique": true,
+      "ordered_observation_sha256": "8dc42587cda6795470c636d0826b4207343418350d6a45648d95736ed1705380",
+      "path": "/autodl-fs/data/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_1_filtered_feature_bc_matrix.h5",
+      "shape_features_by_spots": [
+        32306,
+        2653
+      ]
+    },
+    "GSE198353_SPLEEN_REP2": {
+      "deposited_exact_name_correspondence": {
+        "matched": 0,
+        "normalization_or_similarity_guessing_used": false,
+        "total_protein_targets": 21,
+        "unmapped": [
+          "CD29",
+          "CD3",
+          "F4_80",
+          "CD169_siglec",
+          "CD4",
+          "CD19",
+          "CD105",
+          "CD8",
+          "B220_CD45R",
+          "Ly6C",
+          "CD31",
+          "CD68",
+          "EpCAM",
+          "CD163",
+          "Ly6G",
+          "CD38",
+          "IgM",
+          "IgD",
+          "MadCAM1",
+          "CD20",
+          "CD11b"
+        ]
+      },
+      "exists": true,
+      "feature_identifier_count": 32306,
+      "feature_identifier_samples": {
+        "Antibody Capture": [
+          "CD29",
+          "CD3",
+          "F4_80",
+          "CD169_siglec",
+          "CD4",
+          "CD19",
+          "CD105",
+          "CD8",
+          "B220_CD45R",
+          "Ly6C"
+        ],
+        "Gene Expression": [
+          "Xkr4",
+          "Gm1992",
+          "Gm19938",
+          "Gm37381",
+          "Rp1",
+          "Sox17",
+          "Gm37587",
+          "Gm37323",
+          "Mrpl15",
+          "Lypla1"
+        ]
+      },
+      "feature_identifiers_unique": false,
+      "feature_type_counts": {
+        "Antibody Capture": 21,
+        "Gene Expression": 32285
+      },
+      "matrix_data_dtype": "int32",
+      "matrix_nnz": 9418309,
+      "matrix_storage": "csc_sparse_10x",
+      "observation_ids_unique": true,
+      "ordered_observation_sha256": "d7c37a632d879a24cc8e2ec5263028745d7f7ae490febb3f5055fdd35fdaadee",
+      "path": "/autodl-fs/data/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_2_filtered_feature_bc_matrix.h5",
+      "shape_features_by_spots": [
+        32306,
+        2768
+      ]
+    }
+  },
+  "read_boundary": {
+    "feature_identifiers_read": true,
+    "genome_metadata_values_read_only_when_key_name_declares_genome_semantics": true,
+    "label_files_opened": false,
+    "observation_annotation_values_read": false,
+    "ordered_observation_identifiers_read": true,
+    "spatial_coordinates_read": true
+  },
+  "schema": "spalora.post_night11a.asset_schema.v1"
+}

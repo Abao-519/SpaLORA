@@ -1,0 +1,74 @@
+{
+  "schema": "spalora.post_night11a.direction_reset_decision.v1",
+  "terminal": "NEW_METHOD_REQUIRES_SCOPE_EXPANSION",
+  "classification": "READ_ONLY_FEASIBILITY_SCOPE_GAP",
+  "night11a_frozen_terminal": "NIGHT11A_NO_IDENTIFIABLE_TRANSFER_UTILITY",
+  "night11a_frozen_classification": "SCIENTIFIC_NEGATIVE",
+  "candidate_object": "shared_stable_signal_vs_spatially_structured_modality_specific_signal_vs_unstable_technical_noise",
+  "gates": {
+    "both_families_have_feature_level_data": {
+      "pass": true,
+      "evidence": "RNA+protein retains RNA/ADT matrices; P22 retains RNA and 121068-peak ATAC matrices"
+    },
+    "rna_protein_auditable_feature_correspondence": {
+      "pass": true,
+      "scope": "partial",
+      "evidence": "29/31 deposited ADT target names exactly match RNA gene symbols in A1/tonsil/D1; two unresolved targets were not guessed"
+    },
+    "rna_atac_genome_build_and_peak_gene_evidence": {
+      "pass": false,
+      "evidence": "121027/121068 peak identifiers contain parseable intervals, but no authoritative genome build, peak-gene link, gene activity annotation, or traceable generator exists"
+    },
+    "three_way_object_observable_sparse_and_label_free": {
+      "pass": false,
+      "scope": "conditional",
+      "evidence": "bootstrap and spatial evidence are sparse-computable, but linked-feature evidence is unavailable for RNA+ATAC"
+    },
+    "distinct_from_spamv_spamode_candies_qmf_ecolaf_corim": {
+      "pass": true,
+      "scope": "concept_only",
+      "evidence": "requires independent stability, spatial reproducibility and linked-feature observations rather than a gate, MoE, shared/private split or conditional denoiser"
+    },
+    "unused_unit_exists_in_each_family": {
+      "pass": false,
+      "rna_protein": "GSE198353 and some registered units were not used for the Night11A formula",
+      "rna_atac": "P22 is the only audited RNA+ATAC biological unit and was used in Night11A formula design"
+    },
+    "pristine_confirmatory_unit": {
+      "pass": false,
+      "status": "NO_PRISTINE_CONFIRMATORY_UNIT"
+    },
+    "no_dataset_name_routing_labels_or_dense_nxn_required": {
+      "pass": true,
+      "evidence": "a future implementation can use explicit assay-family contracts and sparse matrices; no label dependence is mathematically required"
+    }
+  },
+  "minimum_scope_expansion": {
+    "rna_atac": "one annotated discovery unit plus one untouched confirmatory slice/dataset with raw counts, coordinates, genome build and reproducible peak-gene evidence",
+    "rna_protein": "authoritative GSE198353 ADT-to-gene mapping and an approved confirmation boundary; add an untouched slice if prior preflight disqualifies replicate 2",
+    "downloads_performed_in_this_audit": 0
+  },
+  "forbidden_counters": {
+    "training_started": 0,
+    "checkpoint_restore_for_training_or_evaluation": 0,
+    "training_label_reads": 0,
+    "evaluation_label_reads": 0,
+    "total_label_reads": 0,
+    "ari": 0,
+    "nmi": 0,
+    "q": 0,
+    "ami": 0,
+    "fmi": 0,
+    "annotation_based_spatial_metrics": 0,
+    "misar_y": 0,
+    "e18_5": 0,
+    "new_external_data": 0,
+    "new_downloads": 0,
+    "third_party_benchmark": 0,
+    "qcrd": 0,
+    "dense_nxn": 0,
+    "gpu_mib": 0,
+    "raw_root_mutations": 0,
+    "night11a_revision_candidates": 0
+  }
+}
