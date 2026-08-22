@@ -389,6 +389,7 @@ def freeze_manifest():
         "scripts/night12a/night12a_schema_audit.py",
         "scripts/night12a/night12a_smoke.py",
         "scripts/night12a/night12a_freeze.py",
+        "scripts/night12a/night12a_finalize.py",
         "tests/test_night12a_schema_p0.py",
         "configs/night12a/night12a_manifest_contract.json",
         "outputs/night12a_handoff/accession_file_manifest.csv",
