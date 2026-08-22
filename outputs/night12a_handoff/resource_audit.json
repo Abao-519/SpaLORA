@@ -1,0 +1,18 @@
+{
+  "download_bytes": 6554457205,
+  "download_payloads": 23,
+  "formal_global_correction_cycles": 1,
+  "fresh_reload_seconds": {
+    "P10S1": 72.87400156445801,
+    "P5S1": 86.73842066898942
+  },
+  "gpu_limit_mib": 8192,
+  "gpu_peak_mib": 68.796875,
+  "schema": "spalora.night12a.resource_audit.v1",
+  "scientific_retry_fallback": 0,
+  "smoke_forward_seconds": {
+    "P10S1": 136.36563405394554,
+    "P5S1": 480.3983343485743
+  },
+  "within_gpu_limit": true
+}

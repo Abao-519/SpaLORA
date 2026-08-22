@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "canonical_partition": "2/2",
+    "formal_freeze_unchanged": true,
+    "fresh_process": "2/2",
+    "historical_raw_immutable": true,
+    "labels_and_metrics_zero": true,
+    "p0_ident_not_run": true,
+    "payloads": "23/23",
+    "real_units": "6/6",
+    "smokes": "2/2"
+  },
+  "schema": "spalora.night12a.independent_audit.v1",
+  "status": "PASS"
+}

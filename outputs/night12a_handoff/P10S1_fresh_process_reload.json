@@ -1,0 +1,16 @@
+{
+  "canonical_partition_exact": true,
+  "checkpoint_strict_load": true,
+  "fresh_process": true,
+  "label_reads": 0,
+  "metric_calls": 0,
+  "numerical_roundtrip": {
+    "fused": true,
+    "private1": true,
+    "private2": true
+  },
+  "ordered_id_sha256": "03da4d1470dad203cb932cb0380e9c67fc84162d70b5428c9f693b6b9de81d5d",
+  "partition_sha256": "02a33f0a41cb85ecf70c0310227bfb283d4817bc996dbcb4897ec640e37252c9",
+  "status": "PASS",
+  "wall_seconds": 72.87400156445801
+}
