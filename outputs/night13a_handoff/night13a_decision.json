@@ -1,0 +1,28 @@
+{
+  "classification": "PARTIAL_ENGINEERING_AND_DEVELOPMENT_BENCHMARK",
+  "engineering_correction_count": 5,
+  "forbidden_or_out_of_scope_counts": {
+    "dataset_name_model_routing": 0,
+    "dense_n_by_n_project_runner": 0,
+    "fabricated_labels": 0,
+    "force_pushes": 0,
+    "historical_raw_modifications": 0,
+    "new_method_candidate_training": 0,
+    "outside_whitelist_downloads": 0,
+    "result_driven_hpo": 0
+  },
+  "metrics_scope": "public benchmark development/reproduction; not pristine confirmatory",
+  "preserved_failed_attempt_count": 4,
+  "reason": "Canonical registry, 2/2 real-family P0 paths, and a six-dataset simple seed-0 board passed; zero strong external baseline passed both families because official implementations violate frozen sparse/identity-blind/common-endpoint boundaries.",
+  "status": "NIGHT13A_PARTIAL_BENCHMARK_BOARD",
+  "success_gate": {
+    "canonical_registry_closed": true,
+    "development_board_rows": 32,
+    "failures_visible": true,
+    "new_method_or_sota_claim": false,
+    "real_family_p0": "2/2",
+    "simple_anchor_passed": true,
+    "strong_external_baselines_both_families": "0/2 required"
+  },
+  "tests_passed": true
+}

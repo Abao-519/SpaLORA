@@ -1,0 +1,138 @@
+{
+  "count_signature_rule": "first 64 shared genes in canonical lexical order over mechanically shared ordered spots",
+  "mechanical_id_rule": "remove exact canonical sN- prefix only",
+  "rows": [
+    {
+      "canonical_count_signature": "a9307ee9610f25711295bef42786a7a3fb627133700ae596e170aff181c72046",
+      "canonical_shape": [
+        4326,
+        18085
+      ],
+      "canonical_slice": "tonsil_slice1",
+      "canonical_subset_of_reference": true,
+      "coordinate_max_abs_diff": 0.0,
+      "coordinates_exact": true,
+      "dedup_conclusion": "AMBIGUOUS_OVERLAP_FAIL_CLOSED",
+      "reference": "GSE_A1",
+      "reference_count_signature": "3d0a999073b673feded203a1ae5045b121f41cb543f943e3b5b85a1afcb68fae",
+      "reference_shape": [
+        4337,
+        17950
+      ],
+      "shared_count_signature_exact": false,
+      "shared_order_equal": true,
+      "shared_signature_genes": 64,
+      "shared_spots": 4326
+    },
+    {
+      "canonical_count_signature": "6a073a9ce59c856289b97c3299dbf783e45b48599b390429a2e51d44af35077c",
+      "canonical_shape": [
+        4326,
+        18085
+      ],
+      "canonical_slice": "tonsil_slice1",
+      "canonical_subset_of_reference": false,
+      "coordinate_max_abs_diff": 0.0,
+      "coordinates_exact": true,
+      "dedup_conclusion": "AMBIGUOUS_OVERLAP_FAIL_CLOSED",
+      "reference": "GSE_D1",
+      "reference_count_signature": "289ab4b6ca704b36445cfab5d0102ebc8e6e94037ac0ec922e1c15b2beafea35",
+      "reference_shape": [
+        4519,
+        17955
+      ],
+      "shared_count_signature_exact": false,
+      "shared_order_equal": true,
+      "shared_signature_genes": 64,
+      "shared_spots": 3912
+    },
+    {
+      "canonical_count_signature": "b435535586289ddefec3b7e25c3e44fa84d7466b98dd699fef47d7f6b5a2c93a",
+      "canonical_shape": [
+        4519,
+        18085
+      ],
+      "canonical_slice": "tonsil_slice2",
+      "canonical_subset_of_reference": false,
+      "coordinate_max_abs_diff": 254.0,
+      "coordinates_exact": false,
+      "dedup_conclusion": "AMBIGUOUS_OVERLAP_FAIL_CLOSED",
+      "reference": "GSE_A1",
+      "reference_count_signature": "f06f8959943fcc5f53a5cdfae252a86348487eb0bdbfd93c07e6334d2d233416",
+      "reference_shape": [
+        4337,
+        17950
+      ],
+      "shared_count_signature_exact": false,
+      "shared_order_equal": true,
+      "shared_signature_genes": 64,
+      "shared_spots": 3923
+    },
+    {
+      "canonical_count_signature": "00eb11910d4353a35ea36ab0c73119b5173111105c380e1c6e1817e18306ad7b",
+      "canonical_shape": [
+        4519,
+        18085
+      ],
+      "canonical_slice": "tonsil_slice2",
+      "canonical_subset_of_reference": true,
+      "coordinate_max_abs_diff": 254.0,
+      "coordinates_exact": false,
+      "dedup_conclusion": "AMBIGUOUS_OVERLAP_FAIL_CLOSED",
+      "reference": "GSE_D1",
+      "reference_count_signature": "aaa4a274eff1156b6e3ee7edada021dc24f05d1e82b52c19035bb65959e73ea2",
+      "reference_shape": [
+        4519,
+        17955
+      ],
+      "shared_count_signature_exact": false,
+      "shared_order_equal": true,
+      "shared_signature_genes": 64,
+      "shared_spots": 4519
+    },
+    {
+      "canonical_count_signature": "8db4e1bbbc351dfc6608345636b4bb38b91a33b9af8f536b1f284e1f4319ffbc",
+      "canonical_shape": [
+        4521,
+        18085
+      ],
+      "canonical_slice": "tonsil_slice3",
+      "canonical_subset_of_reference": false,
+      "coordinate_max_abs_diff": 1538.0,
+      "coordinates_exact": false,
+      "dedup_conclusion": "AMBIGUOUS_OVERLAP_FAIL_CLOSED",
+      "reference": "GSE_A1",
+      "reference_count_signature": "ba4e5507c1578924a69d7ce5d19dbaf673a1e78e02860ea9f47f8cadffd2075e",
+      "reference_shape": [
+        4337,
+        17950
+      ],
+      "shared_count_signature_exact": false,
+      "shared_order_equal": true,
+      "shared_signature_genes": 64,
+      "shared_spots": 3943
+    },
+    {
+      "canonical_count_signature": "ff9c5b7e267a659150d5a66fbb81c44c9ca5c7a349453b80d4affc66ed4be19b",
+      "canonical_shape": [
+        4521,
+        18085
+      ],
+      "canonical_slice": "tonsil_slice3",
+      "canonical_subset_of_reference": false,
+      "coordinate_max_abs_diff": 1538.0,
+      "coordinates_exact": false,
+      "dedup_conclusion": "AMBIGUOUS_OVERLAP_FAIL_CLOSED",
+      "reference": "GSE_D1",
+      "reference_count_signature": "ba6aabdbb652cc6b506139961c30809053ba3c93fce8051dd3d01885871bfe96",
+      "reference_shape": [
+        4519,
+        17955
+      ],
+      "shared_count_signature_exact": false,
+      "shared_order_equal": true,
+      "shared_signature_genes": 64,
+      "shared_spots": 4081
+    }
+  ]
+}

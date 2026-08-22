@@ -1,0 +1,143 @@
+{
+  "dense_n_by_n_count": 0,
+  "expected": 2,
+  "optimizer_steps": 0,
+  "passed": 2,
+  "rows": [
+    {
+      "forward": {
+        "checkpoint_sha256": "de870b8556050695736a7cab421dc98e52cf5b712387e11f29b7c73a64d35a76",
+        "dense_n_by_n_count": 0,
+        "embedding_sha256": "b9bf88cc6e20e6bbc0c479291207b95c9a65b03eae179eb22a3e59945917eca8",
+        "feature_type_counts": {
+          "Antibody Capture": 21,
+          "Gene Expression": 32285
+        },
+        "finite_reconstruction_loss": true,
+        "label_reads": 0,
+        "optimizer_steps": 0,
+        "ordered_id_sha256": "8dc42587cda6795470c636d0826b4207343418350d6a45648d95736ed1705380",
+        "partition_sha256": "58b3bcb6a28caf8d910ff4dd923d0e20478820dd00f25cdb3654c14fe4e2da18",
+        "peak_gpu_mib": 11.85888671875,
+        "peak_rss_mib": 858.05859375,
+        "position_shape": [
+          4992,
+          6
+        ],
+        "processed_shapes": [
+          [
+            2653,
+            30
+          ],
+          [
+            2653,
+            21
+          ]
+        ],
+        "raw_shapes": [
+          [
+            2653,
+            32285
+          ],
+          [
+            2653,
+            21
+          ]
+        ],
+        "real_observations": 2653,
+        "reconstruction_loss": 110.82355499267578,
+        "seed": 0,
+        "source_sha256": {
+          "coordinates": "614942d0943541d4a5f27ea0da278911ea98f48671f0378522d586c690fd3c6e",
+          "matrix": "7062d81352ae9dccaea04a1d738eaf329342d90fc1eb64948973147db7feeb98"
+        },
+        "sparse_graph_nnz": 16246,
+        "status": "FORWARD_COMPLETE_RELOAD_PENDING",
+        "wall_seconds": 5.185771180316806
+      },
+      "pass": true,
+      "reload": {
+        "canonical_partition_exact": true,
+        "checkpoint_strict_load": true,
+        "fresh_process": true,
+        "numerical_roundtrip": {
+          "fused": true,
+          "private1": true,
+          "private2": true
+        },
+        "ordered_id_sha256": "8dc42587cda6795470c636d0826b4207343418350d6a45648d95736ed1705380",
+        "partition_sha256": "58b3bcb6a28caf8d910ff4dd923d0e20478820dd00f25cdb3654c14fe4e2da18",
+        "status": "PASS",
+        "wall_seconds": 4.8490810841321945
+      },
+      "unit": "p0_spots_rep1"
+    },
+    {
+      "forward": {
+        "checkpoint_sha256": "ae6d5966e3b1b23f70a3941a9b13a02d75eeccfd3448cec87ceeea937f5c3549",
+        "dense_n_by_n_count": 0,
+        "embedding_sha256": "18786324f58f78eceb48a636328e09ed011a14731f474393f8e009f012abab43",
+        "finite_reconstruction_loss": true,
+        "fragment_rows": 83593412,
+        "gene_score_boundary": "clean-room Ensembl79 GRCm38 gene body plus strand-aware 5kb upstream; not ArchR GeneScoreMatrix equivalence",
+        "label_reads": 0,
+        "linked_feature_sha256": "eae66020cd83adaecf136dd53e6e54539ebedd5331a874ed1c1e38b6281bf297",
+        "optimizer_steps": 0,
+        "ordered_id_sha256": "d52b05b0f4a989398f89974c9d1aa2927a3a51699cf407969930c0651b6fb3af",
+        "partition_sha256": "df0a646936963fc8e3c0d861a13c7a0f3d5a8aa1c7f23b73b448dfa8aea56f47",
+        "peak_gpu_mib": 68.796875,
+        "peak_rss_mib": 777.64453125,
+        "processed_shapes": [
+          [
+            7794,
+            256
+          ],
+          [
+            7794,
+            256
+          ]
+        ],
+        "raw_shapes": [
+          [
+            7794,
+            32285
+          ],
+          [
+            83593412,
+            5
+          ]
+        ],
+        "real_observations": 7794,
+        "reconstruction_loss": 0.1212734580039978,
+        "seed": 0,
+        "source_sha256": {
+          "coordinates": "e3bbb8ba71ebba3dacebeef6bc332b0ed26632f8e362a16688e531bcbb17c1fe",
+          "fragments": "a5f565312205be611c1fa7c72979e38bbf3a1f0cb6d62dd173e6808adeef3299",
+          "gtf": "53bc4bb37067ef52596d05c51ab6b01f1aaa3f27184b1ef938812f3a27522221",
+          "rna": "c37271e0f2750d9d2f09494eb4e69206d62876026396dc6244cda65f53fd605b"
+        },
+        "sparse_graph_nnz": 51622,
+        "status": "FORWARD_COMPLETE_RELOAD_PENDING",
+        "wall_seconds": 103.78841954655945
+      },
+      "pass": true,
+      "reload": {
+        "canonical_partition_exact": true,
+        "checkpoint_strict_load": true,
+        "fresh_process": true,
+        "numerical_roundtrip": {
+          "fused": true,
+          "private1": true,
+          "private2": true
+        },
+        "ordered_id_sha256": "d52b05b0f4a989398f89974c9d1aa2927a3a51699cf407969930c0651b6fb3af",
+        "partition_sha256": "df0a646936963fc8e3c0d861a13c7a0f3d5a8aa1c7f23b73b448dfa8aea56f47",
+        "status": "PASS",
+        "wall_seconds": 94.91521242447197
+      },
+      "unit": "p0_p5s1"
+    }
+  ],
+  "seed": 0,
+  "status": "PASS"
+}

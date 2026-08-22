@@ -1,0 +1,61 @@
+{
+  "roots": [
+    {
+      "declared_root": "/root/autodl-fs/night4a_external_data",
+      "file_count": 108,
+      "max_mtime_ns": 1786557670493315277,
+      "metadata_fingerprint": "97965a481efefc346945fe491c8ea28828667d2d71ce20c6985e1eef1541d02c",
+      "resolved_root": "/autodl-fs/data/night4a_external_data",
+      "total_bytes": 3649230990
+    },
+    {
+      "declared_root": "/root/autodl-fs/datasets/human_tonsil_official",
+      "file_count": 3,
+      "max_mtime_ns": 1786654672949361819,
+      "metadata_fingerprint": "fe071adb45728d34542b0ec7c13800e639fdecc0662b4faec97a488cf84cb3b0",
+      "resolved_root": "/autodl-fs/data/datasets/human_tonsil_official",
+      "total_bytes": 1822035957
+    },
+    {
+      "declared_root": "/root/autodl-fs/Human lymph node",
+      "file_count": 6,
+      "max_mtime_ns": 1786110587301186574,
+      "metadata_fingerprint": "1d3bd6e383b92186ccde19897eeff2d69bdcf5e44d8cf8533d8d30ec125f16b0",
+      "resolved_root": "/autodl-fs/data/Human lymph node",
+      "total_bytes": 90721871
+    },
+    {
+      "declared_root": "/root/autodl-fs/P22 mouse brain coronal section",
+      "file_count": 3,
+      "max_mtime_ns": 1786125603616417727,
+      "metadata_fingerprint": "13f231a3d5ab38d631e512d6be54127b516f6201425471b45dfe98e455293973",
+      "resolved_root": "/autodl-fs/data/P22 mouse brain coronal section",
+      "total_bytes": 393386815
+    },
+    {
+      "declared_root": "/root/autodl-fs/Human placenta architecture",
+      "file_count": 2,
+      "max_mtime_ns": 1786125180650400546,
+      "metadata_fingerprint": "ae8a378d2b6307f2a1032e3b79e4672a965f3c6b4d1c9021d67539acce99ec4f",
+      "resolved_root": "/autodl-fs/data/Human placenta architecture",
+      "total_bytes": 61071282
+    },
+    {
+      "declared_root": "/root/autodl-fs/night8a_external_data_20260820",
+      "file_count": 12,
+      "max_mtime_ns": 1787164521825417638,
+      "metadata_fingerprint": "307fc6d81c54474f3dd378c064d268885d2c898ea33a8a5172047ac5d2d5fc89",
+      "resolved_root": "/autodl-fs/data/night8a_external_data_20260820",
+      "total_bytes": 49145583
+    },
+    {
+      "declared_root": "/root/autodl-fs/night12a_linked_replicate_schema_p0_20260822",
+      "file_count": 114,
+      "max_mtime_ns": 1787396002659253552,
+      "metadata_fingerprint": "536cd9513c1d6e85fc883db0743231f376973e9c9ba9ff6a712f363e2d2ef5d6",
+      "resolved_root": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822",
+      "total_bytes": 6603242533
+    }
+  ],
+  "stage": "before"
+}

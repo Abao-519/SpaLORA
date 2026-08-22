@@ -1,0 +1,82 @@
+{
+  "extracted_whitelist_members": [
+    {
+      "mode": "0o444",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s1_adata_adt.h5ad",
+      "sha256": "f7e7c2b723faf59fbf1d949c131b2f345c268787cd2b72177e0c3a139afa38be",
+      "size": 1463296
+    },
+    {
+      "mode": "0o444",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s1_adata_rna.h5ad",
+      "sha256": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9",
+      "size": 139649778
+    },
+    {
+      "mode": "0o444",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s2_adata_adt.h5ad",
+      "sha256": "cdd71c744a7fa5a0f068064f0fdccfd21dea21d5d949af123bae2904d3e1f28b",
+      "size": 1507709
+    },
+    {
+      "mode": "0o444",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s2_adata_rna.h5ad",
+      "sha256": "74ae08874242a48be5dbee5c73a4cacb6944ebd99def6f4f1a5223bfed3ca7bd",
+      "size": 140281711
+    },
+    {
+      "mode": "0o444",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s3_adata_adt.h5ad",
+      "sha256": "424d81555eb616f4d2378f341c498a2f9ab8ea8890da5354e5a1848ff5fdb2c2",
+      "size": 52175170
+    },
+    {
+      "mode": "0o444",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s3_adata_rna.h5ad",
+      "sha256": "23ef098c7e6b347e98dc5b46bc577073b3aa9575ea61a38669b747b58cc5f47a",
+      "size": 390746807
+    }
+  ],
+  "new_download_bytes": 486654827,
+  "new_download_count": 1,
+  "outside_whitelist": 0,
+  "records": [
+    {
+      "action": "NEW_DOWNLOAD",
+      "official_md5": "9435a1d1c5b38953aa600118acceb3de",
+      "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/downloads/zenodo12654113/data_imputation.zip",
+      "sha256": "ce12d6e2afbe8d950ea9d2e13a2fe5ab3278ec289348dffd869af2401f92bb3d",
+      "size": 486654827,
+      "source": "Zenodo12654113",
+      "url": "https://zenodo.org/api/records/12654113/files/data_imputation.zip/content"
+    },
+    {
+      "action": "REUSE_EXISTING",
+      "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_1_filtered_feature_bc_matrix.h5",
+      "sha256": "7062d81352ae9dccaea04a1d738eaf329342d90fc1eb64948973147db7feeb98",
+      "size": 12117806,
+      "source": "GSE198353"
+    },
+    {
+      "action": "REUSE_EXISTING",
+      "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_replicate_1_spatial.tar.gz",
+      "sha256": "8a336fef0d73df6e6bbcc4382620832bdef7df412423854e4e6b50efaf281544",
+      "size": 4341536,
+      "source": "GSE198353"
+    },
+    {
+      "action": "REUSE_EXISTING",
+      "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_2_filtered_feature_bc_matrix.h5",
+      "sha256": "7ed50e0c66cc9f63916732f2f9a545c527ec872fc7301a1bf22498dcd3bb4229",
+      "size": 12725296,
+      "source": "GSE198353"
+    },
+    {
+      "action": "REUSE_EXISTING",
+      "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_replicate_2_spatial.tar.gz",
+      "sha256": "ddefcb8226e56ad09b2036d3e7d6e58525f69664fd7361f88e11dc4df91bcb8b",
+      "size": 4345235,
+      "source": "GSE198353"
+    }
+  ]
+}

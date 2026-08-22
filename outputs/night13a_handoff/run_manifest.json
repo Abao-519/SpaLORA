@@ -1,0 +1,191 @@
+{
+  "canonical_registry": {
+    "rows": 15,
+    "sha256": "a662a96b55d18b7fe7d5b9ae937b8bdfe63e6d2c65bcedfccb981c7f80661d9b"
+  },
+  "dataset_name_model_routing_count": 0,
+  "dense_n_by_n_count": 0,
+  "development_board": {
+    "external_pass": 0,
+    "rows": 32,
+    "sha256": "c75400a7b48a3c11967e7e8ae9d54e7d5bc2ced61de5e75d39b4234c9a9e3a44",
+    "simple_pass": 6
+  },
+  "downloads": {
+    "extracted_whitelist_members": [
+      {
+        "mode": "0o444",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s1_adata_adt.h5ad",
+        "sha256": "f7e7c2b723faf59fbf1d949c131b2f345c268787cd2b72177e0c3a139afa38be",
+        "size": 1463296
+      },
+      {
+        "mode": "0o444",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s1_adata_rna.h5ad",
+        "sha256": "e1d99b34685805c93a7314f8ef4e07b2f92d244a8c29ac9fced9ee19ff3b96a9",
+        "size": 139649778
+      },
+      {
+        "mode": "0o444",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s2_adata_adt.h5ad",
+        "sha256": "cdd71c744a7fa5a0f068064f0fdccfd21dea21d5d949af123bae2904d3e1f28b",
+        "size": 1507709
+      },
+      {
+        "mode": "0o444",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s2_adata_rna.h5ad",
+        "sha256": "74ae08874242a48be5dbee5c73a4cacb6944ebd99def6f4f1a5223bfed3ca7bd",
+        "size": 140281711
+      },
+      {
+        "mode": "0o444",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s3_adata_adt.h5ad",
+        "sha256": "424d81555eb616f4d2378f341c498a2f9ab8ea8890da5354e5a1848ff5fdb2c2",
+        "size": 52175170
+      },
+      {
+        "mode": "0o444",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s3_adata_rna.h5ad",
+        "sha256": "23ef098c7e6b347e98dc5b46bc577073b3aa9575ea61a38669b747b58cc5f47a",
+        "size": 390746807
+      }
+    ],
+    "new_download_bytes": 486654827,
+    "new_download_count": 1,
+    "outside_whitelist": 0,
+    "records": [
+      {
+        "action": "NEW_DOWNLOAD",
+        "official_md5": "9435a1d1c5b38953aa600118acceb3de",
+        "path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/downloads/zenodo12654113/data_imputation.zip",
+        "sha256": "ce12d6e2afbe8d950ea9d2e13a2fe5ab3278ec289348dffd869af2401f92bb3d",
+        "size": 486654827,
+        "source": "Zenodo12654113",
+        "url": "https://zenodo.org/api/records/12654113/files/data_imputation.zip/content"
+      },
+      {
+        "action": "REUSE_EXISTING",
+        "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_1_filtered_feature_bc_matrix.h5",
+        "sha256": "7062d81352ae9dccaea04a1d738eaf329342d90fc1eb64948973147db7feeb98",
+        "size": 12117806,
+        "source": "GSE198353"
+      },
+      {
+        "action": "REUSE_EXISTING",
+        "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_replicate_1_spatial.tar.gz",
+        "sha256": "8a336fef0d73df6e6bbcc4382620832bdef7df412423854e4e6b50efaf281544",
+        "size": 4341536,
+        "source": "GSE198353"
+      },
+      {
+        "action": "REUSE_EXISTING",
+        "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_rep_2_filtered_feature_bc_matrix.h5",
+        "sha256": "7ed50e0c66cc9f63916732f2f9a545c527ec872fc7301a1bf22498dcd3bb4229",
+        "size": 12725296,
+        "source": "GSE198353"
+      },
+      {
+        "action": "REUSE_EXISTING",
+        "path": "/root/autodl-fs/night4a_external_data/raw/GSE198353/GSE198353_spleen_replicate_2_spatial.tar.gz",
+        "sha256": "ddefcb8226e56ad09b2036d3e7d6e58525f69664fd7361f88e11dc4df91bcb8b",
+        "size": 4345235,
+        "source": "GSE198353"
+      }
+    ]
+  },
+  "environment": {
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+    "python": "3.8.10"
+  },
+  "failed_attempt_artifacts": [
+    "/root/autodl-fs/night13a_benchmark_expansion_20260822/derived/board/simple_A1_attempt1_failed",
+    "/root/autodl-fs/night13a_benchmark_expansion_20260822/derived/board/simple_tonsil_s2_attempt1_failed",
+    "/root/autodl-fs/night13a_benchmark_expansion_20260822/derived/board/simple_tonsil_s3_attempt1_failed",
+    "/root/autodl-fs/night13a_benchmark_expansion_20260822/derived/board/simple_placenta"
+  ],
+  "historical_raw_immutability": {
+    "changed_root_count": 0,
+    "passed": true,
+    "roots": [
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/night4a_external_data",
+        "file_count": 108,
+        "max_mtime_ns": 1786557670493315277,
+        "metadata_fingerprint": "97965a481efefc346945fe491c8ea28828667d2d71ce20c6985e1eef1541d02c",
+        "resolved_root": "/autodl-fs/data/night4a_external_data",
+        "total_bytes": 3649230990
+      },
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/datasets/human_tonsil_official",
+        "file_count": 3,
+        "max_mtime_ns": 1786654672949361819,
+        "metadata_fingerprint": "fe071adb45728d34542b0ec7c13800e639fdecc0662b4faec97a488cf84cb3b0",
+        "resolved_root": "/autodl-fs/data/datasets/human_tonsil_official",
+        "total_bytes": 1822035957
+      },
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/Human lymph node",
+        "file_count": 6,
+        "max_mtime_ns": 1786110587301186574,
+        "metadata_fingerprint": "1d3bd6e383b92186ccde19897eeff2d69bdcf5e44d8cf8533d8d30ec125f16b0",
+        "resolved_root": "/autodl-fs/data/Human lymph node",
+        "total_bytes": 90721871
+      },
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/P22 mouse brain coronal section",
+        "file_count": 3,
+        "max_mtime_ns": 1786125603616417727,
+        "metadata_fingerprint": "13f231a3d5ab38d631e512d6be54127b516f6201425471b45dfe98e455293973",
+        "resolved_root": "/autodl-fs/data/P22 mouse brain coronal section",
+        "total_bytes": 393386815
+      },
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/Human placenta architecture",
+        "file_count": 2,
+        "max_mtime_ns": 1786125180650400546,
+        "metadata_fingerprint": "ae8a378d2b6307f2a1032e3b79e4672a965f3c6b4d1c9021d67539acce99ec4f",
+        "resolved_root": "/autodl-fs/data/Human placenta architecture",
+        "total_bytes": 61071282
+      },
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/night8a_external_data_20260820",
+        "file_count": 12,
+        "max_mtime_ns": 1787164521825417638,
+        "metadata_fingerprint": "307fc6d81c54474f3dd378c064d268885d2c898ea33a8a5172047ac5d2d5fc89",
+        "resolved_root": "/autodl-fs/data/night8a_external_data_20260820",
+        "total_bytes": 49145583
+      },
+      {
+        "byte_exact_metadata_match_before": true,
+        "declared_root": "/root/autodl-fs/night12a_linked_replicate_schema_p0_20260822",
+        "file_count": 114,
+        "max_mtime_ns": 1787396002659253552,
+        "metadata_fingerprint": "536cd9513c1d6e85fc883db0743231f376973e9c9ba9ff6a712f363e2d2ef5d6",
+        "resolved_root": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822",
+        "total_bytes": 6603242533
+      }
+    ],
+    "stage": "after"
+  },
+  "new_method_candidate_training_count": 0,
+  "real_path_p0": {
+    "expected": 2,
+    "passed": 2,
+    "sha256": "3d07982b55663ccece39e0b84a0d90b3abc8a767c1ff00c5e216dd4d81f4c915"
+  },
+  "result_driven_hpo_count": 0,
+  "schema": "night13a-run-manifest-v1",
+  "seed": 0,
+  "tests": {
+    "exit_code": 0,
+    "passed": true,
+    "sha256": "62f9836d94387c8f589457a226f597d1e99007d102c3cf008828c2f551b7a132",
+    "text": "......                                                                   [100%]\n=============================== warnings summary ===============================\ntests/night13a/test_night13a_runner.py::test_protein_adapter_and_sparse_metrics_are_finite\n  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/pandas/core/algorithms.py:798: FutureWarning: In a future version, the Index constructor will not infer numeric dtypes when passed object-dtype sequences (matching Series behavior)\n    uniques = Index(uniques)\n\ntests/night13a/test_night13a_runner.py::test_protein_adapter_and_sparse_metrics_are_finite\n  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.\n    self._set_arrayXarray(i, j, x)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n6 passed, 2 warnings in 2.76s"
+  }
+}

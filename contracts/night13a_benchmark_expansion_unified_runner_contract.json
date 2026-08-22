@@ -1,0 +1,225 @@
+{
+  "schema": "spalora.night13a.benchmark_expansion_unified_runner.v1",
+  "date": "2026-08-22",
+  "objective": "建立去重后的真实数据资产表、统一基线运行器和一张可复算的一种子开发基线板，为 Night-13B 高吞吐性能搜索提供可靠起点。",
+  "parent": {
+    "commit": "c2ed63d460521c198cea79b4f64c2b126672e493",
+    "tag": "night12b-final-20260822",
+    "compact_index_sha256": "c30d5a785d42e8c834ccf3b410e4b5c2feab14dbcab5e57089c32fc8314a8393",
+    "bundle_sha256": "ddcbec480bc44d703981f71d7f4ce0a670b3a212e080481d20255db314815d60"
+  },
+  "workspace": {
+    "repo": "/root/autodl-fs/SpaLORA-night13a",
+    "branch": "revision/q2-night13a-benchmark-expansion-unified-runner-20260822",
+    "protection_tag": "baseline/pre-night13a-benchmark-expansion-unified-runner-20260822",
+    "data_root": "/root/autodl-fs/night13a_benchmark_expansion_20260822",
+    "external_source_root": "/root/autodl-fs/night13a_external_sources_20260822",
+    "final_tag": "night13a-final-20260822"
+  },
+  "label_policy": {
+    "owner_override": "历史标签读取不阻止数据进入开发、调参、比较或 ARI/NMI 评价。",
+    "label_open_development": [
+      "GSE263617 lymph A1",
+      "GSE263617 lymph D1",
+      "canonical human tonsil slices 1-3",
+      "P22 mouse brain",
+      "MISAR E15.5 S1",
+      "legacy placenta if its label provenance and schema close"
+    ],
+    "unlabeled_only": [
+      "GSE198353 SPOTS spleen replicate 1",
+      "GSE198353 SPOTS spleen replicate 2",
+      "GSE308623 P5S1",
+      "GSE308623 P5S2",
+      "GSE308623 P5S3"
+    ],
+    "reporting_boundary": "可称公开 benchmark 开发/复现结果；不得把历史已用数据写成从未使用过的盲测。"
+  },
+  "data_scope": {
+    "rna_protein": [
+      "GSE263617 lymph A1/D1",
+      "Zenodo 12654113 human tonsil slices 1-3 as canonical tonsil representation",
+      "GSE263617 tonsil A1/D1 for provenance and overlap audit only",
+      "GSE198353 SPOTS spleen replicates 1/2"
+    ],
+    "rna_atac": [
+      "existing P22",
+      "existing MISAR E15.5 S1",
+      "existing GSE308623 P5S1/S2/S3"
+    ],
+    "supplementary_audit_only": [
+      "legacy placenta",
+      "GSE205055 E13 confirmatory-candidate metadata",
+      "GSE263333 confirmatory-candidate metadata"
+    ],
+    "explicit_exclusions": [
+      "MISAR E18.5",
+      "FASTQ or SRA",
+      "full GSE263617_RAW.tar",
+      "full GSE308623_RAW.tar",
+      "SPOTS breast cancer",
+      "new GSE263333 matrices",
+      "SPACE-seq",
+      "Slide-tags"
+    ]
+  },
+  "download_whitelist_if_existing_copy_is_missing_or_hash_invalid": [
+    {
+      "source": "Zenodo 12654113",
+      "file": "data_imputation.zip",
+      "size": 486654827,
+      "official_md5": "9435a1d1c5b38953aa600118acceb3de",
+      "allowed_members": "Human_tonsil/slice1-3 RNA and ADT H5AD only"
+    },
+    {
+      "source": "GSE198353",
+      "files": [
+        "spleen_rep_1_filtered_feature_bc_matrix.h5",
+        "spleen_replicate_1_spatial.tar.gz",
+        "spleen_rep_2_filtered_feature_bc_matrix.h5",
+        "spleen_replicate_2_spatial.tar.gz"
+      ]
+    }
+  ],
+  "physical_section_dedup": {
+    "canonical_tonsil": "Zenodo 12654113 slices 1-3",
+    "rules": [
+      "same accession or source section id means same physical section",
+      "same ordered spot ids, coordinates and count signatures means duplicate",
+      "strict spot subset with identical shared counts means filtered version of same section",
+      "ambiguous overlap cannot be counted in both training and evaluation or as independent evidence",
+      "barcode equality alone is insufficient"
+    ]
+  },
+  "source_audit": {
+    "execute": [
+      "simple standardized concatenation anchor",
+      "SpatialGlue",
+      "SMART",
+      "ARISE"
+    ],
+    "reuse_context_only": [
+      "locked C00/G04+H05 artifacts",
+      "locked F00/R02 artifacts",
+      "locked N02 artifacts",
+      "locked COSMOS Night-9B artifacts"
+    ],
+    "audit_only_for_night13b": [
+      "SpaMV",
+      "SpaMode",
+      "SpaBalance",
+      "CANDIES"
+    ],
+    "required_fields": [
+      "official repository and paper",
+      "exact commit",
+      "license",
+      "model and loss entry points",
+      "default config",
+      "dataset-name branches",
+      "clustering endpoint",
+      "manual cluster merge or relabel steps",
+      "supported modalities",
+      "transfer decision"
+    ]
+  },
+  "unified_runner": {
+    "common_cli": true,
+    "common_output_schema": true,
+    "common_seed_interface": true,
+    "resolved_config_saved": true,
+    "resource_audit": ["wall_time", "gpu_time", "peak_gpu", "peak_rss"],
+    "allowed_adapters": ["RNA", "ADT", "ATAC"],
+    "forbidden": [
+      "dataset-name model routing",
+      "post-score cluster merge or split",
+      "silent seed or epoch selection",
+      "dense N by N construction",
+      "cross-section spot alignment"
+    ]
+  },
+  "real_path_p0": {
+    "rna_protein_unit": "GSE198353 spleen replicate 1",
+    "rna_protein_expected_alignment": "2653 unique paired tissue spots after feature_type split and barcode/coordinate alignment",
+    "rna_atac_unit": "GSE308623 P5S1",
+    "rna_atac_expected_input": "7794 observations with 83593412 ATAC fragment rows before clean-room gene score",
+    "path": [
+      "load",
+      "preprocessing",
+      "baseline forward/loss",
+      "embedding",
+      "checkpoint strict save/reload",
+      "fresh-process numerical round-trip",
+      "fusion",
+      "sparse clustering endpoint"
+    ],
+    "seed": 0,
+    "optimizer_steps": 0
+  },
+  "development_baseline_board": {
+    "seed": 0,
+    "hyperparameter_policy": "official defaults or existing locked project config; no Night-13A result-driven HPO",
+    "datasets": [
+      "lymph A1",
+      "lymph D1",
+      "canonical tonsil slices available locally",
+      "P22",
+      "MISAR E15.5 S1",
+      "legacy placenta only if schema/provenance passes"
+    ],
+    "methods": [
+      "simple concatenation anchor",
+      "SpatialGlue",
+      "SMART",
+      "ARISE",
+      "applicable locked C00/F00/N02 references"
+    ],
+    "primary_metrics": ["absolute ARI", "absolute NMI"],
+    "secondary_metrics": ["AMI", "FMI", "homogeneity", "V-measure", "Moran's I", "runtime"],
+    "endpoint_policy": "common endpoint is primary; native endpoint is context only and cannot use manual post-score cluster editing",
+    "known_k_policy": "derive K once from the canonical public annotation for each labeled development dataset and apply the same K to every method"
+  },
+  "engineering_correction_policy": {
+    "global_correction_cap": null,
+    "requirements": [
+      "each engineering fix adds a minimal regression test and one changelog row",
+      "rerun the full affected method-by-family lane after a fix",
+      "never patch only the final aggregation output",
+      "algorithm, graph, loss or scientific hyperparameter semantic changes require a new registered config",
+      "after three distinct unresolved blockers stop that baseline lane but continue independent lanes"
+    ]
+  },
+  "success_gate": {
+    "status": "NIGHT13A_UNIFIED_BENCHMARK_BOARD_READY",
+    "requirements": [
+      "canonical physical-section registry completed",
+      "two real-family P0 paths pass",
+      "simple anchor plus at least two strong external baselines pass both family paths",
+      "development baseline board produced with absolute metrics and resource columns",
+      "all failures and unsupported cells remain visible",
+      "no new method candidate or SOTA claim"
+    ]
+  },
+  "failure_statuses": [
+    "NIGHT13A_DATA_PROVENANCE_BLOCKED",
+    "NIGHT13A_IMPLEMENTATION_FAILURE",
+    "NIGHT13A_INFRASTRUCTURE_FAILURE",
+    "NIGHT13A_PARTIAL_BENCHMARK_BOARD"
+  ],
+  "delivery": {
+    "windows_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night13a_delivery_20260822/official_compact",
+    "minimal_outputs": [
+      "canonical_dataset_registry.csv",
+      "source_code_transfer_audit.md",
+      "run_manifest.json",
+      "real_path_p0_results.json",
+      "development_baseline_board.csv",
+      "engineering_changelog.csv",
+      "night13a_report.md",
+      "night13a_decision.json",
+      "tests summary",
+      "incremental git bundle",
+      "root-relative compact index"
+    ]
+  }
+}

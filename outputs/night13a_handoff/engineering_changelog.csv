@@ -1,0 +1,6 @@
+correction_id,boundary,observed_issue,correction,regression_test,status
+ENG-001,test compatibility,Python 3.8 lacks ast.unparse,Use ast.dump in the targeted AST test,test_runner_has_no_dataset_name_routing,PASS
+ENG-002,identity-blind audit scope,AST initially inspected legal dataset metadata in I/O loader,Constrain audit to model and scientific runner functions,test_runner_has_no_dataset_name_routing,PASS
+ENG-003,observation contract,P22 has 19 observations outside the canonical annotation subset,Add explicit registered-observation subset before numeric preprocessing,test_registered_observation_filter_is_explicit_in_loader_signature,PASS
+ENG-004,label I/O alignment,A1 public label IDs carry a deposited s1- format prefix,Add explicit CLI-only label prefix transform,test_label_prefix_is_only_an_explicit_io_alignment_option,PASS
+ENG-005,public annotation missingness,Tonsil slice 2/3 contain 1/61 missing final_annot values,"Filter missing public annotations before the common endpoint, preserving counts",test_label_prefix_is_only_an_explicit_io_alignment_option,PASS

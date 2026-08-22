@@ -1,0 +1,12 @@
+......                                                                   [100%]
+=============================== warnings summary ===============================
+tests/night13a/test_night13a_runner.py::test_protein_adapter_and_sparse_metrics_are_finite
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/pandas/core/algorithms.py:798: FutureWarning: In a future version, the Index constructor will not infer numeric dtypes when passed object-dtype sequences (matching Series behavior)
+    uniques = Index(uniques)
+
+tests/night13a/test_night13a_runner.py::test_protein_adapter_and_sparse_metrics_are_finite
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+6 passed, 2 warnings in 2.76s
