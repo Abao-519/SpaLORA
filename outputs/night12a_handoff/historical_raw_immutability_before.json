@@ -1,0 +1,203 @@
+{
+  "content_hashes_recomputed": 0,
+  "label_file_contents_opened": false,
+  "roots": [
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 3,
+      "label_or_ground_truth_path_metadata_only": [
+        {
+          "mtime_ns": 1786110483240507098,
+          "relative_path": "A1_groundtruth.csv",
+          "size_bytes": 114473
+        }
+      ],
+      "metadata_fingerprint_sha256": "81c4c9d3e1aa756163c10a69a63229d16371e3f9e8d48a6d2c85ca7ae476b731",
+      "root": "/autodl-fs/data/Human lymph node/A1",
+      "root_mtime_ns": 1786110507489901975,
+      "total_file_bytes": 57864947
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 3,
+      "label_or_ground_truth_path_metadata_only": [
+        {
+          "mtime_ns": 1786110582401768262,
+          "relative_path": "D1_groundtruth.csv",
+          "size_bytes": 124736
+        }
+      ],
+      "metadata_fingerprint_sha256": "3af696ea50dac86bd2378308fdd34a4e901c6728ec74681b79f9bd741aa0c64c",
+      "root": "/autodl-fs/data/Human lymph node/D1",
+      "root_mtime_ns": 1786110587302603058,
+      "total_file_bytes": 32856924
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 3,
+      "label_or_ground_truth_path_metadata_only": [
+        {
+          "mtime_ns": 1786125603616417727,
+          "relative_path": "MouseBrain_groundtruth.csv",
+          "size_bytes": 213019
+        }
+      ],
+      "metadata_fingerprint_sha256": "f890a8cbfe17d469f53e6c082beea4902f9d7c275cc78a09d547c761ff41f0db",
+      "root": "/autodl-fs/data/P22 mouse brain coronal section",
+      "root_mtime_ns": 1786125603617377023,
+      "total_file_bytes": 393386815
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 108,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "8a80745fa73d62b8e295ee2441f66a0b2909eb54e45c834cca50e33c5334a7cf",
+      "root": "/autodl-fs/data/night4a_external_data",
+      "root_mtime_ns": 1786557657032076842,
+      "total_file_bytes": 3649230990
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 236,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "4f52923c01985b60d15436b69072e38c07c5e9c25fb3e5e7c9251d8086221821",
+      "root": "/autodl-fs/data/night6c_cache_20260817",
+      "root_mtime_ns": 1786967315961195993,
+      "total_file_bytes": 129457128
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 2023,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "9b99fac913648506bf952da5209c8a440800b268e6ed58c42eeeb2867fe869c2",
+      "root": "/autodl-fs/data/night6c_raw_runs_20260817",
+      "root_mtime_ns": 1786974367958652790,
+      "total_file_bytes": 461069175
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 43,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "1bcf718af835e36468abbfc67c8e352c7b020123d46048623e71ed44ee86ab92",
+      "root": "/autodl-fs/data/night6d_cache_20260817",
+      "root_mtime_ns": 1786983874611148357,
+      "total_file_bytes": 51736263
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 640,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "abfaa83611b023dfe32f74cc54cb4f5f2638c07ea881b4bb7696f5669477a163",
+      "root": "/autodl-fs/data/night6d_raw_runs_20260817",
+      "root_mtime_ns": 1786984739892249618,
+      "total_file_bytes": 475344856
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 5703,
+      "label_or_ground_truth_path_metadata_only": [
+        {
+          "mtime_ns": 1787034056543778505,
+          "relative_path": "official_compact/handoff/H_label_window_audit.json",
+          "size_bytes": 840
+        },
+        {
+          "mtime_ns": 1787044549435366886,
+          "relative_path": "official_compact/handoff/R1_label_window_audit.json",
+          "size_bytes": 1060
+        },
+        {
+          "mtime_ns": 1787050000341120112,
+          "relative_path": "official_compact/handoff/R2_label_window_audit.json",
+          "size_bytes": 1060
+        }
+      ],
+      "metadata_fingerprint_sha256": "8d1815ac62d8fa0654dd817e50ecb6c4e2db8df7f781c478475a4c4415155b41",
+      "root": "/autodl-fs/data/night7b_score_rnd_20260818",
+      "root_mtime_ns": 1787050822714222596,
+      "total_file_bytes": 2697017328
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 1282,
+      "label_or_ground_truth_path_metadata_only": [
+        {
+          "mtime_ns": 1787312266353173482,
+          "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/label_access_audit.json",
+          "size_bytes": 1667
+        },
+        {
+          "mtime_ns": 1787311086424670209,
+          "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r1_label_window_audit.json",
+          "size_bytes": 1232
+        },
+        {
+          "mtime_ns": 1787311021305821857,
+          "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r1_prelabel_lock_audit.json",
+          "size_bytes": 27769
+        },
+        {
+          "mtime_ns": 1787311957299099539,
+          "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r2_label_window_audit.json",
+          "size_bytes": 1232
+        },
+        {
+          "mtime_ns": 1787311912652430668,
+          "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r2_prelabel_lock_audit.json",
+          "size_bytes": 6133
+        }
+      ],
+      "metadata_fingerprint_sha256": "3f1397e49721fcad8d21f9191ca1862ba682abcd375573e8462cd0b489745b4b",
+      "root": "/autodl-fs/data/night10a_rev2_qcrd_20260821",
+      "root_mtime_ns": 1787312613841268446,
+      "total_file_bytes": 727830877
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 288,
+      "label_or_ground_truth_path_metadata_only": [
+        {
+          "mtime_ns": 1787325302464870454,
+          "relative_path": "official_compact_stage/outputs/night10b_handoff/label_access_audit.json",
+          "size_bytes": 554
+        }
+      ],
+      "metadata_fingerprint_sha256": "3f65f7cd4815c7f67a1b437db1847e85baabf0b1f87e59be1a20bcf9d663904e",
+      "root": "/autodl-fs/data/night10b_family_policy_integration_20260821",
+      "root_mtime_ns": 1787325539546066085,
+      "total_file_bytes": 49261151
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 46,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "a589dba2a1f2d88735e8ba323c0ae0e4c773aba7f1f1344a59168b755d4b2df2",
+      "root": "/autodl-fs/data/night11a_selective_transfer_identifiability_20260822",
+      "root_mtime_ns": 1787337878886414401,
+      "total_file_bytes": 1298732432
+    },
+    {
+      "content_hashes_recomputed": 0,
+      "exists": true,
+      "file_count": 32,
+      "label_or_ground_truth_path_metadata_only": [],
+      "metadata_fingerprint_sha256": "6edd84de46d1a6e2275cc749281255ba4cd3c81d0ce3675595375c221b1c5c02",
+      "root": "/autodl-fs/data/night11b_rna_protein_discordance_identifiability_20260822",
+      "root_mtime_ns": 1787368942336622939,
+      "total_file_bytes": 47161168
+    }
+  ],
+  "schema": "spalora.night12a.historical_raw_before.v1"
+}

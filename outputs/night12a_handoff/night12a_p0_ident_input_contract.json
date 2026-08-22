@@ -1,0 +1,32 @@
+{
+  "families": [
+    "RNA+ATAC",
+    "RNA+protein"
+  ],
+  "generated_only_not_executed": true,
+  "inherited_strict_gate": {
+    "combined_evidence_strictly_better_than_strongest_single_axis_in_both_families": true,
+    "gate_editable_from_night12a_smoke": false,
+    "paired_bootstrap_95ci_lower_bound_gt": 0.0
+  },
+  "label_reads_allowed": 0,
+  "p0_ident_run_count_this_night": 0,
+  "registered_inputs": {
+    "adt_mapping_sha256": "821f876dcc99a59fc06bc304cf256a40a8a91869dc9e294138c2d408b91bf0a3",
+    "atac_link_contract_sha256": "40b322dc375f7d9d048e12437072a8656be0eac7e7917dd4513897f0c3026445",
+    "shape_audit_sha256": "21241a1be32b090a150440a79512d5c8ce14c396cf5f479e8ff89a33d9de0ac6"
+  },
+  "schema": "spalora.night12a.p0_ident_input_contract.v1",
+  "units": {
+    "RNA+ATAC": [
+      "P5S1",
+      "P5S2",
+      "P5S3"
+    ],
+    "RNA+protein": [
+      "P10S1",
+      "P10S2",
+      "P10S3"
+    ]
+  }
+}

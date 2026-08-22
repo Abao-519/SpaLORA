@@ -1,0 +1,284 @@
+{
+  "expression_or_spatial_matching_used": false,
+  "label_reads": 0,
+  "pixel_transform": "strip exactly one terminal -1, otherwise byte identity",
+  "schema": "spalora.night12a.real_shape_and_id_audit.v1",
+  "unit_count": 6,
+  "units": [
+    {
+      "coordinate": {
+        "dtype": "mixed(str,int,int,int,float,float)",
+        "ordered_id_sha256": "e34fefa1ab37fd272842f333c9aab98655f78279bf96bbfa600fe68efc1d2df6",
+        "raw_shape": [
+          10000,
+          6
+        ]
+      },
+      "fragments": {
+        "all_barcode_count": 10000,
+        "all_barcode_sha256": "7ec29d3396fe8c76fdfaaf3083c4093d43946de879456056af93188f0732c9e4",
+        "fragment_multiplicity_sum": 221465771,
+        "fragment_rows": 83593412,
+        "registered_barcode_count": 7794,
+        "registered_barcode_sha256": "b587e63574d4749e2d9d4e412ea5e6c523f8af39fc9c3e99ef1091fdc0bf471b",
+        "registered_coordinate_count": 7794,
+        "registered_coordinate_sha256": "d52b05b0f4a989398f89974c9d1aa2927a3a51699cf407969930c0651b6fb3af",
+        "registered_missing_count": 0
+      },
+      "paired_spot_identity": "closed by registered coordinate IDs",
+      "rna": {
+        "density": 0.0377146952964021,
+        "dtype": "integer_count",
+        "nonzero": 9490122,
+        "observation_by_feature_shape": [
+          7794,
+          32285
+        ],
+        "ordered_feature_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+        "ordered_observation_sha256": "d52b05b0f4a989398f89974c9d1aa2927a3a51699cf407969930c0651b6fb3af",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/GSM9247581_02_P5S1_RNA_matrix.csv.gz",
+        "source_shape": [
+          32285,
+          7794
+        ],
+        "sparse_on_disk": false
+      },
+      "unit_id": "P5S1",
+      "wall_seconds": 84.66188114136457
+    },
+    {
+      "coordinate": {
+        "dtype": "mixed(str,int,int,int,float,float)",
+        "ordered_id_sha256": "9691e51279421b592675f33c9667a84345b2934f6b609e9b55ee926ec4a63ac8",
+        "raw_shape": [
+          48400,
+          6
+        ]
+      },
+      "fragments": {
+        "all_barcode_count": 48397,
+        "all_barcode_sha256": "8833c48b1bdd5f5ee394053b2cb5da16095e7d5c195ec6cf5c2b2bb22eecd84b",
+        "fragment_multiplicity_sum": 457926914,
+        "fragment_rows": 136513082,
+        "registered_barcode_count": 28545,
+        "registered_barcode_sha256": "5759d9ce0e1f3cc8d7df288f56088456a53d0df2f5da2aaf9e1d7eaabbe30c90",
+        "registered_coordinate_count": 28545,
+        "registered_coordinate_sha256": "5759d9ce0e1f3cc8d7df288f56088456a53d0df2f5da2aaf9e1d7eaabbe30c90",
+        "registered_missing_count": 0
+      },
+      "paired_spot_identity": "closed by registered coordinate IDs",
+      "rna": {
+        "density": 0.027758236691070262,
+        "dtype": "integer_count",
+        "nonzero": 25581306,
+        "observation_by_feature_shape": [
+          28545,
+          32285
+        ],
+        "ordered_feature_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+        "ordered_observation_sha256": "5759d9ce0e1f3cc8d7df288f56088456a53d0df2f5da2aaf9e1d7eaabbe30c90",
+        "orientation": "spots_by_rows_features_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/GSM9247582_02_P5S2_RNA_matrix.csv.gz",
+        "source_shape": [
+          28545,
+          32285
+        ],
+        "sparse_on_disk": false
+      },
+      "unit_id": "P5S2",
+      "wall_seconds": 307.9869105499238
+    },
+    {
+      "coordinate": {
+        "dtype": "mixed(str,int,int,int,float,float)",
+        "ordered_id_sha256": "e34fefa1ab37fd272842f333c9aab98655f78279bf96bbfa600fe68efc1d2df6",
+        "raw_shape": [
+          10000,
+          6
+        ]
+      },
+      "fragments": {
+        "all_barcode_count": 10000,
+        "all_barcode_sha256": "7ec29d3396fe8c76fdfaaf3083c4093d43946de879456056af93188f0732c9e4",
+        "fragment_multiplicity_sum": 606381736,
+        "fragment_rows": 434173558,
+        "registered_barcode_count": 9426,
+        "registered_barcode_sha256": "5fd9a02dc9b298f05f966e66f677c4631d4b1d68594281b023fec622eedef3a8",
+        "registered_coordinate_count": 9426,
+        "registered_coordinate_sha256": "f8cd2fb4dbfdf2c4b9d779d5617e5b01deb3d8df9dbb180d696fb4624c7dd300",
+        "registered_missing_count": 0
+      },
+      "paired_spot_identity": "closed by registered coordinate IDs",
+      "rna": {
+        "density": 0.04207404671968416,
+        "dtype": "integer_count",
+        "nonzero": 12803907,
+        "observation_by_feature_shape": [
+          9426,
+          32285
+        ],
+        "ordered_feature_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+        "ordered_observation_sha256": "f8cd2fb4dbfdf2c4b9d779d5617e5b01deb3d8df9dbb180d696fb4624c7dd300",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/GSM9247583_02_P5S3_RNA_matrix.csv.gz",
+        "source_shape": [
+          32285,
+          9426
+        ],
+        "sparse_on_disk": false
+      },
+      "unit_id": "P5S3",
+      "wall_seconds": 102.73832699656487
+    },
+    {
+      "adt": {
+        "density": 0.546644305070517,
+        "dtype": "integer_count",
+        "nonzero": 582133,
+        "observation_by_feature_shape": [
+          7447,
+          143
+        ],
+        "ordered_feature_sha256": "ebdc4fde607f7ce5e1b29381ee6319d58556f067a13774e70df88e57f84fc475",
+        "ordered_observation_sha256": "03da4d1470dad203cb932cb0380e9c67fc84162d70b5428c9f693b6b9de81d5d",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/derived/P10S1/04_P10S1_ADT_matrix/04_P10S1_ADT_matrix.csv.gz",
+        "source_shape": [
+          143,
+          7447
+        ],
+        "sparse_on_disk": false
+      },
+      "coordinate": {
+        "dtype": "mixed(str,int,int,int,float,float)",
+        "ordered_id_sha256": "e34fefa1ab37fd272842f333c9aab98655f78279bf96bbfa600fe68efc1d2df6",
+        "raw_shape": [
+          10000,
+          6
+        ]
+      },
+      "paired_spot_identity": "byte-exact after frozen terminal -1 transform",
+      "rna": {
+        "density": 0.04391226262823597,
+        "dtype": "integer_count",
+        "nonzero": 10557667,
+        "observation_by_feature_shape": [
+          7447,
+          32285
+        ],
+        "ordered_feature_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+        "ordered_observation_sha256": "03da4d1470dad203cb932cb0380e9c67fc84162d70b5428c9f693b6b9de81d5d",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/GSM9247585_04_P10S1_RNA_matrix.csv.gz",
+        "source_shape": [
+          32285,
+          7447
+        ],
+        "sparse_on_disk": false
+      },
+      "unit_id": "P10S1",
+      "wall_seconds": 82.10059034079313
+    },
+    {
+      "adt": {
+        "density": 0.20177927016189023,
+        "dtype": "integer_count",
+        "header_index_field_present": false,
+        "nonzero": 1166377,
+        "observation_by_feature_shape": [
+          41289,
+          140
+        ],
+        "ordered_feature_sha256": "6d2555b0f1c6db85d1b3c7209191c4c24b9f1f0647c3de92e611c24aefa2a434",
+        "ordered_observation_sha256": "214149a8e8e4867190e0a6f98b36d4e2343b1dbce4001030b8ae40be7ef0c0b2",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/derived/P10S2/04_P10S2_ADT_matrix/04_P10S2_ADT_matrix.tsv",
+        "source_shape": [
+          140,
+          41289
+        ],
+        "sparse_on_disk": false
+      },
+      "coordinate": {
+        "dtype": "mixed(str,int,int,int,float,float)",
+        "ordered_id_sha256": "26111a2d2d7be040b38a2418b959097968cd30c9ac6ab5d325bd5e4d1643ed89",
+        "raw_shape": [
+          48400,
+          6
+        ]
+      },
+      "paired_spot_identity": "byte-exact set equality after frozen terminal -1 transform",
+      "rna": {
+        "density": 0.008229196968033448,
+        "dtype": "integer_count",
+        "header_index_field_present": true,
+        "nonzero": 10969646,
+        "observation_by_feature_shape": [
+          41289,
+          32285
+        ],
+        "ordered_feature_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+        "ordered_observation_sha256": "e233cbe38c2028ab269f73dda16d1d54f219c73ef2b4dcd3763f7b36ffb6a92c",
+        "orientation": "spots_by_rows_features_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/GSM9247586_04_P10S2_RNA_matrix.csv.gz",
+        "source_shape": [
+          41289,
+          32285
+        ],
+        "sparse_on_disk": false
+      },
+      "unit_id": "P10S2",
+      "wall_seconds": 470.0852791778743
+    },
+    {
+      "adt": {
+        "density": 0.33928674670363707,
+        "dtype": "integer_count",
+        "nonzero": 287554,
+        "observation_by_feature_shape": [
+          5845,
+          145
+        ],
+        "ordered_feature_sha256": "7c626e9329a3e5eb633d1c422fbdc34e289fd90d9a6ec0d663fc8d62b718cb00",
+        "ordered_observation_sha256": "029d928ae887cd0f5ca894b8b44bdb546636db39d5c56bd2eedff7f0b4cf874c",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/derived/P10S3/04_P10S3_ADT_matrix/04_P10S3_ADT_matrix.csv.gz",
+        "source_shape": [
+          145,
+          5845
+        ],
+        "sparse_on_disk": false
+      },
+      "coordinate": {
+        "dtype": "mixed(str,int,int,int,float,float)",
+        "ordered_id_sha256": "e34fefa1ab37fd272842f333c9aab98655f78279bf96bbfa600fe68efc1d2df6",
+        "raw_shape": [
+          10000,
+          6
+        ]
+      },
+      "paired_spot_identity": "byte-exact after frozen terminal -1 transform",
+      "rna": {
+        "density": 0.020485917697559152,
+        "dtype": "integer_count",
+        "nonzero": 3865812,
+        "observation_by_feature_shape": [
+          5845,
+          32285
+        ],
+        "ordered_feature_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+        "ordered_observation_sha256": "029d928ae887cd0f5ca894b8b44bdb546636db39d5c56bd2eedff7f0b4cf874c",
+        "orientation": "features_by_rows_spots_by_columns",
+        "source_path": "/autodl-fs/data/night12a_linked_replicate_schema_p0_20260822/downloads/GSM9247587_04_P10S3_RNA_matrix.csv.gz",
+        "source_shape": [
+          32285,
+          5845
+        ],
+        "sparse_on_disk": false
+      },
+      "unit_id": "P10S3",
+      "wall_seconds": 63.54551223479211
+    }
+  ]
+}

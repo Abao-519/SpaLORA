@@ -1,0 +1,18 @@
+{
+  "atac_units": 3,
+  "correction_cycles": 1,
+  "endpoint_k": 2,
+  "feature_cap": 256,
+  "formal_units": [
+    "P5S1",
+    "P10S1"
+  ],
+  "label_reads": 0,
+  "latent_dim": 64,
+  "protein_units": 3,
+  "schema": "spalora.night12a.real_input_preflight.v1",
+  "seed": 20260822,
+  "six_units_closed": true,
+  "status": "READY_FOR_TWO_REGISTERED_SMOKES",
+  "training_steps": 0
+}

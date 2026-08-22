@@ -1,0 +1,101 @@
+{
+  "allowed_metadata": [
+    "study",
+    "species",
+    "tissue",
+    "P5/P10",
+    "replicate",
+    "modality",
+    "genome build",
+    "file format"
+  ],
+  "historical_path_metadata_only": [
+    {
+      "contents_opened": false,
+      "mtime_ns": 1786110483240507098,
+      "relative_path": "A1_groundtruth.csv",
+      "root": "/autodl-fs/data/Human lymph node/A1",
+      "size_bytes": 114473
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1786110582401768262,
+      "relative_path": "D1_groundtruth.csv",
+      "root": "/autodl-fs/data/Human lymph node/D1",
+      "size_bytes": 124736
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1786125603616417727,
+      "relative_path": "MouseBrain_groundtruth.csv",
+      "root": "/autodl-fs/data/P22 mouse brain coronal section",
+      "size_bytes": 213019
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787034056543778505,
+      "relative_path": "official_compact/handoff/H_label_window_audit.json",
+      "root": "/autodl-fs/data/night7b_score_rnd_20260818",
+      "size_bytes": 840
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787044549435366886,
+      "relative_path": "official_compact/handoff/R1_label_window_audit.json",
+      "root": "/autodl-fs/data/night7b_score_rnd_20260818",
+      "size_bytes": 1060
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787050000341120112,
+      "relative_path": "official_compact/handoff/R2_label_window_audit.json",
+      "root": "/autodl-fs/data/night7b_score_rnd_20260818",
+      "size_bytes": 1060
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787312266353173482,
+      "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/label_access_audit.json",
+      "root": "/autodl-fs/data/night10a_rev2_qcrd_20260821",
+      "size_bytes": 1667
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787311086424670209,
+      "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r1_label_window_audit.json",
+      "root": "/autodl-fs/data/night10a_rev2_qcrd_20260821",
+      "size_bytes": 1232
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787311021305821857,
+      "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r1_prelabel_lock_audit.json",
+      "root": "/autodl-fs/data/night10a_rev2_qcrd_20260821",
+      "size_bytes": 27769
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787311957299099539,
+      "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r2_label_window_audit.json",
+      "root": "/autodl-fs/data/night10a_rev2_qcrd_20260821",
+      "size_bytes": 1232
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787311912652430668,
+      "relative_path": "official_compact/repo/outputs/night10a_rev2_handoff/r2_prelabel_lock_audit.json",
+      "root": "/autodl-fs/data/night10a_rev2_qcrd_20260821",
+      "size_bytes": 6133
+    },
+    {
+      "contents_opened": false,
+      "mtime_ns": 1787325302464870454,
+      "relative_path": "official_compact_stage/outputs/night10b_handoff/label_access_audit.json",
+      "root": "/autodl-fs/data/night10b_family_policy_integration_20260821",
+      "size_bytes": 554
+    }
+  ],
+  "label_file_contents_opened": false,
+  "schema": "spalora.night12a.sealed_label_registry.v1",
+  "whitelist_label_files_detected": 0
+}

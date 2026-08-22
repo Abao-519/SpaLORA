@@ -1,0 +1,97 @@
+{
+  "clean_room_implementation": true,
+  "files_read_completely": [
+    {
+      "path": "README.md",
+      "sha256": "c24aefd270047394489f0a33987a2162e361c718e738a608c805bdde9d0f75e7",
+      "size": 2777
+    },
+    {
+      "path": "Data_preprocessing/ADT_process/TAG_LIST_Mouse_ECM_all.csv",
+      "sha256": "7f89469c74db997c40304ef120be47efa80298fdf9cf1bd555ac31ecc95427a2",
+      "size": 3243
+    },
+    {
+      "path": "Data_preprocessing/ADT_process/CITE_BC_process.py",
+      "sha256": "e8ccc01a03dacef852ce53eae5348ac3a6cee726706dc284d5e2d608191bcd2f",
+      "size": 754
+    },
+    {
+      "path": "Data_preprocessing/ARC_process/RNA_BC_process.py",
+      "sha256": "a98c098078666c19b671f19dd168a3592197262732da0e25af413983f9d1329f",
+      "size": 755
+    },
+    {
+      "path": "Data_preprocessing/ARC_process/ATAC_BC_process.py",
+      "sha256": "494e6fba94caa8e04fd1a8d17731a2cd5efb4212a33f0c33e587bf608fb0f1d1",
+      "size": 1170
+    },
+    {
+      "path": "Data_preprocessing/ARC_process/3.run_cellrangerarc.sh",
+      "sha256": "f9acfa1d477df65a6112c4fced75f3a54dbad7ebd77263e6f2ef6c5070c29328",
+      "size": 1127
+    },
+    {
+      "path": "Data_preprocessing/Spatial_process/02_tissue_positions_list.R",
+      "sha256": "3cdb3edd6a8c58a3adc2c093228ab95389c3e85b0b806653bebb20516c192c38",
+      "size": 1636
+    },
+    {
+      "path": "Data_preprocessing/Spatial_process/merge_spots_squaredgrid.py",
+      "sha256": "c404094794dbe76383f12b6730b4e4031a9adb04ea7801f4d97f863de226a7e7",
+      "size": 9879
+    },
+    {
+      "path": "Data_visualization/archR_fix.R",
+      "sha256": "42acde589edb704a29716914fe97630c595296847dab0b14e84a4181ad5d7153",
+      "size": 13214
+    },
+    {
+      "path": "Data_visualization/ArchRmergeRNAATACgene.R",
+      "sha256": "f54071f3605f7eee219abc383e88de3bdb879ffdd7c98dac7da69b1a19428269",
+      "size": 40179
+    },
+    {
+      "path": "SpaLORA/night1_pipeline.py",
+      "sha256": "0173a8c371cff7f67fe42f40fd8ffd1d6a1dfe0d3702589934df97d9b52250e1",
+      "size": 15204
+    },
+    {
+      "path": "SpaLORA/preprocess.py",
+      "sha256": "8b1a9c27611cc365ae575ff7b95ea2a76f4addafdd37c3189d9c162ad9628a38",
+      "size": 10046
+    },
+    {
+      "path": "SpaLORA/night6c_pipeline.py",
+      "sha256": "b1abd06ab1f5f30d8f3c1d16e89a2ab8c240b61422f8c2b9307adc0619a0e0d1",
+      "size": 29352
+    },
+    {
+      "path": "SpaLORA/night6d_pipeline.py",
+      "sha256": "5aef023f7bba8d7a4cf2c75982bac95f2c88f25ad972029672bd914f7dff3897",
+      "size": 3666
+    },
+    {
+      "path": "SpaLORA/night12a_schema_p0.py",
+      "sha256": "baf4ef49f0251c0fbca724d93aeb771c4bb3b69745c4e3ed912ae5126a22bed9",
+      "size": 27434
+    },
+    {
+      "path": "scripts/night12a/night12a_smoke.py",
+      "sha256": "0c6c0c940cc29a76edabe12df8ef1c26166f9a3f09e25056291db02e2486a299",
+      "size": 13182
+    }
+  ],
+  "schema": "spalora.night12a.source_audit.v1",
+  "source_semantics": {
+    "adt_preprocessing": "Night-1 Seurat CLR over all targets then ddof=1 scaling",
+    "endpoint": "existing H05 equal-three-affinity spectral, engineering K=2",
+    "genome": "mm10 / Cell Ranger ARC reference 2020-A",
+    "registered_clean_room_link": "Ensembl79 gene body plus strand-aware 5000 bp upstream; fragment midpoint",
+    "rna_preprocessing": "Night-1 full-library log1p normalization",
+    "upstream_gene_score": "ArchR createArrowFiles(addGeneScoreMat=TRUE)"
+  },
+  "upstream_commit": "300c96e8bcc6178ad0b7307e349ae7abc0266642",
+  "upstream_license_file_detected": false,
+  "upstream_source_copied": false
+}
