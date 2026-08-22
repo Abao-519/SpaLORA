@@ -1,0 +1,27 @@
+{
+  "bootstrap_count": 32,
+  "control_rows": 435,
+  "dataset_count": 3,
+  "feature_rows": 87,
+  "formal_correction_cycles": 1,
+  "manifests": [
+    {
+      "dataset": "a1",
+      "path": "/root/autodl-fs/night11b_rna_protein_discordance_identifiability_20260822/formal_cycle_1/a1/formal_manifest.json",
+      "sha256": "5adf10a09072ef2c7b226e0cb30b17ba56b276c2f832a462cf8026a9527a100f"
+    },
+    {
+      "dataset": "tonsil",
+      "path": "/root/autodl-fs/night11b_rna_protein_discordance_identifiability_20260822/formal_cycle_1/tonsil/formal_manifest.json",
+      "sha256": "f2cf995fb9ab62baaac88efbc4ae4b7fc8afa3319f56a1c8d6c56d4232a662a5"
+    },
+    {
+      "dataset": "d1",
+      "path": "/root/autodl-fs/night11b_rna_protein_discordance_identifiability_20260822/formal_cycle_1/d1/formal_manifest.json",
+      "sha256": "0b7517248337e90879d59c42760b4b7770f4676b074c3e7194688f13f19afb5e"
+    }
+  ],
+  "permutation_count": 199,
+  "scientific_retries": 0,
+  "status": "FORMAL_COMPLETE"
+}

@@ -1,0 +1,40 @@
+{
+  "classification": "SCIENTIFIC NEGATIVE",
+  "clustering_metrics_computed": 0,
+  "formal_correction_cycles": 1,
+  "formula_changes_after_formal": 0,
+  "gates": {
+    "a1_d1_permutation_p": 1.0,
+    "a1_d1_rank_constant": true,
+    "a1_d1_reproducibility_gate": false,
+    "a1_d1_spearman": 0.0,
+    "combined_minus_boot_auc": 0.02442528735632188,
+    "combined_minus_boot_auc_ci95": [
+      0.012931034482758674,
+      0.03591954022988508
+    ],
+    "combined_minus_space_auc": 0.002873563218390718,
+    "combined_minus_space_auc_ci95": [
+      -1.1102230246251565e-16,
+      0.007183908045977128
+    ],
+    "controls_gate": true,
+    "dataset_control_auc": {
+      "a1": 0.8749999999999999,
+      "d1": 0.8749999999999999,
+      "tonsil": 0.8793103448275862
+    },
+    "full_evidence_better_than_each_axis_gate": false,
+    "pooled_control_auc": 0.8764367816091954,
+    "pooled_control_auc_ci95": [
+      0.8548850574712643,
+      0.8980244252873562
+    ],
+    "real_end_to_end_and_reload_3_of_3": true
+  },
+  "labels_read": 0,
+  "schema": "spalora.night11b.decision.v1",
+  "scientific_retries": 0,
+  "scope": "P0 local identifiability only; not a full model or clustering claim",
+  "terminal_status": "NIGHT11B_EVIDENCE_AXES_NOT_IDENTIFIABLE"
+}

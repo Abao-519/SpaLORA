@@ -1,0 +1,28 @@
+{
+  "all_zero": true,
+  "counters": {
+    "AMI": 0,
+    "ARI": 0,
+    "E18_5": 0,
+    "FMI": 0,
+    "MISAR_Y": 0,
+    "NMI": 0,
+    "Q": 0,
+    "QCRD": 0,
+    "annotation_spatial_metrics": 0,
+    "clustering_head_scientific_evaluations": 0,
+    "dataset_name_routing": 0,
+    "dense_N_by_N": 0,
+    "evaluation_label_reads": 0,
+    "new_candidate_searches": 0,
+    "new_downloads": 0,
+    "new_external_data": 0,
+    "night11a_gate_revisions": 0,
+    "scientific_retry_or_fallback": 0,
+    "third_party_benchmarks": 0,
+    "total_label_reads": 0,
+    "training_label_reads": 0
+  },
+  "h5_boundary": "X + obs/_index + var/_index + obsm/spatial only; obs annotation datasets not opened",
+  "status": "PASS"
+}
