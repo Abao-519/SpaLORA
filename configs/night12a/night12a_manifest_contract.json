@@ -20,9 +20,10 @@
     {"modality":"ATAC","file":"Analysis_bag_2_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_ATAC.tgz","size":2605,"sha256":"1d7055cf2b9b22615bffb6aeb12d402991a5c36376cde21821750572386168df"},
     {"modality":"ADT","file":"Analysis_bag_3_Zhang_Fan_DBiTseq_2025_Mouse_Analysis_Protein.tgz","size":2523,"sha256":"a1de4732d9b606a1929d9574ab6465e31a6d000b4de66fa9c2f9d031583fc87d"}
   ],
-  "payload_count": 21,
+  "payload_count": 23,
   "allowed_units": ["U_ATAC_P5", "U_PROTEIN_P10"],
   "allowed_replicates": ["P5S1", "P5S2", "P5S3", "P10S1", "P10S2", "P10S3"],
+  "annotation_payloads": ["Ensembl release 79 Mus_musculus.GRCm38.79.gtf.gz", "NCBI Mus_musculus.gene_info.gz snapshot last-modified 2026-08-19"],
   "forbidden": ["FASTQ", "SRA", "GSE308623_RAW.tar", "P5 protein", "P10 ATAC", "GSE263333 content", "GSE213264 content", "labels", "third-party repacks"],
   "pixel_id_transform": {
     "frozen_before_numeric_read": true,
