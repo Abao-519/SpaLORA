@@ -1,0 +1,67 @@
+{
+  "all_failed_runs_preserved": true,
+  "generated_at_unix": 1787489036,
+  "inputs": [
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage1/stage1_all_run_ledger.csv",
+      "sha256": "c1d2aefebac7f0119e3e9a151fc8ba99eb3d9b934f93acae5f77495694ebdb9b",
+      "size_bytes": 159754
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage3_head_search/targeted_head_all_run_ledger.csv",
+      "sha256": "6453c13809a7ef424fe6d8e019bd66a4a10f5bd22a4179a3a5d397d09204a18c",
+      "size_bytes": 1325081
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage4_misar_k12/misar_k12_targeted_all_run_ledger.csv",
+      "sha256": "5d4d0ba80c0a2d7e3c333f0afb99b01a5ad9c75c4d0ba2be714b49f125b178a7",
+      "size_bytes": 461667
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/formal_frozen/formal_absolute_metrics.csv",
+      "sha256": "6a00a20add9027da65f1f57ee5ca99a3df9787616875672c5102bdbbb0c5573c",
+      "size_bytes": 25011
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U20_FIXED_P22/P22/seed_0/training_audit.json",
+      "sha256": "c958bd71ed87307dc1db421017c5c05ddde4329672697a86cf637abed195d18d",
+      "size_bytes": 3598
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U21_SUPPORT_P22/P22/seed_0/training_audit.json",
+      "sha256": "c68655faffdbb8ed97b4908e8c48441b63db0d3025d692caedd19cd1be595d93",
+      "size_bytes": 3597
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U22_TSPR_P22/P22/seed_0/training_audit.json",
+      "sha256": "8b92d83d6f4aca613017d3a2a9633a6ab43717be0d422530cf78f8a1f69836bd",
+      "size_bytes": 3599
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U23_TSPR_FINETUNE_P22/P22/seed_0/training_audit.json",
+      "sha256": "33ab713de737f269ade4cfb7dbbc6d9d6428d6e3db12842168744853bda10c4b",
+      "size_bytes": 3597
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U24_FIXED_MISAR/MISAR_E15_5_S1/seed_0/training_audit.json",
+      "sha256": "ad0aaa88b124485dfac5f42fb98a584266393cc4ef7ae3dc18b061940e43d471",
+      "size_bytes": 4481
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U25_SUPPORT_MISAR/MISAR_E15_5_S1/seed_0/training_audit.json",
+      "sha256": "628f8128659121973b40257defdbf071f62ba53befc9185dd24b03112d4154b0",
+      "size_bytes": 4479
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U26_TSPR_MISAR/MISAR_E15_5_S1/seed_0/training_audit.json",
+      "sha256": "7e2df1db2eee96f11906cf4372bdf6e497f2051ca429f2feb81f59f84c034677",
+      "size_bytes": 4474
+    },
+    {
+      "path": "/root/autodl-fs/night14b_atac_score_acceleration_20260823/stage2/U27_TSPR_FINETUNE_MISAR/MISAR_E15_5_S1/seed_0/training_audit.json",
+      "sha256": "4b0ecb10ddf3e4ac34c0ca2062f5470a8d7d31256d84c073fe8353601caa32a0",
+      "size_bytes": 4482
+    }
+  ],
+  "output_file_count_before_manifest": 20
+}

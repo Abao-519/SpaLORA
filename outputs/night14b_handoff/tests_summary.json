@@ -1,0 +1,10 @@
+{
+  "command": "pytest -q tests/night14b/test_night14b_atac.py tests/night14a/test_night14a_tcf.py",
+  "failed": 0,
+  "formal_fresh_process_exact": "36/36",
+  "passed": 13,
+  "real_full_train_passed": 8,
+  "real_full_train_runs": 8,
+  "targeted_test_count": 13,
+  "training_fresh_process_passed": 8
+}

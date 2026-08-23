@@ -1,0 +1,108 @@
+{
+  "config_count": 4,
+  "config_sha256": "cebe8bbbb2ca196c4eb0eae24a3cc6a159b6118481bbe7fe5c170c698479b9b6",
+  "configs": [
+    {
+      "algorithm": "KMEANS",
+      "algorithm_n_init": 20,
+      "cluster_k": 9,
+      "coordinate_basis": "LINEAR",
+      "coordinate_weight": 1.2,
+      "dataset": "P22",
+      "filter": {
+        "beta": 0.85,
+        "graph_k": 18,
+        "kind": "BILATERAL",
+        "quantile": 0.5,
+        "steps": 2
+      },
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "pca_dimension": 32,
+      "refinement": {
+        "anchor": 0.1,
+        "graph_k": 18,
+        "iterations": 5
+      },
+      "representation": "FUSED"
+    },
+    {
+      "algorithm": "GMM_DIAG",
+      "algorithm_n_init": 3,
+      "cluster_k": 9,
+      "coordinate_basis": "LINEAR",
+      "coordinate_weight": 1.2,
+      "dataset": "P22",
+      "filter": {
+        "beta": 0.85,
+        "graph_k": 18,
+        "kind": "BILATERAL",
+        "quantile": 0.5,
+        "steps": 2
+      },
+      "formal_id": "F31_P22_K9_HIGH_NMI",
+      "pca_dimension": 32,
+      "refinement": {
+        "anchor": 0.1,
+        "graph_k": 24,
+        "iterations": 20
+      },
+      "representation": "FUSED"
+    },
+    {
+      "algorithm": "GMM_DIAG",
+      "algorithm_n_init": 3,
+      "cluster_k": 7,
+      "coordinate_basis": "POLY2",
+      "coordinate_weight": 1.2,
+      "dataset": "MISAR_E15_5_S1",
+      "filter": {
+        "beta": 0.9,
+        "graph_k": 12,
+        "kind": "FIXED_LOW",
+        "steps": 3
+      },
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "pca_dimension": 32,
+      "refinement": {
+        "anchor": 0.1,
+        "graph_k": 24,
+        "iterations": 10
+      },
+      "representation": "EQUAL3"
+    },
+    {
+      "algorithm": "GMM_SPHERICAL",
+      "algorithm_n_init": 3,
+      "cluster_k": 12,
+      "coordinate_basis": "LINEAR",
+      "coordinate_weight": 1.2,
+      "dataset": "MISAR_E15_5_S1",
+      "filter": {
+        "beta": 0.95,
+        "graph_k": 18,
+        "kind": "FIXED_LOW",
+        "steps": 5
+      },
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "pca_dimension": 16,
+      "refinement": {
+        "anchor": 0.0,
+        "graph_k": 12,
+        "iterations": 10
+      },
+      "representation": "PRIVATE2"
+    }
+  ],
+  "endpoint_seeds": [
+    0,
+    1,
+    2
+  ],
+  "labels_in_fit_gradient_or_checkpoint": false,
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "selection_source": "Night-14B stage3 and stage4 public-benchmark HPO"
+}

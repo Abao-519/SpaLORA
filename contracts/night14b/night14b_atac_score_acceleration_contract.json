@@ -1,0 +1,135 @@
+{
+  "contract_version": "1.0",
+  "date": "2026-08-23",
+  "task_id": "night14b_atac_score_acceleration",
+  "scope": "RNA+ATAC primary method development",
+  "working_module_code": "TSPR",
+  "working_module_expansion": "Tri-State Propagation with Rejection",
+  "working_name_is_final_paper_name": false,
+  "objective": "Develop and aggressively optimize one unified RNA+ATAC architecture so that P22 and MISAR approach or reach registered same-protocol high-water scores, while identifying which new module causes the improvement.",
+  "night14a_authority": {
+    "compact_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night14a_delivery_20260823/official_compact",
+    "indexed_payload_count": 77,
+    "compact_index_sha256": "031d31581413c639c6ae5dea459f62eaea1939937d244bd93bcc78696c0b2dc8",
+    "bundle_sha256": "3892f0e8c00b81618407e3e2aabf64cc793acf2b381e6320418f496d91ce6b7a",
+    "final_commit": "fa8eb6efbcd6a31c7213a1411243a9b278d637d8",
+    "final_tag": "night14a-final-20260823"
+  },
+  "night14a_interpretation": {
+    "classification": "ATAC_FOCUSED_DEVELOPMENT_SIGNAL",
+    "implementation_valid": true,
+    "rna_atac_signal_valid": true,
+    "tcf_specific_increment_identified": false,
+    "frozen_rna_atac_confirmation_count": 0,
+    "current_mechanism": "primarily topology-and-roughness-gated spatial low-pass"
+  },
+  "resource_priority": {
+    "own_method_model_and_score_fraction_guidance": "0.75-0.85",
+    "reported_high_water_and_protocol_fraction_guidance": "0.05-0.10",
+    "top_candidate_checks_fraction_guidance": "0.10-0.15",
+    "full_external_benchmark_reproduction_required": false,
+    "executor_may_reallocate": true
+  },
+  "unification": {
+    "same_architecture_family_and_information_flow_required": true,
+    "dataset_name_driven_backbone_switching_allowed": false,
+    "assay_specific_preprocessing_allowed": true,
+    "modality_specific_adapters_allowed": true,
+    "dataset_or_platform_specific_numeric_hpo_allowed": true,
+    "dataset_specific_cluster_k_and_endpoint_parameters_allowed": true,
+    "all_hpo_must_be_logged": true
+  },
+  "label_policy": {
+    "public_labels_for_evaluation_allowed": true,
+    "public_labels_for_hpo_allowed": true,
+    "public_labels_for_endpoint_selection_allowed": true,
+    "labels_in_unsupervised_loss_gradient_or_within_run_checkpoint_selection_allowed": false,
+    "supervised_or_semisupervised_lanes_allowed_if_explicitly_reclassified": true,
+    "claim_pristine_blind_confirmation": false
+  },
+  "primary_score_lanes": [
+    {
+      "lane": "P22_PROJECT_K9",
+      "target": "N02 native",
+      "target_ari": 0.5063,
+      "target_nmi": 0.6562,
+      "stretch_ari": 0.55
+    },
+    {
+      "lane": "P22_PAPER_K18",
+      "target": "3d-OT paper-reported high water",
+      "target_ari_provisional": 0.39,
+      "exact_value_must_be_reverified": true
+    },
+    {
+      "lane": "MISAR_PROJECT_K7",
+      "target": "Night-14A support-only",
+      "target_ari": 0.3137,
+      "target_nmi": 0.4924
+    },
+    {
+      "lane": "MISAR_PAPER_K12",
+      "target": "SEPAR paper-reported integrated score",
+      "target_ari": 0.644
+    }
+  ],
+  "method_search": {
+    "cheap_filter_or_embedding_configs_guidance": "40-100",
+    "full_training_configs_guidance": "8-20",
+    "single_training_seed_initial_screen_allowed": true,
+    "best_seed_development_breakthrough_allowed": true,
+    "best_seed_is_paper_confirmation": false,
+    "top_candidate_multiseed_only": true,
+    "top_candidate_training_seed_guidance": "2-3 now or defer to Night-15",
+    "formula_may_change_during_development": true,
+    "single_correction_cycle_limit": false,
+    "executor_may_replace_tspr_if_better_mechanism_found": true
+  },
+  "inspiration_pool": [
+    "multiscale graph signal processing",
+    "anisotropic and bilateral diffusion",
+    "heterophily graph networks",
+    "point-cloud geometry",
+    "image segmentation and boundary regularization",
+    "multi-view self-supervision",
+    "content-gated mixture of experts",
+    "deep clustering heads",
+    "permutation-calibrated abstention"
+  ],
+  "required_comparators_for_top_candidates": [
+    "identity",
+    "matched-strength fixed low-pass",
+    "support-only",
+    "Night-14A W02",
+    "same post-processing applied to strong reference embedding"
+  ],
+  "optional_later_data": [
+    "MISAR E11",
+    "MISAR E13.5",
+    "MISAR E18.5",
+    "GSE205055 P21 or ME13",
+    "GSE205055 P22 other epigenome slices",
+    "GSE308623 P5S1/P5S2/P5S3"
+  ],
+  "allowed_outcomes": [
+    "SCORE_BREAKTHROUGH",
+    "MULTI_DATASET_SCORE_SIGNAL",
+    "MODULE_SIGNAL",
+    "BACKBONE_OR_HEAD_SIGNAL",
+    "NO_SCORE_SIGNAL",
+    "IMPLEMENTATION_FAILURE",
+    "INFRASTRUCTURE_FAILURE"
+  ],
+  "integrity": {
+    "preserve_all_failed_runs": true,
+    "best_run_must_map_to_real_config_checkpoint_and_seed": true,
+    "preserve_historical_raw": true,
+    "new_authoritative_downloads_allowed": true,
+    "third_party_license_and_attribution_required": true,
+    "force_push_allowed": false,
+    "overwrite_historical_tags_allowed": false,
+    "engineering_fixes_and_restarts_allowed": true,
+    "dense_components_allowed_after_memory_preflight": true,
+    "different_protocol_numbers_may_not_be_claimed_as_direct_wins": true
+  }
+}

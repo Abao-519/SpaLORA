@@ -1,0 +1,26 @@
+{
+  "claim_scope": "public benchmark development score sprint",
+  "dataset_name_backbone_or_flow_routing": 0,
+  "dense_n_by_n_count": 0,
+  "failed_runs_hidden_or_deleted": 0,
+  "force_pushes": 0,
+  "formal_failures": 0,
+  "formal_rows": 36,
+  "fresh_process_partition_exact": 36,
+  "fresh_process_partition_total": 36,
+  "historical_raw_writes": 0,
+  "labels_in_unsupervised_loss_gradient_or_within_run_checkpoint_selection": 0,
+  "new_data_downloads": 0,
+  "not_claimed": [
+    "SOTA",
+    "CONFIRMED_MILESTONE",
+    "PAPER_READY_EVIDENCE"
+  ],
+  "per_dataset_transparent_numeric_hpo_and_head_selection": true,
+  "public_label_metric_evaluations": 4701,
+  "public_labels_used_for_cross_run_hpo": true,
+  "single_seed_score_breakthrough_criterion_met": true,
+  "terminal_state": "BACKBONE_OR_HEAD_SIGNAL",
+  "third_party_full_benchmark_runs": 0,
+  "training_label_reads": 0
+}

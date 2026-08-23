@@ -1,0 +1,6 @@
+registry_id,kind,configuration_count,result_rows,formula
+R00_FILTER_GRID,frozen filter grid,56.0,309,identity/fixed-low/multiscale/rank-calibrated TSPR
+R01_TRAINABLE_EDGE,full train,8.0,12,shared C15 core plus fixed/support/TSPR edge state
+R02_HEAD_SEARCH,offline head HPO,,3171,bilateral/low-pass plus PCA/GMM/KMeans/spatial refinement
+R03_MISAR_K12,targeted offline head HPO,,1173,spatial Ward and posterior Potts ICM
+R04_FROZEN_FORMAL,multi-seed replay,4.0,36,3 backbone seeds x 3 endpoint seeds per frozen lane

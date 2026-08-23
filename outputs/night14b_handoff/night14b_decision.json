@@ -1,0 +1,21 @@
+{
+  "classification_reason": "registered score gains are attributable to preprocessing and clustering heads; trainable TSPR did not beat fixed-low",
+  "edge_module_independent_increment": false,
+  "formal_rows": 36,
+  "fresh_process_exact": "36/36",
+  "misar_k12_best": {
+    "ari": 0.4142752375766465,
+    "nmi": 0.5328709531713021
+  },
+  "misar_k7_best": {
+    "ari": 0.5099310451743241,
+    "nmi": 0.6289634776869945
+  },
+  "not_sota_or_confirmed_or_paper_ready": true,
+  "p22_k9_best": {
+    "ari": 0.5683320293232914,
+    "nmi": 0.6845261668582091
+  },
+  "single_seed_score_breakthrough_criterion_met": true,
+  "terminal_state": "BACKBONE_OR_HEAD_SIGNAL"
+}

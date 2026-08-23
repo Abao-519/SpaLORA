@@ -1,0 +1,54 @@
+{
+  "base_config": {
+    "backbone": "CR_BALANCED_XREC",
+    "candidate_id": "C15_BAL_XREC_600_WEAK_ALIGN",
+    "depth": 2,
+    "dropout": 0.05,
+    "gradient_clip": 5.0,
+    "graph_k": 8,
+    "hidden_dim": 96,
+    "latent_dim": 64,
+    "learning_rate": 0.001,
+    "loss_weights": {
+      "alignment": 0.04,
+      "covariance": 0.0005,
+      "cross_recon": 1.0,
+      "graph_smooth": 0.008,
+      "private_recon": 0.5,
+      "topology_agreement": 0.015,
+      "variance": 0.1
+    },
+    "steps": 600,
+    "weight_decay": 1e-05
+  },
+  "boundary_center": 0.4,
+  "boundary_scale": 10.0,
+  "candidate_id": "U20_FIXED_P22",
+  "cluster_ks": [
+    9
+  ],
+  "conflict_center": 0.18,
+  "conflict_scale": 12.0,
+  "edge_loss_weights": {
+    "edge_reconstruction": 0.5,
+    "rejected_edge_retention": 0.02,
+    "trusted_smoothness": 0.02
+  },
+  "edge_mode": "FIXED_LOW",
+  "freeze_base": true,
+  "gradient_clip": 5.0,
+  "head_anchor": 0.2,
+  "head_graph_k": 24,
+  "head_iterations": 10,
+  "initial_high_strength": 0.0,
+  "initial_low_strength": 0.2,
+  "learning_rate": 0.0005,
+  "optimizer": "AdamW",
+  "post_beta": 0.8,
+  "post_graph_k": 12,
+  "post_steps": 1,
+  "steps": 300,
+  "support_center": 0.6,
+  "support_scale": 10.0,
+  "weight_decay": 1e-05
+}

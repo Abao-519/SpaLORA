@@ -1,0 +1,5 @@
+lane,dataset_version,annotation,mask,k,endpoint,directly_comparable,labels_allowed_for_hpo,labels_in_unsupervised_loss
+P22_PROJECT_K9,project P22 paired h5ad,MouseBrain_groundtruth.csv coarse manual-anno,9196/9196,9,N02 native H05,True,True,False
+P22_PAPER_K18,3d-OT Dataset7 Mouse Brain ATAC,3d-OT h5ad truth; artifact not present at Stage 0,pending exact artifact,18,mclust per official tutorial,False,True,False
+MISAR_PROJECT_K7,MISAR E15.5 S1 1949 spots,"deposited carrier Y, seven unique classes",1949/1949,7,Night-14A support-only,True,True,False
+MISAR_PAPER_K12,MISAR E15.5 S1 1949 spots,deposited carrier Y; head K is 12,1949/1949,12,SEPAR clustering K12,PROTOCOL_CONTEXT_ONLY,True,False

@@ -1,0 +1,6 @@
+change_id,scope,problem,correction,regression_test,scientific_formula_change
+E01,TSPR sparse operator,selective edges could isolate a row,isolated rows receive exact identity abstention,rank-calibrated sparse/deterministic test,False
+E02,cheap screen runtime,138 BLAS threads and n_init20 made disposable screen unbounded,"fixed 4-thread boundary, n_init3 screen, selected rows rerun with registered H05",309/309 completed rows and partial atomic tables,False
+E03,CUDA initialization,allocator peak reset preceded PyTorch lazy CUDA initialization,materialize cuda:0 before reset and rerun all eight lanes,GPU allocator init test plus 8/8 full train,False
+E04,SSH transport,Windows socket 10054 during verbose R/mclust output,read-only process check confirmed remote continuation; no rerun,3171-row final ledger present,False
+E05,compact report writer,Python 3.8 Path.write_text does not accept newline,use UTF-8 write_text without the unsupported keyword and rebuild the whole handoff,all handoff files parse after a clean rebuild,False
