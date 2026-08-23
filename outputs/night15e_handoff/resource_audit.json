@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "score_ceiling_rows": 8087,
+  "joint_policy_rows": 891,
+  "matched_ablation_rows": 54,
+  "frozen_scientific_replay_rows": 18,
+  "resource_replay_rows": 9,
+  "formal_search_wall_seconds": 88.66305649999413,
+  "adaptive_search_and_policy_wall_seconds": 525.8739949999872,
+  "multi_initial_row_wall_sum_seconds": 191.6998573998717,
+  "observed_search_wall_seconds_lower_bound": 806.236908899853,
+  "resource_replay_wall_seconds": 4.036704,
+  "resource_replay_peak_rss_mib": 326.35546875,
+  "gse213264_p0_wall_seconds": 18.698073299994576,
+  "gpu_seconds": 0,
+  "peak_gpu_mib": 0,
+  "execution_location": "Windows local-first CPU",
+  "shutdown_dispatched": false,
+  "instance_directive": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}

@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "accession": "GSE213264",
+  "unit": "Human tonsil",
+  "rna_accession": "GSM6578062",
+  "protein_accession": "GSM6578071",
+  "rna_shape": [
+    2492,
+    28417
+  ],
+  "protein_shape": [
+    2492,
+    283
+  ],
+  "rna_dtype": "float32",
+  "protein_dtype": "float32",
+  "rna_nnz": 5179868,
+  "protein_nnz": 596130,
+  "rna_feature_count": 28417,
+  "protein_target_count": 283,
+  "rna_raw_order_ids_sha256": "0baf19aef889e29234c20db34706470cccff472fe1e8645211d168eb5d7c4c34",
+  "protein_raw_order_ids_sha256": "c10fad6452558ef07e65502dcb3c7d240810ba332cc99bc10d79dc3ed50eff55",
+  "raw_order_equal": false,
+  "spot_id_sets_equal": true,
+  "explicit_string_id_alignment_performed": true,
+  "ordered_ids_sha256": "7fb8e56b6c8bd246221e2e1f298ef5111c61d6af7937063fdf560b7d3c086248",
+  "coordinate_shape": [
+    2492,
+    2
+  ],
+  "coordinate_min": [
+    1,
+    1
+  ],
+  "coordinate_max": [
+    50,
+    50
+  ],
+  "unique_coordinate_count": 2492,
+  "view1_shape": [
+    2492,
+    30
+  ],
+  "view2_shape": [
+    2492,
+    30
+  ],
+  "retained_shape": [
+    2492,
+    32
+  ],
+  "graph_shape": [
+    2492,
+    2492
+  ],
+  "graph_nnz": 17696,
+  "engineering_k": 8,
+  "engineering_k_role": "public author-reported RNA cluster count used as known engineering K; no per-spot reference labels read",
+  "engineering_k_provenance": "original Spatial-CITE-seq Human tonsil RNA analysis reports 8 author-derived unsupervised clusters",
+  "protein_k_sensitivity_context": 7,
+  "protein_k_sensitivity_context_role": "public author-reported protein cluster count; not ground truth",
+  "initial_partition_sha256": "5bce4ceb8b100adbf510e6d878caba53843b06bbc33a570a3cdcab74bb43070b",
+  "partition_sha256": "4a3836c31b2ae2690e86f568240a920815fc3b58c37d3db79f4927e21045a36d",
+  "initial_k7_partition_sha256": "871d7e62f9b0b68e7c2eae0e0d3a768d14ac8de4eb66588e1b286c8e899b4405",
+  "partition_k7_sha256": "fcc692f966c2e35f41902f429963ba65f0e1b05e5726bd99e7fbbc926289aeb0",
+  "cluster_sizes": [
+    204,
+    352,
+    417,
+    428,
+    194,
+    297,
+    417,
+    183
+  ],
+  "cluster_sizes_k7": [
+    183,
+    425,
+    449,
+    390,
+    207,
+    423,
+    415
+  ],
+  "config": {
+    "beta": 0.35,
+    "edge_floor": 0.08,
+    "conflict_center": 0.22,
+    "conflict_temperature": 0.1,
+    "conflict_union_weight": 0.55,
+    "conflict_penalty": 0.25,
+    "mass_center": 0.4,
+    "mass_temperature": 0.12,
+    "neighbor_capacity": 0.55,
+    "low_weight": 0.65,
+    "twohop_weight": 0.2,
+    "high_weight": 0.5,
+    "unary_temperature": 0.55,
+    "retained_bias": 1.0,
+    "view_balance": 0.0,
+    "trust_scale": 1.2,
+    "trust_center": 0.18,
+    "trust_temperature": 0.12,
+    "move_threshold": 0.015,
+    "move_fraction": 0.06,
+    "sweeps": 2
+  },
+  "diagnostics": {
+    "mean_edge_weight": 0.42495980858802795,
+    "mean_edge_conflict": 0.1928660124540329,
+    "mean_agreement_gate": 0.5665231943130493,
+    "mean_neighbor_mass": 0.2510124444961548,
+    "min_neighbor_mass": 0.07031024992465973,
+    "max_neighbor_mass": 0.48661983013153076,
+    "mean_self_return": 0.7489875555038452,
+    "min_row_mass": 0.9999998211860657,
+    "max_row_mass": 1.0000001192092896,
+    "mean_retained_weight": 0.571915864944458,
+    "mean_view1_weight": 0.20284242928028107,
+    "mean_view2_weight": 0.22524172067642212,
+    "mean_prototype_margin": 0.9759894013404846,
+    "sweeps_completed": 2.0,
+    "total_moves": 300.0,
+    "changed_observations": 300.0,
+    "observed_cardinality": 8.0,
+    "min_cluster_size": 183.0
+  },
+  "diagnostics_k7": {
+    "mean_edge_weight": 0.42495980858802795,
+    "mean_edge_conflict": 0.1928660124540329,
+    "mean_agreement_gate": 0.5665231943130493,
+    "mean_neighbor_mass": 0.2510124444961548,
+    "min_neighbor_mass": 0.07031024992465973,
+    "max_neighbor_mass": 0.48661983013153076,
+    "mean_self_return": 0.7489875555038452,
+    "min_row_mass": 0.9999998211860657,
+    "max_row_mass": 1.0000001192092896,
+    "mean_retained_weight": 0.5922060608863831,
+    "mean_view1_weight": 0.1605335921049118,
+    "mean_view2_weight": 0.24726034700870514,
+    "mean_prototype_margin": 1.166172742843628,
+    "sweeps_completed": 2.0,
+    "total_moves": 300.0,
+    "changed_observations": 299.0,
+    "observed_cardinality": 7.0,
+    "min_cluster_size": 183.0
+  },
+  "rna_file_sha256": "29ba95cc15c8f47da3d6f7f512ba12c9b47742e5b2d2b7e78e7bda78a21f06b6",
+  "protein_file_sha256": "69ad8c868b40876c04c4bcc46f3ed977f7d96af0bacce6427c7e142796cac6ad",
+  "artifact_sha256": "950adccfd740e51b7498b43f1789564d4ff743173f67de0a50fff74d550dd647",
+  "artifact_path": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15e_local_work\\working\\gse213264_p0\\gse213264_human_tonsil_p0.npz",
+  "reference_partition_status": "UNSUPPORTED_NO_MANUAL_OR_EXPERT_SPATIAL_DOMAIN_LABEL_FOUND",
+  "author_clusters_interpretation": "author-algorithm-derived clusters are not manual/expert ground truth",
+  "absolute_ari_nmi_computed": 0,
+  "labels_read": 0,
+  "dense_n_by_n_count": 0,
+  "wall_seconds": 18.698073299994576
+}

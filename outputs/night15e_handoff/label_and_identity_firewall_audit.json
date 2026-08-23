@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "public_labels_used_for_known_k_hpo_and_evaluation": 1,
+  "public_labels_used_for_per_lane_cross_run_score_ceiling_selection": 1,
+  "labels_in_model_input": 0,
+  "labels_in_energy_unary": 0,
+  "labels_in_loss_or_gradient": 0,
+  "dataset_name_reads_in_model_core": 0,
+  "family_name_reads_in_model_core": 0,
+  "dense_n_by_n_count": 0,
+  "gse213264_per_spot_reference_labels_read": 0,
+  "blind_or_zero_label_deployment_claimed": 0
+}

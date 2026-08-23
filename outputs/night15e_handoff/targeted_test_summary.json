@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "passed": 7,
+  "total": 7,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "tests": [
+    "test_conflict_and_mass_controls_are_continuous_not_discrete_modes",
+    "test_core_signature_and_ast_are_identity_blind",
+    "test_deterministic_partition_and_cardinality",
+    "test_empty_cluster_fails_closed",
+    "test_every_feature_branch_has_positive_weight_and_changes_unary",
+    "test_no_dense_n_by_n_allocation_in_core_source",
+    "test_transition_is_sparse_mass_preserving_and_has_self_return"
+  ],
+  "scope": "final frozen Night-15E source; no core or replay-semantic source edits occurred after the two 9/9 replays"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "passed": 7,
+  "total": 7,
+  "rows": [
+    {
+      "test": "test_conflict_and_mass_controls_are_continuous_not_discrete_modes",
+      "status": "PASS",
+      "wall_seconds": 0.05034969747066498
+    },
+    {
+      "test": "test_core_signature_and_ast_are_identity_blind",
+      "status": "PASS",
+      "wall_seconds": 0.009132642298936844
+    },
+    {
+      "test": "test_deterministic_partition_and_cardinality",
+      "status": "PASS",
+      "wall_seconds": 0.020608723163604736
+    },
+    {
+      "test": "test_empty_cluster_fails_closed",
+      "status": "PASS",
+      "wall_seconds": 0.009103551506996155
+    },
+    {
+      "test": "test_every_feature_branch_has_positive_weight_and_changes_unary",
+      "status": "PASS",
+      "wall_seconds": 0.010739244520664215
+    },
+    {
+      "test": "test_no_dense_n_by_n_allocation_in_core_source",
+      "status": "PASS",
+      "wall_seconds": 9.297206997871399e-05
+    },
+    {
+      "test": "test_transition_is_sparse_mass_preserving_and_has_self_return",
+      "status": "PASS",
+      "wall_seconds": 0.010829895734786987
+    }
+  ]
+}

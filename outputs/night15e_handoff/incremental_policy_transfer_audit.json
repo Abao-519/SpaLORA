@@ -1,0 +1,226 @@
+{
+  "status": "NO_MEANINGFUL_INCREMENTAL_POLICY_TRANSFER",
+  "scope": "incremental policy transfer on fixed Night-15D authorities",
+  "initial_partition_label_history": "all Night-15D authority partitions were selected by per-lane public-label development HPO",
+  "full_end_to_end_zero_label_deployability_claimed": false,
+  "global_selected_config_id": "JOINT_I02_019",
+  "global_rows": [
+    {
+      "lane": "A1",
+      "absolute_ari": 0.2743801557109892,
+      "absolute_nmi": 0.418548976098805,
+      "delta_ari": 0.0,
+      "delta_nmi": 0.0
+    },
+    {
+      "lane": "D1",
+      "absolute_ari": 0.24528928934323796,
+      "absolute_nmi": 0.3838210819576086,
+      "delta_ari": 9.661920981496319e-05,
+      "delta_nmi": 0.00015563848736771524
+    },
+    {
+      "lane": "MISAR_E15_5_S1",
+      "absolute_ari": 0.5406647315680221,
+      "absolute_nmi": 0.6658997024822209,
+      "delta_ari": 0.0,
+      "delta_nmi": 0.0
+    },
+    {
+      "lane": "MISAR_E15_5_S1_K12",
+      "absolute_ari": 0.4511951009551676,
+      "absolute_nmi": 0.5965119000197391,
+      "delta_ari": 0.0,
+      "delta_nmi": 0.0
+    },
+    {
+      "lane": "P22",
+      "absolute_ari": 0.5871858341020587,
+      "absolute_nmi": 0.7080938095442089,
+      "delta_ari": 0.0,
+      "delta_nmi": 0.0
+    },
+    {
+      "lane": "P22_3DOT_K18",
+      "absolute_ari": 0.7279932297734847,
+      "absolute_nmi": 0.7498108295789423,
+      "delta_ari": 4.1044460372119396e-05,
+      "delta_nmi": 0.00013665677791108166
+    },
+    {
+      "lane": "tonsil_s1",
+      "absolute_ari": 0.232481363525135,
+      "absolute_nmi": 0.31301819512294327,
+      "delta_ari": 0.0008136889111632628,
+      "delta_nmi": 0.0008526805525922998
+    },
+    {
+      "lane": "tonsil_s2",
+      "absolute_ari": 0.2520102063393655,
+      "absolute_nmi": 0.3019499558920839,
+      "delta_ari": 0.000533815502681112,
+      "delta_nmi": 0.0006114277869082585
+    },
+    {
+      "lane": "tonsil_s3",
+      "absolute_ari": 0.3255796499804676,
+      "absolute_nmi": 0.2872282711586282,
+      "delta_ari": 5.331488037618737e-05,
+      "delta_nmi": -0.00013423452361543964
+    }
+  ],
+  "family_numeric_policies": [
+    {
+      "family": "RNA_ATAC",
+      "selected_config_id": "JOINT_I00_055",
+      "rows": [
+        {
+          "lane": "MISAR_E15_5_S1",
+          "delta_ari": 0.0,
+          "delta_nmi": 0.0
+        },
+        {
+          "lane": "MISAR_E15_5_S1_K12",
+          "delta_ari": 0.0,
+          "delta_nmi": 0.0
+        },
+        {
+          "lane": "P22",
+          "delta_ari": 0.00019569262586416336,
+          "delta_nmi": 0.00014404477247920155
+        },
+        {
+          "lane": "P22_3DOT_K18",
+          "delta_ari": 0.0004094400262621978,
+          "delta_nmi": 0.00042490689807517246
+        }
+      ]
+    },
+    {
+      "family": "RNA_PROTEIN",
+      "selected_config_id": "JOINT_I02_019",
+      "rows": [
+        {
+          "lane": "A1",
+          "delta_ari": 0.0,
+          "delta_nmi": 0.0
+        },
+        {
+          "lane": "D1",
+          "delta_ari": 9.661920981496319e-05,
+          "delta_nmi": 0.00015563848736771524
+        },
+        {
+          "lane": "tonsil_s1",
+          "delta_ari": 0.0008136889111632628,
+          "delta_nmi": 0.0008526805525922998
+        },
+        {
+          "lane": "tonsil_s2",
+          "delta_ari": 0.000533815502681112,
+          "delta_nmi": 0.0006114277869082585
+        },
+        {
+          "lane": "tonsil_s3",
+          "delta_ari": 5.331488037618737e-05,
+          "delta_nmi": -0.00013423452361543964
+        }
+      ]
+    }
+  ],
+  "leave_one_study_out": [
+    {
+      "held_out_study": "CANONICAL_TONSIL",
+      "selected_config_id": "JOINT_I02_010",
+      "training_policy_score": 3.9994502172443586e-05,
+      "held_out_rows": [
+        {
+          "lane": "tonsil_s1",
+          "absolute_ari": 0.23252591292333366,
+          "absolute_nmi": 0.3130313046640678,
+          "delta_ari": 0.0008582383093619361,
+          "delta_nmi": 0.000865790093716845
+        },
+        {
+          "lane": "tonsil_s2",
+          "absolute_ari": 0.2520102063393655,
+          "absolute_nmi": 0.3019499558920839,
+          "delta_ari": 0.000533815502681112,
+          "delta_nmi": 0.0006114277869082585
+        },
+        {
+          "lane": "tonsil_s3",
+          "absolute_ari": 0.32515429067728424,
+          "absolute_nmi": 0.28680070341670033,
+          "delta_ari": -0.00037204442280719396,
+          "delta_nmi": -0.0005618022655433097
+        }
+      ]
+    },
+    {
+      "held_out_study": "LYMPH_NODE",
+      "selected_config_id": "JOINT_I01_013",
+      "training_policy_score": 0.0002462300256106522,
+      "held_out_rows": [
+        {
+          "lane": "A1",
+          "absolute_ari": 0.2734280653503637,
+          "absolute_nmi": 0.41799564543555173,
+          "delta_ari": -0.000952090360625546,
+          "delta_nmi": -0.0005533306632532486
+        },
+        {
+          "lane": "D1",
+          "absolute_ari": 0.243776267855681,
+          "absolute_nmi": 0.38131855067622916,
+          "delta_ari": -0.0014164022777420071,
+          "delta_nmi": -0.0023468927940117346
+        }
+      ]
+    },
+    {
+      "held_out_study": "MISAR_E15_5_S1",
+      "selected_config_id": "JOINT_I02_019",
+      "training_policy_score": 0.00025846769706149654,
+      "held_out_rows": [
+        {
+          "lane": "MISAR_E15_5_S1",
+          "absolute_ari": 0.5406647315680221,
+          "absolute_nmi": 0.6658997024822209,
+          "delta_ari": 0.0,
+          "delta_nmi": 0.0
+        },
+        {
+          "lane": "MISAR_E15_5_S1_K12",
+          "absolute_ari": 0.4511951009551676,
+          "absolute_nmi": 0.5965119000197391,
+          "delta_ari": 0.0,
+          "delta_nmi": 0.0
+        }
+      ]
+    },
+    {
+      "held_out_study": "P22",
+      "selected_config_id": "JOINT_I02_019",
+      "training_policy_score": 0.0002325460167078721,
+      "held_out_rows": [
+        {
+          "lane": "P22",
+          "absolute_ari": 0.5871858341020587,
+          "absolute_nmi": 0.7080938095442089,
+          "delta_ari": 0.0,
+          "delta_nmi": 0.0
+        },
+        {
+          "lane": "P22_3DOT_K18",
+          "absolute_ari": 0.7279932297734847,
+          "absolute_nmi": 0.7498108295789423,
+          "delta_ari": 4.1044460372119396e-05,
+          "delta_nmi": 0.00013665677791108166
+        }
+      ]
+    }
+  ],
+  "held_out_labels_used_for_incremental_fold_selection": 0,
+  "conclusion": "global/family/LOO incremental policy is near no-op and has held-out lymph-node and tonsil failures; it does not transfer the per-lane score ceiling"
+}

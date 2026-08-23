@@ -1,0 +1,23 @@
+{
+  "beta": 0.35,
+  "conflict_center": 0.22,
+  "conflict_penalty": 0.25,
+  "conflict_temperature": 0.1,
+  "conflict_union_weight": 0.55,
+  "edge_floor": 0.08,
+  "high_weight": 0.5,
+  "low_weight": 0.65,
+  "mass_center": 0.4,
+  "mass_temperature": 0.12,
+  "move_fraction": 0.06,
+  "move_threshold": 0.015,
+  "neighbor_capacity": 0.55,
+  "retained_bias": 1.0,
+  "sweeps": 2,
+  "trust_center": 0.18,
+  "trust_scale": 1.2,
+  "trust_temperature": 0.12,
+  "twohop_weight": 0.2,
+  "unary_temperature": 0.55,
+  "view_balance": 0.0
+}

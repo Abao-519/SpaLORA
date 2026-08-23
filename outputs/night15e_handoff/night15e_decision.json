@@ -1,0 +1,59 @@
+{
+  "status": "NIGHT15E_CONTINUOUS_RELIABILITY_PUBLIC_BENCHMARK_SCORE_CEILING",
+  "classification": "LOCAL_SIGNAL",
+  "evidence_tier": "PUBLIC_BENCHMARK_DEVELOPMENT_SCORE_CEILING",
+  "score_ceiling": {
+    "profile": "BALANCED_DUAL_PRIORITY",
+    "lanes": 9,
+    "dual_positive_vs_night15d": 9,
+    "same_continuous_formula": true,
+    "per_lane_public_label_numeric_hpo": true,
+    "blind_evaluation": false,
+    "automatic_configuration_selection": false,
+    "full_zero_label_deployment": false
+  },
+  "incremental_policy_transfer": {
+    "status": "NO_MEANINGFUL_INCREMENTAL_POLICY_TRANSFER",
+    "scope": "incremental policy transfer on fixed Night-15D authorities",
+    "night15d_authorities_already_selected_by_per_lane_public_label_hpo": true,
+    "held_out_labels_used_for_incremental_fold_selection": 0
+  },
+  "new_engineering_unit": {
+    "status": "GSE213264_UNLABELED_REAL_PATH_READY",
+    "unit": "Human tonsil",
+    "rna_shape": [2492, 28417],
+    "protein_shape": [2492, 283],
+    "explicit_string_spot_id_alignment": true,
+    "engineering_k": 8,
+    "engineering_k_role": "public author-reported RNA cluster count used as known engineering K; no per-spot reference labels read",
+    "per_spot_reference_status": "UNSUPPORTED_NO_MANUAL_OR_EXPERT_SPATIAL_DOMAIN_LABEL_FOUND",
+    "ari_nmi_computed": 0,
+    "fresh_process_replays": "2/2"
+  },
+  "reproducibility": {
+    "frozen_lane_replays": "9/9 x 2 exact",
+    "targeted_tests": "7/7",
+    "labels_in_model_or_energy": 0,
+    "dataset_name_reads_in_core": 0,
+    "dense_n_by_n_count": 0,
+    "gpu_seconds": 0,
+    "peak_gpu_mib": 0
+  },
+  "critical_limitations": {
+    "d1_min_cluster_size": 1,
+    "d1_cluster_sizes": [44, 246, 227, 210, 1, 480, 140, 822, 145, 1044],
+    "all_components_universally_supported": false,
+    "trust_term_generally_supported": false,
+    "method_novelty_established": false,
+    "sota_claimed": false,
+    "confirmed_milestone_claimed": false,
+    "paper_ready_claimed": false
+  },
+  "git": {
+    "parent_commit": "82c58a5d9b698f857cc35c690e7a944cca1604f1",
+    "parent_tag": "night15d-final-20260824",
+    "final_commit_and_tag_recorded_in": "delivery_manifest.json"
+  },
+  "shutdown_dispatched": false,
+  "instance_directive": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}

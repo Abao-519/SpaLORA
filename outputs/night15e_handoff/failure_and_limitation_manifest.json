@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE_WITH_RETAINED_LIMITATIONS",
+  "d1_singleton_cluster": {
+    "retained": true,
+    "min_cluster_size": 1.0,
+    "cluster_sizes": [
+      44,
+      246,
+      227,
+      210,
+      1,
+      480,
+      140,
+      822,
+      145,
+      1044
+    ],
+    "interpretation": "endpoint/per-lane HPO fragility; no backfill or exclusion"
+  },
+  "incremental_policy": "NO_MEANINGFUL_INCREMENTAL_POLICY_TRANSFER",
+  "ablation_limit": "trust term is inactive on many lanes; some P22 ablations outperform full",
+  "independent_scientific_units": "9 lanes are not 9 independent datasets: K variants share slices and tonsil slices form one study block",
+  "gse213264_reference": "no per-spot manual/expert domain partition; ARI/NMI not computed",
+  "failed_runs_hidden_or_deleted": 0,
+  "scientific_negative_or_mixed_rows_retained": true
+}

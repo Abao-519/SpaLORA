@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "accession": "GSE213264",
+  "unit": "Human tonsil",
+  "official_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213264/suppl/GSE213264_RAW.tar",
+  "download_size": 31877120,
+  "download_sha256_registered": "468b47cfdb271483177b58670d846840be6198e97f69deb1d2b68a73a35c49a6",
+  "download_sha256_recomputed": "468b47cfdb271483177b58670d846840be6198e97f69deb1d2b68a73a35c49a6",
+  "new_download_count": 1,
+  "rna_shape": [
+    2492,
+    28417
+  ],
+  "protein_shape": [
+    2492,
+    283
+  ],
+  "raw_order_equal": false,
+  "spot_id_sets_equal": true,
+  "explicit_string_id_alignment_performed": true,
+  "ordered_ids_sha256": "7fb8e56b6c8bd246221e2e1f298ef5111c61d6af7937063fdf560b7d3c086248",
+  "unique_coordinate_count": 2492,
+  "graph_shape": [
+    2492,
+    2492
+  ],
+  "graph_nnz": 17696,
+  "engineering_k": 8,
+  "engineering_k_role": "public author-reported RNA cluster count used as known engineering K; no per-spot reference labels read",
+  "protein_k_sensitivity_context": 7,
+  "reference_partition_status": "UNSUPPORTED_NO_MANUAL_OR_EXPERT_SPATIAL_DOMAIN_LABEL_FOUND",
+  "author_clusters_interpretation": "author-algorithm-derived clusters are not manual/expert ground truth",
+  "absolute_ari_nmi_computed": 0,
+  "fresh_process_replays": 2,
+  "fresh_process_replays_exact": true,
+  "raw_modified_in_place": 0,
+  "historical_raw_modified": 0
+}
