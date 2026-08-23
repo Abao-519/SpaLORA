@@ -1,0 +1,10 @@
+change_id,type,change,affected_lane_rerun
+C01,engineering,registered 1e-6 numerical checkpoint round-trip tolerance,P0 A1+P22
+C02,engineering,create search output directory before write,all 15x3 search rows
+C03,evaluation semantics,fixed common endpoint at KMeans seed0,all 7x5 formal rows
+C04,resource instrumentation,CUDA event timing around model forward,P0 and all 7x5 formal rows
+C05,engineering,expose existing MISAR modality views to the single-modality reference bridge,reference board finalizer
+C06,engineering,use Python/pandas 3.8-compatible file APIs,all handoff tables
+C07,engineering,invoke pytest with repository PYTHONPATH,all targeted tests
+C08,audit,cast numpy booleans before JSON serialization,independent audit
+C09,audit,AST identity guard checks dataset literals while retaining fail-closed config-key guards,independent audit

@@ -1,0 +1,9 @@
+erratum_id,night13a_value,corrected_value,status
+E01,7c976d811d27ace51ce47aee0ad94a068a7d222fa,7c976d811d27ace51ce47ae0ad94a068a7d222fa,CORRECTED_IN_NIGHT13B
+E02,P5 accessions duplicated/mispaired,P5S1 7581/8997; P5S2 7582/8998; P5S3 7583/8999,CORRECTED_IN_REGISTRY_V2
+E03,MISAR E15.5 S1 unlabeled,Figshare Y 1949/1949; K=7; carrier SHA 2f5862...9d2e3,CORRECTED_AND_EVALUATED
+E04,P10 repeats absent,P10S1/S2/S3 RNA+protein UNLABELED_ONLY,ADDED_TO_REGISTRY_V2
+E05,sample/slice code used as donor,donor=UNKNOWN without authority,CORRECTED_IN_REGISTRY_V2
+E06,tonsil slices counted independently,one study block; s1/s2 adjacent,CORRECTED_IN_SUMMARY
+E07,label filtering before representation,all paired tissue observations represented; labels mask evaluator only,ANCHORS_RECOMPUTED
+E08,external lane shown as run failure,NOT_RUN_POLICY_BLOCKED,SEMANTIC_LEDGER_ONLY

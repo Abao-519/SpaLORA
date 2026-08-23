@@ -1,0 +1,22 @@
+{
+  "candidate_id": "B10_T66_S40_M70",
+  "core": "ContentAdaptiveGraphResidual",
+  "endpoint": "COMMON_KMEANS_KNOWN_K",
+  "formula": "g=sigmoid(40*(mean(1-cos(z,P4z))-0.66)); beta=0.70*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+  "model_config": {
+    "broad_k": 18,
+    "fine_k": 4,
+    "max_residual": 0.7,
+    "slope": 40.0,
+    "threshold": 0.66
+  },
+  "model_seed_policy": "deterministic fixed layer; registered model seeds repeat exactly",
+  "common_endpoint_seed": 0,
+  "seeds": [0, 1, 2, 3, 4],
+  "label_in_loss_or_gradient": false,
+  "within_run_label_checkpoint_selection": false,
+  "cross_run_selection": "public benchmark labels used on A1, tonsil_s1 and P22",
+  "dataset_name_routing": false,
+  "family_specific_core_or_threshold": false,
+  "dense_n_by_n": false
+}

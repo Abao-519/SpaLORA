@@ -1,0 +1,7 @@
+attempt,status,reason,preserved_path
+P0_ATTEMPT1,INVALIDATED_ENGINEERING,GPU/CPU byte-exact requirement too strict; maxabs <=9.54e-7,/root/autodl-fs/night13b_unified_model_performance_sprint_20260823/failed_attempts/p0_attempt1_gpu_cpu_byteexact
+SEARCH_ATTEMPT1,FAILED_ENGINEERING,output directory missing after calculations,terminal log; no scientific row emitted
+FORMAL_ATTEMPT1,INVALIDATED_ENGINEERING,common endpoint seed incorrectly varied,/root/autodl-fs/night13b_unified_model_performance_sprint_20260823/failed_attempts/formal_attempt1_endpoint_seed_varied
+TEST_INVOCATION_ATTEMPT1,INVALIDATED_ENGINEERING,pytest invoked without repository PYTHONPATH,engineering ledger; corrected invocation log retained as tests_summary.txt
+FINALIZER_ATTEMPTS1_3,INVALIDATED_ENGINEERING,MISAR view exposure and Python/pandas 3.8 API compatibility bugs,engineering ledger; no scientific rows changed
+INDEPENDENT_AUDIT_ATTEMPTS1_2,INVALIDATED_ENGINEERING,numpy bool serialization then overly broad AST literal guard,engineering ledger; final fail-closed audit retained

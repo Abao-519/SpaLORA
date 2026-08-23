@@ -1,0 +1,8 @@
+dataset,method,reported_ari,reported_nmi,source,protocol,directly_comparable,url
+P22,COSMOS,0.63,,Nature Communications 2024 COSMOS paper,paper manual annotation/native protocol,False,https://www.nature.com/articles/s41467-024-55204-y
+P22,SpaceFlow-ATAC,0.58,,COSMOS paper comparison context,different representation/endpoint,False,https://www.nature.com/articles/s41467-024-55204-y
+P22,CellCharter,0.5,,COSMOS paper comparison context,different representation/endpoint,False,https://www.nature.com/articles/s41467-024-55204-y
+P22,SpatialGlue,0.43,,COSMOS paper comparison context,different version/endpoint,False,https://www.nature.com/articles/s41467-024-55204-y
+P22,SpaceFlow-RNA,0.45,,COSMOS paper comparison context,single modality/different endpoint,False,https://www.nature.com/articles/s41467-024-55204-y
+A1/D1,SpatialGlue,NOT_EXTRACTABLE_FROM_HTML_FIGURE,,official Nature Methods article,recorded for future fair reproduction,False,https://www.nature.com/articles/s41592-024-02316-4
+multiple,ARISE/SpaMV,NOT_REGISTERED,,official papers reviewed; no guessed figure values,source context only,False,https://pubmed.ncbi.nlm.nih.gov/42366683/

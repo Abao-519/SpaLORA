@@ -1,0 +1,242 @@
+[
+  {
+    "candidate_id": "B00_IDENTITY",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.0,
+      "slope": 40.0,
+      "threshold": 0.66
+    },
+    "config_sha256": "da028f8d223059a7fdcbccbaf4fa25e6e9855a66a04e927f6718d34ac99d6165",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B01_T62_S20_M50",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.5,
+      "slope": 20.0,
+      "threshold": 0.62
+    },
+    "config_sha256": "980825d58c44a39288b339e3f99f36efe804878cf86cadb154196e7fd19b31fe",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B02_T62_S30_M60",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.6,
+      "slope": 30.0,
+      "threshold": 0.62
+    },
+    "config_sha256": "5c192b602defcc0a1101ac952864edbb9fe33d4b32dce481ace6c7da7d15829f",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B03_T62_S40_M70",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.7,
+      "slope": 40.0,
+      "threshold": 0.62
+    },
+    "config_sha256": "ad72b500f46a823bbc32b36065bce65830321a7994e52fd8ba92d8736241a8a4",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B04_T64_S20_M50",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.5,
+      "slope": 20.0,
+      "threshold": 0.64
+    },
+    "config_sha256": "1bffcc88bab69102a7b076cdf44a89d4eb5726e475e73b1f55bc60cead67f775",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B05_T64_S30_M60",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.6,
+      "slope": 30.0,
+      "threshold": 0.64
+    },
+    "config_sha256": "93134e7d18c24f0eef0924cd7256351e02600cc55a4b30cd34b2aa6b3431003d",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B06_T64_S40_M70",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.7,
+      "slope": 40.0,
+      "threshold": 0.64
+    },
+    "config_sha256": "1673b359573eae7018092f8c6a4a539f658bd28e15336b1a554498ca90102e64",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B07_T66_S20_M50",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.5,
+      "slope": 20.0,
+      "threshold": 0.66
+    },
+    "config_sha256": "7a18350bbd582649e0457b1ea05fc9931db31c96879dc2fc76afa9b05be368cf",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B08_T66_S30_M60",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.6,
+      "slope": 30.0,
+      "threshold": 0.66
+    },
+    "config_sha256": "4f970ff58ceb83de44b61acf19268a6c89fc3de2c8b6906b8ebf92450b61ca66",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B09_T66_S30_M70",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.7,
+      "slope": 30.0,
+      "threshold": 0.66
+    },
+    "config_sha256": "9c9b3e7d6bd7858f5557bd5f6d709000c49cd80b47837e18b9a5ba8e7217a656",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B10_T66_S40_M70",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.7,
+      "slope": 40.0,
+      "threshold": 0.66
+    },
+    "config_sha256": "b264b9142f182ab6d2cc7977a671d33f45e97fb0252f78f17dd138eb1e64140b",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B11_T68_S20_M50",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.5,
+      "slope": 20.0,
+      "threshold": 0.68
+    },
+    "config_sha256": "96bedca9683504167a8f3fc6757eff6ec45643a368054c79f77117e7f8756e33",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B12_T68_S30_M60",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.6,
+      "slope": 30.0,
+      "threshold": 0.68
+    },
+    "config_sha256": "66986b5d15c8569779f15a78a64930708501d3f7a061c4080c1a3b00678d975a",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B13_T68_S40_M70",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.7,
+      "slope": 40.0,
+      "threshold": 0.68
+    },
+    "config_sha256": "7cf8cfe6c0de67e86388d65dfb139e47286dbeaf9129a1874b93e6a138d93849",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  },
+  {
+    "candidate_id": "B14_T70_S40_M70",
+    "config": {
+      "broad_k": 18,
+      "fine_k": 4,
+      "max_residual": 0.7,
+      "slope": 40.0,
+      "threshold": 0.7
+    },
+    "config_sha256": "62d8adf99163c7d2ae47d459c6ae96615e99ef76aaa64298b6e5ac6c8c54244b",
+    "dataset_name_routing": false,
+    "formula": "g=sigmoid(s*(mean[1-cos(z,P4z)]-t)); beta=m*g; z_out=(1-beta)z+beta*((1-g)P4z+g*P18z)",
+    "label_in_loss": false,
+    "parameter_count": 1,
+    "source": "clean-room project synthesis of sparse graph residual and continuous fusion"
+  }
+]

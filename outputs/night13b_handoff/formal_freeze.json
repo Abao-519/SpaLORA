@@ -1,0 +1,21 @@
+{
+  "schema": "night13b-formal-freeze-v2",
+  "status": "LOCKED_BEFORE_INTERNAL_CONFIRMATION",
+  "selected_candidate_id": "B10_T66_S40_M70",
+  "selected_config_path": "configs/night13b/B10_T66_S40_M70.json",
+  "selected_config_file_sha256": "0bc978498fc5c5cb1a8fb36586abc713474c259197477119400ac1d053bfd4da",
+  "search_results_sha256": "97dc3262d6112e398602b9731f40350bbb18ca146b18b2f7ab18482530c46b06",
+  "discovery_datasets": ["A1", "tonsil_s1", "P22"],
+  "confirmation_datasets": ["D1", "tonsil_s2", "tonsil_s3", "MISAR_E15_5_S1"],
+  "seeds": [0, 1, 2, 3, 4],
+  "selection_rule": "weak-family first, then mean absolute ARI/NMI delta to the strongest common-endpoint internal reference",
+  "selection_disclosure": "public benchmark labels were used for cross-run discovery selection",
+  "label_in_loss_or_gradient": false,
+  "within_run_label_checkpoint_selection": false,
+  "dataset_name_model_routing": false,
+  "family_specific_core_or_threshold": false,
+  "common_endpoint_seed": 0,
+  "engineering_correction": "the first formal attempt incorrectly varied the common evaluator seed with the registered run seed; its complete outputs are retained and all rows are rerun under the Night-13A fixed seed-0 common endpoint",
+  "invalidated_formal_attempt_count": 1,
+  "confirmation_may_not_change_formula_or_overwrite_this_terminal": true
+}

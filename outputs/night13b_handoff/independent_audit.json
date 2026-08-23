@@ -1,0 +1,23 @@
+{
+  "artifact_audit_sha256": "1e3da05fbcfd20280b7015911ce61ead772827448871d0fabe978aba6505ab50",
+  "checks": {
+    "all_metrics_finite": true,
+    "artifact_files_still_match": true,
+    "artifact_rows_sha_recomputed": true,
+    "decision_local_signal": true,
+    "formal_rows_35": true,
+    "gpu_time_positive": true,
+    "model_source_dataset_identity_literals_zero": true,
+    "p0_2_of_2": true,
+    "partition_seed_rows_preserved": true,
+    "raw_immutability": true,
+    "reference_board_has_required_methods": true,
+    "registered_seeds_exact": true,
+    "seven_datasets_five_seeds_each": true
+  },
+  "failed_checks": [],
+  "formal_sha256": "dd5b79155c01f52191741b7fab5897d860b9e4b9326a4b0f63b13f120badee37",
+  "passed": true,
+  "reference_board_sha256": "105ab10104be0692c34d162498d4ebf26fb604bbbf8026167820aa5ddcabaaa0",
+  "schema": "spalora.night13b.independent_audit.v1"
+}

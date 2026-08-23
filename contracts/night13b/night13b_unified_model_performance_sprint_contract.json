@@ -1,0 +1,210 @@
+{
+  "schema": "spalora.night13b.unified_model_performance_sprint.v1",
+  "date": "2026-08-23",
+  "objective": "优先提高项目自身：用同一模型主体在 RNA+protein 与 RNA+ATAC 上开展自适应性能搜索，并以强内部参考而非 simple anchor 作为即时门槛。",
+  "parent": {
+    "commit": "7899147e7a0f2e40ccd3da12aaf6d2cd28fd79b8",
+    "tag": "night13a-final-20260822",
+    "compact_index_sha256": "9950934ed716bfcebf68fa65a6d799bed47164e6f181d081ef0c1798caab10f4",
+    "bundle_sha256": "4fc333bb7fcc710ea43fbdae3e369b9c5d77ddb441d2e505d4cb2dc847d4c8fc"
+  },
+  "workspace": {
+    "repo": "/root/autodl-fs/SpaLORA-night13b",
+    "branch": "revision/q2-night13b-unified-model-performance-sprint-20260823",
+    "protection_tag": "baseline/pre-night13b-unified-model-performance-sprint-20260823",
+    "data_root": "/root/autodl-fs/night13b_unified_model_performance_sprint_20260823",
+    "source_root": "/root/autodl-fs/night13b_method_sources_20260823",
+    "final_tag": "night13b-final-20260823"
+  },
+  "night13a_disposition": {
+    "classification": "PARTIAL_ENGINEERING_AND_DEVELOPMENT_BENCHMARK_WITH_ERRATA",
+    "valid": [
+      "21/21 compact integrity",
+      "2/2 real zero-step family P0",
+      "A1, D1, tonsil s1 and P22 simple seed-0 engineering anchors"
+    ],
+    "must_recompute_or_correct": [
+      "tonsil s2/s3 anchors because label availability filtered observations before representation",
+      "SpatialGlue 41-character invalid commit",
+      "P5 RNA/ATAC accession pairs",
+      "MISAR E15.5 label status",
+      "missing P10S1/S2/S3 registry rows",
+      "donor and tonsil study-block semantics",
+      "external baseline statuses from policy-blocked to not-run-policy-blocked"
+    ]
+  },
+  "label_policy": {
+    "owner_override": "公开标签可用于开发评价、候选淘汰和超参数搜索，不因历史读取而阻塞。",
+    "training_boundary": "候选保持无监督：标签不进入 loss、gradient 或 within-run checkpoint selection。",
+    "reporting": "全部有标签数据均称 public benchmark development 或 internal confirmation，不称 pristine blind test。"
+  },
+  "data_roles": {
+    "discovery_labeled": [
+      "A1 lymph node K=10",
+      "canonical tonsil slice 1 K=4",
+      "P22 mouse brain K=9"
+    ],
+    "post_freeze_internal_confirmation": [
+      "D1 lymph node K=10",
+      "canonical tonsil slices 2 and 3 K=4 as one tonsil study block",
+      "MISAR E15.5 S1 K=7"
+    ],
+    "unlabeled_optional_after_positive_signal": [
+      "SPOTS spleen replicates 1 and 2",
+      "P10S1, P10S2, P10S3",
+      "P5S1, P5S2, P5S3"
+    ],
+    "audit_only_or_excluded": [
+      "GSE tonsil A1/D1 audit-only",
+      "legacy placenta excluded until second-modality provenance closes"
+    ],
+    "study_weighting": [
+      "A1 lymph and tonsil each count as one RNA+protein study unit",
+      "tonsil slices never count as three independent votes",
+      "P22 and MISAR are separate RNA+ATAC public benchmark units"
+    ]
+  },
+  "registry_errata": {
+    "spatialglue_commit": "7c976d811d27ace51ce47ae0ad94a068a7d222fa",
+    "p5_accessions": {
+      "P5S1": "GSM9247581/GSM9248997",
+      "P5S2": "GSM9247582/GSM9248998",
+      "P5S3": "GSM9247583/GSM9248999"
+    },
+    "misar": {
+      "observations": 1949,
+      "reference_k": 7,
+      "carrier_sha256": "2f5862cff045b6a296f3cbc0a978d8576bd36f2d4c9419b75c6760c9c7e9d2e3"
+    },
+    "add_unlabeled_assets": ["P10S1", "P10S2", "P10S3"],
+    "unknown_donor_rule": "Use UNKNOWN unless donor identity is closed by authoritative metadata."
+  },
+  "model_unification": {
+    "allowed": [
+      "modality-specific RNA, protein and ATAC preprocessing",
+      "input projection selected by explicit modality schema",
+      "shape- and resource-driven mechanical batch or PCA/LSI limits"
+    ],
+    "must_be_shared": [
+      "model-core class and forward semantics",
+      "fusion formula",
+      "loss definition",
+      "sparse graph semantics",
+      "clustering endpoint",
+      "global hyperparameter-selection rule"
+    ],
+    "forbidden": [
+      "dataset-name backbone routing",
+      "dataset-name loss or postprocessing routing",
+      "manual result-driven cluster merge/split/relabel"
+    ],
+    "starting_assets": [
+      "C00/G04+H05 general reference",
+      "F00/R02 RNA+ATAC reference",
+      "N02 hierarchy as a performance clue and historical upper bound, not an originality claim"
+    ],
+    "suggested_search_primitives_not_mandatory": [
+      "controlled residual hierarchy",
+      "global or spot-level continuous fusion",
+      "sparse graph residual",
+      "cross reconstruction",
+      "loss or gradient balancing",
+      "shared-private regularization"
+    ]
+  },
+  "execution": {
+    "B0": [
+      "create immutable errata ledger and registry v2",
+      "separate full-observation representation from labeled-subset evaluation",
+      "recompute anchors with observation counts and artifact hashes",
+      "verify locked C00/F00/N02 artifacts or label complete replay as EXACT_REPLAY",
+      "build common-endpoint strong internal reference board"
+    ],
+    "B1": {
+      "real_units": ["A1", "P22"],
+      "path": [
+        "load",
+        "preprocessing",
+        "forward and finite loss",
+        "finite-gradient smoke",
+        "checkpoint strict reload",
+        "fresh-process numerical round-trip",
+        "fusion",
+        "common clustering endpoint"
+      ]
+    },
+    "B2_adaptive_discovery": {
+      "expected_candidate_range": "8-20, adaptively pruned or expanded",
+      "initial_seed": 0,
+      "datasets": ["A1", "tonsil slice 1", "P22"],
+      "executor_freedom": [
+        "drop dominated candidates early",
+        "expand promising neighborhoods",
+        "adapt candidate count and compute allocation",
+        "tune ordinary optimization hyperparameters using public development metrics",
+        "stop clearly unproductive routes with preserved evidence"
+      ]
+    },
+    "B3_convergence": {
+      "intermediate_seeds": [0, 1, 2],
+      "final_seeds": [0, 1, 2, 3, 4],
+      "freeze_before_confirmation": true,
+      "primary_selection": "study-balanced and family-balanced absolute/delta ARI plus NMI versus strongest comparable internal reference",
+      "secondary": ["AMI", "FMI", "Moran's I", "Geary's C", "runtime", "peak GPU", "peak RSS"]
+    },
+    "B4_optional": [
+      "unlabeled repeat stress only after positive two-family signal",
+      "official-paper SOTA context board without full external-method reproduction"
+    ]
+  },
+  "search_governance": {
+    "engineering_correction_cap": null,
+    "rules": [
+      "normal engineering errors may be fixed and affected cells rerun",
+      "every scientific formula/config change in discovery receives a new candidate ID",
+      "all seeds and failed cells remain visible",
+      "confirmation config cannot change after freeze",
+      "Codex 2 may make execution decisions without waiting for per-step approval"
+    ]
+  },
+  "metrics": {
+    "primary": ["absolute ARI", "absolute NMI", "delta ARI", "delta NMI"],
+    "secondary": ["AMI", "FMI", "homogeneity", "V-measure", "Moran's I", "Geary's C", "runtime", "GPU time", "peak GPU", "peak RSS"],
+    "endpoint": "known-K common endpoint for primary comparison; native endpoint is context only",
+    "missing_label_rule": "build embedding and partition on every paired tissue observation; apply label mask only inside evaluator",
+    "q_policy": "Q may be retained only as a clearly labeled internal summary and never replaces absolute ARI/NMI."
+  },
+  "external_methods": {
+    "night13b_priority": "deferred full reproduction",
+    "do_now": [
+      "record official-paper reported best values and protocols as non-comparable SOTA context",
+      "inspect source only when useful for clean-room mechanism transfer and record provenance"
+    ],
+    "future": "Run native and common-endpoint external baselines after a stable internal candidate exists."
+  },
+  "terminal_states": {
+    "IMPLEMENTATION_FAILURE": "real model semantics invalid",
+    "INFRASTRUCTURE_FAILURE": "environment or resource failure prevents evaluation",
+    "SCIENTIFIC_NEGATIVE": "valid search finds no stable improvement over strong internal references",
+    "LOCAL_SIGNAL": "improvement is restricted to one family or subset",
+    "CONFIRMED_MILESTONE": "one shared model core improves study-balanced ARI/NMI in both families across fixed seeds and is not overturned by frozen internal confirmation",
+    "PAPER_READY_EVIDENCE": "not directly available in Night13B; needs external baselines, full ablation, biology and external confirmation"
+  },
+  "delivery": {
+    "windows_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night13b_delivery_20260823/official_compact",
+    "required": [
+      "night13a_errata_ledger",
+      "canonical_dataset_registry_v2",
+      "corrected_anchor_board",
+      "strong_internal_reference_board",
+      "candidate_registry",
+      "search_ledger",
+      "run_and_failure_manifest",
+      "absolute_metric_and_study_family_summary",
+      "SOTA_context_board",
+      "real_path_P0_and_tests",
+      "report_plain_summary_decision",
+      "incremental_bundle_and_root_relative_index"
+    ]
+  }
+}
