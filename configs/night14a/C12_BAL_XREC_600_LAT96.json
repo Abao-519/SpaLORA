@@ -1,0 +1,22 @@
+{
+  "backbone": "CR_BALANCED_XREC",
+  "candidate_id": "C12_BAL_XREC_600_LAT96",
+  "depth": 2,
+  "dropout": 0.05,
+  "gradient_clip": 5.0,
+  "graph_k": 8,
+  "hidden_dim": 128,
+  "latent_dim": 96,
+  "learning_rate": 0.001,
+  "loss_weights": {
+    "alignment": 0.12,
+    "covariance": 0.0005,
+    "cross_recon": 1.0,
+    "graph_smooth": 0.015,
+    "private_recon": 0.5,
+    "topology_agreement": 0.04,
+    "variance": 0.08
+  },
+  "steps": 600,
+  "weight_decay": 0.00001
+}

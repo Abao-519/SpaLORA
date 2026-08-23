@@ -1,0 +1,12 @@
+{
+  "correction_id": "NIGHT14A_POSTCONFIRMATION_AUDIT_CORRECTION_01",
+  "trigger": "tonsil_s2 model seed 1 produced byte-identical W00 and W02 reload embeddings but the reload script independently reran KMeans and crossed a tie on W02",
+  "scope": "fresh-process audit only",
+  "original_failure_preserved_as": "fresh_process_reload_before_sha_reuse_fix.json",
+  "training_changed_or_repeated": false,
+  "scientific_formula_changed": false,
+  "formal_endpoint_rows_changed": false,
+  "confirmation_reopened": false,
+  "fix": "reuse the first partition for every byte-identical embedding SHA within each reload audit",
+  "global_replay_scope": "all 21 formal checkpoints"
+}

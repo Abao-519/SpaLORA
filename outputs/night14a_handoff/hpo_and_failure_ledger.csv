@@ -1,0 +1,13 @@
+ledger_id,stage,object,units,status,decision,evidence
+L00,SOURCE,SMART,1,STOPPED,"not run as official backbone","fixed source uses dense pairwise distances and unregistered module lists"
+L01,SOURCE,SpaBalance,1,STOPPED,"not run as official backbone","fixed source uses dense adjacency cross-spot attention and non-closing constructor semantics"
+L02,P0,CLEAN_ROOM_BACKBONES,4,PASS,"P01 balanced lane selected","two backbones times A1/P22 with training checkpoint and fresh-process reload"
+L03,FILTER_SEARCH,INITIAL_FILTER_BANK,36,FAILED,"absolute conflict gate rejected","strong smoothing helped ATAC but harmed protein and old TCF tracked fixed low-pass"
+L04,FILTER_SEARCH,ROUGHNESS_DISAGREEMENT_GRID,29,PARTIAL,"Q24 retained for next screen","opened ATAC and nearly rejected protein on the 240-step checkpoint"
+L05,FULL_TRAINING,C10_TO_C18,9,COMPLETE,"C15 advanced","600 to 1000 steps depth graph latent and loss-balance variants retained without deleting dominated results"
+L06,FILTER_SEARCH,TRUST_MIX_GRID,42,COMPLETE,"M07 advanced","three frozen checkpoint configurations times fourteen offline filters"
+L07,FREEZE,NIGHT14A_FREEZE_20260823_01,1,INVALIDATED,"confirmation not opened","fixed z2 spot permutation opened rather than rejected the global gate"
+L08,FILTER_SEARCH,INTEGRITY_GRID,8,COMPLETE,"I04 selected","corruption closed 4/4 while P22 and MISAR remained above matched references"
+L09,FREEZE,NIGHT14A_FREEZE_20260823_02,1,INVALIDATED,"confirmation not opened","byte-identical embeddings produced 19/20 equal partitions because KMeans was redundantly rerun"
+L10,ENGINEERING,ENDPOINT_SHA_REUSE,1,PASS,"cycle3 authorized","real A1 smoke reused 2/2 endpoint partitions and fresh-process reload passed"
+L11,FREEZE,NIGHT14A_FREEZE_20260823_03,1,FROZEN,"formal development and confirmation only","scientific formula unchanged from cycle2; evaluator reuse is an engineering correction"

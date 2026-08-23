@@ -1,0 +1,10 @@
+{
+  "amendment_id": "NIGHT14A_FREEZE_20260823_03_AUDIT_AMENDMENT",
+  "confirmation_datasets_opened_before_amendment": [],
+  "trigger": "P22 model seed 1 replayed every embedding within 2.86102294921875e-6 and exactly reproduced W00/W02 partitions, while non-primary W01 fixed-low ablation crossed a KMeans tie",
+  "original_failure_preserved_as": "fresh_process_reload_before_policy_fix.json",
+  "scientific_formula_changed": false,
+  "training_changed_or_repeated": false,
+  "endpoint_rows_changed": false,
+  "audit_policy_change": "checkpoint replay PASS requires numerical embedding replay and exact partitions for W00 identity plus W02 formal TCF; non-primary ablation partition differences remain reported but are not checkpoint failures"
+}

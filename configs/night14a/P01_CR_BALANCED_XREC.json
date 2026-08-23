@@ -1,0 +1,22 @@
+{
+  "backbone": "CR_BALANCED_XREC",
+  "candidate_id": "P01_CR_BALANCED_XREC",
+  "depth": 2,
+  "dropout": 0.05,
+  "gradient_clip": 5.0,
+  "graph_k": 8,
+  "hidden_dim": 96,
+  "latent_dim": 64,
+  "learning_rate": 0.001,
+  "loss_weights": {
+    "alignment": 0.12,
+    "covariance": 0.0005,
+    "cross_recon": 1.0,
+    "graph_smooth": 0.015,
+    "private_recon": 0.5,
+    "topology_agreement": 0.04,
+    "variance": 0.08
+  },
+  "steps": 240,
+  "weight_decay": 0.00001
+}

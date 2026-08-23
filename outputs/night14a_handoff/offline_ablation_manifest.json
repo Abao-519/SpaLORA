@@ -1,0 +1,214 @@
+{
+  "all_status_pass": true,
+  "candidate": "C15_BAL_XREC_600_WEAK_ALIGN",
+  "endpoint_n_init": 10,
+  "endpoint_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "filter_path": "configs/night14a/formal_key_ablation_filters_cycle2.json",
+  "filter_sha256": "564d5fdc18b48826e3a5f685728685cb4d86acabfdbabde7758d27e1916b503e",
+  "optimizer_steps_during_ablation": 0,
+  "rows": [
+    {
+      "checkpoint_sha256": "ee032f378052e3f0cc75015a9e3aaa58dd862999a3dd9c3f8baf95f7582c1392",
+      "dataset": "A1",
+      "filter_count": 3,
+      "model_seed": 0,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "0731ba54dfbfb3a839d1ba6059ab939d763c603f6f1ff6bc3a62539bffaf5c1c",
+        "z1": "c13a01401264ed802bfbfa51091eabfc69607ed0a68035be8746fc17b81b90cb",
+        "z2": "0f3e829d9085c64282226553f152044dc1764e41cbfc384a3bacf2f356da6f17"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "56c849623c8594b7fa39d8f078110addaf990b544751773aab4ff92421d5ad3d",
+      "dataset": "A1",
+      "filter_count": 3,
+      "model_seed": 1,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "a6f5a1b09cbd8167cfb493aad2de65f2bceb66f06b39f9bc5da2fb2a0fc99582",
+        "z1": "d22f62005800b6aa0e640fb3e00afd413d81e56edc833cbea12de303bb9bff02",
+        "z2": "3330c0795ad5f3eaa1588984f8955632cbf21aa8a9ee6b094063002684dec91b"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "40d4c6b5d57667d7c443c183e5c5b1f70642116ee76178a7b02aaa746a233378",
+      "dataset": "A1",
+      "filter_count": 3,
+      "model_seed": 2,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "411886a919bbc2b58308d103676dad9076bd6e9a451bba5ed9f82c85e195124f",
+        "z1": "06958d860509402070234d8ff8e83332c8781d0c41410396330f1b64b8c9f8e4",
+        "z2": "c846c3c6458e493c2a4d425d7d2d3817a07722fec661c551c505b147a54ba25e"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "8ebd40ca51632d52084de45ab4be71388ffe7f8460d712404646b5b0574c2423",
+      "dataset": "MISAR_E15_5_S1",
+      "filter_count": 3,
+      "model_seed": 0,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "f9d49fb080b6de3978c79df95d64dc9f5f292c0dd3bcc5453b35904c79c93c97",
+        "z1": "cd11360481a1bf762a5bff24fd898e4b7324de026f1c1b86c57e8b0795cf7123",
+        "z2": "75341acc9beff6edd92f5216437e9adc3e2664df52fd3341363b6d1a45a59712"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "ad00767051e5d735b639ef8cb5351bf699b61f99f918aede9ce23f32049a34d0",
+      "dataset": "MISAR_E15_5_S1",
+      "filter_count": 3,
+      "model_seed": 1,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "8ebb0f27337e8ecee32a69584d47fcd97d4a911ce499ed941ca09bfca4e391a9",
+        "z1": "c19976bde58970ed263a70924647eaf481056a0d56d717e0a7b4942e1107cba2",
+        "z2": "80abb58164746f9b804cdee6de052bc389e5aeb02c9608b68a07a26ae769e459"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "92f10c7a34c6684cefeff24fa0a60b06d36259866650e6650a1822cf7e4e0541",
+      "dataset": "MISAR_E15_5_S1",
+      "filter_count": 3,
+      "model_seed": 2,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "18dcfd635ece45162990b733a006136241e4b3bb3d421d3d0f625792d2058eaf",
+        "z1": "2d09218d4e9b229a0b72fb41668d39e364902c876e7bf58f46a9532cfaadf1fb",
+        "z2": "4a849685335bc2209daad3a31adab3c902045e612a5b8d2ebc49a24e74f5c02f"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "daf42615a15c3a4b44946bf5e93cfc36b11bcdc711d96789c5ac854ac227e630",
+      "dataset": "P22",
+      "filter_count": 3,
+      "model_seed": 0,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "2f85f00b5bff3efd38ed0b4db1ed00fb630eda5897ebe752af53bc97a94120d8",
+        "z1": "d90c77d9ad80984c7a7b06162f272ded2be5f59893a9ea82f2c1d6f7163626cd",
+        "z2": "5a0b8b5fbf1eb33737209ac7a65f2ed16babbbf3f810a8b100f76b97fd76cd59"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "03ae2c8b15dfdff51dd51c8ec3b97ee18776ca2721739d0905f257e78e0eaff7",
+      "dataset": "P22",
+      "filter_count": 3,
+      "model_seed": 1,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "ccc9e6f8d768384a360358571a1faac6c4087f045950727b52f211ac5f837df6",
+        "z1": "1411e4d31fde7da805264b58fbd1ab2f5f8880c91e1b6296181101180a48624b",
+        "z2": "d8b2979c4fbfa6654759697cc72f4182b8d0face9e5cbf2fca85c42d36f485a7"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "04331f8501d71d0f125e8f24beca9e6bbab44869277e1126d05b1c2f7a44486b",
+      "dataset": "P22",
+      "filter_count": 3,
+      "model_seed": 2,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "873ac362d2b3e44d2bdd7443b28db3e10d31bf1ab52b2c2ab1d96b7af5445561",
+        "z1": "f92bd88b7f55488f2fa63d99eccf997b50e9e60ff6a3b34343e7e3f9b466b668",
+        "z2": "37cbf2ec39f7bdf78f26c836485c5378abee290733ec07315e4e27b3b11b031b"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "d7a7644cfc3f9982057e39a2274836e29c6b3547b70ccb543422fff0993ec93e",
+      "dataset": "tonsil_s1",
+      "filter_count": 3,
+      "model_seed": 0,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "416b365d4699bfcb7d4cbccdc17bb744d49e5b66f6c84abe52186b592eff2131",
+        "z1": "5b7dae10b26e45100c1bccb6f01b1b36384b50957743a69c24007af7edfb78d3",
+        "z2": "6af6783694350541f6043e2ca641001ae0cdd72dbcd3f2dd324bab314fcf15c2"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "c48d494e0bd3045e7e8ad033287bca885ad9842e29d6a9608479405016a11bdb",
+      "dataset": "tonsil_s1",
+      "filter_count": 3,
+      "model_seed": 1,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "63063f60126b88892bf111e5d9618c11f6a372be05df814021c8848f86210332",
+        "z1": "a05246f41a1f29fe7adb2fa15bcf7b487e7e47282e901b1530553b06f2978e02",
+        "z2": "87a061345a1bc683f3f697b4412639e060980691c20da15fce7116abe585850c"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    },
+    {
+      "checkpoint_sha256": "2e0ddbcfb7e818bd26e5624146f3647637a9420ecfcce5c56bab76fa2168a07c",
+      "dataset": "tonsil_s1",
+      "filter_count": 3,
+      "model_seed": 2,
+      "optimizer_steps_during_ablation": 0,
+      "single_frozen_checkpoint_for_filter_grid": true,
+      "source_embedding_sha256": {
+        "fused": "b445ac83601d9041636a5e2ecf54946b6cef9d8254f77561a8481314b77b10b3",
+        "z1": "057ba22c453892eeca6f001714e9edb0469384df040f4f8059a76a4c6ebace7c",
+        "z2": "b28f62f22082cc9600d8a020d19f95edebc7661d31d30dcb0cd0aac0cd43f3d9"
+      },
+      "status": "PASS",
+      "unique_endpoint_embedding_count": 3
+    }
+  ],
+  "run_count": 12,
+  "source_formal_root": "/root/autodl-fs/night14a_topology_conflict_sprint_20260823/formal/development_cycle3"
+}

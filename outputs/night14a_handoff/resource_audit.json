@@ -1,0 +1,27 @@
+{
+  "all_recorded_fresh_process_reload_audits": 32,
+  "all_recorded_fresh_process_reload_pass_count": 32,
+  "all_recorded_gpu_seconds": 922.7710227050778,
+  "all_recorded_training_runs_including_development": 80,
+  "all_recorded_training_wall_seconds": 923.6246343925595,
+  "dense_n_by_n_count": 0,
+  "derived_root_bytes": 864995161,
+  "formal_all_status_pass": true,
+  "formal_fresh_process_reload_pass_count": 21,
+  "formal_gpu_seconds": 224.09905957031253,
+  "formal_optimizer_steps_each": [
+    600
+  ],
+  "formal_trainable_parameter_counts": [
+    118656,
+    122516
+  ],
+  "formal_training_runs": 21,
+  "formal_training_wall_seconds": 224.3067128546536,
+  "labels_in_loss_gradient_or_checkpoint_selection": 0,
+  "new_download_count": 0,
+  "peak_gpu_mib": 822.03125,
+  "peak_rss_mib": 3513.8046875,
+  "third_party_full_baseline_run_count": 0,
+  "training_label_use_count": 0
+}

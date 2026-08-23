@@ -1,0 +1,11 @@
+{
+  "correction_id": "NIGHT14A_CORRUPTION_CONTROL_SEMANTICS_CORRECTION_01",
+  "invalid_control": "cyclic one-position z2 shift",
+  "invalid_reason": "observation ordering retained local topology even though the permutation had no fixed points",
+  "invalid_audit_preserved_as": "formal_corruption_audit_invalid_cyclic.json",
+  "replacement_control": "NumPy default_rng(20260823) random permutation followed only by mechanical removal of fixed points",
+  "seed_search_performed": false,
+  "scientific_formula_changed": false,
+  "training_or_endpoint_results_changed": false,
+  "scope": "mechanism corruption audit only"
+}

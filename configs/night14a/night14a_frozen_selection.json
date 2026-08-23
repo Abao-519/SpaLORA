@@ -1,0 +1,44 @@
+{
+  "freeze_id": "NIGHT14A_FREEZE_20260823_01",
+  "frozen_at_utc": "2026-08-23T07:35:20Z",
+  "scientific_scope": "public benchmark development followed by frozen internal confirmation; not pristine blind evaluation",
+  "backbone_selection": {
+    "candidate_id": "C15_BAL_XREC_600_WEAK_ALIGN",
+    "config_path": "configs/night14a/C15_BAL_XREC_600_WEAK_ALIGN.json",
+    "file_sha256": "79f665781a14a7a8d212c0efef247db18fa4f5e611647221678a595ec04ee266",
+    "optimizer_steps": 600,
+    "training_is_unsupervised": true,
+    "labels_in_loss_gradient_or_checkpoint_selection": false
+  },
+  "filter_selection": {
+    "filter_id": "Z02_TCF_FINAL",
+    "filter_list_path": "configs/night14a/formal_main_filters.json",
+    "file_sha256": "6216f7a08c57ee12f33c865ee70c451338633aab893d35ee69de5d846876b9de",
+    "formula": "exact-identity fallback below global gate 0.05; otherwise sparse low-pass with 0.5 evidence-weighted edge trust; no high-pass in the main candidate",
+    "single_frozen_checkpoint_offline_grid": true
+  },
+  "source_freeze": {
+    "model_source": "SpaLORA/night14a_tcf.py",
+    "model_source_sha256": "9963feb1dd1acb193f0ce0b26644c1337a56f7726ebd400bc819c2e3774077d3",
+    "runner_source": "scripts/night14a/night14a_run.py",
+    "runner_source_sha256": "13c53485a3d1d8966c8c2c6c6558c9e343d660ab0028202850c07e8ac3e80080"
+  },
+  "formal_protocol": {
+    "model_seeds": [0, 1, 2],
+    "endpoint_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "endpoint_n_init": 10,
+    "common_endpoint": "KMeans known-K",
+    "development_datasets": ["A1", "tonsil_s1", "P22", "MISAR_E15_5_S1"],
+    "confirmation_datasets": ["D1", "tonsil_s2", "tonsil_s3"],
+    "matched_reference_rule": "same observations, label mask, known K, endpoint seeds and n_init"
+  },
+  "selection_basis": {
+    "full_training_configurations_evaluated": 9,
+    "development_model_seeds_screened": [0, 1, 2],
+    "direction": "ATAC_FOCUSED_SIGNAL_CANDIDATE",
+    "known_failure_before_confirmation": "canonical tonsil_s1 remains below its matched simple-concat reference",
+    "reason": "TCF was consistently open on P22/MISAR, exactly rejected transfer on A1/tonsil, and the selected backbone/filter pair was stable across three real training seeds"
+  },
+  "confirmation_results_were_not_used_for_this_freeze": true,
+  "scientific_formula_changes_after_freeze_allowed": false
+}

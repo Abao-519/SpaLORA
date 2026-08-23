@@ -1,0 +1,56 @@
+{
+  "freeze_id": "NIGHT14A_FREEZE_20260823_03",
+  "supersedes": "NIGHT14A_FREEZE_20260823_02",
+  "frozen_at_utc": "2026-08-23T08:13:42Z",
+  "confirmation_datasets_opened_before_freeze": [],
+  "scientific_scope": "public benchmark development followed by frozen internal confirmation; not pristine blind evaluation",
+  "scientific_formula_change_from_cycle2": false,
+  "engineering_change_from_cycle2": "byte-identical endpoint SHA reuse",
+  "backbone_selection": {
+    "candidate_id": "C15_BAL_XREC_600_WEAK_ALIGN",
+    "config_path": "configs/night14a/C15_BAL_XREC_600_WEAK_ALIGN.json",
+    "file_sha256": "79f665781a14a7a8d212c0efef247db18fa4f5e611647221678a595ec04ee266",
+    "optimizer_steps": 600,
+    "training_is_unsupervised": true,
+    "labels_in_loss_gradient_or_checkpoint_selection": false
+  },
+  "filter_selection": {
+    "filter_id": "W02_TCF_FINAL",
+    "filter_list_path": "configs/night14a/formal_main_filters_cycle2.json",
+    "file_sha256": "d3761db89b5d7cd987e8491b39a3342c1c412e2fc5a500496d554b9d6eebd597",
+    "formula": "frequency gate times cross-modal evidence-integrity gate; exact identity below 0.05; otherwise sparse low-pass with 25 percent evidence-weighted edge trust and maximum residual 0.8; no high-pass",
+    "corruption_requirement": "fixed z2 spot permutation must produce exact identity on all four development datasets"
+  },
+  "source_freeze": {
+    "model_source": "SpaLORA/night14a_tcf.py",
+    "model_source_sha256": "a80d23b1d5879dd2a53126d8046073eedc104ff307a635ae226d0d02d7efb5c6",
+    "runner_source": "scripts/night14a/night14a_run.py",
+    "runner_source_sha256": "70890e27abab111c110cea70614c1a4810824757e716d0471d232e21938549dc"
+  },
+  "formal_protocol": {
+    "model_seeds": [0, 1, 2],
+    "endpoint_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "endpoint_n_init": 10,
+    "common_endpoint": "KMeans known-K with byte-identical embedding SHA reuse",
+    "development_datasets": ["A1", "tonsil_s1", "P22", "MISAR_E15_5_S1"],
+    "confirmation_datasets": ["D1", "tonsil_s2", "tonsil_s3"],
+    "matched_references": {
+      "A1": "C00_G04_MODEL_SEED0",
+      "tonsil_s1": "SIMPLE_CONCAT",
+      "P22": "N02_HIER_MODEL_SEED0",
+      "MISAR_E15_5_S1": "RNA_ONLY",
+      "D1": "SIMPLE_CONCAT",
+      "tonsil_s2": "SIMPLE_CONCAT",
+      "tonsil_s3": "SIMPLE_CONCAT"
+    }
+  },
+  "selection_basis": {
+    "full_training_configurations_evaluated": 9,
+    "development_model_seeds_screened": [0, 1, 2],
+    "registered_corruption_identity_fallback": "4/4",
+    "direction": "ATAC_FOCUSED_SIGNAL_CANDIDATE",
+    "known_failure_before_confirmation": "canonical tonsil_s1 remains below its matched simple-concat reference"
+  },
+  "confirmation_results_were_not_used_for_this_freeze": true,
+  "scientific_formula_changes_after_freeze_allowed": false
+}

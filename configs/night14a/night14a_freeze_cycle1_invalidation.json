@@ -1,0 +1,9 @@
+{
+  "invalidated_freeze": "NIGHT14A_FREEZE_20260823_01",
+  "invalidated_before_confirmation": true,
+  "confirmation_datasets_opened_before_invalidation": [],
+  "reason": "A fixed z2 spot permutation increased the TCF global gate instead of forcing safe rejection on all four development datasets.",
+  "preserved_evidence": "development/mechanism_corruption_screen.csv",
+  "allowed_response": "Add an unlabeled cross-modal evidence-integrity factor, repeat development and corruption checks, then create a new freeze.",
+  "scientific_results_from_cycle1_are_not_formal": true
+}

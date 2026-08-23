@@ -1,0 +1,15 @@
+{
+  "targeted_pytest_command": "python -m pytest -q tests/night14a",
+  "targeted_tests_passed": 10,
+  "targeted_tests_failed": 0,
+  "real_backbone_p0_passed": 4,
+  "real_backbone_p0_expected": 4,
+  "formal_training_runs_passed": 21,
+  "formal_training_runs_expected": 21,
+  "formal_numerical_fresh_process_replays_passed": 21,
+  "formal_primary_partition_replays_passed": 21,
+  "formal_all_filter_partition_exact": 20,
+  "formal_all_filter_partition_expected": 21,
+  "registered_seed0_corruption_exact_identity": "4/4",
+  "exploratory_all_seed_corruption_exact_identity": "11/12"
+}

@@ -1,0 +1,109 @@
+{
+  "contract_version": "1.0",
+  "date": "2026-08-23",
+  "task_id": "night14a_topology_conflict_sprint",
+  "working_method_code": "TCF",
+  "working_method_expansion": "Topology-Conflict Filter",
+  "working_name_is_final_paper_name": false,
+  "objective": "Test whether a mature unified spatial multi-omics backbone plus a cross-modal topology-conflict-aware sparse filter can improve study-balanced clustering performance without dataset-name-driven model switching.",
+  "authority": {
+    "night13c_compact_root": "D:/文档/ChatGPT/博士第一篇科研论文项目/night13c_delivery_20260823/official_compact",
+    "compact_index_sha256": "bfdd7996fe742f19e1f9cd9782e85e5fb082d40409507c449cac47587cae189a",
+    "indexed_payload_count": 59,
+    "bundle_sha256": "ac7b69ccef576b56650ce4185b947365fb4fff551ed93ff2ae3bb3c8526fa46d"
+  },
+  "model_unification": {
+    "same_architecture_and_objective_required": true,
+    "dataset_name_backbone_routing_allowed": false,
+    "assay_specific_preprocessing_allowed": true,
+    "modality_adapters_allowed": true,
+    "dataset_specific_numeric_hyperparameters_allowed": true,
+    "hyperparameters_must_be_reported": true
+  },
+  "label_policy": {
+    "public_labels_for_evaluation_allowed": true,
+    "public_labels_for_hpo_allowed": true,
+    "labels_in_unsupervised_loss_or_gradient_allowed": false,
+    "labels_in_within_run_checkpoint_selection_allowed": false,
+    "if_labels_enter_training_reclassify_claim": true,
+    "claim_pristine_blind_confirmation": false
+  },
+  "development_units": [
+    "A1",
+    "tonsil_s1",
+    "P22",
+    "MISAR_E15_5_S1"
+  ],
+  "confirmation_units": [
+    "D1",
+    "tonsil_s2",
+    "tonsil_s3"
+  ],
+  "optional_unlabeled_scale_units": [
+    "P5S1",
+    "P5S2",
+    "P5S3"
+  ],
+  "backbone_candidates": [
+    "SMART",
+    "SpaBalance",
+    "traceable_clean_room_equivalent"
+  ],
+  "core_method_requirements": {
+    "sparse_edge_or_message_passing": true,
+    "identity_channel": true,
+    "low_pass_channel": true,
+    "high_pass_channel_optional": true,
+    "uses_cross_modal_content_or_conflict": true,
+    "dataset_name_as_feature": false,
+    "simple_cosine_average_as_only_edge_target": false
+  },
+  "development_budget_guidance": {
+    "cheap_filter_or_config_units": "30-60",
+    "full_training_configurations": "6-12",
+    "top_training_seeds": 3,
+    "executor_may_reallocate_budget": true
+  },
+  "evaluation": {
+    "matched_candidate_reference_endpoint_seeds_required": true,
+    "recommended_endpoint_seed_count": "20-30",
+    "common_head_robustness_required": true,
+    "native_full_pipeline_context_required": true,
+    "primary_metrics": [
+      "ARI",
+      "NMI"
+    ],
+    "secondary_metrics": [
+      "AMI",
+      "FMI",
+      "Moran_I",
+      "Geary_C",
+      "endpoint_stability",
+      "runtime",
+      "peak_GPU_MiB",
+      "peak_RSS_MiB"
+    ],
+    "study_level_aggregation": true,
+    "all_datasets_must_improve": false
+  },
+  "allowed_outcomes": [
+    "BROAD_SIGNAL",
+    "ATAC_FOCUSED_SIGNAL",
+    "LOCAL_SIGNAL",
+    "BACKBONE_ONLY_SIGNAL",
+    "SCIENTIFIC_NEGATIVE",
+    "IMPLEMENTATION_FAILURE",
+    "INFRASTRUCTURE_FAILURE"
+  ],
+  "integrity": {
+    "preserve_failed_runs": true,
+    "preserve_historical_raw": true,
+    "force_push_allowed": false,
+    "third_party_license_and_attribution_required": true,
+    "engineering_fixes_allowed": true,
+    "single_correction_cycle_limit": false,
+    "scientific_formula_may_change_during_declared_development": true,
+    "freeze_before_confirmation": true
+  }
+}
+

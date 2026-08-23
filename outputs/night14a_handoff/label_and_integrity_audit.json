@@ -1,0 +1,14 @@
+{
+  "claim_scope": "public benchmark development and frozen internal confirmation",
+  "confirmation_is_pristine_blind": false,
+  "dataset_name_model_routing": 0,
+  "dense_n_by_n": 0,
+  "force_pushes": 0,
+  "full_external_baseline_runs": 0,
+  "historical_raw_writes": 0,
+  "labels_in_loss_gradient_or_within_run_checkpoint_selection": 0,
+  "new_data_downloads": 0,
+  "public_label_reads_for_development_evaluation_and_hpo": true,
+  "public_label_reads_for_frozen_internal_confirmation_evaluation": true,
+  "training_label_reads": 0
+}

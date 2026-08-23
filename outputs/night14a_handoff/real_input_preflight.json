@@ -1,0 +1,271 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "dataset": "A1",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 3484,
+      "finite": true,
+      "k": 10,
+      "load_seconds": 5.094490317627788,
+      "night14a_phase": "development",
+      "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "processed_shapes": [
+        [
+          3484,
+          30
+        ],
+        [
+          3484,
+          30
+        ]
+      ],
+      "raw_shapes": [
+        [
+          3484,
+          18085
+        ],
+        [
+          3484,
+          31
+        ]
+      ],
+      "registered_adapter": "protein",
+      "registered_phase_night13b": "discovery",
+      "simple_embedding_shape": [
+        3484,
+        60
+      ],
+      "sparse_graph_nnz": 28444,
+      "total_observations": 3484
+    },
+    {
+      "dataset": "tonsil_s1",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 4326,
+      "finite": true,
+      "k": 4,
+      "load_seconds": 10.013113731518388,
+      "night14a_phase": "development",
+      "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "processed_shapes": [
+        [
+          4326,
+          30
+        ],
+        [
+          4326,
+          30
+        ]
+      ],
+      "raw_shapes": [
+        [
+          4326,
+          18085
+        ],
+        [
+          4326,
+          31
+        ]
+      ],
+      "registered_adapter": "protein",
+      "registered_phase_night13b": "discovery",
+      "simple_embedding_shape": [
+        4326,
+        60
+      ],
+      "sparse_graph_nnz": 36030,
+      "total_observations": 4326
+    },
+    {
+      "dataset": "P22",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 9196,
+      "finite": true,
+      "k": 9,
+      "load_seconds": 9.440930234268308,
+      "night14a_phase": "development",
+      "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "processed_shapes": [
+        [
+          9196,
+          30
+        ],
+        [
+          9196,
+          50
+        ]
+      ],
+      "raw_shapes": [
+        [
+          9196,
+          22914
+        ],
+        [
+          9196,
+          121068
+        ]
+      ],
+      "registered_adapter": "atac",
+      "registered_phase_night13b": "discovery",
+      "simple_embedding_shape": [
+        9196,
+        64
+      ],
+      "sparse_graph_nnz": 74114,
+      "total_observations": 9196
+    },
+    {
+      "dataset": "MISAR_E15_5_S1",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 1949,
+      "finite": true,
+      "k": 7,
+      "load_seconds": 0.524972353130579,
+      "night14a_phase": "development",
+      "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "processed_shapes": [
+        [
+          1949,
+          30
+        ],
+        [
+          1949,
+          50
+        ]
+      ],
+      "raw_shapes": [
+        [
+          1949,
+          2000
+        ],
+        [
+          1949,
+          50
+        ]
+      ],
+      "registered_adapter": "atac",
+      "registered_phase_night13b": "confirmation",
+      "simple_embedding_shape": [
+        1949,
+        64
+      ],
+      "sparse_graph_nnz": 16100,
+      "total_observations": 1949
+    },
+    {
+      "dataset": "D1",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 3359,
+      "finite": true,
+      "k": 10,
+      "load_seconds": 3.8219192009419203,
+      "night14a_phase": "confirmation",
+      "ordered_id_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "processed_shapes": [
+        [
+          3359,
+          30
+        ],
+        [
+          3359,
+          30
+        ]
+      ],
+      "raw_shapes": [
+        [
+          3359,
+          18085
+        ],
+        [
+          3359,
+          31
+        ]
+      ],
+      "registered_adapter": "protein",
+      "registered_phase_night13b": "confirmation",
+      "simple_embedding_shape": [
+        3359,
+        60
+      ],
+      "sparse_graph_nnz": 27448,
+      "total_observations": 3359
+    },
+    {
+      "dataset": "tonsil_s2",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 4518,
+      "finite": true,
+      "k": 4,
+      "load_seconds": 9.505124004557729,
+      "night14a_phase": "confirmation",
+      "ordered_id_sha256": "a5e06f660ef432696b1e4ee3573d3b7b4843ced9a4e0505485f5ec008f3a39c5",
+      "processed_shapes": [
+        [
+          4519,
+          30
+        ],
+        [
+          4519,
+          30
+        ]
+      ],
+      "raw_shapes": [
+        [
+          4519,
+          18085
+        ],
+        [
+          4519,
+          31
+        ]
+      ],
+      "registered_adapter": "protein",
+      "registered_phase_night13b": "confirmation",
+      "simple_embedding_shape": [
+        4519,
+        60
+      ],
+      "sparse_graph_nnz": 37560,
+      "total_observations": 4519
+    },
+    {
+      "dataset": "tonsil_s3",
+      "dense_n_by_n_count": 0,
+      "evaluated_observations": 4460,
+      "finite": true,
+      "k": 4,
+      "load_seconds": 14.393855867907405,
+      "night14a_phase": "confirmation",
+      "ordered_id_sha256": "8c1a0339e72f5fa6067f7fe9135ea490b5574a198212ced689c50910935e535b",
+      "processed_shapes": [
+        [
+          4521,
+          30
+        ],
+        [
+          4521,
+          30
+        ]
+      ],
+      "raw_shapes": [
+        [
+          4521,
+          18085
+        ],
+        [
+          4521,
+          35
+        ]
+      ],
+      "registered_adapter": "protein",
+      "registered_phase_night13b": "confirmation",
+      "simple_embedding_shape": [
+        4521,
+        60
+      ],
+      "sparse_graph_nnz": 39722,
+      "total_observations": 4521
+    }
+  ]
+}

@@ -1,0 +1,1435 @@
+{
+  "expected_run_count": 21,
+  "pass_count": 21,
+  "rows": [
+    {
+      "checkpoint_sha256": "ee032f378052e3f0cc75015a9e3aaa58dd862999a3dd9c3f8baf95f7582c1392",
+      "dataset": "A1",
+      "final_state_sha256": "13249dcd337be0b2a0e62e8efa9f04783ada611885bb8b2b8ba334b2ddd2c62d",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "13249dcd337be0b2a0e62e8efa9f04783ada611885bb8b2b8ba334b2ddd2c62d",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "56c849623c8594b7fa39d8f078110addaf990b544751773aab4ff92421d5ad3d",
+      "dataset": "A1",
+      "final_state_sha256": "b328df840b909c52965d282a4061be8f3e7823c8fe0036d28be1f953c458236d",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "b328df840b909c52965d282a4061be8f3e7823c8fe0036d28be1f953c458236d",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.562999725341797e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.562999725341797e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.562999725341797e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "40d4c6b5d57667d7c443c183e5c5b1f70642116ee76178a7b02aaa746a233378",
+      "dataset": "A1",
+      "final_state_sha256": "4098c190752c937ae8917155c7cf9cac7470fc4dff89bbd16e052a74b9b72995",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "4098c190752c937ae8917155c7cf9cac7470fc4dff89bbd16e052a74b9b72995",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "8ebd40ca51632d52084de45ab4be71388ffe7f8460d712404646b5b0574c2423",
+      "dataset": "MISAR_E15_5_S1",
+      "final_state_sha256": "2d26111ea5eb06a0e4c8cb75959f5d2b710b37b1775d847e7cdd35dd8c11731a",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "2d26111ea5eb06a0e4c8cb75959f5d2b710b37b1775d847e7cdd35dd8c11731a",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.430511474609375e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.9802322387695312e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "ad00767051e5d735b639ef8cb5351bf699b61f99f918aede9ce23f32049a34d0",
+      "dataset": "MISAR_E15_5_S1",
+      "final_state_sha256": "543e663f29c940be098ff1bdc544b5d194b0bf3b533d1e8a9de5d7637f5086bb",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "543e663f29c940be098ff1bdc544b5d194b0bf3b533d1e8a9de5d7637f5086bb",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.430511474609375e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.0563602447509766e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "92f10c7a34c6684cefeff24fa0a60b06d36259866650e6650a1822cf7e4e0541",
+      "dataset": "MISAR_E15_5_S1",
+      "final_state_sha256": "8cc91485b295415911901c7461039032b4b37b79ba939920b0dd306f8b1516b6",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "8cc91485b295415911901c7461039032b4b37b79ba939920b0dd306f8b1516b6",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.430511474609375e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 3.516674041748047e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "daf42615a15c3a4b44946bf5e93cfc36b11bcdc711d96789c5ac854ac227e630",
+      "dataset": "P22",
+      "final_state_sha256": "49b4016b4d82d9bf2fbfd3d167799c04ca1f78d37ba6d44497eb94bca1446957",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "49b4016b4d82d9bf2fbfd3d167799c04ca1f78d37ba6d44497eb94bca1446957",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.6226043701171875e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 3.0994415283203125e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 3.0994415283203125e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.430511474609375e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.3113021850585938e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "03ae2c8b15dfdff51dd51c8ec3b97ee18776ca2721739d0905f257e78e0eaff7",
+      "dataset": "P22",
+      "final_state_sha256": "cd41e4ec0187c72c8e58f8071f18ecec8065518708d3183bcab824ccd6f754a1",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": false,
+        "final_state_sha256": "cd41e4ec0187c72c8e58f8071f18ecec8065518708d3183bcab824ccd6f754a1",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.3709068298339844e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": false,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "04331f8501d71d0f125e8f24beca9e6bbab44869277e1126d05b1c2f7a44486b",
+      "dataset": "P22",
+      "final_state_sha256": "4e8719a400c65ade3d8fe5bf1a1763207e1e1a21e0c4bd64816f955086ad607d",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "4e8719a400c65ade3d8fe5bf1a1763207e1e1a21e0c4bd64816f955086ad607d",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.5033950805664062e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.3113021850585938e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.6689300537109375e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "d7a7644cfc3f9982057e39a2274836e29c6b3547b70ccb543422fff0993ec93e",
+      "dataset": "tonsil_s1",
+      "final_state_sha256": "082d0609a607192fb37777965b7030130f547f07c173ac75460e951a861858fe",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "082d0609a607192fb37777965b7030130f547f07c173ac75460e951a861858fe",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "c48d494e0bd3045e7e8ad033287bca885ad9842e29d6a9608479405016a11bdb",
+      "dataset": "tonsil_s1",
+      "final_state_sha256": "d3066ad363051744dd3be62f5fbd93f2de64b600df68eaa72651f5cfca7d1c2d",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "d3066ad363051744dd3be62f5fbd93f2de64b600df68eaa72651f5cfca7d1c2d",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.817941665649414e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.430511474609375e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "2e0ddbcfb7e818bd26e5624146f3647637a9420ecfcce5c56bab76fa2168a07c",
+      "dataset": "tonsil_s1",
+      "final_state_sha256": "f3eccb92c24cced3e088065f62b390a13e0e26fdea031fba30c55ac323fff688",
+      "formal_phase": "DEVELOPMENT",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "f3eccb92c24cced3e088065f62b390a13e0e26fdea031fba30c55ac323fff688",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9371509552001953e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.3113021850585938e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "c4be57370aa55f1d78568545e135b2663f1eb169f7a797d24ed270b330d76c5d",
+      "dataset": "D1",
+      "final_state_sha256": "52af98f51036ea07885c63ed03847ce77f572fb4bca8dcc227410266305d7ed2",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "52af98f51036ea07885c63ed03847ce77f572fb4bca8dcc227410266305d7ed2",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.6689300537109375e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.5033950805664062e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.5033950805664062e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.3113021850585938e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.5033950805664062e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "2b9e8993288eda3f7fd95546fe1f45dbffebd0605fa8cdebf6d79ff4773a93d5",
+      "dataset": "D1",
+      "final_state_sha256": "8926be0e03f905119084beb1c7acdd6f4e4a3c87a8e0206cc777a9db03ca0e51",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "8926be0e03f905119084beb1c7acdd6f4e4a3c87a8e0206cc777a9db03ca0e51",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.6689300537109375e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "a00439c0ae0957eab1de94db195e38e404eed444c08a1aecc54ac55bf53b4f2b",
+      "dataset": "D1",
+      "final_state_sha256": "73089a68d8789ca4c322713d9a626404a8964c6010f3416de8ba27984a32dcd3",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "73089a68d8789ca4c322713d9a626404a8964c6010f3416de8ba27984a32dcd3",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.205371856689453e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.205371856689453e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.3113021850585938e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.430511474609375e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "ac08af65241b6f5394c554d7cc8eb1192d258b8c48bd3702302b600fe066ebc8",
+      "dataset": "tonsil_s2",
+      "final_state_sha256": "e4ce95e6624b29ef614024974bcbb662eed95e593a5f47f852e214333f058e00",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "e4ce95e6624b29ef614024974bcbb662eed95e593a5f47f852e214333f058e00",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9669532775878906e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "6c3a56ccc7a1a34fee20df103617159b0c045c051df538934500e41146a3ad8d",
+      "dataset": "tonsil_s2",
+      "final_state_sha256": "573b66481f427badcfe6bfac8f67e085e7b60931bbcd44e383c7c0e9e597777e",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "573b66481f427badcfe6bfac8f67e085e7b60931bbcd44e383c7c0e9e597777e",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.0265579223632812e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.86102294921875e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "dbe966c934bfa11dc82157a64215195c2832fad8a0390adf46b8aa55c1a5a74d",
+      "dataset": "tonsil_s2",
+      "final_state_sha256": "873fe24ff3cd1eaae8b016926c3cdad5b51822a3deb1511ae542bfe2d6f42049",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "873fe24ff3cd1eaae8b016926c3cdad5b51822a3deb1511ae542bfe2d6f42049",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.1457672119140625e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "2270ebe489cfd12ee723426e7a351d8f116c10590cd9a9aad44b667cc2001b9f",
+      "dataset": "tonsil_s3",
+      "final_state_sha256": "995da1482df9a7032ec9c0e4a489b62bceb8e4ce9c9b0ef18658e40c3b40250e",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "995da1482df9a7032ec9c0e4a489b62bceb8e4ce9c9b0ef18658e40c3b40250e",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.175569534301758e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.6689300537109375e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1026859283447266e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "81eeb5a797d50d002f01cecc37f3e4bf42b8079f07c0b8ae6ed2f96d3e5d915f",
+      "dataset": "tonsil_s3",
+      "final_state_sha256": "3ebd53ce132661c00c8f895e49a11afae082fc5e3712c9ce4f92fd8291210356",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "3ebd53ce132661c00c8f895e49a11afae082fc5e3712c9ce4f92fd8291210356",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.086162567138672e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.0265579223632812e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.2649765014648438e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.2649765014648438e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.2367963790893555e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.2649765014648438e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "ab67bd83dd3343194ee65d7df928bf5331a3456f8357588d5cd49cf846736182",
+      "dataset": "tonsil_s3",
+      "final_state_sha256": "5783aa37d0355a28e4d215df2e6dbd8ecbdccb64aec139a65bf7c145b064e980",
+      "formal_phase": "CONFIRMATION",
+      "fresh_process_reload": {
+        "all_embedding_numerical_roundtrip": true,
+        "all_filter_partition_exact": true,
+        "final_state_sha256": "5783aa37d0355a28e4d215df2e6dbd8ecbdccb64aec139a65bf7c145b064e980",
+        "fresh_process": true,
+        "nonprimary_ablation_partition_difference_is_status_blocking": false,
+        "required_filter_partition_exact": true,
+        "required_partition_objects": [
+          "W00_IDENTITY",
+          "W02_TCF_FINAL"
+        ],
+        "rows": [
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.9073486328125e-06,
+            "numerical_roundtrip": true,
+            "object": "z1"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.086162567138672e-06,
+            "numerical_roundtrip": true,
+            "object": "z2"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "fused"
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W00_IDENTITY",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 1.1920928955078125e-06,
+            "numerical_roundtrip": true,
+            "object": "W01_FIXED_LOW60",
+            "partition_exact": true,
+            "partition_reuse_of_object": null,
+            "partition_reused": false
+          },
+          {
+            "byte_exact": false,
+            "max_abs_difference": 2.384185791015625e-06,
+            "numerical_roundtrip": true,
+            "object": "W02_TCF_FINAL",
+            "partition_exact": true,
+            "partition_reuse_of_object": "W00_IDENTITY",
+            "partition_reused": true
+          }
+        ],
+        "status": "PASS",
+        "strict_state_load": true
+      },
+      "model_seed": 2
+    }
+  ],
+  "run_count": 21
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "conflict_scale": 0.0,
+    "filter_id": "S00_IDENTITY",
+    "global_center": 0.4,
+    "global_scale": 40.0,
+    "high_center": 0.3,
+    "max_high": 0.0,
+    "max_low": 0.0,
+    "node_center": 0.4,
+    "node_scale": 8.0,
+    "roughness_center": 0.23,
+    "roughness_scale": 60.0,
+    "support_center": 0.75,
+    "support_scale": 10.0,
+    "variant": "IDENTITY"
+  },
+  {
+    "conflict_scale": 0.0,
+    "filter_id": "S01_FIXED_LOW60",
+    "global_center": 0.4,
+    "global_scale": 40.0,
+    "high_center": 0.3,
+    "max_high": 0.0,
+    "max_low": 0.6,
+    "node_center": 0.4,
+    "node_scale": 8.0,
+    "roughness_center": 0.23,
+    "roughness_scale": 60.0,
+    "support_center": 0.75,
+    "support_scale": 10.0,
+    "variant": "FIXED_LOW"
+  },
+  {
+    "conflict_scale": 8.0,
+    "filter_id": "S02_TCF_M07",
+    "global_center": 0.4,
+    "global_gate_floor": 0.05,
+    "global_scale": 40.0,
+    "high_center": 0.3,
+    "max_high": 0.0,
+    "max_low": 1.0,
+    "node_center": 0.4,
+    "node_scale": 8.0,
+    "roughness_center": 0.23,
+    "roughness_scale": 60.0,
+    "support_center": 0.75,
+    "support_scale": 10.0,
+    "trust_evidence_fraction": 0.5,
+    "variant": "TCF_LOW_HIGH"
+  }
+]

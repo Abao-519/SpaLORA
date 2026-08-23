@@ -1,0 +1,13 @@
+{
+  "invalidated_freeze": "NIGHT14A_FREEZE_20260823_02",
+  "invalidated_before_confirmation": true,
+  "confirmation_datasets_opened_before_invalidation": [],
+  "scientific_formula_changed": false,
+  "reason": "Byte-identical identity and rejected-TCF embeddings were independently sent through multithreaded KMeans; one of twenty tonsil_s1 endpoint partitions differed at a numerical tie boundary.",
+  "observed_identity_embedding_sha_equal": true,
+  "observed_partition_exact": "19/20",
+  "preserved_partial_formal_root": "formal/development",
+  "engineering_fix": "Cache endpoint results by embedding SHA and retag exact reuse, including reuse of the first expected partition for fresh-process verification.",
+  "real_regression_smoke": "2/2 endpoint partitions exact plus fresh-process PASS",
+  "confirmation_results_used": false
+}

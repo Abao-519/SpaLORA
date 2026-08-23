@@ -1,0 +1,142 @@
+{
+  "all_exact_identity": false,
+  "exact_identity_count": 5,
+  "filter_id": "W02_TCF_FINAL",
+  "fixed_permutation": true,
+  "rows": [
+    {
+      "checkpoint_sha256": "ee032f378052e3f0cc75015a9e3aaa58dd862999a3dd9c3f8baf95f7582c1392",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "A1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": true,
+      "global_gate": 0.0,
+      "integrity_gate": 0.04132043197751045,
+      "max_abs_difference_from_identity": 0.0,
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "56c849623c8594b7fa39d8f078110addaf990b544751773aab4ff92421d5ad3d",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "A1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": true,
+      "global_gate": 0.0,
+      "integrity_gate": 0.03519413247704506,
+      "max_abs_difference_from_identity": 0.0,
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "40d4c6b5d57667d7c443c183e5c5b1f70642116ee76178a7b02aaa746a233378",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "A1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.064165860414505,
+      "integrity_gate": 0.06458137929439545,
+      "max_abs_difference_from_identity": 1.5528273582458496,
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "8ebd40ca51632d52084de45ab4be71388ffe7f8460d712404646b5b0574c2423",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "MISAR_E15_5_S1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.6547604203224182,
+      "integrity_gate": 0.6555578112602234,
+      "max_abs_difference_from_identity": 2.096763849258423,
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "ad00767051e5d735b639ef8cb5351bf699b61f99f918aede9ce23f32049a34d0",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "MISAR_E15_5_S1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.6867895722389221,
+      "integrity_gate": 0.6879284977912903,
+      "max_abs_difference_from_identity": 2.473957061767578,
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "92f10c7a34c6684cefeff24fa0a60b06d36259866650e6650a1822cf7e4e0541",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "MISAR_E15_5_S1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.6972865462303162,
+      "integrity_gate": 0.6980296969413757,
+      "max_abs_difference_from_identity": 2.5880658626556396,
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "daf42615a15c3a4b44946bf5e93cfc36b11bcdc711d96789c5ac854ac227e630",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "P22",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.8448575139045715,
+      "integrity_gate": 0.8459264636039734,
+      "max_abs_difference_from_identity": 3.712851047515869,
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "03ae2c8b15dfdff51dd51c8ec3b97ee18776ca2721739d0905f257e78e0eaff7",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "P22",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.825838565826416,
+      "integrity_gate": 0.8266376256942749,
+      "max_abs_difference_from_identity": 3.5553112030029297,
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "04331f8501d71d0f125e8f24beca9e6bbab44869277e1126d05b1c2f7a44486b",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "P22",
+      "dense_n_by_n_count": 0,
+      "exact_identity": false,
+      "global_gate": 0.8167438507080078,
+      "integrity_gate": 0.8173194527626038,
+      "max_abs_difference_from_identity": 3.519376754760742,
+      "model_seed": 2
+    },
+    {
+      "checkpoint_sha256": "d7a7644cfc3f9982057e39a2274836e29c6b3547b70ccb543422fff0993ec93e",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "tonsil_s1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": true,
+      "global_gate": 0.0,
+      "integrity_gate": 0.002154671587049961,
+      "max_abs_difference_from_identity": 0.0,
+      "model_seed": 0
+    },
+    {
+      "checkpoint_sha256": "c48d494e0bd3045e7e8ad033287bca885ad9842e29d6a9608479405016a11bdb",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "tonsil_s1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": true,
+      "global_gate": 0.0,
+      "integrity_gate": 0.0020379924681037664,
+      "max_abs_difference_from_identity": 0.0,
+      "model_seed": 1
+    },
+    {
+      "checkpoint_sha256": "2e0ddbcfb7e818bd26e5624146f3647637a9420ecfcce5c56bab76fa2168a07c",
+      "corruption": "FIXED_CYCLIC_Z2_SPOT_PERMUTATION_NO_FIXED_POINT",
+      "dataset": "tonsil_s1",
+      "dense_n_by_n_count": 0,
+      "exact_identity": true,
+      "global_gate": 0.0,
+      "integrity_gate": 0.002098230877891183,
+      "max_abs_difference_from_identity": 0.0,
+      "model_seed": 2
+    }
+  ],
+  "run_count": 12,
+  "source_formal_root": "/root/autodl-fs/night14a_topology_conflict_sprint_20260823/formal/development_cycle3"
+}
