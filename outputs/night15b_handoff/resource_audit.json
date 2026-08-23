@@ -1,0 +1,18 @@
+{
+  "autodl_gpu_training_seconds": 114.27895192801952,
+  "autodl_optimizer_steps": 13880,
+  "autodl_peak_gpu_mib": 83.58642578125,
+  "autodl_peak_rss_mib": 947.5625,
+  "autodl_training_invocations": 101,
+  "checkpoint_fresh_process_roundtrip_passed": 41,
+  "checkpoint_fresh_process_roundtrip_total": 41,
+  "gpu_asset_archive_bytes": 80974023,
+  "gpu_asset_archive_sha256": "3c641cabf7db876f220c2f7a89df732b68791e29ab21b1591a741224a989228e",
+  "status": "PASS",
+  "windows_abandoned_overwide_attempt_seconds_lower_bound": 2400.0,
+  "windows_complete_preserved_head_rerun_seconds": 274.49201139999786,
+  "windows_final_head_hpo_seconds": 235.011559999999,
+  "windows_head_smoke_seconds": 83.8,
+  "windows_local_sapr_replay_seconds": 17.15866799998912,
+  "windows_total_endpoint_work_seconds_lower_bound": 3010.462239399986
+}

@@ -1,0 +1,54 @@
+{
+  "audit_date": "2026-08-24",
+  "third_party_source_copied_into_project": false,
+  "sources": [
+    {
+      "method": "PRAGA",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/32010",
+      "repository": "https://github.com/Xubin-s-Lab/PRAGA",
+      "commit": "4adb11c96fc7ddad800fa1787eadcc8b91b42784",
+      "license": "AGPL-3.0",
+      "files_read": ["main.py", "PRAGA/Train_model.py", "PRAGA/model.py", "LICENSE.md"]
+    },
+    {
+      "method": "Proust",
+      "paper": "https://genome.cshlp.org/content/35/7/1621",
+      "repository": "https://github.com/JianingYao/proust",
+      "commit": "455466c7d683baabfc5db53cbee9d50607447db1",
+      "license": "GPL-3.0",
+      "files_read": ["proust/Train.py", "proust/nnModels.py", "LICENSE"]
+    },
+    {
+      "method": "SpaMV",
+      "paper": "https://www.nature.com/articles/s41467-026-74718-1",
+      "repository": "https://github.com/ericcombiolab/SpaMV",
+      "commit": "d7105ef70e9276350e8a12bddfbd3d396d1c33d2",
+      "license": "paper states MIT; no top-level license observed in audited repository listing",
+      "files_read": ["SpaMV/model.py", "SpaMV/spamv.py"]
+    },
+    {
+      "method": "soFusion",
+      "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477611/",
+      "repository": "https://github.com/sunxue-yy/soFusion",
+      "commit": "aa5fced4f4be182e8ea451928fb1c07bcf5bfca3",
+      "license": "MIT",
+      "files_read": ["soFusion/models.py", "soFusion/train_model.py", "LICENSE"]
+    },
+    {
+      "method": "SEPAR",
+      "paper": "https://www.nature.com/articles/s42003-025-09340-w",
+      "repository": "https://github.com/zerovain/SEPAR",
+      "commit": "6d3475fa0bd749d3b1b5592b68323439d473f9fc",
+      "license": "MIT",
+      "files_read": ["SEPAR_model.py", "SEPARmult_model.py", "LICENSE"]
+    },
+    {
+      "method": "3d-OT",
+      "paper": "https://www.nature.com/articles/s41592-026-03034-9",
+      "repository": "https://github.com/dbjzs/3d-OT",
+      "commit": "39a7cb02748d83299cd471f172f3b972896e61d8",
+      "license": "Apache-2.0",
+      "files_read": ["lib_3d_OT/multi_modialty.py", "LICENSE"]
+    }
+  ]
+}

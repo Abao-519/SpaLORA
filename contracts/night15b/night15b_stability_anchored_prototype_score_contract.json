@@ -1,0 +1,186 @@
+{
+  "contract_id": "NIGHT15B_STABILITY_ANCHORED_PROTOTYPE_SCORE_SPRINT_20260824",
+  "parent_terminal": "NO_ADDED_METHOD_SIGNAL",
+  "parent_secondary_signal": "STABLE_HEAD_SIGNAL",
+  "objective": "maximize absolute spatial-domain scores using retained strong representations and a unified cluster-aware bounded residual, while moving CPU head search and audit off AutoDL",
+  "working_method": {
+    "name": "SAPR",
+    "expanded_name": "Stability-Anchored Prototype Residual",
+    "chinese_name": "稳定性锚定的原型残差",
+    "status": "working_hypothesis_not_final_paper_name_or_novelty_claim",
+    "core": [
+      "multiple_high_quality_label_free_partitions",
+      "partition_alignment_and_stability_confidence",
+      "high_confidence_interior_anchors",
+      "uncertain_spatial_boundary_set",
+      "shared_small_residual_network",
+      "prototype_sharpening_and_balanced_assignment",
+      "cross_view_consistency",
+      "interior_trust_region"
+    ],
+    "executor_may_replace_design": true,
+    "replacement_requirement": "same unified idea across modality families and independently measurable gain over the retained strong representation/head"
+  },
+  "scientific_scope": {
+    "same_core_across_families": true,
+    "families": [
+      "RNA+ATAC",
+      "RNA+protein"
+    ],
+    "modality_type_adapters_allowed": true,
+    "platform_specific_numeric_hpo": true,
+    "dataset_specific_numeric_hpo": true,
+    "dataset_name_architecture_routing": false,
+    "all_datasets_must_improve": false,
+    "single_best_run_is_valid_development_signal": true,
+    "all_run_rows_retained": true
+  },
+  "label_policy": {
+    "public_labels_may_be_loaded": true,
+    "allowed": [
+      "known_K",
+      "development_hpo",
+      "candidate_ranking",
+      "best_run_selection",
+      "evaluation"
+    ],
+    "not_used_as_model_input_or_direct_prototype_target": true,
+    "reason": "otherwise the task becomes supervised classification and cannot be compared with unsupervised spatial-domain methods",
+    "reporting": "distinguish label-assisted development best from seed-distribution summaries"
+  },
+  "lanes": {
+    "primary": [
+      "P22_K9",
+      "P22_K18",
+      "MISAR_K7",
+      "MISAR_K12"
+    ],
+    "secondary": [
+      "A1_K10",
+      "D1_K10",
+      "TONSIL_S1_K4",
+      "TONSIL_S2_K4",
+      "TONSIL_S3_K4",
+      "GSE213264_SPATIAL_CITESEQ_IF_LABEL_PROTOCOL_CLOSES"
+    ]
+  },
+  "retained_high_water": {
+    "P22_K9": {
+      "ari": 0.569117,
+      "nmi": 0.685131,
+      "source": "Night14B_chain_retained_in_Night15A_ledger"
+    },
+    "P22_K18": {
+      "ari": 0.612177,
+      "nmi": 0.723330,
+      "source": "locked_C15_W02_representation_with_official_3dOT_18_state_assignment"
+    },
+    "MISAR_K7": {
+      "ari": 0.514339,
+      "nmi": 0.601181,
+      "source": "Night15A_no_filter_seed2_endpoint0",
+      "alternative_high_nmi": 0.628963
+    },
+    "MISAR_K12": {
+      "ari": 0.4143,
+      "nmi": 0.5329,
+      "source": "Night14B_best_run"
+    }
+  },
+  "score_targets": {
+    "P22_K9": {
+      "first": 0.60,
+      "stretch": "authoritative_protocol_matched_reported_high_water_to_be_registered"
+    },
+    "P22_K18": {
+      "first": 0.65,
+      "stretch": "authoritative_protocol_matched_reported_high_water_to_be_registered"
+    },
+    "MISAR_K7": {
+      "first": 0.55,
+      "stretch": "authoritative_protocol_matched_reported_high_water_to_be_registered"
+    },
+    "MISAR_K12": {
+      "first": 0.50,
+      "context": 0.644,
+      "context_note": "do_not_call_fair_win_without_matching_SEPAR_protocol"
+    }
+  },
+  "execution_funnel": {
+    "stage_1": "cached_embedding_and_head_score_sprint",
+    "stage_2": "one_seed_cluster_aware_residual_screen",
+    "stage_3": "top_2_to_3_candidates_with_2_additional_training_seeds",
+    "stage_4": "secondary_dataset_transfer_and_minimal_ablation",
+    "no_mandatory_large_seed_battery_before_signal": true,
+    "engineering_fixes_allowed": true,
+    "scientific_formula_changes_logged_as_revision": true
+  },
+  "minimum_ablation": [
+    "retained_teacher_head",
+    "SAPR_full",
+    "SAPR_residual_disabled"
+  ],
+  "compute_split": {
+    "autodl": [
+      "raw_fragment_or_peak_preprocessing",
+      "raw_feature_neural_forward_backward",
+      "gpu_candidate_screen",
+      "finalist_checkpoint_export"
+    ],
+    "windows_local": [
+      "hash_and_bundle_audit",
+      "metric_recomputation",
+      "embedding_level_head_hpo",
+      "partition_ensemble_and_medoid",
+      "plots_reports_and_ledger",
+      "cpu_endpoint_replay"
+    ],
+    "local_hardware": {
+      "cpu": "AMD Ryzen 7 6800H 8C16T",
+      "ram_gib": 15.19,
+      "cuda": false,
+      "drive_d_free_gib_at_planning": 94.77
+    },
+    "local_compute_kit_required": true,
+    "local_compute_kit_compressed_target_gib": 2.0
+  },
+  "local_compute_kit": {
+    "required_per_dataset": [
+      "ordered_observation_ids",
+      "coordinates",
+      "public_labels",
+      "evaluation_mask",
+      "known_K",
+      "reduced_modality_views",
+      "retained_strong_embeddings",
+      "sparse_graph_CSR",
+      "candidate_partition_bank",
+      "configuration_registry"
+    ],
+    "forbidden": [
+      "raw_fragment_table",
+      "dense_N_by_N_matrix",
+      "unbounded_checkpoint_archive"
+    ]
+  },
+  "external_work": {
+    "full_method_reproduction_priority": "low",
+    "required": "reported_score_and_protocol_context_board_only",
+    "source_audit_priority": [
+      "PRAGA",
+      "Proust",
+      "SpaMV",
+      "soFusion",
+      "SEPAR",
+      "3d-OT"
+    ]
+  },
+  "terminal_classes": [
+    "HEAD_ONLY_SCORE_GAIN",
+    "CLUSTER_AWARE_RESIDUAL_LOCAL_SIGNAL",
+    "CROSS_DATASET_METHOD_SIGNAL",
+    "NO_ADDED_SCORE_SIGNAL",
+    "IMPLEMENTATION_FAILURE",
+    "INFRASTRUCTURE_FAILURE"
+  ]
+}

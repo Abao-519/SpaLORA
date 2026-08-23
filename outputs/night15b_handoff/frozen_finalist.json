@@ -1,0 +1,23 @@
+{
+  "candidate_id": "S22_CROSS_VIEW_BALANCED",
+  "config": {
+    "candidate_id": "S22_CROSS_VIEW_BALANCED",
+    "config_sha256": "53f39d014964b75a14c2006a6943f9748ec14c3513a530244a9ff059eea5a38f",
+    "dataset_name_routing": false,
+    "dropout": 0.05,
+    "ground_truth_in_input_or_loss": false,
+    "hidden_dim": 128,
+    "latent_dim": 48,
+    "learning_rate": 0.001,
+    "loss": {
+      "anchor": 1.0,
+      "balance": 0.08,
+      "boundary": 0.0,
+      "cross_view": 0.6,
+      "trust": 0.8
+    },
+    "mechanism_family": "CROSS_VIEW",
+    "steps": 140,
+    "weight_decay": 0.0001
+  }
+}

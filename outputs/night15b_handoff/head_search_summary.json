@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "datasets": [
+    {
+      "dataset": "P22",
+      "wall_seconds": 87.40461779999896,
+      "lanes": [
+        {
+          "dataset": "P22",
+          "lane": "P22",
+          "status": "PASS",
+          "best_embedding_id": "MIX_F00_R02_LOCKED_mcdf_W0.50",
+          "best_head": "GMM_DIAG+REFINE_T0.50_S2",
+          "best_endpoint_seed": 0,
+          "best_absolute_ari": 0.520475386018739,
+          "best_absolute_nmi": 0.6523396202874471,
+          "best_ami": 0.6517471308210926,
+          "best_fmi": 0.5908913418260602,
+          "best_morans_i": 0.9010260724031267,
+          "best_gearys_c": 0.100586413756361,
+          "passed_run_count": 504
+        },
+        {
+          "dataset": "P22",
+          "lane": "P22_3DOT_K18",
+          "status": "PASS",
+          "best_embedding_id": "TOP15_LABEL_FREE_PARTITIONS",
+          "best_head": "ALIGNED_MAJORITY_CONSENSUS",
+          "best_endpoint_seed": "AGGREGATE",
+          "best_absolute_ari": 0.6877945220149917,
+          "best_absolute_nmi": 0.7163575552930698,
+          "best_ami": 0.7145275502796412,
+          "best_fmi": 0.7205319817599456,
+          "best_morans_i": 0.7418613975489072,
+          "best_gearys_c": 0.2604157853084972,
+          "passed_run_count": 504
+        }
+      ]
+    },
+    {
+      "dataset": "MISAR_E15_5_S1",
+      "wall_seconds": 47.96077140000125,
+      "lanes": [
+        {
+          "dataset": "MISAR_E15_5_S1",
+          "lane": "MISAR_E15_5_S1",
+          "status": "PASS",
+          "best_embedding_id": "TOP15_LABEL_FREE_PARTITIONS",
+          "best_head": "ALIGNED_MAJORITY_CONSENSUS",
+          "best_endpoint_seed": "AGGREGATE",
+          "best_absolute_ari": 0.4303463467536649,
+          "best_absolute_nmi": 0.5735988074737393,
+          "best_ami": 0.5712292926248291,
+          "best_fmi": 0.5479189260794533,
+          "best_morans_i": 0.8142787406260467,
+          "best_gearys_c": 0.2062972328884041,
+          "passed_run_count": 756
+        },
+        {
+          "dataset": "MISAR_E15_5_S1",
+          "lane": "MISAR_E15_5_S1_K12",
+          "status": "PASS",
+          "best_embedding_id": "TOP15_LABEL_FREE_PARTITIONS",
+          "best_head": "ALIGNED_MAJORITY_CONSENSUS",
+          "best_endpoint_seed": "AGGREGATE",
+          "best_absolute_ari": 0.3741617357587285,
+          "best_absolute_nmi": 0.5906093484988677,
+          "best_ami": 0.5870298856176819,
+          "best_fmi": 0.4940386738194823,
+          "best_morans_i": 0.8486199642661773,
+          "best_gearys_c": 0.1479157576304274,
+          "passed_run_count": 756
+        }
+      ]
+    },
+    {
+      "dataset": "A1",
+      "wall_seconds": 30.328172099994845,
+      "lanes": [
+        {
+          "dataset": "A1",
+          "lane": "A1",
+          "status": "PASS",
+          "best_embedding_id": "TOP15_LABEL_FREE_PARTITIONS",
+          "best_head": "ALIGNED_MAJORITY_CONSENSUS",
+          "best_endpoint_seed": "AGGREGATE",
+          "best_absolute_ari": 0.273021059361755,
+          "best_absolute_nmi": 0.4173676729225421,
+          "best_ami": 0.413562764281667,
+          "best_fmi": 0.414132972754862,
+          "best_morans_i": 0.5311233688014412,
+          "best_gearys_c": 0.47202541604752113,
+          "passed_run_count": 756
+        }
+      ]
+    },
+    {
+      "dataset": "tonsil_s1",
+      "wall_seconds": 23.562359500007005,
+      "lanes": [
+        {
+          "dataset": "tonsil_s1",
+          "lane": "tonsil_s1",
+          "status": "PASS",
+          "best_embedding_id": "R40_MCDF_MASKED_MODALITY_z2__PCA16",
+          "best_head": "GMM_TIED",
+          "best_endpoint_seed": 0,
+          "best_absolute_ari": 0.20794671327245837,
+          "best_absolute_nmi": 0.29692796064998944,
+          "best_ami": 0.2963090322074574,
+          "best_fmi": 0.4850370511068504,
+          "best_morans_i": 0.6896963427359472,
+          "best_gearys_c": 0.31032697454286096,
+          "passed_run_count": 756
+        }
+      ]
+    },
+    {
+      "dataset": "D1",
+      "wall_seconds": 17.71180990000721,
+      "lanes": [
+        {
+          "dataset": "D1",
+          "lane": "D1",
+          "status": "PASS",
+          "best_embedding_id": "simple__ID",
+          "best_head": "GMM_TIED",
+          "best_endpoint_seed": 0,
+          "best_absolute_ari": 0.24375661199391196,
+          "best_absolute_nmi": 0.38053362058865514,
+          "best_ami": 0.3764582984953247,
+          "best_fmi": 0.4051224601495466,
+          "best_morans_i": 0.4220315400769293,
+          "best_gearys_c": 0.5843729835776104,
+          "passed_run_count": 756
+        }
+      ]
+    },
+    {
+      "dataset": "tonsil_s2",
+      "wall_seconds": 12.918742199995904,
+      "lanes": [
+        {
+          "dataset": "tonsil_s2",
+          "lane": "tonsil_s2",
+          "status": "PASS",
+          "best_embedding_id": "simple__ID",
+          "best_head": "GMM_TIED+REFINE_T0.80_S3",
+          "best_endpoint_seed": 1,
+          "best_absolute_ari": 0.21300564360933447,
+          "best_absolute_nmi": 0.2545984907346012,
+          "best_ami": 0.2539431928016543,
+          "best_fmi": 0.5001198091734315,
+          "best_morans_i": 0.6756306766258559,
+          "best_gearys_c": 0.31966999515312405,
+          "passed_run_count": 756
+        }
+      ]
+    },
+    {
+      "dataset": "tonsil_s3",
+      "wall_seconds": 13.705991399998311,
+      "lanes": [
+        {
+          "dataset": "tonsil_s3",
+          "lane": "tonsil_s3",
+          "status": "PASS",
+          "best_embedding_id": "simple__ID",
+          "best_head": "KMEANS+REFINE_T0.90_S1",
+          "best_endpoint_seed": 0,
+          "best_absolute_ari": 0.118597181700377,
+          "best_absolute_nmi": 0.21417862791445538,
+          "best_ami": 0.21345826991519243,
+          "best_fmi": 0.4667474055283508,
+          "best_morans_i": 0.6856437935893036,
+          "best_gearys_c": 0.3183765921618757,
+          "passed_run_count": 756
+        }
+      ]
+    }
+  ],
+  "run_rows": 12377,
+  "wall_seconds": 235.011559999999,
+  "peak_rss_mib": null,
+  "gpu_seconds": 0.0,
+  "peak_gpu_mib": 0.0,
+  "labels_in_model_input": 0,
+  "labels_in_unsupervised_loss": 0,
+  "labels_used_for_cross_run_hpo": 1,
+  "dense_n_by_n_count": 0
+}

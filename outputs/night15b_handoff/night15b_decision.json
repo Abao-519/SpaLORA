@@ -1,0 +1,22 @@
+{
+  "GSE213264": "not scored because canonical label/mask/ID protocol did not close",
+  "classification": "ENGINEERING_SCORE_SIGNAL_NOT_NEW_METHOD_SIGNAL",
+  "cluster_aware_residual_local_signal": false,
+  "cross_dataset_method_signal": false,
+  "head_gain_lane_count_by_best_ari": 5,
+  "head_lane_count": 9,
+  "labels_in_model_input_loss_gradient_or_checkpoint_selection": 0,
+  "misar_k12_best_ari": 0.3741617357587285,
+  "misar_k7_best_ari": 0.4303463467536649,
+  "p22_k18_best_ari": 0.6877945220149917,
+  "p22_k18_best_nmi": 0.7163575552930698,
+  "p22_k9_best_ari": 0.520475386018739,
+  "paper_ready_or_sota_claim": false,
+  "plain_conclusion": "P22 K=18 的无标签 partition consensus 提高了绝对 ARI，但 SAPR 在 Windows 同端点回放中没有任何一个 lane 的 mean ARI 超过 retained teacher。",
+  "protein_head_ari_gain_count": 4,
+  "protein_head_lane_count": 5,
+  "public_benchmark_development_not_blind_confirmation": true,
+  "sapr_lane_count": 8,
+  "sapr_mean_ari_beats_retained_lane_count": 0,
+  "terminal_state": "HEAD_ONLY_SCORE_GAIN"
+}

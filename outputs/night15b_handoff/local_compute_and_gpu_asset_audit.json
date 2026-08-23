@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "local_compute_kit": {
+    "archive_downloaded_from_autodl": true,
+    "archive_bytes": 65886308,
+    "archive_sha256_remote_and_windows": "4739ff5c905646fc319647eedc7026a1794f76332398a314498a3f65ba4e5cb6",
+    "indexed_count": 16,
+    "actual_count": 16,
+    "kit_index_sha256": "5399a550bf60741ea2bd775aa072c39328b690fce5719940b2d5e45564af91c4",
+    "missing": 0,
+    "size_mismatch": 0,
+    "sha_mismatch": 0,
+    "extras": 0,
+    "compressed_under_2_gib": true,
+    "raw_fragments_included": 0,
+    "dense_n_by_n_included": 0
+  },
+  "gpu_assets": {
+    "archive_downloaded_from_autodl": true,
+    "archive_bytes": 80974023,
+    "archive_sha256_remote_and_windows": "3c641cabf7db876f220c2f7a89df732b68791e29ab21b1591a741224a989228e",
+    "checkpoint_embedding_exports": 41,
+    "strict_checkpoint_replay_passed": 41,
+    "windows_cpu_endpoint_rows": 123,
+    "windows_cpu_endpoint_replay_seconds": 17.1586679999891,
+    "windows_numpy_version": "2.5.2",
+    "windows_scikit_learn_version": "1.9.0",
+    "all_export_embedding_sha256_match": true
+  }
+}

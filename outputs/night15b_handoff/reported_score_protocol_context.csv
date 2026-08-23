@@ -1,0 +1,10 @@
+dataset,lane,source_method,reported_ari,reported_nmi,prediction_K,reference_cardinality,annotation_or_reference,mask_observations,direct_comparability,source
+MISAR_E15_5_S1,MISAR_K12,SEPAR,0.644,,12,7,public MISAR Y used by the paper,1949/1949,PROTOCOL_CONTEXT_EXACT_DATA_AND_K_BUT_EXTERNAL_PIPELINE,https://www.nature.com/articles/s42003-025-09340-w
+MISAR_E15_5_S1,MISAR_K12,SEPAR_RNA_ONLY,0.415,,12,7,public MISAR Y used by the paper,1949/1949,PROTOCOL_CONTEXT,https://www.nature.com/articles/s42003-025-09340-w
+MISAR_E15_5_S1,MISAR_K12,SEPAR_ATAC_ONLY,0.411,,12,7,public MISAR Y used by the paper,1949/1949,PROTOCOL_CONTEXT,https://www.nature.com/articles/s42003-025-09340-w
+P22,P22_K9,3d-OT,,,9,9,COSMOS/Allen-informed manual annotation,9196/9196,ARTICLE_TEXT_STATES_BEST_BUT_NUMERIC_VALUE_NOT_EXTRACTED,https://www.nature.com/articles/s41592-026-03034-9
+P22,P22_3DOT_K18,3d-OT_AUTHOR_ASSIGNMENT,,,18,18,author supplied 3d-OT assignment,9196/9196,NOT_INDEPENDENT_TRUTH_CONTEXT_ONLY,https://zenodo.org/records/15089427
+P22,P22_K9,NIGHT15A_RETAINED,0.569117,0.685131,9,9,project canonical ground truth,9196/9196,INTERNAL_EXACT,night15a_report.md
+P22,P22_3DOT_K18,NIGHT15A_LOCKED_C15_W02,0.612177,0.723330,18,18,author supplied 3d-OT assignment,9196/9196,INTERNAL_CONTEXT_NOT_INDEPENDENT_TRUTH,night15a_report.md
+MISAR_E15_5_S1,MISAR_K7,NIGHT15A_RETAINED,0.514339,0.601181,7,7,public MISAR Y,1949/1949,INTERNAL_EXACT,night15a_report.md
+MISAR_E15_5_S1,MISAR_K12,NIGHT14B_RETAINED,0.414300,0.532900,12,7,public MISAR Y,1949/1949,INTERNAL_EXACT,night15a_report.md

@@ -1,0 +1,39 @@
+{
+  "schema": "night15b_head_search_registry_v1",
+  "label_policy": {
+    "labels_in_embedding_transform": false,
+    "labels_in_cluster_fit": false,
+    "labels_used_for_cross_run_hpo_and_evaluation": true
+  },
+  "embedding_transforms": {
+    "pca_dimensions": [16, 32, 64],
+    "whiten_dimensions": [32],
+    "sparse_operators": ["P4", "P18"],
+    "one_step_beta": [0.35],
+    "two_step_beta": [0.65],
+    "coordinate_basis_weights": [0.2, 0.8],
+    "registered_pair_mix_weights": [0.5]
+  },
+  "coarse": {
+    "endpoint_seeds": [0, 1],
+    "kmeans_n_init": 5,
+    "refinement_thresholds": [0.5, 0.65, 0.8],
+    "refinement_steps": [1, 2, 3]
+  },
+  "fine": {
+    "retained_structurally_distinct_embeddings": 6,
+    "endpoint_seeds": [0, 1, 2],
+    "heads": ["KMEANS", "GMM_DIAG", "GMM_TIED only when N<=5000"],
+    "kmeans_n_init": 30,
+    "gmm_n_init": 1,
+    "gmm_max_iter": 120,
+    "refinement_thresholds": [0.5, 0.6, 0.7, 0.8, 0.9],
+    "refinement_steps": [1, 2, 3, 5]
+  },
+  "aggregation": {
+    "candidate_count": 15,
+    "partition_id_alignment": "Hungarian maximum overlap",
+    "methods": ["pairwise-ARI medoid", "aligned majority consensus"]
+  },
+  "external_embedding_policy": "3DOT_CONTEXT embeddings are retained for protocol replay but excluded from own-method candidate generation"
+}
