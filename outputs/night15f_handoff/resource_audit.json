@@ -1,0 +1,22 @@
+{
+  "status": "PASS_WITH_EXPLICIT_MEASUREMENT_LIMIT",
+  "execution_location": "Windows local compute kit; CPU only",
+  "candidate_rows": 5415,
+  "failed_candidate_rows": 0,
+  "recorded_candidate_compute_seconds_sum": 895.118072799989,
+  "representative_arena_seconds_sum": 124.14703190008004,
+  "all9_arena_seconds_sum": 600.6873301999731,
+  "conservative_refine_seconds_sum": 170.2837106999359,
+  "frozen_replay_count": 2,
+  "frozen_replay_lanes_each": 9,
+  "gpu_time_seconds": 0,
+  "peak_gpu_mib": 0,
+  "peak_rss": "NOT_INSTRUMENTED",
+  "host_ram_gib": 15.19,
+  "dense_n_by_n_count": 0,
+  "night15f_local_work_file_count_before_delivery": 74,
+  "night15f_local_work_bytes_before_delivery": 32991778,
+  "autodl_used_for_scientific_search": false,
+  "shutdown_dispatched": false,
+  "instance_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}

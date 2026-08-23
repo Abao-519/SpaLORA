@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests_passed": 7,
+  "tests_failed": 0,
+  "framework": "python unittest",
+  "coverage": [
+    "core AST dataset/reference-metric identity firewall",
+    "random arbitrary sparse n<=8 alpha-move exhaustive optimum",
+    "float-energy non-increase acceptance guard",
+    "explicit rejected-mass current-state stay unary and cycle refresh",
+    "per-frozen-cycle energy ledger monotonicity",
+    "matched single-site deterministic monotone solver",
+    "continuous nonnegative graph-scale simplex"
+  ],
+  "command": "python -m unittest discover -s tests/night15f -v"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "candidate_rows_total": 5415,
+  "candidate_rows_failed": 0,
+  "scientific_negative_or_nonselected_rows_retained": 5406,
+  "primary_limitations": [
+    "All balanced ceiling configurations were selected by per-lane public-label cross-run HPO; this is not blind or automatically deployable selection.",
+    "D1 retains a singleton cluster with sizes [44,246,227,210,1,479,140,822,145,1045].",
+    "Alpha expansion has an independent matched advantage over single-site descent on five of nine lanes and ties on four; it is not universally beneficial.",
+    "On tonsil s3, pairwise-zero with stay cost is slightly better than the frozen full result, so an explicit pairwise term is not supported in every lane.",
+    "The tonsil s3 size prior explains a material part of the gain, although the no-size-prior ablation still exceeds Night-15E on both metrics.",
+    "Only within-cycle frozen-unary monotonic descent is established; dynamic unary refresh means there is no claimed single global energy monotonicity across cycles.",
+    "Peak RSS was not instrumented for the exploratory Windows CPU search; no GPU was used."
+  ],
+  "blind_evaluation_claimed": false,
+  "sota_claimed": false,
+  "confirmed_milestone_claimed": false,
+  "paper_ready_claimed": false,
+  "shutdown_dispatched": false,
+  "instance_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}

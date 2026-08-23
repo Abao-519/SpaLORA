@@ -1,0 +1,5 @@
+timestamp_stage,issue,correction,scientific_outputs_invalidated
+P0_CORE,"initial pairwise implementation reported rejected mass but did not place it in the energy","added an explicit continuously weighted current-state stay unary refreshed at every outer cycle; completed exhaustive sparse alpha-move P0 before label HPO",0
+P0_TEST,"single-site ablation used a generic variable named label and tripped the AST identity firewall","renamed the internal cluster-loop variable; no formula or partition changed",0
+TARGETED_REFINE,"conservative refinement iterator omitted dict.items() and stopped before producing candidate rows","fixed iterator and reran D1/tonsil s1 from the beginning",0
+POST_SEARCH_SEMANTICS,"first-cycle start and last-cycle end energy were named as if comparable across dynamic unary refreshes","replaced them with an explicit per-cycle ledger and asserted end<=start within each frozen-unary cycle; final freeze and both replays used corrected source",0

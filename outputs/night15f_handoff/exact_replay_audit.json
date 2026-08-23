@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "lane_count": 9,
+  "lane_audit": {
+    "A1": {
+      "partition_sha_replay1": "db0f4674c544bb996d45d3123f4d1a4813a2eccff1def238145d9712e55fc86f",
+      "partition_sha_replay2": "db0f4674c544bb996d45d3123f4d1a4813a2eccff1def238145d9712e55fc86f",
+      "partition_sha_frozen": "db0f4674c544bb996d45d3123f4d1a4813a2eccff1def238145d9712e55fc86f",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 2,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "D1": {
+      "partition_sha_replay1": "4132938ac33f63c38dea8c8681b7ca1f0863168a8c26b12a7e6f8a11091fcbd1",
+      "partition_sha_replay2": "4132938ac33f63c38dea8c8681b7ca1f0863168a8c26b12a7e6f8a11091fcbd1",
+      "partition_sha_frozen": "4132938ac33f63c38dea8c8681b7ca1f0863168a8c26b12a7e6f8a11091fcbd1",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 1,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "MISAR_E15_5_S1": {
+      "partition_sha_replay1": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+      "partition_sha_replay2": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+      "partition_sha_frozen": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 1,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "MISAR_E15_5_S1_K12": {
+      "partition_sha_replay1": "b101f14c516a9b304bc93e4205199cbe6078389a72c4a9dbf173c2d254d29d4f",
+      "partition_sha_replay2": "b101f14c516a9b304bc93e4205199cbe6078389a72c4a9dbf173c2d254d29d4f",
+      "partition_sha_frozen": "b101f14c516a9b304bc93e4205199cbe6078389a72c4a9dbf173c2d254d29d4f",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 2,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "P22": {
+      "partition_sha_replay1": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+      "partition_sha_replay2": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+      "partition_sha_frozen": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 1,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "P22_3DOT_K18": {
+      "partition_sha_replay1": "9dd5ba3ffc79ecada004655bb79d663c7b3f1494e81635762f21f8f99887f447",
+      "partition_sha_replay2": "9dd5ba3ffc79ecada004655bb79d663c7b3f1494e81635762f21f8f99887f447",
+      "partition_sha_frozen": "9dd5ba3ffc79ecada004655bb79d663c7b3f1494e81635762f21f8f99887f447",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 1,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "tonsil_s1": {
+      "partition_sha_replay1": "57f469992e9ff6bd56bc97efb7e40cdee70f323f8b0624551a668d50fc1c28eb",
+      "partition_sha_replay2": "57f469992e9ff6bd56bc97efb7e40cdee70f323f8b0624551a668d50fc1c28eb",
+      "partition_sha_frozen": "57f469992e9ff6bd56bc97efb7e40cdee70f323f8b0624551a668d50fc1c28eb",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 1,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "tonsil_s2": {
+      "partition_sha_replay1": "75f13757ca7105bca3955b58ac4223f2e40a22a08ba146c796dbc3ad12aa2061",
+      "partition_sha_replay2": "75f13757ca7105bca3955b58ac4223f2e40a22a08ba146c796dbc3ad12aa2061",
+      "partition_sha_frozen": "75f13757ca7105bca3955b58ac4223f2e40a22a08ba146c796dbc3ad12aa2061",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 2,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    },
+    "tonsil_s3": {
+      "partition_sha_replay1": "8efceacf38e8e606759809702d7e3419d66af3bf9af417e99cc4df55c0c9b5be",
+      "partition_sha_replay2": "8efceacf38e8e606759809702d7e3419d66af3bf9af417e99cc4df55c0c9b5be",
+      "partition_sha_frozen": "8efceacf38e8e606759809702d7e3419d66af3bf9af417e99cc4df55c0c9b5be",
+      "partition_exact_3way": true,
+      "ari_exact_3way": true,
+      "nmi_exact_3way": true,
+      "cluster_sizes_exact": true,
+      "cycle_count": 3,
+      "each_frozen_cycle_monotone": true,
+      "cross_dynamic_cycle_global_monotonicity_claimed": false
+    }
+  },
+  "core_sha256": "06ee2ed0585d5fcd0917376306cca8ce8afddda8d1fc434730cd96db6c2d2b26",
+  "runner_sha256": "dfdeb10af4f5b59812b9f1228f62337ab471eb04b1da084e51ba565070df7702",
+  "replay1_sha256": "0a53749a405e6abe6f61af30ce91ab0fb14cf81cf3e429bc8b2d221f03ee93a0",
+  "replay2_sha256": "6381fb97a254cadcb8199fb68273f0d0e2993556a283d9d12e1b649fc4ca755c",
+  "source_mtime_precedes_both_replays": true,
+  "labels_in_energy_unary_or_edge": 0,
+  "dataset_name_reads_in_energy_core": 0,
+  "dense_n_by_n_count": 0
+}

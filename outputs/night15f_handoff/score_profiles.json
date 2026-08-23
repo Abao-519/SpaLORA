@@ -1,0 +1,542 @@
+{
+  "status": "PASS",
+  "profiles": {
+    "BALANCED_DUAL_PRIORITY": {
+      "A1": {
+        "config_id": "A1__R0001_88b80c2c64a287",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\probe\\representative_v1\\all_run_ledger.csv",
+        "absolute_ari": 0.2755428271577712,
+        "absolute_nmi": 0.42013792563053437,
+        "delta_ari": 0.00025002790128775265,
+        "delta_nmi": 0.0002301688287408843,
+        "partition_sha256": "db0f4674c544bb996d45d3123f4d1a4813a2eccff1def238145d9712e55fc86f",
+        "cluster_sizes": [
+          275,
+          775,
+          575,
+          181,
+          311,
+          793,
+          159,
+          109,
+          121,
+          185
+        ]
+      },
+      "D1": {
+        "config_id": "C0786_20cd2f75f666fe",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\conservative_d1_s1\\all_run_ledger.csv",
+        "absolute_ari": 0.2550435099549912,
+        "absolute_nmi": 0.38935554180334414,
+        "delta_ari": 0.0003855448397128147,
+        "delta_nmi": 0.0003110596117279485,
+        "partition_sha256": "4132938ac33f63c38dea8c8681b7ca1f0863168a8c26b12a7e6f8a11091fcbd1",
+        "cluster_sizes": [
+          44,
+          246,
+          227,
+          210,
+          1,
+          479,
+          140,
+          822,
+          145,
+          1045
+        ]
+      },
+      "MISAR_E15_5_S1": {
+        "config_id": "MISAR_E15_5_S1__R0069_b2a34f991f3127",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.5414237853091904,
+        "absolute_nmi": 0.6667977615565593,
+        "delta_ari": 0.0004919712786954911,
+        "delta_nmi": 0.00018084268709861462,
+        "partition_sha256": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+        "cluster_sizes": [
+          295,
+          438,
+          178,
+          267,
+          355,
+          291,
+          125
+        ]
+      },
+      "MISAR_E15_5_S1_K12": {
+        "config_id": "MISAR_E15_5_S1_K12__R0083_d00538d044cf18",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.45317629302756757,
+        "absolute_nmi": 0.5986289047196983,
+        "delta_ari": 0.0008092438702302363,
+        "delta_nmi": 0.0009213693431394665,
+        "partition_sha256": "b101f14c516a9b304bc93e4205199cbe6078389a72c4a9dbf173c2d254d29d4f",
+        "cluster_sizes": [
+          281,
+          64,
+          478,
+          135,
+          42,
+          147,
+          143,
+          108,
+          63,
+          242,
+          68,
+          178
+        ]
+      },
+      "P22": {
+        "config_id": "P22__R0071_d60a73221abf6c",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.5939121542899773,
+        "absolute_nmi": 0.7142428513607495,
+        "delta_ari": 0.004721124504573737,
+        "delta_nmi": 0.0042009665798052875,
+        "partition_sha256": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+        "cluster_sizes": [
+          1147,
+          620,
+          1490,
+          793,
+          1033,
+          1519,
+          614,
+          1814,
+          166
+        ]
+      },
+      "P22_3DOT_K18": {
+        "config_id": "P22_3DOT_K18__R0001_3fedba6af5ec01",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.7396852743147485,
+        "absolute_nmi": 0.7542182135683022,
+        "delta_ari": 0.011378484639702702,
+        "delta_nmi": 0.004103834988195998,
+        "partition_sha256": "9dd5ba3ffc79ecada004655bb79d663c7b3f1494e81635762f21f8f99887f447",
+        "cluster_sizes": [
+          764,
+          2276,
+          1013,
+          578,
+          624,
+          593,
+          591,
+          174,
+          45,
+          23,
+          451,
+          143,
+          356,
+          142,
+          26,
+          431,
+          680,
+          286
+        ]
+      },
+      "tonsil_s1": {
+        "config_id": "C0774_b295b03a8ad031",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\conservative_d1_s1\\all_run_ledger.csv",
+        "absolute_ari": 0.23622005623915696,
+        "absolute_nmi": 0.3168843080420388,
+        "delta_ari": 0.0023954756820490364,
+        "delta_nmi": 0.0026140561581248223,
+        "partition_sha256": "57f469992e9ff6bd56bc97efb7e40cdee70f323f8b0624551a668d50fc1c28eb",
+        "cluster_sizes": [
+          478,
+          1300,
+          1142,
+          1406
+        ]
+      },
+      "tonsil_s2": {
+        "config_id": "tonsil_s2__R0091_ec7e54697c6341",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.2575602926237894,
+        "absolute_nmi": 0.31187103018718415,
+        "delta_ari": 0.00276236450938655,
+        "delta_nmi": 0.006618644117209471,
+        "partition_sha256": "75f13757ca7105bca3955b58ac4223f2e40a22a08ba146c796dbc3ad12aa2061",
+        "cluster_sizes": [
+          1012,
+          1395,
+          443,
+          1669
+        ]
+      },
+      "tonsil_s3": {
+        "config_id": "tonsil_s3__R0097_10f4f559c47388",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.3411070575102403,
+        "absolute_nmi": 0.3009661088533847,
+        "delta_ari": 0.01279650747115263,
+        "delta_nmi": 0.01144175540254222,
+        "partition_sha256": "8efceacf38e8e606759809702d7e3419d66af3bf9af417e99cc4df55c0c9b5be",
+        "cluster_sizes": [
+          2508,
+          567,
+          1169,
+          277
+        ]
+      }
+    },
+    "MAX_ARI": {
+      "A1": {
+        "config_id": "A1__R0035_c390a1c1e484d3",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.2760038163220935,
+        "absolute_nmi": 0.41925581232313475,
+        "delta_ari": 0.0007110170656100534,
+        "delta_nmi": -0.0006519444786587392,
+        "partition_sha256": "a24210365648cf36dfc7a5b95139d93e2f3fb2ed04278ba25b631d24ae6f6c1d",
+        "cluster_sizes": [
+          272,
+          772,
+          579,
+          181,
+          311,
+          793,
+          159,
+          109,
+          121,
+          187
+        ]
+      },
+      "D1": {
+        "config_id": "R0096_0237d2a1699de2",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.2675160629895056,
+        "absolute_nmi": 0.3810415026228959,
+        "delta_ari": 0.012858097874227203,
+        "delta_nmi": -0.008002979568720314,
+        "partition_sha256": "48ed70d42a69d7d144294404798204dd266d605c436fc085700daaf1ca837cd8",
+        "cluster_sizes": [
+          44,
+          246,
+          227,
+          210,
+          1,
+          480,
+          140,
+          1676,
+          145,
+          190
+        ]
+      },
+      "MISAR_E15_5_S1": {
+        "config_id": "MISAR_E15_5_S1__R0069_b2a34f991f3127",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.5414237853091904,
+        "absolute_nmi": 0.6667977615565593,
+        "delta_ari": 0.0004919712786954911,
+        "delta_nmi": 0.00018084268709861462,
+        "partition_sha256": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+        "cluster_sizes": [
+          295,
+          438,
+          178,
+          267,
+          355,
+          291,
+          125
+        ]
+      },
+      "MISAR_E15_5_S1_K12": {
+        "config_id": "MISAR_E15_5_S1_K12__R0067_b91dc43455bf4a",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.45740792537152625,
+        "absolute_nmi": 0.595853588308275,
+        "delta_ari": 0.005040876214188916,
+        "delta_nmi": -0.001853947068283901,
+        "partition_sha256": "e3e0b04654c27fb421c0ceccfe7cca7bc3bf42c80de96a33c1164641af856b59",
+        "cluster_sizes": [
+          256,
+          57,
+          475,
+          140,
+          45,
+          147,
+          145,
+          108,
+          65,
+          268,
+          68,
+          175
+        ]
+      },
+      "P22": {
+        "config_id": "P22__R0071_d60a73221abf6c",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.5939121542899773,
+        "absolute_nmi": 0.7142428513607495,
+        "delta_ari": 0.004721124504573737,
+        "delta_nmi": 0.0042009665798052875,
+        "partition_sha256": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+        "cluster_sizes": [
+          1147,
+          620,
+          1490,
+          793,
+          1033,
+          1519,
+          614,
+          1814,
+          166
+        ]
+      },
+      "P22_3DOT_K18": {
+        "config_id": "P22_3DOT_K18__R0001_3fedba6af5ec01",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.7396852743147485,
+        "absolute_nmi": 0.7542182135683022,
+        "delta_ari": 0.011378484639702702,
+        "delta_nmi": 0.004103834988195998,
+        "partition_sha256": "9dd5ba3ffc79ecada004655bb79d663c7b3f1494e81635762f21f8f99887f447",
+        "cluster_sizes": [
+          764,
+          2276,
+          1013,
+          578,
+          624,
+          593,
+          591,
+          174,
+          45,
+          23,
+          451,
+          143,
+          356,
+          142,
+          26,
+          431,
+          680,
+          286
+        ]
+      },
+      "tonsil_s1": {
+        "config_id": "C0774_b295b03a8ad031",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\conservative_d1_s1\\all_run_ledger.csv",
+        "absolute_ari": 0.23622005623915696,
+        "absolute_nmi": 0.3168843080420388,
+        "delta_ari": 0.0023954756820490364,
+        "delta_nmi": 0.0026140561581248223,
+        "partition_sha256": "57f469992e9ff6bd56bc97efb7e40cdee70f323f8b0624551a668d50fc1c28eb",
+        "cluster_sizes": [
+          478,
+          1300,
+          1142,
+          1406
+        ]
+      },
+      "tonsil_s2": {
+        "config_id": "tonsil_s2__R0091_ec7e54697c6341",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.2575602926237894,
+        "absolute_nmi": 0.31187103018718415,
+        "delta_ari": 0.00276236450938655,
+        "delta_nmi": 0.006618644117209471,
+        "partition_sha256": "75f13757ca7105bca3955b58ac4223f2e40a22a08ba146c796dbc3ad12aa2061",
+        "cluster_sizes": [
+          1012,
+          1395,
+          443,
+          1669
+        ]
+      },
+      "tonsil_s3": {
+        "config_id": "tonsil_s3__R0083_4b10a8d3b76ffb",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.3428062667750345,
+        "absolute_nmi": 0.30050421083100115,
+        "delta_ari": 0.01449571673594685,
+        "delta_nmi": 0.010979857380158664,
+        "partition_sha256": "ce315e71dc02fc70d8805c489a3173e28e23df93ac85bd2d4c34ab8e66a1cb13",
+        "cluster_sizes": [
+          2467,
+          574,
+          1174,
+          306
+        ]
+      }
+    },
+    "MAX_NMI": {
+      "A1": {
+        "config_id": "R0035_f5239cdd68cdd2",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\probe\\representative_v1\\all_run_ledger.csv",
+        "absolute_ari": 0.27478477385754324,
+        "absolute_nmi": 0.42035477061482424,
+        "delta_ari": -0.0005080253989401817,
+        "delta_nmi": 0.00044701381303074994,
+        "partition_sha256": "efe81a712f120b51e5426918b4e72eb50feb56c892ccd0a7edc472a5f6324c94",
+        "cluster_sizes": [
+          274,
+          758,
+          575,
+          181,
+          309,
+          787,
+          175,
+          115,
+          124,
+          186
+        ]
+      },
+      "D1": {
+        "config_id": "R0091_74a2a3f17e81ac",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.25463318484207476,
+        "absolute_nmi": 0.38943884383394656,
+        "delta_ari": -2.478027320362841e-05,
+        "delta_nmi": 0.0003943616423303653,
+        "partition_sha256": "c5628c19eba3d39a76e0ce6c2e2657559aae57b65f2afcee6f56dec948e01365",
+        "cluster_sizes": [
+          44,
+          246,
+          227,
+          210,
+          1,
+          478,
+          140,
+          821,
+          145,
+          1047
+        ]
+      },
+      "MISAR_E15_5_S1": {
+        "config_id": "R0006_6f05df767d813a",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.540384885839216,
+        "absolute_nmi": 0.6678024281449819,
+        "delta_ari": -0.0005469281912789947,
+        "delta_nmi": 0.0011855092755211905,
+        "partition_sha256": "5b9ac8ca46ece096914edd1ee254b16099fa2a9e173fdfadce1188f81f16a1c4",
+        "cluster_sizes": [
+          297,
+          438,
+          178,
+          265,
+          354,
+          290,
+          127
+        ]
+      },
+      "MISAR_E15_5_S1_K12": {
+        "config_id": "MISAR_E15_5_S1_K12__R0083_d00538d044cf18",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.45317629302756757,
+        "absolute_nmi": 0.5986289047196983,
+        "delta_ari": 0.0008092438702302363,
+        "delta_nmi": 0.0009213693431394665,
+        "partition_sha256": "b101f14c516a9b304bc93e4205199cbe6078389a72c4a9dbf173c2d254d29d4f",
+        "cluster_sizes": [
+          281,
+          64,
+          478,
+          135,
+          42,
+          147,
+          143,
+          108,
+          63,
+          242,
+          68,
+          178
+        ]
+      },
+      "P22": {
+        "config_id": "P22__R0071_d60a73221abf6c",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.5939121542899773,
+        "absolute_nmi": 0.7142428513607495,
+        "delta_ari": 0.004721124504573737,
+        "delta_nmi": 0.0042009665798052875,
+        "partition_sha256": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+        "cluster_sizes": [
+          1147,
+          620,
+          1490,
+          793,
+          1033,
+          1519,
+          614,
+          1814,
+          166
+        ]
+      },
+      "P22_3DOT_K18": {
+        "config_id": "P22_3DOT_K18__R0001_3fedba6af5ec01",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.7396852743147485,
+        "absolute_nmi": 0.7542182135683022,
+        "delta_ari": 0.011378484639702702,
+        "delta_nmi": 0.004103834988195998,
+        "partition_sha256": "9dd5ba3ffc79ecada004655bb79d663c7b3f1494e81635762f21f8f99887f447",
+        "cluster_sizes": [
+          764,
+          2276,
+          1013,
+          578,
+          624,
+          593,
+          591,
+          174,
+          45,
+          23,
+          451,
+          143,
+          356,
+          142,
+          26,
+          431,
+          680,
+          286
+        ]
+      },
+      "tonsil_s1": {
+        "config_id": "C0774_b295b03a8ad031",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\conservative_d1_s1\\all_run_ledger.csv",
+        "absolute_ari": 0.23622005623915696,
+        "absolute_nmi": 0.3168843080420388,
+        "delta_ari": 0.0023954756820490364,
+        "delta_nmi": 0.0026140561581248223,
+        "partition_sha256": "57f469992e9ff6bd56bc97efb7e40cdee70f323f8b0624551a668d50fc1c28eb",
+        "cluster_sizes": [
+          478,
+          1300,
+          1142,
+          1406
+        ]
+      },
+      "tonsil_s2": {
+        "config_id": "tonsil_s2__R0091_ec7e54697c6341",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.2575602926237894,
+        "absolute_nmi": 0.31187103018718415,
+        "delta_ari": 0.00276236450938655,
+        "delta_nmi": 0.006618644117209471,
+        "partition_sha256": "75f13757ca7105bca3955b58ac4223f2e40a22a08ba146c796dbc3ad12aa2061",
+        "cluster_sizes": [
+          1012,
+          1395,
+          443,
+          1669
+        ]
+      },
+      "tonsil_s3": {
+        "config_id": "tonsil_s3__R0097_10f4f559c47388",
+        "source_ledger": "D:\\文档\\ChatGPT\\博士第一篇科研论文项目\\night15f_local_work\\working\\search\\all9_v2\\all_run_ledger.csv",
+        "absolute_ari": 0.3411070575102403,
+        "absolute_nmi": 0.3009661088533847,
+        "delta_ari": 0.01279650747115263,
+        "delta_nmi": 0.01144175540254222,
+        "partition_sha256": "8efceacf38e8e606759809702d7e3419d66af3bf9af417e99cc4df55c0c9b5be",
+        "cluster_sizes": [
+          2508,
+          567,
+          1169,
+          277
+        ]
+      }
+    }
+  }
+}

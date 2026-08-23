@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "public_reference_labels_used_for_known_k_hpo_and_evaluation": 1,
+  "labels_used_as_model_or_energy_input": 0,
+  "labels_used_in_unary": 0,
+  "labels_used_in_pairwise_edge": 0,
+  "labels_used_in_solver_move_acceptance": 0,
+  "dataset_or_study_name_reads_in_energy_core": 0,
+  "per_lane_numeric_hpo": 1,
+  "automatic_or_blind_selection_claimed": false,
+  "common_core_formula_across_rna_protein_and_rna_atac": true,
+  "dense_n_by_n_count": 0,
+  "interpretation": "known-K public benchmark development ceiling selected across runs; not a blind or zero-label deployment result"
+}
