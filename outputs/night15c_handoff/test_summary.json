@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "targeted_tests_passed": 10,
+  "targeted_tests_failed": 0,
+  "command": "python -m pytest -q tests/test_night15c_cluster_energy.py",
+  "coverage_targets": [
+    "unary_and_pairwise algebra",
+    "K cardinality guard",
+    "zero-step exact no-op",
+    "sparse deterministic conductance",
+    "either/both edge ordering",
+    "full-SVD byte determinism",
+    "dataset/label-free model-core signature",
+    "label-free sparse ensemble unary",
+    "sparse spectral and pseudo-Fisher shapes",
+    "floating-point no-op delta classification tolerance"
+  ]
+}

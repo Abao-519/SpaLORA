@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "completed_ledger_rows": 68798,
+  "fresh_process_rows": 18,
+  "local_cpu_wall_seconds_sum": 1745.7734749000228,
+  "peak_rss_mib": 204.12890625,
+  "gpu_seconds": 0.0,
+  "peak_gpu_mib": 0.0,
+  "new_data_downloads": 0,
+  "dense_n_by_n_count": 0,
+  "autodl_gpu_learner_run_count": 0,
+  "gpu_learner_decision": "SKIPPED_DETERMINISTIC_CORE_ALREADY_HAD_MATCHED_HEAD_SIGNAL",
+  "run_summaries": [
+    {
+      "run": "smoke_dynamic_p22_attempt2",
+      "wall_seconds": 80.20463540000492,
+      "peak_rss_mib": 163.5546875,
+      "rows": 1568
+    },
+    {
+      "run": "smoke_dynamic_representative_rest",
+      "wall_seconds": 91.5587291999982,
+      "peak_rss_mib": 171.484375,
+      "rows": 5232
+    },
+    {
+      "run": "priority_audit_tonsil_s3",
+      "wall_seconds": 29.187137999993865,
+      "peak_rss_mib": 160.71484375,
+      "rows": 1740
+    },
+    {
+      "run": "family_smoke_representative",
+      "wall_seconds": 13.217102000009618,
+      "peak_rss_mib": 152.609375,
+      "rows": 604
+    },
+    {
+      "run": "post_patch_smoke",
+      "wall_seconds": 81.48395140000503,
+      "peak_rss_mib": 156.23828125,
+      "rows": 1760
+    },
+    {
+      "run": "dynamic_all_randomized_thread8",
+      "wall_seconds": 755.4462305000052,
+      "peak_rss_mib": 204.12890625,
+      "rows": 27213
+    },
+    {
+      "run": "dynamic_all_full_thread1",
+      "wall_seconds": 630.4507065000071,
+      "peak_rss_mib": 201.2109375,
+      "rows": 27213
+    },
+    {
+      "run": "dynamic_tonsil_s3_nopca_thread1",
+      "wall_seconds": 64.22498189999897,
+      "peak_rss_mib": 158.34765625,
+      "rows": 3468
+    }
+  ]
+}

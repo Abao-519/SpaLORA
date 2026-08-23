@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "pairs_passed": 9,
+  "pairs_expected": 9,
+  "fresh_process_rows": 18,
+  "byte_exact_partition_pairs": 9,
+  "metric_exact_pairs": 9,
+  "pairs": {
+    "P22": {
+      "status": "PASS",
+      "partition_sha256": "28ee49f10493b3b17cf814b44e1584e07c5a7c903293023c697dd6c979b3fc06",
+      "metric_exact": true,
+      "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "total_observations": 9196,
+      "evaluated_observations": 9196,
+      "cluster_sizes": [
+        1169,
+        645,
+        1429,
+        824,
+        1027,
+        1520,
+        631,
+        1815,
+        136
+      ]
+    },
+    "P22_3DOT_K18": {
+      "status": "PASS",
+      "partition_sha256": "c7232c64ad168c8d7cd2a2ece287a0ad7f5c15d42d9ca9c2a8a09499047c79f8",
+      "metric_exact": true,
+      "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+      "total_observations": 9196,
+      "evaluated_observations": 9196,
+      "cluster_sizes": [
+        626,
+        2289,
+        937,
+        642,
+        778,
+        577,
+        576,
+        229,
+        41,
+        32,
+        415,
+        162,
+        309,
+        139,
+        161,
+        433,
+        566,
+        284
+      ]
+    },
+    "MISAR_E15_5_S1": {
+      "status": "PASS",
+      "partition_sha256": "f79bbf1e43bd2908184926494c78c1a326810443a3aef773dad398ee114d13cd",
+      "metric_exact": true,
+      "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "total_observations": 1949,
+      "evaluated_observations": 1949,
+      "cluster_sizes": [
+        294,
+        438,
+        181,
+        263,
+        347,
+        309,
+        117
+      ]
+    },
+    "MISAR_E15_5_S1_K12": {
+      "status": "PASS",
+      "partition_sha256": "d147e7c4b7c018a07a654fa7d5b98c1ef86aca5599075b56da134007020f29e0",
+      "metric_exact": true,
+      "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+      "total_observations": 1949,
+      "evaluated_observations": 1949,
+      "cluster_sizes": [
+        300,
+        72,
+        479,
+        134,
+        42,
+        146,
+        139,
+        95,
+        57,
+        248,
+        69,
+        168
+      ]
+    },
+    "tonsil_s1": {
+      "status": "PASS",
+      "partition_sha256": "0edbb940739812a97fb3825ed6cbff570e7ca35aabda25ea5655fbca7676505e",
+      "metric_exact": true,
+      "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+      "total_observations": 4326,
+      "evaluated_observations": 4326,
+      "cluster_sizes": [
+        481,
+        1289,
+        1183,
+        1373
+      ]
+    },
+    "tonsil_s2": {
+      "status": "PASS",
+      "partition_sha256": "63c3c5a082e37c72b8e7a3bc99dbd01814b8af4895267ad57a77bcfdb64c1779",
+      "metric_exact": true,
+      "ordered_id_sha256": "a5e06f660ef432696b1e4ee3573d3b7b4843ced9a4e0505485f5ec008f3a39c5",
+      "total_observations": 4519,
+      "evaluated_observations": 4518,
+      "cluster_sizes": [
+        1029,
+        1364,
+        455,
+        1671
+      ]
+    },
+    "tonsil_s3": {
+      "status": "PASS",
+      "partition_sha256": "0b7489cab7114ee98f03c3946aa1d69b20fdbb939fda732859aa43153a06d9b9",
+      "metric_exact": true,
+      "ordered_id_sha256": "8c1a0339e72f5fa6067f7fe9135ea490b5574a198212ced689c50910935e535b",
+      "total_observations": 4521,
+      "evaluated_observations": 4460,
+      "cluster_sizes": [
+        2604,
+        559,
+        1165,
+        193
+      ]
+    },
+    "A1": {
+      "status": "PASS",
+      "partition_sha256": "4ac70f4456d6f08894ade01465028163bc6ba898df1dcec6e860eac04f2dfdfd",
+      "metric_exact": true,
+      "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+      "total_observations": 3484,
+      "evaluated_observations": 3484,
+      "cluster_sizes": [
+        272,
+        773,
+        579,
+        182,
+        307,
+        796,
+        159,
+        108,
+        121,
+        187
+      ]
+    },
+    "D1": {
+      "status": "PASS",
+      "partition_sha256": "cb962b3dbb5423cf3afeb36d495ad0852ac9d8d7182e89b0169949445d86f5c5",
+      "metric_exact": true,
+      "ordered_id_sha256": "ee9d54caeaf34a3d0f4029b7eb1b5708652a27d588c7147f14bbf6b5ea29df15",
+      "total_observations": 3359,
+      "evaluated_observations": 3359,
+      "cluster_sizes": [
+        25,
+        239,
+        227,
+        187,
+        1,
+        443,
+        126,
+        848,
+        162,
+        1101
+      ]
+    }
+  }
+}

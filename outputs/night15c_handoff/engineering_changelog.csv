@@ -1,0 +1,6 @@
+attempt,status,reason,action
+smoke_dynamic_p22,FAILED_ENGINEERING,missing reduced import before the first row,import fixed; targeted test and full affected lane rerun
+priority_audit_tonsil_s3,INCOMPLETE_SEMANTIC_COVERAGE,did not include selected medoid exact probe init,retained; replaced by exact single-point audit
+priority_audit_tonsil_s3_all_initials,ABORTED_SCOPE_CORRECTION,Worker2 clarified exact init before rows completed,retained; exact medoid replay used
+dynamic_all_nopca_thread1,ABORTED_RESOURCE_REALLOCATION,operator interrupt before first lane file; concurrent no-PCA grid slowed full-SVD; not a crash,no global rerun; required no-PCA controls and focused s3 grid completed
+handoff_delta_classification,FIXED_ENGINEERING,D1 no-op residue 5.55e-17 was initially classified as a dual gain,explicit 1e-10 tolerance added; summary rebuilt; partitions and metrics unchanged

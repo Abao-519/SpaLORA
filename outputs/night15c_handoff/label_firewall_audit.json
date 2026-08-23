@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "public_labels_used_for_known_k_hpo_and_evaluation": true,
+  "labels_in_unary": 0,
+  "labels_in_pairwise": 0,
+  "labels_in_edge_conductance": 0,
+  "labels_in_model_input": 0,
+  "labels_as_training_target": 0,
+  "label_driven_cross_run_hpo": 1,
+  "label_driven_best_selection": 1,
+  "claim_boundary": "PUBLIC_BENCHMARK_DEVELOPMENT_NOT_BLIND_CONFIRMATION",
+  "dataset_name_in_model_core": 0,
+  "dense_n_by_n_count": 0
+}

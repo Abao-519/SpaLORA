@@ -1,0 +1,7 @@
+family,representative_lanes,dual_metric_positive_lanes,best_delta_ari,best_delta_nmi,decision,reason
+POTTS,4,1,0.0038100339342291,0.012908504712822,LOCAL_ONLY_STOP,static unary+pairwise had only local gains
+BOUNDARY_POTTS,4,2,0.0054500055462667,0.0081034351866614,LOCAL_ONLY_STOP,static unary+pairwise had only local gains
+ENSEMBLE_ENERGY,4,0,-0.0492319438089267,-0.0135847086910168,ELIMINATED_NO_SIGNAL,no representative-lane dual gain
+SPECTRAL,4,0,-0.1857115254464058,-0.168421280867494,ELIMINATED_NO_SIGNAL,no representative-lane dual gain
+PSEUDO_FISHER,4,0,-0.0427659112231611,-0.0154762575719347,ELIMINATED_NO_SIGNAL,no representative-lane dual gain
+DYNAMIC_POTTS,9,6,0.11430922062961474,0.028375219225931142,FINALIST,same direct energy produced stable cross-family gains

@@ -1,0 +1,20 @@
+{
+  "status": "NIGHT15C_DIRECT_CLUSTER_ENERGY_SIGNAL",
+  "classification": "DIRECT_CLUSTER_ENERGY_SIGNAL",
+  "scientific_scope": "PUBLIC_BENCHMARK_DEVELOPMENT_SIGNAL",
+  "stable_dual_metric_gain_lanes": 6,
+  "stable_ari_only_gain_lanes": 1,
+  "stable_no_gain_lanes": 2,
+  "cross_modality_families_with_dual_gain": 2,
+  "fresh_process_replay": "9/9",
+  "gpu_learner_run_count": 0,
+  "noop_selection_semantics": "PUBLIC_LABEL_DEVELOPMENT_HPO_SELECTED_STEPS_0_NOT_AUTOMATIC_GATE",
+  "shutdown_dispatched": false,
+  "autodl_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS",
+  "claims_not_made": [
+    "SOTA",
+    "paper-ready",
+    "blind confirmation",
+    "representation-learning breakthrough"
+  ]
+}
