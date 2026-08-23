@@ -1,0 +1,30 @@
+{
+  "freeze_id": "NIGHT15A_UNSEEN_BACKBONE_MODEL_FREEZE_V1",
+  "freeze_boundary": "before any backbone seed 3-7 training",
+  "candidate_grid_sha256": "393b2d3ebb217e42a19d3a58d6472a685548600b4b5efad5358c53c7f3506618",
+  "development_model_seeds_used_for_candidate_selection": [0],
+  "unseen_backbone_seeds": [3, 4, 5, 6, 7],
+  "candidates": [
+    {
+      "candidate_id": "R10_FIXED_MULTISCALE",
+      "preprocess_bank": "RAW_SVD_V2",
+      "mechanism_reason": "fixed equal multiscale ablation separates a trainable backbone from a learned content gate"
+    },
+    {
+      "candidate_id": "R21_MCDF_STRONG_CONTRIBUTION",
+      "preprocess_bank": "RAW_SVD_V2",
+      "mechanism_reason": "strong coordinate-dominance constraint and content-gated four-expert MCDF"
+    },
+    {
+      "candidate_id": "R40_MCDF_MASKED_MODALITY",
+      "preprocess_bank": "MORAN_RAW_BANK_V1",
+      "mechanism_reason": "feature-level Moran bank plus masked-modality cross-reconstruction"
+    }
+  ],
+  "datasets": ["P22", "MISAR_E15_5_S1"],
+  "same_core_and_loss_rules": true,
+  "dataset_name_model_routing": false,
+  "labels_in_model_input_loss_gradient_or_checkpoint_selection": false,
+  "formula_or_protocol_changes_after_freeze": false,
+  "endpoint_head_freeze": "separate seed0-only screen; must complete before unseen-seed evaluation"
+}

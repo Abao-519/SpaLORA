@@ -1,0 +1,249 @@
+{
+  "coordinate_only_registered_once_per_endpoint_seed": true,
+  "endpoint_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "failure_count": 0,
+  "labels_in_model_or_clustering_fit": false,
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "night14b_best_alias_reuses_fused_partition": true,
+  "night14b_metric_replay_all_within_tolerance": true,
+  "night14b_metric_replay_tolerance": 1e-12,
+  "night14b_partition_replay_all_exact": true,
+  "night14b_replay_checks": [
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 0,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 1,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 2,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 0,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 1,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 2,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 0,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 1,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 2,
+      "formal_id": "F30_P22_K9_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 0,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 1,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 2,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 0,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 1,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 2,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 0,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 1,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 2,
+      "formal_id": "F32_MISAR_K7_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 0,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 1,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 2,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 0,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 0,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 5.551115123125783e-17,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 1,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 5.551115123125783e-17,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 2,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 1,
+      "nmi_abs_error": 5.551115123125783e-17,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 0,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 5.551115123125783e-17,
+      "endpoint_seed": 1,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    },
+    {
+      "ari_abs_error": 0.0,
+      "endpoint_seed": 2,
+      "formal_id": "F33_MISAR_K12_MAX_ARI",
+      "model_seed": 2,
+      "nmi_abs_error": 0.0,
+      "partition_sha_exact": true
+    }
+  ],
+  "pass_count": 840,
+  "peak_rss_mib": 2008.84765625,
+  "public_labels_in_post_partition_evaluator": true,
+  "row_count": 840,
+  "wall_seconds": 262.3125065341592
+}

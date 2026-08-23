@@ -1,0 +1,160 @@
+{
+  "schema_version": "night15a-mcdf-candidate-grid-v1",
+  "shared_training": {
+    "gradient_clip": 5.0,
+    "learning_rate": 0.0008,
+    "steps": 450,
+    "weight_decay": 0.00001
+  },
+  "base_config": {
+    "backbone": "CR_BALANCED_XREC",
+    "depth": 2,
+    "dropout": 0.05,
+    "hidden_dim": 128,
+    "latent_dim": 64,
+    "loss_weights": {
+      "alignment": 0.04,
+      "covariance": 0.0005,
+      "cross_recon": 1.0,
+      "graph_smooth": 0.008,
+      "private_recon": 0.5,
+      "topology_agreement": 0.015,
+      "variance": 0.1
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "R00_XAE_IDENTITY",
+      "mechanism_family": "trainable_cross_reconstruction_identity",
+      "mode": "IDENTITY",
+      "graph_k": 8,
+      "gate_hidden": 64,
+      "initial_residual_strength": 0.6,
+      "support_power": 2.0,
+      "joint_power": 2.0,
+      "loss_weights": {
+        "mcdf_reconstruction": 0.0,
+        "cross_view_consistency": 0.0,
+        "variance": 0.0,
+        "covariance": 0.0,
+        "maximum_geometry_gate": 1.0,
+        "minimum_molecular_gate": 0.0,
+        "minimum_gate_entropy": 0.0,
+        "coordinate_dominance": 0.0,
+        "molecular_contribution": 0.0,
+        "gate_entropy": 0.0
+      }
+    },
+    {
+      "candidate_id": "R10_FIXED_MULTISCALE",
+      "mechanism_family": "fixed_equal_multiscale_diffusion",
+      "mode": "FIXED_EQUAL",
+      "graph_k": 8,
+      "gate_hidden": 64,
+      "initial_residual_strength": 0.6,
+      "support_power": 2.0,
+      "joint_power": 2.0,
+      "loss_weights": {
+        "mcdf_reconstruction": 0.5,
+        "cross_view_consistency": 0.05,
+        "variance": 0.1,
+        "covariance": 0.0005,
+        "maximum_geometry_gate": 0.4,
+        "minimum_molecular_gate": 0.6,
+        "minimum_gate_entropy": 0.5,
+        "coordinate_dominance": 0.0,
+        "molecular_contribution": 0.0,
+        "gate_entropy": 0.0
+      }
+    },
+    {
+      "candidate_id": "R20_MCDF_GATED",
+      "mechanism_family": "content_gated_four_expert_mcdf",
+      "mode": "GATED",
+      "graph_k": 8,
+      "gate_hidden": 96,
+      "initial_residual_strength": 0.6,
+      "support_power": 2.0,
+      "joint_power": 2.0,
+      "loss_weights": {
+        "mcdf_reconstruction": 0.5,
+        "cross_view_consistency": 0.08,
+        "variance": 0.1,
+        "covariance": 0.0005,
+        "maximum_geometry_gate": 0.35,
+        "minimum_molecular_gate": 0.65,
+        "minimum_gate_entropy": 0.8,
+        "coordinate_dominance": 0.5,
+        "molecular_contribution": 0.5,
+        "gate_entropy": 0.05
+      }
+    },
+    {
+      "candidate_id": "R21_MCDF_STRONG_CONTRIBUTION",
+      "mechanism_family": "content_gated_four_expert_mcdf_strong_contribution",
+      "mode": "GATED",
+      "graph_k": 12,
+      "gate_hidden": 96,
+      "initial_residual_strength": 0.75,
+      "support_power": 3.0,
+      "joint_power": 3.0,
+      "loss_weights": {
+        "mcdf_reconstruction": 0.6,
+        "cross_view_consistency": 0.12,
+        "variance": 0.12,
+        "covariance": 0.0005,
+        "maximum_geometry_gate": 0.25,
+        "minimum_molecular_gate": 0.75,
+        "minimum_gate_entropy": 1.0,
+        "coordinate_dominance": 2.0,
+        "molecular_contribution": 2.0,
+        "gate_entropy": 0.2
+      }
+    },
+    {
+      "candidate_id": "R30_MCDF_NO_GEOMETRY",
+      "mechanism_family": "content_gated_molecular_experts_without_geometry",
+      "mode": "GATED_NO_GEOMETRY",
+      "graph_k": 8,
+      "gate_hidden": 96,
+      "initial_residual_strength": 0.7,
+      "support_power": 2.0,
+      "joint_power": 2.0,
+      "loss_weights": {
+        "mcdf_reconstruction": 0.5,
+        "cross_view_consistency": 0.1,
+        "variance": 0.1,
+        "covariance": 0.0005,
+        "maximum_geometry_gate": 0.0,
+        "minimum_molecular_gate": 0.9,
+        "minimum_gate_entropy": 0.7,
+        "coordinate_dominance": 1.0,
+        "molecular_contribution": 1.0,
+        "gate_entropy": 0.1
+      }
+    },
+    {
+      "candidate_id": "R40_MCDF_MASKED_MODALITY",
+      "mechanism_family": "content_gated_mcdf_with_masked_modality_reconstruction",
+      "mode": "GATED",
+      "graph_k": 8,
+      "gate_hidden": 96,
+      "initial_residual_strength": 0.6,
+      "support_power": 2.0,
+      "joint_power": 2.0,
+      "modality_dropout_probability": 0.2,
+      "loss_weights": {
+        "mcdf_reconstruction": 0.8,
+        "cross_view_consistency": 0.05,
+        "variance": 0.1,
+        "covariance": 0.0005,
+        "maximum_geometry_gate": 0.35,
+        "minimum_molecular_gate": 0.65,
+        "minimum_gate_entropy": 0.8,
+        "coordinate_dominance": 0.5,
+        "molecular_contribution": 0.5,
+        "gate_entropy": 0.05
+      }
+    }
+  ]
+}

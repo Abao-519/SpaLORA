@@ -1,0 +1,516 @@
+{
+  "active_numerically_close_pass": 62,
+  "active_total": 62,
+  "all_exact_pass": 0,
+  "formal_unseen_numerically_close_pass": 30,
+  "formal_unseen_total": 30,
+  "numerically_close_pass_including_superseded": 62,
+  "rows": [
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran1500_v1/R20_MCDF_GATED/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran1500_v1/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R00_XAE_IDENTITY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R00_XAE_IDENTITY/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R20_MCDF_GATED/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R20_MCDF_GATED/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R30_MCDF_NO_GEOMETRY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_moran_v1/R30_MCDF_NO_GEOMETRY/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_r40_v1/MORAN/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_r40_v1/MORAN/R40_MCDF_MASKED_MODALITY/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_r40_v1/SEPAR_EXACT/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_separ_exact_v2/R00_XAE_IDENTITY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_separ_exact_v2/R20_MCDF_GATED/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_separ_exact_v2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_separ_exact_v2/R30_MCDF_NO_GEOMETRY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": false,
+      "evidence_status": "SUPERSEDED_FAILURE_PRESERVED",
+      "formal_unseen_seed": false,
+      "path": "development_v1/R20_MCDF_GATED/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R00_XAE_IDENTITY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R00_XAE_IDENTITY/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R10_FIXED_MULTISCALE/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R10_FIXED_MULTISCALE/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R20_MCDF_GATED/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R20_MCDF_GATED/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R30_MCDF_NO_GEOMETRY/MISAR_E15_5_S1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "development_v2/R30_MCDF_NO_GEOMETRY/P22/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "locked_reference_bridge_v1/P22/seed_0/fresh_process_reload.json",
+      "row_count": null
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "side_development_v1/R20_MCDF_GATED/A1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "side_development_v1/R20_MCDF_GATED/tonsil_s1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "side_development_v1/R40_MCDF_MASKED_MODALITY/A1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": false,
+      "path": "side_development_v1/R40_MCDF_MASKED_MODALITY/tonsil_s1/seed_0/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_3/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_4/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_5/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_6/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/MISAR_E15_5_S1/seed_7/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/P22/seed_3/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/P22/seed_4/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/P22/seed_5/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/P22/seed_6/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_r40_v2/runs/MORAN_RAW_BANK_V1/R40_MCDF_MASKED_MODALITY/P22/seed_7/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/MISAR_E15_5_S1/seed_3/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/MISAR_E15_5_S1/seed_4/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/MISAR_E15_5_S1/seed_5/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/MISAR_E15_5_S1/seed_6/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/MISAR_E15_5_S1/seed_7/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/P22/seed_3/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/P22/seed_4/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/P22/seed_5/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/P22/seed_6/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R10_FIXED_MULTISCALE/P22/seed_7/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_3/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_4/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_5/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_6/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_7/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_3/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_4/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_5/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_6/fresh_process_reload.json",
+      "row_count": 6
+    },
+    {
+      "all_exact": false,
+      "all_numerically_close": true,
+      "evidence_status": "ACTIVE",
+      "formal_unseen_seed": true,
+      "path": "unseen_training_v1/runs/RAW_SVD_V2/R21_MCDF_STRONG_CONTRIBUTION/P22/seed_7/fresh_process_reload.json",
+      "row_count": 6
+    }
+  ],
+  "superseded_failures_preserved": 1,
+  "total_including_superseded": 63
+}

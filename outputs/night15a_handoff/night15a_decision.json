@@ -1,0 +1,17 @@
+{
+  "all_run_ledger_rows": 21174,
+  "classification": "DEVELOPMENT_DIAGNOSTIC",
+  "finalization_wall_seconds": 15.290583699941635,
+  "fresh_process_roundtrip_active": "62/62",
+  "fresh_process_roundtrip_formal_unseen": "30/30",
+  "historical_raw_immutability_pass": true,
+  "known_k_unsupervised_with_public_post_partition_evaluation": true,
+  "labels_in_model_input_loss_gradient_or_checkpoint_selection": false,
+  "matched_score_source_rows": 840,
+  "paper_ready": false,
+  "secondary_signal": "STABLE_HEAD_SIGNAL",
+  "sota_claim": false,
+  "superseded_roundtrip_failures_preserved": 1,
+  "terminal_status": "NO_ADDED_METHOD_SIGNAL",
+  "training_label_reads": 0
+}

@@ -1,0 +1,6 @@
+lane,family,observations,cluster_k,evaluation_reference_cardinality,reference_semantics,ordered_ids_closed,mask,status,artifact_sha256
+P22_COSMOS_K9,RNA+ATAC,9196,9.0,9.0,project exact public ground truth,True,9196/9196,CLOSED,
+P22_3DOT_K18,RNA+ATAC,9196,18.0,18.0,official author-supplied 3d-OT 18-state domain assignment; not independent expert truth and not a K9 split,True,9196/9196,CLOSED,f4e651fe806d9a276d97001842b9965f65c4315d3799a391af810bb8e5b6e52a
+MISAR_E15_5_K7,RNA+ATAC,1949,7.0,7.0,"public project Y, evaluator only",True,1949/1949,CLOSED,
+MISAR_E15_5_SEPAR_K12,RNA+ATAC,1949,12.0,7.0,official SEPAR Tutorial4 K12 clustering evaluated against seven-category public Y,True,1949/1949,CLOSED,
+GSE213264_SPATIAL_CITE_TONSIL,RNA+protein,2492,,,dedup metadata/IDs only; labels unopened,True,not evaluated,NOT_DUPLICATE_DISTINCT_ACCESSION_PLATFORM_OBSERVATION_ID_SPACE_AND_COUNT,

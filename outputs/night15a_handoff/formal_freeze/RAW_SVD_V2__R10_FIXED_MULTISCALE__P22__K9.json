@@ -1,0 +1,30 @@
+{
+  "algorithm": "GMM_DIAG",
+  "candidate_id": "R10_FIXED_MULTISCALE",
+  "cluster_k": 9,
+  "coordinate_basis": "POLY2",
+  "coordinate_weight": 1.2,
+  "dataset": "P22",
+  "development_absolute_ari": 0.4838207797263797,
+  "development_absolute_nmi": 0.6262092348847936,
+  "development_endpoint_seed": 0,
+  "development_model_seed": 0,
+  "filter_id": "LOW_K12_B80_S2",
+  "frozen_id": "RAW_SVD_V2__R10_FIXED_MULTISCALE__P22__K9",
+  "labels_in_model_or_cluster_fit": false,
+  "pca_dimension": 16,
+  "preprocess_bank": "RAW_SVD_V2",
+  "public_label_role": "cross-run development HPO after partition only",
+  "refinement_id": "NONE",
+  "screen_source_path": "/root/autodl-fs/night15a_multimodal_contribution_and_score_stability_20260823/head_screen_freeze_v4/RAW_SVD/R10_FIXED_MULTISCALE/P22/seed_0/screen_shortlist.csv",
+  "screen_source_sha256": "d03825c19615c0a6d2049b6155c4e80fced82687a51d7a03ab3780635c094bff",
+  "selection_rule": "highest seed0 ARI then NMI within the declared quick/full screen",
+  "source_view": "mcdf",
+  "unseen_backbone_seeds": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

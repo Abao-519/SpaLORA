@@ -1,0 +1,30 @@
+{
+  "algorithm": "KMEANS",
+  "candidate_id": "R40_MCDF_MASKED_MODALITY",
+  "cluster_k": 9,
+  "coordinate_basis": "LINEAR",
+  "coordinate_weight": 0.6,
+  "dataset": "P22",
+  "development_absolute_ari": 0.4583779800848936,
+  "development_absolute_nmi": 0.5991786583110272,
+  "development_endpoint_seed": 0,
+  "development_model_seed": 0,
+  "filter_id": "LOW_K12_B80_S2",
+  "frozen_id": "MORAN_RAW_BANK_V1__R40_MCDF_MASKED_MODALITY__P22__K9",
+  "labels_in_model_or_cluster_fit": false,
+  "pca_dimension": 16,
+  "preprocess_bank": "MORAN_RAW_BANK_V1",
+  "public_label_role": "cross-run development HPO after partition only",
+  "refinement_id": "NONE",
+  "screen_source_path": "/root/autodl-fs/night15a_multimodal_contribution_and_score_stability_20260823/head_screen_freeze_v4/MORAN/R40_MCDF_MASKED_MODALITY/P22/seed_0/screen_shortlist.csv",
+  "screen_source_sha256": "02bd58d9dca3e91380bf7daba3e9308f2ab6787056eff7b310fef0cf8b26743c",
+  "selection_rule": "highest seed0 ARI then NMI within the declared quick/full screen",
+  "source_view": "z2",
+  "unseen_backbone_seeds": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

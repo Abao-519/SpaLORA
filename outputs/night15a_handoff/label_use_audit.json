@@ -1,0 +1,9 @@
+{
+  "GSE213264_annotation_values_read": 0,
+  "labels_in_loss_or_gradient": false,
+  "labels_in_model_input": false,
+  "labels_in_within_run_checkpoint_selection": false,
+  "public_benchmark_policy": "known-K/protocol-K unsupervised clustering; labels enter only post-partition evaluator and cross-run HPO",
+  "public_evaluation_partitions": 21111,
+  "training_label_reads": 0
+}

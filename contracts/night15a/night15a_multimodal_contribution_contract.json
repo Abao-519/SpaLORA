@@ -1,0 +1,119 @@
+{
+  "contract_id": "NIGHT15A_MULTIMODAL_CONTRIBUTION_AND_SCORE_STABILITY_20260823",
+  "parent_terminal": "BACKBONE_OR_HEAD_SIGNAL",
+  "objective": "separate geometry, molecular multi-omics and clustering-head gains; stabilize the useful pipeline; develop a raw-feature RNA+ATAC module with independently ablatable gain",
+  "model_scope": {
+    "primary_family": "RNA+ATAC",
+    "same_framework_required": true,
+    "dataset_name_model_routing": false,
+    "platform_specific_numeric_hpo": true,
+    "public_label_use": [
+      "known_K",
+      "development_hpo",
+      "candidate_ranking",
+      "evaluation"
+    ],
+    "labels_in_model_input_or_unsupervised_loss": false
+  },
+  "mandatory_primary_lanes": [
+    {
+      "id": "P22_COSMOS_K9",
+      "k": 9,
+      "status": "exact_project_artifact_available"
+    },
+    {
+      "id": "MISAR_E15_5_K7",
+      "k": 7,
+      "status": "exact_project_artifact_available"
+    },
+    {
+      "id": "MISAR_E15_5_K12",
+      "k": 12,
+      "status": "project_artifact_available_public_protocol_context_to_close"
+    },
+    {
+      "id": "P22_PAPER_K18",
+      "k": 18,
+      "status": "requires_exact_annotation_mask_and_id_closure"
+    }
+  ],
+  "mandatory_score_source_controls": [
+    "coordinate_only",
+    "rna_only",
+    "atac_only",
+    "rna_atac_fused",
+    "fused_without_coordinates",
+    "fused_without_graph_filter",
+    "fused_without_spatial_refinement",
+    "night14b_frozen_best"
+  ],
+  "working_method": {
+    "name": "MCDF",
+    "expanded_name": "Modality-Contribution-constrained Diffusion Fusion",
+    "status": "working_hypothesis_not_a_frozen_paper_name",
+    "minimum_components": [
+      "sparse_geometry_expert",
+      "rna_guided_expert",
+      "atac_guided_expert",
+      "joint_bilateral_expert",
+      "multi_scale_content_gate",
+      "coordinate_dominance_control",
+      "independent_module_ablation"
+    ],
+    "executor_may_replace_with_better_design": true
+  },
+  "development_policy": {
+    "single_best_run_counts_as_development_success": true,
+    "report_all_runs": true,
+    "require_all_seeds_to_win": false,
+    "unseen_backbone_seeds": [3, 4, 5, 6, 7],
+    "external_full_method_reproduction_priority": "low",
+    "own_method_and_score_priority_fraction": 0.7
+  },
+  "targets": {
+    "P22_COSMOS_K9": {
+      "best_ari": 0.55,
+      "mean_median_reference_ari": 0.5063,
+      "mean_median_reference_nmi": 0.6562
+    },
+    "MISAR_E15_5_K7": {
+      "best_ari": 0.50,
+      "median_ari": 0.45
+    },
+    "MISAR_E15_5_K12": {
+      "first_ari": 0.50,
+      "stretch_context_ari": 0.644
+    }
+  },
+  "dataset_expansion": {
+    "p0": [
+      "exact_SEPAR_MISAR_artifact",
+      "exact_3dOT_P22_K18_artifact"
+    ],
+    "p1": [
+      "GSE213264_spatial_CITE_seq_after_dedup",
+      "A1",
+      "D1",
+      "tonsil_s1",
+      "tonsil_s2",
+      "tonsil_s3"
+    ],
+    "p2_auxiliary": [
+      "DLPFC_12_slices",
+      "Stereo_seq_olfactory_bulb",
+      "osmFISH",
+      "MERFISH",
+      "CRC_VisiumHD_Visium_Xenium"
+    ]
+  },
+  "allowed_terminal_states": [
+    "GEOMETRY_ONLY_SIGNAL",
+    "STABLE_HEAD_SIGNAL",
+    "MULTIMODAL_CONTRIBUTION_SIGNAL",
+    "RAW_FEATURE_BACKBONE_SIGNAL",
+    "METHOD_SIGNAL",
+    "NO_ADDED_METHOD_SIGNAL",
+    "IMPLEMENTATION_FAILURE",
+    "INFRASTRUCTURE_FAILURE"
+  ]
+}

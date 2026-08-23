@@ -1,0 +1,30 @@
+{
+  "algorithm": "GMM_DIAG",
+  "candidate_id": "R21_MCDF_STRONG_CONTRIBUTION",
+  "cluster_k": 7,
+  "coordinate_basis": "POLY2",
+  "coordinate_weight": 1.2,
+  "dataset": "MISAR_E15_5_S1",
+  "development_absolute_ari": 0.4207362000135801,
+  "development_absolute_nmi": 0.535705019313444,
+  "development_endpoint_seed": 0,
+  "development_model_seed": 0,
+  "filter_id": "NONE",
+  "frozen_id": "RAW_SVD_V2__R21_MCDF_STRONG_CONTRIBUTION__MISAR_E15_5_S1__K7",
+  "labels_in_model_or_cluster_fit": false,
+  "pca_dimension": 16,
+  "preprocess_bank": "RAW_SVD_V2",
+  "public_label_role": "cross-run development HPO after partition only",
+  "refinement_id": "NONE",
+  "screen_source_path": "/root/autodl-fs/night15a_multimodal_contribution_and_score_stability_20260823/head_screen_freeze_v4/RAW_SVD/R21_MCDF_STRONG_CONTRIBUTION/MISAR_E15_5_S1/seed_0/screen_shortlist.csv",
+  "screen_source_sha256": "e37097dff4eb4f77a76e782a6aed17b398abd013b90df35dca94bb0b475e46cd",
+  "selection_rule": "highest seed0 ARI then NMI within the declared quick/full screen",
+  "source_view": "z1",
+  "unseen_backbone_seeds": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}
