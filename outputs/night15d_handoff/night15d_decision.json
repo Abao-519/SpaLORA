@@ -1,0 +1,26 @@
+{
+  "status": "NIGHT15D_CROSS_FAMILY_RELIABILITY_ENERGY_DEVELOPMENT_MILESTONE",
+  "classification": "LOCAL_SIGNAL",
+  "evidence_tier": "PUBLIC_BENCHMARK_DEVELOPMENT_MILESTONE",
+  "contribution_scope": "UNIFIED_CLUSTER_ENERGY_COMPONENT_SIGNAL",
+  "dual_positive_lanes_vs_night15c": 9,
+  "total_lanes": 9,
+  "modality_families_with_dual_positive_lanes": 2,
+  "fresh_process_replay": "9/9 twice",
+  "targeted_tests": "10/10",
+  "labels_in_model_or_energy": 0,
+  "public_labels_used_for_per_lane_hpo_and_evaluation": 1,
+  "automatic_gate_claimed": 0,
+  "dataset_name_branch_in_core": 0,
+  "dense_n_by_n_count": 0,
+  "gpu_use": "0 seconds / 0 MiB",
+  "claims_not_made": [
+    "blind confirmation",
+    "SOTA",
+    "CONFIRMED_MILESTONE",
+    "paper-ready",
+    "individual primitive novelty"
+  ],
+  "shutdown_dispatched": false,
+  "autodl_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}

@@ -1,0 +1,114 @@
+{
+  "selection_rule": "prefer delta_ari>1e-10 and delta_nmi>1e-10, then maximize ari+0.35*nmi; otherwise retain Night-15C authority",
+  "initial_rule": "Night-15C stable authority partition for every lane",
+  "seeds": {
+    "A1": {
+      "feature": "retained",
+      "unary_mode": "retained_dual_margin",
+      "edge_mode": "either",
+      "normalization": "self",
+      "beta": 4.0,
+      "steps": 2,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "D1": {
+      "feature": "views_multiscale",
+      "unary_mode": "retained",
+      "edge_mode": "both",
+      "normalization": "self",
+      "beta": 0.05,
+      "steps": 2,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "P22": {
+      "feature": "retained_low_high",
+      "unary_mode": "retained",
+      "edge_mode": "either",
+      "normalization": "row",
+      "beta": 1.0,
+      "steps": 1,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "P22_3DOT_K18": {
+      "feature": "retained_low_high",
+      "unary_mode": "retained",
+      "edge_mode": "either",
+      "normalization": "self",
+      "beta": 1.0,
+      "steps": 1,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "MISAR_E15_5_S1": {
+      "feature": "retained",
+      "unary_mode": "retained_dual_margin",
+      "edge_mode": "either",
+      "normalization": "row",
+      "beta": 4.0,
+      "steps": 1,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "MISAR_E15_5_S1_K12": {
+      "feature": "retained",
+      "unary_mode": "retained",
+      "edge_mode": "geomean",
+      "normalization": "self",
+      "beta": 2.0,
+      "steps": 1,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "tonsil_s1": {
+      "feature": "retained",
+      "unary_mode": "retained",
+      "edge_mode": "either",
+      "normalization": "row",
+      "beta": 0.5,
+      "steps": 5,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "tonsil_s2": {
+      "feature": "retained_low_high",
+      "unary_mode": "retained_dual_margin",
+      "edge_mode": "either",
+      "normalization": "mass",
+      "beta": 1.0,
+      "steps": 1,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    },
+    "tonsil_s3": {
+      "feature": "retained",
+      "unary_mode": "retained_dual_margin",
+      "edge_mode": "either",
+      "normalization": "self",
+      "beta": 1.0,
+      "steps": 5,
+      "margin_temperature": 0.5,
+      "retained_weight": 0.35,
+      "switch_penalty": 0.0,
+      "tau": 1.0
+    }
+  }
+}

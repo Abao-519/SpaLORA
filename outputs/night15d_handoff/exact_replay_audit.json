@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "final_source_sha256": "8b212f95830f3895b534da487bb5d8d993ddc8a4c95faed37738a0b7816d7a0e",
+  "frozen_registry_sha256": "424fdeaea4cbf7d795e8ee82704ba9e31864364c913b0cf44d5f3243d08a8cc9",
+  "final_source_mtime_utc": "2026-08-23T21:05:49.197402+00:00",
+  "final_replay1_mtime_utc": "2026-08-23T21:06:33.173948+00:00",
+  "final_replay2_mtime_utc": "2026-08-23T21:08:06.164131+00:00",
+  "final_tests_mtime_utc": "2026-08-23T21:15:35.260699+00:00",
+  "source_precedes_both_final_replays": true,
+  "lane_count": 9,
+  "all_exact": true,
+  "labels_in_model_or_energy": 0,
+  "dataset_name_reads_in_model_core": 0,
+  "dense_n_by_n_count": 0,
+  "superseded_replays": [
+    "working/replay1/replay.json",
+    "working/replay2/replay.json"
+  ],
+  "superseded_reason": "both were produced before the final helper-argument refactor and final targeted-test update",
+  "lanes": [
+    {
+      "lane": "A1",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "e76944ce6c738338495c7415b35f5c6b3fca19daefa1331edf3787f31675500c"
+    },
+    {
+      "lane": "D1",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "89f269bf0e9579b2b148d72be71fb303aeb14eda36e37de1694a31707c2691ca"
+    },
+    {
+      "lane": "MISAR_E15_5_S1",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "c4d17e6e58188e9cb0e8bc589831ac4ca098048d6615532f65909593c1f1d167"
+    },
+    {
+      "lane": "MISAR_E15_5_S1_K12",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "d69bce79660adb10097944ec7afcb06025469f1b018218573ce9eec395c2f1db"
+    },
+    {
+      "lane": "P22",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "fd6859f0de243f28b9a7b23369dc97362ff40ca51aba3d92c3cfca6d44780f98"
+    },
+    {
+      "lane": "P22_3DOT_K18",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "08c4766cba372904744d1fab67c41555ba15281ea1ce8ecba212bf060b476d65"
+    },
+    {
+      "lane": "tonsil_s1",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "8fcffb70ed6cfd634707d94d9f809c516ccb53f09fa376a2c7727bcbb886c1f7"
+    },
+    {
+      "lane": "tonsil_s2",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "32b5eae3bf02cf0164270e754e2137cb30f3290aec68a097da67f15f43a69a21"
+    },
+    {
+      "lane": "tonsil_s3",
+      "partition_array_sha_exact": true,
+      "partition_file_byte_exact": true,
+      "metrics_exact": true,
+      "config_exact": true,
+      "cluster_sizes_exact": true,
+      "cardinality_exact": true,
+      "partition_sha256": "0a2bc17777e90b34f70d878fcb5886f06bfe09ef6219d08c0c862c04cc292589"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+event_id,stage,issue,action,scientific_formula_changed,final_evidence_affected,status
+ENG-001,DIRECTION_PROBE,"Worker2 A1/D1 reliability probes were directional evidence, not formal evidence",resolved authoritative initial partition SHA and independently reproduced in clean implementation,0,0,CLOSED
+ENG-002,DIRECTION_PROBE,mass/multiscale-only MISAR K12 probe did not improve Night-15C,retained negative and did not expand the identical neighborhood; orthogonal shared multiscale/trust search was registered separately,0,0,PRESERVED_NEGATIVE
+ENG-003,TARGETED_TEST,AST firewall rejected an internal cluster-assignment helper argument named labels,"renamed the helper argument to partition; no array, formula, config, or numerical operation changed",0,1,FIXED_AND_FULLY_REPLAYED
+ENG-004,REPLAY_TIMELINE_AUDIT,working/replay1 and working/replay2 predated the final source/helper refactor and final test update,"marked both old replays superseded; reran complete 9/9 final_replay1 and final_replay2 after final source, then reran all 10 targeted tests",0,1,SUPERSEDED_AND_REPLACED

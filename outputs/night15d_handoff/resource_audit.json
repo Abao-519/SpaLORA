@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "completed_search_ledger_rows": 43150,
+  "matched_component_ablation_rows": 90,
+  "final_fresh_process_rows": 18,
+  "search_wall_seconds_sum": 1829.8327095999848,
+  "ablation_row_wall_seconds_sum": 6.049436799992691,
+  "final_replay_wall_seconds_sum": 5.88310319998709,
+  "measured_frozen_replay_peak_rss_mib": 218.714844,
+  "resource_measurement_scope": "one additional frozen replay process; not used as scientific evidence",
+  "gpu_seconds": 0.0,
+  "peak_gpu_mib": 0.0,
+  "autodl_gpu_run_count": 0,
+  "new_data_download_count": 0,
+  "dense_n_by_n_count": 0,
+  "run_summaries": [
+    {
+      "source_run": "EXACT_PROBE_A1",
+      "rows": 2,
+      "wall_seconds": 0.3314418999943882,
+      "status": "PASS"
+    },
+    {
+      "source_run": "EXACT_PROBE_D1",
+      "rows": 2,
+      "wall_seconds": 0.32862759999989066,
+      "status": "PASS"
+    },
+    {
+      "source_run": "SMOKE_REPRESENTATIVE",
+      "rows": 8104,
+      "wall_seconds": 284.5955774999893,
+      "status": "PASS"
+    },
+    {
+      "source_run": "SMOKE_REMAINING",
+      "rows": 10265,
+      "wall_seconds": 400.1969572999951,
+      "status": "PASS"
+    },
+    {
+      "source_run": "REFINE_PRIMARY",
+      "rows": 11219,
+      "wall_seconds": 709.1590192000003,
+      "status": "PASS"
+    },
+    {
+      "source_run": "REFINE_SECONDARY",
+      "rows": 13558,
+      "wall_seconds": 435.2210861000058,
+      "status": "PASS"
+    }
+  ]
+}

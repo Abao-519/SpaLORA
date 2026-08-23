@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "public_labels_used_for_known_k_development_hpo_and_evaluation": 1,
+  "label_reads_in_model_input": 0,
+  "label_reads_in_unary": 0,
+  "label_reads_in_pairwise_or_edge": 0,
+  "label_reads_in_model_or_energy_core": 0,
+  "within_run_label_checkpoint_selection": 0,
+  "claim_is_blind_test": 0,
+  "selection_semantics": "per-lane public-label HPO over one shared reliability-energy superset; not an automatic gate"
+}

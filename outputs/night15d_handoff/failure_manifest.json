@@ -1,0 +1,14 @@
+{
+  "status": "PASS_WITH_PRESERVED_ENGINEERING_HISTORY",
+  "scientific_search_failed_rows": 0,
+  "search_rows_completed": 43150,
+  "preserved_negative_probes": [
+    "Worker2 MISAR K12 mass/multiscale-only probe"
+  ],
+  "superseded_artifacts": [
+    "working/replay1/replay.json",
+    "working/replay2/replay.json"
+  ],
+  "superseded_artifacts_used_as_final_evidence": 0,
+  "hidden_or_deleted_failed_runs": 0
+}

@@ -1,0 +1,15 @@
+test_centroid_unary_fails_closed_on_empty_cluster (test_night15d_reliability_energy.ReliabilityEnergyTests.test_centroid_unary_fails_closed_on_empty_cluster) ... ok
+test_core_signature_has_no_dataset_or_label_argument (test_night15d_reliability_energy.ReliabilityEnergyTests.test_core_signature_has_no_dataset_or_label_argument) ... ok
+test_core_stays_sparse (test_night15d_reliability_energy.ReliabilityEnergyTests.test_core_stays_sparse) ... ok
+test_frozen_registry_contains_nine_dual_positive_lanes (test_night15d_reliability_energy.ReliabilityEnergyTests.test_frozen_registry_contains_nine_dual_positive_lanes) ... ok
+test_mass_retains_absolute_conductance (test_night15d_reliability_energy.ReliabilityEnergyTests.test_mass_retains_absolute_conductance) ... ok
+test_modality_margin_unary_is_finite (test_night15d_reliability_energy.ReliabilityEnergyTests.test_modality_margin_unary_is_finite) ... ok
+test_multiscale_bank_has_registered_shapes (test_night15d_reliability_energy.ReliabilityEnergyTests.test_multiscale_bank_has_registered_shapes) ... ok
+test_rejected_mass_returns_to_self (test_night15d_reliability_energy.ReliabilityEnergyTests.test_rejected_mass_returns_to_self) ... ok
+test_two_replays_are_byte_exact (test_night15d_reliability_energy.ReliabilityEnergyTests.test_two_replays_are_byte_exact) ... ok
+test_zero_steps_is_exact_noop (test_night15d_reliability_energy.ReliabilityEnergyTests.test_zero_steps_is_exact_noop) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.032s
+
+OK

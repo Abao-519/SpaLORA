@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "worker2_probe_source": "worker2_local_probe_20260824/reliability_probe.py",
+  "A1": {
+    "probe_best_ari_nmi": [
+      0.274427272,
+      0.4175069945
+    ],
+    "formal_clean_exact_probe_ari_nmi": [
+      0.27442727200177763,
+      0.41750699446498957
+    ],
+    "authoritative_initial_partition_sha256": "4ac70f4456d6f08894ade01465028163bc6ba898df1dcec6e860eac04f2dfdfd",
+    "formal_final_ari_nmi": [
+      0.2743801557109892,
+      0.418548976098805
+    ]
+  },
+  "D1": {
+    "probe_best_ari_nmi": [
+      0.2453013783,
+      0.3819026002
+    ],
+    "formal_clean_exact_probe_ari_nmi": [
+      0.24530137831222534,
+      0.3819026001746196
+    ],
+    "formal_final_ari_nmi": [
+      0.245192670133423,
+      0.3836654434702409
+    ]
+  },
+  "MISAR_K12": {
+    "probe_conclusion": "NO_NIGHT15C_IMPROVEMENT_IN_MASS_MULTISCALE_ONLY_NEIGHBORHOOD",
+    "formal_orthogonal_shared_superset_ari_nmi": [
+      0.4511951009551676,
+      0.5965119000197391
+    ]
+  }
+}
