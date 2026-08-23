@@ -1,0 +1,25 @@
+{
+  "datasets_checked": 2,
+  "passed": true,
+  "rows": [
+    {
+      "dataset": "A1",
+      "embedding_differs": true,
+      "seed0_embedding_sha256": "6fb73949ebf2832d4bbb1a711ff27275c976cb1d4aa0aaed8f6b9456ee39b01f",
+      "seed0_state_sha256": "56dbaa1e8e0ffa2732cdc732cf208762c231c40210e351881ecf96e349d7af2f",
+      "seed1_embedding_sha256": "321eaac9544e5605d9c9abdbe56a9609f7c8da3df028893b6376c2fdbdb95538",
+      "seed1_state_sha256": "5f5424026578a4532045286896cbab4fd3c229d7318b3be6c945f059334a2127",
+      "state_differs": true
+    },
+    {
+      "dataset": "P22",
+      "embedding_differs": true,
+      "seed0_embedding_sha256": "06694c50c65ba75201b697446035e0caa0c87a13ab0f2eaacbfc5dd67a7a5dbc",
+      "seed0_state_sha256": "2e510b4ec68f3395e7521f80746cefce6c1da8b283595bc9ac19b0f57b32a5ea",
+      "seed1_embedding_sha256": "9d0e5dd9d97d2ef31300d4aebb623c3640c67064be14890b390f198bbad1ad4a",
+      "seed1_state_sha256": "e2c1749927a371f125d91db116b7dff802daa1356608dc56a289b2b38f3f03d4",
+      "state_differs": true
+    }
+  ],
+  "training_seed_enters_initialization": true
+}

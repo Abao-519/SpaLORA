@@ -1,0 +1,8 @@
+change_id,phase,problem,action,scope,status
+E01,P0_REMOTE,"independent clone exceeded local SSH wait and was still checking out","waited for the exact clone PID before any further repository write",workspace setup,RESOLVED
+E02,P0_REMOTE,"new clone did not inherit repository-local Git SSH identity or author config","copied only core.sshCommand and Codex 2 author identity into the new repository",Git transport,RESOLVED
+E03,P1_TEST,"first synthetic assertions required byte equality across CPU/GPU and used substring identity scanning","changed tolerance to 1e-6 and exact-literal AST identity check; model code unchanged",tests only,RESOLVED
+E04,STAGE_A,"first all-ablation 30-seed schedule overallocated CPU","preserved attempt-1 outputs; retained 30 seeds for identity/B10 and 10 registered seeds for secondary ablations",resource allocation,RESOLVED
+E05,STAGE_B,"all three mechanism-distinct seed-0 screens were below strong references","registered one public E10 hyperparameter neighborhood as new candidate IDs; preserved all original runs",scientific search bookkeeping,RESOLVED_WITH_NEGATIVE_RESULT
+E06,STAGE_B,"seed 0 alone did not directly demonstrate that training seed enters real execution","ran a seed-1 A1/P22 semantics audit only; did not use it for scientific promotion",trainability audit,RESOLVED
+E07,DELIVERY,"first finalizer pass used obsolete audit keys and optional pandas tabulate","updated delivery-only schema access and internal Markdown rendering; scientific artifacts unchanged",delivery assembly,RESOLVED

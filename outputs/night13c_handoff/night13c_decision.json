@@ -1,0 +1,15 @@
+{
+  "b10_role": "AUXILIARY_HEAD_OR_ABLATION_ONLY",
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "final_candidate": null,
+  "interpretation": "B10 is endpoint-fragile and the tested trainable unified cores did not beat strong internal references across both families.",
+  "mechanism_families": 3,
+  "multi_seed_confirmation_run": false,
+  "paper_ready": false,
+  "real_p0": "6/6",
+  "schema": "spalora.night13c.decision.v1",
+  "stage_a_state": "B10_ENDPOINT_ARTIFACT_OR_FRAGILE",
+  "terminal_state": "NIGHT13C_B10_ENDPOINT_FRAGILE",
+  "trainable_core_engineering_valid": true,
+  "trainable_core_scientifically_competitive": false
+}

@@ -1,0 +1,1937 @@
+[
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "24ad7a5af65aa5cff7f6639d583ef06572d4fa658aba57e91bd65129c0bb0b19",
+        "anchor_shape": [
+          4326,
+          64
+        ],
+        "candidate_id": "E10_EDGE_RELIABILITY",
+        "checkpoint_sha256": "5338bbb1d400c19dbe4d1a61b1f973ad1b320a6564d761921bba860adeddf902",
+        "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+        "dataset": "tonsil_s1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.5377326011657715,
+        "edge_reliability_sd": 0.048352763056755066,
+        "evaluated_observations": 4326,
+        "final_embedding_sha256": "6f1ffd897ccb939a79473641068ae787a3b56a25d5ae08ad0df096e102e6ef09",
+        "final_loss_components": {
+          "agreement": 0.6917589902877808,
+          "anchor": 1.1667684316635132,
+          "cross": 1.8214342594146729,
+          "mechanism_specific": 0.020434945821762085,
+          "total": 2.2672054767608643,
+          "variance": 0.14948533475399017,
+          "within": 0.5946376919746399
+        },
+        "final_state_sha256": "d35009c55f88226e1c8f826a503e502c858b8446a2bb90eb1ad85bc124ca11ed",
+        "first_gradient_norm": 1.5817710161209106,
+        "gpu_seconds": 0.9009520874023438,
+        "graph_anchor_embedding_sha256": "1f505be6aa411300b7a3a04e2ad82211abbd5262f7c7d4e66f6f6858be7b14e7",
+        "initial_state_sha256": "b7c3ad2a5d23ba2814499daacb6d91bf952ab0fae5ac2e99df47daa37455c2d2",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "020c695081d2d7174db6d763582271c028eac977cae037f7c4a2409219b75c9a",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "parameters_changed": true,
+        "peak_gpu_mib": 94.2412109375,
+        "peak_rss_mib": 1407.09765625,
+        "processed_shapes": [
+          [
+            4326,
+            30
+          ],
+          [
+            4326,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            4326,
+            18085
+          ],
+          [
+            4326,
+            31
+          ]
+        ],
+        "sparse_edge_count": 17834,
+        "status": "PASS",
+        "total_observations": 4326,
+        "trainable_parameter_count": 12253,
+        "training_seed": 0,
+        "wall_seconds": 0.9391005877405405
+      },
+      {
+        "aligned_embedding_sha256": "c7bf1d09752a28f8e85188321dc8fc6d46d4893909b264c056045e02a465ab75",
+        "anchor_shape": [
+          1949,
+          64
+        ],
+        "candidate_id": "E10_EDGE_RELIABILITY",
+        "checkpoint_sha256": "c1ced191a138cf4deb71f9c16a50e10a293e9d7b8dfba0b398071147e82280ea",
+        "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+        "dataset": "MISAR_E15_5_S1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4636741280555725,
+        "edge_reliability_sd": 0.01191847212612629,
+        "evaluated_observations": 1949,
+        "final_embedding_sha256": "79b7858410e18113f2b2abf4502dc8169230c2c14ed1a38fd367bfa439230896",
+        "final_loss_components": {
+          "agreement": 0.7773788571357727,
+          "anchor": 1.0865811109542847,
+          "cross": 2.0080034732818604,
+          "mechanism_specific": 0.06763850897550583,
+          "total": 2.3506178855895996,
+          "variance": 0.1399444341659546,
+          "within": 0.5860418081283569
+        },
+        "final_state_sha256": "4f63bdb347a7dfe781872c89223480e44723a3a90159465fba40122426cb2776",
+        "first_gradient_norm": 1.3315715789794922,
+        "gpu_seconds": 0.6190272827148438,
+        "graph_anchor_embedding_sha256": "e757ad712b471a1fea429e3287d5846c008c5303d9044f3cf5cdeb719effa900",
+        "initial_state_sha256": "b9b7925b64f44a42ebdce99c1481e6e1e596c97df54e643c20ab0a91c735cf84",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "ab5084cb7392d8798659e372853f96bbb930cd157260fb7614659320fdc19c0e",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+        "parameters_changed": true,
+        "peak_gpu_mib": 51.38720703125,
+        "peak_rss_mib": 1407.09765625,
+        "processed_shapes": [
+          [
+            1949,
+            30
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            1949,
+            2000
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "sparse_edge_count": 8070,
+        "status": "PASS",
+        "total_observations": 1949,
+        "trainable_parameter_count": 14833,
+        "training_seed": 0,
+        "wall_seconds": 0.6363472603261471
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "final_residual": 0.3,
+      "graph_residual": 0.25,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "EDGE_RELIABILITY",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+    "datasets": [
+      "tonsil_s1",
+      "MISAR_E15_5_S1"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 2
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "16006ffa2073ab95903ee6447a9f5263bdf58d82c956b9dd59110629be474a0b",
+        "anchor_shape": [
+          4326,
+          64
+        ],
+        "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+        "checkpoint_sha256": "7f313c2a4cf7c6b3e60fb4d332ea51123092b55bb5ab4732a02f0f4e951830e4",
+        "config_sha256": "7b83cbd8f2a4acbfe80c186316d1ff99bd2f3d1a45951d295e98b1dd54aeb309",
+        "dataset": "tonsil_s1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 4326,
+        "final_embedding_sha256": "f68677171c63f9510e953a6a71a21effac40f7349d07fa4ded40559e40773369",
+        "final_loss_components": {
+          "agreement": 0.8712498545646667,
+          "anchor": 1.0428893566131592,
+          "cross": 1.710397720336914,
+          "mechanism_specific": 0.030033817514777184,
+          "total": 1.860333800315857,
+          "variance": 0.18982718884944916,
+          "within": 0.312034010887146
+        },
+        "final_state_sha256": "ae896009da23f791b5d5eb472bb696180efd594c77d70ea1c603dac6aa897102",
+        "first_gradient_norm": 2.472689151763916,
+        "gpu_seconds": 0.8013416748046875,
+        "graph_anchor_embedding_sha256": "206fb971f9832576fb0e847317b32fb5b7c18b2a2ff3017e027b2c18d3414b7d",
+        "initial_state_sha256": "15e083579c321db63a929e6f010941730858d2dc63cea32ee8348112f7a7581f",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "4713e9e88452790474c36b7f914c22d3a813060bffa2f96fba8b9f9b09fb6425",
+        "mechanism": "SHARED_PRIVATE_ORTHOGONAL",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "parameters_changed": true,
+        "peak_gpu_mib": 51.77783203125,
+        "peak_rss_mib": 1407.24609375,
+        "processed_shapes": [
+          [
+            4326,
+            30
+          ],
+          [
+            4326,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            4326,
+            18085
+          ],
+          [
+            4326,
+            31
+          ]
+        ],
+        "sparse_edge_count": 17834,
+        "status": "PASS",
+        "total_observations": 4326,
+        "trainable_parameter_count": 24376,
+        "training_seed": 0,
+        "wall_seconds": 0.8379603233188391
+      },
+      {
+        "aligned_embedding_sha256": "c4b36690d4e3a6a0210adf7e541b517a3ac1b8658d30b22c8b7167bb955eea9f",
+        "anchor_shape": [
+          1949,
+          64
+        ],
+        "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+        "checkpoint_sha256": "880a447d94e12d578857d02f6043f0cc02c348d0b38ad8cac0a260f02ae79dd7",
+        "config_sha256": "7b83cbd8f2a4acbfe80c186316d1ff99bd2f3d1a45951d295e98b1dd54aeb309",
+        "dataset": "MISAR_E15_5_S1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 1949,
+        "final_embedding_sha256": "353c4de39e476977a9cc78bf6a56bd4f8f84f85a9c098904f5f31cb12dd8cd3e",
+        "final_loss_components": {
+          "agreement": 0.8717404007911682,
+          "anchor": 0.991157591342926,
+          "cross": 1.9013686180114746,
+          "mechanism_specific": 0.023327669128775597,
+          "total": 1.8144009113311768,
+          "variance": 0.1610708236694336,
+          "within": 0.20282988250255585
+        },
+        "final_state_sha256": "e569793098a3e1bbcb407b39537b4dd08fcab4de79de0d0b278a3e63ebbfb200",
+        "first_gradient_norm": 2.0626111030578613,
+        "gpu_seconds": 0.5105361633300781,
+        "graph_anchor_embedding_sha256": "d6b7a7cb224eed0e893b7064a377a4a76f17ef738f8bd74867a4b0ca9aeb4d33",
+        "initial_state_sha256": "a25161de4caffa2218031a1f81d31d4a073697ac8a5206275acd5ac6f734dd7e",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "51f68082a8d8ac89951eed7b2696959de06863aa393ed0cafab7b89b3a3c7e1b",
+        "mechanism": "SHARED_PRIVATE_ORTHOGONAL",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+        "parameters_changed": true,
+        "peak_gpu_mib": 32.69970703125,
+        "peak_rss_mib": 1407.24609375,
+        "processed_shapes": [
+          [
+            1949,
+            30
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            1949,
+            2000
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "sparse_edge_count": 8070,
+        "status": "PASS",
+        "total_observations": 1949,
+        "trainable_parameter_count": 28256,
+        "training_seed": 0,
+        "wall_seconds": 0.5361566934734583
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+      "final_residual": 0.3,
+      "graph_residual": 0.0,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "SHARED_PRIVATE_ORTHOGONAL",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "7b83cbd8f2a4acbfe80c186316d1ff99bd2f3d1a45951d295e98b1dd54aeb309",
+    "datasets": [
+      "tonsil_s1",
+      "MISAR_E15_5_S1"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 2
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "ffe5e45eabb6cd7ee967a5b8c435d26793401996fd2e40dea3b19cc1b3ab81d8",
+        "anchor_shape": [
+          4326,
+          64
+        ],
+        "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+        "checkpoint_sha256": "7fb05f52622ff7296b54054f9bcc5eac26091c05c174c4aff0961d0e40f5666a",
+        "config_sha256": "6b54fa74ba2c043ac89d5276d8173c70c6b8646929c8f4c4aef84c4adde14fe1",
+        "dataset": "tonsil_s1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 4326,
+        "final_embedding_sha256": "ef90cc1c2ba89d4bb59eb053347825518600d5b42624b003c465cb0a51631ef1",
+        "final_loss_components": {
+          "agreement": 0.45062020421028137,
+          "anchor": 1.0956132411956787,
+          "cross": 1.61069655418396,
+          "mechanism_specific": 0.0,
+          "total": 4.018000602722168,
+          "variance": 0.2543206810951233,
+          "within": 0.8436248898506165
+        },
+        "final_state_sha256": "a3fe6a815941439bacc79e34c171ea2e634bf1e989ef9d88fc80f3eb9c3efe88",
+        "first_gradient_norm": 1.598828911781311,
+        "gpu_seconds": 0.5654845581054687,
+        "graph_anchor_embedding_sha256": "206fb971f9832576fb0e847317b32fb5b7c18b2a2ff3017e027b2c18d3414b7d",
+        "initial_state_sha256": "06c6e697a74fb8b91f0e59c3355aeecfb7db444090bbdeff193101c07e5bdcc9",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "41994d376bb01be4ead64d42e4c80645ccdeaa2596ec696af7210c1bd8e58755",
+        "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "parameters_changed": true,
+        "peak_gpu_mib": 43.11962890625,
+        "peak_rss_mib": 1408.9140625,
+        "processed_shapes": [
+          [
+            4326,
+            30
+          ],
+          [
+            4326,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            4326,
+            18085
+          ],
+          [
+            4326,
+            31
+          ]
+        ],
+        "sparse_edge_count": 17834,
+        "status": "PASS",
+        "total_observations": 4326,
+        "trainable_parameter_count": 12156,
+        "training_seed": 0,
+        "wall_seconds": 0.6001636199653149
+      },
+      {
+        "aligned_embedding_sha256": "e77ab2aaa71414eb4991be6c732650cd7a112af9adbea53f35a3ad1cc619c87b",
+        "anchor_shape": [
+          1949,
+          64
+        ],
+        "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+        "checkpoint_sha256": "29ec33db32ae793983e2ef11c1e66f6b9a6ec09bd320b5667fd37a0f960bd34c",
+        "config_sha256": "6b54fa74ba2c043ac89d5276d8173c70c6b8646929c8f4c4aef84c4adde14fe1",
+        "dataset": "MISAR_E15_5_S1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 1949,
+        "final_embedding_sha256": "ac0e2c8331dd0c3786531c69de13964ea7852612e4ae9639f9c9f56f52cd6c85",
+        "final_loss_components": {
+          "agreement": 0.5701104402542114,
+          "anchor": 1.0889915227890015,
+          "cross": 1.7519614696502686,
+          "mechanism_specific": 0.0,
+          "total": 4.281704902648926,
+          "variance": 0.22811923921108246,
+          "within": 0.8799405694007874
+        },
+        "final_state_sha256": "070ddbbfbf789b42b1f1b8eef2afe0d28b80394edef7856c45e096a44206fae7",
+        "first_gradient_norm": 1.2789833545684814,
+        "gpu_seconds": 0.4056033935546875,
+        "graph_anchor_embedding_sha256": "d6b7a7cb224eed0e893b7064a377a4a76f17ef738f8bd74867a4b0ca9aeb4d33",
+        "initial_state_sha256": "77eb34b696902025f50b6d46f31535748a024b11f63217b40c42021ddff06367",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "41aad49538dd3e1a1dbd4306105a91116bf66a7e8ecb308e5badbaf9e53ad38d",
+        "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+        "parameters_changed": true,
+        "peak_gpu_mib": 29.201171875,
+        "peak_rss_mib": 1408.9140625,
+        "processed_shapes": [
+          [
+            1949,
+            30
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            1949,
+            2000
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "sparse_edge_count": 8070,
+        "status": "PASS",
+        "total_observations": 1949,
+        "trainable_parameter_count": 14736,
+        "training_seed": 0,
+        "wall_seconds": 0.421372527256608
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+      "final_residual": 0.3,
+      "graph_residual": 0.0,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "6b54fa74ba2c043ac89d5276d8173c70c6b8646929c8f4c4aef84c4adde14fe1",
+    "datasets": [
+      "tonsil_s1",
+      "MISAR_E15_5_S1"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 2
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "a6c54f1c01c298adcdf655885bab7cb8610672dd34a99d8fcfa11c9c9fa97034",
+        "anchor_shape": [
+          3484,
+          64
+        ],
+        "candidate_id": "E11_EDGE_RELIABILITY_ANCHORED_R10",
+        "checkpoint_sha256": "d5f5dc3420ab751dca22bb7d9fb1bf0a791fca43f5e522a0237206773fce71ed",
+        "config_sha256": "abd841691171b94b8aa535bbc09392da2d8feba6dba7f6710354bc5aaf752c4a",
+        "dataset": "A1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.42968448996543884,
+        "edge_reliability_sd": 0.03668690472841263,
+        "evaluated_observations": 3484,
+        "final_embedding_sha256": "c8b4212f9fa29329d5df749e81f1facdcc34b4c7e99514c0ca50a20a7c163f54",
+        "final_loss_components": {
+          "agreement": 1.0026243925094604,
+          "anchor": 0.6232467889785767,
+          "cross": 2.0518746376037598,
+          "mechanism_specific": 0.036102790385484695,
+          "total": 3.267634630203247,
+          "variance": 0.18736575543880463,
+          "within": 0.7391543984413147
+        },
+        "final_state_sha256": "a9fa1f81f03f49cf23321d646cc6e2fb0f6c0065e333afbaed5c6eb378ba82d8",
+        "first_gradient_norm": 1.8191452026367188,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "51f571776959e9e4e83e2603bada7472105a41f9eaf279ef1a4f2473e90a38cc",
+          "edge_reliability_mean": 0.42968448996543884,
+          "edge_reliability_sd": 0.03668690472841263,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "5bcd2e4577cdef4c8cccda98a383b67f29db3d1e99da6da782ac90bd32bb2370",
+          "final_state_sha256": "a9fa1f81f03f49cf23321d646cc6e2fb0f6c0065e333afbaed5c6eb378ba82d8",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "0aad16b910e0d86270095ed2b206983790072d60da2111de260c820f91a2c27c",
+          "learned_embedding_sha256": "24c80fcc8d14ef2228d2b11f92bb5889aad3550efe6ef2e483905d5d3e26039f",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.5254820556640625,
+        "graph_anchor_embedding_sha256": "405c16ad6b71f19ae95cf920561fa3ed002e47c09963b55f8d101270e6d84186",
+        "initial_state_sha256": "b7c3ad2a5d23ba2814499daacb6d91bf952ab0fae5ac2e99df47daa37455c2d2",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "ec3dd200e16866376d051eccda7d999af2b2e53e472aaf32cd80a524cb06bb9f",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "parameters_changed": true,
+        "peak_gpu_mib": 76.6806640625,
+        "peak_rss_mib": 1117.67578125,
+        "processed_shapes": [
+          [
+            3484,
+            30
+          ],
+          [
+            3484,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            3484,
+            18085
+          ],
+          [
+            3484,
+            31
+          ]
+        ],
+        "sparse_edge_count": 14166,
+        "status": "PASS",
+        "total_observations": 3484,
+        "trainable_parameter_count": 12253,
+        "training_seed": 0,
+        "wall_seconds": 1.5582181122153997
+      },
+      {
+        "aligned_embedding_sha256": "324770ea08c42b85467c5381488e757970f8b78332847e2da5e9291bd0c28b14",
+        "anchor_shape": [
+          4326,
+          64
+        ],
+        "candidate_id": "E11_EDGE_RELIABILITY_ANCHORED_R10",
+        "checkpoint_sha256": "25be19d0a382bc9992e5e6cbff4ffae1f701fc2a46b0f05122aa5813118c452d",
+        "config_sha256": "abd841691171b94b8aa535bbc09392da2d8feba6dba7f6710354bc5aaf752c4a",
+        "dataset": "tonsil_s1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.5090630054473877,
+        "edge_reliability_sd": 0.040759503841400146,
+        "evaluated_observations": 4326,
+        "final_embedding_sha256": "d9eee40b2381451ddc4180198cc9c40a58a82a9d8a3fe4d7df049e5c961052b8",
+        "final_loss_components": {
+          "agreement": 0.9807030558586121,
+          "anchor": 0.6417285799980164,
+          "cross": 1.9623703956604004,
+          "mechanism_specific": 0.022971956059336662,
+          "total": 3.254452705383301,
+          "variance": 0.17950519919395447,
+          "within": 0.7462828159332275
+        },
+        "final_state_sha256": "7c035f00693b04d5928f3a36ce5b81ab67bb4facf743266e3393927acd3f1e0d",
+        "first_gradient_norm": 1.7980968952178955,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "b67b1f58143812a4533e240be821232a88896cf69cc7630f9bbbdcb8a3b4835a",
+          "edge_reliability_mean": 0.5090630054473877,
+          "edge_reliability_sd": 0.040759503841400146,
+          "embedding_max_abs_difference": 9.5367431640625e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "3a874049e615915a8de779a64e31cecc159ae9882b02e89a468abb0400f8d779",
+          "final_state_sha256": "7c035f00693b04d5928f3a36ce5b81ab67bb4facf743266e3393927acd3f1e0d",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "32a4311d37280f79ed70a5b4d34654a9ee221e5d3338b8997bdb83d72c8f2013",
+          "learned_embedding_sha256": "6d5cff0ba085ddad522d8f75d5cd24b799f3278d190065ad3cf52861652a135d",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.2276322021484376,
+        "graph_anchor_embedding_sha256": "f664ff53748558619946d170bac0a76469e6cc78ee2986cb5978ee18ef572cd7",
+        "initial_state_sha256": "b7c3ad2a5d23ba2814499daacb6d91bf952ab0fae5ac2e99df47daa37455c2d2",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "171d68419658ab7b627c371c3deb8cd3f3c8743fd1fb3ff479ba7215f578ef3e",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "parameters_changed": true,
+        "peak_gpu_mib": 95.39794921875,
+        "peak_rss_mib": 1925.38671875,
+        "processed_shapes": [
+          [
+            4326,
+            30
+          ],
+          [
+            4326,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            4326,
+            18085
+          ],
+          [
+            4326,
+            31
+          ]
+        ],
+        "sparse_edge_count": 17834,
+        "status": "PASS",
+        "total_observations": 4326,
+        "trainable_parameter_count": 12253,
+        "training_seed": 0,
+        "wall_seconds": 1.2670047637075186
+      },
+      {
+        "aligned_embedding_sha256": "cc0208f2e41d5e8618984a34733111ee4395714551b06ef9cf05a2d65d727456",
+        "anchor_shape": [
+          9196,
+          64
+        ],
+        "candidate_id": "E11_EDGE_RELIABILITY_ANCHORED_R10",
+        "checkpoint_sha256": "6d0ed6b60b4193ab6a8abf5fdfb44b8b277ee0f3f1cbc31826cab1183133448c",
+        "config_sha256": "abd841691171b94b8aa535bbc09392da2d8feba6dba7f6710354bc5aaf752c4a",
+        "dataset": "P22",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4313088059425354,
+        "edge_reliability_sd": 0.010503907687962055,
+        "evaluated_observations": 9196,
+        "final_embedding_sha256": "858d96715240fc1e2bb6e0ae849898c0466d4f73f9171ca0ab9025c68dd97d8e",
+        "final_loss_components": {
+          "agreement": 0.9775329232215881,
+          "anchor": 0.5998387932777405,
+          "cross": 2.1413187980651855,
+          "mechanism_specific": 0.0760214775800705,
+          "total": 3.36098575592041,
+          "variance": 0.180276557803154,
+          "within": 0.8210761547088623
+        },
+        "final_state_sha256": "344f9ac817396d259dca16e26ad19df63009cfc30920da6fdd351fd49cbd1b1f",
+        "first_gradient_norm": 1.6179139614105225,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "b02bdc985b9bd3e7b64e68cb2a72cadc148065c37ac86bd1964b5a3302dac68f",
+          "edge_reliability_mean": 0.4313088059425354,
+          "edge_reliability_sd": 0.010503907687962055,
+          "embedding_max_abs_difference": 9.5367431640625e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "528ae1b50ef2781db2c1a0f997a88461e7ae5cf055532eaed5b92132a9dddc48",
+          "final_state_sha256": "344f9ac817396d259dca16e26ad19df63009cfc30920da6fdd351fd49cbd1b1f",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "f9bb4fa397973f0c5f9f52f8763ba823a0d038701757d0b58cdd48f1685e459a",
+          "learned_embedding_sha256": "e18e5aa678f83febc40ca412cb8d3b7a44f03a540f8498d7154327735aa81439",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.2471937255859376,
+        "graph_anchor_embedding_sha256": "25845f6bc555cea7d4bac447757eb445625a1911e9879321dab897c31b3b4bce",
+        "initial_state_sha256": "b9b7925b64f44a42ebdce99c1481e6e1e596c97df54e643c20ab0a91c735cf84",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "bb6c0404ca6ec77f27bdeb29847788d21a9646e1cfe6a0e93b882fc0eccd8b43",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+        "parameters_changed": true,
+        "peak_gpu_mib": 182.4052734375,
+        "peak_rss_mib": 2521.53125,
+        "processed_shapes": [
+          [
+            9196,
+            30
+          ],
+          [
+            9196,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            9196,
+            22914
+          ],
+          [
+            9196,
+            121068
+          ]
+        ],
+        "sparse_edge_count": 37168,
+        "status": "PASS",
+        "total_observations": 9196,
+        "trainable_parameter_count": 14833,
+        "training_seed": 0,
+        "wall_seconds": 1.321910673752427
+      },
+      {
+        "aligned_embedding_sha256": "0afd935016d4ff53ce3680a387a49b6b5d09cbe2ea777ef0f355523b68c1119b",
+        "anchor_shape": [
+          1949,
+          64
+        ],
+        "candidate_id": "E11_EDGE_RELIABILITY_ANCHORED_R10",
+        "checkpoint_sha256": "78179783daab896f28f48d29e797c54415977b80a0d45b417a60c56f5911cc4d",
+        "config_sha256": "abd841691171b94b8aa535bbc09392da2d8feba6dba7f6710354bc5aaf752c4a",
+        "dataset": "MISAR_E15_5_S1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4459918141365051,
+        "edge_reliability_sd": 0.010096265003085136,
+        "evaluated_observations": 1949,
+        "final_embedding_sha256": "a96470f113da1b040d03d066cc5f07c72dbd4997741651a07996e4efcfa4e8e0",
+        "final_loss_components": {
+          "agreement": 0.897454023361206,
+          "anchor": 0.536392867565155,
+          "cross": 2.0997939109802246,
+          "mechanism_specific": 0.07005070894956589,
+          "total": 3.148249626159668,
+          "variance": 0.15389451384544373,
+          "within": 0.7802720069885254
+        },
+        "final_state_sha256": "81a348327cfeb36168fde03ef7dd48b70fd3f5ae2ac1df36914176c8f0193bef",
+        "first_gradient_norm": 1.5804821252822876,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "5022278eff0d48a9c869ca3dcbc641b83af40e40de8b5548d7729a1b00fe9721",
+          "edge_reliability_mean": 0.4459918141365051,
+          "edge_reliability_sd": 0.010096265003085136,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "cefe56b48f8f86c6d1dd873396787fcec5c92ef8b69ebca4f00d78a933e71c2c",
+          "final_state_sha256": "81a348327cfeb36168fde03ef7dd48b70fd3f5ae2ac1df36914176c8f0193bef",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "b25e19c6af975a60ab91035281a3bd3c3dfbd63e180cdd637cd6f9eaadd890c0",
+          "learned_embedding_sha256": "dea5754a23e79fad52ac5ad5125cfb447e84b7a5fb641e65d578783bc70d60bb",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.173601806640625,
+        "graph_anchor_embedding_sha256": "d70e03f6877085e65ff6548e79e954bc7616b0ed01f58d52b05d854174e50b4f",
+        "initial_state_sha256": "b9b7925b64f44a42ebdce99c1481e6e1e596c97df54e643c20ab0a91c735cf84",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "6e6f43e707faa1eafa5415500f8050e8de33a4ac0472e45d879933d84a878ed3",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+        "parameters_changed": true,
+        "peak_gpu_mib": 51.2646484375,
+        "peak_rss_mib": 2521.53125,
+        "processed_shapes": [
+          [
+            1949,
+            30
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            1949,
+            2000
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "sparse_edge_count": 8070,
+        "status": "PASS",
+        "total_observations": 1949,
+        "trainable_parameter_count": 14833,
+        "training_seed": 0,
+        "wall_seconds": 1.1926716603338718
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 2.0,
+      "candidate_id": "E11_EDGE_RELIABILITY_ANCHORED_R10",
+      "final_residual": 0.1,
+      "graph_residual": 0.1,
+      "latent": 64,
+      "learning_rate": 0.0005,
+      "mechanism": "EDGE_RELIABILITY",
+      "steps": 160,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "abd841691171b94b8aa535bbc09392da2d8feba6dba7f6710354bc5aaf752c4a",
+    "datasets": [
+      "A1",
+      "tonsil_s1",
+      "P22",
+      "MISAR_E15_5_S1"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 4,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 4
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "adca9063331859c7b8036415a177eab0be3a62b713411cc0307438a0714f4dd9",
+        "anchor_shape": [
+          3484,
+          64
+        ],
+        "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+        "checkpoint_sha256": "0c203bdbf7638cc32b817fc4882666764f6152fb8167e59ba23c70859c51cb06",
+        "config_sha256": "f272d7010ad06a6f8dfa158bc6908efd4966c6c7a623bc8374519ced35d18216",
+        "dataset": "A1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.42968448996543884,
+        "edge_reliability_sd": 0.03668690100312233,
+        "evaluated_observations": 3484,
+        "final_embedding_sha256": "8f816c698d9817200a4751929e7b9b90cf6c520ba28f57cbf0db5ce64275b217",
+        "final_loss_components": {
+          "agreement": 1.0026243925094604,
+          "anchor": 0.6232467889785767,
+          "cross": 2.0518746376037598,
+          "mechanism_specific": 0.0361027866601944,
+          "total": 3.267634630203247,
+          "variance": 0.18736577033996582,
+          "within": 0.7391543388366699
+        },
+        "final_state_sha256": "6f8aeb266541261c85e8e360b902c85124eb62c412571548b555e44af43a6794",
+        "first_gradient_norm": 1.8191452026367188,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "de079e8ff05fd5b365ab05a35246a21994ba9caf4f713949421cc7bbf22056d8",
+          "edge_reliability_mean": 0.42968448996543884,
+          "edge_reliability_sd": 0.03668690100312233,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "612537fe83fc47cb788527e7e7104772ab7ac05c147bff05943516143e1051bf",
+          "final_state_sha256": "6f8aeb266541261c85e8e360b902c85124eb62c412571548b555e44af43a6794",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "c9cb95628aa06d8134bd3eb8eaaf89c91fb5c34c2a599556afd9a16bd3751a41",
+          "learned_embedding_sha256": "c9e51ff67b083ba93b3ef4026326671f12c14ff2505fea9fcf60e443126ab383",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.5418939208984375,
+        "graph_anchor_embedding_sha256": "d4a640d013e8d0e6bd47a57a801c62bd7f16bca648cbd241342774f986ab0350",
+        "initial_state_sha256": "b7c3ad2a5d23ba2814499daacb6d91bf952ab0fae5ac2e99df47daa37455c2d2",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "fec19658f6c43ddddd205d9120134404f415efc702711d1a40107a160b1284a1",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "parameters_changed": true,
+        "peak_gpu_mib": 76.6806640625,
+        "peak_rss_mib": 1114.57421875,
+        "processed_shapes": [
+          [
+            3484,
+            30
+          ],
+          [
+            3484,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            3484,
+            18085
+          ],
+          [
+            3484,
+            31
+          ]
+        ],
+        "sparse_edge_count": 14166,
+        "status": "PASS",
+        "total_observations": 3484,
+        "trainable_parameter_count": 12253,
+        "training_seed": 0,
+        "wall_seconds": 1.5725757516920567
+      },
+      {
+        "aligned_embedding_sha256": "5cf39cefefa585b6339c6d6bbe072cb31a8fbdcad6f28dbd555527947db3e960",
+        "anchor_shape": [
+          4326,
+          64
+        ],
+        "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+        "checkpoint_sha256": "4c5f1f6240908a3aff5cc78e90a70b87ed67be330b7a1b464a513d0043ff1e3d",
+        "config_sha256": "f272d7010ad06a6f8dfa158bc6908efd4966c6c7a623bc8374519ced35d18216",
+        "dataset": "tonsil_s1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.5090630054473877,
+        "edge_reliability_sd": 0.040759503841400146,
+        "evaluated_observations": 4326,
+        "final_embedding_sha256": "6d228f1ce948c9e1c0f3c9307e40318aa005e8aaa5e3b5ce2bad0fdc02f2ef15",
+        "final_loss_components": {
+          "agreement": 0.9807030558586121,
+          "anchor": 0.6417285799980164,
+          "cross": 1.9623703956604004,
+          "mechanism_specific": 0.022971956059336662,
+          "total": 3.254452705383301,
+          "variance": 0.17950519919395447,
+          "within": 0.746282696723938
+        },
+        "final_state_sha256": "6662d1bc2d12561a5c0db722b45c805b221339029362e2560d79bba5785a812d",
+        "first_gradient_norm": 1.7980968952178955,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "42a70200231c58940ef5504dab4654dc50c71c2f21ad07d5ff9a58f9a57adb04",
+          "edge_reliability_mean": 0.5090630054473877,
+          "edge_reliability_sd": 0.040759503841400146,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "e52644ed0d53162d0a07ba7a917e29b524476cbf1c0e790536e3a38b69ccdf3f",
+          "final_state_sha256": "6662d1bc2d12561a5c0db722b45c805b221339029362e2560d79bba5785a812d",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "5d37ab55fe0f2445bc23b5397ba147ef479b807e6478fd5ea8214238257c0bf7",
+          "learned_embedding_sha256": "087dac6ab9d1f75a1b1edebe0e54e72b9f12765ec01194c59908d547db5c769d",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.2993748779296874,
+        "graph_anchor_embedding_sha256": "45e052e3136c3df8e0dde1f199f6ad3599e8f01dfa8c49907cca0f760b55772f",
+        "initial_state_sha256": "b7c3ad2a5d23ba2814499daacb6d91bf952ab0fae5ac2e99df47daa37455c2d2",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "d5cfbecfd93ba8adfa22cc05c75531a8b76d16a9c8daf29e6d326025ae945b2b",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "9a30299971a5d7e475f17257fe9e0b34c500544ec6da856aec78b09648d5ba83",
+        "parameters_changed": true,
+        "peak_gpu_mib": 95.39794921875,
+        "peak_rss_mib": 1921.890625,
+        "processed_shapes": [
+          [
+            4326,
+            30
+          ],
+          [
+            4326,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            4326,
+            18085
+          ],
+          [
+            4326,
+            31
+          ]
+        ],
+        "sparse_edge_count": 17834,
+        "status": "PASS",
+        "total_observations": 4326,
+        "trainable_parameter_count": 12253,
+        "training_seed": 0,
+        "wall_seconds": 1.3388424161821604
+      },
+      {
+        "aligned_embedding_sha256": "bf4fc43d30a633aefce3f00bec5417b189345e8fd4586214c7d4ba6e23cd353e",
+        "anchor_shape": [
+          9196,
+          64
+        ],
+        "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+        "checkpoint_sha256": "77f59d112a76e31d323bedd32167f6b9c91a11c3deff3203df6980560bd57029",
+        "config_sha256": "f272d7010ad06a6f8dfa158bc6908efd4966c6c7a623bc8374519ced35d18216",
+        "dataset": "P22",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4313088059425354,
+        "edge_reliability_sd": 0.01050390861928463,
+        "evaluated_observations": 9196,
+        "final_embedding_sha256": "879fd729ea6a75ee61259c9f78e3a17017bd03be41c6bee9fc5b278e74adbfbd",
+        "final_loss_components": {
+          "agreement": 0.9775329232215881,
+          "anchor": 0.5998387932777405,
+          "cross": 2.1413187980651855,
+          "mechanism_specific": 0.0760214775800705,
+          "total": 3.36098575592041,
+          "variance": 0.180276557803154,
+          "within": 0.8210761547088623
+        },
+        "final_state_sha256": "1ca9a8c22dbe55c1ddfad8f19c83abb3be90552daf50ad5ac379a04d8ef5cefe",
+        "first_gradient_norm": 1.6179139614105225,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "2e457223a0b54d16fca0c775e689ff153067da79619444cf9aba65b7773a3967",
+          "edge_reliability_mean": 0.4313088059425354,
+          "edge_reliability_sd": 0.01050390861928463,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "f4fbe0cb6836246c95630a66ef3dadf672c6a77a5bccd81393e4b13f3ef0567f",
+          "final_state_sha256": "1ca9a8c22dbe55c1ddfad8f19c83abb3be90552daf50ad5ac379a04d8ef5cefe",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "48471771ed57099d8fff05fea70c9af3f8e72008d9e6db55d6ea7e7dea06f13a",
+          "learned_embedding_sha256": "bbe96ac155ca6882824ac1ec27e1ae691b3bef59aae3acb78db4e21bfb13c48b",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.276134521484375,
+        "graph_anchor_embedding_sha256": "8abfddf2bba82858131debe7a4207be60cb3baaf38383a0935ade5671360673c",
+        "initial_state_sha256": "b9b7925b64f44a42ebdce99c1481e6e1e596c97df54e643c20ab0a91c735cf84",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "a031e4aec5a0d5a4df8cef25f69819cd243d13c30a9e25dbb74db4c5f4929cd9",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+        "parameters_changed": true,
+        "peak_gpu_mib": 182.4052734375,
+        "peak_rss_mib": 2517.90234375,
+        "processed_shapes": [
+          [
+            9196,
+            30
+          ],
+          [
+            9196,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            9196,
+            22914
+          ],
+          [
+            9196,
+            121068
+          ]
+        ],
+        "sparse_edge_count": 37168,
+        "status": "PASS",
+        "total_observations": 9196,
+        "trainable_parameter_count": 14833,
+        "training_seed": 0,
+        "wall_seconds": 1.3555552270263433
+      },
+      {
+        "aligned_embedding_sha256": "42f052d6fb808499b0d13cfc50df715270f92a2a54f170ce25940391d15c96ef",
+        "anchor_shape": [
+          1949,
+          64
+        ],
+        "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+        "checkpoint_sha256": "2720d22780be4c85a9a2ca14a1ea616d8d80f2f8ce96e4e7a9b37d211c64c3fd",
+        "config_sha256": "f272d7010ad06a6f8dfa158bc6908efd4966c6c7a623bc8374519ced35d18216",
+        "dataset": "MISAR_E15_5_S1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4459918141365051,
+        "edge_reliability_sd": 0.010096265003085136,
+        "evaluated_observations": 1949,
+        "final_embedding_sha256": "0713f4de44d24102e4ad2c2a0d95ad621b9ad176ad5fc95a46fb31a9a80da11c",
+        "final_loss_components": {
+          "agreement": 0.897454023361206,
+          "anchor": 0.536392867565155,
+          "cross": 2.0997939109802246,
+          "mechanism_specific": 0.07005070894956589,
+          "total": 3.148249626159668,
+          "variance": 0.15389451384544373,
+          "within": 0.7802720069885254
+        },
+        "final_state_sha256": "3c228149ab130b6f5564de3e51a208d7b71e884dd0f11bedc8c3f68f4998952b",
+        "first_gradient_norm": 1.5804821252822876,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "ed2a93b43bba0ea41294aa94b9f1203d6c36402f53822ad77e23c4f50452d5cf",
+          "edge_reliability_mean": 0.4459918141365051,
+          "edge_reliability_sd": 0.010096265003085136,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "4e6a8daa708ca2f3a39dbb4ee4316bee6d7f98b28b626bcfc3cb0217ee35963e",
+          "final_state_sha256": "3c228149ab130b6f5564de3e51a208d7b71e884dd0f11bedc8c3f68f4998952b",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "21d72fd9155e3728d7c8e0d283d790d9b82e11c27909f1d284d60da97c414c2f",
+          "learned_embedding_sha256": "62e8625973d512041582cb040a33ff62e87749b0c637029e4199eab3d29c1e79",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.2238983154296874,
+        "graph_anchor_embedding_sha256": "c9be8855d9c751479a746880604ba76f3bb15917a294f2aeb733461ae97f0165",
+        "initial_state_sha256": "b9b7925b64f44a42ebdce99c1481e6e1e596c97df54e643c20ab0a91c735cf84",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "1cb14012404ea2f566e03d822ab65ba7755dde8c6fc0b833d5453fbbf9ec0ae7",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 160,
+        "ordered_id_sha256": "9f0514cee55d307a0ff81d44ffffc2da742dbe2d02b849576b7ef5903743dd1b",
+        "parameters_changed": true,
+        "peak_gpu_mib": 51.2646484375,
+        "peak_rss_mib": 2517.90234375,
+        "processed_shapes": [
+          [
+            1949,
+            30
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            1949,
+            2000
+          ],
+          [
+            1949,
+            50
+          ]
+        ],
+        "sparse_edge_count": 8070,
+        "status": "PASS",
+        "total_observations": 1949,
+        "trainable_parameter_count": 14833,
+        "training_seed": 0,
+        "wall_seconds": 1.244085231795907
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 2.0,
+      "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+      "final_residual": 0.05,
+      "graph_residual": 0.1,
+      "latent": 64,
+      "learning_rate": 0.0005,
+      "mechanism": "EDGE_RELIABILITY",
+      "steps": 160,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "f272d7010ad06a6f8dfa158bc6908efd4966c6c7a623bc8374519ced35d18216",
+    "datasets": [
+      "A1",
+      "tonsil_s1",
+      "P22",
+      "MISAR_E15_5_S1"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 4,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 4
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "a366ac53b7de234745d065648e16c4f27fa85a454be7860bd9accd106e5a4ba9",
+        "anchor_shape": [
+          3484,
+          64
+        ],
+        "candidate_id": "E10_EDGE_RELIABILITY",
+        "checkpoint_sha256": "6b3d7642f6ca1a27248bb4c7d67c940b8f35484befc43bc6351922ddd9f7aef9",
+        "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+        "dataset": "A1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4545624256134033,
+        "edge_reliability_sd": 0.03882338106632233,
+        "evaluated_observations": 3484,
+        "final_embedding_sha256": "6fb73949ebf2832d4bbb1a711ff27275c976cb1d4aa0aaed8f6b9456ee39b01f",
+        "final_loss_components": {
+          "agreement": 0.774945080280304,
+          "anchor": 1.124465823173523,
+          "cross": 1.9787695407867432,
+          "mechanism_specific": 0.03742678463459015,
+          "total": 2.35023832321167,
+          "variance": 0.16085074841976166,
+          "within": 0.5927480459213257
+        },
+        "final_state_sha256": "56dbaa1e8e0ffa2732cdc732cf208762c231c40210e351881ecf96e349d7af2f",
+        "first_gradient_norm": 1.6048115491867065,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "eb70611d54908161b218fcc4241f993423652aebb6c34738b2eef2dd87093f41",
+          "edge_reliability_mean": 0.4545624256134033,
+          "edge_reliability_sd": 0.03882338106632233,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "5bf5d236c4f41c70b39803573a586ac03542e16f49da757d2d0df796d891e200",
+          "final_state_sha256": "56dbaa1e8e0ffa2732cdc732cf208762c231c40210e351881ecf96e349d7af2f",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "3ce8410e5bbdddf328deca439929b69611d1eefbd6daf0d175e6f35ec52ccd2b",
+          "learned_embedding_sha256": "69f0c5cfb2f2414046d7446fb4555cec93bd781095635afddcb74c30f3ae0800",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 1.502264892578125,
+        "graph_anchor_embedding_sha256": "fa0eebb4735d7f37d7e939c25eda513cb569ef5e2140e098e01cdc8405898c75",
+        "initial_state_sha256": "b7c3ad2a5d23ba2814499daacb6d91bf952ab0fae5ac2e99df47daa37455c2d2",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "2ec958a29d9040310e2ad4c615e1db433875149b4ee6b1810e56632d58c6b08d",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "parameters_changed": true,
+        "peak_gpu_mib": 76.6806640625,
+        "peak_rss_mib": 1107.296875,
+        "processed_shapes": [
+          [
+            3484,
+            30
+          ],
+          [
+            3484,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            3484,
+            18085
+          ],
+          [
+            3484,
+            31
+          ]
+        ],
+        "sparse_edge_count": 14166,
+        "status": "PASS",
+        "total_observations": 3484,
+        "trainable_parameter_count": 12253,
+        "training_seed": 0,
+        "wall_seconds": 1.5505600459873676
+      },
+      {
+        "aligned_embedding_sha256": "78a18d285dea2c0bec9ce899df5262f1794febf1fd896efafe5d4eacdd888224",
+        "anchor_shape": [
+          9196,
+          64
+        ],
+        "candidate_id": "E10_EDGE_RELIABILITY",
+        "checkpoint_sha256": "d81d699047a590337d2eb6a2bd09bf697e8fa967cad022be9a260f18a48e97f3",
+        "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+        "dataset": "P22",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4447014629840851,
+        "edge_reliability_sd": 0.009055905044078827,
+        "evaluated_observations": 9196,
+        "final_embedding_sha256": "06694c50c65ba75201b697446035e0caa0c87a13ab0f2eaacbfc5dd67a7a5dbc",
+        "final_loss_components": {
+          "agreement": 0.834086537361145,
+          "anchor": 1.0943944454193115,
+          "cross": 2.055678606033325,
+          "mechanism_specific": 0.07030976563692093,
+          "total": 2.4780404567718506,
+          "variance": 0.16718262434005737,
+          "within": 0.6675951480865479
+        },
+        "final_state_sha256": "2e510b4ec68f3395e7521f80746cefce6c1da8b283595bc9ac19b0f57b32a5ea",
+        "first_gradient_norm": 1.3828082084655762,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "57c1860a37bc34b947e5d9042aae9dec83177a2a1da8eba7ac7d7ec3072a76fc",
+          "edge_reliability_mean": 0.4447014629840851,
+          "edge_reliability_sd": 0.009055905044078827,
+          "embedding_max_abs_difference": 9.5367431640625e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "65af20bc3da6e3add777815275828eb7645b445cab431367e52d12990ce664ce",
+          "final_state_sha256": "2e510b4ec68f3395e7521f80746cefce6c1da8b283595bc9ac19b0f57b32a5ea",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "63a32c81e9b109c813ea075723fc72ff6190566302a2f8f2071ccb77edb84d98",
+          "learned_embedding_sha256": "9814091e1a1e839ec0213169178cc49145fe7d07a7a9c742f977ad30542dde72",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.7224415893554688,
+        "graph_anchor_embedding_sha256": "7235a85de1cc2afd8eb0b48c3fd14c4510b06636a9af8aac3731f8a8e8358743",
+        "initial_state_sha256": "b9b7925b64f44a42ebdce99c1481e6e1e596c97df54e643c20ab0a91c735cf84",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "6b41ba67fa9a4a75ad28d64bc6174a0ae7c7962b342453d7bdc2ca974c50740a",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+        "parameters_changed": true,
+        "peak_gpu_mib": 182.4052734375,
+        "peak_rss_mib": 2507.09765625,
+        "processed_shapes": [
+          [
+            9196,
+            30
+          ],
+          [
+            9196,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            9196,
+            22914
+          ],
+          [
+            9196,
+            121068
+          ]
+        ],
+        "sparse_edge_count": 37168,
+        "status": "PASS",
+        "total_observations": 9196,
+        "trainable_parameter_count": 14833,
+        "training_seed": 0,
+        "wall_seconds": 0.7994459476321936
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "final_residual": 0.3,
+      "graph_residual": 0.25,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "EDGE_RELIABILITY",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+    "datasets": [
+      "A1",
+      "P22"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 2
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "89c66939f6c97c4297316b3e7202d8b21bb302e7ff3e141587dd1c63b51fa2e9",
+        "anchor_shape": [
+          3484,
+          64
+        ],
+        "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+        "checkpoint_sha256": "9f1a98538fca958ba7d56023d57e7ab04be860d5b51a224d62ceebbadc76d9d1",
+        "config_sha256": "7b83cbd8f2a4acbfe80c186316d1ff99bd2f3d1a45951d295e98b1dd54aeb309",
+        "dataset": "A1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 3484,
+        "final_embedding_sha256": "219ca75becbcc6430addcc43a22d022485f7b850fc95df2e579d875801f84f74",
+        "final_loss_components": {
+          "agreement": 0.8592457175254822,
+          "anchor": 1.0293065309524536,
+          "cross": 1.852123737335205,
+          "mechanism_specific": 0.025987274944782257,
+          "total": 1.9357240200042725,
+          "variance": 0.20030483603477478,
+          "within": 0.32346221804618835
+        },
+        "final_state_sha256": "773efab0e4134fe616763e32adef48ccef49c4bb377662b74e6f5c4b92771635",
+        "first_gradient_norm": 2.4840149879455566,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "89c66939f6c97c4297316b3e7202d8b21bb302e7ff3e141587dd1c63b51fa2e9",
+          "edge_reliability_mean": null,
+          "edge_reliability_sd": null,
+          "embedding_max_abs_difference": 0.0,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "219ca75becbcc6430addcc43a22d022485f7b850fc95df2e579d875801f84f74",
+          "final_state_sha256": "773efab0e4134fe616763e32adef48ccef49c4bb377662b74e6f5c4b92771635",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "d0ca37bd8a63afb44f155c312a43a48f19d820421e239d22df76799794d3eac8",
+          "learned_embedding_sha256": "d6325762884e3bc87fd80a3352c3e4199efeae5138b4b70b9c3e24becf61c8a9",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.8017243041992187,
+        "graph_anchor_embedding_sha256": "d0ca37bd8a63afb44f155c312a43a48f19d820421e239d22df76799794d3eac8",
+        "initial_state_sha256": "15e083579c321db63a929e6f010941730858d2dc63cea32ee8348112f7a7581f",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "d6325762884e3bc87fd80a3352c3e4199efeae5138b4b70b9c3e24becf61c8a9",
+        "mechanism": "SHARED_PRIVATE_ORTHOGONAL",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "parameters_changed": true,
+        "peak_gpu_mib": 43.91748046875,
+        "peak_rss_mib": 963.42578125,
+        "processed_shapes": [
+          [
+            3484,
+            30
+          ],
+          [
+            3484,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            3484,
+            18085
+          ],
+          [
+            3484,
+            31
+          ]
+        ],
+        "sparse_edge_count": 14166,
+        "status": "PASS",
+        "total_observations": 3484,
+        "trainable_parameter_count": 24376,
+        "training_seed": 0,
+        "wall_seconds": 0.8318595327436924
+      },
+      {
+        "aligned_embedding_sha256": "afa65a65f47a3c9641c12b7e0e98b79f2779186dec8509b8bfdb2bdc44d05aa6",
+        "anchor_shape": [
+          9196,
+          64
+        ],
+        "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+        "checkpoint_sha256": "c645f503f95403f47f94974279efec0a7be950eedb595f1f7921599231619906",
+        "config_sha256": "7b83cbd8f2a4acbfe80c186316d1ff99bd2f3d1a45951d295e98b1dd54aeb309",
+        "dataset": "P22",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 9196,
+        "final_embedding_sha256": "9d78b6e06b2b93cea446c6aadbed10d007be73092522c18ec6c17669f839a4e0",
+        "final_loss_components": {
+          "agreement": 0.9234405159950256,
+          "anchor": 1.0153334140777588,
+          "cross": 1.9438538551330566,
+          "mechanism_specific": 0.02306070178747177,
+          "total": 2.008291721343994,
+          "variance": 0.18916460871696472,
+          "within": 0.35004284977912903
+        },
+        "final_state_sha256": "43262a2e86faf3463e93bbf9fea1821b5e7efe95702f00f91f5595393f1c24dc",
+        "first_gradient_norm": 2.1367239952087402,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "afa65a65f47a3c9641c12b7e0e98b79f2779186dec8509b8bfdb2bdc44d05aa6",
+          "edge_reliability_mean": null,
+          "edge_reliability_sd": null,
+          "embedding_max_abs_difference": 0.0,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "9d78b6e06b2b93cea446c6aadbed10d007be73092522c18ec6c17669f839a4e0",
+          "final_state_sha256": "43262a2e86faf3463e93bbf9fea1821b5e7efe95702f00f91f5595393f1c24dc",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "70098d7b02f5748df7b14ea8edef451b4b60a5b60b14c7912f38d992fd51c4c0",
+          "learned_embedding_sha256": "68193ddd744767081ecf28bf870d023a24ce54356406d8d0db59d69d44543bed",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.567475830078125,
+        "graph_anchor_embedding_sha256": "70098d7b02f5748df7b14ea8edef451b4b60a5b60b14c7912f38d992fd51c4c0",
+        "initial_state_sha256": "a25161de4caffa2218031a1f81d31d4a073697ac8a5206275acd5ac6f734dd7e",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "68193ddd744767081ecf28bf870d023a24ce54356406d8d0db59d69d44543bed",
+        "mechanism": "SHARED_PRIVATE_ORTHOGONAL",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+        "parameters_changed": true,
+        "peak_gpu_mib": 96.49951171875,
+        "peak_rss_mib": 2365.609375,
+        "processed_shapes": [
+          [
+            9196,
+            30
+          ],
+          [
+            9196,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            9196,
+            22914
+          ],
+          [
+            9196,
+            121068
+          ]
+        ],
+        "sparse_edge_count": 37168,
+        "status": "PASS",
+        "total_observations": 9196,
+        "trainable_parameter_count": 28256,
+        "training_seed": 0,
+        "wall_seconds": 0.6214655227959156
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+      "final_residual": 0.3,
+      "graph_residual": 0.0,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "SHARED_PRIVATE_ORTHOGONAL",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "7b83cbd8f2a4acbfe80c186316d1ff99bd2f3d1a45951d295e98b1dd54aeb309",
+    "datasets": [
+      "A1",
+      "P22"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 2
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "0e77dcb7eca2b90be8c954c6f5cab5979f734164d0e0d5c247b615778981c8a6",
+        "anchor_shape": [
+          3484,
+          64
+        ],
+        "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+        "checkpoint_sha256": "15be9b67717fd821a4093c03ecc642306b55f1bc5be48ced883af567336ee44c",
+        "config_sha256": "6b54fa74ba2c043ac89d5276d8173c70c6b8646929c8f4c4aef84c4adde14fe1",
+        "dataset": "A1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 3484,
+        "final_embedding_sha256": "64928235a9c3e7f4c5875d88ab766181ea887b56498d619694eabf5f0235c71d",
+        "final_loss_components": {
+          "agreement": 0.5322903990745544,
+          "anchor": 1.0813391208648682,
+          "cross": 1.7695655822753906,
+          "mechanism_specific": 0.0,
+          "total": 4.3136677742004395,
+          "variance": 0.2753676772117615,
+          "within": 0.8547981977462769
+        },
+        "final_state_sha256": "92a79a4305ce1fa43043c48756c5d44e3bd0d34eaa7734ab8782ed38219194e3",
+        "first_gradient_norm": 1.576750636100769,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "0e77dcb7eca2b90be8c954c6f5cab5979f734164d0e0d5c247b615778981c8a6",
+          "edge_reliability_mean": null,
+          "edge_reliability_sd": null,
+          "embedding_max_abs_difference": 0.0,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "64928235a9c3e7f4c5875d88ab766181ea887b56498d619694eabf5f0235c71d",
+          "final_state_sha256": "92a79a4305ce1fa43043c48756c5d44e3bd0d34eaa7734ab8782ed38219194e3",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "d0ca37bd8a63afb44f155c312a43a48f19d820421e239d22df76799794d3eac8",
+          "learned_embedding_sha256": "53caf446c33b070c551fa20b65161ef78d2e39d575001be88a70fc8815a780af",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.5628909301757813,
+        "graph_anchor_embedding_sha256": "d0ca37bd8a63afb44f155c312a43a48f19d820421e239d22df76799794d3eac8",
+        "initial_state_sha256": "06c6e697a74fb8b91f0e59c3355aeecfb7db444090bbdeff193101c07e5bdcc9",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "53caf446c33b070c551fa20b65161ef78d2e39d575001be88a70fc8815a780af",
+        "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "parameters_changed": true,
+        "peak_gpu_mib": 37.71240234375,
+        "peak_rss_mib": 967.4296875,
+        "processed_shapes": [
+          [
+            3484,
+            30
+          ],
+          [
+            3484,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            3484,
+            18085
+          ],
+          [
+            3484,
+            31
+          ]
+        ],
+        "sparse_edge_count": 14166,
+        "status": "PASS",
+        "total_observations": 3484,
+        "trainable_parameter_count": 12156,
+        "training_seed": 0,
+        "wall_seconds": 0.5932308025658131
+      },
+      {
+        "aligned_embedding_sha256": "75a3b5a61c54b5c61301e8ba25da17694a1a258e6b20ee3793ffdefe63fd96eb",
+        "anchor_shape": [
+          9196,
+          64
+        ],
+        "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+        "checkpoint_sha256": "deec9f2a83b8c926cc5aa2be5a311c9b91a8b920f5d477850ec2aa1f4227d220",
+        "config_sha256": "6b54fa74ba2c043ac89d5276d8173c70c6b8646929c8f4c4aef84c4adde14fe1",
+        "dataset": "P22",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": null,
+        "edge_reliability_sd": null,
+        "evaluated_observations": 9196,
+        "final_embedding_sha256": "e301b98f5f772788bbe80edf46931a7205d6bd5610f652db999365a878ec72bc",
+        "final_loss_components": {
+          "agreement": 0.5885018706321716,
+          "anchor": 1.1115673780441284,
+          "cross": 1.8327049016952515,
+          "mechanism_specific": 0.0,
+          "total": 4.525131702423096,
+          "variance": 0.2579551339149475,
+          "within": 0.9425004124641418
+        },
+        "final_state_sha256": "2a53229e95436c21ee953a712a31d141b872fc513fdc81b636d47cfbe7ae2e4e",
+        "first_gradient_norm": 1.4037930965423584,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "75a3b5a61c54b5c61301e8ba25da17694a1a258e6b20ee3793ffdefe63fd96eb",
+          "edge_reliability_mean": null,
+          "edge_reliability_sd": null,
+          "embedding_max_abs_difference": 0.0,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "e301b98f5f772788bbe80edf46931a7205d6bd5610f652db999365a878ec72bc",
+          "final_state_sha256": "2a53229e95436c21ee953a712a31d141b872fc513fdc81b636d47cfbe7ae2e4e",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "70098d7b02f5748df7b14ea8edef451b4b60a5b60b14c7912f38d992fd51c4c0",
+          "learned_embedding_sha256": "b126d485e739f53709b5114c96485b9ec9cbef873940a6d88cd5ef93b6294ebc",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.40557891845703126,
+        "graph_anchor_embedding_sha256": "70098d7b02f5748df7b14ea8edef451b4b60a5b60b14c7912f38d992fd51c4c0",
+        "initial_state_sha256": "77eb34b696902025f50b6d46f31535748a024b11f63217b40c42021ddff06367",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "b126d485e739f53709b5114c96485b9ec9cbef873940a6d88cd5ef93b6294ebc",
+        "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+        "parameters_changed": true,
+        "peak_gpu_mib": 81.1572265625,
+        "peak_rss_mib": 2368.77734375,
+        "processed_shapes": [
+          [
+            9196,
+            30
+          ],
+          [
+            9196,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            9196,
+            22914
+          ],
+          [
+            9196,
+            121068
+          ]
+        ],
+        "sparse_edge_count": 37168,
+        "status": "PASS",
+        "total_observations": 9196,
+        "trainable_parameter_count": 14736,
+        "training_seed": 0,
+        "wall_seconds": 0.4863384775817394
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+      "final_residual": 0.3,
+      "graph_residual": 0.0,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "6b54fa74ba2c043ac89d5276d8173c70c6b8646929c8f4c4aef84c4adde14fe1",
+    "datasets": [
+      "A1",
+      "P22"
+    ],
+    "endpoint_seed_count": 10,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      0
+    ],
+    "unique_final_embedding_sha256": 2
+  },
+  {
+    "all_status_pass": true,
+    "audits": [
+      {
+        "aligned_embedding_sha256": "92e6b5ab925872f2a0560735c93794cab8c5085ecfbd3a9e02b269c3f9fb8703",
+        "anchor_shape": [
+          3484,
+          64
+        ],
+        "candidate_id": "E10_EDGE_RELIABILITY",
+        "checkpoint_sha256": "ebee5f49b961794e6c5699cb0921c5f1355a0d6811c2e401fa6fae718c0a131d",
+        "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+        "dataset": "A1",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.4174773097038269,
+        "edge_reliability_sd": 0.02392428368330002,
+        "evaluated_observations": 3484,
+        "final_embedding_sha256": "321eaac9544e5605d9c9abdbe56a9609f7c8da3df028893b6376c2fdbdb95538",
+        "final_loss_components": {
+          "agreement": 0.796322762966156,
+          "anchor": 1.0887012481689453,
+          "cross": 1.9619896411895752,
+          "mechanism_specific": 0.036490410566329956,
+          "total": 2.338043212890625,
+          "variance": 0.15065640211105347,
+          "within": 0.605056643486023
+        },
+        "final_state_sha256": "5f5424026578a4532045286896cbab4fd3c229d7318b3be6c945f059334a2127",
+        "first_gradient_norm": 1.5494396686553955,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "aa07dd6e7a541e427726e65fafd95e7871ba78b454b0eaa5e7fb672c28d692ba",
+          "edge_reliability_mean": 0.4174773097038269,
+          "edge_reliability_sd": 0.02392428368330002,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "a05581a0a709f5d537ad59e6e408ac84f6e61a82f47550d9f7324ff856d61383",
+          "final_state_sha256": "5f5424026578a4532045286896cbab4fd3c229d7318b3be6c945f059334a2127",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "760d0a7fd6e14aa85d5c8ba06df0502138cf1a898f1fb2fc48302799159cefa7",
+          "learned_embedding_sha256": "751a2195076f05774c9acf0da1ebc577c58bda01eeffb66e399da261028aa021",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.9500863037109375,
+        "graph_anchor_embedding_sha256": "0cc65af8c6c2d427fd6d081a871e9dfbf5076b085db35e35c809855831b19566",
+        "initial_state_sha256": "03f9d29fadf731e65c2224ea0f4cd290cf764242cbbb6d0240bb199c672cb83a",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "6d786c98be0799913e466460f52c26bd3b43f4ec331894d3ac7d61a4c8c3f698",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "7a65e31e47074141430212884f034ddcf80e16410aa13b96c82a18d1bfacfaad",
+        "parameters_changed": true,
+        "peak_gpu_mib": 76.6806640625,
+        "peak_rss_mib": 1108.90625,
+        "processed_shapes": [
+          [
+            3484,
+            30
+          ],
+          [
+            3484,
+            30
+          ]
+        ],
+        "raw_shapes": [
+          [
+            3484,
+            18085
+          ],
+          [
+            3484,
+            31
+          ]
+        ],
+        "sparse_edge_count": 14166,
+        "status": "PASS",
+        "total_observations": 3484,
+        "trainable_parameter_count": 12253,
+        "training_seed": 1,
+        "wall_seconds": 1.1844347920268774
+      },
+      {
+        "aligned_embedding_sha256": "8e71d00651b3ca80655edc666fb515c80c8673b233d99e7b44974f2e2bdc2516",
+        "anchor_shape": [
+          9196,
+          64
+        ],
+        "candidate_id": "E10_EDGE_RELIABILITY",
+        "checkpoint_sha256": "871578469177deff95775300a295c3acf6fa310a91ab3cd018329d7e7009be26",
+        "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+        "dataset": "P22",
+        "dataset_name_routing": false,
+        "dense_n_by_n_count": 0,
+        "edge_reliability_mean": 0.3568772077560425,
+        "edge_reliability_sd": 0.010690482333302498,
+        "evaluated_observations": 9196,
+        "final_embedding_sha256": "9d0e5dd9d97d2ef31300d4aebb623c3640c67064be14890b390f198bbad1ad4a",
+        "final_loss_components": {
+          "agreement": 0.8041364550590515,
+          "anchor": 1.126356840133667,
+          "cross": 2.047431468963623,
+          "mechanism_specific": 0.03873484209179878,
+          "total": 2.4757633209228516,
+          "variance": 0.1587730050086975,
+          "within": 0.6769199371337891
+        },
+        "final_state_sha256": "e2c1749927a371f125d91db116b7dff802daa1356608dc56a289b2b38f3f03d4",
+        "first_gradient_norm": 1.401633381843567,
+        "fresh_process_reload": {
+          "aligned_embedding_sha256": "94c2970d94a0ac60e77e2d85a51e5908ea7da3640b637d5771d93354f63b2401",
+          "edge_reliability_mean": 0.3568772077560425,
+          "edge_reliability_sd": 0.010690482333302498,
+          "embedding_max_abs_difference": 4.76837158203125e-07,
+          "embedding_numerical_roundtrip": true,
+          "final_embedding_sha256": "2e4f6d83fa37ffcb8db14bb562d9c5bbfa3873987274f9e4786e15fa0aeed77a",
+          "final_state_sha256": "e2c1749927a371f125d91db116b7dff802daa1356608dc56a289b2b38f3f03d4",
+          "fresh_process": true,
+          "graph_anchor_embedding_sha256": "e2043b057d476ea7c404515ebf648b93b074707c04ecec2c0f813b0284e62d75",
+          "learned_embedding_sha256": "6192f7c7fbdd062e315b8fdbf52eadcb972dae2c7dad453ed296772706a9cecc",
+          "partition_exact": true,
+          "status": "PASS",
+          "strict_state_load": true
+        },
+        "gpu_seconds": 0.6362899169921875,
+        "graph_anchor_embedding_sha256": "d78527bce20fea14dd54591158c1ea1afb5fd12954654ef1f6349acb654f9788",
+        "initial_state_sha256": "b57f884b76afce4664b7ba2ba2e162cacee51adbbfb3d2c3cd6f8a83a8341fb3",
+        "labels_in_loss_gradient_or_checkpoint_selection": false,
+        "learned_embedding_sha256": "f834193de8b6b14672a7b31f583944eb71009cccbc677b05b71aa887600cf003",
+        "mechanism": "EDGE_RELIABILITY",
+        "optimizer_steps": 80,
+        "ordered_id_sha256": "47ac590e9225804548e509f74ecaa31567c00cf0139e3fc37e01a64685c5a087",
+        "parameters_changed": true,
+        "peak_gpu_mib": 182.4052734375,
+        "peak_rss_mib": 2511.6484375,
+        "processed_shapes": [
+          [
+            9196,
+            30
+          ],
+          [
+            9196,
+            50
+          ]
+        ],
+        "raw_shapes": [
+          [
+            9196,
+            22914
+          ],
+          [
+            9196,
+            121068
+          ]
+        ],
+        "sparse_edge_count": 37168,
+        "status": "PASS",
+        "total_observations": 9196,
+        "trainable_parameter_count": 14833,
+        "training_seed": 1,
+        "wall_seconds": 0.8577281702309847
+      }
+    ],
+    "candidate": {
+      "anchor_weight": 0.5,
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "final_residual": 0.3,
+      "graph_residual": 0.25,
+      "latent": 64,
+      "learning_rate": 0.001,
+      "mechanism": "EDGE_RELIABILITY",
+      "steps": 80,
+      "weight_decay": 0.0001
+    },
+    "config_sha256": "80684743f151bab9df21da29f06b655904172b8490720a77973d6419fb6ecca0",
+    "datasets": [
+      "A1",
+      "P22"
+    ],
+    "endpoint_seed_count": 1,
+    "optimizer_steps_positive": true,
+    "parameters_changed": true,
+    "run_count": 2,
+    "seeds": [
+      1
+    ],
+    "unique_final_embedding_sha256": 2
+  }
+]

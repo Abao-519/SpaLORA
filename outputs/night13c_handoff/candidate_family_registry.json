@@ -1,0 +1,37 @@
+[
+  {
+    "candidate_id": "E10_EDGE_RELIABILITY",
+    "formula": "tied modality encoders; learned symmetric edge support; sparse reliability-weighted residual",
+    "mechanism_distinct": true,
+    "mechanism_family": "TRAINABLE_SYMMETRIC_EDGE_RELIABILITY_CORE",
+    "source_boundary": "clean-room project implementation"
+  },
+  {
+    "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+    "formula": "randomly omit one modality and reconstruct both through a tied shared latent",
+    "mechanism_distinct": true,
+    "mechanism_family": "MODALITY_DROPOUT_CROSS_RECON_SHARED_CORE",
+    "source_boundary": "clean-room generic self-supervised mechanism"
+  },
+  {
+    "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+    "formula": "shared and private latents with reconstruction, cross-reconstruction and covariance penalty",
+    "mechanism_distinct": true,
+    "mechanism_family": "SHARED_PRIVATE_ORTHOGONAL_RECONSTRUCTION",
+    "source_boundary": "clean-room generic comparator; no novelty claim"
+  },
+  {
+    "candidate_id": "E11_EDGE_RELIABILITY_ANCHORED_R10",
+    "formula": "E10 with stronger anchor, smaller graph/final residual and longer lower-rate optimization",
+    "mechanism_distinct": false,
+    "mechanism_family": "TRAINABLE_SYMMETRIC_EDGE_RELIABILITY_CORE",
+    "source_boundary": "registered single neighborhood of E10"
+  },
+  {
+    "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+    "formula": "E11 with a smaller final residual",
+    "mechanism_distinct": false,
+    "mechanism_family": "TRAINABLE_SYMMETRIC_EDGE_RELIABILITY_CORE",
+    "source_boundary": "registered single neighborhood of E10"
+  }
+]

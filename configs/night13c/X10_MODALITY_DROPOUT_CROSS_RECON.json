@@ -1,0 +1,11 @@
+{
+  "anchor_weight": 0.5,
+  "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+  "final_residual": 0.3,
+  "graph_residual": 0.0,
+  "latent": 64,
+  "learning_rate": 0.001,
+  "mechanism": "MODALITY_DROPOUT_CROSS_RECON",
+  "steps": 80,
+  "weight_decay": 0.0001
+}

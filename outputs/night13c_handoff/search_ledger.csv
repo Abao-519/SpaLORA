@@ -1,0 +1,8 @@
+candidate_id,phase,datasets,seeds,status,reason
+E10_EDGE_RELIABILITY,THREE_MECHANISM_SCREEN,A1|tonsil_s1|P22|MISAR,seed0,STOPPED,P22 and MISAR below strong reference
+X10_MODALITY_DROPOUT_CROSS_RECON,THREE_MECHANISM_SCREEN,A1|tonsil_s1|P22|MISAR,seed0,STOPPED,A1/P22/MISAR below strong reference
+S10_SHARED_PRIVATE_ORTHOGONAL,THREE_MECHANISM_SCREEN,A1|tonsil_s1|P22|MISAR,seed0,STOPPED,all development blocks below strong reference
+E11_EDGE_RELIABILITY_ANCHORED_R10,ONE_PUBLIC_E10_NEIGHBORHOOD,A1|tonsil_s1|P22|MISAR,seed0,STOPPED,neighborhood did not reverse weak-family loss
+E12_EDGE_RELIABILITY_ANCHORED_R05,ONE_PUBLIC_E10_NEIGHBORHOOD,A1|tonsil_s1|P22|MISAR,seed0,STOPPED,neighborhood did not reverse weak-family loss
+E10_EDGE_RELIABILITY,SEED_SEMANTICS_AUDIT,A1|P22,seed1,AUDIT_ONLY,different state and embedding hashes; not a scientific retry
+NO_FINAL_CANDIDATE,MULTI_SEED_AND_CONFIRMATION,D1|tonsil_s2|tonsil_s3,not_run,NOT_RUN_PREDECLARED_EARLY_STOP,no candidate passed two-family development gate

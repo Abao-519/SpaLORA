@@ -1,0 +1,152 @@
+{
+  "schema": "spalora.night13c.endpoint_robustness_trainable_core.v1",
+  "date": "2026-08-23",
+  "parent": {
+    "commit": "b97ea8f19d0fdb5352da61ada8475dda70826e91",
+    "tag": "night13b-final-20260823"
+  },
+  "objective": "Distinguish robust representation improvement from endpoint fragility, then conditionally build a genuinely trainable unified core shared by RNA+protein and RNA+ATAC.",
+  "night13b_evidence_regrade": {
+    "outcome": "DETERMINISTIC_COMMON_ENDPOINT_REPRESENTATION_LOCAL_SIGNAL",
+    "b10_role": "deterministic graph-residual postprocessor on simple concatenation PCA",
+    "optimizer_steps": 0,
+    "effective_learned_parameters": 0,
+    "candidate_mechanism_families": 1,
+    "unique_formal_results": 7,
+    "duplicated_formal_rows": 35,
+    "valid_claims": [
+      "A1 common-endpoint representation local signal",
+      "P22 common-endpoint representation local signal",
+      "Night13B engineering P0"
+    ],
+    "withdrawn_claims": [
+      "five independent model seeds",
+      "5/5 cross-seed stability",
+      "15 mechanism-distinct candidates",
+      "trained end-to-end unified model",
+      "full-pipeline superiority"
+    ]
+  },
+  "remote": {
+    "workspace": "/root/autodl-fs/SpaLORA-night13c",
+    "branch": "revision/q2-night13c-endpoint-robustness-trainable-core-20260823",
+    "protection_tag": "baseline/pre-night13c-endpoint-robustness-trainable-core-20260823",
+    "output_root": "/root/autodl-fs/night13c_endpoint_robustness_trainable_core_20260823",
+    "final_tag": "night13c-final-20260823",
+    "new_downloads_allowed": false,
+    "force_push_allowed": false
+  },
+  "stage_a": {
+    "name": "B10_ENDPOINT_AND_GRAPH_ROBUSTNESS",
+    "model_embeddings_are_deterministic": true,
+    "endpoint_seeds": {
+      "start": 0,
+      "stop_inclusive": 29
+    },
+    "consensus_required": true,
+    "minimum_ablations": [
+      "IDENTITY",
+      "P4_ONLY",
+      "P18_ONLY",
+      "B10_MIXTURE",
+      "FIXED_BETA_PATH"
+    ],
+    "strong_backbone_targets": [
+      "C00_PROTEIN_EMBEDDINGS_WHERE_HASH_CLOSED",
+      "F00_P22_EMBEDDINGS_WHERE_HASH_CLOSED",
+      "N02_P22_EMBEDDINGS_WHERE_HASH_CLOSED"
+    ],
+    "required_boards": [
+      "COMMON_HEAD_ROBUSTNESS",
+      "NATIVE_FULL_PIPELINE_CONTEXT"
+    ],
+    "stop_if": [
+      "A1 and P22 gains do not survive most endpoint seeds and consensus",
+      "gain is confined to a narrow endpoint basin",
+      "no graph or label-free diagnostic explains harmful propagation"
+    ]
+  },
+  "stage_b": {
+    "name": "TRAINABLE_UNIFIED_CORE_SEARCH",
+    "conditional_on_stage_a": false,
+    "note": "Stage B may still explore non-B10 trainable mechanisms if Stage A rejects B10; only threshold-centric B10 search must stop.",
+    "hard_semantics": {
+      "two_modal_inputs_preserved": true,
+      "optimizer_steps_gt_zero": true,
+      "training_seed_must_affect_execution": true,
+      "same_core_across_families": true,
+      "dataset_name_routing": false,
+      "labels_in_loss_gradient_or_within_run_checkpoint_selection": false
+    },
+    "preferred_lead": "SYMMETRIC_CROSS_MODAL_CONSENSUS_EDGE_RESIDUAL",
+    "suggested_mechanism_families": [
+      "WEAK_OR_PARAMETER_FREE_CONSENSUS_EDGE_RESIDUAL",
+      "TRAINABLE_SYMMETRIC_EDGE_RELIABILITY_CORE",
+      "MODALITY_DROPOUT_CROSS_RECONSTRUCTION_SHARED_CORE",
+      "OTHER_SOURCE_AUDITED_MECHANISM"
+    ],
+    "minimum_mechanism_families_if_route_remains_viable": 3,
+    "hyperparameter_variants_count_as_new_mechanisms": false,
+    "development_blocks": {
+      "protein": ["A1", "TONSIL_S1"],
+      "atac": ["P22", "MISAR_E15_5_S1"]
+    },
+    "training_seeds": {
+      "quick": [0],
+      "promising": [0, 1, 2],
+      "final": [0, 1, 2, 3, 4]
+    },
+    "confirmation": ["D1", "TONSIL_S2", "TONSIL_S3"]
+  },
+  "evaluation": {
+    "known_k_common_endpoint": true,
+    "public_labels_in_cross_run_hpo": true,
+    "study_blocks": {
+      "protein_lymph": ["A1", "D1"],
+      "protein_tonsil": ["TONSIL_S1", "TONSIL_S2", "TONSIL_S3"],
+      "atac_p22": ["P22"],
+      "atac_misar": ["MISAR_E15_5_S1"]
+    },
+    "primary_metrics": ["ARI", "NMI"],
+    "secondary_metrics": ["AMI", "FMI", "MORANS_I", "GEARYS_C"],
+    "robustness": [
+      "PAIRED_ENDPOINT_SEEDS",
+      "CONSENSUS_PARTITION",
+      "SPATIAL_BLOCK_OR_GRAPH_PERTURBATION_WHEN_NEEDED"
+    ],
+    "comparison_lanes": [
+      "COMMON_HEAD_REPRESENTATION",
+      "NATIVE_FULL_PIPELINE"
+    ]
+  },
+  "minimum_real_p0": {
+    "datasets": ["A1", "P22"],
+    "path": [
+      "RAW_LOAD",
+      "PREPROCESSING",
+      "TWO_MODAL_FORWARD",
+      "FINITE_LOSS_AND_GRADIENT",
+      "OPTIMIZER_STEP",
+      "STRICT_CHECKPOINT_RELOAD",
+      "FRESH_PROCESS_NUMERICAL_REPRODUCTION",
+      "FUSION",
+      "COMMON_ENDPOINT"
+    ]
+  },
+  "integrity": {
+    "preserve_failures": true,
+    "hide_bad_seeds": false,
+    "historical_raw_read_only": true,
+    "historical_artifacts_read_only": true,
+    "same_observations_mask_k_endpoint_for_common_comparison": true,
+    "full_external_baseline_reproduction": false
+  },
+  "terminal_classes": [
+    "IMPLEMENTATION_FAILURE",
+    "INFRASTRUCTURE_FAILURE",
+    "SCIENTIFIC_NEGATIVE",
+    "LOCAL_SIGNAL",
+    "CONFIRMED_MILESTONE"
+  ],
+  "paper_ready_allowed": false
+}

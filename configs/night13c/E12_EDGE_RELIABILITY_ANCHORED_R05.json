@@ -1,0 +1,11 @@
+{
+  "anchor_weight": 2.0,
+  "candidate_id": "E12_EDGE_RELIABILITY_ANCHORED_R05",
+  "final_residual": 0.05,
+  "graph_residual": 0.1,
+  "latent": 64,
+  "learning_rate": 0.0005,
+  "mechanism": "EDGE_RELIABILITY",
+  "steps": 160,
+  "weight_decay": 0.0001
+}

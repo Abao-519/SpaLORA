@@ -1,0 +1,4 @@
+mechanism,closest_collision,distinguishing_scope,claim_boundary
+EDGE_RELIABILITY,B10,learned symmetric reliability and trainable two-input encoders,B10 remains deterministic postprocessor
+MODALITY_DROPOUT_CROSS_RECON,generic multimodal autoencoding,registered modality omission and tied shared core,no novelty claim from generic primitive alone
+SHARED_PRIVATE_ORTHOGONAL,SpaMV/SpaMode-like shared-private concepts,clean-room comparator only,not proposed as paper novelty

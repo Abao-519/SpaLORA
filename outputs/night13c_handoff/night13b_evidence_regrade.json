@@ -1,0 +1,25 @@
+{
+  "classification": "LOCAL SIGNAL",
+  "corrected_subclassification": "DETERMINISTIC_COMMON_ENDPOINT_REPRESENTATION_LOCAL_SIGNAL",
+  "evidence_corrections": {
+    "b10_role": "deterministic graph-residual postprocessor on simple-concatenation PCA",
+    "candidate_mechanism_families": 1,
+    "duplicated_formal_rows": 35,
+    "effective_learned_parameters": 0,
+    "optimizer_steps": 0,
+    "unique_formal_results": 7
+  },
+  "paper_role": "AUXILIARY_HEAD_OR_ABLATION_ONLY",
+  "valid_claims": [
+    "A1 common-endpoint representation local signal",
+    "P22 common-endpoint representation local signal",
+    "Night-13B engineering path closure"
+  ],
+  "withdrawn_claims": [
+    "five independent model seeds",
+    "5/5 cross-seed stability",
+    "15 mechanism-distinct candidates",
+    "trained end-to-end unified model",
+    "full-pipeline superiority"
+  ]
+}

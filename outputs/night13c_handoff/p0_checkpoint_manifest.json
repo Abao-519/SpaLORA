@@ -1,0 +1,49 @@
+{
+  "actual": 6,
+  "expected": 6,
+  "files": [
+    {
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "dataset": "A1",
+      "relative_path": "outputs/night13c_handoff/p0_checkpoints/E10_EDGE_RELIABILITY/A1/checkpoint.pt",
+      "sha256": "6b3d7642f6ca1a27248bb4c7d67c940b8f35484befc43bc6351922ddd9f7aef9",
+      "size": 54123
+    },
+    {
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "dataset": "P22",
+      "relative_path": "outputs/night13c_handoff/p0_checkpoints/E10_EDGE_RELIABILITY/P22/checkpoint.pt",
+      "sha256": "d81d699047a590337d2eb6a2bd09bf697e8fa967cad022be9a260f18a48e97f3",
+      "size": 64491
+    },
+    {
+      "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+      "dataset": "A1",
+      "relative_path": "outputs/night13c_handoff/p0_checkpoints/S10_SHARED_PRIVATE_ORTHOGONAL/A1/checkpoint.pt",
+      "sha256": "9f1a98538fca958ba7d56023d57e7ab04be860d5b51a224d62ceebbadc76d9d1",
+      "size": 103595
+    },
+    {
+      "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+      "dataset": "P22",
+      "relative_path": "outputs/night13c_handoff/p0_checkpoints/S10_SHARED_PRIVATE_ORTHOGONAL/P22/checkpoint.pt",
+      "sha256": "c645f503f95403f47f94974279efec0a7be950eedb595f1f7921599231619906",
+      "size": 119211
+    },
+    {
+      "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+      "dataset": "A1",
+      "relative_path": "outputs/night13c_handoff/p0_checkpoints/X10_MODALITY_DROPOUT_CROSS_RECON/A1/checkpoint.pt",
+      "sha256": "15be9b67717fd821a4093c03ecc642306b55f1bc5be48ced883af567336ee44c",
+      "size": 52715
+    },
+    {
+      "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+      "dataset": "P22",
+      "relative_path": "outputs/night13c_handoff/p0_checkpoints/X10_MODALITY_DROPOUT_CROSS_RECON/P22/checkpoint.pt",
+      "sha256": "deec9f2a83b8c926cc5aa2be5a311c9b91a8b920f5d477850ec2aa1f4227d220",
+      "size": 63083
+    }
+  ],
+  "passed": true
+}

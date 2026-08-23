@@ -1,0 +1,236 @@
+{
+  "actual_rows": 6,
+  "expected_rows": 6,
+  "passed": true,
+  "rows": [
+    {
+      "anchor_shape": [
+        3484,
+        64
+      ],
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "dataset": "A1",
+      "dataset_name_routing": false,
+      "dense_n_by_n_count": 0,
+      "first_gradient_norm": 1.6048115491867065,
+      "fresh_process_numerical_roundtrip": true,
+      "fresh_process_partition_exact": true,
+      "optimizer_steps": 80,
+      "parameters_changed": true,
+      "processed_input_shapes": [
+        [
+          3484,
+          30
+        ],
+        [
+          3484,
+          30
+        ]
+      ],
+      "raw_input_shapes": [
+        [
+          3484,
+          18085
+        ],
+        [
+          3484,
+          31
+        ]
+      ],
+      "status": "PASS",
+      "strict_checkpoint_reload": true,
+      "trainable_parameter_count": 12253
+    },
+    {
+      "anchor_shape": [
+        9196,
+        64
+      ],
+      "candidate_id": "E10_EDGE_RELIABILITY",
+      "dataset": "P22",
+      "dataset_name_routing": false,
+      "dense_n_by_n_count": 0,
+      "first_gradient_norm": 1.3828082084655762,
+      "fresh_process_numerical_roundtrip": true,
+      "fresh_process_partition_exact": true,
+      "optimizer_steps": 80,
+      "parameters_changed": true,
+      "processed_input_shapes": [
+        [
+          9196,
+          30
+        ],
+        [
+          9196,
+          50
+        ]
+      ],
+      "raw_input_shapes": [
+        [
+          9196,
+          22914
+        ],
+        [
+          9196,
+          121068
+        ]
+      ],
+      "status": "PASS",
+      "strict_checkpoint_reload": true,
+      "trainable_parameter_count": 14833
+    },
+    {
+      "anchor_shape": [
+        3484,
+        64
+      ],
+      "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+      "dataset": "A1",
+      "dataset_name_routing": false,
+      "dense_n_by_n_count": 0,
+      "first_gradient_norm": 2.4840149879455566,
+      "fresh_process_numerical_roundtrip": true,
+      "fresh_process_partition_exact": true,
+      "optimizer_steps": 80,
+      "parameters_changed": true,
+      "processed_input_shapes": [
+        [
+          3484,
+          30
+        ],
+        [
+          3484,
+          30
+        ]
+      ],
+      "raw_input_shapes": [
+        [
+          3484,
+          18085
+        ],
+        [
+          3484,
+          31
+        ]
+      ],
+      "status": "PASS",
+      "strict_checkpoint_reload": true,
+      "trainable_parameter_count": 24376
+    },
+    {
+      "anchor_shape": [
+        9196,
+        64
+      ],
+      "candidate_id": "S10_SHARED_PRIVATE_ORTHOGONAL",
+      "dataset": "P22",
+      "dataset_name_routing": false,
+      "dense_n_by_n_count": 0,
+      "first_gradient_norm": 2.1367239952087402,
+      "fresh_process_numerical_roundtrip": true,
+      "fresh_process_partition_exact": true,
+      "optimizer_steps": 80,
+      "parameters_changed": true,
+      "processed_input_shapes": [
+        [
+          9196,
+          30
+        ],
+        [
+          9196,
+          50
+        ]
+      ],
+      "raw_input_shapes": [
+        [
+          9196,
+          22914
+        ],
+        [
+          9196,
+          121068
+        ]
+      ],
+      "status": "PASS",
+      "strict_checkpoint_reload": true,
+      "trainable_parameter_count": 28256
+    },
+    {
+      "anchor_shape": [
+        3484,
+        64
+      ],
+      "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+      "dataset": "A1",
+      "dataset_name_routing": false,
+      "dense_n_by_n_count": 0,
+      "first_gradient_norm": 1.576750636100769,
+      "fresh_process_numerical_roundtrip": true,
+      "fresh_process_partition_exact": true,
+      "optimizer_steps": 80,
+      "parameters_changed": true,
+      "processed_input_shapes": [
+        [
+          3484,
+          30
+        ],
+        [
+          3484,
+          30
+        ]
+      ],
+      "raw_input_shapes": [
+        [
+          3484,
+          18085
+        ],
+        [
+          3484,
+          31
+        ]
+      ],
+      "status": "PASS",
+      "strict_checkpoint_reload": true,
+      "trainable_parameter_count": 12156
+    },
+    {
+      "anchor_shape": [
+        9196,
+        64
+      ],
+      "candidate_id": "X10_MODALITY_DROPOUT_CROSS_RECON",
+      "dataset": "P22",
+      "dataset_name_routing": false,
+      "dense_n_by_n_count": 0,
+      "first_gradient_norm": 1.4037930965423584,
+      "fresh_process_numerical_roundtrip": true,
+      "fresh_process_partition_exact": true,
+      "optimizer_steps": 80,
+      "parameters_changed": true,
+      "processed_input_shapes": [
+        [
+          9196,
+          30
+        ],
+        [
+          9196,
+          50
+        ]
+      ],
+      "raw_input_shapes": [
+        [
+          9196,
+          22914
+        ],
+        [
+          9196,
+          121068
+        ]
+      ],
+      "status": "PASS",
+      "strict_checkpoint_reload": true,
+      "trainable_parameter_count": 14736
+    }
+  ],
+  "schema": "spalora.night13c.real_p0.v1"
+}
