@@ -1,0 +1,16 @@
+{
+  "protocol": "label-assisted benchmark HPO",
+  "known_k_from_public_annotations": true,
+  "public_labels_in_independent_evaluator": true,
+  "public_metrics_used_for_coarse_to_fine_cross_run_hpo": true,
+  "labels_in_features": 0,
+  "labels_in_graph": 0,
+  "labels_in_prototype_or_energy": 0,
+  "labels_in_clustering_fit_or_gradient": 0,
+  "labels_in_move_acceptance": 0,
+  "labels_in_within_run_checkpoint_selection": 0,
+  "producer_label_reads_per_replay": [
+    0,
+    0
+  ]
+}

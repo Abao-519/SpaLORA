@@ -1,0 +1,23 @@
+{
+  "status": "NIGHT16B_PAPER_COMPATIBLE_TUNED_SCOREBOARD_LOCKED",
+  "primary_classification": "PAPER_COMPATIBLE_TUNED_SCOREBOARD",
+  "additional_classifications": [
+    "SCORE_FRONTIER_ADVANCE",
+    "HEAD_ONLY_OR_INITIALIZATION_SIGNAL"
+  ],
+  "unified_structured_decoder_signal_claimed": false,
+  "label_protocol": "label-assisted benchmark HPO",
+  "candidate_rows": 10997,
+  "candidate_failures": 0,
+  "primary_reproduced": "7/7",
+  "fresh_process_replay": "9/9 x 2 exact",
+  "targeted_tests": "10/10",
+  "score_frontier_advance_primary_lanes": [
+    "D1",
+    "P22"
+  ],
+  "family_default_scope": "incremental decoder parameter transfer on fixed label-assisted authority starts",
+  "dense_n_by_n_count": 0,
+  "gpu_seconds": 0,
+  "shutdown_dispatched": false
+}

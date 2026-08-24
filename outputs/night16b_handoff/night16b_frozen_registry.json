@@ -1,0 +1,1104 @@
+{
+  "status": "NIGHT16B_FORMAL_PROFILE_FROZEN",
+  "selection_protocol": "label-assisted benchmark HPO",
+  "headline_rule": "exact K, finite, min cluster >= max(5,ceil(0.01*N/K)); maximize ARI, then NMI, then lower complexity, then larger minimum cluster",
+  "labels_in_candidate_producer": 0,
+  "labels_in_cross_run_hpo": true,
+  "lanes": {
+    "A1": {
+      "lane": "A1",
+      "dataset": "A1",
+      "n": 3484,
+      "k": 10,
+      "selected_candidate_id": "COARSE_e49c1eb6eba29668",
+      "selected_source_stage": "coarse_primary",
+      "selected_start_name": "parent_frontier",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "9bcf8dbf19dded510dbe24ecb034809a899c553db7b1cd446d64948af2e4d69a",
+      "expected_partition_sha256": "9bcf8dbf19dded510dbe24ecb034809a899c553db7b1cd446d64948af2e4d69a",
+      "candidate_lineage": [
+        "COARSE_e49c1eb6eba29668"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": false,
+          "feature_mode": "retained",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.0,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.5
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": false,
+          "min_cluster_fraction_of_equal": 0.0,
+          "feature_mode": "retained",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.5,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": false,
+            "min_cluster_fraction_of_equal": 0.0,
+            "feature_mode": "retained",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.5,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 0,
+          "repair_threshold": 0,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 114
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          3484,
+          48
+        ],
+        "view1_shape": [
+          3484,
+          30
+        ],
+        "view2_shape": [
+          3484,
+          30
+        ],
+        "coordinates_shape": [
+          3484,
+          2
+        ],
+        "optional_present": true,
+        "optional_artifact_sha256": "6a3ddbce084b9c207e4309895ef972e816cbf89e5a053d1105f241eeb0be85e3",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "molecular_hand_w0.05",
+          "molecular_hand_w0.1",
+          "molecular_hand_w0.2",
+          "molecular_hand_w0.5",
+          "molecular_resnet_w0.05",
+          "molecular_resnet_w0.1",
+          "molecular_resnet_w0.1_coord_w0.03",
+          "molecular_resnet_w0.1_coord_w0.1",
+          "molecular_resnet_w0.2",
+          "molecular_resnet_w0.2_coord_w0.03",
+          "molecular_resnet_w0.2_coord_w0.1",
+          "molecular_resnet_w0.5",
+          "molecular_resnet_w0.5_coord_w0.03",
+          "molecular_resnet_w0.5_coord_w0.1",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        3484,
+        3484
+      ],
+      "graph_nnz": 24178
+    },
+    "D1": {
+      "lane": "D1",
+      "dataset": "D1",
+      "n": 3359,
+      "k": 10,
+      "selected_candidate_id": "REFINE_709aa511c3fd0ee0",
+      "selected_source_stage": "refine2_d1",
+      "selected_start_name": "coarse::REFINE_1e9e7bd1ede5214a",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "e0ea6a38f83d5814e6d58f7746bc0b47f3657de1d700b00393259a457c29581f",
+      "expected_partition_sha256": "62787ef341fd01198c121b8a43c1359d8191674253ead3ce355323fe2ab39426",
+      "candidate_lineage": [
+        "COARSE_1bff3e4d1c4b5c84",
+        "REFINE_1e9e7bd1ede5214a",
+        "REFINE_709aa511c3fd0ee0"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.75,
+          "merge_mode": "clusterwise",
+          "min_cluster_fraction_of_equal": 0.15,
+          "seed": 4,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.65
+        },
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 1,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.75,
+          "merge_mode": "clusterwise",
+          "min_cluster_fraction_of_equal": 0.15,
+          "seed": 4,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.65
+        },
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 3,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.75,
+          "merge_mode": "clusterwise",
+          "min_cluster_fraction_of_equal": 0.15,
+          "seed": 4,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.65
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": true,
+          "min_cluster_fraction_of_equal": 0.15,
+          "feature_mode": "molecular",
+          "merge_mode": "clusterwise",
+          "merge_boundary_weight": 0.75,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.65,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 4,
+          "seed": 4
+        }
+      ],
+      "consolidated_exact": true,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": true,
+            "min_cluster_fraction_of_equal": 0.15,
+            "feature_mode": "molecular",
+            "merge_mode": "clusterwise",
+            "merge_boundary_weight": 0.75,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.65,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 4,
+            "seed": 4
+          },
+          "repair_enabled": 1,
+          "repair_threshold": 51,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 662,
+          "min_cluster_size": 55
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          3359,
+          48
+        ],
+        "view1_shape": [
+          3359,
+          30
+        ],
+        "view2_shape": [
+          3359,
+          30
+        ],
+        "coordinates_shape": [
+          3359,
+          2
+        ],
+        "optional_present": true,
+        "optional_artifact_sha256": "095d265cf5dc7b2de0fb9d4f766e6dc69d29835819fd168e3306f9a2a9aba8f3",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "molecular_hand_w0.05",
+          "molecular_hand_w0.1",
+          "molecular_hand_w0.2",
+          "molecular_hand_w0.5",
+          "molecular_resnet_w0.05",
+          "molecular_resnet_w0.1",
+          "molecular_resnet_w0.1_coord_w0.03",
+          "molecular_resnet_w0.1_coord_w0.1",
+          "molecular_resnet_w0.2",
+          "molecular_resnet_w0.2_coord_w0.03",
+          "molecular_resnet_w0.2_coord_w0.1",
+          "molecular_resnet_w0.5",
+          "molecular_resnet_w0.5_coord_w0.03",
+          "molecular_resnet_w0.5_coord_w0.1",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        3359,
+        3359
+      ],
+      "graph_nnz": 23310
+    },
+    "tonsil_s1": {
+      "lane": "tonsil_s1",
+      "dataset": "tonsil_s1",
+      "n": 4326,
+      "k": 4,
+      "selected_candidate_id": "COARSE_0388234583f93edf",
+      "selected_source_stage": "coarse_primary",
+      "selected_start_name": "parent_frontier",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "e295e970c84d33c1ec13ad3be498846ee59c3b4c3cb3f3b6ee5c35ed73ccb6da",
+      "expected_partition_sha256": "e295e970c84d33c1ec13ad3be498846ee59c3b4c3cb3f3b6ee5c35ed73ccb6da",
+      "candidate_lineage": [
+        "COARSE_0388234583f93edf"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": false,
+          "feature_mode": "retained",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.0,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.5
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": false,
+          "min_cluster_fraction_of_equal": 0.0,
+          "feature_mode": "retained",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.5,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": false,
+            "min_cluster_fraction_of_equal": 0.0,
+            "feature_mode": "retained",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.5,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 0,
+          "repair_threshold": 0,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 478
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          4326,
+          16
+        ],
+        "view1_shape": [
+          4326,
+          30
+        ],
+        "view2_shape": [
+          4326,
+          30
+        ],
+        "coordinates_shape": [
+          4326,
+          2
+        ],
+        "optional_present": false,
+        "optional_artifact_sha256": "",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        4326,
+        4326
+      ],
+      "graph_nnz": 29868
+    },
+    "tonsil_s2": {
+      "lane": "tonsil_s2",
+      "dataset": "tonsil_s2",
+      "n": 4519,
+      "k": 4,
+      "selected_candidate_id": "COARSE_894b53b16bf2fab1",
+      "selected_source_stage": "coarse_primary",
+      "selected_start_name": "parent_frontier",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "b56c96f9aa3c3463a0fb10094ed18b971aa96c78966e50609a578247ca8d6196",
+      "expected_partition_sha256": "b56c96f9aa3c3463a0fb10094ed18b971aa96c78966e50609a578247ca8d6196",
+      "candidate_lineage": [
+        "COARSE_894b53b16bf2fab1"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": false,
+          "feature_mode": "retained",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.0,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.5
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": false,
+          "min_cluster_fraction_of_equal": 0.0,
+          "feature_mode": "retained",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.5,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": false,
+            "min_cluster_fraction_of_equal": 0.0,
+            "feature_mode": "retained",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.5,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 0,
+          "repair_threshold": 0,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 445
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          4519,
+          48
+        ],
+        "view1_shape": [
+          4519,
+          30
+        ],
+        "view2_shape": [
+          4519,
+          30
+        ],
+        "coordinates_shape": [
+          4519,
+          2
+        ],
+        "optional_present": false,
+        "optional_artifact_sha256": "",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        4519,
+        4519
+      ],
+      "graph_nnz": 31286
+    },
+    "tonsil_s3": {
+      "lane": "tonsil_s3",
+      "dataset": "tonsil_s3",
+      "n": 4521,
+      "k": 4,
+      "selected_candidate_id": "COARSE_6f0fe04e060b0169",
+      "selected_source_stage": "coarse_primary",
+      "selected_start_name": "parent_frontier",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "0003aaac74f65273cf1b21b9f52070eb6f8ad11328b2b0f96d815c3e9ce83f43",
+      "expected_partition_sha256": "0003aaac74f65273cf1b21b9f52070eb6f8ad11328b2b0f96d815c3e9ce83f43",
+      "candidate_lineage": [
+        "COARSE_6f0fe04e060b0169"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": false,
+          "feature_mode": "retained",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.0,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.5
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": false,
+          "min_cluster_fraction_of_equal": 0.0,
+          "feature_mode": "retained",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.5,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": false,
+            "min_cluster_fraction_of_equal": 0.0,
+            "feature_mode": "retained",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.5,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 0,
+          "repair_threshold": 0,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 294
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          4521,
+          48
+        ],
+        "view1_shape": [
+          4521,
+          30
+        ],
+        "view2_shape": [
+          4521,
+          30
+        ],
+        "coordinates_shape": [
+          4521,
+          2
+        ],
+        "optional_present": true,
+        "optional_artifact_sha256": "166b041d59c91c7404fdaa3d1da333daa68a722b76898c6b01a29fd02fbe7cca",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "molecular_hand_w0.05",
+          "molecular_hand_w0.1",
+          "molecular_hand_w0.2",
+          "molecular_hand_w0.5",
+          "molecular_resnet_w0.05",
+          "molecular_resnet_w0.1",
+          "molecular_resnet_w0.1_coord_w0.03",
+          "molecular_resnet_w0.1_coord_w0.1",
+          "molecular_resnet_w0.2",
+          "molecular_resnet_w0.2_coord_w0.03",
+          "molecular_resnet_w0.2_coord_w0.1",
+          "molecular_resnet_w0.5",
+          "molecular_resnet_w0.5_coord_w0.03",
+          "molecular_resnet_w0.5_coord_w0.1",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        4521,
+        4521
+      ],
+      "graph_nnz": 28312
+    },
+    "P22": {
+      "lane": "P22",
+      "dataset": "P22",
+      "n": 9196,
+      "k": 9,
+      "selected_candidate_id": "COARSE_37bb46957925373f",
+      "selected_source_stage": "coarse_primary",
+      "selected_start_name": "night15f_authority",
+      "resolved_start_name": "night15f_authority",
+      "initial_partition_sha256": "3fb0397efa846c8df34debc9a63b54e343261e525450a00d2e319513861ab4e8",
+      "expected_partition_sha256": "331a1acf7adb1e499510522f2e852081032b0d97beed69a6dfbca8865f0a8e26",
+      "candidate_lineage": [
+        "COARSE_37bb46957925373f"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.1,
+          "boundary_refine_sweeps": 1,
+          "enabled": true,
+          "feature_mode": "molecular_coord_w0.3",
+          "merge_boundary_weight": 0.25,
+          "merge_mode": "clusterwise",
+          "min_cluster_fraction_of_equal": 0.15,
+          "seed": 9,
+          "split_cluster_score": "boundary",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.6
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": true,
+          "min_cluster_fraction_of_equal": 0.15,
+          "feature_mode": "molecular_coord_w0.3",
+          "merge_mode": "clusterwise",
+          "merge_boundary_weight": 0.25,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "boundary",
+          "split_quantile": 0.6,
+          "boundary_refine_beta": 0.1,
+          "boundary_refine_sweeps": 1,
+          "seed": 9
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": true,
+            "min_cluster_fraction_of_equal": 0.15,
+            "feature_mode": "molecular_coord_w0.3",
+            "merge_mode": "clusterwise",
+            "merge_boundary_weight": 0.25,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "boundary",
+            "split_quantile": 0.6,
+            "boundary_refine_beta": 0.1,
+            "boundary_refine_sweeps": 1,
+            "seed": 9
+          },
+          "repair_enabled": 1,
+          "repair_threshold": 154,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 101,
+          "min_cluster_size": 167
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          9196,
+          48
+        ],
+        "view1_shape": [
+          9196,
+          30
+        ],
+        "view2_shape": [
+          9196,
+          50
+        ],
+        "coordinates_shape": [
+          9196,
+          2
+        ],
+        "optional_present": false,
+        "optional_artifact_sha256": "",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        9196,
+        9196
+      ],
+      "graph_nnz": 64466
+    },
+    "MISAR_E15_5_S1": {
+      "lane": "MISAR_E15_5_S1",
+      "dataset": "MISAR_E15_5_S1",
+      "n": 1949,
+      "k": 7,
+      "selected_candidate_id": "COARSE_70f0dc1c240066ff",
+      "selected_source_stage": "coarse_primary",
+      "selected_start_name": "parent_frontier",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+      "expected_partition_sha256": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+      "candidate_lineage": [
+        "COARSE_70f0dc1c240066ff"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": false,
+          "feature_mode": "retained",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.0,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.5
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": false,
+          "min_cluster_fraction_of_equal": 0.0,
+          "feature_mode": "retained",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.5,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": false,
+            "min_cluster_fraction_of_equal": 0.0,
+            "feature_mode": "retained",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.5,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 0,
+          "repair_threshold": 0,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 125
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          1949,
+          48
+        ],
+        "view1_shape": [
+          1949,
+          30
+        ],
+        "view2_shape": [
+          1949,
+          50
+        ],
+        "coordinates_shape": [
+          1949,
+          2
+        ],
+        "optional_present": false,
+        "optional_artifact_sha256": "",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        1949,
+        1949
+      ],
+      "graph_nnz": 13666
+    },
+    "P22_3DOT_K18": {
+      "lane": "P22_3DOT_K18",
+      "dataset": "P22",
+      "n": 9196,
+      "k": 18,
+      "selected_candidate_id": "REFINE_aa5c94e91a7dd7b1",
+      "selected_source_stage": "refine_secondary",
+      "selected_start_name": "coarse::COARSE_88657eb555e0ca10",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "46b19a74b8f4733a3b87e3df1dc7ea6ce0e0fcbde11db81c1dbe0301e71fc118",
+      "expected_partition_sha256": "42dfcd5e8d40a93668bfdd9365cdd2f3d09cda3dafda59034a058edf30cb7735",
+      "candidate_lineage": [
+        "COARSE_88657eb555e0ca10",
+        "REFINE_aa5c94e91a7dd7b1"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.03,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.35
+        },
+        {
+          "boundary_refine_beta": 0.002,
+          "boundary_refine_sweeps": 1,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.03,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.35
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": true,
+          "min_cluster_fraction_of_equal": 0.03,
+          "feature_mode": "molecular",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.35,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        },
+        {
+          "enabled": true,
+          "min_cluster_fraction_of_equal": 0.03,
+          "feature_mode": "molecular",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.35,
+          "boundary_refine_beta": 0.002,
+          "boundary_refine_sweeps": 1,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": true,
+            "min_cluster_fraction_of_equal": 0.03,
+            "feature_mode": "molecular",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.35,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 1,
+          "repair_threshold": 16,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 24
+        },
+        {
+          "step": 1,
+          "config": {
+            "enabled": true,
+            "min_cluster_fraction_of_equal": 0.03,
+            "feature_mode": "molecular",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.35,
+            "boundary_refine_beta": 0.002,
+            "boundary_refine_sweeps": 1,
+            "seed": 0
+          },
+          "repair_enabled": 1,
+          "repair_threshold": 16,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 329,
+          "min_cluster_size": 32
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          9196,
+          48
+        ],
+        "view1_shape": [
+          9196,
+          30
+        ],
+        "view2_shape": [
+          9196,
+          50
+        ],
+        "coordinates_shape": [
+          9196,
+          2
+        ],
+        "optional_present": false,
+        "optional_artifact_sha256": "",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        9196,
+        9196
+      ],
+      "graph_nnz": 64466
+    },
+    "MISAR_E15_5_S1_K12": {
+      "lane": "MISAR_E15_5_S1_K12",
+      "dataset": "MISAR_E15_5_S1",
+      "n": 1949,
+      "k": 12,
+      "selected_candidate_id": "REFINE_0f97866c2a7b9050",
+      "selected_source_stage": "refine_secondary",
+      "selected_start_name": "coarse::COARSE_419f6576191f3e9c",
+      "resolved_start_name": "parent_frontier",
+      "initial_partition_sha256": "b101f14c516a9b304bc93e4205199cbe6078389a72c4a9dbf173c2d254d29d4f",
+      "expected_partition_sha256": "22f4c1c539d33a791db6c6752eee0121f203e39ec08fb7891685bd129a20acd9",
+      "candidate_lineage": [
+        "COARSE_419f6576191f3e9c",
+        "REFINE_0f97866c2a7b9050"
+      ],
+      "original_config_chain": [
+        {
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.03,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.35
+        },
+        {
+          "boundary_refine_beta": 0.0005,
+          "boundary_refine_sweeps": 1,
+          "enabled": true,
+          "feature_mode": "molecular",
+          "merge_boundary_weight": 0.0,
+          "merge_mode": "pointwise",
+          "min_cluster_fraction_of_equal": 0.03,
+          "seed": 0,
+          "split_cluster_score": "mean",
+          "split_mode": "pca_quantile",
+          "split_quantile": 0.35
+        }
+      ],
+      "replay_config_chain": [
+        {
+          "enabled": true,
+          "min_cluster_fraction_of_equal": 0.03,
+          "feature_mode": "molecular",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.35,
+          "boundary_refine_beta": 0.0,
+          "boundary_refine_sweeps": 0,
+          "seed": 0
+        },
+        {
+          "enabled": true,
+          "min_cluster_fraction_of_equal": 0.03,
+          "feature_mode": "molecular",
+          "merge_mode": "pointwise",
+          "merge_boundary_weight": 0.0,
+          "split_mode": "pca_quantile",
+          "split_cluster_score": "mean",
+          "split_quantile": 0.35,
+          "boundary_refine_beta": 0.0005,
+          "boundary_refine_sweeps": 1,
+          "seed": 0
+        }
+      ],
+      "consolidated_exact": false,
+      "generation_diagnostics": [
+        {
+          "step": 0,
+          "config": {
+            "enabled": true,
+            "min_cluster_fraction_of_equal": 0.03,
+            "feature_mode": "molecular",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.35,
+            "boundary_refine_beta": 0.0,
+            "boundary_refine_sweeps": 0,
+            "seed": 0
+          },
+          "repair_enabled": 1,
+          "repair_threshold": 5,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 0,
+          "min_cluster_size": 42
+        },
+        {
+          "step": 1,
+          "config": {
+            "enabled": true,
+            "min_cluster_fraction_of_equal": 0.03,
+            "feature_mode": "molecular",
+            "merge_mode": "pointwise",
+            "merge_boundary_weight": 0.0,
+            "split_mode": "pca_quantile",
+            "split_cluster_score": "mean",
+            "split_quantile": 0.35,
+            "boundary_refine_beta": 0.0005,
+            "boundary_refine_sweeps": 1,
+            "seed": 0
+          },
+          "repair_enabled": 1,
+          "repair_threshold": 5,
+          "repair_merged_clusters": 0,
+          "repair_split_clusters": 0,
+          "repair_boundary_moves": 149,
+          "min_cluster_size": 52
+        }
+      ],
+      "feature_audit": {
+        "retained_shape": [
+          1949,
+          48
+        ],
+        "view1_shape": [
+          1949,
+          30
+        ],
+        "view2_shape": [
+          1949,
+          50
+        ],
+        "coordinates_shape": [
+          1949,
+          2
+        ],
+        "optional_present": false,
+        "optional_artifact_sha256": "",
+        "feature_modes": [
+          "molecular",
+          "molecular_coord_w0.03",
+          "molecular_coord_w0.1",
+          "molecular_coord_w0.3",
+          "retained"
+        ]
+      },
+      "graph_shape": [
+        1949,
+        1949
+      ],
+      "graph_nnz": 13666
+    }
+  },
+  "source_ledgers": {
+    "coarse_d1": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\coarse_d1\\evaluated_ledger.csv",
+    "refine_d1": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\refine_d1\\evaluated_ledger.csv",
+    "refine2_d1": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\refine2_d1\\evaluated_ledger.csv",
+    "coarse_primary": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\coarse_primary_other\\evaluated_ledger.csv",
+    "refine_primary": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\refine_primary_other\\evaluated_ledger.csv",
+    "coarse_secondary": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\coarse_secondary\\evaluated_ledger.csv",
+    "refine_secondary": "D:\\\u6587\u6863\\ChatGPT\\\u535a\u58eb\u7b2c\u4e00\u7bc7\u79d1\u7814\u8bba\u6587\u9879\u76ee\\night16b_local_work\\working\\refine_secondary\\evaluated_ledger.csv"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "lane": "D1",
+      "family": "RNA+protein",
+      "n": 3359,
+      "k": 10,
+      "retained_shape": [
+        3359,
+        48
+      ],
+      "view1_shape": [
+        3359,
+        30
+      ],
+      "view2_shape": [
+        3359,
+        30
+      ],
+      "coordinates_shape": [
+        3359,
+        2
+      ],
+      "graph_shape": [
+        3359,
+        3359
+      ],
+      "graph_nnz": 23310,
+      "optional_present": true,
+      "candidate_serialize_reload": "PASS",
+      "producer_replay": "2/2 exact",
+      "independent_evaluator": "PASS"
+    },
+    {
+      "lane": "P22",
+      "family": "RNA+ATAC",
+      "n": 9196,
+      "k": 9,
+      "retained_shape": [
+        9196,
+        48
+      ],
+      "view1_shape": [
+        9196,
+        30
+      ],
+      "view2_shape": [
+        9196,
+        50
+      ],
+      "coordinates_shape": [
+        9196,
+        2
+      ],
+      "graph_shape": [
+        9196,
+        9196
+      ],
+      "graph_nnz": 64466,
+      "optional_present": false,
+      "candidate_serialize_reload": "PASS",
+      "producer_replay": "2/2 exact",
+      "independent_evaluator": "PASS"
+    }
+  ],
+  "dense_n_by_n_count": 0
+}

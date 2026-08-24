@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "passed": 10,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "test_candidate_generation_manifests_opened_no_labels_and_used_no_dense_graph",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.0003168312832713127
+    },
+    {
+      "test": "test_core_api_has_no_reference_label_argument",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 8.140504360198975e-05
+    },
+    {
+      "test": "test_core_has_no_dataset_identity_router",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.03000140655785799
+    },
+    {
+      "test": "test_family_default_producer_did_not_read_heldout_metrics",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.0002515669912099838
+    },
+    {
+      "test": "test_frozen_registry_has_all_primary_and_secondary_lanes",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.0003916388377547264
+    },
+    {
+      "test": "test_generic_repair_enforces_exact_k_and_minimum_size",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.03928432893007994
+    },
+    {
+      "test": "test_headline_rule_prefers_ari_before_nmi_and_complexity",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.02583811990916729
+    },
+    {
+      "test": "test_missing_optional_view_is_byte_exact_fallback",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.014227374456822872
+    },
+    {
+      "test": "test_repair_is_deterministic",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.022457673214375973
+    },
+    {
+      "test": "test_view_weight_is_not_cancelled_by_final_standardization",
+      "status": "PASS",
+      "failure": "",
+      "wall_seconds": 0.0015551047399640083
+    }
+  ]
+}

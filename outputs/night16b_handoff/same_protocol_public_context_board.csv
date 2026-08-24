@@ -1,0 +1,7 @@
+lane,k,label_version,mask,reported_method,reported_ari,reported_nmi,comparability,source
+A1,10,project canonical public labels,3484/3484,ARISE context,0.3427,,protocol context; not claimed directly comparable,https://pubmed.ncbi.nlm.nih.gov/42366683/
+D1,10,project canonical public labels,3359/3359,ARISE context,,,no exact same-mask number extracted,https://pubmed.ncbi.nlm.nih.gov/42366683/
+P22,9,MouseBrain_groundtruth coarse regions,9196/9196,COSMOS,0.63,,close dataset context; endpoint differs,https://www.nature.com/articles/s41467-024-55204-y
+P22_3DOT_K18,18,author 18-state assignment,9196/9196,3d-OT reported context,0.39,,same K context; endpoint/version caveat,local audited 3d-OT taskbook
+MISAR_E15_5_S1,7,deposited 7-class carrier,1949/1949,no exact public target registered,,,project primary protocol,local authority
+MISAR_E15_5_S1_K12,12,same carrier evaluated at K12,1949/1949,SEPAR,0.644,,protocol context; not direct equality,https://pmc.ncbi.nlm.nih.gov/articles/PMC12820152/

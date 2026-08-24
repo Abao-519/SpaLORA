@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "candidate_rows": 10997,
+  "failed_candidate_rows": 0,
+  "primary_lanes": 7,
+  "secondary_lanes": 2,
+  "fresh_process_replay": {
+    "status": "PASS",
+    "fresh_process_replays": 2,
+    "lanes_exact": 9,
+    "lanes_expected": 9,
+    "producer_label_reads": [
+      0,
+      0
+    ],
+    "dense_n_by_n_counts": [
+      0,
+      0
+    ],
+    "rows": [
+      {
+        "lane": "A1",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "9bcf8dbf19dded510dbe24ecb034809a899c553db7b1cd446d64948af2e4d69a",
+        "absolute_ari": 0.2760026589984753,
+        "absolute_nmi": 0.4217398394121822
+      },
+      {
+        "lane": "D1",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "62787ef341fd01198c121b8a43c1359d8191674253ead3ce355323fe2ab39426",
+        "absolute_ari": 0.3651735437579217,
+        "absolute_nmi": 0.4445774430144442
+      },
+      {
+        "lane": "tonsil_s1",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "e295e970c84d33c1ec13ad3be498846ee59c3b4c3cb3f3b6ee5c35ed73ccb6da",
+        "absolute_ari": 0.2365355019438236,
+        "absolute_nmi": 0.3171179292228705
+      },
+      {
+        "lane": "tonsil_s2",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "b56c96f9aa3c3463a0fb10094ed18b971aa96c78966e50609a578247ca8d6196",
+        "absolute_ari": 0.2582642450087792,
+        "absolute_nmi": 0.3143240809985105
+      },
+      {
+        "lane": "tonsil_s3",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "0003aaac74f65273cf1b21b9f52070eb6f8ad11328b2b0f96d815c3e9ce83f43",
+        "absolute_ari": 0.350644182009914,
+        "absolute_nmi": 0.3097714630576775
+      },
+      {
+        "lane": "P22",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "331a1acf7adb1e499510522f2e852081032b0d97beed69a6dfbca8865f0a8e26",
+        "absolute_ari": 0.5955516462857395,
+        "absolute_nmi": 0.7179305602206435
+      },
+      {
+        "lane": "MISAR_E15_5_S1",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "0c47bba6e9d2070df15578c8d6ab5effb1db01f01cb4d9c75edc8e5fa0873416",
+        "absolute_ari": 0.5414237853091904,
+        "absolute_nmi": 0.6667977615565593
+      },
+      {
+        "lane": "P22_3DOT_K18",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "42dfcd5e8d40a93668bfdd9365cdd2f3d09cda3dafda59034a058edf30cb7735",
+        "absolute_ari": 0.7459390507181689,
+        "absolute_nmi": 0.7661213526325692
+      },
+      {
+        "lane": "MISAR_E15_5_S1_K12",
+        "partition_exact": true,
+        "metrics_exact": true,
+        "cluster_sizes_exact": true,
+        "expected_partition_sha256": "22f4c1c539d33a791db6c6752eee0121f203e39ec08fb7891685bd129a20acd9",
+        "absolute_ari": 0.4541171509938244,
+        "absolute_nmi": 0.6071906236254658
+      }
+    ]
+  },
+  "targeted_tests": {
+    "status": "PASS",
+    "passed": 10,
+    "failed": 0,
+    "tests": [
+      {
+        "test": "test_candidate_generation_manifests_opened_no_labels_and_used_no_dense_graph",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.0029463999962899834
+      },
+      {
+        "test": "test_core_api_has_no_reference_label_argument",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 7.680000271648169e-05
+      },
+      {
+        "test": "test_core_has_no_dataset_identity_router",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.006004800001392141
+      },
+      {
+        "test": "test_family_default_producer_did_not_read_heldout_metrics",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.0003569999826140702
+      },
+      {
+        "test": "test_frozen_registry_has_all_primary_and_secondary_lanes",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.0004720000142697245
+      },
+      {
+        "test": "test_generic_repair_enforces_exact_k_and_minimum_size",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.002517900022212416
+      },
+      {
+        "test": "test_headline_rule_prefers_ari_before_nmi_and_complexity",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.0026513000193517655
+      },
+      {
+        "test": "test_missing_optional_view_is_byte_exact_fallback",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.007332000008318573
+      },
+      {
+        "test": "test_repair_is_deterministic",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.011419999995268881
+      },
+      {
+        "test": "test_view_weight_is_not_cancelled_by_final_standardization",
+        "status": "PASS",
+        "failure": "",
+        "wall_seconds": 0.0014580999850295484
+      }
+    ]
+  },
+  "compact_pending": true
+}

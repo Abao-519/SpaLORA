@@ -1,0 +1,105 @@
+{
+  "title": "Night-16B Paper-Compatible Tuned Unified Reliability-Structured Decoder",
+  "date": "2026-08-24",
+  "parent_commit": "7bcc7696c3eb170e7191d9266691271a2ec225b6",
+  "parent_tag": "night16a-final-20260824",
+  "parent_compact_index_sha256": "cdc0bbf6a1134d7c79ab4086143edce2f459347692c1c9e2ebee773d894e6ded",
+  "parent_bundle_sha256": "55a46e6babaaedaaeb08c5ee2b564f7f413c23055a8c7992990e1dce21079df4",
+  "primary_lanes": {
+    "A1": 10,
+    "D1": 10,
+    "tonsil_s1": 4,
+    "tonsil_s2": 4,
+    "tonsil_s3": 4,
+    "P22": 9,
+    "MISAR_E15_5_S1": 7
+  },
+  "secondary_lanes": {
+    "P22_3DOT_K18": 18,
+    "MISAR_E15_5_S1_K12": 12
+  },
+  "method_object": {
+    "working_name": "Unified Reliability-Structured Decoder",
+    "shared_components": [
+      "common multiview start bank",
+      "prototype unary",
+      "cross-modal agreement-conflict reliability",
+      "sparse multiscale spatial graph",
+      "rejected-mass self-return",
+      "generic non-degenerate split-merge-repair",
+      "sparse structured optimization"
+    ],
+    "optional_view": "morphology with explicit presence mask",
+    "dataset_name_structure_routing": false,
+    "dataset_level_numeric_hpo": true,
+    "common_operator_bank": true
+  },
+  "label_boundary": {
+    "known_k": true,
+    "post_candidate_ari_nmi_hpo": true,
+    "adaptive_coarse_to_fine_hpo": true,
+    "labels_in_features": false,
+    "labels_in_graph": false,
+    "labels_in_energy": false,
+    "labels_in_fit_or_gradient": false,
+    "labels_in_move_acceptance": false,
+    "labels_in_within_run_checkpoint_selection": false,
+    "paper_disclosure_required": true
+  },
+  "selection_profiles": {
+    "headline": "maximize ARI; tie-break NMI, then lower complexity, then larger minimum cluster",
+    "supplementary": [
+      "maximize NMI",
+      "ARI-NMI Pareto frontier",
+      "family-default without current-lane labels"
+    ],
+    "nondegenerate_min_cluster": "max(5, ceil(0.01 * N / K))",
+    "guard_sensitivity_expected_cluster_fraction": [0.0, 0.01, 0.02, 0.05]
+  },
+  "hpo_protocol": {
+    "same_search_space_schema_for_all_primary_lanes": true,
+    "same_budget_rule_for_all_primary_lanes": true,
+    "stage1": "fixed coarse bank locked before its metrics",
+    "stage2": "mechanical neighborhood refinement around stage1 leaders, locked before its metrics",
+    "all_candidates_retained": true,
+    "failed_candidates_retained": true,
+    "parameter_sensitivity_required": true,
+    "family_default_secondary_profile_required": true
+  },
+  "current_frontier_ari_nmi": {
+    "A1": [0.2760026589984753, 0.42173983941218224],
+    "D1": [0.3387748726151306, 0.4359716632344803],
+    "tonsil_s1": [0.23653550194382364, 0.3171179292228705],
+    "tonsil_s2": [0.25826424500877926, 0.31432408099851056],
+    "tonsil_s3": [0.350644182009914, 0.3097714630576775],
+    "P22": [0.5939627712461424, 0.7145174964254815],
+    "MISAR_E15_5_S1": [0.5414237853091904, 0.6667977615565593]
+  },
+  "score_targets_context_only": {
+    "D1_ARI": 0.3427,
+    "P22_K9_ARI": 0.63,
+    "MISAR_K7_ARI": 0.55
+  },
+  "resource_policy": {
+    "focus": "own method and score",
+    "full_external_method_runs": false,
+    "new_dataset_expansion": false,
+    "prefer_cached_reduced_views": true,
+    "autodl_for_gpu_or_raw_only_when_needed": true,
+    "windows_cpu_for_endpoint_when_safe": true,
+    "dense_n_by_n": false
+  },
+  "formal_freeze": {
+    "engineering_repairs_before_freeze": "allowed and logged",
+    "scientific_changes_during_development": "allowed and versioned",
+    "post_freeze_scientific_change": "requires complete affected-lane rerun",
+    "failed_rows_hidden": false
+  },
+  "git": {
+    "branch": "revision/q2-night16b-paper-compatible-tuned-structured-decoder-20260824",
+    "baseline_tag": "baseline/pre-night16b-paper-compatible-tuned-structured-decoder-20260824",
+    "final_tag": "night16b-final-20260824",
+    "force_push": false
+  },
+  "final_remote_command": "/usr/bin/shutdown"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "ORDINARY_PUSH_CREDENTIAL_BLOCKED",
+  "remote": "git@github.com:Abao-519/SpaLORA.git",
+  "preflight_command": "git ls-remote origin",
+  "exit_code": 128,
+  "stderr_class": "Permission denied (publickey)",
+  "force_push_used": false,
+  "scientific_execution_blocked": false,
+  "recovery": "incremental bundle with unique annotated final tag"
+}
