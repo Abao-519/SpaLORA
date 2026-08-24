@@ -1,0 +1,59 @@
+{
+  "schema": "night16f-formula-and-ablation-contract-v1",
+  "frozen_on": "2026-08-24",
+  "parent_commit": "084e921b667b42e679193d10c46941cb96403b3b",
+  "family": "RNA_CHROMATIN",
+  "configuration_authority": "configs/night16e/chromatin_family_frozen_v2.json::TSRE_FULL",
+  "development_lanes": [
+    "P22_K9",
+    "MISAR_E15_5_S1_K7",
+    "MULTIGATE_HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "independent_transfer_protocols": [
+    "SCP2176_HUMAN_MELANOMA_TUMOR_ONLY_K2"
+  ],
+  "blocked_protocols": {
+    "SCP2176_HUMAN_MELANOMA_ALL_CELL_K10": "exact full RNA/ATAC matrix assets require authenticated SCP access; official Figshare processed H5ADs are the 833-cell tumor subset"
+  },
+  "primary_arms": [
+    "DIRECT_BASE",
+    "BIMODAL_SUPPORT",
+    "UNIFORM_MASS_MATCHED",
+    "PERMUTED_SUPPORT",
+    "RNA_ONLY_SUPPORT",
+    "ATAC_ONLY_SUPPORT"
+  ],
+  "secondary_arms": [
+    "FULL_TSRE",
+    "RELATION_STAY_OFF_BASE_STAY_ON",
+    "BOUNDARY_OFF",
+    "PRIVATE_CONFLICT_OFF",
+    "PURE_SUPPORT"
+  ],
+  "shared_semantics": {
+    "start": "same exact-K input partition within each matched arm set",
+    "unary": "same frozen continuous multiscale prototype unary and trust term",
+    "base_pairwise": "same Night-15F sparse base capacity and Potts coefficient",
+    "base_self_return": "preserved in every primary attribution arm",
+    "bimodal_support": "Night-16E RNA/ATAC support factor on each registered sparse edge",
+    "uniform_mass_matched": "constant per-scale factor whose base-edge weighted capacity equals BIMODAL_SUPPORT exactly",
+    "permuted_support": "stable endpoint-ID/scale-hash permutation of support positions, distribution preserved up to exact weighted mass correction",
+    "single_view_support": "RNA-only or ATAC-only edge support, each rescaled to the exact BIMODAL_SUPPORT weighted capacity",
+    "relation_stay_ablation": "relation stay set to zero while inherited base self-return is unchanged",
+    "solver": "same alpha-expansion implementation and exact-K/no-empty guard"
+  },
+  "formal_freeze_rule": "source, this contract and targeted tests are committed before any SCP2176 melanoma evaluator is run",
+  "melanoma_label_rule": "SCP2176 labels may mechanically define the tumor-only membership carrier before producer execution; tumour_1/tumour_2 values are read only by the independent evaluator after partitions are locked",
+  "interpretation_rules": {
+    "relation_specific_bimodal_support": "BIMODAL_SUPPORT clearly exceeds DIRECT_BASE, UNIFORM_MASS_MATCHED, PERMUTED_SUPPORT, RNA_ONLY_SUPPORT and ATAC_ONLY_SUPPORT on human hippocampus and at least one frozen melanoma protocol",
+    "global_attenuation": "UNIFORM_MASS_MATCHED approaches or exceeds BIMODAL_SUPPORT",
+    "single_view": "RNA_ONLY_SUPPORT or ATAC_ONLY_SUPPORT matches or exceeds BIMODAL_SUPPORT",
+    "no_independent_transfer": "development attribution holds but no frozen melanoma protocol transfers"
+  },
+  "resource_semantics": {
+    "dense_n_by_n": 0,
+    "gpu_required": false,
+    "robustness_starts": 5,
+    "authority_or_medoid_start": 1
+  }
+}
