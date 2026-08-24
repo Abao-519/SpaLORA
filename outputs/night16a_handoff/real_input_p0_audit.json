@@ -1,0 +1,243 @@
+{
+  "status": "NIGHT16A_REAL_P0_PASS",
+  "lanes": 9,
+  "rows": [
+    {
+      "lane": "A1",
+      "total_observations": 3484,
+      "k": 10,
+      "retained_shape": [
+        3484,
+        64
+      ],
+      "view1_shape": [
+        3484,
+        30
+      ],
+      "view2_shape": [
+        3484,
+        30
+      ],
+      "optional_shape": [
+        3484,
+        48
+      ],
+      "registered_graph_shape_nnz": [
+        3484,
+        3484,
+        24178
+      ],
+      "partition_sha256": "d65b217eb99e8878d94154129fdc18c5cd46042d8c081eba244b1f58c7a4f13d",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "D1",
+      "total_observations": 3359,
+      "k": 10,
+      "retained_shape": [
+        3359,
+        60
+      ],
+      "view1_shape": [
+        3359,
+        30
+      ],
+      "view2_shape": [
+        3359,
+        30
+      ],
+      "optional_shape": [
+        3359,
+        48
+      ],
+      "registered_graph_shape_nnz": [
+        3359,
+        3359,
+        23310
+      ],
+      "partition_sha256": "8b59ef6d92ffa53a159e29b2365cd0868c5ea8a9a0e820c8e722fc9f2d09914e",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "MISAR_E15_5_S1",
+      "total_observations": 1949,
+      "k": 7,
+      "retained_shape": [
+        1949,
+        64
+      ],
+      "view1_shape": [
+        1949,
+        30
+      ],
+      "view2_shape": [
+        1949,
+        50
+      ],
+      "optional_shape": null,
+      "registered_graph_shape_nnz": [
+        1949,
+        1949,
+        13666
+      ],
+      "partition_sha256": "f5a5d7623ba7eeec3beceb1802f66f05846591c5f17b2d0f77c24774b46118f3",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "MISAR_E15_5_S1_K12",
+      "total_observations": 1949,
+      "k": 12,
+      "retained_shape": [
+        1949,
+        64
+      ],
+      "view1_shape": [
+        1949,
+        30
+      ],
+      "view2_shape": [
+        1949,
+        50
+      ],
+      "optional_shape": null,
+      "registered_graph_shape_nnz": [
+        1949,
+        1949,
+        13666
+      ],
+      "partition_sha256": "58bc225e561d076cfdbc7a6bc1a64925cf3873a6639f6a60c30c59650c532655",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "P22",
+      "total_observations": 9196,
+      "k": 9,
+      "retained_shape": [
+        9196,
+        64
+      ],
+      "view1_shape": [
+        9196,
+        30
+      ],
+      "view2_shape": [
+        9196,
+        50
+      ],
+      "optional_shape": null,
+      "registered_graph_shape_nnz": [
+        9196,
+        9196,
+        64466
+      ],
+      "partition_sha256": "75370f46fabb37fc8a0e9abeaa4643a54a8e62f3b10bb0a00ee2d011df080fb1",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "P22_3DOT_K18",
+      "total_observations": 9196,
+      "k": 18,
+      "retained_shape": [
+        9196,
+        64
+      ],
+      "view1_shape": [
+        9196,
+        30
+      ],
+      "view2_shape": [
+        9196,
+        50
+      ],
+      "optional_shape": null,
+      "registered_graph_shape_nnz": [
+        9196,
+        9196,
+        64466
+      ],
+      "partition_sha256": "2abe17cc9c6b1595c216aa0779510cc94ad1ab1080d5813ee4e71bfa1f829b05",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "tonsil_s1",
+      "total_observations": 4326,
+      "k": 4,
+      "retained_shape": [
+        4326,
+        16
+      ],
+      "view1_shape": [
+        4326,
+        30
+      ],
+      "view2_shape": [
+        4326,
+        30
+      ],
+      "optional_shape": null,
+      "registered_graph_shape_nnz": [
+        4326,
+        4326,
+        29868
+      ],
+      "partition_sha256": "36b67ac8cefb99374b9a167c02d0f495d34a96fb7883820a04a13f4ed2b78778",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "tonsil_s2",
+      "total_observations": 4519,
+      "k": 4,
+      "retained_shape": [
+        4519,
+        60
+      ],
+      "view1_shape": [
+        4519,
+        30
+      ],
+      "view2_shape": [
+        4519,
+        30
+      ],
+      "optional_shape": null,
+      "registered_graph_shape_nnz": [
+        4519,
+        4519,
+        31286
+      ],
+      "partition_sha256": "e864d334eafe4d976a40343d352a7ff60f53edd0790ff0c772b93b97cc836d1c",
+      "fresh_process_byte_exact": true
+    },
+    {
+      "lane": "tonsil_s3",
+      "total_observations": 4521,
+      "k": 4,
+      "retained_shape": [
+        4521,
+        60
+      ],
+      "view1_shape": [
+        4521,
+        30
+      ],
+      "view2_shape": [
+        4521,
+        30
+      ],
+      "optional_shape": [
+        4521,
+        48
+      ],
+      "registered_graph_shape_nnz": [
+        4521,
+        4521,
+        28312
+      ],
+      "partition_sha256": "21d351e5252d4c6559e53bedbab66eff80cc84f2def6ae96d3d5654109724def",
+      "fresh_process_byte_exact": true
+    }
+  ],
+  "producer_label_arrays_opened": 0,
+  "dense_n_by_n_count": 0,
+  "pipeline": "preprocessing -> observable statistics -> calibration -> generated multi-start -> unified energy -> selector -> frozen partition -> separate evaluator -> reload"
+}

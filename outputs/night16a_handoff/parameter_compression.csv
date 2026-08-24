@@ -1,0 +1,5 @@
+component,free_numeric_or_feature_count,scope,meaning
+Night-15G/Night-15F per-lane optional energy,up to 38 nested numeric fields,cross-run public-label HPO,different profile by lane
+Night-16A energy mapping,7,global/family constants,generates the same 38 downstream fields from observable statistics
+Night-16A strict candidate bank,12,frozen global constant templates,same bank for every lane
+Night-16A cross-study selector,20,11 structural descriptors + 9 start-class indicators,four held-out-study ridge checkpoints; current-study labels absent

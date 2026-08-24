@@ -1,0 +1,17 @@
+{
+  "internal_exploration": {
+    "public_labels_allowed": true,
+    "cross_run_selection_uses_public_metrics": true,
+    "eligible_as_automatic_main_result": false
+  },
+  "strict_final_path": {
+    "candidate_generation_before_reference_evaluation": true,
+    "descriptor_public_metric_columns": 0,
+    "current_held_out_study_reference_arrays_opened_by_producer": 0,
+    "other_study_metrics_used_to_fit_meta_calibrator": true,
+    "partition_locked_before_evaluator": true,
+    "known_k_from_public_benchmark": true,
+    "evaluator_reference_access_events": 9
+  },
+  "labels_as_model_input_or_energy_unary": 0
+}

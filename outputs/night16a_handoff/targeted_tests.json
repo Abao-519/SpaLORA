@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "passed": 5,
+  "failed": 0,
+  "wall_seconds": 0.0416632000124082,
+  "rows": [
+    {
+      "test": "test_balanced_repair_removes_tiny_clusters_without_changing_k",
+      "status": "PASS",
+      "detail": "",
+      "wall_seconds": 0.0006200000061653554
+    },
+    {
+      "test": "test_calibration_is_deterministic_and_finite",
+      "status": "PASS",
+      "detail": "",
+      "wall_seconds": 0.0003586999955587089
+    },
+    {
+      "test": "test_core_api_has_no_dataset_or_reference_identity",
+      "status": "PASS",
+      "detail": "",
+      "wall_seconds": 0.004580400011036545
+    },
+    {
+      "test": "test_missing_optional_view_is_exact_molecular_fallback",
+      "status": "PASS",
+      "detail": "",
+      "wall_seconds": 0.027429799985839054
+    },
+    {
+      "test": "test_source_contains_no_dense_n_by_n_materialization",
+      "status": "PASS",
+      "detail": "",
+      "wall_seconds": 0.008646299975225702
+    }
+  ]
+}

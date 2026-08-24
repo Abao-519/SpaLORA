@@ -1,0 +1,77 @@
+{
+  "title": "Night-16A Score-Driven Self-Calibrating Unified Spatial Energy",
+  "parent_commit": "750d3fe9df52208b7618b878eb2701cd613b23b0",
+  "parent_tag": "night15g-final-20260824",
+  "lanes": [
+    "A1",
+    "D1",
+    "tonsil_s1",
+    "tonsil_s2",
+    "tonsil_s3",
+    "P22",
+    "P22_3DOT_K18",
+    "MISAR_E15_5_S1",
+    "MISAR_E15_5_S1_K12"
+  ],
+  "known_k": {
+    "A1": 10,
+    "D1": 10,
+    "tonsil_s1": 4,
+    "tonsil_s2": 4,
+    "tonsil_s3": 4,
+    "P22": 9,
+    "P22_3DOT_K18": 18,
+    "MISAR_E15_5_S1": 7,
+    "MISAR_E15_5_S1_K12": 12
+  },
+  "strict_final_path": {
+    "start_generators": [
+      "KMeans",
+      "GaussianMixture-diag",
+      "GaussianMixture-tied"
+    ],
+    "generator_seeds": [
+      0,
+      1,
+      2
+    ],
+    "generic_start_ranking": "fixed observable descriptor score",
+    "constant_templates": 12,
+    "constant_bank_seed": 20260824,
+    "calibrator_scope": "FAMILY",
+    "ridge_alpha": 0.1,
+    "minimum_relative_cluster": 0.02,
+    "descriptor_profile": "compact",
+    "held_out_groups": {
+      "LYMPH_NODE": [
+        "A1",
+        "D1"
+      ],
+      "TONSIL": [
+        "tonsil_s1",
+        "tonsil_s2",
+        "tonsil_s3"
+      ],
+      "P22": [
+        "P22",
+        "P22_3DOT_K18"
+      ],
+      "MISAR": [
+        "MISAR_E15_5_S1",
+        "MISAR_E15_5_S1_K12"
+      ]
+    },
+    "current_group_reference_access_before_partition_lock": 0,
+    "evaluation_after_partition_lock": true
+  },
+  "internal_exploration": {
+    "public_metric_cross_run_selection_allowed": true,
+    "eligible_for_automatic_main_result": false,
+    "all_failed_and_tradeoff_profiles_retained": true
+  },
+  "replay_requirement": {
+    "partition_fresh_process": "2x 9/9 exact",
+    "calibrator_checkpoint": "2x 9/9 exact"
+  },
+  "final_remote_command": "/usr/bin/shutdown"
+}

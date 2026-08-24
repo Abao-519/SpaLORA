@@ -1,0 +1,370 @@
+{
+  "status": "NIGHT16A_CROSSFIT_SELF_CALIBRATED_PARTITIONS_FROZEN",
+  "scope": "FAMILY",
+  "ridge_alpha": 0.1,
+  "feature_profile": "compact",
+  "minimum_relative_cluster": 0.02,
+  "descriptor_file_sha256": "f9eef10195622e36a3ea999d03ddea58f15e8c8a7775f2ef31830e9e11ae0827",
+  "partition_archive_sha256": "d56ea1f01863514a564ec8cd28c82a50440baec0858a6ad409c32635e3c950b7",
+  "descriptor_features": [
+    "selector_graph_same_fraction",
+    "selector_margin__optional",
+    "selector_margin__retained",
+    "selector_margin__view1",
+    "selector_margin__view2",
+    "selector_min_cluster_relative_to_equal",
+    "selector_normalized_cluster_entropy",
+    "selector_separation__optional",
+    "selector_separation__retained",
+    "selector_separation__view1",
+    "selector_separation__view2"
+  ],
+  "start_classes": [
+    "gmm_diag::molecular_fused",
+    "gmm_diag::retained",
+    "gmm_diag::view1",
+    "gmm_tied::molecular_fused",
+    "gmm_tied::retained",
+    "gmm_tied::view1",
+    "kmeans::molecular_fused",
+    "kmeans::retained",
+    "kmeans::view1"
+  ],
+  "held_out_reference_columns_opened": 0,
+  "lanes": {
+    "A1": {
+      "held_out_study": "LYMPH_NODE",
+      "family": "RNA_PROTEIN",
+      "candidate_key": "A1::SC_f51142ff19b148::kmeans::retained::s0::d65b217eb99e8878",
+      "config_id": "SC_f51142ff19b148",
+      "start_name": "kmeans::retained::s0",
+      "partition_key": "A1__SC_f51142ff19b148__d65b217eb99e",
+      "partition_sha256": "d65b217eb99e8878d94154129fdc18c5cd46042d8c081eba244b1f58c7a4f13d",
+      "predicted_quality": 1.0290711987724468,
+      "cluster_sizes": [
+        520,
+        635,
+        153,
+        564,
+        447,
+        292,
+        98,
+        442,
+        202,
+        131
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "D1": {
+      "held_out_study": "LYMPH_NODE",
+      "family": "RNA_PROTEIN",
+      "candidate_key": "D1::SC_f51142ff19b148::kmeans::view1::s2::8b59ef6d92ffa53a",
+      "config_id": "SC_f51142ff19b148",
+      "start_name": "kmeans::view1::s2",
+      "partition_key": "D1__SC_f51142ff19b148__8b59ef6d92ff",
+      "partition_sha256": "8b59ef6d92ffa53a159e29b2365cd0868c5ea8a9a0e820c8e722fc9f2d09914e",
+      "predicted_quality": 0.9691440018926477,
+      "cluster_sizes": [
+        445,
+        450,
+        236,
+        138,
+        481,
+        249,
+        130,
+        361,
+        457,
+        412
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "MISAR_E15_5_S1": {
+      "held_out_study": "MISAR",
+      "family": "RNA_ATAC",
+      "candidate_key": "MISAR_E15_5_S1::SC_d0ebedf36c9924::kmeans::retained::s2::f5a5d7623ba7eeec",
+      "config_id": "SC_d0ebedf36c9924",
+      "start_name": "kmeans::retained::s2",
+      "partition_key": "MISAR_E15_5_S1__SC_d0ebedf36c9924__f5a5d7623ba7",
+      "partition_sha256": "f5a5d7623ba7eeec3beceb1802f66f05846591c5f17b2d0f77c24774b46118f3",
+      "predicted_quality": 1.041797868415984,
+      "cluster_sizes": [
+        388,
+        613,
+        221,
+        122,
+        305,
+        229,
+        71
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "MISAR_E15_5_S1_K12": {
+      "held_out_study": "MISAR",
+      "family": "RNA_ATAC",
+      "candidate_key": "MISAR_E15_5_S1_K12::SC_592a55b145ad14::gmm_tied::retained::s0::58bc225e561d076c",
+      "config_id": "SC_592a55b145ad14",
+      "start_name": "gmm_tied::retained::s0",
+      "partition_key": "MISAR_E15_5_S1_K12__SC_592a55b145ad14__58bc225e561d",
+      "partition_sha256": "58bc225e561d076cfdbc7a6bc1a64925cf3873a6639f6a60c30c59650c532655",
+      "predicted_quality": 1.1060829871949667,
+      "cluster_sizes": [
+        214,
+        106,
+        356,
+        85,
+        64,
+        255,
+        163,
+        106,
+        64,
+        276,
+        113,
+        147
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "P22": {
+      "held_out_study": "P22",
+      "family": "RNA_ATAC",
+      "candidate_key": "P22::SC_c7bdee968c6d55::kmeans::retained::s0::75370f46fabb37fc",
+      "config_id": "SC_c7bdee968c6d55",
+      "start_name": "kmeans::retained::s0",
+      "partition_key": "P22__SC_c7bdee968c6d55__75370f46fabb",
+      "partition_sha256": "75370f46fabb37fc8a0e9abeaa4643a54a8e62f3b10bb0a00ee2d011df080fb1",
+      "predicted_quality": 0.7380105179077627,
+      "cluster_sizes": [
+        1713,
+        159,
+        887,
+        662,
+        695,
+        1209,
+        944,
+        2268,
+        659
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "P22_3DOT_K18": {
+      "held_out_study": "P22",
+      "family": "RNA_ATAC",
+      "candidate_key": "P22_3DOT_K18::SC_c7bdee968c6d55::gmm_tied::molecular_fused::s0::2abe17cc9c6b1595",
+      "config_id": "SC_c7bdee968c6d55",
+      "start_name": "gmm_tied::molecular_fused::s0",
+      "partition_key": "P22_3DOT_K18__SC_c7bdee968c6d55__2abe17cc9c6b",
+      "partition_sha256": "2abe17cc9c6b1595c216aa0779510cc94ad1ab1080d5813ee4e71bfa1f829b05",
+      "predicted_quality": 1.4630634390212354,
+      "cluster_sizes": [
+        376,
+        113,
+        53,
+        1255,
+        39,
+        121,
+        922,
+        1475,
+        288,
+        192,
+        376,
+        853,
+        354,
+        650,
+        327,
+        120,
+        179,
+        1503
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "tonsil_s1": {
+      "held_out_study": "TONSIL",
+      "family": "RNA_PROTEIN",
+      "candidate_key": "tonsil_s1::SC_f51142ff19b148::gmm_tied::retained::s0::36b67ac8cefb9937",
+      "config_id": "SC_f51142ff19b148",
+      "start_name": "gmm_tied::retained::s0",
+      "partition_key": "tonsil_s1__SC_f51142ff19b148__36b67ac8cefb",
+      "partition_sha256": "36b67ac8cefb99374b9a167c02d0f495d34a96fb7883820a04a13f4ed2b78778",
+      "predicted_quality": 0.7628802054377046,
+      "cluster_sizes": [
+        1500,
+        903,
+        356,
+        1567
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "tonsil_s2": {
+      "held_out_study": "TONSIL",
+      "family": "RNA_PROTEIN",
+      "candidate_key": "tonsil_s2::SC_f51142ff19b148::gmm_tied::molecular_fused::s0::e864d334eafe4d97",
+      "config_id": "SC_f51142ff19b148",
+      "start_name": "gmm_tied::molecular_fused::s0",
+      "partition_key": "tonsil_s2__SC_f51142ff19b148__e864d334eafe",
+      "partition_sha256": "e864d334eafe4d976a40343d352a7ff60f53edd0790ff0c772b93b97cc836d1c",
+      "predicted_quality": 0.7251804987070948,
+      "cluster_sizes": [
+        771,
+        1312,
+        1713,
+        723
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    },
+    "tonsil_s3": {
+      "held_out_study": "TONSIL",
+      "family": "RNA_PROTEIN",
+      "candidate_key": "tonsil_s3::SC_f51142ff19b148::gmm_tied::molecular_fused::s1::21d351e5252d4c65",
+      "config_id": "SC_f51142ff19b148",
+      "start_name": "gmm_tied::molecular_fused::s1",
+      "partition_key": "tonsil_s3__SC_f51142ff19b148__21d351e5252d",
+      "partition_sha256": "21d351e5252d4c6559e53bedbab66eff80cc84f2def6ae96d3d5654109724def",
+      "predicted_quality": 0.711990837870744,
+      "cluster_sizes": [
+        138,
+        2782,
+        1120,
+        481
+      ],
+      "parameter_source": "cross-study ridge over observable candidate and calibration descriptors"
+    }
+  },
+  "checkpoints": {
+    "LYMPH_NODE": {
+      "training_metrics_file": "training_without_LYMPH_NODE.csv",
+      "training_metrics_sha256": "7ef354c2746310e2250d6c9d7ab0ed1b412dd3d8e492688560565def6feca2c8",
+      "training_studies": [
+        "TONSIL"
+      ],
+      "training_lanes": [
+        "tonsil_s1",
+        "tonsil_s2",
+        "tonsil_s3"
+      ],
+      "coef": [
+        -0.0056603237660888435,
+        -0.1794385080753028,
+        0.08290601343885645,
+        0.14903907427253976,
+        -0.039354236586049106,
+        0.0496795315205687,
+        -0.02991577764905989,
+        0.06438046071405087,
+        -0.08585803903306265,
+        0.11415423508144776,
+        0.06504635430683148,
+        0.0,
+        0.0,
+        0.14200161132571318,
+        -0.019551630190563402,
+        -0.2594548403788944,
+        0.0,
+        0.0013074906112690134,
+        0.12186418604701035,
+        0.01383318258554888
+      ],
+      "intercept": 0.5783584995101747
+    },
+    "MISAR": {
+      "training_metrics_file": "training_without_MISAR.csv",
+      "training_metrics_sha256": "49d574d0d03ba0e7c437db3f3de311811b69174229b8fd81cd7d9f5e9c0f2239",
+      "training_studies": [
+        "P22"
+      ],
+      "training_lanes": [
+        "P22",
+        "P22_3DOT_K18"
+      ],
+      "coef": [
+        0.14127483854807002,
+        0.0,
+        -0.004276943050568546,
+        -0.06958124711239984,
+        -0.044959529557583075,
+        0.06719517065988256,
+        -0.11391687521925437,
+        0.0,
+        0.17983276431849923,
+        0.1849655661314367,
+        -0.12163567474172077,
+        0.0,
+        0.28309456853809967,
+        0.0,
+        -0.08972032663999681,
+        0.129111449740463,
+        -0.253451911310628,
+        0.22414265307762088,
+        0.005828074165796083,
+        -0.299004507571209
+      ],
+      "intercept": 0.6856515703544508
+    },
+    "P22": {
+      "training_metrics_file": "training_without_P22.csv",
+      "training_metrics_sha256": "1f0148f233da452213f2f7c7fa4133e206035187037911bd585c03b991ce606a",
+      "training_studies": [
+        "MISAR"
+      ],
+      "training_lanes": [
+        "MISAR_E15_5_S1",
+        "MISAR_E15_5_S1_K12"
+      ],
+      "coef": [
+        0.06959616522343538,
+        0.0,
+        0.16740065376662172,
+        -0.18119778890852914,
+        0.03533751480061511,
+        0.008411186986004225,
+        -0.10764466354112283,
+        0.0,
+        0.11087813856204398,
+        -0.056088545814975244,
+        0.1856776800035674,
+        0.0,
+        -0.1646679996382794,
+        0.0,
+        0.0,
+        0.12299577500265564,
+        0.0,
+        0.0,
+        0.0416722246356304,
+        0.0
+      ],
+      "intercept": 0.5528838031892159
+    },
+    "TONSIL": {
+      "training_metrics_file": "training_without_TONSIL.csv",
+      "training_metrics_sha256": "575c0af10537ead82f31fa86d5fe11fd7a39f2479147210f3323edc405311a4e",
+      "training_studies": [
+        "LYMPH_NODE"
+      ],
+      "training_lanes": [
+        "A1",
+        "D1"
+      ],
+      "coef": [
+        -0.11948566602629028,
+        -0.05417368194262458,
+        -0.1270427788038413,
+        0.291457545915946,
+        0.06811785903460811,
+        0.18625887696320745,
+        -0.22520979587571727,
+        0.07157654242368615,
+        0.14745850478202238,
+        -0.28823366736241723,
+        0.07584994924836537,
+        0.2077636360574953,
+        0.0,
+        0.0,
+        0.0,
+        0.02551509163914053,
+        0.0,
+        0.0,
+        -0.0728782037644491,
+        -0.1604005239320772
+      ],
+      "intercept": 0.3611202070288473
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "NIGHT16A_CALIBRATOR_CHECKPOINT_REPLAY_PASS",
+  "lanes": 9,
+  "selection_exact_lanes": 9,
+  "held_out_reference_arrays_opened": 0,
+  "public_metric_columns_opened": 0,
+  "checkpoint_coefficients_reloaded": 4,
+  "wall_seconds": 0.029237499984446913,
+  "rows": [
+    {
+      "lane": "A1",
+      "held_out_study": "LYMPH_NODE",
+      "selected_candidate": "A1::SC_f51142ff19b148::kmeans::retained::s0::d65b217eb99e8878",
+      "expected_candidate": "A1::SC_f51142ff19b148::kmeans::retained::s0::d65b217eb99e8878",
+      "selection_exact": true
+    },
+    {
+      "lane": "D1",
+      "held_out_study": "LYMPH_NODE",
+      "selected_candidate": "D1::SC_f51142ff19b148::kmeans::view1::s2::8b59ef6d92ffa53a",
+      "expected_candidate": "D1::SC_f51142ff19b148::kmeans::view1::s2::8b59ef6d92ffa53a",
+      "selection_exact": true
+    },
+    {
+      "lane": "MISAR_E15_5_S1",
+      "held_out_study": "MISAR",
+      "selected_candidate": "MISAR_E15_5_S1::SC_d0ebedf36c9924::kmeans::retained::s2::f5a5d7623ba7eeec",
+      "expected_candidate": "MISAR_E15_5_S1::SC_d0ebedf36c9924::kmeans::retained::s2::f5a5d7623ba7eeec",
+      "selection_exact": true
+    },
+    {
+      "lane": "MISAR_E15_5_S1_K12",
+      "held_out_study": "MISAR",
+      "selected_candidate": "MISAR_E15_5_S1_K12::SC_592a55b145ad14::gmm_tied::retained::s0::58bc225e561d076c",
+      "expected_candidate": "MISAR_E15_5_S1_K12::SC_592a55b145ad14::gmm_tied::retained::s0::58bc225e561d076c",
+      "selection_exact": true
+    },
+    {
+      "lane": "P22",
+      "held_out_study": "P22",
+      "selected_candidate": "P22::SC_c7bdee968c6d55::kmeans::retained::s0::75370f46fabb37fc",
+      "expected_candidate": "P22::SC_c7bdee968c6d55::kmeans::retained::s0::75370f46fabb37fc",
+      "selection_exact": true
+    },
+    {
+      "lane": "P22_3DOT_K18",
+      "held_out_study": "P22",
+      "selected_candidate": "P22_3DOT_K18::SC_c7bdee968c6d55::gmm_tied::molecular_fused::s0::2abe17cc9c6b1595",
+      "expected_candidate": "P22_3DOT_K18::SC_c7bdee968c6d55::gmm_tied::molecular_fused::s0::2abe17cc9c6b1595",
+      "selection_exact": true
+    },
+    {
+      "lane": "tonsil_s1",
+      "held_out_study": "TONSIL",
+      "selected_candidate": "tonsil_s1::SC_f51142ff19b148::gmm_tied::retained::s0::36b67ac8cefb9937",
+      "expected_candidate": "tonsil_s1::SC_f51142ff19b148::gmm_tied::retained::s0::36b67ac8cefb9937",
+      "selection_exact": true
+    },
+    {
+      "lane": "tonsil_s2",
+      "held_out_study": "TONSIL",
+      "selected_candidate": "tonsil_s2::SC_f51142ff19b148::gmm_tied::molecular_fused::s0::e864d334eafe4d97",
+      "expected_candidate": "tonsil_s2::SC_f51142ff19b148::gmm_tied::molecular_fused::s0::e864d334eafe4d97",
+      "selection_exact": true
+    },
+    {
+      "lane": "tonsil_s3",
+      "held_out_study": "TONSIL",
+      "selected_candidate": "tonsil_s3::SC_f51142ff19b148::gmm_tied::molecular_fused::s1::21d351e5252d4c65",
+      "expected_candidate": "tonsil_s3::SC_f51142ff19b148::gmm_tied::molecular_fused::s1::21d351e5252d4c65",
+      "selection_exact": true
+    }
+  ]
+}

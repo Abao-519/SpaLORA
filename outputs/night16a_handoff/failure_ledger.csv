@@ -1,0 +1,10 @@
+failure_id,class,scope,finding,handling,status
+ARENA_WRITER_PARAMETER_METADATA,ENGINEERING,strict/fixed v1 and all9 parameter columns,"partition and metric rows were correct, but loop wrote the last constants/statistics into each row",writer fixed; strict/fixed rerun as v2; all9 delivered with registry-corrected metadata,PRESERVED_SUPERSEDED
+STRICT_SELF_CALIBRATION,SCIENTIFIC,9/9 lanes,automatic held-out selection was below the current best on every lane,no backfill or label-selected replacement,SCIENTIFIC_NEGATIVE
+GENERIC_ENSEMBLE,SCIENTIFIC,all lanes,label-free medoid/consensus did not recover the high-quality authority starts,retained as initialization-gap evidence,NEGATIVE_RETAINED
+D1_PATHOLOGICAL_CONTEXT,SCIENTIFIC,D1,prior 0.350729/0.416032 has singleton cluster,not promoted; new nonmicro internal frontier is 0.338775/0.435972,NOT_PROMOTED
+PYTEST_UNAVAILABLE,INFRASTRUCTURE,local environment,pytest package absent,dependency-free targeted test runner executed 5/5,WORKAROUND_AUDITED
+FINAL_TEST_CLI_ARGUMENT,ENGINEERING,final test invocation,first final invocation omitted the required --test-file argument and exited before tests,command corrected immediately; final dependency-free run passed 5/5 after final source,CORRECTED_AND_PRESERVED
+REMOTE_PYTHON_ALIAS,INFRASTRUCTURE,remote delivery audit,the unqualified python command was absent,reran the AST/JSON audit with /root/miniconda3/bin/python; 21 Python files and 16 JSON files passed,WORKAROUND_AUDITED
+WINDOWS_CRLF_PRECOMMIT,ENGINEERING,remote precommit check,the first git diff --cached --check rejected Windows CRLF payload lines before any commit was made,"normalized all text payloads to LF, restaged, and reran the check",CORRECTED_BEFORE_COMMIT
+NIGHT15G_D1_PARTIAL_INHERITED,HISTORICAL,3432/5280 rows,broad morphology search exited 1 without exception text,not rerun or hidden; inherited partial ledger remains immutable,PRESERVED

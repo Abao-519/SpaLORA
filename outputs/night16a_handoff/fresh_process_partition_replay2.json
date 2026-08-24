@@ -1,0 +1,662 @@
+{
+  "status": "NIGHT16A_STRICT_FRESH_PROCESS_REPLAY_PASS",
+  "lanes": 9,
+  "byte_exact_lanes": 9,
+  "held_out_reference_arrays_opened": 0,
+  "public_metric_columns_in_descriptors": 0,
+  "dense_n_by_n_count": 0,
+  "wall_seconds": 8.232244699989678,
+  "rows": [
+    {
+      "lane": "A1",
+      "partition_sha256": "d65b217eb99e8878d94154129fdc18c5cd46042d8c081eba244b1f58c7a4f13d",
+      "byte_exact": true,
+      "total_observations": 3484,
+      "k": 10,
+      "retained_shape": [
+        3484,
+        64
+      ],
+      "view1_shape": [
+        3484,
+        30
+      ],
+      "view2_shape": [
+        3484,
+        30
+      ],
+      "optional_shape": [
+        3484,
+        48
+      ],
+      "graph_shape_nnz": [
+        3484,
+        3484,
+        24178
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 15.834128614059766,
+        "self_return_strength": 12.943591133271477,
+        "size_prior": 0.019873354095853234,
+        "scale_weights": [
+          0.330803038935786,
+          0.33252550345451887,
+          0.3366714576096951
+        ],
+        "optional_weight": 0.26539950912501475
+      },
+      "diagnostics": {
+        "molecular_scale_fine_normalized": 0.3308030366897583,
+        "molecular_scale_registered_normalized": 0.33252549171447754,
+        "molecular_scale_broad_normalized": 0.33667147159576416,
+        "molecular_pair_edge_count": 33824.0,
+        "molecular_mean_pair_weight": 0.015621310355777775,
+        "molecular_mean_self_return": 0.6966846896493664,
+        "molecular_mean_retained_weight": 0.5117381811141968,
+        "molecular_mean_view1_weight": 0.3250415623188019,
+        "molecular_mean_view2_weight": 0.16322027146816254,
+        "molecular_mean_prototype_margin": 0.7322323322296143,
+        "molecular_min_cluster_size_before": 98.0,
+        "molecular_expansion_cycles_completed": 1.0,
+        "molecular_accepted_expansions": 0.0,
+        "molecular_total_move_assignments": 0.0,
+        "molecular_changed_observations": 0.0,
+        "molecular_self_return_strength": 12.943591133271477,
+        "molecular_mean_self_return_stay_cost": 9.01760196685791,
+        "molecular_first_cycle_frozen_unary_start_energy": 4244.881247303668,
+        "molecular_last_cycle_frozen_unary_end_energy": 4244.881247303668,
+        "molecular_cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":4244.881247303668,\"end_energy\":4244.881247303668,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "molecular_each_frozen_cycle_monotone": 1.0,
+        "molecular_cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "molecular_observed_cardinality": 10.0,
+        "molecular_min_cluster_size": 98.0,
+        "scale_fine_normalized": 0.3308030366897583,
+        "scale_registered_normalized": 0.33252549171447754,
+        "scale_broad_normalized": 0.33667147159576416,
+        "pair_edge_count": 33824.0,
+        "mean_pair_weight": 0.015621310355777775,
+        "mean_self_return": 0.6966846896493664,
+        "mean_retained_weight": 0.5117381811141968,
+        "mean_view1_weight": 0.3250415623188019,
+        "mean_view2_weight": 0.16322027146816254,
+        "mean_prototype_margin": 0.7322323322296143,
+        "min_cluster_size_before": 98.0,
+        "optional_view_present": 1.0,
+        "missing_view_exact_fallback": 0.0,
+        "mean_optional_consistency": 0.3747841715812683,
+        "mean_optional_conflict": 0.24483531713485718,
+        "mean_optional_reliability": 0.5470452904701233,
+        "mean_optional_presence": 1.0,
+        "accepted_expansions": 0.0,
+        "total_move_assignments": 0.0,
+        "changed_observations": 0.0,
+        "observed_cardinality": 10.0,
+        "min_cluster_size": 98.0,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":4526.40154789571,\"end_energy\":4526.40154789571,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "each_frozen_cycle_monotone": 1.0
+      }
+    },
+    {
+      "lane": "D1",
+      "partition_sha256": "8b59ef6d92ffa53a159e29b2365cd0868c5ea8a9a0e820c8e722fc9f2d09914e",
+      "byte_exact": true,
+      "total_observations": 3359,
+      "k": 10,
+      "retained_shape": [
+        3359,
+        60
+      ],
+      "view1_shape": [
+        3359,
+        30
+      ],
+      "view2_shape": [
+        3359,
+        30
+      ],
+      "optional_shape": [
+        3359,
+        48
+      ],
+      "graph_shape_nnz": [
+        3359,
+        3359,
+        23310
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 15.168913953899912,
+        "self_return_strength": 13.950033141894222,
+        "size_prior": 0.026298381979939507,
+        "scale_weights": [
+          0.3291330455920221,
+          0.33186133202206664,
+          0.3390056223859112
+        ],
+        "optional_weight": 0.2729130446621357
+      },
+      "diagnostics": {
+        "molecular_scale_fine_normalized": 0.3291330337524414,
+        "molecular_scale_registered_normalized": 0.33186131715774536,
+        "molecular_scale_broad_normalized": 0.33900561928749084,
+        "molecular_pair_edge_count": 32608.0,
+        "molecular_mean_pair_weight": 0.014905229585254792,
+        "molecular_mean_self_return": 0.7106104607638244,
+        "molecular_mean_retained_weight": 0.6549865007400513,
+        "molecular_mean_view1_weight": 0.24787461757659912,
+        "molecular_mean_view2_weight": 0.09713882207870483,
+        "molecular_mean_prototype_margin": 0.7363211512565613,
+        "molecular_min_cluster_size_before": 130.0,
+        "molecular_expansion_cycles_completed": 1.0,
+        "molecular_accepted_expansions": 0.0,
+        "molecular_total_move_assignments": 0.0,
+        "molecular_changed_observations": 0.0,
+        "molecular_self_return_strength": 13.950033141894222,
+        "molecular_mean_self_return_stay_cost": 9.913039207458496,
+        "molecular_first_cycle_frozen_unary_start_energy": 5189.490507369727,
+        "molecular_last_cycle_frozen_unary_end_energy": 5189.490507369727,
+        "molecular_cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":5189.490507369727,\"end_energy\":5189.490507369727,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "molecular_each_frozen_cycle_monotone": 1.0,
+        "molecular_cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "molecular_observed_cardinality": 10.0,
+        "molecular_min_cluster_size": 130.0,
+        "scale_fine_normalized": 0.3291330337524414,
+        "scale_registered_normalized": 0.33186131715774536,
+        "scale_broad_normalized": 0.33900561928749084,
+        "pair_edge_count": 32608.0,
+        "mean_pair_weight": 0.014905229585254792,
+        "mean_self_return": 0.7106104607638244,
+        "mean_retained_weight": 0.6549865007400513,
+        "mean_view1_weight": 0.24787461757659912,
+        "mean_view2_weight": 0.09713882207870483,
+        "mean_prototype_margin": 0.7363211512565613,
+        "min_cluster_size_before": 130.0,
+        "optional_view_present": 1.0,
+        "missing_view_exact_fallback": 0.0,
+        "mean_optional_consistency": 0.37544190883636475,
+        "mean_optional_conflict": 0.21698087453842163,
+        "mean_optional_reliability": 0.5473690629005432,
+        "mean_optional_presence": 1.0,
+        "accepted_expansions": 0.0,
+        "total_move_assignments": 0.0,
+        "changed_observations": 0.0,
+        "observed_cardinality": 10.0,
+        "min_cluster_size": 130.0,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":5540.030729636257,\"end_energy\":5540.030729636257,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "each_frozen_cycle_monotone": 1.0
+      }
+    },
+    {
+      "lane": "MISAR_E15_5_S1",
+      "partition_sha256": "f5a5d7623ba7eeec3beceb1802f66f05846591c5f17b2d0f77c24774b46118f3",
+      "byte_exact": true,
+      "total_observations": 1949,
+      "k": 7,
+      "retained_shape": [
+        1949,
+        64
+      ],
+      "view1_shape": [
+        1949,
+        30
+      ],
+      "view2_shape": [
+        1949,
+        50
+      ],
+      "optional_shape": null,
+      "graph_shape_nnz": [
+        1949,
+        1949,
+        13666
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 35.46501472329484,
+        "self_return_strength": 0.985931054722758,
+        "size_prior": 0.14234889174322937,
+        "scale_weights": [
+          0.33479596872474604,
+          0.3378684235124139,
+          0.32733560776284
+        ],
+        "optional_weight": 0.0
+      },
+      "diagnostics": {
+        "scale_fine_normalized": 0.3347959816455841,
+        "scale_registered_normalized": 0.33786842226982117,
+        "scale_broad_normalized": 0.3273355960845947,
+        "pair_edge_count": 19106.0,
+        "mean_pair_weight": 0.014501679873368738,
+        "mean_self_return": 0.7156807635451035,
+        "mean_retained_weight": 0.35743507742881775,
+        "mean_view1_weight": 0.2732320725917816,
+        "mean_view2_weight": 0.369332879781723,
+        "mean_prototype_margin": 1.0161556005477905,
+        "min_cluster_size_before": 71.0,
+        "expansion_cycles_completed": 1.0,
+        "accepted_expansions": 7.0,
+        "total_move_assignments": 146.0,
+        "changed_observations": 91.0,
+        "self_return_strength": 0.985931054722758,
+        "mean_self_return_stay_cost": 0.7056118845939636,
+        "first_cycle_frozen_unary_start_energy": 1047.7078336580835,
+        "last_cycle_frozen_unary_end_energy": 862.5750506472166,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":1047.7078336580835,\"end_energy\":862.5750506472166,\"accepted_expansions\":7,\"move_assignments\":146}]",
+        "each_frozen_cycle_monotone": 1.0,
+        "cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "observed_cardinality": 7.0,
+        "min_cluster_size": 71.0,
+        "optional_view_present": 0.0,
+        "optional_missing_exact_molecular_fallback": 1.0
+      }
+    },
+    {
+      "lane": "MISAR_E15_5_S1_K12",
+      "partition_sha256": "58bc225e561d076cfdbc7a6bc1a64925cf3873a6639f6a60c30c59650c532655",
+      "byte_exact": true,
+      "total_observations": 1949,
+      "k": 12,
+      "retained_shape": [
+        1949,
+        64
+      ],
+      "view1_shape": [
+        1949,
+        30
+      ],
+      "view2_shape": [
+        1949,
+        50
+      ],
+      "optional_shape": null,
+      "graph_shape_nnz": [
+        1949,
+        1949,
+        13666
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 22.83486542497102,
+        "self_return_strength": 6.669240146282,
+        "size_prior": 0.08354527562597146,
+        "scale_weights": [
+          0.33368169278282633,
+          0.3343986302739805,
+          0.33191967694319324
+        ],
+        "optional_weight": 0.0
+      },
+      "diagnostics": {
+        "scale_fine_normalized": 0.33368170261383057,
+        "scale_registered_normalized": 0.33439862728118896,
+        "scale_broad_normalized": 0.33191967010498047,
+        "pair_edge_count": 19106.0,
+        "mean_pair_weight": 0.014501743706480495,
+        "mean_self_return": 0.7156795118715493,
+        "mean_retained_weight": 0.5245358347892761,
+        "mean_view1_weight": 0.166985884308815,
+        "mean_view2_weight": 0.3084782660007477,
+        "mean_prototype_margin": 1.367861032485962,
+        "min_cluster_size_before": 64.0,
+        "expansion_cycles_completed": 2.0,
+        "accepted_expansions": 3.0,
+        "total_move_assignments": 5.0,
+        "changed_observations": 5.0,
+        "self_return_strength": 6.669240146282,
+        "mean_self_return_stay_cost": 4.773038387298584,
+        "first_cycle_frozen_unary_start_energy": 904.4848432373085,
+        "last_cycle_frozen_unary_end_energy": 874.1300795979917,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":904.4848432373085,\"end_energy\":899.3381206400811,\"accepted_expansions\":3,\"move_assignments\":5},{\"cycle_index\":1,\"start_energy\":874.1300795979917,\"end_energy\":874.1300795979917,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "each_frozen_cycle_monotone": 1.0,
+        "cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "observed_cardinality": 12.0,
+        "min_cluster_size": 64.0,
+        "optional_view_present": 0.0,
+        "optional_missing_exact_molecular_fallback": 1.0
+      }
+    },
+    {
+      "lane": "P22",
+      "partition_sha256": "75370f46fabb37fc8a0e9abeaa4643a54a8e62f3b10bb0a00ee2d011df080fb1",
+      "byte_exact": true,
+      "total_observations": 9196,
+      "k": 9,
+      "retained_shape": [
+        9196,
+        64
+      ],
+      "view1_shape": [
+        9196,
+        30
+      ],
+      "view2_shape": [
+        9196,
+        50
+      ],
+      "optional_shape": null,
+      "graph_shape_nnz": [
+        9196,
+        9196,
+        64466
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 42.0635524120624,
+        "self_return_strength": 11.863640068465237,
+        "size_prior": 0.08716800389050909,
+        "scale_weights": [
+          0.3319143506617513,
+          0.33330811948767797,
+          0.33477752985057063
+        ],
+        "optional_weight": 0.0
+      },
+      "diagnostics": {
+        "scale_fine_normalized": 0.33191436529159546,
+        "scale_registered_normalized": 0.3333081305027008,
+        "scale_broad_normalized": 0.3347775340080261,
+        "pair_edge_count": 89119.0,
+        "mean_pair_weight": 0.01389891976743917,
+        "mean_self_return": 0.7306094438933766,
+        "mean_retained_weight": 0.4029430150985718,
+        "mean_view1_weight": 0.38532379269599915,
+        "mean_view2_weight": 0.21173319220542908,
+        "mean_prototype_margin": 0.9359686970710754,
+        "min_cluster_size_before": 159.0,
+        "expansion_cycles_completed": 2.0,
+        "accepted_expansions": 7.0,
+        "total_move_assignments": 88.0,
+        "changed_observations": 88.0,
+        "self_return_strength": 11.863640068465237,
+        "mean_self_return_stay_cost": 8.66768741607666,
+        "first_cycle_frozen_unary_start_energy": 6813.881469533753,
+        "last_cycle_frozen_unary_end_energy": 5871.105870720381,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":6813.881469533753,\"end_energy\":6614.445866626138,\"accepted_expansions\":7,\"move_assignments\":88},{\"cycle_index\":1,\"start_energy\":5871.105870720381,\"end_energy\":5871.105870720381,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "each_frozen_cycle_monotone": 1.0,
+        "cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "observed_cardinality": 9.0,
+        "min_cluster_size": 159.0,
+        "optional_view_present": 0.0,
+        "optional_missing_exact_molecular_fallback": 1.0
+      }
+    },
+    {
+      "lane": "P22_3DOT_K18",
+      "partition_sha256": "2abe17cc9c6b1595c216aa0779510cc94ad1ab1080d5813ee4e71bfa1f829b05",
+      "byte_exact": true,
+      "total_observations": 9196,
+      "k": 18,
+      "retained_shape": [
+        9196,
+        64
+      ],
+      "view1_shape": [
+        9196,
+        30
+      ],
+      "view2_shape": [
+        9196,
+        50
+      ],
+      "optional_shape": null,
+      "graph_shape_nnz": [
+        9196,
+        9196,
+        64466
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 39.98704262586862,
+        "self_return_strength": 11.863640068465237,
+        "size_prior": 0.21363237007219207,
+        "scale_weights": [
+          0.3319143506617513,
+          0.33330811948767797,
+          0.33477752985057063
+        ],
+        "optional_weight": 0.0
+      },
+      "diagnostics": {
+        "scale_fine_normalized": 0.33191436529159546,
+        "scale_registered_normalized": 0.3333081305027008,
+        "scale_broad_normalized": 0.3347775340080261,
+        "pair_edge_count": 89119.0,
+        "mean_pair_weight": 0.01389891976743917,
+        "mean_self_return": 0.7306094438933766,
+        "mean_retained_weight": 0.26653966307640076,
+        "mean_view1_weight": 0.5988974571228027,
+        "mean_view2_weight": 0.1345628947019577,
+        "mean_prototype_margin": 0.3936683237552643,
+        "min_cluster_size_before": 39.0,
+        "expansion_cycles_completed": 2.0,
+        "accepted_expansions": 13.0,
+        "total_move_assignments": 229.0,
+        "changed_observations": 229.0,
+        "self_return_strength": 11.863640068465237,
+        "mean_self_return_stay_cost": 8.66768741607666,
+        "first_cycle_frozen_unary_start_energy": 26574.726874893007,
+        "last_cycle_frozen_unary_end_energy": 24427.495870579252,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":26574.726874893007,\"end_energy\":26280.178759961844,\"accepted_expansions\":11,\"move_assignments\":225},{\"cycle_index\":1,\"start_energy\":24427.716526537657,\"end_energy\":24427.495870579252,\"accepted_expansions\":2,\"move_assignments\":4}]",
+        "each_frozen_cycle_monotone": 1.0,
+        "cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "observed_cardinality": 18.0,
+        "min_cluster_size": 39.0,
+        "optional_view_present": 0.0,
+        "optional_missing_exact_molecular_fallback": 1.0
+      }
+    },
+    {
+      "lane": "tonsil_s1",
+      "partition_sha256": "36b67ac8cefb99374b9a167c02d0f495d34a96fb7883820a04a13f4ed2b78778",
+      "byte_exact": true,
+      "total_observations": 4326,
+      "k": 4,
+      "retained_shape": [
+        4326,
+        16
+      ],
+      "view1_shape": [
+        4326,
+        30
+      ],
+      "view2_shape": [
+        4326,
+        30
+      ],
+      "optional_shape": null,
+      "graph_shape_nnz": [
+        4326,
+        4326,
+        29868
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 17.008533449366645,
+        "self_return_strength": 13.135522819168862,
+        "size_prior": 0.011962399394508943,
+        "scale_weights": [
+          0.3254126265466765,
+          0.32950799471820164,
+          0.3450793787351218
+        ],
+        "optional_weight": 0.0
+      },
+      "diagnostics": {
+        "scale_fine_normalized": 0.3254126310348511,
+        "scale_registered_normalized": 0.3295080065727234,
+        "scale_broad_normalized": 0.3450793921947479,
+        "pair_edge_count": 42072.0,
+        "mean_pair_weight": 0.015441782945340543,
+        "mean_self_return": 0.6996455731493469,
+        "mean_retained_weight": 0.43400847911834717,
+        "mean_view1_weight": 0.2899952232837677,
+        "mean_view2_weight": 0.2759963572025299,
+        "mean_prototype_margin": 1.299070119857788,
+        "min_cluster_size_before": 356.0,
+        "expansion_cycles_completed": 1.0,
+        "accepted_expansions": 0.0,
+        "total_move_assignments": 0.0,
+        "changed_observations": 0.0,
+        "self_return_strength": 13.135522819168862,
+        "mean_self_return_stay_cost": 9.190211296081543,
+        "first_cycle_frozen_unary_start_energy": 2561.7749540489467,
+        "last_cycle_frozen_unary_end_energy": 2561.7749540489467,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":2561.7749540489467,\"end_energy\":2561.7749540489467,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "each_frozen_cycle_monotone": 1.0,
+        "cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "observed_cardinality": 4.0,
+        "min_cluster_size": 356.0,
+        "optional_view_present": 0.0,
+        "optional_missing_exact_molecular_fallback": 1.0
+      }
+    },
+    {
+      "lane": "tonsil_s2",
+      "partition_sha256": "e864d334eafe4d976a40343d352a7ff60f53edd0790ff0c772b93b97cc836d1c",
+      "byte_exact": true,
+      "total_observations": 4519,
+      "k": 4,
+      "retained_shape": [
+        4519,
+        60
+      ],
+      "view1_shape": [
+        4519,
+        30
+      ],
+      "view2_shape": [
+        4519,
+        30
+      ],
+      "optional_shape": null,
+      "graph_shape_nnz": [
+        4519,
+        4519,
+        31286
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 17.259706377914654,
+        "self_return_strength": 12.810616065511118,
+        "size_prior": 0.017949724827303785,
+        "scale_weights": [
+          0.3267926571490076,
+          0.33153015026751376,
+          0.3416771925834786
+        ],
+        "optional_weight": 0.0
+      },
+      "diagnostics": {
+        "scale_fine_normalized": 0.3267926573753357,
+        "scale_registered_normalized": 0.3315301537513733,
+        "scale_broad_normalized": 0.341677188873291,
+        "pair_edge_count": 43995.0,
+        "mean_pair_weight": 0.015736784915713814,
+        "mean_self_return": 0.6935871222494647,
+        "mean_retained_weight": 0.5717089176177979,
+        "mean_view1_weight": 0.2274451106786728,
+        "mean_view2_weight": 0.20084601640701294,
+        "mean_prototype_margin": 1.58078932762146,
+        "min_cluster_size_before": 723.0,
+        "expansion_cycles_completed": 1.0,
+        "accepted_expansions": 1.0,
+        "total_move_assignments": 4.0,
+        "changed_observations": 4.0,
+        "self_return_strength": 12.810616065511118,
+        "mean_self_return_stay_cost": 8.885278701782227,
+        "first_cycle_frozen_unary_start_energy": 3578.7098365356233,
+        "last_cycle_frozen_unary_end_energy": 3573.759493266097,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":3578.7098365356233,\"end_energy\":3573.759493266097,\"accepted_expansions\":1,\"move_assignments\":4}]",
+        "each_frozen_cycle_monotone": 1.0,
+        "cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "observed_cardinality": 4.0,
+        "min_cluster_size": 723.0,
+        "optional_view_present": 0.0,
+        "optional_missing_exact_molecular_fallback": 1.0
+      }
+    },
+    {
+      "lane": "tonsil_s3",
+      "partition_sha256": "21d351e5252d4c6559e53bedbab66eff80cc84f2def6ae96d3d5654109724def",
+      "byte_exact": true,
+      "total_observations": 4521,
+      "k": 4,
+      "retained_shape": [
+        4521,
+        60
+      ],
+      "view1_shape": [
+        4521,
+        30
+      ],
+      "view2_shape": [
+        4521,
+        30
+      ],
+      "optional_shape": [
+        4521,
+        48
+      ],
+      "graph_shape_nnz": [
+        4521,
+        4521,
+        28312
+      ],
+      "calibrated_parameters": {
+        "pairwise_beta": 17.4044274661238,
+        "self_return_strength": 12.577844062284994,
+        "size_prior": 0.011988380619151268,
+        "scale_weights": [
+          0.3277463590025716,
+          0.3298882570847339,
+          0.34236538391269444
+        ],
+        "optional_weight": 0.35841169349355645
+      },
+      "diagnostics": {
+        "molecular_scale_fine_normalized": 0.32774636149406433,
+        "molecular_scale_registered_normalized": 0.329888254404068,
+        "molecular_scale_broad_normalized": 0.3423653841018677,
+        "molecular_pair_edge_count": 42908.0,
+        "molecular_mean_pair_weight": 0.016470157743151394,
+        "molecular_mean_self_return": 0.6873693634506299,
+        "molecular_mean_retained_weight": 0.5179988145828247,
+        "molecular_mean_view1_weight": 0.2059217244386673,
+        "molecular_mean_view2_weight": 0.2760794162750244,
+        "molecular_mean_prototype_margin": 0.7033604979515076,
+        "molecular_min_cluster_size_before": 139.0,
+        "molecular_expansion_cycles_completed": 1.0,
+        "molecular_accepted_expansions": 0.0,
+        "molecular_total_move_assignments": 0.0,
+        "molecular_changed_observations": 0.0,
+        "molecular_self_return_strength": 12.577844062284994,
+        "molecular_mean_self_return_stay_cost": 8.645624160766602,
+        "molecular_first_cycle_frozen_unary_start_energy": 2240.2987733436357,
+        "molecular_last_cycle_frozen_unary_end_energy": 2240.2987733436357,
+        "molecular_cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":2240.2987733436357,\"end_energy\":2240.2987733436357,\"accepted_expansions\":0,\"move_assignments\":0}]",
+        "molecular_each_frozen_cycle_monotone": 1.0,
+        "molecular_cross_dynamic_cycle_global_monotonicity_claimed": 0.0,
+        "molecular_observed_cardinality": 4.0,
+        "molecular_min_cluster_size": 139.0,
+        "scale_fine_normalized": 0.32774636149406433,
+        "scale_registered_normalized": 0.329888254404068,
+        "scale_broad_normalized": 0.3423653841018677,
+        "pair_edge_count": 42908.0,
+        "mean_pair_weight": 0.016470157743151394,
+        "mean_self_return": 0.6873693634506299,
+        "mean_retained_weight": 0.5179988145828247,
+        "mean_view1_weight": 0.2059217244386673,
+        "mean_view2_weight": 0.2760794162750244,
+        "mean_prototype_margin": 0.7033604979515076,
+        "min_cluster_size_before": 139.0,
+        "optional_view_present": 1.0,
+        "missing_view_exact_fallback": 0.0,
+        "mean_optional_consistency": 0.3615652322769165,
+        "mean_optional_conflict": 0.20633047819137573,
+        "mean_optional_reliability": 0.5278099775314331,
+        "mean_optional_presence": 1.0,
+        "accepted_expansions": 1.0,
+        "total_move_assignments": 1.0,
+        "changed_observations": 1.0,
+        "observed_cardinality": 4.0,
+        "min_cluster_size": 138.0,
+        "cycle_energy_ledger_json": "[{\"cycle_index\":0,\"start_energy\":2414.3539445989977,\"end_energy\":2413.8148102482082,\"accepted_expansions\":1,\"move_assignments\":1}]",
+        "each_frozen_cycle_monotone": 1.0
+      }
+    }
+  ]
+}

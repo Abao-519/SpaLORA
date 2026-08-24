@@ -1,0 +1,74 @@
+{
+  "development_rows": 540,
+  "descriptor_rows": 540,
+  "descriptor_public_metric_columns": 0,
+  "training_files": {
+    "LYMPH_NODE": {
+      "rows": 420,
+      "studies": [
+        "MISAR",
+        "P22",
+        "TONSIL"
+      ],
+      "lanes": [
+        "MISAR_E15_5_S1",
+        "MISAR_E15_5_S1_K12",
+        "P22",
+        "P22_3DOT_K18",
+        "tonsil_s1",
+        "tonsil_s2",
+        "tonsil_s3"
+      ]
+    },
+    "MISAR": {
+      "rows": 420,
+      "studies": [
+        "LYMPH_NODE",
+        "P22",
+        "TONSIL"
+      ],
+      "lanes": [
+        "A1",
+        "D1",
+        "P22",
+        "P22_3DOT_K18",
+        "tonsil_s1",
+        "tonsil_s2",
+        "tonsil_s3"
+      ]
+    },
+    "P22": {
+      "rows": 420,
+      "studies": [
+        "LYMPH_NODE",
+        "MISAR",
+        "TONSIL"
+      ],
+      "lanes": [
+        "A1",
+        "D1",
+        "MISAR_E15_5_S1",
+        "MISAR_E15_5_S1_K12",
+        "tonsil_s1",
+        "tonsil_s2",
+        "tonsil_s3"
+      ]
+    },
+    "TONSIL": {
+      "rows": 360,
+      "studies": [
+        "LYMPH_NODE",
+        "MISAR",
+        "P22"
+      ],
+      "lanes": [
+        "A1",
+        "D1",
+        "MISAR_E15_5_S1",
+        "MISAR_E15_5_S1_K12",
+        "P22",
+        "P22_3DOT_K18"
+      ]
+    }
+  }
+}

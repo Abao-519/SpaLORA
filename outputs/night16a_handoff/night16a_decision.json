@@ -1,0 +1,33 @@
+{
+  "status": "NIGHT16A_SCORE_FRONTIER_ADVANCE_WITH_SELF_CALIBRATION_GAP",
+  "classification": [
+    "SCORE_FRONTIER_ADVANCE",
+    "LOCAL_SIGNAL"
+  ],
+  "strict_self_calibration_component_classification": "SCIENTIFIC_NEGATIVE",
+  "evidence_tier": "PUBLIC_BENCHMARK_DEVELOPMENT_ONLY",
+  "paper_ready": false,
+  "confirmed_milestone": false,
+  "sota_claimed": false,
+  "internal_frontier": {
+    "advanced_lanes_any_metric": 6,
+    "dual_positive_lanes": 6,
+    "headline": "D1 nonmicro 0.338774873/0.435971663",
+    "selection_uses_public_labels": true
+  },
+  "strict_automatic": {
+    "lanes": 9,
+    "both_metrics_below_old_best_lanes": 9,
+    "producer_current_study_label_reads": 0,
+    "partition_replay": "9/9 twice",
+    "calibrator_checkpoint_replay": "9/9 twice",
+    "self_calibrating_method_signal": false
+  },
+  "git": {
+    "parent": "750d3fe9df52208b7618b878eb2701cd613b23b0",
+    "branch": "revision/q2-night16a-score-driven-self-calibrating-energy-20260824",
+    "final_tag": "night16a-final-20260824",
+    "final_commit": "RECORDED_POST_COMMIT_IN_DELIVERY_VERIFICATION"
+  },
+  "shutdown_dispatched": false
+}

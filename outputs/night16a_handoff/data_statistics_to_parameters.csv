@@ -1,0 +1,10 @@
+observable_statistic,generated_parameter_or_role,mapping,implementation_status
+"N, K, N/K",pairwise_beta,0.75 + overlap + 0.15*log1p(N/K),active
+effective ranks of retained/RNA/second modality,retained and view logits,log rank ratio plus edge-coherence balance,active
+registered neighbor overlap and edge correlation,"edge floor, capacity, pairwise, self-return",continuous clipped transforms,active
+conflict median and robust scale,conflict center/temperature and mass controls,median/MAD-derived,active
+three-scale cross-modal support,fine/registered/broad weights,softmax(scale score / temperature),active
+multi-start median agreement,"unary temperature, size prior and trust",continuous uncertainty transform,active
+optional morphology edge reliability,morphology unary/edge weight,presence mask times reliability,active; exact zero when missing
+zero fractions,diagnostic only,reported but not used by final mapping,inactive
+candidate prototype margin/separation/centrality,final candidate quality,held-out cross-study ridge,active selector feature
