@@ -1,0 +1,36 @@
+{
+  "passed_lanes": 4,
+  "rows": [
+    {
+      "candidate_count": 47,
+      "lane": "P22_K9",
+      "mismatches": [],
+      "partition_exact_count": 47,
+      "status": "PASS"
+    },
+    {
+      "candidate_count": 47,
+      "lane": "MISAR_K7",
+      "mismatches": [],
+      "partition_exact_count": 47,
+      "status": "PASS"
+    },
+    {
+      "candidate_count": 47,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "mismatches": [],
+      "partition_exact_count": 47,
+      "status": "PASS"
+    },
+    {
+      "candidate_count": 47,
+      "lane": "MELANOMA_TUMOR_K2",
+      "mismatches": [],
+      "partition_exact_count": 47,
+      "status": "PASS"
+    }
+  ],
+  "schema": "night16f-fresh-process-replay-audit-v1",
+  "status": "PASS",
+  "total_lanes": 4
+}

@@ -1,0 +1,7 @@
+classification,disposition,event,scientific_formula_changed
+AUTHORITY_ALIGNMENT_CORRECTION,exact row/column numeric identity to the official Apache-2.0 reproduce carrier was required before biological barcodes/features were transferred,FIGSHARE_POSITIONAL_IDS_AND_FEATURES,False
+START_AUTHORITY_CORRECTION,old carrier/results retained under superseded; final human runs use byte-exact parent start and were rerun twice,HUMAN_FRESH_MEDOID_NOT_BYTE_EXACT_PARENT,False
+ENGINEERING_REPRODUCIBILITY_CORRECTION,"Night-16E final replay fixed OMP/MKL/OPENBLAS=1; Night-16F first pass omitted it. All four carriers, outputs, evaluations and replays were retained under superseded, then rebuilt and rerun with the parent boundary.",NIGHT16F_UNPINNED_NUMERICAL_BOUNDARY,False
+FALSIFIED_ENGINEERING_HYPOTHESIS,restoring only float64 graph data left the unpinned human DIRECT partition byte-exact; lossless graph dtype storage was nevertheless adopted for carrier fidelity,GRAPH_FLOAT32_ROOT_CAUSE_HYPOTHESIS,False
+DATA_INPUT_BLOCKED_AUTH_REQUIRED,K10 not evaluated; no label or matrix was fabricated,SCP2176_ALL_CELL_K10,False
+LOCAL_SIGNAL_NO_INDEPENDENT_TRANSFER,"human hippocampus beat all mass-matched controls, but the same frozen operator failed to do so on independent melanoma; no v2 or scientific retry followed",RELATION_SPECIFIC_BIMODAL_SUPPORT,False

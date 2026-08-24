@@ -6,12 +6,20 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import resource
 import time
 
+# Match the parent Night-16E final-replay numerical boundary before importing
+# NumPy/SciPy.  Runtime limiting in main() protects embedded invocation too.
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+
 import numpy as np
 import scipy.sparse as sp
+from threadpoolctl import threadpool_limits
 
 from SpaLORA.night15f_multiscale_expansion import prepare_expansion_evidence
 from SpaLORA.night16e_tsre import partition_sha256, prepare_tsre_evidence
@@ -159,6 +167,7 @@ def run(args: argparse.Namespace) -> None:
         "peak_rss_mib": float(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024.0),
         "gpu_time_seconds": 0.0,
         "peak_gpu_mib": 0.0,
+        "deterministic_thread_limit": 1,
     }
     output.with_suffix(".producer.json").write_text(json.dumps(manifest, indent=2, sort_keys=True))
 
@@ -171,7 +180,8 @@ def main() -> None:
     parser.add_argument("--lane", required=True)
     parser.add_argument("--k", type=int, required=True)
     parser.add_argument("--output", required=True)
-    run(parser.parse_args())
+    with threadpool_limits(limits=1):
+        run(parser.parse_args())
 
 
 if __name__ == "__main__":

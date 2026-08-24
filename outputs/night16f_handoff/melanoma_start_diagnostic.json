@@ -1,0 +1,56 @@
+{
+  "all_criteria_select_same_start": false,
+  "candidate_count": 5,
+  "criterion_winners": {
+    "maximum_calinski_harabasz": "KMEANS_RETAINED_S3",
+    "maximum_partition_centrality": "KMEANS_RETAINED_S1",
+    "maximum_silhouette": "KMEANS_RETAINED_S2",
+    "minimum_davies_bouldin": "KMEANS_RETAINED_S1",
+    "minimum_inertia": "KMEANS_RETAINED_S3"
+  },
+  "diagnostic_only": true,
+  "formal_selector_changed": false,
+  "rows": [
+    {
+      "calinski_harabasz": 9.475054395736588,
+      "davies_bouldin": 8.984084757003282,
+      "inertia": 52710.98975223643,
+      "mean_pairwise_partition_ari": -1.2254642395876058e-05,
+      "silhouette": 0.011399391026243794,
+      "start_id": "KMEANS_RETAINED_S0"
+    },
+    {
+      "calinski_harabasz": 10.298438903870423,
+      "davies_bouldin": 6.028616702387864,
+      "inertia": 52659.40114780856,
+      "mean_pairwise_partition_ari": 0.09775737429591182,
+      "silhouette": 0.0013934012032085562,
+      "start_id": "KMEANS_RETAINED_S1"
+    },
+    {
+      "calinski_harabasz": 9.603238677916403,
+      "davies_bouldin": 8.476278389785097,
+      "inertia": 52702.95180987136,
+      "mean_pairwise_partition_ari": 0.007645668488185998,
+      "silhouette": 0.03911609486196164,
+      "start_id": "KMEANS_RETAINED_S2"
+    },
+    {
+      "calinski_harabasz": 12.0158376375659,
+      "davies_bouldin": 7.479191731439317,
+      "inertia": 52552.1229866985,
+      "mean_pairwise_partition_ari": 0.09297827814839495,
+      "silhouette": 0.0076946373119432315,
+      "start_id": "KMEANS_RETAINED_S3"
+    },
+    {
+      "calinski_harabasz": 9.483244463520753,
+      "davies_bouldin": 9.05545202408024,
+      "inertia": 52710.476111325814,
+      "mean_pairwise_partition_ari": 0.0007113346116055573,
+      "silhouette": 0.010484881972013546,
+      "start_id": "KMEANS_RETAINED_S4"
+    }
+  ],
+  "schema": "night16f-melanoma-label-free-start-diagnostic-v1"
+}

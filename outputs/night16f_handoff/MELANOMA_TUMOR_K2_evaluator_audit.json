@@ -1,0 +1,21 @@
+{
+  "data_id": "SCP2176_HUMAN_MELANOMA_TUMOR_ONLY",
+  "evaluator_label_reads": 1,
+  "labels_loaded_after_locked_partition_artifact": true,
+  "lane": "MELANOMA_TUMOR_K2",
+  "n_evaluated": 833,
+  "n_reference_rows": 833,
+  "n_total": 833,
+  "ordered_reference_sha256": "c016143bf46f03c01b566f490dc7154a79861922215d2e065f749883a6a2dfe1",
+  "producer_label_reads": 0,
+  "reference_category_counts": {
+    "tumour_1": 561,
+    "tumour_2": 272
+  },
+  "reference_k": 2,
+  "reference_kind": "tsv",
+  "reference_path": "/root/night16f_working/melanoma_protocol/tumor_k2_reference.tsv",
+  "reference_provenance": "tsv:public_author_cluster",
+  "rows": 47,
+  "schema": "night16f-independent-evaluator-v1"
+}

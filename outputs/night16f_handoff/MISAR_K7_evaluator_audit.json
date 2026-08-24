@@ -1,0 +1,26 @@
+{
+  "data_id": "MISAR_E15_5_S1",
+  "evaluator_label_reads": 1,
+  "labels_loaded_after_locked_partition_artifact": true,
+  "lane": "MISAR_K7",
+  "n_evaluated": 1949,
+  "n_reference_rows": 1949,
+  "n_total": 1949,
+  "ordered_reference_sha256": "2c5deeeaf82343defd2a96c911a6b6f84f8630432bfa4a4b4177613488c8ab9f",
+  "producer_label_reads": 0,
+  "reference_category_counts": {
+    "Cartilage": 412,
+    "Forebrain": 659,
+    "Hindbrain": 171,
+    "Mesenchyme": 182,
+    "Midbrain": 385,
+    "Muscle": 77,
+    "Skull": 63
+  },
+  "reference_k": 7,
+  "reference_kind": "npz",
+  "reference_path": "/root/night16d_assets/kit/local_compute_kit/MISAR_E15_5_S1.npz",
+  "reference_provenance": "npz:labels_primary:label_mask",
+  "rows": 47,
+  "schema": "night16f-independent-evaluator-v1"
+}

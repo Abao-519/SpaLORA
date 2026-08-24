@@ -1,0 +1,98 @@
+{
+  "authority_category_counts": {
+    "T_CD4": 67,
+    "T_CD8": 1020,
+    "T_reg": 72,
+    "mDC": 29,
+    "mono-mac": 307,
+    "myeloid": 35,
+    "pDC": 6,
+    "plasma": 166,
+    "tumour_1": 561,
+    "tumour_2": 272
+  },
+  "authority_cell_count": 2535,
+  "authority_first_id": "AAACAGCCAACAGGTG-1",
+  "authority_last_id": "TTTGTGTTCTAGCGTG-1",
+  "coordinate_alignment": "PASS",
+  "explicit_id_alignment": "PASS",
+  "figshare_feature_ids": "exact positional placeholders; biological feature IDs transferred from the official reproduce carrier after exact matrix-shape and row/column numeric identity",
+  "figshare_observation_ids": "exact positional placeholders 0..832; biological barcode order transferred only after exact matrix-shape and row/column numeric identity to the official reproduce carrier",
+  "formal_numeric_carrier_obs_columns": [],
+  "input_files": {
+    "annotations": {
+      "md5": "862b3f85bb4a79bd6851b3193c2b1a13",
+      "path": "/root/night16f_external/scp2176/cluster_cell_values.json",
+      "sha256": "ee3672b8cf262233bbf441bb21538481e3285a3a8924b6b13eeb3edd167c0d8f",
+      "size": 66973
+    },
+    "figshare_atac": {
+      "md5": "4b9146fd281bcc32228f807212353dbf",
+      "path": "/root/night16f_external/scp2176/HumanMelanoma_ATAC_lsi.h5ad",
+      "sha256": "0f37e35aad8a66055fc9630e64360f3c380c35a1e7841bf9e7b6f4dfec81d7b0",
+      "size": 9421360
+    },
+    "figshare_rna": {
+      "md5": "bfe64da577c642cbfe8efbc26ac22abb",
+      "path": "/root/night16f_external/scp2176/HumanMelanoma_RNA.h5ad",
+      "sha256": "6b5cdb3e71561981b9474d2d26a701fcda7fe309d2163d40a85dee4626c6f243",
+      "size": 7176096
+    },
+    "official_atac": {
+      "md5": "db5e412d041a904741b772d706757bb4",
+      "path": "/root/night16f_external/MultiGATE/Reproduce/clustering/slidetags_data/outputslidetags0831_cluster2/slideTags_adata2.h5ad",
+      "sha256": "dec98886675b0da3964fe5439bb1abc210fcff3ad8e69e7beb9f88c8d63489e4",
+      "size": 12314378
+    },
+    "official_rna": {
+      "md5": "1210f66be890de08ce600c3fe177172c",
+      "path": "/root/night16f_external/MultiGATE/Reproduce/clustering/slidetags_data/outputslidetags0831_cluster2/slideTags_adata1.h5ad",
+      "sha256": "9a08d6355877eb93926139dacfdb00d2a9318e238ac8804060e0e7e7ba422a22",
+      "size": 9204828
+    },
+    "spatial": {
+      "md5": "1c187d9f679b69f237f5f524fc405eb0",
+      "path": "/root/night16f_external/scp2176/HumanMelanomaMultiome_spatial.csv",
+      "sha256": "3148f8d4eedcab39f7baac44710f43582472fe80deb351f5e7393fb06c493c1f",
+      "size": 123043
+    }
+  },
+  "omitted_authority_cells": 1702,
+  "omitted_id_sha256": "41f2731ecf7937a89f4a53a2b0ecfe0da21e3944a4c547f0554e5b0bb22a3b1d",
+  "processed_cell_count": 833,
+  "processed_id_intersection_with_authority": 833,
+  "prompt_expected_2529_disposition": "DISPROVEN_BY_EXACT_OFFICIAL_FIGSHARE_FILES; both processed H5ADs contain 833 tumor cells",
+  "protocols": {
+    "ALL_CELL_K10": {
+      "k": 10,
+      "label_type": "public computational cell-type/tumor-state annotation",
+      "n_labels_and_coordinates": 2535,
+      "reason": "anonymous SCP endpoints expose labels/coordinates, but exact full RNA/ATAC matrices require authenticated SCP asset access; Figshare processed H5ADs are tumor-only",
+      "status": "DATA_INPUT_BLOCKED_AUTH_REQUIRED"
+    },
+    "TUMOR_ONLY_K2": {
+      "k": 2,
+      "label_counts": {
+        "tumour_1": 561,
+        "tumour_2": 272
+      },
+      "label_type": "public author-derived computational tumor-state/compartment annotation",
+      "mask": "exact ID intersection of official 833-cell processed carrier with SCP2176 annotations",
+      "n": 833,
+      "ordered_reference_sha256": "c016143bf46f03c01b566f490dc7154a79861922215d2e065f749883a6a2dfe1",
+      "status": "READY"
+    }
+  },
+  "sanitized_files": {
+    "HumanMelanoma_ATAC_lsi_sanitized.h5ad": {
+      "sha256": "3c484c58f614f2677c2a884847d15ffbc8ee6aec97e86f48df8e225ed3f300cf",
+      "size": 6492464
+    },
+    "HumanMelanoma_RNA_sanitized.h5ad": {
+      "sha256": "daa4c089340638024f45b6150d5469cedc000da1a9dcf9f50e28b1d2e67af8dc",
+      "size": 2314100
+    }
+  },
+  "schema": "night16f-scp2176-protocol-registry-v1",
+  "study": "SCP2176 Slide-tags human metastatic melanoma multiome"
+}

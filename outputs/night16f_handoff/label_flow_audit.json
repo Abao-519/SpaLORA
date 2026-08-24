@@ -1,0 +1,9 @@
+{
+  "formal_producer_label_reads": 0,
+  "independent_evaluator_label_read_events": 4,
+  "melanoma_labels_used_before_formula_freeze": 0,
+  "melanoma_labels_used_to_change_formula_or_selector": 0,
+  "melanoma_tumor_membership_source": "public SCP2176 annotation mechanically defines exact tumour_1/tumour_2 membership; the sanitized producer carrier contains no annotation column",
+  "schema": "night16f-label-flow-audit-v1",
+  "score_frontier_semantics": "public-label-assisted post-hoc development record only"
+}

@@ -1,0 +1,26 @@
+{
+  "data_id": "MULTIGATE_HUMAN_HIPPOCAMPUS",
+  "evaluator_label_reads": 1,
+  "labels_loaded_after_locked_partition_artifact": true,
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "n_evaluated": 2500,
+  "n_reference_rows": 2500,
+  "n_total": 2500,
+  "ordered_reference_sha256": "6d8369bf7384918da29c892b99c9bcbc3f846457a2e2f0637cb180c4bbdc411a",
+  "producer_label_reads": 0,
+  "reference_category_counts": {
+    "0": 897,
+    "1": 362,
+    "2": 344,
+    "3": 172,
+    "4": 393,
+    "5": 249,
+    "6": 83
+  },
+  "reference_k": 7,
+  "reference_kind": "h5ad",
+  "reference_path": "/root/night16e_external/human_hippocampus/human_adata1_official_result.h5ad",
+  "reference_provenance": "h5ad-obs:true_label",
+  "rows": 47,
+  "schema": "night16f-independent-evaluator-v1"
+}

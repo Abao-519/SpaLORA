@@ -1,0 +1,162 @@
+{
+  "annotation_columns_in_carrier": [],
+  "artifact_reload": "PASS",
+  "data_id": "P22",
+  "deterministic_thread_limit": 1,
+  "formal_producer_label_reads": 0,
+  "graph_shapes_nnz": [
+    {
+      "data_dtype": "float32",
+      "nnz": 37168,
+      "shape": [
+        9196,
+        9196
+      ]
+    },
+    {
+      "data_dtype": "float32",
+      "nnz": 64466,
+      "shape": [
+        9196,
+        9196
+      ]
+    },
+    {
+      "data_dtype": "float32",
+      "nnz": 178238,
+      "shape": [
+        9196,
+        9196
+      ]
+    }
+  ],
+  "k": 9,
+  "lane": "P22",
+  "n": 9196,
+  "ordered_id_sha256": "499670d70a839022498336bb32a3e8a155c2e00b7ff1c93d2e6861a040eb9647",
+  "retained_id": "MIX_F00_R02_LOCKED_mcdf_W0.50",
+  "retained_shape": [
+    9196,
+    64
+  ],
+  "schema": "night16f-annotation-free-numeric-carrier-v1",
+  "source_archive_keys_accessed": [
+    "ids",
+    "view1",
+    "view2",
+    "operator4__data",
+    "operator4__indices",
+    "operator4__indptr",
+    "operator4__shape",
+    "graph__data",
+    "graph__indices",
+    "graph__indptr",
+    "graph__shape",
+    "operator18__data",
+    "operator18__indices",
+    "operator18__indptr",
+    "operator18__shape"
+  ],
+  "source_kind": "night16d-local-compute-kit",
+  "start_bank": [
+    {
+      "cluster_sizes": [
+        1153,
+        624,
+        1481,
+        803,
+        1018,
+        1524,
+        610,
+        1820,
+        163
+      ],
+      "partition_sha256": "ce444fc82e04a3c0aa7c9b8b5a74a1e7f5ac0bd4a55d3a2d92bd39008b547e3d",
+      "start_id": "AUTHORITY_STRONG_START"
+    },
+    {
+      "cluster_sizes": [
+        920,
+        2260,
+        930,
+        823,
+        1080,
+        749,
+        709,
+        714,
+        1011
+      ],
+      "partition_sha256": "b358fa4db94439aecf33b74e85f7f1777eb18b41744e2291646d2510165f0c90",
+      "start_id": "KMEANS_RETAINED_S0"
+    },
+    {
+      "cluster_sizes": [
+        1399,
+        1032,
+        628,
+        1047,
+        713,
+        1259,
+        2256,
+        164,
+        698
+      ],
+      "partition_sha256": "090a371f48de634db387dbdda66b2412d61b02a38e718148d69f94d033b4c27e",
+      "start_id": "KMEANS_RETAINED_S1"
+    },
+    {
+      "cluster_sizes": [
+        1003,
+        1264,
+        2257,
+        1446,
+        698,
+        705,
+        164,
+        1031,
+        628
+      ],
+      "partition_sha256": "dc751ea96a75ddc3c3866a143243826bef0b9444abee3f928089f6b158b9b386",
+      "start_id": "KMEANS_RETAINED_S2"
+    },
+    {
+      "cluster_sizes": [
+        930,
+        2260,
+        1007,
+        709,
+        749,
+        923,
+        1080,
+        714,
+        824
+      ],
+      "partition_sha256": "32cac3239878c5fc732dc9bd6d1d528bd2e33006cbee18728219959e3155f944",
+      "start_id": "KMEANS_RETAINED_S3"
+    },
+    {
+      "cluster_sizes": [
+        749,
+        2260,
+        824,
+        930,
+        1080,
+        923,
+        709,
+        714,
+        1007
+      ],
+      "partition_sha256": "c050139fe5174fffbb944cc530eb2c7f0f17574f563debe2aa9c5a417f150b63",
+      "start_id": "KMEANS_RETAINED_S4"
+    }
+  ],
+  "start_provenance": "AUTHORITY_STRONG_START is historical public-label-assisted benchmark HPO; KMEANS starts are annotation-free robustness starts",
+  "view1_shape": [
+    9196,
+    30
+  ],
+  "view2_shape": [
+    9196,
+    50
+  ]
+}

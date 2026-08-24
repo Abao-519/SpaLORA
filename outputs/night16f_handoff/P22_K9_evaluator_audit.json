@@ -1,0 +1,28 @@
+{
+  "data_id": "P22",
+  "evaluator_label_reads": 1,
+  "labels_loaded_after_locked_partition_artifact": true,
+  "lane": "P22_K9",
+  "n_evaluated": 9196,
+  "n_reference_rows": 9196,
+  "n_total": 9196,
+  "ordered_reference_sha256": "bfadd3adb9fe8947fffa22e1fc1616a3ecf4c5398001c6d831a06fb02ac33fe5",
+  "producer_label_reads": 0,
+  "reference_category_counts": {
+    "ACB": 1111,
+    "CP": 1693,
+    "L1-L3": 1023,
+    "L4": 304,
+    "L5": 970,
+    "L6a/b": 834,
+    "VL": 147,
+    "ccg/aco": 744,
+    "others": 2370
+  },
+  "reference_k": 9,
+  "reference_kind": "npz",
+  "reference_path": "/root/night16d_assets/kit/local_compute_kit/P22.npz",
+  "reference_provenance": "npz:labels_primary:label_mask",
+  "rows": 47,
+  "schema": "night16f-independent-evaluator-v1"
+}

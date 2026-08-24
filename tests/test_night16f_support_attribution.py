@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 from pathlib import Path
 
 import numpy as np
@@ -206,3 +207,35 @@ def test_candidate_call_order_does_not_change_output() -> None:
         initial, 3, evidence, small_config(), ids, "PERMUTED_SUPPORT"
     )
     np.testing.assert_array_equal(first, second)
+
+
+def test_numeric_carrier_preserves_graph_dtype_and_records_thread_limit(tmp_path) -> None:
+    path = Path(__file__).parents[1] / "scripts" / "night16f" / "build_numeric_carrier.py"
+    spec = importlib.util.spec_from_file_location("night16f_carrier_test", path)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    graph = sp.csr_matrix(
+        (
+            np.asarray([0.123456789012345, 0.123456789012345], dtype=np.float64),
+            (np.asarray([0, 1]), np.asarray([1, 0])),
+        ),
+        shape=(2, 2),
+    )
+    output = tmp_path / "carrier.npz"
+    module.save_carrier(
+        output,
+        ids=np.asarray(["a", "b"]),
+        view1=np.zeros((2, 1), dtype=np.float32),
+        view2=np.zeros((2, 1), dtype=np.float32),
+        retained=np.zeros((2, 1), dtype=np.float32),
+        graphs=(graph, graph, graph),
+        starts=[np.asarray([0, 1], dtype=np.int32)],
+        start_ids=["S0"],
+        metadata={"k": 2},
+    )
+    with np.load(output, allow_pickle=False) as carrier:
+        assert carrier["graph0__data"].dtype == np.float64
+    manifest = json.loads(output.with_suffix(".carrier.json").read_text())
+    assert manifest["deterministic_thread_limit"] == 1
+    assert manifest["graph_shapes_nnz"][0]["data_dtype"] == "float64"

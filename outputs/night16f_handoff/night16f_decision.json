@@ -1,0 +1,46 @@
+{
+  "all_cell_k10_status": "DATA_INPUT_BLOCKED_AUTH_REQUIRED",
+  "classification": "LOCAL_SIGNAL",
+  "development_signal": {
+    "bimodal_ari": 0.5448772370426253,
+    "bimodal_minus_strongest_control_ari": 0.007725408689903235,
+    "bimodal_minus_strongest_control_nmi": 0.004460959930728592,
+    "bimodal_nmi": 0.5577946770986344,
+    "passed": true,
+    "strongest_control": "ATAC_ONLY_SUPPORT",
+    "type": "HUMAN_HIPPOCAMPUS_RELATION_SPECIFIC_BIMODAL_SUPPORT"
+  },
+  "engineering_correction_after_freeze": "restored parent OMP/MKL/OPENBLAS=1 numerical boundary; rebuilt all carriers and reran all lanes",
+  "exact_replay": "4/4",
+  "formal_selector_changed_after_melanoma_labels": false,
+  "formula_changed_after_freeze": false,
+  "human_direct_reproduction": "PASS: corrected Night-16F DIRECT_BASE byte-exactly reproduces the Night-16E partition; the unpinned and float64-graph-only outputs are retained as superseded controls",
+  "human_parent_start_correction": "fresh recomputed medoid results are retained under superseded/; final attribution uses the byte-exact Night-16E parent start",
+  "independent_transfer": {
+    "lane": "MELANOMA_TUMOR_K2",
+    "medoid_bimodal_ari": 0.2940923271060083,
+    "medoid_bimodal_nmi": 0.1975802176155368,
+    "medoid_direct_ari": 0.29364293621537724,
+    "medoid_direct_nmi": 0.19575653284452937,
+    "passed": false,
+    "strongest_control": "UNIFORM_MASS_MATCHED"
+  },
+  "instance_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS",
+  "label_assisted_score_frontier": {
+    "absolute_ari": 0.9757656645125035,
+    "absolute_nmi": 0.9427557787068623,
+    "arm": "INPUT_START",
+    "candidate_id": "KMEANS_RETAINED_S3__INPUT_START",
+    "formal_selector_changed": false,
+    "lane": "MELANOMA_TUMOR_K2",
+    "selection_semantics": "PUBLIC_BENCHMARK_LABEL_ASSISTED_BEST_NOT_FORMAL_OUTPUT",
+    "start_id": "KMEANS_RETAINED_S3"
+  },
+  "primary_hypothesis": "relation-specific bimodal edge support with independent melanoma transfer",
+  "primary_hypothesis_passed": false,
+  "primary_hypothesis_result": "LOCAL_SIGNAL_WITHOUT_INDEPENDENT_TRANSFER",
+  "schema": "night16f-decision-v1",
+  "shutdown_dispatched": false,
+  "status": "NIGHT16F_HUMAN_RELATION_SPECIFIC_SUPPORT_LOCAL_SIGNAL_NO_MELANOMA_TRANSFER",
+  "tumor_k2_status": "READY"
+}

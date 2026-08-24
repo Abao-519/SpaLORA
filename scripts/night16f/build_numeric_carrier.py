@@ -10,7 +10,14 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
+
+# Night-16E final replay fixed every BLAS backend to one thread.  Set the same
+# boundary before importing NumPy/AnnData and also enforce it at runtime below.
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
 
 import anndata as ad
 import numpy as np
@@ -21,6 +28,7 @@ from sklearn.metrics import adjusted_rand_score
 from sklearn.mixture import GaussianMixture
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
+from threadpoolctl import threadpool_limits
 
 from SpaLORA.night16e_tsre import partition_sha256
 from scripts.night16e.human_hippocampus_producer import select_unlabeled_start
@@ -111,7 +119,10 @@ def save_carrier(
         "start_partitions": np.stack(starts).astype(np.int32),
     }
     for index, graph in enumerate(graphs):
-        graph = sp.csr_matrix(graph, dtype=np.float32)
+        # Preserve the registered graph dtype.  The current energy consumes its
+        # sparse support, but the carrier must not silently quantize authority
+        # artifacts that may be used by later registered consumers.
+        graph = sp.csr_matrix(graph).copy()
         graph.sort_indices()
         payload[f"graph{index}__data"] = graph.data
         payload[f"graph{index}__indices"] = graph.indices
@@ -134,7 +145,12 @@ def save_carrier(
         "view2_shape": list(view2.shape),
         "retained_shape": list(retained.shape),
         "graph_shapes_nnz": [
-            {"shape": list(graph.shape), "nnz": int(graph.nnz)} for graph in graphs
+            {
+                "shape": list(graph.shape),
+                "nnz": int(graph.nnz),
+                "data_dtype": str(graph.data.dtype),
+            }
+            for graph in graphs
         ],
         "ordered_id_sha256": ordered_id_sha256(ids),
         "start_bank": [
@@ -147,6 +163,7 @@ def save_carrier(
         ],
         "annotation_columns_in_carrier": [],
         "formal_producer_label_reads": 0,
+        "deterministic_thread_limit": 1,
         "artifact_reload": "PASS",
     }
     output.with_suffix(".carrier.json").write_text(json.dumps(manifest, indent=2, sort_keys=True))
@@ -215,8 +232,22 @@ def build_from_h5ad(args: argparse.Namespace) -> None:
     )
     graphs = tuple(spatial_graph(coordinates, value) for value in (4, 8, 18))
     medoid, medoid_rows = select_unlabeled_start(retained, view1, view2, args.k)
+    authority_note = "fresh annotation-free partition-consensus medoid"
+    authority_identifier = "UNLABELED_PARTITION_MEDOID"
+    if args.authority_partition_bank:
+        with np.load(args.authority_partition_bank, allow_pickle=False) as authority:
+            medoid = np.asarray(
+                authority["partitions"][int(args.authority_partition_index)], dtype=np.int32
+            )
+        if len(medoid) != len(rna_ids) or len(np.unique(medoid)) != int(args.k):
+            raise ValueError("registered authority partition has incompatible N or K")
+        authority_identifier = str(args.authority_start_id)
+        authority_note = (
+            "byte-exact registered parent partition; parent selection was annotation-free "
+            "partition-consensus centrality"
+        )
     seed_ids, seed_starts = kmeans_starts(retained, args.k)
-    start_ids = ["UNLABELED_PARTITION_MEDOID", *seed_ids]
+    start_ids = [authority_identifier, *seed_ids]
     starts = [np.asarray(medoid, dtype=np.int32), *seed_starts]
     save_carrier(
         Path(args.output),
@@ -240,7 +271,7 @@ def build_from_h5ad(args: argparse.Namespace) -> None:
                 "source AnnData obs metadata were loaded during one-time carrier construction; "
                 "formal producer reads only annotation-free numeric carrier"
             ),
-            "start_provenance": "annotation-free partition-consensus medoid plus KMeans seeds",
+            "start_provenance": authority_note + "; plus fresh KMeans robustness seeds",
             "unlabeled_start_selector_rows": medoid_rows,
             "spatial_shape": list(coordinates.shape),
         },
@@ -266,12 +297,16 @@ def main() -> None:
     h5ad.add_argument("--k", type=int, required=True)
     h5ad.add_argument("--spatial-key", default="spatial")
     h5ad.add_argument("--coordinate-atol", type=float, default=0.0)
+    h5ad.add_argument("--authority-partition-bank")
+    h5ad.add_argument("--authority-partition-index", type=int, default=0)
+    h5ad.add_argument("--authority-start-id", default="REGISTERED_PARENT_AUTHORITY_START")
     h5ad.add_argument("--output", required=True)
     args = parser.parse_args()
-    if args.kind == "kit":
-        build_from_kit(args)
-    else:
-        build_from_h5ad(args)
+    with threadpool_limits(limits=1):
+        if args.kind == "kit":
+            build_from_kit(args)
+        else:
+            build_from_h5ad(args)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,306 @@
+{
+  "annotation_columns_in_carrier": [],
+  "artifact_reload": "PASS",
+  "atac_input_shape": [
+    833,
+    13665
+  ],
+  "atac_source_obs_columns": [],
+  "carrier_builder_note": "source AnnData obs metadata were loaded during one-time carrier construction; formal producer reads only annotation-free numeric carrier",
+  "data_id": "SCP2176_HUMAN_MELANOMA_TUMOR_ONLY",
+  "deterministic_thread_limit": 1,
+  "formal_producer_label_reads": 0,
+  "graph_shapes_nnz": [
+    {
+      "data_dtype": "float64",
+      "nnz": 4222,
+      "shape": [
+        833,
+        833
+      ]
+    },
+    {
+      "data_dtype": "float64",
+      "nnz": 8176,
+      "shape": [
+        833,
+        833
+      ]
+    },
+    {
+      "data_dtype": "float64",
+      "nnz": 18100,
+      "shape": [
+        833,
+        833
+      ]
+    }
+  ],
+  "k": 2,
+  "lane": "MELANOMA_TUMOR_K2",
+  "n": 833,
+  "ordered_id_sha256": "688ff8f400786d48ee248f95db5bce986451a12a981b6997846d58405296e8f2",
+  "retained_shape": [
+    833,
+    64
+  ],
+  "rna_input_shape": [
+    833,
+    3000
+  ],
+  "rna_source_obs_columns": [],
+  "schema": "night16f-annotation-free-numeric-carrier-v1",
+  "source_kind": "paired-h5ad-numeric-carrier",
+  "spatial_shape": [
+    833,
+    2
+  ],
+  "start_bank": [
+    {
+      "cluster_sizes": [
+        578,
+        255
+      ],
+      "partition_sha256": "ffbcac1c668827cf45cd4c1ff7807d2447b32ab3b9d1c60e6d7e7e5303fc9305",
+      "start_id": "UNLABELED_PARTITION_MEDOID"
+    },
+    {
+      "cluster_sizes": [
+        359,
+        474
+      ],
+      "partition_sha256": "b93c52e8375f5f3784e4140add15fdcd72e7d0ce09cea9bb0ca3d07695384587",
+      "start_id": "KMEANS_RETAINED_S0"
+    },
+    {
+      "cluster_sizes": [
+        123,
+        710
+      ],
+      "partition_sha256": "6ce387b3e97e9b640015d16b5f9c7a4b3b8381c56cc174864317164acdc20f52",
+      "start_id": "KMEANS_RETAINED_S1"
+    },
+    {
+      "cluster_sizes": [
+        251,
+        582
+      ],
+      "partition_sha256": "f1bfe6e611bbc85aa46a4b6e45ded4b88f230b3367537032f0d88cda8598b305",
+      "start_id": "KMEANS_RETAINED_S2"
+    },
+    {
+      "cluster_sizes": [
+        273,
+        560
+      ],
+      "partition_sha256": "17f84437c815da480f1994d996149c9e4cbc35153c9404b550dd1059be7d4183",
+      "start_id": "KMEANS_RETAINED_S3"
+    },
+    {
+      "cluster_sizes": [
+        426,
+        407
+      ],
+      "partition_sha256": "0545685ffcad23d484df54b9d7a6e9ab8a617919712c1104f919b13995789428",
+      "start_id": "KMEANS_RETAINED_S4"
+    }
+  ],
+  "start_provenance": "fresh annotation-free partition-consensus medoid; plus fresh KMeans robustness seeds",
+  "unlabeled_start_selector_rows": [
+    {
+      "candidate_id": "KMEANS_fused_S0",
+      "centrality": 0.006944941524683137,
+      "cluster_sizes": [
+        359,
+        474
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "b93c52e8375f5f3784e4140add15fdcd72e7d0ce09cea9bb0ca3d07695384587",
+      "selector_score": 0.006944941524683137
+    },
+    {
+      "candidate_id": "KMEANS_fused_S1",
+      "centrality": 0.022170940132598693,
+      "cluster_sizes": [
+        123,
+        710
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "6ce387b3e97e9b640015d16b5f9c7a4b3b8381c56cc174864317164acdc20f52",
+      "selector_score": 0.022170940132598693
+    },
+    {
+      "candidate_id": "KMEANS_fused_S2",
+      "centrality": 0.02135599150884132,
+      "cluster_sizes": [
+        251,
+        582
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "f1bfe6e611bbc85aa46a4b6e45ded4b88f230b3367537032f0d88cda8598b305",
+      "selector_score": 0.02135599150884132
+    },
+    {
+      "candidate_id": "KMEANS_fused_S3",
+      "centrality": 0.055090969339642026,
+      "cluster_sizes": [
+        273,
+        560
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "17f84437c815da480f1994d996149c9e4cbc35153c9404b550dd1059be7d4183",
+      "selector_score": 0.055090969339642026
+    },
+    {
+      "candidate_id": "KMEANS_fused_S4",
+      "centrality": 0.0001241404532316823,
+      "cluster_sizes": [
+        426,
+        407
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "0545685ffcad23d484df54b9d7a6e9ab8a617919712c1104f919b13995789428",
+      "selector_score": 0.0001241404532316823
+    },
+    {
+      "candidate_id": "KMEANS_rna_S0",
+      "centrality": 0.22126734388983588,
+      "cluster_sizes": [
+        602,
+        231
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "31dbe368f36fa5708bad250b6c98f77462b9368597d3b2a9e8254a9a164d066c",
+      "selector_score": 0.22126734388983588
+    },
+    {
+      "candidate_id": "KMEANS_rna_S1",
+      "centrality": 0.2369983359836686,
+      "cluster_sizes": [
+        266,
+        567
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "7941cef3cf24cfcf83ada6c85b9e48e66dbab751a9ce660ceb114b898004b5db",
+      "selector_score": 0.2369983359836686
+    },
+    {
+      "candidate_id": "KMEANS_rna_S2",
+      "centrality": 0.23943489745707713,
+      "cluster_sizes": [
+        578,
+        255
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "ec4896334bf9cee9b11ee269dc88fc8a99eeb548abd49d357bf25beeb950f186",
+      "selector_score": 0.23943489745707713
+    },
+    {
+      "candidate_id": "KMEANS_rna_S3",
+      "centrality": 0.2381852355902343,
+      "cluster_sizes": [
+        583,
+        250
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "686f9b92c73e932cc847dff8fe8a379ebd179ac9480addf7aaccdced4eba9f13",
+      "selector_score": 0.2381852355902343
+    },
+    {
+      "candidate_id": "KMEANS_rna_S4",
+      "centrality": 0.2412028092407845,
+      "cluster_sizes": [
+        578,
+        255
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "ffbcac1c668827cf45cd4c1ff7807d2447b32ab3b9d1c60e6d7e7e5303fc9305",
+      "selector_score": 0.2412028092407845
+    },
+    {
+      "candidate_id": "KMEANS_atac_S0",
+      "centrality": 0.20061354523353678,
+      "cluster_sizes": [
+        286,
+        547
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "9455da5a8d0305577fbc32f210c580a586f92a42a94ece06b95e2e52bb28f27a",
+      "selector_score": 0.20061354523353678
+    },
+    {
+      "candidate_id": "KMEANS_atac_S1",
+      "centrality": 0.18873355019215282,
+      "cluster_sizes": [
+        269,
+        564
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "5d75e1b658787c5a2fc3c99b35723fb6ee746584e8c4e5dfc8335321a6ddaf6a",
+      "selector_score": 0.18873355019215282
+    },
+    {
+      "candidate_id": "KMEANS_atac_S2",
+      "centrality": 0.17595123925198425,
+      "cluster_sizes": [
+        282,
+        551
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "eed961b96444866a58eba2181e928881f5139d5c28623b4cc39e8b45b3fbae9d",
+      "selector_score": 0.17595123925198425
+    },
+    {
+      "candidate_id": "KMEANS_atac_S3",
+      "centrality": 0.20343213876016486,
+      "cluster_sizes": [
+        540,
+        293
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "3d07a4bf19f7256f4554d80e82ced62ccda43207b1792550a2c27e92797f8380",
+      "selector_score": 0.20343213876016486
+    },
+    {
+      "candidate_id": "KMEANS_atac_S4",
+      "centrality": 0.20130041788458308,
+      "cluster_sizes": [
+        556,
+        277
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "0b66e8ae41e212f3982ef30d4f9ce6d292de190b306d2b40fcf94b1da94f0ef3",
+      "selector_score": 0.20130041788458308
+    },
+    {
+      "candidate_id": "GMM_diag_S0",
+      "centrality": -0.02925150984834798,
+      "cluster_sizes": [
+        669,
+        164
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "31e739c929b9b0a461b73333999f000459977991d9623f13f96986b6b1531f0f",
+      "selector_score": -0.02925150984834798
+    },
+    {
+      "candidate_id": "GMM_tied_S0",
+      "centrality": 0.012286874587541135,
+      "cluster_sizes": [
+        30,
+        803
+      ],
+      "microcluster_penalty": 0.0,
+      "partition_sha256": "f419fe1421d9eeb772095c5dbd3004ac68a9601f4d6672ddb657d7e6fa1d8a2e",
+      "selector_score": 0.012286874587541135
+    }
+  ],
+  "view1_shape": [
+    833,
+    64
+  ],
+  "view2_shape": [
+    833,
+    64
+  ]
+}

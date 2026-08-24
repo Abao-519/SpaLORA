@@ -1,0 +1,207 @@
+{
+  "base_config_sha256": {
+    "NIGHT15F_DIRECT": "8b1cd54a8df2a6c66ff26f6bca0108278235011b5677e9bdc3d526656abdefa2",
+    "SUPPORT_MODULATION_ONLY": "8b1cd54a8df2a6c66ff26f6bca0108278235011b5677e9bdc3d526656abdefa2",
+    "TSRE_FULL": "8b1cd54a8df2a6c66ff26f6bca0108278235011b5677e9bdc3d526656abdefa2"
+  },
+  "continuous_array_deltas_superseded_vs_final": {
+    "retained": {
+      "byte_exact": false,
+      "max_abs": 0.004135847091674805,
+      "rms": 0.00027547698889396555
+    },
+    "view1": {
+      "byte_exact": false,
+      "max_abs": 0.0022992268204689026,
+      "rms": 0.00016457040441675153
+    },
+    "view2": {
+      "byte_exact": false,
+      "max_abs": 0.004061460494995117,
+      "rms": 0.00031006895820683906
+    }
+  },
+  "direct_partition_comparison": {
+    "night16f_corrected_thread1": {
+      "changed": 5,
+      "mean_retained_weight": 0.410050630569458,
+      "mean_view1_weight": 0.4747241139411926,
+      "mean_view2_weight": 0.11522521823644638,
+      "sha256": "6c6c334d93ecde6865c4b5b45757ddf0a971e60dfa6f1f0ca85877dd10902159"
+    },
+    "night16f_unpinned_superseded": {
+      "changed": 1779,
+      "mean_retained_weight": 0.5616194009780884,
+      "mean_view1_weight": 0.36733222007751465,
+      "mean_view2_weight": 0.07104838639497757,
+      "sha256": "f01a501575640fbecc75bfd9770b178ce29e5147e7b2110b0cdd14469d75a09c"
+    },
+    "night16f_unpinned_with_float64_graph_only": {
+      "changed": 1779,
+      "mean_retained_weight": 0.5616194009780884,
+      "mean_view1_weight": 0.36733222007751465,
+      "mean_view2_weight": 0.07104838639497757,
+      "sha256": "f01a501575640fbecc75bfd9770b178ce29e5147e7b2110b0cdd14469d75a09c"
+    },
+    "parent_night16e": {
+      "changed": 5,
+      "mean_retained_weight": 0.410050630569458,
+      "mean_view1_weight": 0.4747241139411926,
+      "mean_view2_weight": 0.11522521823644638,
+      "sha256": "6c6c334d93ecde6865c4b5b45757ddf0a971e60dfa6f1f0ca85877dd10902159"
+    },
+    "parent_source_rerun_thread1": {
+      "changed": 5,
+      "mean_retained_weight": 0.410050630569458,
+      "mean_view1_weight": 0.4747241139411926,
+      "mean_view2_weight": 0.11522521823644638,
+      "sha256": "6c6c334d93ecde6865c4b5b45757ddf0a971e60dfa6f1f0ca85877dd10902159"
+    }
+  },
+  "direct_partition_restored_byte_exact": true,
+  "engineering_correction": "pin all three BLAS thread controls to 1 before numeric imports and enforce threadpool_limits(1) during carrier and producer computation",
+  "final_carrier": {
+    "arrays": {
+      "retained": {
+        "dtype": "float32",
+        "sha256": "6890bb67a6362918080b1edacd151e8578bbe7be6fb1dc286114665a24e8e236",
+        "shape": [
+          2500,
+          64
+        ]
+      },
+      "view1": {
+        "dtype": "float32",
+        "sha256": "45a738b439ae92edfa4e8f5c991f00cad3c08c04c907cfa8ede32d667e66b799",
+        "shape": [
+          2500,
+          64
+        ]
+      },
+      "view2": {
+        "dtype": "float32",
+        "sha256": "d2eecce623f4582a35a6e4ecb28e26f279e5c2d9b055e360bcca53518d07abfc",
+        "shape": [
+          2500,
+          64
+        ]
+      }
+    },
+    "graphs": [
+      {
+        "data_dtype": "float64",
+        "data_sha256": "e8fa17398c82182abe41c71c9ca633c15753bf961e5774b75177aec7caddc047",
+        "indices_sha256": "b9980b5509bf6503261c93ebbda09d4953a310cf2cb7a21446b9a00b809b21e6",
+        "indptr_sha256": "cad5ff97b7cb2deb1c12fbf09fb3142f96f988c52e568bdfc955a63313c64a2b",
+        "nnz": 10200,
+        "scale_index": 0
+      },
+      {
+        "data_dtype": "float64",
+        "data_sha256": "bee70329623922d27d028c662462930b77ae22cc5ff641c91819d36e25437bb1",
+        "indices_sha256": "fd5cc114f3e89b4aaa9c7fb781f12e0f06cb1b65603c1053576f6223bf1458be",
+        "indptr_sha256": "6c67b61cc66de57e628db783c38c283302537800133bf93387aae8bfaa9a9a5a",
+        "nnz": 20212,
+        "scale_index": 1
+      },
+      {
+        "data_dtype": "float64",
+        "data_sha256": "2838da346878c4a67c073e3f9c7bc294a5e182974550886613b7c0418727f9ed",
+        "indices_sha256": "7e179aa749c0dbd124d6d8747f3e64024a291ed8f21844df29831a83b8b3a182",
+        "indptr_sha256": "3c2831b549678410c15451b34d17111b938a7ea0aa378a23200d1b17ec0b7341",
+        "nnz": 48770,
+        "scale_index": 2
+      }
+    ],
+    "path": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz"
+  },
+  "graph_float32_hypothesis": "FALSIFIED",
+  "graph_precision_not_causal": true,
+  "parent_recomputed_graphs": [
+    {
+      "data_dtype": "float64",
+      "data_sha256": "e8fa17398c82182abe41c71c9ca633c15753bf961e5774b75177aec7caddc047",
+      "indices_sha256": "b9980b5509bf6503261c93ebbda09d4953a310cf2cb7a21446b9a00b809b21e6",
+      "indptr_sha256": "cad5ff97b7cb2deb1c12fbf09fb3142f96f988c52e568bdfc955a63313c64a2b",
+      "nnz": 10200,
+      "scale_index": 0
+    },
+    {
+      "data_dtype": "float64",
+      "data_sha256": "bee70329623922d27d028c662462930b77ae22cc5ff641c91819d36e25437bb1",
+      "indices_sha256": "fd5cc114f3e89b4aaa9c7fb781f12e0f06cb1b65603c1053576f6223bf1458be",
+      "indptr_sha256": "6c67b61cc66de57e628db783c38c283302537800133bf93387aae8bfaa9a9a5a",
+      "nnz": 20212,
+      "scale_index": 1
+    },
+    {
+      "data_dtype": "float64",
+      "data_sha256": "2838da346878c4a67c073e3f9c7bc294a5e182974550886613b7c0418727f9ed",
+      "indices_sha256": "7e179aa749c0dbd124d6d8747f3e64024a291ed8f21844df29831a83b8b3a182",
+      "indptr_sha256": "3c2831b549678410c15451b34d17111b938a7ea0aa378a23200d1b17ec0b7341",
+      "nnz": 48770,
+      "scale_index": 2
+    }
+  ],
+  "root_cause": "Night-16F omitted the Night-16E final-replay OMP/MKL/OPENBLAS=1 boundary during carrier reduction and producer evidence preparation",
+  "same_graph_topology_exact": true,
+  "same_start_byte_exact": true,
+  "schema": "night16f-human-direct-reproduction-audit-v1",
+  "status": "PASS",
+  "superseded_carrier": {
+    "arrays": {
+      "retained": {
+        "dtype": "float32",
+        "sha256": "e248e491ba285b52b1df39e76ad4612cab32811a901a8e2510180dbae446c54d",
+        "shape": [
+          2500,
+          64
+        ]
+      },
+      "view1": {
+        "dtype": "float32",
+        "sha256": "042a639047de5e457dbc940c200db4fee15589ac52f8ba6a382ee38da0563211",
+        "shape": [
+          2500,
+          64
+        ]
+      },
+      "view2": {
+        "dtype": "float32",
+        "sha256": "0c7cedfd551c3fad9559088835264198d92ec6cf8b3a8e4eecd8fd5ee3e2e742",
+        "shape": [
+          2500,
+          64
+        ]
+      }
+    },
+    "graphs": [
+      {
+        "data_dtype": "float32",
+        "data_sha256": "ed4b5fabfad783ddefc7b539ee8bc389fd68bb6f228839c710d7ae9d4839c144",
+        "indices_sha256": "b9980b5509bf6503261c93ebbda09d4953a310cf2cb7a21446b9a00b809b21e6",
+        "indptr_sha256": "cad5ff97b7cb2deb1c12fbf09fb3142f96f988c52e568bdfc955a63313c64a2b",
+        "nnz": 10200,
+        "scale_index": 0
+      },
+      {
+        "data_dtype": "float32",
+        "data_sha256": "10fc307d11b4f9c8659eab7f4f67da7d0887a90c025e8596b893a64aac066090",
+        "indices_sha256": "fd5cc114f3e89b4aaa9c7fb781f12e0f06cb1b65603c1053576f6223bf1458be",
+        "indptr_sha256": "6c67b61cc66de57e628db783c38c283302537800133bf93387aae8bfaa9a9a5a",
+        "nnz": 20212,
+        "scale_index": 1
+      },
+      {
+        "data_dtype": "float32",
+        "data_sha256": "de155203658396363b7f3128f18328b6af0a4b87e2a3ad15c3457dc102e2ed1b",
+        "indices_sha256": "7e179aa749c0dbd124d6d8747f3e64024a291ed8f21844df29831a83b8b3a182",
+        "indptr_sha256": "3c2831b549678410c15451b34d17111b938a7ea0aa378a23200d1b17ec0b7341",
+        "nnz": 48770,
+        "scale_index": 2
+      }
+    ],
+    "path": "/root/night16f_working/superseded/thread_unpinned_formal/carriers/HUMAN_HIPPOCAMPUS_K7.npz"
+  },
+  "superseded_scope": "all four first-pass carriers, producer outputs, evaluations and replays"
+}
