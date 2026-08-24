@@ -8,6 +8,7 @@
 | Chromatin transfer is contaminated by MISAR | `C_GEO` contains P22 and MISAR historical configs | Roles were revised before human metrics: P22+MISAR discovery, human only independent transfer |
 | Existing transfer lanes are described as blind | Existing strong starts are historical per-lane public-label HPO | Say “frozen operator transfer on fixed benchmark-tuned starts,” never full blind transfer |
 | Support semantic is overstated | Full uses `support_mix<1`; 40–57% residual base smoothing remains depending on profile | Say “base Potts plus tri-state modulation”; keep pure-support matched control |
+| Relation-specific stay is over-attributed | Support-only keeps inherited base self-return, while stay-off disables both base and relation stay | Claim only support modulation in the inherited base-stay context; add `RELATION_STAY_OFF_BASE_STAY_ON` prospectively before any relation-stay claim |
 | New human score is below reported context | Full ARI 0.516 and support-only 0.545 versus MultiGATE-reported ARI 0.60 | Treat 0.60 as protocol context, not claim SOTA; perform fair baseline run later |
 | MISAR K12 is a false protocol | Compute kit has K7 reference only | Label it endpoint-K12 sensitivity against K7 reference; do not count it as a K12 annotation protocol |
 | MISAR stage expansion was silently substituted | Small Zenodo bundle contains GSE205055 accessions | Preserve provenance failure; do not guess E11/E13/E18 identities or annotations |

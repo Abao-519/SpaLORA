@@ -12,7 +12,7 @@ Public annotation is allowed only in the independent evaluator and across-run fa
 
 ## Novelty boundary supported by data
 
-Potts/CRF clustering, alpha expansion, multiscale graph features, prototype unary, dynamic graphs and shared/private representations are established prior art. Optional modality views alone are also prior art. The only empirically supported Night-16E object is the combination of cross-modal support modulation with absolute rejected-mass self-return in a common sparse direct-clustering energy. Boundary-exclusion and private-conflict unaries remain hypotheses because matched independent-transfer ablations show no added score.
+Potts/CRF clustering, alpha expansion, multiscale graph features, prototype unary, dynamic graphs and shared/private representations are established prior art. Optional modality views alone are also prior art. The empirically supported Night-16E object is cross-modal support modulation over the inherited same-start, same-base Night-15F direct energy: 0.544877/0.557795 versus 0.167510/0.266756 ARI/NMI on the independent human hippocampus. This evidence is obtained in the inherited base-self-return context. The present ablations do not isolate relation-specific stay because the stay-off control disables base and relation stay together. Boundary-exclusion, private-conflict unaries and relation-specific stay therefore remain hypotheses.
 
 ## Evidence boundary
 

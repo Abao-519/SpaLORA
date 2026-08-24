@@ -4,7 +4,7 @@
 
 1. 本轮把两模态空间边分成 support（两模态都支持域内传播）、boundary（两模态共同提示边界）和 conflict（两模态意见冲突），并分别进入非负平滑、边界排斥 unary、私有模态 unary；被拒绝的邻域质量回到当前状态，避免弱边被强行归一化。
 2. 历史七条 lane 上，冻结 family profile 的结果并不统一：protein transfer 有负值；chromatin 的 P22 仅微升、MISAR 为 ARI-only。真正新增证据来自未参与 family HPO 的人海马：固定无标签 start 从 0.165734/0.263190 提到 TSRE full 的 0.515565/0.509679。
-3. 机制对照把结论进一步收窄：support modulation-only 达到 0.544877/0.557795，高于 full；boundary/private off 与 full 相同。分类因此是 **FAMILY_FROZEN_METHOD_SIGNAL（RNA+chromatin 的 support/质量保持局部信号）**，并伴随 **SCORE_FRONTIER_ADVANCE**，不是完整三态机制、跨两家族统一成功、SOTA 或论文封口。
+3. 同起点、同 base 的归因对照闭合：Night-15F direct 为 0.167510/0.266756，support-only 为 0.544877/0.557795，净增量 +0.377368/+0.291039。这支持 RNA+chromatin 的 support modulation，但 support-only 仍继承 base self-return，现有 stay-off 又同时关闭 base 与 relation stay，所以不能单独归因给新增 relation stay。分类因此是 **FAMILY_FROZEN_METHOD_SIGNAL**，并伴随 **SCORE_FRONTIER_ADVANCE**；不是完整三态机制、跨两家族统一成功、SOTA 或论文封口。
 
 ## 结果分类
 
@@ -39,7 +39,8 @@ RNA+chromatin 在人海马揭盲前修订为 P22+MISAR discovery，因为候选 
 - 无标签 producer：HVG/稀疏 SVD → 三尺度稀疏图（nnz 10200/20212/48770）→ partition-consensus ARI medoid start → 冻结 chromatin profile → 保存/重载。
 - 独立 evaluator：official result carrier 的 `true_label` 非缺失 2500/2500，K=7，类别计数与 ordered-label SHA 均锁定后再算指标。
 - matched：input 0.165734/0.263190；Night-15F direct 0.167510/0.266756；full 0.515565/0.509679；support-only 0.544877/0.557795；stay-off 0.167510/0.266756。
-- 解释：主要信号来自 residual-base Potts 上的 support 调制与 rejected-mass self-return；不是 boundary/private unary。`support_mix<1` 的 full 必须准确称为 base Potts + tri-state modulation，而非“只有 support 才平滑”。
+- same-base 增量：support-only 相对 Night-15F direct 为 +0.377368 ARI / +0.291039 NMI；因此方法分类不依赖 input→full 的大幅差值。
+- 解释：独立证据支持 residual-base Potts 上的 support modulation。support-only 关闭 boundary/private/relation stay，但保留继承的 base self-return；stay-off 同时关闭 base 与 relation stay，因此 relation-specific stay 尚未被纯消融识别。`support_mix<1` 的 full 必须准确称为 base Potts + tri-state modulation，而非“只有 support 才平滑”。
 
 ## 次级协议与数据扩展
 
@@ -57,7 +58,7 @@ RNA+chromatin 在人海马揭盲前修订为 P22+MISAR discovery，因为候选 
 
 ## 导师汇报版
 
-我们把直接聚类能量改造成了有明确角色的跨模态关系场，而不是继续训练一个浅层残差网络。历史数据上的 family-frozen 增量很小，protein transfer 还出现负值，所以不能说两类模态都成功。关键的新证据来自独立人海马：不看标签生成起点并套用冻结 chromatin profile 后，ARI 从 0.166 提到 0.516。更重要的是，预注册消融显示 support 调制单独达到 0.545，boundary 和 conflict-private 项没有增加分数。这个结果支持 RNA+ATAC 的“可靠域内传播 + 拒绝质量保持”方向，但不支持完整三态故事。逐数据集公开 HPO 还刷新了 D1、tonsil s3、P22 等开发分数，不过它们只能作为 score frontier。下一步需要在第二个独立 chromatin study 上冻结复验，并重写 boundary/private 的 carrier，才可能升级为更稳的论文方法证据。
+我们把直接聚类能量改造成了有明确角色的跨模态关系场，而不是继续训练一个浅层残差网络。历史数据上的 family-frozen 增量很小，protein transfer 还出现负值，所以不能说两类模态都成功。关键的新证据来自独立人海马：同起点、同 base 的 Night-15F direct 为 0.168/0.267，而 support-only 达到 0.545/0.558，证明新增 support modulation 有独立增益。full 为 0.516/0.510，boundary 和 conflict-private 项没有增加分数。base self-return 是继承项，现有消融没有把 relation stay 单独隔离，因此不能把增益归因给新增 relation stay。逐数据集公开 HPO 还刷新了 D1、tonsil s3、P22 等开发分数，不过它们只能作为 score frontier。下一步需要在第二个独立 chromatin study 上冻结复验，并前瞻性补齐 relation-stay 与 boundary/private carrier 的纯消融，才可能升级为更稳的论文方法证据。
 
 ## 技术附录摘要
 
