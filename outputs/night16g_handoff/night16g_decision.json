@@ -1,0 +1,54 @@
+{
+  "classification": "LOCAL_SIGNAL",
+  "status": "NIGHT16G_MULTI_EVIDENCE_SELECTOR_LOCAL_SIGNAL",
+  "evidence_tier": "PUBLIC_BENCHMARK_GLOBAL_HPO_WITH_STRICT_LOSO_FAILURE",
+  "candidate_bank": {
+    "candidate_count_per_lane": 89,
+    "inherited_start_operator_candidates": 47,
+    "ordered_path_candidates": 42,
+    "lanes": 4,
+    "locked_before_label_evaluation": true
+  },
+  "formal_selector": {
+    "molecular_weight": 0.25,
+    "topology_weight": 1.0,
+    "persistence_weight": 0.0,
+    "risk_weight": 0.25,
+    "ordered_path_weight": 0.75,
+    "interpretation": "multi-evidence selector; ordered-path persistence inactive"
+  },
+  "global_public_benchmark_hpo": {
+    "meaningful_or_positive_vs_plain_medoid": 3,
+    "total_studies": 4,
+    "melanoma_delta_ari": -0.004652501143317389,
+    "melanoma_delta_nmi": -0.006733586236640776
+  },
+  "strict_loso": {
+    "strong_or_held_studies": 3,
+    "total_studies": 4,
+    "human_hippocampus_failed": true,
+    "human_hippocampus_ari": 0.23103877965540923,
+    "human_hippocampus_nmi": 0.42618244242236925,
+    "human_hippocampus_min_cluster_size": 1,
+    "heldout_evaluation_opened_during_fit": false
+  },
+  "mechanism_conclusions": {
+    "ordered_energy_path_implemented": true,
+    "persistence_hypothesis_supported": false,
+    "basin_method_claim_allowed": false,
+    "multi_evidence_selector_local_signal": true,
+    "cross_study_milestone": false,
+    "melanoma_single_axis_inertia_ch_recovers_oracle": true
+  },
+  "engineering": {
+    "targeted_tests": "9/9 PASS",
+    "fresh_process_global_replay": "4/4 PASS twice",
+    "producer_label_reads": 0,
+    "dense_observation_by_observation_count": 0,
+    "gpu_time_seconds": 0,
+    "thread_limit": 1
+  },
+  "shutdown_dispatched": false,
+  "remote_power_policy": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}
+

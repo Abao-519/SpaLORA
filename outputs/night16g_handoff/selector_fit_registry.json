@@ -1,0 +1,370 @@
+{
+  "GLOBAL": {
+    "candidate_grid_size": 2400,
+    "candidate_partitions_locked_before_metric_join": true,
+    "config_index": 490,
+    "grid_ledger": "/root/night16g_working/formal/fits/GLOBAL.grid.csv",
+    "grid_ledger_sha256": "38702a8f714d360168fa7d5e5e22ae27c997ce5b7748d34266753ab0f795ec95",
+    "heldout_evaluation_opened": false,
+    "heldout_lane": "NONE",
+    "input_sha256": {
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv": "5a41a6220993c0dc17af08892cc1cdb0e3a89e282ebf8ff6d6885cff332d81b7",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv": "2d5aabd96e137d2537ea6ae35c369c44588b4f2a3866ccaeff50db1e5ad4cade",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv": "e76ab8c33dfc2f998cd7ea288ecf7cf9ffb9b392607f3fc62281fd087340b931",
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv": "bcd24669c4309582acc578bf125e859e1f5a8527d897a293d44b6434855ed0d8",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.features.csv": "95349a5138c481edb0ef3ae0c7c65aec6bd12c4b71f38584e342ae79255f671f",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.npz": "c2e2c418f8444ec637f130fa1b3422ac75d2c24c30f322fb4be9c5138591085a",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.features.csv": "e140f958386757f96be94fa4594fefa6b78bf61a615ef352329bb23651a714ee",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.npz": "4b655b162b36d86809ac1baec678540615a9b1d49cf63f4aa448b8eab0041c74",
+      "/root/night16g_working/candidate_features/MISAR_K7.features.csv": "8a70e63b6a070e042b77a17d69c05f04bf2ae6a051289d6281b500f294e1f24e",
+      "/root/night16g_working/candidate_features/MISAR_K7.npz": "32f74f4539c7e949ed7410cba801762c4b8c912357b5478d05af2c5672317642",
+      "/root/night16g_working/candidate_features/P22_K9.features.csv": "44b9a6aa01f11fbaafda4243e3d4f4ec11727684e7392c0f50ed4297a61f7a9a",
+      "/root/night16g_working/candidate_features/P22_K9.npz": "c69acbc55c46d38a697a79c38a1afa010256ac06b33662ea649ef414c7ee21cf"
+    },
+    "meaningful_gain": 0.005,
+    "noninferiority_tolerance": 0.01,
+    "opened_training_evaluation_paths": [
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv",
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv"
+    ],
+    "schema": "night16g-strict-training-only-selector-fit-v1",
+    "selection_rule": "meaningful_gain_count_then_noninferior_count_then_mean_delta_ari_then_mean_delta_nmi_then_worst_joint_delta_then_lower_complexity",
+    "selector_config": {
+      "basin_ari_threshold": 0.82,
+      "molecular_weight": 0.25,
+      "ordered_path_weight": 0.75,
+      "persistence_weight": 0.0,
+      "persistent_ari_threshold": 0.9,
+      "representative_evidence_weight": 0.0,
+      "risk_weight": 0.25,
+      "topology_weight": 1.0
+    },
+    "thread_limit": 1,
+    "training_lanes": [
+      "P22_K9",
+      "MISAR_K7",
+      "HUMAN_HIPPOCAMPUS_K7",
+      "MELANOMA_TUMOR_K2"
+    ],
+    "training_picks": {
+      "HUMAN_HIPPOCAMPUS_K7": {
+        "absolute_ari": 0.5961783620969016,
+        "absolute_nmi": 0.5854895180308324,
+        "candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+        "delta_medoid_ari": 0.030723769848390425,
+        "delta_medoid_nmi": 0.015998319918092085,
+        "partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609"
+      },
+      "MELANOMA_TUMOR_K2": {
+        "absolute_ari": 0.9141772268245202,
+        "absolute_nmi": 0.8384393166674208,
+        "candidate_id": "KMEANS_RETAINED_S3__DIRECT_BASE",
+        "delta_medoid_ari": -0.004652501143317389,
+        "delta_medoid_nmi": -0.006733586236640776,
+        "partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e"
+      },
+      "MISAR_K7": {
+        "absolute_ari": 0.5353060549066526,
+        "absolute_nmi": 0.658264645807069,
+        "candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+        "delta_medoid_ari": 0.17219925558730043,
+        "delta_medoid_nmi": 0.10797744133750842,
+        "partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363"
+      },
+      "P22_K9": {
+        "absolute_ari": 0.5963900556825741,
+        "absolute_nmi": 0.7182431752166996,
+        "candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+        "delta_medoid_ari": 0.08193808307239836,
+        "delta_medoid_nmi": 0.07332368559005964,
+        "partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be"
+      }
+    }
+  },
+  "LOSO_HUMAN_HIPPOCAMPUS_K7": {
+    "candidate_grid_size": 2400,
+    "candidate_partitions_locked_before_metric_join": true,
+    "config_index": 489,
+    "grid_ledger": "/root/night16g_working/formal/fits/LOSO_HUMAN_HIPPOCAMPUS_K7.grid.csv",
+    "grid_ledger_sha256": "ba4153cee394a7d4fea656594959b51ca7fdddec8a7750fc71d0a238fd0b3b4b",
+    "heldout_evaluation_opened": false,
+    "heldout_lane": "HUMAN_HIPPOCAMPUS_K7",
+    "input_sha256": {
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv": "2d5aabd96e137d2537ea6ae35c369c44588b4f2a3866ccaeff50db1e5ad4cade",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv": "e76ab8c33dfc2f998cd7ea288ecf7cf9ffb9b392607f3fc62281fd087340b931",
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv": "bcd24669c4309582acc578bf125e859e1f5a8527d897a293d44b6434855ed0d8",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.features.csv": "e140f958386757f96be94fa4594fefa6b78bf61a615ef352329bb23651a714ee",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.npz": "4b655b162b36d86809ac1baec678540615a9b1d49cf63f4aa448b8eab0041c74",
+      "/root/night16g_working/candidate_features/MISAR_K7.features.csv": "8a70e63b6a070e042b77a17d69c05f04bf2ae6a051289d6281b500f294e1f24e",
+      "/root/night16g_working/candidate_features/MISAR_K7.npz": "32f74f4539c7e949ed7410cba801762c4b8c912357b5478d05af2c5672317642",
+      "/root/night16g_working/candidate_features/P22_K9.features.csv": "44b9a6aa01f11fbaafda4243e3d4f4ec11727684e7392c0f50ed4297a61f7a9a",
+      "/root/night16g_working/candidate_features/P22_K9.npz": "c69acbc55c46d38a697a79c38a1afa010256ac06b33662ea649ef414c7ee21cf"
+    },
+    "meaningful_gain": 0.005,
+    "noninferiority_tolerance": 0.01,
+    "opened_training_evaluation_paths": [
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv"
+    ],
+    "schema": "night16g-strict-training-only-selector-fit-v1",
+    "selection_rule": "meaningful_gain_count_then_noninferior_count_then_mean_delta_ari_then_mean_delta_nmi_then_worst_joint_delta_then_lower_complexity",
+    "selector_config": {
+      "basin_ari_threshold": 0.82,
+      "molecular_weight": 0.25,
+      "ordered_path_weight": 0.75,
+      "persistence_weight": 0.0,
+      "persistent_ari_threshold": 0.9,
+      "representative_evidence_weight": 0.0,
+      "risk_weight": 0.0,
+      "topology_weight": 1.0
+    },
+    "thread_limit": 1,
+    "training_lanes": [
+      "P22_K9",
+      "MISAR_K7",
+      "MELANOMA_TUMOR_K2"
+    ],
+    "training_picks": {
+      "MELANOMA_TUMOR_K2": {
+        "absolute_ari": 0.9141772268245202,
+        "absolute_nmi": 0.8384393166674208,
+        "candidate_id": "KMEANS_RETAINED_S3__DIRECT_BASE",
+        "delta_medoid_ari": -0.004652501143317389,
+        "delta_medoid_nmi": -0.006733586236640776,
+        "partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e"
+      },
+      "MISAR_K7": {
+        "absolute_ari": 0.5353060549066526,
+        "absolute_nmi": 0.658264645807069,
+        "candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+        "delta_medoid_ari": 0.17219925558730043,
+        "delta_medoid_nmi": 0.10797744133750842,
+        "partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363"
+      },
+      "P22_K9": {
+        "absolute_ari": 0.5963900556825741,
+        "absolute_nmi": 0.7182431752166996,
+        "candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+        "delta_medoid_ari": 0.08193808307239836,
+        "delta_medoid_nmi": 0.07332368559005964,
+        "partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be"
+      }
+    }
+  },
+  "LOSO_MELANOMA_TUMOR_K2": {
+    "candidate_grid_size": 2400,
+    "candidate_partitions_locked_before_metric_join": true,
+    "config_index": 490,
+    "grid_ledger": "/root/night16g_working/formal/fits/LOSO_MELANOMA_TUMOR_K2.grid.csv",
+    "grid_ledger_sha256": "1cb8d0a644824822c992cac1c1f2eeaa4fe3610bab506e94accd71b2184ed98f",
+    "heldout_evaluation_opened": false,
+    "heldout_lane": "MELANOMA_TUMOR_K2",
+    "input_sha256": {
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv": "5a41a6220993c0dc17af08892cc1cdb0e3a89e282ebf8ff6d6885cff332d81b7",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv": "e76ab8c33dfc2f998cd7ea288ecf7cf9ffb9b392607f3fc62281fd087340b931",
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv": "bcd24669c4309582acc578bf125e859e1f5a8527d897a293d44b6434855ed0d8",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.features.csv": "95349a5138c481edb0ef3ae0c7c65aec6bd12c4b71f38584e342ae79255f671f",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.npz": "c2e2c418f8444ec637f130fa1b3422ac75d2c24c30f322fb4be9c5138591085a",
+      "/root/night16g_working/candidate_features/MISAR_K7.features.csv": "8a70e63b6a070e042b77a17d69c05f04bf2ae6a051289d6281b500f294e1f24e",
+      "/root/night16g_working/candidate_features/MISAR_K7.npz": "32f74f4539c7e949ed7410cba801762c4b8c912357b5478d05af2c5672317642",
+      "/root/night16g_working/candidate_features/P22_K9.features.csv": "44b9a6aa01f11fbaafda4243e3d4f4ec11727684e7392c0f50ed4297a61f7a9a",
+      "/root/night16g_working/candidate_features/P22_K9.npz": "c69acbc55c46d38a697a79c38a1afa010256ac06b33662ea649ef414c7ee21cf"
+    },
+    "meaningful_gain": 0.005,
+    "noninferiority_tolerance": 0.01,
+    "opened_training_evaluation_paths": [
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv",
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv"
+    ],
+    "schema": "night16g-strict-training-only-selector-fit-v1",
+    "selection_rule": "meaningful_gain_count_then_noninferior_count_then_mean_delta_ari_then_mean_delta_nmi_then_worst_joint_delta_then_lower_complexity",
+    "selector_config": {
+      "basin_ari_threshold": 0.82,
+      "molecular_weight": 0.25,
+      "ordered_path_weight": 0.75,
+      "persistence_weight": 0.0,
+      "persistent_ari_threshold": 0.9,
+      "representative_evidence_weight": 0.0,
+      "risk_weight": 0.25,
+      "topology_weight": 1.0
+    },
+    "thread_limit": 1,
+    "training_lanes": [
+      "P22_K9",
+      "MISAR_K7",
+      "HUMAN_HIPPOCAMPUS_K7"
+    ],
+    "training_picks": {
+      "HUMAN_HIPPOCAMPUS_K7": {
+        "absolute_ari": 0.5961783620969016,
+        "absolute_nmi": 0.5854895180308324,
+        "candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+        "delta_medoid_ari": 0.030723769848390425,
+        "delta_medoid_nmi": 0.015998319918092085,
+        "partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609"
+      },
+      "MISAR_K7": {
+        "absolute_ari": 0.5353060549066526,
+        "absolute_nmi": 0.658264645807069,
+        "candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+        "delta_medoid_ari": 0.17219925558730043,
+        "delta_medoid_nmi": 0.10797744133750842,
+        "partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363"
+      },
+      "P22_K9": {
+        "absolute_ari": 0.5963900556825741,
+        "absolute_nmi": 0.7182431752166996,
+        "candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+        "delta_medoid_ari": 0.08193808307239836,
+        "delta_medoid_nmi": 0.07332368559005964,
+        "partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be"
+      }
+    }
+  },
+  "LOSO_MISAR_K7": {
+    "candidate_grid_size": 2400,
+    "candidate_partitions_locked_before_metric_join": true,
+    "config_index": 490,
+    "grid_ledger": "/root/night16g_working/formal/fits/LOSO_MISAR_K7.grid.csv",
+    "grid_ledger_sha256": "e5486c3d2c2e4cff928a5f1039998090881b411c30f17366ff2ad3e67467c9fb",
+    "heldout_evaluation_opened": false,
+    "heldout_lane": "MISAR_K7",
+    "input_sha256": {
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv": "5a41a6220993c0dc17af08892cc1cdb0e3a89e282ebf8ff6d6885cff332d81b7",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv": "2d5aabd96e137d2537ea6ae35c369c44588b4f2a3866ccaeff50db1e5ad4cade",
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv": "bcd24669c4309582acc578bf125e859e1f5a8527d897a293d44b6434855ed0d8",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.features.csv": "95349a5138c481edb0ef3ae0c7c65aec6bd12c4b71f38584e342ae79255f671f",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.npz": "c2e2c418f8444ec637f130fa1b3422ac75d2c24c30f322fb4be9c5138591085a",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.features.csv": "e140f958386757f96be94fa4594fefa6b78bf61a615ef352329bb23651a714ee",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.npz": "4b655b162b36d86809ac1baec678540615a9b1d49cf63f4aa448b8eab0041c74",
+      "/root/night16g_working/candidate_features/P22_K9.features.csv": "44b9a6aa01f11fbaafda4243e3d4f4ec11727684e7392c0f50ed4297a61f7a9a",
+      "/root/night16g_working/candidate_features/P22_K9.npz": "c69acbc55c46d38a697a79c38a1afa010256ac06b33662ea649ef414c7ee21cf"
+    },
+    "meaningful_gain": 0.005,
+    "noninferiority_tolerance": 0.01,
+    "opened_training_evaluation_paths": [
+      "/root/night16g_working/candidate_evaluation/P22_K9.csv",
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv"
+    ],
+    "schema": "night16g-strict-training-only-selector-fit-v1",
+    "selection_rule": "meaningful_gain_count_then_noninferior_count_then_mean_delta_ari_then_mean_delta_nmi_then_worst_joint_delta_then_lower_complexity",
+    "selector_config": {
+      "basin_ari_threshold": 0.82,
+      "molecular_weight": 0.25,
+      "ordered_path_weight": 0.75,
+      "persistence_weight": 0.0,
+      "persistent_ari_threshold": 0.9,
+      "representative_evidence_weight": 0.0,
+      "risk_weight": 0.25,
+      "topology_weight": 1.0
+    },
+    "thread_limit": 1,
+    "training_lanes": [
+      "P22_K9",
+      "HUMAN_HIPPOCAMPUS_K7",
+      "MELANOMA_TUMOR_K2"
+    ],
+    "training_picks": {
+      "HUMAN_HIPPOCAMPUS_K7": {
+        "absolute_ari": 0.5961783620969016,
+        "absolute_nmi": 0.5854895180308324,
+        "candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+        "delta_medoid_ari": 0.030723769848390425,
+        "delta_medoid_nmi": 0.015998319918092085,
+        "partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609"
+      },
+      "MELANOMA_TUMOR_K2": {
+        "absolute_ari": 0.9141772268245202,
+        "absolute_nmi": 0.8384393166674208,
+        "candidate_id": "KMEANS_RETAINED_S3__DIRECT_BASE",
+        "delta_medoid_ari": -0.004652501143317389,
+        "delta_medoid_nmi": -0.006733586236640776,
+        "partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e"
+      },
+      "P22_K9": {
+        "absolute_ari": 0.5963900556825741,
+        "absolute_nmi": 0.7182431752166996,
+        "candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+        "delta_medoid_ari": 0.08193808307239836,
+        "delta_medoid_nmi": 0.07332368559005964,
+        "partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be"
+      }
+    }
+  },
+  "LOSO_P22_K9": {
+    "candidate_grid_size": 2400,
+    "candidate_partitions_locked_before_metric_join": true,
+    "config_index": 490,
+    "grid_ledger": "/root/night16g_working/formal/fits/LOSO_P22_K9.grid.csv",
+    "grid_ledger_sha256": "15e0a647e4f4ca44254677b5f56d5c80701777e6bea62da2b574a01d32100726",
+    "heldout_evaluation_opened": false,
+    "heldout_lane": "P22_K9",
+    "input_sha256": {
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv": "5a41a6220993c0dc17af08892cc1cdb0e3a89e282ebf8ff6d6885cff332d81b7",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv": "2d5aabd96e137d2537ea6ae35c369c44588b4f2a3866ccaeff50db1e5ad4cade",
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv": "e76ab8c33dfc2f998cd7ea288ecf7cf9ffb9b392607f3fc62281fd087340b931",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.features.csv": "95349a5138c481edb0ef3ae0c7c65aec6bd12c4b71f38584e342ae79255f671f",
+      "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.npz": "c2e2c418f8444ec637f130fa1b3422ac75d2c24c30f322fb4be9c5138591085a",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.features.csv": "e140f958386757f96be94fa4594fefa6b78bf61a615ef352329bb23651a714ee",
+      "/root/night16g_working/candidate_features/MELANOMA_TUMOR_K2.npz": "4b655b162b36d86809ac1baec678540615a9b1d49cf63f4aa448b8eab0041c74",
+      "/root/night16g_working/candidate_features/MISAR_K7.features.csv": "8a70e63b6a070e042b77a17d69c05f04bf2ae6a051289d6281b500f294e1f24e",
+      "/root/night16g_working/candidate_features/MISAR_K7.npz": "32f74f4539c7e949ed7410cba801762c4b8c912357b5478d05af2c5672317642"
+    },
+    "meaningful_gain": 0.005,
+    "noninferiority_tolerance": 0.01,
+    "opened_training_evaluation_paths": [
+      "/root/night16g_working/candidate_evaluation/MISAR_K7.csv",
+      "/root/night16g_working/candidate_evaluation/HUMAN_HIPPOCAMPUS_K7.csv",
+      "/root/night16g_working/candidate_evaluation/MELANOMA_TUMOR_K2.csv"
+    ],
+    "schema": "night16g-strict-training-only-selector-fit-v1",
+    "selection_rule": "meaningful_gain_count_then_noninferior_count_then_mean_delta_ari_then_mean_delta_nmi_then_worst_joint_delta_then_lower_complexity",
+    "selector_config": {
+      "basin_ari_threshold": 0.82,
+      "molecular_weight": 0.25,
+      "ordered_path_weight": 0.75,
+      "persistence_weight": 0.0,
+      "persistent_ari_threshold": 0.9,
+      "representative_evidence_weight": 0.0,
+      "risk_weight": 0.25,
+      "topology_weight": 1.0
+    },
+    "thread_limit": 1,
+    "training_lanes": [
+      "MISAR_K7",
+      "HUMAN_HIPPOCAMPUS_K7",
+      "MELANOMA_TUMOR_K2"
+    ],
+    "training_picks": {
+      "HUMAN_HIPPOCAMPUS_K7": {
+        "absolute_ari": 0.5961783620969016,
+        "absolute_nmi": 0.5854895180308324,
+        "candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+        "delta_medoid_ari": 0.030723769848390425,
+        "delta_medoid_nmi": 0.015998319918092085,
+        "partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609"
+      },
+      "MELANOMA_TUMOR_K2": {
+        "absolute_ari": 0.9141772268245202,
+        "absolute_nmi": 0.8384393166674208,
+        "candidate_id": "KMEANS_RETAINED_S3__DIRECT_BASE",
+        "delta_medoid_ari": -0.004652501143317389,
+        "delta_medoid_nmi": -0.006733586236640776,
+        "partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e"
+      },
+      "MISAR_K7": {
+        "absolute_ari": 0.5353060549066526,
+        "absolute_nmi": 0.658264645807069,
+        "candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+        "delta_medoid_ari": 0.17219925558730043,
+        "delta_medoid_nmi": 0.10797744133750842,
+        "partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363"
+      }
+    }
+  }
+}

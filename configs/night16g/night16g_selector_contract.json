@@ -1,0 +1,43 @@
+{
+  "candidate_bank": "47 locked Night-16F start-by-arm partitions plus 42 preregistered ordered-path partitions per lane",
+  "candidate_generation_reads_labels": false,
+  "classification_boundary": "family-global public benchmark HPO is separate from strict LOSO transfer",
+  "formal_selector": "evidence-ranked locked-candidate selector; persistence is optional and may fit to zero",
+  "formula": "rank = w_m*R_molecular + w_t*R_topology + w_p*R_path_persistence + w_r*R_microcluster",
+  "ordered_path": {
+    "arm": "UNIFORM_MASS_MATCHED",
+    "axis": "pairwise beta multiplier",
+    "multipliers": [0.0, 0.25, 0.5, 0.75, 1.0, 1.5, 2.0],
+    "persistence": "0.70*adjacent-path ARI + 0.30*contiguous plateau span",
+    "blend_with_discrete_basin": 0.75
+  },
+  "grid": {
+    "each_weight": [0.0, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0],
+    "exclude_all_zero": true,
+    "basin_ari_threshold": 0.82,
+    "persistent_ari_threshold": 0.90
+  },
+  "hpo_selection_rule": [
+    "meaningful dual gain count (delta ARI and delta NMI both > 0.005)",
+    "noninferior count (delta ARI and delta NMI both >= -0.01)",
+    "mean delta ARI",
+    "mean delta NMI",
+    "worst joint delta",
+    "lower active-axis count and total weight",
+    "lower deterministic config index"
+  ],
+  "label_flow": {
+    "candidate_generation": 0,
+    "candidate_feature_computation": 0,
+    "selector_application": 0,
+    "training_only_hpo_evaluator": 1,
+    "heldout_evaluator_after_config_hash": 1
+  },
+  "noninferiority_tolerance_sensitivity": [0.005, 0.0075, 0.01, 0.02],
+  "thread_contract": {
+    "OMP_NUM_THREADS": 1,
+    "MKL_NUM_THREADS": 1,
+    "OPENBLAS_NUM_THREADS": 1,
+    "threadpool_limits": 1
+  }
+}

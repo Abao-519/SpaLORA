@@ -1,0 +1,66 @@
+{
+  "core_source_mtime": 1787581874.7973013,
+  "core_source_sha256": "ddcf677638b7ebb5363d5457ff3d3c1005b8d5947485175abf9d32617bb3d561",
+  "final_core_source_precedes_replay": true,
+  "first_replay_product_mtime": 1787582035.79559,
+  "fresh_process_replay": {
+    "dense_n_by_n_count": 0,
+    "passed": 4,
+    "rows": [
+      {
+        "candidate_id_exact": true,
+        "ids_exact": true,
+        "lane": "P22_K9",
+        "left_partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be",
+        "partitions_exact": true,
+        "producer_label_reads": 0,
+        "right_partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be",
+        "selector_config_sha256_exact": true,
+        "status": "PASS"
+      },
+      {
+        "candidate_id_exact": true,
+        "ids_exact": true,
+        "lane": "MISAR_K7",
+        "left_partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363",
+        "partitions_exact": true,
+        "producer_label_reads": 0,
+        "right_partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363",
+        "selector_config_sha256_exact": true,
+        "status": "PASS"
+      },
+      {
+        "candidate_id_exact": true,
+        "ids_exact": true,
+        "lane": "HUMAN_HIPPOCAMPUS_K7",
+        "left_partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609",
+        "partitions_exact": true,
+        "producer_label_reads": 0,
+        "right_partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609",
+        "selector_config_sha256_exact": true,
+        "status": "PASS"
+      },
+      {
+        "candidate_id_exact": true,
+        "ids_exact": true,
+        "lane": "MELANOMA_TUMOR_K2",
+        "left_partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e",
+        "partitions_exact": true,
+        "producer_label_reads": 0,
+        "right_partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e",
+        "selector_config_sha256_exact": true,
+        "status": "PASS"
+      }
+    ],
+    "schema": "night16g-fresh-process-selector-replay-audit-v1",
+    "total": 4
+  },
+  "replay_audit_sha256": "5e2ec92f25bf543c72ffa087f3d41f4f4e5b2cc557f38365c0905352596e0cf0",
+  "schema": "night16g-final-replay-and-test-audit-v1",
+  "targeted_tests": {
+    "log_sha256": "2db18c015cef70e3752c9e825220c8963cdaa886d634471be8397c56f5c593cd",
+    "passed": 9,
+    "summary": ".........                                                                [100%]\n9 passed in 0.38s",
+    "total": 9
+  }
+}

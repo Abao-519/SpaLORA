@@ -1,0 +1,58 @@
+{
+  "candidate_banks_locked_before_label_evaluation": true,
+  "lanes": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "authority_direct_candidate_id": "NIGHT16E_BYTE_EXACT_UNLABELED_START__DIRECT_BASE",
+      "candidate_bank_sha256": "c2e2c418f8444ec637f130fa1b3422ac75d2c24c30f322fb4be9c5138591085a",
+      "candidate_count": 89,
+      "dense_observation_by_observation_count": 0,
+      "evaluation_sha256": "5a41a6220993c0dc17af08892cc1cdb0e3a89e282ebf8ff6d6885cff332d81b7",
+      "feature_csv_sha256": "95349a5138c481edb0ef3ae0c7c65aec6bd12c4b71f38584e342ae79255f671f",
+      "locked_candidate_ids_sha256": "8f34dffd987f8a96ccd5e81fd6ef90f012a420f503947692985d3e8eb6f91afc",
+      "n": 2500,
+      "ordered_path_candidate_count": 42,
+      "producer_label_reads": 0,
+      "reference_evaluator_reads": 1
+    },
+    "MELANOMA_TUMOR_K2": {
+      "authority_direct_candidate_id": "UNLABELED_PARTITION_MEDOID__DIRECT_BASE",
+      "candidate_bank_sha256": "4b655b162b36d86809ac1baec678540615a9b1d49cf63f4aa448b8eab0041c74",
+      "candidate_count": 89,
+      "dense_observation_by_observation_count": 0,
+      "evaluation_sha256": "2d5aabd96e137d2537ea6ae35c369c44588b4f2a3866ccaeff50db1e5ad4cade",
+      "feature_csv_sha256": "e140f958386757f96be94fa4594fefa6b78bf61a615ef352329bb23651a714ee",
+      "locked_candidate_ids_sha256": "c61105dd7917bfc60a5bf4003ac214a8a8eab34cf2078d59ad493eeed477a8a0",
+      "n": 833,
+      "ordered_path_candidate_count": 42,
+      "producer_label_reads": 0,
+      "reference_evaluator_reads": 1
+    },
+    "MISAR_K7": {
+      "authority_direct_candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+      "candidate_bank_sha256": "32f74f4539c7e949ed7410cba801762c4b8c912357b5478d05af2c5672317642",
+      "candidate_count": 89,
+      "dense_observation_by_observation_count": 0,
+      "evaluation_sha256": "e76ab8c33dfc2f998cd7ea288ecf7cf9ffb9b392607f3fc62281fd087340b931",
+      "feature_csv_sha256": "8a70e63b6a070e042b77a17d69c05f04bf2ae6a051289d6281b500f294e1f24e",
+      "locked_candidate_ids_sha256": "2ee7698bc7343d393c234604d760f98380d9c7460532b58ad466ee509b509d38",
+      "n": 1949,
+      "ordered_path_candidate_count": 42,
+      "producer_label_reads": 0,
+      "reference_evaluator_reads": 1
+    },
+    "P22_K9": {
+      "authority_direct_candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+      "candidate_bank_sha256": "c69acbc55c46d38a697a79c38a1afa010256ac06b33662ea649ef414c7ee21cf",
+      "candidate_count": 89,
+      "dense_observation_by_observation_count": 0,
+      "evaluation_sha256": "bcd24669c4309582acc578bf125e859e1f5a8527d897a293d44b6434855ed0d8",
+      "feature_csv_sha256": "44b9a6aa01f11fbaafda4243e3d4f4ec11727684e7392c0f50ed4297a61f7a9a",
+      "locked_candidate_ids_sha256": "2ee7698bc7343d393c234604d760f98380d9c7460532b58ad466ee509b509d38",
+      "n": 9196,
+      "ordered_path_candidate_count": 42,
+      "producer_label_reads": 0,
+      "reference_evaluator_reads": 1
+    }
+  },
+  "schema": "night16g-locked-candidate-bank-registry-v1"
+}

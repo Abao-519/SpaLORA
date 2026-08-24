@@ -1,0 +1,24 @@
+{
+  "candidate_partitions_locked_and_hashed_before_evaluation": true,
+  "independent_candidate_evaluator_processes": 4,
+  "independent_formal_evaluator_processes": 8,
+  "label_assisted_fit_processes": 5,
+  "labels_not_used_for": [
+    "representation",
+    "candidate generation",
+    "energy",
+    "graph",
+    "partition optimization",
+    "heldout LOSO config fit"
+  ],
+  "labels_used_for": [
+    "public benchmark diagnostics",
+    "global selector HPO",
+    "training-study-only LOSO fit"
+  ],
+  "partition_bank_label_reads": 0,
+  "producer_label_reads": 0,
+  "schema": "night16g-label-flow-audit-v1",
+  "selector_label_reads": 0,
+  "strict_loso_fit_never_opened_heldout_evaluation": true
+}

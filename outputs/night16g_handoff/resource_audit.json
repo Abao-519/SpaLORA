@@ -1,0 +1,21 @@
+{
+  "candidate_count_per_lane": 89,
+  "candidate_similarity_shape": [
+    89,
+    89
+  ],
+  "dense_observation_by_observation_count": 0,
+  "gpu_time_seconds": 0,
+  "lane_count": 4,
+  "ordered_path_candidate_count_per_lane": 42,
+  "peak_gpu_mib": 0,
+  "schema": "night16g-resource-audit-v1",
+  "selector_peak_rss_mib_max": 81.375,
+  "selector_wall_seconds_sum": 12.648964628577232,
+  "thread_limits": {
+    "MKL_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1,
+    "OPENBLAS_NUM_THREADS": 1,
+    "threadpool_limits": 1
+  }
+}

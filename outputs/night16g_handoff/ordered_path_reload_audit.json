@@ -1,0 +1,59 @@
+{
+  "passed": 4,
+  "rows": [
+    {
+      "all_rows_pass": true,
+      "artifact_reload": "PASS",
+      "artifact_sha256": "42f7bacb4d18b844ac6a1da681ee8a8b848755bfd633fb3daa8e9cb3f8049bda",
+      "dense_n_by_n_count": 0,
+      "lane": "P22_K9",
+      "manifest_sha256": "65513feae33a910c450ce5ab2e78871829bdc40a44199c77d8d551e51f271fd2",
+      "ordered_id_sha256": "499670d70a839022498336bb32a3e8a155c2e00b7ff1c93d2e6861a040eb9647",
+      "peak_rss_mib": 226.50390625,
+      "producer_label_reads": 0,
+      "row_count": 42,
+      "wall_seconds": 21.930507604032755
+    },
+    {
+      "all_rows_pass": true,
+      "artifact_reload": "PASS",
+      "artifact_sha256": "bfdb4f56bcacf214bc5a57a71b217f0e411e5c8ac072747a6a32c10e0cfebdce",
+      "dense_n_by_n_count": 0,
+      "lane": "MISAR_K7",
+      "manifest_sha256": "2e94bcb55d688f3e0e35a4b5a9da1f2eb18ba0fd1546f0342a955e95ffba93af",
+      "ordered_id_sha256": "4cd1e3837b946b1b3722194e2b71970b56426c61a06899db682357d28d2ee59a",
+      "peak_rss_mib": 106.859375,
+      "producer_label_reads": 0,
+      "row_count": 42,
+      "wall_seconds": 4.17479020729661
+    },
+    {
+      "all_rows_pass": true,
+      "artifact_reload": "PASS",
+      "artifact_sha256": "bfebfaf6580e7a2edfad32df0804ea3b70470612f2e1da151ce3bf6cadaf78b9",
+      "dense_n_by_n_count": 0,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "manifest_sha256": "c38abf7655395fa8a471d489d1854bc12d5f776bed8dc69918f62703a9cc2c05",
+      "ordered_id_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+      "peak_rss_mib": 114.27734375,
+      "producer_label_reads": 0,
+      "row_count": 42,
+      "wall_seconds": 6.486954255029559
+    },
+    {
+      "all_rows_pass": true,
+      "artifact_reload": "PASS",
+      "artifact_sha256": "212563d407b188df19d47e6600cf1f61709302f4718e2102ea688aa0845bd160",
+      "dense_n_by_n_count": 0,
+      "lane": "MELANOMA_TUMOR_K2",
+      "manifest_sha256": "461d0a30d51715bbfffdecc748ad9880a8f886e9e1185762885a309b74a23008",
+      "ordered_id_sha256": "688ff8f400786d48ee248f95db5bce986451a12a981b6997846d58405296e8f2",
+      "peak_rss_mib": 92.34765625,
+      "producer_label_reads": 0,
+      "row_count": 42,
+      "wall_seconds": 1.3615984246134758
+    }
+  ],
+  "schema": "night16g-ordered-path-reload-audit-v1",
+  "total": 4
+}
