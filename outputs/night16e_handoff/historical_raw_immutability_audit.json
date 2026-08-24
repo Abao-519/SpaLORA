@@ -1,0 +1,14 @@
+{
+  "historical_compact_modifications": 0,
+  "historical_raw_file_content_modifications": 0,
+  "new_write_roots": [
+    "/root/SpaLORA-night16e",
+    "/root/night16e_working",
+    "/root/night16e_external",
+    "/root/night16e_assets"
+  ],
+  "night16d_asset_files_modified": 0,
+  "note": "two task-created alternate start files were moved out of the historical asset root before final audit",
+  "parent_commit": "5df3b704d7fd54ef3414809754c05cc8dfe2ab07",
+  "schema": "night16e-historical-raw-immutability-v1"
+}

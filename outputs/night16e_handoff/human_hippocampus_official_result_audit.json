@@ -1,0 +1,337 @@
+{
+  "alignment": {
+    "result_atac_same_order_as_input": true,
+    "result_atac_same_set_as_input": true,
+    "result_rna_same_order_as_input": true,
+    "result_rna_same_set_as_input": true,
+    "result_spatial_equals_input": false,
+    "result_spatial_equals_y_negated_input": true
+  },
+  "datasets": {
+    "input_atac": {
+      "obs_columns": {
+        "log1p_n_genes_by_counts": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 1762,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "log1p_total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 2035,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "n_genes_by_counts": {
+          "dtype": "int32",
+          "non_null": 2500,
+          "unique": 1762,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_100_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2471,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_200_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2377,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_500_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 1902,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_50_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2476,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 2035,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        }
+      },
+      "obsm": {
+        "spatial": [
+          2500,
+          2
+        ]
+      },
+      "ordered_id_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+      "shape": [
+        2500,
+        28270
+      ],
+      "spatial_sha256": "060098310be6d5be0c0664a81a3fb0532f2e490d89c871791b8517da1441e616"
+    },
+    "input_rna": {
+      "obs_columns": {
+        "log1p_n_genes_by_counts": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 977,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "log1p_total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 908,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "n_genes_by_counts": {
+          "dtype": "int32",
+          "non_null": 2500,
+          "unique": 977,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_100_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2444,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_200_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2242,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_500_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 1511,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_50_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2437,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 908,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        }
+      },
+      "obsm": {
+        "spatial": [
+          2500,
+          2
+        ]
+      },
+      "ordered_id_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+      "shape": [
+        2500,
+        7666
+      ],
+      "spatial_sha256": "060098310be6d5be0c0664a81a3fb0532f2e490d89c871791b8517da1441e616"
+    },
+    "result_atac": {
+      "obs_columns": {
+        "log1p_n_genes_by_counts": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 1762,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "log1p_total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 2035,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "n_genes_by_counts": {
+          "dtype": "int32",
+          "non_null": 2500,
+          "unique": 1762,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_100_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2471,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_200_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2377,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_500_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 1902,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_50_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2476,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 2035,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "wnn": {
+          "dtype": "category",
+          "non_null": 2500,
+          "unique": 8,
+          "value_counts": {
+            "1": 779,
+            "2": 465,
+            "3": 379,
+            "4": 311,
+            "5": 267,
+            "6": 135,
+            "7": 85,
+            "8": 79
+          }
+        }
+      },
+      "obsm": {
+        "MultiGATE": [
+          2500,
+          30
+        ],
+        "MultiGATE_clip_all": [
+          2500,
+          30
+        ],
+        "X_umap": [
+          2500,
+          2
+        ],
+        "spatial": [
+          2500,
+          2
+        ]
+      },
+      "ordered_id_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+      "shape": [
+        2500,
+        28270
+      ],
+      "spatial_sha256": "edeff15d689ce7154e971bbbadbb31a19352f27e59eb63d25dad636cd0fc9bab"
+    },
+    "result_rna": {
+      "obs_columns": {
+        "log1p_n_genes_by_counts": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 977,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "log1p_total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 908,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "n_genes_by_counts": {
+          "dtype": "int32",
+          "non_null": 2500,
+          "unique": 977,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_100_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2444,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_200_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2242,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_500_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 1511,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "pct_counts_in_top_50_genes": {
+          "dtype": "float64",
+          "non_null": 2500,
+          "unique": 2437,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "total_counts": {
+          "dtype": "float32",
+          "non_null": 2500,
+          "unique": 908,
+          "value_counts": "OMITTED_HIGH_CARDINALITY"
+        },
+        "true_label": {
+          "dtype": "category",
+          "non_null": 2500,
+          "unique": 7,
+          "value_counts": {
+            "0": 897,
+            "1": 362,
+            "2": 344,
+            "3": 172,
+            "4": 393,
+            "5": 249,
+            "6": 83
+          }
+        },
+        "wnn": {
+          "dtype": "category",
+          "non_null": 2500,
+          "unique": 8,
+          "value_counts": {
+            "1": 779,
+            "2": 465,
+            "3": 379,
+            "4": 311,
+            "5": 267,
+            "6": 135,
+            "7": 85,
+            "8": 79
+          }
+        }
+      },
+      "obsm": {
+        "MultiGATE": [
+          2500,
+          30
+        ],
+        "MultiGATE_clip_all": [
+          2500,
+          30
+        ],
+        "X_umap": [
+          2500,
+          2
+        ],
+        "spatial": [
+          2500,
+          2
+        ]
+      },
+      "ordered_id_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+      "shape": [
+        2500,
+        3000
+      ],
+      "spatial_sha256": "08bcad86cffd692a9cb0b991e6f4f6ec050ff513915b48b37f4b14b95ddde99d"
+    }
+  },
+  "schema": "night16e-multigate-official-result-audit-v1"
+}

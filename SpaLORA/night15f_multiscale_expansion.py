@@ -382,7 +382,11 @@ def _binary_cut(
     )
     capacity = sp.csr_matrix((graph_data, (graph_rows, graph_cols)), shape=(n + 2, n + 2), dtype=np.int64)
     result = maximum_flow(capacity, source, sink, method="dinic")
-    residual = (capacity - result.flow).tocsr()
+    # SciPy <=1.8 exposes the antisymmetric flow matrix as ``residual``;
+    # newer releases expose the same object as ``flow``.  Convert either API
+    # to residual capacities without changing the cut semantics.
+    flow = result.flow if hasattr(result, "flow") else result.residual
+    residual = (capacity - flow).tocsr()
     residual.data = (residual.data > 0).astype(np.int8)
     residual.eliminate_zeros()
     reachable = breadth_first_order(residual, source, directed=True, return_predecessors=False)

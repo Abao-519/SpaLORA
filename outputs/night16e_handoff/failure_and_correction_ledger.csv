@@ -1,0 +1,10 @@
+correction_id,scope,observed,cause,action,status
+E001,screen_v1/A1,71/72 producer rows failed,SciPy 1.8 maximum_flow returns MaximumFlowResult,API compatibility repair; full A1 screen rerun,SUPERSEDED_PRESERVED
+E002,chromatin_family_frozen_v1,MISAR narrated as transfer although C_GEO blended its historical config,protocol-role contamination,"pre-human-evaluation role revision: P22+MISAR discovery, human transfer",SUPERSEDED_PRESERVED
+E003,score_frontier_replay_registry,no-op candidate duplicated,generic registry lookup matched INPUT_STRONG_START,"explicit no-op branch, unique-ID assertion and targeted test",FIXED_BEFORE_FINAL_REPLAY
+E004,human initial P0,NIGHT15F_DIRECT temporarily materialized as no-op,missing direct-control invocation,actual direct-energy control added; final producer rerun twice,SUPERSEDED_PRESERVED
+E005,official result audit,high-cardinality QC value counts inflated audit,unbounded value-count serialization,omit counts when unique cardinality exceeds 50,FIXED
+E006,Zenodo small bundle,expected MISAR stages absent,bundle contains GSE205055 accessions,fail-closed provenance resolution; no stage/annotation guessed,DATA_PROVENANCE_LIMITATION
+E007,TSRE relation carrier,boundary/private relations inherit base-edge suppression,formal science already underway,prespecified as next-revision mechanism issue; no post-hoc formula change,DEFERRED_NOT_HIDDEN
+E008,secondary MISAR K12,no distinct K12 reference array in compute kit,available reference has K7,"report as endpoint sensitivity against K7 carrier, not K12 annotation protocol",TRANSPARENT_LIMITATION
+E009,historical start asset root,two new alternate starts briefly copied into Night16D asset root,secondary runner staging path,moved to Night16E asset root and reproducibility script corrected,RESTORED

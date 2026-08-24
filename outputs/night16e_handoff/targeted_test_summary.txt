@@ -1,0 +1,10 @@
+..........                                                               [100%]
+=============================== warnings summary ===============================
+tests/test_night16e_tsre.py::test_categorical_spatial_metrics_are_label_permutation_invariant
+tests/test_night16e_tsre.py::test_candidate_call_order_does_not_change_partitions
+tests/test_night16e_tsre.py::test_candidate_call_order_does_not_change_partitions
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+10 passed, 3 warnings in 1.06s

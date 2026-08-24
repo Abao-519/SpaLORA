@@ -1,0 +1,17 @@
+{
+  "chromatin_role_revision": "P22 and MISAR are discovery because C_GEO contains both historical tuned bases; only human hippocampus is an independent frozen transfer",
+  "dense_n_by_n_count": 0,
+  "evaluator_label_reads": "one per locked evaluation artifact",
+  "existing_start_provenance": "historical per-lane public-label HPO; only the Night16E operator is frozen across those lanes",
+  "family_hpo": {
+    "RNA_CHROMATIN": "P22 + MISAR public annotation; role revision locked before human-hippocampus metric evaluation",
+    "RNA_PROTEIN": "A1 + tonsil_s1 public annotation; profile frozen before D1/s2/s3 operator transfer"
+  },
+  "human_numeric_inputs": "input H5AD obs tables contain QC fields only and no annotation-like columns",
+  "human_start_selection": "partition-consensus ARI among candidate partitions; no ground-truth reference",
+  "producer_annotation_arrays_accessed": 0,
+  "producer_label_values_accessed": 0,
+  "schema": "night16e-label-and-hpo-flow-audit-v1",
+  "score_frontier_board": "transparent per-lane label-assisted HPO; never feeds family config",
+  "secondary_sensitivity": "label-assisted context only; not independent study votes"
+}

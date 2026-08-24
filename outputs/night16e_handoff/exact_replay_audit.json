@@ -1,0 +1,126 @@
+{
+  "family_frozen": {
+    "exact_lane_count": 7,
+    "lane_count": 7,
+    "rows": [
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "A1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "D1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "tonsil_s1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "tonsil_s2",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "tonsil_s3",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "P22",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 8,
+        "dense_n_by_n_count": 0,
+        "lane": "MISAR_E15_5_S1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      }
+    ]
+  },
+  "human_hippocampus": {
+    "candidate_count": 8,
+    "dense_n_by_n_count": 0,
+    "partition_and_metric_exact": true,
+    "producer_label_reads": 0
+  },
+  "schema": "night16e-final-exact-replay-audit-v1",
+  "score_frontier": {
+    "exact_lane_count": 7,
+    "lane_count": 7,
+    "rows": [
+      {
+        "candidate_count": 2,
+        "dense_n_by_n_count": 0,
+        "lane": "A1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 2,
+        "dense_n_by_n_count": 0,
+        "lane": "D1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 1,
+        "dense_n_by_n_count": 0,
+        "lane": "tonsil_s1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 1,
+        "dense_n_by_n_count": 0,
+        "lane": "tonsil_s2",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 2,
+        "dense_n_by_n_count": 0,
+        "lane": "tonsil_s3",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 2,
+        "dense_n_by_n_count": 0,
+        "lane": "P22",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      },
+      {
+        "candidate_count": 1,
+        "dense_n_by_n_count": 0,
+        "lane": "MISAR_E15_5_S1",
+        "partition_and_metric_exact": true,
+        "producer_label_reads": 0
+      }
+    ]
+  },
+  "source_sha256": {
+    "SpaLORA/night16e_tsre.py": "00bdf7539752c4698c44845f29dde380ad4a3291cdcabbe85533d3119180f07c",
+    "scripts/night16e/human_hippocampus_evaluator.py": "b57e68615d4be85d48d1593be314c1088e1c87b664b33db4c12cf5265c05ba23",
+    "scripts/night16e/human_hippocampus_producer.py": "21f7836fe36e3c687c24ca605a4abe7f746e1262cb48822f19862946f2d50d62",
+    "scripts/night16e/night16e_evaluator.py": "9953f7d92f22edb6afbbc577d500274615af469719ba243d265e75eacc51754d",
+    "scripts/night16e/night16e_producer.py": "7e756d0d21ecabec67513e80584b2ac9f31f220ad0c239c79dd4244b4a0d84d6"
+  }
+}

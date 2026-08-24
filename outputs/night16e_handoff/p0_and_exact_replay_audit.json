@@ -1,0 +1,43 @@
+{
+  "dense_n_by_n_count": 0,
+  "existing_primary_units": 7,
+  "family_frozen_replay": "7/7 x 2 fresh processes exact",
+  "human_coordinate_alignment": "PASS",
+  "human_id_alignment": "PASS",
+  "human_replay": "8/8 candidate partitions and metrics x 2 fresh processes exact",
+  "human_shapes": {
+    "atac_input_shape": [
+      2500,
+      28270
+    ],
+    "graph_nnz": [
+      10200,
+      20212,
+      48770
+    ],
+    "retained_shape": [
+      2500,
+      64
+    ],
+    "rna_input_shape": [
+      2500,
+      7666
+    ],
+    "spatial_shape": [
+      2500,
+      2
+    ],
+    "view1_shape": [
+      2500,
+      64
+    ],
+    "view2_shape": [
+      2500,
+      64
+    ]
+  },
+  "new_independent_unit": "MULTIGATE_HUMAN_HIPPOCAMPUS",
+  "schema": "night16e-real-path-and-replay-audit-v1",
+  "score_frontier_replay": "7/7 x 2 fresh processes exact",
+  "targeted_tests": "10/10 PASS"
+}

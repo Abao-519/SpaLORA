@@ -1,0 +1,5 @@
+dataset,k,protocol,context_ari,context_nmi,source,comparability
+P22,9,PROJECT_COMMON_ENDPOINT,0.595552,0.717931,Night-16B development frontier,directly comparable
+P22,18,AUTHOR_18_STATE_ASSIGNMENT,0.739685,0.754218,Night-15F best-so-far,secondary protocol
+MISAR_E15_5_S1,7,PROJECT_PRIMARY_REFERENCE,0.541424,0.666798,Night-16B development frontier,directly comparable
+MULTIGATE_HUMAN_HIPPOCAMPUS,7,MANUAL_ANATOMICAL_REFERENCE,0.6,,MultiGATE paper reported ARI,context; official method protocol differs

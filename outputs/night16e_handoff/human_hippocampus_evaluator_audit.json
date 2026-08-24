@@ -1,0 +1,23 @@
+{
+  "category_counts": {
+    "0": 897,
+    "1": 362,
+    "2": 344,
+    "3": 172,
+    "4": 393,
+    "5": 249,
+    "6": 83
+  },
+  "cleaned_reference_k": 7,
+  "evaluator_label_reads": 1,
+  "missing_reference_count": 0,
+  "n_nonmissing_reference": 2500,
+  "n_total": 2500,
+  "ordered_id_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+  "ordered_label_sha256": "c2909e2ec6f767ceb3d8029cdcdd4e0e92bd96ac7eb3e3b0686bb8a36b800af3",
+  "producer_label_reads": 0,
+  "reference_column": "true_label",
+  "reference_mask": "ALL_OFFICIAL_PROCESSED_PIXELS",
+  "reference_type": "OFFICIAL_MANUAL_ANATOMICAL_GROUND_TRUTH_CARRIER",
+  "schema": "night16e-human-hippocampus-independent-evaluator-v1"
+}

@@ -1,0 +1,23 @@
+{
+  "boundary_component_supported": false,
+  "chromatin_human_independent_transfer": {
+    "frozen_full_ari": 0.5155650158912327,
+    "frozen_full_nmi": 0.5096793712429872,
+    "input_ari": 0.1657336868947469,
+    "input_nmi": 0.2631898402663674,
+    "support_modulation_only_ari": 0.5448772370426253,
+    "support_modulation_only_nmi": 0.5577946770986344
+  },
+  "classification": "FAMILY_FROZEN_METHOD_SIGNAL",
+  "confirmed_milestone": false,
+  "machine_state_directive": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS",
+  "paper_ready": false,
+  "private_conflict_component_supported": false,
+  "protein_family_frozen_signal": false,
+  "rejected_mass_self_return_supported": true,
+  "scope": "RNA_CHROMATIN_SUPPORT_RELATION_ONLY",
+  "secondary_classification": "SCORE_FRONTIER_ADVANCE",
+  "shutdown_dispatched": false,
+  "status": "NIGHT16E_CHROMATIN_FROZEN_SUPPORT_ENERGY_SIGNAL",
+  "support_modulation_supported": true
+}

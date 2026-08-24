@@ -1,0 +1,227 @@
+{
+  "archive_bytes": 268213598,
+  "archive_md5_expected_and_verified": "bf4b68a7e55566e07820816a23198fca",
+  "archive_name": "spatial_ATAC-RNA-seq_MB.zip",
+  "archive_sha256": "808630d596a61ab36182b28dd75274cf82059d835a2c677e841f26a90844b578",
+  "entries": [
+    {
+      "compressed_bytes": 29929965,
+      "crc32": "c3355c6f",
+      "path": "GSM6204623_MouseBrain_20um.h5ad",
+      "uncompressed_bytes": 125632011
+    },
+    {
+      "compressed_bytes": 41831661,
+      "crc32": "1b8e4b56",
+      "path": "GSM6758284_MouseBrain_20um_repATAC.h5ad",
+      "uncompressed_bytes": 178833935
+    },
+    {
+      "compressed_bytes": 162441002,
+      "crc32": "d87ef504",
+      "path": "GSM6758285_MouseBrain_20um_100barcodes_ATAC.h5ad",
+      "uncompressed_bytes": 636113469
+    },
+    {
+      "compressed_bytes": 20435600,
+      "crc32": "00b5a948",
+      "path": "GSM6753043_MouseBrain_20um_100barcodes_ATAC.h5ad",
+      "uncompressed_bytes": 120718056
+    },
+    {
+      "compressed_bytes": 5267723,
+      "crc32": "c9876600",
+      "path": "GSM6204636_MouseBrain_20um.h5ad",
+      "uncompressed_bytes": 29712544
+    },
+    {
+      "compressed_bytes": 8306265,
+      "crc32": "a3cf224f",
+      "path": "GSM6753041_MouseBrain_20um_repATAC.h5ad",
+      "uncompressed_bytes": 49101356
+    }
+  ],
+  "files": [
+    {
+      "bytes": 125632011,
+      "ids_unique": true,
+      "obs_columns": [
+        "tsse",
+        "n_fragment",
+        "frac_dup",
+        "frac_mito",
+        "sample",
+        "in_tissue",
+        "array_row",
+        "array_col",
+        "pxl_row_in_fullres",
+        "pxl_col_in_fullres"
+      ],
+      "obsm": {
+        "spatial": [
+          2500,
+          2
+        ]
+      },
+      "ordered_id_sha256": "94dfa894be69e915e98961d5e2f41b959c5f4504add9ed4bdabc7d351056b377",
+      "path": "GSM6204623_MouseBrain_20um.h5ad",
+      "sha256": "e31ec1c05724e61f82bb200998375d327255e26abd079cecce51b194da843793",
+      "shape": [
+        2500,
+        233155
+      ],
+      "var_columns": []
+    },
+    {
+      "bytes": 29712544,
+      "ids_unique": true,
+      "obs_columns": [
+        "in_tissue",
+        "array_row",
+        "array_col",
+        "pxl_row_in_fullres",
+        "pxl_col_in_fullres"
+      ],
+      "obsm": {
+        "spatial": [
+          2373,
+          2
+        ]
+      },
+      "ordered_id_sha256": "139ce4f89af125e3ec631d37608c0a70cad6a8c12ced7c292aecfaab63166b47",
+      "path": "GSM6204636_MouseBrain_20um.h5ad",
+      "sha256": "da3cdd93291af8f26898f5cf269d3690f46ce69995df5588c0a7ba134aaf2ecc",
+      "shape": [
+        2373,
+        19859
+      ],
+      "var_columns": []
+    },
+    {
+      "bytes": 49101356,
+      "ids_unique": true,
+      "obs_columns": [
+        "in_tissue",
+        "array_row",
+        "array_col",
+        "pxl_row_in_fullres",
+        "pxl_col_in_fullres"
+      ],
+      "obsm": {
+        "spatial": [
+          2498,
+          2
+        ]
+      },
+      "ordered_id_sha256": "ea5fc660f13d1b3a56b4ebf6a7bc053ef8304191b92c2610446c3bcb06c4792c",
+      "path": "GSM6753041_MouseBrain_20um_repATAC.h5ad",
+      "sha256": "5529904bf22eedf65c0b3c5834595ee836a818bebb06a9f39a81acc8ef78ebd9",
+      "shape": [
+        2498,
+        20046
+      ],
+      "var_columns": []
+    },
+    {
+      "bytes": 120718056,
+      "ids_unique": true,
+      "obs_columns": [
+        "in_tissue",
+        "array_row",
+        "array_col",
+        "pxl_row_in_fullres",
+        "pxl_col_in_fullres"
+      ],
+      "obsm": {
+        "spatial": [
+          9215,
+          2
+        ]
+      },
+      "ordered_id_sha256": "e89727ff382038fe271bdc769ca0af6689ea9428ef9d8a30f017314cfe884d99",
+      "path": "GSM6753043_MouseBrain_20um_100barcodes_ATAC.h5ad",
+      "sha256": "639be11f2fc5b491dc6531c3549afbc0f865a520ea275775ff2f1a2184b593cf",
+      "shape": [
+        9215,
+        22914
+      ],
+      "var_columns": []
+    },
+    {
+      "bytes": 178833935,
+      "ids_unique": true,
+      "obs_columns": [
+        "tsse",
+        "n_fragment",
+        "frac_dup",
+        "frac_mito",
+        "sample",
+        "in_tissue",
+        "array_row",
+        "array_col",
+        "pxl_row_in_fullres",
+        "pxl_col_in_fullres"
+      ],
+      "obsm": {
+        "spatial": [
+          2500,
+          2
+        ]
+      },
+      "ordered_id_sha256": "94dfa894be69e915e98961d5e2f41b959c5f4504add9ed4bdabc7d351056b377",
+      "path": "GSM6758284_MouseBrain_20um_repATAC.h5ad",
+      "sha256": "2e39b88c77b1e6665cd4d3a04296bd158985745245d34ce45a477ce5696c2e4b",
+      "shape": [
+        2500,
+        290047
+      ],
+      "var_columns": []
+    },
+    {
+      "bytes": 636113469,
+      "ids_unique": true,
+      "obs_columns": [
+        "tsse",
+        "n_fragment",
+        "frac_dup",
+        "frac_mito",
+        "sample",
+        "in_tissue",
+        "array_row",
+        "array_col",
+        "pxl_row_in_fullres",
+        "pxl_col_in_fullres"
+      ],
+      "obsm": {
+        "spatial": [
+          9994,
+          2
+        ]
+      },
+      "ordered_id_sha256": "4c8be5dc7c98cba6d6a6175dff6e0a569abff58f577dee43606c3e5371dd01fe",
+      "path": "GSM6758285_MouseBrain_20um_100barcodes_ATAC.h5ad",
+      "sha256": "fb2c488a27bc210a7daf979dc8d5973bc4150d881649caa615427aaa4338660a",
+      "shape": [
+        9994,
+        517411
+      ],
+      "var_columns": []
+    }
+  ],
+  "intended_misar_stage_accessions_present": false,
+  "misar_e11_e13_e18_p0_status": "PROVENANCE_INSUFFICIENT_IN_SMALL_BUNDLE",
+  "observed_accessions": [
+    "GSM6204623",
+    "GSM6204636",
+    "GSM6753041",
+    "GSM6753043",
+    "GSM6758284",
+    "GSM6758285"
+  ],
+  "observed_study_resolution": "GSE205055 spatial epigenome-transcriptome mouse-brain assets",
+  "reference_annotation_columns_present": false,
+  "safe_archive_entry_count": 6,
+  "schema": "night16e-small-processed-bundle-provenance-resolution-v1",
+  "scientific_action": "do not infer developmental stages or reference partitions from filenames; retain this bundle as a separately registered GSE205055 processed asset",
+  "source_record": "https://zenodo.org/records/14789361"
+}
