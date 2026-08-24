@@ -1,0 +1,109 @@
+{
+  "schema": "night16c-new-unit-p0-manifest-v1",
+  "family_configs": {
+    "RNA_PROTEIN": {
+      "anchor_strength": 0.4,
+      "boundary_enabled": true,
+      "conflict_enabled": true,
+      "conflict_pass": 0.25,
+      "directional_enabled": true,
+      "directional_mix": 0.25,
+      "min_cluster_fraction_of_equal": 0.01,
+      "move_boundary_floor": 0.22,
+      "pairwise_strength": 0.04,
+      "self_return_strength": 0.2,
+      "sweeps": 1,
+      "trust_gate_enabled": true,
+      "trust_threshold": 0.3,
+      "unary_view1_weight": 0.65
+    },
+    "RNA_CHROMATIN": {
+      "anchor_strength": 0.17,
+      "boundary_enabled": true,
+      "conflict_enabled": true,
+      "conflict_pass": 0.1,
+      "directional_enabled": true,
+      "directional_mix": 0.0,
+      "min_cluster_fraction_of_equal": 0.01,
+      "move_boundary_floor": 0.18,
+      "pairwise_strength": 0.08,
+      "self_return_strength": 0.2,
+      "sweeps": 1,
+      "trust_gate_enabled": true,
+      "trust_threshold": 0.38,
+      "unary_view1_weight": 0.65
+    }
+  },
+  "units": [
+    {
+      "unit_id": "SPOTS_SPLEEN_REP1",
+      "family": "RNA_PROTEIN",
+      "family_config_id": "CMBF_f9449aa1499e111c",
+      "input_path": "/autodl-fs/data/night13a_benchmark_expansion_20260822/derived/p0_spots_rep1/roundtrip.npz",
+      "input_schema": "night13a_roundtrip",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    },
+    {
+      "unit_id": "P10S1",
+      "family": "RNA_PROTEIN",
+      "family_config_id": "CMBF_f9449aa1499e111c",
+      "input_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S1/registered_matrices.npz",
+      "input_schema": "registered_matrices",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    },
+    {
+      "unit_id": "P10S2",
+      "family": "RNA_PROTEIN",
+      "family_config_id": "CMBF_f9449aa1499e111c",
+      "input_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S2/registered_matrices.npz",
+      "input_schema": "registered_matrices",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    },
+    {
+      "unit_id": "P10S3",
+      "family": "RNA_PROTEIN",
+      "family_config_id": "CMBF_f9449aa1499e111c",
+      "input_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S3/registered_matrices.npz",
+      "input_schema": "registered_matrices",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    },
+    {
+      "unit_id": "P5S1",
+      "family": "RNA_CHROMATIN",
+      "family_config_id": "CMBF_fbed48fa34f0c773",
+      "input_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S1/registered_matrices.npz",
+      "input_schema": "registered_matrices",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    },
+    {
+      "unit_id": "P5S2",
+      "family": "RNA_CHROMATIN",
+      "family_config_id": "CMBF_fbed48fa34f0c773",
+      "input_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S2/registered_matrices.npz",
+      "input_schema": "registered_matrices",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    },
+    {
+      "unit_id": "P5S3",
+      "family": "RNA_CHROMATIN",
+      "family_config_id": "CMBF_fbed48fa34f0c773",
+      "input_path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S3/registered_matrices.npz",
+      "input_schema": "registered_matrices",
+      "engineering_k": 8,
+      "engineering_k_source": "fixed unlabeled engineering endpoint; no reference partition available",
+      "seed": 20260824
+    }
+  ]
+}

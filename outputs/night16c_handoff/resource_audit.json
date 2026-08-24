@@ -1,0 +1,16 @@
+{
+  "schema": "night16c-resource-audit-v1",
+  "family_search_actual_rows": 1288,
+  "formal_unique_family_rows": 831,
+  "ablation_rows": 49,
+  "new_unit_p0_rows": 7,
+  "family_search_cpu_seconds_sum": 70.68204610067187,
+  "new_unit_p0_wall_seconds_sum": 344.5611245408654,
+  "peak_rss_mib": 1795.0234375,
+  "peak_gpu_mib": 0,
+  "gpu_training_runs": 0,
+  "new_download_count": 0,
+  "dense_n_by_n_count": 0,
+  "raw_modification_count": 0,
+  "persistent_disk_inode_constraint": "new worktree placed on overlay /root/SpaLORA-night16c; historical persistent roots remained read-only"
+}

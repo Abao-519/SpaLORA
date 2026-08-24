@@ -1,0 +1,31 @@
+{
+  "schema": "night16c-label-flow-audit-v1",
+  "producer_training_label_reads": 0,
+  "producer_evaluation_label_reads": 0,
+  "producer_total_label_reads": 0,
+  "evaluator_label_reads": 831,
+  "meaning_of_evaluator_count": "one recorded evaluation per materialized family-search row; labels loaded only after partition hash",
+  "public_discovery_annotation_use": {
+    "RNA_PROTEIN": [
+      "A1",
+      "tonsil_s1"
+    ],
+    "RNA_CHROMATIN": [
+      "P22",
+      "MISAR_E15_5_S1"
+    ]
+  },
+  "held_out_from_family_hpo": [
+    "D1",
+    "tonsil_s2",
+    "tonsil_s3",
+    "SPOTS_SPLEEN_REP1",
+    "P10S1",
+    "P10S2",
+    "P10S3",
+    "P5S1",
+    "P5S2",
+    "P5S3"
+  ],
+  "disclosure": "public discovery annotations supported transparent cross-run family-level HPO; no held-out/new-unit tuning and no labels in edge field, unary, graph, move gate, loss or checkpoint"
+}

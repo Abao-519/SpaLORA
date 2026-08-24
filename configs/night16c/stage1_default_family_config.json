@@ -1,0 +1,47 @@
+{
+  "schema": "night16c-stage1-diagnostic-config-v1",
+  "families": {
+    "RNA_PROTEIN": {
+      "selected": {
+        "candidate_id": "STAGE1_DEFAULT",
+        "config": {
+          "anchor_strength": 0.1,
+          "boundary_enabled": true,
+          "conflict_enabled": true,
+          "conflict_pass": 0.0,
+          "directional_enabled": true,
+          "directional_mix": 0.25,
+          "min_cluster_fraction_of_equal": 0.01,
+          "move_boundary_floor": 0.1,
+          "pairwise_strength": 0.1,
+          "self_return_strength": 0.1,
+          "sweeps": 1,
+          "trust_gate_enabled": true,
+          "trust_threshold": 0.55,
+          "unary_view1_weight": 0.5
+        }
+      }
+    },
+    "RNA_CHROMATIN": {
+      "selected": {
+        "candidate_id": "STAGE1_DEFAULT",
+        "config": {
+          "anchor_strength": 0.1,
+          "boundary_enabled": true,
+          "conflict_enabled": true,
+          "conflict_pass": 0.0,
+          "directional_enabled": true,
+          "directional_mix": 0.25,
+          "min_cluster_fraction_of_equal": 0.01,
+          "move_boundary_floor": 0.1,
+          "pairwise_strength": 0.1,
+          "self_return_strength": 0.1,
+          "sweeps": 1,
+          "trust_gate_enabled": true,
+          "trust_threshold": 0.55,
+          "unary_view1_weight": 0.5
+        }
+      }
+    }
+  }
+}

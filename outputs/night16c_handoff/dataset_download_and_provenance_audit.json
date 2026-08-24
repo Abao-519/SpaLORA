@@ -1,0 +1,79 @@
+{
+  "schema": "night16c-download-and-provenance-audit-v1",
+  "new_download_count": 0,
+  "new_download_bytes": 0,
+  "policy": "existing registered official assets reused; no duplicate download",
+  "selected_new_units": [
+    "P10S1",
+    "P10S2",
+    "P10S3",
+    "P5S1",
+    "P5S2",
+    "P5S3",
+    "SPOTS_SPLEEN_REP1"
+  ],
+  "selected_count": 7,
+  "raw_immutability": {
+    "P10S1": {
+      "path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S1/registered_matrices.npz",
+      "size": 1407490,
+      "sha256": "f4e6f1f6ce5ac56bc403ea5f523a2e3503426a557b7c1385e347a8827fe0a05c",
+      "mtime_ns_before": 1787403879446141453,
+      "mtime_ns_after": 1787403879446141453,
+      "unchanged": true
+    },
+    "P10S2": {
+      "path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S2/registered_matrices.npz",
+      "size": 3352774,
+      "sha256": "dd27ef81dd72c0d65d8736c070804c072063a4a8a862d14e60eb59591b1909c9",
+      "mtime_ns_before": 1787404082991000592,
+      "mtime_ns_after": 1787404082991000592,
+      "unchanged": true
+    },
+    "P10S3": {
+      "path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P10S3/registered_matrices.npz",
+      "size": 775611,
+      "sha256": "fb326dc1d162bffdcc47c534c8ddc61b2674d8059cc4b19e76c38d2f36c3ee97",
+      "mtime_ns_before": 1787403955149263015,
+      "mtime_ns_after": 1787403955149263015,
+      "unchanged": true
+    },
+    "P5S1": {
+      "path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S1/registered_matrices.npz",
+      "size": 520865,
+      "sha256": "b15744459527b3877e28955d5e2f14b1366ba8c2da0cf6956a2d9e606fa78e2b",
+      "mtime_ns_before": 1787404290514167501,
+      "mtime_ns_after": 1787404290514167501,
+      "unchanged": true
+    },
+    "P5S2": {
+      "path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S2/registered_matrices.npz",
+      "size": 1406073,
+      "sha256": "7af0a89fcd6ab7d50606c7c5c2082a501cbb34cd3f172cef07921ca65088127f",
+      "mtime_ns_before": 1787404583439361238,
+      "mtime_ns_after": 1787404583439361238,
+      "unchanged": true
+    },
+    "P5S3": {
+      "path": "/autodl-fs/data/night12b_replicate_calibrated_link_identifiability_20260822/preflight/P5S3/registered_matrices.npz",
+      "size": 894433,
+      "sha256": "4384044f093134a2a38cdf4ae42c371abe133d63f66d489c2cb2a5ea16358fcf",
+      "mtime_ns_before": 1787405633145147253,
+      "mtime_ns_after": 1787405633145147253,
+      "unchanged": true
+    },
+    "SPOTS_SPLEEN_REP1": {
+      "path": "/autodl-fs/data/night13a_benchmark_expansion_20260822/derived/p0_spots_rep1/roundtrip.npz",
+      "size": 2222428,
+      "sha256": "9f812bb5e92562b14c12c6047805847cbf592b1ccaa5ae494860f44b7f317a20",
+      "mtime_ns_before": 1787416607193247162,
+      "mtime_ns_after": 1787416607193247162,
+      "unchanged": true
+    }
+  },
+  "provenance_notes": {
+    "P5": "distinct RNA/ATAC GSM accessions mechanically registered",
+    "P10": "GEO RNA/coordinates plus official NeMO ADT",
+    "SPOTS": "GEO official processed 10x matrix and spatial archive"
+  }
+}

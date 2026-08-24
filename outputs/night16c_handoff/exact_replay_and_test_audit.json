@@ -1,0 +1,43 @@
+{
+  "schema": "night16c-final-exact-replay-audit-v1",
+  "scientific_fields_exact_7_of_7": true,
+  "partition_replays": {
+    "A1": {
+      "exact": true,
+      "raw_byte_sha256": "1c9e2545d87dbfa73de75c2e9b58b2e9485d69f84f4582a9a36af098d8b4ee7e"
+    },
+    "D1": {
+      "exact": true,
+      "raw_byte_sha256": "c7de62a7b095be8a22a8803b34eecd2f5caff03b810ff1af322eb2ef150a00dd"
+    },
+    "tonsil_s1": {
+      "exact": true,
+      "raw_byte_sha256": "96d6b5b62f145574e5006cafba056c9735352c23b3c98ffd34a2306705d88765"
+    },
+    "tonsil_s2": {
+      "exact": true,
+      "raw_byte_sha256": "4ad9a74de64dc4f91dc930a911f8c8b093265842c4375d23ffee92e08c88df77"
+    },
+    "tonsil_s3": {
+      "exact": true,
+      "raw_byte_sha256": "ea6133cffcc949c75bd24807319b352821283d4ab0d1334691b6eed4f625b884"
+    },
+    "P22": {
+      "exact": true,
+      "raw_byte_sha256": "45c264fcbab70e72ef009da023a372cf5e6b1ae120bbdf86336b002f9f40dbc4"
+    },
+    "MISAR_E15_5_S1": {
+      "exact": true,
+      "raw_byte_sha256": "aeb1041b5f13c788773545fb5a4b1aa6aa40553a2137ffde6fbfa954d4a308d9"
+    }
+  },
+  "core_source_sha256": "302ee215fa6ef6ac48340b8d3e1296badec59f7c55500e5d0046dfb40e348988",
+  "targeted_tests": {
+    "passed": 13,
+    "failed": 0,
+    "remote_python": "/root/miniconda3/envs/SpaLORA/bin/python"
+  },
+  "source_precedes_replays": true,
+  "producer_label_reads": 0,
+  "dense_n_by_n_count": 0
+}

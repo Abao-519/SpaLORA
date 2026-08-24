@@ -1,0 +1,5 @@
+event_id,stage,classification,problem,action,affected_results,status
+E01,stage0 screen,SCIENTIFIC_SEMANTICS_REVISION,v0 trust score averaged evidence rather than enforcing the preregistered conjunctive low-trust gate,preserved 448 rows as superseded; implemented explicit start-instability AND low-prototype-margin AND boundary-evidence gate; reran both families,all stage0 rows superseded,CLOSED
+E02,new-unit P0 attempt1,ENGINEERING_FAIL_CLOSED,P5S1 label-free centrality selected an exact-K fused start with a singleton,added generic exact-K minimum-cluster guard to common selector and reran all seven new units,attempt1 preserved at remote failed directory,CLOSED
+E03,remote workspace,INFRASTRUCTURE_MITIGATION,persistent disk inode availability too low for another full worktree,created /root/SpaLORA-night16c on overlay; historical persistent roots stayed read-only,none,CLOSED
+E04,source collision audit,AUDIT_LIMITATION,GitHub rate limiting blocked resolution of one current main commit for BANKSY/stLVG,recorded fixed BANKSY release and official repository URLs/licenses; no third-party source copied,none,DISCLOSED

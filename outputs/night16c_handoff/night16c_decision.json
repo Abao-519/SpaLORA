@@ -1,0 +1,159 @@
+{
+  "schema": "night16c-decision-v1",
+  "status": "NIGHT16C_FAMILY_FROZEN_CROSSMODAL_BOUNDARY_FIELD_LOCKED",
+  "classification": "FAMILY_FROZEN_METHOD_SIGNAL",
+  "secondary_facts": [
+    "SCORE_FRONTIER_ADVANCE",
+    "DATASET_EXPANSION_READY"
+  ],
+  "not_claimed": [
+    "SOTA",
+    "CONFIRMED_MILESTONE",
+    "PAPER_READY_EVIDENCE",
+    "pristine blind confirmation",
+    "unified decoder success independent of strong starts"
+  ],
+  "family_configs": {
+    "RNA_CHROMATIN": {
+      "candidate_id": "CMBF_fbed48fa34f0c773",
+      "complexity": 13,
+      "config": {
+        "anchor_strength": 0.17,
+        "boundary_enabled": true,
+        "conflict_enabled": true,
+        "conflict_pass": 0.1,
+        "directional_enabled": true,
+        "directional_mix": 0,
+        "min_cluster_fraction_of_equal": 0.01,
+        "move_boundary_floor": 0.18,
+        "pairwise_strength": 0.08,
+        "self_return_strength": 0.2,
+        "sweeps": 1,
+        "trust_gate_enabled": true,
+        "trust_threshold": 0.38,
+        "unary_view1_weight": 0.65
+      },
+      "discovery_deltas": {
+        "MISAR_E15_5_S1": {
+          "delta_ari": 0.00021280506023302337,
+          "delta_nmi": 0.0001511320267605365
+        },
+        "P22": {
+          "delta_ari": 0.0004060456775822896,
+          "delta_nmi": 7.521501554275112e-05
+        }
+      },
+      "dual_gain_studies": 2,
+      "mean_delta_ari": 0.0003094253689076565,
+      "mean_delta_nmi": 0.00011317352115164381,
+      "valid": true,
+      "worst_delta_ari": 0.00021280506023302337
+    },
+    "RNA_PROTEIN": {
+      "candidate_id": "CMBF_f9449aa1499e111c",
+      "complexity": 14,
+      "config": {
+        "anchor_strength": 0.4,
+        "boundary_enabled": true,
+        "conflict_enabled": true,
+        "conflict_pass": 0.25,
+        "directional_enabled": true,
+        "directional_mix": 0.25,
+        "min_cluster_fraction_of_equal": 0.01,
+        "move_boundary_floor": 0.22,
+        "pairwise_strength": 0.04,
+        "self_return_strength": 0.2,
+        "sweeps": 1,
+        "trust_gate_enabled": true,
+        "trust_threshold": 0.3,
+        "unary_view1_weight": 0.65
+      },
+      "discovery_deltas": {
+        "A1": {
+          "delta_ari": 1.1197232062110096e-06,
+          "delta_nmi": -5.001117621433737e-05
+        },
+        "tonsil_s1": {
+          "delta_ari": 0.00014736523869229856,
+          "delta_nmi": 0.0002473113850405273
+        }
+      },
+      "dual_gain_studies": 1,
+      "mean_delta_ari": 7.424248094925479e-05,
+      "mean_delta_nmi": 9.865010441309496e-05,
+      "valid": true,
+      "worst_delta_ari": 1.1197232062110096e-06
+    }
+  },
+  "headline": {
+    "A1": {
+      "ari": 0.2760037787216815,
+      "nmi": 0.4216898282359679,
+      "delta_start_ari": 1.1197232062110096e-06,
+      "delta_start_nmi": -5.001117621433737e-05
+    },
+    "D1": {
+      "ari": 0.36647786249458353,
+      "nmi": 0.4481582291179582,
+      "delta_start_ari": 0.0013043187366617581,
+      "delta_start_nmi": 0.0035807861035139776
+    },
+    "tonsil_s1": {
+      "ari": 0.23668286718251594,
+      "nmi": 0.31736524060791105,
+      "delta_start_ari": 0.00014736523869229856,
+      "delta_start_nmi": 0.0002473113850405273
+    },
+    "tonsil_s2": {
+      "ari": 0.2587853670379758,
+      "nmi": 0.31654623862882414,
+      "delta_start_ari": 0.0005211220291965191,
+      "delta_start_nmi": 0.0022221576303135815
+    },
+    "tonsil_s3": {
+      "ari": 0.35128336225091983,
+      "nmi": 0.31024922882536426,
+      "delta_start_ari": 0.0006391802410058434,
+      "delta_start_nmi": 0.0004777657676867664
+    },
+    "P22": {
+      "ari": 0.5959576919633218,
+      "nmi": 0.7180057752361862,
+      "delta_start_ari": 0.0004060456775822896,
+      "delta_start_nmi": 7.521501554275112e-05
+    },
+    "MISAR_E15_5_S1": {
+      "ari": 0.5416365903694235,
+      "nmi": 0.6669488935833199,
+      "delta_start_ari": 0.00021280506023302337,
+      "delta_start_nmi": 0.0001511320267605365
+    }
+  },
+  "frozen_transfer": {
+    "RNA_PROTEIN": [
+      "D1",
+      "tonsil_s2",
+      "tonsil_s3"
+    ],
+    "RNA_CHROMATIN": [],
+    "new_unlabeled_p0": [
+      "P10S1",
+      "P10S2",
+      "P10S3",
+      "P5S1",
+      "P5S2",
+      "P5S3",
+      "SPOTS_SPLEEN_REP1"
+    ]
+  },
+  "replays": "2/2 x 7 labeled lanes exact; 7/7 added-unit fresh-process exact",
+  "targeted_tests": "13/13",
+  "label_reads": {
+    "producer": 0,
+    "added_units": 0
+  },
+  "dense_n_by_n_count": 0,
+  "new_download_count": 0,
+  "shutdown_dispatched": true,
+  "shutdown_dispatch_semantics": "declared in frozen delivery; executed only after Windows compact verification as the final remote command"
+}

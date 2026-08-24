@@ -1,0 +1,8 @@
+family,lane,family_config_id,role,delta_ari,delta_nmi,dual_positive,physical_unit_vote,notes
+RNA_PROTEIN,A1,CMBF_f9449aa1499e111c,discovery,1.1197232062110096e-06,-5.001117621433737e-05,False,one,
+RNA_PROTEIN,D1,CMBF_f9449aa1499e111c,frozen_transfer,0.0013043187366617581,0.0035807861035139776,True,one,
+RNA_PROTEIN,tonsil_s1,CMBF_f9449aa1499e111c,discovery,0.00014736523869229856,0.0002473113850405273,True,one,tonsil slices belong to one study block and are not counted as three independent studies
+RNA_PROTEIN,tonsil_s2,CMBF_f9449aa1499e111c,frozen_transfer,0.0005211220291965191,0.0022221576303135815,True,one,tonsil slices belong to one study block and are not counted as three independent studies
+RNA_PROTEIN,tonsil_s3,CMBF_f9449aa1499e111c,frozen_transfer,0.0006391802410058434,0.0004777657676867664,True,one,tonsil slices belong to one study block and are not counted as three independent studies
+RNA_CHROMATIN,P22,CMBF_fbed48fa34f0c773,discovery,0.0004060456775822896,7.521501554275112e-05,True,one,
+RNA_CHROMATIN,MISAR_E15_5_S1,CMBF_fbed48fa34f0c773,discovery,0.00021280506023302337,0.0001511320267605365,True,one,

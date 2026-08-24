@@ -1,0 +1,45 @@
+{
+  "schema": "night16c-run-manifest-v1",
+  "parent_commit": "80e584ebfc82544f1e37f7eed81942d55878a31e",
+  "branch": "revision/q2-night16c-family-frozen-crossmodal-boundary-field-20260824",
+  "final_tag": "night16c-final-20260824",
+  "primary_lanes": [
+    "A1",
+    "D1",
+    "tonsil_s1",
+    "tonsil_s2",
+    "tonsil_s3",
+    "P22",
+    "MISAR_E15_5_S1"
+  ],
+  "family_discovery": {
+    "RNA_PROTEIN": [
+      "A1",
+      "tonsil_s1"
+    ],
+    "RNA_CHROMATIN": [
+      "P22",
+      "MISAR_E15_5_S1"
+    ]
+  },
+  "protein_frozen_transfer": [
+    "D1",
+    "tonsil_s2",
+    "tonsil_s3"
+  ],
+  "new_unit_p0": [
+    "P10S1",
+    "P10S2",
+    "P10S3",
+    "P5S1",
+    "P5S2",
+    "P5S3",
+    "SPOTS_SPLEEN_REP1"
+  ],
+  "formal_family_search_rows": 831,
+  "actual_experiment_rows": 1345,
+  "replay_count": 2,
+  "targeted_tests": "13/13",
+  "new_download_count": 0,
+  "gpu_runs": 0
+}

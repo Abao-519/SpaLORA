@@ -1,0 +1,164 @@
+{
+  "contract_id": "night16c-family-frozen-crossmodal-boundary-field-20260824",
+  "parent": {
+    "commit": "80e584ebfc82544f1e37f7eed81942d55878a31e",
+    "tag": "night16b-final-20260824",
+    "compact_index_sha256": "420a8db2b12b3e029fe6bdc0e55b696db0eab688011d5d21ae49c155ee937a6c",
+    "bundle_sha256": "ac3c4a2ff6404b30b08decc1dc21b7f4e56ed377f085b8eab35e7120d82a92a4"
+  },
+  "primary_question": "Can one common cross-modal boundary mechanism, with one frozen configuration per modality family, independently improve spatial-domain separability and transfer to additional physical units?",
+  "working_method": {
+    "name": "CMBF-TPR",
+    "expanded_name": "Cross-Modal Boundary Field with Trusted Prototype Refinement",
+    "paper_name_frozen": false,
+    "common_core_required": true,
+    "dataset_name_routing_forbidden": true,
+    "family_specific_model_branch_forbidden": true,
+    "family_specific_numeric_config_allowed": true,
+    "optional_inputs": [
+      "morphology_with_presence_mask",
+      "batch_id_with_generic_batch_adapter"
+    ]
+  },
+  "families": [
+    {
+      "family_id": "RNA_PROTEIN",
+      "definition": "paired spatial RNA and protein/ADT measured on matched physical locations",
+      "current_units": ["A1", "D1", "tonsil_s1", "tonsil_s2", "tonsil_s3"],
+      "candidate_units": ["SPOTS_spleen_rep1", "SPOTS_spleen_rep2", "GSE308623_P10S1", "GSE308623_P10S2", "GSE308623_P10S3", "Stereo_CITE_sections"],
+      "headline_config_count": 1
+    },
+    {
+      "family_id": "RNA_CHROMATIN",
+      "definition": "paired spatial RNA and chromatin accessibility or histone-mark measurements on matched physical locations",
+      "current_units": ["P22_RNA_ATAC", "MISAR_E15_5"],
+      "candidate_units": ["MISAR_E11_0", "MISAR_E13_5", "MISAR_E18_5", "P22_other_ATAC_or_CUTTag_sections", "GSE308623_P5S1", "GSE308623_P5S2", "GSE308623_P5S3", "GSE205055", "GSE263333"],
+      "headline_config_count": 1
+    }
+  ],
+  "annotation_protocol_audits": [
+    "A1_D1_K10_vs_SMART_K7",
+    "tonsil_per_slice_K4_vs_SMART_MS_joint_K6",
+    "P22_K9_vs_K12_vs_K18",
+    "MISAR_stage_specific_K7_K10_K12"
+  ],
+  "label_policy": {
+    "allowed": [
+      "known_K_from_registered_annotation_protocol",
+      "development_only_boundary_error_diagnostics",
+      "family_level_HPO_on_discovery_units_after_candidates_are materialized",
+      "independent_evaluation_after_producer_freeze"
+    ],
+    "forbidden": [
+      "label_as_model_input",
+      "label_in_graph_or_feature_construction",
+      "label_in_loss_or_gradient",
+      "label_in_single_run_move_acceptance",
+      "held_out_unit_retuning_after_family_config_freeze",
+      "rewriting_or_coarsening_annotations_to_raise_score"
+    ],
+    "required_disclosure": "label-assisted family-level benchmark HPO on public discovery units"
+  },
+  "edge_state_contract": {
+    "graph": "sparse spatial graph only",
+    "per_view_change": "robust local-rank calibrated feature change on each spatial edge",
+    "states": [
+      "within_domain_support",
+      "consensus_boundary",
+      "modality_conflict"
+    ],
+    "required_outputs": [
+      "support_probability_or_score",
+      "boundary_probability_or_score",
+      "conflict_probability_or_score",
+      "sparse_conductance",
+      "node_trust",
+      "move_or_anchor_decision"
+    ]
+  },
+  "mechanism_options": {
+    "required": [
+      "tri_state_cross_modal_edge_field",
+      "trust_gated_prototype_refinement"
+    ],
+    "codex_may_choose": [
+      "deterministic_robust_field",
+      "small_monotone_trainable_edge_calibrator",
+      "boundary_aware_contrastive_objective",
+      "directional_neighbor_features",
+      "multi_start_consensus_trust"
+    ],
+    "external_inspiration_requiring_attribution": [
+      "BANKSY_neighbor_mean_and_azimuthal_gradient",
+      "stLVG_directional_edge_weighting",
+      "ARISE_RNA_anchored_shared_edge_topology",
+      "PRAGA_prototype_aware_graph_aggregation"
+    ]
+  },
+  "search_policy": {
+    "unit": "family_config_not_dataset_config",
+    "screening": "single_seed_or_deterministic_fast_screen",
+    "promotion": "top_family_configs_only",
+    "headline_selection": [
+      "maximize_count_of_discovery_studies_with_both_ARI_and_NMI_gain",
+      "maximize_worst_study_delta_ARI",
+      "maximize_study_balanced_mean_delta_ARI",
+      "maximize_study_balanced_mean_delta_NMI",
+      "prefer_lower_complexity"
+    ],
+    "per_dataset_oracle": "allowed_only_as_clearly_labeled_development_ceiling_not_headline"
+  },
+  "dataset_expansion": {
+    "registry_target_units": [12, 20],
+    "formal_new_units_target": [4, 8],
+    "download_requires": [
+      "official_source",
+      "exact_asset_list",
+      "size_estimate",
+      "paired_identifier_contract",
+      "annotation_provenance",
+      "storage_and_inode_preflight"
+    ],
+    "unlabeled_units_allowed": true,
+    "unlabeled_metrics": [
+      "Moran_I",
+      "Geary_C",
+      "Silhouette",
+      "Davies_Bouldin",
+      "Calinski_Harabasz",
+      "cross_modal_neighbor_preservation",
+      "marker_or_peak_gene_sanity"
+    ]
+  },
+  "required_contribution_rows": [
+    "strong_start_only",
+    "CMBF_full",
+    "boundary_state_disabled",
+    "conflict_state_disabled",
+    "trust_gate_disabled",
+    "generic_repair_only",
+    "directional_features_only_if_used"
+  ],
+  "efficiency": {
+    "reuse_sparse_graphs_and_reduced_views": true,
+    "dense_N_by_N_forbidden": true,
+    "gpu_only_for_true_trainable_components": true,
+    "formal_failure_rows_must_be_preserved": true,
+    "engineering_fixes_allowed_with_versioned_ledger": true
+  },
+  "outcome_classes": [
+    "FAMILY_FROZEN_METHOD_SIGNAL",
+    "BOUNDARY_FIELD_LOCAL_SIGNAL",
+    "START_GENERATOR_SIGNAL",
+    "SCORE_FRONTIER_ADVANCE",
+    "DATASET_EXPANSION_READY",
+    "NO_ADDED_METHOD_SIGNAL",
+    "IMPLEMENTATION_FAILURE",
+    "INFRASTRUCTURE_FAILURE"
+  ],
+  "git": {
+    "branch": "revision/q2-night16c-family-frozen-crossmodal-boundary-field-20260824",
+    "tag": "night16c-final-20260824",
+    "force_push_forbidden": true
+  }
+}

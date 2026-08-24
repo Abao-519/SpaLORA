@@ -1,0 +1,11 @@
+{
+  "schema": "night16c-targeted-test-summary-v1",
+  "status": "PASS",
+  "passed": 13,
+  "failed": 0,
+  "warnings": 6,
+  "command": "/root/miniconda3/envs/SpaLORA/bin/python -m pytest -q tests/test_night16c_cmbf_tpr.py tests/test_night16c_new_unit_p0.py",
+  "interpreter": "/root/miniconda3/envs/SpaLORA/bin/python",
+  "core_source_sha256": "302ee215fa6ef6ac48340b8d3e1296badec59f7c55500e5d0046dfb40e348988",
+  "final_run_observed": "2026-08-24 after final source upload"
+}

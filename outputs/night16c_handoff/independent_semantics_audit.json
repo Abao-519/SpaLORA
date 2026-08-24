@@ -1,0 +1,33 @@
+{
+  "schema": "night16c-independent-semantics-audit-v1",
+  "dataset_identity_tokens_in_core": {
+    "A1": 0,
+    "D1": 0,
+    "P22": 0,
+    "MISAR": 0,
+    "tonsil": 0,
+    "SPOTS": 0,
+    "P10S": 0,
+    "P5S": 0
+  },
+  "label_or_metric_tokens_in_core": {
+    "adjusted_rand_score": 0,
+    "normalized_mutual_info_score": 0,
+    "labels_primary": 0,
+    "groundtruth": 0,
+    "final_annot": 0
+  },
+  "family_config_ids_match_final_replay": true,
+  "family_config_count": 2,
+  "family_search_unique_rows": 831,
+  "family_search_expected_rows": 831,
+  "final_metric_rows": 7,
+  "final_partition_replay_exact": true,
+  "final_scientific_metric_replay_exact": true,
+  "new_unit_p0_pass": 7,
+  "new_unit_p0_expected": 7,
+  "producer_label_reads": 0,
+  "dense_n_by_n_count": 0,
+  "raw_immutability_all": true,
+  "all_pass": true
+}

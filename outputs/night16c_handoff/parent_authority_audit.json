@@ -1,0 +1,17 @@
+{
+  "schema": "night16c-parent-authority-audit-v1",
+  "status": "PASS",
+  "parent_compact_indexed": "49/49",
+  "parent_index_sha256": "420a8db2b12b3e029fe6bdc0e55b696db0eab688011d5d21ae49c155ee937a6c",
+  "expected_parent_index_sha256": "420a8db2b12b3e029fe6bdc0e55b696db0eab688011d5d21ae49c155ee937a6c",
+  "parent_bundle_sha256": "ac3c4a2ff6404b30b08decc1dc21b7f4e56ed377f085b8eab35e7120d82a92a4",
+  "expected_parent_bundle_sha256": "ac3c4a2ff6404b30b08decc1dc21b7f4e56ed377f085b8eab35e7120d82a92a4",
+  "parent_commit": "80e584ebfc82544f1e37f7eed81942d55878a31e",
+  "parent_tag": "night16b-final-20260824",
+  "parent_tag_object": "561a23d432c139e050c0d9183de324601b6f6a59",
+  "parent_tag_type": "annotated tag",
+  "parent_tag_peel_exact": true,
+  "planning_indexed": "4/4",
+  "planning_index_sha256": "55c8096aa44f82c3a565c1fd26496c5ccd24fe3ecc14f1648f96919b0bd8ac3a",
+  "authority_mismatch_count": 0
+}

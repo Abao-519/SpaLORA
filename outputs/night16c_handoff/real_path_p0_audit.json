@@ -1,0 +1,168 @@
+{
+  "schema": "night16c-real-path-p0-audit-v1",
+  "status": "PASS",
+  "existing_primary_replays": "7/7 twice, exact partition/metrics",
+  "new_unit_producer_pass": "7/7",
+  "new_unit_fresh_process": {
+    "schema": "night16c-new-unit-real-p0-replay-summary-v1",
+    "mode": "fresh_process_replay",
+    "passed": 7,
+    "expected": 7,
+    "units": [
+      {
+        "unit_id": "SPOTS_SPLEEN_REP1",
+        "fresh_process_partition_sha256": "382c1d858f24452071056737527c0cf8319922473ece9525e7e7ddbc396d58f1",
+        "producer_partition_sha256": "382c1d858f24452071056737527c0cf8319922473ece9525e7e7ddbc396d58f1",
+        "partition_exact": true,
+        "ordered_id_sha256": "29beaa48c87dc3b6d756ff9d9faf1e539ddc298c5b786cb274d37023fac64994",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          427,
+          456,
+          538,
+          230,
+          66,
+          333,
+          597,
+          6
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      },
+      {
+        "unit_id": "P10S1",
+        "fresh_process_partition_sha256": "b8aacdb3752a3637cbc266b7763ef8762dd21328187be6075643be2f25502130",
+        "producer_partition_sha256": "b8aacdb3752a3637cbc266b7763ef8762dd21328187be6075643be2f25502130",
+        "partition_exact": true,
+        "ordered_id_sha256": "62a83bfeaf9d21d329f80a7dcb7efb837f895b2d7955f4c4827e9e23a50735c3",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          282,
+          273,
+          641,
+          3201,
+          976,
+          19,
+          442,
+          1613
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      },
+      {
+        "unit_id": "P10S2",
+        "fresh_process_partition_sha256": "15a35698e76d2462604a1de926ee2cfcd5a8845ab1076db7897abf3c0b23351e",
+        "producer_partition_sha256": "15a35698e76d2462604a1de926ee2cfcd5a8845ab1076db7897abf3c0b23351e",
+        "partition_exact": true,
+        "ordered_id_sha256": "ea4902e589ae7a55ec206976ec21bf558c34f06ee5f771ed6f7ffbc633564218",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          3119,
+          5465,
+          18945,
+          239,
+          1458,
+          88,
+          11921,
+          54
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      },
+      {
+        "unit_id": "P10S3",
+        "fresh_process_partition_sha256": "a68c51f04b419e08ec7e0f730012b9de1ed91a72584d46336c21effdfca1bc9e",
+        "producer_partition_sha256": "a68c51f04b419e08ec7e0f730012b9de1ed91a72584d46336c21effdfca1bc9e",
+        "partition_exact": true,
+        "ordered_id_sha256": "f1698e68d64ba8c580ed48cf95de2c8916dd320aca47ec619c400ef08ebb1436",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          212,
+          26,
+          257,
+          172,
+          1513,
+          1565,
+          1825,
+          275
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      },
+      {
+        "unit_id": "P5S1",
+        "fresh_process_partition_sha256": "8863c38028f1bf595e54d91b49c99f6e7e382a2595cad57eadbd38ae9c6ec27c",
+        "producer_partition_sha256": "8863c38028f1bf595e54d91b49c99f6e7e382a2595cad57eadbd38ae9c6ec27c",
+        "partition_exact": true,
+        "ordered_id_sha256": "e69c8788225f22e0baaa8edd23be04d6d36e090c102ff077d3485cad76175ccf",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          2273,
+          432,
+          855,
+          215,
+          757,
+          676,
+          1236,
+          1350
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      },
+      {
+        "unit_id": "P5S2",
+        "fresh_process_partition_sha256": "0ffbf43f46c7433e37a9e8bd793cd69459d7e6e92c3737a43349ea7f4a653ead",
+        "producer_partition_sha256": "0ffbf43f46c7433e37a9e8bd793cd69459d7e6e92c3737a43349ea7f4a653ead",
+        "partition_exact": true,
+        "ordered_id_sha256": "91b5eed63c3acf74c62c8062123e660cc65bc835d59ae9fb95f621ab36709214",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          1702,
+          2373,
+          2034,
+          1224,
+          1509,
+          9311,
+          9081,
+          1311
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      },
+      {
+        "unit_id": "P5S3",
+        "fresh_process_partition_sha256": "fd6cbf3c789cc2ce3c86645b455146618f72c527b91c635bcec366e6ac7790a1",
+        "producer_partition_sha256": "fd6cbf3c789cc2ce3c86645b455146618f72c527b91c635bcec366e6ac7790a1",
+        "partition_exact": true,
+        "ordered_id_sha256": "b4641d65c81450a4eb576a4a075c8fed9dbd7c97aec83072ba5c9afba243b374",
+        "ordered_id_exact": true,
+        "cluster_sizes": [
+          324,
+          3880,
+          3785,
+          190,
+          45,
+          17,
+          296,
+          889
+        ],
+        "dense_n_by_n_count": 0,
+        "label_reads": 0,
+        "status": "PASS"
+      }
+    ],
+    "label_reads": 0,
+    "dense_n_by_n_count": 0
+  },
+  "new_download_count": 0,
+  "label_reads": 0,
+  "dense_n_by_n_count": 0,
+  "failed_attempt_preserved": "/root/SpaLORA-night16c/working/night16c_new_units_attempt1_failed",
+  "engineering_correction": "generic minimum-cluster guard added to the common label-free start selector; all seven new units rerun"
+}
