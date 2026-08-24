@@ -1,0 +1,193 @@
+{
+  "cross_training_run_embedding_byte_exact": false,
+  "cross_training_run_partition_exact": true,
+  "fresh_process_checkpoint_embedding_partition_roundtrip": "4/4",
+  "interpretation": "Each checkpoint reload is byte/numerically exact in a fresh process; independent GPU trainings lock the same partitions and metrics but not byte-identical embeddings.",
+  "rows": [
+    {
+      "absolute_ari": 0.27551627786437927,
+      "absolute_nmi": 0.4211102436165136,
+      "checkpoint_sha256": "ef86200d0c14c5e576d9575e2a7ad77056179108f42443f0fb572eea37fef030",
+      "embedding_sha256": "99aa7f679e102efd71a58b122baab9b8a22df50d6627a1c988d405bf3599b806",
+      "fresh_process_replay": {
+        "checkpoint_strict_reload": true,
+        "dense_n_by_n_count": 0,
+        "embedding_exact": true,
+        "embedding_sha256": "99aa7f679e102efd71a58b122baab9b8a22df50d6627a1c988d405bf3599b806",
+        "lane": "A1",
+        "ordered_ids_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "98a521881f49be1efd8988c82467031095e696a3b475f873644af5f8d12e79dc",
+        "producer_label_reads": 0,
+        "retained_embedding_exact": true,
+        "status": "PASS"
+      },
+      "gradient_finite": true,
+      "graph_nnz": 24178,
+      "lane": "A1",
+      "optimizer_steps": 40,
+      "parameter_delta_l2": 8.880584716796875,
+      "partition_sha256": "98a521881f49be1efd8988c82467031095e696a3b475f873644af5f8d12e79dc",
+      "peak_gpu_mib": 75.34423828125,
+      "peak_rss_mib": 906.40625,
+      "repetition": 1,
+      "tensor_shapes": {
+        "coordinates": [
+          3484,
+          2
+        ],
+        "ids": [
+          3484
+        ],
+        "view1": [
+          3484,
+          30
+        ],
+        "view2": [
+          3484,
+          30
+        ]
+      },
+      "wall_seconds": 1.5215014517307281
+    },
+    {
+      "absolute_ari": 0.5947198053717017,
+      "absolute_nmi": 0.7154537153342921,
+      "checkpoint_sha256": "fe1d1b1e415b18ad21b110e79d259f61cb6e65daf13cefcaec1c8fcf2c5f5c41",
+      "embedding_sha256": "f5698511f81e5fe9d47cc5065b4f2a2605017fc9004582fbafdf065df80d1a2d",
+      "fresh_process_replay": {
+        "checkpoint_strict_reload": true,
+        "dense_n_by_n_count": 0,
+        "embedding_exact": true,
+        "embedding_sha256": "f5698511f81e5fe9d47cc5065b4f2a2605017fc9004582fbafdf065df80d1a2d",
+        "lane": "P22",
+        "ordered_ids_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "4292071c0273898075a275e56987f72f0044dc68642f1f0ba99f7959a029b60c",
+        "producer_label_reads": 0,
+        "retained_embedding_exact": true,
+        "status": "PASS"
+      },
+      "gradient_finite": true,
+      "graph_nnz": 64466,
+      "lane": "P22",
+      "optimizer_steps": 40,
+      "parameter_delta_l2": 9.3574800491333,
+      "partition_sha256": "4292071c0273898075a275e56987f72f0044dc68642f1f0ba99f7959a029b60c",
+      "peak_gpu_mib": 178.12158203125,
+      "peak_rss_mib": 971.48046875,
+      "repetition": 1,
+      "tensor_shapes": {
+        "coordinates": [
+          9196,
+          2
+        ],
+        "ids": [
+          9196
+        ],
+        "view1": [
+          9196,
+          30
+        ],
+        "view2": [
+          9196,
+          50
+        ]
+      },
+      "wall_seconds": 1.8246232029050589
+    },
+    {
+      "absolute_ari": 0.27551627786437927,
+      "absolute_nmi": 0.4211102436165136,
+      "checkpoint_sha256": "9fc9dc5d52c916ff2b1a17479b345bb8c524534be2e97d4e86493b2e9a60420f",
+      "embedding_sha256": "0ed3b9ca3f9c3ad0b6161026ccd08f7d0e74143171bbeba70aad3fb16b806f61",
+      "fresh_process_replay": {
+        "checkpoint_strict_reload": true,
+        "dense_n_by_n_count": 0,
+        "embedding_exact": true,
+        "embedding_sha256": "0ed3b9ca3f9c3ad0b6161026ccd08f7d0e74143171bbeba70aad3fb16b806f61",
+        "lane": "A1",
+        "ordered_ids_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "98a521881f49be1efd8988c82467031095e696a3b475f873644af5f8d12e79dc",
+        "producer_label_reads": 0,
+        "retained_embedding_exact": true,
+        "status": "PASS"
+      },
+      "gradient_finite": true,
+      "graph_nnz": 24178,
+      "lane": "A1",
+      "optimizer_steps": 40,
+      "parameter_delta_l2": 8.880584716796875,
+      "partition_sha256": "98a521881f49be1efd8988c82467031095e696a3b475f873644af5f8d12e79dc",
+      "peak_gpu_mib": 75.34423828125,
+      "peak_rss_mib": 910.40625,
+      "repetition": 2,
+      "tensor_shapes": {
+        "coordinates": [
+          3484,
+          2
+        ],
+        "ids": [
+          3484
+        ],
+        "view1": [
+          3484,
+          30
+        ],
+        "view2": [
+          3484,
+          30
+        ]
+      },
+      "wall_seconds": 1.4416413679718971
+    },
+    {
+      "absolute_ari": 0.5947198053717017,
+      "absolute_nmi": 0.7154537153342921,
+      "checkpoint_sha256": "70a327c14a211eda8d736cd8a95c96f4ad767b6b2322fb1368fbdb07fe59033e",
+      "embedding_sha256": "f179914d701fa69800a87a122db6634dc81e7c29ea4eac60ce01b193aee8848e",
+      "fresh_process_replay": {
+        "checkpoint_strict_reload": true,
+        "dense_n_by_n_count": 0,
+        "embedding_exact": true,
+        "embedding_sha256": "f179914d701fa69800a87a122db6634dc81e7c29ea4eac60ce01b193aee8848e",
+        "lane": "P22",
+        "ordered_ids_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "4292071c0273898075a275e56987f72f0044dc68642f1f0ba99f7959a029b60c",
+        "producer_label_reads": 0,
+        "retained_embedding_exact": true,
+        "status": "PASS"
+      },
+      "gradient_finite": true,
+      "graph_nnz": 64466,
+      "lane": "P22",
+      "optimizer_steps": 40,
+      "parameter_delta_l2": 9.357481002807617,
+      "partition_sha256": "4292071c0273898075a275e56987f72f0044dc68642f1f0ba99f7959a029b60c",
+      "peak_gpu_mib": 178.12158203125,
+      "peak_rss_mib": 979.640625,
+      "repetition": 2,
+      "tensor_shapes": {
+        "coordinates": [
+          9196,
+          2
+        ],
+        "ids": [
+          9196
+        ],
+        "view1": [
+          9196,
+          30
+        ],
+        "view2": [
+          9196,
+          50
+        ]
+      },
+      "wall_seconds": 1.7336575724184513
+    }
+  ],
+  "status": "PASS"
+}

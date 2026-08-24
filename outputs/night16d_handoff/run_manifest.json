@@ -1,0 +1,22 @@
+{
+  "branch": "revision/q2-night16d-cmbf-rl-representation-20260824",
+  "candidate_rows": 424,
+  "candidate_status_counts": {
+    "FAIL": 0,
+    "PASS": 424,
+    "SUPERSEDED": 68
+  },
+  "dense_n_by_n_count": 0,
+  "final_tag": "night16d-final-20260824",
+  "instance_instruction": "KEEP_ON_FOR_NEXT_ROUND",
+  "label_assisted_hpo": true,
+  "parent_commit": "8537412a8c3f0f05000940cf1e5385561e2755e4",
+  "parent_tag": "night16c-final-20260824",
+  "producer_label_reads": 0,
+  "shutdown_dispatched": false,
+  "source_sha256": {
+    "SpaLORA/night16d_cmbf_rl.py": "fce08764ced875d9e8765a66e42e57e9ac164196741c998bfa17c2a829081189",
+    "scripts/night16d/night16d_evaluator.py": "d5819b93432e722ee2bda70697227c9cb9a3bd9dd22d8138cf33f4799a873135",
+    "scripts/night16d/night16d_train_producer.py": "9e6e8adda2eb53b06379e08d00d0ee4f951b94244659698262071968d54f57da"
+  }
+}

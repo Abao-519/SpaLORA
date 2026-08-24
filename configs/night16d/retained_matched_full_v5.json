@@ -1,0 +1,32 @@
+{
+  "configs": [
+    {
+      "latent_dim": 64,
+      "hidden_dim": 96,
+      "learning_rate": 0.0025,
+      "weight_decay": 0.0001,
+      "training_steps": 40,
+      "teacher_scale": 1.5,
+      "content_scale": 0.6,
+      "residual_scale": 0.35,
+      "unary_temperature": 1.0,
+      "boundary_margin": 0.7,
+      "lambda_reconstruct": 1.0,
+      "lambda_support": 0.3,
+      "lambda_boundary": 0.4,
+      "lambda_conflict": 0.2,
+      "lambda_anchor": 1.0,
+      "lambda_variance": 0.05,
+      "lambda_gate_prior": 0.2,
+      "endpoint_iterations": 1,
+      "endpoint_core_quantile": 0.5,
+      "endpoint_trust_threshold": 0.7,
+      "endpoint_move_margin": 0.005,
+      "teacher_source": "retained",
+      "rank_mode": "global",
+      "operation_mode": "full",
+      "trust_enabled": true,
+      "shuffle_edge_states": false
+    }
+  ]
+}

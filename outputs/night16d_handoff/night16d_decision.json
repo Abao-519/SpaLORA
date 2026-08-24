@@ -1,0 +1,20 @@
+{
+  "candidate_rows": 424,
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "dense_n_by_n_count": 0,
+  "early_stop_invoked": true,
+  "family_config_frozen": false,
+  "family_local_signal": false,
+  "final_tag": "night16d-final-20260824",
+  "fresh_process_roundtrip": "4/4",
+  "head_or_teacher_dependency_present": true,
+  "implementation_valid": true,
+  "instance_status_instruction": "KEEP_ON_FOR_NEXT_ROUND",
+  "multiseed_expansion": false,
+  "producer_label_reads": 0,
+  "reason": "No full tri-state candidate produced independent ARI/NMI gains across two real studies relative to byte-exact input strong starts and matched controls.",
+  "representation_method_signal": false,
+  "shutdown_dispatched": false,
+  "status": "NIGHT16D_CMBF_RL_SCIENTIFIC_NEGATIVE",
+  "targeted_tests": "13/13"
+}

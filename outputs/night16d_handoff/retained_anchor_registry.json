@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "input_partition_sha256": "8c3430f4db406f6d537ef7eb5e6691f8c5fd509adcd6aab968fd08b2481ebc2b",
+      "lane": "A1",
+      "retained_embedding_id": "MIX_R20_MCDF_GATED_mcdf_R40_MCDF_MASKED_MODALITY_base_fused_W0.50",
+      "retained_embedding_sha256": "fe41c345c9b57ab9e0fae7868c16fa156ebb68a9a04bfdc5c4f535f37f328ebe"
+    },
+    {
+      "input_partition_sha256": "61d64ed233b9bd5e8d800da195123f337eb1b1fcdaee08cec1068601738d5e0b",
+      "lane": "tonsil_s1",
+      "retained_embedding_id": "R40_MCDF_MASKED_MODALITY_z2__PCA16",
+      "retained_embedding_sha256": "476840530fdd73aed023161a8985b794063e700196a9201492fffcb2035f3058"
+    },
+    {
+      "input_partition_sha256": "ce444fc82e04a3c0aa7c9b8b5a74a1e7f5ac0bd4a55d3a2d92bd39008b547e3d",
+      "lane": "P22",
+      "retained_embedding_id": "MIX_F00_R02_LOCKED_mcdf_W0.50",
+      "retained_embedding_sha256": "bde070db5ecbe83e8c21a825ffd85cfac8de85466f3070e0d2d509a7ee0386f5"
+    },
+    {
+      "input_partition_sha256": "1e7f48d5c56302ba7e728af2f70df32fe0f52f3dc49d1118ad2509ce58675829",
+      "lane": "MISAR_E15_5_S1",
+      "retained_embedding_id": "MORAN_R20_mcdf__P18_B65_S2",
+      "retained_embedding_sha256": "2b1924f30dfb5f34e85c605e9bd176b8ae39045f1a9d3016befc1df2ee65d956"
+    }
+  ],
+  "interpretation": "Audited plug-in retained representations; not raw-feature end-to-end inputs.",
+  "status": "PASS"
+}

@@ -1,0 +1,26 @@
+{
+  "all_expected_hashes_match": true,
+  "assets": {
+    "local_compute_kit": {
+      "path": "/root/night16d_assets/local_compute_kit.tar.gz",
+      "sha256": "4739ff5c905646fc319647eedc7026a1794f76332398a314498a3f65ba4e5cb6",
+      "size": 65886308
+    },
+    "retained_banks": {
+      "path": "/root/night16d_assets/retained_banks.tar.gz",
+      "sha256": "d47d215828e777252c1040e60c3dca11754ca8d92a61e212f8ec322eba17d6d7",
+      "size": 9251337
+    },
+    "teacher_starts": {
+      "path": "/root/night16d_assets/teacher_starts.tar.gz",
+      "sha256": "e0ae8a66446b98f7ed1457629bb77d0a12bf1fed0f4f6bab35a636cc3aaab0e6",
+      "size": 11898
+    }
+  },
+  "expected_sha256": {
+    "local_compute_kit": "4739ff5c905646fc319647eedc7026a1794f76332398a314498a3f65ba4e5cb6",
+    "retained_banks": "d47d215828e777252c1040e60c3dca11754ca8d92a61e212f8ec322eba17d6d7",
+    "teacher_starts": "e0ae8a66446b98f7ed1457629bb77d0a12bf1fed0f4f6bab35a636cc3aaab0e6"
+  },
+  "status": "PASS"
+}

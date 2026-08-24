@@ -1,0 +1,8 @@
+id,stage,issue,resolution,effect
+E01,stage2,teacher control was changed by the common endpoint,split byte-exact INPUT_STRONG_START from same-head TEACHER_CONTROL,stage2 marked superseded; all later screens rerun
+E02,refine_v2,gate could collapse to self path,added label-free structural gate prior and trust-gated prototype endpoint,scientific version boundary; no old row reused as final evidence
+E03,retained_v4,synthetic teacher might not preserve the historical representation dependency,audited exact retained embedding hashes and ran bounded plug-in screen,no cross-study dual gain; preregistered early stop
+E04,final,family selector originally used same-head teacher as baseline,selection baseline changed to byte-exact INPUT_STRONG_START; same-head deltas retained separately,reporting-only semantic correction; no partition changed
+E05,final_p0,independent GPU trainings produced different embedding bytes,preserved both; each fresh-process checkpoint replay exact and final partitions/metrics identical,reported as numerical precision limitation
+E06,final_evaluator,family selector baseline comprehensions omitted the lane predicate,required x['lane'] == lane for input and same-head controls; added a two-lane regression test,all locked partitions re-evaluated; pre-fix ledgers preserved as superseded
+E07,final_evaluator,Moran/Geary treated nominal cluster IDs as ordered integers and cluster-size names mixed full/eval masks,one-vs-rest macro spatial metrics plus explicit full/eval size fields; added permutation-invariance and mask tests,old spatial metrics deprecated; all locked partitions re-evaluated without retraining

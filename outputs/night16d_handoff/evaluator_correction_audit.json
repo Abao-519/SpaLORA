@@ -1,0 +1,10 @@
+{
+  "categorical_spatial_metric": "one_vs_rest_macro",
+  "cluster_label_permutation_invariant_test": "PASS",
+  "cluster_sizes_full_and_eval_separated": true,
+  "lane_specific_family_baselines": true,
+  "locked_partitions_re_evaluated_without_retraining": 424,
+  "pre_fix_evaluated_ledgers_preserved": 8,
+  "pre_fix_ranking_allowed_in_report": false,
+  "status": "PASS"
+}
