@@ -1,0 +1,48 @@
+{
+  "status": "FROZEN_BEFORE_IMAGE_VALUE_FEATURE_EXTRACTION",
+  "freeze_date": "2026-08-24",
+  "labels_read_for_manifest_or_extraction": 0,
+  "patch_radii_hires_pixels": [8, 16, 32],
+  "patch_boundary_rule": "shift_window_inward_without_synthetic_pixels",
+  "units": [
+    {
+      "unit_id": "A1",
+      "image_source": "geo_gzip",
+      "h5ad_path": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad",
+      "image_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/A1/GSM8195494_A1LN_tissue_hires_image.png.gz",
+      "positions_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/A1/GSM8195494_A1LN_tissue_positions.csv.gz",
+      "strip_exact_prefix": "s1-",
+      "hires_scalef": 0.1,
+      "hires_scale_authority": "mechanically closed from deposited full-resolution pixel coordinates and deposited 1062x2000 hires image bounds; GEO did not deposit scalefactors_json.json",
+      "patch_radii_hires_pixels": [8, 16, 32]
+    },
+    {
+      "unit_id": "D1",
+      "image_source": "geo_gzip",
+      "h5ad_path": "/root/autodl-fs/Human lymph node/D1/humanlymphnode_rna.h5ad",
+      "image_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/D1/GSM8195496_D1LN_tissue_hires_image.png.gz",
+      "positions_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/D1/GSM8195496_D1LN_tissue_positions.csv.gz",
+      "strip_exact_prefix": "s2-",
+      "hires_scalef": 0.1,
+      "hires_scale_authority": "mechanically closed from deposited full-resolution pixel coordinates and deposited 1097x2000 hires image bounds; GEO did not deposit scalefactors_json.json",
+      "patch_radii_hires_pixels": [8, 16, 32]
+    },
+    {
+      "unit_id": "tonsil_s3",
+      "image_source": "h5ad_embedded",
+      "h5ad_path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s3_adata_rna.h5ad",
+      "library_id": "0",
+      "patch_radii_hires_pixels": [8, 16, 32]
+    }
+  ],
+  "missing_units": [
+    {
+      "unit_id": "tonsil_s1",
+      "reason": "canonical h5ad has coordinates but no auditable embedded or external spot-registered image/scalefactor asset"
+    },
+    {
+      "unit_id": "tonsil_s2",
+      "reason": "canonical h5ad has coordinates but no auditable embedded or external spot-registered image/scalefactor asset"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_ARTIFACT_REPLAY_PASS_WITH_ALGORITHMIC_NUMERICAL_SENSITIVITY",
+  "fresh_process_artifact_replay_1_sha256": "4562424402e01605aab6b969052c81377409dbd3a28eaf3c606f62b69a5e4026",
+  "fresh_process_artifact_replay_2_sha256": "3ccd2555ebe1103742683793784527030d626fa93f30247d3705a2bcb0e5131f",
+  "rows_identical": true,
+  "artifact_profiles_each": 18,
+  "worker_original_algorithmic_replay": {
+    "A1_and_tonsil_s3": "profile_replay_rev3 directories matched source ledger at creation",
+    "D1_head": "morphology_head_replay_d1_rev1 matched 6 profiles at creation"
+  },
+  "current_environment_algorithmic_recompute": {
+    "status": "PARTITION_NOT_EXACT_DUE_TO_PCA_BLAS_DISCRETE_SENSITIVITY",
+    "A1_expected": "9bcf8dbf19dded510dbe24ecb034809a899c553db7b1cd446d64948af2e4d69a",
+    "A1_observed_by_thread_count": {
+      "1": "2e65bc467ccc859f7ff34ded52367f462ab388672a07d1ce803e296e6ec9b40f",
+      "2": "a0ebdc5eb6c0c5190412fc09da13a97e019107de9ca207c43f5e3eaa164f72ff",
+      "4": "e519870cdda7deb17d3fe282429547494c3523dc63b16c452716c51ab004046b",
+      "6": "f0e40ff8fa3affd1c8944eb3f93c0daa3ca004de883eee57f58190418119e75e",
+      "8": "2a6b1685981ca67fe0ca8f55f2cb33fcd7decd5c4bbdeb84ce5e9a4cfc1d7f7b",
+      "12": "05c4338261034caabab1c96bde2ff98b6fcd541f715021595083f947da1fd5ce",
+      "16": "d28880198c044af3bf4ae9d8f98b8dde40addd0b1095798de544a44402b64026",
+      "32": "d28880198c044af3bf4ae9d8f98b8dde40addd0b1095798de544a44402b64026"
+    },
+    "D1_head_expected_balanced": "61077719ec69b856139a241696cc3cd6498b836ac1703ffa2e71f6ae71b5531b",
+    "D1_head_observed_thread1": "f0f9e86ae3f9e27425aa7cc6ee69656da9311f3e375402de201dc99f91e94199",
+    "D1_head_observed_default": "f6de721d46edb7242147ba2bce51cebbb0ad9486322c3b2ac793ab199ef7a080",
+    "interpretation": "frozen partitions and metrics are auditable; complete algorithmic byte-exact portability is not established"
+  }
+}

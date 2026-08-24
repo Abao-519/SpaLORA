@@ -1,0 +1,65 @@
+{
+  "status": "NIGHT15G_TARGETED_TESTS_PASS",
+  "passed": 11,
+  "failed": 0,
+  "wall_seconds": 0.0620061999943573,
+  "core_sha256": "733ab0a98fa3db78c25be8e91524e86b32d3d603cdeb5a2733808447e77f4c1a",
+  "replay_source_sha256": "12163934330161454ae733834651549f259132217547006294b29e59744e1f1a",
+  "tests": [
+    {
+      "test": "core_has_no_dataset_or_lane_routing",
+      "status": "PASS",
+      "wall_seconds": 3.260001540184021e-05
+    },
+    {
+      "test": "core_has_no_reference_label_input",
+      "status": "PASS",
+      "wall_seconds": 0.001556900009745732
+    },
+    {
+      "test": "core_has_no_dense_n_by_n_conversion",
+      "status": "PASS",
+      "wall_seconds": 1.2499978765845299e-05
+    },
+    {
+      "test": "fresh_process_replay_counts",
+      "status": "PASS",
+      "wall_seconds": 1.2999807950109243e-06
+    },
+    {
+      "test": "fresh_process_partition_and_metric_exactness",
+      "status": "PASS",
+      "wall_seconds": 7.499998901039362e-06
+    },
+    {
+      "test": "missing_view_fallback_is_exact",
+      "status": "PASS",
+      "wall_seconds": 3.9000005926936865e-06
+    },
+    {
+      "test": "matched_optional_view_ablation_is_preserved",
+      "status": "PASS",
+      "wall_seconds": 0.00040260000969283283
+    },
+    {
+      "test": "morphology_artifact_sha_and_ordered_id_contract",
+      "status": "PASS",
+      "wall_seconds": 0.051071499998215586
+    },
+    {
+      "test": "d1_singleton_is_preserved_not_backfilled",
+      "status": "PASS",
+      "wall_seconds": 3.130000550299883e-05
+    },
+    {
+      "test": "corrected_block_weight_semantics_registered",
+      "status": "PASS",
+      "wall_seconds": 0.004474999994272366
+    },
+    {
+      "test": "source_frozen_before_replays",
+      "status": "PASS",
+      "wall_seconds": 0.00024369999300688505
+    }
+  ]
+}

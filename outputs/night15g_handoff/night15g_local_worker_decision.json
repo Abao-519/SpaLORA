@@ -1,0 +1,68 @@
+{
+  "terminal_status": "NIGHT15G_OPTIONAL_MORPHOLOGY_LOCAL_SIGNAL",
+  "classification": "LOCAL_SIGNAL",
+  "secondary_engineering_status": "PARTIAL_HEAD_SEARCH_PRESERVED_AND_EXACTLY_REPLAYED",
+  "paper_ready": false,
+  "sota_claim": false,
+  "confirmed_milestone": false,
+  "main_conclusion": "Aligned H&E morphology adds reproducible local signal on three image-enabled protein lanes, but the evidence remains a mixture of optional energy refinement and morphology-aware clustering head rather than one frozen trainable model.",
+  "headline_results": {
+    "A1_optional_energy_balanced": {
+      "ari": 0.2760026589984753,
+      "nmi": 0.42173983941218224,
+      "delta_ari_vs_night15f": 0.0004598318407041,
+      "delta_nmi_vs_night15f": 0.0016019137816479,
+      "min_cluster_size": 114
+    },
+    "D1_nonmicro_morphology_head_balanced": {
+      "ari": 0.28887600833487515,
+      "nmi": 0.41376160498731795,
+      "delta_ari_vs_night15f": 0.03383249837988395,
+      "delta_nmi_vs_night15f": 0.02440606318397381,
+      "min_cluster_size": 86,
+      "partition_sha256": "19c4dd4f1cb502e5b02a6b2b4f373e2716c5877a2763b6aa0a7eff717dfa3aaf"
+    },
+    "tonsil_s3_optional_energy_balanced": {
+      "ari": 0.349880567011789,
+      "nmi": 0.3092665192529602,
+      "delta_ari_vs_night15f": 0.0087735095015487,
+      "delta_nmi_vs_night15f": 0.0083004103995755,
+      "min_cluster_size": 295
+    }
+  },
+  "score_chasing_results_with_microclusters": {
+    "D1_morphology_head_max_ari": {
+      "ari": 0.35072852591573367,
+      "nmi": 0.4160321154515217,
+      "min_cluster_size": 1
+    },
+    "D1_seeded_energy_stage2_balanced": {
+      "ari": 0.31536507449698037,
+      "nmi": 0.3971004793114793,
+      "min_cluster_size": 1
+    }
+  },
+  "head_search": {
+    "planned_rows": 5280,
+    "completed_rows": 3432,
+    "process_exit_code": 1,
+    "captured_exception_text": false,
+    "rerun_performed": false,
+    "partial_ledger_preserved": true,
+    "frozen_profiles_exactly_replayed": 6,
+    "matched_controls_completed": 5
+  },
+  "label_use": {
+    "labels_in_representation_or_head": 0,
+    "labels_in_cross_run_hpo_and_evaluation": 1
+  },
+  "method_scope": {
+    "dataset_name_routing": false,
+    "optional_view_presence_mask": true,
+    "missing_view_exact_fallback": true,
+    "new_trainable_representation_objective": false,
+    "single_final_unified_consumer": false
+  },
+  "autodl_shutdown_dispatched": false,
+  "autodl_expected_state": "KEEP_GPU_INSTANCE_RUNNING_PER_USER_REQUEST"
+}

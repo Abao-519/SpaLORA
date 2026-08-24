@@ -1,0 +1,283 @@
+{
+  "status": "MORPHOLOGY_ASSET_AND_REGISTRATION_AUDIT_PASS_WITH_DECLARED_SCALE_LIMITATION",
+  "asset_manifest": {
+    "status": "FROZEN_BEFORE_IMAGE_VALUE_FEATURE_EXTRACTION",
+    "freeze_date": "2026-08-24",
+    "labels_read_for_manifest_or_extraction": 0,
+    "patch_radii_hires_pixels": [
+      8,
+      16,
+      32
+    ],
+    "patch_boundary_rule": "shift_window_inward_without_synthetic_pixels",
+    "units": [
+      {
+        "unit_id": "A1",
+        "image_source": "geo_gzip",
+        "h5ad_path": "/root/autodl-fs/Human lymph node/A1/humanlymphnode_rna.h5ad",
+        "image_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/A1/GSM8195494_A1LN_tissue_hires_image.png.gz",
+        "positions_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/A1/GSM8195494_A1LN_tissue_positions.csv.gz",
+        "strip_exact_prefix": "s1-",
+        "hires_scalef": 0.1,
+        "hires_scale_authority": "mechanically closed from deposited full-resolution pixel coordinates and deposited 1062x2000 hires image bounds; GEO did not deposit scalefactors_json.json",
+        "patch_radii_hires_pixels": [
+          8,
+          16,
+          32
+        ]
+      },
+      {
+        "unit_id": "D1",
+        "image_source": "geo_gzip",
+        "h5ad_path": "/root/autodl-fs/Human lymph node/D1/humanlymphnode_rna.h5ad",
+        "image_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/D1/GSM8195496_D1LN_tissue_hires_image.png.gz",
+        "positions_gz_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/raw/geo/D1/GSM8195496_D1LN_tissue_positions.csv.gz",
+        "strip_exact_prefix": "s2-",
+        "hires_scalef": 0.1,
+        "hires_scale_authority": "mechanically closed from deposited full-resolution pixel coordinates and deposited 1097x2000 hires image bounds; GEO did not deposit scalefactors_json.json",
+        "patch_radii_hires_pixels": [
+          8,
+          16,
+          32
+        ]
+      },
+      {
+        "unit_id": "tonsil_s3",
+        "image_source": "h5ad_embedded",
+        "h5ad_path": "/root/autodl-fs/night13a_benchmark_expansion_20260822/data/canonical_tonsil/s3_adata_rna.h5ad",
+        "library_id": "0",
+        "patch_radii_hires_pixels": [
+          8,
+          16,
+          32
+        ]
+      }
+    ],
+    "missing_units": [
+      {
+        "unit_id": "tonsil_s1",
+        "reason": "canonical h5ad has coordinates but no auditable embedded or external spot-registered image/scalefactor asset"
+      },
+      {
+        "unit_id": "tonsil_s2",
+        "reason": "canonical h5ad has coordinates but no auditable embedded or external spot-registered image/scalefactor asset"
+      }
+    ]
+  },
+  "extraction_audit": {
+    "units": [
+      {
+        "unit_id": "A1",
+        "observations": 3484,
+        "ordered_id_sha256": "ea1ac3621ecf9b1920c02a4c2daa55f07f6f8ae3d5047c4950f41f1751fbbf26",
+        "image_shape": [
+          2000,
+          1062,
+          3
+        ],
+        "coordinate_xy_min": [
+          87.4000015258789,
+          98.19999694824219
+        ],
+        "coordinate_xy_max": [
+          1061.0999755859375,
+          1131.0999755859375
+        ],
+        "patch_radii_hires_pixels": [
+          8,
+          16,
+          32
+        ],
+        "all_patches_in_bounds": true,
+        "patch_boundary_rule": "shift_window_inward_without_synthetic_pixels",
+        "patch_boundary_shift_by_radius": {
+          "8": {
+            "shifted_patch_count": 17,
+            "maximum_center_shift_pixels": 7.0,
+            "mean_center_shift_pixels": 0.026693455797933408
+          },
+          "16": {
+            "shifted_patch_count": 21,
+            "maximum_center_shift_pixels": 15.0,
+            "mean_center_shift_pixels": 0.06687715269804823
+          },
+          "32": {
+            "shifted_patch_count": 52,
+            "maximum_center_shift_pixels": 31.0,
+            "mean_center_shift_pixels": 0.24138920780711826
+          }
+        },
+        "handcrafted_shape": [
+          3484,
+          165
+        ],
+        "handcrafted_finite": true,
+        "resnet18_shape": [
+          3484,
+          1536
+        ],
+        "resnet18_finite": true,
+        "output_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/derived/morphology/A1_morphology_views.npz",
+        "output_sha256": "6a3ddbce084b9c207e4309895ef972e816cbf89e5a053d1105f241eeb0be85e3",
+        "wall_seconds_total": 45.95095092058182,
+        "peak_rss_mib": 918.6953125,
+        "coordinate_source": "GEO_tissue_positions_fullres_pixel_columns",
+        "id_transform": "strip_exact_prefix:s1-",
+        "missing_after_transform": 0,
+        "extra_deposited_positions": 1508,
+        "hires_scalef": 0.1,
+        "hires_scale_authority": "mechanically closed from deposited full-resolution pixel coordinates and deposited 1062x2000 hires image bounds; GEO did not deposit scalefactors_json.json",
+        "compressed_image_sha256": "ca804ca83cc6c81ae504f654afe5f0567a1801365e02a65aadc91dbedb704413",
+        "decoded_image_sha256": "a75b26ec6d20c623f1cb9ba7fa4e72c1fd84d3271df0731f7226ba1030b0d1e9",
+        "wall_seconds": 17.68638485111296,
+        "peak_gpu_mib": 900.6875,
+        "weight_path": "/root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth",
+        "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+        "weight_enum": "torchvision.models.ResNet18_Weights.IMAGENET1K_V1",
+        "source_license": "torchvision BSD-3-Clause"
+      },
+      {
+        "unit_id": "D1",
+        "observations": 3359,
+        "ordered_id_sha256": "3987c7ef49e0ddd3ea62e9555335f79399ac26f5faa206ef13c4ac3f43c16132",
+        "image_shape": [
+          2000,
+          1097,
+          3
+        ],
+        "coordinate_xy_min": [
+          118.4000015258789,
+          195.0
+        ],
+        "coordinate_xy_max": [
+          1091.199951171875,
+          1159.0999755859375
+        ],
+        "patch_radii_hires_pixels": [
+          8,
+          16,
+          32
+        ],
+        "all_patches_in_bounds": true,
+        "patch_boundary_rule": "shift_window_inward_without_synthetic_pixels",
+        "patch_boundary_shift_by_radius": {
+          "8": {
+            "shifted_patch_count": 14,
+            "maximum_center_shift_pixels": 2.0,
+            "mean_center_shift_pixels": 0.008335814230425722
+          },
+          "16": {
+            "shifted_patch_count": 14,
+            "maximum_center_shift_pixels": 10.0,
+            "mean_center_shift_pixels": 0.041679071152128606
+          },
+          "32": {
+            "shifted_patch_count": 33,
+            "maximum_center_shift_pixels": 26.0,
+            "mean_center_shift_pixels": 0.1762429294432867
+          }
+        },
+        "handcrafted_shape": [
+          3359,
+          165
+        ],
+        "handcrafted_finite": true,
+        "resnet18_shape": [
+          3359,
+          1536
+        ],
+        "resnet18_finite": true,
+        "output_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/derived/morphology/D1_morphology_views.npz",
+        "output_sha256": "095d265cf5dc7b2de0fb9d4f766e6dc69d29835819fd168e3306f9a2a9aba8f3",
+        "wall_seconds_total": 38.86897194944322,
+        "peak_rss_mib": 948.8671875,
+        "coordinate_source": "GEO_tissue_positions_fullres_pixel_columns",
+        "id_transform": "strip_exact_prefix:s2-",
+        "missing_after_transform": 0,
+        "extra_deposited_positions": 1633,
+        "hires_scalef": 0.1,
+        "hires_scale_authority": "mechanically closed from deposited full-resolution pixel coordinates and deposited 1097x2000 hires image bounds; GEO did not deposit scalefactors_json.json",
+        "compressed_image_sha256": "76869d8ae5d2b4b61a57dc598312ba7cf72b9a1514ec0f2296fd24f0da52124e",
+        "decoded_image_sha256": "db1a56e9e4f8b8cfe6ece90a45e6a8db1fa3193a7d37fc251f9fe50bb73a91d8",
+        "wall_seconds": 15.684464551508427,
+        "peak_gpu_mib": 900.6875,
+        "weight_path": "/root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth",
+        "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+        "weight_enum": "torchvision.models.ResNet18_Weights.IMAGENET1K_V1",
+        "source_license": "torchvision BSD-3-Clause"
+      },
+      {
+        "unit_id": "tonsil_s3",
+        "observations": 4521,
+        "ordered_id_sha256": "45e6853a8d005137af302d2adfa6f759babdef250a15ac5d911fafcdfc86e46b",
+        "image_shape": [
+          1902,
+          2000,
+          3
+        ],
+        "coordinate_xy_min": [
+          300.1429138183594,
+          790.852783203125
+        ],
+        "coordinate_xy_max": [
+          1139.5902099609375,
+          1586.4697265625
+        ],
+        "patch_radii_hires_pixels": [
+          8,
+          16,
+          32
+        ],
+        "all_patches_in_bounds": true,
+        "patch_boundary_rule": "shift_window_inward_without_synthetic_pixels",
+        "patch_boundary_shift_by_radius": {
+          "8": {
+            "shifted_patch_count": 0,
+            "maximum_center_shift_pixels": 0.0,
+            "mean_center_shift_pixels": 0.0
+          },
+          "16": {
+            "shifted_patch_count": 0,
+            "maximum_center_shift_pixels": 0.0,
+            "mean_center_shift_pixels": 0.0
+          },
+          "32": {
+            "shifted_patch_count": 0,
+            "maximum_center_shift_pixels": 0.0,
+            "mean_center_shift_pixels": 0.0
+          }
+        },
+        "handcrafted_shape": [
+          4521,
+          165
+        ],
+        "handcrafted_finite": true,
+        "resnet18_shape": [
+          4521,
+          1536
+        ],
+        "resnet18_finite": true,
+        "output_path": "/root/autodl-fs/night15g_morphology_optional_view_20260824/derived/morphology/tonsil_s3_morphology_views.npz",
+        "output_sha256": "166b041d59c91c7404fdaa3d1da333daa68a722b76898c6b01a29fd02fbe7cca",
+        "wall_seconds_total": 51.12308066897094,
+        "peak_rss_mib": 989.64453125,
+        "coordinate_source": "h5ad_obsm_spatial_xy",
+        "id_transform": "byte_exact_identity",
+        "missing_after_transform": 0,
+        "extra_deposited_positions": 0,
+        "hires_scalef": 0.95283467,
+        "hires_scale_authority": "h5ad_uns_spatial_scalefactors_tissue_hires_scalef",
+        "compressed_image_sha256": null,
+        "decoded_image_sha256": "78d802ded10c7635f71c83f449c44bded6f9cfa7788a1ec20d07247918bf3a1f",
+        "wall_seconds": 21.367507938295603,
+        "peak_gpu_mib": 900.6875,
+        "weight_path": "/root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth",
+        "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+        "weight_enum": "torchvision.models.ResNet18_Weights.IMAGENET1K_V1",
+        "source_license": "torchvision BSD-3-Clause"
+      }
+    ]
+  },
+  "feature_artifacts_not_in_compact": true,
+  "raw_images_not_in_compact": true
+}
