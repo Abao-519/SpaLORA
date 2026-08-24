@@ -1,0 +1,172 @@
+{
+  "branch": "revision/q2-night16h-feasible-multiview-selector-20260824",
+  "candidate_count": 356,
+  "classification": "LOCAL_SIGNAL",
+  "files": [
+    {
+      "path": "SpaLORA/night16h_feasible_selector.py",
+      "sha256": "ab19f2a1daa9a9554b70b336f81742827910ab894bb83b78d9b4ee9a80a30bcc",
+      "size": 13141
+    },
+    {
+      "path": "configs/night16h/night16h_feasible_selector_contract.json",
+      "sha256": "ed671fa8feb0cfe20c19dd2c3565c178d683f22cda9bf1a5ccb9580958a9459a",
+      "size": 815
+    },
+    {
+      "path": "tests/test_night16h_feasible_selector.py",
+      "sha256": "a41a350e1bc914e7b345acd230e8c3cc7d9a3abb546cca9002eb20fe3f557419",
+      "size": 7458
+    },
+    {
+      "path": "scripts/night16h/apply_feasible_selector.py",
+      "sha256": "51f036ac1b2c9bdcd4b70d16cce337dee7248d8d85fe4292899aa87a4e82078d",
+      "size": 4756
+    },
+    {
+      "path": "scripts/night16h/audit_exact_replay.py",
+      "sha256": "b05a582802a77904a56f4ab169a945db04b02c8f39cf85b006c275364f9bc0b9",
+      "size": 2990
+    },
+    {
+      "path": "scripts/night16h/build_feasibility_features.py",
+      "sha256": "bb2862d9d01e19de082aa915dbe5a4ee9413120d157683d1ec865bdd77485add",
+      "size": 5363
+    },
+    {
+      "path": "scripts/night16h/build_final_audits.py",
+      "sha256": "932bae103ab3246b2c125501bfb24820e407d015f84789560a767286ecdc035e",
+      "size": 3777
+    },
+    {
+      "path": "scripts/night16h/build_handoff_manifest.py",
+      "sha256": "19847012285fe5f42636b66663db1f27f5f7b0937b9dbb60ead40463b4a669af",
+      "size": 2067
+    },
+    {
+      "path": "scripts/night16h/build_result_tables.py",
+      "sha256": "42232962dd8fe709d2a6366d10b1fc27a7ceee95812efbd25190771364d0719e",
+      "size": 12225
+    },
+    {
+      "path": "scripts/night16h/evaluate_selected.py",
+      "sha256": "a7105bd8c6dd606cc3990e527b8c8938352b1dc4499c65a8bb5a09913ecea3bd",
+      "size": 2012
+    },
+    {
+      "path": "scripts/night16h/fit_strict_feasible_selector.py",
+      "sha256": "ac681cddca40655d5bc5ae8a36286711fab447ce448c06abea5a04bbf48afa8d",
+      "size": 8041
+    },
+    {
+      "path": "scripts/night16h/scout_selectors.py",
+      "sha256": "b114ea4a2f7a9288d5b67a54a6deec5bdae1b142435d0ed9944fd57e0a939d79",
+      "size": 5467
+    },
+    {
+      "path": "outputs/night16h_handoff/absolute_metrics_main_table.csv",
+      "sha256": "6692480cb82c78035b11a3fed374f28c4b0e3fd951c835b6346f080ad114aff2",
+      "size": 3513
+    },
+    {
+      "path": "outputs/night16h_handoff/all_candidate_evidence_and_metrics_ledger.csv",
+      "sha256": "4f62439e192c1b1a4f18dec4313c1b04a2f5dfe7dbcd361bb712d4978b329c51",
+      "size": 513537
+    },
+    {
+      "path": "outputs/night16h_handoff/failure_and_correction_ledger.csv",
+      "sha256": "78f2838b0f2d4e3bdd1ec66ece3d8acbb1c4b30d8aff7dee1d4253e5b5d284f8",
+      "size": 918
+    },
+    {
+      "path": "outputs/night16h_handoff/feasibility_sensitivity_table.csv",
+      "sha256": "42011668e2e1186edd7f30569505b21608a66a90fc501d5c42f9ef3abda587ab",
+      "size": 44707
+    },
+    {
+      "path": "outputs/night16h_handoff/formal_replay_and_test_audit.json",
+      "sha256": "91df6e438a6f68fc54f8415fae51be440a6bd8a00067c96db45cd8c87231cf14",
+      "size": 5228
+    },
+    {
+      "path": "outputs/night16h_handoff/label_flow_audit.json",
+      "sha256": "a5cb76ec52108d6e82cf1502b0b56d2fc6cc153b253b5ce982ff33602acf78b3",
+      "size": 580
+    },
+    {
+      "path": "outputs/night16h_handoff/mechanism_minimal_contribution_table.csv",
+      "sha256": "01422372557ecd92ee88d7b2cdf8410d7a6e636bcf4e1b097a62fd18eb29c159",
+      "size": 3935
+    },
+    {
+      "path": "outputs/night16h_handoff/method_semantics_and_selection_contract.md",
+      "sha256": "81c0ad70ac9018902bbb5d2e34d97493422c829036652a40b599326330ba0d5b",
+      "size": 2025
+    },
+    {
+      "path": "outputs/night16h_handoff/night16h_decision.json",
+      "sha256": "1acb95759282c37a601e3a33c03dfe248f21bcde3e8c19ac83fb43ed681b7646",
+      "size": 1319
+    },
+    {
+      "path": "outputs/night16h_handoff/night16h_report.md",
+      "sha256": "3f85ee04b6920d1e80259ba1b201869ba1218afb6fc84a5fa43f54a2b42d6db3",
+      "size": 7202
+    },
+    {
+      "path": "outputs/night16h_handoff/plain_summary.md",
+      "sha256": "53422c313c3b25cb24bd0451eadd59c458ae31493616a051609ad8c9c7d0481c",
+      "size": 800
+    },
+    {
+      "path": "outputs/night16h_handoff/real_input_p0_audit.json",
+      "sha256": "95fb38e1556eceb5777e9911e17d16a1e4fcdfb053dd7ccefe84ff3c4f3df0ce",
+      "size": 2294
+    },
+    {
+      "path": "outputs/night16h_handoff/resource_audit.json",
+      "sha256": "d360c0a4ea36a09387f89c1487cfd3c1a0d24234a0ad6164a11fa853a3e42143",
+      "size": 526
+    },
+    {
+      "path": "outputs/night16h_handoff/resource_table.csv",
+      "sha256": "d4cf9bde52480f5317094bd8b375a0464a70c6e41bc72273005bfad58a8647fe",
+      "size": 258
+    },
+    {
+      "path": "outputs/night16h_handoff/reviewer_risk_register.md",
+      "sha256": "a90f14c6a9efd10f1230fce794450a4d77a83da30ff922c5a441c22e50432e0c",
+      "size": 1525
+    },
+    {
+      "path": "outputs/night16h_handoff/selector_control_and_ablation_table.csv",
+      "sha256": "a564be41276b82f606ffcc8198833a76c6e0ff43670af3235c271d0dde56c2a8",
+      "size": 17155
+    },
+    {
+      "path": "outputs/night16h_handoff/selector_fit_registry.json",
+      "sha256": "6c2b56ad90dccbab75bba2309130ec412018fe3aa09211abbf69c6b7423e644e",
+      "size": 14579
+    },
+    {
+      "path": "outputs/night16h_handoff/source_code_collision_and_transfer_audit.md",
+      "sha256": "5d2d896b631b7275a0f0d1ab8c08e4c09a10e392571653e1616439fd19228c0a",
+      "size": 1527
+    },
+    {
+      "path": "outputs/night16h_handoff/strict_loso_transfer_table.csv",
+      "sha256": "faaf9ab05d09ad6fc4df717497d1419722768aef216017a96de98b4ff9f25ddc",
+      "size": 3211
+    }
+  ],
+  "formal_lane_count": 4,
+  "fresh_process_replay": "8/8",
+  "intended_final_tag": "night16h-final-20260824",
+  "machine_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS",
+  "parent_commit": "be35ca5ff6dcaa189cfa4f59f5c9bd97dcf02f31",
+  "parent_tag": "night16g-final-20260824",
+  "schema": "night16h-handoff-content-manifest-v1",
+  "shutdown_dispatched": false,
+  "status": "NIGHT16H_UNIVERSAL_FEASIBILITY_CROSS_EVIDENCE_SELECTOR_SIGNAL",
+  "targeted_tests": "11/11"
+}

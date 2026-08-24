@@ -1,0 +1,6 @@
+id,type,status,issue,resolution
+E01,ENGINEERING,SUPERSEDED,initial graph feasibility builder recomputed graph preparation per candidate,prepare each sparse graph once per lane; no formal result produced by interrupted attempt
+E02,ENGINEERING,FIXED_PREFORMAL,SciPy result attribute statistic is unavailable in deployed version,"use tuple index spearmanr(x,y)[0]; targeted real-environment test"
+E03,ENGINEERING,FIXED_PREFORMAL,scout could crash when a sensitivity mode has zero feasible candidates,record NO_FEASIBLE_CANDIDATE and continue; targeted zero-feasible test
+S01,SCIENTIFIC,PRESERVED,Night16G strict LOSO human selected a singleton partition,new revision uses a universal graph-derived admissible set before all selectors
+S02,SCIENTIFIC,LIMITATION,partition ensemble and spatial consensus are established prior art,claim limited to universal graph feasibility plus cross-study multi-evidence selection signal

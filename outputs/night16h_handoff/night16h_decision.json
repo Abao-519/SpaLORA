@@ -1,0 +1,35 @@
+{
+  "schema": "night16h-decision-v1",
+  "status": "NIGHT16H_UNIVERSAL_FEASIBILITY_CROSS_EVIDENCE_SELECTOR_SIGNAL",
+  "classification": "LOCAL_SIGNAL",
+  "evidence_tier": "PUBLIC_BENCHMARK_FOUR_STUDY_METHOD_DEVELOPMENT_SIGNAL",
+  "formal_feasibility_mode": "SMALLEST_SCALE_INTERNAL_EDGE",
+  "formal_label_free_selector": "CROSS_EVIDENCE_ARBITRATION",
+  "fixed_selector_dual_gain_vs_feasible_medoid": 4,
+  "fixed_selector_lane_count": 4,
+  "strict_loso_meaningful_dual_gain": 3,
+  "strict_loso_noninferior_without_structural_failure": 4,
+  "strict_loso_lane_count": 4,
+  "strict_loso_weights_identical_across_folds": true,
+  "strict_loso_weights": {
+    "molecular_weight": 0.25,
+    "topology_weight": 1.0,
+    "risk_weight": 0.0
+  },
+  "human_night16g_strict_loso_min_cluster": 1,
+  "human_night16h_fixed_and_loso_min_cluster": 34,
+  "fresh_process_replay": "8/8",
+  "targeted_tests": "11/11",
+  "producer_label_reads": 0,
+  "dense_observation_by_observation_count": 0,
+  "gpu_time_seconds": 0,
+  "claim_boundaries": [
+    "not pristine blind confirmation",
+    "not a new generic consensus or medoid method",
+    "not SOTA",
+    "not paper-ready evidence",
+    "candidate-library quality remains a dependency"
+  ],
+  "shutdown_dispatched": false,
+  "machine_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS"
+}

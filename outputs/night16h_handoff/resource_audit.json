@@ -1,0 +1,18 @@
+{
+  "candidate_count": 356,
+  "candidate_similarity_shape": [
+    89,
+    89
+  ],
+  "dense_observation_by_observation_count": 0,
+  "feasibility_wall_seconds_sum": 2.3273008670657873,
+  "fixed_selector_peak_rss_mib_max": 82.84375,
+  "fixed_selector_wall_seconds_sum": 13.825325628742576,
+  "gpu_time_seconds": 0,
+  "lane_count": 4,
+  "machine_state_instruction": "KEEP_ON_FOR_NIGHTTIME_CHAINED_TASKS",
+  "peak_gpu_mib": 0,
+  "schema": "night16h-resource-audit-v1",
+  "shutdown_dispatched": false,
+  "sparse_graph_only": true
+}

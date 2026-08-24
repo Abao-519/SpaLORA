@@ -1,0 +1,20 @@
+{
+  "candidate_partition_producer_label_reads": 0,
+  "feasibility_producer_label_reads": 0,
+  "fixed_selector_label_reads": 0,
+  "independent_evaluator_reads": 8,
+  "labels_not_used_for": [
+    "candidate generation",
+    "structural feasibility",
+    "fixed cross-evidence arbitration",
+    "heldout LOSO fit",
+    "partition optimization"
+  ],
+  "public_benchmark_labels_used_for": [
+    "scout diagnostics",
+    "training-study-only LOSO weight fit",
+    "final independent metrics"
+  ],
+  "schema": "night16h-label-flow-audit-v1",
+  "strict_loso_fit_heldout_label_reads": 0
+}

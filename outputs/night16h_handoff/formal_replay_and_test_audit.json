@@ -1,0 +1,114 @@
+{
+  "core_source_sha256": "ab19f2a1daa9a9554b70b336f81742827910ab894bb83b78d9b4ee9a80a30bcc",
+  "final_core_source_precedes_all_replays": true,
+  "formal_config_precedes_first_formal_producer": true,
+  "formal_config_sha256": "ed671fa8feb0cfe20c19dd2c3565c178d683f22cda9bf1a5ccb9580958a9459a",
+  "fresh_process_replay": {
+    "passed": 8,
+    "rows": [
+      {
+        "artifact_run1_sha256": "31474d2fd3bdaa6f6f1fb4689e7c5b29eb0f86bcc8bcab6d1dfaa43199e0201e",
+        "artifact_run2_sha256": "31474d2fd3bdaa6f6f1fb4689e7c5b29eb0f86bcc8bcab6d1dfaa43199e0201e",
+        "lane": "P22_K9",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "590a294fc360ddf83051775834adb89031a53dd15fef2d1a4ee5594cbb72d9c0",
+        "selected_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L06",
+        "selector": "global",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "c281d44a3b7969830481d116b9fe71fcb7b9013d606bbbb7b880fb9860a5c048",
+        "artifact_run2_sha256": "c281d44a3b7969830481d116b9fe71fcb7b9013d606bbbb7b880fb9860a5c048",
+        "lane": "MISAR_K7",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "dcf2f7547e2f9b7963a157bd8699c52d2411ef577dc80a5bdcee94a5ad079198",
+        "selected_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L06",
+        "selector": "global",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "da7ce813afcdd3c5af94fcbfcb16097cc9d67a6c013a439a11c693f572f18b2b",
+        "artifact_run2_sha256": "da7ce813afcdd3c5af94fcbfcb16097cc9d67a6c013a439a11c693f572f18b2b",
+        "lane": "HUMAN_HIPPOCAMPUS_K7",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609",
+        "selected_candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+        "selector": "global",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "169e091160ccdc9f1485d19f82885727e3caa7401493ea16f31ebd8a02bb40d1",
+        "artifact_run2_sha256": "169e091160ccdc9f1485d19f82885727e3caa7401493ea16f31ebd8a02bb40d1",
+        "lane": "MELANOMA_TUMOR_K2",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "17f84437c815da480f1994d996149c9e4cbc35153c9404b550dd1059be7d4183",
+        "selected_candidate_id": "KMEANS_RETAINED_S3__INPUT_START",
+        "selector": "global",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "cb81ce04cba056530ac457e3d6f7b271da0e6d01f4eda33b155333300d5abcd1",
+        "artifact_run2_sha256": "cb81ce04cba056530ac457e3d6f7b271da0e6d01f4eda33b155333300d5abcd1",
+        "lane": "P22_K9",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "76ec89c8243fc4856692ddcd4cf2906df971381b968a5489c245a74c52eda3be",
+        "selected_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+        "selector": "loso",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "d358a6ea5756b785fb85748ee983e409c1c4cb83a91e5166a575677d54c644b3",
+        "artifact_run2_sha256": "d358a6ea5756b785fb85748ee983e409c1c4cb83a91e5166a575677d54c644b3",
+        "lane": "MISAR_K7",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363",
+        "selected_candidate_id": "AUTHORITY_STRONG_START__DIRECT_BASE",
+        "selector": "loso",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "da7ce813afcdd3c5af94fcbfcb16097cc9d67a6c013a439a11c693f572f18b2b",
+        "artifact_run2_sha256": "da7ce813afcdd3c5af94fcbfcb16097cc9d67a6c013a439a11c693f572f18b2b",
+        "lane": "HUMAN_HIPPOCAMPUS_K7",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609",
+        "selected_candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+        "selector": "loso",
+        "status": "PASS"
+      },
+      {
+        "artifact_run1_sha256": "7f3f329bbd108c57045f7c6e94053612bb4e73f8d68059e1c88f19009c99f077",
+        "artifact_run2_sha256": "7f3f329bbd108c57045f7c6e94053612bb4e73f8d68059e1c88f19009c99f077",
+        "lane": "MELANOMA_TUMOR_K2",
+        "manifest_semantics_exact": true,
+        "partition_exact": true,
+        "partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e",
+        "selected_candidate_id": "KMEANS_RETAINED_S3__DIRECT_BASE",
+        "selector": "loso",
+        "status": "PASS"
+      }
+    ],
+    "schema": "night16h-fresh-process-exact-replay-audit-v1",
+    "total": 8
+  },
+  "schema": "night16h-formal-replay-and-test-audit-v1",
+  "scipy_spearman_cross_version_fix_verified": true,
+  "targeted_tests": {
+    "log_sha256": "3c7291da2a1318011e0aed3e90917153a0621b5cde4c90c2263187e23a22c45e",
+    "passed": 11,
+    "total": 11
+  },
+  "thread_limits": {
+    "MKL_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1,
+    "OPENBLAS_NUM_THREADS": 1,
+    "threadpool_limits": 1
+  }
+}

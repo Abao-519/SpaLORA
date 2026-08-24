@@ -1,0 +1,20 @@
+{
+  "schema": "night16h-feasible-selector-contract-v1",
+  "status": "FROZEN_BEFORE_FORMAL",
+  "formal_feasibility_mode": "SMALLEST_SCALE_INTERNAL_EDGE",
+  "formal_label_free_selector": "CROSS_EVIDENCE_ARBITRATION",
+  "cross_evidence_rule": {
+    "molecular_champion_topology_percentile_threshold": 0.5,
+    "decision": "use the molecular champion when its topology percentile is at least the empirical median; otherwise use the topology champion"
+  },
+  "strict_loso": {
+    "axes": ["molecular_joint", "topology_joint", "microcluster_score"],
+    "grid_values": [0.0, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0],
+    "meaningful_gain": 0.005,
+    "noninferiority_tolerance": 0.01,
+    "fit_uses_training_studies_only": true
+  },
+  "producer_label_reads": 0,
+  "dense_observation_by_observation_count": 0,
+  "thread_limit": 1
+}
