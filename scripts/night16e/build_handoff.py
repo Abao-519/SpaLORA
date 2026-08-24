@@ -477,6 +477,7 @@ def main() -> None:
             ["E008", "secondary MISAR K12", "no distinct K12 reference array in compute kit", "available reference has K7", "report as endpoint sensitivity against K7 carrier, not K12 annotation protocol", "TRANSPARENT_LIMITATION"],
             ["E009", "historical start asset root", "two new alternate starts briefly copied into Night16D asset root", "secondary runner staging path", "moved to Night16E asset root and reproducibility script corrected", "RESTORED"],
             ["E010", "final contribution attribution", "draft attributed the human gain to relation-specific rejected-mass stay", "matched stay-off disables inherited base stay and relation stay together", "report support-only versus same-start/same-base Night15F direct; relation stay remains unisolated; supersede the pre-attribution final tag without moving it", "FIXED_BEFORE_REV1_DELIVERY"],
+            ["E011", "support selectivity attribution", "support-only changes edge locations and total Potts capacity together", "uniform-mass and permuted-support controls were not preregistered", "narrow claim to support-weighted operator signal; freeze uniform-mass, permuted-support and single-view support controls for the next revision", "ATTRIBUTION_LIMITATION_REGISTERED_BEFORE_REV2_DELIVERY"],
         ],
         columns=("correction_id", "scope", "observed", "cause", "action", "status"),
     )
@@ -549,7 +550,14 @@ def main() -> None:
         },
         "boundary_component_supported": False,
         "private_conflict_component_supported": False,
-        "support_modulation_supported": True,
+        "support_weighted_operator_signal_supported": True,
+        "relation_specific_edge_selectivity_supported": False,
+        "global_pairwise_attenuation_confound_unresolved": True,
+        "next_revision_matched_controls": [
+            "UNIFORM_MASS_MATCHED",
+            "PERMUTED_SUPPORT",
+            "SINGLE_VIEW_SUPPORT",
+        ],
         "inherited_base_self_return_context_for_support_signal": True,
         "new_relation_stay_independently_supported": False,
         "rejected_mass_stay_attribution": "BASE_AND_RELATION_STAY_NOT_SEPARATELY_IDENTIFIED",
@@ -573,7 +581,7 @@ def main() -> None:
 
 1. 本轮把两模态空间边分成 support（两模态都支持域内传播）、boundary（两模态共同提示边界）和 conflict（两模态意见冲突），并分别进入非负平滑、边界排斥 unary、私有模态 unary；被拒绝的邻域质量回到当前状态，避免弱边被强行归一化。
 2. 历史七条 lane 上，冻结 family profile 的结果并不统一：protein transfer 有负值；chromatin 的 P22 仅微升、MISAR 为 ARI-only。真正新增证据来自未参与 family HPO 的人海马：固定无标签 start 从 0.165734/0.263190 提到 TSRE full 的 {human_full.absolute_ari:.6f}/{human_full.absolute_nmi:.6f}。
-3. 同起点、同 base 的归因对照闭合：Night-15F direct 为 {direct.absolute_ari:.6f}/{direct.absolute_nmi:.6f}，support-only 为 {support.absolute_ari:.6f}/{support.absolute_nmi:.6f}，净增量 +{support.absolute_ari-direct.absolute_ari:.6f}/+{support.absolute_nmi-direct.absolute_nmi:.6f}。这支持 RNA+chromatin 的 support modulation，但 support-only 仍继承 base self-return，现有 stay-off 又同时关闭 base 与 relation stay，所以不能单独归因给新增 relation stay。分类因此是 **FAMILY_FROZEN_METHOD_SIGNAL**，并伴随 **SCORE_FRONTIER_ADVANCE**；不是完整三态机制、跨两家族统一成功、SOTA 或论文封口。
+3. 同起点、同 base 的归因对照闭合：Night-15F direct 为 {direct.absolute_ari:.6f}/{direct.absolute_nmi:.6f}，support-only 为 {support.absolute_ari:.6f}/{support.absolute_nmi:.6f}，净增量 +{support.absolute_ari-direct.absolute_ari:.6f}/+{support.absolute_nmi-direct.absolute_nmi:.6f}。这支持 RNA+chromatin 的 family-frozen support-weighted operator signal；但它同时改变边位置和总 Potts 质量，尚未与全局衰减分离，relation stay 也未单独识别。分类因此是 **FAMILY_FROZEN_METHOD_SIGNAL**，并伴随 **SCORE_FRONTIER_ADVANCE**；不是完整三态机制、跨两家族统一成功、SOTA 或论文封口。
 
 ## 结果分类
 
@@ -603,7 +611,7 @@ RNA+chromatin 在人海马揭盲前修订为 P22+MISAR discovery，因为候选 
 - 独立 evaluator：official result carrier 的 `true_label` 非缺失 2500/2500，K=7，类别计数与 ordered-label SHA 均锁定后再算指标。
 - matched：input {human_baseline.absolute_ari:.6f}/{human_baseline.absolute_nmi:.6f}；Night-15F direct {direct.absolute_ari:.6f}/{direct.absolute_nmi:.6f}；full {human_full.absolute_ari:.6f}/{human_full.absolute_nmi:.6f}；support-only {support.absolute_ari:.6f}/{support.absolute_nmi:.6f}；stay-off {human_rows[human_rows.variant=='REJECTED_MASS_STAY_OFF'].iloc[0].absolute_ari:.6f}/{human_rows[human_rows.variant=='REJECTED_MASS_STAY_OFF'].iloc[0].absolute_nmi:.6f}。
 - same-base 增量：support-only 相对 Night-15F direct 为 +{support.absolute_ari-direct.absolute_ari:.6f} ARI / +{support.absolute_nmi-direct.absolute_nmi:.6f} NMI；因此方法分类不依赖 input→full 的大幅差值。
-- 解释：独立证据支持 residual-base Potts 上的 support modulation。support-only 关闭 boundary/private/relation stay，但保留继承的 base self-return；stay-off 同时关闭 base 与 relation stay，因此 relation-specific stay 尚未被纯消融识别。`support_mix<1` 的 full 必须准确称为 base Potts + tri-state modulation，而非“只有 support 才平滑”。
+- 解释：独立证据支持 residual-base Potts 上的 support-weighted operator。support-only 关闭 boundary/private/relation stay，但保留继承的 base self-return；stay-off 同时关闭 base 与 relation stay，因此 relation-specific stay 尚未被纯消融识别。support 权重还同时改变边位置与总 pairwise capacity；没有 uniform-mass/permuted-support 对照时，不能把增益稳健归因于跨模态 support 的边级位置。`support_mix<1` 的 full 必须准确称为 base Potts + tri-state modulation，而非“只有 support 才平滑”。
 
 ## 次级协议与数据扩展
 
@@ -618,10 +626,11 @@ RNA+chromatin 在人海马揭盲前修订为 P22+MISAR discovery，因为候选 
 2. 人海马 support-only 优于 full，说明三态全组件不是当前主故事。下一轮应先独立重写 relation carrier，再在第二个独立 chromatin study 上冻结确认。
 3. MultiGATE 论文报告人海马 ARI 0.60；本轮 full/support-only 均未达到该背景线，且 protocol/model 不同，只作 context。
 4. 所有正式 producer 均为 sparse，dense N×N=0；GPU 训练=0；两次 fresh-process 重放 family 7/7、frontier 7/7、人海马 8/8 exact。
+5. 下一 revision 必须预注册同起点/同 base 的 `UNIFORM_MASS_MATCHED`、`PERMUTED_SUPPORT` 和 single-view support，才能区分边级选择性与整体平滑衰减。
 
 ## 导师汇报版
 
-我们把直接聚类能量改造成了有明确角色的跨模态关系场，而不是继续训练一个浅层残差网络。历史数据上的 family-frozen 增量很小，protein transfer 还出现负值，所以不能说两类模态都成功。关键的新证据来自独立人海马：同起点、同 base 的 Night-15F direct 为 0.168/0.267，而 support-only 达到 0.545/0.558，证明新增 support modulation 有独立增益。full 为 0.516/0.510，boundary 和 conflict-private 项没有增加分数。base self-return 是继承项，现有消融没有把 relation stay 单独隔离，因此不能把增益归因给新增 relation stay。逐数据集公开 HPO 还刷新了 D1、tonsil s3、P22 等开发分数，不过它们只能作为 score frontier。下一步需要在第二个独立 chromatin study 上冻结复验，并前瞻性补齐 relation-stay 与 boundary/private carrier 的纯消融，才可能升级为更稳的论文方法证据。
+我们把直接聚类能量改造成了有明确角色的跨模态关系场，而不是继续训练一个浅层残差网络。历史数据上的 family-frozen 增量很小，protein transfer 还出现负值，所以不能说两类模态都成功。关键的新证据来自独立人海马：同起点、同 base 的 Night-15F direct 为 0.168/0.267，而 support-only 达到 0.545/0.558，证明 family-frozen support-weighted operator 有独立增益。full 为 0.516/0.510，boundary 和 conflict-private 项没有增加分数。base self-return 是继承项；同时 support 权重既改变边位置也改变总体平滑质量，所以目前既不能归因给 relation stay，也不能断言边级 support 位置本身解释了全部增益。逐数据集公开 HPO 还刷新了 D1、tonsil s3、P22 等开发分数，不过它们只能作为 score frontier。下一步需在第二个独立 chromatin study 上冻结复验，并预注册 uniform-mass、permuted-support、single-view support 与 relation-stay 纯消融，才可能升级为更稳的论文方法证据。
 
 ## 技术附录摘要
 

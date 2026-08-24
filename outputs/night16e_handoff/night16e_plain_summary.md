@@ -4,7 +4,7 @@
 
 1. 本轮把两模态空间边分成 support（两模态都支持域内传播）、boundary（两模态共同提示边界）和 conflict（两模态意见冲突），并分别进入非负平滑、边界排斥 unary、私有模态 unary；被拒绝的邻域质量回到当前状态，避免弱边被强行归一化。
 2. 历史七条 lane 上，冻结 family profile 的结果并不统一：protein transfer 有负值；chromatin 的 P22 仅微升、MISAR 为 ARI-only。真正新增证据来自未参与 family HPO 的人海马：固定无标签 start 从 0.165734/0.263190 提到 TSRE full 的 0.515565/0.509679。
-3. 同起点、同 base 的归因对照闭合：Night-15F direct 为 0.167510/0.266756，support-only 为 0.544877/0.557795，净增量 +0.377368/+0.291039。这支持 RNA+chromatin 的 support modulation，但 support-only 仍继承 base self-return，现有 stay-off 又同时关闭 base 与 relation stay，所以不能单独归因给新增 relation stay。分类因此是 **FAMILY_FROZEN_METHOD_SIGNAL**，并伴随 **SCORE_FRONTIER_ADVANCE**；不是完整三态机制、跨两家族统一成功、SOTA 或论文封口。
+3. 同起点、同 base 的归因对照闭合：Night-15F direct 为 0.167510/0.266756，support-only 为 0.544877/0.557795，净增量 +0.377368/+0.291039。这支持 RNA+chromatin 的 family-frozen support-weighted operator signal；但它同时改变边位置和总 Potts 质量，尚未与全局衰减分离，relation stay 也未单独识别。分类因此是 **FAMILY_FROZEN_METHOD_SIGNAL**，并伴随 **SCORE_FRONTIER_ADVANCE**；不是完整三态机制、跨两家族统一成功、SOTA 或论文封口。
 
 ## 结果分类
 
