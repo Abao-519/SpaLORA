@@ -1,0 +1,229 @@
+{
+  "arms": [
+    "RELATION_DISABLED",
+    "ZERO_RELATION",
+    "UNIFORM_MASS_MATCHED",
+    "PERMUTED_RELATION",
+    "LEARNED_RELATION"
+  ],
+  "candidates": [
+    {
+      "config": {
+        "base": {
+          "capacity_scale": 1000000.0,
+          "energy_tolerance": 1e-09,
+          "expansion_cycles": 1,
+          "local": {
+            "beta": 4.650285157500758,
+            "conflict_center": 0.2974324898377291,
+            "conflict_penalty": 0.38440626411761025,
+            "conflict_temperature": 0.2145526080624474,
+            "conflict_union_weight": 0.29485388417154273,
+            "edge_floor": 0.06846153857975981,
+            "high_weight": 0.6223253780102107,
+            "low_weight": 0.379683421289327,
+            "mass_center": 0.11931648203382236,
+            "mass_temperature": 0.13599596937122402,
+            "move_fraction": 0.20766015099964694,
+            "move_threshold": 0.06527970865742624,
+            "neighbor_capacity": 0.8822587732020106,
+            "retained_bias": 1.272222266211001,
+            "sweeps": 3,
+            "trust_center": 0.3933336623935702,
+            "trust_scale": 0.15710167374214373,
+            "trust_temperature": 0.4677920122702866,
+            "twohop_weight": 0.5058269055755924,
+            "unary_temperature": 0.574737273932911,
+            "view_balance": 0.48905106708299934
+          },
+          "pairwise_beta": 12.62628872374635,
+          "scale_broad": 0.04982371409535675,
+          "scale_fine": 0.9883790781232135,
+          "scale_registered": 0.07226072216753246,
+          "self_return_strength": 3.110102501912634,
+          "size_prior": 0.21903185044593113
+        },
+        "relation_floor": 0.05,
+        "relation_mix": 0.25,
+        "relation_power": 1.0,
+        "uncertainty_scale": 1.0
+      },
+      "config_id": "L01_MIX025"
+    },
+    {
+      "config": {
+        "base": {
+          "capacity_scale": 1000000.0,
+          "energy_tolerance": 1e-09,
+          "expansion_cycles": 1,
+          "local": {
+            "beta": 4.650285157500758,
+            "conflict_center": 0.2974324898377291,
+            "conflict_penalty": 0.38440626411761025,
+            "conflict_temperature": 0.2145526080624474,
+            "conflict_union_weight": 0.29485388417154273,
+            "edge_floor": 0.06846153857975981,
+            "high_weight": 0.6223253780102107,
+            "low_weight": 0.379683421289327,
+            "mass_center": 0.11931648203382236,
+            "mass_temperature": 0.13599596937122402,
+            "move_fraction": 0.20766015099964694,
+            "move_threshold": 0.06527970865742624,
+            "neighbor_capacity": 0.8822587732020106,
+            "retained_bias": 1.272222266211001,
+            "sweeps": 3,
+            "trust_center": 0.3933336623935702,
+            "trust_scale": 0.15710167374214373,
+            "trust_temperature": 0.4677920122702866,
+            "twohop_weight": 0.5058269055755924,
+            "unary_temperature": 0.574737273932911,
+            "view_balance": 0.48905106708299934
+          },
+          "pairwise_beta": 12.62628872374635,
+          "scale_broad": 0.04982371409535675,
+          "scale_fine": 0.9883790781232135,
+          "scale_registered": 0.07226072216753246,
+          "self_return_strength": 3.110102501912634,
+          "size_prior": 0.21903185044593113
+        },
+        "relation_floor": 0.05,
+        "relation_mix": 0.5,
+        "relation_power": 1.0,
+        "uncertainty_scale": 1.0
+      },
+      "config_id": "L02_MIX050"
+    },
+    {
+      "config": {
+        "base": {
+          "capacity_scale": 1000000.0,
+          "energy_tolerance": 1e-09,
+          "expansion_cycles": 1,
+          "local": {
+            "beta": 4.650285157500758,
+            "conflict_center": 0.2974324898377291,
+            "conflict_penalty": 0.38440626411761025,
+            "conflict_temperature": 0.2145526080624474,
+            "conflict_union_weight": 0.29485388417154273,
+            "edge_floor": 0.06846153857975981,
+            "high_weight": 0.6223253780102107,
+            "low_weight": 0.379683421289327,
+            "mass_center": 0.11931648203382236,
+            "mass_temperature": 0.13599596937122402,
+            "move_fraction": 0.20766015099964694,
+            "move_threshold": 0.06527970865742624,
+            "neighbor_capacity": 0.8822587732020106,
+            "retained_bias": 1.272222266211001,
+            "sweeps": 3,
+            "trust_center": 0.3933336623935702,
+            "trust_scale": 0.15710167374214373,
+            "trust_temperature": 0.4677920122702866,
+            "twohop_weight": 0.5058269055755924,
+            "unary_temperature": 0.574737273932911,
+            "view_balance": 0.48905106708299934
+          },
+          "pairwise_beta": 12.62628872374635,
+          "scale_broad": 0.04982371409535675,
+          "scale_fine": 0.9883790781232135,
+          "scale_registered": 0.07226072216753246,
+          "self_return_strength": 3.110102501912634,
+          "size_prior": 0.21903185044593113
+        },
+        "relation_floor": 0.05,
+        "relation_mix": 0.75,
+        "relation_power": 1.0,
+        "uncertainty_scale": 1.0
+      },
+      "config_id": "L03_MIX075"
+    },
+    {
+      "config": {
+        "base": {
+          "capacity_scale": 1000000.0,
+          "energy_tolerance": 1e-09,
+          "expansion_cycles": 1,
+          "local": {
+            "beta": 4.650285157500758,
+            "conflict_center": 0.2974324898377291,
+            "conflict_penalty": 0.38440626411761025,
+            "conflict_temperature": 0.2145526080624474,
+            "conflict_union_weight": 0.29485388417154273,
+            "edge_floor": 0.06846153857975981,
+            "high_weight": 0.6223253780102107,
+            "low_weight": 0.379683421289327,
+            "mass_center": 0.11931648203382236,
+            "mass_temperature": 0.13599596937122402,
+            "move_fraction": 0.20766015099964694,
+            "move_threshold": 0.06527970865742624,
+            "neighbor_capacity": 0.8822587732020106,
+            "retained_bias": 1.272222266211001,
+            "sweeps": 3,
+            "trust_center": 0.3933336623935702,
+            "trust_scale": 0.15710167374214373,
+            "trust_temperature": 0.4677920122702866,
+            "twohop_weight": 0.5058269055755924,
+            "unary_temperature": 0.574737273932911,
+            "view_balance": 0.48905106708299934
+          },
+          "pairwise_beta": 12.62628872374635,
+          "scale_broad": 0.04982371409535675,
+          "scale_fine": 0.9883790781232135,
+          "scale_registered": 0.07226072216753246,
+          "self_return_strength": 3.110102501912634,
+          "size_prior": 0.21903185044593113
+        },
+        "relation_floor": 0.05,
+        "relation_mix": 0.5,
+        "relation_power": 2.0,
+        "uncertainty_scale": 1.0
+      },
+      "config_id": "L04_MIX050_POWER2"
+    }
+  ],
+  "formula_frozen_before_label_evaluation": true,
+  "lane": "P22_K9",
+  "schema": "night17e-lrcc-registry-v1",
+  "selection_profiles": [
+    "FIXED_GLOBAL",
+    "DIRECT_PUBLIC_HPO",
+    "STRICT_LOSO"
+  ],
+  "starts": [
+    {
+      "role": "NIGHT16H_LOCKED_METHOD_START",
+      "source": "candidate_bank",
+      "source_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L06",
+      "start_id": "METHOD_NIGHT16H_START"
+    },
+    {
+      "role": "PREREGISTERED_KMEANS_ROBUSTNESS_START",
+      "source": "carrier_start",
+      "source_id": "KMEANS_RETAINED_S0",
+      "start_id": "ROBUSTNESS_0"
+    },
+    {
+      "role": "PREREGISTERED_KMEANS_ROBUSTNESS_START",
+      "source": "carrier_start",
+      "source_id": "KMEANS_RETAINED_S1",
+      "start_id": "ROBUSTNESS_1"
+    },
+    {
+      "role": "PREREGISTERED_KMEANS_ROBUSTNESS_START",
+      "source": "carrier_start",
+      "source_id": "KMEANS_RETAINED_S2",
+      "start_id": "ROBUSTNESS_2"
+    },
+    {
+      "role": "PREREGISTERED_KMEANS_ROBUSTNESS_START",
+      "source": "carrier_start",
+      "source_id": "KMEANS_RETAINED_S3",
+      "start_id": "ROBUSTNESS_3"
+    },
+    {
+      "role": "PREREGISTERED_KMEANS_ROBUSTNESS_START",
+      "source": "carrier_start",
+      "source_id": "KMEANS_RETAINED_S4",
+      "start_id": "ROBUSTNESS_4"
+    }
+  ]
+}

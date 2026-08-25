@@ -1,0 +1,26 @@
+{
+  "arm": "LEARNED_RELATION",
+  "candidate_id": "METHOD_NIGHT16H_START__L01_MIX025__LEARNED_RELATION",
+  "fit_json_sha256": "a302a140c92d529c7e69f61f123db92f9afaf77f288a40c5ed38a383858e137e",
+  "heldout_evaluation_file": "/root/night17e_working/formal/P22_K9/evaluation.csv",
+  "heldout_evaluation_files_read": 1,
+  "heldout_evaluation_sha256": "b9d9bf0a73ce9e87c143aa7b4a1029e1934374c8875e1dac53fb688051ea6542",
+  "lane": "P22_K9",
+  "metrics": {
+    "absolute_ari": "0.5874086392370448",
+    "absolute_nmi": "0.7089795962244985",
+    "ami": "0.7084759757106093",
+    "changed_from_initial": "2",
+    "cluster_sizes_full": "[1147, 624, 1514, 790, 1069, 1520, 543, 1824, 165]",
+    "fmi": "0.6486260038624131",
+    "gearys_c_macro": "0.06907106553423513",
+    "min_cluster_size_full": "165",
+    "morans_i_macro": "0.9334020650860757",
+    "neighbor_agreement": "0.9588620358018181"
+  },
+  "partition_sha256": "f065bf35bc942b514a27b9663e9c8c53bf4f220c73d0fd393d43f21aaee9d809",
+  "producer_json_sha256": "2a4107354b0766a960ee2c34e93da123fcac6d3b08218fb823e33ad31265778c",
+  "schema": "night17e-strict-loso-heldout-evaluation-v1",
+  "selected_config_id": "L01_MIX025",
+  "start_id": "METHOD_NIGHT16H_START"
+}

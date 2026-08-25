@@ -1,0 +1,53 @@
+{
+  "classification_if_failed": "SCIENTIFIC_NEGATIVE",
+  "expansion_allowed": false,
+  "gate_passed": false,
+  "lane_details": [
+    {
+      "control_independent": false,
+      "dominating_controls": [],
+      "dual_positive_vs_night16h": false,
+      "equivalent_controls": [
+        "ZERO_RELATION"
+      ],
+      "lane": "P22_K9",
+      "learned_partition_changed_vs_disabled": true,
+      "min_cluster_size_full": 165,
+      "third_lane_within_drawdown_bound": true
+    },
+    {
+      "control_independent": false,
+      "dominating_controls": [],
+      "dual_positive_vs_night16h": false,
+      "equivalent_controls": [
+        "RELATION_DISABLED",
+        "ZERO_RELATION",
+        "UNIFORM_MASS_MATCHED"
+      ],
+      "lane": "MISAR_K7",
+      "learned_partition_changed_vs_disabled": false,
+      "min_cluster_size_full": 125,
+      "third_lane_within_drawdown_bound": true
+    },
+    {
+      "control_independent": false,
+      "dominating_controls": [
+        "RELATION_DISABLED",
+        "UNIFORM_MASS_MATCHED",
+        "PERMUTED_RELATION"
+      ],
+      "dual_positive_vs_night16h": false,
+      "equivalent_controls": [],
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "learned_partition_changed_vs_disabled": true,
+      "min_cluster_size_full": 34,
+      "third_lane_within_drawdown_bound": true
+    }
+  ],
+  "required_control_independent_lanes": 2,
+  "required_dual_positive_lanes": 2,
+  "schema": "night17e-mechanism-gate-v1",
+  "strict_loso_control_independent_lanes": 0,
+  "strict_loso_dual_positive_lanes": 0,
+  "strict_loso_within_drawdown_bound_lanes": 3
+}

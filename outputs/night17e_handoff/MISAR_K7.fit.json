@@ -1,0 +1,104 @@
+{
+  "config_scores": {
+    "L01_MIX025": {
+      "complexity": 0.25,
+      "dual_positive_count": 1,
+      "mean_delta_ari": 0.001836495656477477,
+      "mean_delta_nmi": 0.0031139054138768496,
+      "per_lane": [
+        {
+          "delta_ari": 0.0037969057140678775,
+          "delta_nmi": 0.006221835751261118,
+          "lane": "HUMAN_HIPPOCAMPUS_K7"
+        },
+        {
+          "delta_ari": -0.0001239144011129234,
+          "delta_nmi": 5.975076492581444e-06,
+          "lane": "P22_K9"
+        }
+      ],
+      "worst_delta_ari": -0.0001239144011129234
+    },
+    "L02_MIX050": {
+      "complexity": 0.5,
+      "dual_positive_count": 1,
+      "mean_delta_ari": -0.0008912213807129588,
+      "mean_delta_nmi": -0.0005827971206357474,
+      "per_lane": [
+        {
+          "delta_ari": -0.0018687027588051297,
+          "delta_nmi": -0.0013010770664372284,
+          "lane": "HUMAN_HIPPOCAMPUS_K7"
+        },
+        {
+          "delta_ari": 8.62599973792122e-05,
+          "delta_nmi": 0.00013548282516573362,
+          "lane": "P22_K9"
+        }
+      ],
+      "worst_delta_ari": -0.0018687027588051297
+    },
+    "L03_MIX075": {
+      "complexity": 0.75,
+      "dual_positive_count": 1,
+      "mean_delta_ari": -0.0008674457397732649,
+      "mean_delta_nmi": -0.0006014997386102894,
+      "per_lane": [
+        {
+          "delta_ari": -0.0021052765217133285,
+          "delta_nmi": -0.0018154483751191552,
+          "lane": "HUMAN_HIPPOCAMPUS_K7"
+        },
+        {
+          "delta_ari": 0.0003703850421667987,
+          "delta_nmi": 0.0006124488978985765,
+          "lane": "P22_K9"
+        }
+      ],
+      "worst_delta_ari": -0.0021052765217133285
+    },
+    "L04_MIX050_POWER2": {
+      "complexity": 0.6,
+      "dual_positive_count": 1,
+      "mean_delta_ari": -0.0007088409559967146,
+      "mean_delta_nmi": -0.0004915401554492216,
+      "per_lane": [
+        {
+          "delta_ari": -0.0015039419093726414,
+          "delta_nmi": -0.0011185631360641768,
+          "lane": "HUMAN_HIPPOCAMPUS_K7"
+        },
+        {
+          "delta_ari": 8.62599973792122e-05,
+          "delta_nmi": 0.00013548282516573362,
+          "lane": "P22_K9"
+        }
+      ],
+      "worst_delta_ari": -0.0015039419093726414
+    }
+  },
+  "heldout_evaluation_files_read": 0,
+  "heldout_lane": "MISAR_K7",
+  "mechanical_rule": [
+    "maximum count of training lanes with delta ARI>0 and delta NMI>0",
+    "maximum worst training-lane delta ARI",
+    "maximum mean delta ARI",
+    "maximum mean delta NMI",
+    "lower declared complexity",
+    "lexically smaller config id"
+  ],
+  "schema": "night17e-strict-loso-fit-v1",
+  "selected_config_id": "L01_MIX025",
+  "training_evaluation_files": [
+    "/root/night17e_working/formal/P22_K9/evaluation.csv",
+    "/root/night17e_working/formal/HUMAN_HIPPOCAMPUS_K7/evaluation.csv"
+  ],
+  "training_evaluation_sha256": {
+    "/root/night17e_working/formal/HUMAN_HIPPOCAMPUS_K7/evaluation.csv": "15dcc6214c06aa85f005d2a5ab4adab17547698398601e6cb3b6977b3e53b6af",
+    "/root/night17e_working/formal/P22_K9/evaluation.csv": "b9d9bf0a73ce9e87c143aa7b4a1029e1934374c8875e1dac53fb688051ea6542"
+  },
+  "training_lanes": [
+    "HUMAN_HIPPOCAMPUS_K7",
+    "P22_K9"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "HUMAN_HIPPOCAMPUS_K7": {
+    "all_arrays_exact": true,
+    "metrics_exact": true,
+    "npz_arrays": {
+      "ids": true,
+      "partitions": true,
+      "run_ids": true
+    },
+    "partition_sha_sequence_exact": true,
+    "row_count": 126
+  },
+  "MISAR_K7": {
+    "all_arrays_exact": true,
+    "metrics_exact": true,
+    "npz_arrays": {
+      "ids": true,
+      "partitions": true,
+      "run_ids": true
+    },
+    "partition_sha_sequence_exact": true,
+    "row_count": 126
+  },
+  "P22_K9": {
+    "all_arrays_exact": true,
+    "metrics_exact": true,
+    "npz_arrays": {
+      "ids": true,
+      "partitions": true,
+      "run_ids": true
+    },
+    "partition_sha_sequence_exact": true,
+    "row_count": 126
+  }
+}

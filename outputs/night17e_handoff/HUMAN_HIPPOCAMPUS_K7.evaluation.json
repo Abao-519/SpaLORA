@@ -1,0 +1,26 @@
+{
+  "arm": "LEARNED_RELATION",
+  "candidate_id": "METHOD_NIGHT16H_START__L03_MIX075__LEARNED_RELATION",
+  "fit_json_sha256": "31e9b06e5b166630e5b0c1e38bcd22a374602ed02399d45aca7a859a99d1014f",
+  "heldout_evaluation_file": "/root/night17e_working/formal/HUMAN_HIPPOCAMPUS_K7/evaluation.csv",
+  "heldout_evaluation_files_read": 1,
+  "heldout_evaluation_sha256": "15dcc6214c06aa85f005d2a5ab4adab17547698398601e6cb3b6977b3e53b6af",
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "metrics": {
+    "absolute_ari": "0.5940730855751882",
+    "absolute_nmi": "0.5836740696557132",
+    "ami": "0.581818134538665",
+    "changed_from_initial": "10",
+    "cluster_sizes_full": "[34, 58, 300, 654, 164, 865, 425]",
+    "fmi": "0.6853408211044524",
+    "gearys_c_macro": "0.21388188076031067",
+    "min_cluster_size_full": "34",
+    "morans_i_macro": "0.7784135153450686",
+    "neighbor_agreement": "0.9028440932975853"
+  },
+  "partition_sha256": "857a1f7c5fa04f460714223b1b10d6c553e7c7d1c7038a8f03a85b4827825309",
+  "producer_json_sha256": "c230a6a26d1b1c48fef1524667a2971664fc43bb808b0eeca6a36a778930d58d",
+  "schema": "night17e-strict-loso-heldout-evaluation-v1",
+  "selected_config_id": "L03_MIX075",
+  "start_id": "METHOD_NIGHT16H_START"
+}
