@@ -1,0 +1,14 @@
+{
+  "blind_or_external_confirmation_claimed": false,
+  "candidate_partitions_locked_and_hashed_before_evaluator": true,
+  "direct_hpo_claim": "transparent public benchmark development only",
+  "producer_label_reads": 0,
+  "public_annotations_used_by": [
+    "independent evaluator",
+    "direct public benchmark HPO",
+    "two-study LOSO fit"
+  ],
+  "schema": "night17e-label-flow-audit-v1",
+  "strict_loso_fit_heldout_evaluation_files_read": 0,
+  "strict_loso_process_boundary": true
+}

@@ -1,0 +1,23 @@
+{
+  "keep_on": true,
+  "new_data_downloaded": false,
+  "new_environment_created": false,
+  "night17e_working_bytes": 4609662,
+  "persistent": {
+    "available_bytes": 92332154880,
+    "available_inodes": 64,
+    "path": "/autodl-fs/data",
+    "total_bytes": 214748364800,
+    "used_fraction": 0.5700448989868164
+  },
+  "root": {
+    "available_bytes": 2763456512,
+    "available_inodes": 1776737,
+    "path": "/",
+    "total_bytes": 31526391808,
+    "used_fraction": 0.9123446625662136
+  },
+  "shutdown_dispatched": false,
+  "source": "live os.statvfs plus bounded du -sb",
+  "timestamp_utc": "2026-08-25T19:53:34.244612+00:00"
+}
