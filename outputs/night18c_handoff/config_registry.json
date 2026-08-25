@@ -1,0 +1,63 @@
+{
+  "candidate_ids": [
+    "IDENTITY_RETAINED",
+    "IDENTITY_FUSED",
+    "T01_BALANCED__L2_LOWPASS",
+    "T01_BALANCED__GRAPH_TV_ONLY",
+    "T01_BALANCED__PRIVATE_ONLY",
+    "T01_BALANCED__FULL",
+    "T01_BALANCED__PERMUTED_PRIVATE",
+    "T02_MORE_TV__L2_LOWPASS",
+    "T02_MORE_TV__GRAPH_TV_ONLY",
+    "T02_MORE_TV__PRIVATE_ONLY",
+    "T02_MORE_TV__FULL",
+    "T02_MORE_TV__PERMUTED_PRIVATE",
+    "T03_MORE_PRIVATE__L2_LOWPASS",
+    "T03_MORE_PRIVATE__GRAPH_TV_ONLY",
+    "T03_MORE_PRIVATE__PRIVATE_ONLY",
+    "T03_MORE_PRIVATE__FULL",
+    "T03_MORE_PRIVATE__PERMUTED_PRIVATE"
+  ],
+  "configs": {
+    "T01_BALANCED": {
+      "config_id": "T01_BALANCED",
+      "gamma_private": 0.06,
+      "huber_delta": 0.35,
+      "iterations": 40,
+      "lambda_tv": 0.06,
+      "step_r": 0.2,
+      "step_z": 0.08,
+      "trend_dimension": 24,
+      "trend_weight": 0.35,
+      "tv_epsilon": 0.0001
+    },
+    "T02_MORE_TV": {
+      "config_id": "T02_MORE_TV",
+      "gamma_private": 0.06,
+      "huber_delta": 0.35,
+      "iterations": 40,
+      "lambda_tv": 0.12,
+      "step_r": 0.2,
+      "step_z": 0.08,
+      "trend_dimension": 24,
+      "trend_weight": 0.35,
+      "tv_epsilon": 0.0001
+    },
+    "T03_MORE_PRIVATE": {
+      "config_id": "T03_MORE_PRIVATE",
+      "gamma_private": 0.12,
+      "huber_delta": 0.35,
+      "iterations": 40,
+      "lambda_tv": 0.06,
+      "step_r": 0.2,
+      "step_z": 0.08,
+      "trend_dimension": 24,
+      "trend_weight": 0.35,
+      "tv_epsilon": 0.0001
+    }
+  },
+  "endpoint": "COMMON_KMEANS_N20_S0",
+  "labels_available_to_producer": false,
+  "same_candidate_schema_all_lanes": true,
+  "schema": "night18c-stage-a-pre-evaluation-grid-v1"
+}

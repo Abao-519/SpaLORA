@@ -1,0 +1,37 @@
+[
+  {
+    "action": "reissued a literal command without substitution",
+    "id": "E01",
+    "issue": "PowerShell interpreted command substitution while creating remote directories",
+    "phase": "preformal",
+    "scientific_outputs_affected": 0
+  },
+  {
+    "action": "used python -m from repository root",
+    "id": "E02",
+    "issue": "script-path execution omitted repository package from sys.path",
+    "phase": "preformal",
+    "scientific_outputs_affected": 0
+  },
+  {
+    "action": "added same-spot orthogonal Procrustes alignment and rotation hash before any label evaluation",
+    "id": "S01",
+    "issue": "independent PCA score axes were shape-compatible but not coordinate-compatible",
+    "phase": "preformal",
+    "scientific_outputs_affected": 0
+  },
+  {
+    "action": "constructed the string label array element-wise; producer partitions and hashes were unchanged",
+    "id": "E03",
+    "issue": "pandas categorical cannot fill an unseen missing-value category",
+    "phase": "evaluation",
+    "scientific_outputs_affected": 0
+  },
+  {
+    "action": "retained results because arrays were finite and exact replay passed; warning has no formula effect",
+    "id": "W01",
+    "issue": "SciPy emitted CSR structural-edit efficiency warnings",
+    "phase": "all",
+    "scientific_outputs_affected": 0
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "HUMAN_HIPPOCAMPUS_K7": {
+    "array_equal": true,
+    "keys_equal": true,
+    "original_sha256": "33e614ffca9186915253073bf0c99aa528acdde3f76e899e4cf430fad126cb59",
+    "partition_exact": true,
+    "replay_sha256": "33e614ffca9186915253073bf0c99aa528acdde3f76e899e4cf430fad126cb59",
+    "status": "PASS"
+  },
+  "MISAR_K7": {
+    "array_equal": true,
+    "keys_equal": true,
+    "original_sha256": "c5c4a0f8439dfad754e223a598038d564cdd572b0980f912ec6ecc90aed6c1b0",
+    "partition_exact": true,
+    "replay_sha256": "c5c4a0f8439dfad754e223a598038d564cdd572b0980f912ec6ecc90aed6c1b0",
+    "status": "PASS"
+  },
+  "P22_K9": {
+    "array_equal": true,
+    "keys_equal": true,
+    "original_sha256": "9956e64e369fcc1c0b693594e87fc69f137c87daf36c87439cedde10837b95c5",
+    "partition_exact": true,
+    "replay_sha256": "9956e64e369fcc1c0b693594e87fc69f137c87daf36c87439cedde10837b95c5",
+    "status": "PASS"
+  }
+}
