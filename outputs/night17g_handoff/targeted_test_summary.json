@@ -1,0 +1,9 @@
+{
+  "command": "python -m pytest -q tests/test_night17g_csbo.py",
+  "exit_code": 0,
+  "failed": 0,
+  "passed": 7,
+  "schema": "night17g-targeted-tests-v1",
+  "source": "targeted_tests.log",
+  "timestamp_utc": "2026-08-25T20:46:49Z"
+}

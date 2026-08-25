@@ -1,0 +1,12 @@
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_night17g_csbo.py::test_states_finite_nonnegative_and_no_self
+tests/test_night17g_csbo.py::test_permutation_deterministic_nonidentity_mass_preserved
+tests/test_night17g_csbo.py::test_edge_order_invariant_graph_storage
+tests/test_night17g_csbo.py::test_arm_weights_are_distinct
+tests/test_night17g_csbo.py::test_small_train_reload_exact_and_parameter_change
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 5 warnings in 1.91s

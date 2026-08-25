@@ -1,0 +1,16 @@
+{
+  "after_bytes_observed": 30408704,
+  "before_bytes_approx": 743440384,
+  "historical_repo_or_raw_touched": false,
+  "reason": "system disk protection; retain only audited source text and metadata",
+  "recorded_commits_before_cleanup": true,
+  "removed_task_clone_payloads": [
+    "SpaAlign/data",
+    "ARISE/ARISE/data",
+    "stDGCC/model",
+    "stDGCC/embedding",
+    "stDGCC/generated_data",
+    "all five task-clone .git/objects"
+  ],
+  "scope": "/root/night17g_working/source_audit only"
+}

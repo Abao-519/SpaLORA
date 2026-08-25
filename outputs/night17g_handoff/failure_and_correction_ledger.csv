@@ -1,0 +1,5 @@
+id,status,issue,correction
+E01,SUPERSEDED_PREFORMAL,Ordinal rank split exact similarity ties by sparse edge order.,Replaced by deterministic midrank before formal rerun; preserved old artifacts under superseded_ordinal_rank_preformal.
+E02,CORRECTED_BEFORE_FORMAL,np.isclose identity comparison and attraction-only mass audit.,Used boolean negation and audited attraction/boundary/conflict base-weighted mass.
+E03,CORRECTED_BEFORE_FORMAL,Permuted states did not preserve base-weighted channel capacity.,Deterministic within-weight-stratum permutation plus exact per-channel base-weighted mass matching.
+E04,DISPLAY_ALIAS_ONLY,FROZEN_RETAINED_SAME_HEAD could be misread as the Night-16H energy head.,Report alias is FROZEN_RETAINED_KMEANS_ENDPOINT; artifacts remain immutable.

@@ -1,0 +1,137 @@
+[
+  {
+    "authority": {
+      "candidate_bank_path": "/root/night16g_working/candidate_features/P22_K9.npz",
+      "candidate_bank_sha256": "c69acbc55c46d38a697a79c38a1afa010256ac06b33662ea649ef414c7ee21cf",
+      "candidate_count": 89,
+      "carrier_path": "/root/night16f_working/carriers/P22_K9.npz",
+      "carrier_sha256": "cb806fe6cc9f89910e88c2884f92bfb399c3104943d327964e78b94718303766",
+      "graph0_sha256": "81ea13a2fa5659a35df10b91e92d164b91c4aacf17b4636a7daf7369f0d7f322",
+      "ordered_ids_sha256": "72dc4517ce5074bb481e8d9eeae82f3d720a06ca06ae0d2ca142124579564e35",
+      "strong_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L06",
+      "strong_candidate_unique_match": true
+    },
+    "candidate_count": 14,
+    "edge_state": {
+      "attraction_mean": 0.2709985077381134,
+      "boundary_mean": 0.270998477935791,
+      "conflict_mean": 0.45800304412841797,
+      "edge_count": 18584,
+      "simplex_max_absolute_error": 4.470348358154297e-08,
+      "view_rank_spearman": 0.25195482082978443
+    },
+    "graph0": [
+      9196,
+      9196,
+      37168
+    ],
+    "k": 9,
+    "lane": "P22_K9",
+    "n": 9196,
+    "peak_gpu_mib": 149.53271484375,
+    "peak_rss_mib": 943.56640625,
+    "retained": [
+      9196,
+      64
+    ],
+    "view1": [
+      9196,
+      30
+    ],
+    "view2": [
+      9196,
+      50
+    ],
+    "wall_seconds": 7.545810222625732
+  },
+  {
+    "authority": {
+      "candidate_bank_path": "/root/night16g_working/candidate_features/MISAR_K7.npz",
+      "candidate_bank_sha256": "32f74f4539c7e949ed7410cba801762c4b8c912357b5478d05af2c5672317642",
+      "candidate_count": 89,
+      "carrier_path": "/root/night16f_working/carriers/MISAR_K7.npz",
+      "carrier_sha256": "f5fdc3a6005b3129b1d6e810774226c3117880245d7ed3b6df0b9f9f69141af4",
+      "graph0_sha256": "7e0d493c762d7923e094948afb73967aea7d04ba9904c186ea25ae032cc579b1",
+      "ordered_ids_sha256": "fe7c7c8e42bf7e7d41c3f6a45ae955fe9cd8419e857d2542b86562442fd6564f",
+      "strong_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L06",
+      "strong_candidate_unique_match": true
+    },
+    "candidate_count": 14,
+    "edge_state": {
+      "attraction_mean": 0.28395116329193115,
+      "boundary_mean": 0.28395116329193115,
+      "conflict_mean": 0.4320976734161377,
+      "edge_count": 4035,
+      "simplex_max_absolute_error": 4.470348358154297e-08,
+      "view_rank_spearman": 0.40721198008190457
+    },
+    "graph0": [
+      1949,
+      1949,
+      8070
+    ],
+    "k": 7,
+    "lane": "MISAR_K7",
+    "n": 1949,
+    "peak_gpu_mib": 40.4755859375,
+    "peak_rss_mib": 852.86328125,
+    "retained": [
+      1949,
+      64
+    ],
+    "view1": [
+      1949,
+      30
+    ],
+    "view2": [
+      1949,
+      50
+    ],
+    "wall_seconds": 4.197182655334473
+  },
+  {
+    "authority": {
+      "candidate_bank_path": "/root/night16g_working/candidate_features/HUMAN_HIPPOCAMPUS_K7.npz",
+      "candidate_bank_sha256": "c2e2c418f8444ec637f130fa1b3422ac75d2c24c30f322fb4be9c5138591085a",
+      "candidate_count": 89,
+      "carrier_path": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz",
+      "carrier_sha256": "7f800a383d5c322ec2e8de8333ae0fcf2ef98daa8a4562d2859de4b51494bf0a",
+      "graph0_sha256": "8df1020bd1a237afc7770bd534a36ffa11cf0bced7db17f251d9dda732fd62e5",
+      "ordered_ids_sha256": "8180a8ea37747d084ad35a628cdf49763ac326393dc52aa08751b40284eb58d8",
+      "strong_candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+      "strong_candidate_unique_match": true
+    },
+    "candidate_count": 14,
+    "edge_state": {
+      "attraction_mean": 0.2646471858024597,
+      "boundary_mean": 0.2646471858024597,
+      "conflict_mean": 0.47070562839508057,
+      "edge_count": 5100,
+      "simplex_max_absolute_error": 4.470348358154297e-08,
+      "view_rank_spearman": 0.17569733348453015
+    },
+    "graph0": [
+      2500,
+      2500,
+      10200
+    ],
+    "k": 7,
+    "lane": "HUMAN_HIPPOCAMPUS_K7",
+    "n": 2500,
+    "peak_gpu_mib": 48.041015625,
+    "peak_rss_mib": 873.09375,
+    "retained": [
+      2500,
+      64
+    ],
+    "view1": [
+      2500,
+      64
+    ],
+    "view2": [
+      2500,
+      64
+    ],
+    "wall_seconds": 4.423547267913818
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "arms": [
+    "BACKBONE_NO_CSBO",
+    "FULL_CSBO",
+    "PERMUTED_EDGE_STATES",
+    "UNSIGNED_ONLY",
+    "BOUNDARY_TO_ABSTAIN",
+    "CONFLICT_AS_POSITIVE"
+  ],
+  "configs": [
+    {
+      "anchor_weight": 4.0,
+      "config_id": "C01_CONSERVATIVE",
+      "edge_weight": 0.5,
+      "hidden_dim": 32,
+      "learning_rate": 0.0008,
+      "prototype_weight": 0.25,
+      "reconstruction_weight": 0.5,
+      "repulsion_margin": 0.2,
+      "residual_scale": 0.08,
+      "steps": 35
+    },
+    {
+      "anchor_weight": 2.0,
+      "config_id": "C02_BALANCED",
+      "edge_weight": 1.0,
+      "hidden_dim": 32,
+      "learning_rate": 0.001,
+      "prototype_weight": 0.25,
+      "reconstruction_weight": 0.5,
+      "repulsion_margin": 0.2,
+      "residual_scale": 0.15,
+      "steps": 45
+    }
+  ],
+  "endpoint_alias": {
+    "artifact_name": "FROZEN_RETAINED_SAME_HEAD",
+    "display_name": "FROZEN_RETAINED_KMEANS_ENDPOINT",
+    "reason": "This endpoint is prototype-initialized KMeans, not the Night-16H alpha-expansion graph-cut head."
+  },
+  "formula": "s1,s2 are per-lane empirical-CDF midranks of dual-modal cosine similarity on registered graph0 edges; a=s1*s2; b=(1-s1)*(1-s2); c=s1*(1-s2)+(1-s1)*s2; a+b+c=1; a attracts, b repels by normalized cosine-margin loss, c abstains",
+  "permuted_control": {
+    "base_weighted_state_masses_matched": true,
+    "loss_mass_normalization": "Attraction and boundary losses are separately divided by their active base-weighted mass, removing global channel scale. It does not remove location-dependent weighting; the permuted control tests that remaining location effect."
+  }
+}
