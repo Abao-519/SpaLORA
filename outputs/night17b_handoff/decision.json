@@ -1,0 +1,21 @@
+{
+  "autodl_state_instruction": "KEEP_ON_FOR_AUTONOMOUS_WORK",
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "labels_used_for_producer_or_gradient": 0,
+  "labels_used_post_lock_for_benchmark_hpo": 1,
+  "multi_seed_confirmation_status": "SUPERSEDED_PREMATURE_CONFIRMATION_DUE_GATE_BUG",
+  "primary_lanes": [
+    "P22_K9",
+    "MISAR_K7",
+    "HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "schema": "night17b-sfrd-p0-decision-v1",
+  "secondary_signal": "P22_REPRESENTATION_LOCAL_SIGNAL",
+  "selected_config_id": "F03_ANCHORED",
+  "selection_semantics": "post-lock transparent label-assisted family benchmark HPO; strict gate uses coordinate-wise strongest frozen-carrier and feasible-head controls",
+  "shutdown_dispatched": false,
+  "status": "NIGHT17B_SFRD_NOT_IDENTIFIABLE",
+  "strict_dual_positive_lanes": 1,
+  "strict_gate": "full learned representation must exceed both frozen-retained and feasible-consensus same-head controls in ARI and NMI on at least 2 of 3 primary lanes",
+  "strict_gate_passed": false
+}

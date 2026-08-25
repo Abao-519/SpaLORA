@@ -1,0 +1,34 @@
+{
+  "configs_materialized_before_label_evaluation": true,
+  "created_utc": "2026-08-25T17:49:37.467007+00:00",
+  "formula_revision_after_evaluation": false,
+  "lane_artifacts": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "checkpoint_sha256": "4d94176d03f060cf22d787d6f7a75219c5288d6ac0bb466ad810d3288d096e53",
+      "partition_sha256": "132b46caa86e4c6994575536fc10fa70fe8de12cc8e93c128fbae51224a3db37",
+      "producer_artifact_sha256": "d722db29657ea9d97a1a54b1d1b2d407639df00e34cd79467a62a4d16ec643d7",
+      "representation_sha256": "9a0611d270621d316299b1b256b06eefebcdbc5a8c5625c0ecbc7548d4020eeb"
+    },
+    "MISAR_K7": {
+      "checkpoint_sha256": "3a816aeeffbf8ff26948c8964e6350baab7e6a7b64a3a0aacf2083380dc27344",
+      "partition_sha256": "e9d3dbaa25fbb35760558361af52f21178273498de23bcd37cf733230d0b0170",
+      "producer_artifact_sha256": "9ede528d3f36a90c8aa3f959d016e88df42b4927a4dedb63f18acd7cc4f96c87",
+      "representation_sha256": "9a54ee2bae0ebb75edd43d93a4634cc8f11f15d26cea43b46fb52a2a12d0a14a"
+    },
+    "P22_K9": {
+      "checkpoint_sha256": "bdcfc20f8708e76e8be06b5827d2dec0a2e244983143ed176f1b697cee9e2ff6",
+      "partition_sha256": "e4cbf0bcf7b5403a321c37a32ff70053ae92c1c8f7920ae495e9d3c89a76fe84",
+      "producer_artifact_sha256": "418242b04797b666b96f98a9cebad21d5596c625b1ec22ffec7c1885b9dba4b0",
+      "representation_sha256": "1b96c3ea45b87f4760c9a87c8f2bdd3b65a5f3d9538f44ccfad432df463f5c82"
+    }
+  },
+  "schema": "night17b-sfrd-p0-freeze-v1",
+  "source_sha256": {
+    "SpaLORA/night17b_sfrd.py": "61369f6998c0f23949342e801ee3f978f1182e1e56c5cbe76e1fec8c82e01182",
+    "scripts/night17b/night17b_evaluator.py": "8ceed0d62b8064c850f733dc8d32f67f0d7429b4f3568c47c4b1b595586e5e29",
+    "scripts/night17b/night17b_producer.py": "4b77faedde05f36793730f49969529026a0ab9ca6636774b0bc0b00592085d02",
+    "scripts/night17b/night17b_replay.py": "438a0cd24af2ed019dc620fa580b5bee5a168983a4b7064df85a20906b0ee8eb",
+    "scripts/night17b/select_family_config.py": "f5183b84b4dc0fcb977397d8a3b5b30302a53cb5d3e2bfc68cf369abe4712601",
+    "tests/test_night17b_sfrd.py": "6f7a39be8ab46fea11be0229008eb3d37d36251c04d3e01a3e9aa75d753fedb5"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dense_n_by_n": 0,
+  "lane_resources": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "peak_gpu_mb": 40.060546875,
+      "peak_rss_mb": 855.80859375,
+      "wall_seconds": 15.423510313034058
+    },
+    "MISAR_K7": {
+      "peak_gpu_mb": 31.96630859375,
+      "peak_rss_mb": 851.04296875,
+      "wall_seconds": 8.96213984489441
+    },
+    "P22_K9": {
+      "peak_gpu_mb": 92.62353515625,
+      "peak_rss_mb": 1423.54296875,
+      "wall_seconds": 29.90311026573181
+    }
+  },
+  "no_download": true,
+  "no_new_environment": true,
+  "no_raw_copy": true,
+  "persistent_available_bytes_after": 92332154880,
+  "persistent_available_inodes_after": 64,
+  "schema": "night17b-resource-audit-v1",
+  "shutdown_dispatched": false,
+  "snapshot_source": "live os.statvfs plus bounded recursive file-size sum of /root/night17b_p0_working",
+  "snapshot_utc": "2026-08-25T17:49:37.469540+00:00",
+  "system_available_bytes_after": 2860404736,
+  "system_available_inodes_after": 1777582,
+  "working_tree_bytes": 2326342
+}

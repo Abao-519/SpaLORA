@@ -1,0 +1,98 @@
+{
+  "lanes": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "device": "cuda",
+      "fresh_process": true,
+      "full_weighted_runs": [
+        {
+          "partition_exact": true,
+          "partition_sha256": "381205faf0c8ce6571be5a7e8a1be55e7adce0b9369e047a454d7ece979be0c5",
+          "representation_exact": true,
+          "representation_sha256": "a56bebbb5c0af59a4fe9bd96ad85e03c13e6c0c1e7a502f8237ebc5556541b40",
+          "run_id": "F01_BALANCED__FULL_WEIGHTED__S0"
+        },
+        {
+          "partition_exact": true,
+          "partition_sha256": "6a345bfe85602e9fea376edf1715e675505ce191ed6c61d1c09a1bff68af5b43",
+          "representation_exact": true,
+          "representation_sha256": "48ebffff553c0da569be70a96fe7a1e900c9f4f6ab9ba427cfb64482ed572ce0",
+          "run_id": "F02_RELATION__FULL_WEIGHTED__S0"
+        },
+        {
+          "partition_exact": true,
+          "partition_sha256": "132b46caa86e4c6994575536fc10fa70fe8de12cc8e93c128fbae51224a3db37",
+          "representation_exact": true,
+          "representation_sha256": "9a0611d270621d316299b1b256b06eefebcdbc5a8c5625c0ecbc7548d4020eeb",
+          "run_id": "F03_ANCHORED__FULL_WEIGHTED__S0"
+        }
+      ],
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "schema": "night17b-sfrd-replay-v1",
+      "status": "PASS",
+      "strict_checkpoint_load": true
+    },
+    "MISAR_K7": {
+      "device": "cuda",
+      "fresh_process": true,
+      "full_weighted_runs": [
+        {
+          "partition_exact": true,
+          "partition_sha256": "86f3558cace505ac88a95dd490e83435e3036095bdd9ce29fbdbf99e9280a3f9",
+          "representation_exact": true,
+          "representation_sha256": "61b8e09d926ac95efb5b9408c2ff596b087aeb1f9a404f1d94d321ae9417d0c1",
+          "run_id": "F01_BALANCED__FULL_WEIGHTED__S0"
+        },
+        {
+          "partition_exact": true,
+          "partition_sha256": "cdc9826768a0266dd7ba8589df44923fe9a8765254cfe61c96eb8404bf290c15",
+          "representation_exact": true,
+          "representation_sha256": "9158f365d469a8dcebc0d92f303db335f935f1644779254be6b3485ea6f09569",
+          "run_id": "F02_RELATION__FULL_WEIGHTED__S0"
+        },
+        {
+          "partition_exact": true,
+          "partition_sha256": "e9d3dbaa25fbb35760558361af52f21178273498de23bcd37cf733230d0b0170",
+          "representation_exact": true,
+          "representation_sha256": "9a54ee2bae0ebb75edd43d93a4634cc8f11f15d26cea43b46fb52a2a12d0a14a",
+          "run_id": "F03_ANCHORED__FULL_WEIGHTED__S0"
+        }
+      ],
+      "lane": "MISAR_K7",
+      "schema": "night17b-sfrd-replay-v1",
+      "status": "PASS",
+      "strict_checkpoint_load": true
+    },
+    "P22_K9": {
+      "device": "cuda",
+      "fresh_process": true,
+      "full_weighted_runs": [
+        {
+          "partition_exact": true,
+          "partition_sha256": "56ede2736a34b0b77554e068c2d3574b5e025f644a564be580e9fd62295b9476",
+          "representation_exact": true,
+          "representation_sha256": "190e043acccc4b7b1de8b8e5a7cf703b84d68356fc5a79c12dc07a155a1281ce",
+          "run_id": "F01_BALANCED__FULL_WEIGHTED__S0"
+        },
+        {
+          "partition_exact": true,
+          "partition_sha256": "1e19f19f92ba45b36558aad52d3c221ce54639c0fb2a322184eb9bc5899da869",
+          "representation_exact": true,
+          "representation_sha256": "429e008995f26f3b73a0065b35b2fe38ed1b18502162a1e00351b6b85f22f6c4",
+          "run_id": "F02_RELATION__FULL_WEIGHTED__S0"
+        },
+        {
+          "partition_exact": true,
+          "partition_sha256": "e4cbf0bcf7b5403a321c37a32ff70053ae92c1c8f7920ae495e9d3c89a76fe84",
+          "representation_exact": true,
+          "representation_sha256": "1b96c3ea45b87f4760c9a87c8f2bdd3b65a5f3d9538f44ccfad432df463f5c82",
+          "run_id": "F03_ANCHORED__FULL_WEIGHTED__S0"
+        }
+      ],
+      "lane": "P22_K9",
+      "schema": "night17b-sfrd-replay-v1",
+      "status": "PASS",
+      "strict_checkpoint_load": true
+    }
+  },
+  "schema": "night17b-replay-audit-v1"
+}

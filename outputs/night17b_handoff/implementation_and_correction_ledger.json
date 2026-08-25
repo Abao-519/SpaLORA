@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "action": "set explicit PYTHONPATH and rerun smoke",
+      "cycle": 1,
+      "issue": "producer script import lacked repository PYTHONPATH",
+      "scientific_change": false,
+      "type": "ENGINEERING"
+    },
+    {
+      "action": "fresh replay on same CUDA path",
+      "cycle": 2,
+      "issue": "CPU replay differed from GPU production numeric path",
+      "scientific_change": false,
+      "type": "ENGINEERING"
+    },
+    {
+      "action": "parse seed from locked run IDs and recompute evaluator tables",
+      "cycle": 3,
+      "issue": "evaluator hard-coded training_seed=0",
+      "scientific_change": false,
+      "type": "ENGINEERING"
+    },
+    {
+      "action": "gate now uses coordinate-wise strongest of frozen and feasible controls; premature multiseed marked superseded",
+      "cycle": 4,
+      "issue": "gate omitted feasible-consensus same-head control",
+      "scientific_change": false,
+      "type": "CONTRACT_IMPLEMENTATION"
+    }
+  ],
+  "schema": "night17b-correction-ledger-v1",
+  "superseded_artifacts_preserved": [
+    "/root/night17b_p0_working/confirmation/seed1",
+    "/root/night17b_p0_working/confirmation/seed2"
+  ]
+}
