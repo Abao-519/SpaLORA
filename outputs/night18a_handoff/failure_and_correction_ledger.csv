@@ -1,0 +1,5 @@
+id,type,status,issue,resolution
+E01,ENGINEERING,FIXED_PREFORMAL,first A1 P0 compared GPU training inference bytes directly with checkpoint reload,canonical CPU checkpoint consumer; GPU-to-CPU max absolute difference recorded; no evaluation from failed run
+S01,SCIENTIFIC,PRESERVED,A1 learned common endpoint did not beat frozen retained in both ARI and NMI,stopped cross-family expansion
+S02,SCIENTIFIC,PRESERVED,fixed structured decoder had no dual-metric independent gain on learned A1 or P22 embedding,decoder portability claim rejected
+L01,LIMITATION,DISCLOSED,retained anchors and public benchmark labels originate from historical development,classification restricted to local public-benchmark signal

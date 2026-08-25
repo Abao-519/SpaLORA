@@ -1,0 +1,6 @@
+{
+  "actual_pytest_output_sha256": "2399445f6dba565699f5e1eca420c101c6c650b43c739b53f0e63efb72d601e9",
+  "output": ".....                                                                    [100%]\n=============================== warnings summary ===============================\ntests/test_night18a.py: 19 warnings\n  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.\n    self._set_arrayXarray(i, j, x)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n5 passed, 19 warnings in 2.25s\n",
+  "passed": 5,
+  "status": "PASS"
+}

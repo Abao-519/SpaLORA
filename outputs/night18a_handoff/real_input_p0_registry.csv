@@ -1,0 +1,3 @@
+lane,family,n,k,view1_shape,view2_shape,retained_shape,ordered_ids_sha256,carrier_sha256,spatial_graph_nnz,feature_graph1_nnz,feature_graph2_nnz,optimizer_steps,parameter_changed,strict_reload_exact,producer_annotation_reads
+A1_K10,RNA_PROTEIN,3484,10,"[3484, 30]","[3484, 30]","[3484, 64]",9090a112df05c50a6e1c20e2ea58c23a08789ef5df477a7718a458bfd2291320,d0334a94189840278cd813d773de7b0e587e363f1d5c4a14ba5e340b4dc2b79e,14166,40830,42630,80,True,True,0
+P22_K9,RNA_CHROMATIN,9196,9,"[9196, 30]","[9196, 50]","[9196, 64]",72dc4517ce5074bb481e8d9eeae82f3d720a06ca06ae0d2ca142124579564e35,b86c3cfe2863bf893368840c09cd829d73d82a02c6af1c0e823ebed34654288b,37168,106664,123536,80,True,True,0

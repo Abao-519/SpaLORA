@@ -1,0 +1,21 @@
+{
+  "candidate_partitions_locked_before_evaluator": true,
+  "evaluator_label_reads_per_artifact": 1,
+  "labels_not_used_for": [
+    "input",
+    "loss",
+    "gradient",
+    "checkpoint",
+    "representation",
+    "candidate generation",
+    "feasibility",
+    "decoder selection within a run"
+  ],
+  "labels_used_for": [
+    "post-lock public benchmark metrics",
+    "transparent benchmark profile comparison"
+  ],
+  "producer_annotation_reads": 0,
+  "sanitized_numeric_carriers": 2,
+  "schema": "night18a-label-flow-v1"
+}
