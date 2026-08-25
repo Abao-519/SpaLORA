@@ -1,0 +1,10 @@
+{
+  "authority_slice_preparer": "mechanical preparer read the parent all-lane table once and wrote immutable one-row slices; it did not fit or select a configuration",
+  "direct_public_benchmark_hpo": "all three locked candidate evaluations used after feature freeze",
+  "feature_freeze_before_evaluation": true,
+  "feature_producer_label_reads": 0,
+  "fixed_global": "pre-registered before labels",
+  "melanoma_evaluation_reads": 0,
+  "schema": "night17d-label-flow-audit-v1",
+  "strict_loso": "fit process read two training evaluation files plus two one-row authority slices only; held-out selection was materialized before independent held-out evaluation"
+}

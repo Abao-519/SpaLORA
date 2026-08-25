@@ -1,0 +1,32 @@
+{
+  "config_id": "M0_T1_L0.5_U0",
+  "fitted_weights": {
+    "learned": 0.5,
+    "molecular": 0.0,
+    "topology": 1.0,
+    "uncertainty": 0.0
+  },
+  "freeze_sha256": "975909a75fdc280a253fd90601c1f40363028034fd26558e4ef7e0e4c16e9ef8",
+  "grid_size": 81,
+  "held_out_authority_files_read": 0,
+  "held_out_evaluation_files_read": 0,
+  "held_out_lane_not_loaded": "MISAR_K7",
+  "schema": "night17d-fitted-selector-v1",
+  "source_hashes": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "authority": "6a5ccefdc3738fc4ce200da603092fd9bbd699875245b17676f99a13b3c6e486",
+      "evaluation": "5a41a6220993c0dc17af08892cc1cdb0e3a89e282ebf8ff6d6885cff332d81b7",
+      "features": "438b5fee82dbde5599cc206c721a9c01e2d4fb1fd3c36f2cffa73767f4f3fa9d"
+    },
+    "P22_K9": {
+      "authority": "94b7f1c0ee97a32b99cfd7a994e0c93cfda111dc8a51f8988634b5668f6d8194",
+      "evaluation": "bcd24669c4309582acc578bf125e859e1f5a8527d897a293d44b6434855ed0d8",
+      "features": "8d8890f1965d5f312bd3018c2802d886ca892c1b33bec03f64c6969ef6c11e92"
+    }
+  },
+  "training_label_derived_evaluation_files_read": 2,
+  "training_lanes": [
+    "HUMAN_HIPPOCAMPUS_K7",
+    "P22_K9"
+  ]
+}

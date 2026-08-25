@@ -1,0 +1,122 @@
+{
+  "checkpoint_authority": "Night-17C Z01 seeds 0/1/2 strict reload; learned, zero, and permuted representation SHA matched",
+  "fresh_process_feature_replay": {
+    "candidate_feature_label_reads": 0,
+    "features": {
+      "HUMAN_HIPPOCAMPUS_K7": {
+        "exact": true,
+        "replay1_sha256": "438b5fee82dbde5599cc206c721a9c01e2d4fb1fd3c36f2cffa73767f4f3fa9d",
+        "replay2_sha256": "438b5fee82dbde5599cc206c721a9c01e2d4fb1fd3c36f2cffa73767f4f3fa9d"
+      },
+      "MISAR_K7": {
+        "exact": true,
+        "replay1_sha256": "aa7800bc62519663c139ffa29bbcd442ec78efedf1f75dcb858c3d65c9085998",
+        "replay2_sha256": "aa7800bc62519663c139ffa29bbcd442ec78efedf1f75dcb858c3d65c9085998"
+      },
+      "P22_K9": {
+        "exact": true,
+        "replay1_sha256": "8d8890f1965d5f312bd3018c2802d886ca892c1b33bec03f64c6969ef6c11e92",
+        "replay2_sha256": "8d8890f1965d5f312bd3018c2802d886ca892c1b33bec03f64c6969ef6c11e92"
+      }
+    },
+    "fresh_process_exact": true,
+    "lanes": [
+      "HUMAN_HIPPOCAMPUS_K7",
+      "MISAR_K7",
+      "P22_K9"
+    ],
+    "schema": "night17d-feature-freeze-v1",
+    "selector_freeze_sha256": "975909a75fdc280a253fd90601c1f40363028034fd26558e4ef7e0e4c16e9ef8",
+    "source_sha256": {
+      "SpaLORA/night17b_sfrd.py": "61369f6998c0f23949342e801ee3f978f1182e1e56c5cbe76e1fec8c82e01182",
+      "SpaLORA/night17c_zero_start.py": "635eac0e264165fedc617640e67ae1b2f14b5def8b8fed61c8d2175b688a367c",
+      "SpaLORA/night17d_learned_evidence.py": "a02b37421ca99ac15f40a3970d27bed9d1ca21de9410ff209f3b365f89d6836a",
+      "scripts/night17d/build_learned_evidence.py": "2a9edfe55dbe1f21744c189f1d3b69884c01694a0d57bdc92dca953b7cd1d1e3"
+    }
+  },
+  "labels_read_by_feature_producer": 0,
+  "primary_lanes": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "candidate_count": 89,
+      "device": "cuda",
+      "feasible_candidate_count": 77,
+      "n": 2500,
+      "pair_count": 15608,
+      "peak_rss_mb": 886.03125,
+      "representation_hashes": {
+        "LEARNED": {
+          "0": "665f390379c8c474f85ec0e3150e76cd5e6e4d469b05dcccee75e911d7a401ec",
+          "1": "9ac3e6a954a9c6657f5906cb656963d09936f14bcabbc9a17b3e08ee7c2d65b0",
+          "2": "d516347c6a5e5910589747fbb56fa849c8a676968a9253a4564b6d762b90de11"
+        },
+        "PERMUTED": {
+          "0": "aed1b67fae416aacdb380d1bd64a5f5a03f493519a4286b40a9a1591bb145dfd",
+          "1": "857e0c3adc1daac0c84a6772afdfae34425cbfef3627c43ea936ffb9ea4f3fac",
+          "2": "9b16485a4b5b24785cff0ad6a4fce6e6b93958b748b187848858d2e6bdf4c457"
+        },
+        "ZERO": {
+          "0": "975c1ac3711087c9596a8253fb625e662b3826c422b1c6bec09dc9c2c5464c90",
+          "1": "975c1ac3711087c9596a8253fb625e662b3826c422b1c6bec09dc9c2c5464c90",
+          "2": "975c1ac3711087c9596a8253fb625e662b3826c422b1c6bec09dc9c2c5464c90"
+        }
+      },
+      "spatial_pair_count": 5100,
+      "wall_seconds": 10.377765893936157
+    },
+    "MISAR_K7": {
+      "candidate_count": 89,
+      "device": "cuda",
+      "feasible_candidate_count": 89,
+      "n": 1949,
+      "pair_count": 10029,
+      "peak_rss_mb": 881.85546875,
+      "representation_hashes": {
+        "LEARNED": {
+          "0": "aeb9a9abacd22aa743d495db7ee7734a61cd49a60bf756f08cd64b2732f52018",
+          "1": "1e618ff366000eb79b02ac2a2c766d085b7dadc969710c6b18900f146ec0d50c",
+          "2": "b7ff2e15b7c5b4dc4626bf8f4e4c598ea82d90a101d630234bcd31a023777a4c"
+        },
+        "PERMUTED": {
+          "0": "88c76f7dbaf2227bfe2efa75f3fed9a2efd2d28051ee591047c07debe9e2739a",
+          "1": "0c70785e4a40efc81777d2fe0b886b8876232abbb64b510cd3e22388cf0f5db8",
+          "2": "d25251cbe45e7c3bf33cee1a810fd1da1a2600f86352cda9e64509fd184db886"
+        },
+        "ZERO": {
+          "0": "14fd5e235cfd689b6698c55bf69fbea1b1b90bda93e9bc0e73c2330449dc66e0",
+          "1": "14fd5e235cfd689b6698c55bf69fbea1b1b90bda93e9bc0e73c2330449dc66e0",
+          "2": "14fd5e235cfd689b6698c55bf69fbea1b1b90bda93e9bc0e73c2330449dc66e0"
+        }
+      },
+      "spatial_pair_count": 4035,
+      "wall_seconds": 8.110719680786133
+    },
+    "P22_K9": {
+      "candidate_count": 89,
+      "device": "cuda",
+      "feasible_candidate_count": 89,
+      "n": 9196,
+      "pair_count": 47670,
+      "peak_rss_mb": 1424.6171875,
+      "representation_hashes": {
+        "LEARNED": {
+          "0": "41a0a4240b1cda18dfb167cb5e85863dec58e13f021c4be11d3db82ffc59dc99",
+          "1": "20c947bb53ca401019a564de825d37978d0a391b76ccca00dd4ebfb887d890f6",
+          "2": "bb85f651d518492695e7d8e6fa040c16833a1f779e6c902efac859147bc53942"
+        },
+        "PERMUTED": {
+          "0": "710a7faac3428c94342665bc3476b29f252f42153fc081200cdf12123715000f",
+          "1": "433588a799df2c510d6c2e2d7ba86d48974a85c44e68a5698cdb81e88fe9042b",
+          "2": "ad5cd31b414d3130ca30443a16fbd8f023cee7a0eb9d3dcefbc26c80add0d6ed"
+        },
+        "ZERO": {
+          "0": "d40843517bed7a57c3789506691c75ff39fa9c69fa4e7add6812a5ab00a63f15",
+          "1": "d40843517bed7a57c3789506691c75ff39fa9c69fa4e7add6812a5ab00a63f15",
+          "2": "d40843517bed7a57c3789506691c75ff39fa9c69fa4e7add6812a5ab00a63f15"
+        }
+      },
+      "spatial_pair_count": 18584,
+      "wall_seconds": 36.7631561756134
+    }
+  },
+  "schema": "night17d-real-p0-v1"
+}

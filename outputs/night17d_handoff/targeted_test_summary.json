@@ -1,0 +1,11 @@
+{
+  "coverage": [
+    "candidate-specific LOO",
+    "stratified permutation order",
+    "feasible-only order-invariant selection",
+    "training-lane-only fit"
+  ],
+  "failed": 0,
+  "passed": 6,
+  "pytest_command": "python -m pytest -q tests/test_night17d_learned_evidence.py"
+}

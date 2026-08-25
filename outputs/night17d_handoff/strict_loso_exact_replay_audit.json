@@ -1,0 +1,30 @@
+{
+  "all_exact": true,
+  "lanes": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "evaluation_exact": true,
+      "evaluation_replay1_sha256": "19d50002d596ce4c05c60af37e1adb31a7ee1d146fa68a281dca70e1e5e73164",
+      "evaluation_replay2_sha256": "19d50002d596ce4c05c60af37e1adb31a7ee1d146fa68a281dca70e1e5e73164",
+      "selection_exact": true,
+      "selection_replay1_sha256": "aa89ed0289767ff4f459d4427c177259aa04ef60c4ef4d21e743c66e363f4623",
+      "selection_replay2_sha256": "aa89ed0289767ff4f459d4427c177259aa04ef60c4ef4d21e743c66e363f4623"
+    },
+    "MISAR_K7": {
+      "evaluation_exact": true,
+      "evaluation_replay1_sha256": "e8478e5d6516766b8b386ed1c4d0f74608b2e3cbdc01f8de4e599688cd23f4db",
+      "evaluation_replay2_sha256": "e8478e5d6516766b8b386ed1c4d0f74608b2e3cbdc01f8de4e599688cd23f4db",
+      "selection_exact": true,
+      "selection_replay1_sha256": "c212771fed1c5d73d95b879cb4eded75ac6ea450e9ae6abf38ba3663373d5c70",
+      "selection_replay2_sha256": "c212771fed1c5d73d95b879cb4eded75ac6ea450e9ae6abf38ba3663373d5c70"
+    },
+    "P22_K9": {
+      "evaluation_exact": true,
+      "evaluation_replay1_sha256": "e66cf8b60820da615bf74c73ed39b0347e0c5105053d0202a7812122a75fc0e5",
+      "evaluation_replay2_sha256": "e66cf8b60820da615bf74c73ed39b0347e0c5105053d0202a7812122a75fc0e5",
+      "selection_exact": true,
+      "selection_replay1_sha256": "39719bbaa6dc950286366eca0268c8819efad9cd3a144b052fb37103d29f8462",
+      "selection_replay2_sha256": "39719bbaa6dc950286366eca0268c8819efad9cd3a144b052fb37103d29f8462"
+    }
+  },
+  "schema": "night17d-strict-loso-replay-v1"
+}

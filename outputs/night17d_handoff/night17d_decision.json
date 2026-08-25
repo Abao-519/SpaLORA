@@ -1,0 +1,15 @@
+{
+  "advancement_gate_passed": false,
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "independent_learned_evidence_contribution": false,
+  "learned_equals_zero_partition_lanes": 3,
+  "melanoma_run": false,
+  "next_direction": "new high-quality external RNA+ATAC data and a stronger native backbone",
+  "required_dual_improvement_lanes": 2,
+  "schema": "night17d-decision-v1",
+  "secondary_observation": "P22 strict LOSO selected 0.596390/0.718243, but the identical ZERO evidence selector selected the same partition",
+  "shutdown_dispatched": false,
+  "status": "NIGHT17D_LEARNED_EVIDENCE_SELECTOR_NOT_IDENTIFIABLE",
+  "stop_selector_repair_family": true,
+  "strict_loso_dual_improvement_lanes": 1
+}

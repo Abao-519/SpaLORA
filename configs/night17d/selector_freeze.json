@@ -1,0 +1,24 @@
+{
+  "schema": "night17d-selector-freeze-v1",
+  "formal_feasibility": "SMALLEST_SCALE_INTERNAL_EDGE",
+  "fixed_global": {"molecular": 1.0, "topology": 1.0, "learned": 1.0, "uncertainty": 0.5},
+  "grid": {
+    "molecular": [0.0, 0.5, 1.0],
+    "topology": [0.5, 1.0, 2.0],
+    "learned": [0.5, 1.0, 2.0],
+    "uncertainty": [0.0, 0.5, 1.0]
+  },
+  "fit_ranking": [
+    "max_dual_improvement_count_vs_night16h",
+    "max_worst_min_delta_ari_nmi",
+    "max_mean_delta_ari",
+    "max_mean_delta_nmi",
+    "min_weight_sum",
+    "lexical_config_id"
+  ],
+  "primary_lanes": ["P22_K9", "MISAR_K7", "HUMAN_HIPPOCAMPUS_K7"],
+  "feature_evidence": "mean within-lane percentile of learned explained variance, CH, q10 centroid margin, candidate-specific LOO relation alignment",
+  "uncertainty": "standard deviation of compressed evidence over frozen training seeds 0/1/2",
+  "relation_self_inclusion": "candidate-specific leave-one-candidate-out; full-posterior score retained only as sensitivity",
+  "labels_in_feature_producer": 0
+}

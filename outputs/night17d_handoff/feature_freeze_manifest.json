@@ -1,0 +1,34 @@
+{
+  "candidate_feature_label_reads": 0,
+  "features": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "exact": true,
+      "replay1_sha256": "438b5fee82dbde5599cc206c721a9c01e2d4fb1fd3c36f2cffa73767f4f3fa9d",
+      "replay2_sha256": "438b5fee82dbde5599cc206c721a9c01e2d4fb1fd3c36f2cffa73767f4f3fa9d"
+    },
+    "MISAR_K7": {
+      "exact": true,
+      "replay1_sha256": "aa7800bc62519663c139ffa29bbcd442ec78efedf1f75dcb858c3d65c9085998",
+      "replay2_sha256": "aa7800bc62519663c139ffa29bbcd442ec78efedf1f75dcb858c3d65c9085998"
+    },
+    "P22_K9": {
+      "exact": true,
+      "replay1_sha256": "8d8890f1965d5f312bd3018c2802d886ca892c1b33bec03f64c6969ef6c11e92",
+      "replay2_sha256": "8d8890f1965d5f312bd3018c2802d886ca892c1b33bec03f64c6969ef6c11e92"
+    }
+  },
+  "fresh_process_exact": true,
+  "lanes": [
+    "HUMAN_HIPPOCAMPUS_K7",
+    "MISAR_K7",
+    "P22_K9"
+  ],
+  "schema": "night17d-feature-freeze-v1",
+  "selector_freeze_sha256": "975909a75fdc280a253fd90601c1f40363028034fd26558e4ef7e0e4c16e9ef8",
+  "source_sha256": {
+    "SpaLORA/night17b_sfrd.py": "61369f6998c0f23949342e801ee3f978f1182e1e56c5cbe76e1fec8c82e01182",
+    "SpaLORA/night17c_zero_start.py": "635eac0e264165fedc617640e67ae1b2f14b5def8b8fed61c8d2175b688a367c",
+    "SpaLORA/night17d_learned_evidence.py": "a02b37421ca99ac15f40a3970d27bed9d1ca21de9410ff209f3b365f89d6836a",
+    "scripts/night17d/build_learned_evidence.py": "2a9edfe55dbe1f21744c189f1d3b69884c01694a0d57bdc92dca953b7cd1d1e3"
+  }
+}

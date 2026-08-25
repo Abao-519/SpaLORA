@@ -1,0 +1,5 @@
+id,type,issue,resolution,scientific_results_changed
+E01,ENGINEERING,Strict LOSO fit initially accepted a whole authority CSV,Fit now accepts only exact one-row authority slices for supplied training lanes; held-out files are not opened,False
+E02,ENGINEERING,Control-table shell loop lost a variable through local PowerShell interpolation,Replaced by Python orchestration; no scientific formula or result changed,False
+E03,ENGINEERING,Control partition check first used the Night-17B array hash dialect,Switched to the authoritative Night-16G partition_sha256 and validated all candidate sets/partitions,False
+S01,SCIENTIFIC,"Fixed global selector was weak, especially on human",Preserved as preregistered negative; no grid expansion,False

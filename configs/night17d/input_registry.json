@@ -1,0 +1,21 @@
+{
+  "schema": "night17d-input-registry-v1",
+  "lanes": {
+    "P22_K9": {"k": 9},
+    "MISAR_K7": {"k": 7},
+    "HUMAN_HIPPOCAMPUS_K7": {"k": 7}
+  },
+  "carrier_template": "/root/night16f_working/carriers/{lane}.npz",
+  "candidate_bank_template": "/root/night16g_working/candidate_features/{lane}.npz",
+  "feasibility_template": "/root/night16h_working/feasibility/{lane}.csv",
+  "seed_artifact_templates": {
+    "0": "/root/night17c_p0_working/formal/{lane}/producer.npz",
+    "1": "/root/night17c_p0_working/confirmation/seed1/{lane}/producer.npz",
+    "2": "/root/night17c_p0_working/confirmation/seed2/{lane}/producer.npz"
+  },
+  "seed_checkpoint_templates": {
+    "0": "/root/night17c_p0_working/formal/{lane}/checkpoint.pt",
+    "1": "/root/night17c_p0_working/confirmation/seed1/{lane}/checkpoint.pt",
+    "2": "/root/night17c_p0_working/confirmation/seed2/{lane}/checkpoint.pt"
+  }
+}
