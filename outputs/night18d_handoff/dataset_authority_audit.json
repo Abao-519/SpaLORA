@@ -1,0 +1,66 @@
+{
+  "atac_feature_names_sha256": "363e9b0a3f7ea495dc4b8643b19e53ffd61db14aa5e10727ff2162da5076e761",
+  "atac_features_equal": true,
+  "atac_semantic_name": "official processed ATAC-derived TF-associated regulatory features",
+  "atac_shape": [
+    1662,
+    63
+  ],
+  "atac_x_sparse": true,
+  "authority_gap": false,
+  "cell_type_counts": {
+    "EVT": 59,
+    "EVT-progenitor": 19,
+    "Endothelial": 53,
+    "Erythroblasts": 24,
+    "FIB1": 104,
+    "FIB2": 347,
+    "Hofbauer cells": 225,
+    "STB": 353,
+    "STB-progenitor": 40,
+    "vCTB": 438
+  },
+  "coordinates_equal_all_three": true,
+  "coordinates_sha256": "e843950213181924b9162ed83350e587092d12494ef55cbcd81510e543c9d8dd",
+  "expected_official_atac_sha256": "f53ef887ec5b96a79d19ded1ac21a7e4ef44ae0d07ab572706bc076350f1460d",
+  "files": {
+    "local_atac": {
+      "path": "/root/autodl-fs/Human placenta architecture/humanplacenta_atac.h5ad",
+      "sha256": "ed3ead8662a1dbeae01bec9b3b0a7e1a9f6b9a23825672b7e1c9b22887d1999e",
+      "size": 971780
+    },
+    "official_atac": {
+      "path": "/root/external_source_audit_20260826/humanplacenta_ATAC_official_repo.h5ad",
+      "sha256": "f53ef887ec5b96a79d19ded1ac21a7e4ef44ae0d07ab572706bc076350f1460d",
+      "size": 1272160
+    },
+    "rna": {
+      "path": "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad",
+      "sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+      "size": 60099502
+    }
+  },
+  "local_vs_official_atac_obs_columns_equal": true,
+  "local_vs_official_atac_obs_value_mismatches": [],
+  "local_vs_official_atac_x": {
+    "difference_nnz": 0,
+    "left_nnz": 52053,
+    "max_abs_difference": 0.0,
+    "numeric_equal": true,
+    "right_nnz": 52053,
+    "shape_equal": true
+  },
+  "n_joint_qc_cells": 1662,
+  "ordered_ids_equal_all_three": true,
+  "ordered_ids_sha256": "1c96ad9e6fdaa0486587d3f2f941022fc9abd1ac372bf93f59a7751c655991f4",
+  "reference_k": 10,
+  "reference_semantics": "original-author manually annotated cell-type partition after joint RNA/ATAC QC",
+  "rna_atac_cell_type_equal": true,
+  "rna_shape": [
+    1662,
+    36601
+  ],
+  "rna_x_sparse": true,
+  "schema": "night18d-human-placenta-authority-audit-v1",
+  "status": "PASS"
+}

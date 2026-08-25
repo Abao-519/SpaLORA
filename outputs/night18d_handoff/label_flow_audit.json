@@ -1,0 +1,18 @@
+{
+  "authority_audit_labels_read_for_provenance": true,
+  "candidate_count_locked_before_evaluator": 130,
+  "carrier_annotation_columns_accessed_by_numeric_computation": 0,
+  "evaluator_k": 10,
+  "evaluator_n": 1662,
+  "evaluator_reference_column": "cell_type",
+  "formal_artifact_sha256": "b27e3b7b210d755b43af4dc28585e3c14523701ac34ded9975bab1b7dd691074",
+  "producer_authority_json_allowlist": [
+    "authority_gap",
+    "status"
+  ],
+  "producer_input": "SANITIZED_NUMERIC_CARRIER",
+  "producer_labels_read": 0,
+  "public_k_used_by_producer": 10,
+  "source_container_obs_loaded_by_anndata": true,
+  "status": "PASS"
+}

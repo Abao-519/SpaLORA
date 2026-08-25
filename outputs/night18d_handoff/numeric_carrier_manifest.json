@@ -1,0 +1,122 @@
+{
+  "alignment": {
+    "alignment": "SAME_SPOT_ORTHOGONAL_PROCRUSTES",
+    "orthogonality_error": 9.977810887765604e-15,
+    "post_frobenius": 50.69219970703125,
+    "pre_frobenius": 58.138885498046875,
+    "rotation_sha256": "a52b5ee1b161605573fb9d2b1c46003f204c5fa6c18291ef89d76b5c8dee0939",
+    "singular_values": [
+      75.12353869812912,
+      34.07087030097417,
+      30.763172510755105,
+      26.288175024402914,
+      22.8208111616421,
+      19.08689493533434,
+      17.567945270423056,
+      14.907877634999737,
+      13.594359504883322,
+      12.183242101786863,
+      11.643705915370036,
+      10.030308713990424,
+      9.6476904981648,
+      8.93094664918275,
+      8.593229272006699,
+      8.217135360283189,
+      7.765607894225877,
+      7.230220585480199,
+      5.866443073627281,
+      5.086569086279947,
+      5.056814034641583,
+      4.762752799770709,
+      4.122833350654441,
+      3.8680864673944204,
+      3.109804159707166,
+      2.66090827699236,
+      1.818011108816573,
+      1.2720361780288962,
+      0.6941576087342745,
+      0.36624160252348115
+    ]
+  },
+  "annotation_columns_accessed_by_preprocessing_computation": 0,
+  "atac_input_shape": [
+    1662,
+    63
+  ],
+  "atac_preprocessing": {
+    "pca_dimension": 30,
+    "semantic_name": "official processed ATAC-derived TF-associated regulatory features",
+    "standardize": true,
+    "svd_solver": "full"
+  },
+  "atac_view_shape": [
+    1662,
+    30
+  ],
+  "authority_audit_fields_consumed": [
+    "authority_gap",
+    "status"
+  ],
+  "authority_audit_sha256": "741e87dfdba4ceb5293be0718f1bea4f41997144e5cd3053cc9367793c6ae81c",
+  "carrier_reload": "PASS",
+  "carrier_sha256": "08eaa461858eb3de987fc69803a5a124df834cf978a05a2f7d2b087a80b67dd5",
+  "coordinates_sha256": "eaa2204b488b129273b6ba61aaa2ffa305a45604b220a18c890bc203ba059e6c",
+  "dense_n_by_n_created": 0,
+  "graph_nnz": [
+    8308,
+    16196,
+    35890
+  ],
+  "graph_scales_knn": [
+    4,
+    8,
+    18
+  ],
+  "k_public_protocol": 10,
+  "n": 1662,
+  "ordered_ids_sha256": "1c96ad9e6fdaa0486587d3f2f941022fc9abd1ac372bf93f59a7751c655991f4",
+  "retained_shape": [
+    1662,
+    30
+  ],
+  "rna_hvg_indices_sha256": "687a2b2d21c7c937fa44dadd9d48037473ab2745194ba0d93865ca19b1886a8d",
+  "rna_hvg_var_names_sha256": "b462b50432a9dc133093efed5863de0112adfc7be40a2a1add32ff19f1557e52",
+  "rna_input_shape": [
+    1662,
+    36601
+  ],
+  "rna_preprocessing": {
+    "hvg": 3000,
+    "library_size": 10000,
+    "min_detected_cells": 5,
+    "svd_dimension": 30,
+    "svd_seed": 0,
+    "transform": "log1p"
+  },
+  "rna_view_shape": [
+    1662,
+    30
+  ],
+  "schema": "night18d-placenta-numeric-carrier-v1",
+  "source_atac_sha256": "f53ef887ec5b96a79d19ded1ac21a7e4ef44ae0d07ab572706bc076350f1460d",
+  "source_rna_sha256": "bfbd23ccf081cd7b1c1fc312519d049ec9700da1282cab01fe6f45f0b36b9fd5",
+  "start_bank_count": 13,
+  "start_names": [
+    "FUSED_KMEANS_S0",
+    "FUSED_KMEANS_S1",
+    "FUSED_KMEANS_S2",
+    "FUSED_KMEANS_S3",
+    "FUSED_KMEANS_S4",
+    "RNA_KMEANS_S0",
+    "RNA_KMEANS_S1",
+    "ATAC_REGULATORY_KMEANS_S0",
+    "ATAC_REGULATORY_KMEANS_S1",
+    "LOWPASS_FUSED_KMEANS_S0",
+    "LOWPASS_FUSED_KMEANS_S1",
+    "FUSED_GMM_DIAG_S0",
+    "FUSED_GMM_DIAG_S1"
+  ],
+  "start_partitions_sha256": "72cebfbcb22ae8a5270a6744208da3fe7b8004345718e456abf1a35c6c41f4f1",
+  "status": "FROZEN_BEFORE_PARTITION_EVALUATION",
+  "wall_seconds": 1.8362946882843971
+}

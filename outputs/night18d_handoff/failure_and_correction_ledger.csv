@@ -1,0 +1,6 @@
+id,type,event,impact,resolution,status
+E001,engineering,first carrier invocation used obsolete --audit/--manifest flags,no scientific artifact created,reran with declared CLI,CLOSED
+E002,engineering_semantics,official ATAC coordinates stored as numeric strings while RNA used float,array_equal failed despite exact numeric authority,cast both coordinate arrays to float64 and require exact equality,CLOSED
+E003,numerical_engineering,float32 Procrustes SVD exceeded strict orthogonality tolerance,carrier stopped before output,compute rotation in float64; preserve float32 views,CLOSED
+E004,engineering,/usr/bin/time unavailable (exit 127),formal producer did not start,reran identical command without unavailable wrapper,CLOSED
+S001,scientific,frozen full energy failed external matched controls,0/13 paired dual gains; headline far below controls,preserved; no post-label tuning,SCIENTIFIC_NEGATIVE

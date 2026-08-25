@@ -1,0 +1,16 @@
+{
+  "all_candidate_metrics_csv_byte_exact": true,
+  "formal_candidate_count": 130,
+  "formal_fresh_process_npz_byte_exact": true,
+  "p0_artifact_reload": "PASS",
+  "p0_candidate_count": 6,
+  "p0_fresh_process_npz_byte_exact": true,
+  "paired_start_ablation_csv_byte_exact": true,
+  "selected_main_table_csv_byte_exact": true,
+  "targeted_tests": {
+    "command": "python -m pytest -q tests/test_night18d_placenta_transfer.py",
+    "environment": "SpaLORA",
+    "failed": 0,
+    "passed": 5
+  }
+}

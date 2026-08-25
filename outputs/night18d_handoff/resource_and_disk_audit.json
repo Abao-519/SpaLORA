@@ -1,0 +1,27 @@
+{
+  "autodl_instruction": "KEEP_ON_FOR_WORKER2_REVIEW",
+  "captured_utc": "2026-08-25T23:32:38.919633+00:00",
+  "dense_n_by_n_created": false,
+  "filesystem_persistent_inode_limited": {
+    "block_size": 4096,
+    "bytes_available": 92332154880,
+    "bytes_total": 214748364800,
+    "inodes_available": 64,
+    "inodes_total": 200000,
+    "path": "/autodl-fs/data"
+  },
+  "filesystem_root": {
+    "block_size": 4096,
+    "bytes_available": 2348441600,
+    "bytes_total": 31526391808,
+    "inodes_available": 1775006,
+    "inodes_total": 1966080,
+    "path": "/"
+  },
+  "gpu_query": "NVIDIA GeForce RTX 4080 SUPER, 32760, 0",
+  "gpu_training_used": false,
+  "night18d_working_bytes": 1828215,
+  "repository_bytes": 1576509259,
+  "shutdown_dispatched": false,
+  "status": "LIVE_SNAPSHOT"
+}

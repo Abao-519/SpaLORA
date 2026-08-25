@@ -1,0 +1,17 @@
+{
+  "actual_output_log": "/root/night18d_working/logs/targeted_tests_final.log",
+  "actual_output_tail": [
+    "tests/test_night18d_placenta_transfer.py::test_categorical_spatial_metrics_are_label_permutation_invariant",
+    "  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.",
+    "    self._set_arrayXarray(i, j, x)",
+    "",
+    "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
+    "5 passed, 1 warning in 0.58s"
+  ],
+  "captured_utc": "2026-08-25T23:32:38.833143+00:00",
+  "command": "python -m pytest -q tests/test_night18d_placenta_transfer.py",
+  "environment": "SpaLORA",
+  "failed": 0,
+  "passed": 5,
+  "status": "PASS"
+}

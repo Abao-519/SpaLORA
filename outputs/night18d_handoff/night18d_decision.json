@@ -1,0 +1,28 @@
+{
+  "autodl_state_instruction": "KEEP_ON_FOR_WORKER2_REVIEW",
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "data_authority": "PASS",
+  "delta_vs_strongest_ari": -0.2915296350842953,
+  "delta_vs_strongest_nmi": -0.4007092089033065,
+  "external_frozen_method_gate_passed": false,
+  "formal_replay": "BYTE_EXACT",
+  "headline": {
+    "ami": 0.12188838796475697,
+    "ari": 0.07906724473081134,
+    "candidate_id": "RNA_CHROMATIN_FAMILY_GEOMETRIC_CENTER__FULL_FROZEN_ENERGY__ATAC_REGULATORY_KMEANS_S1",
+    "cluster_sizes": "[146, 210, 173, 113, 209, 218, 176, 144, 126, 147]",
+    "fmi": 0.20928993208015326,
+    "geary_indicator_macro": 0.9699854343235457,
+    "min_cluster_size": 113,
+    "moran_indicator_macro": 0.0296519280979885,
+    "nmi": 0.13274201007046635,
+    "partition_sha256": "180069f0beb60a9cb51ccca94c3a02f52d646e43c73b8c54e5f23e322626d8c7"
+  },
+  "independent_decoder_contribution": false,
+  "paired_dual_gain_starts": 0,
+  "paired_start_count": 13,
+  "primary_profile_id": "RNA_CHROMATIN_FAMILY_GEOMETRIC_CENTER",
+  "shutdown_dispatched": false,
+  "status": "NIGHT18D_HUMAN_PLACENTA_FROZEN_ENERGY_SCIENTIFIC_NEGATIVE",
+  "targeted_tests": "5/5 PASS"
+}
