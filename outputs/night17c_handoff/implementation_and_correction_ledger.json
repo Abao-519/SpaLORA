@@ -1,0 +1,30 @@
+[
+  {
+    "fix": "each posterior, gate and smooth now share one source; permutation is deterministic within spatial/feature strata",
+    "id": "C01",
+    "issue": "unweighted/permuted controls initially reused weighted smooth",
+    "phase": "PRE_FORMAL",
+    "scientific_retry": false
+  },
+  {
+    "fix": "positive and negative soft masses are separately normalized and equally weighted",
+    "id": "C02",
+    "issue": "soft same-pair prevalence could dominate total BCE",
+    "phase": "PRE_FORMAL",
+    "scientific_retry": false
+  },
+  {
+    "fix": "degenerate IQR uses bounded raw confidence; original smoke retained as superseded",
+    "id": "C03",
+    "issue": "q25=q75 trust calibration produced an all-zero MISAR gate and zero parameter change",
+    "phase": "REAL_SMOKE",
+    "scientific_retry": false
+  },
+  {
+    "fix": "same 89-candidate budget and selector run for zero-residual and permuted carriers",
+    "id": "C04",
+    "issue": "head integration needed matched carrier attribution",
+    "phase": "POST_GATE_ATTRIBUTION",
+    "scientific_retry": false
+  }
+]

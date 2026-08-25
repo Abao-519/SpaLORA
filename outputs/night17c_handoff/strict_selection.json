@@ -1,0 +1,75 @@
+{
+  "candidate_ranking": [
+    {
+      "config_id": "Z01_CONSERVATIVE",
+      "mean_delta_ari": 0.034744198763265156,
+      "mean_delta_nmi": 0.009791224536756127,
+      "strict_pass_lanes": 3,
+      "worst_joint_delta": 0.0009706950357200594
+    },
+    {
+      "config_id": "Z02_BALANCED",
+      "mean_delta_ari": 0.021407868365309907,
+      "mean_delta_nmi": 0.0053556892812000045,
+      "strict_pass_lanes": 2,
+      "worst_joint_delta": -0.005535631993804635
+    },
+    {
+      "config_id": "Z03_ACTIVE",
+      "mean_delta_ari": 0.008721900717361286,
+      "mean_delta_nmi": -0.009861939875184337,
+      "strict_pass_lanes": 0,
+      "worst_joint_delta": -0.016655057333610335
+    }
+  ],
+  "gate_passed": true,
+  "lane_details": [
+    {
+      "config_id": "Z01_CONSERVATIVE",
+      "delta_ari": 0.01388261356956344,
+      "delta_nmi": 0.0009706950357200594,
+      "full_ari": 0.20961933782755815,
+      "full_nmi": 0.2792051836720784,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "permuted_ari": 0.1867082476031167,
+      "permuted_dominates": false,
+      "permuted_nmi": 0.2515409008981036,
+      "strict_lane_pass": true,
+      "strongest_control_ari": 0.1957367242579947,
+      "strongest_control_nmi": 0.27823448863635836
+    },
+    {
+      "config_id": "Z01_CONSERVATIVE",
+      "delta_ari": 0.0026005645009965495,
+      "delta_nmi": 0.0026164028111737014,
+      "full_ari": 0.36371391381529505,
+      "full_nmi": 0.5409742092460456,
+      "lane": "MISAR_K7",
+      "permuted_ari": 0.3612066829210437,
+      "permuted_dominates": false,
+      "permuted_nmi": 0.5381501487012194,
+      "strict_lane_pass": true,
+      "strongest_control_ari": 0.3611133493142985,
+      "strongest_control_nmi": 0.5383578064348719
+    },
+    {
+      "config_id": "Z01_CONSERVATIVE",
+      "delta_ari": 0.08774941821923549,
+      "delta_nmi": 0.02578657576337462,
+      "full_ari": 0.4816499442278457,
+      "full_nmi": 0.6104992867596107,
+      "lane": "P22_K9",
+      "permuted_ari": 0.3923849820084918,
+      "permuted_dominates": false,
+      "permuted_nmi": 0.5835342847254942,
+      "strict_lane_pass": true,
+      "strongest_control_ari": 0.3939005260086102,
+      "strongest_control_nmi": 0.5847127109962361
+    }
+  ],
+  "multi_seed_authorized": true,
+  "required_pass_lanes": 2,
+  "schema": "night17c-strict-selection-v1",
+  "selected_config_id": "Z01_CONSERVATIVE",
+  "strict_pass_lanes": 3
+}

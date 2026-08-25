@@ -1,0 +1,160 @@
+{
+  "lanes": [
+    {
+      "actual_optimizer_steps": 40,
+      "fresh_replay_all_partition_exact": true,
+      "fresh_replay_all_representation_exact": true,
+      "gate": {
+        "calibration_mode": "ROBUST_IQR",
+        "calibration_q25": 0.8145840427499899,
+        "calibration_q75": 1.0,
+        "gate_mean": 0.6606842037605102,
+        "gate_one_fraction": 0.5545889517181383,
+        "gate_zero_fraction": 0.25,
+        "raw_max": 1.0,
+        "raw_median": 1.0,
+        "raw_min": 0.0001343724497075982
+      },
+      "k": 9,
+      "lane": "P22_K9",
+      "max_gradient_norm": 0.01651464352798212,
+      "n": 9196,
+      "pair_count": 47670,
+      "parameter_l2_change": 3.2503066611725786,
+      "peak_gpu_mb": 105.51611328125,
+      "peak_rss_mb": 1424.46484375,
+      "retained_shape": [
+        9196,
+        64
+      ],
+      "step0_exact_smooth": true,
+      "unbiased_candidates": 70,
+      "view1_shape": [
+        9196,
+        30
+      ],
+      "view2_shape": [
+        9196,
+        50
+      ],
+      "wall_seconds": 30.8626766204834
+    },
+    {
+      "actual_optimizer_steps": 40,
+      "fresh_replay_all_partition_exact": true,
+      "fresh_replay_all_representation_exact": true,
+      "gate": {
+        "calibration_mode": "RAW_CONFIDENCE_DEGENERATE_IQR",
+        "calibration_q25": 1.0,
+        "calibration_q75": 1.0,
+        "gate_mean": 0.9595798106584056,
+        "gate_one_fraction": 0.8142637249871729,
+        "gate_zero_fraction": 0.0,
+        "raw_max": 1.0,
+        "raw_median": 1.0,
+        "raw_min": 0.00011141242262624473
+      },
+      "k": 7,
+      "lane": "MISAR_K7",
+      "max_gradient_norm": 0.046733678418340474,
+      "n": 1949,
+      "pair_count": 10029,
+      "parameter_l2_change": 3.256477212952689,
+      "peak_gpu_mb": 34.3955078125,
+      "peak_rss_mb": 887.640625,
+      "retained_shape": [
+        1949,
+        64
+      ],
+      "step0_exact_smooth": true,
+      "unbiased_candidates": 70,
+      "view1_shape": [
+        1949,
+        30
+      ],
+      "view2_shape": [
+        1949,
+        50
+      ],
+      "wall_seconds": 10.108719110488892
+    },
+    {
+      "actual_optimizer_steps": 40,
+      "fresh_replay_all_partition_exact": true,
+      "fresh_replay_all_representation_exact": true,
+      "gate": {
+        "calibration_mode": "ROBUST_IQR",
+        "calibration_q25": 0.15749672001230378,
+        "calibration_q75": 0.47277023597443085,
+        "gate_mean": 0.4457600403438133,
+        "gate_one_fraction": 0.25,
+        "gate_zero_fraction": 0.25,
+        "raw_max": 1.0,
+        "raw_median": 0.2628266434570208,
+        "raw_min": 0.012695135092461785
+      },
+      "k": 7,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "max_gradient_norm": 0.0073130196497493425,
+      "n": 2500,
+      "pair_count": 15608,
+      "parameter_l2_change": 3.2909456655950526,
+      "peak_gpu_mb": 41.42236328125,
+      "peak_rss_mb": 879.16015625,
+      "retained_shape": [
+        2500,
+        64
+      ],
+      "step0_exact_smooth": true,
+      "unbiased_candidates": 58,
+      "view1_shape": [
+        2500,
+        64
+      ],
+      "view2_shape": [
+        2500,
+        64
+      ],
+      "wall_seconds": 16.340266227722168
+    },
+    {
+      "actual_optimizer_steps": 40,
+      "fresh_replay_all_partition_exact": true,
+      "fresh_replay_all_representation_exact": true,
+      "gate": {
+        "calibration_mode": "ROBUST_IQR",
+        "calibration_q25": 0.48281026322436627,
+        "calibration_q75": 0.6345492253989515,
+        "gate_mean": 0.5196686792486838,
+        "gate_one_fraction": 0.25090036014405764,
+        "gate_zero_fraction": 0.25090036014405764,
+        "raw_max": 0.895591215697503,
+        "raw_median": 0.5660503084315575,
+        "raw_min": 0.041885104511675784
+      },
+      "k": 2,
+      "lane": "MELANOMA_TUMOR_K2",
+      "max_gradient_norm": 0.004080743088492151,
+      "n": 833,
+      "pair_count": 5471,
+      "parameter_l2_change": 3.2747644207987663,
+      "peak_gpu_mb": 24.92919921875,
+      "peak_rss_mb": 854.703125,
+      "retained_shape": [
+        833,
+        64
+      ],
+      "step0_exact_smooth": true,
+      "unbiased_candidates": 70,
+      "view1_shape": [
+        833,
+        64
+      ],
+      "view2_shape": [
+        833,
+        64
+      ],
+      "wall_seconds": 6.891960620880127
+    }
+  ]
+}

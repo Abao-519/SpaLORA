@@ -1,0 +1,3 @@
+# Night-17C method and selection contract
+
+The producer begins exactly at the deterministic `UNBIASED_BANK` relation-smoothed carrier. A candidate-disagreement trust gate bounds a zero-initialized residual: low-confidence nodes retain the smooth carrier, while reliable nodes can change. Relation BCE uses soft co-clustering targets with separate positive/negative effective-mass normalization. The location-negative control permutes relations deterministically within spatial-edge and feature-neighbour strata; posterior, gate and smooth are always source-matched. The endpoint is KMeans with fixed seed 0 and n_init 20. Public labels are loaded only after partitions are locked, for transparent family-level benchmark selection among Z01/Z02/Z03.

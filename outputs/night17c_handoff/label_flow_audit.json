@@ -1,0 +1,9 @@
+{
+  "evaluator_public_annotation_reads": 10,
+  "family_config_selection": "label-assisted benchmark HPO after seed-0 partitions were locked",
+  "loss_gradient_label_reads": 0,
+  "partition_locked_before_evaluator": true,
+  "primary_teacher": "UNBIASED_BANK; excludes PRIMARY_AUTHORITY_OR_MEDOID",
+  "producer_label_reads": 0,
+  "training_label_reads": 0
+}

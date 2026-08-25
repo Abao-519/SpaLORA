@@ -1,0 +1,24 @@
+{
+  "configs": [
+    "Z01_CONSERVATIVE",
+    "Z02_BALANCED",
+    "Z03_ACTIVE"
+  ],
+  "endpoint": {
+    "n_init": 20,
+    "name": "KMeans",
+    "seed": 0
+  },
+  "formal_scientific_changes_after_freeze_allowed": false,
+  "frozen_utc": "2026-08-25T18:04:35.451927+00:00",
+  "labels_opened_before_freeze": 0,
+  "primary_relation_bank": "UNBIASED_BANK",
+  "schema": "night17c-formula-freeze-v1",
+  "source_sha256": {
+    "SpaLORA/night17c_zero_start.py": "635eac0e264165fedc617640e67ae1b2f14b5def8b8fed61c8d2175b688a367c",
+    "scripts/night17c/night17c_producer.py": "e3fcfd879fa1ea85c8120696942054c499a783151974239b32269ac40969674c",
+    "scripts/night17c/night17c_replay.py": "71dd90759b6c2c62ce7dff9f15d313d19998fe79e1aca5b8986556a6f4f6bdf3",
+    "scripts/night17c/night17c_select.py": "294c9ecb7d20713cb731b6d74c21546a32f712340dbe48eb181cd2c055781d78"
+  },
+  "zero_start": "UNBIASED_SMOOTH_REFERENCE"
+}
