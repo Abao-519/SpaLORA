@@ -1,0 +1,16 @@
+{
+  "benchmark_profile": "public-label post-lock endpoint selection, reported separately",
+  "evaluation_files": 12,
+  "evaluator_label_reads_per_artifact": 1,
+  "partition_lock_before_evaluator": true,
+  "producer_allowed_inputs": [
+    "ids",
+    "view1",
+    "view2",
+    "retained",
+    "graph0-2"
+  ],
+  "producer_annotation_reads": 0,
+  "status": "PASS",
+  "within_run_label_checkpoint_selection": false
+}

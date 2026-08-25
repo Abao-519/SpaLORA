@@ -1,0 +1,36 @@
+{
+  "a1_common_full": {
+    "ari": 0.2342962096119434,
+    "control_interpretation": "low-pass-only nearly explains the change",
+    "delta_vs_matched_ari": 0.001886,
+    "delta_vs_matched_nmi": 0.001358,
+    "nmi": 0.3895159418904272
+  },
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "formal_arms": 6,
+  "formal_lanes": 2,
+  "formula": "BOUNDED_RATIONAL_MODALITY_RESPONSE_CALIBRATION",
+  "frequency_route_status": "REJECTED_BY_SMGFM_COLLISION_BEFORE_EXECUTION",
+  "independent_method_signal_lanes": 0,
+  "multi_seed_authorized": false,
+  "new_data_downloads": 0,
+  "p22_common_full": {
+    "ari": 0.417729,
+    "delta_vs_matched_ari": -0.001477,
+    "delta_vs_matched_nmi": -0.001437,
+    "nmi": 0.549751
+  },
+  "p22_gmm_context": {
+    "full_ari": 0.4518480245229052,
+    "full_nmi": 0.5787260728093653,
+    "identical_to": "SHARPEN_ONLY_CALIBRATION",
+    "interpretation": "single-view/head-conditional control signal"
+  },
+  "score_frontier_advance": false,
+  "shutdown_dispatched": false,
+  "status": "NIGHT18B_NO_INDEPENDENT_MEASUREMENT_RESPONSE_SIGNAL",
+  "taskbook_sha256": "96aba215df9c8d6ef18e386c515e2da43a587f1433fef6cd7b01e1bb867b483f",
+  "training_seeds": [
+    0
+  ]
+}
