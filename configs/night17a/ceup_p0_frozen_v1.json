@@ -1,0 +1,40 @@
+{
+  "schema": "night17a-ceup-p0-frozen-v1",
+  "seed": 20260825,
+  "graph_prefix": "graph1",
+  "n_masks": 4,
+  "n_node_folds": 3,
+  "training_steps": 64,
+  "learning_rate": 0.02,
+  "weight_decay": 0.001,
+  "pairwise_strength": 1.0,
+  "repulsion_strength": 1.0,
+  "trust_strength": 0.25,
+  "max_sweeps": 5,
+  "leave_one_edge_out_denominator": "FIXED_FULL_DEGREE",
+  "node_crossfit": "DETERMINISTIC_ID_HASH_3_FOLD_RECEIVER_TARGET_HOLDOUT",
+  "utility_symmetrization": "FOUR_DIRECTION_COMMON_POSITIVE_COMMON_NEGATIVE_DISCORDANCE_REJECT",
+  "start": "KMEANS_SEED_20260825_ON_EQUAL_BLOCK_SCALED_VIEW1_VIEW2",
+  "unary": "INITIAL_PROTOTYPE_DISTANCE_PLUS_EXPLICIT_START_TRUST",
+  "arms": [
+    "NO_OP",
+    "UNIFORM_POSITIVE_MASS",
+    "STATIC_CMBF_TSRE",
+    "LEARNED_POSITIVE_ONLY",
+    "LEARNED_SIGNED_FULL",
+    "EDGE_PERMUTATION",
+    "SINGLE_VIEW1_UTILITY",
+    "SINGLE_VIEW2_UTILITY",
+    "UNCERTAINTY_OFF"
+  ],
+  "p0_identifiable_gate": {
+    "real_paths_and_replay": "3/3 PASS",
+    "edge_advantage": "learned-minus-permuted AUPRC block-bootstrap CI lower > 0 on support or boundary in at least 2 lanes",
+    "non_micro_dual_gain": "delta ARI >= 0.005 and delta NMI >= 0.005 versus NO_OP, UNIFORM_POSITIVE_MASS, and STATIC_CMBF_TSRE in at least 1 difficult lane",
+    "other_lane_safety": "delta ARI > -0.01 and delta NMI > -0.01 versus NO_OP in at least 1 other difficult lane",
+    "independence": "no positive-only, permutation, single-view, or uncertainty-off arm matches both full metrics within 0.002 on the gain lane"
+  },
+  "misar_protocol": "K7_FALLBACK_BECAUSE_EXISTING_AUTHORITY_HAS_NO_K12_REFERENCE_LABEL_ARRAY",
+  "public_benchmark_hpo_candidates_per_lane_max": 32,
+  "formal_formula_revision_after_producer_lock": 0
+}
