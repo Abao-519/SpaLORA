@@ -1,0 +1,13 @@
+{
+  "schema": "night17f-exact-replay-audit-v1",
+  "final_source_fresh_process_replays": 1,
+  "P22_K9_partition_artifact_sha256": "8b01215671bce182b51f9272954b9c9b40ad79db1d05d32ef0db4170cfb439a3",
+  "MISAR_K7_partition_artifact_sha256": "7a27b95a60ec5e0bc9f03a300e89ffe41c7d43d91d69eb07b563b8befb072266",
+  "HUMAN_HIPPOCAMPUS_K7_partition_artifact_sha256": "008698e224273eee7e390dad48fa8e6a2c7cddced5ddd3ca705c72ebaf7403f9",
+  "partition_npz_byte_exact_3_of_3": true,
+  "evaluation_rows_per_lane": 16,
+  "evaluation_scientific_fields_exact_3_of_3": true,
+  "evaluation_only_nonexact_field": "wall_seconds",
+  "partition_and_metric_replay_status": "PASS"
+}
+

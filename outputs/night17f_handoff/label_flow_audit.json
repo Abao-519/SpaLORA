@@ -1,0 +1,27 @@
+{
+  "schema": "night17f-label-flow-audit-v1",
+  "producer_inputs": [
+    "numeric carrier",
+    "locked candidate partition bank",
+    "sanitized pre-evaluation candidate evidence",
+    "frozen registry"
+  ],
+  "sanitized_candidate_evidence_columns": [
+    "lane",
+    "candidate_id",
+    "molecular_joint",
+    "topology_joint",
+    "persistence",
+    "feasible_SMALLEST_SCALE_INTERNAL_EDGE"
+  ],
+  "producer_label_reads": 0,
+  "candidate_partitions_locked_before_evaluator": true,
+  "independent_evaluator_label_reads_per_lane": 1,
+  "public_benchmark_HPO": "three frozen relation_mix values; diagnostic selection after partition lock",
+  "not_claimed": [
+    "blind transfer",
+    "label-free end-to-end benchmark selection",
+    "SOTA"
+  ]
+}
+

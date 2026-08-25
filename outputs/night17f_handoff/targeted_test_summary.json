@@ -1,0 +1,20 @@
+{
+  "schema": "night17f-targeted-test-summary-v1",
+  "command": "python -m pytest -q tests/test_night17f_direct_relation_cut.py tests/test_night17e_lrcc.py",
+  "passed": 9,
+  "failed": 0,
+  "warnings": 6,
+  "environment": "/root/miniconda3/envs/SpaLORA",
+  "covered": [
+    "unbiased bank authority filter",
+    "weighted and unweighted posterior finite/nonconstant",
+    "edge indices nonnegative and no self-loop",
+    "deterministic nonidentity permutation",
+    "per-scale runtime mass matching",
+    "nonnegative pairwise capacities",
+    "exact K/no empty",
+    "frozen-cycle energy monotonicity",
+    "strict LOSO parent controls"
+  ]
+}
+

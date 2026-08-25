@@ -1,0 +1,26 @@
+{
+  "schema": "night17f-resource-audit-v1",
+  "snapshot_timezone": "Asia/Shanghai",
+  "system_available_bytes": 2761379840,
+  "system_available_inodes": 1776589,
+  "persistent_available_bytes": 92332154880,
+  "persistent_available_inodes": 64,
+  "night17f_working_bytes": 928332,
+  "working_budget_bytes": 314572800,
+  "new_environment_created": false,
+  "new_dataset_downloaded": false,
+  "dense_n_by_n_count": 0,
+  "gpu_training_seconds": 0,
+  "peak_rss_mib": {
+    "P22_K9": 569.2421875,
+    "MISAR_K7": 433.96875,
+    "HUMAN_HIPPOCAMPUS_K7": 444.6171875
+  },
+  "producer_wall_seconds": {
+    "P22_K9": 22.69446736946702,
+    "MISAR_K7": 4.100337160751224,
+    "HUMAN_HIPPOCAMPUS_K7": 5.8142855279147625
+  },
+  "shutdown_dispatched": false
+}
+

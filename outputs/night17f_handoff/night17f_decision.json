@@ -1,0 +1,26 @@
+{
+  "schema": "night17f-decision-v1",
+  "status": "NIGHT17F_DIRECT_RELATION_DISTILLED_CUT_SCIENTIFIC_NEGATIVE",
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "stage_a_scientific_role": "IN_STUDY_TEACHER_CONSUMER_DIAGNOSTIC",
+  "stage_a_lane_pass_count": 0,
+  "stage_a_required_lane_pass_count": 2,
+  "stage_a_passed": false,
+  "stage_b_authorized": false,
+  "stage_b_run": false,
+  "relation_distillation_chain_closed": true,
+  "primary_direct_double_gain_lanes": [
+    "P22_K9",
+    "HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "control_independent_lanes": [],
+  "misar_result": "NO_OP",
+  "p22_result": "DIRECT_EQUALS_ANALYTIC_UNWEIGHTED_BYTE_EXACT",
+  "human_result": "DIRECT_DOMINATED_BY_UNIFORM_AND_RELATION_DISABLED",
+  "label_assisted_selection": "three locked global mix configs evaluated after partition lock; selected by ARI then NMI for diagnostic only",
+  "producer_label_reads": 0,
+  "trainable_parameter_count": 0,
+  "shutdown_dispatched": false,
+  "power_policy": "KEEP_ON_FOR_AUTONOMOUS_CHAIN"
+}
+

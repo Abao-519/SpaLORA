@@ -1,0 +1,5 @@
+correction_id,stage,classification,symptom,correction,scientific_formula_changed,affected_scope,resolution
+E01,pre-producer,ENGINEERING_IMPORT_PATH,"direct script lacked repository-root PYTHONPATH and exited before artifacts","set existing repository root in PYTHONPATH and fully reran all three lanes",false,"P22/MISAR/HUMAN; no partitions existed",CLOSED
+E02,producer-authority,ENGINEERING_AUTHORITY_COUNT,"human unbiased feasible count was 58 rather than a universal hard-coded 70","kept 89/89 exact bank-record alignment; recorded actual per-lane feasible-unbiased count; fully reran human",false,"human only",CLOSED
+E03,evaluator-I/O,ENGINEERING_REFERENCE_PATH,"numeric Human_RNA.h5ad had no true_label column","used previously audited human_adata1_official_result.h5ad reference; partition unchanged",false,"human evaluator only",CLOSED
+
