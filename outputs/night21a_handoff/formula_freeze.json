@@ -1,0 +1,36 @@
+{
+  "schema": "night21a-amcf-formula-freeze-v1",
+  "status": "FROZEN_BEFORE_DISCOVERY_PARTITION_PRODUCTION",
+  "working_name": "AMCF",
+  "core": {
+    "texture_bank": "SELF plus row-normalized sparse MEAN and graph HIGH-PASS X-PX at three registered scales",
+    "within_modality": "shared channel adapter plus node-wise softmax channel weights",
+    "between_modality": "node-wise two-modality softmax followed by interaction projector",
+    "anchor": "Z0 plus residual_bound times sigmoid gate times tanh zero-initialized residual",
+    "loss": "two-view reconstruction plus weak cross-modal alignment plus anchor trust plus DEC-style unlabeled prototype compactness",
+    "endpoint": "KMeans known K, n_init=20, endpoint_seed=0"
+  },
+  "family_base_v1": {
+    "hidden_dim": 48,
+    "steps": 60,
+    "learning_rate": 0.001,
+    "residual_bound": 0.12,
+    "reconstruction_weight": 1.0,
+    "cross_modal_weight": 0.05,
+    "anchor_weight": 0.35,
+    "prototype_weight": 0.02
+  },
+  "arms": [
+    "CARRIER_ONLY",
+    "LOWPASS_CARRIER_CONTROL",
+    "MEAN_ONLY_ANCHORED",
+    "HIERARCHICAL_WITHOUT_ANCHOR",
+    "ANCHOR_WITHOUT_GRADIENT",
+    "ANCHOR_WITHOUT_HIERARCHICAL_FUSION",
+    "FULL_COMPOSITION"
+  ],
+  "discovery_lanes": ["A1_K10", "TONSIL_S1_K4", "P22_K9", "PLACENTA_K10"],
+  "labels_in_producer": false,
+  "p0_short_steps": 4,
+  "p0_status": "ENGINEERING_ONLY_SUPERSEDED_BY_FORMAL_60_STEP_RUN"
+}

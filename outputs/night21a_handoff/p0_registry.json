@@ -1,0 +1,392 @@
+{
+  "lanes": {
+    "A1_K10": {
+      "fresh_process_replay": {
+        "byte_exact": true,
+        "partition_sha256": "a8b091fde4593c9096811f65a32eced1de75914aa856a7ff4dd21d4b28f64fc9",
+        "representation_sha256": "c2275e72f0d1d97e76a5b5886b07ce5b75d9721506fec3a9bd96cfb59031c00e",
+        "status": "PASS"
+      },
+      "manifest": {
+        "accessed_numeric_keys": [
+          "ids",
+          "view1",
+          "view2",
+          "retained",
+          "graph0__data",
+          "graph0__indices",
+          "graph0__indptr",
+          "graph0__shape",
+          "graph1__data",
+          "graph1__indices",
+          "graph1__indptr",
+          "graph1__shape",
+          "graph2__data",
+          "graph2__indices",
+          "graph2__indptr",
+          "graph2__shape"
+        ],
+        "annotation_keys_accessed": 0,
+        "arm": "FULL_COMPOSITION",
+        "artifact_reload": "PASS",
+        "artifact_sha256": "1210e54fab6651c87ec30b88a39fa3bb7b99b4e01181f503078943f9697e37ec",
+        "carrier_sha256": "d0334a94189840278cd813d773de7b0e587e363f1d5c4a14ba5e340b4dc2b79e",
+        "cluster_sizes": [
+          330,
+          348,
+          369,
+          227,
+          440,
+          193,
+          486,
+          549,
+          259,
+          283
+        ],
+        "config": {
+          "anchor_weight": 0.35,
+          "arm": "FULL_COMPOSITION",
+          "config_id": "FAMILY_BASE_V1__FULL_COMPOSITION",
+          "cross_modal_weight": 0.05,
+          "hidden_dim": 48,
+          "hierarchical": true,
+          "include_gradient": true,
+          "learning_rate": 0.001,
+          "prototype_weight": 0.02,
+          "reconstruction_weight": 1.0,
+          "residual_bound": 0.12,
+          "steps": 4,
+          "use_anchor": true
+        },
+        "dense_n_by_n_allocations": 0,
+        "diagnostics": {
+          "channel1_weight_means": [
+            0.1458130180835724,
+            0.14117810130119324,
+            0.14493337273597717,
+            0.1402249038219452,
+            0.14442412555217743,
+            0.13899099826812744,
+            0.14443545043468475
+          ],
+          "channel2_weight_means": [
+            0.14411649107933044,
+            0.14114713668823242,
+            0.14604827761650085,
+            0.14001336693763733,
+            0.14532919228076935,
+            0.1391226351261139,
+            0.14422288537025452
+          ],
+          "channel_count_per_modality": 7,
+          "channel_names": [
+            "SELF",
+            "MEAN_S0",
+            "GRADIENT_S0",
+            "MEAN_S1",
+            "GRADIENT_S1",
+            "MEAN_S2",
+            "GRADIENT_S2"
+          ],
+          "checkpoint_sha256": "72c223efd37c4c5a7f1d6efcc8633a6c0844358e1fcafc21eeeb7752c67ba364",
+          "final_state_sha256": "47b6cd4456ebbdd46641d0cc74c90b3b5f89e6779a9ba1f50b9e63933ae873b2",
+          "gate_max": 0.7956018447875977,
+          "gate_mean": 0.49885886907577515,
+          "gate_min": 0.46824708580970764,
+          "gpu_to_cpu_max_abs": 2.9802322387695312e-08,
+          "graph_nnz": [
+            14166,
+            24178,
+            67648
+          ],
+          "graph_shapes": [
+            [
+              3484,
+              3484
+            ],
+            [
+              3484,
+              3484
+            ],
+            [
+              3484,
+              3484
+            ]
+          ],
+          "identity_initial_max_abs": 0.0,
+          "initial_state_sha256": "487c89f8ab10423f625eaf7aa0a8b284af3e3fee5a1880b9ccf020c1787c637a",
+          "loss_snapshots": [
+            {
+              "anchor": 0.0,
+              "cross_modal": 0.83136385679245,
+              "gradient_norm": 0.11434424668550491,
+              "loss": 3.1752519607543945,
+              "prototype": 0.016409950330853462,
+              "reconstruction": 3.1333553791046143,
+              "step": 0
+            },
+            {
+              "anchor": 9.570730071573053e-06,
+              "cross_modal": 0.8108559846878052,
+              "gradient_norm": 0.1129416674375534,
+              "loss": 3.1591968536376953,
+              "prototype": 0.0173420999199152,
+              "reconstruction": 3.1183037757873535,
+              "step": 3
+            }
+          ],
+          "modality1_weight_mean": 0.5338752269744873,
+          "modality2_weight_mean": 0.4661247730255127,
+          "optimizer_steps": 4,
+          "parameter_changed": true,
+          "parameter_count": 31873,
+          "representation_sha256": "c2275e72f0d1d97e76a5b5886b07ce5b75d9721506fec3a9bd96cfb59031c00e",
+          "residual_bound": 0.12,
+          "residual_frobenius": 1.9914594888687134,
+          "residual_max_row_norm": 0.045200418680906296,
+          "retained_shape": [
+            3484,
+            64
+          ],
+          "strict_reload_exact": true,
+          "view1_shape": [
+            3484,
+            30
+          ],
+          "view2_shape": [
+            3484,
+            30
+          ]
+        },
+        "discovered_carrier_keys": [
+          "ids",
+          "view1",
+          "view2",
+          "retained",
+          "graph0__data",
+          "graph0__indices",
+          "graph0__indptr",
+          "graph0__shape",
+          "graph1__data",
+          "graph1__indices",
+          "graph1__indptr",
+          "graph1__shape",
+          "graph2__data",
+          "graph2__indices",
+          "graph2__indptr",
+          "graph2__shape"
+        ],
+        "endpoint_seed": 0,
+        "family": "RNA_PROTEIN",
+        "gpu_peak_mib": 95.189453125,
+        "k": 10,
+        "lane": "A1_K10",
+        "min_cluster_size": 193,
+        "n": 3484,
+        "ordered_ids_sha256": "9090a112df05c50a6e1c20e2ea58c23a08789ef5df477a7718a458bfd2291320",
+        "partition_sha256": "a8b091fde4593c9096811f65a32eced1de75914aa856a7ff4dd21d4b28f64fc9",
+        "peak_rss_mib": 807.98828125,
+        "profile": "FAMILY_BASE_V1",
+        "representation_sha256": "c2275e72f0d1d97e76a5b5886b07ce5b75d9721506fec3a9bd96cfb59031c00e",
+        "schema": "night21a-amcf-producer-v1",
+        "status": "PARTITION_LOCKED_BEFORE_EVALUATION",
+        "training_seed": 0,
+        "wall_seconds": 6.591597007587552
+      }
+    },
+    "P22_K9": {
+      "fresh_process_replay": {
+        "byte_exact": true,
+        "partition_sha256": "7ec8f123d230a41064de9a4b987f9d7139faadbad2d92ee3a5f0040e4163cab0",
+        "representation_sha256": "4658aa63a7a0df6dc11ccf19812a0d82f0536b117b76c16358052aacea672582",
+        "status": "PASS"
+      },
+      "manifest": {
+        "accessed_numeric_keys": [
+          "ids",
+          "view1",
+          "view2",
+          "retained",
+          "graph0__data",
+          "graph0__indices",
+          "graph0__indptr",
+          "graph0__shape",
+          "graph1__data",
+          "graph1__indices",
+          "graph1__indptr",
+          "graph1__shape",
+          "graph2__data",
+          "graph2__indices",
+          "graph2__indptr",
+          "graph2__shape"
+        ],
+        "annotation_keys_accessed": 0,
+        "arm": "FULL_COMPOSITION",
+        "artifact_reload": "PASS",
+        "artifact_sha256": "1789c5bea03aaf2a38020830febc695c88a821d0c953002968c09af9454a074a",
+        "carrier_sha256": "b86c3cfe2863bf893368840c09cd829d73d82a02c6af1c0e823ebed34654288b",
+        "cluster_sizes": [
+          782,
+          2202,
+          1025,
+          924,
+          764,
+          732,
+          896,
+          766,
+          1105
+        ],
+        "config": {
+          "anchor_weight": 0.35,
+          "arm": "FULL_COMPOSITION",
+          "config_id": "FAMILY_BASE_V1__FULL_COMPOSITION",
+          "cross_modal_weight": 0.05,
+          "hidden_dim": 48,
+          "hierarchical": true,
+          "include_gradient": true,
+          "learning_rate": 0.001,
+          "prototype_weight": 0.02,
+          "reconstruction_weight": 1.0,
+          "residual_bound": 0.12,
+          "steps": 4,
+          "use_anchor": true
+        },
+        "dense_n_by_n_allocations": 0,
+        "diagnostics": {
+          "channel1_weight_means": [
+            0.14011020958423615,
+            0.1468367874622345,
+            0.13871103525161743,
+            0.14750882983207703,
+            0.13914431631565094,
+            0.14820992946624756,
+            0.1394789069890976
+          ],
+          "channel2_weight_means": [
+            0.1438785344362259,
+            0.14130930602550507,
+            0.1460735946893692,
+            0.14011573791503906,
+            0.1451825201511383,
+            0.13900400698184967,
+            0.1444363296031952
+          ],
+          "channel_count_per_modality": 7,
+          "channel_names": [
+            "SELF",
+            "MEAN_S0",
+            "GRADIENT_S0",
+            "MEAN_S1",
+            "GRADIENT_S1",
+            "MEAN_S2",
+            "GRADIENT_S2"
+          ],
+          "checkpoint_sha256": "438f64319ecdd14f49faab44207a9cf67501f9fb5fb13161d2393dd2196eaeaa",
+          "final_state_sha256": "2bdccb3256f4c68ba9402e02fd2a7141e2e4704e5d2700be54ba3908372e1260",
+          "gate_max": 0.8148934841156006,
+          "gate_mean": 0.5603869557380676,
+          "gate_min": 0.5239339470863342,
+          "gpu_to_cpu_max_abs": 2.9802322387695312e-08,
+          "graph_nnz": [
+            37168,
+            64466,
+            178238
+          ],
+          "graph_shapes": [
+            [
+              9196,
+              9196
+            ],
+            [
+              9196,
+              9196
+            ],
+            [
+              9196,
+              9196
+            ]
+          ],
+          "identity_initial_max_abs": 0.0,
+          "initial_state_sha256": "f819e3ec12cd7e6d506d60ffb155a47abd8bc37410bfc4fc17227c780ea631fc",
+          "loss_snapshots": [
+            {
+              "anchor": 0.0,
+              "cross_modal": 0.8174135088920593,
+              "gradient_norm": 0.08643794804811478,
+              "loss": 3.3273513317108154,
+              "prototype": 0.053930774331092834,
+              "reconstruction": 3.2854020595550537,
+              "step": 0
+            },
+            {
+              "anchor": 1.4561500393028837e-05,
+              "cross_modal": 0.7958043813705444,
+              "gradient_norm": 0.08468933403491974,
+              "loss": 3.315416097640991,
+              "prototype": 0.05581864342093468,
+              "reconstruction": 3.2745046615600586,
+              "step": 3
+            }
+          ],
+          "modality1_weight_mean": 0.5029997229576111,
+          "modality2_weight_mean": 0.4970002770423889,
+          "optimizer_steps": 4,
+          "parameter_changed": true,
+          "parameter_count": 34069,
+          "representation_sha256": "4658aa63a7a0df6dc11ccf19812a0d82f0536b117b76c16358052aacea672582",
+          "residual_bound": 0.12,
+          "residual_frobenius": 3.827653169631958,
+          "residual_max_row_norm": 0.05235828831791878,
+          "retained_shape": [
+            9196,
+            64
+          ],
+          "strict_reload_exact": true,
+          "view1_shape": [
+            9196,
+            30
+          ],
+          "view2_shape": [
+            9196,
+            50
+          ]
+        },
+        "discovered_carrier_keys": [
+          "ids",
+          "view1",
+          "view2",
+          "retained",
+          "graph0__data",
+          "graph0__indices",
+          "graph0__indptr",
+          "graph0__shape",
+          "graph1__data",
+          "graph1__indices",
+          "graph1__indptr",
+          "graph1__shape",
+          "graph2__data",
+          "graph2__indices",
+          "graph2__indptr",
+          "graph2__shape"
+        ],
+        "endpoint_seed": 0,
+        "family": "RNA_CHROMATIN",
+        "gpu_peak_mib": 224.1826171875,
+        "k": 9,
+        "lane": "P22_K9",
+        "min_cluster_size": 732,
+        "n": 9196,
+        "ordered_ids_sha256": "72dc4517ce5074bb481e8d9eeae82f3d720a06ca06ae0d2ca142124579564e35",
+        "partition_sha256": "7ec8f123d230a41064de9a4b987f9d7139faadbad2d92ee3a5f0040e4163cab0",
+        "peak_rss_mib": 899.05078125,
+        "profile": "FAMILY_BASE_V1",
+        "representation_sha256": "4658aa63a7a0df6dc11ccf19812a0d82f0536b117b76c16358052aacea672582",
+        "schema": "night21a-amcf-producer-v1",
+        "status": "PARTITION_LOCKED_BEFORE_EVALUATION",
+        "training_seed": 0,
+        "wall_seconds": 11.027818735688925
+      }
+    }
+  },
+  "status": "PASS"
+}

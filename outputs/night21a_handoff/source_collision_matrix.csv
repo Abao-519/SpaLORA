@@ -1,0 +1,9 @@
+object,prior_art_overlap,remaining_distinction,collision_level,decision
+BANKSY product-space augmentation,"neighbour mean and azimuthal gradient already explicit","AMCF learns node-wise weights and only writes a bounded residual into an external strong carrier",HIGH_PARTIAL,DO_NOT_CLAIM_TEXTURE_PRIMITIVES
+SpatialGlue dual attention,"within-modality graph attention and cross-modality attention already explicit","AMCF attention is over a registered multiscale texture bank and is identity-residual constrained",HIGH_PARTIAL,DO_NOT_CLAIM_HIERARCHICAL_ATTENTION_ALONE
+spaMGCN adaptive multi-order convolution,"multi-order adjacency and adaptive fusion already explicit","AMCF couples low/high graph channels to an external carrier with exact zero-start",HIGH_PARTIAL,DO_NOT_CLAIM_MULTISCALE_FUSION_ALONE
+m2ST multiscale graph autoencoder,"masked multiscale representation and clustering already explicit","AMCF frozen minimal loss omits masked AE and focuses on carrier-preserving composition",MEDIUM_PARTIAL,NO_M2ST_CODE_REUSE
+GraphST/Proust/SpaMI self-supervision,"graph AE and contrastive objectives are mature","reconstruction/prototype terms are scaffold only",HIGH_COMPONENT_COLLISION,NO_LOSS_NOVELTY_CLAIM
+COSMOS/SMART/SpaMV/SIVA/SpaMCA,"cooperative/shared-private/metric/anchor fusion are established","only the exact joint coupling and matched synergy could remain empirical novelty",HIGH_PARTIAL,REQUIRE_ATOMIC_SYNERGY
+AMCF full joint object,"no audited source found with exactly registered multiscale mean+high-pass channels, node-wise two-level composition, and bounded zero-initialized update of an external strong carrier","possible narrow compositional claim only if full beats every matched atomic arm across families",DISTINGUISHABLE_BUT_FRAGILE,PROCEED_TO_FALSIFICATION
+

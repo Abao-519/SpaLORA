@@ -1,0 +1,10 @@
+component,closest_method,primary_source,official_source,source_revision_or_snapshot,license_status,reuse_policy,night21a_role
+multiscale_neighbour_mean,BANKSY,Nature Genetics 2024 PMC10937399,https://github.com/prabhakarlab/Banksy_py,9278996c39e376277d57ef95278000447ba6c57c,NO_LICENSE_FILE_FOUND_IN_AUDITED_SNAPSHOT,CLEAN_ROOM_FORMULA_ONLY,"registered sparse P_s X channels"
+azimuthal_gradient_or_high_pass,BANKSY,Nature Genetics 2024 PMC10937399,https://github.com/prabhakarlab/Banksy_py,9278996c39e376277d57ef95278000447ba6c57c,NO_LICENSE_FILE_FOUND_IN_AUDITED_SNAPSHOT,CLEAN_ROOM_FORMULA_ONLY,"axis-free registered-graph high-pass X-P_sX; not copied Gabor code"
+within_and_cross_modality_attention,SpatialGlue,Nature Methods 2024 PMC11399094,https://github.com/JinmiaoChenLab/SpatialGlue,local snapshot in SpaMCA baseline,AGPL-3.0,CLEAN_ROOM_FORMULA_ONLY,"node-wise channel weights followed by node-wise modality weights"
+multiorder_graph_fusion,spaMGCN,Genome Biology 2025 PMC12150536,https://github.com/hongfeiZhang-source/spaMGCN,official main inspected 2026-08-26,MIT,CLEAN_ROOM_FORMULA_ONLY,"three pre-registered sparse scales; no A^k source copied"
+masked_multiscale_autoencoding,m2ST,Nature Communications 2025 PMC12085222,official repository linked by paper,primary methods inspected,LICENSE_NOT_VERIFIED,FORMULA_CONTEXT_ONLY,"not used in frozen minimal loss"
+graph_autoencoder_contrastive_scaffold,GraphST/Proust/SpaMI,primary papers and official source snapshots,official repositories listed by papers,local GraphST snapshot,AGPL-3.0_FOR_GRAPHST_SNAPSHOT,NO_CODE_REUSE,"prior-art context for reconstruction and self-supervision"
+shared_private_or_metric_fusion,COSMOS/SMART/SpaMV/SIVA/SpaMCA,primary papers and official source snapshots,official repositories listed by papers,COSMOS and SMART local snapshots,"COSMOS MIT; SMART GPL-3.0; others not uniformly verified",NO_CODE_REUSE,"collision context; AMCF does not claim shared/private or metric learning"
+identity_residual,ResNet/identity-mapping literature,standard computer-vision literature,N/A,N/A,PRIOR_ART,CLEAN_ROOM,"zero-initialized bounded residual around registered retained carrier"
+
