@@ -1,0 +1,106 @@
+{
+  "configs": [
+    {
+      "config_id": "Q50_S2_KEEP0_E1E6",
+      "config_sha256": "9419709f990b268e7002d1bcc018c8de22ec9463d48a955e28b4ecfff9f94fb8",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": false,
+      "margin_rank_quantile": 0.5,
+      "minimum_view_support": 2
+    },
+    {
+      "config_id": "Q50_S2_KEEP1_E1E6",
+      "config_sha256": "bd8c59a5b3cb2f544b1a2cf34755c3ffaf82e71e25d2fd1dd6f1f6172497b388",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.5,
+      "minimum_view_support": 2
+    },
+    {
+      "config_id": "Q50_S3_KEEP0_E1E6",
+      "config_sha256": "165c58b9c271e053031594a24babd317ea84d74c1c81c390d411943fc0adc1c5",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": false,
+      "margin_rank_quantile": 0.5,
+      "minimum_view_support": 3
+    },
+    {
+      "config_id": "Q50_S3_KEEP1_E1E6",
+      "config_sha256": "2f523adcdfb18db066eadb97c64543a2f384b79ee846d9e0c49c397d0b833c62",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.5,
+      "minimum_view_support": 3
+    },
+    {
+      "config_id": "Q65_S2_KEEP0_E1E6",
+      "config_sha256": "feb00006f1568a3de5a787b612b3f695319f13afc645486940a258e7e88c08ad",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": false,
+      "margin_rank_quantile": 0.65,
+      "minimum_view_support": 2
+    },
+    {
+      "config_id": "Q65_S2_KEEP1_E1E6",
+      "config_sha256": "d38d3148d6368bfdaf286fd1052a57f27f3ca06bf21ebc1a685e238946948e3f",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.65,
+      "minimum_view_support": 2
+    },
+    {
+      "config_id": "Q65_S3_KEEP0_E1E6",
+      "config_sha256": "f768f38be4152afdb4f4f86014a80e6ab5f9552c6e651b996f12a75607042bd9",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": false,
+      "margin_rank_quantile": 0.65,
+      "minimum_view_support": 3
+    },
+    {
+      "config_id": "Q65_S3_KEEP1_E1E6",
+      "config_sha256": "d16ef8247789b98f1fd5811aa9a21f54f25653f99ee81662ba80233dbcfa4e92",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.65,
+      "minimum_view_support": 3
+    },
+    {
+      "config_id": "Q80_S2_KEEP0_E1E6",
+      "config_sha256": "130cffa39a23159a4b3dc1d741c991dc97881731706cd65d718a37f77ff0ccf0",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": false,
+      "margin_rank_quantile": 0.8,
+      "minimum_view_support": 2
+    },
+    {
+      "config_id": "Q80_S2_KEEP1_E1E6",
+      "config_sha256": "a4dfc15f5ee4cba172ee687f978f0408a96a704458a61d8b1db419b3701278ae",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.8,
+      "minimum_view_support": 2
+    },
+    {
+      "config_id": "Q80_S3_KEEP0_E1E6",
+      "config_sha256": "8f8e95a5ec678849c1eee341ecaf4578ebb233cbaec580fa7c5236372cca926a",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": false,
+      "margin_rank_quantile": 0.8,
+      "minimum_view_support": 3
+    },
+    {
+      "config_id": "Q80_S3_KEEP1_E1E6",
+      "config_sha256": "e42aa4b842efbac144dd2f28c78d1bed2cb6c9415bf6626bb03cf2cde954d04f",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.8,
+      "minimum_view_support": 3
+    }
+  ],
+  "labels_read": 0,
+  "p0_config_id": "Q65_S2_KEEP1_E1E6",
+  "registry_sha256": "d0c9b31a6d133c8eadde97ec7898c32f78eec93a326f5cf8d866a1f1f595096d",
+  "schema": "night18e-certificate-config-registry-v1",
+  "selection_rule": "maximize independent dual-gain discovery-study count; then worst-study delta ARI, mean delta ARI, mean delta NMI, lower protected fraction",
+  "status": "FROZEN_BEFORE_PARTITION_PRODUCTION"
+}

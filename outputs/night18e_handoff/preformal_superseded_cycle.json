@@ -1,0 +1,25 @@
+{
+  "cycles": [
+    {
+      "paths": [
+        "p0",
+        "development"
+      ],
+      "reason": "preformal float-path certificate proof did not match actual integer cut semantics",
+      "used_for_scientific_selection": false
+    },
+    {
+      "paths": [
+        "p0_final",
+        "development_final"
+      ],
+      "reason": "integer proof existed but formal cut energy equality to exhaustive optimum was not yet asserted; some artifacts predated final source",
+      "used_for_scientific_selection": false
+    }
+  ],
+  "formal_source_sha256": "be91e224f0dea152fbc39cab935b4ecdcacd76c447d1ce24b512f48de051fd19",
+  "nonempty": true,
+  "schema": "night18e-preformal-superseded-cycle-v1",
+  "scientific_metrics_or_selection_reused": false,
+  "status": "SUPERSEDED_ENGINEERING_EVIDENCE_PRESERVED"
+}

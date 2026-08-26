@@ -1,0 +1,19 @@
+{
+  "actual_cut_solver": "scipy.sparse.csgraph.maximum_flow",
+  "actual_quantizer": "round(max(capacity,0)*capacity_scale) to int64",
+  "does_not_claim": [
+    "global optimum of the full multi-label dynamic objective",
+    "novelty of persistency, Potts, or alpha-expansion",
+    "score or whole-partition safety"
+  ],
+  "dynamic_cycle_semantics": "base unary and gap recomputed each cycle; target fixed; induction premise checked",
+  "epsilon": "epsilon_relative*robust_unary_scale + 2*(degree_i+4)/capacity_scale + 1e-12",
+  "formal_cut_integer_energy_equals_exhaustive_optimum": true,
+  "gap": "g_i=max(0,d_i-m_i+epsilon_i) for trusted i; zero otherwise",
+  "schema": "night18e-quantized-certificate-proof-audit-v2",
+  "source_sha256": "be91e224f0dea152fbc39cab935b4ecdcacd76c447d1ce24b512f48de051fd19",
+  "status": "PASS",
+  "sufficient_condition": "m_i + g_i > d_i after conservative integer-rounding guard",
+  "target_semantics": "fixed input partition label for each trusted node",
+  "tested_scope": "deterministic edge cases plus 40 random N=3..6,K=2..3 cases; every binary alpha subspace enumerated"
+}

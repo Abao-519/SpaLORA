@@ -1,0 +1,22 @@
+{
+  "configs": [
+    {
+      "config_id": "Q50_S2_KEEP1_E1E6",
+      "config_sha256": "bd8c59a5b3cb2f544b1a2cf34755c3ffaf82e71e25d2fd1dd6f1f6172497b388",
+      "epsilon_relative": 1e-06,
+      "keep_untrusted_original_self_return": true,
+      "margin_rank_quantile": 0.5,
+      "minimum_view_support": 2
+    }
+  ],
+  "p0_config_id": "Q50_S2_KEEP1_E1E6",
+  "parent_certificate_registry_path": "/root/night18e_working/config/certificate_config_registry.json",
+  "parent_certificate_registry_sha256": "d978b27e7bcd3852eb1f4c89a38dabddd90617ead0384ab017c5ed1ceb4faef1",
+  "schema": "night18e-frozen-shared-ccsr-registry-v1",
+  "selected_config_id": "Q50_S2_KEEP1_E1E6",
+  "selection_rule": "max discovery lanes with median paired ARI/NMI dual gain and >=2/3 independent paired starts; then max worst-study median delta ARI, mean-study median delta ARI, mean-study median delta NMI, config ID",
+  "selection_scope": "PUBLIC_BENCHMARK_LABEL_ASSISTED_STAGE_A",
+  "stage_b_authorized": false,
+  "stage_b_gate_observed_lane_count": 0,
+  "stage_b_gate_required_lane_count": 2
+}

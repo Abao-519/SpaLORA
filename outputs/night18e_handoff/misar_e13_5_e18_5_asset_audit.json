@@ -1,0 +1,37 @@
+{
+  "candidate_processed_archive": {
+    "bytes": 1651490354,
+    "central_directory_mentions_misar_stages": true,
+    "downloaded": false,
+    "md5": "96f4e6963a8bc11f02d7d33e1fc86fcd",
+    "name": "Processed Data for SIVA.zip",
+    "reason": "1.65 GB archive would violate the 1.5 GiB root reserve; no single-stage direct asset was closed",
+    "source": "SIVA Zenodo record 20034790"
+  },
+  "downloads_in_night18e": 0,
+  "existing_small_bundle": {
+    "archive_name": "spatial_ATAC-RNA-seq_MB.zip",
+    "bytes": 268213598,
+    "is_misar_developmental_stage_bundle": false,
+    "md5": "bf4b68a7e55566e07820816a23198fca",
+    "reference_annotation_present": false,
+    "resolved_study": "GSE205055 spatial epigenome-transcriptome mouse brain",
+    "zenodo_record": "14789361"
+  },
+  "independent_study_count_note": "E13.5/E18.5 are within-study stages, not independent external studies",
+  "misar_e13_5": {
+    "annotation_provenance": "author developmental-region annotation; exact file/hash pending",
+    "exact_ids_mask_hash_closed": false,
+    "public_context_k": 7,
+    "status": "METADATA_ONLY_NOT_EVALUATION_READY",
+    "study_block": "MISAR developmental series"
+  },
+  "misar_e18_5": {
+    "annotation_provenance": "author developmental-region annotation; exact file/hash pending",
+    "exact_ids_mask_hash_closed": false,
+    "public_context_k": 10,
+    "status": "METADATA_ONLY_NOT_EVALUATION_READY",
+    "study_block": "MISAR developmental series"
+  },
+  "schema": "night18e-misar-e13-e18-read-only-capability-audit-v1"
+}

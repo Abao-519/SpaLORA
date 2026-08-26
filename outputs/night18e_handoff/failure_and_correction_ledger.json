@@ -1,0 +1,32 @@
+{
+  "engineering_corrections": [
+    "unified formal and test integer-capacity quantizer",
+    "SciPy 1.8 residual versus newer flow result compatibility",
+    "formal min-cut integer energy must equal enumerated alpha-subspace optimum",
+    "producer manifest records core, producer, registries and execution-contract hashes",
+    "post-lock summary uses protected-fraction tie-break and strict double-win controls",
+    "decision derives mechanically from observed gate instead of hard-coded result"
+  ],
+  "failed_formal_candidates": 0,
+  "formal_scientific_source_sha256": "be91e224f0dea152fbc39cab935b4ecdcacd76c447d1ce24b512f48de051fd19",
+  "schema": "night18e-engineering-and-scientific-cycle-ledger-v1",
+  "scientific_formula_changed_after_formal_v2": false,
+  "superseded_cycles": [
+    {
+      "paths": [
+        "p0",
+        "development"
+      ],
+      "reason": "preformal float-path certificate proof did not match actual integer cut semantics",
+      "used_for_scientific_selection": false
+    },
+    {
+      "paths": [
+        "p0_final",
+        "development_final"
+      ],
+      "reason": "integer proof existed but formal cut energy equality to exhaustive optimum was not yet asserted; some artifacts predated final source",
+      "used_for_scientific_selection": false
+    }
+  ]
+}

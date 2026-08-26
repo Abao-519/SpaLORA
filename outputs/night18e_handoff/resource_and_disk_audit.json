@@ -1,0 +1,30 @@
+{
+  "formal_candidate_count": 711,
+  "formal_candidate_failures": 0,
+  "gpu_time_seconds": 0.0,
+  "persistent_data": {
+    "bytes_available": 92332154880,
+    "bytes_total": 214748364800,
+    "bytes_used": 122416209920,
+    "inodes_available": 64,
+    "inodes_total": 200000,
+    "path": "/autodl-fs/data",
+    "percent_used": 57.00448989868164,
+    "timestamp_utc": "2026-08-26T00:30:24.245495+00:00"
+  },
+  "repo_bytes": 1577240414,
+  "root": {
+    "bytes_available": 2335739904,
+    "bytes_total": 31526391808,
+    "bytes_used": 29173874688,
+    "inodes_available": 1774757,
+    "inodes_total": 1966080,
+    "path": "/",
+    "percent_used": 92.5379436558197,
+    "timestamp_utc": "2026-08-26T00:30:24.244182+00:00"
+  },
+  "schema": "night18e-live-resource-audit-v1",
+  "shutdown_dispatched": false,
+  "status": "PASS",
+  "working_bytes": 10963423
+}

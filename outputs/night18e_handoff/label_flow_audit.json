@@ -1,0 +1,24 @@
+{
+  "evaluator": {
+    "labels_read": 1,
+    "purpose": "transparent public benchmark Stage-A HPO and post-lock evaluation",
+    "references": {
+      "HUMAN_HIPPOCAMPUS_K7": "/root/night16e_external/human_hippocampus/human_adata1_official_result.h5ad",
+      "MISAR_K7": "/root/night16d_assets/kit/local_compute_kit/MISAR_E15_5_S1.npz",
+      "P22_K9": "/root/night16d_assets/kit/local_compute_kit/P22.npz",
+      "PLACENTA_K10": "/root/autodl-fs/Human placenta architecture/humanplacenta_rna.h5ad"
+    }
+  },
+  "producer": {
+    "candidate_partitions_materialized_before_evaluator": true,
+    "labels_or_annotations_read": 0,
+    "metrics_read": 0,
+    "partition_and_source_hashes_locked": true
+  },
+  "schema": "night18e-label-flow-audit-v1",
+  "stage_b": {
+    "authorized": false,
+    "human_result_role": "P0_DIAGNOSTIC_NOT_FROZEN_CONFIRMATION"
+  },
+  "status": "PASS"
+}

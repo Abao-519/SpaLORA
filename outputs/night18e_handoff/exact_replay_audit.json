@@ -1,0 +1,111 @@
+{
+  "expected_count": 7,
+  "pass_count": 7,
+  "rows": [
+    {
+      "array_exact": {
+        "candidate_ids": true,
+        "ids": true,
+        "partitions": true
+      },
+      "first_file_sha256": "ef5a548b8dad3e3ac41ba81a2cf638779bed674bb74993a2c82a1ab163228018",
+      "first_path": "/root/night18e_working/p0_formal_v2/P22_K9/partitions.npz",
+      "lane": "P22_K9",
+      "partition_matrix_sha256_first": "9efc4ae61a118e9d4eda0e6bff2ed998fdc72ef1aa376a4967a9e2daf21a9076",
+      "partition_matrix_sha256_second": "9efc4ae61a118e9d4eda0e6bff2ed998fdc72ef1aa376a4967a9e2daf21a9076",
+      "scope": "P0_FULL_BANK",
+      "second_file_sha256": "ef5a548b8dad3e3ac41ba81a2cf638779bed674bb74993a2c82a1ab163228018",
+      "second_path": "/root/night18e_working/replay_formal_v2/p0/P22_K9/partitions.npz",
+      "status": "PASS"
+    },
+    {
+      "array_exact": {
+        "candidate_ids": true,
+        "ids": true,
+        "partitions": true
+      },
+      "first_file_sha256": "453a2d6cdb96da50d43620d90b6b1d4724adc2037a49f568c038015e410d5f28",
+      "first_path": "/root/night18e_working/p0_formal_v2/MISAR_K7/partitions.npz",
+      "lane": "MISAR_K7",
+      "partition_matrix_sha256_first": "2c5a095dd76479328c8c3625fbb4a7f866b55d215d27136d5e429fe5b5db5447",
+      "partition_matrix_sha256_second": "2c5a095dd76479328c8c3625fbb4a7f866b55d215d27136d5e429fe5b5db5447",
+      "scope": "P0_FULL_BANK",
+      "second_file_sha256": "453a2d6cdb96da50d43620d90b6b1d4724adc2037a49f568c038015e410d5f28",
+      "second_path": "/root/night18e_working/replay_formal_v2/p0/MISAR_K7/partitions.npz",
+      "status": "PASS"
+    },
+    {
+      "array_exact": {
+        "candidate_ids": true,
+        "ids": true,
+        "partitions": true
+      },
+      "first_file_sha256": "17da3cd3bbca2e897aa03f86af085805617e30f4f56fc9271c5c3c2707b51b24",
+      "first_path": "/root/night18e_working/p0_formal_v2/PLACENTA_K10/partitions.npz",
+      "lane": "PLACENTA_K10",
+      "partition_matrix_sha256_first": "1b359db5ee44606b8cfb33865b23b510bbda20c72fd4fd0a30f5f192a7abf4cf",
+      "partition_matrix_sha256_second": "1b359db5ee44606b8cfb33865b23b510bbda20c72fd4fd0a30f5f192a7abf4cf",
+      "scope": "P0_FULL_BANK",
+      "second_file_sha256": "17da3cd3bbca2e897aa03f86af085805617e30f4f56fc9271c5c3c2707b51b24",
+      "second_path": "/root/night18e_working/replay_formal_v2/p0/PLACENTA_K10/partitions.npz",
+      "status": "PASS"
+    },
+    {
+      "array_exact": {
+        "candidate_ids": true,
+        "ids": true,
+        "partitions": true
+      },
+      "first_file_sha256": "b5f6594144b2831ad37ca1a275feac1bea35bfe9ae74e5987d573325d4a5b9b1",
+      "first_path": "/root/night18e_working/p0_formal_v2/HUMAN_HIPPOCAMPUS_K7/partitions.npz",
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "partition_matrix_sha256_first": "4080042b1b7a84a065fc070772afb075dd87a32ae8e6827a0727018fa159f6a6",
+      "partition_matrix_sha256_second": "4080042b1b7a84a065fc070772afb075dd87a32ae8e6827a0727018fa159f6a6",
+      "scope": "P0_FULL_BANK",
+      "second_file_sha256": "b5f6594144b2831ad37ca1a275feac1bea35bfe9ae74e5987d573325d4a5b9b1",
+      "second_path": "/root/night18e_working/replay_formal_v2/p0/HUMAN_HIPPOCAMPUS_K7/partitions.npz",
+      "status": "PASS"
+    },
+    {
+      "candidate_subset_exact": true,
+      "formal_file_sha256": "5f13da5d182571ad38e7d00a896d6d481a19616d7d73a3bc00241f4b0473c0de",
+      "formal_path": "/root/night18e_working/development_formal_v2/P22_K9/partitions.npz",
+      "lane": "P22_K9",
+      "ordered_ids_exact": true,
+      "partition_subset_exact": true,
+      "replay_file_sha256": "33bb33fe21d747e2cf99f20bfc15faeb728741c1ba6fbd543a5a3cfa9937521a",
+      "replay_path": "/root/night18e_working/replay_formal_v2/shared/P22_K9/partitions.npz",
+      "replayed_candidate_count": 27,
+      "scope": "SHARED_CONFIG_SUBSET",
+      "status": "PASS"
+    },
+    {
+      "candidate_subset_exact": true,
+      "formal_file_sha256": "1af04fe306f671bbc37d3f448427c9958f337cc279349b433a289544e7eb5de4",
+      "formal_path": "/root/night18e_working/development_formal_v2/MISAR_K7/partitions.npz",
+      "lane": "MISAR_K7",
+      "ordered_ids_exact": true,
+      "partition_subset_exact": true,
+      "replay_file_sha256": "9367d88c90b80eca105cb46916d2af1372c9388cfa013016e8b389cc030bbc5b",
+      "replay_path": "/root/night18e_working/replay_formal_v2/shared/MISAR_K7/partitions.npz",
+      "replayed_candidate_count": 27,
+      "scope": "SHARED_CONFIG_SUBSET",
+      "status": "PASS"
+    },
+    {
+      "candidate_subset_exact": true,
+      "formal_file_sha256": "da78ce76ebd0654fe67b368491af43790bdfcedd967e775e7d7d97b1249379fd",
+      "formal_path": "/root/night18e_working/development_formal_v2/PLACENTA_K10/partitions.npz",
+      "lane": "PLACENTA_K10",
+      "ordered_ids_exact": true,
+      "partition_subset_exact": true,
+      "replay_file_sha256": "ef3cb6a9c94461009ada9f0353d6928d4513d1c738337e0b0d8c193bbe58e58a",
+      "replay_path": "/root/night18e_working/replay_formal_v2/shared/PLACENTA_K10/partitions.npz",
+      "replayed_candidate_count": 27,
+      "scope": "SHARED_CONFIG_SUBSET",
+      "status": "PASS"
+    }
+  ],
+  "schema": "night18e-fresh-process-replay-audit-v1",
+  "status": "PASS"
+}

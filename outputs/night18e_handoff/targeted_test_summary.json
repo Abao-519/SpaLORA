@@ -1,0 +1,9 @@
+{
+  "command": "/root/miniconda3/envs/SpaLORA/bin/python -m pytest -q tests/test_night18e_ccsr.py",
+  "exit_code": 0,
+  "expected_pass_count": 8,
+  "schema": "night18e-targeted-tests-v1",
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "........                                                                 [100%]\n8 passed in 0.51s"
+}
