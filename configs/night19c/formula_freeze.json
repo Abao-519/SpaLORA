@@ -1,0 +1,60 @@
+{
+  "schema": "night19c-formula-freeze-v1",
+  "scientific_object": "NIGHT17C_Z01_ZERO_START_TRANSFER_WITH_EXPLICIT_EQUAL_WEIGHT_PLACENTA_BANK",
+  "night17c_formula_modified": false,
+  "model_config": {
+    "config_id": "Z01_CONSERVATIVE",
+    "hidden_dim": 32,
+    "residual_scale": 0.05,
+    "learning_rate": 0.0007,
+    "steps": 40,
+    "relation_weight": 1.0,
+    "anchor_weight": 4.0,
+    "self_return_weight": 4.0,
+    "consistency_weight": 0.5,
+    "variance_weight": 0.1
+  },
+  "endpoint": {
+    "name": "KMeans",
+    "seed": 0,
+    "n_init": 20,
+    "known_k": 10
+  },
+  "relation_bank": {
+    "bank_id": "PLACENTA_UNBIASED_BANK_V1",
+    "candidate_count": 16,
+    "weighting": "EXPLICIT_EQUAL_WEIGHT_1_OVER_16",
+    "included": "TWO_NIGHT19B_PROFILES_X_EIGHT_NON_ABLATION_NON_PERMUTED_ARMS",
+    "excluded": [
+      "CSAD_CONFLICT_DISABLED",
+      "CSAD_MODALITY_EDGE_PERMUTED"
+    ],
+    "candidate_ids_are_not_renamed": true
+  },
+  "matched_arms": [
+    "FROZEN_RETAINED",
+    "RELATION_SMOOTH",
+    "ZERO_RESIDUAL",
+    "PERMUTED_RELATION",
+    "Z01_FULL"
+  ],
+  "seed0_transfer_gate": {
+    "delta_ari_minimum": 0.005,
+    "delta_nmi_minimum": 0.005,
+    "reference": "COORDINATE_WISE_STRONGEST_MATCHED_CONTROL",
+    "no_singleton": true,
+    "no_empty_cluster": true
+  },
+  "labels_opened_before_freeze": 0,
+  "formal_scientific_changes_after_freeze_allowed": false,
+  "source_sha256": {
+    "SpaLORA/night17c_zero_start.py": "635eac0e264165fedc617640e67ae1b2f14b5def8b8fed61c8d2175b688a367c",
+    "SpaLORA/night19c_zero_start_transfer.py": "b59ab914e8e55f0da03d66d0a78bef7667ad74ee8818568a00817a12e68da9fd",
+    "scripts/night19c/build_placenta_bank.py": "e8fdb95b462fe0f761fad22326e023010ee03faf6d78cdf0737ff6a8fbd4be88",
+    "scripts/night19c/night19c_producer.py": "1f4db53c3ddf25975940d0bceee92aae9200e0f3d3ef758d0a17499a0f637091",
+    "scripts/night19c/night19c_replay.py": "ce75834e910406b779f77a4bfe65cb9699da4764c25759f88dc7d6f8269da626",
+    "scripts/night19c/night19c_evaluator.py": "4c8394ac9ea22490f057b81b71496260281aafadff94f9305fd25c45a0ca2d97",
+    "tests/test_night19c_zero_start_transfer.py": "5742af6ca2cb66a76fc777240d45f45676a654f709863f593cea84c105167756",
+    "taskbook": "ab9d368bffa2b786ab725c8d2550480a27506bbc870593ef37c3b019b50b78bf"
+  }
+}

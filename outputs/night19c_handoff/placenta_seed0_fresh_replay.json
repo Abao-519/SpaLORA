@@ -1,0 +1,23 @@
+{
+  "all_partition_exact": true,
+  "all_representation_exact": true,
+  "lane": "PLACENTA_K10",
+  "replayed_trainable_arms": 2,
+  "rows": [
+    {
+      "partition_exact": true,
+      "partition_sha256": "eb7ba1387e6b5520f9d2056b2b9b59a51a7bfb0026d9633cb93cff2fdb89cbbd",
+      "representation_exact": true,
+      "representation_sha256": "64bd0bd62fd6b9c868522c9d4dec5634f782b99433287fe1160a6cd930d3a134",
+      "run_id": "PERMUTED_RELATION"
+    },
+    {
+      "partition_exact": true,
+      "partition_sha256": "a868b64a7af99665acd5bcd5cb68263984f54a85ff8be89fa093774a11983243",
+      "representation_exact": true,
+      "representation_sha256": "a4a8960720ca7a3f64cdb3251b13bfa44343dfcaf0450e0d16b07cb09435a6c0",
+      "run_id": "Z01_FULL"
+    }
+  ],
+  "schema": "night19c-placenta-fresh-replay-v1"
+}

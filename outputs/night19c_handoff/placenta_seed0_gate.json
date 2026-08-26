@@ -1,0 +1,17 @@
+{
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "coordinate_wise_strongest_control_ari": 0.3771021335815493,
+  "coordinate_wise_strongest_control_nmi": 0.5545565679476709,
+  "delta_ari": -0.06086145763613671,
+  "delta_nmi": -0.049434002691955525,
+  "full_ari": 0.3162406759454126,
+  "full_min_cluster_size": 63,
+  "full_nmi": 0.5051225652557154,
+  "no_singleton_or_empty": true,
+  "required_delta_ari": 0.005,
+  "required_delta_nmi": 0.005,
+  "schema": "night19c-placenta-seed0-gate-v1",
+  "seed0_transfer_gate_passed": false,
+  "seeds_1_2_authorized": false,
+  "stage_c_authorized": false
+}

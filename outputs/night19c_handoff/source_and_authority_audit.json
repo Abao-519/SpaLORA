@@ -1,0 +1,21 @@
+{
+  "night17c_compact_25_of_25_reverified": true,
+  "night17c_core_matches_final_compact": true,
+  "night17c_recovered_lane_seed_units": 9,
+  "placenta_bank_authority_sha256": "b9a9b3f17816a0d2e6301ae1894cb01d674ccfae004ec945368c1bc23b98a545",
+  "placenta_bank_candidate_count": 16,
+  "schema": "night19c-source-authority-audit-v1",
+  "source_sha256": {
+    "SpaLORA/night17c_zero_start.py": "635eac0e264165fedc617640e67ae1b2f14b5def8b8fed61c8d2175b688a367c",
+    "SpaLORA/night19c_zero_start_transfer.py": "b59ab914e8e55f0da03d66d0a78bef7667ad74ee8818568a00817a12e68da9fd",
+    "scripts/night19c/build_handoff.py": "87242d183afce1ae6dfa37f5fd7e1de2e0e95eb74363ab064ef1e09ee5b30b78",
+    "scripts/night19c/build_placenta_bank.py": "e8fdb95b462fe0f761fad22326e023010ee03faf6d78cdf0737ff6a8fbd4be88",
+    "scripts/night19c/build_scientific_summary.py": "dfde8e4e6c7413cf5ec9022a235c61efc6c2d359fe10a45682927e1004740818",
+    "scripts/night19c/night19c_evaluator.py": "4c8394ac9ea22490f057b81b71496260281aafadff94f9305fd25c45a0ca2d97",
+    "scripts/night19c/night19c_producer.py": "1f4db53c3ddf25975940d0bceee92aae9200e0f3d3ef758d0a17499a0f637091",
+    "scripts/night19c/night19c_replay.py": "ce75834e910406b779f77a4bfe65cb9699da4764c25759f88dc7d6f8269da626",
+    "tests/test_night17c_zero_start.py": "90eb9ac1820249b3822024c22f5d58740e9cf2d793c5fa709ff60face6349502",
+    "tests/test_night19c_zero_start_transfer.py": "5742af6ca2cb66a76fc777240d45f45676a654f709863f593cea84c105167756"
+  },
+  "z01_formula_modified": false
+}

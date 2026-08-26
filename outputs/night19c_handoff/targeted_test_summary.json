@@ -1,0 +1,8 @@
+{
+  "command": "pytest -q tests/test_night17c_zero_start.py tests/test_night19c_zero_start_transfer.py",
+  "failed": 0,
+  "log_sha256": "6b8d172200fc7a15221286c8f9c78d053f3243eaceec3970fc5707f2f7acf588",
+  "passed": 12,
+  "schema": "night19c-targeted-tests-v1",
+  "status": "PASS"
+}

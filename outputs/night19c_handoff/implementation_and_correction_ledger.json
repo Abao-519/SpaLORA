@@ -1,0 +1,13 @@
+[
+  {
+    "id": "E00",
+    "stage": "PRE_PRODUCER_PREFLIGHT",
+    "status": "CORRECTED_BEFORE_BANK_OR_TRAINING_OR_LABEL_ACCESS",
+    "issue": "The first launcher omitted repository PYTHONPATH and failed at module import.",
+    "evidence": "ModuleNotFoundError: No module named SpaLORA.night17b_sfrd",
+    "scientific_artifacts_created": 0,
+    "labels_read": 0,
+    "formula_changed": false,
+    "correction": "Set PYTHONPATH=/root/SpaLORA-night16h and reran the frozen path from bank construction."
+  }
+]
