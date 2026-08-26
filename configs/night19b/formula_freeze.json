@@ -1,0 +1,66 @@
+{
+  "schema": "night19b-csad-formula-freeze-v1",
+  "taskbook_sha256": "4083713ea11280a9cfeea2882380da4352f0d76687a4cdd3ae795fea2ebdf096",
+  "parent_commit": "e58da0eb307235553fa8359f75e82b527cb735a3",
+  "frozen_before_real_partition_evaluation": true,
+  "method_object": "THREE_SPARSE_OPERATOR_ORDERED_CROSS_DIFFUSION_WITH_CONTENT_DERIVED_CONFLICT_SELF_RETURN",
+  "feature_operator": "MUTUAL_COSINE_KNN_SELF_TUNED_KERNEL_WITH_BOUNDED_SELF_LOOP",
+  "spatial_operator": "REGISTERED_GRAPH_SCALE_SYMMETRIZED_TOPK_ROW_NORMALIZED",
+  "ordered_paths": ["P_R P_S P_A", "P_A P_S P_R"],
+  "product_rule": "DETERMINISTIC_TOPK_AFTER_EVERY_SPARSE_MULTIPLICATION_THEN_ROW_NORMALIZE",
+  "conflict_gate": "NODE_RELIABILITY_IS_SQRT_OF_RNA_ATAC_ROW_AGREEMENT_TIMES_MOLECULAR_SPATIAL_SUPPORT; REJECTED OFFDIAGONAL MASS RETURNS_TO SELF",
+  "final_operator": "SYMMETRIC_NONNEGATIVE_DEGREE_NORMALIZED_SPECTRAL_OPERATOR",
+  "endpoint": "TOP_EIGENVECTORS_ROW_L2_KMEANS_N_INIT_20",
+  "endpoint_seeds": [0],
+  "profiles": [
+    {
+      "config_id": "S01_LOCAL",
+      "feature_neighbors": 12,
+      "spatial_scale": 0,
+      "spatial_topk": 12,
+      "product_topk": 16,
+      "self_loop": 0.25,
+      "conflict_strength": 0.6,
+      "conflict_floor": 0.2,
+      "spectral_extra_dim": 2
+    },
+    {
+      "config_id": "S02_MESOSCALE",
+      "feature_neighbors": 20,
+      "spatial_scale": 1,
+      "spatial_topk": 20,
+      "product_topk": 24,
+      "self_loop": 0.25,
+      "conflict_strength": 0.8,
+      "conflict_floor": 0.15,
+      "spectral_extra_dim": 3
+    }
+  ],
+  "arms": [
+    "RNA_ONLY_DIFFUSION",
+    "ATAC_ONLY_DIFFUSION",
+    "SPATIAL_ONLY_DIFFUSION",
+    "CONCATENATED_FEATURE_KNN",
+    "SIMPLE_OPERATOR_AVERAGE",
+    "CLASSICAL_ALTERNATING_RA",
+    "SPATIALLY_ANCHORED_ALTERNATING",
+    "CSAD_FULL",
+    "CSAD_CONFLICT_DISABLED",
+    "CSAD_MODALITY_EDGE_PERMUTED"
+  ],
+  "producer_label_reads": 0,
+  "permutation_control": "INDEPENDENT_SHA256_NODE_CONJUGATION_PER_MODALITY_PRESERVES_GLOBAL_ROW_DEGREE_AND_WEIGHT_MULTISETS_AND_SPECTRUM_BUT_NOT_SAME_ID_ROW_DEGREE",
+  "preformal_correction": "SUPERSEDED_DRAFT_USED_GLOBAL_DISTANCE_MEDIAN_WHILE_TEXT_SAID_SELF_TUNED; FORMAL_USES_PER_NODE_KTH_NEIGHBOR_LOCAL_SCALE_WITH_GLOBAL_MEDIAN_ONLY_FOR_ZERO_RADIUS",
+  "stage_a_gate": {
+    "minimum_primary_lane_pass_count": 2,
+    "minimum_delta_ari": 0.005,
+    "minimum_delta_nmi": 0.005,
+    "maximum_third_lane_joint_drop": 0.01,
+    "full_must_differ_from": [
+      "SIMPLE_OPERATOR_AVERAGE",
+      "CSAD_CONFLICT_DISABLED",
+      "CSAD_MODALITY_EDGE_PERMUTED"
+    ]
+  },
+  "claim_boundary": "ALTERNATING_DIFFUSION_DIFFUSION_MAPS_SPECTRAL_CLUSTERING_WNN_AND_GRAPH_FUSION_ARE_PRIOR_ART; ONLY_THE_REGISTERED_THREE_OPERATOR_CONFLICT_SELF_RETURN_COMPOSITION_IS_TESTED"
+}

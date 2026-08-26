@@ -1,0 +1,5 @@
+# Night-19B method and attribution contract
+
+`P_R` and `P_A` are mutual cosine-kNN Markov operators with per-node kth-neighbour local scales; `P_S` is one registered sparse spatial scale. The tested full operator forms `P_R P_S P_A` and `P_A P_S P_R`, top-k prunes and row-normalizes after every sparse multiplication, averages both orders, and attenuates off-diagonal propagation by a content-derived RNA/ATAC/spatial reliability. Rejected propagation mass returns to self before a symmetric nonnegative normalized spectral embedding and one common KMeans endpoint.
+
+Alternating diffusion, diffusion maps, spectral clustering, spatial-spectral diffusion, WNN and graph fusion are prior art. The only tested narrow object was the three-operator order plus content-derived conflict self-return. Stage A produced 0/3 independent method passes, so no novelty or method-success claim is retained. The permutation control uses independent SHA-256 node conjugation per modality: it preserves global row-degree/weight multisets and spectrum, not the same-ID row degree; this is an explicit residual attribution limitation.

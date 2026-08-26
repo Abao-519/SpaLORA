@@ -1,0 +1,81 @@
+{
+  "file_count": 15,
+  "files": [
+    {
+      "name": "all_candidate_metrics_and_controls.csv",
+      "sha256": "890eeedb2e2fcacefffb2c38ef7bf9db80868e59e8745a069a81b30746322ac6",
+      "size": 35045
+    },
+    {
+      "name": "failure_and_correction_ledger.csv",
+      "sha256": "a383e5cfc479ab98066445851efe85683426cd0633f37b509d6f5aaab3b29538",
+      "size": 1168
+    },
+    {
+      "name": "fresh_process_replay_audit.csv",
+      "sha256": "56897bce88c244ced82b88af5d0aa5f57dd9c7e45461adb814c0b268e9800a02",
+      "size": 355
+    },
+    {
+      "name": "label_flow_audit.json",
+      "sha256": "a182cbdc6d6f6a3d146139f473ea8842fddbe76dd315d7702e995eeb53e6a136",
+      "size": 4511
+    },
+    {
+      "name": "method_formula_and_attribution_contract.md",
+      "sha256": "3668c37413b7264c2d5f92fff663066784fc27d45c73c4420153580aa1955fc8",
+      "size": 1116
+    },
+    {
+      "name": "night19b_decision.json",
+      "sha256": "66cc93484e44fc9cabd9e1ecec108c7f502939645d1612420e0659846f7fcf23",
+      "size": 849
+    },
+    {
+      "name": "night19b_report.md",
+      "sha256": "c7d1947a26782bf0e6b116fbe6228201f6a5effb3b2001d1727370453cf10f11",
+      "size": 4014
+    },
+    {
+      "name": "operator_sparse_quality_audit.csv",
+      "sha256": "a842c3739939618ef1574503ea440515fc1f61b996781b0d53985ff6c2aed7a5",
+      "size": 18729
+    },
+    {
+      "name": "real_p0_registry.csv",
+      "sha256": "c0a55aef426c45389ebdcf68bd5174b86e74fb40d29b598fcd13fd505e372c10",
+      "size": 1736
+    },
+    {
+      "name": "resource_and_disk_audit.json",
+      "sha256": "7a3a6092468391462eb89f356adac9d175d443b77c26a6538e24d69b8b840ab0",
+      "size": 253
+    },
+    {
+      "name": "reviewer_risk_register.md",
+      "sha256": "e3bc9eaa514e6682bf856be6fe68a274af634d9990e757e15daa09b0a2cb25f4",
+      "size": 996
+    },
+    {
+      "name": "source_collision_matrix.csv",
+      "sha256": "06216f2c386c89f065d3faa530cdb8ea774d4ac5081483ca6babb5295167db10",
+      "size": 1366
+    },
+    {
+      "name": "stage_a_gate.json",
+      "sha256": "e4d2d910915e82f212afe7141ad3cd5125c7524d5c00448fde04b496fe083481",
+      "size": 28802
+    },
+    {
+      "name": "targeted_test_summary.json",
+      "sha256": "dcef9db0bc399626ee7170f923a8a33f980d6682dee484d51de2d6a9ec5538fd",
+      "size": 233
+    },
+    {
+      "name": "targeted_tests.log",
+      "sha256": "7f4b1fab36c3909008622c0b35e1b438a84256c04b707d7182110b15e5c0dd05",
+      "size": 691
+    }
+  ],
+  "schema": "night19b-handoff-index-v1"
+}

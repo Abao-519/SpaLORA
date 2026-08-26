@@ -1,0 +1,23 @@
+{
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "family_stage_authorized": false,
+  "primary_lane_pass_count": 0,
+  "producer_label_reads": 0,
+  "reason": "CSAD_FULL lost to coordinate-wise strongest same-config controls in all three primary lanes and failed the third-lane safety condition.",
+  "schema": "night19b-decision-v1",
+  "secondary_score_frontier": {
+    "S01_CONCATENATED_FEATURE_KNN_ari_nmi": [
+      0.4999993975293688,
+      0.6311801428733832
+    ],
+    "S02_CONCATENATED_FEATURE_KNN_ari_nmi": [
+      0.4671057793331236,
+      0.6357721471971621
+    ],
+    "classification": "MATCHED_CONTROL_BACKBONE_HEAD_SIGNAL_NOT_CSAD_CONTRIBUTION",
+    "lane": "PLACENTA_K10"
+  },
+  "shutdown_dispatched": false,
+  "status": "NIGHT19B_CROSS_MODAL_SPATIAL_ALTERNATING_DIFFUSION_NO_INDEPENDENT_SIGNAL",
+  "trainable_unfolding_authorized": false
+}

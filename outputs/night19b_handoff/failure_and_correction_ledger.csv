@@ -1,0 +1,6 @@
+revision,classification,issue,resolution,scientific_reuse
+E00,PREFORMAL_SUPERSEDED_SEMANTICS_MISMATCH,Draft text said self-tuned while code used one global distance median.,"Before real P0, froze per-node kth-neighbour local scaling; preserved superseded draft JSON.",NO
+E01,TEST_CORRECTION,First duplicate-observation test compared rows without swapping their self-loop columns.,Replaced it with an independent dense local-scale reference.,NO
+E02,PREFORMAL_REPLAY_CORRECTION,First replay padded eigenvalues using all contract profiles instead of the profiles present in the locked P0 artifact.,Replay now derives padding from locked candidate profiles; no producer formula changed.,NO
+E03,PREFORMAL_CONTROL_FLOW_CORRECTION,SPATIALLY_ANCHORED_ALTERNATING computed a valid forward operator then fell through to unknown-arm.,Corrected the control branch; marked c497 core P0 as superseded and reran 4/4 P0 with active addcdf core.,NO
+E04,TRANSPORT_ASYNC_COMPLETION,Local wrapper yielded while the long P22 Stage-A fresh replay remained active.,Monitored the same remote PID/artifact to completion; no candidate was regenerated.,LOCKED_ARTIFACT_REUSED_AFTER_EXACT_REPLAY

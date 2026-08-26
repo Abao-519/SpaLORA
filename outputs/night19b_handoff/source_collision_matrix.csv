@@ -1,0 +1,8 @@
+source,entry,prior_object,boundary
+Coifman and Lafon diffusion maps,https://doi.org/10.1016/j.acha.2006.04.006,Markov diffusion eigenvectors and multiscale geometry,Diffusion maps and spectral endpoint are scaffold
+Nadler et al. spectral clustering,https://proceedings.neurips.cc/paper/2005/file/2a0f97f81755e2878b264adf39cba68e-Paper.pdf,Normalized graph eigenvectors for spectral clustering,Spectral clustering is not novel
+Katz et al. alternating diffusion maps,https://doi.org/10.1016/j.inffus.2018.01.007,Alternating multimodal diffusion to retain common latent variability,RNA-ATAC alternation is not novel
+Murphy and Maggioni spectral-spatial diffusion,https://arxiv.org/abs/1902.05402,Spatially regularized diffusion geometry for hyperspectral clustering,Adding a spatial operator to spectral diffusion is prior art
+Seurat WNN,https://satijalab.org/seurat/reference/findmultimodalneighbors,Cell-specific multimodal neighbour weighting and joint graph,Multimodal graph fusion and local modality utility are prior art
+SMART,https://www.nature.com/articles/s41467-026-70821-5,Spatial multi-omic graph neural integration and metric learning,Spatial multi-omics graph integration is mature scaffold
+ARISE,https://pubmed.ncbi.nlm.nih.gov/42366683/,RNA-anchored shared-edge graph and hierarchical multimodal fusion,Graph intersection/anchoring/fusion are not novel

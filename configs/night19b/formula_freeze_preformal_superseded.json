@@ -1,0 +1,11 @@
+{
+  "schema": "night19b-preformal-superseded-formula-v1",
+  "classification": "PREFORMAL_SUPERSEDED_IMPLEMENTATION_SEMANTICS_MISMATCH",
+  "never_used_for_real_p0_or_label_evaluation": true,
+  "issue": "The draft contract named a self-tuned kernel while the first local source draft used one global positive-distance median sigma.",
+  "superseded_kernel": "exp(-(d/global_positive_distance_median)^2)",
+  "formal_replacement": "exp(-d^2/(sigma_i*sigma_j)) where sigma_i is the node-specific kth-neighbour radius; global positive-distance median is used only for a zero local radius",
+  "reason_for_revision": "formula-text consistency correction before any real P0 and before labels were opened",
+  "scientific_result_used": false,
+  "labels_read_before_revision": 0
+}
