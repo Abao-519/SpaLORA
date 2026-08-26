@@ -1,0 +1,21 @@
+{
+  "action": "conda clean --all --yes only",
+  "conda_pkg_cache_after_bytes": 1068048966,
+  "conda_pkg_cache_before_bytes": 2799034642,
+  "current_at_handoff": {
+    "available_bytes": 24515780608,
+    "available_inodes": 3083130,
+    "total_bytes": 52655943680
+  },
+  "forbidden_targets_touched": [],
+  "projects_raw_checkpoints_compacts_bundles_git_deleted": false,
+  "root_after_cleanup": {
+    "available_bytes": 24623374336
+  },
+  "root_before": {
+    "available_bytes": 22980005888,
+    "filesystem_reported_size": "50G",
+    "filesystem_reported_used": "28G"
+  },
+  "schema": "night21c-disk-cleanup-v1"
+}

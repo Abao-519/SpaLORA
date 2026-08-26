@@ -1,0 +1,7 @@
+{
+  "schema": "night21c-engineering-p0-profile-v1",
+  "authority": "fixed pre-evaluation engineering smoke",
+  "physical_sample_match": false,
+  "purpose": "two-step real dense path test only; excluded from science tables",
+  "config": {"profile_id": "P0_SMOKE_2", "epochs": 2, "learning_rate": 0.00005, "sigma": 0.7, "loss_n": 0.01, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4}
+}

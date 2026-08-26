@@ -1,0 +1,14 @@
+....                                                                     [100%]
+=============================== warnings summary ===============================
+tests/test_night21c_official_math.py::test_official_graph_preprocess_matches_dense_reference
+tests/test_night21c_official_math.py::test_tiny_dense_path_backward_and_encoder_equivalence
+tests/test_night21c_official_math.py::test_strict_reload_and_exact_k
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+tests/test_night21c_official_math.py::test_strict_reload_and_exact_k
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/torch/nn/init.py:405: UserWarning: Initializing zero-element tensors is a no-op
+    warnings.warn("Initializing zero-element tensors is a no-op")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+4 passed, 4 warnings in 1.97s

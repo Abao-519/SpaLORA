@@ -1,0 +1,28 @@
+{
+  "compatibility_runner_changes": [
+    "sanitized reduced feature carrier adapter",
+    "registered graph support converted by upstream binary symmetrization plus identity and D^-1/2 normalization",
+    "fixed final epoch and removed notebook label monitoring",
+    "current PyTorch strict checkpoint reload",
+    "encoder-only final embedding replay avoiding unused decoder allocations"
+  ],
+  "license": "MIT",
+  "license_sha256": "511bd4792fe9674a718f800c10abd4ac331bc02190296d2b644dd934a6198c23",
+  "math_preserved": [
+    "two per-view AE and four-order NGNN modules",
+    "sigma fusion",
+    "dense fused-logit adjacency BCE",
+    "dense all-pair cosine Noise_Cross_Entropy after first 10 percent epochs",
+    "AE reconstruction",
+    "graph-feature and AE-GNN consistency losses"
+  ],
+  "night21b_sparse_port_is_official_replay": false,
+  "official_source_snapshot_modified": false,
+  "schema": "night21c-official-source-compatibility-v1",
+  "source_irregularities": [
+    "fixed snapshot Creat_model.py imports spaMGCN_ZINB.py which is absent",
+    "train.py appears only as a train/__pycache__/train.py source blob while train3.py is present"
+  ],
+  "upstream_commit": "77dfe67d4fd80c124722e68a0f71af36d10fa5fa",
+  "upstream_repo": "https://github.com/hongfeiZhang-source/spaMGCN"
+}

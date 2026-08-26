@@ -1,0 +1,17 @@
+{
+  "schema": "night21c-p22-dense-memory-preflight-v1",
+  "performed_before_p22_formal": true,
+  "lane": "P22_K9",
+  "n": 9196,
+  "dense_shape": [9196, 9196],
+  "float32_bytes_per_dense_matrix": 338265664,
+  "conservative_eight_matrix_bytes": 2706125312,
+  "visible_gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "visible_gpu_total_mib": 32760,
+  "placenta_real_p0_peak_gpu_mib": 339.7685546875,
+  "p22_real_two_step_p0_peak_gpu_mib": 5496.28466796875,
+  "p22_real_two_step_p0_wall_seconds": 2.31762957572937,
+  "p22_real_two_step_fresh_gpu_replay": "REPRESENTATION_AND_PARTITION_BYTE_EXACT",
+  "decision": "PROCEED_WITH_REAL_P22_ONE-EPOCH_THEN_FORMAL; predicted dense path fits GPU with a wide safety margin",
+  "fallback": "fail closed on any OOM; do not substitute Night-21B sparse objective"
+}

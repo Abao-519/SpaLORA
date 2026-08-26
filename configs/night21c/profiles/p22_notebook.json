@@ -1,0 +1,7 @@
+{
+  "schema": "night21c-source-derived-profile-v1",
+  "authority": "MGCN-main/test/test  MouseE15.ipynb",
+  "physical_sample_match": false,
+  "purpose": "RNA-chromatin notebook-analog sensitivity",
+  "config": {"profile_id": "MOUSE_E15_NOTEBOOK_ANALOG_400", "epochs": 400, "learning_rate": 0.01, "sigma": 0.5, "loss_n": 0.1, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4}
+}

@@ -1,0 +1,7 @@
+{
+  "schema": "night21c-source-derived-profile-v1",
+  "authority": "MGCN-main/config/configs.yml",
+  "physical_sample_match": false,
+  "purpose": "matched 700-step comparison to Night-21B sparse port",
+  "config": {"profile_id": "OFFICIAL_CONFIG_DEFAULT_700", "epochs": 700, "learning_rate": 0.00005, "sigma": 0.7, "loss_n": 0.01, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4}
+}

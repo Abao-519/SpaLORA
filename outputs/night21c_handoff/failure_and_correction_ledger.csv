@@ -1,0 +1,4 @@
+cycle,status,issue,resolution
+SOURCE_FETCH_0,SUPERSEDED_ENGINEERING_FAILURE,partial-clone filter invocation rejected by git,fixed-commit raw source snapshot with per-file hashes; failed clone preserved outside scientific results
+P0_REPLAY_CPU,VALID_NUMERIC_REPLAY_NOT_BYTE_EXACT,CPU checkpoint replay max abs 1.341104507446289e-07,GPU fresh-process replay is byte-exact; CPU replay retained as tolerance portability evidence
+GITHUB_SSH,CREDENTIAL_GAP,registered old public key has no matching private key on host,new isolated keypair created; only public key delivered; no push attempted before registration

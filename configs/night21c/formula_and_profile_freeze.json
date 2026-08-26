@@ -1,0 +1,55 @@
+{
+  "schema": "night21c-official-math-formula-and-profile-freeze-v1",
+  "taskbook_sha256": "dbd11881dbe13d578317984034d0f218034dc0ab0bff1151dd3e79527fb6614a",
+  "parent_commit": "3f94b1296d26016263a9b6b3efc42b827a806ed1",
+  "upstream_commit": "77dfe67d4fd80c124722e68a0f71af36d10fa5fa",
+  "official_math": {
+    "model": "unmodified upstream AE plus four-order NGNN per modality and concatenated z_tilde fusion",
+    "objective": "loss_ae + loss_w*graph_feature + loss_a*BCE(fused_times_fused_transpose, dense_normalized_spatial) + loss_s*AE_GNN_consistency; after 10 percent epochs add loss_n*dense_all_pair_NCE",
+    "dense_unused_diagnostic": "upstream also computes two decoded dense adjacency MSE terms but does not add them to the optimized loss",
+    "producer_label_reads": 0,
+    "checkpoint_selection": "fixed final epoch"
+  },
+  "matched_default_profile": {
+    "config": {
+      "profile_id": "OFFICIAL_CONFIG_DEFAULT_700",
+      "epochs": 700,
+      "learning_rate": 5e-05,
+      "sigma": 0.7,
+      "loss_n": 0.01,
+      "loss_w": 0.1,
+      "loss_s": 0.1,
+      "loss_a": 0.1,
+      "n_z": 20,
+      "ae_hidden_1": 128,
+      "ae_hidden_2": 256,
+      "graph_order": 4
+    },
+    "authority": "MGCN-main/config/configs.yml",
+    "purpose": "same 700-step budget as Night-21B STABLE700 sparse port"
+  },
+  "notebook_profiles": {
+    "A1_K10": {
+      "config": {"profile_id": "S1_NOTEBOOK_ANALOG_300", "epochs": 300, "learning_rate": 5e-05, "sigma": 0.7, "loss_n": 0.001, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4},
+      "authority": "test  S1.ipynb",
+      "physical_sample_match": false
+    },
+    "TONSIL_S1_K4": {
+      "config": {"profile_id": "S1_NOTEBOOK_EXACT_300", "epochs": 300, "learning_rate": 5e-05, "sigma": 0.7, "loss_n": 0.001, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4},
+      "authority": "test  S1.ipynb",
+      "physical_sample_match": true
+    },
+    "P22_K9": {
+      "config": {"profile_id": "MOUSE_E15_NOTEBOOK_ANALOG_400", "epochs": 400, "learning_rate": 0.01, "sigma": 0.5, "loss_n": 0.1, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4},
+      "authority": "test  MouseE15.ipynb",
+      "physical_sample_match": false
+    },
+    "PLACENTA_K10": {
+      "config": {"profile_id": "MOUSE_E15_NOTEBOOK_ANALOG_400", "epochs": 400, "learning_rate": 0.01, "sigma": 0.5, "loss_n": 0.1, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4},
+      "authority": "test  MouseE15.ipynb",
+      "physical_sample_match": false
+    }
+  },
+  "arms": ["OFFICIAL_FULL", "OFFICIAL_AE_ONLY", "OFFICIAL_GRAPH_ONLY"],
+  "evaluation": "all embeddings and partitions lock before independent labels; training profiles are source-derived rather than score-derived"
+}

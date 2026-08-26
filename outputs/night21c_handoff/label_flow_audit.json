@@ -1,0 +1,10 @@
+{
+  "candidate_lock_before_evaluator": true,
+  "checkpoint_selection": "fixed final epoch",
+  "endpoint_bank_ground_truth_reads": 0,
+  "evaluator_label_role": "transparent label-assisted benchmark HPO and metrics after lock",
+  "probe_influenced_training_or_unsupervised_selection": false,
+  "probe_label_role": "diagnostic cross-validation after embedding lock only",
+  "producer_ground_truth_reads": 0,
+  "schema": "night21c-label-flow-audit-v1"
+}

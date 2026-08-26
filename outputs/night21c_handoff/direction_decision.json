@@ -1,0 +1,60 @@
+{
+  "classification": "MIXED_REPRESENTATION_ENDPOINT_JUNCTION",
+  "github_push_status": "NOT_ATTEMPTED_AUTH_NOT_VERIFIED",
+  "lane_axis_diagnostics": {
+    "A1_K10": {
+      "best_ari": 0.24590698341474035,
+      "best_head": "HISTORICAL_CONCAT_KNN_S02",
+      "best_nmi": 0.37042303737250526,
+      "best_source": "RETAINED_CARRIER",
+      "dominant_axis": "REPRESENTATION",
+      "largest_endpoint_gain_ari": 0.019126898393929115,
+      "official_recovers_sparse_both": false,
+      "representation_span_common_ari": 0.050114245346986636
+    },
+    "P22_K9": {
+      "best_ari": 0.4756905152285979,
+      "best_head": "GMM_FULL_N3_S0",
+      "best_nmi": 0.6170029038480467,
+      "best_source": "RETAINED_CARRIER",
+      "dominant_axis": "REPRESENTATION",
+      "largest_endpoint_gain_ari": 0.004602211233240117,
+      "official_recovers_sparse_both": true,
+      "representation_span_common_ari": 0.13121394790918367
+    },
+    "PLACENTA_K10": {
+      "best_ari": 0.4736374192903358,
+      "best_head": "HISTORICAL_CONCAT_KNN_S02",
+      "best_nmi": 0.6068565761398078,
+      "best_source": "NIGHT21B_SPARSE_PORT_STABLE700",
+      "dominant_axis": "REPRESENTATION",
+      "largest_endpoint_gain_ari": 0.14147725098950892,
+      "official_recovers_sparse_both": false,
+      "representation_span_common_ari": 0.17184267531097064
+    },
+    "TONSIL_S1_K4": {
+      "best_ari": 0.20037664592147625,
+      "best_head": "HISTORICAL_CONCAT_KNN_S02",
+      "best_nmi": 0.27579403897218135,
+      "best_source": "RETAINED_CARRIER",
+      "dominant_axis": "HEAD",
+      "largest_endpoint_gain_ari": 0.0626329544343629,
+      "official_recovers_sparse_both": false,
+      "representation_span_common_ari": 0.0467861061872476
+    }
+  },
+  "official_objective_recovery_by_lane": {
+    "A1_K10": false,
+    "P22_K9": true,
+    "PLACENTA_K10": false,
+    "TONSIL_S1_K4": false
+  },
+  "official_objective_recovery_lane_count": 1,
+  "schema": "night21c-direction-decision-v1",
+  "score_frontier_advance_count": 1,
+  "secondary_statuses": [
+    "SCORE_FRONTIER_ADVANCE"
+  ],
+  "self_authored_method_contribution_claim": false,
+  "shutdown_dispatched_at_science_handoff": false
+}

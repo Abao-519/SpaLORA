@@ -1,0 +1,13 @@
+{
+  "actual_pytest_summary": "4 passed",
+  "real_artifact_validation": {
+    "formal_representations": 18,
+    "fresh_process_exact_replays": 18,
+    "locked_endpoint_banks": 26,
+    "locked_partitions": 208,
+    "schema": "night21c-real-artifact-validation-v1",
+    "status": "PASS"
+  },
+  "schema": "night21c-targeted-test-summary-v1",
+  "source": "captured pytest stdout"
+}

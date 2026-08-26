@@ -1,0 +1,7 @@
+{
+  "schema": "night21c-source-derived-profile-v1",
+  "authority": "MGCN-main/test/test  S1.ipynb",
+  "physical_sample_match": false,
+  "purpose": "RNA-protein notebook-analog sensitivity",
+  "config": {"profile_id": "S1_NOTEBOOK_ANALOG_300", "epochs": 300, "learning_rate": 0.00005, "sigma": 0.7, "loss_n": 0.001, "loss_w": 0.1, "loss_s": 0.1, "loss_a": 0.1, "n_z": 20, "ae_hidden_1": 128, "ae_hidden_2": 256, "graph_order": 4}
+}
