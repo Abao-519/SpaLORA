@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "path": "absolute_metrics_and_controls.csv",
+      "sha256": "e853ebc73dd5b7a4973048513c7d5ffcb0bd67618cc1c9f86a41b7840915ad19",
+      "size": 12879
+    },
+    {
+      "path": "d0_gate_rev0_superseded.json",
+      "sha256": "e6cc76a26eaf243cd591eec2a909a9005a5137bff151c2844336d14e0378bdd6",
+      "size": 13669
+    },
+    {
+      "path": "d0_identifiability_gate_rev1.json",
+      "sha256": "161deec519adfdb8e1904f04f9e2c54aeaa0c7ee972e97c6f2bd27f4e6c86e9d",
+      "size": 46537
+    },
+    {
+      "path": "exact_replay_audit.csv",
+      "sha256": "839f578b677fa4da3132ffbde2019fa947c9d74a8533c54f226bb3d69554b7ed",
+      "size": 552
+    },
+    {
+      "path": "failure_and_correction_ledger.csv",
+      "sha256": "1e353f0641e99a59c2a86f83b39a69ff533c73e7c108c2173e7c85c201cda8ff",
+      "size": 1199
+    },
+    {
+      "path": "gradient_conflict_trajectory.csv",
+      "sha256": "90e67e590a894914640ed3928b98898362a39f039f73754ef2decff0d96596cf",
+      "size": 8578
+    },
+    {
+      "path": "label_flow_audit.json",
+      "sha256": "32e1040050deaf59d082e57b7783932137f48bb50fd1b472fabb76052fe6ccad",
+      "size": 1222
+    },
+    {
+      "path": "method_formula_and_attribution_contract.md",
+      "sha256": "d71a663c8203c327bd1b9dc17d8c616e248f9bea8f8845a82ffd4439f681c693",
+      "size": 1523
+    },
+    {
+      "path": "night19a_decision.json",
+      "sha256": "d615f74ce7326155c50e4e87c884070d4ac579c2591da9016ab3eacace47c7d7",
+      "size": 848
+    },
+    {
+      "path": "night19a_report.md",
+      "sha256": "afe7a8010a8afc84926449b3019da1170e24f2b85655afc6043b5724c950ab82",
+      "size": 6196
+    },
+    {
+      "path": "real_p0_registry.csv",
+      "sha256": "e49d75a9e3014af3906fc096ad7912cf79c2e4412061c99c4edc49e4e36fa816",
+      "size": 1035
+    },
+    {
+      "path": "resource_and_disk_audit.json",
+      "sha256": "36434bbc47891e541400c0ff09048173669c1f8f393d3402fdc0104a4c6db520",
+      "size": 667
+    },
+    {
+      "path": "resource_table.csv",
+      "sha256": "7f6b5d0ee7d4ef74d9bf942a05ea83579ec89d1afc73b83c27c3cbc9db82bcef",
+      "size": 856
+    },
+    {
+      "path": "reviewer_risk_register.md",
+      "sha256": "b28283899a01462970cad2cf7f3e1269257bed6d521f56028c9c75caa29a6de4",
+      "size": 1309
+    },
+    {
+      "path": "source_collision_matrix.csv",
+      "sha256": "72c5a8f45ce9e709fe7bbd21a9b4a1168ce6a08a16e763b97b5957e31d12f0b9",
+      "size": 2183
+    },
+    {
+      "path": "stage_a_gate.json",
+      "sha256": "4489c65bfee29dd13a0cb1daf6a0367d0fb044e6b8910f9fca5a1a66b2d18753",
+      "size": 2131
+    },
+    {
+      "path": "targeted_test_summary.json",
+      "sha256": "70d1b81d70da707ec0d9bc45c6dec0fe4c8f44785a0f50796a3e8fa4d331143f",
+      "size": 251
+    },
+    {
+      "path": "targeted_tests.log",
+      "sha256": "6dc5099185b53d4007698b80b5aad50399232579397830c11e6b8dc33b49c8b9",
+      "size": 99
+    }
+  ],
+  "schema": "night19a-handoff-index-v1"
+}

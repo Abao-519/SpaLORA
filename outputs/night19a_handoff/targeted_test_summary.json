@@ -1,0 +1,8 @@
+{
+  "command": "python -m pytest -q tests/test_night19a_gradient_d0.py",
+  "failed": 0,
+  "log_sha256": "6dc5099185b53d4007698b80b5aad50399232579397830c11e6b8dc33b49c8b9",
+  "passed": 11,
+  "schema": "night19a-targeted-tests-v1",
+  "status": "PASS"
+}

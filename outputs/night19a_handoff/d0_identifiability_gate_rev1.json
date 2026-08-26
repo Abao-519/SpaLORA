@@ -1,0 +1,1231 @@
+{
+  "contract_path": "/root/SpaLORA-night16h/configs/night19a/d0_formula_freeze_rev1.json",
+  "contract_sha256": "8d15260779f20ef322b70eacc313ad02d2e90241c5f180f3f8881f366955b1e1",
+  "lane_results": [
+    {
+      "evidence_pass": true,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "lane_pass": true,
+      "primary": true,
+      "reproducible_critical_pairs": [
+        "relation__anchor"
+      ],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_operational": [
+            6.276105068536708e-06,
+            4.495757457334548e-05,
+            0.0003947126097045839
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.6070521216310426,
+            0.5825833059674508,
+            0.5621635866145172
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.002344544249917893,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.6928926125816778,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0004447515353886431,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.6995551480051462,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.012376088532688765,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.7735362103913449,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.05018741112806842,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.7001158317775971,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.002344544249917893,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.2803034660164598,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.924035372168194e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.659573216216938,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.00016180861249813806,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.7137873282858456,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0008894110258264734,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.4207795735604177,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.2059293496595782e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_operational": [
+            6.603288966289256e-06,
+            5.341600626707077e-05,
+            0.0005824790569022298
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.6354826121850817,
+            0.6407729888712674,
+            0.598236602539236
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.0024493518326799205,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.7037431977638889,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.00045883208242315934,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.7330519414481651,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.014003087246765501,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.8225817057367193,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.06451185630706643,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.7157274682713215,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0024493518326799205,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.6278328541957382,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 3.625377621155089e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.6946133538883217,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.00016476571848660668,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.754371414924739,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0010893372345817465,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.6615343835066447,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.1796703219402895e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        }
+      },
+      "support_nonconstant": true
+    },
+    {
+      "evidence_pass": true,
+      "lane": "MISAR_K7",
+      "lane_pass": true,
+      "primary": true,
+      "reproducible_critical_pairs": [
+        "relation__anchor"
+      ],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_operational": [
+            1.1773131518566515e-05,
+            6.755949289072305e-05,
+            0.0004292241937946528
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.14597529709888946,
+            0.09771787714816044,
+            0.08809398290560044
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.0010109444006683622,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.7626220440317792,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0002069451043430703,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.6292787464795907,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0034153789316208128,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.7158238055412359,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.008792703090553043,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.7334047071800225,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0010109444006683622,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.4456257844856986,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.4494989328984804e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.5367755105576644,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.9548810092319966e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.5769453559919849,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.00013165290897301598,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.4347756948559197,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.2388486427347489e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_operational": [
+            1.1727273886208422e-05,
+            6.656757614109665e-05,
+            0.0004252879007253796
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.1282642932978525,
+            0.08530366467618689,
+            0.11553325719828778
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.0010370516302904331,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.7861239570954793,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.00020955744057774253,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.6554427578790409,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0034665421835662663,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.7621984968456106,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.008401073805438053,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.7603252408953213,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0010370516302904331,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.373955589980435,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.3787386240161298e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.4982712492970237,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.7130614238461634e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.5513021692582847,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.00010357236967687385,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.4245948020362422,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 7.484463910127072e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        }
+      },
+      "support_nonconstant": true
+    },
+    {
+      "evidence_pass": true,
+      "lane": "P22_K9",
+      "lane_pass": true,
+      "primary": true,
+      "reproducible_critical_pairs": [
+        "relation__anchor"
+      ],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_operational": [
+            8.557803084840998e-06,
+            4.9297883379040286e-05,
+            0.00031634699553251266
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.1621444691998949,
+            0.06855903456463186,
+            0.0972074549530414
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.0019238412993428302,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.8374670094362995,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.00038405762760636227,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.7554242230138357,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.007002009429951431,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.8767528008225641,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.018181647869908953,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.8229276789391698,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0019238412993428302,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.5240503257974527,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 3.7318559342835627e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.6244790891092022,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 6.73110175024423e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.6837015785758322,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0003010477121058435,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.5514195116552909,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.9655232084764144e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_operational": [
+            8.844275726005435e-06,
+            5.4553795052925125e-05,
+            0.00036439072573557496
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.23405790189507358,
+            0.15929807558999076,
+            0.13752352520340372
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.0020031587321576116,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.8385643717770853,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.000395549422544403,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.7615471591633315,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0077556315620993,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.8421306323634629,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.020797561035117578,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.8259449589668831,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0020031587321576116,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.17288036383466715,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.3729973243698544e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.7272076200362757,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 6.406915394884014e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.7750947425642944,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.000297262226227469,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.32914779208833267,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.3295101642487642e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        }
+      },
+      "support_nonconstant": true
+    },
+    {
+      "evidence_pass": true,
+      "lane": "PLACENTA_K10",
+      "lane_pass": true,
+      "primary": false,
+      "reproducible_critical_pairs": [
+        "relation__anchor"
+      ],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_operational": [
+            9.279233381676022e-06,
+            6.186598329804838e-05,
+            0.0004377902369014919
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.45588632869500245,
+            0.4492895423271812,
+            0.5322166968265915
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.0034961320879040195,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.7893914735569639,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0006713641645958523,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.7755825261102393,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.016480710124880997,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.8489956085102276,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.06458446309803223,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.7826915186711907,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0034961320879040195,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.3825077202030825,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 4.26338825187153e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.7482062501464739,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.00013772976590658694,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.7801072503699055,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0007481485535545563,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.4567804353577137,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.4259243186075612e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_operational": [
+            8.892287041817326e-06,
+            5.8716079365694895e-05,
+            0.000419525895267725
+          ],
+          "anchor_identifiable_operational": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans_operational": [
+            0.440144431181566,
+            0.4584440226598441,
+            0.5963896521756042
+          ],
+          "evidence_stratum_defined_counts_operational": [
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "directional_negative_steps_including_ramp": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_operational_gradient_norm_ratio": 0.00344842866961114,
+              "operational_conflict_checkpoint_count": 3,
+              "operational_conflict_steps": [
+                5,
+                20,
+                40
+              ],
+              "seed_pair_pass": true,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": -0.827077342381654,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.0006629529285733528,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": -0.814970475035578,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.016492095942942802,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": -0.8624108664844807,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.061688794999080414,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": -0.8256044598817557,
+                  "directional_negative": true,
+                  "gradient_norm_ratio": 0.00344842866961114,
+                  "operational_conflict": true,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__consistency": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": 0.4066422296227587,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 2.7938987022102245e-06,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": 0.7064468937101557,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.00015327983369659552,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": 0.7825251804488959,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0008114620411317063,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": 0.5259517625644393,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 1.681435514578958e-05,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            },
+            "relation__variance": {
+              "directional_negative_steps_including_ramp": [],
+              "min_operational_gradient_norm_ratio": null,
+              "operational_conflict_checkpoint_count": 0,
+              "operational_conflict_steps": [],
+              "seed_pair_pass": false,
+              "step_diagnostics": {
+                "1": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": true
+                },
+                "20": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "40": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                },
+                "5": {
+                  "cosine": null,
+                  "directional_negative": false,
+                  "gradient_norm_ratio": 0.0,
+                  "operational_conflict": false,
+                  "zero_start_ramp_excluded": false
+                }
+              }
+            }
+          },
+          "step0_and_step1_excluded_from_operational_gate": true
+        }
+      },
+      "support_nonconstant": true
+    }
+  ],
+  "primary_lane_pass_count": 3,
+  "required_primary_lane_pass_count": 2,
+  "revision_scope": "HIGH_LEVEL_CONTRACT_INTERPRETATION_ONLY_NO_LABEL_OR_SCORE_READ",
+  "schema": "night19a-gradient-d0-gate-rev1",
+  "stage_a_authorized": true,
+  "supersedes": {
+    "classification": "SUPERSEDED_IMPLEMENTATION_SEMANTICS_INVALID",
+    "reason": "REV0 treated the zero-start step1 ramp as an operational magnitude requirement, structurally creating a false negative against the taskbook persistence semantics.",
+    "rev0_gate_output_sha256": "e6cc76a26eaf243cd591eec2a909a9005a5137bff151c2844336d14e0378bdd6",
+    "rev0_gate_source_sha256": "12c673312273b209c58ce09830cdf62bb5618adc5f2a74cdd52ecdafdc0a20c3"
+  },
+  "terminal_if_not_authorized": "NO_OPERATIONALLY_IDENTIFIABLE_PERSISTENT_GRADIENT_CONFLICT_OBJECT",
+  "thresholds_frozen_before_rev1_rerun": {
+    "cosine_conflict_threshold": -0.05,
+    "critical_pairs": [
+      "relation__anchor",
+      "relation__consistency",
+      "relation__variance"
+    ],
+    "diagnostic_steps": [
+      0,
+      1,
+      5,
+      20,
+      40
+    ],
+    "min_gradient_norm_ratio": 0.001,
+    "min_operational_conflict_checkpoints_per_seed": 2,
+    "min_stratum_cosine_span": 0.05,
+    "operational_steps": [
+      5,
+      20,
+      40
+    ],
+    "required_primary_lanes": 2,
+    "zero_start_ramp_steps_excluded": [
+      0,
+      1
+    ]
+  },
+  "zero_norm_cosine_semantics": "NULL_NA_NOT_ZERO"
+}

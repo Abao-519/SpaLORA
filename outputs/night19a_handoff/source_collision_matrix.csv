@@ -1,0 +1,13 @@
+source,official_entry,prior_art,night19a_boundary
+PCGrad (NeurIPS 2020),https://github.com/tianheyu927/PCGrad,Conflict-gradient projection,Not novel; mandatory global control
+CAGrad (NeurIPS 2021),https://github.com/Cranial-XIX/CAGrad,Conflict-averse multi-objective descent,Not novel
+GradNorm (ICML 2018),https://proceedings.mlr.press/v80/chen18a.html,Gradient magnitude and training-rate balancing,Not novel
+OGM-GE (CVPR 2022),https://github.com/GeWu-Lab/OGM-GE_CVPR2022,Online multimodal gradient modulation,Confidence modulation is not novel
+MMPareto (ICML 2024),https://github.com/GeWu-Lab/MMPareto_ICML2024,Multimodal direction and magnitude integration via min-norm,Global min-norm is a control
+SpaBalance (Advanced Science 2025),https://github.com/BiomedicalMachineLearning/SpaBalance,Spatial multi-omics global intra/inter-omics gradient coordination and shared/private learning,No claim for generic multimodal gradient coordination
+Impartial Optimization (ICML 2022),https://proceedings.mlr.press/v162/javaloy22a.html,Computational-block multimodal conflict handling,Block-wise arbitration is not novel
+Disentangled Gradient Learning (ICCV 2025),https://openaccess.thecvf.com/content/ICCV2025/html/Wei_Boosting_Multimodal_Learning_via_Disentangled_Gradient_Learning_ICCV_2025_paper.html,Separate modality-encoder and fusion gradients,Layer/module disentanglement is not novel
+Task Weighting through Gradient Projection (2024),https://arxiv.org/abs/2409.01793,Priority-aware projection only under conflict,Conditional projection is not novel
+Recon (ICLR 2023),https://openreview.net/forum?id=ivwZO-HnzG_,Treat severe and layer-specific conflict; small conflict may help,Conflict filtering itself is not novel
+Adaptive Gradient Modulation (ICCV 2023),https://openaccess.thecvf.com/content/ICCV2023/html/Li_Boosting_Multi-modal_Model_Performance_with_Adaptive_Gradient_Modulation_ICCV_2023_paper.html,Adaptive multimodal gradient modulation,General confidence scaling is not novel
+Bayesian Uncertainty for Gradient Aggregation (ICML 2024),https://proceedings.mlr.press/v235/achituve24a.html,Uncertainty-aware gradient aggregation,Uncertainty-weighted aggregation is not novel

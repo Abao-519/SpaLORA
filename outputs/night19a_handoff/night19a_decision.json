@@ -1,0 +1,14 @@
+{
+  "classification": "SCIENTIFIC_NEGATIVE",
+  "d0_identified_pair": "relation__anchor",
+  "d0_rev1_primary_lane_pass_count": 3,
+  "multi_seed_authorized": false,
+  "novelty_collision": false,
+  "qualitative_conflict_note": "All primary lanes and placenta showed persistent negative relation-anchor cosine at operational steps; REV0 failed only because step1 ramp ratio was included in an all-conflict minimum.",
+  "schema": "night19a-decision-v1",
+  "scientific_result": "The identifiable conflict did not translate into an independent score benefit: FULL lost to a coordinate-wise strongest matched control in all three primary lanes.",
+  "shutdown_dispatched": false,
+  "stage_a_primary_strict_dual_pass_count": 0,
+  "stage_b_started": false,
+  "status": "NIGHT19A_D0_IDENTIFIABLE_BUT_SPARSE_EVIDENCE_ARBITRATION_NO_INDEPENDENT_METHOD_SIGNAL"
+}

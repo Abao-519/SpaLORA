@@ -1,0 +1,5 @@
+lane,n,k,view1_shape,view2_shape,retained_shape,graph_shape,graph_nnz,pair_count,spatial_pair_count,feature_pair_count,profiles,exact_k_all,mass_match_max_abs_error,checkpoint_reload,artifact_reload,fresh_representation_exact,fresh_partition_exact,producer_label_reads,wall_seconds,peak_rss_mib,peak_gpu_mib
+P22_K9,9196,9,"[9196, 30]","[9196, 50]","[9196, 64]","[9196, 9196]",37168,47670,18584,29086,8,True,0.0,PASS,PASS,True,True,0,18.831632614135742,1422.8515625,195.14306640625
+MISAR_K7,1949,7,"[1949, 30]","[1949, 50]","[1949, 64]","[1949, 1949]",8070,10029,4035,5994,8,True,2.2737367544323206e-13,PASS,PASS,True,True,0,10.037413120269775,975.75,52.9443359375
+HUMAN_HIPPOCAMPUS_K7,2500,7,"[2500, 64]","[2500, 64]","[2500, 64]","[2500, 2500]",10200,15608,5100,10508,8,True,0.0,PASS,PASS,True,True,0,12.546074151992798,975.078125,69.7421875
+PLACENTA_K10,1662,10,"[1662, 30]","[1662, 30]","[1662, 30]","[1662, 1662]",8308,11650,4154,7496,8,True,2.842170943040401e-14,PASS,PASS,True,True,0,9.913662910461426,975.1015625,39.79736328125

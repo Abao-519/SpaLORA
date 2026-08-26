@@ -1,0 +1,27 @@
+{
+  "schema": "night19a-gradient-d0-formula-freeze-v1",
+  "taskbook_sha256": "19107b229b1fbd06a6c6dafee797b469057ec8d75eab7dcec6e6ae22b8ad2e62",
+  "parent_commit": "8d9b28aff48b338d55f1a91a1129d96f5ded0856",
+  "network": "Night17C ZeroStartRelationEncoder",
+  "zero_start_anchor": "REGISTERED_RELATION_SMOOTHED_CARRIER_NOT_RAW_RETAINED",
+  "training_arm": "D0_NIGHT17C_Z01_STANDARD_WEIGHTED_SUM",
+  "training_steps": 40,
+  "training_seeds": [0, 1],
+  "diagnostic_completed_steps": [0, 1, 5, 20, 40],
+  "step0_semantics": "ZERO_START_BOUNDARY_EXCLUDED_FROM_PERSISTENT_CONFLICT_GATE",
+  "zero_norm_cosine_semantics": "NULL_NA_NOT_ZERO",
+  "gradient_coordinates": "FIXED_MODEL_NAMED_PARAMETERS_ORDER_UNUSED_FILLED_WITH_SAME_SHAPE_ZERO",
+  "primary_lanes": ["P22_K9", "MISAR_K7", "HUMAN_HIPPOCAMPUS_K7"],
+  "stress_lane": "PLACENTA_K10",
+  "critical_pairs": ["relation__anchor", "relation__consistency", "relation__variance"],
+  "gate": {
+    "cosine_conflict_threshold": -0.05,
+    "minimum_conflict_checkpoints_per_seed": 2,
+    "minimum_conflicting_gradient_norm_ratio": 0.001,
+    "minimum_relation_stratum_cosine_span": 0.05,
+    "required_primary_lane_pass_count": 2
+  },
+  "evidence_strata": "THREE_MIDRANK_STRATA_OF_REGISTERED_RELATION_SUPPORT",
+  "labels_read_by_producer": 0,
+  "stage_a_formula_not_frozen_until_d0_pass": true
+}

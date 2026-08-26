@@ -1,0 +1,34 @@
+{
+  "annotation_sources": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "file": "/root/night16e_external/human_hippocampus/human_adata1_official_result.h5ad",
+      "key": "true_label",
+      "mask": "non-null"
+    },
+    "MISAR_K7": {
+      "file": "/root/night16d_assets/kit/local_compute_kit/MISAR_E15_5_S1.npz",
+      "key": "labels_primary",
+      "mask": "label_mask"
+    },
+    "P22_K9": {
+      "file": "/root/night16d_assets/kit/local_compute_kit/P22.npz",
+      "key": "labels_primary",
+      "mask": "label_mask"
+    },
+    "PLACENTA_K10": {
+      "file": "/autodl-fs/data/Human placenta architecture/humanplacenta_rna.h5ad",
+      "key": "cell_type",
+      "mask": "non-null"
+    }
+  },
+  "d0_rev1_producer_runs": 8,
+  "evaluator_label_reads_total": 4,
+  "independent_evaluator_processes": 4,
+  "label_use": "POST_LOCK_PUBLIC_BENCHMARK_EVALUATION_ONLY_NO_HPO_GRID_RAN",
+  "partitions_and_artifacts_locked_before_first_annotation_process": true,
+  "producer_label_reads_total": 0,
+  "schema": "night19a-label-flow-audit-v1",
+  "stage_a_producer_runs": 4,
+  "taskbook_sha256": "19107b229b1fbd06a6c6dafee797b469057ec8d75eab7dcec6e6ae22b8ad2e62",
+  "within_run_checkpoint_selection": "FINAL_STEP_40_FIXED_NO_LABEL_READ"
+}

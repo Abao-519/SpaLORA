@@ -1,0 +1,23 @@
+{
+  "new_data_downloaded": false,
+  "new_environment_created": false,
+  "night19a_working_bytes": 63778040,
+  "persistent_filesystem": {
+    "available_bytes": 92332154880,
+    "available_inodes": 64,
+    "path": "/autodl-fs/data",
+    "total_bytes": 214748364800,
+    "used_fraction": 0.5700448989868164
+  },
+  "root_filesystem": {
+    "available_bytes": 2264018944,
+    "available_inodes": 1774308,
+    "path": "/",
+    "total_bytes": 31526391808,
+    "used_fraction": 0.9281865505641057
+  },
+  "schema": "night19a-resource-and-disk-audit-v1",
+  "shutdown_dispatched": false,
+  "timestamp_utc": "2026-08-26T02:17:50.341642+00:00",
+  "writes_to_autodl_fs_data": 0
+}

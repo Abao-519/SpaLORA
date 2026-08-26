@@ -1,0 +1,453 @@
+{
+  "lane_results": [
+    {
+      "evidence_pass": true,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "lane_pass": false,
+      "primary": true,
+      "reproducible_critical_pairs": [],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_post_zero": [
+            1.152891741185158e-06,
+            6.276105068536708e-06,
+            4.495757457334548e-05,
+            0.0003947126097045839
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.6044308803063047,
+            0.6070521216310426,
+            0.5825833059674508,
+            0.5621635866145172
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.0004447515353886431,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_post_zero": [
+            1.1933445875911275e-06,
+            6.603288966289256e-06,
+            5.341600626707077e-05,
+            0.0005824790569022298
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.6227355224899864,
+            0.6354826121850817,
+            0.6407729888712674,
+            0.598236602539236
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.00045883208242315934,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        }
+      },
+      "support_nonconstant": true
+    },
+    {
+      "evidence_pass": true,
+      "lane": "MISAR_K7",
+      "lane_pass": false,
+      "primary": true,
+      "reproducible_critical_pairs": [],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_post_zero": [
+            2.242719574496732e-06,
+            1.1773131518566515e-05,
+            6.755949289072305e-05,
+            0.0004292241937946528
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.17053716628263993,
+            0.14597529709888946,
+            0.09771787714816044,
+            0.08809398290560044
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.0002069451043430703,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_post_zero": [
+            2.2198255464900285e-06,
+            1.1727273886208422e-05,
+            6.656757614109665e-05,
+            0.0004252879007253796
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.14838837755860657,
+            0.1282642932978525,
+            0.08530366467618689,
+            0.11553325719828778
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.00020955744057774253,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        }
+      },
+      "support_nonconstant": true
+    },
+    {
+      "evidence_pass": true,
+      "lane": "P22_K9",
+      "lane_pass": false,
+      "primary": true,
+      "reproducible_critical_pairs": [],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_post_zero": [
+            1.616770987311611e-06,
+            8.557803084840998e-06,
+            4.9297883379040286e-05,
+            0.00031634699553251266
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.18957791560375792,
+            0.1621444691998949,
+            0.06855903456463186,
+            0.0972074549530414
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.00038405762760636227,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_post_zero": [
+            1.651446609685081e-06,
+            8.844275726005435e-06,
+            5.4553795052925125e-05,
+            0.00036439072573557496
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.24914599305494178,
+            0.23405790189507358,
+            0.15929807558999076,
+            0.13752352520340372
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.000395549422544403,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        }
+      },
+      "support_nonconstant": true
+    },
+    {
+      "evidence_pass": true,
+      "lane": "PLACENTA_K10",
+      "lane_pass": false,
+      "primary": false,
+      "reproducible_critical_pairs": [],
+      "seed_diagnostics": {
+        "0": {
+          "anchor_gradient_norms_post_zero": [
+            1.7127721321230638e-06,
+            9.279233381676022e-06,
+            6.186598329804838e-05,
+            0.0004377902369014919
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.4614250982255226,
+            0.45588632869500245,
+            0.4492895423271812,
+            0.5322166968265915
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.0006713641645958523,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        },
+        "1": {
+          "anchor_gradient_norms_post_zero": [
+            1.6530558468730305e-06,
+            8.892287041817326e-06,
+            5.8716079365694895e-05,
+            0.000419525895267725
+          ],
+          "anchor_identifiable_post_zero": true,
+          "evidence_heterogeneous": true,
+          "evidence_stratum_cosine_spans": [
+            0.44159537585371317,
+            0.440144431181566,
+            0.4584440226598441,
+            0.5963896521756042
+          ],
+          "evidence_stratum_defined_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "pair_summary": {
+            "relation__anchor": {
+              "conflict_checkpoint_count": 4,
+              "conflict_steps": [
+                1,
+                5,
+                20,
+                40
+              ],
+              "min_conflicting_norm_ratio": 0.0006629529285733528,
+              "seed_pair_pass": false
+            },
+            "relation__consistency": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            },
+            "relation__variance": {
+              "conflict_checkpoint_count": 0,
+              "conflict_steps": [],
+              "min_conflicting_norm_ratio": null,
+              "seed_pair_pass": false
+            }
+          },
+          "step0_excluded_from_persistence_gate": true
+        }
+      },
+      "support_nonconstant": true
+    }
+  ],
+  "primary_lane_pass_count": 0,
+  "required_primary_lane_pass_count": 2,
+  "schema": "night19a-gradient-d0-gate-v1",
+  "stage_a_authorized": false,
+  "step0_semantics": "ZERO_START_BOUNDARY_EXCLUDED_FROM_CONFLICT_PERSISTENCE",
+  "terminal_if_not_authorized": "NO_IDENTIFIABLE_GRADIENT_CONFLICT_OBJECT",
+  "thresholds_frozen_before_real_d0_evaluation": {
+    "cosine_conflict_threshold": -0.05,
+    "critical_pairs": [
+      "relation__anchor",
+      "relation__consistency",
+      "relation__variance"
+    ],
+    "min_conflict_checkpoints_per_seed": 2,
+    "min_gradient_norm_ratio": 0.001,
+    "min_stratum_cosine_span": 0.05,
+    "post_zero_steps": [
+      1,
+      5,
+      20,
+      40
+    ],
+    "required_primary_lanes": 2
+  },
+  "zero_norm_cosine_semantics": "NULL_NA_NOT_ZERO"
+}

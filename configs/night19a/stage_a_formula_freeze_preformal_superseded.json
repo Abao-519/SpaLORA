@@ -1,0 +1,12 @@
+{
+  "schema": "night19a-stage-a-preformal-superseded-v1",
+  "classification": "PREFORMAL_SUPERSEDED_IMPLEMENTATION_SEMANTICS_INVALID",
+  "never_uploaded_or_executed_as_formal": true,
+  "reason": "Draft declared hidden_dim=4 although the identified D0 object used hidden_dim=32; its global min-norm implementation also had not yet excluded inactive zero-gradient objectives.",
+  "preserved_draft_semantics": {
+    "hidden_dim": 4,
+    "projection_strengths_low_mid_high": [0.8333333333333334, 0.5, 0.16666666666666666],
+    "zero_start_warmup": "FIRST_TWO_UPDATES_USE_STANDARD_UNSURGERED_GRADIENT",
+    "relation_gradient_magnitude_control": "POST_PROJECTION_COMPOSITE_RELATION_GRADIENT_L2_MATCHED_TO_PRE_PROJECTION_RELATION_GRADIENT"
+  }
+}

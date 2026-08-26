@@ -1,0 +1,41 @@
+{
+  "schema": "night19a-sparse-evidence-gradient-arbitration-stage-a-freeze-v1",
+  "taskbook_sha256": "19107b229b1fbd06a6c6dafee797b469057ec8d75eab7dcec6e6ae22b8ad2e62",
+  "d0_rev1_contract_sha256": "8d15260779f20ef322b70eacc313ad02d2e90241c5f180f3f8881f366955b1e1",
+  "d0_rev1_gate_schema": "night19a-gradient-d0-gate-rev1",
+  "d0_rev1_primary_lane_pass_count": 3,
+  "frozen_before_stage_a_partition_or_label_evaluation": true,
+  "model": {
+    "architecture": "Night17C ZeroStartRelationEncoder",
+    "hidden_dim": 4,
+    "residual_scale": 0.05,
+    "learning_rate": 0.0007,
+    "steps": 40,
+    "relation_weight": 1.0,
+    "anchor_weight": 4.0,
+    "self_return_weight": 4.0,
+    "consistency_weight": 0.5,
+    "variance_weight": 0.1
+  },
+  "training_seeds": [0],
+  "arms": [
+    "STRONG_START_NO_TRAIN",
+    "STANDARD_WEIGHTED_SUM",
+    "VANILLA_PCGRAD",
+    "GLOBAL_MIN_NORM",
+    "EVIDENCE_CONDITIONED_ARBITRATION_FULL",
+    "EVIDENCE_PERMUTED_MASS_MATCHED",
+    "TOPOLOGY_DISABLED",
+    "ARBITRATION_DISABLED_SAME_LOSSES"
+  ],
+  "evidence_groups": "SPATIAL_OR_FEATURE_EDGE_TYPE_CROSS_LOW_MID_HIGH_REGISTERED_SUPPORT",
+  "projection_strengths_low_mid_high": [0.8333333333333334, 0.5, 0.16666666666666666],
+  "projection_rule": "ONLY_NEGATIVE_INNER_PRODUCT_RELATION_GROUP_COMPONENT_AGAINST_COMBINED_ANCHOR_CONSISTENCY_VARIANCE_PROTECTION",
+  "zero_start_warmup": "FIRST_TWO_UPDATES_USE_STANDARD_UNSURGERED_GRADIENT",
+  "relation_gradient_magnitude_control": "POST_PROJECTION_COMPOSITE_RELATION_GRADIENT_L2_MATCHED_TO_PRE_PROJECTION_RELATION_GRADIENT",
+  "permuted_control": "SHA256_ORDERED_ENDPOINT_STABLE_WITHIN_EDGE_TYPE_BIJECTION_PLUS_EXACT_BASE_RELATION_WEIGHTED_PROJECTION_MASS_MATCH_PER_EDGE_TYPE",
+  "topology_disabled": "ZERO_REGISTERED_SPATIAL_EDGE_RELATION_WEIGHT_RETAIN_FEATURE_NEIGHBOUR_RELATIONS",
+  "global_min_norm": "FOUR_WEIGHTED_LOSS_GRADIENT_CONVEX_MINIMUM_NORM_CONTROL",
+  "labels_read_by_producer": 0,
+  "stage_a_gate": "FULL_STRICTLY_DUAL_BEATS_COORDINATEWISE_STRONGEST_MATCHED_CONTROL_IN_AT_LEAST_TWO_OF_THREE_PRIMARY_LANES_AND_NO_WORSE_PLACENTA_DISASTER_THAN_STANDARD_SUM"
+}

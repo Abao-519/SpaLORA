@@ -1,0 +1,53 @@
+{
+  "lane_results": [
+    {
+      "coordinatewise_strongest_control_ari": 0.482339260325866,
+      "coordinatewise_strongest_control_nmi": 0.6106757249132493,
+      "delta_ari_vs_coordinatewise_strongest": -0.0008428599079478571,
+      "delta_nmi_vs_coordinatewise_strongest": -0.0003042569483818758,
+      "full_ari": 0.48149640041791814,
+      "full_nmi": 0.6103714679648674,
+      "lane": "P22_K9",
+      "strict_dual_pass": false,
+      "strongest_ari_control": "TOPOLOGY_DISABLED",
+      "strongest_nmi_control": "TOPOLOGY_DISABLED"
+    },
+    {
+      "coordinatewise_strongest_control_ari": 0.36371391381529505,
+      "coordinatewise_strongest_control_nmi": 0.5409742092460456,
+      "delta_ari_vs_coordinatewise_strongest": -0.0034148714658112644,
+      "delta_nmi_vs_coordinatewise_strongest": -0.0022786597247484996,
+      "full_ari": 0.3602990423494838,
+      "full_nmi": 0.5386955495212971,
+      "lane": "MISAR_K7",
+      "strict_dual_pass": false,
+      "strongest_ari_control": "STANDARD_WEIGHTED_SUM",
+      "strongest_nmi_control": "STANDARD_WEIGHTED_SUM"
+    },
+    {
+      "coordinatewise_strongest_control_ari": 0.20961933782755815,
+      "coordinatewise_strongest_control_nmi": 0.2792051836720784,
+      "delta_ari_vs_coordinatewise_strongest": -0.015021943347188565,
+      "delta_nmi_vs_coordinatewise_strongest": -0.004595809347538948,
+      "full_ari": 0.19459739448036958,
+      "full_nmi": 0.27460937432453947,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "strict_dual_pass": false,
+      "strongest_ari_control": "STANDARD_WEIGHTED_SUM",
+      "strongest_nmi_control": "STANDARD_WEIGHTED_SUM"
+    }
+  ],
+  "multi_seed_authorized": false,
+  "placenta": {
+    "full_ari": 0.3739764865448206,
+    "full_nmi": 0.5274264560285937,
+    "standard_ari": 0.38194769387636146,
+    "standard_nmi": 0.5329740330141796
+  },
+  "placenta_max_additional_drop_vs_standard_sum": 0.01,
+  "placenta_safety_pass": true,
+  "primary_strict_dual_pass_count": 0,
+  "required_primary_strict_dual_pass_count": 2,
+  "schema": "night19a-stage-a-gate-v1",
+  "terminal_classification_if_not_authorized": "NO_INDEPENDENT_METHOD_SIGNAL"
+}
