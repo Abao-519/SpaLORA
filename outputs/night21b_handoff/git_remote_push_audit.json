@@ -1,0 +1,11 @@
+{
+  "schema": "night21b-git-remote-push-audit-v1",
+  "attempted_from_commit": "8a89a34182803116ce4a0e679d02e3d8d0c1a1d9",
+  "branch": "revision/q2-night21b-mature-backbone-sparse-relational-distillation-20260826",
+  "tag": "night21b-final-20260826",
+  "branch_push_exit_code": 128,
+  "tag_push_exit_code": 128,
+  "failure": "GitHub SSH public-key authentication unavailable on AutoDL",
+  "force_push_used": false,
+  "retry_policy": "no retry; recover from verified incremental bundle"
+}
