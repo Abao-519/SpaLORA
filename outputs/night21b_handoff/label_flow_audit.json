@@ -1,0 +1,22 @@
+{
+  "candidate_partition_locked_before_evaluation": true,
+  "design_revisions_used": 1,
+  "discovery_label_use": "transparent post-lock public benchmark HPO and evaluation only",
+  "evaluator_authorities": {
+    "A1/P22/tonsil_s1": "local_compute_kit labels_primary plus label_mask",
+    "placenta": "source h5ad obs cell_type after exact ordered ID assertion"
+  },
+  "maximum_authorized": 2,
+  "producer_accessed_keys": [
+    "ids",
+    "view1",
+    "view2",
+    "retained",
+    "graph0 CSR"
+  ],
+  "producer_annotation_array_reads": 0,
+  "producer_annotation_like_key_gate": "fail-closed",
+  "schema": "night21b-label-flow-audit-v1",
+  "transfer_label_reads": 0,
+  "within_run_checkpoint_selection": "fixed final step from unlabeled budget; no label read"
+}

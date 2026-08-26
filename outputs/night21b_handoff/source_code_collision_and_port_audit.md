@@ -1,0 +1,8 @@
+# spaMGCN source and collision audit
+
+- Official repository: https://github.com/hongfeiZhang-source/spaMGCN
+- Fixed commit: `77dfe67d4fd80c124722e68a0f71af36d10fa5fa`; license: MIT.
+- Read scope: model, train, utils, config, and five relevant notebooks listed in `spaMGCN_source_manifest.json`.
+- The public implementation is a mature two-view AE plus multi-order graph-convolution and late-fusion scaffold. It also computes dense `z @ z.T`, dense feature-similarity targets, and dense spatial adjacency in its training path. Relevant notebooks expose per-dataset epochs/hyperparameters and inspect public labels during iterative evaluation.
+- Night-21B is therefore a clean-room **source-faithful sparse port**, not an official numerical replay: dense all-pairs losses were replaced by registered sparse positives and deterministic sparse negatives, while two-view encoders, multi-order propagation, global order attention and late fusion retain the public semantics.
+- Relational Knowledge Distillation (CVPR 2019) already transfers pairwise structural relations; Similarity-Preserving Knowledge Distillation (ICCV 2019) already preserves pairwise teacher similarity without pointwise coordinate copying; Signed GCN already treats positive and negative graph links separately; BANKSY already supplies spatial neighborhood mean/gradient texture. The only narrowly project-specific object tested here is simultaneous protection of carrier-supported spatial neighbors and carrier/modality-supported spatial boundaries inside the fixed spatial-multiomics scaffold. The four-lane matched board did not establish stable independent contribution, so no novelty or paper-ready claim is made.

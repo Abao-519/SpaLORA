@@ -1,0 +1,59 @@
+{
+  "collision_sources": [
+    {
+      "collision": "transferring pairwise structural relations is prior art",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Relational_Knowledge_Distillation_CVPR_2019_paper.html",
+      "work": "Relational Knowledge Distillation, CVPR 2019"
+    },
+    {
+      "collision": "teacher/student pairwise similarity preservation is prior art",
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Tung_Similarity-Preserving_Knowledge_Distillation_ICCV_2019_paper.html",
+      "work": "Similarity-Preserving Knowledge Distillation, ICCV 2019"
+    },
+    {
+      "collision": "separate positive and negative graph relations are prior art",
+      "url": "https://arxiv.org/abs/1808.06354",
+      "work": "Signed Graph Convolutional Network, 2018"
+    },
+    {
+      "collision": "spatial neighborhood mean and gradient texture are prior art",
+      "url": "https://www.nature.com/articles/s41588-024-01664-3",
+      "work": "BANKSY, Nature Genetics 2024"
+    }
+  ],
+  "fixed_commit": "77dfe67d4fd80c124722e68a0f71af36d10fa5fa",
+  "license": "MIT",
+  "license_url": "https://github.com/hongfeiZhang-source/spaMGCN/blob/master/LICENSE",
+  "novelty_boundary": "spaMGCN backbone components are prior art; only sparse signed carrier-relation regularizer is project-specific, and this run did not establish stable independent contribution",
+  "official_dense_semantics": [
+    "sigmoid(z @ z.T) adjacency reconstruction",
+    "feature cosine N by N target",
+    "spatial adjacency converted to dense"
+  ],
+  "official_repository": "https://github.com/hongfeiZhang-source/spaMGCN",
+  "port_changes": [
+    "registered sparse edge positives",
+    "deterministic sampled non-edge negatives",
+    "no dense N by N allocation",
+    "common KMeans endpoint separated from official label-inspecting notebooks"
+  ],
+  "port_status": "SOURCE_FAITHFUL_SPARSE_PORT_NOT_OFFICIAL_REPLAY",
+  "read_paths": [
+    "MGCN-main/model/AE.py",
+    "MGCN-main/model/Creat_model.py",
+    "MGCN-main/model/IGAE.py",
+    "MGCN-main/model/spaMGCN.py",
+    "MGCN-main/train/train3.py",
+    "MGCN-main/train/utils.py",
+    "MGCN-main/utils/misc.py",
+    "MGCN-main/utils/preprocess.py",
+    "MGCN-main/utils/utils.py",
+    "MGCN-main/config/configs.yml",
+    "MGCN-main/test  MouseE15.ipynb",
+    "MGCN-main/test  S1.ipynb",
+    "MGCN-main/test hippocampus.ipynb",
+    "MGCN-main/test HumanMelanoma.ipynb",
+    "MGCN-main/test  thymus.ipynb"
+  ],
+  "schema": "night21b-spamgcn-source-audit-v1"
+}

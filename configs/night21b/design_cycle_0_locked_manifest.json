@@ -1,0 +1,24 @@
+{
+  "schema": "night21b-design-cycle-0-manifest-v1",
+  "cycle": "STABLE700_V1",
+  "status": "RECONSTRUCTED_FROM_BYTE_LOCKED_PRODUCER_MANIFESTS",
+  "audit_note": "The source and CLI values were fixed before partition generation and independent evaluation, but a separate pre-run JSON freeze file was not written. This file is a faithful reconstruction from all 24 byte-locked STABLE700_V1 producer manifests and is not presented as a preregistration artifact.",
+  "label_flow": "partitions and SHA-256 authorities locked before independent evaluator opened public annotations",
+  "shared_formula": {
+    "backbone": "SOURCE_FAITHFUL_SPARSE_SPAMGCN_PORT",
+    "relation_evidence": "REGISTERED_EDGE_CARRIER_AND_TWO_VIEW_QUANTILE_RULE",
+    "positive_quantile": 0.70,
+    "boundary_quantile": 0.30,
+    "boundary_margin": 0.15,
+    "positive_relation_weight": 0.25,
+    "boundary_relation_weight": 0.25,
+    "point_anchor_weight": 0.20,
+    "steps": 700,
+    "hidden_dim": 96,
+    "graph_order": 4,
+    "learning_rate": 0.0005,
+    "endpoint": "KMEANS_N_INIT_20_ENDPOINT_SEED_0"
+  },
+  "family_specific_values": {},
+  "dataset_name_routing": false
+}

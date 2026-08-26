@@ -1,0 +1,19 @@
+{
+  "schema": "night21b-design-revision-freeze-v1",
+  "cycle": "DESIGN_REVISION_1_POSITIVE_DOMINANT",
+  "status": "FROZEN_BEFORE_REVISION_1_PARTITION_GENERATION",
+  "reason": "V1 atomic arms showed directionally useful positive-relation behavior on A1 and tonsil_s1, while equal positive/boundary weighting produced cross-term interference on P22. This revision tests stronger carrier-neighborhood preservation with a smaller but nonzero boundary penalty.",
+  "label_use": "TRANSPARENT_PUBLIC_BENCHMARK_HPO_AFTER_COMPLETE_V1_PARTITION_LOCK",
+  "formula_changes": {
+    "positive_relation_weight": 1.0,
+    "boundary_relation_weight": 0.1
+  },
+  "unchanged": {
+    "backbone": "SOURCE_FAITHFUL_SPARSE_SPAMGCN_PORT",
+    "relation_evidence": "REGISTERED_EDGE_CARRIER_AND_TWO_VIEW_QUANTILE_RULE",
+    "steps": 700,
+    "hidden_dim": 96,
+    "endpoint": "KMEANS_N_INIT_20_ENDPOINT_SEED_0"
+  },
+  "mechanical_stop": "If FULL does not strictly exceed T0, B0, and the relevant V1 atomic upper envelope in both ARI and NMI on at least two of four discovery lanes, stop MSRD without transfer or multi-seed expansion."
+}
