@@ -1,0 +1,44 @@
+{
+  "labels_used_only_after_geometry_banks_locked": true,
+  "lanes": {
+    "A1_K10": {
+      "candidate_id": "GEOM_FEATURE_NCUT_K24",
+      "carrier_path": "/root/night18a_working/carriers/A1_K10.npz",
+      "embedding_path": "/root/night21b_working/discovery/A1_K10__T0_STRONG_CARRIER__STABLE700_V1_S0.npz",
+      "geometry_bank": "/root/night22a_working/geometry/A1_K10__RETAINED_CARRIER.npz",
+      "parent_bank_path": "/root/night21c_working/endpoint_banks/A1_K10__RETAINED_CARRIER.npz",
+      "partition_sha256": "41369d537dcab2cbc7c0c5ea32661c1b43d23b29dc65b903c1e5f5a2d0220235",
+      "representation_source": "RETAINED_CARRIER"
+    },
+    "P22_K9": {
+      "candidate_id": "GEOM_LEIDEN_FEATURE",
+      "carrier_path": "/root/night18a_working/carriers/P22_K9.npz",
+      "embedding_path": "/root/night21b_working/discovery/P22_K9__T0_STRONG_CARRIER__STABLE700_V1_S0.npz",
+      "geometry_bank": "/root/night22a_working/geometry/P22_K9__RETAINED_CARRIER.npz",
+      "parent_bank_path": "/root/night21c_working/endpoint_banks/P22_K9__RETAINED_CARRIER.npz",
+      "partition_sha256": "9124f294818194d01333268def5e618babe8f27561b5d8b123284e17c9033a66",
+      "representation_source": "RETAINED_CARRIER"
+    },
+    "PLACENTA_K10": {
+      "candidate_id": "GEOM_LEIDEN_FEATURE",
+      "carrier_path": "/root/night18d_working/carrier/placenta_carrier.npz",
+      "embedding_path": "/root/night21b_working/discovery/PLACENTA_K10__T0_STRONG_CARRIER__STABLE700_V1_S0.npz",
+      "geometry_bank": "/root/night22a_working/geometry/PLACENTA_K10__RETAINED_CARRIER.npz",
+      "parent_bank_path": "/root/night21c_working/endpoint_banks/PLACENTA_K10__RETAINED_CARRIER.npz",
+      "partition_sha256": "7d4b403e0b18d5bfee69cd56a29878a62436e680a0363eaf133c9c9020fd30f2",
+      "representation_source": "RETAINED_CARRIER"
+    },
+    "TONSIL_S1_K4": {
+      "candidate_id": "GEOM_FEATURE_NCUT_K12",
+      "carrier_path": "/root/night21a_working/carriers/TONSIL_S1_K4.npz",
+      "embedding_path": "/root/night21b_working/discovery/TONSIL_S1_K4__T0_STRONG_CARRIER__STABLE700_V1_S0.npz",
+      "geometry_bank": "/root/night22a_working/geometry/TONSIL_S1_K4__RETAINED_CARRIER.npz",
+      "parent_bank_path": "/root/night21c_working/endpoint_banks/TONSIL_S1_K4__RETAINED_CARRIER.npz",
+      "partition_sha256": "dd6014269090cf5fdb5edc8bafbbc1200f46732bd25a60d02cf395dd5aea0a28",
+      "representation_source": "RETAINED_CARRIER"
+    }
+  },
+  "role": "transparent development start; not a family-frozen or label-free transfer rule",
+  "schema": "night22a-stage-b-label-assisted-development-start-selection-v1",
+  "selection_rule": "maximum ARI; tie by NMI; then lexical representation source and candidate ID"
+}

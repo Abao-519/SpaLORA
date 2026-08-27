@@ -1,0 +1,5 @@
+lane,start_candidate,candidate_count,wall_seconds,peak_rss_mb,device,gpu_model,peak_gpu_mb
+A1_K10,GEOM_FEATURE_NCUT_K24,16,27.34364652633667,833.32421875,cuda,"NVIDIA GeForce RTX 4080 SUPER, 32760 MiB (host-reported nvidia-smi during Night-22A)",NOT_INSTRUMENTED; compact state size and device are recorded
+P22_K9,GEOM_LEIDEN_FEATURE,16,38.086116790771484,1745.63671875,cuda,"NVIDIA GeForce RTX 4080 SUPER, 32760 MiB (host-reported nvidia-smi during Night-22A)",NOT_INSTRUMENTED; compact state size and device are recorded
+PLACENTA_K10,GEOM_LEIDEN_FEATURE,16,26.308215379714966,824.48046875,cuda,"NVIDIA GeForce RTX 4080 SUPER, 32760 MiB (host-reported nvidia-smi during Night-22A)",NOT_INSTRUMENTED; compact state size and device are recorded
+TONSIL_S1_K4,GEOM_FEATURE_NCUT_K24,16,29.31844735145569,825.60546875,cuda,"NVIDIA GeForce RTX 4080 SUPER, 32760 MiB (host-reported nvidia-smi during Night-22A)",NOT_INSTRUMENTED; compact state size and device are recorded

@@ -1,0 +1,13 @@
+........                                                                 [100%]
+=============================== warnings summary ===============================
+tests/test_night22a_geometry.py: 26 warnings
+tests/test_night22a_junction.py: 7 warnings
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+tests/test_night22a_junction.py::test_checkpoint_reload_partition_exact
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+    return self.fget.__get__(instance, owner)()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+8 passed, 34 warnings in 3.04s

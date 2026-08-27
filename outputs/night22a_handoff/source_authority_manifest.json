@@ -1,0 +1,96 @@
+{
+  "active_core_sha256": "d03871acfbb89468c2118d71716077d25f70498a9006dab58b8bd76a7d36d789",
+  "cycle1_commit": "1ac9231d577f22db3651312f6cbac846eed85499",
+  "cycle2_commit": "aa9c0967241a5acff88ac590849a2ebbafca88b6",
+  "entries": [
+    {
+      "path": "/root/SpaLORA-night16h/outputs/night22a_handoff/Night22A_Geometry_Aware_Partition_Junction_Taskbook_2026-08-27.md",
+      "sha256": "25f7b56f6033c08f2c9ccfcbed17c22ebeaf54f1dce8fc5cf95beb9c7dea2473",
+      "size": 7673
+    },
+    {
+      "path": "/root/SpaLORA-night16h/SpaLORA/night22a_geometry.py",
+      "sha256": "3095deeed82c48bcc82c8b21626ecba0e70d842351ac97041ce8719a53992320",
+      "size": 9567
+    },
+    {
+      "path": "/root/SpaLORA-night16h/SpaLORA/night22a_junction.py",
+      "sha256": "d03871acfbb89468c2118d71716077d25f70498a9006dab58b8bd76a7d36d789",
+      "size": 10957
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/night22a_geometry_producer.py",
+      "sha256": "3924eb3dc89a8a7b2bcf20361ba95db944ffe04e1ff4ca7d9666a7743499b852",
+      "size": 5228
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/night22a_geometry_evaluator.py",
+      "sha256": "74bc4ea1572f5716536d527f10968441994f4cc39c6725e6b70e19a2d4774c1f",
+      "size": 6268
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/night22a_junction_producer.py",
+      "sha256": "703a4c3743d1d62cbe9cdbaa366993692616369171f4a850f04bcddc4b1f4e7a",
+      "size": 12466
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/night22a_junction_replay.py",
+      "sha256": "3b38b53a7979c434e3eb1e2b5c6e9eb66be4a9e7a18b77787fb44b7f76227b8b",
+      "size": 3427
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/build_stage_a_summary.py",
+      "sha256": "09602e6afb833a570a3e27d8c5da86532fdc9fcf21b55bc0555311174f6b5626",
+      "size": 4370
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/build_stage_b_summary.py",
+      "sha256": "40890c4827c62497eff13656dd6726551882fd6ac26fc74421d36ef3004ee265",
+      "size": 6702
+    },
+    {
+      "path": "/root/SpaLORA-night16h/scripts/night22a/build_handoff.py",
+      "sha256": "3746970cdc6fd28b223d16c49559cf2ce31d54e81c1d25f162815ab4db86965b",
+      "size": 24228
+    },
+    {
+      "path": "/root/SpaLORA-night16h/configs/night22a/stage_a_geometry_freeze.json",
+      "sha256": "bf0ccfdd5528a50e89ce9f877dff7df394311dd5c223c58d2d67626683061782",
+      "size": 1111
+    },
+    {
+      "path": "/root/SpaLORA-night16h/configs/night22a/stage_b_junction_freeze.json",
+      "sha256": "53cfd1e09f4671f38e3a57396b42f3659c2e6dff9ce742fcc281665f9b622027",
+      "size": 2858
+    },
+    {
+      "path": "/root/SpaLORA-night16h/configs/night22a/stage_b_junction_freeze_v2.json",
+      "sha256": "ed4339ea0e3f1f6d6404566a4da03159a4d804df681941f3acbea466ad91936d",
+      "size": 3244
+    },
+    {
+      "path": "/root/SpaLORA-night16h/tests/test_night22a_geometry.py",
+      "sha256": "c8cf27b4c7425ad66614c1c26c78296c7a19b3207e246723b546d97c5814723f",
+      "size": 1784
+    },
+    {
+      "path": "/root/SpaLORA-night16h/tests/test_night22a_junction.py",
+      "sha256": "b0c2d5a5104fa534480bf0f39c5b24d04d91efac83183d9559ef7ce32ebde192",
+      "size": 3443
+    },
+    {
+      "path": "/root/night21c_delivery_20260826/official_compact/compact_delivery_index.json",
+      "sha256": "5921dac05fb345271f902b69ec8c0198351dd60a14e02595ea62cb186bf19901",
+      "size": 61836
+    },
+    {
+      "path": "/root/night21c_delivery_20260826/night21c-final-20260826.incremental.bundle",
+      "sha256": "d010205857ccbe75cd6ee1704ab3848095a803cfdd6f4d9fd55ecb3f08387c79",
+      "size": 1727240
+    }
+  ],
+  "parent_commit": "7e35d07ddb2b0b19cfdc59a89bcf1829d0f59ef1",
+  "parent_compact_index_sha256": "5921dac05fb345271f902b69ec8c0198351dd60a14e02595ea62cb186bf19901",
+  "parent_tag": "night21c-final-20260826",
+  "schema": "night22a-source-authority-manifest-v1"
+}

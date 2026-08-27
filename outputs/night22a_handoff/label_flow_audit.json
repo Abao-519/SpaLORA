@@ -1,0 +1,11 @@
+{
+  "candidate_lock_before_evaluator": true,
+  "candidate_partition_sha_checked_before_metrics": true,
+  "family_confirmation": "not run because the frozen gate failed",
+  "known_k_source": "registered public benchmark protocol",
+  "labels_in_input_loss_gradient_checkpoint_selection": 0,
+  "producer_access": "explicit numeric IDs, locked representation, view1, view2 and sparse graph CSR arrays",
+  "producer_annotation_arrays_accessed": 0,
+  "schema": "night22a-label-flow-audit-v1",
+  "stage_a_and_stage_b_selection": "transparent label-assisted benchmark HPO after lock"
+}

@@ -1,0 +1,15 @@
+{
+  "classification_if_no_confirmation": "LOCAL_PARTITION_JUNCTION_SIGNAL",
+  "covered_families": [
+    "RNA_CHROMATIN"
+  ],
+  "family_frozen_confirmation_authorized": false,
+  "independent_lane_pass_count": 2,
+  "independent_lane_passes": [
+    "P22_K9",
+    "PLACENTA_K10"
+  ],
+  "labels_opened_only_by_independent_evaluator_after_candidate_lock": true,
+  "schema": "night22a-stage-b-mechanical-decision-v1",
+  "study_balanced_macro_delta_ari_vs_stage_a_best_head": 0.005592254892834048
+}

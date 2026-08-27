@@ -1,0 +1,22 @@
+{
+  "classification": "LOCAL_PARTITION_JUNCTION_SIGNAL_WITHOUT_FAMILY_CONFIRMATION",
+  "confirmation_lanes_run": [],
+  "family_frozen_confirmation_authorized": false,
+  "github_push_status": "PENDING_FINAL_COMMIT",
+  "labels_in_training_or_gradient": 0,
+  "paper_method_name_frozen": false,
+  "public_benchmark_hpo_disclosed": true,
+  "schema": "night22a-final-decision-v1",
+  "secondary_classifications": [
+    "HEAD_ONLY_GEOMETRY_SIGNAL",
+    "PLACENTA_ARI_SCORE_FRONTIER_ADVANCE"
+  ],
+  "shutdown_dispatched_at_report_build": false,
+  "sota_claim": false,
+  "stage_a_geometry_signal": true,
+  "strict_independent_junction_lane_count": 2,
+  "strict_independent_junction_lanes": [
+    "P22_K9",
+    "PLACENTA_K10"
+  ]
+}
