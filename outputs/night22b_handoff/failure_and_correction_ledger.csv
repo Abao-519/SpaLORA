@@ -1,0 +1,4 @@
+cycle,status,issue,resolution,scientific_effect
+PARENT_REPLAY_PREFLIGHT,CORRECTED_ENGINEERING_ATTEMPT,initial fresh-process invocation omitted PYTHONPATH=.,reran unchanged parent replay with PYTHONPATH=. and obtained exact PASS,none; no labels or formula changes
+AUTHORITY_ADAPTER_PREFORMAL,CORRECTED_BEFORE_EVALUATION,Night16F ordered-ID and Night16H partition authorities use their original hash algorithms rather than Night22A array_sha,verified with original algorithms and recorded both authority and Night22A hashes; rebuilt all pre-evaluation artifacts,none; label-closed authority correction
+FROZEN_PRIMARY_START,STRUCTURAL_UNAVAILABILITY,MISAR K7 has no exact-K Leiden partition in the frozen 32-resolution grid,fail-closed; did not expand grid; ran preregistered sensitivities only,primary lane fails transfer availability and sensitivity cannot replace headline

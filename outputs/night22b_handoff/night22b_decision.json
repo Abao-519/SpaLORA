@@ -1,0 +1,15 @@
+{
+  "additional_hpo_authorized": false,
+  "classification": "NO_FROZEN_TRANSFER_SIGNAL",
+  "gse205055_authority_closure_authorized": false,
+  "human_primary_independent_pass": false,
+  "junction_mainline_closed": true,
+  "labels_in_training_or_gradient": 0,
+  "misar_primary_start_available": false,
+  "primary_independent_pass_count": 0,
+  "primary_lane_count": 2,
+  "schema": "night22b-final-decision-v1",
+  "score_frontier_advance": false,
+  "sensitivity_or_secondary_cannot_override_primary": true,
+  "shutdown_dispatched_at_report_build": false
+}

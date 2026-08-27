@@ -1,0 +1,101 @@
+{
+  "schema": "night22b-frozen-rna-chromatin-junction-transfer-v1",
+  "frozen_before_primary_transfer_evaluation": true,
+  "frozen_before_junction_label_evaluation": true,
+  "taskbook_sha256": "e374331437fa4b60926d1006fdd07fb16d98de469985f3ab5241fad7e8df4ae4",
+  "parent_commit": "1309979e43abc37f4b42b61af48489e611753935",
+  "parent_tag": "night22a-final-20260827",
+  "parent_compact_index_sha256": "22e278155a9916b5cef72d28d1cf558f618d6815e77f80fb745130449306419a",
+  "representation_source": "RETAINED_CARRIER",
+  "primary_start": "GEOM_LEIDEN_FEATURE",
+  "sensitivity_starts": [
+    "GEOM_FEATURE_NCUT_K24",
+    "NIGHT16H_FROZEN_SELECTOR"
+  ],
+  "graph_neighbors": [12, 24],
+  "arms": [
+    "EMISSION_ONLY",
+    "SHARED_GRAPH_ONLY",
+    "CLUSTER_GRAPH_ONLY",
+    "ADDITIVE_SHARED",
+    "FULL"
+  ],
+  "profiles": [
+    {
+      "profile_id": "J01_GRAPH_LEAN",
+      "config": {
+        "steps": 240,
+        "learning_rate": 0.025,
+        "emission_weight": 0.2,
+        "graph_weight": 1.3,
+        "conditional_entropy_weight": 0.025,
+        "volume_floor_weight": 2.0,
+        "volume_floor_fraction": 0.2,
+        "anchor_weight": 0.12,
+        "graph_mixture_entropy_weight": 0.01,
+        "logit_bound": 8.0
+      }
+    }
+  ],
+  "source_sha256": {
+    "core": "d03871acfbb89468c2118d71716077d25f70498a9006dab58b8bd76a7d36d789",
+    "producer": "703a4c3743d1d62cbe9cdbaa366993692616369171f4a850f04bcddc4b1f4e7a",
+    "replay": "3b38b53a7979c434e3eb1e2b5c6e9eb66be4a9e7a18b77787fb44b7f76227b8b"
+  },
+  "lanes": {
+    "MISAR_K7": {
+      "role": "PRIMARY_FROZEN_CONFIRMATION",
+      "k": 7,
+      "n": 1949,
+      "carrier": "/root/night16f_working/carriers/MISAR_K7.npz",
+      "carrier_sha256": "f5fdc3a6005b3129b1d6e810774226c3117880245d7ed3b6df0b9f9f69141af4",
+      "ordered_ids_sha256": "4cd1e3837b946b1b3722194e2b71970b56426c61a06899db682357d28d2ee59a",
+      "night16h_partition": "/root/night16h_working/formal/loso_run1/MISAR_K7.npz",
+      "night16h_partition_sha256": "c93cabc50ce7b0988180a9d16eefcced1ea8f54f413b346bc8976dc7bc1e4363",
+      "reference_kind": "npz",
+      "reference": "/root/night16d_assets/kit/local_compute_kit/MISAR_E15_5_S1.npz",
+      "reference_label_key": "labels_primary",
+      "reference_mask_key": "label_mask",
+      "reference_graph_prefix": "operator4"
+    },
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "role": "PRIMARY_FROZEN_CONFIRMATION",
+      "k": 7,
+      "n": 2500,
+      "carrier": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz",
+      "carrier_sha256": "7f800a383d5c322ec2e8de8333ae0fcf2ef98daa8a4562d2859de4b51494bf0a",
+      "ordered_ids_sha256": "b3cbccc5deb5cdb86edbadfac72c0bae8f6207d85ffb9c3593c83551bc27c592",
+      "night16h_partition": "/root/night16h_working/formal/loso_run1/HUMAN_HIPPOCAMPUS_K7.npz",
+      "night16h_partition_sha256": "b12f6fe847dbeb1edf7bafe44279a9ea637f493a0099d74ffb68d5fcb08e2609",
+      "reference_kind": "h5ad",
+      "reference": "/root/night16e_external/human_hippocampus/human_adata1_official_result.h5ad",
+      "reference_label_key": "true_label",
+      "reference_graph_prefix": "graph0"
+    },
+    "MELANOMA_TUMOR_K2": {
+      "role": "SECONDARY_ROBUSTNESS",
+      "k": 2,
+      "n": 833,
+      "carrier": "/root/night16f_working/carriers/MELANOMA_TUMOR_K2.npz",
+      "carrier_sha256": "48a3d599e3204373470cd561e78c22ff8dd23a48c39574b16f01663c2b06c6b0",
+      "ordered_ids_sha256": "688ff8f400786d48ee248f95db5bce986451a12a981b6997846d58405296e8f2",
+      "night16h_partition": "/root/night16h_working/formal/loso_run1/MELANOMA_TUMOR_K2.npz",
+      "night16h_partition_sha256": "8a4a5a5cc80ac381e70b3719c416dcae57b3178dd350cd285666b3309d3fd69e",
+      "reference_kind": "tsv",
+      "reference": "/root/night16f_working/melanoma_protocol/tumor_k2_reference.tsv",
+      "reference_id_key": "cell_id",
+      "reference_label_key": "public_author_cluster",
+      "reference_graph_prefix": "graph0"
+    }
+  },
+  "primary_gate": {
+    "minimum_changed_observations": 5,
+    "exact_k": true,
+    "no_empty_cluster": true,
+    "no_singleton": true,
+    "each_cluster_has_internal_smallest_scale_edge": true,
+    "full_strictly_beats_start_and_every_atomic_arm_on_ari_and_nmi": true
+  },
+  "selection_semantics": "Primary result is the frozen GEOM_LEIDEN_FEATURE start and J01 profile; sensitivities never replace the headline.",
+  "labels_in_producer_loss_gradient_or_checkpoint_selection": 0
+}

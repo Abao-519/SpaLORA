@@ -1,0 +1,3 @@
+lane,n,k,primary_start,primary_start_available,full_ari,full_nmi,delta_ari_vs_strongest_control,delta_nmi_vs_strongest_control,strict_independent_pass,failure_reason
+MISAR_K7,1949,7,GEOM_LEIDEN_FEATURE,False,NA,NA,NA,NA,False,frozen 32-resolution Leiden generator produced no exact-K=7 partition; grid expansion forbidden
+HUMAN_HIPPOCAMPUS_K7,2500,7,GEOM_LEIDEN_FEATURE,True,0.06880589688380447,0.14826122262984617,-0.013481506692295309,-0.02180138683902605,False,FULL is below the shared-graph atomic arm and does not dual-improve the start

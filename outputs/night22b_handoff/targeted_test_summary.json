@@ -1,0 +1,8 @@
+{
+  "command": "pytest -q tests/test_night22a_geometry.py tests/test_night22a_junction.py tests/test_night22b_transfer.py",
+  "failed": 0,
+  "passed": 15,
+  "real_environment": "/root/miniconda3/envs/SpaLORA",
+  "schema": "night22b-targeted-tests-v1",
+  "warnings": 50
+}
