@@ -1,0 +1,49 @@
+{
+  "artifact_sha256": "612bf9991b0fcbbb7550fd470670fb5de1cbd43e289add87c1d6c2c96acfafad",
+  "benchmark_reference_labels_read": 0,
+  "boundary_edge_count": 11370,
+  "edge_cols_sha256": "3efa482f8d6221a0e51c5795cad588ead16095f8b410c04171703507115aece0",
+  "edge_rows_sha256": "01e0546066aef08daad5bae317a7490e003b875201c2be17ff00092773050570",
+  "feature_artifact_sha256": "76b4c4c342c01c01a836b41add200963733a4826f95b0d0773504fa25706349e",
+  "feature_ids_sha256": "76974720be496229b2e619b7aea90265dc0f9b0053591ddac8cb56533c731cfc",
+  "lane": "P22_K9",
+  "relation_count": 59201,
+  "relation_sha256": "7f9cce01f9a6b8ec6f968bd67198cf439415c3e568a89338f2e449d72511afc4",
+  "same_edge_count": 47831,
+  "same_edge_fraction": 0.8079424334048412,
+  "schema": "night23a-teacher-edge-relation-v1",
+  "teacher_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+  "teacher_cluster_ids_exported_to_model": false,
+  "teacher_file_sha256": "cb81ce04cba056530ac457e3d6f7b271da0e6d01f4eda33b155333300d5abcd1",
+  "teacher_partition_sha256": "57d73f5d8d27e7ac5e60663a1d3606c4628425a184bdb2cf61a2ee07cf7eecf2",
+  "teacher_path": "/root/night16h_working/formal/loso_run1/P22_K9.npz",
+  "teacher_validation": {
+    "all_clusters_have_internal_spatial_edge": true,
+    "cluster_sizes": [
+      1148,
+      624,
+      1482,
+      802,
+      1019,
+      1524,
+      612,
+      1819,
+      166
+    ],
+    "exact_k": true,
+    "internal_spatial_edges_per_cluster": [
+      2270,
+      1242,
+      2858,
+      1591,
+      1983,
+      3050,
+      1101,
+      3535,
+      269
+    ],
+    "min_cluster_size": 166,
+    "no_singleton": true,
+    "observed_k": 9
+  }
+}

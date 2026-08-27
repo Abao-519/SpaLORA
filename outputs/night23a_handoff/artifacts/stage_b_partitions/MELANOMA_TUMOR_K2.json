@@ -1,0 +1,249 @@
+{
+  "bank_sha256": "ea488e612cc8f2b16a067a905e0c3ef261005d8aec2613c087c0f870af2dd456",
+  "candidate_count": 10,
+  "candidate_ids": [
+    "RAW_EQUAL_UNION",
+    "ARISE_LIKE_INTERSECTION",
+    "SPATIAL_ONLY",
+    "RETAINED_ONLY",
+    "VIEW1_ONLY",
+    "VIEW2_ONLY",
+    "LOGISTIC_DIRECT",
+    "MLP_NO_CONFIDENCE_ABSTENTION",
+    "SHUFFLED_TEACHER_FULL_TRANSFORM",
+    "FULL_XBED"
+  ],
+  "carrier_sha256": "48a3d599e3204373470cd561e78c22ff8dd23a48c39574b16f01663c2b06c6b0",
+  "cols_sha256": "f4b09f2e9156ed4c944d1ecb77220ba6203fa63213d808e2469edcc8311735f2",
+  "contract_sha256": "9416047ca42438a52290924ad1544635137e716c79c444ef92fae710bd640a54",
+  "core_source_sha256": "d1a2e4ca0a63ef54aaa455c15ccef3379b03e6c9e8b56bf97961980282048c8e",
+  "edge_count": 3193,
+  "feature_sha256": "13405c8c5b5c1b9804516388c5b9f619681dc49bd884b5810a34c9a3ba3a8a8e",
+  "heldout_teacher_generated": false,
+  "ids_sha256": "a3af009a7ac3daccd8ac75af4f3e16bc1d4a182752f76f1c10387a6e31eca608",
+  "k": 2,
+  "labels_read": 0,
+  "lane": "MELANOMA_TUMOR_K2",
+  "n": 833,
+  "partitions_sha256": "9b09a489ef0ccc9c4298c0cea9e0087c1f7152f17a06eb69b0519a6f432d5f2b",
+  "peak_rss_mb": 408.7734375,
+  "prediction_checkpoint_sha256": "61f4f5be0b5f9e96ced7dd58ae8cecc147bad77a5e392a4d52629a1aa3c349ff",
+  "prediction_sha256": "e2dc59488bfc9c40d53ee3c899b18940aa0e2e9fb57eab7c04f28302e2041a7f",
+  "role": "SECONDARY",
+  "rows": [
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "RAW_EQUAL_UNION",
+      "cluster_sizes_full": [
+        271,
+        562
+      ],
+      "edge_weight_max": 1.0,
+      "edge_weight_min": 1.0,
+      "edge_weight_nonzero": 3193,
+      "edge_weight_sum": 3193.0,
+      "internal_spatial_edges_per_cluster": [
+        708,
+        1390
+      ],
+      "min_cluster_size_full": 271,
+      "observed_k": 2,
+      "partition_index": 0,
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8",
+      "wall_seconds": 0.05917627550661564
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "ARISE_LIKE_INTERSECTION",
+      "cluster_sizes_full": [
+        398,
+        435
+      ],
+      "edge_weight_max": 1.0,
+      "edge_weight_min": 0.0,
+      "edge_weight_nonzero": 4,
+      "edge_weight_sum": 4.0,
+      "internal_spatial_edges_per_cluster": [
+        473,
+        562
+      ],
+      "min_cluster_size_full": 398,
+      "observed_k": 2,
+      "partition_index": 1,
+      "partition_sha256": "756082796bacee41533b5abe0a85809be9e327cc5045ca624fadc12e23efe56c",
+      "wall_seconds": 0.025208815932273865
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "SPATIAL_ONLY",
+      "cluster_sizes_full": [
+        642,
+        191
+      ],
+      "edge_weight_max": 1.0,
+      "edge_weight_min": 0.0,
+      "edge_weight_nonzero": 2111,
+      "edge_weight_sum": 2111.0,
+      "internal_spatial_edges_per_cluster": [
+        1637,
+        472
+      ],
+      "min_cluster_size_full": 191,
+      "observed_k": 2,
+      "partition_index": 2,
+      "partition_sha256": "b2c2a72cc797a44ed49b3e678bd32257f51595c199b80525366049bef38ea848",
+      "wall_seconds": 0.04007203318178654
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "RETAINED_ONLY",
+      "cluster_sizes_full": [
+        769,
+        64
+      ],
+      "edge_weight_max": 1.0,
+      "edge_weight_min": 0.0,
+      "edge_weight_nonzero": 221,
+      "edge_weight_sum": 221.0,
+      "internal_spatial_edges_per_cluster": [
+        1811,
+        20
+      ],
+      "min_cluster_size_full": 64,
+      "observed_k": 2,
+      "partition_index": 3,
+      "partition_sha256": "67dfb9ff99a572e48199e4c725e0e509021deb326a7b9444f82866992d10ca5c",
+      "wall_seconds": 0.020802583545446396
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "VIEW1_ONLY",
+      "cluster_sizes_full": [
+        249,
+        584
+      ],
+      "edge_weight_max": 1.0,
+      "edge_weight_min": 0.0,
+      "edge_weight_nonzero": 843,
+      "edge_weight_sum": 843.0,
+      "internal_spatial_edges_per_cluster": [
+        265,
+        1138
+      ],
+      "min_cluster_size_full": 249,
+      "observed_k": 2,
+      "partition_index": 4,
+      "partition_sha256": "e874587d805d9f41bb21c304ca136b0454b898ca173d0df49bdd71f13c474ff6",
+      "wall_seconds": 0.02506389655172825
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": false,
+      "candidate_id": "VIEW2_ONLY",
+      "cluster_sizes_full": [
+        820,
+        13
+      ],
+      "edge_weight_max": 1.0,
+      "edge_weight_min": 0.0,
+      "edge_weight_nonzero": 90,
+      "edge_weight_sum": 90.0,
+      "internal_spatial_edges_per_cluster": [
+        2042,
+        0
+      ],
+      "min_cluster_size_full": 13,
+      "observed_k": 2,
+      "partition_index": 5,
+      "partition_sha256": "bafc99491bf2396dcd17b8e93a38e507e11ac4eceec964c69c2a783c9d6a987e",
+      "wall_seconds": 0.018869172781705856
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "LOGISTIC_DIRECT",
+      "cluster_sizes_full": [
+        271,
+        562
+      ],
+      "edge_weight_max": 0.9793283829802647,
+      "edge_weight_min": 0.033651605559252534,
+      "edge_weight_nonzero": 3193,
+      "edge_weight_sum": 2078.2259346431656,
+      "internal_spatial_edges_per_cluster": [
+        708,
+        1390
+      ],
+      "min_cluster_size_full": 271,
+      "observed_k": 2,
+      "partition_index": 6,
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8",
+      "wall_seconds": 0.020510533824563026
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "MLP_NO_CONFIDENCE_ABSTENTION",
+      "cluster_sizes_full": [
+        271,
+        562
+      ],
+      "edge_weight_max": 0.9859932661056519,
+      "edge_weight_min": 0.021169466897845268,
+      "edge_weight_nonzero": 3193,
+      "edge_weight_sum": 2000.3554508779198,
+      "internal_spatial_edges_per_cluster": [
+        708,
+        1390
+      ],
+      "min_cluster_size_full": 271,
+      "observed_k": 2,
+      "partition_index": 7,
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8",
+      "wall_seconds": 0.022126521915197372
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "SHUFFLED_TEACHER_FULL_TRANSFORM",
+      "cluster_sizes_full": [
+        271,
+        562
+      ],
+      "edge_weight_max": 0.9999978464608406,
+      "edge_weight_min": 0.9526603554279565,
+      "edge_weight_nonzero": 3193,
+      "edge_weight_sum": 3154.7873720498987,
+      "internal_spatial_edges_per_cluster": [
+        708,
+        1390
+      ],
+      "min_cluster_size_full": 271,
+      "observed_k": 2,
+      "partition_index": 8,
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8",
+      "wall_seconds": 0.021483909338712692
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "FULL_XBED",
+      "cluster_sizes_full": [
+        271,
+        562
+      ],
+      "edge_weight_max": 0.9999951663906086,
+      "edge_weight_min": 0.09868995556432653,
+      "edge_weight_nonzero": 3193,
+      "edge_weight_sum": 2812.8372605579602,
+      "internal_spatial_edges_per_cluster": [
+        708,
+        1390
+      ],
+      "min_cluster_size_full": 271,
+      "observed_k": 2,
+      "partition_index": 9,
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8",
+      "wall_seconds": 0.021394502371549606
+    }
+  ],
+  "rows_sha256": "983f867585f887b9e66f602ab6de738ef7033ab2a0f3d9b1b475259a25ac2693",
+  "schema": "night23a-stage-b-partitions-v1",
+  "teacher_files_read": 0,
+  "wall_seconds": 0.306801687926054
+}

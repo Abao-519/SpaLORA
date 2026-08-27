@@ -1,0 +1,89 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "checkpoint_sha256": "61f4f5be0b5f9e96ced7dd58ae8cecc147bad77a5e392a4d52629a1aa3c349ff",
+  "cols_sha256": "f4b09f2e9156ed4c944d1ecb77220ba6203fa63213d808e2469edcc8311735f2",
+  "heldout_feature_path": "/root/night23a_working/features/MELANOMA_TUMOR_K2.npz",
+  "heldout_feature_sha256": "13405c8c5b5c1b9804516388c5b9f619681dc49bd884b5810a34c9a3ba3a8a8e",
+  "heldout_lane": "MELANOMA_TUMOR_K2",
+  "heldout_role": "SECONDARY",
+  "heldout_teacher_arrays_read": 0,
+  "heldout_teacher_path_opened": false,
+  "mlp_loss_ledger": [
+    {
+      "grad_norm": 0.23448991775512695,
+      "loss": 0.6995250582695007,
+      "step": 0
+    },
+    {
+      "grad_norm": 0.22616925835609436,
+      "loss": 0.6887580156326294,
+      "step": 1
+    },
+    {
+      "grad_norm": 0.21261757612228394,
+      "loss": 0.6503753662109375,
+      "step": 5
+    },
+    {
+      "grad_norm": 0.12227310985326767,
+      "loss": 0.5571375489234924,
+      "step": 20
+    },
+    {
+      "grad_norm": 0.04309866204857826,
+      "loss": 0.4947628974914551,
+      "step": 60
+    },
+    {
+      "grad_norm": 0.03454098105430603,
+      "loss": 0.46544933319091797,
+      "step": 120
+    },
+    {
+      "grad_norm": 0.0317438580095768,
+      "loss": 0.4349045753479004,
+      "step": 239
+    }
+  ],
+  "mlp_parameter_l1_change": 122.5809097290039,
+  "peak_rss_mb": 744.296875,
+  "prediction_array_sha256": {
+    "arise_like_intersection_score": "c90dd265cace8069a489c5256558439a4f4cf2154ae87fc196029af326fd8003",
+    "logistic_probability": "6bf057872eced47f52fd5eb8a890858b3618c5a278194641dbde1a6023b0ba6a",
+    "mlp_probability": "ae82a93382856d43d45358e2705968e3acdc194ba63d779c0fc121df1fc87ca0",
+    "shuffled_teacher_probability": "1125b20ca10c849f0690cca96f7f894fdc882fb6c8d00881370a5af9d5342e2f",
+    "spatial_affinity_score": "e6ed018ac587f66b40c58be39f57b2a5bd21ca69ab36cd6341cab967806cc5e4"
+  },
+  "prediction_artifact_sha256": "e2dc59488bfc9c40d53ee3c899b18940aa0e2e9fb57eab7c04f28302e2041a7f",
+  "prediction_count": 3193,
+  "rows_sha256": "983f867585f887b9e66f602ab6de738ef7033ab2a0f3d9b1b475259a25ac2693",
+  "same_process_strict_reload": "PASS",
+  "schema": "night23a-loso-edge-prediction-v1",
+  "source_authority": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "feature_sha256": "9ecd9a588ce0760cfa019ec57966aedae2b1422a5b85807096d0756e1c7ac423",
+      "relation_sha256": "a93b2c5287d745de6c6256315fc8e872c8f629bc7640effa7fa09f983d0147d2",
+      "same_fraction": 0.8116336633663367,
+      "teacher_sha256": "10dda08d3f3a63c55390ad941f1bcde26952bbe8e971ee375da584fb026e8252"
+    },
+    "MISAR_K7": {
+      "feature_sha256": "2a2753e6652388c1349da789884e2132bc0ca82d2ed36cdb76a85cfe12be5b89",
+      "relation_sha256": "6e72868a76c78456c39d4782f7309a136359b4426e36d153407b002a90810135",
+      "same_fraction": 0.7555216165413534,
+      "teacher_sha256": "19d88a0656edfbf23a757b0750e1ce83ffe584aac040e6c5b60afbff140e3488"
+    },
+    "P22_K9": {
+      "feature_sha256": "76b4c4c342c01c01a836b41add200963733a4826f95b0d0773504fa25706349e",
+      "relation_sha256": "7f9cce01f9a6b8ec6f968bd67198cf439415c3e568a89338f2e449d72511afc4",
+      "same_fraction": 0.8079424334048412,
+      "teacher_sha256": "612bf9991b0fcbbb7550fd470670fb5de1cbd43e289add87c1d6c2c96acfafad"
+    }
+  },
+  "source_lanes": [
+    "P22_K9",
+    "MISAR_K7",
+    "HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "train_device": "cuda",
+  "wall_seconds": 1.7782803755253553
+}

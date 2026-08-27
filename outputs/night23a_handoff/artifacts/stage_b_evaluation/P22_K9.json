@@ -1,0 +1,24 @@
+{
+  "evaluator_reference_reads": 1,
+  "lane": "P22_K9",
+  "ordered_reference_sha256": "bfadd3adb9fe8947fffa22e1fc1616a3ecf4c5398001c6d831a06fb02ac33fe5",
+  "output_sha256": "3b3f8a23f71126cc936dc39a426d0b1281b63affd4a0a55004710e4b052101b9",
+  "partition_locked_and_replayed_before_reference_read": true,
+  "producer_labels_read": 0,
+  "reference_category_counts": {
+    "ACB": 1111,
+    "CP": 1693,
+    "L1-L3": 1023,
+    "L4": 304,
+    "L5": 970,
+    "L6a/b": 834,
+    "VL": 147,
+    "ccg/aco": 744,
+    "others": 2370
+  },
+  "reference_file_sha256": "cc073e4e3a260654f144d18db1ee9b505edeb4d0b5939f92b7dff006eb2e8128",
+  "reference_kind": "npz",
+  "reference_provenance": "npz:labels_primary:label_mask",
+  "rows": 10,
+  "schema": "night23a-stage-b-independent-evaluation-v1"
+}

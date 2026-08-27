@@ -1,0 +1,14 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "checkpoint_sha256": "61f4f5be0b5f9e96ced7dd58ae8cecc147bad77a5e392a4d52629a1aa3c349ff",
+  "heldout_lane": "MELANOMA_TUMOR_K2",
+  "heldout_teacher_files_read": 0,
+  "prediction_artifact_sha256": "e2dc59488bfc9c40d53ee3c899b18940aa0e2e9fb57eab7c04f28302e2041a7f",
+  "replayed_prediction_arrays": [
+    "logistic_probability",
+    "mlp_probability",
+    "shuffled_teacher_probability"
+  ],
+  "schema": "night23a-edge-fresh-replay-v1",
+  "status": "PASS"
+}

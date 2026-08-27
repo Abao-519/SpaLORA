@@ -1,0 +1,15 @@
+{
+  "classification": "RELATIONAL_TRANSFER_WITHOUT_PARTITION_GAIN",
+  "gse205055_authority_closure_run": false,
+  "labels_used": "heldout teacher for post-lock edge diagnostics; benchmark labels for post-lock partition evaluation only",
+  "method_line_action": "stop XBED partition line; preserve edge-transfer diagnostic only",
+  "night22_junction_reopened": false,
+  "placenta_confirmation_run": false,
+  "schema": "night23a-final-decision-v1",
+  "score_frontier_advance": false,
+  "stage_a_edge_identifiability_passed": true,
+  "stage_b_macro_delta_ari_vs_coordinatewise_strongest": -0.12131957814560888,
+  "stage_b_macro_delta_nmi_vs_coordinatewise_strongest": -0.08074269958737738,
+  "stage_b_main_lane_passes": 0,
+  "stage_b_partition_gate_passed": false
+}

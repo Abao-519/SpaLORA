@@ -1,0 +1,11 @@
+{
+  "schema": "night23a-test-and-replay-audit-v1",
+  "stage_a_all_pass": true,
+  "stage_a_fresh_process_replay_lanes": 4,
+  "stage_b_all_pass": true,
+  "stage_b_fresh_process_replay_lanes": 4,
+  "stage_b_partitions_replayed": 40,
+  "targeted_test_count": 10,
+  "targeted_test_log_sha256": "73aac015d1cfc823e7e71ad247aa7adb0048a6597d3619cbfe58f48d3e322684",
+  "targeted_test_status": "PASS"
+}

@@ -1,0 +1,10 @@
+..........                                                               [100%]
+=============================== warnings summary ===============================
+tests/test_night23a_xbed.py::test_spectral_partitioner_is_exact_k_and_sparse
+tests/test_night23a_xbed.py::test_stage_b_partition_replay_is_exact
+tests/test_night23a_xbed.py::test_stage_b_partition_replay_is_exact
+  /root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+    self._set_arrayXarray(i, j, x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+10 passed, 3 warnings in 1.90s

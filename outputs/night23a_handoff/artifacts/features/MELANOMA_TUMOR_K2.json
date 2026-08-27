@@ -1,0 +1,109 @@
+{
+  "accessed_carrier_keys": [
+    "ids",
+    "view1",
+    "view2",
+    "retained",
+    "graph0__*"
+  ],
+  "annotation_or_teacher_arrays_accessed": 0,
+  "artifact_sha256": "13405c8c5b5c1b9804516388c5b9f619681dc49bd884b5810a34c9a3ba3a8a8e",
+  "carrier_path": "/root/night16f_working/carriers/MELANOMA_TUMOR_K2.npz",
+  "carrier_sha256": "48a3d599e3204373470cd561e78c22ff8dd23a48c39574b16f01663c2b06c6b0",
+  "cols_sha256": "f4b09f2e9156ed4c944d1ecb77220ba6203fa63213d808e2469edcc8311735f2",
+  "component_edge_counts": {
+    "registered_spatial": 2111,
+    "retained_mutual": 221,
+    "view1_mutual": 843,
+    "view2_mutual": 90
+  },
+  "contract_sha256": "4455e6b9ad1ddfa08c5364def235afd6cfefeba006b12eaf42accadac30896a1",
+  "discovered_carrier_keys": [
+    "graph0__data",
+    "graph0__indices",
+    "graph0__indptr",
+    "graph0__shape",
+    "graph1__data",
+    "graph1__indices",
+    "graph1__indptr",
+    "graph1__shape",
+    "graph2__data",
+    "graph2__indices",
+    "graph2__indptr",
+    "graph2__shape",
+    "ids",
+    "retained",
+    "start_ids",
+    "start_partitions",
+    "view1",
+    "view2"
+  ],
+  "feature_names": [
+    "retained_similarity_rank",
+    "view1_similarity_rank",
+    "view2_similarity_rank",
+    "view_similarity_min",
+    "view_similarity_mean",
+    "view_similarity_conflict",
+    "retained_mutual",
+    "view1_mutual",
+    "view2_mutual",
+    "retained_reciprocal_rank",
+    "view1_reciprocal_rank",
+    "view2_reciprocal_rank",
+    "registered_spatial_edge",
+    "registered_spatial_weight_rank",
+    "spatial_degree_mean_rank",
+    "spatial_degree_absdiff_rank",
+    "retained_degree_mean_rank",
+    "retained_degree_absdiff_rank",
+    "view1_degree_mean_rank",
+    "view1_degree_absdiff_rank",
+    "view2_degree_mean_rank",
+    "view2_degree_absdiff_rank",
+    "retained_local_scale_mean_rank",
+    "retained_local_scale_absdiff_rank",
+    "view1_local_scale_mean_rank",
+    "view1_local_scale_absdiff_rank",
+    "view2_local_scale_mean_rank",
+    "view2_local_scale_absdiff_rank",
+    "cross_modal_neighbor_overlap_mean",
+    "cross_modal_neighbor_overlap_absdiff"
+  ],
+  "feature_shape": [
+    3193,
+    30
+  ],
+  "features_sha256": "bc268f8ffb79885e74dc5f833b5b7536901342842f7ce548453809fbdc7e7882",
+  "ids_sha256": "a3af009a7ac3daccd8ac75af4f3e16bc1d4a182752f76f1c10387a6e31eca608",
+  "ids_shape": [
+    833
+  ],
+  "k": 2,
+  "labels_read": 0,
+  "lane": "MELANOMA_TUMOR_K2",
+  "peak_rss_mb": 417.31640625,
+  "retained_shape": [
+    833,
+    64
+  ],
+  "role": "SECONDARY",
+  "rows_sha256": "983f867585f887b9e66f602ab6de738ef7033ab2a0f3d9b1b475259a25ac2693",
+  "schema": "night23a-edge-features-v1",
+  "spatial_nnz": 4222,
+  "spatial_shape": [
+    833,
+    833
+  ],
+  "teacher_files_read": 0,
+  "union_edge_count": 3193,
+  "view1_shape": [
+    833,
+    64
+  ],
+  "view2_shape": [
+    833,
+    64
+  ],
+  "wall_seconds": 0.13124220073223114
+}

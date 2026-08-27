@@ -1,0 +1,11 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "fresh_process_replay_passed_before_teacher_read": true,
+  "heldout_lane": "MISAR_K7",
+  "heldout_teacher_read_count": 1,
+  "output_sha256": "5273c48e99e36b2856f637d845ab0654da67628e87cc725b47caf5406021ee05",
+  "prediction_locked_before_teacher_read": true,
+  "schema": "night23a-edge-identifiability-evaluation-v1",
+  "teacher_file_sha256": "19d88a0656edfbf23a757b0750e1ce83ffe584aac040e6c5b60afbff140e3488",
+  "teacher_relation_sha256": "6e72868a76c78456c39d4782f7309a136359b4426e36d153407b002a90810135"
+}

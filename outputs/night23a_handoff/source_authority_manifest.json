@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "SpaLORA/night23a_xbed.py",
+      "sha256": "d1a2e4ca0a63ef54aaa455c15ccef3379b03e6c9e8b56bf97961980282048c8e",
+      "size": 22315
+    },
+    {
+      "path": "configs/night23a/stage_a_contract.json",
+      "sha256": "4455e6b9ad1ddfa08c5364def235afd6cfefeba006b12eaf42accadac30896a1",
+      "size": 2314
+    },
+    {
+      "path": "configs/night23a/stage_b_contract.json",
+      "sha256": "9416047ca42438a52290924ad1544635137e716c79c444ef92fae710bd640a54",
+      "size": 2608
+    },
+    {
+      "path": "scripts/night23a/build_edge_features.py",
+      "sha256": "faafb4877a48ae7370297bf70c8dc4996e01d876d8366c838c824691a9fda28c",
+      "size": 3781
+    },
+    {
+      "path": "scripts/night23a/build_night23a_handoff.py",
+      "sha256": "5e3f7e646653ab442e8d163f9d927ad68011189e4fcb843bf7c14c7a08862006",
+      "size": 25306
+    },
+    {
+      "path": "scripts/night23a/build_teacher_relation.py",
+      "sha256": "b9252aa4f7644d30c01b54ff29095bef9433a458e0bdeab7eaa9a2ca76d3d0e3",
+      "size": 3667
+    },
+    {
+      "path": "scripts/night23a/evaluate_edge_identifiability.py",
+      "sha256": "de91eca2e0973998abab0f09117e0d07ba4bd684458b84cd7fcfca96331e859f",
+      "size": 4410
+    },
+    {
+      "path": "scripts/night23a/evaluate_stage_b_partitions.py",
+      "sha256": "f84c58eb400bdecc0791a002bce69938816805b619d741c02a3051685cf8fd2a",
+      "size": 8627
+    },
+    {
+      "path": "scripts/night23a/produce_stage_b_partitions.py",
+      "sha256": "23ad9754ab89692bdeae0cdfcab22d3eac9f3acd42b1d2bfb9181999cb78d88c",
+      "size": 6110
+    },
+    {
+      "path": "scripts/night23a/replay_loso_edge_model.py",
+      "sha256": "8a1d88c11be50c381e853ba7e8d2c65d43daa436cc4afe2bc7af42ed56c4d663",
+      "size": 3069
+    },
+    {
+      "path": "scripts/night23a/replay_stage_b_partitions.py",
+      "sha256": "d4a2efec0dfe66e0b7050263e5a0484dc8eefec6f4842cae0ee32340fb16e9a8",
+      "size": 2787
+    },
+    {
+      "path": "scripts/night23a/summarize_stage_a_gate.py",
+      "sha256": "6726a91cf0dd576396ab30a005a6c887df0beae6aa5f2b29d82048a22f015d6a",
+      "size": 4276
+    },
+    {
+      "path": "scripts/night23a/summarize_stage_b_gate.py",
+      "sha256": "480cf41af6511e21b7429ec0ec707dbfb0a030b4864295f152adec8940d2dc9d",
+      "size": 3749
+    },
+    {
+      "path": "scripts/night23a/train_loso_edge_model.py",
+      "sha256": "c294ac04fa679e10247881355b77b0693a43265f0ffc192e4e6b988ecee7f82c",
+      "size": 7421
+    },
+    {
+      "path": "tests/test_night23a_xbed.py",
+      "sha256": "080b1acace818a39fbbdf432068bf23fd8d55511359edc3218c017993fe12c7c",
+      "size": 6268
+    }
+  ],
+  "parent_commit": "1d0a7116b4404d66600e412bc2cfa8eddabf1c1c",
+  "schema": "night23a-source-authority-manifest-v1",
+  "stage_a_freeze_commit": "8ce934643c5c1e425811842a8a5c98ad0395db71",
+  "stage_b_freeze_commit": "c30798835351e4b149df5cd02d1e4ac26dda3230",
+  "taskbook_sha256": "2f052d68013c9a0843f25f67b6a557794d515b17000a8e079dab5b55f239f039"
+}

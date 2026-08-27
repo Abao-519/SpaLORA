@@ -1,0 +1,47 @@
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{
+  "artifact_sha256": "10dda08d3f3a63c55390ad941f1bcde26952bbe8e971ee375da584fb026e8252",
+  "benchmark_reference_labels_read": 0,
+  "boundary_edge_count": 1522,
+  "edge_cols_sha256": "87ce9ae08a014ce5addb0632ba5927daaa700328d3fd78d8ad457913efb5b021",
+  "edge_rows_sha256": "6430f3cfccc59e427c406e68bb378befc6d446bbdf9705d03e28acf670e8b569",
+  "feature_artifact_sha256": "9ecd9a588ce0760cfa019ec57966aedae2b1422a5b85807096d0756e1c7ac423",
+  "feature_ids_sha256": "4ce333de399bb14e9aeb80d204a64419cf3cf622e25dbe5f84f205d40b8013e2",
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "relation_count": 8080,
+  "relation_sha256": "a93b2c5287d745de6c6256315fc8e872c8f629bc7640effa7fa09f983d0147d2",
+  "same_edge_count": 6558,
+  "same_edge_fraction": 0.8116336633663367,
+  "schema": "night23a-teacher-edge-relation-v1",
+  "teacher_candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+  "teacher_cluster_ids_exported_to_model": false,
+  "teacher_file_sha256": "da7ce813afcdd3c5af94fcbfcb16097cc9d67a6c013a439a11c693f572f18b2b",
+  "teacher_partition_sha256": "58aa4e6ff2e7957a1cc17b255bf746d8e4ec839aebd7b71462a151179ea66b7f",
+  "teacher_path": "/root/night16h_working/formal/loso_run1/HUMAN_HIPPOCAMPUS_K7.npz",
+  "teacher_validation": {
+    "all_clusters_have_internal_spatial_edge": true,
+    "cluster_sizes": [
+      34,
+      59,
+      299,
+      655,
+      160,
+      869,
+      424
+    ],
+    "exact_k": true,
+    "internal_spatial_edges_per_cluster": [
+      33,
+      115,
+      550,
+      1261,
+      247,
+      1661,
+      820
+    ],
+    "min_cluster_size": 34,
+    "no_singleton": true,
+    "observed_k": 7
+  }
+}

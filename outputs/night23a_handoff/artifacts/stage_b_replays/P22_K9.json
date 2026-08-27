@@ -1,0 +1,51 @@
+{
+  "bank_sha256": "6077ede9cca1bd8d27a8897d3ddb120fe04aab14bf5f35ba2961e0b069a690fd",
+  "candidate_count": 10,
+  "labels_read": 0,
+  "lane": "P22_K9",
+  "replayed": [
+    {
+      "candidate_id": "RAW_EQUAL_UNION",
+      "partition_sha256": "62a6beab7531a61807750fe99ba229a03b412ac5f23cd8e25537085404ab7f5d"
+    },
+    {
+      "candidate_id": "ARISE_LIKE_INTERSECTION",
+      "partition_sha256": "5392fcde2bc44c43add9c943668fcda0f7fadd789e1db39d9883c5c1dd120fe3"
+    },
+    {
+      "candidate_id": "SPATIAL_ONLY",
+      "partition_sha256": "65d0784ff38d842b8a69ee4c872cb7a8cd5a9746e0c27a4a87ecb62681d1efe8"
+    },
+    {
+      "candidate_id": "RETAINED_ONLY",
+      "partition_sha256": "1d5e71884aa68bbf49d489c7560175ef065d61de4f8c7a2ccb77485baeff0818"
+    },
+    {
+      "candidate_id": "VIEW1_ONLY",
+      "partition_sha256": "35867ea3569030449d246ba071110ac97d20a6277819bbcff90f68e5954af05d"
+    },
+    {
+      "candidate_id": "VIEW2_ONLY",
+      "partition_sha256": "d94ce62654caed9ef9f3576b79c84a77255319e11875737525b8181cd3704214"
+    },
+    {
+      "candidate_id": "LOGISTIC_DIRECT",
+      "partition_sha256": "62588464a04d67521eca37e08f0028f3ebc134ca9576249685f3ae2936dfc7f4"
+    },
+    {
+      "candidate_id": "MLP_NO_CONFIDENCE_ABSTENTION",
+      "partition_sha256": "bddaf62a1f9803d3ec2c16d03c1d76d5d61a33947c7cc10b02f929099abb91b0"
+    },
+    {
+      "candidate_id": "SHUFFLED_TEACHER_FULL_TRANSFORM",
+      "partition_sha256": "6210403ed4480413a3cf7c4daff092fd95df2e26b9c4b6772d2f422a931b599f"
+    },
+    {
+      "candidate_id": "FULL_XBED",
+      "partition_sha256": "05cd015cdba0e8650b8c954ebb3293fad35caa9db9403923c3b842fa0740c029"
+    }
+  ],
+  "schema": "night23a-stage-b-fresh-replay-v1",
+  "status": "PASS",
+  "teacher_files_read": 0
+}

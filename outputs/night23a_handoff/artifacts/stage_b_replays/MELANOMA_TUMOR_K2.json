@@ -1,0 +1,51 @@
+{
+  "bank_sha256": "ea488e612cc8f2b16a067a905e0c3ef261005d8aec2613c087c0f870af2dd456",
+  "candidate_count": 10,
+  "labels_read": 0,
+  "lane": "MELANOMA_TUMOR_K2",
+  "replayed": [
+    {
+      "candidate_id": "RAW_EQUAL_UNION",
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8"
+    },
+    {
+      "candidate_id": "ARISE_LIKE_INTERSECTION",
+      "partition_sha256": "756082796bacee41533b5abe0a85809be9e327cc5045ca624fadc12e23efe56c"
+    },
+    {
+      "candidate_id": "SPATIAL_ONLY",
+      "partition_sha256": "b2c2a72cc797a44ed49b3e678bd32257f51595c199b80525366049bef38ea848"
+    },
+    {
+      "candidate_id": "RETAINED_ONLY",
+      "partition_sha256": "67dfb9ff99a572e48199e4c725e0e509021deb326a7b9444f82866992d10ca5c"
+    },
+    {
+      "candidate_id": "VIEW1_ONLY",
+      "partition_sha256": "e874587d805d9f41bb21c304ca136b0454b898ca173d0df49bdd71f13c474ff6"
+    },
+    {
+      "candidate_id": "VIEW2_ONLY",
+      "partition_sha256": "bafc99491bf2396dcd17b8e93a38e507e11ac4eceec964c69c2a783c9d6a987e"
+    },
+    {
+      "candidate_id": "LOGISTIC_DIRECT",
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8"
+    },
+    {
+      "candidate_id": "MLP_NO_CONFIDENCE_ABSTENTION",
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8"
+    },
+    {
+      "candidate_id": "SHUFFLED_TEACHER_FULL_TRANSFORM",
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8"
+    },
+    {
+      "candidate_id": "FULL_XBED",
+      "partition_sha256": "7ba2a6899ee467f57caf3cc3fb80b3ab3e517a7bf2f25b26d49406606c2529a8"
+    }
+  ],
+  "schema": "night23a-stage-b-fresh-replay-v1",
+  "status": "PASS",
+  "teacher_files_read": 0
+}

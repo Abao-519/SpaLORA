@@ -1,0 +1,11 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "fresh_process_replay_passed_before_teacher_read": true,
+  "heldout_lane": "MELANOMA_TUMOR_K2",
+  "heldout_teacher_read_count": 1,
+  "output_sha256": "93c8df76216c19c64cb1e4507f837af1bcf64f06d0f1410affe58c2eb6ee1175",
+  "prediction_locked_before_teacher_read": true,
+  "schema": "night23a-edge-identifiability-evaluation-v1",
+  "teacher_file_sha256": "b472670439d19cc990a95ce8a338083cff9387e2969b43e96f55b96c2587c243",
+  "teacher_relation_sha256": "65e8459dc684d7e2712fe318dbaf0339ecb31260171c807b8a82fb504ebea8a6"
+}

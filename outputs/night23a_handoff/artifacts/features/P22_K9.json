@@ -1,0 +1,109 @@
+{
+  "accessed_carrier_keys": [
+    "ids",
+    "view1",
+    "view2",
+    "retained",
+    "graph0__*"
+  ],
+  "annotation_or_teacher_arrays_accessed": 0,
+  "artifact_sha256": "76b4c4c342c01c01a836b41add200963733a4826f95b0d0773504fa25706349e",
+  "carrier_path": "/root/night16f_working/carriers/P22_K9.npz",
+  "carrier_sha256": "cb806fe6cc9f89910e88c2884f92bfb399c3104943d327964e78b94718303766",
+  "cols_sha256": "3efa482f8d6221a0e51c5795cad588ead16095f8b410c04171703507115aece0",
+  "component_edge_counts": {
+    "registered_spatial": 18584,
+    "retained_mutual": 32381,
+    "view1_mutual": 18819,
+    "view2_mutual": 2614
+  },
+  "contract_sha256": "4455e6b9ad1ddfa08c5364def235afd6cfefeba006b12eaf42accadac30896a1",
+  "discovered_carrier_keys": [
+    "graph0__data",
+    "graph0__indices",
+    "graph0__indptr",
+    "graph0__shape",
+    "graph1__data",
+    "graph1__indices",
+    "graph1__indptr",
+    "graph1__shape",
+    "graph2__data",
+    "graph2__indices",
+    "graph2__indptr",
+    "graph2__shape",
+    "ids",
+    "retained",
+    "start_ids",
+    "start_partitions",
+    "view1",
+    "view2"
+  ],
+  "feature_names": [
+    "retained_similarity_rank",
+    "view1_similarity_rank",
+    "view2_similarity_rank",
+    "view_similarity_min",
+    "view_similarity_mean",
+    "view_similarity_conflict",
+    "retained_mutual",
+    "view1_mutual",
+    "view2_mutual",
+    "retained_reciprocal_rank",
+    "view1_reciprocal_rank",
+    "view2_reciprocal_rank",
+    "registered_spatial_edge",
+    "registered_spatial_weight_rank",
+    "spatial_degree_mean_rank",
+    "spatial_degree_absdiff_rank",
+    "retained_degree_mean_rank",
+    "retained_degree_absdiff_rank",
+    "view1_degree_mean_rank",
+    "view1_degree_absdiff_rank",
+    "view2_degree_mean_rank",
+    "view2_degree_absdiff_rank",
+    "retained_local_scale_mean_rank",
+    "retained_local_scale_absdiff_rank",
+    "view1_local_scale_mean_rank",
+    "view1_local_scale_absdiff_rank",
+    "view2_local_scale_mean_rank",
+    "view2_local_scale_absdiff_rank",
+    "cross_modal_neighbor_overlap_mean",
+    "cross_modal_neighbor_overlap_absdiff"
+  ],
+  "feature_shape": [
+    59201,
+    30
+  ],
+  "features_sha256": "d2e1eee08422f9bff649c3b003ea8ee628f76ee35cafd805f91aae56dd929da7",
+  "ids_sha256": "76974720be496229b2e619b7aea90265dc0f9b0053591ddac8cb56533c731cfc",
+  "ids_shape": [
+    9196
+  ],
+  "k": 9,
+  "labels_read": 0,
+  "lane": "P22_K9",
+  "peak_rss_mb": 578.9453125,
+  "retained_shape": [
+    9196,
+    64
+  ],
+  "role": "PRIMARY",
+  "rows_sha256": "01e0546066aef08daad5bae317a7490e003b875201c2be17ff00092773050570",
+  "schema": "night23a-edge-features-v1",
+  "spatial_nnz": 37168,
+  "spatial_shape": [
+    9196,
+    9196
+  ],
+  "teacher_files_read": 0,
+  "union_edge_count": 59201,
+  "view1_shape": [
+    9196,
+    30
+  ],
+  "view2_shape": [
+    9196,
+    50
+  ],
+  "wall_seconds": 2.5859495159238577
+}

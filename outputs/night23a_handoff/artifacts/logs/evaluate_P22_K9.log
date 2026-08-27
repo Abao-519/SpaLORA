@@ -1,0 +1,11 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "fresh_process_replay_passed_before_teacher_read": true,
+  "heldout_lane": "P22_K9",
+  "heldout_teacher_read_count": 1,
+  "output_sha256": "5e3daaa30ceab4cbb416e5fb90fecbbdb7e596dd014e4e76c575e8a4d42722f7",
+  "prediction_locked_before_teacher_read": true,
+  "schema": "night23a-edge-identifiability-evaluation-v1",
+  "teacher_file_sha256": "612bf9991b0fcbbb7550fd470670fb5de1cbd43e289add87c1d6c2c96acfafad",
+  "teacher_relation_sha256": "7f9cce01f9a6b8ec6f968bd67198cf439415c3e568a89338f2e449d72511afc4"
+}

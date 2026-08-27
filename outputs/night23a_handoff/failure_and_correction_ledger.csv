@@ -1,0 +1,5 @@
+correction,cycle,issue,scientific_retry,status
+froze LINEAR_1_TO_2_UNIT_NORM v0 before any Stage-B partition/reference evaluation,PRE_STAGE_B_DETERMINISM_REVIEW,initial sparse eigensolver draft did not pass an explicit deterministic v0,False,SUPERSEDED_BEFORE_REFERENCE_EVALUATION
+registered the existing repository root in process environment; source/formula unchanged,STAGE_B_LAUNCH_0,PYTHONPATH absent caused ModuleNotFoundError before producer computation,False,ENGINEERING_FAILURE_NO_PARTITION
+none; retained as evidence; MLP remained diagnostic and did not rescue gate,STAGE_A_PRIMARY,logistic transfer failed on human although pooled and 2/3 threshold passed,False,PASS_HETEROGENEOUS
+none; placenta/final training/GSE205055 prohibited,STAGE_B_PRIMARY,FULL was dominated on all 3 primary studies,False,SCIENTIFIC_GATE_FAILURE

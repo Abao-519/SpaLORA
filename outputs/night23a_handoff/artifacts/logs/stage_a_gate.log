@@ -1,0 +1,48 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "classification_if_stopped": "NO_CROSS_STUDY_EDGE_IDENTIFIABILITY",
+  "control_lane_win_counts": {
+    "arise_like_intersection_score": 2,
+    "shuffled_teacher_probability": 2,
+    "spatial_affinity_score": 2
+  },
+  "heldout_teacher_used_only_after_prediction_lock": true,
+  "lane_auroc": {
+    "HUMAN_HIPPOCAMPUS_K7": 0.4484335469733529,
+    "MISAR_K7": 0.8684678729463268,
+    "P22_K9": 0.8651640550548033
+  },
+  "lane_threshold_pass": {
+    "HUMAN_HIPPOCAMPUS_K7": false,
+    "MISAR_K7": true,
+    "P22_K9": true
+  },
+  "lane_threshold_pass_count": 2,
+  "main_lanes": [
+    "P22_K9",
+    "MISAR_K7",
+    "HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "mlp_is_diagnostic_and_cannot_rescue_primary_gate": true,
+  "pooled_main": {
+    "arise_like_intersection_score": {
+      "auprc": 0.8367071194614409,
+      "auroc": 0.5990334704005564
+    },
+    "logistic_probability": {
+      "auprc": 0.9326506738917454,
+      "auroc": 0.8229254764584871
+    },
+    "shuffled_teacher_probability": {
+      "auprc": 0.769387107445648,
+      "auroc": 0.42187226962010793
+    },
+    "spatial_affinity_score": {
+      "auprc": 0.8586340229714001,
+      "auroc": 0.6585516721298438
+    }
+  },
+  "primary_model": "logistic_probability",
+  "schema": "night23a-stage-a-gate-v1",
+  "stage_b_authorized": true
+}

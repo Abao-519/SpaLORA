@@ -1,0 +1,20 @@
+{
+  "all_teacher_authority_rows": 4,
+  "heldout_prediction_benchmark_label_reads": 0,
+  "heldout_prediction_teacher_reads": 0,
+  "model_inputs_exclude": [
+    "dataset name",
+    "tissue name",
+    "observation ID",
+    "teacher cluster ID",
+    "benchmark label"
+  ],
+  "placenta_labels_read": 0,
+  "placenta_reason": "Stage-B gate stopped before confirmation",
+  "schema": "night23a-teacher-label-flow-audit-v1",
+  "stage_a_diagnostic_first_teacher_read": "after prediction artifact/checkpoint SHA lock and fresh replay",
+  "stage_a_training": "source-study Night-16H selector partitions converted only to same/boundary edge bits",
+  "stage_b_evaluator_reference_reads_per_lane": 1,
+  "stage_b_partition_benchmark_label_reads": 0,
+  "stage_b_partition_teacher_reads": 0
+}

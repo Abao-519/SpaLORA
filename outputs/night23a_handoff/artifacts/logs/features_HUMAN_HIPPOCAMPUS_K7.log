@@ -1,0 +1,111 @@
+/root/miniconda3/envs/SpaLORA/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{
+  "accessed_carrier_keys": [
+    "ids",
+    "view1",
+    "view2",
+    "retained",
+    "graph0__*"
+  ],
+  "annotation_or_teacher_arrays_accessed": 0,
+  "artifact_sha256": "9ecd9a588ce0760cfa019ec57966aedae2b1422a5b85807096d0756e1c7ac423",
+  "carrier_path": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz",
+  "carrier_sha256": "7f800a383d5c322ec2e8de8333ae0fcf2ef98daa8a4562d2859de4b51494bf0a",
+  "cols_sha256": "87ce9ae08a014ce5addb0632ba5927daaa700328d3fd78d8ad457913efb5b021",
+  "component_edge_counts": {
+    "registered_spatial": 5100,
+    "retained_mutual": 848,
+    "view1_mutual": 2404,
+    "view2_mutual": 251
+  },
+  "contract_sha256": "4455e6b9ad1ddfa08c5364def235afd6cfefeba006b12eaf42accadac30896a1",
+  "discovered_carrier_keys": [
+    "graph0__data",
+    "graph0__indices",
+    "graph0__indptr",
+    "graph0__shape",
+    "graph1__data",
+    "graph1__indices",
+    "graph1__indptr",
+    "graph1__shape",
+    "graph2__data",
+    "graph2__indices",
+    "graph2__indptr",
+    "graph2__shape",
+    "ids",
+    "retained",
+    "start_ids",
+    "start_partitions",
+    "view1",
+    "view2"
+  ],
+  "feature_names": [
+    "retained_similarity_rank",
+    "view1_similarity_rank",
+    "view2_similarity_rank",
+    "view_similarity_min",
+    "view_similarity_mean",
+    "view_similarity_conflict",
+    "retained_mutual",
+    "view1_mutual",
+    "view2_mutual",
+    "retained_reciprocal_rank",
+    "view1_reciprocal_rank",
+    "view2_reciprocal_rank",
+    "registered_spatial_edge",
+    "registered_spatial_weight_rank",
+    "spatial_degree_mean_rank",
+    "spatial_degree_absdiff_rank",
+    "retained_degree_mean_rank",
+    "retained_degree_absdiff_rank",
+    "view1_degree_mean_rank",
+    "view1_degree_absdiff_rank",
+    "view2_degree_mean_rank",
+    "view2_degree_absdiff_rank",
+    "retained_local_scale_mean_rank",
+    "retained_local_scale_absdiff_rank",
+    "view1_local_scale_mean_rank",
+    "view1_local_scale_absdiff_rank",
+    "view2_local_scale_mean_rank",
+    "view2_local_scale_absdiff_rank",
+    "cross_modal_neighbor_overlap_mean",
+    "cross_modal_neighbor_overlap_absdiff"
+  ],
+  "feature_shape": [
+    8080,
+    30
+  ],
+  "features_sha256": "64a8b2f932effc2ad8806a6397e3a35830b40cbb92d645f76db75dbafb3b9e46",
+  "ids_sha256": "4ce333de399bb14e9aeb80d204a64419cf3cf622e25dbe5f84f205d40b8013e2",
+  "ids_shape": [
+    2500
+  ],
+  "k": 7,
+  "labels_read": 0,
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "peak_rss_mb": 443.85546875,
+  "retained_shape": [
+    2500,
+    64
+  ],
+  "role": "PRIMARY",
+  "rows_sha256": "6430f3cfccc59e427c406e68bb378befc6d446bbdf9705d03e28acf670e8b569",
+  "schema": "night23a-edge-features-v1",
+  "spatial_nnz": 10200,
+  "spatial_shape": [
+    2500,
+    2500
+  ],
+  "teacher_files_read": 0,
+  "union_edge_count": 8080,
+  "view1_shape": [
+    2500,
+    64
+  ],
+  "view2_shape": [
+    2500,
+    64
+  ],
+  "wall_seconds": 0.4946365989744663
+}

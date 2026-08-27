@@ -1,0 +1,11 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "fresh_process_replay_passed_before_teacher_read": true,
+  "heldout_lane": "HUMAN_HIPPOCAMPUS_K7",
+  "heldout_teacher_read_count": 1,
+  "output_sha256": "c9acc40a580f4e333896723a73951896b034d303418cb2132d71b7e3ad016476",
+  "prediction_locked_before_teacher_read": true,
+  "schema": "night23a-edge-identifiability-evaluation-v1",
+  "teacher_file_sha256": "10dda08d3f3a63c55390ad941f1bcde26952bbe8e971ee375da584fb026e8252",
+  "teacher_relation_sha256": "a93b2c5287d745de6c6256315fc8e872c8f629bc7640effa7fa09f983d0147d2"
+}

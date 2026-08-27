@@ -1,0 +1,109 @@
+{
+  "accessed_carrier_keys": [
+    "ids",
+    "view1",
+    "view2",
+    "retained",
+    "graph0__*"
+  ],
+  "annotation_or_teacher_arrays_accessed": 0,
+  "artifact_sha256": "2a2753e6652388c1349da789884e2132bc0ca82d2ed36cdb76a85cfe12be5b89",
+  "carrier_path": "/root/night16f_working/carriers/MISAR_K7.npz",
+  "carrier_sha256": "f5fdc3a6005b3129b1d6e810774226c3117880245d7ed3b6df0b9f9f69141af4",
+  "cols_sha256": "e5438ccdd6fc4c5ac0e1a2b0fced326198fb1bf672b6639892fdbd20080f7b99",
+  "component_edge_counts": {
+    "registered_spatial": 4035,
+    "retained_mutual": 8206,
+    "view1_mutual": 2449,
+    "view2_mutual": 7386
+  },
+  "contract_sha256": "4455e6b9ad1ddfa08c5364def235afd6cfefeba006b12eaf42accadac30896a1",
+  "discovered_carrier_keys": [
+    "graph0__data",
+    "graph0__indices",
+    "graph0__indptr",
+    "graph0__shape",
+    "graph1__data",
+    "graph1__indices",
+    "graph1__indptr",
+    "graph1__shape",
+    "graph2__data",
+    "graph2__indices",
+    "graph2__indptr",
+    "graph2__shape",
+    "ids",
+    "retained",
+    "start_ids",
+    "start_partitions",
+    "view1",
+    "view2"
+  ],
+  "feature_names": [
+    "retained_similarity_rank",
+    "view1_similarity_rank",
+    "view2_similarity_rank",
+    "view_similarity_min",
+    "view_similarity_mean",
+    "view_similarity_conflict",
+    "retained_mutual",
+    "view1_mutual",
+    "view2_mutual",
+    "retained_reciprocal_rank",
+    "view1_reciprocal_rank",
+    "view2_reciprocal_rank",
+    "registered_spatial_edge",
+    "registered_spatial_weight_rank",
+    "spatial_degree_mean_rank",
+    "spatial_degree_absdiff_rank",
+    "retained_degree_mean_rank",
+    "retained_degree_absdiff_rank",
+    "view1_degree_mean_rank",
+    "view1_degree_absdiff_rank",
+    "view2_degree_mean_rank",
+    "view2_degree_absdiff_rank",
+    "retained_local_scale_mean_rank",
+    "retained_local_scale_absdiff_rank",
+    "view1_local_scale_mean_rank",
+    "view1_local_scale_absdiff_rank",
+    "view2_local_scale_mean_rank",
+    "view2_local_scale_absdiff_rank",
+    "cross_modal_neighbor_overlap_mean",
+    "cross_modal_neighbor_overlap_absdiff"
+  ],
+  "feature_shape": [
+    17024,
+    30
+  ],
+  "features_sha256": "8ea51c96e012565cd9b27253b890f7d431ff23231f8ff9e33adf61e99fbc6a43",
+  "ids_sha256": "e00d069e18d7ec06c86bee92d9146dcdeb94dc72fa02ba789f6d67f259a7c107",
+  "ids_shape": [
+    1949
+  ],
+  "k": 7,
+  "labels_read": 0,
+  "lane": "MISAR_K7",
+  "peak_rss_mb": 449.5390625,
+  "retained_shape": [
+    1949,
+    64
+  ],
+  "role": "PRIMARY",
+  "rows_sha256": "1c5b3a16ddb33b1c5e348c8ead1a3601aee54d4dc0a1c732c0c6cc6e12c3ffb1",
+  "schema": "night23a-edge-features-v1",
+  "spatial_nnz": 8070,
+  "spatial_shape": [
+    1949,
+    1949
+  ],
+  "teacher_files_read": 0,
+  "union_edge_count": 17024,
+  "view1_shape": [
+    1949,
+    30
+  ],
+  "view2_shape": [
+    1949,
+    50
+  ],
+  "wall_seconds": 0.3919876106083393
+}

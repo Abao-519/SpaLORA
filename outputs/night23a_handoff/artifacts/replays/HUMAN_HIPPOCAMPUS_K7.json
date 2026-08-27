@@ -1,0 +1,14 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "checkpoint_sha256": "d519203593000cb31629d316d67208aa9b23871a1301f9d47d81a433d43a3e22",
+  "heldout_lane": "HUMAN_HIPPOCAMPUS_K7",
+  "heldout_teacher_files_read": 0,
+  "prediction_artifact_sha256": "eaf889a91633b1b1a9223a1cac891e51c3370f138fddf18af0d4b0a5889eb1e1",
+  "replayed_prediction_arrays": [
+    "logistic_probability",
+    "mlp_probability",
+    "shuffled_teacher_probability"
+  ],
+  "schema": "night23a-edge-fresh-replay-v1",
+  "status": "PASS"
+}

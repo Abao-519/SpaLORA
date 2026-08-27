@@ -1,0 +1,26 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER 32760 MiB",
+  "peak_gpu_mib": "not captured; no peak claim",
+  "root_free_bytes": 24179376128,
+  "root_total_bytes": 52655943680,
+  "root_used_bytes": 28459790336,
+  "runtime_versions": {
+    "numpy": "1.22.3",
+    "python": "3.8.10",
+    "scipy": "1.8.1",
+    "sklearn": "1.1.1",
+    "torch": "2.0.0+cu118"
+  },
+  "schema": "night23a-resource-audit-v1",
+  "shutdown_dispatched_at_science_seal": false,
+  "stage_a_train_device": "cuda",
+  "stage_b_partition_device": "cpu",
+  "stage_b_wall_seconds_by_lane": {
+    "HUMAN_HIPPOCAMPUS_K7": 1.092878244817257,
+    "MELANOMA_TUMOR_K2": 0.306801687926054,
+    "MISAR_K7": 1.0648842714726925,
+    "P22_K9": 5.345472611486912
+  },
+  "working_tree_bytes": 7280827,
+  "working_tree_path": "/root/night23a_working"
+}

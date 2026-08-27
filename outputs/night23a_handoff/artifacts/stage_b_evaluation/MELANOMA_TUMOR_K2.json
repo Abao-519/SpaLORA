@@ -1,0 +1,17 @@
+{
+  "evaluator_reference_reads": 1,
+  "lane": "MELANOMA_TUMOR_K2",
+  "ordered_reference_sha256": "c016143bf46f03c01b566f490dc7154a79861922215d2e065f749883a6a2dfe1",
+  "output_sha256": "95040c9e202a7fa01f658d23416959312b52984d91da3252dec53db873c91fb8",
+  "partition_locked_and_replayed_before_reference_read": true,
+  "producer_labels_read": 0,
+  "reference_category_counts": {
+    "tumour_1": 561,
+    "tumour_2": 272
+  },
+  "reference_file_sha256": "e66a56eff54af6b9f27b49a049e31571619cbac7b1a6c6964f41495d721aabd6",
+  "reference_kind": "tsv",
+  "reference_provenance": "tsv:public_author_cluster",
+  "rows": 10,
+  "schema": "night23a-stage-b-independent-evaluation-v1"
+}
