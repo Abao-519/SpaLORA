@@ -45,7 +45,15 @@ def main():
         x = np.asarray(embedding[args.embedding_key], dtype=np.float32)
     if not np.array_equal(ids, carrier_ids) or not np.array_equal(ids, embedding_ids):
         raise RuntimeError("replay ID mismatch")
-    graph_map = graph_bank(x, view1, view2, spatial, neighbors=int(checkpoint["registry"]["graph_neighbors"]))
+    graph_neighbors = [int(value) for value in checkpoint["registry"]["graph_neighbors"]]
+    graph_map = graph_bank(
+        x,
+        view1,
+        view2,
+        spatial,
+        neighbors=graph_neighbors[0],
+        secondary_neighbors=graph_neighbors[1],
+    )
     edges = [upper_edges(graph_map[name]) for name in checkpoint["graph_names"]]
     start = partitions[0]
     checked = []

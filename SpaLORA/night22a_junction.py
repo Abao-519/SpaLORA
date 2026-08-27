@@ -54,12 +54,14 @@ def graph_bank(
     view2: np.ndarray,
     spatial: sp.spmatrix,
     neighbors: int = 12,
+    secondary_neighbors: int = 24,
 ) -> Dict[str, sp.csr_matrix]:
     """Return equal-total-mass graphs with common semantics across families."""
     graphs = {
-        "retained_feature": self_tuning_knn(retained, neighbors),
-        "view1_feature": self_tuning_knn(view1, neighbors),
-        "view2_feature": self_tuning_knn(view2, neighbors),
+        f"retained_feature_k{int(neighbors)}": self_tuning_knn(retained, neighbors),
+        f"retained_feature_k{int(secondary_neighbors)}": self_tuning_knn(retained, secondary_neighbors),
+        f"view1_feature_k{int(neighbors)}": self_tuning_knn(view1, neighbors),
+        f"view2_feature_k{int(neighbors)}": self_tuning_knn(view2, neighbors),
         "registered_spatial": undirected_no_diag(spatial),
     }
     return {name: mass_normalize(graph) for name, graph in graphs.items()}

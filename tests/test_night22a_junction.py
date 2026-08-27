@@ -6,6 +6,7 @@ from SpaLORA.night22a_junction import (
     GeometryJunction,
     JunctionConfig,
     exact_k_repair,
+    graph_bank,
     hard_partition,
     upper_edges,
 )
@@ -77,3 +78,21 @@ def test_full_and_atomic_losses_are_distinct():
     assert values["FULL"] != values["EMISSION_ONLY"]
     assert values["FULL"] != values["SHARED_GRAPH_ONLY"]
     assert values["ADDITIVE_SHARED"] != values["EMISSION_ONLY"]
+
+
+def test_multiscale_graph_bank_is_common_and_finite():
+    rng = np.random.default_rng(19)
+    x = rng.normal(size=(30, 6))
+    graphs = graph_bank(x, x[:, :4], x[:, 2:], toy_graph(30), neighbors=3, secondary_neighbors=5)
+    assert list(graphs) == [
+        "retained_feature_k3",
+        "retained_feature_k5",
+        "view1_feature_k3",
+        "view2_feature_k3",
+        "registered_spatial",
+    ]
+    for graph in graphs.values():
+        assert graph.nnz > 0
+        assert np.isfinite(graph.data).all()
+        assert np.all(graph.data > 0)
+        assert np.isclose(float(graph.sum()), 1.0)

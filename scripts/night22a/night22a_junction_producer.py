@@ -173,7 +173,17 @@ def main() -> None:
     if np.unique(start).size != args.k:
         raise RuntimeError("start does not have exact K")
 
-    named_graphs = graph_bank(x, view1, view2, spatial, neighbors=int(registry["graph_neighbors"]))
+    graph_neighbors = [int(value) for value in registry["graph_neighbors"]]
+    if len(graph_neighbors) != 2 or not graph_neighbors[0] < graph_neighbors[1]:
+        raise RuntimeError("frozen multiscale graph-neighbor contract is invalid")
+    named_graphs = graph_bank(
+        x,
+        view1,
+        view2,
+        spatial,
+        neighbors=graph_neighbors[0],
+        secondary_neighbors=graph_neighbors[1],
+    )
     graph_names = list(named_graphs)
     edge_bank = [upper_edges(named_graphs[name]) for name in graph_names]
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
