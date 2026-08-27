@@ -1,0 +1,62 @@
+{
+  "schema": "night23c-tristate-bridge-contract-v1",
+  "taskbook_sha256": "79276b7e0c69e2f08efbea2f38770f00e64f8819f0efe8296845d1792cbf0450",
+  "parent_commit": "8cd67b652df145d6f618dcb33ad01bcff18b6183",
+  "parent_tag": "night23b-final-20260827",
+  "night23b_erratum": "IMPLEMENTATION_FAILURE__DECISION_SEMANTICS_INVALID",
+  "oracle_authority": "ORACLE_CONSUMER_IDENTIFIABLE_2_OF_3",
+  "frozen_before_outer_heldout_teacher_or_benchmark_evaluation": true,
+  "primary_lanes": ["P22_K9", "MISAR_K7", "HUMAN_HIPPOCAMPUS_K7"],
+  "model": {
+    "primary": "SHARED_MLP",
+    "logistic_role": "EXPLANATORY_CONTROL",
+    "sample_per_class_per_study": 20000,
+    "logistic_c": 1.0,
+    "mlp_hidden": 32,
+    "mlp_steps": 240,
+    "mlp_batch_per_study": 2048,
+    "mlp_learning_rate": 0.003,
+    "weight_decay": 0.0001
+  },
+  "calibration": {
+    "method": "STUDYWISE_MIDRANK",
+    "minimum_state_purity": 0.0,
+    "minimum_state_fraction": 0.01,
+    "quantile_grid_step": 0.02,
+    "selection_rule": "maximize worst-source selective utility where correct confident relations score +1, wrong confident relations score -1 and unknown scores 0; then mean utility, purity, coverage and wider unknown interval",
+    "unknown_semantics_for_full": "ERASE"
+  },
+  "consumer": {
+    "name": "NIGHT23B_CARRIER_PRESERVING_SIGNED_CONSUMER",
+    "relation_scale": 2.0,
+    "carrier_dimensions": 32,
+    "exact_k": true,
+    "endpoint": "DETERMINISTIC_FARTHEST_FIRST_KMEANS"
+  },
+  "controls": {
+    "uncalibrated_lower": 0.25,
+    "uncalibrated_upper": 0.75,
+    "arms": [
+      "CARRIER_ONLY",
+      "RETAINED_ONLY_UNSIGNED",
+      "LOGISTIC_DIRECT_NONNEGATIVE",
+      "MLP_DIRECT_NONNEGATIVE",
+      "CALIBRATED_POSITIVE_ONLY",
+      "SIGNED_UNCALIBRATED",
+      "UNKNOWN_RETAINED_SUPPORT_FULL",
+      "FULL_NESTED_CALIBRATED_TRISTATE_SIGNED",
+      "SHUFFLED_TEACHER_NEGATIVE_CONTROL"
+    ]
+  },
+  "method_gate": {
+    "minimum_primary_independent_passes": 2,
+    "macro_delta_ari_strictly_positive": true,
+    "macro_delta_nmi_strictly_positive": true,
+    "maximum_failed_lane_ari_drop_from_carrier": 0.03
+  },
+  "lanes": {
+    "P22_K9": {"role": "PRIMARY", "k": 9, "carrier": "/root/night16f_working/carriers/P22_K9.npz", "reference_kind": "npz", "reference": "/root/night16d_assets/kit/local_compute_kit/P22.npz", "reference_label_key": "labels_primary", "reference_mask_key": "label_mask"},
+    "MISAR_K7": {"role": "PRIMARY", "k": 7, "carrier": "/root/night16f_working/carriers/MISAR_K7.npz", "reference_kind": "npz", "reference": "/root/night16d_assets/kit/local_compute_kit/MISAR_E15_5_S1.npz", "reference_label_key": "labels_primary", "reference_mask_key": "label_mask"},
+    "HUMAN_HIPPOCAMPUS_K7": {"role": "PRIMARY", "k": 7, "carrier": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz", "reference_kind": "h5ad", "reference": "/root/night16e_external/human_hippocampus/human_adata1_official_result.h5ad", "reference_label_key": "true_label"}
+  }
+}

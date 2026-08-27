@@ -1,0 +1,15 @@
+{
+  "schema": "night23b-readonly-decision-erratum-v1",
+  "parent_commit_unchanged": "8cd67b652df145d6f618dcb33ad01bcff18b6183",
+  "parent_tag_unchanged": "night23b-final-20260827",
+  "parent_numeric_artifacts_valid": true,
+  "parent_replays_valid": true,
+  "original_termination_not_valid_downstream": true,
+  "corrected_main_classification": "IMPLEMENTATION_FAILURE",
+  "corrected_narrow_classification": "DECISION_SEMANTICS_INVALID",
+  "oracle_evidence": "ORACLE_CONSUMER_IDENTIFIABLE_2_OF_3",
+  "authorized_consumer": "ORACLE_SIGNED_RELATION",
+  "authorized_relation_scale": 2.0,
+  "stage_b_authorized": true,
+  "benchmark_reference_labels_read_for_erratum": 0
+}
