@@ -5,8 +5,10 @@ import torch
 from SpaLORA.night23a_xbed import (
     EdgeModelConfig,
     FEATURE_NAMES,
+    STAGE_B_ARMS,
     array_sha,
     build_union_edge_features,
+    confidence_abstention_weights,
     deterministic_balanced_indices,
     fit_logistic,
     fit_mlp,
@@ -14,6 +16,7 @@ from SpaLORA.night23a_xbed import (
     predict_mlp,
     source_lanes,
     spectral_exact_k_partition,
+    stage_b_arm_weights,
     teacher_relations,
 )
 
@@ -104,3 +107,44 @@ def test_feature_contract_has_no_identity_or_dataset_fields():
     forbidden = {"id", "lane", "dataset", "tissue", "cluster"}
     for name in FEATURE_NAMES:
         assert not any(token in name.lower() for token in forbidden)
+
+
+def test_stage_b_capacity_formula_and_arm_semantics():
+    m = 17
+    features = np.zeros((m, len(FEATURE_NAMES)), dtype=np.float32)
+    features[:, FEATURE_NAMES.index("registered_spatial_edge")] = np.arange(m) % 2
+    features[:, FEATURE_NAMES.index("retained_mutual")] = np.arange(m) % 3 == 0
+    features[:, FEATURE_NAMES.index("view1_mutual")] = np.arange(m) % 4 == 0
+    features[:, FEATURE_NAMES.index("view2_mutual")] = np.arange(m) % 5 == 0
+    probability = np.linspace(0.02, 0.98, m)
+    prediction = {
+        "logistic_probability": probability,
+        "mlp_probability": probability[::-1].copy(),
+        "shuffled_teacher_probability": np.roll(probability, 3),
+        "arise_like_intersection_score": (
+            features[:, FEATURE_NAMES.index("registered_spatial_edge")]
+            * features[:, FEATURE_NAMES.index("retained_mutual")]
+        ),
+    }
+    weights = stage_b_arm_weights(features, prediction)
+    assert tuple(weights) == STAGE_B_ARMS
+    assert np.allclose(weights["FULL_XBED"], confidence_abstention_weights(probability))
+    assert np.array_equal(weights["RAW_EQUAL_UNION"], np.ones(m))
+    assert np.array_equal(
+        weights["SPATIAL_ONLY"], features[:, FEATURE_NAMES.index("registered_spatial_edge")]
+    )
+    assert all(np.all(np.isfinite(value)) and np.all(value >= 0) for value in weights.values())
+    assert not np.array_equal(weights["FULL_XBED"], weights["RAW_EQUAL_UNION"])
+
+
+def test_stage_b_partition_replay_is_exact():
+    n = 34
+    graph = ring_graph(n)
+    upper = sp.triu(graph, k=1).tocoo()
+    p = np.linspace(0.1, 0.9, len(upper.data))
+    weights = confidence_abstention_weights(p)
+    first = spectral_exact_k_partition(n, upper.row, upper.col, weights, k=4, seed=23)
+    second = spectral_exact_k_partition(n, upper.row, upper.col, weights, k=4, seed=23)
+    assert len(np.unique(first)) == 4
+    assert np.array_equal(first, second)
+    assert array_sha(first) == array_sha(second)

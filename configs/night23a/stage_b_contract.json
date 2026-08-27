@@ -1,0 +1,74 @@
+{
+  "schema": "night23a-xbed-stage-b-contract-v1",
+  "stage_a_freeze_commit": "8ce934643c5c1e425811842a8a5c98ad0395db71",
+  "stage_a_authorized": true,
+  "frozen_before_benchmark_reference_evaluation": true,
+  "partitioner": {
+    "name": "SPARSE_NORMALIZED_LAPLACIAN_FIXED_KMEANS",
+    "eigsh_which": "LA",
+    "eigsh_tolerance": 0.00001,
+    "deterministic_v0": "LINEAR_1_TO_2_UNIT_NORM",
+    "kmeans_seed": 23,
+    "kmeans_n_init": 20,
+    "exact_k_required": true
+  },
+  "full_weight_formula": "c=2*abs(p_logistic-0.5); w=(1-c)*1+c*p_logistic",
+  "full_semantics": "confident same edges retained, confident boundary edges suppressed, uncertain edges abstain to raw union",
+  "arms": [
+    "RAW_EQUAL_UNION",
+    "ARISE_LIKE_INTERSECTION",
+    "SPATIAL_ONLY",
+    "RETAINED_ONLY",
+    "VIEW1_ONLY",
+    "VIEW2_ONLY",
+    "LOGISTIC_DIRECT",
+    "MLP_NO_CONFIDENCE_ABSTENTION",
+    "SHUFFLED_TEACHER_FULL_TRANSFORM",
+    "FULL_XBED"
+  ],
+  "main_lanes": ["P22_K9", "MISAR_K7", "HUMAN_HIPPOCAMPUS_K7"],
+  "secondary_lanes": ["MELANOMA_TUMOR_K2"],
+  "method_gate": {
+    "minimum_main_independent_passes": 2,
+    "macro_delta_ari_strictly_positive": true,
+    "macro_delta_nmi_strictly_positive": true,
+    "maximum_remaining_lane_drop_per_metric": 0.02
+  },
+  "lanes": {
+    "P22_K9": {
+      "role": "PRIMARY",
+      "k": 9,
+      "carrier": "/root/night16f_working/carriers/P22_K9.npz",
+      "reference_kind": "npz",
+      "reference": "/root/night16d_assets/kit/local_compute_kit/P22.npz",
+      "reference_label_key": "labels_primary",
+      "reference_mask_key": "label_mask"
+    },
+    "MISAR_K7": {
+      "role": "PRIMARY",
+      "k": 7,
+      "carrier": "/root/night16f_working/carriers/MISAR_K7.npz",
+      "reference_kind": "npz",
+      "reference": "/root/night16d_assets/kit/local_compute_kit/MISAR_E15_5_S1.npz",
+      "reference_label_key": "labels_primary",
+      "reference_mask_key": "label_mask"
+    },
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "role": "PRIMARY",
+      "k": 7,
+      "carrier": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz",
+      "reference_kind": "h5ad",
+      "reference": "/root/night16e_external/human_hippocampus/human_adata1_official_result.h5ad",
+      "reference_label_key": "true_label"
+    },
+    "MELANOMA_TUMOR_K2": {
+      "role": "SECONDARY",
+      "k": 2,
+      "carrier": "/root/night16f_working/carriers/MELANOMA_TUMOR_K2.npz",
+      "reference_kind": "tsv",
+      "reference": "/root/night16f_working/melanoma_protocol/tumor_k2_reference.tsv",
+      "reference_id_key": "cell_id",
+      "reference_label_key": "public_author_cluster"
+    }
+  }
+}

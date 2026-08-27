@@ -441,6 +441,76 @@ def model_state_manifest(config: EdgeModelConfig) -> dict:
     return {"schema": "night23a-edge-model-config-v1", **asdict(config)}
 
 
+STAGE_B_ARMS = (
+    "RAW_EQUAL_UNION",
+    "ARISE_LIKE_INTERSECTION",
+    "SPATIAL_ONLY",
+    "RETAINED_ONLY",
+    "VIEW1_ONLY",
+    "VIEW2_ONLY",
+    "LOGISTIC_DIRECT",
+    "MLP_NO_CONFIDENCE_ABSTENTION",
+    "SHUFFLED_TEACHER_FULL_TRANSFORM",
+    "FULL_XBED",
+)
+
+
+def confidence_abstention_weights(probability: np.ndarray) -> np.ndarray:
+    """Conservative edge capacity: uncertain predictions return to raw-union weight one."""
+    probability = np.asarray(probability, dtype=np.float64)
+    if not np.all(np.isfinite(probability)) or np.any((probability < 0) | (probability > 1)):
+        raise RuntimeError("invalid edge probability")
+    confidence = 2.0 * np.abs(probability - 0.5)
+    output = (1.0 - confidence) + confidence * probability
+    if not np.all(np.isfinite(output)) or np.any(output < 0):
+        raise RuntimeError("invalid confidence-abstention capacity")
+    return output
+
+
+def stage_b_arm_weights(features: np.ndarray, prediction: dict[str, np.ndarray]) -> dict[str, np.ndarray]:
+    """Build all pre-registered Stage-B nonnegative capacities on one locked edge union."""
+    features = np.asarray(features, dtype=np.float64)
+    if features.ndim != 2 or features.shape[1] != len(FEATURE_NAMES):
+        raise RuntimeError("Stage-B feature schema mismatch")
+    required = {
+        "logistic_probability",
+        "mlp_probability",
+        "shuffled_teacher_probability",
+        "arise_like_intersection_score",
+    }
+    if not required.issubset(prediction):
+        raise RuntimeError("Stage-B prediction schema mismatch")
+    m = len(features)
+    for key in required:
+        value = np.asarray(prediction[key])
+        if value.shape != (m,):
+            raise RuntimeError(f"Stage-B prediction shape mismatch: {key}")
+    weights = {
+        "RAW_EQUAL_UNION": np.ones(m, dtype=np.float64),
+        "ARISE_LIKE_INTERSECTION": np.asarray(prediction["arise_like_intersection_score"], dtype=np.float64),
+        "SPATIAL_ONLY": features[:, FEATURE_NAMES.index("registered_spatial_edge")],
+        "RETAINED_ONLY": features[:, FEATURE_NAMES.index("retained_mutual")],
+        "VIEW1_ONLY": features[:, FEATURE_NAMES.index("view1_mutual")],
+        "VIEW2_ONLY": features[:, FEATURE_NAMES.index("view2_mutual")],
+        "LOGISTIC_DIRECT": np.asarray(prediction["logistic_probability"], dtype=np.float64),
+        "MLP_NO_CONFIDENCE_ABSTENTION": np.asarray(prediction["mlp_probability"], dtype=np.float64),
+        "SHUFFLED_TEACHER_FULL_TRANSFORM": confidence_abstention_weights(
+            prediction["shuffled_teacher_probability"]
+        ),
+        "FULL_XBED": confidence_abstention_weights(prediction["logistic_probability"]),
+    }
+    if tuple(weights) != STAGE_B_ARMS:
+        raise RuntimeError("Stage-B arm ordering mismatch")
+    for name, value in weights.items():
+        if value.shape != (m,) or not np.all(np.isfinite(value)) or np.any(value < 0):
+            raise RuntimeError(f"invalid Stage-B arm capacity: {name}")
+        if float(value.sum()) <= 0:
+            raise RuntimeError(f"zero Stage-B arm capacity: {name}")
+    if np.array_equal(weights["FULL_XBED"], weights["RAW_EQUAL_UNION"]):
+        raise RuntimeError("FULL_XBED is a no-op on the locked prediction")
+    return weights
+
+
 def spectral_exact_k_partition(
     n: int,
     rows: np.ndarray,
@@ -465,7 +535,9 @@ def spectral_exact_k_partition(
         degree = np.asarray(graph.sum(axis=1)).reshape(-1)
     inv = 1.0 / np.sqrt(np.maximum(degree, 1e-12))
     normalized = sp.diags(inv) @ graph @ sp.diags(inv)
-    _, vectors = eigsh(normalized, k=k, which="LA", tol=1e-5, maxiter=max(5000, n * 2))
+    v0 = np.linspace(1.0, 2.0, n, dtype=np.float64)
+    v0 /= np.linalg.norm(v0)
+    _, vectors = eigsh(normalized, k=k, which="LA", tol=1e-5, maxiter=max(5000, n * 2), v0=v0)
     vectors = row_unit(vectors)
     partition = KMeans(n_clusters=k, n_init=20, random_state=seed, algorithm="lloyd").fit_predict(vectors)
     if len(np.unique(partition)) != k:
