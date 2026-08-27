@@ -1,0 +1,26 @@
+{
+  "schema": "night23b-oracle-consumer-contract-v1",
+  "frozen_before_oracle_runs": true,
+  "benchmark_reference_labels_forbidden": true,
+  "lanes": {
+    "P22_K9": {"role": "PRIMARY", "k": 9},
+    "MISAR_K7": {"role": "PRIMARY", "k": 7},
+    "HUMAN_HIPPOCAMPUS_K7": {"role": "PRIMARY", "k": 7},
+    "MELANOMA_TUMOR_K2": {"role": "SECONDARY", "k": 2}
+  },
+  "consumer": {
+    "carrier_dimensions": 32,
+    "relation_scale_candidates": [1.0, 2.0, 4.0, 8.0],
+    "exact_k": true,
+    "fixed_endpoint": "DETERMINISTIC_FARTHEST_FIRST_KMEANS",
+    "signed_embedding": "TOP_K_NORMALIZED_SIGNED_ADJACENCY_EIGENVECTORS"
+  },
+  "selection_rule": "maximize primary worst-study min(ARI,NMI), then primary mean min(ARI,NMI), then lower relation scale, then POSITIVE before SIGNED",
+  "identifiability_gate": {
+    "minimum_primary_passes": 2,
+    "per_lane_minimum_ari": 0.90,
+    "per_lane_minimum_nmi": 0.90,
+    "minimum_dual_gain_over_carrier": 0.20
+  },
+  "stage_b_only_if_gate_passes": true
+}
