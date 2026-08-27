@@ -1,0 +1,13 @@
+{
+  "failed_lane_safety": false,
+  "method_gate_passed": false,
+  "narrow_classification": "NO_CALIBRATED_RELATION_BRIDGE_SIGNAL",
+  "night23_mainline_permanently_closed": true,
+  "placenta_confirmation_authorized": false,
+  "primary_independent_passes": 0,
+  "primary_total": 3,
+  "schema": "night23c-stage-b-decision-v1",
+  "selection_rule": "FULL strictly exceeds every matched control in both ARI and NMI; then macro and failed-lane safety gates",
+  "study_balanced_delta_ari_vs_carrier": -0.23911540742409687,
+  "study_balanced_delta_nmi_vs_carrier": -0.29293870478029227
+}

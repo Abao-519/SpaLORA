@@ -1,0 +1,5 @@
+cycle,issue,action,labels_used,status
+NIGHT23B_READONLY_ERRATUM,worst-first selection followed by pass-count gate blocked valid scale2 2/3 oracle evidence,preserved Night23B artifacts; reclassified decision layer only,False,DECISION_SEMANTICS_INVALID
+PREFORMAL_PLATT_PURITY,no threshold pair met per-source 0.80 state purity,no partition produced; replaced with source-only selective-utility rule,False,SUPERSEDED
+PREFORMAL_PLATT_UTILITY,Platt produced negative worst-source utility and boundary collapse,replaced by label-free per-study midrank; no heldout teacher/reference opened,False,SUPERSEDED
+FORMAL_MIDRANK,FULL failed 0/3 and was dominated by controls,stopped placenta and permanently closed Night23 mainline,True,SCIENTIFIC_NEGATIVE

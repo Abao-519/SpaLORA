@@ -1,0 +1,22 @@
+{
+  "evaluator_reference_reads": 1,
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "ordered_reference_sha256": "6d8369bf7384918da29c892b99c9bcbc3f846457a2e2f0637cb180c4bbdc411a",
+  "output_sha256": "8c92724bdc44c4984525ebef479bd83c704e2ea1265e42880dcca2020e42dd6f",
+  "partition_locked_and_replayed_before_reference_read": true,
+  "producer_labels_read": 0,
+  "reference_category_counts": {
+    "0": 897,
+    "1": 362,
+    "2": 344,
+    "3": 172,
+    "4": 393,
+    "5": 249,
+    "6": 83
+  },
+  "reference_file_sha256": "9e607957f2f7f6a074415b85e41191a53e79d065b598ecb1990b339540c9311d",
+  "reference_kind": "h5ad",
+  "reference_provenance": "h5ad-obs:true_label",
+  "rows": 9,
+  "schema": "night23a-stage-b-independent-evaluation-v1"
+}

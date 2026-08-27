@@ -1,0 +1,534 @@
+{
+  "bank_sha256": "ceab84970c09c0293462473ccb83a8cb03e7215e7ce69ea5c13695b8ad1b5b47",
+  "benchmark_reference_labels_read": 0,
+  "calibration": {
+    "primary": {
+      "candidate_count": 1176,
+      "lower": 0.9599676310206209,
+      "mean_coverage": 0.9800218561564803,
+      "mean_selective_utility": 0.017708755628683126,
+      "per_study": [
+        {
+          "boundary_fraction": 0.9599389097744361,
+          "boundary_purity": 0.25284542895606416,
+          "coverage": 0.979969454887218,
+          "lane": "MISAR_K7",
+          "selective_utility": 0.033248950844849856,
+          "within_fraction": 0.020030545112781954,
+          "within_purity": 0.967741935483871
+        },
+        {
+          "boundary_fraction": 0.9600247524752475,
+          "boundary_purity": 0.1883460100554338,
+          "coverage": 0.9800742574257426,
+          "lane": "HUMAN_HIPPOCAMPUS_K7",
+          "selective_utility": 0.002168560412516396,
+          "within_fraction": 0.02004950495049505,
+          "within_purity": 0.845679012345679
+        }
+      ],
+      "upper": 0.9799953007518796,
+      "worst_coverage": 0.979969454887218,
+      "worst_purity": 0.1883460100554338,
+      "worst_selective_utility": 0.002168560412516396
+    },
+    "shuffled": {
+      "candidate_count": 1176,
+      "lower": 0.5400093984962406,
+      "mean_coverage": 0.9799893452691133,
+      "mean_selective_utility": 0.005849239761085173,
+      "per_study": [
+        {
+          "boundary_fraction": 0.5400023496240601,
+          "boundary_purity": 0.24551289024257586,
+          "coverage": 0.9800281954887218,
+          "lane": "MISAR_K7",
+          "selective_utility": 0.005708063066398594,
+          "within_fraction": 0.44002584586466165,
+          "within_purity": 0.7590441863569617
+        },
+        {
+          "boundary_fraction": 0.5399752475247525,
+          "boundary_purity": 0.19092367636947055,
+          "coverage": 0.9799504950495049,
+          "lane": "HUMAN_HIPPOCAMPUS_K7",
+          "selective_utility": 0.005990416455771752,
+          "within_fraction": 0.4399752475247525,
+          "within_purity": 0.8126582278481013
+        }
+      ],
+      "upper": 0.5599905154284226,
+      "worst_coverage": 0.9799504950495049,
+      "worst_purity": 0.19092367636947055,
+      "worst_selective_utility": 0.005708063066398594
+    }
+  },
+  "candidate_ids": [
+    "CARRIER_ONLY",
+    "RETAINED_ONLY_UNSIGNED",
+    "LOGISTIC_DIRECT_NONNEGATIVE",
+    "MLP_DIRECT_NONNEGATIVE",
+    "CALIBRATED_POSITIVE_ONLY",
+    "SIGNED_UNCALIBRATED",
+    "UNKNOWN_RETAINED_SUPPORT_FULL",
+    "FULL_NESTED_CALIBRATED_TRISTATE_SIGNED",
+    "SHUFFLED_TEACHER_NEGATIVE_CONTROL"
+  ],
+  "carrier_sha256": "cb806fe6cc9f89910e88c2884f92bfb399c3104943d327964e78b94718303766",
+  "carrier_shape": [
+    9196,
+    64
+  ],
+  "checkpoint_sha256": "8f1a0ea713388e18ecdae5c33ca9ed9bddebb0d148a361cf60c337a735f3baa8",
+  "cols_sha256": "3efa482f8d6221a0e51c5795cad588ead16095f8b410c04171703507115aece0",
+  "contract_sha256": "bc2e0580ca1be0ab450673988bf90d066cba1bb55d37d819de8b1b4795dae387",
+  "core_source_sha256": "377deac46a726475a052bbd822669e2971fd052abd8338c4ec9ade23baabef6e",
+  "feature_shape": [
+    59201,
+    30
+  ],
+  "heldout_feature_sha256": "76b4c4c342c01c01a836b41add200963733a4826f95b0d0773504fa25706349e",
+  "heldout_teacher_arrays_read": 0,
+  "heldout_teacher_path_opened": false,
+  "ids_sha256": "76974720be496229b2e619b7aea90265dc0f9b0053591ddac8cb56533c731cfc",
+  "inner_crossfit": {
+    "primary": [
+      {
+        "lane": "MISAR_K7",
+        "score_max": 0.9999241828918457,
+        "score_min": 0.0002257551095681265,
+        "training_lanes": [
+          "HUMAN_HIPPOCAMPUS_K7"
+        ]
+      },
+      {
+        "lane": "HUMAN_HIPPOCAMPUS_K7",
+        "score_max": 0.9987223744392395,
+        "score_min": 0.018049413338303566,
+        "training_lanes": [
+          "MISAR_K7"
+        ]
+      }
+    ],
+    "shuffled": [
+      {
+        "lane": "MISAR_K7",
+        "score_max": 0.989698588848114,
+        "score_min": 0.005997230764478445,
+        "training_lanes": [
+          "HUMAN_HIPPOCAMPUS_K7"
+        ]
+      },
+      {
+        "lane": "HUMAN_HIPPOCAMPUS_K7",
+        "score_max": 0.7946353554725647,
+        "score_min": 0.1367480754852295,
+        "training_lanes": [
+          "MISAR_K7"
+        ]
+      }
+    ]
+  },
+  "k": 9,
+  "labels_read": 0,
+  "lane": "P22_K9",
+  "mlp_parameter_l1_change": 146.1072540283203,
+  "n": 9196,
+  "partitions_sha256": "af212a55955314722a2edf77b28deeccab9fe19157309a2be254211e231fa4b0",
+  "peak_rss_mb": 772.375,
+  "prediction_sha256": "046490dbb111d0f816df713473795afeaa2115b0330ed95c910534587cee5fc0",
+  "role": "PRIMARY",
+  "rows": [
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "CARRIER_ONLY",
+      "cluster_sizes": [
+        1124,
+        771,
+        721,
+        781,
+        1025,
+        2190,
+        922,
+        892,
+        770
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        2016,
+        1365,
+        1361,
+        1161,
+        1701,
+        4151,
+        1536,
+        1465,
+        1313
+      ],
+      "min_cluster_size": 721,
+      "negative_mass": 0.0,
+      "negative_nonzero": 0,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 0,
+      "partition_sha256": "1cf64b77efbc54c1bddb9e4d1f7d07bb1f1c9fe0031a1a529601873a331a330a",
+      "positive_mass": 0.0,
+      "positive_nonzero": 0,
+      "relation_scale": 0.0,
+      "representation_shape": [
+        9196,
+        32
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "RETAINED_ONLY_UNSIGNED",
+      "cluster_sizes": [
+        1441,
+        1707,
+        599,
+        679,
+        2121,
+        73,
+        892,
+        12,
+        1672
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        2804,
+        3318,
+        1119,
+        1332,
+        3985,
+        123,
+        1468,
+        4,
+        3145
+      ],
+      "min_cluster_size": 12,
+      "negative_mass": 0.0,
+      "negative_nonzero": 0,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 1,
+      "partition_sha256": "05f03bc0e78992410b0c1920e09c209d41ebcc973eb78f6ec180ccaf2fdf081b",
+      "positive_mass": 32381.0,
+      "positive_nonzero": 32381,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "LOGISTIC_DIRECT_NONNEGATIVE",
+      "cluster_sizes": [
+        1571,
+        877,
+        2296,
+        586,
+        423,
+        693,
+        314,
+        693,
+        1743
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        3024,
+        1680,
+        4474,
+        1115,
+        794,
+        1355,
+        550,
+        1279,
+        3288
+      ],
+      "min_cluster_size": 314,
+      "negative_mass": 0.0,
+      "negative_nonzero": 0,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 2,
+      "partition_sha256": "8c9ee01f20f45fe057300a82faadd9bfc986f4ea331028f2b7d63cd178e7ee82",
+      "positive_mass": 33737.561288896664,
+      "positive_nonzero": 59201,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "MLP_DIRECT_NONNEGATIVE",
+      "cluster_sizes": [
+        1433,
+        813,
+        2146,
+        673,
+        83,
+        604,
+        255,
+        691,
+        2498
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        2753,
+        1523,
+        4150,
+        1324,
+        143,
+        1077,
+        431,
+        1284,
+        4719
+      ],
+      "min_cluster_size": 83,
+      "negative_mass": 0.0,
+      "negative_nonzero": 0,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 3,
+      "partition_sha256": "affea4edd2ad4d334036daa88d683921a4aa71ef8bd1c1def7f9b8dbc37c2617",
+      "positive_mass": 33737.83890091535,
+      "positive_nonzero": 59201,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "CALIBRATED_POSITIVE_ONLY",
+      "cluster_sizes": [
+        7839,
+        627,
+        634,
+        14,
+        13,
+        15,
+        17,
+        23,
+        14
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        14304,
+        543,
+        543,
+        12,
+        16,
+        17,
+        15,
+        21,
+        16
+      ],
+      "min_cluster_size": 13,
+      "negative_mass": 0.0,
+      "negative_nonzero": 0,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 4,
+      "partition_sha256": "58fcffd1713426b40fc747a3cccc4c795fe93ebd90d1175d43e0ac0cef6ab18d",
+      "positive_mass": 1172.1601999966215,
+      "positive_nonzero": 1184,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "SIGNED_UNCALIBRATED",
+      "cluster_sizes": [
+        1446,
+        914,
+        1182,
+        1027,
+        1243,
+        1224,
+        629,
+        1040,
+        491
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        1614,
+        912,
+        1578,
+        1014,
+        1384,
+        1581,
+        707,
+        1167,
+        493
+      ],
+      "min_cluster_size": 491,
+      "negative_mass": 13504.371682026424,
+      "negative_nonzero": 15068,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 5,
+      "partition_sha256": "1f14758645c8ecb39c0917661db0ebb90e48d412d9ce324b608e73791626896b",
+      "positive_mass": 21705.630379855633,
+      "positive_nonzero": 24254,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "UNKNOWN_RETAINED_SUPPORT_FULL",
+      "cluster_sizes": [
+        1039,
+        739,
+        1382,
+        395,
+        1208,
+        1421,
+        773,
+        916,
+        1323
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        312,
+        307,
+        540,
+        81,
+        501,
+        536,
+        267,
+        309,
+        455
+      ],
+      "min_cluster_size": 395,
+      "negative_mass": 29553.060767554605,
+      "negative_nonzero": 56831,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 6,
+      "partition_sha256": "3eaaf2b3d5b3406b2c0a5b828ff7b0e521b9cd0b6eff6575f15af79bd1203af9",
+      "positive_mass": 2214.1601999966215,
+      "positive_nonzero": 2226,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "FULL_NESTED_CALIBRATED_TRISTATE_SIGNED",
+      "cluster_sizes": [
+        1199,
+        1277,
+        792,
+        1209,
+        919,
+        754,
+        637,
+        828,
+        1581
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        362,
+        454,
+        230,
+        452,
+        358,
+        198,
+        189,
+        327,
+        759
+      ],
+      "min_cluster_size": 637,
+      "negative_mass": 29553.060767554605,
+      "negative_nonzero": 56831,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 7,
+      "partition_sha256": "d3e9708e7066c1712126539e14899d42201335a3091a1b3787a5ca4d9ace5c49",
+      "positive_mass": 1172.1601999966215,
+      "positive_nonzero": 1184,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    },
+    {
+      "all_clusters_have_internal_spatial_edge": true,
+      "candidate_id": "SHUFFLED_TEACHER_NEGATIVE_CONTROL",
+      "cluster_sizes": [
+        435,
+        853,
+        1121,
+        1040,
+        1506,
+        1184,
+        1201,
+        699,
+        1157
+      ],
+      "exact_k": true,
+      "internal_spatial_edges_per_cluster": [
+        209,
+        439,
+        666,
+        607,
+        1085,
+        583,
+        698,
+        400,
+        675
+      ],
+      "min_cluster_size": 435,
+      "negative_mass": 23337.24579821286,
+      "negative_nonzero": 31969,
+      "no_singleton": true,
+      "observed_k": 9,
+      "partition_index": 8,
+      "partition_sha256": "aab5318886a74d26fbde3a0e766378c055dcf143bc13b390bedf994f5c0dd9a0",
+      "positive_mass": 20318.096797351398,
+      "positive_nonzero": 26049,
+      "relation_scale": 2.0,
+      "representation_shape": [
+        9196,
+        41
+      ]
+    }
+  ],
+  "rows_sha256": "01e0546066aef08daad5bae317a7490e003b875201c2be17ff00092773050570",
+  "same_process_checkpoint_reload": "PASS",
+  "schema": "night23c-loso-tristate-partition-bank-v1",
+  "source_authority": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "feature_sha256": "9ecd9a588ce0760cfa019ec57966aedae2b1422a5b85807096d0756e1c7ac423",
+      "relation_sha256": "a93b2c5287d745de6c6256315fc8e872c8f629bc7640effa7fa09f983d0147d2",
+      "teacher_sha256": "10dda08d3f3a63c55390ad941f1bcde26952bbe8e971ee375da584fb026e8252"
+    },
+    "MISAR_K7": {
+      "feature_sha256": "2a2753e6652388c1349da789884e2132bc0ca82d2ed36cdb76a85cfe12be5b89",
+      "relation_sha256": "6e72868a76c78456c39d4782f7309a136359b4426e36d153407b002a90810135",
+      "teacher_sha256": "19d88a0656edfbf23a757b0750e1ce83ffe584aac040e6c5b60afbff140e3488"
+    }
+  },
+  "source_lanes": [
+    "MISAR_K7",
+    "HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "train_device": "cuda",
+  "union_edge_count": 59201,
+  "wall_seconds": 8.41763666830957
+}

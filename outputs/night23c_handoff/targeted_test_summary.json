@@ -1,0 +1,7 @@
+{
+  "actual_command": "python -m pytest -q tests/test_night23b_signed_bridge.py tests/test_night23c_tristate_bridge.py",
+  "failed": 0,
+  "log_sha256": "c35f08bbf348bc55574d4654a5022a0b46e7b2d0a6ae4de56557391d97dc6902",
+  "passed": 9,
+  "schema": "night23c-targeted-test-summary-v1"
+}

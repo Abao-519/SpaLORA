@@ -1,0 +1,22 @@
+{
+  "evaluator_reference_reads": 1,
+  "lane": "MISAR_K7",
+  "ordered_reference_sha256": "2c5deeeaf82343defd2a96c911a6b6f84f8630432bfa4a4b4177613488c8ab9f",
+  "output_sha256": "aaf12e974245ba948b498cad5eed9c60c758958dc2f39cf77d57403b8e643171",
+  "partition_locked_and_replayed_before_reference_read": true,
+  "producer_labels_read": 0,
+  "reference_category_counts": {
+    "Cartilage": 412,
+    "Forebrain": 659,
+    "Hindbrain": 171,
+    "Mesenchyme": 182,
+    "Midbrain": 385,
+    "Muscle": 77,
+    "Skull": 63
+  },
+  "reference_file_sha256": "e8ffa55ef22882d9fca4e22a254e9a7edf583187dce49c5a76556f6ae65a9f2e",
+  "reference_kind": "npz",
+  "reference_provenance": "npz:labels_primary:label_mask",
+  "rows": 9,
+  "schema": "night23a-stage-b-independent-evaluation-v1"
+}

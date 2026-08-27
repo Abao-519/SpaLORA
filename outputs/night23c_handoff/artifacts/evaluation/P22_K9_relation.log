@@ -1,0 +1,45 @@
+{
+  "schema": "night23c-heldout-relation-diagnostic-v1",
+  "lane": "P22_K9",
+  "partition_and_replay_locked_before_teacher_read": true,
+  "benchmark_reference_labels_read": 0,
+  "teacher_file_sha256": "612bf9991b0fcbbb7550fd470670fb5de1cbd43e289add87c1d6c2c96acfafad",
+  "relation_sha256": "7f9cce01f9a6b8ec6f968bd67198cf439415c3e568a89338f2e449d72511afc4",
+  "metrics": [
+    {
+      "model": "logistic_probability",
+      "auroc": 0.8624629294797773,
+      "auprc": 0.957075946845892,
+      "brier": 0.1846203714132318
+    },
+    {
+      "model": "mlp_probability",
+      "auroc": 0.8438486918735263,
+      "auprc": 0.9503581657505124,
+      "brier": 0.19292772093578633
+    },
+    {
+      "model": "calibrated_probability",
+      "auroc": 0.8438486918735263,
+      "auprc": 0.9503581657505124,
+      "brier": 0.22662232781069458
+    },
+    {
+      "model": "shuffled_calibrated_probability",
+      "auroc": 0.5693056313210061,
+      "auprc": 0.8438968305954314,
+      "brier": 0.3118248216297461
+    }
+  ],
+  "tri_state": {
+    "within_count": 1184,
+    "boundary_count": 56831,
+    "unknown_count": 1186,
+    "within_fraction": 0.019999662167868786,
+    "boundary_fraction": 0.959966892451141,
+    "unknown_fraction": 0.020033445380990184,
+    "within_purity": 0.9864864864864865,
+    "boundary_purity": 0.19932783164118176,
+    "covered_accuracy": 0.2153925708868396
+  }
+}

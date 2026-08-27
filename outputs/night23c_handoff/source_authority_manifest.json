@@ -1,0 +1,27 @@
+{
+  "evaluator_freeze_commit": "7693b94beaa8304eae138db8440a18244e8226d2",
+  "formal_banks": {
+    "HUMAN_HIPPOCAMPUS_K7": "201807416a0a32e4e05ba0f3743296c01391336fcdcbc6994d572ca97d1ef196",
+    "MISAR_K7": "f0121dcbd69bf86d592e583b6c43bb4f1d4bfb1116b73dcf8fe7ebc2d5bc83f6",
+    "P22_K9": "ceab84970c09c0293462473ccb83a8cb03e7215e7ce69ea5c13695b8ad1b5b47"
+  },
+  "formula_freeze_commit": "a976c722669bc6e621fb436664c5a9f34eaa3565",
+  "parent_commit": "8cd67b652df145d6f618dcb33ad01bcff18b6183",
+  "parent_compact_index_sha256": "551a7163646a4ec356f81e1da80ac57a552d89f9ad64e32d53c43c0aa7804645",
+  "parent_tag": "night23b-final-20260827",
+  "schema": "night23c-source-authority-v1",
+  "source_files": {
+    "SpaLORA/night23b_signed_bridge.py": "bf9782e45f50531e1062022a1b6975a65889463dbc14f652bc2ea02d30a75337",
+    "SpaLORA/night23c_tristate_bridge.py": "377deac46a726475a052bbd822669e2971fd052abd8338c4ec9ade23baabef6e",
+    "configs/night23c/stage_b_contract.json": "bc2e0580ca1be0ab450673988bf90d066cba1bb55d37d819de8b1b4795dae387",
+    "scripts/night23a/evaluate_stage_b_partitions.py": "f84c58eb400bdecc0791a002bce69938816805b619d741c02a3051685cf8fd2a",
+    "scripts/night23c/build_handoff.py": "749bb4b010b6c3441c5f6fe49357073ac05c3f4eea1c040304a4edfc188c8eb1",
+    "scripts/night23c/evaluate_relation_after_lock.py": "d4f587b608e48b123ccb423f592fd2a11eb74c129adea3c5f5873f60a13a9c11",
+    "scripts/night23c/produce_loso_tristate_bridge.py": "13c0f2ffb7a5dde1aa1fa4c02a999f779ddfdd847a5152a9254c19b21695bd36",
+    "scripts/night23c/replay_loso_tristate_bridge.py": "8536eae794ccb83cb532f8b230f1fb075f2afe492adb824abff8b67c2afceeaf",
+    "scripts/night23c/summarize_stage_b_gate.py": "9cec074f39a9ab15183d18b0601fe2532de8cd18bd529a9d8920b87d22877422",
+    "tests/test_night23b_signed_bridge.py": "a8b41c1d9c56fe230f1028415bc95b3797564f39f8e5d642e61832aac9c15997",
+    "tests/test_night23c_tristate_bridge.py": "4ea0f8783d45c1ffe7834dc851bdd072a3a0be93499fc69a03d5327a0c5401cd"
+  },
+  "taskbook_sha256": "79276b7e0c69e2f08efbea2f38770f00e64f8819f0efe8296845d1792cbf0450"
+}

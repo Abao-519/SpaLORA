@@ -1,0 +1,43 @@
+{
+  "passed": 3,
+  "records": [
+    {
+      "bank_sha256": "ceab84970c09c0293462473ccb83a8cb03e7215e7ce69ea5c13695b8ad1b5b47",
+      "candidate_count": 9,
+      "checkpoint_prediction_exact": true,
+      "labels_read": 0,
+      "lane": "P22_K9",
+      "partition_bank_exact": true,
+      "partitions_sha256": "af212a55955314722a2edf77b28deeccab9fe19157309a2be254211e231fa4b0",
+      "schema": "night23c-fresh-process-replay-v1",
+      "status": "PASS",
+      "teacher_files_read": 0
+    },
+    {
+      "bank_sha256": "f0121dcbd69bf86d592e583b6c43bb4f1d4bfb1116b73dcf8fe7ebc2d5bc83f6",
+      "candidate_count": 9,
+      "checkpoint_prediction_exact": true,
+      "labels_read": 0,
+      "lane": "MISAR_K7",
+      "partition_bank_exact": true,
+      "partitions_sha256": "7fcb2453ef5db904c2a58780e16149b5ddfcfe4408c2a71bf9d236de8ddb1d9a",
+      "schema": "night23c-fresh-process-replay-v1",
+      "status": "PASS",
+      "teacher_files_read": 0
+    },
+    {
+      "bank_sha256": "201807416a0a32e4e05ba0f3743296c01391336fcdcbc6994d572ca97d1ef196",
+      "candidate_count": 9,
+      "checkpoint_prediction_exact": true,
+      "labels_read": 0,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "partition_bank_exact": true,
+      "partitions_sha256": "9ea8baf2dcce0063e3d9e647f0516791c9af160e674f47341f90bb5394afb686",
+      "schema": "night23c-fresh-process-replay-v1",
+      "status": "PASS",
+      "teacher_files_read": 0
+    }
+  ],
+  "schema": "night23c-replay-summary-v1",
+  "total": 3
+}

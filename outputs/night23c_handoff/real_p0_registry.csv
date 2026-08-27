@@ -1,0 +1,4 @@
+lane,feature_shape,carrier_shape,union_edges,source_lanes,checkpoint_reload,fresh_process_replay,exact_k_all_arms,mlp_parameter_l1_change,train_device,wall_seconds,peak_rss_mb
+P22_K9,"[59201, 30]","[9196, 64]",59201,MISAR_K7|HUMAN_HIPPOCAMPUS_K7,PASS,PASS,True,146.1072540283203,cuda,8.41763666830957,772.375
+MISAR_K7,"[17024, 30]","[1949, 64]",17024,P22_K9|HUMAN_HIPPOCAMPUS_K7,PASS,PASS,True,121.31886291503906,cuda,9.054072367027402,768.3515625
+HUMAN_HIPPOCAMPUS_K7,"[8080, 30]","[2500, 64]",8080,P22_K9|MISAR_K7,PASS,PASS,True,99.74430084228516,cuda,9.48392740637064,761.62109375

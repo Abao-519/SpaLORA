@@ -1,0 +1,40 @@
+{
+  "lane": "MISAR_K7",
+  "sources": [
+    "P22_K9",
+    "HUMAN_HIPPOCAMPUS_K7"
+  ],
+  "candidate_count": 9,
+  "thresholds": {
+    "lower": 0.9199907928200972,
+    "upper": 0.9399959460144255,
+    "worst_selective_utility": 0.03158824583149494,
+    "mean_selective_utility": 0.05288643315632313,
+    "worst_purity": 0.19343556631692224,
+    "worst_coverage": 0.9799834462255705,
+    "mean_coverage": 0.9800288518256566,
+    "per_study": [
+      {
+        "lane": "P22_K9",
+        "boundary_purity": 0.20620960634547592,
+        "within_purity": 0.9746621621621622,
+        "boundary_fraction": 0.9199844597219642,
+        "within_fraction": 0.059998986503606355,
+        "coverage": 0.9799834462255705,
+        "selective_utility": 0.07418462048115132
+      },
+      {
+        "lane": "HUMAN_HIPPOCAMPUS_K7",
+        "boundary_purity": 0.19343556631692224,
+        "within_purity": 0.8948453608247423,
+        "boundary_fraction": 0.9200495049504951,
+        "within_fraction": 0.06002475247524752,
+        "coverage": 0.9800742574257426,
+        "selective_utility": 0.03158824583149494
+      }
+    ],
+    "candidate_count": 1176
+  },
+  "bank_sha256": "f0121dcbd69bf86d592e583b6c43bb4f1d4bfb1116b73dcf8fe7ebc2d5bc83f6",
+  "wall_seconds": 9.054072367027402
+}

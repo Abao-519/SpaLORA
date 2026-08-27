@@ -1,0 +1,23 @@
+{
+  "benchmark_reference_use": "independent evaluation after locks",
+  "heldout_teacher_or_reference_in_predictor_calibration_threshold_consumer": false,
+  "heldout_teacher_use": "relation diagnostic after all primary banks and fresh replays locked",
+  "outer_sources": {
+    "HUMAN_HIPPOCAMPUS_K7": [
+      "P22_K9",
+      "MISAR_K7"
+    ],
+    "MISAR_K7": [
+      "P22_K9",
+      "HUMAN_HIPPOCAMPUS_K7"
+    ],
+    "P22_K9": [
+      "MISAR_K7",
+      "HUMAN_HIPPOCAMPUS_K7"
+    ]
+  },
+  "producer_benchmark_labels_read": 0,
+  "producer_heldout_teacher_files_read": 0,
+  "schema": "night23c-label-flow-v1",
+  "source_teacher_use": "loss, inner cross-fit calibration and thresholds on outer source studies only"
+}

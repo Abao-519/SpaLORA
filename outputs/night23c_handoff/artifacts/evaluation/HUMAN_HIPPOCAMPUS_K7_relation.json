@@ -1,0 +1,45 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "metrics": [
+    {
+      "auprc": 0.8096081226880618,
+      "auroc": 0.4421231313511419,
+      "brier": 0.24348897305707587,
+      "model": "logistic_probability"
+    },
+    {
+      "auprc": 0.7956475249080182,
+      "auroc": 0.4360737044041263,
+      "brier": 0.2194397510965901,
+      "model": "mlp_probability"
+    },
+    {
+      "auprc": 0.7956475249080182,
+      "auroc": 0.4360737044041263,
+      "brier": 0.35288000639876727,
+      "model": "calibrated_probability"
+    },
+    {
+      "auprc": 0.8374537677016513,
+      "auroc": 0.5391653331698272,
+      "brier": 0.3213577904319648,
+      "model": "shuffled_calibrated_probability"
+    }
+  ],
+  "partition_and_replay_locked_before_teacher_read": true,
+  "relation_sha256": "a93b2c5287d745de6c6256315fc8e872c8f629bc7640effa7fa09f983d0147d2",
+  "schema": "night23c-heldout-relation-diagnostic-v1",
+  "teacher_file_sha256": "10dda08d3f3a63c55390ad941f1bcde26952bbe8e971ee375da584fb026e8252",
+  "tri_state": {
+    "boundary_count": 2101,
+    "boundary_fraction": 0.26002475247524753,
+    "boundary_purity": 0.1270823417420276,
+    "covered_accuracy": 0.6130824599065539,
+    "unknown_count": 161,
+    "unknown_fraction": 0.019925742574257426,
+    "within_count": 5818,
+    "within_fraction": 0.720049504950495,
+    "within_purity": 0.7885871433482297
+  }
+}
