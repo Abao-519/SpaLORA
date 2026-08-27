@@ -1,0 +1,35 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "carrier_sha256": "48a3d599e3204373470cd561e78c22ff8dd23a48c39574b16f01663c2b06c6b0",
+  "connectivity": {
+    "cross_teacher_cluster_positive_component": false,
+    "isolated_node_count": 0,
+    "positive_component_count": 2,
+    "teacher_cluster_split_counts": {
+      "0": 1,
+      "1": 1
+    }
+  },
+  "contract_sha256": "1c9aebafdcb09a8d2a109a20bc8cc84fb0192073d01c0969e5349ce4c377dc40",
+  "feature_sha256": "13405c8c5b5c1b9804516388c5b9f619681dc49bd884b5810a34c9a3ba3a8a8e",
+  "k": 2,
+  "lane": "MELANOMA_TUMOR_K2",
+  "n": 833,
+  "oracle_is_diagnostic_only": true,
+  "output_bank_sha256": "98edd8f6ffaf8336104d081e379c8e7af70c73193f9e497a4d2ecd9e19c640ce",
+  "partition_matrix_sha256": "c82b42d83b663dfe9f37ee88593e3042e7316fd50fb334cb20e3f22449ce9390",
+  "peak_rss_mb": 408.96484375,
+  "registered_spatial_boundary_count": 5,
+  "registered_spatial_coverage_by_union": 1.0,
+  "registered_spatial_edge_count": 2111,
+  "registered_spatial_same_count": 2106,
+  "schema": "night23b-oracle-consumer-audit-v1",
+  "teacher_boundary_edge_count": 119,
+  "teacher_candidate_id": "KMEANS_RETAINED_S3__DIRECT_BASE",
+  "teacher_partition_file_sha256": "7f3f329bbd108c57045f7c6e94053612bb4e73f8d68059e1c88f19009c99f077",
+  "teacher_partition_sha256": "37183e514dcf6970a3e110fc9d295ea5a08e3f44e4d48a77bd4839f382ca7de4",
+  "teacher_relation_sha256": "b472670439d19cc990a95ce8a338083cff9387e2969b43e96f55b96c2587c243",
+  "teacher_same_edge_count": 3074,
+  "union_edge_count": 3193,
+  "wall_seconds": 0.21555240079760551
+}

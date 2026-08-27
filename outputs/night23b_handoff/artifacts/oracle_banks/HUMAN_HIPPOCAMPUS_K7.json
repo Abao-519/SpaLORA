@@ -1,0 +1,40 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "carrier_sha256": "7f800a383d5c322ec2e8de8333ae0fcf2ef98daa8a4562d2859de4b51494bf0a",
+  "connectivity": {
+    "cross_teacher_cluster_positive_component": false,
+    "isolated_node_count": 3,
+    "positive_component_count": 12,
+    "teacher_cluster_split_counts": {
+      "0": 4,
+      "1": 1,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    }
+  },
+  "contract_sha256": "1c9aebafdcb09a8d2a109a20bc8cc84fb0192073d01c0969e5349ce4c377dc40",
+  "feature_sha256": "9ecd9a588ce0760cfa019ec57966aedae2b1422a5b85807096d0756e1c7ac423",
+  "k": 7,
+  "lane": "HUMAN_HIPPOCAMPUS_K7",
+  "n": 2500,
+  "oracle_is_diagnostic_only": true,
+  "output_bank_sha256": "d4a1fb29b570fc34a611b1f35d9f0b56deeb6399e3078eb41f839e3287402ef7",
+  "partition_matrix_sha256": "0f2edf3ebc13d7b365b4c751669c729cbff8e1b0d65f02eb935c6ce2fb6fa245",
+  "peak_rss_mb": 417.11328125,
+  "registered_spatial_boundary_count": 413,
+  "registered_spatial_coverage_by_union": 1.0,
+  "registered_spatial_edge_count": 5100,
+  "registered_spatial_same_count": 4687,
+  "schema": "night23b-oracle-consumer-audit-v1",
+  "teacher_boundary_edge_count": 1522,
+  "teacher_candidate_id": "KMEANS_RETAINED_S4__UNIFORM_MASS_MATCHED",
+  "teacher_partition_file_sha256": "da7ce813afcdd3c5af94fcbfcb16097cc9d67a6c013a439a11c693f572f18b2b",
+  "teacher_partition_sha256": "58aa4e6ff2e7957a1cc17b255bf746d8e4ec839aebd7b71462a151179ea66b7f",
+  "teacher_relation_sha256": "10dda08d3f3a63c55390ad941f1bcde26952bbe8e971ee375da584fb026e8252",
+  "teacher_same_edge_count": 6558,
+  "union_edge_count": 8080,
+  "wall_seconds": 0.5466226935386658
+}

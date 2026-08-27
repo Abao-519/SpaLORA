@@ -1,0 +1,5 @@
+lane,N,K,positive_components,isolated_nodes,cluster_split_counts_json,cross_teacher_cluster_positive_component,same_edges,boundary_edges,registered_spatial_edges,registered_spatial_same,registered_spatial_boundary
+P22_K9,9196,9,9,0,"{""0"": 1, ""1"": 1, ""2"": 1, ""3"": 1, ""4"": 1, ""5"": 1, ""6"": 1, ""7"": 1, ""8"": 1}",False,47831,11370,18584,17899,685
+MISAR_K7,1949,7,7,0,"{""0"": 1, ""1"": 1, ""2"": 1, ""3"": 1, ""4"": 1, ""5"": 1, ""6"": 1}",False,12862,4162,4035,3830,205
+HUMAN_HIPPOCAMPUS_K7,2500,7,12,3,"{""0"": 4, ""1"": 1, ""2"": 3, ""3"": 1, ""4"": 1, ""5"": 1, ""6"": 1}",False,6558,1522,5100,4687,413
+MELANOMA_TUMOR_K2,833,2,2,0,"{""0"": 1, ""1"": 1}",False,3074,119,2111,2106,5

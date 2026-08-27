@@ -1,0 +1,12 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "main_classification": "SCIENTIFIC_NEGATIVE",
+  "narrow_classification": "RELATION_CONSUMER_NOT_IDENTIFIABLE",
+  "night23_edge_distillation_mainline": "CLOSED",
+  "placenta_confirmation_authorized": false,
+  "reason": "Two of three primary studies failed the frozen oracle recovery-and-gain gate; a learned/calibrated bridge cannot repair a non-identifiable fixed consumer.",
+  "schema": "night23b-decision-v1",
+  "stage_a_primary_passes": 1,
+  "stage_a_primary_total": 3,
+  "stage_b_authorized": false
+}

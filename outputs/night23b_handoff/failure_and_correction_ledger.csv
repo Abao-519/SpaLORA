@@ -1,0 +1,5 @@
+cycle,issue,action,scientific_results_used,status
+PREFORMAL_AUTHORITY_FIX,Night-23A relation NPZ contains relation only,added explicit Night-16H teacher partition input and file/array/candidate SHA checks,False,CORRECTED_BEFORE_FREEZE
+PREFORMAL_REAL_SMOKE,single P22 real route used to verify authority and replay before formula freeze,preserved under /root/night23b_working/p0_smoke and fully regenerated in formal output after freeze,False,SUPERSEDED_BY_FORMAL
+FORMAL_SUMMARY_CLI,first summary call used ambiguous output option names,reran summary only with explicit --output-table/--output-decision; producer banks unchanged,True,ENGINEERING_INVOCATION_CORRECTED
+STAGE_A_GATE,oracle consumer gate passed only 1/3 primary studies,stopped Stage B and placenta exactly as preregistered,True,SCIENTIFIC_NEGATIVE

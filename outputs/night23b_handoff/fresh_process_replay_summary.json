@@ -1,0 +1,39 @@
+{
+  "passed": 4,
+  "records": [
+    {
+      "authority_bank_sha256": "d3b65990cd9ccd4143651af51300f73bdf7b5465785cc078c7ffd82479cf08fd",
+      "fresh_process": true,
+      "ids_candidate_ids_partitions_exact": true,
+      "lane": "P22_K9",
+      "replay_bank_sha256": "d3b65990cd9ccd4143651af51300f73bdf7b5465785cc078c7ffd82479cf08fd",
+      "schema": "night23b-oracle-fresh-process-replay-v1"
+    },
+    {
+      "authority_bank_sha256": "2efeeeb58fa4f751115ae6629fe54862e8c71e0b1f09ee3aac6356b79e91dbcc",
+      "fresh_process": true,
+      "ids_candidate_ids_partitions_exact": true,
+      "lane": "MISAR_K7",
+      "replay_bank_sha256": "2efeeeb58fa4f751115ae6629fe54862e8c71e0b1f09ee3aac6356b79e91dbcc",
+      "schema": "night23b-oracle-fresh-process-replay-v1"
+    },
+    {
+      "authority_bank_sha256": "d4a1fb29b570fc34a611b1f35d9f0b56deeb6399e3078eb41f839e3287402ef7",
+      "fresh_process": true,
+      "ids_candidate_ids_partitions_exact": true,
+      "lane": "HUMAN_HIPPOCAMPUS_K7",
+      "replay_bank_sha256": "d4a1fb29b570fc34a611b1f35d9f0b56deeb6399e3078eb41f839e3287402ef7",
+      "schema": "night23b-oracle-fresh-process-replay-v1"
+    },
+    {
+      "authority_bank_sha256": "98edd8f6ffaf8336104d081e379c8e7af70c73193f9e497a4d2ecd9e19c640ce",
+      "fresh_process": true,
+      "ids_candidate_ids_partitions_exact": true,
+      "lane": "MELANOMA_TUMOR_K2",
+      "replay_bank_sha256": "98edd8f6ffaf8336104d081e379c8e7af70c73193f9e497a4d2ecd9e19c640ce",
+      "schema": "night23b-oracle-fresh-process-replay-v1"
+    }
+  ],
+  "schema": "night23b-replay-summary-v1",
+  "total": 4
+}

@@ -1,0 +1,16 @@
+{
+  "benchmark_metrics_computed": false,
+  "benchmark_reference_labels_read": 0,
+  "placenta_opened": false,
+  "producer_inputs": [
+    "locked retained carrier",
+    "Night-23A union edge features",
+    "Night-16H teacher partition",
+    "Night-23A teacher relation"
+  ],
+  "schema": "night23b-label-flow-v1",
+  "selection_inputs": "teacher recovery ARI/NMI under a pre-frozen diagnostic gate; not benchmark labels",
+  "stage_b_predictor_trained": false,
+  "stage_executed": "STAGE_A_ORACLE_DIAGNOSTIC_ONLY",
+  "teacher_use": "oracle consumer identifiability diagnostic only"
+}

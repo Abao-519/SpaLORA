@@ -1,0 +1,35 @@
+{
+  "formal_banks": {
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "audit_sha256": "87ca67d996ffca76912a1ee2ad15ac0d988ab04342b14cd47a30416acf60e25a",
+      "bank_sha256": "d4a1fb29b570fc34a611b1f35d9f0b56deeb6399e3078eb41f839e3287402ef7"
+    },
+    "MELANOMA_TUMOR_K2": {
+      "audit_sha256": "b3a8cc94208ed3d4dc1c8c1b8a5cf360780283ff21bb4510e1bbf5caeae0d0b6",
+      "bank_sha256": "98edd8f6ffaf8336104d081e379c8e7af70c73193f9e497a4d2ecd9e19c640ce"
+    },
+    "MISAR_K7": {
+      "audit_sha256": "e2e81fa427c56be1aa30626b846e678fdcb25f470c8273177b4bdf49b234dac5",
+      "bank_sha256": "2efeeeb58fa4f751115ae6629fe54862e8c71e0b1f09ee3aac6356b79e91dbcc"
+    },
+    "P22_K9": {
+      "audit_sha256": "2f80ae02482e882e619af5cdfdfe9199231aa889b375a1582e6ab5bd1b13a863",
+      "bank_sha256": "d3b65990cd9ccd4143651af51300f73bdf7b5465785cc078c7ffd82479cf08fd"
+    }
+  },
+  "parent_commit": "7ca7fa2907354e0e1c6856fcf11984ecb89caf67",
+  "parent_compact_index_sha256": "8ef3b131047aa5a4c6b5b502478ede7e6dc09024fca5801870e15034302169eb",
+  "parent_tag": "night23a-final-20260827",
+  "schema": "night23b-source-authority-v1",
+  "source_files": {
+    "SpaLORA/night23b_signed_bridge.py": "bf9782e45f50531e1062022a1b6975a65889463dbc14f652bc2ea02d30a75337",
+    "configs/night23b/stage_a_oracle_contract.json": "1c9aebafdcb09a8d2a109a20bc8cc84fb0192073d01c0969e5349ce4c377dc40",
+    "scripts/night23b/build_handoff.py": "9b20faf06f677220f635c9673be30d25dc20ff2138e377cdfecb8ad9d16c3ad3",
+    "scripts/night23b/replay_oracle_consumer_audit.py": "8d3b2cc768fa622a369cb55b0f30ee3072e2cd7f53ffb0447bd0f37b265f928b",
+    "scripts/night23b/run_oracle_consumer_audit.py": "42973eb762d0618c589c1f06507722140aa9b4233d6f7f1f32b0ebcfd8e8cf70",
+    "scripts/night23b/summarize_oracle_gate.py": "54f58ecbe1e416fdc9bd7d29c6e9a2bd3dd65b34250b4735de48c4c50262116a",
+    "tests/test_night23b_signed_bridge.py": "a8b41c1d9c56fe230f1028415bc95b3797564f39f8e5d642e61832aac9c15997"
+  },
+  "stage_a_freeze_commit": "005e3427ea28e0102668ef4feaeac6d98b271d59",
+  "taskbook_sha256": "00be7e3d5f3469bcc7f255c6f5f64d65fd1024fe6ddcae7838eceb12c65e1d1e"
+}

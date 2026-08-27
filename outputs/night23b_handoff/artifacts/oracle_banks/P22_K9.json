@@ -1,0 +1,42 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "carrier_sha256": "cb806fe6cc9f89910e88c2884f92bfb399c3104943d327964e78b94718303766",
+  "connectivity": {
+    "cross_teacher_cluster_positive_component": false,
+    "isolated_node_count": 0,
+    "positive_component_count": 9,
+    "teacher_cluster_split_counts": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    }
+  },
+  "contract_sha256": "1c9aebafdcb09a8d2a109a20bc8cc84fb0192073d01c0969e5349ce4c377dc40",
+  "feature_sha256": "76b4c4c342c01c01a836b41add200963733a4826f95b0d0773504fa25706349e",
+  "k": 9,
+  "lane": "P22_K9",
+  "n": 9196,
+  "oracle_is_diagnostic_only": true,
+  "output_bank_sha256": "d3b65990cd9ccd4143651af51300f73bdf7b5465785cc078c7ffd82479cf08fd",
+  "partition_matrix_sha256": "c723e05fdcaae5cfa2e67d81e4fa66cd5742a8c59934ea820d03301a5c1dfbe3",
+  "peak_rss_mb": 446.9375,
+  "registered_spatial_boundary_count": 685,
+  "registered_spatial_coverage_by_union": 1.0,
+  "registered_spatial_edge_count": 18584,
+  "registered_spatial_same_count": 17899,
+  "schema": "night23b-oracle-consumer-audit-v1",
+  "teacher_boundary_edge_count": 11370,
+  "teacher_candidate_id": "PATH_UNIFORM__AUTHORITY_STRONG_START__L03",
+  "teacher_partition_file_sha256": "cb81ce04cba056530ac457e3d6f7b271da0e6d01f4eda33b155333300d5abcd1",
+  "teacher_partition_sha256": "57d73f5d8d27e7ac5e60663a1d3606c4628425a184bdb2cf61a2ee07cf7eecf2",
+  "teacher_relation_sha256": "612bf9991b0fcbbb7550fd470670fb5de1cbd43e289add87c1d6c2c96acfafad",
+  "teacher_same_edge_count": 47831,
+  "union_edge_count": 59201,
+  "wall_seconds": 2.188406351953745
+}

@@ -1,0 +1,65 @@
+{
+  "benchmark_reference_labels_read": 0,
+  "classification_if_stopped": "RELATION_CONSUMER_NOT_IDENTIFIABLE",
+  "oracle_is_diagnostic_only": true,
+  "primary_identifiable_count": 1,
+  "primary_total": 3,
+  "ranking": [
+    {
+      "mean": 0.8744619558337212,
+      "mode": "ORACLE_SIGNED_RELATION",
+      "relation_scale": 1.0,
+      "worst": 0.7547789827842795
+    },
+    {
+      "mean": 0.8743763540744757,
+      "mode": "ORACLE_SIGNED_RELATION",
+      "relation_scale": 2.0,
+      "worst": 0.7441480211926709
+    },
+    {
+      "mean": 0.8326719306583968,
+      "mode": "ORACLE_SIGNED_RELATION",
+      "relation_scale": 4.0,
+      "worst": 0.6811764137818759
+    },
+    {
+      "mean": 0.8382253037295566,
+      "mode": "ORACLE_SIGNED_RELATION",
+      "relation_scale": 8.0,
+      "worst": 0.6791273231715278
+    },
+    {
+      "mean": 0.6808285952696475,
+      "mode": "ORACLE_BINARY_POSITIVE",
+      "relation_scale": 1.0,
+      "worst": 0.5331270025270608
+    },
+    {
+      "mean": 0.5407955878213876,
+      "mode": "ORACLE_BINARY_POSITIVE",
+      "relation_scale": 2.0,
+      "worst": 0.3988422591662988
+    },
+    {
+      "mean": 0.5389137869524608,
+      "mode": "ORACLE_BINARY_POSITIVE",
+      "relation_scale": 4.0,
+      "worst": 0.39511090186186076
+    },
+    {
+      "mean": 0.5382632777893411,
+      "mode": "ORACLE_BINARY_POSITIVE",
+      "relation_scale": 8.0,
+      "worst": 0.39326819818999154
+    }
+  ],
+  "schema": "night23b-oracle-consumer-gate-v1",
+  "selected_consumer": {
+    "mean": 0.8744619558337212,
+    "mode": "ORACLE_SIGNED_RELATION",
+    "relation_scale": 1.0,
+    "worst": 0.7547789827842795
+  },
+  "stage_b_authorized": false
+}
