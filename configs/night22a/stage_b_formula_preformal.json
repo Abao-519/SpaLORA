@@ -1,0 +1,37 @@
+{
+  "schema": "night22a-stage-b-preformal-formula-v1",
+  "status": "PREFORMAL_NOT_SCIENTIFIC_FREEZE",
+  "reason_not_active": "Stage-A geometry ceilings were still running; profile values and start classes are intentionally absent.",
+  "direct_variable": "Q = row-softmax(L), Q has shape N x K",
+  "locked_inputs": [
+    "one Night-21C-authorized numeric representation",
+    "RNA view",
+    "second molecular view",
+    "registered sparse spatial graph",
+    "one exact-K geometry start"
+  ],
+  "graph_bank": [
+    "self-tuned retained-feature kNN",
+    "self-tuned RNA-view kNN",
+    "self-tuned second-view kNN",
+    "registered spatial graph"
+  ],
+  "objective_terms": {
+    "elliptical_emission": "trainable diagonal cluster likelihood on the locked representation",
+    "normalized_association": "sparse q_k^T W_g q_k / d_g^T q_k",
+    "geometry_junction": "cluster-specific simplex weights over graph-bank association terms",
+    "volume_floor": "one-sided empty/tiny-cluster floor; no equal-size target",
+    "conditional_entropy": "hardening term",
+    "bounded_anchor": "decaying stabilization to the locked geometry start"
+  },
+  "atomic_arms": [
+    "INPUT_GEOMETRY_START",
+    "EMISSION_ONLY",
+    "SHARED_GRAPH_ONLY",
+    "CLUSTER_GRAPH_ONLY",
+    "ADDITIVE_SHARED",
+    "FULL"
+  ],
+  "claim_boundary": "DEC/prototype likelihood, SwAV/P2OT assignment balancing, DeepCut normalized-cut optimization, and ordinary global multi-graph fusion are prior art. Only a matched contribution of cluster-conditioned graph junction plus emission on a direct N x K variable can be considered a Night-22A signal.",
+  "labels_in_producer": 0
+}

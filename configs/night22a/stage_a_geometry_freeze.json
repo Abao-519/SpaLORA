@@ -1,0 +1,25 @@
+{
+  "schema": "night22a-stage-a-geometry-freeze-v1",
+  "frozen_before_stage_a_label_open": true,
+  "families": ["RNA_PROTEIN", "RNA_CHROMATIN"],
+  "candidate_classes": {
+    "spherical": ["GEOM_KMEANS_RAW"],
+    "elliptical": ["GEOM_GMM_FULL"],
+    "manifold": ["GEOM_FEATURE_NCUT_K12", "GEOM_FEATURE_NCUT_K24", "GEOM_JOINT_NCUT_S025", "GEOM_JOINT_NCUT_S100"],
+    "density_corrected": ["GEOM_DENSITY_CORRECTED_NCUT"],
+    "diffusion": ["GEOM_DIFFUSION_T2", "GEOM_DIFFUSION_T4"],
+    "spatial_only": ["GEOM_SPATIAL_NCUT"],
+    "community": ["GEOM_LEIDEN_FEATURE", "GEOM_LEIDEN_JOINT"]
+  },
+  "feature_graph": {
+    "metric": "cosine",
+    "local_scale": "per-node kth-neighbor distance",
+    "symmetrization": "union maximum",
+    "neighbors": [12, 24]
+  },
+  "graph_fusion": "separate total-mass normalization followed by nonnegative linear mixture",
+  "diffusion_times": [2, 4],
+  "leiden_resolution_grid": {"lower": 0.03, "upper": 8.0, "count": 32, "selection": "highest modularity among exact-K outcomes"},
+  "selection_role": "transparent label-assisted geometry ceiling only",
+  "labels_in_producer": 0
+}

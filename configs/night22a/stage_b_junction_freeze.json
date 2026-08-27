@@ -1,0 +1,76 @@
+{
+  "schema": "night22a-stage-b-junction-freeze-v1",
+  "frozen_before_junction_label_evaluation": true,
+  "freeze_basis": {
+    "stage_a_completed_banks": 13,
+    "stage_a_observation": "Retained-carrier feature geometry was the best geometry class on all four development lanes; A1 and P22 had double-positive endpoint gains, placenta had an ARI-only tradeoff, and tonsil s1 was negative.",
+    "source_of_start_candidates": "locked retained-carrier Stage-A geometry bank",
+    "start_classes": ["GEOM_FEATURE_NCUT_K24", "GEOM_LEIDEN_FEATURE"]
+  },
+  "scientific_object": "Direct N x K partition optimization with elliptical emissions and cluster-conditioned sparse multi-graph normalized association",
+  "families": ["RNA_PROTEIN", "RNA_CHROMATIN"],
+  "same_equation_and_parameter_semantics_across_families": true,
+  "graph_neighbors": 12,
+  "arms": [
+    "EMISSION_ONLY",
+    "SHARED_GRAPH_ONLY",
+    "CLUSTER_GRAPH_ONLY",
+    "ADDITIVE_SHARED",
+    "FULL"
+  ],
+  "profiles": [
+    {
+      "profile_id": "J01_GRAPH_LEAN",
+      "config": {
+        "steps": 240,
+        "learning_rate": 0.025,
+        "emission_weight": 0.20,
+        "graph_weight": 1.30,
+        "conditional_entropy_weight": 0.025,
+        "volume_floor_weight": 2.0,
+        "volume_floor_fraction": 0.20,
+        "anchor_weight": 0.12,
+        "graph_mixture_entropy_weight": 0.01,
+        "logit_bound": 8.0
+      }
+    },
+    {
+      "profile_id": "J02_BALANCED",
+      "config": {
+        "steps": 240,
+        "learning_rate": 0.025,
+        "emission_weight": 0.35,
+        "graph_weight": 1.00,
+        "conditional_entropy_weight": 0.025,
+        "volume_floor_weight": 2.0,
+        "volume_floor_fraction": 0.20,
+        "anchor_weight": 0.12,
+        "graph_mixture_entropy_weight": 0.01,
+        "logit_bound": 8.0
+      }
+    },
+    {
+      "profile_id": "J03_EMISSION_LEAN",
+      "config": {
+        "steps": 240,
+        "learning_rate": 0.025,
+        "emission_weight": 0.50,
+        "graph_weight": 0.75,
+        "conditional_entropy_weight": 0.025,
+        "volume_floor_weight": 2.0,
+        "volume_floor_fraction": 0.20,
+        "anchor_weight": 0.12,
+        "graph_mixture_entropy_weight": 0.01,
+        "logit_bound": 8.0
+      }
+    }
+  ],
+  "source_sha256": {
+    "core": "3f6854bc6bc151532e3ba72049f30d702a4375cd53c986f1c10d79a014e15900",
+    "producer": "3e3709437201869231f5e1aec4a08a5143d98eefd622a8e9c8f70c8a42b76ac1",
+    "replay": "a010bf9c318ef7339c6f3e2a95d233938df23304ea4c250ba900cd88c8e1fb90"
+  },
+  "development_hpo": "transparent post-lock public-label comparison; max ARI then NMI; family-balanced table separate",
+  "labels_in_producer_or_loss": 0,
+  "claim_gate": "FULL must create a new exact-K partition and beat INPUT, the strongest pure head, and all atomic arms on matched start/source/seed for an independent junction contribution"
+}
