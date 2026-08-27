@@ -1,0 +1,60 @@
+{
+  "schema": "night23a-xbed-stage-a-contract-v1",
+  "taskbook_sha256": "2f052d68013c9a0843f25f67b6a557794d515b17000a8e079dab5b55f239f039",
+  "parent_commit": "1d0a7116b4404d66600e412bc2cfa8eddabf1c1c",
+  "parent_tag": "night22b-final-20260827",
+  "junction_mainline_permanently_closed": true,
+  "formula_frozen_before_heldout_teacher_diagnostics": true,
+  "edge_feature_contract": {
+    "knn_k": 12,
+    "union": ["REGISTERED_SPATIAL", "RETAINED_MUTUAL_KNN", "VIEW1_MUTUAL_KNN", "VIEW2_MUTUAL_KNN"],
+    "normalization": "WITHIN_STUDY_ROBUST_COLUMNS_AND_PERCENTILE_RELATIONS",
+    "absolute_ids_or_dataset_names_in_model": false,
+    "dense_observation_by_observation_materialization": false
+  },
+  "model": {
+    "primary_for_gate": "REGULARIZED_LOGISTIC",
+    "mlp_role": "NONLINEAR_DIAGNOSTIC_NOT_ALLOWED_TO_RESCUE_PRIMARY_GATE",
+    "sample_per_class_per_study": 20000,
+    "logistic_c": 1.0,
+    "mlp_hidden": 32,
+    "mlp_steps": 240,
+    "mlp_batch_per_study": 2048,
+    "mlp_learning_rate": 0.003,
+    "weight_decay": 0.0001
+  },
+  "stage_a_gate": {
+    "main_lanes": ["P22_K9", "MISAR_K7", "HUMAN_HIPPOCAMPUS_K7"],
+    "minimum_main_lanes_auroc_strictly_above": 0.65,
+    "minimum_main_lane_count": 2,
+    "minimum_pooled_main_auroc_strictly_above": 0.70,
+    "minimum_main_lanes_outperform_each_control": 2,
+    "must_outperform_controls": ["SPATIAL_AFFINITY", "ARISE_LIKE_INTERSECTION", "SHUFFLED_TEACHER_LOGISTIC"]
+  },
+  "lanes": {
+    "P22_K9": {
+      "role": "PRIMARY",
+      "k": 9,
+      "carrier": "/root/night16f_working/carriers/P22_K9.npz",
+      "teacher": "/root/night16h_working/formal/loso_run1/P22_K9.npz"
+    },
+    "MISAR_K7": {
+      "role": "PRIMARY",
+      "k": 7,
+      "carrier": "/root/night16f_working/carriers/MISAR_K7.npz",
+      "teacher": "/root/night16h_working/formal/loso_run1/MISAR_K7.npz"
+    },
+    "HUMAN_HIPPOCAMPUS_K7": {
+      "role": "PRIMARY",
+      "k": 7,
+      "carrier": "/root/night16f_working/carriers/HUMAN_HIPPOCAMPUS_K7.npz",
+      "teacher": "/root/night16h_working/formal/loso_run1/HUMAN_HIPPOCAMPUS_K7.npz"
+    },
+    "MELANOMA_TUMOR_K2": {
+      "role": "SECONDARY",
+      "k": 2,
+      "carrier": "/root/night16f_working/carriers/MELANOMA_TUMOR_K2.npz",
+      "teacher": "/root/night16h_working/formal/loso_run1/MELANOMA_TUMOR_K2.npz"
+    }
+  }
+}
